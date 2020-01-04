@@ -7,7 +7,7 @@ Code for game is at https://github.com/mattfel1/geoscents.
 
 This repository contains statistics for each city in the game, organized by map.  The JSON object is as follows:
 
-* `Entry: String` - City/Country name
+* `Entry: String` - City/Country name as shown in game
   * `dists: Seq[Float]` - List of players' geographic error, in km
   * `times: Seq[Float]` - List of players' click timestamp, in s (i.e. how much time was left on the 10s timer when player clicked)
   * `regions: Seq[String]` - List of players' regions based on an IP lookup
@@ -16,5 +16,8 @@ This repository contains statistics for each city in the game, organized by map.
   * `std_dist: Float` - Standard deviation of dists
   * `mean_time: Float` - Mean of times
   * `std_time: Float` - Standard deviation of times
+  * `country: String` - Country 
+  * `admin: String` - Administrative name of target city (i.e. State or province)
+  * `city: String` - City name
   
 The dists, times, regions, and countries lists are in-order (i.e. the n'th element in each correspond to a single guess by a player)
