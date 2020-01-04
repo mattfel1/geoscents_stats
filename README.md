@@ -1,6 +1,6 @@
 # Statistics for GeoScents Game
 
-GeoScents is an online multiplayer geography game.  You are given a city and you must try to click the city on the map as quickly and accurately as possible.  Scores are tracked and data is dumped here every each day.  Please use the data as you see fit!
+GeoScents is an online multiplayer geography game.  You are given a city and you must try to click the city on the map as quickly and accurately as possible.  Scores are tracked along with the player's region and country.  The data is dumped here every each day for you to peruse and play with.  Feel free to open issues if you would like to see other statistics added to the dataset, and share any interesting results you find!
 
 Game is hosted at http://geoscents.net.
 Code for game is at https://github.com/mattfel1/geoscents.
