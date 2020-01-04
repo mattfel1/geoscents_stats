@@ -15,3 +15,4 @@ This repository contains statistics for each city in the game, organized by map.
   * mean_time: Mean of times
   * std_time: Standard deviation of times
   
+The dists, times, regions, and countries lists are in-order (i.e. the n'th element in each correspond to a single guess by a player)
