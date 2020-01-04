@@ -31,7 +31,10 @@ for path in pathlist:
                     data[entry]['regions'].append(details.region)
                     data[entry]['countries'].append(details.country_name)
             data[entry].pop('ips', None)
+            # Hacky way to put the statistics summaries at the beginning of json entry
+            data[entry]['dists'] = data[entry].pop('dists',None)
+            data[entry]['times'] = data[entry].pop('times',None)
         outfile = file.replace('.','').replace(' ','').replace('_guesses','') + '.json'
         with open(outfile, 'w') as data_file:
-            json.dump(data, data_file)
+            json.dump(data, data_file, indent=2)
         os.remove(file)
