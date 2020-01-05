@@ -139,10 +139,10 @@
     ]
   },
   "Sheffield, UK": {
-    "mean_dist": 82.4727466386421,
-    "mean_time": 6.104166666666679,
-    "std_dist": 37.424720625169634,
-    "std_time": 1.898862049579514,
+    "mean_dist": 87.58611790256347,
+    "mean_time": 6.140740740740753,
+    "std_dist": 38.13343595576247,
+    "std_time": 1.7932505679495223,
     "city": "Sheffield",
     "admin": "Sheffield",
     "country": "UK",
@@ -154,7 +154,8 @@
       "New Jersey",
       "New York",
       "Mazovia",
-      "Mazovia"
+      "Mazovia",
+      "England"
     ],
     "countries": [
       "Unknown",
@@ -164,7 +165,8 @@
       "United States",
       "United States",
       "Poland",
-      "Poland"
+      "Poland",
+      "United Kingdom"
     ],
     "dists": [
       78.42956788790964,
@@ -174,7 +176,8 @@
       168.13554440542268,
       72.53398748958818,
       107.44325185973771,
-      43.52215028398932
+      43.52215028398932,
+      128.4930880139344
     ],
     "times": [
       6.233333333333347,
@@ -184,7 +187,8 @@
       7.066666666666677,
       7.800000000000008,
       7.033333333333344,
-      1.4000000000000266
+      1.4000000000000266,
+      6.433333333333346
     ]
   },
   "Bordeaux, France": {
@@ -221,62 +225,76 @@
     ]
   },
   "Hamamatsu, Japan": {
-    "mean_dist": 217.40747833470542,
-    "mean_time": 7.333333333333343,
-    "std_dist": 56.78215487019862,
-    "std_time": 0.7145317036741979,
-    "city": "Hamamatsu",
+    "mean_dist": 275.8359655137777,
+    "mean_time": 7.3611111111111205,
+    "std_dist": 207.76805176092427,
+    "std_time": 0.7633786174502419,
     "admin": "Shizuoka",
     "country": "Japan",
     "regions": [
       "Unknown",
       "Unknown",
       "Unknown",
-      "New South Wales"
+      "New South Wales",
+      "England",
+      "Washington"
     ],
     "countries": [
       "Unknown",
       "Unknown",
       "Unknown",
-      "Australia"
+      "Australia",
+      "United Kingdom",
+      "United States"
     ],
     "dists": [
       140.9034800212422,
       230.41679125075933,
       298.4445812755775,
-      199.86506079124263
+      199.86506079124263,
+      72.4259651618004,
+      712.959914582044
     ],
     "times": [
       8.066666666666674,
       6.833333333333345,
       6.433333333333346,
-      8.000000000000007
+      8.000000000000007,
+      8.266666666666673,
+      6.566666666666679
     ]
   },
   "Yerevan, Armenia": {
-    "mean_dist": 1348.5996036871304,
-    "mean_time": 6.166666666666681,
-    "std_dist": 939.2087759080322,
-    "std_time": 1.131370849898472,
+    "mean_dist": 1020.6076679888488,
+    "mean_time": 6.34166666666668,
+    "std_dist": 992.1295143308233,
+    "std_time": 1.0256095748382972,
+    "city": "Yerevan",
+    "admin": "Yerevan",
+    "country": "Armenia",
     "regions": [
       "Unknown",
       "Unknown",
-      "Unknown"
+      "Unknown",
+      "England"
     ],
     "countries": [
       "Unknown",
       "Unknown",
-      "Unknown"
+      "Unknown",
+      "United Kingdom"
     ],
     "dists": [
       2019.5728509539106,
       20.381463880711667,
-      2005.8444962267695
+      2005.8444962267695,
+      36.631860894003836
     ],
     "times": [
       6.966666666666677,
       6.966666666666677,
-      4.566666666666686
+      4.566666666666686,
+      6.866666666666678
     ]
   },
   "Jos, Nigeria": {
@@ -374,29 +392,36 @@
     ]
   },
   "Roseau, Dominica": {
-    "mean_dist": 2789.596116558831,
-    "mean_time": 5.444444444444461,
-    "std_dist": 2011.8325152608159,
-    "std_time": 0.32470309324894236,
+    "mean_dist": 2331.4818673070185,
+    "mean_time": 5.400000000000016,
+    "std_dist": 1914.4734388855206,
+    "std_time": 0.291547594742264,
+    "city": "Roseau",
+    "admin": "Saint George",
+    "country": "Dominica",
     "regions": [
       "Unknown",
       "Unknown",
-      "Unknown"
+      "Unknown",
+      "England"
     ],
     "countries": [
       "Unknown",
       "Unknown",
-      "Unknown"
+      "Unknown",
+      "United Kingdom"
     ],
     "dists": [
       5587.889351990248,
       945.060533336485,
-      1835.8384643497607
+      1835.8384643497607,
+      957.1391195515812
     ],
     "times": [
       5.900000000000015,
       5.2666666666666835,
-      5.166666666666684
+      5.166666666666684,
+      5.2666666666666835
     ]
   },
   "Suva, Fiji": {
@@ -433,29 +458,36 @@
     ]
   },
   "Douala, Cameroon": {
-    "mean_dist": 1405.2934974478148,
-    "mean_time": 4.844444444444463,
-    "std_dist": 591.9167876532824,
-    "std_time": 2.1142082544559906,
+    "mean_dist": 1071.8052294543838,
+    "mean_time": 5.3916666666666835,
+    "std_dist": 772.2806402449249,
+    "std_time": 2.0617380747536433,
+    "city": "Douala",
+    "admin": "Littoral",
+    "country": "Cameroon",
     "regions": [
       "Unknown",
       "Unknown",
-      "Unknown"
+      "Unknown",
+      "Ohio"
     ],
     "countries": [
       "Unknown",
       "Unknown",
-      "Unknown"
+      "Unknown",
+      "United States"
     ],
     "dists": [
       1504.257374258509,
       635.9484897205167,
-      2075.674628364419
+      2075.674628364419,
+      71.34042547409113
     ],
     "times": [
       6.766666666666678,
       1.900000000000028,
-      5.866666666666681
+      5.866666666666681,
+      7.033333333333344
     ]
   },
   "Fuxin, Liaoning, China": {
@@ -485,10 +517,10 @@
     ]
   },
   "Grand Rapids, Michigan, USA": {
-    "mean_dist": 231.75465787133083,
-    "mean_time": 6.513333333333345,
-    "std_dist": 108.72738398064043,
-    "std_time": 1.3020667332275122,
+    "mean_dist": 207.6874993619347,
+    "mean_time": 6.688888888888901,
+    "std_dist": 112.9048741919941,
+    "std_time": 1.251764187156232,
     "city": "Grand Rapids",
     "admin": "Michigan",
     "country": "USA",
@@ -497,27 +529,31 @@
       "Unknown",
       "Unknown",
       "New South Wales",
-      "Mazovia"
+      "Mazovia",
+      "England"
     ],
     "countries": [
       "Unknown",
       "Unknown",
       "Unknown",
       "Australia",
-      "Poland"
+      "Poland",
+      "United Kingdom"
     ],
     "dists": [
       115.47964863626167,
       105.3581602032361,
       382.8765363973085,
       241.58661224207407,
-      313.4723318777739
+      313.4723318777739,
+      87.351706814954
     ],
     "times": [
       7.700000000000008,
       5.533333333333349,
       4.433333333333353,
       7.333333333333343,
+      7.566666666666675,
       7.566666666666675
     ]
   },
@@ -559,33 +595,40 @@
     ]
   },
   "Singapore, Singapore": {
-    "mean_dist": 1288.6395127632998,
-    "mean_time": 4.833333333333352,
-    "std_dist": 889.0593715567067,
-    "std_time": 1.3816254517375088,
+    "mean_dist": 1039.3622535105492,
+    "mean_time": 5.486666666666683,
+    "std_dist": 938.5615913963755,
+    "std_time": 1.7984684842634486,
+    "city": "Singapore",
+    "admin": "",
+    "country": "Singapore",
     "regions": [
       "Unknown",
       "Unknown",
       "Unknown",
-      "Unknown"
+      "Unknown",
+      "England"
     ],
     "countries": [
       "Unknown",
       "Unknown",
       "Unknown",
-      "Unknown"
+      "Unknown",
+      "United Kingdom"
     ],
     "dists": [
       1158.3701544861858,
       59.958055928749296,
       1371.5814436433081,
-      2564.648396994956
+      2564.648396994956,
+      42.253216499547015
     ],
     "times": [
       6.16666666666668,
       5.833333333333348,
       4.700000000000019,
-      2.6333333333333595
+      2.6333333333333595,
+      8.100000000000007
     ]
   },
   "Sucre, Bolivia": {
@@ -635,33 +678,40 @@
     ]
   },
   "Chittagong, Bangladesh": {
-    "mean_dist": 853.1565385388291,
-    "mean_time": 5.375000000000016,
-    "std_dist": 492.76051047933584,
-    "std_time": 0.5794513688730802,
+    "mean_dist": 725.4382192784508,
+    "mean_time": 5.866666666666681,
+    "std_dist": 509.4096709418347,
+    "std_time": 1.1115554667022005,
+    "city": "Chittagong",
+    "admin": "Chittagong",
+    "country": "Bangladesh",
     "regions": [
       "Unknown",
       "Unknown",
       "Unknown",
-      "Unknown"
+      "Unknown",
+      "England"
     ],
     "countries": [
       "Unknown",
       "Unknown",
       "Unknown",
-      "Unknown"
+      "Unknown",
+      "United Kingdom"
     ],
     "dists": [
       1658.2565699429128,
       332.3434348900301,
       786.5438783309552,
-      635.4822709914184
+      635.4822709914184,
+      214.56494223693744
     ],
     "times": [
       5.300000000000017,
       6.2000000000000135,
       5.43333333333335,
-      4.566666666666686
+      4.566666666666686,
+      7.833333333333341
     ]
   },
   "Hag\u00e5t\u00f1a, Guam": {
@@ -1042,27 +1092,53 @@
     "times": []
   },
   "Dallas, Texas, USA": {
-    "regions": [],
-    "countries": [],
-    "dists": [],
-    "times": []
+    "mean_dist": 518.116612199402,
+    "mean_time": 7.933333333333341,
+    "std_dist": 136.66480752877365,
+    "std_time": 0.29999999999999893,
+    "city": "Dallas",
+    "admin": "Texas",
+    "country": "USA",
+    "regions": [
+      "Auckland",
+      "Maine"
+    ],
+    "countries": [
+      "New Zealand",
+      "United States"
+    ],
+    "dists": [
+      654.7814197281756,
+      381.4518046706283
+    ],
+    "times": [
+      7.633333333333342,
+      8.23333333333334
+    ]
   },
   "Ufa, Russia": {
-    "mean_dist": 225.20973695227667,
-    "mean_time": 7.533333333333342,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 520.2207185301618,
+    "mean_time": 5.583333333333349,
+    "std_dist": 295.01098157788516,
+    "std_time": 1.949999999999993,
+    "city": "Ufa",
+    "admin": "Bashkortostan",
+    "country": "Russia",
     "regions": [
+      "England",
       "England"
     ],
     "countries": [
+      "United Kingdom",
       "United Kingdom"
     ],
     "dists": [
-      225.20973695227667
+      225.20973695227667,
+      815.231700108047
     ],
     "times": [
-      7.533333333333342
+      7.533333333333342,
+      3.633333333333356
     ]
   },
   "San Marino, San Marino": {
@@ -1174,24 +1250,28 @@
     "times": []
   },
   "Kozhikode, Kerala, India": {
-    "mean_dist": 1996.512872593401,
-    "mean_time": 8.03333333333334,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 1188.0733075220226,
+    "mean_time": 4.916666666666684,
+    "std_dist": 808.4395650713783,
+    "std_time": 3.116666666666656,
     "city": "Kozhikode",
     "admin": "Kerala",
     "country": "India",
     "regions": [
-      "Andalusia"
+      "Andalusia",
+      "England"
     ],
     "countries": [
-      "Spain"
+      "Spain",
+      "United Kingdom"
     ],
     "dists": [
-      1996.512872593401
+      1996.512872593401,
+      379.6337424506443
     ],
     "times": [
-      8.03333333333334
+      8.03333333333334,
+      1.8000000000000278
     ]
   },
   "Bandar Lampung, Indonesia": {
@@ -1274,10 +1354,10 @@
     ]
   },
   "Ndjamena, Chad": {
-    "mean_dist": 1090.856913184735,
-    "mean_time": 6.806666666666677,
-    "std_dist": 836.7184937748895,
-    "std_time": 1.0902395251605097,
+    "mean_dist": 1211.221843635312,
+    "mean_time": 6.933333333333343,
+    "std_dist": 734.3866483351178,
+    "std_time": 0.9449951708955272,
     "city": "Ndjamena",
     "admin": "Ville de N\u2019Djam\u00e9na",
     "country": "Chad",
@@ -1286,13 +1366,17 @@
       "New South Wales",
       "New South Wales",
       "California",
-      "Ohio"
+      "Ohio",
+      "Auckland",
+      "Maine"
     ],
     "countries": [
       "United Kingdom",
       "Australia",
       "Australia",
       "United States",
+      "United States",
+      "New Zealand",
       "United States"
     ],
     "dists": [
@@ -1300,14 +1384,18 @@
       2681.0106868081257,
       233.5704648111784,
       877.0792488561762,
-      999.4373083558962
+      999.4373083558962,
+      1409.0758920638848,
+      1615.1924474596249
     ],
     "times": [
       4.700000000000019,
       7.30000000000001,
       7.233333333333343,
       7.833333333333341,
-      6.966666666666677
+      6.966666666666677,
+      7.1333333333333435,
+      7.366666666666676
     ]
   },
   "Jinzhou, Liaoning, China": {
@@ -1407,25 +1495,32 @@
     ]
   },
   "Ansan, Korea, South": {
-    "mean_dist": 136.10481562824907,
-    "mean_time": 6.500000000000012,
-    "std_dist": 28.996012769458474,
-    "std_time": 0.9666666666666632,
+    "mean_dist": 157.62106050364704,
+    "mean_time": 6.400000000000013,
+    "std_dist": 38.55398930626044,
+    "std_time": 0.8018497134519401,
+    "city": "Ansan",
+    "admin": "Gyeonggi",
+    "country": "Korea, South",
     "regions": [
       "England",
-      "New South Wales"
+      "New South Wales",
+      "Ohio"
     ],
     "countries": [
       "United Kingdom",
-      "Australia"
+      "Australia",
+      "United States"
     ],
     "dists": [
       107.1088028587906,
-      165.10082839770755
+      165.10082839770755,
+      200.65355025444296
     ],
     "times": [
       5.533333333333349,
-      7.466666666666676
+      7.466666666666676,
+      6.2000000000000135
     ]
   },
   "Buffalo, New York, USA": {
@@ -1517,33 +1612,40 @@
     ]
   },
   "Goyang, Korea, South": {
-    "mean_dist": 190.51419925519684,
-    "mean_time": 6.7916666666666785,
-    "std_dist": 83.68717001677729,
-    "std_time": 0.6812468144675753,
+    "mean_dist": 185.92531641667188,
+    "mean_time": 6.973333333333345,
+    "std_dist": 75.4126337105158,
+    "std_time": 0.7094285650358924,
+    "city": "Goyang",
+    "admin": "Gyeonggi",
+    "country": "Korea, South",
     "regions": [
       "England",
       "New South Wales",
       "Ontario",
-      "New Jersey"
+      "New Jersey",
+      "England"
     ],
     "countries": [
       "United Kingdom",
       "Australia",
       "Canada",
-      "United States"
+      "United States",
+      "United Kingdom"
     ],
     "dists": [
       95.26903300484356,
       325.15822275448875,
       175.13796200236035,
-      166.49157925909464
+      166.49157925909464,
+      167.56978506257207
     ],
     "times": [
       7.800000000000008,
       6.966666666666677,
       6.433333333333346,
-      5.966666666666681
+      5.966666666666681,
+      7.700000000000008
     ]
   },
   "Saint George's, Grenada": {
@@ -1713,10 +1815,10 @@
     ]
   },
   "Taizz, Yemen": {
-    "mean_dist": 826.3071246395193,
-    "mean_time": 5.746666666666682,
-    "std_dist": 742.9549350909799,
-    "std_time": 1.3227244611029116,
+    "mean_dist": 713.3282386788693,
+    "mean_time": 6.088888888888903,
+    "std_dist": 723.7445495554698,
+    "std_time": 1.4295384733939713,
     "city": "Taizz",
     "admin": "Ta\u2018izz",
     "country": "Yemen",
@@ -1725,28 +1827,32 @@
       "New South Wales",
       "New South Wales",
       "California",
-      "Ohio"
+      "Ohio",
+      "England"
     ],
     "countries": [
       "United Kingdom",
       "Australia",
       "Australia",
       "United States",
-      "United States"
+      "United States",
+      "United Kingdom"
     ],
     "dists": [
       2182.8202448113316,
       1031.1698648380896,
       106.32182385289688,
       457.88860896487836,
-      353.33508073039985
+      353.33508073039985,
+      148.433808875619
     ],
     "times": [
       5.833333333333348,
       6.36666666666668,
       3.333333333333357,
       7.333333333333343,
-      5.866666666666681
+      5.866666666666681,
+      7.800000000000008
     ]
   },
   "Willemstad, Cura\u00e7ao": {
@@ -1854,33 +1960,39 @@
     ]
   },
   "Berlin, Germany": {
-    "mean_dist": 208.18395176911048,
-    "mean_time": 7.316666666666675,
-    "std_dist": 161.72731325849992,
-    "std_time": 0.3570714214271412,
+    "mean_dist": 181.2895086318691,
+    "mean_time": 7.440000000000009,
+    "std_dist": 154.3302412675481,
+    "std_time": 0.4035398920112401,
+    "admin": "Berlin",
+    "country": "Germany",
     "regions": [
       "England",
       "New South Wales",
       "Ontario",
-      "Washington, D.C."
+      "Washington, D.C.",
+      "New York"
     ],
     "countries": [
       "United Kingdom",
       "Australia",
       "Canada",
+      "United States",
       "United States"
     ],
     "dists": [
       136.2317335375445,
       129.79586269689963,
       80.86956626020387,
-      485.8386445817939
+      485.8386445817939,
+      73.71173608290356
     ],
     "times": [
       6.966666666666677,
       7.566666666666675,
       7.766666666666675,
-      6.966666666666677
+      6.966666666666677,
+      7.933333333333341
     ]
   },
   "Kanpur, Uttar Pradesh, India": {
@@ -1959,10 +2071,10 @@
     ]
   },
   "Bujumbura, Burundi": {
-    "mean_dist": 1391.4225611286793,
-    "mean_time": 6.31666666666668,
-    "std_dist": 1541.933445819457,
-    "std_time": 1.7151557536443265,
+    "mean_dist": 1219.5120800348109,
+    "mean_time": 5.947619047619062,
+    "std_dist": 1488.3637936355694,
+    "std_time": 1.8272068320954287,
     "city": "Bujumbura",
     "admin": "",
     "country": "Burundi",
@@ -1972,7 +2084,8 @@
       "Ontario",
       "Washington, D.C.",
       "New South Wales",
-      "Mazovia"
+      "Mazovia",
+      "England"
     ],
     "countries": [
       "United Kingdom",
@@ -1980,7 +2093,8 @@
       "Canada",
       "United States",
       "Australia",
-      "Poland"
+      "Poland",
+      "United Kingdom"
     ],
     "dists": [
       3390.8985293042833,
@@ -1988,7 +2102,8 @@
       82.55937060152112,
       3724.490822216926,
       188.60667039235355,
-      423.6445963593634
+      423.6445963593634,
+      188.04919347160157
     ],
     "times": [
       6.900000000000011,
@@ -1996,7 +2111,8 @@
       8.000000000000007,
       3.1000000000000245,
       8.000000000000007,
-      6.6666666666666785
+      6.6666666666666785,
+      3.7333333333333556
     ]
   },
   "Saint John's, Antigua And Barbuda": {
@@ -2063,37 +2179,44 @@
     ]
   },
   "K\u00f8benhavn, Denmark": {
-    "mean_dist": 171.6708111027503,
-    "mean_time": 6.100000000000014,
-    "std_dist": 134.39309287304127,
-    "std_time": 1.3472605951007022,
+    "mean_dist": 155.02296521763003,
+    "mean_time": 6.372222222222234,
+    "std_dist": 128.20689024538353,
+    "std_time": 1.3722672057404142,
+    "city": "K\u00f8benhavn",
+    "admin": "Hovedstaden",
+    "country": "Denmark",
     "regions": [
       "England",
       "New South Wales",
       "Ontario",
       "Washington, D.C.",
-      "Ontario"
+      "Ontario",
+      "England"
     ],
     "countries": [
       "United Kingdom",
       "Australia",
       "Canada",
       "United States",
-      "Canada"
+      "Canada",
+      "United Kingdom"
     ],
     "dists": [
       242.70023137636647,
       69.7579567498425,
       61.92992399543241,
       404.68737617769165,
-      79.27856721441835
+      79.27856721441835,
+      71.78373579202882
     ],
     "times": [
       6.433333333333346,
       6.600000000000012,
       7.666666666666675,
       3.6000000000000227,
-      6.2000000000000135
+      6.2000000000000135,
+      7.733333333333341
     ]
   },
   "Nicosia, Cyprus": {
@@ -2138,11 +2261,10 @@
     ]
   },
   "Ulaanbaatar, Mongolia": {
-    "mean_dist": 409.3895793121194,
-    "mean_time": 7.013333333333344,
-    "std_dist": 218.74418586419856,
-    "std_time": 1.0849679974799014,
-    "city": "Ulaanbaatar",
+    "mean_dist": 385.2730146659685,
+    "mean_time": 7.012500000000011,
+    "std_dist": 192.32214106817355,
+    "std_time": 1.0762508872108836,
     "admin": "Ulaanbaatar",
     "country": "Mongolia",
     "regions": [
@@ -2150,28 +2272,40 @@
       "New South Wales",
       "Ontario",
       "Washington, D.C.",
-      "\u00cele-de-France"
+      "\u00cele-de-France",
+      "Washington",
+      "California",
+      "Ontario"
     ],
     "countries": [
       "United Kingdom",
       "Australia",
       "Canada",
       "United States",
-      "France"
+      "France",
+      "United States",
+      "United States",
+      "Canada"
     ],
     "dists": [
       814.4080742108047,
       410.17560511654267,
       163.47186188005068,
       360.6477523426214,
-      298.24460301057735
+      298.24460301057735,
+      214.0305114836938,
+      518.171700919891,
+      303.034008363566
     ],
     "times": [
       6.36666666666668,
       7.533333333333342,
       8.100000000000007,
       5.200000000000017,
-      7.866666666666674
+      7.866666666666674,
+      7.033333333333344,
+      8.300000000000006,
+      5.700000000000015
     ]
   },
   "Valencia, Venezuela": {
@@ -2314,33 +2448,40 @@
     ]
   },
   "Djibouti, Djibouti": {
-    "mean_dist": 1842.6945689003458,
-    "mean_time": 5.775000000000015,
-    "std_dist": 1365.782727634147,
-    "std_time": 1.9828956099603359,
+    "mean_dist": 1491.5347843972854,
+    "mean_time": 5.753333333333348,
+    "std_dist": 1409.0928799379972,
+    "std_time": 1.7740850537045159,
+    "city": "Djibouti",
+    "admin": "Djibouti",
+    "country": "Djibouti",
     "regions": [
       "England",
       "New South Wales",
       "Ontario",
-      "Washington, D.C."
+      "Washington, D.C.",
+      "Michigan"
     ],
     "countries": [
       "United Kingdom",
       "Australia",
       "Canada",
+      "United States",
       "United States"
     ],
     "dists": [
       1711.2722849530621,
       3981.8553383448125,
       185.88493488557705,
-      1491.765717417931
+      1491.765717417931,
+      86.89564638504459
     ],
     "times": [
       6.26666666666668,
       6.26666666666668,
       8.000000000000007,
-      2.566666666666693
+      2.566666666666693,
+      5.666666666666682
     ]
   },
   "Gda\u0144sk, Poland": {
@@ -2377,40 +2518,58 @@
     ]
   },
   "Hsinchu, Taiwan": {
-    "mean_dist": 537.3880836531653,
-    "mean_time": 6.125000000000014,
-    "std_dist": 639.106431157649,
-    "std_time": 1.5087476410733598,
+    "mean_dist": 361.48211974712973,
+    "mean_time": 6.571428571428584,
+    "std_dist": 524.760487786322,
+    "std_time": 1.273219712136966,
+    "city": "Hsinchu",
+    "admin": "Hsinchu",
+    "country": "Taiwan",
     "regions": [
       "England",
       "New South Wales",
       "Ontario",
-      "Washington, D.C."
+      "Washington, D.C.",
+      "Auckland",
+      "Maine",
+      "Ohio"
     ],
     "countries": [
       "United Kingdom",
       "Australia",
       "Canada",
+      "United States",
+      "New Zealand",
+      "United States",
       "United States"
     ],
     "dists": [
       183.03898400126803,
       248.31604162544363,
       78.80806480797553,
-      1639.389244177974
+      1639.389244177974,
+      142.97629384906227,
+      70.96121626924355,
+      166.88499349894107
     ],
     "times": [
       5.033333333333351,
       7.366666666666676,
       7.833333333333341,
-      4.266666666666687
+      4.266666666666687,
+      6.700000000000012,
+      7.566666666666675,
+      7.233333333333343
     ]
   },
   "Trabzon, Turkey": {
-    "mean_dist": 853.8931702498694,
-    "mean_time": 7.294444444444454,
-    "std_dist": 1601.644631337566,
-    "std_time": 1.0627387168287912,
+    "mean_dist": 945.3528656880069,
+    "mean_time": 7.02051282051283,
+    "std_dist": 1571.087495479894,
+    "std_time": 1.3939146414373438,
+    "city": "Trabzon",
+    "admin": "Trabzon",
+    "country": "Turkey",
     "regions": [
       "England",
       "New South Wales",
@@ -2423,7 +2582,8 @@
       "Massachusetts",
       "Ontario",
       "New Jersey",
-      "New York"
+      "New York",
+      "Karnataka"
     ],
     "countries": [
       "United Kingdom",
@@ -2437,7 +2597,8 @@
       "United States",
       "Canada",
       "United States",
-      "United States"
+      "United States",
+      "India"
     ],
     "dists": [
       305.82660222426273,
@@ -2451,7 +2612,8 @@
       59.81771497092786,
       343.0343284304886,
       749.5341721907097,
-      6106.939584020143
+      6106.939584020143,
+      2042.8692109456574
     ],
     "times": [
       6.833333333333345,
@@ -2465,7 +2627,8 @@
       5.43333333333335,
       6.6666666666666785,
       7.6000000000000085,
-      9.966666666666667
+      9.966666666666667,
+      3.7333333333333556
     ]
   },
   "Kalyan, Mah\u0101r\u0101shtra, India": {
@@ -2499,33 +2662,39 @@
     ]
   },
   "Oran, Algeria": {
-    "mean_dist": 1176.092694061138,
-    "mean_time": 5.883333333333348,
-    "std_dist": 1108.022615950671,
-    "std_time": 2.1556772588781494,
+    "mean_dist": 956.7862122503915,
+    "mean_time": 6.08666666666668,
+    "std_dist": 1083.767791467971,
+    "std_time": 1.9705160068706131,
+    "admin": "Oran",
+    "country": "Algeria",
     "regions": [
       "England",
       "New South Wales",
       "Ontario",
-      "Washington, D.C."
+      "Washington, D.C.",
+      "Washington"
     ],
     "countries": [
       "United Kingdom",
       "Australia",
       "Canada",
+      "United States",
       "United States"
     ],
     "dists": [
       506.6799071939643,
       694.9085185254208,
       415.4892149975293,
-      3087.293135527638
+      3087.293135527638,
+      79.5602850074059
     ],
     "times": [
       7.20000000000001,
       5.300000000000017,
       8.366666666666672,
-      2.6666666666666927
+      2.6666666666666927,
+      6.900000000000011
     ]
   },
   "Wanzhou, Chongqing, China": {
@@ -2566,10 +2735,10 @@
     ]
   },
   "Damascus, Syria": {
-    "mean_dist": 534.766205392381,
-    "mean_time": 5.640740740740757,
-    "std_dist": 486.79168210424785,
-    "std_time": 1.7187260411099714,
+    "mean_dist": 493.8129249151125,
+    "mean_time": 5.893333333333348,
+    "std_dist": 477.8745318867111,
+    "std_time": 1.798011247029457,
     "city": "Damascus",
     "admin": "Dimashq",
     "country": "Syria",
@@ -2582,7 +2751,8 @@
       "New Jersey",
       "New York",
       "California",
-      "Andalusia"
+      "Andalusia",
+      "England"
     ],
     "countries": [
       "United Kingdom",
@@ -2593,7 +2763,8 @@
       "United States",
       "United States",
       "United States",
-      "Spain"
+      "Spain",
+      "United Kingdom"
     ],
     "dists": [
       209.50793372926785,
@@ -2604,7 +2775,8 @@
       237.30909626654957,
       1063.8005048629452,
       218.16951635308862,
-      558.3704090560481
+      558.3704090560481,
+      125.23340061969532
     ],
     "times": [
       5.43333333333335,
@@ -2615,7 +2787,8 @@
       6.766666666666678,
       4.933333333333351,
       6.866666666666678,
-      5.666666666666682
+      5.666666666666682,
+      8.166666666666673
     ]
   },
   "Suwon, Korea, South": {
@@ -3038,17 +3211,21 @@
     ]
   },
   "Guiyang, Guizhou, China": {
-    "mean_dist": 976.1582277141346,
-    "mean_time": 6.672222222222234,
-    "std_dist": 455.0089327431394,
-    "std_time": 0.7619217094675939,
+    "mean_dist": 904.5115236017137,
+    "mean_time": 5.752380952380966,
+    "std_dist": 456.35125601786183,
+    "std_time": 2.3609829230241726,
+    "city": "Guiyang",
+    "admin": "Guizhou",
+    "country": "China",
     "regions": [
       "England",
       "New South Wales",
       "Ontario",
       "Washington, D.C.",
       "Maryland",
-      "Massachusetts"
+      "Massachusetts",
+      "England"
     ],
     "countries": [
       "United Kingdom",
@@ -3056,7 +3233,8 @@
       "Canada",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "United Kingdom"
     ],
     "dists": [
       244.87074879593365,
@@ -3064,7 +3242,8 @@
       1198.1918044420952,
       1158.8993750871568,
       1565.8489900307281,
-      496.46174536139335
+      496.46174536139335,
+      474.63129892718905
     ],
     "times": [
       6.766666666666678,
@@ -3072,7 +3251,8 @@
       7.666666666666675,
       5.600000000000016,
       5.833333333333348,
-      7.466666666666676
+      7.466666666666676,
+      0.23333333333335882
     ]
   },
   "Richmond, Virginia, USA": {
@@ -3118,6 +3298,9 @@
     "mean_time": 5.444444444444461,
     "std_dist": 299.36202611685195,
     "std_time": 1.9358859266464095,
+    "city": "C\u00facuta",
+    "admin": "Norte de Santander",
+    "country": "Colombia",
     "regions": [
       "England",
       "New South Wales",
@@ -3190,10 +3373,13 @@
     ]
   },
   "Turin, Italy": {
-    "mean_dist": 326.76771458012433,
-    "mean_time": 6.337500000000013,
-    "std_dist": 164.27564441060892,
-    "std_time": 1.1078554734260202,
+    "mean_dist": 304.0527570218461,
+    "mean_time": 6.485185185185197,
+    "std_dist": 167.67749737951726,
+    "std_time": 1.1249264569773763,
+    "city": "Turin",
+    "admin": "Piedmont",
+    "country": "Italy",
     "regions": [
       "England",
       "New South Wales",
@@ -3202,7 +3388,8 @@
       "Maryland",
       "Massachusetts",
       "Ontario",
-      "New Jersey"
+      "New Jersey",
+      "Ohio"
     ],
     "countries": [
       "United Kingdom",
@@ -3212,6 +3399,7 @@
       "United States",
       "United States",
       "Canada",
+      "United States",
       "United States"
     ],
     "dists": [
@@ -3222,7 +3410,8 @@
       468.2527962335604,
       364.05449501724297,
       414.5841191006677,
-      20.467290003440198
+      20.467290003440198,
+      122.33309655562014
     ],
     "times": [
       7.1333333333333435,
@@ -3232,7 +3421,8 @@
       4.5000000000000195,
       7.233333333333343,
       6.533333333333346,
-      5.366666666666683
+      5.366666666666683,
+      7.666666666666675
     ]
   },
   "Macau, Macau": {
@@ -3544,17 +3734,21 @@
     ]
   },
   "Harbin, Heilongjiang, China": {
-    "mean_dist": 2181.719073521992,
-    "mean_time": 6.511111111111124,
-    "std_dist": 477.33609131273926,
-    "std_time": 1.1457920867997082,
+    "mean_dist": 1889.5226498358545,
+    "mean_time": 5.947619047619063,
+    "std_dist": 841.1731573944836,
+    "std_time": 1.7408132694238765,
+    "city": "Harbin",
+    "admin": "Heilongjiang",
+    "country": "China",
     "regions": [
       "New South Wales",
       "Ontario",
       "Washington, D.C.",
       "Maryland",
       "Massachusetts",
-      "Massachusetts"
+      "Massachusetts",
+      "England"
     ],
     "countries": [
       "Australia",
@@ -3562,7 +3756,8 @@
       "United States",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "United Kingdom"
     ],
     "dists": [
       3051.6259568890778,
@@ -3570,7 +3765,8 @@
       2283.0507775483566,
       1741.815197939417,
       1828.207245528796,
-      2457.359303643154
+      2457.359303643154,
+      136.34410771902887
     ],
     "times": [
       4.700000000000019,
@@ -3578,15 +3774,15 @@
       5.666666666666682,
       7.366666666666676,
       8.100000000000007,
-      6.066666666666681
+      6.066666666666681,
+      2.566666666666693
     ]
   },
   "Managua, Nicaragua": {
-    "mean_dist": 668.9508432460522,
-    "mean_time": 5.984848484848499,
-    "std_dist": 892.048745434368,
-    "std_time": 0.9900886233533122,
-    "city": "Managua",
+    "mean_dist": 618.4669087905505,
+    "mean_time": 6.00555555555557,
+    "std_dist": 870.3294134393169,
+    "std_time": 0.9504222583335241,
     "admin": "Managua",
     "country": "Nicaragua",
     "regions": [
@@ -3600,7 +3796,8 @@
       "Washington, D.C.",
       "Massachusetts",
       "Virginia",
-      "Massachusetts"
+      "Massachusetts",
+      "Washington"
     ],
     "countries": [
       "Australia",
@@ -3610,6 +3807,7 @@
       "United States",
       "United States",
       "Australia",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -3626,7 +3824,8 @@
       407.7915280971918,
       343.99431649197413,
       337.89731662030675,
-      47.96843041525151
+      47.96843041525151,
+      63.143629780032995
     ],
     "times": [
       7.033333333333344,
@@ -3639,7 +3838,8 @@
       5.200000000000017,
       6.833333333333345,
       5.033333333333351,
-      6.36666666666668
+      6.36666666666668,
+      6.233333333333347
     ]
   },
   "Winnipeg, Manitoba, Canada": {
@@ -3823,11 +4023,10 @@
     ]
   },
   "Zhongli, Taiwan": {
-    "mean_dist": 373.1685834790062,
-    "mean_time": 6.6606060606060735,
-    "std_dist": 474.2296089217406,
-    "std_time": 1.3439590378120874,
-    "city": "Zhongli",
+    "mean_dist": 316.62174207630153,
+    "mean_time": 6.828571428571441,
+    "std_dist": 434.08210251136836,
+    "std_time": 1.27222197467048,
     "admin": "Taoyuan",
     "country": "Taiwan",
     "regions": [
@@ -3841,7 +4040,10 @@
       "Massachusetts",
       "Virginia",
       "Massachusetts",
-      "Andalusia"
+      "Andalusia",
+      "Washington",
+      "California",
+      "Ontario"
     ],
     "countries": [
       "Australia",
@@ -3854,7 +4056,10 @@
       "United States",
       "United States",
       "United States",
-      "Spain"
+      "Spain",
+      "United States",
+      "United States",
+      "Canada"
     ],
     "dists": [
       159.48329279945003,
@@ -3867,7 +4072,10 @@
       87.76508638789417,
       836.8947941575767,
       249.83910942869724,
-      167.63395478356173
+      167.63395478356173,
+      110.87403182333625,
+      106.69779156601426,
+      110.27814740980303
     ],
     "times": [
       5.800000000000015,
@@ -3880,7 +4088,10 @@
       7.6000000000000085,
       5.300000000000017,
       6.900000000000011,
-      7.766666666666675
+      7.766666666666675,
+      7.166666666666677,
+      8.366666666666672,
+      6.800000000000011
     ]
   },
   "Bucharest, Romania": {
@@ -3929,44 +4140,51 @@
     ]
   },
   "Kandahar, Afghanistan": {
-    "mean_dist": 411.98585338197717,
-    "mean_time": 5.046666666666684,
-    "std_dist": 107.89510148460808,
-    "std_time": 2.1409862732446925,
+    "mean_dist": 419.5711834539981,
+    "mean_time": 5.2666666666666835,
+    "std_dist": 99.94405234172645,
+    "std_time": 2.0154036448939525,
+    "city": "Kandahar",
+    "admin": "Kandah\u0101r",
+    "country": "Afghanistan",
     "regions": [
       "New South Wales",
       "Ontario",
       "Washington, D.C.",
       "Massachusetts",
-      "Massachusetts"
+      "Massachusetts",
+      "Saxony"
     ],
     "countries": [
       "Australia",
       "Canada",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Germany"
     ],
     "dists": [
       413.6795372389157,
       334.05299975941705,
       262.96970495715175,
       476.89258045991164,
-      572.3344444944895
+      572.3344444944895,
+      457.4978338141029
     ],
     "times": [
       4.633333333333352,
       7.4333333333333425,
       1.1666666666666925,
       6.300000000000013,
-      5.700000000000015
+      5.700000000000015,
+      6.36666666666668
     ]
   },
   "Santo Andr\u00e9, Brazil": {
-    "mean_dist": 1201.4425637030502,
-    "mean_time": 6.8333333333333455,
-    "std_dist": 779.4145810869161,
-    "std_time": 1.1540588597865546,
+    "mean_dist": 1240.174698127072,
+    "mean_time": 6.041666666666679,
+    "std_dist": 814.5682649947643,
+    "std_time": 2.461579777297492,
     "city": "Santo Andr\u00e9",
     "admin": "S\u00e3o Paulo",
     "country": "Brazil",
@@ -3976,7 +4194,9 @@
       "Washington, D.C.",
       "Massachusetts",
       "Massachusetts",
-      "Andalusia"
+      "Andalusia",
+      "Michigan",
+      "England"
     ],
     "countries": [
       "Australia",
@@ -3984,7 +4204,9 @@
       "United States",
       "United States",
       "United States",
-      "Spain"
+      "Spain",
+      "United States",
+      "United Kingdom"
     ],
     "dists": [
       2384.011781436999,
@@ -3992,7 +4214,9 @@
       972.3220589742726,
       889.3586211323847,
       398.9631083359431,
-      2130.4124651579295
+      2130.4124651579295,
+      2258.381315792055,
+      454.3608870062197
     ],
     "times": [
       7.266666666666676,
@@ -4000,14 +4224,16 @@
       4.633333333333352,
       6.333333333333346,
       6.800000000000011,
-      7.800000000000008
+      7.800000000000008,
+      7.233333333333343,
+      0.10000000000002551
     ]
   },
   "Nampo, Korea, North": {
-    "mean_dist": 398.90783119369695,
-    "mean_time": 6.383333333333344,
-    "std_dist": 812.3065656390551,
-    "std_time": 1.4617024574358692,
+    "mean_dist": 377.4062057210673,
+    "mean_time": 6.346153846153858,
+    "std_dist": 783.985154051273,
+    "std_time": 1.4102517482440373,
     "city": "Nampo",
     "admin": "",
     "country": "Korea, North",
@@ -4023,7 +4249,8 @@
       "Virginia",
       "Massachusetts",
       "Mazovia",
-      "Mazovia"
+      "Mazovia",
+      "Michigan"
     ],
     "countries": [
       "Australia",
@@ -4037,7 +4264,8 @@
       "United States",
       "United States",
       "Poland",
-      "Poland"
+      "Poland",
+      "United States"
     ],
     "dists": [
       133.83804548493438,
@@ -4051,7 +4279,8 @@
       3089.7176229616443,
       137.77145159703613,
       188.98556885448426,
-      194.49906973519495
+      194.49906973519495,
+      119.38670004951109
     ],
     "times": [
       6.233333333333347,
@@ -4065,7 +4294,8 @@
       2.53333333333336,
       7.333333333333343,
       6.133333333333347,
-      8.366666666666672
+      8.366666666666672,
+      5.900000000000015
     ]
   },
   "Krak\u00f3w, Poland": {
@@ -4137,10 +4367,13 @@
     ]
   },
   "Accra, Ghana": {
-    "mean_dist": 571.972417943701,
-    "mean_time": 5.200000000000017,
-    "std_dist": 464.59829726810034,
-    "std_time": 1.9667877283158803,
+    "mean_dist": 648.0075491814777,
+    "mean_time": 5.603703703703719,
+    "std_dist": 438.0249897347884,
+    "std_time": 1.8938134787922998,
+    "city": "Accra",
+    "admin": "Greater Accra",
+    "country": "Ghana",
     "regions": [
       "New South Wales",
       "Ontario",
@@ -4148,7 +4381,9 @@
       "Massachusetts",
       "Massachusetts",
       "Ontario",
-      "New Jersey"
+      "New Jersey",
+      "Auckland",
+      "Maine"
     ],
     "countries": [
       "Australia",
@@ -4157,6 +4392,8 @@
       "United States",
       "United States",
       "Canada",
+      "United States",
+      "New Zealand",
       "United States"
     ],
     "dists": [
@@ -4166,7 +4403,9 @@
       201.38100200459724,
       389.23240216069894,
       451.8684476795841,
-      1528.5774308603832
+      1528.5774308603832,
+      784.2849605064014,
+      1043.9760565209913
     ],
     "times": [
       6.800000000000011,
@@ -4175,48 +4414,57 @@
       7.1333333333333435,
       3.8666666666666885,
       6.833333333333345,
-      2.0000000000000284
+      2.0000000000000284,
+      7.20000000000001,
+      6.833333333333345
     ]
   },
   "Cotonou, Benin": {
-    "mean_dist": 551.9840402075023,
-    "mean_time": 5.6066666666666825,
-    "std_dist": 588.1341329225625,
-    "std_time": 1.6565559989863785,
+    "mean_dist": 1303.01886970997,
+    "mean_time": 5.4222222222222385,
+    "std_dist": 1763.09898782971,
+    "std_time": 1.5674544906461865,
+    "city": "Cotonou",
+    "admin": "Littoral",
+    "country": "Benin",
     "regions": [
       "New South Wales",
       "Ontario",
       "Washington, D.C.",
       "Massachusetts",
-      "Massachusetts"
+      "Massachusetts",
+      "Karnataka"
     ],
     "countries": [
       "Australia",
       "Canada",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "India"
     ],
     "dists": [
       318.6586652427522,
       85.34398619047954,
       581.8224644080924,
       1671.8690790317426,
-      102.22600616444507
+      102.22600616444507,
+      5058.193017222308
     ],
     "times": [
       7.6000000000000085,
       5.700000000000015,
       2.9333333333333584,
       7.000000000000011,
-      4.8000000000000185
+      4.8000000000000185,
+      4.5000000000000195
     ]
   },
   "Barnaul, Russia": {
-    "mean_dist": 2653.1480801243674,
-    "mean_time": 5.016666666666683,
-    "std_dist": 1155.8066534751426,
-    "std_time": 2.375862416517884,
+    "mean_dist": 2468.905609437608,
+    "mean_time": 5.000000000000016,
+    "std_dist": 1161.3438162936457,
+    "std_time": 2.1999999999999953,
     "city": "Barnaul",
     "admin": "Altayskiy Kray",
     "country": "Russia",
@@ -4226,7 +4474,8 @@
       "Washington, D.C.",
       "Massachusetts",
       "Massachusetts",
-      "Mazovia"
+      "Mazovia",
+      "Saxony"
     ],
     "countries": [
       "Australia",
@@ -4234,7 +4483,8 @@
       "United States",
       "United States",
       "United States",
-      "Poland"
+      "Poland",
+      "Germany"
     ],
     "dists": [
       4689.723158549445,
@@ -4242,7 +4492,8 @@
       2780.28495806651,
       2647.6328923643964,
       2392.161221227248,
-      708.6302257280594
+      708.6302257280594,
+      1363.4507853170537
     ],
     "times": [
       4.833333333333352,
@@ -4250,7 +4501,8 @@
       5.43333333333335,
       7.266666666666676,
       5.133333333333351,
-      0.16666666666669216
+      0.16666666666669216,
+      4.900000000000018
     ]
   },
   "Guangzhou, Guangdong, China": {
@@ -4288,37 +4540,44 @@
     ]
   },
   "San Jose, California, USA": {
-    "mean_dist": 342.97886949222186,
-    "mean_time": 6.140000000000013,
-    "std_dist": 154.92473156286817,
-    "std_time": 1.210582963332584,
+    "mean_dist": 290.18769743950355,
+    "mean_time": 6.050000000000014,
+    "std_dist": 184.217081025858,
+    "std_time": 1.123280579044813,
+    "city": "San Jose",
+    "admin": "California",
+    "country": "USA",
     "regions": [
       "New South Wales",
       "Washington, D.C.",
       "Massachusetts",
       "Virginia",
-      "Massachusetts"
+      "Massachusetts",
+      "Saxony"
     ],
     "countries": [
       "Australia",
       "United States",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Germany"
     ],
     "dists": [
       374.2234370030021,
       568.3194569943013,
       374.1652737333715,
       85.35010786812535,
-      312.8360718623092
+      312.8360718623092,
+      26.231837175911835
     ],
     "times": [
       7.166666666666677,
       4.0333333333333545,
       7.366666666666676,
       6.466666666666679,
-      5.666666666666682
+      5.666666666666682,
+      5.600000000000016
     ]
   },
   "Luxembourg, Luxembourg": {
@@ -4397,10 +4656,10 @@
     ]
   },
   "At Taif, Saudi Arabia": {
-    "mean_dist": 506.8943970230946,
-    "mean_time": 6.483333333333346,
-    "std_dist": 313.2314370431782,
-    "std_time": 1.086491124198884,
+    "mean_dist": 486.0204417216689,
+    "mean_time": 6.45641025641027,
+    "std_dist": 309.50827395105006,
+    "std_time": 1.048024973228302,
     "city": "At Taif",
     "admin": "Makkah al Mukarramah",
     "country": "Saudi Arabia",
@@ -4416,7 +4675,8 @@
       "Virginia",
       "Massachusetts",
       "Ontario",
-      "New South Wales"
+      "New South Wales",
+      "Michigan"
     ],
     "countries": [
       "Australia",
@@ -4430,7 +4690,8 @@
       "United States",
       "United States",
       "Canada",
-      "Australia"
+      "Australia",
+      "United States"
     ],
     "dists": [
       399.67287517766135,
@@ -4444,7 +4705,8 @@
       522.9465767536832,
       176.87190297575034,
       477.3248181984387,
-      200.75968223433895
+      200.75968223433895,
+      235.53297810456007
     ],
     "times": [
       7.30000000000001,
@@ -4458,7 +4720,8 @@
       5.566666666666682,
       7.30000000000001,
       5.966666666666681,
-      7.6000000000000085
+      7.6000000000000085,
+      6.133333333333347
     ]
   },
   "Chandrapur, Mah\u0101r\u0101shtra, India": {
@@ -4575,10 +4838,10 @@
     ]
   },
   "Rome, Italy": {
-    "mean_dist": 78.29165865298282,
-    "mean_time": 7.5095238095238175,
-    "std_dist": 37.983707062651106,
-    "std_time": 0.5892460304098273,
+    "mean_dist": 78.22667490327387,
+    "mean_time": 7.576666666666675,
+    "std_dist": 39.13243827676971,
+    "std_time": 0.5050962504535353,
     "city": "Rome",
     "admin": "Lazio",
     "country": "Italy",
@@ -4589,7 +4852,10 @@
       "Virginia",
       "Massachusetts",
       "New South Wales",
-      "\u00cele-de-France"
+      "\u00cele-de-France",
+      "Saxony",
+      "Auckland",
+      "Maine"
     ],
     "countries": [
       "Australia",
@@ -4598,7 +4864,10 @@
       "United States",
       "United States",
       "Australia",
-      "France"
+      "France",
+      "Germany",
+      "New Zealand",
+      "United States"
     ],
     "dists": [
       27.51570719953322,
@@ -4607,7 +4876,10 @@
       109.34821066759424,
       51.31728839337586,
       81.22475229987512,
-      132.8701817437185
+      132.8701817437185,
+      60.289068073435,
+      135.64828365719194,
+      38.28778673123202
     ],
     "times": [
       6.733333333333345,
@@ -4616,7 +4888,10 @@
       7.233333333333343,
       8.200000000000006,
       7.933333333333341,
-      8.166666666666673
+      8.166666666666673,
+      7.633333333333342,
+      7.800000000000008,
+      7.766666666666675
     ]
   },
   "Pekanbaru, Indonesia": {
@@ -4654,10 +4929,13 @@
     ]
   },
   "Bilbao, Spain": {
-    "mean_dist": 269.18924178804167,
-    "mean_time": 6.323809523809537,
-    "std_dist": 226.6969014436309,
-    "std_time": 1.1510815184562342,
+    "mean_dist": 293.1104813428601,
+    "mean_time": 6.703703703703716,
+    "std_dist": 204.87771912505949,
+    "std_time": 1.2401159289142147,
+    "city": "Bilbao",
+    "admin": "Basque Country",
+    "country": "Spain",
     "regions": [
       "New South Wales",
       "Washington, D.C.",
@@ -4665,7 +4943,9 @@
       "Virginia",
       "Massachusetts",
       "Ontario",
-      "New Jersey"
+      "New Jersey",
+      "Auckland",
+      "Maine"
     ],
     "countries": [
       "Australia",
@@ -4674,6 +4954,8 @@
       "United States",
       "United States",
       "Canada",
+      "United States",
+      "New Zealand",
       "United States"
     ],
     "dists": [
@@ -4683,7 +4965,9 @@
       70.93869970759165,
       59.053134340571496,
       54.22725130700415,
-      462.35298172995164
+      462.35298172995164,
+      374.78388487000007,
+      378.88575469944925
     ],
     "times": [
       4.266666666666687,
@@ -4692,7 +4976,9 @@
       6.633333333333345,
       6.2000000000000135,
       7.166666666666677,
-      6.500000000000012
+      6.500000000000012,
+      8.13333333333334,
+      7.933333333333341
     ]
   },
   "Zigong, Sichuan, China": {
@@ -4875,19 +5161,25 @@
     ]
   },
   "Maracay, Venezuela": {
-    "mean_dist": 421.06474771970363,
-    "mean_time": 6.380000000000013,
-    "std_dist": 222.05167492933586,
-    "std_time": 0.9344279295673633,
+    "mean_dist": 354.6366821836811,
+    "mean_time": 6.828571428571441,
+    "std_dist": 220.79295451160291,
+    "std_time": 1.147727716649126,
+    "admin": "Aragua",
+    "country": "Venezuela",
     "regions": [
       "New South Wales",
       "Washington, D.C.",
       "Massachusetts",
       "Virginia",
-      "Massachusetts"
+      "Massachusetts",
+      "Washington",
+      "California"
     ],
     "countries": [
       "Australia",
+      "United States",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -4898,14 +5190,18 @@
       179.93499561663418,
       565.3141861725835,
       783.2376392090658,
-      313.1570379157033
+      313.1570379157033,
+      282.0810400744913,
+      95.05199661275861
     ],
     "times": [
       6.900000000000011,
       5.2666666666666835,
       5.23333333333335,
       7.366666666666676,
-      7.1333333333333435
+      7.1333333333333435,
+      7.1333333333333435,
+      8.766666666666671
     ]
   },
   "Skopje, Macedonia": {
@@ -4959,6 +5255,9 @@
     "mean_time": 6.320000000000013,
     "std_dist": 466.7612495095776,
     "std_time": 0.9327617297276075,
+    "city": "Zaozhuang",
+    "admin": "Shandong",
+    "country": "China",
     "regions": [
       "New South Wales",
       "Washington, D.C.",
@@ -5268,37 +5567,48 @@
     ]
   },
   "Dahuk, Iraq": {
-    "mean_dist": 345.41771951540983,
-    "mean_time": 6.1600000000000135,
-    "std_dist": 116.05231166893661,
-    "std_time": 1.6334557777233392,
+    "mean_dist": 339.34257744857456,
+    "mean_time": 6.428571428571442,
+    "std_dist": 126.8371698258145,
+    "std_time": 1.5400915836948734,
+    "city": "Dahuk",
+    "admin": "Dah\u016bk",
+    "country": "Iraq",
     "regions": [
       "New South Wales",
       "Washington, D.C.",
       "Massachusetts",
       "Virginia",
-      "Massachusetts"
+      "Massachusetts",
+      "England",
+      "England"
     ],
     "countries": [
       "Australia",
       "United States",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "United Kingdom",
+      "United Kingdom"
     ],
     "dists": [
       186.4995579813391,
       516.0213540911033,
       432.10050457543247,
       278.51283009748937,
-      313.95435083168485
+      313.95435083168485,
+      473.53192884698547,
+      174.7775157159875
     ],
     "times": [
       7.6000000000000085,
       6.300000000000013,
       7.033333333333344,
       6.866666666666678,
-      3.000000000000025
+      3.000000000000025,
+      8.100000000000007,
+      6.100000000000014
     ]
   },
   "Honiara, Solomon Islands": {
@@ -5576,17 +5886,21 @@
     ]
   },
   "Campinas, Brazil": {
-    "mean_dist": 1268.5839935812623,
-    "mean_time": 6.5111111111111235,
-    "std_dist": 715.7633898329016,
-    "std_time": 1.2667641288040485,
+    "mean_dist": 1125.2359183364404,
+    "mean_time": 6.595238095238107,
+    "std_dist": 749.9473838457043,
+    "std_time": 1.1907618704844123,
+    "city": "Campinas",
+    "admin": "S\u00e3o Paulo",
+    "country": "Brazil",
     "regions": [
       "New South Wales",
       "Washington, D.C.",
       "Massachusetts",
       "Virginia",
       "Massachusetts",
-      "New Jersey"
+      "New Jersey",
+      "Saxony"
     ],
     "countries": [
       "Australia",
@@ -5594,7 +5908,8 @@
       "United States",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Germany"
     ],
     "dists": [
       2217.3700452368453,
@@ -5602,7 +5917,8 @@
       1897.3354233005948,
       563.8317962046061,
       1655.6334079761518,
-      227.38486346563747
+      227.38486346563747,
+      265.14746686750914
     ],
     "times": [
       7.566666666666675,
@@ -5610,7 +5926,8 @@
       7.033333333333344,
       7.066666666666677,
       6.766666666666678,
-      3.7333333333333556
+      3.7333333333333556,
+      7.10000000000001
     ]
   },
   "Porto, Portugal": {
@@ -5777,20 +6094,25 @@
     ]
   },
   "Maiduguri, Nigeria": {
-    "mean_dist": 789.6903361915146,
-    "mean_time": 6.755555555555568,
-    "std_dist": 348.4167582217767,
-    "std_time": 0.8592991689326772,
+    "mean_dist": 752.0386724075378,
+    "mean_time": 6.790476190476203,
+    "std_dist": 335.4967812189858,
+    "std_time": 0.800141710804786,
+    "city": "Maiduguri",
+    "admin": "Borno",
+    "country": "Nigeria",
     "regions": [
       "New South Wales",
       "Washington, D.C.",
       "Massachusetts",
       "Virginia",
       "Massachusetts",
-      "New Jersey"
+      "New Jersey",
+      "Ohio"
     ],
     "countries": [
       "Australia",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -5803,7 +6125,8 @@
       849.6125469949059,
       1255.5376973846253,
       866.3119624119861,
-      994.3562856800272
+      994.3562856800272,
+      526.1286897036773
     ],
     "times": [
       7.333333333333343,
@@ -5811,7 +6134,8 @@
       7.933333333333341,
       7.4333333333333425,
       5.666666666666682,
-      6.36666666666668
+      6.36666666666668,
+      7.000000000000011
     ]
   },
   "Jodhpur, R\u0101jasth\u0101n, India": {
@@ -5998,10 +6322,10 @@
     ]
   },
   "Nottingham, UK": {
-    "mean_dist": 109.40519777487718,
-    "mean_time": 6.033333333333347,
-    "std_dist": 102.04128704035897,
-    "std_time": 0.8695464973830357,
+    "mean_dist": 106.60021605406683,
+    "mean_time": 5.9037037037037186,
+    "std_dist": 96.53202376155754,
+    "std_time": 0.898069870586589,
     "city": "Nottingham",
     "admin": "Nottingham",
     "country": "UK",
@@ -6013,7 +6337,8 @@
       "Massachusetts",
       "New Jersey",
       "England",
-      "England"
+      "England",
+      "Michigan"
     ],
     "countries": [
       "Australia",
@@ -6023,7 +6348,8 @@
       "United States",
       "United States",
       "United Kingdom",
-      "United Kingdom"
+      "United Kingdom",
+      "United States"
     ],
     "dists": [
       217.8714894628904,
@@ -6033,7 +6359,8 @@
       77.91157702389171,
       131.18251199002344,
       31.7497501362546,
-      25.113968959719184
+      25.113968959719184,
+      84.16036228758412
     ],
     "times": [
       6.966666666666677,
@@ -6043,7 +6370,8 @@
       4.8000000000000185,
       6.833333333333345,
       5.33333333333335,
-      4.8000000000000185
+      4.8000000000000185,
+      4.866666666666685
     ]
   },
   "Virginia Beach, Virginia, USA": {
@@ -6128,21 +6456,27 @@
     ]
   },
   "Agadir, Morocco": {
-    "mean_dist": 468.7781697204935,
-    "mean_time": 6.400000000000013,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 367.58253700655337,
+    "mean_time": 6.866666666666678,
+    "std_dist": 101.19563271394011,
+    "std_time": 0.466666666666665,
+    "admin": "Souss-Massa",
+    "country": "Morocco",
     "regions": [
-      "Ontario"
+      "Ontario",
+      "Washington"
     ],
     "countries": [
-      "Canada"
+      "Canada",
+      "United States"
     ],
     "dists": [
-      468.7781697204935
+      468.7781697204935,
+      266.3869042926133
     ],
     "times": [
-      6.400000000000013
+      6.400000000000013,
+      7.333333333333343
     ]
   },
   "Toluca, M\u00e9xico, Mexico": {
@@ -6575,36 +6909,39 @@
     ]
   },
   "Hong Kong, Hong Kong": {
-    "mean_dist": 595.4650960083981,
-    "mean_time": 6.183333333333348,
-    "std_dist": 245.69386999479858,
-    "std_time": 0.870663859107262,
-    "city": "Hong Kong",
+    "mean_dist": 497.77466048070863,
+    "mean_time": 6.240000000000014,
+    "std_dist": 294.0511298682176,
+    "std_time": 0.7869491018413355,
     "admin": "",
     "country": "Hong Kong",
     "regions": [
       "Ontario",
       "New Jersey",
       "Ontario",
-      "New South Wales"
+      "New South Wales",
+      "Washington"
     ],
     "countries": [
       "Canada",
       "United States",
       "Canada",
-      "Australia"
+      "Australia",
+      "United States"
     ],
     "dists": [
       263.97885428173214,
       954.1423955963551,
       617.6445618680895,
-      546.0945722874159
+      546.0945722874159,
+      107.0129183699511
     ],
     "times": [
       7.066666666666677,
       5.43333333333335,
       5.200000000000017,
-      7.033333333333344
+      7.033333333333344,
+      6.466666666666679
     ]
   },
   "Palermo, Italy": {
@@ -6728,32 +7065,36 @@
     ]
   },
   "Dayton, Ohio, USA": {
-    "mean_dist": 97.00321583203468,
-    "mean_time": 6.9777777777777885,
-    "std_dist": 45.36348375931863,
-    "std_time": 0.5619630496178554,
+    "mean_dist": 435.8736708599636,
+    "mean_time": 7.058333333333344,
+    "std_dist": 588.254145855848,
+    "std_time": 0.5062800059694661,
     "city": "Dayton",
     "admin": "Ohio",
     "country": "USA",
     "regions": [
       "Ontario",
       "New Jersey",
-      "New Jersey"
+      "New Jersey",
+      "Karnataka"
     ],
     "countries": [
       "Canada",
       "United States",
-      "United States"
+      "United States",
+      "India"
     ],
     "dists": [
       40.16934155970607,
       151.19226075104837,
-      99.64804518534959
+      99.64804518534959,
+      1452.4850359437505
     ],
     "times": [
       7.766666666666675,
       6.500000000000012,
-      6.6666666666666785
+      6.6666666666666785,
+      7.30000000000001
     ]
   },
   "Siping, Jilin, China": {
@@ -6823,32 +7164,43 @@
     ]
   },
   "Sharjah, United Arab Emirates": {
-    "mean_dist": 122.89842634423478,
-    "mean_time": 3.7555555555555755,
-    "std_dist": 75.41535963983266,
-    "std_time": 1.9577639046046447,
-    "city": "Sharjah",
+    "mean_dist": 93.75678620355677,
+    "mean_time": 5.377777777777793,
+    "std_dist": 63.904408395690595,
+    "std_time": 2.164756993176405,
     "admin": "Ash Sh\u0101riqah",
     "country": "United Arab Emirates",
     "regions": [
       "Ontario",
       "New Jersey",
-      "Mazovia"
+      "Mazovia",
+      "Washington",
+      "Ontario",
+      "Washington"
     ],
     "countries": [
       "Canada",
       "United States",
-      "Poland"
+      "Poland",
+      "United States",
+      "Canada",
+      "United States"
     ],
     "dists": [
       152.5476466613289,
       196.79758698781976,
-      19.35004538355565
+      19.35004538355565,
+      75.36574709297153,
+      92.19008675566234,
+      26.28960434000234
     ],
     "times": [
       4.900000000000018,
       5.366666666666683,
-      1.0000000000000253
+      1.0000000000000253,
+      7.1333333333333435,
+      6.300000000000013,
+      7.566666666666675
     ]
   },
   "Mal\u00e9, Maldives": {
@@ -6885,25 +7237,32 @@
     ]
   },
   "Le\u00f3n, Guanajuato, Mexico": {
-    "mean_dist": 487.2864780905751,
-    "mean_time": 6.21666666666668,
-    "std_dist": 28.774994797349194,
-    "std_time": 0.7166666666666641,
+    "mean_dist": 521.8082370660586,
+    "mean_time": 6.333333333333346,
+    "std_dist": 54.18029072071382,
+    "std_time": 0.6079717342357513,
+    "city": "Le\u00f3n",
+    "admin": "Guanajuato",
+    "country": "Mexico",
     "regions": [
       "Ontario",
-      "New Jersey"
+      "New Jersey",
+      "Michigan"
     ],
     "countries": [
       "Canada",
+      "United States",
       "United States"
     ],
     "dists": [
       458.5114832932259,
-      516.0614728879243
+      516.0614728879243,
+      590.8517550170257
     ],
     "times": [
       6.933333333333344,
-      5.500000000000016
+      5.500000000000016,
+      6.566666666666679
     ]
   },
   "Saarbr\u00fccken, Germany": {
@@ -7338,10 +7697,10 @@
     ]
   },
   "Noum\u00e9a, New Caledonia": {
-    "mean_dist": 2289.136899547731,
-    "mean_time": 4.541666666666686,
-    "std_dist": 739.8695830535764,
-    "std_time": 2.137934491252915,
+    "mean_dist": 6084.573976826647,
+    "mean_time": 4.633333333333352,
+    "std_dist": 6252.269395360579,
+    "std_time": 2.070873853840086,
     "city": "Noum\u00e9a",
     "admin": "Province Sud",
     "country": "New Caledonia",
@@ -7349,25 +7708,33 @@
       "Ontario",
       "New Jersey",
       "California",
-      "California"
+      "California",
+      "Auckland",
+      "Maine"
     ],
     "countries": [
       "Canada",
       "United States",
       "United States",
+      "United States",
+      "New Zealand",
       "United States"
     ],
     "dists": [
       1820.9391858348624,
       3321.925300479708,
       1396.7654551775288,
-      2616.9176566988253
+      2616.9176566988253,
+      19129.41440659473,
+      8221.481856174227
     ],
     "times": [
       1.7000000000000275,
       7.166666666666677,
       3.3666666666666902,
-      5.933333333333348
+      5.933333333333348,
+      2.9000000000000252,
+      6.733333333333345
     ]
   },
   "Valletta, Malta": {
@@ -7558,10 +7925,10 @@
     ]
   },
   "Johannesburg, South Africa": {
-    "mean_dist": 462.259253774126,
-    "mean_time": 7.10000000000001,
-    "std_dist": 295.4218304202932,
-    "std_time": 0.39327683210006864,
+    "mean_dist": 401.39362045762886,
+    "mean_time": 6.988888888888899,
+    "std_dist": 302.0786456688973,
+    "std_time": 0.436597393430854,
     "city": "Johannesburg",
     "admin": "Gauteng",
     "country": "South Africa",
@@ -7570,28 +7937,32 @@
       "New Jersey",
       "Ontario",
       "New South Wales",
-      "Mazovia"
+      "Mazovia",
+      "Ohio"
     ],
     "countries": [
       "Canada",
       "United States",
       "Canada",
       "Australia",
-      "Poland"
+      "Poland",
+      "United States"
     ],
     "dists": [
       86.66235110755535,
       625.1083693288099,
       856.9630643096779,
       151.69945042947538,
-      590.8630336951119
+      590.8630336951119,
+      97.0654538751429
     ],
     "times": [
       6.900000000000011,
       7.666666666666675,
       6.800000000000011,
       7.466666666666676,
-      6.6666666666666785
+      6.6666666666666785,
+      6.433333333333346
     ]
   },
   "Naha, Japan": {
@@ -7675,10 +8046,10 @@
     ]
   },
   "Omsk, Russia": {
-    "mean_dist": 1563.4714694255817,
-    "mean_time": 6.538888888888901,
-    "std_dist": 1132.37080612486,
-    "std_time": 0.9661716484771125,
+    "mean_dist": 1608.4331665686702,
+    "mean_time": 6.6857142857142975,
+    "std_dist": 1054.1406203431877,
+    "std_time": 0.9640946312732377,
     "city": "Omsk",
     "admin": "Omskaya Oblast\u2019",
     "country": "Russia",
@@ -7688,12 +8059,14 @@
       "Ontario",
       "New Jersey",
       "New York",
-      "Georgia"
+      "Georgia",
+      "Michigan"
     ],
     "countries": [
       "Canada",
       "United States",
       "Canada",
+      "United States",
       "United States",
       "United States",
       "United States"
@@ -7704,7 +8077,8 @@
       1158.7667707374944,
       275.1439110064753,
       1538.9545318720095,
-      3581.3404329801265
+      3581.3404329801265,
+      1878.2033494272018
     ],
     "times": [
       4.766666666666685,
@@ -7712,7 +8086,8 @@
       7.033333333333344,
       7.233333333333343,
       7.633333333333342,
-      5.833333333333348
+      5.833333333333348,
+      7.566666666666675
     ]
   },
   "Doha, Qatar": {
@@ -7811,69 +8186,94 @@
     ]
   },
   "Taichung, Taiwan": {
-    "mean_dist": 59.00184554709149,
-    "mean_time": 7.016666666666677,
-    "std_dist": 25.216201680104653,
-    "std_time": 0.5833333333333313,
+    "mean_dist": 56.77334241706401,
+    "mean_time": 7.2888888888888985,
+    "std_dist": 20.828754255809272,
+    "std_time": 0.6124228346453608,
+    "city": "Taichung",
+    "admin": "Taichung",
+    "country": "Taiwan",
     "regions": [
       "Ontario",
-      "New Jersey"
+      "New Jersey",
+      "England"
     ],
     "countries": [
       "Canada",
-      "United States"
+      "United States",
+      "United Kingdom"
     ],
     "dists": [
       33.78564386698684,
-      84.21804722719614
+      84.21804722719614,
+      52.31633615700904
     ],
     "times": [
       6.433333333333346,
-      7.6000000000000085
+      7.6000000000000085,
+      7.833333333333341
     ]
   },
   "Chi\u0219in\u0103u, Moldova": {
-    "mean_dist": 872.2954979026466,
-    "mean_time": 6.416666666666679,
-    "std_dist": 841.428345601231,
-    "std_time": 0.5166666666666648,
+    "mean_dist": 487.5849825929634,
+    "mean_time": 5.983333333333348,
+    "std_dist": 711.2922360319702,
+    "std_time": 0.5727613425813174,
+    "city": "Chi\u0219in\u0103u",
+    "admin": "Chi\u015fin\u0103u",
+    "country": "Moldova",
     "regions": [
       "Ontario",
-      "New Jersey"
+      "New Jersey",
+      "Saxony",
+      "England"
     ],
     "countries": [
       "Canada",
-      "United States"
+      "United States",
+      "Germany",
+      "United Kingdom"
     ],
     "dists": [
       30.867152301415754,
-      1713.7238435038776
+      1713.7238435038776,
+      191.5720891105396,
+      14.176845456020924
     ],
     "times": [
       5.900000000000015,
-      6.933333333333344
+      6.933333333333344,
+      5.43333333333335,
+      5.666666666666682
     ]
   },
   "San Diego, California, USA": {
-    "mean_dist": 481.96256672149605,
-    "mean_time": 7.400000000000009,
-    "std_dist": 246.80310624312094,
-    "std_time": 0.5999999999999979,
+    "mean_dist": 655.6136875462736,
+    "mean_time": 6.022222222222236,
+    "std_dist": 317.67479025187345,
+    "std_time": 2.00911503151923,
+    "city": "San Diego",
+    "admin": "California",
+    "country": "USA",
     "regions": [
       "Ontario",
-      "New Jersey"
+      "New Jersey",
+      "Lubusz"
     ],
     "countries": [
       "Canada",
-      "United States"
+      "United States",
+      "Poland"
     ],
     "dists": [
       235.1594604783751,
-      728.765672964617
+      728.765672964617,
+      1002.9159291958285
     ],
     "times": [
       6.800000000000011,
-      8.000000000000007
+      8.000000000000007,
+      3.2666666666666906
     ]
   },
   "Thessaloniki, Greece": {
@@ -7910,32 +8310,35 @@
     ]
   },
   "Victoria, Seychelles": {
-    "mean_dist": 7695.295584656101,
-    "mean_time": 5.455555555555573,
-    "std_dist": 4392.030362107156,
-    "std_time": 1.2395738017062687,
-    "city": "Victoria",
+    "mean_dist": 5810.774101556119,
+    "mean_time": 5.7333333333333485,
+    "std_dist": 5012.156390920918,
+    "std_time": 1.1763880690014155,
     "admin": "",
     "country": "Seychelles",
     "regions": [
       "Ontario",
       "New Jersey",
-      "Massachusetts"
+      "Massachusetts",
+      "Washington"
     ],
     "countries": [
       "Canada",
+      "United States",
       "United States",
       "United States"
     ],
     "dists": [
       12301.004286027768,
       1783.3580302897735,
-      9001.52443765076
+      9001.52443765076,
+      157.2096522561732
     ],
     "times": [
       5.533333333333349,
       6.933333333333344,
-      3.9000000000000217
+      3.9000000000000217,
+      6.566666666666679
     ]
   },
   "Tongliao, Inner Mongolia, China": {
@@ -7965,29 +8368,36 @@
     ]
   },
   "Nukualofa, Tonga": {
-    "mean_dist": 17365.895971227204,
-    "mean_time": 2.6444444444444657,
-    "std_dist": 1987.1093293370102,
-    "std_time": 2.8628311981560786,
+    "mean_dist": 17680.95589638633,
+    "mean_time": 3.650000000000019,
+    "std_dist": 1805.336778658614,
+    "std_time": 3.029897321325879,
+    "city": "Nukualofa",
+    "admin": "Tongatapu",
+    "country": "Tonga",
     "regions": [
       "Ontario",
       "New Jersey",
-      "New York"
+      "New York",
+      "England"
     ],
     "countries": [
       "Canada",
       "United States",
-      "United States"
+      "United States",
+      "United Kingdom"
     ],
     "dists": [
       19363.27747678193,
       18079.150185748218,
-      14655.260251151469
+      14655.260251151469,
+      18626.135671863714
     ],
     "times": [
       0.23333333333335882,
       6.6666666666666785,
-      1.0333333333333588
+      1.0333333333333588,
+      6.6666666666666785
     ]
   },
   "Pune, Mah\u0101r\u0101shtra, India": {
@@ -8017,10 +8427,10 @@
     ]
   },
   "Oyo, Nigeria": {
-    "mean_dist": 445.240059791328,
-    "mean_time": 6.033333333333347,
-    "std_dist": 151.62123169767173,
-    "std_time": 1.406492880260049,
+    "mean_dist": 437.189354411427,
+    "mean_time": 6.2000000000000135,
+    "std_dist": 139.57638602871083,
+    "std_time": 1.336939567597352,
     "city": "Oyo",
     "admin": "Oyo",
     "country": "Nigeria",
@@ -8029,28 +8439,32 @@
       "New Jersey",
       "New York",
       "New South Wales",
-      "Washington"
+      "Washington",
+      "England"
     ],
     "countries": [
       "Canada",
       "United States",
       "United States",
       "Australia",
-      "United States"
+      "United States",
+      "United Kingdom"
     ],
     "dists": [
       288.63293444449033,
       339.0013030289436,
       514.8527312777201,
       375.0977620653005,
-      708.6155681401854
+      708.6155681401854,
+      396.9358275119223
     ],
     "times": [
       4.8000000000000185,
       6.633333333333345,
       4.000000000000021,
       7.766666666666675,
-      6.966666666666677
+      6.966666666666677,
+      7.033333333333344
     ]
   },
   "Cardiff, UK": {
@@ -8113,29 +8527,36 @@
     ]
   },
   "Hannover, Germany": {
-    "mean_dist": 163.13907399228455,
-    "mean_time": 7.122222222222232,
-    "std_dist": 45.961745110339464,
-    "std_time": 0.1749779527558174,
+    "mean_dist": 150.52539921478123,
+    "mean_time": 6.97500000000001,
+    "std_dist": 45.4056811904494,
+    "std_time": 0.2966245288426271,
+    "city": "Hannover",
+    "admin": "Lower Saxony",
+    "country": "Germany",
     "regions": [
       "Ontario",
       "New Jersey",
-      "New York"
+      "New York",
+      "Saxony"
     ],
     "countries": [
       "Canada",
       "United States",
-      "United States"
+      "United States",
+      "Germany"
     ],
     "dists": [
       118.2940017938854,
       226.30977133861276,
-      144.81344884435546
+      144.81344884435546,
+      112.68437488227127
     ],
     "times": [
       7.033333333333344,
       7.366666666666676,
-      6.966666666666677
+      6.966666666666677,
+      6.533333333333346
     ]
   },
   "Los Angeles, California, USA": {
@@ -8423,29 +8844,40 @@
     ]
   },
   "Lusaka, Zambia": {
-    "mean_dist": 3324.5556291403395,
-    "mean_time": 5.800000000000015,
-    "std_dist": 427.03797312848894,
-    "std_time": 0.9265627439728582,
+    "mean_dist": 2711.869966842449,
+    "mean_time": 4.820000000000018,
+    "std_dist": 993.4554428520879,
+    "std_time": 1.4271338798834174,
+    "city": "Lusaka",
+    "admin": "Lusaka",
+    "country": "Zambia",
     "regions": [
       "Ontario",
       "New Jersey",
-      "New York"
+      "New York",
+      "Lubusz",
+      "England"
     ],
     "countries": [
       "Canada",
       "United States",
-      "United States"
+      "United States",
+      "Poland",
+      "United Kingdom"
     ],
     "dists": [
       3270.595368201094,
       2830.615071385682,
-      3872.4564478342436
+      3872.4564478342436,
+      2679.4942767212956,
+      906.1886700699287
     ],
     "times": [
       5.566666666666682,
       4.8000000000000185,
-      7.033333333333344
+      7.033333333333344,
+      2.9000000000000252,
+      3.800000000000022
     ]
   },
   "Ikare, Nigeria": {
@@ -8564,24 +8996,31 @@
     ]
   },
   "Abidjan, C\u00f4te D\u2019Ivoire": {
-    "mean_dist": 5273.969621701922,
-    "mean_time": 5.7333333333333485,
-    "std_dist": 0,
-    "std_time": 0,
-    "city": "Abidjan",
+    "mean_dist": 2105.7911169566655,
+    "mean_time": 5.63333333333335,
+    "std_dist": 2241.21256532592,
+    "std_time": 0.3474776838024852,
     "admin": "Abidjan",
     "country": "C\u00f4te D\u2019Ivoire",
     "regions": [
-      "Nevada"
+      "Nevada",
+      "New York",
+      "Washington"
     ],
     "countries": [
+      "United States",
+      "United States",
       "United States"
     ],
     "dists": [
-      5273.969621701922
+      5273.969621701922,
+      440.8664390901997,
+      602.5372900778754
     ],
     "times": [
-      5.7333333333333485
+      5.7333333333333485,
+      6.000000000000014,
+      5.166666666666684
     ]
   },
   "Kaifeng, Henan, China": {
@@ -8698,45 +9137,64 @@
     ]
   },
   "Busan, Korea, South": {
-    "mean_dist": 159.94415817015587,
-    "mean_time": 5.100000000000017,
-    "std_dist": 0,
-    "std_time": 0,
-    "city": "Busan",
+    "mean_dist": 106.90179296796128,
+    "mean_time": 7.108333333333344,
+    "std_dist": 55.12333350927236,
+    "std_time": 1.302428287639835,
     "admin": "Busan",
     "country": "Korea, South",
     "regions": [
-      "Georgia"
+      "Georgia",
+      "Washington",
+      "California",
+      "Ontario"
     ],
     "countries": [
-      "United States"
+      "United States",
+      "United States",
+      "United States",
+      "Canada"
     ],
     "dists": [
-      159.94415817015587
+      159.94415817015587,
+      15.361645327444043,
+      115.65790509688661,
+      136.6434632773586
     ],
     "times": [
-      5.100000000000017
+      5.100000000000017,
+      7.666666666666675,
+      8.666666666666671,
+      7.000000000000011
     ]
   },
   "Zaragoza, Spain": {
-    "mean_dist": 252.3871767006136,
-    "mean_time": 3.300000000000024,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 339.0829468618036,
+    "mean_time": 5.222222222222239,
+    "std_dist": 110.04599010694774,
+    "std_time": 1.6520096254166063,
     "city": "Zaragoza",
     "admin": "Aragon",
     "country": "Spain",
     "regions": [
-      "Georgia"
+      "Georgia",
+      "Ohio",
+      "Texas"
     ],
     "countries": [
+      "United States",
+      "United States",
       "United States"
     ],
     "dists": [
-      252.3871767006136
+      252.3871767006136,
+      270.5020041765087,
+      494.3596597082885
     ],
     "times": [
-      3.300000000000024
+      3.300000000000024,
+      7.333333333333343,
+      5.033333333333351
     ]
   },
   "Olinda, Brazil": {
@@ -8824,11 +9282,10 @@
     ]
   },
   "Morelia, Michoac\u00e1n de Ocampo, Mexico": {
-    "mean_dist": 514.7690658770026,
-    "mean_time": 6.233333333333346,
-    "std_dist": 188.63861724140173,
-    "std_time": 1.7416467303484113,
-    "city": "Morelia",
+    "mean_dist": 470.2988379361611,
+    "mean_time": 6.111111111111125,
+    "std_dist": 186.4207795753543,
+    "std_time": 1.7500617273064096,
     "admin": "Michoac\u00e1n de Ocampo",
     "country": "Mexico",
     "regions": [
@@ -8837,7 +9294,10 @@
       "New South Wales",
       "Ontario",
       "New South Wales",
-      "Mazovia"
+      "Mazovia",
+      "Washington",
+      "California",
+      "Ontario"
     ],
     "countries": [
       "United States",
@@ -8845,7 +9305,10 @@
       "Australia",
       "Canada",
       "Australia",
-      "Poland"
+      "Poland",
+      "United States",
+      "United States",
+      "Canada"
     ],
     "dists": [
       398.7830659738166,
@@ -8853,7 +9316,10 @@
       826.6682960981694,
       459.0452094170726,
       252.51821008504498,
-      684.0659679333248
+      684.0659679333248,
+      196.325072030039,
+      395.4072532794333,
+      552.3428208539611
     ],
     "times": [
       6.533333333333346,
@@ -8861,7 +9327,10 @@
       7.033333333333344,
       4.466666666666686,
       7.466666666666676,
-      8.466666666666672
+      8.466666666666672,
+      6.16666666666668,
+      7.833333333333341,
+      3.6000000000000227
     ]
   },
   "San Jos\u00e9, Costa Rica": {
@@ -9156,10 +9625,10 @@
     ]
   },
   "Aguascalientes, Aguascalientes, Mexico": {
-    "mean_dist": 4518.658147132523,
-    "mean_time": 6.866666666666678,
-    "std_dist": 6682.576582229286,
-    "std_time": 2.714774392099636,
+    "mean_dist": 3677.476278791949,
+    "mean_time": 6.933333333333344,
+    "std_dist": 6209.332618276069,
+    "std_time": 2.4318260171685258,
     "city": "Aguascalientes",
     "admin": "Aguascalientes",
     "country": "Mexico",
@@ -9167,25 +9636,29 @@
       "New Jersey",
       "New South Wales",
       "Ohio",
-      "Andalusia"
+      "Andalusia",
+      "Ohio"
     ],
     "countries": [
       "United States",
       "Australia",
       "United States",
-      "Spain"
+      "Spain",
+      "United States"
     ],
     "dists": [
       16085.192557124214,
       768.9158683313162,
       270.47237939404664,
-      950.051783680513
+      950.051783680513,
+      312.74880542965695
     ],
     "times": [
       9.966666666666667,
       7.500000000000009,
       2.5000000000000266,
-      7.500000000000009
+      7.500000000000009,
+      7.20000000000001
     ]
   },
   "Kiev, Ukraine": {
@@ -9613,32 +10086,36 @@
     ]
   },
   "Songnam, Korea, South": {
-    "mean_dist": 117.07104123795905,
-    "mean_time": 6.933333333333344,
-    "std_dist": 17.497677453086716,
-    "std_time": 1.4616074357693591,
+    "mean_dist": 934.0364914599002,
+    "mean_time": 5.641666666666682,
+    "std_dist": 1415.1068041339518,
+    "std_time": 2.570492278836004,
     "city": "Songnam",
     "admin": "Gyeonggi",
     "country": "Korea, South",
     "regions": [
       "Ohio",
       "New South Wales",
-      "Andalusia"
+      "Andalusia",
+      "Karnataka"
     ],
     "countries": [
       "United States",
       "Australia",
-      "Spain"
+      "Spain",
+      "India"
     ],
     "dists": [
       95.29851938026191,
       138.14165503507883,
-      117.77294929853642
+      117.77294929853642,
+      3384.9328421257237
     ],
     "times": [
       4.866666666666685,
       7.933333333333341,
-      8.000000000000007
+      8.000000000000007,
+      1.7666666666666944
     ]
   },
   "S\u00e3o Jos\u00e9 dos Pinhais, Brazil": {
@@ -9700,28 +10177,32 @@
     ]
   },
   "Semarang, Indonesia": {
-    "mean_dist": 793.3846523899936,
-    "mean_time": 7.2166666666666766,
-    "std_dist": 216.6326890830697,
-    "std_time": 0.5833333333333313,
+    "mean_dist": 718.2261287402101,
+    "mean_time": 7.322222222222233,
+    "std_dist": 206.35912549244043,
+    "std_time": 0.4991350543381361,
     "city": "Semarang",
     "admin": "Jawa Tengah",
     "country": "Indonesia",
     "regions": [
       "Ohio",
-      "New South Wales"
+      "New South Wales",
+      "England"
     ],
     "countries": [
       "United States",
-      "Australia"
+      "Australia",
+      "United Kingdom"
     ],
     "dists": [
       1010.0173414730632,
-      576.7519633069238
+      576.7519633069238,
+      567.9090814406429
     ],
     "times": [
       6.633333333333345,
-      7.800000000000008
+      7.800000000000008,
+      7.533333333333342
     ]
   },
   "Tunis, Tunisia": {
@@ -9779,32 +10260,36 @@
     ]
   },
   "Isfahan, Iran": {
-    "mean_dist": 310.1115661551376,
-    "mean_time": 7.233333333333344,
-    "std_dist": 25.787327870139798,
-    "std_time": 0.4996294923537119,
+    "mean_dist": 264.65545067219557,
+    "mean_time": 7.141666666666677,
+    "std_dist": 81.83834683940803,
+    "std_time": 0.46090189363415945,
     "city": "Isfahan",
     "admin": "E\u015ffah\u0101n",
     "country": "Iran",
     "regions": [
       "Ohio",
       "New South Wales",
-      "\u00cele-de-France"
+      "\u00cele-de-France",
+      "Ohio"
     ],
     "countries": [
       "United States",
       "Australia",
-      "France"
+      "France",
+      "United States"
     ],
     "dists": [
       280.55915424592314,
       343.39373414321454,
-      306.3818100762751
+      306.3818100762751,
+      128.28710422336957
     ],
     "times": [
       7.500000000000009,
       6.533333333333346,
-      7.666666666666675
+      7.666666666666675,
+      6.866666666666678
     ]
   },
   "Palembang, Indonesia": {
@@ -10837,24 +11322,28 @@
     ]
   },
   "Maputo, Mozambique": {
-    "mean_dist": 1016.8247980048126,
-    "mean_time": 3.7333333333333556,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 847.0640277194361,
+    "mean_time": 5.750000000000015,
+    "std_dist": 169.76077028537645,
+    "std_time": 2.0166666666666595,
     "city": "Maputo",
     "admin": "Maputo",
     "country": "Mozambique",
     "regions": [
-      "Ontario"
+      "Ontario",
+      "England"
     ],
     "countries": [
-      "Canada"
+      "Canada",
+      "United Kingdom"
     ],
     "dists": [
-      1016.8247980048126
+      1016.8247980048126,
+      677.3032574340597
     ],
     "times": [
-      3.7333333333333556
+      3.7333333333333556,
+      7.766666666666675
     ]
   },
   "Helsinki, Finland": {
@@ -10883,24 +11372,35 @@
     ]
   },
   "Xiangtan, Hunan, China": {
-    "mean_dist": 560.8914297885354,
-    "mean_time": 4.8000000000000185,
-    "std_dist": 0,
-    "std_time": 0,
-    "city": "Xiangtan",
+    "mean_dist": 794.7915545327044,
+    "mean_time": 6.633333333333345,
+    "std_dist": 593.9794541739404,
+    "std_time": 1.219972677289669,
     "admin": "Hunan",
     "country": "China",
     "regions": [
+      "Ontario",
+      "Washington",
+      "California",
       "Ontario"
     ],
     "countries": [
+      "Canada",
+      "United States",
+      "United States",
       "Canada"
     ],
     "dists": [
-      560.8914297885354
+      560.8914297885354,
+      650.1652557225246,
+      189.07702869837914,
+      1779.0325039213783
     ],
     "times": [
-      4.8000000000000185
+      4.8000000000000185,
+      6.800000000000011,
+      8.23333333333334,
+      6.700000000000012
     ]
   },
   "Jamshedpur, Jharkhand, India": {
@@ -11000,24 +11500,28 @@
     ]
   },
   "Stuttgart, Germany": {
-    "mean_dist": 270.46599646401063,
-    "mean_time": 1.5333333333333603,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 268.82366072973014,
+    "mean_time": 5.033333333333349,
+    "std_dist": 1.6423357342804934,
+    "std_time": 3.499999999999989,
     "city": "Stuttgart",
     "admin": "Baden-W\u00fcrttemberg",
     "country": "Germany",
     "regions": [
-      "Ontario"
+      "Ontario",
+      "England"
     ],
     "countries": [
-      "Canada"
+      "Canada",
+      "United Kingdom"
     ],
     "dists": [
-      270.46599646401063
+      270.46599646401063,
+      267.18132499544964
     ],
     "times": [
-      1.5333333333333603
+      1.5333333333333603,
+      8.533333333333339
     ]
   },
   "Aba, Nigeria": {
@@ -11121,45 +11625,53 @@
     ]
   },
   "Daejeon, Korea, South": {
-    "mean_dist": 200.66385035640164,
-    "mean_time": 7.000000000000011,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 136.78329763150032,
+    "mean_time": 6.966666666666677,
+    "std_dist": 63.88055272490131,
+    "std_time": 0.033333333333333215,
     "city": "Daejeon",
     "admin": "Daejeon",
     "country": "Korea, South",
     "regions": [
-      "Ontario"
+      "Ontario",
+      "Ohio"
     ],
     "countries": [
-      "Canada"
+      "Canada",
+      "United States"
     ],
     "dists": [
-      200.66385035640164
+      200.66385035640164,
+      72.90274490659903
     ],
     "times": [
-      7.000000000000011
+      7.000000000000011,
+      6.933333333333344
     ]
   },
   "Pointe-Noire, Congo (Brazzaville)": {
-    "mean_dist": 1898.2654771486398,
-    "mean_time": 4.40000000000002,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 1130.500801355671,
+    "mean_time": 4.366666666666687,
+    "std_dist": 767.7646757929688,
+    "std_time": 0.033333333333333215,
     "city": "Pointe-Noire",
     "admin": "Pointe-Noire",
     "country": "Congo (Brazzaville)",
     "regions": [
-      "Ontario"
+      "Ontario",
+      "Michigan"
     ],
     "countries": [
-      "Canada"
+      "Canada",
+      "United States"
     ],
     "dists": [
-      1898.2654771486398
+      1898.2654771486398,
+      362.7361255627023
     ],
     "times": [
-      4.40000000000002
+      4.40000000000002,
+      4.3333333333333535
     ]
   },
   "Pingdingshan, Henan, China": {
@@ -11259,28 +11771,36 @@
     ]
   },
   "Vaduz, Liechtenstein": {
-    "mean_dist": 188.99126542225306,
-    "mean_time": 7.350000000000009,
-    "std_dist": 127.25512756391826,
-    "std_time": 0.08333333333333304,
+    "mean_dist": 206.78358947328388,
+    "mean_time": 6.833333333333345,
+    "std_dist": 131.29021459397381,
+    "std_time": 0.7261006970263962,
     "city": "Vaduz",
     "admin": "Vaduz",
     "country": "Liechtenstein",
     "regions": [
       "New South Wales",
-      "New South Wales"
+      "New South Wales",
+      "Karnataka",
+      "Michigan"
     ],
     "countries": [
       "Australia",
-      "Australia"
+      "Australia",
+      "India",
+      "United States"
     ],
     "dists": [
       316.2463929861713,
-      61.7361378583348
+      61.7361378583348,
+      91.73299946910248,
+      357.4188275795269
     ],
     "times": [
       7.266666666666676,
-      7.4333333333333425
+      7.4333333333333425,
+      7.033333333333344,
+      5.600000000000016
     ]
   },
   "Quito, Ecuador": {
@@ -11305,49 +11825,61 @@
     ]
   },
   "Bucaramanga, Colombia": {
-    "mean_dist": 539.5627644978016,
-    "mean_time": 7.800000000000008,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 460.48942579507514,
+    "mean_time": 7.850000000000008,
+    "std_dist": 79.07333870272649,
+    "std_time": 0.04999999999999982,
     "city": "Bucaramanga",
     "admin": "Santander",
     "country": "Colombia",
     "regions": [
-      "New South Wales"
+      "New South Wales",
+      "England"
     ],
     "countries": [
-      "Australia"
+      "Australia",
+      "United Kingdom"
     ],
     "dists": [
-      539.5627644978016
+      539.5627644978016,
+      381.4160870923486
     ],
     "times": [
-      7.800000000000008
+      7.800000000000008,
+      7.9000000000000075
     ]
   },
   "Bannu, Pakistan": {
-    "mean_dist": 250.22239168847256,
-    "mean_time": 7.650000000000008,
-    "std_dist": 103.85871090738199,
-    "std_time": 0.2833333333333323,
+    "mean_dist": 305.38087740936874,
+    "mean_time": 5.2250000000000165,
+    "std_dist": 115.57836914062054,
+    "std_time": 2.60110820399476,
     "city": "Bannu",
     "admin": "Khyber Pakhtunkhwa",
     "country": "Pakistan",
     "regions": [
       "New South Wales",
-      "Andalusia"
+      "Andalusia",
+      "Auckland",
+      "England"
     ],
     "countries": [
       "Australia",
-      "Spain"
+      "Spain",
+      "New Zealand",
+      "United Kingdom"
     ],
     "dists": [
       146.36368078109055,
-      354.08110259585453
+      354.08110259585453,
+      459.7621926657268,
+      261.316533594803
     ],
     "times": [
       7.366666666666676,
-      7.933333333333341
+      7.933333333333341,
+      4.100000000000021,
+      1.5000000000000269
     ]
   },
   "Shuozhou, Shanxi, China": {
@@ -11397,24 +11929,32 @@
     ]
   },
   "Recife, Brazil": {
-    "mean_dist": 2417.740251609471,
-    "mean_time": 4.200000000000021,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 5639.879092904866,
+    "mean_time": 7.166666666666676,
+    "std_dist": 5760.624710796183,
+    "std_time": 2.2873241685104047,
     "city": "Recife",
     "admin": "Pernambuco",
     "country": "Brazil",
     "regions": [
-      "Ontario"
+      "Ontario",
+      "Auckland",
+      "Maine"
     ],
     "countries": [
-      "Canada"
+      "Canada",
+      "New Zealand",
+      "United States"
     ],
     "dists": [
-      2417.740251609471
+      2417.740251609471,
+      770.9360480155505,
+      13730.960979089577
     ],
     "times": [
-      4.200000000000021
+      4.200000000000021,
+      7.533333333333342,
+      9.766666666666667
     ]
   },
   "Rajshahi, Bangladesh": {
@@ -11509,28 +12049,32 @@
     ]
   },
   "Cilacap, Indonesia": {
-    "mean_dist": 705.8091752996879,
-    "mean_time": 6.31666666666668,
-    "std_dist": 99.33421056456723,
-    "std_time": 1.2833333333333288,
+    "mean_dist": 708.145714834614,
+    "mean_time": 6.133333333333347,
+    "std_dist": 81.17332747268074,
+    "std_time": 1.079437439217844,
     "city": "Cilacap",
     "admin": "Jawa Tengah",
     "country": "Indonesia",
     "regions": [
       "Ontario",
-      "New South Wales"
+      "New South Wales",
+      "England"
     ],
     "countries": [
       "Canada",
-      "Australia"
+      "Australia",
+      "United Kingdom"
     ],
     "dists": [
       805.1433858642552,
-      606.4749647351207
+      606.4749647351207,
+      712.8187939044659
     ],
     "times": [
       5.033333333333351,
-      7.6000000000000085
+      7.6000000000000085,
+      5.766666666666682
     ]
   },
   "Queens, New York, USA": {
@@ -11588,32 +12132,36 @@
     ]
   },
   "Hamilton, Bermuda": {
-    "mean_dist": 1379.1417395894393,
-    "mean_time": 6.111111111111125,
-    "std_dist": 61.67596617212336,
-    "std_time": 1.5437648384851863,
+    "mean_dist": 1167.9800924025096,
+    "mean_time": 6.175000000000013,
+    "std_dist": 369.6223306708358,
+    "std_time": 1.3415113781767805,
     "city": "Hamilton",
     "admin": "Hamilton",
     "country": "Bermuda",
     "regions": [
       "Ontario",
       "New South Wales",
-      "Andalusia"
+      "Andalusia",
+      "England"
     ],
     "countries": [
       "Canada",
       "Australia",
-      "Spain"
+      "Spain",
+      "United Kingdom"
     ],
     "dists": [
       1462.6972692248294,
       1359.0375140629965,
-      1315.6904354804922
+      1315.6904354804922,
+      534.4951508417208
     ],
     "times": [
       3.933333333333355,
       7.333333333333343,
-      7.066666666666677
+      7.066666666666677,
+      6.36666666666668
     ]
   },
   "Mudangiang, Heilongjiang, China": {
@@ -11671,10 +12219,10 @@
     ]
   },
   "Orlando, Florida, USA": {
-    "mean_dist": 122.70734448792501,
-    "mean_time": 5.975000000000014,
-    "std_dist": 90.1305940828597,
-    "std_time": 2.222657943394192,
+    "mean_dist": 108.95200029682209,
+    "mean_time": 6.433333333333346,
+    "std_dist": 85.18014538051818,
+    "std_time": 2.1891652391823717,
     "city": "Orlando",
     "admin": "Florida",
     "country": "USA",
@@ -11682,50 +12230,58 @@
       "Ontario",
       "New South Wales",
       "New South Wales",
-      "Occitanie"
+      "Occitanie",
+      "England"
     ],
     "countries": [
       "Canada",
       "Australia",
       "Australia",
-      "France"
+      "France",
+      "United Kingdom"
     ],
     "dists": [
       277.5873977459393,
       77.38719372201655,
       82.93843716338218,
-      52.91634932036205
+      52.91634932036205,
+      53.93062353241039
     ],
     "times": [
       5.7333333333333485,
       7.833333333333341,
       7.9000000000000075,
-      2.43333333333336
+      2.43333333333336,
+      8.266666666666673
     ]
   },
   "Mbabane, Swaziland": {
-    "mean_dist": 931.2454612965246,
-    "mean_time": 3.9500000000000166,
-    "std_dist": 875.5673091379497,
-    "std_time": 3.8833333333333244,
+    "mean_dist": 770.1280977129405,
+    "mean_time": 5.277777777777792,
+    "std_dist": 750.3308280909359,
+    "std_time": 3.6850381507983663,
     "city": "Mbabane",
     "admin": "Hhohho",
     "country": "Swaziland",
     "regions": [
       "Ontario",
-      "New South Wales"
+      "New South Wales",
+      "England"
     ],
     "countries": [
       "Canada",
-      "Australia"
+      "Australia",
+      "United Kingdom"
     ],
     "dists": [
       1806.8127704344743,
-      55.67815215857491
+      55.67815215857491,
+      447.89337054577237
     ],
     "times": [
       0.06666666666669219,
-      7.833333333333341
+      7.833333333333341,
+      7.933333333333341
     ]
   },
   "Santos, Brazil": {
@@ -11762,28 +12318,31 @@
     ]
   },
   "Aden, Yemen": {
-    "mean_dist": 517.1603200109839,
-    "mean_time": 6.350000000000013,
-    "std_dist": 191.13089771955916,
-    "std_time": 1.5499999999999945,
-    "city": "Aden",
+    "mean_dist": 566.2946170547308,
+    "mean_time": 6.26666666666668,
+    "std_dist": 170.828486112112,
+    "std_time": 1.27104506432917,
     "admin": "\u2018Adan",
     "country": "Yemen",
     "regions": [
       "Ontario",
-      "New South Wales"
+      "New South Wales",
+      "Washington"
     ],
     "countries": [
       "Canada",
-      "Australia"
+      "Australia",
+      "United States"
     ],
     "dists": [
       708.291217730543,
-      326.02942229142474
+      326.02942229142474,
+      664.5632111422246
     ],
     "times": [
       4.8000000000000185,
-      7.9000000000000075
+      7.9000000000000075,
+      6.100000000000014
     ]
   },
   "Jeddah, Saudi Arabia": {
@@ -11816,28 +12375,32 @@
     ]
   },
   "Bangkok, Thailand": {
-    "mean_dist": 777.1701151990474,
-    "mean_time": 4.700000000000019,
-    "std_dist": 338.31731190076897,
-    "std_time": 0.9666666666666632,
+    "mean_dist": 779.9916644361415,
+    "mean_time": 5.255555555555572,
+    "std_dist": 276.2637471114083,
+    "std_time": 1.1136637345178473,
     "city": "Bangkok",
     "admin": "Krung Thep Maha Nakhon",
     "country": "Thailand",
     "regions": [
       "Ontario",
-      "New South Wales"
+      "New South Wales",
+      "Saxony"
     ],
     "countries": [
       "Canada",
-      "Australia"
+      "Australia",
+      "Germany"
     ],
     "dists": [
       438.85280329827845,
-      1115.4874270998164
+      1115.4874270998164,
+      785.6347629103298
     ],
     "times": [
       3.7333333333333556,
-      5.666666666666682
+      5.666666666666682,
+      6.36666666666668
     ]
   },
   "Concord, California, USA": {
@@ -11903,53 +12466,60 @@
     ]
   },
   "Jaipur, R\u0101jasth\u0101n, India": {
-    "mean_dist": 205.71848656891564,
-    "mean_time": 7.20000000000001,
-    "std_dist": 56.39925322923009,
-    "std_time": 0.9666666666666632,
+    "mean_dist": 281.790514199525,
+    "mean_time": 7.477777777777786,
+    "std_dist": 117.0234618308408,
+    "std_time": 0.8816370855501023,
     "city": "Jaipur",
     "admin": "R\u0101jasth\u0101n",
     "country": "India",
     "regions": [
       "Ontario",
-      "New South Wales"
+      "New South Wales",
+      "England"
     ],
     "countries": [
       "Canada",
-      "Australia"
+      "Australia",
+      "United Kingdom"
     ],
     "dists": [
       149.31923333968555,
-      262.11773979814575
+      262.11773979814575,
+      433.9345694607436
     ],
     "times": [
       6.233333333333347,
-      8.166666666666673
+      8.166666666666673,
+      8.03333333333334
     ]
   },
   "\u014csaka, Japan": {
-    "mean_dist": 68.57639056880701,
-    "mean_time": 5.250000000000017,
-    "std_dist": 12.249587095031728,
-    "std_time": 2.5166666666666577,
-    "city": "\u014csaka",
+    "mean_dist": 140.52575702148192,
+    "mean_time": 6.300000000000014,
+    "std_dist": 102.24215172104141,
+    "std_time": 2.5352332057243494,
     "admin": "\u014csaka",
     "country": "Japan",
     "regions": [
       "Ontario",
-      "New South Wales"
+      "New South Wales",
+      "New York"
     ],
     "countries": [
       "Canada",
-      "Australia"
+      "Australia",
+      "United States"
     ],
     "dists": [
       80.82597766383874,
-      56.326803473775286
+      56.326803473775286,
+      284.42448992683177
     ],
     "times": [
       2.733333333333359,
-      7.766666666666675
+      7.766666666666675,
+      8.400000000000006
     ]
   },
   "Rasht, Iran": {
@@ -11978,28 +12548,36 @@
     ]
   },
   "Bel\u00e9m, Brazil": {
-    "mean_dist": 1827.7518458660284,
-    "mean_time": 7.733333333333341,
-    "std_dist": 549.8800131715598,
-    "std_time": 0.3999999999999986,
+    "mean_dist": 1710.8996334212602,
+    "mean_time": 7.575000000000008,
+    "std_dist": 634.6047718724309,
+    "std_time": 0.6417748826496695,
     "city": "Bel\u00e9m",
     "admin": "Par\u00e1",
     "country": "Brazil",
     "regions": [
       "Louisiana",
-      "Andalusia"
+      "Andalusia",
+      "Michigan",
+      "England"
     ],
     "countries": [
       "United States",
-      "Spain"
+      "Spain",
+      "United States",
+      "United Kingdom"
     ],
     "dists": [
       1277.8718326944686,
-      2377.631859037588
+      2377.631859037588,
+      904.286937203689,
+      2283.8079047492943
     ],
     "times": [
       7.333333333333343,
-      8.13333333333334
+      8.13333333333334,
+      8.200000000000006,
+      6.633333333333345
     ]
   },
   "Kikwit, Congo (Kinshasa)": {
@@ -12187,82 +12765,106 @@
     ]
   },
   "Kigali, Rwanda": {
-    "mean_dist": 1875.9183551772599,
-    "mean_time": 7.183333333333343,
-    "std_dist": 285.3120637020037,
-    "std_time": 0.6499999999999977,
+    "mean_dist": 1345.0176161790112,
+    "mean_time": 7.211111111111122,
+    "std_dist": 1412.4036470618678,
+    "std_time": 0.527982416467408,
     "city": "Kigali",
     "admin": "",
     "country": "Rwanda",
     "regions": [
       "Louisiana",
-      "Andalusia"
+      "Andalusia",
+      "Auckland",
+      "Auckland",
+      "Maine",
+      "Michigan"
     ],
     "countries": [
       "United States",
-      "Spain"
+      "Spain",
+      "New Zealand",
+      "New Zealand",
+      "United States",
+      "United States"
     ],
     "dists": [
       2161.2304188792637,
-      1590.6062914752563
+      1590.6062914752563,
+      3944.790983039418,
+      223.3947578914183,
+      63.86588202839157,
+      86.21736376031993
     ],
     "times": [
       6.533333333333346,
-      7.833333333333341
+      7.833333333333341,
+      6.633333333333345,
+      7.666666666666675,
+      7.666666666666675,
+      6.933333333333344
     ]
   },
   "Yamoussoukro, C\u00f4te D\u2019Ivoire": {
-    "mean_dist": 800.5214682924052,
-    "mean_time": 3.733333333333355,
-    "std_dist": 424.804545183914,
-    "std_time": 2.505697212058647,
+    "mean_dist": 643.4043166478655,
+    "mean_time": 4.266666666666687,
+    "std_dist": 457.60416762674265,
+    "std_time": 2.3584363935078225,
     "city": "Yamoussoukro",
     "admin": "Yamoussoukro",
     "country": "C\u00f4te D\u2019Ivoire",
     "regions": [
       "Louisiana",
       "England",
-      "Ohio"
+      "Ohio",
+      "England"
     ],
     "countries": [
       "United States",
       "United Kingdom",
-      "United States"
+      "United States",
+      "United Kingdom"
     ],
     "dists": [
       1388.1820860231412,
       398.6189558332574,
-      614.7633630208171
+      614.7633630208171,
+      172.05286171424615
     ],
     "times": [
       7.266666666666676,
       1.733333333333361,
-      2.2000000000000277
+      2.2000000000000277,
+      5.866666666666681
     ]
   },
   "George Town, Malaysia": {
-    "mean_dist": 1634.0788555066915,
-    "mean_time": 6.783333333333345,
-    "std_dist": 689.3565367548348,
-    "std_time": 1.3499999999999952,
+    "mean_dist": 1251.0321486387704,
+    "mean_time": 6.466666666666679,
+    "std_dist": 781.1900211402675,
+    "std_time": 1.1897712198383124,
     "city": "George Town",
     "admin": "Pulau Pinang",
     "country": "Malaysia",
     "regions": [
       "Louisiana",
-      "Mazovia"
+      "Mazovia",
+      "England"
     ],
     "countries": [
       "United States",
-      "Poland"
+      "Poland",
+      "United Kingdom"
     ],
     "dists": [
       944.7223187518567,
-      2323.4353922615264
+      2323.4353922615264,
+      484.93873490292816
     ],
     "times": [
       5.43333333333335,
-      8.13333333333334
+      8.13333333333334,
+      5.833333333333348
     ]
   },
   "Lisbon, Portugal": {
@@ -12308,24 +12910,28 @@
     ]
   },
   "Mexico City, Ciudad de M\u00e9xico, Mexico": {
-    "mean_dist": 85.20384019503612,
-    "mean_time": 6.733333333333345,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 99.62581563038597,
+    "mean_time": 7.30000000000001,
+    "std_dist": 14.421975435349843,
+    "std_time": 0.5666666666666647,
     "city": "Mexico City",
     "admin": "Ciudad de M\u00e9xico",
     "country": "Mexico",
     "regions": [
-      "Louisiana"
+      "Louisiana",
+      "Ohio"
     ],
     "countries": [
+      "United States",
       "United States"
     ],
     "dists": [
-      85.20384019503612
+      85.20384019503612,
+      114.04779106573581
     ],
     "times": [
-      6.733333333333345
+      6.733333333333345,
+      7.866666666666674
     ]
   },
   "Zhuzhou, Hunan, China": {
@@ -12375,24 +12981,27 @@
     ]
   },
   "Edmonton, Alberta, Canada": {
-    "mean_dist": 70.17597804183048,
-    "mean_time": 7.500000000000009,
-    "std_dist": 0,
-    "std_time": 0,
-    "city": "Edmonton",
+    "mean_dist": 175.41896256346752,
+    "mean_time": 6.533333333333346,
+    "std_dist": 105.24298452163704,
+    "std_time": 0.9666666666666632,
     "admin": "Alberta",
     "country": "Canada",
     "regions": [
-      "Louisiana"
+      "Louisiana",
+      "New York"
     ],
     "countries": [
+      "United States",
       "United States"
     ],
     "dists": [
-      70.17597804183048
+      70.17597804183048,
+      280.66194708510454
     ],
     "times": [
-      7.500000000000009
+      7.500000000000009,
+      5.566666666666682
     ]
   },
   "Natal, Brazil": {
@@ -12460,16 +13069,49 @@
     ]
   },
   "Z\u00fcrich, Switzerland": {
-    "regions": [],
-    "countries": [],
-    "dists": [],
-    "times": []
+    "mean_dist": 718.6919591523523,
+    "mean_time": 7.966666666666674,
+    "std_dist": 176.12089086430444,
+    "std_time": 0.09999999999999964,
+    "city": "Z\u00fcrich",
+    "admin": "Z\u00fcrich",
+    "country": "Switzerland",
+    "regions": [
+      "Auckland",
+      "Maine"
+    ],
+    "countries": [
+      "New Zealand",
+      "United States"
+    ],
+    "dists": [
+      542.5710682880479,
+      894.8128500166567
+    ],
+    "times": [
+      7.866666666666674,
+      8.066666666666674
+    ]
   },
   "Haifa, Israel": {
-    "regions": [],
-    "countries": [],
-    "dists": [],
-    "times": []
+    "mean_dist": 70.20950574572969,
+    "mean_time": 5.066666666666684,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Haifa",
+    "country": "Israel",
+    "regions": [
+      "New York"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      70.20950574572969
+    ],
+    "times": [
+      5.066666666666684
+    ]
   },
   "Fez, Morocco": {
     "mean_dist": 2170.9327484900195,
@@ -12518,24 +13160,28 @@
     ]
   },
   "Jincheng, Shanxi, China": {
-    "mean_dist": 384.7540081105638,
-    "mean_time": 4.433333333333353,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 446.17926295837026,
+    "mean_time": 4.25000000000002,
+    "std_dist": 61.42525484780646,
+    "std_time": 0.18333333333333268,
     "city": "Jincheng",
     "admin": "Shanxi",
     "country": "China",
     "regions": [
-      "California"
+      "California",
+      "Michigan"
     ],
     "countries": [
+      "United States",
       "United States"
     ],
     "dists": [
-      384.7540081105638
+      384.7540081105638,
+      507.6045178061767
     ],
     "times": [
-      4.433333333333353
+      4.433333333333353,
+      4.066666666666688
     ]
   },
   "Chiclayo, Peru": {
@@ -12585,24 +13231,28 @@
     ]
   },
   "San Salvador, El Salvador": {
-    "mean_dist": 384.64328432628605,
-    "mean_time": 7.6000000000000085,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 226.5846991954346,
+    "mean_time": 6.700000000000012,
+    "std_dist": 158.05858513085144,
+    "std_time": 0.8999999999999968,
     "city": "San Salvador",
     "admin": "San Salvador",
     "country": "El Salvador",
     "regions": [
-      "New South Wales"
+      "New South Wales",
+      "Michigan"
     ],
     "countries": [
-      "Australia"
+      "Australia",
+      "United States"
     ],
     "dists": [
-      384.64328432628605
+      384.64328432628605,
+      68.52611406458318
     ],
     "times": [
-      7.6000000000000085
+      7.6000000000000085,
+      5.800000000000015
     ]
   },
   "Izhevsk, Russia": {
@@ -12761,66 +13411,80 @@
     ]
   },
   "Amman, Jordan": {
-    "mean_dist": 579.696032504769,
-    "mean_time": 7.233333333333343,
-    "std_dist": 0,
-    "std_time": 0,
-    "city": "Amman",
+    "mean_dist": 358.396216382776,
+    "mean_time": 7.15000000000001,
+    "std_dist": 221.29981612199308,
+    "std_time": 0.08333333333333304,
     "admin": "Al \u2018\u0100\u015fimah",
     "country": "Jordan",
     "regions": [
-      "New Jersey"
+      "New Jersey",
+      "New York"
     ],
     "countries": [
+      "United States",
       "United States"
     ],
     "dists": [
-      579.696032504769
+      579.696032504769,
+      137.09640026078293
     ],
     "times": [
-      7.233333333333343
+      7.233333333333343,
+      7.066666666666677
     ]
   },
   "Ciudad Guayana, Venezuela": {
-    "mean_dist": 862.1091241907739,
-    "mean_time": 3.500000000000023,
-    "std_dist": 0,
-    "std_time": 0,
-    "city": "Ciudad Guayana",
+    "mean_dist": 387.93618348523955,
+    "mean_time": 3.755555555555576,
+    "std_dist": 336.34963512469653,
+    "std_time": 2.1712487162124696,
     "admin": "Bol\u00edvar",
     "country": "Venezuela",
     "regions": [
-      "New Jersey"
+      "New Jersey",
+      "Michigan",
+      "Washington"
     ],
     "countries": [
+      "United States",
+      "United States",
       "United States"
     ],
     "dists": [
-      862.1091241907739
+      862.1091241907739,
+      118.19037603304362,
+      183.50905023190117
     ],
     "times": [
-      3.500000000000023
+      3.500000000000023,
+      1.2333333333333594,
+      6.533333333333346
     ]
   },
   "Bhubaneshwar, Odisha, India": {
-    "mean_dist": 795.04920625633,
-    "mean_time": 6.133333333333347,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 534.8872119510136,
+    "mean_time": 7.033333333333344,
+    "std_dist": 260.1619943053164,
+    "std_time": 0.8999999999999968,
     "city": "Bhubaneshwar",
     "admin": "Odisha",
     "country": "India",
     "regions": [
-      "New Jersey"
+      "New Jersey",
+      "Ohio"
     ],
     "countries": [
+      "United States",
       "United States"
     ],
     "dists": [
-      795.04920625633
+      795.04920625633,
+      274.72521764569717
     ],
     "times": [
-      6.133333333333347
+      6.133333333333347,
+      7.933333333333341
     ]
   },
   "Kyoto, Japan": {
@@ -12916,24 +13580,28 @@
     ]
   },
   "Baoji, Shaanxi, China": {
-    "mean_dist": 564.4806937804656,
-    "mean_time": 7.4333333333333425,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 5049.18455852454,
+    "mean_time": 7.233333333333343,
+    "std_dist": 4484.703864744074,
+    "std_time": 0.1999999999999993,
     "city": "Baoji",
     "admin": "Shaanxi",
     "country": "China",
     "regions": [
-      "New Jersey"
+      "New Jersey",
+      "Virginia"
     ],
     "countries": [
+      "United States",
       "United States"
     ],
     "dists": [
-      564.4806937804656
+      564.4806937804656,
+      9533.888423268614
     ],
     "times": [
-      7.4333333333333425
+      7.4333333333333425,
+      7.033333333333344
     ]
   },
   "Surat, Gujar\u0101t, India": {
@@ -12979,99 +13647,122 @@
     ]
   },
   "Vila Velha, Brazil": {
-    "mean_dist": 2297.528512442095,
-    "mean_time": 8.050000000000008,
-    "std_dist": 852.1394191610702,
-    "std_time": 0.5833333333333313,
+    "mean_dist": 2296.3984408990354,
+    "mean_time": 7.022222222222233,
+    "std_dist": 695.7707576844754,
+    "std_time": 1.5295444331040173,
     "city": "Vila Velha",
-    "admin": "Esp\u00edrito Santo",
+    "admin": "Amap\u00e1",
     "country": "Brazil",
     "regions": [
       "New Jersey",
-      "Mazovia"
+      "Mazovia",
+      "Michigan"
     ],
     "countries": [
       "United States",
-      "Poland"
+      "Poland",
+      "United States"
     ],
     "dists": [
       3149.667931603165,
-      1445.3890932810245
+      1445.3890932810245,
+      2294.138297812917
     ],
     "times": [
       7.466666666666676,
-      8.633333333333338
+      8.633333333333338,
+      4.9666666666666845
     ]
   },
   "Cali, Colombia": {
-    "mean_dist": 461.09154803625654,
-    "mean_time": 7.816666666666674,
-    "std_dist": 64.98811786823512,
-    "std_time": 0.18333333333333268,
+    "mean_dist": 424.16434579097023,
+    "mean_time": 7.51111111111112,
+    "std_dist": 74.45047687802705,
+    "std_time": 0.4573136806057023,
     "city": "Cali",
     "admin": "Valle del Cauca",
     "country": "Colombia",
     "regions": [
       "New Jersey",
-      "Andalusia"
+      "Andalusia",
+      "Ohio"
     ],
     "countries": [
       "United States",
-      "Spain"
+      "Spain",
+      "United States"
     ],
     "dists": [
       526.0796659044917,
-      396.1034301680214
+      396.1034301680214,
+      350.30994130039755
     ],
     "times": [
       7.633333333333342,
-      8.000000000000007
+      8.000000000000007,
+      6.900000000000011
     ]
   },
   "Vereeniging, South Africa": {
-    "mean_dist": 710.3682935678078,
-    "mean_time": 6.2833333333333465,
-    "std_dist": 52.94022902140222,
-    "std_time": 0.2499999999999991,
-    "city": "Vereeniging",
+    "mean_dist": 646.895538446855,
+    "mean_time": 6.4583333333333455,
+    "std_dist": 88.90523619033094,
+    "std_time": 0.29849157814287086,
     "admin": "Gauteng",
     "country": "South Africa",
     "regions": [
       "New Jersey",
-      "Occitanie"
+      "Occitanie",
+      "Michigan",
+      "Washington"
     ],
     "countries": [
       "United States",
-      "France"
+      "France",
+      "United States",
+      "United States"
     ],
     "dists": [
       657.4280645464055,
-      763.3085225892099
+      763.3085225892099,
+      513.0805278176398,
+      653.7650388341644
     ],
     "times": [
       6.033333333333347,
-      6.533333333333346
+      6.533333333333346,
+      6.400000000000013,
+      6.866666666666678
     ]
   },
   "Florence, Italy": {
-    "mean_dist": 34.271371680244634,
-    "mean_time": 7.266666666666676,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 198.965776364015,
+    "mean_time": 7.644444444444453,
+    "std_dist": 120.29120431836736,
+    "std_time": 0.2685121327465451,
     "city": "Florence",
     "admin": "Tuscany",
     "country": "Italy",
     "regions": [
-      "New Jersey"
+      "New Jersey",
+      "Auckland",
+      "Maine"
     ],
     "countries": [
+      "United States",
+      "New Zealand",
       "United States"
     ],
     "dists": [
-      34.271371680244634
+      34.271371680244634,
+      318.2152219160177,
+      244.4107354957827
     ],
     "times": [
-      7.266666666666676
+      7.266666666666676,
+      7.800000000000008,
+      7.866666666666674
     ]
   },
   "Warri, Nigeria": {
@@ -13117,24 +13808,28 @@
     ]
   },
   "Minsk, Belarus": {
-    "mean_dist": 22.456066377264563,
-    "mean_time": 7.066666666666677,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 159.39309468208913,
+    "mean_time": 4.466666666666686,
+    "std_dist": 136.93702830482457,
+    "std_time": 2.599999999999991,
     "city": "Minsk",
     "admin": "",
     "country": "Belarus",
     "regions": [
-      "ACT"
+      "ACT",
+      "England"
     ],
     "countries": [
-      "Australia"
+      "Australia",
+      "United Kingdom"
     ],
     "dists": [
-      22.456066377264563
+      22.456066377264563,
+      296.3301229869137
     ],
     "times": [
-      7.066666666666677
+      7.066666666666677,
+      1.8666666666666947
     ]
   },
   "Abu Dhabi, United Arab Emirates": {
@@ -13163,24 +13858,28 @@
     ]
   },
   "Qu\u00e9bec, Qu\u00e9bec, Canada": {
-    "mean_dist": 243.13636193087808,
-    "mean_time": 6.633333333333345,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 177.32403885645863,
+    "mean_time": 5.750000000000015,
+    "std_dist": 65.81232307441944,
+    "std_time": 0.8833333333333302,
     "city": "Qu\u00e9bec",
     "admin": "Qu\u00e9bec",
     "country": "Canada",
     "regions": [
-      "ACT"
+      "ACT",
+      "England"
     ],
     "countries": [
-      "Australia"
+      "Australia",
+      "United Kingdom"
     ],
     "dists": [
-      243.13636193087808
+      243.13636193087808,
+      111.5117157820392
     ],
     "times": [
-      6.633333333333345
+      6.633333333333345,
+      4.866666666666685
     ]
   },
   "Hermosillo, Sonora, Mexico": {
@@ -13247,24 +13946,28 @@
     ]
   },
   "Guatemala, Guatemala": {
-    "mean_dist": 404.7515829052591,
-    "mean_time": 5.866666666666681,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 235.37246696115707,
+    "mean_time": 3.10000000000002,
+    "std_dist": 169.379115944102,
+    "std_time": 2.7666666666666613,
     "city": "Guatemala",
     "admin": "Guatemala",
     "country": "Guatemala",
     "regions": [
-      "ACT"
+      "ACT",
+      "Texas"
     ],
     "countries": [
-      "Australia"
+      "Australia",
+      "United States"
     ],
     "dists": [
-      404.7515829052591
+      404.7515829052591,
+      65.99335101705505
     ],
     "times": [
-      5.866666666666681
+      5.866666666666681,
+      0.3333333333333588
     ]
   },
   "Warsaw, Poland": {
@@ -13310,24 +14013,28 @@
     ]
   },
   "Abuja, Nigeria": {
-    "mean_dist": 261.83922697883855,
-    "mean_time": 7.9000000000000075,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 252.2441056528263,
+    "mean_time": 7.766666666666675,
+    "std_dist": 9.595121326012247,
+    "std_time": 0.13333333333333286,
     "city": "Abuja",
     "admin": "Federal Capital Territory",
     "country": "Nigeria",
     "regions": [
-      "New South Wales"
+      "New South Wales",
+      "Saxony"
     ],
     "countries": [
-      "Australia"
+      "Australia",
+      "Germany"
     ],
     "dists": [
-      261.83922697883855
+      261.83922697883855,
+      242.64898432681406
     ],
     "times": [
-      7.9000000000000075
+      7.9000000000000075,
+      7.633333333333342
     ]
   },
   "Puerto la Cruz, Venezuela": {
@@ -13532,24 +14239,28 @@
     ]
   },
   "Dhaka, Bangladesh": {
-    "mean_dist": 158.55637574329867,
-    "mean_time": 7.800000000000008,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 1150.9995930074763,
+    "mean_time": 5.716666666666682,
+    "std_dist": 992.4432172641776,
+    "std_time": 2.083333333333326,
     "city": "Dhaka",
     "admin": "Dhaka",
     "country": "Bangladesh",
     "regions": [
-      "New South Wales"
+      "New South Wales",
+      "Karnataka"
     ],
     "countries": [
-      "Australia"
+      "Australia",
+      "India"
     ],
     "dists": [
-      158.55637574329867
+      158.55637574329867,
+      2143.442810271654
     ],
     "times": [
-      7.800000000000008
+      7.800000000000008,
+      3.633333333333356
     ]
   },
   "Mosul, Iraq": {
@@ -13632,32 +14343,44 @@
     ]
   },
   "Islamabad, Pakistan": {
-    "mean_dist": 1587.3775834112366,
-    "mean_time": 6.777777777777789,
-    "std_dist": 2001.552558933523,
-    "std_time": 1.0740485309861805,
+    "mean_dist": 1020.8317080370866,
+    "mean_time": 6.788888888888899,
+    "std_dist": 1545.6643315917872,
+    "std_time": 0.9270955575556923,
     "city": "Islamabad",
     "admin": "Isl\u0101m\u0101b\u0101d",
     "country": "Pakistan",
     "regions": [
       "New South Wales",
       "Washington",
-      "Mazovia"
+      "Mazovia",
+      "Karnataka",
+      "Michigan",
+      "Ohio"
     ],
     "countries": [
       "Australia",
       "United States",
-      "Poland"
+      "Poland",
+      "India",
+      "United States",
+      "United States"
     ],
     "dists": [
       176.07418389356957,
       4417.996578246022,
-      168.0619880941181
+      168.0619880941181,
+      429.13618355932584,
+      907.9033345798075,
+      25.817979849675528
     ],
     "times": [
       7.666666666666675,
       5.2666666666666835,
-      7.400000000000009
+      7.400000000000009,
+      5.933333333333348,
+      6.700000000000012,
+      7.766666666666675
     ]
   },
   "Sacramento, California, USA": {
@@ -13898,10 +14621,10 @@
     ]
   },
   "Ad Damman, Saudi Arabia": {
-    "mean_dist": 1063.2030258628056,
-    "mean_time": 4.891666666666685,
-    "std_dist": 384.7865251457992,
-    "std_time": 1.9267668659065968,
+    "mean_dist": 2441.44243120343,
+    "mean_time": 5.120833333333351,
+    "std_dist": 3870.405481785697,
+    "std_time": 1.4603022423076921,
     "city": "Ad Damman",
     "admin": "Ash Sharq\u012byah",
     "country": "Saudi Arabia",
@@ -13909,75 +14632,106 @@
       "New South Wales",
       "Washington",
       "England",
+      "England",
+      "Auckland",
+      "Maine",
+      "Texas",
       "England"
     ],
     "countries": [
       "Australia",
       "United States",
       "United Kingdom",
+      "United Kingdom",
+      "New Zealand",
+      "United States",
+      "United States",
       "United Kingdom"
     ],
     "dists": [
       983.6788248164405,
       1553.189321085619,
       1219.6295836296547,
-      496.3143739195083
+      496.3143739195083,
+      680.3207865975612,
+      12649.21819633376,
+      1126.8563587140895,
+      822.3320045308079
     ],
     "times": [
       7.866666666666674,
       3.4333333333333567,
       2.9666666666666917,
-      5.300000000000017
+      5.300000000000017,
+      6.333333333333346,
+      5.000000000000018,
+      4.533333333333353,
+      5.533333333333349
     ]
   },
   "Belmopan, Belize": {
-    "mean_dist": 1700.8176662566611,
-    "mean_time": 4.916666666666685,
-    "std_dist": 1633.7653474746783,
-    "std_time": 2.0499999999999927,
-    "city": "Belmopan",
+    "mean_dist": 1487.4783659690147,
+    "mean_time": 5.55833333333335,
+    "std_dist": 1409.1062140787262,
+    "std_time": 1.8689532126597195,
     "admin": "Cayo",
     "country": "Belize",
     "regions": [
       "New South Wales",
+      "Washington",
+      "Lubusz",
       "Washington"
     ],
     "countries": [
       "Australia",
+      "United States",
+      "Poland",
       "United States"
     ],
     "dists": [
       67.0523187819828,
-      3334.5830137313396
+      3334.5830137313396,
+      2374.568127641775,
+      173.71000372096165
     ],
     "times": [
       6.966666666666677,
-      2.866666666666692
+      2.866666666666692,
+      4.8000000000000185,
+      7.6000000000000085
     ]
   },
   "Guilin, Guangxi, China": {
-    "mean_dist": 815.7904375656752,
-    "mean_time": 7.183333333333343,
-    "std_dist": 332.01693714451915,
-    "std_time": 0.8833333333333302,
+    "mean_dist": 770.1508951274363,
+    "mean_time": 5.650000000000014,
+    "std_dist": 345.5816312393965,
+    "std_time": 2.9483045975611066,
     "city": "Guilin",
     "admin": "Guangxi",
     "country": "China",
     "regions": [
       "Mazovia",
-      "Andalusia"
+      "Andalusia",
+      "Ohio",
+      "England"
     ],
     "countries": [
       "Poland",
-      "Spain"
+      "Spain",
+      "United States",
+      "United Kingdom"
     ],
     "dists": [
       483.7735004211561,
-      1147.8073747101944
+      1147.8073747101944,
+      1077.2891091895094,
+      371.7335961888859
     ],
     "times": [
       6.300000000000013,
-      8.066666666666674
+      8.066666666666674,
+      7.566666666666675,
+      0.666666666666692
     ]
   },
   "Bakersfield, California, USA": {
@@ -14341,24 +15095,28 @@
     ]
   },
   "Detroit, Michigan, USA": {
-    "mean_dist": 618.2421871391771,
-    "mean_time": 7.800000000000008,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 316.55468933931826,
+    "mean_time": 7.933333333333341,
+    "std_dist": 301.6874977998588,
+    "std_time": 0.13333333333333286,
     "city": "Detroit",
     "admin": "Michigan",
     "country": "USA",
     "regions": [
-      "Mazovia"
+      "Mazovia",
+      "England"
     ],
     "countries": [
-      "Poland"
+      "Poland",
+      "United Kingdom"
     ],
     "dists": [
-      618.2421871391771
+      618.2421871391771,
+      14.867191539459407
     ],
     "times": [
-      7.800000000000008
+      7.800000000000008,
+      8.066666666666674
     ]
   },
   "Kashgar, Xinjiang, China": {
@@ -14404,24 +15162,32 @@
     ]
   },
   "Stockholm, Sweden": {
-    "mean_dist": 97.97732713363511,
-    "mean_time": 8.03333333333334,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 54.885781896081376,
+    "mean_time": 8.166666666666673,
+    "std_dist": 31.678460316509554,
+    "std_time": 0.12472191289246427,
     "city": "Stockholm",
     "admin": "Stockholm",
     "country": "Sweden",
     "regions": [
-      "Mazovia"
+      "Mazovia",
+      "England",
+      "England"
     ],
     "countries": [
-      "Poland"
+      "Poland",
+      "United Kingdom",
+      "United Kingdom"
     ],
     "dists": [
-      97.97732713363511
+      97.97732713363511,
+      43.952564050633185,
+      22.727454503975842
     ],
     "times": [
-      8.03333333333334
+      8.03333333333334,
+      8.13333333333334,
+      8.33333333333334
     ]
   },
   "Weihai, Shandong, China": {
@@ -14508,36 +15274,43 @@
     ]
   },
   "Faisalabad, Pakistan": {
-    "mean_dist": 809.165274031328,
-    "mean_time": 7.916666666666674,
-    "std_dist": 1221.9652158705885,
-    "std_time": 0.2544056253745616,
-    "city": "Faisalabad",
+    "mean_dist": 623.4336310190394,
+    "mean_time": 6.638888888888901,
+    "std_dist": 1033.9639793692832,
+    "std_time": 2.1806740944425433,
     "admin": "Punjab",
     "country": "Pakistan",
     "regions": [
       "New South Wales",
       "Mazovia",
       "New South Wales",
-      "Mazovia"
+      "Mazovia",
+      "England",
+      "Washington"
     ],
     "countries": [
       "Australia",
       "Poland",
       "Australia",
-      "Poland"
+      "Poland",
+      "United Kingdom",
+      "United States"
     ],
     "dists": [
       163.93144331984257,
       2923.7630951535625,
       22.377397952501518,
-      126.58915969940504
+      126.58915969940504,
+      134.20322306343684,
+      369.7374669254876
     ],
     "times": [
       7.800000000000008,
       7.566666666666675,
       8.23333333333334,
-      8.066666666666674
+      8.066666666666674,
+      2.0000000000000284,
+      6.16666666666668
     ]
   },
   "Ashgabat, Turkmenistan": {
@@ -14566,28 +15339,32 @@
     ]
   },
   "Hamhung, Korea, North": {
-    "mean_dist": 64.36312286455697,
-    "mean_time": 8.250000000000007,
-    "std_dist": 10.34596151642149,
-    "std_time": 0.08333333333333304,
+    "mean_dist": 95.74551438598102,
+    "mean_time": 7.6111111111111205,
+    "std_dist": 45.17818361784162,
+    "std_time": 0.906083690572224,
     "city": "Hamhung",
     "admin": "Hamnam",
     "country": "Korea, North",
     "regions": [
       "New South Wales",
-      "Mazovia"
+      "Mazovia",
+      "Michigan"
     ],
     "countries": [
       "Australia",
-      "Poland"
+      "Poland",
+      "United States"
     ],
     "dists": [
       54.017161348135474,
-      74.70908438097845
+      74.70908438097845,
+      158.51029742882912
     ],
     "times": [
       8.166666666666673,
-      8.33333333333334
+      8.33333333333334,
+      6.333333333333346
     ]
   },
   "Ottawa, Ontario, Canada": {
@@ -14791,28 +15568,32 @@
     ]
   },
   "Lima, Peru": {
-    "mean_dist": 2279.061341755547,
-    "mean_time": 7.25000000000001,
-    "std_dist": 1986.008900258899,
-    "std_time": 0.18333333333333268,
+    "mean_dist": 1549.7789254990985,
+    "mean_time": 5.65555555555557,
+    "std_dist": 1921.7682621117622,
+    "std_time": 2.2598481321201382,
     "city": "Lima",
     "admin": "Lima",
     "country": "Peru",
     "regions": [
       "New South Wales",
-      "Mazovia"
+      "Mazovia",
+      "England"
     ],
     "countries": [
       "Australia",
-      "Poland"
+      "Poland",
+      "United Kingdom"
     ],
     "dists": [
       293.0524414966479,
-      4265.070242014446
+      4265.070242014446,
+      91.21409298620173
     ],
     "times": [
       7.4333333333333425,
-      7.066666666666677
+      7.066666666666677,
+      2.4666666666666934
     ]
   },
   "Yaroslavl, Russia": {
@@ -14841,10 +15622,10 @@
     ]
   },
   "Calgary, Alberta, Canada": {
-    "mean_dist": 1844.0095800543909,
-    "mean_time": 5.946666666666681,
-    "std_dist": 841.1603274309796,
-    "std_time": 2.5566123418826368,
+    "mean_dist": 4314.75287230457,
+    "mean_time": 6.622222222222234,
+    "std_dist": 5577.856905780757,
+    "std_time": 2.7800657244206857,
     "city": "Calgary",
     "admin": "Alberta",
     "country": "Canada",
@@ -14853,28 +15634,32 @@
       "Mazovia",
       "\u00cele-de-France",
       "England",
-      "Ohio"
+      "Ohio",
+      "Auckland"
     ],
     "countries": [
       "Australia",
       "Poland",
       "France",
       "United Kingdom",
-      "United States"
+      "United States",
+      "New Zealand"
     ],
     "dists": [
       2330.596451896509,
       1993.5019458713832,
       327.77936098404274,
       2828.3055126172626,
-      1739.8646289027583
+      1739.8646289027583,
+      16668.469333555462
     ],
     "times": [
       8.366666666666672,
       7.766666666666675,
       7.933333333333341,
       2.53333333333336,
-      3.1333333333333577
+      3.1333333333333577,
+      10
     ]
   },
   "Raurkela, Odisha, India": {
@@ -14982,53 +15767,61 @@
     ]
   },
   "N\u00fcrnberg, Germany": {
-    "mean_dist": 134.85264679562664,
-    "mean_time": 8.066666666666674,
-    "std_dist": 48.13832002772233,
-    "std_time": 0.033333333333333215,
+    "mean_dist": 132.8865260860122,
+    "mean_time": 8.188888888888895,
+    "std_dist": 39.40300112957334,
+    "std_time": 0.1749779527558174,
     "city": "N\u00fcrnberg",
     "admin": "Bavaria",
     "country": "Germany",
     "regions": [
       "New South Wales",
-      "Mazovia"
+      "Mazovia",
+      "England"
     ],
     "countries": [
       "Australia",
-      "Poland"
+      "Poland",
+      "United Kingdom"
     ],
     "dists": [
       86.71432676790431,
-      182.99096682334897
+      182.99096682334897,
+      128.95428466678337
     ],
     "times": [
       8.100000000000007,
-      8.03333333333334
+      8.03333333333334,
+      8.433333333333339
     ]
   },
   "Columbia, South Carolina, USA": {
-    "mean_dist": 1003.7638621192706,
-    "mean_time": 7.9833333333333405,
-    "std_dist": 638.8343620337074,
-    "std_time": 0.04999999999999982,
+    "mean_dist": 707.552523838201,
+    "mean_time": 7.2888888888888985,
+    "std_dist": 668.9956715823109,
+    "std_time": 0.9829409135376175,
     "city": "Columbia",
     "admin": "South Carolina",
     "country": "USA",
     "regions": [
       "New South Wales",
-      "Mazovia"
+      "Mazovia",
+      "Texas"
     ],
     "countries": [
       "Australia",
-      "Poland"
+      "Poland",
+      "United States"
     ],
     "dists": [
       364.9295000855631,
-      1642.598224152978
+      1642.598224152978,
+      115.12984727606144
     ],
     "times": [
       8.03333333333334,
-      7.933333333333341
+      7.933333333333341,
+      5.900000000000015
     ]
   },
   "Juba, South Sudan": {
@@ -15295,28 +16088,32 @@
     ]
   },
   "Hisar, Hary\u0101na, India": {
-    "mean_dist": 224.07337185292502,
-    "mean_time": 6.5833333333333455,
-    "std_dist": 175.96430032956394,
-    "std_time": 0.7833333333333306,
+    "mean_dist": 451.5276807615416,
+    "mean_time": 6.8222222222222335,
+    "std_dist": 352.29705544588563,
+    "std_time": 0.7233324799448771,
     "city": "Hisar",
     "admin": "Hary\u0101na",
     "country": "India",
     "regions": [
       "California",
-      "Lombardy"
+      "Lombardy",
+      "Saxony"
     ],
     "countries": [
       "United States",
-      "Italy"
+      "Italy",
+      "Germany"
     ],
     "dists": [
       400.03767218248896,
-      48.109071523361074
+      48.109071523361074,
+      906.4362985787748
     ],
     "times": [
       5.800000000000015,
-      7.366666666666676
+      7.366666666666676,
+      7.30000000000001
     ]
   },
   "Zagreb, Croatia": {
@@ -15345,70 +16142,80 @@
     ]
   },
   "Huainan, Anhui, China": {
-    "mean_dist": 3683.0234180592765,
-    "mean_time": 6.350000000000013,
-    "std_dist": 3366.782308429353,
-    "std_time": 0.18333333333333268,
-    "city": "Huainan",
+    "mean_dist": 2561.0270971394148,
+    "mean_time": 6.388888888888903,
+    "std_dist": 3174.045824582668,
+    "std_time": 0.15947444549341414,
     "admin": "Anhui",
     "country": "China",
     "regions": [
       "California",
-      "Lombardy"
+      "Lombardy",
+      "Washington"
     ],
     "countries": [
       "United States",
-      "Italy"
+      "Italy",
+      "United States"
     ],
     "dists": [
       7049.80572648863,
-      316.2411096299232
+      316.2411096299232,
+      317.0344552996915
     ],
     "times": [
       6.16666666666668,
-      6.533333333333346
+      6.533333333333346,
+      6.466666666666679
     ]
   },
   "Casablanca, Morocco": {
-    "mean_dist": 121.12908431470092,
-    "mean_time": 7.4333333333333425,
-    "std_dist": 0,
-    "std_time": 0,
-    "city": "Casablanca",
+    "mean_dist": 87.8288556868962,
+    "mean_time": 7.083333333333344,
+    "std_dist": 33.300228627804714,
+    "std_time": 0.34999999999999876,
     "admin": "Casablanca-Settat",
     "country": "Morocco",
     "regions": [
-      "Lombardy"
+      "Lombardy",
+      "Washington"
     ],
     "countries": [
-      "Italy"
+      "Italy",
+      "United States"
     ],
     "dists": [
-      121.12908431470092
+      121.12908431470092,
+      54.52862705909149
     ],
     "times": [
-      7.4333333333333425
+      7.4333333333333425,
+      6.733333333333345
     ]
   },
   "Faridabad, Hary\u0101na, India": {
-    "mean_dist": 714.6386135981651,
-    "mean_time": 4.066666666666688,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 676.8310775808881,
+    "mean_time": 5.833333333333348,
+    "std_dist": 37.807536017277016,
+    "std_time": 1.7666666666666604,
     "city": "Faridabad",
     "admin": "Hary\u0101na",
     "country": "India",
     "regions": [
-      "Massachusetts"
+      "Massachusetts",
+      "Auckland"
     ],
     "countries": [
-      "United States"
+      "United States",
+      "New Zealand"
     ],
     "dists": [
-      714.6386135981651
+      714.6386135981651,
+      639.023541563611
     ],
     "times": [
-      4.066666666666688
+      4.066666666666688,
+      7.6000000000000085
     ]
   },
   "Chelyabinsk, Russia": {
@@ -15433,28 +16240,31 @@
     ]
   },
   "Hengyang, Hunan, China": {
-    "mean_dist": 499.95558063464165,
-    "mean_time": 7.766666666666675,
-    "std_dist": 293.41504204126466,
-    "std_time": 0.3999999999999986,
-    "city": "Hengyang",
+    "mean_dist": 546.8771873884664,
+    "mean_time": 6.488888888888901,
+    "std_dist": 248.59243544023198,
+    "std_time": 1.8363275212859156,
     "admin": "Hunan",
     "country": "China",
     "regions": [
       "Massachusetts",
-      "Andalusia"
+      "Andalusia",
+      "New York"
     ],
     "countries": [
       "United States",
-      "Spain"
+      "Spain",
+      "United States"
     ],
     "dists": [
       206.54053859337697,
-      793.3706226759064
+      793.3706226759064,
+      640.7204008961158
     ],
     "times": [
       7.366666666666676,
-      8.166666666666673
+      8.166666666666673,
+      3.933333333333355
     ]
   },
   "Miami, Florida, USA": {
@@ -15588,49 +16398,57 @@
     ]
   },
   "Cairo, Egypt": {
-    "mean_dist": 203.22635827055183,
-    "mean_time": 7.066666666666677,
-    "std_dist": 5.942353694924691,
-    "std_time": 0.8999999999999968,
+    "mean_dist": 151.92649867189166,
+    "mean_time": 7.50000000000001,
+    "std_dist": 72.71101866045849,
+    "std_time": 0.9568466729604849,
     "city": "Cairo",
     "admin": "Al Q\u0101hirah",
     "country": "Egypt",
     "regions": [
       "Massachusetts",
-      "\u00cele-de-France"
+      "\u00cele-de-France",
+      "England"
     ],
     "countries": [
       "United States",
-      "France"
+      "France",
+      "United Kingdom"
     ],
     "dists": [
       209.16871196547652,
-      197.28400457562714
+      197.28400457562714,
+      49.32677947457139
     ],
     "times": [
       6.16666666666668,
-      7.966666666666674
+      7.966666666666674,
+      8.366666666666672
     ]
   },
   "Cuernavaca, Morelos, Mexico": {
-    "mean_dist": 1035.018564688639,
-    "mean_time": 7.800000000000008,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 570.4089438147074,
+    "mean_time": 4.6833333333333504,
+    "std_dist": 464.6096208739315,
+    "std_time": 3.116666666666657,
     "city": "Cuernavaca",
     "admin": "Morelos",
     "country": "Mexico",
     "regions": [
-      "Massachusetts"
+      "Massachusetts",
+      "England"
     ],
     "countries": [
-      "United States"
+      "United States",
+      "United Kingdom"
     ],
     "dists": [
-      1035.018564688639
+      1035.018564688639,
+      105.79932294077588
     ],
     "times": [
-      7.800000000000008
+      7.800000000000008,
+      1.5666666666666937
     ]
   },
   "Astana, Kazakhstan": {
@@ -15655,35 +16473,39 @@
     ]
   },
   "Birmingham, Alabama, USA": {
-    "mean_dist": 2665.634058478342,
-    "mean_time": 7.933333333333341,
-    "std_dist": 1942.1398638743588,
-    "std_time": 0.36666666666666536,
+    "mean_dist": 1935.037166411448,
+    "mean_time": 6.87777777777779,
+    "std_dist": 1892.6564588682097,
+    "std_time": 1.5225060562631625,
     "city": "Birmingham",
     "admin": "Alabama",
     "country": "USA",
     "regions": [
       "Andalusia",
-      "Andalusia"
+      "Andalusia",
+      "Michigan"
     ],
     "countries": [
       "Spain",
-      "Spain"
+      "Spain",
+      "United States"
     ],
     "dists": [
       723.4941946039833,
-      4607.7739223527005
+      4607.7739223527005,
+      473.84338227765943
     ],
     "times": [
       7.566666666666675,
-      8.300000000000006
+      8.300000000000006,
+      4.766666666666685
     ]
   },
   "Ribeir\u00e3o Preto, Brazil": {
-    "mean_dist": 1015.9464230288239,
-    "mean_time": 4.000000000000021,
-    "std_dist": 718.9645452247015,
-    "std_time": 2.435273199367068,
+    "mean_dist": 1126.9345449921796,
+    "mean_time": 3.7666666666666884,
+    "std_dist": 680.2951320566247,
+    "std_time": 2.2276045928804753,
     "city": "Ribeir\u00e3o Preto",
     "admin": "S\u00e3o Paulo",
     "country": "Brazil",
@@ -15691,25 +16513,29 @@
       "Andalusia",
       "England",
       "Ohio",
-      "England"
+      "England",
+      "Texas"
     ],
     "countries": [
       "Spain",
       "United Kingdom",
       "United States",
-      "United Kingdom"
+      "United Kingdom",
+      "United States"
     ],
     "dists": [
       543.4319175947595,
       2220.177933889052,
       398.60065269427207,
-      901.5751879372125
+      901.5751879372125,
+      1570.887032845602
     ],
     "times": [
       7.766666666666675,
       1.900000000000028,
       1.8000000000000278,
-      4.533333333333353
+      4.533333333333353,
+      2.833333333333359
     ]
   },
   "Luan, Anhui, China": {
@@ -15776,24 +16602,28 @@
     ]
   },
   "Mbuji-Mayi, Congo (Kinshasa)": {
-    "mean_dist": 747.7191570290737,
-    "mean_time": 8.100000000000007,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 476.86493850884574,
+    "mean_time": 5.833333333333348,
+    "std_dist": 270.8542185202279,
+    "std_time": 2.2666666666666586,
     "city": "Mbuji-Mayi",
     "admin": "Kasa\u00ef Oriental",
     "country": "Congo (Kinshasa)",
     "regions": [
-      "Andalusia"
+      "Andalusia",
+      "Texas"
     ],
     "countries": [
-      "Spain"
+      "Spain",
+      "United States"
     ],
     "dists": [
-      747.7191570290737
+      747.7191570290737,
+      206.01071998861784
     ],
     "times": [
-      8.100000000000007
+      8.100000000000007,
+      3.5666666666666895
     ]
   },
   "\u0130zmir, Turkey": {
@@ -15872,24 +16702,32 @@
     ]
   },
   "Kryvyy Rih, Ukraine": {
-    "mean_dist": 189.77246227972563,
-    "mean_time": 6.6666666666666785,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 170.10084811020488,
+    "mean_time": 6.677777777777789,
+    "std_dist": 56.73514806745457,
+    "std_time": 0.7484964352488547,
     "city": "Kryvyy Rih",
     "admin": "Dnipropetrovs\u2019ka Oblast\u2019",
     "country": "Ukraine",
     "regions": [
-      "Andalusia"
+      "Andalusia",
+      "Michigan",
+      "England"
     ],
     "countries": [
-      "Spain"
+      "Spain",
+      "United States",
+      "United Kingdom"
     ],
     "dists": [
-      189.77246227972563
+      189.77246227972563,
+      92.89972178528856,
+      227.63036026560042
     ],
     "times": [
-      6.6666666666666785
+      6.6666666666666785,
+      5.766666666666682,
+      7.6000000000000085
     ]
   },
   "Nassau, Bahamas, The": {
@@ -15956,24 +16794,27 @@
     ]
   },
   "Algiers, Algeria": {
-    "mean_dist": 649.3686116776494,
-    "mean_time": 7.933333333333341,
-    "std_dist": 0,
-    "std_time": 0,
-    "city": "Algiers",
+    "mean_dist": 531.9126428087839,
+    "mean_time": 7.800000000000008,
+    "std_dist": 117.45596886886551,
+    "std_time": 0.13333333333333286,
     "admin": "Alger",
     "country": "Algeria",
     "regions": [
-      "Andalusia"
+      "Andalusia",
+      "New York"
     ],
     "countries": [
-      "Spain"
+      "Spain",
+      "United States"
     ],
     "dists": [
-      649.3686116776494
+      649.3686116776494,
+      414.45667393991835
     ],
     "times": [
-      7.933333333333341
+      7.933333333333341,
+      7.666666666666675
     ]
   },
   "Tegucigalpa, Honduras": {
@@ -16145,45 +16986,53 @@
     ]
   },
   "Vienna, Austria": {
-    "mean_dist": 513.7311501789194,
-    "mean_time": 7.9000000000000075,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 344.3041413099149,
+    "mean_time": 7.783333333333341,
+    "std_dist": 169.4270088690045,
+    "std_time": 0.11666666666666625,
     "city": "Vienna",
     "admin": "Wien",
     "country": "Austria",
     "regions": [
-      "Andalusia"
+      "Andalusia",
+      "England"
     ],
     "countries": [
-      "Spain"
+      "Spain",
+      "United Kingdom"
     ],
     "dists": [
-      513.7311501789194
+      513.7311501789194,
+      174.87713244091037
     ],
     "times": [
-      7.9000000000000075
+      7.9000000000000075,
+      7.666666666666675
     ]
   },
   "Nagano, Japan": {
-    "mean_dist": 168.02729887498776,
-    "mean_time": 7.800000000000008,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 107.33999816932473,
+    "mean_time": 7.500000000000009,
+    "std_dist": 60.68730070566304,
+    "std_time": 0.29999999999999893,
     "city": "Nagano",
     "admin": "Nagano",
     "country": "Japan",
     "regions": [
-      "Andalusia"
+      "Andalusia",
+      "Ohio"
     ],
     "countries": [
-      "Spain"
+      "Spain",
+      "United States"
     ],
     "dists": [
-      168.02729887498776
+      168.02729887498776,
+      46.65269746366168
     ],
     "times": [
-      7.800000000000008
+      7.800000000000008,
+      7.20000000000001
     ]
   },
   "Dortmund, Germany": {
@@ -16346,28 +17195,32 @@
     ]
   },
   "Jhansi, Uttar Pradesh, India": {
-    "mean_dist": 655.6078845590831,
-    "mean_time": 8.050000000000008,
-    "std_dist": 541.443778660422,
-    "std_time": 0.14999999999999947,
+    "mean_dist": 454.9430365511834,
+    "mean_time": 5.94444444444446,
+    "std_dist": 525.3319643350457,
+    "std_time": 2.98022287674289,
     "city": "Jhansi",
     "admin": "Uttar Pradesh",
     "country": "India",
     "regions": [
       "Andalusia",
-      "\u00cele-de-France"
+      "\u00cele-de-France",
+      "England"
     ],
     "countries": [
       "Spain",
-      "France"
+      "France",
+      "United Kingdom"
     ],
     "dists": [
       1197.0516632195051,
-      114.16410589866106
+      114.16410589866106,
+      53.613340535383976
     ],
     "times": [
       8.200000000000006,
-      7.9000000000000075
+      7.9000000000000075,
+      1.733333333333361
     ]
   },
   "Yaounde, Cameroon": {
@@ -16392,24 +17245,28 @@
     ]
   },
   "Odessa, Ukraine": {
-    "mean_dist": 359.2373832913355,
-    "mean_time": 6.933333333333344,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 203.96095422608764,
+    "mean_time": 7.4333333333333425,
+    "std_dist": 155.27642906524787,
+    "std_time": 0.4999999999999982,
     "city": "Odessa",
     "admin": "Odes\u2019ka Oblast\u2019",
     "country": "Ukraine",
     "regions": [
-      "Andalusia"
+      "Andalusia",
+      "England"
     ],
     "countries": [
-      "Spain"
+      "Spain",
+      "United Kingdom"
     ],
     "dists": [
-      359.2373832913355
+      359.2373832913355,
+      48.684525160839755
     ],
     "times": [
-      6.933333333333344
+      6.933333333333344,
+      7.933333333333341
     ]
   },
   "Qiqihar, Heilongjiang, China": {
@@ -16476,24 +17333,36 @@
     ]
   },
   "Addis Ababa, Ethiopia": {
-    "mean_dist": 1033.8233958153182,
-    "mean_time": 6.2000000000000135,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 1101.3953465520763,
+    "mean_time": 6.583333333333346,
+    "std_dist": 820.9496770412903,
+    "std_time": 0.2713136766016608,
     "city": "Addis Ababa",
     "admin": "\u0100d\u012bs \u0100beba",
     "country": "Ethiopia",
     "regions": [
-      "Pennsylvania"
+      "Pennsylvania",
+      "Lubusz",
+      "Auckland",
+      "Maine"
     ],
     "countries": [
+      "United States",
+      "Poland",
+      "New Zealand",
       "United States"
     ],
     "dists": [
-      1033.8233958153182
+      1033.8233958153182,
+      107.21892533387732,
+      2386.9966226852275,
+      877.5424423738824
     ],
     "times": [
-      6.2000000000000135
+      6.2000000000000135,
+      6.900000000000011,
+      6.466666666666679,
+      6.766666666666678
     ]
   },
   "Bronx, New York, USA": {
@@ -16560,45 +17429,52 @@
     ]
   },
   "Rangoon, Burma": {
-    "mean_dist": 672.8349757049532,
-    "mean_time": 7.6000000000000085,
-    "std_dist": 0,
-    "std_time": 0,
-    "city": "Rangoon",
+    "mean_dist": 398.1792959504496,
+    "mean_time": 6.833333333333345,
+    "std_dist": 274.65567975450364,
+    "std_time": 0.7666666666666639,
     "admin": "Yangon",
     "country": "Burma",
     "regions": [
-      "\u00cele-de-France"
+      "\u00cele-de-France",
+      "Washington"
     ],
     "countries": [
-      "France"
+      "France",
+      "United States"
     ],
     "dists": [
-      672.8349757049532
+      672.8349757049532,
+      123.52361619594599
     ],
     "times": [
-      7.6000000000000085
+      7.6000000000000085,
+      6.066666666666681
     ]
   },
   "Gujranwala, Pakistan": {
-    "mean_dist": 160.15918852969827,
-    "mean_time": 7.933333333333341,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 607.0481147607646,
+    "mean_time": 6.2000000000000135,
+    "std_dist": 446.8889262310664,
+    "std_time": 1.7333333333333272,
     "city": "Gujranwala",
     "admin": "Punjab",
     "country": "Pakistan",
     "regions": [
-      "\u00cele-de-France"
+      "\u00cele-de-France",
+      "Texas"
     ],
     "countries": [
-      "France"
+      "France",
+      "United States"
     ],
     "dists": [
-      160.15918852969827
+      160.15918852969827,
+      1053.937040991831
     ],
     "times": [
-      7.933333333333341
+      7.933333333333341,
+      4.466666666666686
     ]
   },
   "Almaty, Kazakhstan": {
@@ -16776,24 +17652,28 @@
     ]
   },
   "Konya, Turkey": {
-    "mean_dist": 613.4078336586716,
-    "mean_time": 7.500000000000009,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 396.15474896721105,
+    "mean_time": 7.450000000000009,
+    "std_dist": 217.25308469146054,
+    "std_time": 0.04999999999999982,
     "city": "Konya",
     "admin": "Konya",
     "country": "Turkey",
     "regions": [
-      "\u00cele-de-France"
+      "\u00cele-de-France",
+      "Ohio"
     ],
     "countries": [
-      "France"
+      "France",
+      "United States"
     ],
     "dists": [
-      613.4078336586716
+      613.4078336586716,
+      178.90166427575053
     ],
     "times": [
-      7.500000000000009
+      7.500000000000009,
+      7.400000000000009
     ]
   },
   "Hamilton, Ontario, Canada": {
@@ -16839,28 +17719,31 @@
     ]
   },
   "Changwon, Korea, South": {
-    "mean_dist": 147.58431357126025,
-    "mean_time": 1.4500000000000262,
-    "std_dist": 18.757277387445157,
-    "std_time": 0.9500000000000008,
-    "city": "Changwon",
+    "mean_dist": 174.4942027307175,
+    "mean_time": 2.855555555555578,
+    "std_dist": 41.02244799060132,
+    "std_time": 2.1337383874722833,
     "admin": "Gyeongnam",
     "country": "Korea, South",
     "regions": [
       "England",
-      "Ohio"
+      "Ohio",
+      "New York"
     ],
     "countries": [
       "United Kingdom",
+      "United States",
       "United States"
     ],
     "dists": [
       128.8270361838151,
-      166.3415909587054
+      166.3415909587054,
+      228.313981049632
     ],
     "times": [
       2.400000000000027,
-      0.5000000000000254
+      0.5000000000000254,
+      5.666666666666682
     ]
   },
   "Port-of-Spain, Trinidad And Tobago": {
@@ -16949,24 +17832,27 @@
     "times": []
   },
   "Indore, Madhya Pradesh, India": {
-    "mean_dist": 290.4985369844281,
-    "mean_time": 3.9000000000000217,
-    "std_dist": 0,
-    "std_time": 0,
-    "city": "Indore",
+    "mean_dist": 401.89981689169974,
+    "mean_time": 5.600000000000016,
+    "std_dist": 111.40127990727169,
+    "std_time": 1.699999999999994,
     "admin": "Madhya Pradesh",
     "country": "India",
     "regions": [
-      "England"
+      "England",
+      "Washington"
     ],
     "countries": [
-      "United Kingdom"
+      "United Kingdom",
+      "United States"
     ],
     "dists": [
-      290.4985369844281
+      290.4985369844281,
+      513.3010967989715
     ],
     "times": [
-      3.9000000000000217
+      3.9000000000000217,
+      7.30000000000001
     ]
   },
   "Kerman, Iran": {
@@ -17017,6 +17903,1856 @@
     "times": [
       2.266666666666694,
       2.1333333333333613
+    ]
+  },
+  "Leshan, Sichuan, China": {
+    "mean_dist": 1425.6987128774379,
+    "mean_time": 3.250000000000024,
+    "std_dist": 108.12114205514058,
+    "std_time": 0.7166666666666641,
+    "city": "Leshan",
+    "admin": "Sichuan",
+    "country": "China",
+    "regions": [
+      "Saxony",
+      "Texas"
+    ],
+    "countries": [
+      "Germany",
+      "United States"
+    ],
+    "dists": [
+      1533.8198549325784,
+      1317.5775708222973
+    ],
+    "times": [
+      3.966666666666688,
+      2.53333333333336
+    ]
+  },
+  "Lille, France": {
+    "mean_dist": 449.54838265587887,
+    "mean_time": 8.300000000000006,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Lille",
+    "admin": "Hauts-de-France",
+    "country": "France",
+    "regions": [
+      "Lubusz"
+    ],
+    "countries": [
+      "Poland"
+    ],
+    "dists": [
+      449.54838265587887
+    ],
+    "times": [
+      8.300000000000006
+    ]
+  },
+  "Chifeng, Inner Mongolia, China": {
+    "mean_dist": 1705.3713356910753,
+    "mean_time": 5.466666666666683,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Chifeng",
+    "admin": "Inner Mongolia",
+    "country": "China",
+    "regions": [
+      "Lubusz"
+    ],
+    "countries": [
+      "Poland"
+    ],
+    "dists": [
+      1705.3713356910753
+    ],
+    "times": [
+      5.466666666666683
+    ]
+  },
+  "Tbilisi, Georgia": {
+    "mean_dist": 224.71644061352606,
+    "mean_time": 6.600000000000012,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Tbilisi",
+    "admin": "",
+    "country": "Georgia",
+    "regions": [
+      "Lubusz"
+    ],
+    "countries": [
+      "Poland"
+    ],
+    "dists": [
+      224.71644061352606
+    ],
+    "times": [
+      6.600000000000012
+    ]
+  },
+  "Adana, Turkey": {
+    "mean_dist": 592.344740079736,
+    "mean_time": 0.766666666666692,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Adana",
+    "admin": "Adana",
+    "country": "Turkey",
+    "regions": [
+      "Lubusz"
+    ],
+    "countries": [
+      "Poland"
+    ],
+    "dists": [
+      592.344740079736
+    ],
+    "times": [
+      0.766666666666692
+    ]
+  },
+  "Li\u00e8ge, Belgium": {
+    "mean_dist": 106.09407803603403,
+    "mean_time": 6.066666666666681,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Li\u00e8ge",
+    "admin": "Wallonia",
+    "country": "Belgium",
+    "regions": [
+      "Lubusz"
+    ],
+    "countries": [
+      "Poland"
+    ],
+    "dists": [
+      106.09407803603403
+    ],
+    "times": [
+      6.066666666666681
+    ]
+  },
+  "C\u00f3rdoba, Argentina": {
+    "mean_dist": 3546.5388914152745,
+    "mean_time": 4.066666666666688,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "C\u00f3rdoba",
+    "admin": "C\u00f3rdoba",
+    "country": "Argentina",
+    "regions": [
+      "Auckland"
+    ],
+    "countries": [
+      "New Zealand"
+    ],
+    "dists": [
+      3546.5388914152745
+    ],
+    "times": [
+      4.066666666666688
+    ]
+  },
+  "Katowice, Poland": {
+    "mean_dist": 603.813391082625,
+    "mean_time": 1.7000000000000275,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Katowice",
+    "admin": "\u015al\u0105skie",
+    "country": "Poland",
+    "regions": [
+      "Auckland"
+    ],
+    "countries": [
+      "New Zealand"
+    ],
+    "dists": [
+      603.813391082625
+    ],
+    "times": [
+      1.7000000000000275
+    ]
+  },
+  "Jacksonville, Florida, USA": {
+    "mean_dist": 93.51095934115232,
+    "mean_time": 6.400000000000013,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Jacksonville",
+    "admin": "Florida",
+    "country": "USA",
+    "regions": [
+      "Auckland"
+    ],
+    "countries": [
+      "New Zealand"
+    ],
+    "dists": [
+      93.51095934115232
+    ],
+    "times": [
+      6.400000000000013
+    ]
+  },
+  "Utrecht, Netherlands": {
+    "mean_dist": 354.5340501266194,
+    "mean_time": 4.1333333333333515,
+    "std_dist": 321.47203190268453,
+    "std_time": 2.8333333333333255,
+    "admin": "Utrecht",
+    "country": "Netherlands",
+    "regions": [
+      "Auckland",
+      "Washington"
+    ],
+    "countries": [
+      "New Zealand",
+      "United States"
+    ],
+    "dists": [
+      676.0060820293039,
+      33.062018223934835
+    ],
+    "times": [
+      1.3000000000000262,
+      6.966666666666677
+    ]
+  },
+  "K\u014dbe, Japan": {
+    "mean_dist": 413.45128467101796,
+    "mean_time": 7.750000000000008,
+    "std_dist": 402.0706693762073,
+    "std_time": 0.34999999999999876,
+    "city": "K\u014dbe",
+    "admin": "Hy\u014dgo",
+    "country": "Japan",
+    "regions": [
+      "Auckland",
+      "Maine"
+    ],
+    "countries": [
+      "New Zealand",
+      "United States"
+    ],
+    "dists": [
+      815.5219540472253,
+      11.380615294810614
+    ],
+    "times": [
+      7.400000000000009,
+      8.100000000000007
+    ]
+  },
+  "Malegaon, Mah\u0101r\u0101shtra, India": {
+    "mean_dist": 9146.896514407586,
+    "mean_time": 9.300000000000002,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Malegaon",
+    "admin": "Mah\u0101r\u0101shtra",
+    "country": "India",
+    "regions": [
+      "Auckland"
+    ],
+    "countries": [
+      "New Zealand"
+    ],
+    "dists": [
+      9146.896514407586
+    ],
+    "times": [
+      9.300000000000002
+    ]
+  },
+  "Fuyang, Zhejiang, China": {
+    "mean_dist": 3300.5834999470662,
+    "mean_time": 5.600000000000016,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Fuyang",
+    "admin": "Zhejiang",
+    "country": "China",
+    "regions": [
+      "Karnataka"
+    ],
+    "countries": [
+      "India"
+    ],
+    "dists": [
+      3300.5834999470662
+    ],
+    "times": [
+      5.600000000000016
+    ]
+  },
+  "S\u00e3o Paulo, Brazil": {
+    "mean_dist": 7762.493963361793,
+    "mean_time": 4.933333333333351,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "S\u00e3o Paulo",
+    "admin": "S\u00e3o Paulo",
+    "country": "Brazil",
+    "regions": [
+      "Karnataka"
+    ],
+    "countries": [
+      "India"
+    ],
+    "dists": [
+      7762.493963361793
+    ],
+    "times": [
+      4.933333333333351
+    ]
+  },
+  "Gwalior, Madhya Pradesh, India": {
+    "mean_dist": 352.9484856354496,
+    "mean_time": 5.033333333333351,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Gwalior",
+    "admin": "Madhya Pradesh",
+    "country": "India",
+    "regions": [
+      "Karnataka"
+    ],
+    "countries": [
+      "India"
+    ],
+    "dists": [
+      352.9484856354496
+    ],
+    "times": [
+      5.033333333333351
+    ]
+  },
+  "Hanoi, Vietnam": {
+    "mean_dist": 570.4961010995685,
+    "mean_time": 4.366666666666687,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Hanoi",
+    "admin": "H\u00e0 N\u1ed9i",
+    "country": "Vietnam",
+    "regions": [
+      "Karnataka"
+    ],
+    "countries": [
+      "India"
+    ],
+    "dists": [
+      570.4961010995685
+    ],
+    "times": [
+      4.366666666666687
+    ]
+  },
+  "Surakarta, Indonesia": {
+    "mean_dist": 291.4007980512344,
+    "mean_time": 4.455555555555573,
+    "std_dist": 256.9314068600856,
+    "std_time": 2.589484909931974,
+    "city": "Surakarta",
+    "admin": "Jawa Tengah",
+    "country": "Indonesia",
+    "regions": [
+      "Michigan",
+      "Michigan",
+      "England"
+    ],
+    "countries": [
+      "United States",
+      "United States",
+      "United Kingdom"
+    ],
+    "dists": [
+      78.09098088496842,
+      143.31110282100917,
+      652.8003104477257
+    ],
+    "times": [
+      5.800000000000015,
+      6.733333333333345,
+      0.8333333333333587
+    ]
+  },
+  "Bacolod, Philippines": {
+    "mean_dist": 173.42010063482297,
+    "mean_time": 7.1333333333333435,
+    "std_dist": 18.485028943101625,
+    "std_time": 0.1999999999999993,
+    "admin": "Bacolod",
+    "country": "Philippines",
+    "regions": [
+      "Michigan",
+      "Washington"
+    ],
+    "countries": [
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      191.9051295779246,
+      154.93507169172136
+    ],
+    "times": [
+      6.933333333333344,
+      7.333333333333343
+    ]
+  },
+  "Pereira, Colombia": {
+    "mean_dist": 502.14903214327927,
+    "mean_time": 1.7000000000000275,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Pereira",
+    "admin": "Risaralda",
+    "country": "Colombia",
+    "regions": [
+      "Texas"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      502.14903214327927
+    ],
+    "times": [
+      1.7000000000000275
+    ]
+  },
+  "Brisbane, Australia": {
+    "mean_dist": 1587.529304043067,
+    "mean_time": 7.9000000000000075,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Brisbane",
+    "admin": "Queensland",
+    "country": "Australia",
+    "regions": [
+      "Michigan"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      1587.529304043067
+    ],
+    "times": [
+      7.9000000000000075
+    ]
+  },
+  "Gaziantep, Turkey": {
+    "mean_dist": 665.0024980108805,
+    "mean_time": 6.866666666666678,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Gaziantep",
+    "admin": "Gaziantep",
+    "country": "Turkey",
+    "regions": [
+      "Michigan"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      665.0024980108805
+    ],
+    "times": [
+      6.866666666666678
+    ]
+  },
+  "Lucknow, Uttar Pradesh, India": {
+    "mean_dist": 323.3003778843293,
+    "mean_time": 6.500000000000012,
+    "std_dist": 142.23093181066457,
+    "std_time": 0.466666666666665,
+    "admin": "Uttar Pradesh",
+    "country": "India",
+    "regions": [
+      "Michigan",
+      "Washington"
+    ],
+    "countries": [
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      181.06944607366472,
+      465.53130969499387
+    ],
+    "times": [
+      6.966666666666677,
+      6.033333333333347
+    ]
+  },
+  "Bahawalpur, Pakistan": {
+    "mean_dist": 371.34470078509196,
+    "mean_time": 7.700000000000008,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Bahawalpur",
+    "admin": "Punjab",
+    "country": "Pakistan",
+    "regions": [
+      "Michigan"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      371.34470078509196
+    ],
+    "times": [
+      7.700000000000008
+    ]
+  },
+  "Lupanshui, Guizhou, China": {
+    "mean_dist": 910.6780103817298,
+    "mean_time": 4.466666666666686,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Lupanshui",
+    "admin": "Guizhou",
+    "country": "China",
+    "regions": [
+      "Michigan"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      910.6780103817298
+    ],
+    "times": [
+      4.466666666666686
+    ]
+  },
+  "Abeokuta, Nigeria": {
+    "mean_dist": 200.63050350897413,
+    "mean_time": 7.20000000000001,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Abeokuta",
+    "admin": "Ogun",
+    "country": "Nigeria",
+    "regions": [
+      "Michigan"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      200.63050350897413
+    ],
+    "times": [
+      7.20000000000001
+    ]
+  },
+  "Duisburg, Germany": {
+    "mean_dist": 220.05104378627388,
+    "mean_time": 7.566666666666675,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Duisburg",
+    "admin": "North Rhine-Westphalia",
+    "country": "Germany",
+    "regions": [
+      "Michigan"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      220.05104378627388
+    ],
+    "times": [
+      7.566666666666675
+    ]
+  },
+  "Taiyuan, Shanxi, China": {
+    "mean_dist": 570.3913674600715,
+    "mean_time": 7.333333333333343,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Taiyuan",
+    "admin": "Shanxi",
+    "country": "China",
+    "regions": [
+      "Michigan"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      570.3913674600715
+    ],
+    "times": [
+      7.333333333333343
+    ]
+  },
+  "Haora, West Bengal, India": {
+    "mean_dist": 489.21920404555993,
+    "mean_time": 3.6000000000000227,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Haora",
+    "admin": "West Bengal",
+    "country": "India",
+    "regions": [
+      "Michigan"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      489.21920404555993
+    ],
+    "times": [
+      3.6000000000000227
+    ]
+  },
+  "Dodoma, Tanzania": {
+    "mean_dist": 58.052092575225075,
+    "mean_time": 4.3333333333333535,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Dodoma",
+    "admin": "",
+    "country": "Tanzania",
+    "regions": [
+      "Michigan"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      58.052092575225075
+    ],
+    "times": [
+      4.3333333333333535
+    ]
+  },
+  "Ujungpandang, Indonesia": {
+    "mean_dist": 677.2863894896873,
+    "mean_time": 6.700000000000012,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Ujungpandang",
+    "admin": "Sulawesi Selatan",
+    "country": "Indonesia",
+    "regions": [
+      "Michigan"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      677.2863894896873
+    ],
+    "times": [
+      6.700000000000012
+    ]
+  },
+  "Zhanyi, Yunnan, China": {
+    "mean_dist": 230.14494304381148,
+    "mean_time": 7.500000000000009,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Zhanyi",
+    "admin": "Yunnan",
+    "country": "China",
+    "regions": [
+      "Ohio"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      230.14494304381148
+    ],
+    "times": [
+      7.500000000000009
+    ]
+  },
+  "Columbus, Ohio, USA": {
+    "mean_dist": 163.36234558803486,
+    "mean_time": 7.15000000000001,
+    "std_dist": 109.40836682044747,
+    "std_time": 0.7833333333333306,
+    "city": "Columbus",
+    "admin": "Ohio",
+    "country": "USA",
+    "regions": [
+      "Ohio",
+      "England"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom"
+    ],
+    "dists": [
+      53.953978767587394,
+      272.7707124084823
+    ],
+    "times": [
+      6.36666666666668,
+      7.933333333333341
+    ]
+  },
+  "Boston, Massachusetts, USA": {
+    "mean_dist": 68.77528900041051,
+    "mean_time": 6.800000000000011,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Boston",
+    "admin": "Massachusetts",
+    "country": "USA",
+    "regions": [
+      "Ohio"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      68.77528900041051
+    ],
+    "times": [
+      6.800000000000011
+    ]
+  },
+  "Tiruchirappalli, Tamil N\u0101du, India": {
+    "mean_dist": 200.47147997592947,
+    "mean_time": 6.16666666666668,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Tiruchirappalli",
+    "admin": "Tamil N\u0101du",
+    "country": "India",
+    "regions": [
+      "Ohio"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      200.47147997592947
+    ],
+    "times": [
+      6.16666666666668
+    ]
+  },
+  "Ulyanovsk, Russia": {
+    "mean_dist": 635.4399135887162,
+    "mean_time": 7.1333333333333435,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Ulyanovsk",
+    "admin": "Ul\u2019yanovskaya Oblast\u2019",
+    "country": "Russia",
+    "regions": [
+      "Ohio"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      635.4399135887162
+    ],
+    "times": [
+      7.1333333333333435
+    ]
+  },
+  "Saratov, Russia": {
+    "mean_dist": 433.38934776430386,
+    "mean_time": 5.766666666666682,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Saratov",
+    "admin": "Saratovskaya Oblast\u2019",
+    "country": "Russia",
+    "regions": [
+      "Texas"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      433.38934776430386
+    ],
+    "times": [
+      5.766666666666682
+    ]
+  },
+  "Kingstown, Saint Vincent And The Grenadines": {
+    "mean_dist": 168.30624982048496,
+    "mean_time": 4.150000000000021,
+    "std_dist": 53.58846628042725,
+    "std_time": 1.149999999999996,
+    "admin": "Saint George",
+    "country": "Saint Vincent And The Grenadines",
+    "regions": [
+      "Texas",
+      "Washington"
+    ],
+    "countries": [
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      221.8947161009122,
+      114.71778354005771
+    ],
+    "times": [
+      3.000000000000025,
+      5.300000000000017
+    ]
+  },
+  "Yichun, Jiangxi, China": {
+    "mean_dist": 1115.1204096286206,
+    "mean_time": 0.23333333333335882,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Yichun",
+    "admin": "Jiangxi",
+    "country": "China",
+    "regions": [
+      "England"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "dists": [
+      1115.1204096286206
+    ],
+    "times": [
+      0.23333333333335882
+    ]
+  },
+  "Raipur, Chhatt\u012bsgarh, India": {
+    "mean_dist": 652.923859456354,
+    "mean_time": 8.100000000000007,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Raipur",
+    "admin": "Chhatt\u012bsgarh",
+    "country": "India",
+    "regions": [
+      "England"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "dists": [
+      652.923859456354
+    ],
+    "times": [
+      8.100000000000007
+    ]
+  },
+  "Colombo, Sri Lanka": {
+    "mean_dist": 117.58952181085198,
+    "mean_time": 7.666666666666675,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Colombo",
+    "admin": "Western",
+    "country": "Sri Lanka",
+    "regions": [
+      "England"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "dists": [
+      117.58952181085198
+    ],
+    "times": [
+      7.666666666666675
+    ]
+  },
+  "Haiphong, Vietnam": {
+    "mean_dist": 884.4621041059511,
+    "mean_time": 5.950000000000014,
+    "std_dist": 151.67813575437776,
+    "std_time": 2.116666666666659,
+    "city": "Haiphong",
+    "admin": "H\u1ea3i Ph\u00f2ng",
+    "country": "Vietnam",
+    "regions": [
+      "England",
+      "England"
+    ],
+    "countries": [
+      "United Kingdom",
+      "United Kingdom"
+    ],
+    "dists": [
+      732.7839683515733,
+      1036.1402398603288
+    ],
+    "times": [
+      8.066666666666674,
+      3.8333333333333552
+    ]
+  },
+  "Seattle, Washington, USA": {
+    "mean_dist": 42.569887001218774,
+    "mean_time": 8.200000000000006,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Seattle",
+    "admin": "Washington",
+    "country": "USA",
+    "regions": [
+      "England"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "dists": [
+      42.569887001218774
+    ],
+    "times": [
+      8.200000000000006
+    ]
+  },
+  "Novosibirsk, Russia": {
+    "mean_dist": 972.1777606296316,
+    "mean_time": 7.366666666666676,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Novosibirsk",
+    "admin": "Novosibirskaya Oblast\u2019",
+    "country": "Russia",
+    "regions": [
+      "England"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "dists": [
+      972.1777606296316
+    ],
+    "times": [
+      7.366666666666676
+    ]
+  },
+  "Austin, Texas, USA": {
+    "mean_dist": 102.65360408663994,
+    "mean_time": 8.200000000000006,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Austin",
+    "admin": "Texas",
+    "country": "USA",
+    "regions": [
+      "England"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "dists": [
+      102.65360408663994
+    ],
+    "times": [
+      8.200000000000006
+    ]
+  },
+  "Dhanbad, Jharkhand, India": {
+    "mean_dist": 728.0930558363654,
+    "mean_time": 8.100000000000007,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Dhanbad",
+    "admin": "Jharkhand",
+    "country": "India",
+    "regions": [
+      "England"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "dists": [
+      728.0930558363654
+    ],
+    "times": [
+      8.100000000000007
+    ]
+  },
+  "Maracaibo, Venezuela": {
+    "mean_dist": 378.59125647301903,
+    "mean_time": 7.766666666666675,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Maracaibo",
+    "admin": "Zulia",
+    "country": "Venezuela",
+    "regions": [
+      "England"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "dists": [
+      378.59125647301903
+    ],
+    "times": [
+      7.766666666666675
+    ]
+  },
+  "Valpara\u00edso, Chile": {
+    "regions": [],
+    "countries": [],
+    "dists": [],
+    "times": []
+  },
+  "Basseterre, Saint Kitts And Nevis": {
+    "mean_dist": 243.32936350776708,
+    "mean_time": 7.966666666666674,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Basseterre",
+    "admin": "Saint George Basseterre",
+    "country": "Saint Kitts And Nevis",
+    "regions": [
+      "England"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "dists": [
+      243.32936350776708
+    ],
+    "times": [
+      7.966666666666674
+    ]
+  },
+  "Teresina, Brazil": {
+    "mean_dist": 252.13416980721033,
+    "mean_time": 1.0666666666666922,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Teresina",
+    "admin": "Piau\u00ed",
+    "country": "Brazil",
+    "regions": [
+      "England"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "dists": [
+      252.13416980721033
+    ],
+    "times": [
+      1.0666666666666922
+    ]
+  },
+  "Davao, Philippines": {
+    "mean_dist": 57.22349304417732,
+    "mean_time": 3.9000000000000217,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Davao",
+    "admin": "Davao",
+    "country": "Philippines",
+    "regions": [
+      "England"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "dists": [
+      57.22349304417732
+    ],
+    "times": [
+      3.9000000000000217
+    ]
+  },
+  "Pago Pago, American Samoa": {
+    "mean_dist": 11681.193693712361,
+    "mean_time": 1.1000000000000256,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Pago Pago",
+    "admin": "",
+    "country": "American Samoa",
+    "regions": [
+      "England"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "dists": [
+      11681.193693712361
+    ],
+    "times": [
+      1.1000000000000256
+    ]
+  },
+  "Sangli, Mah\u0101r\u0101shtra, India": {
+    "mean_dist": 186.24645725056436,
+    "mean_time": 1.0000000000000253,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Sangli",
+    "admin": "Mah\u0101r\u0101shtra",
+    "country": "India",
+    "regions": [
+      "England"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "dists": [
+      186.24645725056436
+    ],
+    "times": [
+      1.0000000000000253
+    ]
+  },
+  "Hechi, Guangxi, China": {
+    "mean_dist": 1272.3474571183674,
+    "mean_time": 5.2666666666666835,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Hechi",
+    "admin": "Guangxi",
+    "country": "China",
+    "regions": [
+      "England"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "dists": [
+      1272.3474571183674
+    ],
+    "times": [
+      5.2666666666666835
+    ]
+  },
+  "Ahvaz, Iran": {
+    "mean_dist": 6088.94681451219,
+    "mean_time": 10,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Ahvaz",
+    "admin": "Kh\u016bzest\u0101n",
+    "country": "Iran",
+    "regions": [
+      "England"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "dists": [
+      6088.94681451219
+    ],
+    "times": [
+      10
+    ]
+  },
+  "Sarajevo, Bosnia And Herzegovina": {
+    "mean_dist": 278.7464482229633,
+    "mean_time": 4.733333333333352,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Sarajevo",
+    "admin": "Bosnia and Herzegovina, Federation of",
+    "country": "Bosnia And Herzegovina",
+    "regions": [
+      "England"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "dists": [
+      278.7464482229633
+    ],
+    "times": [
+      4.733333333333352
+    ]
+  },
+  "Nanded, Mah\u0101r\u0101shtra, India": {
+    "mean_dist": 265.3387924918088,
+    "mean_time": 4.866666666666685,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Nanded",
+    "admin": "Mah\u0101r\u0101shtra",
+    "country": "India",
+    "regions": [
+      "England"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "dists": [
+      265.3387924918088
+    ],
+    "times": [
+      4.866666666666685
+    ]
+  },
+  "Paramaribo, Suriname": {
+    "mean_dist": 166.65744291589797,
+    "mean_time": 6.500000000000012,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Paramaribo",
+    "admin": "Paramaribo",
+    "country": "Suriname",
+    "regions": [
+      "England"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "dists": [
+      166.65744291589797
+    ],
+    "times": [
+      6.500000000000012
+    ]
+  },
+  "McAllen, Texas, United States": {
+    "mean_dist": 100.77165153471535,
+    "mean_time": 7.700000000000008,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Texas",
+    "country": "United States",
+    "regions": [
+      "New York"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      100.77165153471535
+    ],
+    "times": [
+      7.700000000000008
+    ]
+  },
+  "Lilongwe, Malawi": {
+    "mean_dist": 172.95710501468534,
+    "mean_time": 7.066666666666677,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Lilongwe",
+    "country": "Malawi",
+    "regions": [
+      "New York"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      172.95710501468534
+    ],
+    "times": [
+      7.066666666666677
+    ]
+  },
+  "Haikou, Hainan, China": {
+    "mean_dist": 61.74439476877502,
+    "mean_time": 5.600000000000016,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Hainan",
+    "country": "China",
+    "regions": [
+      "Washington"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      61.74439476877502
+    ],
+    "times": [
+      5.600000000000016
+    ]
+  },
+  "Al Man\u015f\u016brah, Egypt": {
+    "mean_dist": 373.94727678138133,
+    "mean_time": 6.000000000000014,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Ad Daqahl\u012byah",
+    "country": "Egypt",
+    "regions": [
+      "Washington"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      373.94727678138133
+    ],
+    "times": [
+      6.000000000000014
+    ]
+  },
+  "Az Zarq\u0101\u2019, Jordan": {
+    "mean_dist": 220.12403246276187,
+    "mean_time": 6.633333333333345,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Az Zarq\u0101\u2019",
+    "country": "Jordan",
+    "regions": [
+      "Washington"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      220.12403246276187
+    ],
+    "times": [
+      6.633333333333345
+    ]
+  },
+  "Lahore, Pakistan": {
+    "mean_dist": 20.31791319044255,
+    "mean_time": 5.633333333333349,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Punjab",
+    "country": "Pakistan",
+    "regions": [
+      "Washington"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      20.31791319044255
+    ],
+    "times": [
+      5.633333333333349
+    ]
+  },
+  "Copenhagen, Denmark": {
+    "mean_dist": 56.61267732328207,
+    "mean_time": 6.533333333333346,
+    "std_dist": 5.281048371074732,
+    "std_time": 0.16666666666666607,
+    "admin": "Hovedstaden",
+    "country": "Denmark",
+    "regions": [
+      "Washington",
+      "Washington"
+    ],
+    "countries": [
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      61.8937256943568,
+      51.33162895220734
+    ],
+    "times": [
+      6.700000000000012,
+      6.36666666666668
+    ]
+  },
+  "Pyongyang, Korea, North": {
+    "mean_dist": 110.55663738374804,
+    "mean_time": 6.31666666666668,
+    "std_dist": 63.961269428619374,
+    "std_time": 0.7499999999999973,
+    "admin": "P\u2019y\u014fngyang",
+    "country": "Korea, North",
+    "regions": [
+      "Washington",
+      "California"
+    ],
+    "countries": [
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      46.595367955128665,
+      174.5179068123674
+    ],
+    "times": [
+      7.066666666666677,
+      5.566666666666682
+    ]
+  },
+  "Port-Vila, Vanuatu": {
+    "mean_dist": 2944.1462339604277,
+    "mean_time": 7.166666666666677,
+    "std_dist": 495.8466022646362,
+    "std_time": 0.6333333333333311,
+    "admin": "Shefa",
+    "country": "Vanuatu",
+    "regions": [
+      "Washington",
+      "California"
+    ],
+    "countries": [
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      3439.992836225064,
+      2448.2996316957915
+    ],
+    "times": [
+      6.533333333333346,
+      7.800000000000008
+    ]
+  },
+  "Baku, Azerbaijan": {
+    "mean_dist": 197.48129465167415,
+    "mean_time": 7.033333333333343,
+    "std_dist": 184.2005690563585,
+    "std_time": 0.6152385866625368,
+    "admin": "Bak\u0131",
+    "country": "Azerbaijan",
+    "regions": [
+      "Washington",
+      "California",
+      "Ontario"
+    ],
+    "countries": [
+      "United States",
+      "United States",
+      "Canada"
+    ],
+    "dists": [
+      56.67815508796695,
+      457.687056636392,
+      78.07867223066349
+    ],
+    "times": [
+      6.833333333333345,
+      7.866666666666674,
+      6.400000000000013
+    ]
+  },
+  "Rio de Janeiro, Rio de Janeiro, Brazil": {
+    "mean_dist": 498.44890887642583,
+    "mean_time": 6.700000000000013,
+    "std_dist": 300.23358625746494,
+    "std_time": 0.573488351136173,
+    "admin": "Rio de Janeiro",
+    "country": "Brazil",
+    "regions": [
+      "Washington",
+      "California",
+      "Ontario"
+    ],
+    "countries": [
+      "United States",
+      "United States",
+      "Canada"
+    ],
+    "dists": [
+      228.9736009092698,
+      349.0253352575515,
+      917.3477904624563
+    ],
+    "times": [
+      7.366666666666676,
+      5.966666666666681,
+      6.766666666666678
+    ]
+  },
+  "Newcastle, New South Wales, Australia": {
+    "mean_dist": 366.8306962526217,
+    "mean_time": 6.516666666666679,
+    "std_dist": 229.3261146222438,
+    "std_time": 1.4499999999999948,
+    "admin": "New South Wales",
+    "country": "Australia",
+    "regions": [
+      "Washington",
+      "California"
+    ],
+    "countries": [
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      596.1568108748655,
+      137.50458163037788
+    ],
+    "times": [
+      5.066666666666684,
+      7.966666666666674
+    ]
+  },
+  "Kitaku, Japan": {
+    "mean_dist": 486.29024150830475,
+    "mean_time": 7.588888888888898,
+    "std_dist": 235.3801405635657,
+    "std_time": 0.7350149070462743,
+    "admin": "Fukuoka",
+    "country": "Japan",
+    "regions": [
+      "Washington",
+      "California",
+      "Ontario"
+    ],
+    "countries": [
+      "United States",
+      "United States",
+      "Canada"
+    ],
+    "dists": [
+      392.45393139562185,
+      809.7979409004964,
+      256.6188522287961
+    ],
+    "times": [
+      7.566666666666675,
+      8.500000000000005,
+      6.700000000000012
+    ]
+  },
+  "Lincoln, Nebraska, United States": {
+    "mean_dist": 341.17324559751137,
+    "mean_time": 7.344444444444453,
+    "std_dist": 232.40425847882753,
+    "std_time": 0.7737993487324484,
+    "admin": "Nebraska",
+    "country": "United States",
+    "regions": [
+      "Washington",
+      "California",
+      "Ontario"
+    ],
+    "countries": [
+      "United States",
+      "United States",
+      "Canada"
+    ],
+    "dists": [
+      124.32325822457938,
+      235.70651136793586,
+      663.4899672000189
+    ],
+    "times": [
+      7.066666666666677,
+      8.400000000000006,
+      6.566666666666679
+    ]
+  },
+  "Philipsburg, Sint Maarten": {
+    "mean_dist": 69.88798485419117,
+    "mean_time": 6.966666666666677,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "",
+    "country": "Sint Maarten",
+    "regions": [
+      "Washington"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      69.88798485419117
+    ],
+    "times": [
+      6.966666666666677
+    ]
+  },
+  "Bytom, Poland": {
+    "mean_dist": 238.95913290645228,
+    "mean_time": 7.033333333333344,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "\u015al\u0105skie",
+    "country": "Poland",
+    "regions": [
+      "Washington"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      238.95913290645228
+    ],
+    "times": [
+      7.033333333333344
+    ]
+  },
+  "Perth, Western Australia, Australia": {
+    "mean_dist": 73.34094900516183,
+    "mean_time": 6.516666666666679,
+    "std_dist": 33.10389975826898,
+    "std_time": 0.549999999999998,
+    "admin": "Western Australia",
+    "country": "Australia",
+    "regions": [
+      "Washington",
+      "Ontario"
+    ],
+    "countries": [
+      "United States",
+      "Canada"
+    ],
+    "dists": [
+      40.23704924689285,
+      106.44484876343081
+    ],
+    "times": [
+      5.966666666666681,
+      7.066666666666677
+    ]
+  },
+  "Jixi, Heilongjiang, China": {
+    "mean_dist": 2075.8525865795814,
+    "mean_time": 6.933333333333344,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Heilongjiang",
+    "country": "China",
+    "regions": [
+      "Washington"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      2075.8525865795814
+    ],
+    "times": [
+      6.933333333333344
+    ]
+  },
+  "Port of Spain, Trinidad And Tobago": {
+    "mean_dist": 233.52911502086712,
+    "mean_time": 7.466666666666676,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Port of Spain",
+    "country": "Trinidad And Tobago",
+    "regions": [
+      "Washington"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      233.52911502086712
+    ],
+    "times": [
+      7.466666666666676
+    ]
+  },
+  "Panama City, Panama": {
+    "mean_dist": 162.21139485401198,
+    "mean_time": 7.666666666666675,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Panam\u00e1",
+    "country": "Panama",
+    "regions": [
+      "Washington"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      162.21139485401198
+    ],
+    "times": [
+      7.666666666666675
+    ]
+  },
+  "Sevilla, Spain": {
+    "mean_dist": 100.13590025638376,
+    "mean_time": 7.30000000000001,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Andalusia",
+    "country": "Spain",
+    "regions": [
+      "Washington"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      100.13590025638376
+    ],
+    "times": [
+      7.30000000000001
+    ]
+  },
+  "Dar es Salaam, Tanzania": {
+    "mean_dist": 1678.6022688201747,
+    "mean_time": 3.1000000000000245,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Dar es Salaam",
+    "country": "Tanzania",
+    "regions": [
+      "Washington"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      1678.6022688201747
+    ],
+    "times": [
+      3.1000000000000245
+    ]
+  },
+  "Homs, Syria": {
+    "mean_dist": 175.71403003368133,
+    "mean_time": 7.166666666666677,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "\u1e28im\u015f",
+    "country": "Syria",
+    "regions": [
+      "Washington"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      175.71403003368133
+    ],
+    "times": [
+      7.166666666666677
+    ]
+  },
+  "Suzhou, Jiangsu, China": {
+    "mean_dist": 264.82635762341727,
+    "mean_time": 6.466666666666679,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Jiangsu",
+    "country": "China",
+    "regions": [
+      "Washington"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      264.82635762341727
+    ],
+    "times": [
+      6.466666666666679
+    ]
+  },
+  "Salt Lake City, Utah, United States": {
+    "mean_dist": 39.37687217836873,
+    "mean_time": 7.066666666666677,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Utah",
+    "country": "United States",
+    "regions": [
+      "Washington"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      39.37687217836873
+    ],
+    "times": [
+      7.066666666666677
+    ]
+  },
+  "Vila Velha, Amap\u00e1, Brazil": {
+    "mean_dist": 2510.318358705822,
+    "mean_time": 6.833333333333345,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Amap\u00e1",
+    "country": "Brazil",
+    "regions": [
+      "Washington"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      2510.318358705822
+    ],
+    "times": [
+      6.833333333333345
+    ]
+  },
+  "Banjarmasin, Indonesia": {
+    "mean_dist": 832.5975242235877,
+    "mean_time": 7.066666666666677,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Kalimantan Selatan",
+    "country": "Indonesia",
+    "regions": [
+      "Washington"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      832.5975242235877
+    ],
+    "times": [
+      7.066666666666677
+    ]
+  },
+  "Qom, Iran": {
+    "mean_dist": 297.9489597373807,
+    "mean_time": 6.2000000000000135,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Qom",
+    "country": "Iran",
+    "regions": [
+      "Washington"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      297.9489597373807
+    ],
+    "times": [
+      6.2000000000000135
+    ]
+  },
+  "Richmond, Virginia, United States": {
+    "mean_dist": 176.4816990184718,
+    "mean_time": 5.766666666666682,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Virginia",
+    "country": "United States",
+    "regions": [
+      "Washington"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      176.4816990184718
+    ],
+    "times": [
+      5.766666666666682
     ]
   }
 }

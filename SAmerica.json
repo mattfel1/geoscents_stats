@@ -413,11 +413,10 @@
     ]
   },
   "Georgetown, Guyana": {
-    "mean_dist": 348.03401917503516,
-    "mean_time": 6.27619047619049,
-    "std_dist": 279.61081296861056,
-    "std_time": 1.0178898630218414,
-    "city": "Georgetown",
+    "mean_dist": 310.1621259953336,
+    "mean_time": 6.32916666666668,
+    "std_dist": 280.08818778904157,
+    "std_time": 0.9624098081840616,
     "admin": "Demerara-Mahaica",
     "country": "Guyana",
     "regions": [
@@ -427,7 +426,8 @@
       "New Jersey",
       "New Jersey",
       "New South Wales",
-      "Saxony"
+      "Saxony",
+      "Ontario"
     ],
     "countries": [
       "Unknown",
@@ -436,7 +436,8 @@
       "United States",
       "United States",
       "Australia",
-      "Germany"
+      "Germany",
+      "Canada"
     ],
     "dists": [
       547.3131147481913,
@@ -445,7 +446,8 @@
       155.75695586971366,
       97.78539346754978,
       357.36488103423807,
-      291.0916105147489
+      291.0916105147489,
+      45.058873737422836
     ],
     "times": [
       7.333333333333343,
@@ -454,7 +456,8 @@
       5.43333333333335,
       6.16666666666668,
       7.466666666666676,
-      4.366666666666687
+      4.366666666666687,
+      6.700000000000012
     ]
   },
   "Ipatinga, Brazil": {
@@ -1784,28 +1787,31 @@
     ]
   },
   "Cochabamba, Bolivia": {
-    "mean_dist": 264.59143036693234,
-    "mean_time": 7.533333333333342,
-    "std_dist": 2.209614755538553,
-    "std_time": 0.5333333333333314,
-    "city": "Cochabamba",
+    "mean_dist": 389.25223243444833,
+    "mean_time": 5.95555555555557,
+    "std_dist": 176.30622812541648,
+    "std_time": 2.273410447263837,
     "admin": "Cochabamba",
     "country": "Bolivia",
     "regions": [
       "New South Wales",
-      "New South Wales"
+      "New South Wales",
+      "Ontario"
     ],
     "countries": [
       "Australia",
-      "Australia"
+      "Australia",
+      "Canada"
     ],
     "dists": [
       262.3818156113938,
-      266.8010451224709
+      266.8010451224709,
+      638.5738365694804
     ],
     "times": [
       7.000000000000011,
-      8.066666666666674
+      8.066666666666674,
+      2.8000000000000256
     ]
   },
   "Santiago, Dominican Republic": {
@@ -1956,24 +1962,27 @@
     ]
   },
   "Santiago, Chile": {
-    "mean_dist": 324.0170206123139,
-    "mean_time": 7.30000000000001,
-    "std_dist": 0,
-    "std_time": 0,
-    "city": "Santiago",
+    "mean_dist": 244.08602708541667,
+    "mean_time": 6.566666666666679,
+    "std_dist": 79.93099352689724,
+    "std_time": 0.7333333333333307,
     "admin": "Regi\u00f3n Metropolitana",
     "country": "Chile",
     "regions": [
-      "New South Wales"
+      "New South Wales",
+      "Ontario"
     ],
     "countries": [
-      "Australia"
+      "Australia",
+      "Canada"
     ],
     "dists": [
-      324.0170206123139
+      324.0170206123139,
+      164.15503355851942
     ],
     "times": [
-      7.30000000000001
+      7.30000000000001,
+      5.833333333333348
     ]
   },
   "Santa Fe, Argentina": {
@@ -2121,5 +2130,151 @@
     "times": [
       5.000000000000018
     ]
+  },
+  "Barahona, Dominican Republic": {
+    "mean_dist": 114.78493314430162,
+    "mean_time": 7.033333333333344,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Enriquillo",
+    "country": "Dominican Republic",
+    "regions": [
+      "Ontario"
+    ],
+    "countries": [
+      "Canada"
+    ],
+    "dists": [
+      114.78493314430162
+    ],
+    "times": [
+      7.033333333333344
+    ]
+  },
+  "Lorica, Colombia": {
+    "mean_dist": 476.24535760532837,
+    "mean_time": 4.566666666666686,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "C\u00f3rdoba",
+    "country": "Colombia",
+    "regions": [
+      "Ontario"
+    ],
+    "countries": [
+      "Canada"
+    ],
+    "dists": [
+      476.24535760532837
+    ],
+    "times": [
+      4.566666666666686
+    ]
+  },
+  "Loja, Ecuador": {
+    "mean_dist": 472.8252255129666,
+    "mean_time": 7.000000000000011,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Loja",
+    "country": "Ecuador",
+    "regions": [
+      "Ontario"
+    ],
+    "countries": [
+      "Canada"
+    ],
+    "dists": [
+      472.8252255129666
+    ],
+    "times": [
+      7.000000000000011
+    ]
+  },
+  "Azul, Argentina": {
+    "mean_dist": 327.90240960000705,
+    "mean_time": 4.600000000000019,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Buenos Aires",
+    "country": "Argentina",
+    "regions": [
+      "Ontario"
+    ],
+    "countries": [
+      "Canada"
+    ],
+    "dists": [
+      327.90240960000705
+    ],
+    "times": [
+      4.600000000000019
+    ]
+  },
+  "Valle de La Pascua, Venezuela": {
+    "mean_dist": 116.43480545711336,
+    "mean_time": 4.833333333333352,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Gu\u00e1rico",
+    "country": "Venezuela",
+    "regions": [
+      "Ontario"
+    ],
+    "countries": [
+      "Canada"
+    ],
+    "dists": [
+      116.43480545711336
+    ],
+    "times": [
+      4.833333333333352
+    ]
+  },
+  "Sullana, Peru": {
+    "mean_dist": 627.7870648485488,
+    "mean_time": 3.033333333333358,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Piura",
+    "country": "Peru",
+    "regions": [
+      "Ontario"
+    ],
+    "countries": [
+      "Canada"
+    ],
+    "dists": [
+      627.7870648485488
+    ],
+    "times": [
+      3.033333333333358
+    ]
+  },
+  "San Carlos de Bariloche, Argentina": {
+    "mean_dist": 963.6960295747078,
+    "mean_time": 6.866666666666678,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "R\u00edo Negro",
+    "country": "Argentina",
+    "regions": [
+      "Ontario"
+    ],
+    "countries": [
+      "Canada"
+    ],
+    "dists": [
+      963.6960295747078
+    ],
+    "times": [
+      6.866666666666678
+    ]
+  },
+  "Manacapuru, Amazonas, Brazil": {
+    "regions": [],
+    "countries": [],
+    "dists": [],
+    "times": []
   }
 }
