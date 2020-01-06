@@ -1355,35 +1355,39 @@
     ]
   },
   "La Paz, Bolivia": {
-    "mean_dist": 366.7191680352154,
-    "mean_time": 6.675000000000012,
-    "std_dist": 163.76072291216522,
-    "std_time": 1.623845743905492,
+    "mean_dist": 335.4307562313203,
+    "mean_time": 6.593333333333345,
+    "std_dist": 159.27937200972525,
+    "std_time": 1.4615668913114317,
     "admin": "La Paz",
     "country": "Bolivia",
     "regions": [
       "New Jersey",
       "Saxony",
       "California",
+      "New South Wales",
       "New South Wales"
     ],
     "countries": [
       "United States",
       "Germany",
       "United States",
+      "Australia",
       "Australia"
     ],
     "dists": [
       628.4749853187736,
       364.5838595951515,
       186.66836353255945,
-      287.14946369437683
+      287.14946369437683,
+      210.27710901574002
     ],
     "times": [
       7.933333333333341,
       3.933333333333355,
       7.833333333333341,
-      7.000000000000011
+      7.000000000000011,
+      6.26666666666668
     ]
   },
   "Curitiba, Brazil": {
@@ -2420,10 +2424,24 @@
     "times": []
   },
   "Puerto Maldonado, Peru": {
-    "regions": [],
-    "countries": [],
-    "dists": [],
-    "times": []
+    "mean_dist": 853.2740774273802,
+    "mean_time": 7.4333333333333425,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Madre de Dios",
+    "country": "Peru",
+    "regions": [
+      "New South Wales"
+    ],
+    "countries": [
+      "Australia"
+    ],
+    "dists": [
+      853.2740774273802
+    ],
+    "times": [
+      7.4333333333333425
+    ]
   },
   "Cruzeiro do Sul, Acre, Brazil": {
     "regions": [],
@@ -2552,27 +2570,31 @@
     ]
   },
   "Guajar\u00e1-Mirim, Rond\u00f4nia, Brazil": {
-    "mean_dist": 3104.1272641719315,
-    "mean_time": 7.316666666666676,
-    "std_dist": 394.08290336290906,
-    "std_time": 0.9166666666666634,
+    "mean_dist": 2419.158612729027,
+    "mean_time": 7.355555555555565,
+    "std_dist": 1020.7342112752217,
+    "std_time": 0.750473101811921,
     "admin": "Rond\u00f4nia",
     "country": "Brazil",
     "regions": [
       "California",
-      "Texas"
+      "Texas",
+      "New South Wales"
     ],
     "countries": [
       "United States",
-      "United States"
+      "United States",
+      "Australia"
     ],
     "dists": [
       3498.2101675348404,
-      2710.0443608090222
+      2710.0443608090222,
+      1049.2213098432178
     ],
     "times": [
       8.23333333333334,
-      6.400000000000013
+      6.400000000000013,
+      7.4333333333333425
     ]
   },
   "Reconquista, Argentina": {
@@ -2960,23 +2982,27 @@
     ]
   },
   "Manta, Ecuador": {
-    "mean_dist": 187.35337043701213,
-    "mean_time": 7.10000000000001,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 209.81492426296057,
+    "mean_time": 7.733333333333341,
+    "std_dist": 22.461553825948457,
+    "std_time": 0.6333333333333311,
     "admin": "Manab\u00ed",
     "country": "Ecuador",
     "regions": [
-      "Ontario"
+      "Ontario",
+      "New South Wales"
     ],
     "countries": [
-      "Canada"
+      "Canada",
+      "Australia"
     ],
     "dists": [
-      187.35337043701213
+      187.35337043701213,
+      232.27647808890904
     ],
     "times": [
-      7.10000000000001
+      7.10000000000001,
+      8.366666666666672
     ]
   },
   "La Serena, Chile": {
@@ -3675,6 +3701,130 @@
       8.633333333333338,
       8.300000000000006,
       7.000000000000011
+    ]
+  },
+  "Ipiales, Colombia": {
+    "mean_dist": 340.8418493224391,
+    "mean_time": 8.266666666666673,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Nari\u00f1o",
+    "country": "Colombia",
+    "regions": [
+      "New South Wales"
+    ],
+    "countries": [
+      "Australia"
+    ],
+    "dists": [
+      340.8418493224391
+    ],
+    "times": [
+      8.266666666666673
+    ]
+  },
+  "Carora, Venezuela": {
+    "mean_dist": 394.08950087829146,
+    "mean_time": 8.33333333333334,
+    "std_dist": 3.4857320061010455,
+    "std_time": 0.16666666666666607,
+    "admin": "Lara",
+    "country": "Venezuela",
+    "regions": [
+      "New South Wales",
+      "New South Wales"
+    ],
+    "countries": [
+      "Australia",
+      "Australia"
+    ],
+    "dists": [
+      397.5752328843925,
+      390.6037688721904
+    ],
+    "times": [
+      8.500000000000005,
+      8.166666666666673
+    ]
+  },
+  "San Miguel de Tucum\u00e1n, Argentina": {
+    "mean_dist": 589.2063886987884,
+    "mean_time": 5.7333333333333485,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Tucum\u00e1n",
+    "country": "Argentina",
+    "regions": [
+      "New South Wales"
+    ],
+    "countries": [
+      "Australia"
+    ],
+    "dists": [
+      589.2063886987884
+    ],
+    "times": [
+      5.7333333333333485
+    ]
+  },
+  "Coquimbo, Chile": {
+    "mean_dist": 729.3492687854334,
+    "mean_time": 7.333333333333343,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Coquimbo",
+    "country": "Chile",
+    "regions": [
+      "New South Wales"
+    ],
+    "countries": [
+      "Australia"
+    ],
+    "dists": [
+      729.3492687854334
+    ],
+    "times": [
+      7.333333333333343
+    ]
+  },
+  "Ban\u00ed, Dominican Republic": {
+    "mean_dist": 40.556617631529214,
+    "mean_time": 7.6000000000000085,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Valdesia",
+    "country": "Dominican Republic",
+    "regions": [
+      "New South Wales"
+    ],
+    "countries": [
+      "Australia"
+    ],
+    "dists": [
+      40.556617631529214
+    ],
+    "times": [
+      7.6000000000000085
+    ]
+  },
+  "Vilhena, Rond\u00f4nia, Brazil": {
+    "mean_dist": 612.1091214882206,
+    "mean_time": 8.166666666666673,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Rond\u00f4nia",
+    "country": "Brazil",
+    "regions": [
+      "New South Wales"
+    ],
+    "countries": [
+      "Australia"
+    ],
+    "dists": [
+      612.1091214882206
+    ],
+    "times": [
+      8.166666666666673
     ]
   }
 }
