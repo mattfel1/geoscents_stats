@@ -1574,27 +1574,31 @@
     ]
   },
   "Neiva, Colombia": {
-    "mean_dist": 244.6342348178187,
-    "mean_time": 7.933333333333341,
-    "std_dist": 12.806768819200101,
-    "std_time": 0.033333333333333215,
+    "mean_dist": 291.3211343555228,
+    "mean_time": 8.100000000000007,
+    "std_dist": 66.84815177160574,
+    "std_time": 0.23726840560069498,
     "admin": "Huila",
     "country": "Colombia",
     "regions": [
       "New South Wales",
-      "New South Wales"
+      "New South Wales",
+      "California"
     ],
     "countries": [
       "Australia",
-      "Australia"
+      "Australia",
+      "United States"
     ],
     "dists": [
       257.4410036370188,
-      231.8274659986186
+      231.8274659986186,
+      384.6949334309309
     ],
     "times": [
       7.9000000000000075,
-      7.966666666666674
+      7.966666666666674,
+      8.433333333333339
     ]
   },
   "Belmopan, Belize": {
@@ -1723,24 +1727,27 @@
     ]
   },
   "Valpara\u00edso, Chile": {
-    "mean_dist": 81.41838926788346,
-    "mean_time": 7.800000000000008,
-    "std_dist": 0,
-    "std_time": 0,
-    "city": "Valpara\u00edso",
+    "mean_dist": 92.41641585038565,
+    "mean_time": 7.883333333333341,
+    "std_dist": 10.998026582502199,
+    "std_time": 0.08333333333333304,
     "admin": "Valpara\u00edso",
     "country": "Chile",
     "regions": [
-      "New South Wales"
+      "New South Wales",
+      "California"
     ],
     "countries": [
-      "Australia"
+      "Australia",
+      "United States"
     ],
     "dists": [
-      81.41838926788346
+      81.41838926788346,
+      103.41444243288785
     ],
     "times": [
-      7.800000000000008
+      7.800000000000008,
+      7.966666666666674
     ]
   },
   "Florian\u00f3polis, Brazil": {
@@ -1929,35 +1936,39 @@
     ]
   },
   "Cochabamba, Bolivia": {
-    "mean_dist": 739.6461004373732,
-    "mean_time": 5.766666666666682,
-    "std_dist": 625.811874894534,
-    "std_time": 1.9958289839896868,
+    "mean_dist": 619.6479836579873,
+    "mean_time": 6.22666666666668,
+    "std_dist": 609.024296994468,
+    "std_time": 2.008249652475169,
     "admin": "Cochabamba",
     "country": "Bolivia",
     "regions": [
       "New South Wales",
       "New South Wales",
       "Ontario",
-      "Texas"
+      "Texas",
+      "California"
     ],
     "countries": [
       "Australia",
       "Australia",
       "Canada",
+      "United States",
       "United States"
     ],
     "dists": [
       262.3818156113938,
       266.8010451224709,
       638.5738365694804,
-      1790.8277044461477
+      1790.8277044461477,
+      139.65551654044398
     ],
     "times": [
       7.000000000000011,
       8.066666666666674,
       2.8000000000000256,
-      5.200000000000017
+      5.200000000000017,
+      8.066666666666674
     ]
   },
   "Santiago, Dominican Republic": {
@@ -2066,24 +2077,27 @@
     ]
   },
   "Bucaramanga, Colombia": {
-    "mean_dist": 483.8096899571294,
-    "mean_time": 8.100000000000007,
-    "std_dist": 0,
-    "std_time": 0,
-    "city": "Bucaramanga",
+    "mean_dist": 421.187913992418,
+    "mean_time": 7.183333333333343,
+    "std_dist": 62.621775964711475,
+    "std_time": 0.9166666666666634,
     "admin": "Santander",
     "country": "Colombia",
     "regions": [
-      "New South Wales"
+      "New South Wales",
+      "Bogota D.C."
     ],
     "countries": [
-      "Australia"
+      "Australia",
+      "Colombia"
     ],
     "dists": [
-      483.8096899571294
+      483.8096899571294,
+      358.5661380277065
     ],
     "times": [
-      8.100000000000007
+      8.100000000000007,
+      6.26666666666668
     ]
   },
   "Feira de Santana, Brazil": {
@@ -2365,23 +2379,27 @@
     ]
   },
   "Valle de La Pascua, Venezuela": {
-    "mean_dist": 116.43480545711336,
-    "mean_time": 4.833333333333352,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 92.70362307505499,
+    "mean_time": 6.783333333333345,
+    "std_dist": 23.731182382058357,
+    "std_time": 1.949999999999993,
     "admin": "Gu\u00e1rico",
     "country": "Venezuela",
     "regions": [
-      "Ontario"
+      "Ontario",
+      "California"
     ],
     "countries": [
-      "Canada"
+      "Canada",
+      "United States"
     ],
     "dists": [
-      116.43480545711336
+      116.43480545711336,
+      68.97244069299664
     ],
     "times": [
-      4.833333333333352
+      4.833333333333352,
+      8.733333333333338
     ]
   },
   "Sullana, Peru": {
@@ -2525,10 +2543,24 @@
     "times": []
   },
   "Port of Spain, Trinidad And Tobago": {
-    "regions": [],
-    "countries": [],
-    "dists": [],
-    "times": []
+    "mean_dist": 230.62119424565535,
+    "mean_time": 7.566666666666675,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Port of Spain",
+    "country": "Trinidad And Tobago",
+    "regions": [
+      "California"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      230.62119424565535
+    ],
+    "times": [
+      7.566666666666675
+    ]
   },
   "Portoviejo, Ecuador": {
     "mean_dist": 227.59358288887674,
@@ -2875,71 +2907,83 @@
     ]
   },
   "Paita, Peru": {
-    "mean_dist": 970.3147783643352,
-    "mean_time": 7.283333333333343,
-    "std_dist": 204.21104305459028,
-    "std_time": 1.0499999999999963,
+    "mean_dist": 957.4021126451422,
+    "mean_time": 7.688888888888897,
+    "std_dist": 167.73463350059936,
+    "std_time": 1.0314798191355674,
     "admin": "Piura",
     "country": "Peru",
     "regions": [
       "California",
-      "New South Wales"
-    ],
-    "countries": [
-      "United States",
-      "Australia"
-    ],
-    "dists": [
-      1174.5258214189255,
-      766.1037353097449
-    ],
-    "times": [
-      6.233333333333347,
-      8.33333333333334
-    ]
-  },
-  "Bonao, Dominican Republic": {
-    "mean_dist": 89.96141183408876,
-    "mean_time": 8.300000000000006,
-    "std_dist": 0,
-    "std_time": 0,
-    "admin": "Cibao Sur",
-    "country": "Dominican Republic",
-    "regions": [
+      "New South Wales",
       "California"
     ],
     "countries": [
+      "United States",
+      "Australia",
       "United States"
     ],
     "dists": [
-      89.96141183408876
+      1174.5258214189255,
+      766.1037353097449,
+      931.5767812067566
     ],
     "times": [
-      8.300000000000006
+      6.233333333333347,
+      8.33333333333334,
+      8.500000000000005
+    ]
+  },
+  "Bonao, Dominican Republic": {
+    "mean_dist": 109.85158808517303,
+    "mean_time": 8.200000000000006,
+    "std_dist": 19.890176251084263,
+    "std_time": 0.09999999999999964,
+    "admin": "Cibao Sur",
+    "country": "Dominican Republic",
+    "regions": [
+      "California",
+      "California"
+    ],
+    "countries": [
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      89.96141183408876,
+      129.7417643362573
+    ],
+    "times": [
+      8.300000000000006,
+      8.100000000000007
     ]
   },
   "Azua, Dominican Republic": {
-    "mean_dist": 136.13287118915238,
-    "mean_time": 7.6000000000000085,
-    "std_dist": 20.199400099611346,
-    "std_time": 0.6333333333333311,
+    "mean_dist": 166.40056016321515,
+    "mean_time": 7.700000000000007,
+    "std_dist": 45.87239367256363,
+    "std_time": 0.5361039147473234,
     "admin": "Valdesia",
     "country": "Dominican Republic",
     "regions": [
       "California",
-      "New York"
+      "New York",
+      "Bogota D.C."
     ],
     "countries": [
       "United States",
-      "United States"
+      "United States",
+      "Colombia"
     ],
     "dists": [
       156.33227128876374,
-      115.93347108954104
+      115.93347108954104,
+      226.93593811134073
     ],
     "times": [
       8.23333333333334,
-      6.966666666666677
+      6.966666666666677,
+      7.9000000000000075
     ]
   },
   "Las Heras, Argentina": {
@@ -3283,27 +3327,31 @@
     ]
   },
   "Paran\u00e1, Argentina": {
-    "mean_dist": 528.1467949688092,
-    "mean_time": 6.300000000000013,
-    "std_dist": 173.6799640729751,
-    "std_time": 1.0666666666666629,
+    "mean_dist": 676.759512588145,
+    "mean_time": 6.433333333333347,
+    "std_dist": 253.53757043747086,
+    "std_time": 0.8911083402561489,
     "admin": "Entre R\u00edos",
     "country": "Argentina",
     "regions": [
       "New South Wales",
-      "Texas"
+      "Texas",
+      "California"
     ],
     "countries": [
       "Australia",
+      "United States",
       "United States"
     ],
     "dists": [
       354.46683089583405,
-      701.8267590417843
+      701.8267590417843,
+      973.9849478268166
     ],
     "times": [
       7.366666666666676,
-      5.23333333333335
+      5.23333333333335,
+      6.700000000000012
     ]
   },
   "Caguas, Puerto Rico": {
@@ -3469,10 +3517,24 @@
     "times": []
   },
   "Riobamba, Ecuador": {
-    "regions": [],
-    "countries": [],
-    "dists": [],
-    "times": []
+    "mean_dist": 123.56802581563744,
+    "mean_time": 8.800000000000004,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Chimborazo",
+    "country": "Ecuador",
+    "regions": [
+      "California"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      123.56802581563744
+    ],
+    "times": [
+      8.800000000000004
+    ]
   },
   "Juliaca, Peru": {
     "mean_dist": 2882.8762294426165,
@@ -4091,23 +4153,27 @@
     ]
   },
   "Latacunga, Ecuador": {
-    "mean_dist": 81.14715595472711,
-    "mean_time": 7.533333333333342,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 50.1551891690139,
+    "mean_time": 7.550000000000009,
+    "std_dist": 30.99196678571321,
+    "std_time": 0.016666666666666607,
     "admin": "Cotopaxi",
     "country": "Ecuador",
     "regions": [
-      "New York"
+      "New York",
+      "Bogota D.C."
     ],
     "countries": [
-      "United States"
+      "United States",
+      "Colombia"
     ],
     "dists": [
-      81.14715595472711
+      81.14715595472711,
+      19.16322238330069
     ],
     "times": [
-      7.533333333333342
+      7.533333333333342,
+      7.566666666666675
     ]
   },
   "Huancayo, Peru": {
@@ -4351,23 +4417,27 @@
     ]
   },
   "Talca, Chile": {
-    "mean_dist": 48.69231434251116,
-    "mean_time": 7.866666666666674,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 204.91112210233655,
+    "mean_time": 7.783333333333341,
+    "std_dist": 156.21880775982538,
+    "std_time": 0.08333333333333304,
     "admin": "Maule",
     "country": "Chile",
     "regions": [
-      "New South Wales"
+      "New South Wales",
+      "Bogota D.C."
     ],
     "countries": [
-      "Australia"
+      "Australia",
+      "Colombia"
     ],
     "dists": [
-      48.69231434251116
+      48.69231434251116,
+      361.12992986216193
     ],
     "times": [
-      7.866666666666674
+      7.866666666666674,
+      7.700000000000008
     ]
   },
   "Puerto Plata, Dominican Republic": {
@@ -4408,6 +4478,186 @@
     ],
     "times": [
       7.766666666666675
+    ]
+  },
+  "M\u00e9rida, Venezuela": {
+    "mean_dist": 229.5082992966321,
+    "mean_time": 7.500000000000009,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "M\u00e9rida",
+    "country": "Venezuela",
+    "regions": [
+      "Bogota D.C."
+    ],
+    "countries": [
+      "Colombia"
+    ],
+    "dists": [
+      229.5082992966321
+    ],
+    "times": [
+      7.500000000000009
+    ]
+  },
+  "Corrientes, Argentina": {
+    "mean_dist": 1726.961894524698,
+    "mean_time": 7.966666666666674,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Corrientes",
+    "country": "Argentina",
+    "regions": [
+      "Bogota D.C."
+    ],
+    "countries": [
+      "Colombia"
+    ],
+    "dists": [
+      1726.961894524698
+    ],
+    "times": [
+      7.966666666666674
+    ]
+  },
+  "El Banco, Colombia": {
+    "mean_dist": 510.7038187750829,
+    "mean_time": 6.766666666666678,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Magdalena",
+    "country": "Colombia",
+    "regions": [
+      "Bogota D.C."
+    ],
+    "countries": [
+      "Colombia"
+    ],
+    "dists": [
+      510.7038187750829
+    ],
+    "times": [
+      6.766666666666678
+    ]
+  },
+  "Tef\u00e9, Amazonas, Brazil": {
+    "mean_dist": 475.64433237430563,
+    "mean_time": 7.6000000000000085,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Amazonas",
+    "country": "Brazil",
+    "regions": [
+      "Bogota D.C."
+    ],
+    "countries": [
+      "Colombia"
+    ],
+    "dists": [
+      475.64433237430563
+    ],
+    "times": [
+      7.6000000000000085
+    ]
+  },
+  "Bayam\u00f3n, Puerto Rico": {
+    "mean_dist": 1080.0682756158064,
+    "mean_time": 6.766666666666678,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Puerto Rico",
+    "country": "Puerto Rico",
+    "regions": [
+      "Bogota D.C."
+    ],
+    "countries": [
+      "Colombia"
+    ],
+    "dists": [
+      1080.0682756158064
+    ],
+    "times": [
+      6.766666666666678
+    ]
+  },
+  "Moquegua, Peru": {
+    "mean_dist": 1039.920854617723,
+    "mean_time": 7.700000000000008,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Moquegua",
+    "country": "Peru",
+    "regions": [
+      "Bogota D.C."
+    ],
+    "countries": [
+      "Colombia"
+    ],
+    "dists": [
+      1039.920854617723
+    ],
+    "times": [
+      7.700000000000008
+    ]
+  },
+  "Riberalta, Bolivia": {
+    "mean_dist": 526.7501703342303,
+    "mean_time": 6.500000000000012,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "El Beni",
+    "country": "Bolivia",
+    "regions": [
+      "Bogota D.C."
+    ],
+    "countries": [
+      "Colombia"
+    ],
+    "dists": [
+      526.7501703342303
+    ],
+    "times": [
+      6.500000000000012
+    ]
+  },
+  "Porto Velho, Rond\u00f4nia, Brazil": {
+    "mean_dist": 2460.3566822417724,
+    "mean_time": 8.23333333333334,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Rond\u00f4nia",
+    "country": "Brazil",
+    "regions": [
+      "California"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      2460.3566822417724
+    ],
+    "times": [
+      8.23333333333334
+    ]
+  },
+  "Puno, Peru": {
+    "mean_dist": 604.1640671110105,
+    "mean_time": 8.600000000000005,
+    "std_dist": 0,
+    "std_time": 0,
+    "admin": "Puno",
+    "country": "Peru",
+    "regions": [
+      "California"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      604.1640671110105
+    ],
+    "times": [
+      8.600000000000005
     ]
   }
 }
