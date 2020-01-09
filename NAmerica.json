@@ -357,32 +357,36 @@
     ]
   },
   "Syracuse, New York, United States": {
-    "mean_dist": 129.21932534769317,
-    "mean_time": 7.322222222222233,
-    "std_dist": 51.04311121939268,
-    "std_time": 0.558658003998955,
+    "mean_dist": 119.96183628012781,
+    "mean_time": 6.658333333333346,
+    "std_dist": 47.0228956331354,
+    "std_time": 1.2475253281775218,
     "city": "Syracuse",
     "admin": "New York",
     "country": "United States",
     "regions": [
       "Unknown",
       "Unknown",
-      "Missouri"
+      "Missouri",
+      "Pennsylvania"
     ],
     "countries": [
       "Unknown",
       "Unknown",
+      "United States",
       "United States"
     ],
     "dists": [
       141.98599388868857,
       61.30666526253857,
-      184.3653168918524
+      184.3653168918524,
+      92.18936907743173
     ],
     "times": [
       7.500000000000009,
       7.9000000000000075,
-      6.566666666666679
+      6.566666666666679,
+      4.666666666666686
     ]
   },
   "Poza Rica de Hidalgo, Veracruz, Mexico": {
@@ -811,10 +815,10 @@
     ]
   },
   "Petrified Forest, Nat\u2019l Park, USA": {
-    "mean_dist": 533.3687770529189,
-    "mean_time": 5.336666666666682,
-    "std_dist": 455.22908125282845,
-    "std_time": 2.0959458220309175,
+    "mean_dist": 599.4858746059637,
+    "mean_time": 5.106060606060622,
+    "std_dist": 481.77672393257194,
+    "std_time": 2.1273029437550006,
     "admin": "Nat\u2019l Park",
     "country": "USA",
     "city": "Petrified Forest",
@@ -828,13 +832,15 @@
       "Wisconsin",
       "Pennsylvania",
       "Pennsylvania",
-      "California"
+      "California",
+      "Pennsylvania"
     ],
     "countries": [
       "Unknown",
       "Unknown",
       "Unknown",
       "Unknown",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -852,7 +858,8 @@
       569.1836096474998,
       62.19360317005555,
       56.63244342906613,
-      289.38409976213995
+      289.38409976213995,
+      1260.6568501364131
     ],
     "times": [
       7.566666666666675,
@@ -864,14 +871,15 @@
       5.866666666666681,
       6.2000000000000135,
       8.23333333333334,
-      2.833333333333359
+      2.833333333333359,
+      2.8000000000000256
     ]
   },
   "Little Sandy, Nat'l Wildlife Refuge, USA": {
-    "mean_dist": 1861.1002175570056,
-    "mean_time": 5.130769230769247,
-    "std_dist": 462.1103622533828,
-    "std_time": 1.59038035220958,
+    "mean_dist": 1789.2522198502918,
+    "mean_time": 4.851111111111129,
+    "std_dist": 492.3187414093364,
+    "std_time": 1.6712322651117655,
     "admin": "Nat'l Wildlife Refuge",
     "country": "USA",
     "city": "Little Sandy",
@@ -888,7 +896,9 @@
       "Michigan",
       "Connecticut",
       "Washington",
-      "Harjumaa"
+      "Harjumaa",
+      "Pennsylvania",
+      "Massachusetts"
     ],
     "countries": [
       "Unknown",
@@ -903,7 +913,9 @@
       "United States",
       "United States",
       "United States",
-      "Estonia"
+      "Estonia",
+      "United States",
+      "United States"
     ],
     "dists": [
       1833.5710753685237,
@@ -918,7 +930,9 @@
       1429.9075192114522,
       2087.0040166887648,
       2686.4625034406968,
-      1424.6733198724282
+      1424.6733198724282,
+      1744.2948383966757,
+      900.1856311166283
     ],
     "times": [
       5.666666666666682,
@@ -933,7 +947,9 @@
       4.9666666666666845,
       4.166666666666687,
       0.5333333333333588,
-      5.666666666666682
+      5.666666666666682,
+      3.8666666666666885,
+      2.2000000000000277
     ]
   },
   "Savannah, Georgia, United States": {
@@ -1006,12 +1022,13 @@
     ]
   },
   "Dover, Pennsylvania, United States": {
-    "mean_dist": 178.34502056521723,
-    "mean_time": 6.757142857142869,
-    "std_dist": 145.32782090329985,
-    "std_time": 1.3258976337362474,
+    "mean_dist": 174.4029972221608,
+    "mean_time": 6.720833333333346,
+    "std_dist": 136.34122789420417,
+    "std_time": 1.243978552423183,
     "admin": "Pennsylvania",
     "country": "United States",
+    "city": "Dover",
     "regions": [
       "Unknown",
       "Unknown",
@@ -1019,12 +1036,14 @@
       "New York",
       "New York",
       "Texas",
-      "New York"
+      "New York",
+      "Pennsylvania"
     ],
     "countries": [
       "Unknown",
       "Unknown",
       "Unknown",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -1037,7 +1056,8 @@
       142.94826950338842,
       62.458759993136184,
       510.1647259923055,
-      67.5968240142178
+      67.5968240142178,
+      146.80883382076587
     ],
     "times": [
       7.500000000000009,
@@ -1046,7 +1066,8 @@
       7.933333333333341,
       8.13333333333334,
       6.600000000000012,
-      6.033333333333347
+      6.033333333333347,
+      6.466666666666679
     ]
   },
   "Pensacola, Florida, United States": {
@@ -1273,6 +1294,7 @@
     "std_time": 1.2240516611384473,
     "admin": "Sinaloa",
     "country": "Mexico",
+    "city": "Los Mochis",
     "regions": [
       "Unknown",
       "Unknown",
@@ -1307,10 +1329,10 @@
     ]
   },
   "Zion, Nat\u2019l Park, USA": {
-    "mean_dist": 442.5411266160914,
-    "mean_time": 5.823809523809539,
-    "std_dist": 248.39243125028065,
-    "std_time": 1.3590045710137504,
+    "mean_dist": 787.7961536800861,
+    "mean_time": 5.970833333333347,
+    "std_dist": 942.5463839543072,
+    "std_time": 1.3294148148715612,
     "admin": "Nat\u2019l Park",
     "country": "USA",
     "city": "Zion",
@@ -1321,12 +1343,14 @@
       "New York",
       "New York",
       "Texas",
-      "California"
+      "California",
+      "Pennsylvania"
     ],
     "countries": [
       "Unknown",
       "Unknown",
       "Unknown",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -1339,7 +1363,8 @@
       723.7252010933142,
       611.4582750518954,
       781.797447548953,
-      288.09709650206884
+      288.09709650206884,
+      3204.5813431280494
     ],
     "times": [
       5.800000000000015,
@@ -1348,7 +1373,8 @@
       7.266666666666676,
       2.9666666666666917,
       7.4333333333333425,
-      6.000000000000014
+      6.000000000000014,
+      7.000000000000011
     ]
   },
   "Laredo, Texas, United States": {
@@ -2007,10 +2033,10 @@
     ]
   },
   "Nassau, Bahamas, The": {
-    "mean_dist": 417.1032095771299,
-    "mean_time": 6.060000000000014,
-    "std_dist": 729.4547072270476,
-    "std_time": 1.9082161536075681,
+    "mean_dist": 387.38508458962224,
+    "mean_time": 6.096969696969711,
+    "std_dist": 701.8281364189346,
+    "std_time": 1.8231648886491079,
     "admin": "",
     "country": "Bahamas, The",
     "city": "Nassau",
@@ -2024,12 +2050,14 @@
       "New York",
       "Oregon",
       "Oregon",
-      "Washington"
+      "Washington",
+      "Pennsylvania"
     ],
     "countries": [
       "Unknown",
       "Unknown",
       "Unknown",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -2048,7 +2076,8 @@
       1714.8922504635027,
       62.97842527821984,
       137.23830388540475,
-      2020.1655806563322
+      2020.1655806563322,
+      90.20383471454502
     ],
     "times": [
       7.733333333333341,
@@ -2060,7 +2089,8 @@
       3.0666666666666913,
       6.833333333333345,
       2.53333333333336,
-      7.633333333333342
+      7.633333333333342,
+      6.466666666666679
     ]
   },
   "Saint Paul, Minnesota, United States": {
@@ -2105,10 +2135,10 @@
     ]
   },
   "Roseau, Dominica": {
-    "mean_dist": 1041.8712804067923,
-    "mean_time": 6.2848484848484985,
-    "std_dist": 771.5627304355355,
-    "std_time": 2.059241972740371,
+    "mean_dist": 1049.3281684802278,
+    "mean_time": 6.21666666666668,
+    "std_dist": 739.1289581152363,
+    "std_time": 1.9845001236434108,
     "admin": "Saint George",
     "country": "Dominica",
     "city": "Roseau",
@@ -2123,7 +2153,8 @@
       "Washington",
       "Washington",
       "Washington",
-      "Harjumaa"
+      "Harjumaa",
+      "Pennsylvania"
     ],
     "countries": [
       "Unknown",
@@ -2136,7 +2167,8 @@
       "United States",
       "United States",
       "United States",
-      "Estonia"
+      "Estonia",
+      "United States"
     ],
     "dists": [
       45.49049308612585,
@@ -2149,7 +2181,8 @@
       1400.8869099957967,
       1413.1554747158102,
       19.697844951566232,
-      870.11035766277
+      870.11035766277,
+      1131.3539372880184
     ],
     "times": [
       7.800000000000008,
@@ -2162,7 +2195,8 @@
       7.866666666666674,
       7.866666666666674,
       8.100000000000007,
-      6.133333333333347
+      6.133333333333347,
+      5.466666666666683
     ]
   },
   "Indianapolis, Indiana, United States": {
@@ -2609,10 +2643,10 @@
     ]
   },
   "G\u00f3mez Palacio, Durango, Mexico": {
-    "mean_dist": 362.14148099178135,
-    "mean_time": 6.636666666666679,
-    "std_dist": 195.79575587093407,
-    "std_time": 1.9270270712507676,
+    "mean_dist": 334.1339660681967,
+    "mean_time": 6.630303030303042,
+    "std_dist": 206.62792170560064,
+    "std_time": 1.8374584195366575,
     "admin": "Durango",
     "country": "Mexico",
     "city": "G\u00f3mez Palacio",
@@ -2626,7 +2660,8 @@
       "Ontario",
       "New York",
       "Texas",
-      "Washington"
+      "Washington",
+      "Pennsylvania"
     ],
     "countries": [
       "Unknown",
@@ -2636,6 +2671,7 @@
       "United States",
       "United States",
       "Canada",
+      "United States",
       "United States",
       "United States",
       "United States"
@@ -2650,7 +2686,8 @@
       136.20909225173855,
       252.58772187340145,
       570.0668904879485,
-      553.9839431332471
+      553.9839431332471,
+      54.05881683234987
     ],
     "times": [
       6.833333333333345,
@@ -2662,7 +2699,8 @@
       7.166666666666677,
       5.7333333333333485,
       8.23333333333334,
-      8.13333333333334
+      8.13333333333334,
+      6.566666666666679
     ]
   },
   "Harrisburg, Pennsylvania, United States": {
@@ -2754,10 +2792,10 @@
     ]
   },
   "Toronto, Ontario, Canada": {
-    "mean_dist": 215.25211554426684,
-    "mean_time": 5.190909090909107,
-    "std_dist": 131.9568887843757,
-    "std_time": 1.81815151489898,
+    "mean_dist": 206.35506568197277,
+    "mean_time": 5.266666666666683,
+    "std_dist": 129.73935890194633,
+    "std_time": 1.7587874611030505,
     "admin": "Ontario",
     "country": "Canada",
     "city": "Toronto",
@@ -2772,7 +2810,8 @@
       "Zurich",
       "Washington",
       "Washington",
-      "Harjumaa"
+      "Harjumaa",
+      "Pennsylvania"
     ],
     "countries": [
       "Unknown",
@@ -2785,7 +2824,8 @@
       "Switzerland",
       "United States",
       "United States",
-      "Estonia"
+      "Estonia",
+      "United States"
     ],
     "dists": [
       69.53933547986438,
@@ -2798,7 +2838,8 @@
       112.56148880770968,
       260.9214182229569,
       220.78832532383328,
-      308.40469813729624
+      308.40469813729624,
+      108.48751719673812
     ],
     "times": [
       6.333333333333346,
@@ -2811,7 +2852,8 @@
       2.8000000000000256,
       6.866666666666678,
       6.933333333333344,
-      4.266666666666687
+      4.266666666666687,
+      6.100000000000014
     ]
   },
   "Road Town, Virgin Islands, British": {
@@ -2901,12 +2943,13 @@
     ]
   },
   "Nuevo Laredo, Tamaulipas, Mexico": {
-    "mean_dist": 579.1127641576276,
-    "mean_time": 6.204761904761917,
-    "std_dist": 265.51960817781446,
-    "std_time": 1.3235868260782093,
+    "mean_dist": 612.1637119955943,
+    "mean_time": 6.200000000000013,
+    "std_dist": 263.3147082996952,
+    "std_time": 1.2381662067572128,
     "admin": "Tamaulipas",
     "country": "Mexico",
+    "city": "Nuevo Laredo",
     "regions": [
       "Unknown",
       "Unknown",
@@ -2914,12 +2957,14 @@
       "Texas",
       "Missouri",
       "Illinois",
-      "Texas"
+      "Texas",
+      "Pennsylvania"
     ],
     "countries": [
       "Unknown",
       "Unknown",
       "Unknown",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -2932,7 +2977,8 @@
       176.72286312008333,
       237.40663645949982,
       847.0545254354171,
-      807.1391370985572
+      807.1391370985572,
+      843.5203468613615
     ],
     "times": [
       7.1333333333333435,
@@ -2941,7 +2987,8 @@
       4.066666666666688,
       4.700000000000019,
       5.7333333333333485,
-      7.666666666666675
+      7.666666666666675,
+      6.16666666666668
     ]
   },
   "Louisville, Kentucky, United States": {
@@ -3037,10 +3084,10 @@
     ]
   },
   "Uruapan, Michoac\u00e1n de Ocampo, Mexico": {
-    "mean_dist": 530.9341925615635,
-    "mean_time": 6.713333333333345,
-    "std_dist": 340.78748893385546,
-    "std_time": 1.5727682601069943,
+    "mean_dist": 537.77016569657,
+    "mean_time": 6.696969696969709,
+    "std_dist": 325.6464178851469,
+    "std_time": 1.5004682464743029,
     "admin": "Michoac\u00e1n de Ocampo",
     "country": "Mexico",
     "city": "Uruapan",
@@ -3054,7 +3101,8 @@
       "New York",
       "Ontario",
       "New Jersey",
-      "California"
+      "California",
+      "Pennsylvania"
     ],
     "countries": [
       "Unknown",
@@ -3065,6 +3113,7 @@
       "Canada",
       "United States",
       "Canada",
+      "United States",
       "United States",
       "United States"
     ],
@@ -3078,7 +3127,8 @@
       404.81103625118016,
       1318.9871767217226,
       882.9667543547883,
-      235.01750203136373
+      235.01750203136373,
+      606.1298970466341
     ],
     "times": [
       8.000000000000007,
@@ -3090,7 +3140,8 @@
       7.10000000000001,
       6.16666666666668,
       5.966666666666681,
-      8.23333333333334
+      8.23333333333334,
+      6.533333333333346
     ]
   },
   "Chattanooga, Tennessee, United States": {
@@ -3185,10 +3236,10 @@
     ]
   },
   "Mount Rainier, Nat\u2019l Park, USA": {
-    "mean_dist": 98.49723713463625,
-    "mean_time": 6.194444444444458,
-    "std_dist": 51.77876107565014,
-    "std_time": 1.4535291237468315,
+    "mean_dist": 486.55048114612146,
+    "mean_time": 6.304761904761918,
+    "std_dist": 951.7404874739708,
+    "std_time": 1.3725689703003194,
     "admin": "Nat\u2019l Park",
     "country": "USA",
     "city": "Mount Rainier",
@@ -3198,13 +3249,15 @@
       "Pennsylvania",
       "Ontario",
       "California",
-      "Washington"
+      "Washington",
+      "Pennsylvania"
     ],
     "countries": [
       "United States",
       "United States",
       "United States",
       "Canada",
+      "United States",
       "United States",
       "United States"
     ],
@@ -3214,7 +3267,8 @@
       40.423046632155554,
       160.85382639693023,
       56.61576349526191,
-      82.26603361126513
+      82.26603361126513,
+      2814.8699452150327
     ],
     "times": [
       5.100000000000017,
@@ -3222,7 +3276,8 @@
       6.566666666666679,
       3.966666666666688,
       7.6000000000000085,
-      8.23333333333334
+      8.23333333333334,
+      6.966666666666677
     ]
   },
   "Veracruz, Veracruz, Mexico": {
@@ -3266,10 +3321,10 @@
     ]
   },
   "Santiago de Cuba, Cuba": {
-    "mean_dist": 433.56027791937146,
-    "mean_time": 6.47878787878789,
-    "std_dist": 542.2599642383443,
-    "std_time": 1.4443391923226774,
+    "mean_dist": 450.4882612477575,
+    "mean_time": 6.4583333333333455,
+    "std_dist": 522.2012727193256,
+    "std_time": 1.384512549600034,
     "admin": "Santiago de Cuba",
     "country": "Cuba",
     "city": "Santiago de Cuba",
@@ -3284,7 +3339,8 @@
       "Texas",
       "Pennsylvania",
       "Pennsylvania",
-      "California"
+      "California",
+      "Pennsylvania"
     ],
     "countries": [
       "United States",
@@ -3294,6 +3350,7 @@
       "United States",
       "United States",
       "Canada",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -3310,7 +3367,8 @@
       278.6520717303521,
       274.1118611253655,
       230.76933859424375,
-      466.4624287771583
+      466.4624287771583,
+      636.6960778600043
     ],
     "times": [
       7.766666666666675,
@@ -3323,7 +3381,8 @@
       8.466666666666672,
       5.43333333333335,
       6.900000000000011,
-      7.1333333333333435
+      7.1333333333333435,
+      6.233333333333347
     ]
   },
   "Bismarck, North Dakota, United States": {
@@ -3513,10 +3572,10 @@
     ]
   },
   "Montr\u00e9al, Qu\u00e9bec, Canada": {
-    "mean_dist": 556.472487481625,
-    "mean_time": 6.04666666666668,
-    "std_dist": 593.3685322478691,
-    "std_time": 1.5413702417726267,
+    "mean_dist": 545.9142208839771,
+    "mean_time": 5.7407407407407565,
+    "std_dist": 587.9314357001533,
+    "std_time": 1.4485222591502547,
     "admin": "Qu\u00e9bec",
     "country": "Canada",
     "city": "Montr\u00e9al",
@@ -3525,9 +3584,17 @@
       "New Jersey",
       "California",
       "Michigan",
-      "California"
+      "California",
+      "Pennsylvania",
+      "Pennsylvania",
+      "Pennsylvania",
+      "Massachusetts"
     ],
     "countries": [
+      "United States",
+      "United States",
+      "United States",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -3539,14 +3606,22 @@
       1698.1973701109555,
       148.60059284867995,
       381.3119757262003,
-      504.9266432161332
+      504.9266432161332,
+      1528.2822208024393,
+      269.66457332020894,
+      64.8493708664245,
+      268.06938555859614
     ],
     "times": [
       5.066666666666684,
       3.5333333333333563,
       6.833333333333345,
       7.000000000000011,
-      7.800000000000008
+      7.800000000000008,
+      6.466666666666679,
+      5.966666666666681,
+      5.700000000000015,
+      3.300000000000024
     ]
   },
   "Mission Viejo, California, United States": {
@@ -3854,10 +3929,10 @@
     ]
   },
   "Victoria, British Columbia, Canada": {
-    "mean_dist": 1782.1733574015561,
-    "mean_time": 5.40833333333335,
-    "std_dist": 1869.1202210993488,
-    "std_time": 1.21880519818021,
+    "mean_dist": 1601.3986989979542,
+    "mean_time": 5.5777777777777935,
+    "std_dist": 1834.9025272352096,
+    "std_time": 1.245039540251679,
     "admin": "British Columbia",
     "country": "Canada",
     "city": "Victoria",
@@ -3869,9 +3944,11 @@
       "Texas",
       "Washington",
       "Washington",
-      "Texas"
+      "Texas",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -3889,7 +3966,8 @@
       4132.650391655953,
       107.76122009734279,
       26.92189331409712,
-      4156.2750563223735
+      4156.2750563223735,
+      155.20143176913925
     ],
     "times": [
       3.500000000000023,
@@ -3899,7 +3977,8 @@
       5.533333333333349,
       6.900000000000011,
       7.466666666666676,
-      5.43333333333335
+      5.43333333333335,
+      6.933333333333344
     ]
   },
   "Riverside, California, United States": {
@@ -4053,19 +4132,22 @@
     ]
   },
   "Jacksonville, Florida, United States": {
-    "mean_dist": 149.70819109154635,
-    "mean_time": 6.866666666666678,
-    "std_dist": 144.92297321066135,
-    "std_time": 0.34960294939004927,
+    "mean_dist": 163.13837844524545,
+    "mean_time": 6.826666666666678,
+    "std_dist": 132.37678898053196,
+    "std_time": 0.322765824984271,
     "admin": "Florida",
     "country": "United States",
+    "city": "Jacksonville",
     "regions": [
       "New York",
       "New Jersey",
       "Maine",
-      "Florida"
+      "Florida",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -4075,13 +4157,15 @@
       389.45170382045995,
       139.40561683843538,
       42.26802406935403,
-      27.70741963793604
+      27.70741963793604,
+      216.85912786004184
     ],
     "times": [
       7.466666666666676,
       6.6666666666666785,
       6.733333333333345,
-      6.600000000000012
+      6.600000000000012,
+      6.6666666666666785
     ]
   },
   "Trenton, New Jersey, United States": {
@@ -4690,10 +4774,10 @@
     ]
   },
   "Winnipeg, Manitoba, Canada": {
-    "mean_dist": 735.5108593294842,
-    "mean_time": 5.021212121212138,
-    "std_dist": 822.1052951291686,
-    "std_time": 2.6601918639422135,
+    "mean_dist": 769.7240926622338,
+    "mean_time": 4.925000000000018,
+    "std_dist": 795.2431631951902,
+    "std_time": 2.5668515445681344,
     "admin": "Manitoba",
     "country": "Canada",
     "city": "Winnipeg",
@@ -4708,9 +4792,11 @@
       "New York",
       "Virginia",
       "Wisconsin",
-      "Washington"
+      "Washington",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -4734,7 +4820,8 @@
       66.57322113090683,
       2815.4293452360716,
       814.5659411286048,
-      235.14567720727663
+      235.14567720727663,
+      1146.0696593224786
     ],
     "times": [
       7.20000000000001,
@@ -4747,7 +4834,8 @@
       6.733333333333345,
       5.300000000000017,
       7.400000000000009,
-      8.066666666666674
+      8.066666666666674,
+      3.8666666666666885
     ]
   },
   "Mazatl\u00e1n, Sonora, Mexico": {
@@ -4805,10 +4893,10 @@
     ]
   },
   "Edmonton, Alberta, Canada": {
-    "mean_dist": 838.7082622212245,
-    "mean_time": 6.3285714285714425,
-    "std_dist": 544.451350957977,
-    "std_time": 1.2437052388280851,
+    "mean_dist": 1093.5985993519369,
+    "mean_time": 6.3250000000000135,
+    "std_dist": 845.0783703913074,
+    "std_time": 1.163418096243417,
     "admin": "Alberta",
     "country": "Canada",
     "city": "Edmonton",
@@ -4819,12 +4907,14 @@
       "Virginia",
       "Wisconsin",
       "Missouri",
-      "Washington"
+      "Washington",
+      "Pennsylvania"
     ],
     "countries": [
       "United States",
       "United States",
       "Canada",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -4837,7 +4927,8 @@
       610.0978481415898,
       1583.902542271228,
       707.382421012566,
-      1753.5629652153757
+      1753.5629652153757,
+      2877.8309592669234
     ],
     "times": [
       7.633333333333342,
@@ -4846,7 +4937,8 @@
       4.5000000000000195,
       7.966666666666674,
       4.933333333333351,
-      6.733333333333345
+      6.733333333333345,
+      6.300000000000013
     ]
   },
   "Saint Louis, Missouri, United States": {
@@ -5481,31 +5573,36 @@
     ]
   },
   "Tlaxcala, Tlaxcala, Mexico": {
-    "mean_dist": 312.84753920755674,
-    "mean_time": 6.26666666666668,
-    "std_dist": 210.5979901107334,
-    "std_time": 1.2762793146051052,
+    "mean_dist": 685.6982932736493,
+    "mean_time": 6.466666666666679,
+    "std_dist": 671.0563981529212,
+    "std_time": 1.1583033569262662,
     "admin": "Tlaxcala",
     "country": "Mexico",
+    "city": "Tlaxcala",
     "regions": [
       "Massachusetts",
       "Massachusetts",
-      "England"
+      "England",
+      "Pennsylvania"
     ],
     "countries": [
       "United States",
       "United States",
-      "United Kingdom"
+      "United Kingdom",
+      "United States"
     ],
     "dists": [
       610.6642083931652,
       161.45046509176922,
-      166.42794413773584
+      166.42794413773584,
+      1804.2505554719269
     ],
     "times": [
       7.700000000000008,
       6.500000000000012,
-      4.600000000000019
+      4.600000000000019,
+      7.066666666666677
     ]
   },
   "Havana, Cuba": {
@@ -5966,32 +6063,36 @@
     ]
   },
   "Arches, Nat\u2019l Park, USA": {
-    "mean_dist": 997.5021426262032,
-    "mean_time": 5.755555555555571,
-    "std_dist": 331.85192455687775,
-    "std_time": 1.6567110061880654,
+    "mean_dist": 1383.629825753209,
+    "mean_time": 5.966666666666681,
+    "std_dist": 727.9272201979851,
+    "std_time": 1.480615487634182,
     "admin": "Nat\u2019l Park",
     "country": "USA",
     "city": "Arches",
     "regions": [
       "Louisiana",
       "Illinois",
-      "Quebec"
+      "Quebec",
+      "Pennsylvania"
     ],
     "countries": [
       "United States",
       "United States",
-      "Canada"
+      "Canada",
+      "United States"
     ],
     "dists": [
       1009.3345514802793,
       585.2811937970254,
-      1397.8906826013047
+      1397.8906826013047,
+      2542.0128751342263
     ],
     "times": [
       6.466666666666679,
       3.46666666666669,
-      7.333333333333343
+      7.333333333333343,
+      6.600000000000012
     ]
   },
   "Tulsa, Oklahoma, United States": {
@@ -6331,10 +6432,10 @@
     ]
   },
   "Managua, Nicaragua": {
-    "mean_dist": 775.0743542817954,
-    "mean_time": 5.700000000000015,
-    "std_dist": 1077.1109877685176,
-    "std_time": 1.6350331291240903,
+    "mean_dist": 750.3739554958604,
+    "mean_time": 5.6933333333333485,
+    "std_dist": 1024.5205021258298,
+    "std_time": 1.5512575543732197,
     "admin": "Managua",
     "country": "Nicaragua",
     "city": "Managua",
@@ -6347,12 +6448,14 @@
       "New York",
       "Ohio",
       "Washington",
-      "Washington"
+      "Washington",
+      "Pennsylvania"
     ],
     "countries": [
       "United States",
       "United States",
       "Canada",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -6369,7 +6472,8 @@
       104.78909894656694,
       3480.3984352621173,
       1757.1622625278612,
-      140.2313994377245
+      140.2313994377245,
+      528.0703664224445
     ],
     "times": [
       4.30000000000002,
@@ -6380,7 +6484,8 @@
       4.533333333333353,
       7.466666666666676,
       4.266666666666687,
-      7.733333333333341
+      7.733333333333341,
+      5.633333333333349
     ]
   },
   "Celaya, Guanajuato, Mexico": {
@@ -6733,10 +6838,10 @@
     ]
   },
   "Yellowstone, Nat\u2019l Park, USA": {
-    "mean_dist": 693.6310386579773,
-    "mean_time": 5.980000000000015,
-    "std_dist": 552.8321996176268,
-    "std_time": 1.2102524989071912,
+    "mean_dist": 592.6957516950674,
+    "mean_time": 6.233333333333347,
+    "std_dist": 535.2479401863033,
+    "std_time": 1.2065791865158801,
     "city": "Yellowstone",
     "admin": "Nat\u2019l Park",
     "country": "USA",
@@ -6745,28 +6850,40 @@
       "New Jersey",
       "Virginia",
       "Texas",
-      "Harjumaa"
+      "Harjumaa",
+      "Pennsylvania",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
       "United States",
       "United States",
       "United States",
       "United States",
-      "Estonia"
+      "Estonia",
+      "United States",
+      "United States",
+      "United States"
     ],
     "dists": [
       39.654110101253906,
       791.5355910797813,
       1614.4503576764698,
       214.25782331749534,
-      808.2573111148862
+      808.2573111148862,
+      1065.6540613246948,
+      179.01686803833346,
+      28.73989090762439
     ],
     "times": [
       6.966666666666677,
       6.600000000000012,
       3.6000000000000227,
       6.400000000000013,
-      6.333333333333346
+      6.333333333333346,
+      5.166666666666684,
+      7.666666666666675,
+      7.1333333333333435
     ]
   },
   "George Town, Cayman Islands": {
@@ -6828,10 +6945,10 @@
     ]
   },
   "Quetzaltenango, Guatemala": {
-    "mean_dist": 852.7082593457231,
-    "mean_time": 5.1833333333333504,
-    "std_dist": 770.2378442317747,
-    "std_time": 2.6988680754881003,
+    "mean_dist": 722.4500459040381,
+    "mean_time": 5.533333333333349,
+    "std_dist": 691.6263815825006,
+    "std_time": 2.416734586297391,
     "admin": "Quetzaltenango",
     "country": "Guatemala",
     "city": "Quetzaltenango",
@@ -6843,9 +6960,15 @@
       "Pennsylvania",
       "California",
       "California",
-      "Washington"
+      "Washington",
+      "Louisiana",
+      "Pennsylvania",
+      "Massachusetts"
     ],
     "countries": [
+      "United States",
+      "United States",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -6863,7 +6986,10 @@
       234.69394000242335,
       1044.2004989998675,
       801.9189860904271,
-      80.0626390580408
+      80.0626390580408,
+      435.3450548235509,
+      265.79538545028106,
+      424.14398990480316
     ],
     "times": [
       6.066666666666681,
@@ -6873,7 +6999,10 @@
       8.266666666666673,
       1.8333333333333612,
       1.5333333333333603,
-      7.6000000000000085
+      7.6000000000000085,
+      7.666666666666675,
+      6.2000000000000135,
+      5.533333333333349
     ]
   },
   "Poughkeepsie, New York, United States": {
@@ -7359,10 +7488,10 @@
     ]
   },
   "Anahuac , Nat'l Wildlife Refuge, USA": {
-    "mean_dist": 1794.3345768178958,
-    "mean_time": 4.973809523809542,
-    "std_dist": 1073.0561056080664,
-    "std_time": 2.4089179080093843,
+    "mean_dist": 1787.3826315453307,
+    "mean_time": 5.080000000000017,
+    "std_dist": 1036.9969747626644,
+    "std_time": 2.3609100567993395,
     "admin": "Nat'l Wildlife Refuge",
     "country": "USA",
     "city": "Anahuac ",
@@ -7380,7 +7509,8 @@
       "California",
       "Washington",
       "Washington",
-      "Washington"
+      "Washington",
+      "Pennsylvania"
     ],
     "countries": [
       "Australia",
@@ -7388,6 +7518,7 @@
       "United States",
       "United States",
       "Canada",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -7412,7 +7543,8 @@
       654.5685010432052,
       2658.466480917159,
       2439.675935183475,
-      193.11820492213886
+      193.11820492213886,
+      1690.0553977294187
     ],
     "times": [
       7.500000000000009,
@@ -7428,7 +7560,8 @@
       3.000000000000025,
       7.566666666666675,
       8.000000000000007,
-      7.9000000000000075
+      7.9000000000000075,
+      6.566666666666679
     ]
   },
   "Mobile, Alabama, United States": {
@@ -7921,19 +8054,22 @@
     ]
   },
   "Hartford, Connecticut, United States": {
-    "mean_dist": 30.394691621649002,
-    "mean_time": 3.5500000000000185,
-    "std_dist": 18.48465490614718,
-    "std_time": 3.382512215630394,
+    "mean_dist": 70.04213058114946,
+    "mean_time": 3.6666666666666856,
+    "std_dist": 81.00014591214477,
+    "std_time": 3.034395418457442,
     "admin": "Connecticut",
     "country": "United States",
+    "city": "Hartford",
     "regions": [
       "Illinois",
       "New York",
       "Pennsylvania",
-      "New York"
+      "New York",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -7943,20 +8079,22 @@
       16.390828374438037,
       29.252441830117665,
       60.93092058597411,
-      15.004575696066205
+      15.004575696066205,
+      228.63188641915136
     ],
     "times": [
       0.23333333333335882,
       5.800000000000015,
       0.26666666666669214,
-      7.9000000000000075
+      7.9000000000000075,
+      4.133333333333354
     ]
   },
   "Hamilton, Ontario, Canada": {
-    "mean_dist": 764.9875054469585,
-    "mean_time": 5.420000000000016,
-    "std_dist": 743.2674662030365,
-    "std_time": 2.657785209948724,
+    "mean_dist": 542.8976801224845,
+    "mean_time": 5.7541666666666815,
+    "std_dist": 657.7549616785706,
+    "std_time": 2.432930189207146,
     "admin": "Ontario",
     "country": "Canada",
     "city": "Hamilton",
@@ -7965,13 +8103,19 @@
       "England",
       "England",
       "Overijssel",
-      "Washington"
+      "Washington",
+      "Pennsylvania",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
       "United States",
       "United Kingdom",
       "United Kingdom",
       "Netherlands",
+      "United States",
+      "United States",
+      "United States",
       "United States"
     ],
     "dists": [
@@ -7979,14 +8123,20 @@
       839.7010428925397,
       460.3261723018294,
       2169.2612226244596,
-      211.93197282102537
+      211.93197282102537,
+      338.5756163424692,
+      89.83263978461109,
+      89.8356576180027
     ],
     "times": [
       6.733333333333345,
       3.46666666666669,
       1.200000000000026,
       8.13333333333334,
-      7.566666666666675
+      7.566666666666675,
+      3.666666666666689,
+      7.800000000000008,
+      7.466666666666676
     ]
   },
   "Quer\u00e9taro, Quer\u00e9taro, Mexico": {
@@ -8321,6 +8471,7 @@
     "std_time": 0.7084313657652351,
     "admin": "New York",
     "country": "United States",
+    "city": "Queens",
     "regions": [
       "Illinois",
       "Illinois",
@@ -8347,27 +8498,32 @@
     ]
   },
   "Durango, Durango, Mexico": {
-    "mean_dist": 270.00069372108976,
-    "mean_time": 5.616666666666682,
-    "std_dist": 255.7722087159677,
-    "std_time": 1.1166666666666627,
+    "mean_dist": 279.2161494131369,
+    "mean_time": 6.344444444444458,
+    "std_dist": 209.2433935592405,
+    "std_time": 1.374997194160993,
     "admin": "Durango",
     "country": "Mexico",
+    "city": "Durango",
     "regions": [
       "Illinois",
-      "California"
+      "California",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
       "United States",
       "United States"
     ],
     "dists": [
       14.22848500512204,
-      525.7729024370575
+      525.7729024370575,
+      297.6470607972312
     ],
     "times": [
       4.5000000000000195,
-      6.733333333333345
+      6.733333333333345,
+      7.800000000000008
     ]
   },
   "Culiac\u00e1n, Sinaloa, Mexico": {
@@ -8411,31 +8567,36 @@
     ]
   },
   "Saltillo, Coahuila de Zaragoza, Mexico": {
-    "mean_dist": 355.1854439673272,
-    "mean_time": 6.222222222222236,
-    "std_dist": 199.03690466074335,
-    "std_time": 0.4374448818895435,
+    "mean_dist": 346.8093666832774,
+    "mean_time": 6.39166666666668,
+    "std_dist": 172.98047021182046,
+    "std_time": 0.4792210114109941,
     "admin": "Coahuila de Zaragoza",
     "country": "Mexico",
+    "city": "Saltillo",
     "regions": [
       "New Jersey",
       "Illinois",
-      "Zurich"
+      "Zurich",
+      "Pennsylvania"
     ],
     "countries": [
       "United States",
       "United States",
-      "Switzerland"
+      "Switzerland",
+      "United States"
     ],
     "dists": [
       80.33509569908527,
       545.2081338984357,
-      440.01310230446063
+      440.01310230446063,
+      321.6811348311279
     ],
     "times": [
       6.833333333333345,
       6.000000000000014,
-      5.833333333333348
+      5.833333333333348,
+      6.900000000000011
     ]
   },
   "Mazatl\u00e1n, Sinaloa, Mexico": {
@@ -8945,6 +9106,7 @@
     "std_time": 0.8833333333333302,
     "admin": "Kentucky",
     "country": "United States",
+    "city": "Frankfort",
     "regions": [
       "Illinois",
       "New York"
@@ -9072,10 +9234,10 @@
     ]
   },
   "Fredericton, New Brunswick, Canada": {
-    "mean_dist": 1007.0510531035748,
-    "mean_time": 7.491666666666676,
-    "std_dist": 1074.0640430728297,
-    "std_time": 0.640475084084721,
+    "mean_dist": 1358.4593640100716,
+    "mean_time": 7.4333333333333425,
+    "std_dist": 1190.3117485743771,
+    "std_time": 0.5846176338238314,
     "admin": "New Brunswick",
     "country": "Canada",
     "city": "Fredericton",
@@ -9083,25 +9245,29 @@
       "Texas",
       "Illinois",
       "Washington",
-      "Harjumaa"
+      "Harjumaa",
+      "Pennsylvania"
     ],
     "countries": [
       "United States",
       "United States",
       "United States",
-      "Estonia"
+      "Estonia",
+      "United States"
     ],
     "dists": [
       71.31500758010667,
       627.3549701414973,
       496.54146066584894,
-      2832.9927740268463
+      2832.9927740268463,
+      2764.0926076360583
     ],
     "times": [
       6.466666666666679,
       7.633333333333342,
       8.23333333333334,
-      7.633333333333342
+      7.633333333333342,
+      7.20000000000001
     ]
   },
   "Canton, Ohio, United States": {
@@ -9319,10 +9485,10 @@
     ]
   },
   "Chattahoochee, Nat\u2019l Forest, USA": {
-    "mean_dist": 686.1536862076921,
-    "mean_time": 3.92500000000002,
-    "std_dist": 618.7578217317716,
-    "std_time": 2.5951209562904274,
+    "mean_dist": 1007.3960849840527,
+    "mean_time": 4.320000000000019,
+    "std_dist": 847.9833186152654,
+    "std_time": 2.451901756233759,
     "admin": "Nat\u2019l Forest",
     "country": "USA",
     "city": "Chattahoochee",
@@ -9330,9 +9496,11 @@
       "Texas",
       "Missouri",
       "New York",
-      "Wisconsin"
+      "Wisconsin",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -9342,13 +9510,15 @@
       36.830681066017085,
       537.9108461522496,
       1705.3368926837536,
-      464.5363249287479
+      464.5363249287479,
+      2292.365680089495
     ],
     "times": [
       7.166666666666677,
       2.1333333333333613,
       0.7333333333333587,
-      5.666666666666682
+      5.666666666666682,
+      5.900000000000015
     ]
   },
   "Hartford, South Dakota, United States": {
@@ -9393,20 +9563,23 @@
     ]
   },
   "Carson City, Nevada, United States": {
-    "mean_dist": 261.30719622442984,
-    "mean_time": 6.866666666666677,
-    "std_dist": 120.59714544724025,
-    "std_time": 0.6338594306135824,
+    "mean_dist": 278.07501960430756,
+    "mean_time": 6.533333333333346,
+    "std_dist": 116.29929383353777,
+    "std_time": 0.9435943886916476,
     "admin": "Nevada",
     "country": "United States",
+    "city": "Carson City",
     "regions": [
       "Texas",
       "Vermont",
       "Texas",
       "Illinois",
-      "Georgia"
+      "Georgia",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -9418,30 +9591,36 @@
       273.3381328089337,
       328.2026791448253,
       332.5487255327182,
-      347.077265062476
+      347.077265062476,
+      361.9141365036963
     ],
     "times": [
       6.966666666666677,
       6.033333333333347,
       6.26666666666668,
       7.700000000000008,
-      7.366666666666676
+      7.366666666666676,
+      4.866666666666685
     ]
   },
   "San Salvador, El Salvador": {
-    "mean_dist": 104.24759515206642,
-    "mean_time": 5.766666666666683,
-    "std_dist": 113.66283183612427,
-    "std_time": 1.4654034964498317,
+    "mean_dist": 93.58185510455131,
+    "mean_time": 6.34666666666668,
+    "std_dist": 90.86435609124185,
+    "std_time": 1.3410775103956059,
     "city": "San Salvador",
     "admin": "San Salvador",
     "country": "El Salvador",
     "regions": [
       "Texas",
       "Missouri",
-      "Washington"
+      "Washington",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
+      "United States",
       "United States",
       "United States",
       "United States"
@@ -9449,12 +9628,16 @@
     "dists": [
       15.422100471537235,
       264.6835411750947,
-      32.637143809567334
+      32.637143809567334,
+      106.48612495596146,
+      48.68036511059581
     ],
     "times": [
       4.866666666666685,
       4.600000000000019,
-      7.833333333333341
+      7.833333333333341,
+      7.10000000000001,
+      7.333333333333343
     ]
   },
   "Oranjestad, Aruba": {
@@ -9571,12 +9754,13 @@
     ]
   },
   "Oaxaca, Oaxaca, Mexico": {
-    "mean_dist": 772.0238423428781,
-    "mean_time": 6.362962962962976,
-    "std_dist": 391.47995905261774,
-    "std_time": 2.1624999504428346,
+    "mean_dist": 852.4692562691096,
+    "mean_time": 6.515151515151527,
+    "std_dist": 401.65198814310463,
+    "std_time": 1.9876062266949828,
     "admin": "Oaxaca",
     "country": "Mexico",
+    "city": "Oaxaca",
     "regions": [
       "Texas",
       "Ontario",
@@ -9586,7 +9770,9 @@
       "New York",
       "New York",
       "Quebec",
-      "New South Wales"
+      "New South Wales",
+      "Pennsylvania",
+      "Massachusetts"
     ],
     "countries": [
       "United States",
@@ -9597,7 +9783,9 @@
       "United States",
       "United States",
       "Canada",
-      "Australia"
+      "Australia",
+      "United States",
+      "United States"
     ],
     "dists": [
       360.7714361781286,
@@ -9608,7 +9796,9 @@
       1571.4588614081968,
       675.7834938443381,
       768.5954617042781,
-      582.3632306926851
+      582.3632306926851,
+      1020.9264779913523,
+      1408.0207598829506
     ],
     "times": [
       1.900000000000028,
@@ -9619,7 +9809,9 @@
       6.933333333333344,
       6.933333333333344,
       8.266666666666673,
-      8.433333333333339
+      8.433333333333339,
+      7.533333333333342,
+      6.866666666666678
     ]
   },
   "Annapolis, Maryland, United States": {
@@ -9838,10 +10030,10 @@
     ]
   },
   "Cap-Ha\u00eftien, Haiti": {
-    "mean_dist": 261.24542678632866,
-    "mean_time": 6.3138888888889015,
-    "std_dist": 308.5861505653124,
-    "std_time": 1.3203856292297833,
+    "mean_dist": 256.29565193237954,
+    "mean_time": 6.258974358974372,
+    "std_dist": 296.97539267925345,
+    "std_time": 1.2827690298560808,
     "admin": "Nord",
     "country": "Haiti",
     "city": "Cap-Ha\u00eftien",
@@ -9857,12 +10049,14 @@
       "Pennsylvania",
       "California",
       "California",
-      "Washington"
+      "Washington",
+      "Pennsylvania"
     ],
     "countries": [
       "Germany",
       "Netherlands",
       "Turkey",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -9885,7 +10079,8 @@
       93.86582710159429,
       67.63776662761707,
       82.69243422143954,
-      53.15759761138482
+      53.15759761138482,
+      196.89835368499016
     ],
     "times": [
       4.766666666666685,
@@ -9899,7 +10094,8 @@
       8.366666666666672,
       3.966666666666688,
       5.300000000000017,
-      7.10000000000001
+      7.10000000000001,
+      5.600000000000016
     ]
   },
   "Plymouth, Montserrat": {
@@ -10350,19 +10546,21 @@
     ]
   },
   "Hermosillo, Sonora, Mexico": {
-    "mean_dist": 1419.5022205404068,
-    "mean_time": 5.477777777777793,
-    "std_dist": 518.6210577109653,
-    "std_time": 1.5437648384851863,
+    "mean_dist": 1274.1749614920654,
+    "mean_time": 5.800000000000015,
+    "std_dist": 514.8649218906271,
+    "std_time": 1.4487542541400436,
     "city": "Hermosillo",
     "admin": "Sonora",
     "country": "Mexico",
     "regions": [
       "Oregon",
       "Colorado",
-      "Missouri"
+      "Missouri",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
       "United States",
       "United States",
       "United States"
@@ -10370,12 +10568,14 @@
     "dists": [
       801.8812717892895,
       1385.7342732375307,
-      2070.891116594401
+      2070.891116594401,
+      838.1931843470413
     ],
     "times": [
       6.433333333333346,
       3.300000000000024,
-      6.700000000000012
+      6.700000000000012,
+      6.766666666666678
     ]
   },
   "Boise, Idaho, United States": {
@@ -10439,10 +10639,10 @@
     ]
   },
   "Charlottetown, Prince Edward Island, Canada": {
-    "mean_dist": 279.83601506844354,
-    "mean_time": 6.411111111111123,
-    "std_dist": 190.70307032657428,
-    "std_time": 1.6772626140659042,
+    "mean_dist": 291.8117458743442,
+    "mean_time": 6.019047619047632,
+    "std_dist": 178.97706460485006,
+    "std_time": 1.8258163769056424,
     "admin": "Prince Edward Island",
     "country": "Canada",
     "city": "Charlottetown",
@@ -10452,9 +10652,11 @@
       "Texas",
       "New York",
       "Texas",
-      "Washington"
+      "Washington",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -10468,7 +10670,8 @@
       350.3282229264294,
       9.453392664591304,
       343.7402564879681,
-      32.3220873386881
+      32.3220873386881,
+      363.66613070974796
     ],
     "times": [
       7.366666666666676,
@@ -10476,7 +10679,8 @@
       4.066666666666688,
       7.9000000000000075,
       7.6000000000000085,
-      7.500000000000009
+      7.500000000000009,
+      3.666666666666689
     ]
   },
   "Newark, New Jersey, United States": {
@@ -10775,10 +10979,10 @@
     ]
   },
   "Okefenokee, Nat\u2019l Wildlife Refuge, USA": {
-    "mean_dist": 1469.4013300465676,
-    "mean_time": 5.325000000000015,
-    "std_dist": 1014.0164703750171,
-    "std_time": 2.4111287121733334,
+    "mean_dist": 1203.241139646656,
+    "mean_time": 5.254545454545471,
+    "std_dist": 968.1287794544354,
+    "std_time": 2.3028867578869407,
     "admin": "Nat\u2019l Wildlife Refuge",
     "country": "USA",
     "city": "Okefenokee",
@@ -10790,13 +10994,19 @@
       "Michigan",
       "Pennsylvania",
       "Washington",
-      "Washington"
+      "Washington",
+      "Pennsylvania",
+      "Pennsylvania",
+      "Massachusetts"
     ],
     "countries": [
       "United States",
       "United States",
       "United States",
       "Canada",
+      "United States",
+      "United States",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -10810,7 +11020,10 @@
       439.9102802940446,
       1890.9685241591346,
       1565.397998711063,
-      137.6435354996633
+      137.6435354996633,
+      557.426814418742,
+      457.7745710008146,
+      465.24051032111754
     ],
     "times": [
       0.26666666666669214,
@@ -10820,7 +11033,10 @@
       4.466666666666686,
       6.566666666666679,
       7.633333333333342,
-      7.400000000000009
+      7.400000000000009,
+      6.766666666666678,
+      6.133333333333347,
+      2.3000000000000274
     ]
   },
   "Chandler, Arizona, United States": {
@@ -11028,10 +11244,10 @@
     ]
   },
   "Halifax, Nova Scotia, Canada": {
-    "mean_dist": 354.6134156719983,
-    "mean_time": 6.620000000000012,
-    "std_dist": 322.96486684347025,
-    "std_time": 0.8210020977101335,
+    "mean_dist": 795.2156972236826,
+    "mean_time": 6.683333333333344,
+    "std_dist": 1028.3840593647062,
+    "std_time": 0.7627314463553048,
     "admin": "Nova Scotia",
     "country": "Canada",
     "city": "Halifax",
@@ -11040,9 +11256,11 @@
       "New York",
       "Pennsylvania",
       "California",
-      "Washington"
+      "Washington",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -11054,14 +11272,16 @@
       12.697223015220622,
       35.51876624769379,
       679.9828897104052,
-      257.28264356197053
+      257.28264356197053,
+      2998.2271049821034
     ],
     "times": [
       6.36666666666668,
       7.000000000000011,
       5.400000000000016,
       7.9000000000000075,
-      6.433333333333346
+      6.433333333333346,
+      7.000000000000011
     ]
   },
   "Staten Island, New York, United States": {
@@ -11353,10 +11573,10 @@
     ]
   },
   "Hot Springs, Nat\u2019l Park, USA": {
-    "mean_dist": 1181.3100749343912,
-    "mean_time": 5.170370370370388,
-    "std_dist": 762.8489663987501,
-    "std_time": 2.4852376215696683,
+    "mean_dist": 1095.040910207347,
+    "mean_time": 5.2606060606060785,
+    "std_dist": 747.8088098307204,
+    "std_time": 2.2561170801080253,
     "admin": "Nat\u2019l Park",
     "country": "USA",
     "city": "Hot Springs",
@@ -11369,7 +11589,9 @@
       "Oregon",
       "Texas",
       "Washington",
-      "Harjumaa"
+      "Harjumaa",
+      "Pennsylvania",
+      "Massachusetts"
     ],
     "countries": [
       "United States",
@@ -11380,7 +11602,9 @@
       "United States",
       "United States",
       "United States",
-      "Estonia"
+      "Estonia",
+      "United States",
+      "United States"
     ],
     "dists": [
       78.03677923279203,
@@ -11391,7 +11615,9 @@
       1382.3823562413588,
       1731.7714891207388,
       1254.7407661109635,
-      2178.6999642111746
+      2178.6999642111746,
+      184.54908720763393,
+      1229.1102506636635
     ],
     "times": [
       7.066666666666677,
@@ -11402,7 +11628,9 @@
       0.6000000000000254,
       7.10000000000001,
       8.100000000000007,
-      5.400000000000016
+      5.400000000000016,
+      5.666666666666682,
+      5.666666666666682
     ]
   },
   "Oshawa, Ontario, Canada": {
@@ -11956,10 +12184,10 @@
     ]
   },
   "Ciego de \u00c1vila, Cuba": {
-    "mean_dist": 174.3020977072267,
-    "mean_time": 6.759259259259271,
-    "std_dist": 91.76902303622877,
-    "std_time": 1.9895267616329642,
+    "mean_dist": 181.6936491962319,
+    "mean_time": 6.823333333333345,
+    "std_dist": 89.83937628263584,
+    "std_time": 1.8971938341783694,
     "admin": "Ciego de \u00c1vila",
     "country": "Cuba",
     "city": "Ciego de \u00c1vila",
@@ -11972,11 +12200,13 @@
       "Illinois",
       "Pennsylvania",
       "Washington",
-      "Washington"
+      "Washington",
+      "Pennsylvania"
     ],
     "countries": [
       "United States",
       "Canada",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -11994,7 +12224,8 @@
       123.39569171388776,
       116.88118126783688,
       313.0386631013638,
-      283.29385436044697
+      283.29385436044697,
+      248.21761259727862
     ],
     "times": [
       6.800000000000011,
@@ -12005,7 +12236,8 @@
       6.133333333333347,
       8.200000000000006,
       8.03333333333334,
-      7.933333333333341
+      7.933333333333341,
+      7.400000000000009
     ]
   },
   "Aurora, Colorado, United States": {
@@ -12101,10 +12333,10 @@
     ]
   },
   "Barrie, Ontario, Canada": {
-    "mean_dist": 778.6542240033853,
-    "mean_time": 6.787500000000012,
-    "std_dist": 690.5698467140638,
-    "std_time": 1.3952237474883882,
+    "mean_dist": 646.3423368788714,
+    "mean_time": 6.8300000000000125,
+    "std_dist": 672.0185013945152,
+    "std_time": 1.2564898195634755,
     "admin": "Ontario",
     "country": "Canada",
     "city": "Barrie",
@@ -12116,10 +12348,14 @@
       "New York",
       "Pennsylvania",
       "California",
-      "Washington"
+      "Washington",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
       "Canada",
+      "United States",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -12136,7 +12372,9 @@
       123.13438920964114,
       441.8653241498336,
       368.5972227507864,
-      1869.6554146477724
+      1869.6554146477724,
+      136.2981430592279,
+      97.8914337024033
     ],
     "times": [
       4.5000000000000195,
@@ -12146,7 +12384,9 @@
       7.1333333333333435,
       7.366666666666676,
       7.833333333333341,
-      7.6000000000000085
+      7.6000000000000085,
+      6.733333333333345,
+      7.266666666666676
     ]
   },
   "Thornton, Colorado, United States": {
@@ -12467,6 +12707,7 @@
     "std_time": 1.362550259578167,
     "admin": "New York",
     "country": "United States",
+    "city": "Brookhaven",
     "regions": [
       "Ontario",
       "New York",
@@ -13137,10 +13378,10 @@
     ]
   },
   "Guastatoya, Guatemala": {
-    "mean_dist": 332.56532135812375,
-    "mean_time": 6.733333333333344,
-    "std_dist": 280.22114416049294,
-    "std_time": 1.5952475716373296,
+    "mean_dist": 266.2601900430388,
+    "mean_time": 6.662500000000011,
+    "std_dist": 268.83011356286386,
+    "std_time": 1.410815120969272,
     "admin": "El Progreso",
     "country": "Guatemala",
     "city": "Guastatoya",
@@ -13150,7 +13391,9 @@
       "California",
       "Wisconsin",
       "Washington",
-      "Harjumaa"
+      "Harjumaa",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
       "United States",
@@ -13158,7 +13401,9 @@
       "United States",
       "United States",
       "United States",
-      "Estonia"
+      "Estonia",
+      "United States",
+      "United States"
     ],
     "dists": [
       88.49129550520337,
@@ -13166,7 +13411,9 @@
       130.5615724159135,
       833.8859591943473,
       527.9534425918545,
-      49.35928462432627
+      49.35928462432627,
+      39.95126283692357,
+      94.73832935864391
     ],
     "times": [
       6.466666666666679,
@@ -13174,7 +13421,9 @@
       7.633333333333342,
       7.666666666666675,
       8.266666666666673,
-      3.4000000000000234
+      3.4000000000000234,
+      5.933333333333348,
+      6.966666666666677
     ]
   },
   "Hayward, California, United States": {
@@ -13307,19 +13556,24 @@
     ]
   },
   "Waterbury, Connecticut, United States": {
-    "mean_dist": 38.96535915636131,
-    "mean_time": 6.991666666666678,
-    "std_dist": 22.304233869085223,
-    "std_time": 1.198928920143119,
+    "mean_dist": 35.692817097138686,
+    "mean_time": 6.866666666666679,
+    "std_dist": 19.072843466627244,
+    "std_time": 1.0051718113687644,
     "admin": "Connecticut",
     "country": "United States",
+    "city": "Waterbury",
     "regions": [
       "Washington",
       "California",
       "Wisconsin",
-      "Michigan"
+      "Michigan",
+      "Pennsylvania",
+      "Massachusetts"
     ],
     "countries": [
+      "United States",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -13329,13 +13583,17 @@
       63.717115577925945,
       19.895771158489982,
       58.45668684503225,
-      13.79186304399705
+      13.79186304399705,
+      23.481589002635843,
+      34.81387695475104
     ],
     "times": [
       7.166666666666677,
       8.266666666666673,
       5.033333333333351,
-      7.500000000000009
+      7.500000000000009,
+      6.36666666666668,
+      6.866666666666678
     ]
   },
   "Danbury, Connecticut, United States": {
@@ -13371,10 +13629,10 @@
     ]
   },
   "May Pen, Jamaica": {
-    "mean_dist": 263.6443367051102,
-    "mean_time": 6.344444444444458,
-    "std_dist": 390.7449576248579,
-    "std_time": 1.627047617808792,
+    "mean_dist": 229.90639234776702,
+    "mean_time": 6.0476190476190625,
+    "std_dist": 371.0787719248526,
+    "std_time": 1.6726423485921416,
     "admin": "Clarendon",
     "country": "Jamaica",
     "city": "May Pen",
@@ -13384,9 +13642,11 @@
       "New York",
       "Illinois",
       "Pennsylvania",
+      "Pennsylvania",
       "Pennsylvania"
     ],
     "countries": [
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -13400,7 +13660,8 @@
       336.5144947980123,
       35.138182408680365,
       31.448233114945175,
-      11.074910845535435
+      11.074910845535435,
+      27.478726203708096
     ],
     "times": [
       7.10000000000001,
@@ -13408,7 +13669,8 @@
       4.433333333333353,
       6.500000000000012,
       8.000000000000007,
-      8.100000000000007
+      8.100000000000007,
+      4.266666666666687
     ]
   },
   "C\u00f3rdoba, Veracruz, Mexico": {
@@ -13508,10 +13770,10 @@
     ]
   },
   "Estel\u00ed, Nicaragua": {
-    "mean_dist": 271.6783075656355,
-    "mean_time": 5.894444444444459,
-    "std_dist": 139.52587762781923,
-    "std_time": 2.649627274044026,
+    "mean_dist": 231.2815562723579,
+    "mean_time": 5.91666666666668,
+    "std_dist": 140.0964601734833,
+    "std_time": 2.350590942247872,
     "admin": "Estel\u00ed",
     "country": "Nicaragua",
     "city": "Estel\u00ed",
@@ -13521,9 +13783,13 @@
       "Illinois",
       "Florida",
       "Wisconsin",
-      "Washington"
+      "Washington",
+      "Pennsylvania",
+      "Massachusetts"
     ],
     "countries": [
+      "United States",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -13537,7 +13803,9 @@
       266.94419531276174,
       372.85555833696054,
       484.36996754396625,
-      163.68930174156736
+      163.68930174156736,
+      132.9581090893711,
+      87.22449569567911
     ],
     "times": [
       7.533333333333342,
@@ -13545,14 +13813,16 @@
       8.100000000000007,
       2.6666666666666927,
       7.400000000000009,
-      7.966666666666674
+      7.966666666666674,
+      7.000000000000011,
+      4.9666666666666845
     ]
   },
   "San Miguel, El Salvador": {
-    "mean_dist": 489.04317169323184,
-    "mean_time": 4.620000000000017,
-    "std_dist": 476.35822362162986,
-    "std_time": 2.613010184102272,
+    "mean_dist": 417.8046949154595,
+    "mean_time": 5.011111111111127,
+    "std_dist": 463.11147025100587,
+    "std_time": 2.54060846216505,
     "admin": "San Miguel",
     "country": "El Salvador",
     "city": "San Miguel",
@@ -13561,9 +13831,11 @@
       "Michigan",
       "Michigan",
       "Pennsylvania",
-      "Washington"
+      "Washington",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -13575,14 +13847,16 @@
       399.6178107913728,
       63.5338920118894,
       81.72477243489942,
-      1371.0895953187094
+      1371.0895953187094,
+      61.61231102659756
     ],
     "times": [
       7.233333333333343,
       2.5521251778570786e-14,
       6.16666666666668,
       6.16666666666668,
-      3.5333333333333563
+      3.5333333333333563,
+      6.966666666666677
     ]
   },
   "Hemet, California, United States": {
@@ -13830,6 +14104,7 @@
     "std_time": 0.6584681062235112,
     "admin": "Texas",
     "country": "United States",
+    "city": "Pearland",
     "regions": [
       "Washington",
       "California",
@@ -13896,19 +14171,21 @@
     ]
   },
   "Carolina, Puerto Rico": {
-    "mean_dist": 520.8411304578444,
-    "mean_time": 4.72222222222224,
-    "std_dist": 645.4983246807724,
-    "std_time": 2.4791476034125384,
+    "mean_dist": 399.3989927981708,
+    "mean_time": 4.925000000000018,
+    "std_dist": 597.281879661786,
+    "std_time": 2.175542716452858,
     "admin": "Puerto Rico",
     "country": "Puerto Rico",
     "city": "Carolina",
     "regions": [
       "California",
       "Pennsylvania",
-      "Washington"
+      "Washington",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
       "United States",
       "United States",
       "United States"
@@ -13916,12 +14193,14 @@
     "dists": [
       1433.5146467676855,
       81.00952963323641,
-      47.99921497261127
+      47.99921497261127,
+      35.07257981915003
     ],
     "times": [
       4.566666666666686,
       1.7666666666666944,
-      7.833333333333341
+      7.833333333333341,
+      5.533333333333349
     ]
   },
   "Pompano Beach, Florida, United States": {
@@ -13977,10 +14256,10 @@
     ]
   },
   "Saskatoon, Saskatchewan, Canada": {
-    "mean_dist": 1626.4148071625732,
-    "mean_time": 7.313333333333344,
-    "std_dist": 1046.0577862899654,
-    "std_time": 1.7238973931827266,
+    "mean_dist": 1451.5839468897764,
+    "mean_time": 7.194444444444454,
+    "std_dist": 1031.839728543238,
+    "std_time": 1.5959922800642468,
     "admin": "Saskatchewan",
     "country": "Canada",
     "city": "Saskatoon",
@@ -13989,9 +14268,11 @@
       "Wisconsin",
       "Pennsylvania",
       "California",
-      "Washington"
+      "Washington",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -14003,14 +14284,16 @@
       163.75866783965668,
       555.2676717330784,
       2515.7288306049404,
-      2592.5576824996097
+      2592.5576824996097,
+      577.4296455257924
     ],
     "times": [
       5.066666666666684,
       7.700000000000008,
       5.700000000000015,
       9.766666666666667,
-      8.33333333333334
+      8.33333333333334,
+      6.600000000000012
     ]
   },
   "Qu\u00e9bec, Qu\u00e9bec, Canada": {
@@ -15050,10 +15333,10 @@
     ]
   },
   "Palma Soriano, Cuba": {
-    "mean_dist": 315.0160298533269,
-    "mean_time": 7.6000000000000085,
-    "std_dist": 119.37321790068607,
-    "std_time": 0.29720924166878243,
+    "mean_dist": 222.8376360745771,
+    "mean_time": 7.011111111111121,
+    "std_dist": 162.8926892846443,
+    "std_time": 0.9270955575556924,
     "admin": "Santiago de Cuba",
     "country": "Cuba",
     "city": "Palma Soriano",
@@ -15061,9 +15344,13 @@
       "New York",
       "Florida",
       "Missouri",
-      "Washington"
+      "Washington",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -15073,37 +15360,50 @@
       255.94985361465248,
       520.4930505762882,
       224.89650556710077,
-      258.7247096552661
+      258.7247096552661,
+      49.48160692002814,
+      27.480090114126842
     ],
     "times": [
       7.766666666666675,
       7.366666666666676,
       7.266666666666676,
-      8.000000000000007
+      8.000000000000007,
+      5.2666666666666835,
+      6.400000000000013
     ]
   },
   "Nampa, Idaho, United States": {
-    "mean_dist": 161.30528928619347,
-    "mean_time": 7.816666666666674,
-    "std_dist": 73.30347405395412,
-    "std_time": 0.08333333333333304,
+    "mean_dist": 596.9594461104531,
+    "mean_time": 7.22500000000001,
+    "std_dist": 743.8541660355528,
+    "std_time": 0.9604324836007729,
     "admin": "Idaho",
     "country": "United States",
+    "city": "Nampa",
     "regions": [
       "New York",
-      "New York"
+      "New York",
+      "Pennsylvania",
+      "Massachusetts"
     ],
     "countries": [
+      "United States",
+      "United States",
       "United States",
       "United States"
     ],
     "dists": [
       234.6087633401476,
-      88.00181523223935
+      88.00181523223935,
+      1882.1284954657406,
+      183.09871040368472
     ],
     "times": [
       7.9000000000000075,
-      7.733333333333341
+      7.733333333333341,
+      5.566666666666682,
+      7.700000000000008
     ]
   },
   "Puerto Vallarta, Jalisco, Mexico": {
@@ -15127,23 +15427,28 @@
     ]
   },
   "London, Ontario, Canada": {
-    "mean_dist": 327.4473788580548,
-    "mean_time": 4.566666666666686,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 211.12955427759374,
+    "mean_time": 5.416666666666683,
+    "std_dist": 116.31782458046102,
+    "std_time": 0.849999999999997,
     "admin": "Ontario",
     "country": "Canada",
+    "city": "London",
     "regions": [
-      "New York"
+      "New York",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
       "United States"
     ],
     "dists": [
-      327.4473788580548
+      327.4473788580548,
+      94.81172969713273
     ],
     "times": [
-      4.566666666666686
+      4.566666666666686,
+      6.26666666666668
     ]
   },
   "Athens, Georgia, United States": {
@@ -15400,10 +15705,10 @@
     ]
   },
   "Windsor, Ontario, Canada": {
-    "mean_dist": 641.9838669126569,
-    "mean_time": 6.946666666666678,
-    "std_dist": 377.6230527306735,
-    "std_time": 0.9842312284778939,
+    "mean_dist": 594.1811393244711,
+    "mean_time": 6.6666666666666785,
+    "std_dist": 360.9129333404097,
+    "std_time": 1.0951069624741003,
     "admin": "Ontario",
     "country": "Canada",
     "city": "Windsor",
@@ -15412,9 +15717,11 @@
       "Pennsylvania",
       "Pennsylvania",
       "California",
-      "Washington"
+      "Washington",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -15426,30 +15733,36 @@
       679.2251521852188,
       18.8379849382396,
       1023.6721876038865,
-      1024.056313689484
+      1024.056313689484,
+      355.1675013835422
     ],
     "times": [
       6.566666666666679,
       7.500000000000009,
       7.233333333333343,
       5.2666666666666835,
-      8.166666666666673
+      8.166666666666673,
+      5.2666666666666835
     ]
   },
   "Ponce, Puerto Rico": {
-    "mean_dist": 47.26456658428475,
-    "mean_time": 8.03333333333334,
-    "std_dist": 4.2386369997114155,
-    "std_time": 0.141421356237309,
+    "mean_dist": 424.54837664183714,
+    "mean_time": 7.540000000000008,
+    "std_dist": 524.1472735320567,
+    "std_time": 0.6907001278895664,
     "admin": "Puerto Rico",
     "country": "Puerto Rico",
     "city": "Ponce",
     "regions": [
       "New York",
       "Washington",
-      "Washington"
+      "Washington",
+      "Louisiana",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
+      "United States",
       "United States",
       "United States",
       "United States"
@@ -15457,12 +15770,16 @@
     "dists": [
       41.48702158260914,
       48.76984866658192,
-      51.53682950366319
+      51.53682950366319,
+      599.3060500644693,
+      1381.6421333918622
     ],
     "times": [
       7.933333333333341,
       8.23333333333334,
-      7.933333333333341
+      7.933333333333341,
+      7.30000000000001,
+      6.300000000000013
     ]
   },
   "San Bernardino, California, United States": {
@@ -15917,20 +16234,23 @@
     ]
   },
   "Arvada, Colorado, United States": {
-    "mean_dist": 245.84503063060382,
-    "mean_time": 6.058333333333348,
-    "std_dist": 145.35523207190522,
-    "std_time": 1.8175647627159377,
+    "mean_dist": 251.9441643165566,
+    "mean_time": 5.840000000000015,
+    "std_dist": 130.5806743718933,
+    "std_time": 1.6833036301009663,
     "admin": "Colorado",
     "country": "United States",
+    "city": "Arvada",
     "regions": [
       "Ontario",
       "Connecticut",
       "Georgia",
-      "Texas"
+      "Texas",
+      "Pennsylvania"
     ],
     "countries": [
       "Canada",
+      "United States",
       "United States",
       "United States",
       "United States"
@@ -15939,13 +16259,15 @@
       162.4451571571173,
       212.58797317863494,
       490.7834950624105,
-      117.56349712425246
+      117.56349712425246,
+      276.3406990603677
     ],
     "times": [
       5.600000000000016,
       7.333333333333343,
       3.300000000000024,
-      8.000000000000007
+      8.000000000000007,
+      4.9666666666666845
     ]
   },
   "Champaign, Illinois, United States": {
@@ -16002,10 +16324,10 @@
     ]
   },
   "Tapachula, Chiapas, Mexico": {
-    "mean_dist": 1999.9800362556464,
-    "mean_time": 5.766666666666682,
-    "std_dist": 669.1647707937352,
-    "std_time": 0.9553940431977641,
+    "mean_dist": 2011.480324156443,
+    "mean_time": 6.294444444444458,
+    "std_dist": 603.1185539196317,
+    "std_time": 1.1368274025593628,
     "admin": "Chiapas",
     "country": "Mexico",
     "city": "Tapachula",
@@ -16013,10 +16335,14 @@
       "Ontario",
       "Texas",
       "North Dakota",
-      "California"
+      "California",
+      "Pennsylvania",
+      "Massachusetts"
     ],
     "countries": [
       "Canada",
+      "United States",
+      "United States",
       "United States",
       "United States",
       "United States"
@@ -16025,13 +16351,17 @@
       2332.2432562494723,
       2656.0919977116914,
       2122.9640014640395,
-      888.6208895973821
+      888.6208895973821,
+      2475.9550776543665,
+      1593.006722261705
     ],
     "times": [
       6.633333333333345,
       4.30000000000002,
       5.533333333333349,
-      6.600000000000012
+      6.600000000000012,
+      6.733333333333345,
+      7.966666666666674
     ]
   },
   "North Hempstead, New York, United States": {
@@ -16462,23 +16792,28 @@
     ]
   },
   "Bronx, New York, United States": {
-    "mean_dist": 10.446696105602085,
-    "mean_time": 2.866666666666692,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 20.63136324670016,
+    "mean_time": 4.566666666666686,
+    "std_dist": 10.184667141098075,
+    "std_time": 1.699999999999994,
     "admin": "New York",
     "country": "United States",
+    "city": "Bronx",
     "regions": [
-      "New York"
+      "New York",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
       "United States"
     ],
     "dists": [
-      10.446696105602085
+      10.446696105602085,
+      30.816030387798236
     ],
     "times": [
-      2.866666666666692
+      2.866666666666692,
+      6.26666666666668
     ]
   },
   "San Francisco de Macor\u00eds, Dominican Republic": {
@@ -16714,10 +17049,10 @@
     ]
   },
   "La Ceiba, Honduras": {
-    "mean_dist": 342.09463636081693,
-    "mean_time": 6.654545454545465,
-    "std_dist": 402.98994421064396,
-    "std_time": 0.9089090727236322,
+    "mean_dist": 337.96598368788295,
+    "mean_time": 6.491666666666678,
+    "std_dist": 386.07640527338725,
+    "std_time": 1.024254471419195,
     "admin": "Atl\u00e1ntida",
     "country": "Honduras",
     "city": "La Ceiba",
@@ -16732,9 +17067,11 @@
       "Washington",
       "Washington",
       "Washington",
-      "Washington"
+      "Washington",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -16758,7 +17095,8 @@
       143.70359835871278,
       189.53292870419267,
       109.77272678667468,
-      98.95926043448806
+      98.95926043448806,
+      292.5508042856091
     ],
     "times": [
       5.600000000000016,
@@ -16771,7 +17109,8 @@
       6.900000000000011,
       7.366666666666676,
       5.43333333333335,
-      6.600000000000012
+      6.600000000000012,
+      4.700000000000019
     ]
   },
   "Avondale, Arizona, United States": {
@@ -17001,27 +17340,32 @@
     ]
   },
   "T\u00faxpam de Rodr\u00edguez Cano, Veracruz, Mexico": {
-    "mean_dist": 379.7219094918979,
-    "mean_time": 5.716666666666682,
-    "std_dist": 155.85688209098782,
-    "std_time": 0.2833333333333323,
+    "mean_dist": 448.2572012378657,
+    "mean_time": 6.2111111111111255,
+    "std_dist": 159.96380077846536,
+    "std_time": 0.7365250408522885,
     "admin": "Veracruz",
     "country": "Mexico",
+    "city": "T\u00faxpam de Rodr\u00edguez Cano",
     "regions": [
       "New York",
-      "California"
+      "California",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
       "United States",
       "United States"
     ],
     "dists": [
       223.86502740091012,
-      535.5787915828857
+      535.5787915828857,
+      585.3277847298012
     ],
     "times": [
       5.43333333333335,
-      6.000000000000014
+      6.000000000000014,
+      7.20000000000001
     ]
   },
   "Amherst, New York, United States": {
@@ -17582,19 +17926,21 @@
     ]
   },
   "Zacatecas, Zacatecas, Mexico": {
-    "mean_dist": 613.4867189648198,
-    "mean_time": 6.144444444444457,
-    "std_dist": 248.91984130153395,
-    "std_time": 1.7376726310900694,
+    "mean_dist": 699.099240496375,
+    "mean_time": 6.391666666666679,
+    "std_dist": 261.6473333977601,
+    "std_time": 1.564604138787538,
     "admin": "Zacatecas",
     "country": "Mexico",
     "city": "Zacatecas",
     "regions": [
       "California",
       "Michigan",
-      "Wisconsin"
+      "Wisconsin",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
       "United States",
       "United States",
       "United States"
@@ -17602,12 +17948,14 @@
     "dists": [
       789.2937810028445,
       789.705392225455,
-      261.4609836661599
+      261.4609836661599,
+      955.9368050910407
     ],
     "times": [
       6.400000000000013,
       8.13333333333334,
-      3.9000000000000217
+      3.9000000000000217,
+      7.1333333333333435
     ]
   },
   "Tehuac\u00e1n, Puebla, Mexico": {
@@ -17873,10 +18221,10 @@
     ]
   },
   "Sudbury, Ontario, Canada": {
-    "mean_dist": 1042.405038488143,
-    "mean_time": 7.08000000000001,
-    "std_dist": 701.4881503855746,
-    "std_time": 1.7492347533199197,
+    "mean_dist": 852.1163151186914,
+    "mean_time": 6.961904761904772,
+    "std_dist": 665.7611240404278,
+    "std_time": 1.5053796200472156,
     "admin": "Ontario",
     "country": "Canada",
     "city": "Sudbury",
@@ -17885,9 +18233,13 @@
       "Massachusetts",
       "New York",
       "Texas",
-      "California"
+      "California",
+      "Pennsylvania",
+      "Massachusetts"
     ],
     "countries": [
+      "United States",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -17899,14 +18251,18 @@
       324.56285505114056,
       309.4958947164796,
       2041.8412653229589,
-      876.1062895238651
+      876.1062895238651,
+      310.9516877590973,
+      441.8373256310275
     ],
     "times": [
       3.633333333333356,
       8.03333333333334,
       7.866666666666674,
       8.400000000000006,
-      7.466666666666676
+      7.466666666666676,
+      7.066666666666677,
+      6.26666666666668
     ]
   },
   "Holland, Michigan, United States": {
@@ -17958,24 +18314,27 @@
     ]
   },
   "Bellevue, Washington, United States": {
-    "mean_dist": 447.6152779772638,
-    "mean_time": 6.305555555555568,
-    "std_dist": 726.5584542950302,
-    "std_time": 0.9000857297989167,
+    "mean_dist": 400.02787246082244,
+    "mean_time": 6.2952380952381075,
+    "std_dist": 682.6874095309466,
+    "std_time": 0.8337005993415134,
     "admin": "Washington",
     "country": "United States",
+    "city": "Bellevue",
     "regions": [
       "Oregon",
       "Oregon",
       "Quebec",
       "Michigan",
       "New York",
-      "New York"
+      "New York",
+      "Louisiana"
     ],
     "countries": [
       "United States",
       "United States",
       "Canada",
+      "United States",
       "United States",
       "United States",
       "United States"
@@ -17986,7 +18345,8 @@
       2064.908782109167,
       51.12224729021664,
       187.28536373377926,
-      30.197892505853034
+      30.197892505853034,
+      114.50343936217422
     ],
     "times": [
       6.000000000000014,
@@ -17994,7 +18354,8 @@
       7.10000000000001,
       7.000000000000011,
       7.30000000000001,
-      4.833333333333352
+      4.833333333333352,
+      6.233333333333347
     ]
   },
   "Fargo, North Dakota, United States": {
@@ -18102,27 +18463,40 @@
     ]
   },
   "Cienfuegos, Cuba": {
-    "mean_dist": 257.3789557088768,
-    "mean_time": 7.883333333333341,
-    "std_dist": 115.23929108809247,
-    "std_time": 0.04999999999999982,
+    "mean_dist": 306.2115824889921,
+    "mean_time": 7.366666666666676,
+    "std_dist": 171.9208260393475,
+    "std_time": 0.7146094504459503,
     "admin": "Cienfuegos",
     "country": "Cuba",
+    "city": "Cienfuegos",
     "regions": [
       "North Dakota",
-      "New York"
+      "New York",
+      "Pennsylvania",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
+      "United States",
+      "United States",
       "United States",
       "United States"
     ],
     "dists": [
       142.1396646207843,
-      372.61824679696923
+      372.61824679696923,
+      347.46046194608584,
+      572.2868954142878,
+      96.55264366683322
     ],
     "times": [
       7.933333333333341,
-      7.833333333333341
+      7.833333333333341,
+      6.26666666666668,
+      8.03333333333334,
+      6.766666666666678
     ]
   },
   "Gulfport, Mississippi, United States": {
@@ -18150,10 +18524,10 @@
     ]
   },
   "Bayam\u00f3n, Puerto Rico": {
-    "mean_dist": 36.997086466804774,
-    "mean_time": 6.083333333333346,
-    "std_dist": 11.033946678525375,
-    "std_time": 2.233768614297861,
+    "mean_dist": 39.09163830800187,
+    "mean_time": 6.2722222222222355,
+    "std_dist": 15.014684999540535,
+    "std_time": 1.8523675207956818,
     "admin": "Puerto Rico",
     "country": "Puerto Rico",
     "city": "Bayam\u00f3n",
@@ -18161,10 +18535,14 @@
       "British Columbia",
       "California",
       "Washington",
-      "Washington"
+      "Washington",
+      "Pennsylvania",
+      "Massachusetts"
     ],
     "countries": [
       "Canada",
+      "United States",
+      "United States",
       "United States",
       "United States",
       "United States"
@@ -18173,13 +18551,17 @@
       26.527330404115038,
       26.152334974919892,
       43.616186325642,
-      51.69249416254217
+      51.69249416254217,
+      23.11881118492934,
+      63.44267279586276
     ],
     "times": [
       2.43333333333336,
       7.766666666666675,
       6.100000000000014,
-      8.03333333333334
+      8.03333333333334,
+      6.966666666666677,
+      6.333333333333346
     ]
   },
   "Escondido, California, United States": {
@@ -18510,10 +18892,10 @@
     ]
   },
   "Hig\u00fcey, Dominican Republic": {
-    "mean_dist": 437.3105050903796,
-    "mean_time": 6.854166666666678,
-    "std_dist": 260.18725289145027,
-    "std_time": 1.2949621937853326,
+    "mean_dist": 457.5472946577457,
+    "mean_time": 6.863636363636375,
+    "std_dist": 329.1028887752602,
+    "std_time": 1.1411897517883551,
     "admin": "Yuma",
     "country": "Dominican Republic",
     "city": "Hig\u00fcey",
@@ -18525,9 +18907,15 @@
       "California",
       "New York",
       "Pennsylvania",
-      "California"
+      "California",
+      "Pennsylvania",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
+      "United States",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -18545,7 +18933,10 @@
       422.4031638782959,
       284.8008099411878,
       186.09349949183962,
-      219.94379975697692
+      219.94379975697692,
+      1163.1594362384817,
+      206.1495730679422,
+      165.2271912057411
     ],
     "times": [
       6.133333333333347,
@@ -18555,7 +18946,10 @@
       6.333333333333346,
       7.4333333333333425,
       8.066666666666674,
-      7.233333333333343
+      7.233333333333343,
+      6.16666666666668,
+      7.000000000000011,
+      7.500000000000009
     ]
   },
   "Frisco, Texas, United States": {
@@ -18635,28 +19029,36 @@
     ]
   },
   "San Pedro de Macor\u00eds, Dominican Republic": {
-    "mean_dist": 269.61360587708776,
-    "mean_time": 7.933333333333341,
-    "std_dist": 47.522470821766774,
-    "std_time": 0.13333333333333286,
+    "mean_dist": 194.47840251646323,
+    "mean_time": 7.191666666666677,
+    "std_dist": 87.29515202237307,
+    "std_time": 0.7587910706438794,
     "admin": "Higuamo",
     "country": "Dominican Republic",
     "city": "San Pedro de Macor\u00eds",
     "regions": [
       "Massachusetts",
-      "Washington"
+      "Washington",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
+      "United States",
       "United States",
       "United States"
     ],
     "dists": [
       317.13607669885454,
-      222.091135055321
+      222.091135055321,
+      160.47596385902844,
+      78.21043445264897
     ],
     "times": [
       7.800000000000008,
-      8.066666666666674
+      8.066666666666674,
+      6.633333333333345,
+      6.26666666666668
     ]
   },
   "Coral Springs, Florida, United States": {
@@ -18725,10 +19127,10 @@
     ]
   },
   "Matagalpa, Nicaragua": {
-    "mean_dist": 596.6936194637842,
-    "mean_time": 7.608333333333341,
-    "std_dist": 634.6404012648243,
-    "std_time": 0.3699662146737172,
+    "mean_dist": 545.1851810564627,
+    "mean_time": 7.466666666666676,
+    "std_dist": 576.9118026550549,
+    "std_time": 0.4356349134054529,
     "admin": "Matagalpa",
     "country": "Nicaragua",
     "city": "Matagalpa",
@@ -18736,9 +19138,11 @@
       "Massachusetts",
       "California",
       "Washington",
-      "Washington"
+      "Washington",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -18748,13 +19152,15 @@
       236.0709544912066,
       1689.4478824398918,
       327.8513554942512,
-      133.4042854297872
+      133.4042854297872,
+      339.1514274271766
     ],
     "times": [
       7.333333333333343,
       7.333333333333343,
       7.533333333333342,
-      8.23333333333334
+      8.23333333333334,
+      6.900000000000011
     ]
   },
   "Macon, Georgia, United States": {
@@ -19394,10 +19800,10 @@
     ]
   },
   "Le\u00f3n, Nicaragua": {
-    "mean_dist": 312.3182878426619,
-    "mean_time": 6.450000000000012,
-    "std_dist": 78.40562691815157,
-    "std_time": 1.0930334954713024,
+    "mean_dist": 284.72622745942,
+    "mean_time": 6.650000000000012,
+    "std_dist": 75.38388669457937,
+    "std_time": 0.9402028937848869,
     "admin": "Le\u00f3n",
     "country": "Nicaragua",
     "city": "Le\u00f3n",
@@ -19405,9 +19811,13 @@
       "New York",
       "Connecticut",
       "Missouri",
-      "Washington"
+      "Washington",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -19417,13 +19827,17 @@
       280.79107399070483,
       433.2288769165182,
       317.5352151355047,
-      217.7179853279198
+      217.7179853279198,
+      243.15738037846995,
+      215.92683300740237
     ],
     "times": [
       5.33333333333335,
       5.700000000000015,
       6.600000000000012,
-      8.166666666666673
+      8.166666666666673,
+      7.20000000000001,
+      6.900000000000011
     ]
   },
   "North Charleston, South Carolina, United States": {
@@ -19524,23 +19938,28 @@
     ]
   },
   "Redding, California, United States": {
-    "mean_dist": 205.6005713329413,
-    "mean_time": 7.6000000000000085,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 174.91676755669243,
+    "mean_time": 6.866666666666678,
+    "std_dist": 30.68380377624888,
+    "std_time": 0.7333333333333307,
     "admin": "California",
     "country": "United States",
+    "city": "Redding",
     "regions": [
-      "Illinois"
+      "Illinois",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
       "United States"
     ],
     "dists": [
-      205.6005713329413
+      205.6005713329413,
+      144.23296378044355
     ],
     "times": [
-      7.6000000000000085
+      7.6000000000000085,
+      6.133333333333347
     ]
   },
   "El Cajon, California, United States": {
@@ -19873,10 +20292,10 @@
     ]
   },
   "Abbotsford, British Columbia, Canada": {
-    "mean_dist": 834.7086872939922,
-    "mean_time": 7.583333333333342,
-    "std_dist": 1561.916181203188,
-    "std_time": 0.4487637339278738,
+    "mean_dist": 1404.1305182803674,
+    "mean_time": 6.84814814814816,
+    "std_dist": 1791.717792204487,
+    "std_time": 1.345418481972193,
     "admin": "British Columbia",
     "country": "Canada",
     "city": "Abbotsford",
@@ -19886,9 +20305,15 @@
       "Pennsylvania",
       "California",
       "Washington",
-      "Washington"
+      "Washington",
+      "Pennsylvania",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
+      "United States",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -19902,7 +20327,10 @@
       109.80934617151628,
       10.393685625433186,
       259.9187480317767,
-      231.72091367657222
+      231.72091367657222,
+      3770.924908479113,
+      3683.51362146339,
+      174.4840108168526
     ],
     "times": [
       6.700000000000012,
@@ -19910,7 +20338,10 @@
       8.066666666666674,
       7.666666666666675,
       8.000000000000007,
-      7.466666666666676
+      7.466666666666676,
+      4.40000000000002,
+      4.466666666666686,
+      7.266666666666676
     ]
   },
   "Nashville, Tennessee, United States": {
@@ -20117,10 +20548,10 @@
     ]
   },
   "San Luis, Guatemala": {
-    "mean_dist": 272.0539722728364,
-    "mean_time": 6.566666666666679,
-    "std_dist": 210.93377328532324,
-    "std_time": 1.9813014802284703,
+    "mean_dist": 193.73327719276475,
+    "mean_time": 6.519047619047631,
+    "std_dist": 183.31336900983206,
+    "std_time": 1.5691325217292138,
     "admin": "Pet\u00e9n",
     "country": "Guatemala",
     "city": "San Luis",
@@ -20128,9 +20559,15 @@
       "Georgia",
       "Pennsylvania",
       "Washington",
-      "Texas"
+      "Texas",
+      "Pennsylvania",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
+      "United States",
+      "United States",
       "United States",
       "United States",
       "United States",
@@ -20140,13 +20577,19 @@
       88.26728669779789,
       224.04244742110305,
       148.1360958546426,
-      627.770059117802
+      627.770059117802,
+      90.03465339220594,
+      89.8420133234691,
+      88.04038454233279
     ],
     "times": [
       5.933333333333348,
       8.466666666666672,
       8.266666666666673,
-      3.6000000000000227
+      3.6000000000000227,
+      6.6666666666666785,
+      7.20000000000001,
+      5.500000000000016
     ]
   },
   "Torrance, California, United States": {
@@ -20198,25 +20641,44 @@
     ]
   },
   "Kissimmee, Florida, United States": {
-    "regions": [],
-    "countries": [],
-    "dists": [],
-    "times": []
+    "mean_dist": 431.7551815520227,
+    "mean_time": 6.966666666666677,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Kissimmee",
+    "admin": "Florida",
+    "country": "United States",
+    "regions": [
+      "Pennsylvania"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      431.7551815520227
+    ],
+    "times": [
+      6.966666666666677
+    ]
   },
   "Pinar del R\u00edo, Cuba": {
-    "mean_dist": 470.3340086131754,
-    "mean_time": 6.711111111111123,
-    "std_dist": 199.0453519857435,
-    "std_time": 0.6635110500814917,
+    "mean_dist": 578.4479854068106,
+    "mean_time": 6.633333333333345,
+    "std_dist": 207.08271898789175,
+    "std_time": 0.5312459150169724,
     "admin": "Pinar del R\u00edo",
     "country": "Cuba",
     "city": "Pinar del R\u00edo",
     "regions": [
       "California",
       "Pennsylvania",
-      "Texas"
+      "Texas",
+      "Pennsylvania",
+      "Massachusetts"
     ],
     "countries": [
+      "United States",
+      "United States",
       "United States",
       "United States",
       "United States"
@@ -20224,12 +20686,16 @@
     "dists": [
       215.90514708409847,
       493.2505772881381,
-      701.8463014672895
+      701.8463014672895,
+      803.4455621551649,
+      677.7923390393617
     ],
     "times": [
       6.400000000000013,
       7.633333333333342,
-      6.100000000000014
+      6.100000000000014,
+      6.36666666666668,
+      6.6666666666666785
     ]
   },
   "Parral, Chihuahua, Mexico": {
@@ -20273,23 +20739,28 @@
     ]
   },
   "Inglewood, California, United States": {
-    "mean_dist": 110.14222052244978,
-    "mean_time": 7.766666666666675,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 325.16581072237227,
+    "mean_time": 7.166666666666677,
+    "std_dist": 215.02359019992252,
+    "std_time": 0.5999999999999979,
     "admin": "California",
     "country": "United States",
+    "city": "Inglewood",
     "regions": [
-      "New York"
+      "New York",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
       "United States"
     ],
     "dists": [
-      110.14222052244978
+      110.14222052244978,
+      540.1894009222948
     ],
     "times": [
-      7.766666666666675
+      7.766666666666675,
+      6.566666666666679
     ]
   },
   "Sarnia, Ontario, Canada": {
@@ -20602,19 +21073,23 @@
     ]
   },
   "Les Cayes, Haiti": {
-    "mean_dist": 309.3216970073938,
-    "mean_time": 5.8888888888889035,
-    "std_dist": 23.08736527379991,
-    "std_time": 0.46851485871795423,
+    "mean_dist": 252.2522295750486,
+    "mean_time": 6.20666666666668,
+    "std_dist": 72.30073186545113,
+    "std_time": 0.5330832747120995,
     "city": "Les Cayes",
     "admin": "Sud",
     "country": "Haiti",
     "regions": [
       "Virginia",
       "California",
-      "Washington"
+      "Washington",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
+      "United States",
       "United States",
       "United States",
       "United States"
@@ -20622,12 +21097,16 @@
     "dists": [
       283.3542790315202,
       339.4462798259876,
-      305.1645321646737
+      305.1645321646737,
+      174.09681987062976,
+      159.19923698243173
     ],
     "times": [
       5.43333333333335,
       6.533333333333346,
-      5.700000000000015
+      5.700000000000015,
+      6.733333333333345,
+      6.633333333333345
     ]
   },
   "Charlottesville, Virginia, United States": {
@@ -20652,32 +21131,36 @@
     ]
   },
   "San Juan, Puerto Rico": {
-    "mean_dist": 827.549426740372,
-    "mean_time": 7.21111111111112,
-    "std_dist": 1101.0182718324832,
-    "std_time": 0.7931808132255415,
+    "mean_dist": 625.9719574997221,
+    "mean_time": 7.02500000000001,
+    "std_dist": 1015.4217618793366,
+    "std_time": 0.7587910706438794,
     "city": "San Juan",
     "admin": "Puerto Rico",
     "country": "Puerto Rico",
     "regions": [
       "Missouri",
       "Washington",
-      "Harjumaa"
+      "Harjumaa",
+      "Pennsylvania"
     ],
     "countries": [
       "United States",
       "United States",
-      "Estonia"
+      "Estonia",
+      "United States"
     ],
     "dists": [
       61.85384637784076,
       36.240259345928294,
-      2384.554174497347
+      2384.554174497347,
+      21.239549777772105
     ],
     "times": [
       7.633333333333342,
       7.9000000000000075,
-      6.100000000000014
+      6.100000000000014,
+      6.466666666666679
     ]
   },
   "Heroica Matamoros, Tamaulipas, Mexico": {
@@ -20743,32 +21226,40 @@
     ]
   },
   "Santa Ana, El Salvador": {
-    "mean_dist": 207.53324532277966,
-    "mean_time": 7.788888888888896,
-    "std_dist": 147.14891645115688,
-    "std_time": 0.243938871112223,
+    "mean_dist": 212.07669297065004,
+    "mean_time": 6.52666666666668,
+    "std_dist": 148.27922455900392,
+    "std_time": 1.598109994823741,
     "city": "Santa Ana",
     "admin": "Santa Ana",
     "country": "El Salvador",
     "regions": [
       "Washington",
       "Washington",
-      "Harjumaa"
+      "Harjumaa",
+      "Pennsylvania",
+      "Massachusetts"
     ],
     "countries": [
       "United States",
       "United States",
-      "Estonia"
+      "Estonia",
+      "United States",
+      "United States"
     ],
     "dists": [
       409.4318420576422,
       62.91561865560303,
-      150.25227525509376
+      150.25227525509376,
+      69.19148123172045,
+      368.5922476531906
     ],
     "times": [
       8.13333333333334,
       7.6000000000000085,
-      7.633333333333342
+      7.633333333333342,
+      4.066666666666688,
+      5.200000000000017
     ]
   },
   "Temecula, California, United States": {
@@ -20865,6 +21356,69 @@
     ],
     "times": [
       5.400000000000016
+    ]
+  },
+  "Matanzas, Cuba": {
+    "mean_dist": 338.1919822566496,
+    "mean_time": 7.800000000000008,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Matanzas",
+    "admin": "Matanzas",
+    "country": "Cuba",
+    "regions": [
+      "Louisiana"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      338.1919822566496
+    ],
+    "times": [
+      7.800000000000008
+    ]
+  },
+  "Berkeley, California, United States": {
+    "mean_dist": 359.5960261511071,
+    "mean_time": 5.866666666666681,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Berkeley",
+    "admin": "California",
+    "country": "United States",
+    "regions": [
+      "Pennsylvania"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      359.5960261511071
+    ],
+    "times": [
+      5.866666666666681
+    ]
+  },
+  "Santa Cruz, California, United States": {
+    "mean_dist": 91.23771790750257,
+    "mean_time": 5.633333333333349,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Santa Cruz",
+    "admin": "California",
+    "country": "United States",
+    "regions": [
+      "Pennsylvania"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      91.23771790750257
+    ],
+    "times": [
+      5.633333333333349
     ]
   }
 }

@@ -82,10 +82,10 @@
     ]
   },
   "Szczecin, Poland": {
-    "mean_dist": 251.54568018907528,
-    "mean_time": 7.611111111111118,
-    "std_dist": 144.93715857711973,
-    "std_time": 0.6339665450533732,
+    "mean_dist": 232.54002545945082,
+    "mean_time": 7.5738095238095315,
+    "std_dist": 142.07243844599884,
+    "std_time": 0.6114228229962657,
     "admin": "Zachodniopomorskie",
     "country": "Poland",
     "city": "Szczecin",
@@ -101,7 +101,9 @@
       "New York",
       "England",
       "England",
-      "Stockholm"
+      "Stockholm",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Unknown",
@@ -115,7 +117,9 @@
       "United States",
       "United Kingdom",
       "United Kingdom",
-      "Sweden"
+      "Sweden",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       486.346599525567,
@@ -129,7 +133,9 @@
       136.9892630045162,
       67.13655538321089,
       382.89838138116744,
-      336.0636922316202
+      336.0636922316202,
+      109.54292509748448,
+      127.46926906592348
     ],
     "times": [
       7.466666666666676,
@@ -143,7 +149,9 @@
       7.10000000000001,
       6.6666666666666785,
       7.966666666666674,
-      7.1333333333333435
+      7.1333333333333435,
+      6.966666666666677,
+      7.733333333333341
     ]
   },
   "Manchester, United Kingdom": {
@@ -1595,12 +1603,13 @@
     ]
   },
   "Salerno, Italy": {
-    "mean_dist": 247.8311843599325,
-    "mean_time": 7.050000000000011,
-    "std_dist": 139.13316806401485,
-    "std_time": 1.322224556487197,
+    "mean_dist": 251.59422786961906,
+    "mean_time": 6.969696969696982,
+    "std_dist": 133.19092214678878,
+    "std_time": 1.286012908606254,
     "admin": "Campania",
     "country": "Italy",
+    "city": "Salerno",
     "regions": [
       "Unknown",
       "Unknown",
@@ -1611,7 +1620,8 @@
       "New South Wales",
       "Mazovia",
       "New South Wales",
-      "England"
+      "England",
+      "Massachusetts"
     ],
     "countries": [
       "Unknown",
@@ -1623,7 +1633,8 @@
       "Australia",
       "Poland",
       "Australia",
-      "United Kingdom"
+      "United Kingdom",
+      "United States"
     ],
     "dists": [
       6.314175938593904,
@@ -1635,7 +1646,8 @@
       533.2405725764573,
       289.2948531166542,
       367.1908580693082,
-      106.06722522795181
+      106.06722522795181,
+      289.2246629664847
     ],
     "times": [
       7.400000000000009,
@@ -1647,7 +1659,8 @@
       7.966666666666674,
       7.6000000000000085,
       8.33333333333334,
-      8.000000000000007
+      8.000000000000007,
+      6.16666666666668
     ]
   },
   "Nizhny Novgorod, Russia": {
@@ -1956,10 +1969,10 @@
     ]
   },
   "Bonn, Germany": {
-    "mean_dist": 371.8608631740476,
-    "mean_time": 7.033333333333343,
-    "std_dist": 680.9209350061303,
-    "std_time": 1.023187949619671,
+    "mean_dist": 357.54976825023385,
+    "mean_time": 7.029824561403519,
+    "std_dist": 665.5351585833727,
+    "std_time": 0.9960092731221274,
     "admin": "North Rhine-Westphalia",
     "country": "Germany",
     "city": "Bonn",
@@ -1981,7 +1994,8 @@
       "North Holland",
       "Stockholm",
       "Stockholm",
-      "Harjumaa"
+      "Harjumaa",
+      "\u00cele-de-France"
     ],
     "countries": [
       "Unknown",
@@ -2001,7 +2015,8 @@
       "Netherlands",
       "Sweden",
       "Sweden",
-      "Estonia"
+      "Estonia",
+      "France"
     ],
     "dists": [
       339.3936403824822,
@@ -2021,7 +2036,8 @@
       190.7067415374882,
       237.03668798232653,
       195.01987718179737,
-      48.73422304862876
+      48.73422304862876,
+      99.95005962158547
     ],
     "times": [
       7.766666666666675,
@@ -2041,7 +2057,8 @@
       6.100000000000014,
       6.966666666666677,
       7.6000000000000085,
-      8.03333333333334
+      8.03333333333334,
+      6.966666666666677
     ]
   },
   "Makiyivka, Ukraine": {
@@ -2916,10 +2933,10 @@
     ]
   },
   "Kaunas, Lithuania": {
-    "mean_dist": 188.95879823402703,
-    "mean_time": 6.2454545454545585,
-    "std_dist": 217.23745677139416,
-    "std_time": 1.3478956833473414,
+    "mean_dist": 333.8755275088885,
+    "mean_time": 6.504761904761916,
+    "std_dist": 520.6280415931689,
+    "std_time": 1.5099593783486436,
     "admin": "Kauno Miestas",
     "country": "Lithuania",
     "city": "Kaunas",
@@ -2934,7 +2951,10 @@
       "England",
       "Attica",
       "Stockholm",
-      "Andalusia"
+      "Andalusia",
+      "Capital Region",
+      "Capital Region",
+      "Vienna"
     ],
     "countries": [
       "Unknown",
@@ -2947,7 +2967,10 @@
       "United Kingdom",
       "Greece",
       "Sweden",
-      "Spain"
+      "Spain",
+      "Iceland",
+      "Iceland",
+      "Austria"
     ],
     "dists": [
       64.07578530373995,
@@ -2960,7 +2983,10 @@
       225.08247218238375,
       235.0016164687442,
       21.69259503987611,
-      149.7912463604352
+      149.7912463604352,
+      391.71456359677245,
+      137.3070223659574,
+      2066.6890185874117
     ],
     "times": [
       5.566666666666682,
@@ -2973,7 +2999,10 @@
       6.733333333333345,
       2.866666666666692,
       6.600000000000012,
-      8.200000000000006
+      8.200000000000006,
+      6.300000000000013,
+      6.233333333333347,
+      9.833333333333334
     ]
   },
   "Suez, Egypt": {
@@ -3217,10 +3246,10 @@
     ]
   },
   "Warsaw, Poland": {
-    "mean_dist": 83.38019011545029,
-    "mean_time": 7.333333333333343,
-    "std_dist": 54.14723825924682,
-    "std_time": 0.49125689138507933,
+    "mean_dist": 152.35006594016247,
+    "mean_time": 7.542424242424252,
+    "std_dist": 224.12903121181625,
+    "std_time": 0.8102987239521995,
     "admin": "Mazowieckie",
     "country": "Poland",
     "city": "Warsaw",
@@ -3234,7 +3263,8 @@
       "Tokyo",
       "Tokyo",
       "Stockholm",
-      "Stockholm"
+      "Stockholm",
+      "Vienna"
     ],
     "countries": [
       "Unknown",
@@ -3246,7 +3276,8 @@
       "Japan",
       "Japan",
       "Sweden",
-      "Sweden"
+      "Sweden",
+      "Austria"
     ],
     "dists": [
       37.80368464434533,
@@ -3258,7 +3289,8 @@
       12.419179405871477,
       13.353170343696277,
       25.466887468341874,
-      124.32828592810279
+      124.32828592810279,
+      842.0488241872843
     ],
     "times": [
       8.23333333333334,
@@ -3270,7 +3302,8 @@
       7.30000000000001,
       7.533333333333342,
       7.4333333333333425,
-      6.300000000000013
+      6.300000000000013,
+      9.633333333333335
     ]
   },
   "Stockholm, Sweden": {
@@ -3506,10 +3539,10 @@
     ]
   },
   "Vienna, Austria": {
-    "mean_dist": 145.39558011807057,
-    "mean_time": 6.816666666666678,
-    "std_dist": 77.84993074838671,
-    "std_time": 1.1532390547758553,
+    "mean_dist": 139.25319735178675,
+    "mean_time": 6.555555555555568,
+    "std_dist": 78.64334085620723,
+    "std_time": 1.481824034470958,
     "admin": "Wien",
     "country": "Austria",
     "city": "Vienna",
@@ -3527,7 +3560,8 @@
       "Attica",
       "Mazovia",
       "Stockholm",
-      "Stockholm"
+      "Stockholm",
+      "\u00cele-de-France"
     ],
     "countries": [
       "Unknown",
@@ -3543,7 +3577,8 @@
       "Greece",
       "Poland",
       "Sweden",
-      "Sweden"
+      "Sweden",
+      "France"
     ],
     "dists": [
       91.73911555779499,
@@ -3559,7 +3594,8 @@
       197.19394851454257,
       62.87063484548904,
       62.99942312705362,
-      23.623513423521597
+      23.623513423521597,
+      53.259838623813515
     ],
     "times": [
       7.033333333333344,
@@ -3575,7 +3611,8 @@
       6.300000000000013,
       8.300000000000006,
       6.800000000000011,
-      5.666666666666682
+      5.666666666666682,
+      2.9000000000000252
     ]
   },
   "Kirkuk, Iraq": {
@@ -3986,10 +4023,10 @@
     ]
   },
   "Dnipro, Ukraine": {
-    "mean_dist": 286.3282881218892,
-    "mean_time": 6.885416666666679,
-    "std_dist": 395.11924692781747,
-    "std_time": 1.3889428808949904,
+    "mean_dist": 288.8511060177519,
+    "mean_time": 6.74385964912282,
+    "std_dist": 368.3966001739298,
+    "std_time": 1.4621162517111936,
     "admin": "Dnipropetrovs\u2019ka Oblast\u2019",
     "country": "Ukraine",
     "city": "Dnipro",
@@ -4009,7 +4046,10 @@
       "California",
       "New South Wales",
       "Stockholm",
-      "Harjumaa"
+      "Harjumaa",
+      "Capital Region",
+      "Capital Region",
+      "\u00cele-de-France"
     ],
     "countries": [
       "Unknown",
@@ -4027,7 +4067,10 @@
       "United States",
       "Australia",
       "Sweden",
-      "Estonia"
+      "Estonia",
+      "Iceland",
+      "Iceland",
+      "France"
     ],
     "dists": [
       180.15483751194145,
@@ -4045,7 +4088,10 @@
       313.1460593971116,
       720.8489599329981,
       32.8838232269889,
-      69.72680000423499
+      69.72680000423499,
+      475.648504898452,
+      83.38287297436594,
+      347.8870265142392
     ],
     "times": [
       6.033333333333347,
@@ -4063,7 +4109,10 @@
       8.366666666666672,
       7.866666666666674,
       6.233333333333347,
-      3.2666666666666906
+      3.2666666666666906,
+      6.566666666666679,
+      7.6000000000000085,
+      3.800000000000022
     ]
   },
   "Tashkent, Uzbekistan": {
@@ -4108,12 +4157,13 @@
     ]
   },
   "G\u00f6teborg, Sweden": {
-    "mean_dist": 461.0054404758099,
-    "mean_time": 6.537254901960796,
-    "std_dist": 935.9820263483791,
-    "std_time": 1.6072093442366002,
+    "mean_dist": 412.74013170771667,
+    "mean_time": 6.087301587301599,
+    "std_dist": 849.7422978894026,
+    "std_time": 1.9887108953910804,
     "admin": "V\u00e4stra G\u00f6taland",
     "country": "Sweden",
+    "city": "G\u00f6teborg",
     "regions": [
       "Massachusetts",
       "Massachusetts",
@@ -4131,7 +4181,11 @@
       "England",
       "California",
       "California",
-      "England"
+      "England",
+      "Capital Region",
+      "Capital Region",
+      "Hamburg",
+      "\u00cele-de-France"
     ],
     "countries": [
       "United States",
@@ -4150,7 +4204,11 @@
       "United Kingdom",
       "United States",
       "United States",
-      "United Kingdom"
+      "United Kingdom",
+      "Iceland",
+      "Iceland",
+      "Germany",
+      "France"
     ],
     "dists": [
       245.11671303060453,
@@ -4169,7 +4227,11 @@
       137.8742236866504,
       374.04416760750564,
       230.14023507635454,
-      133.04097963103806
+      133.04097963103806,
+      262.9384227633601,
+      373.0816438923916,
+      158.50868123237797,
+      35.921529885152076
     ],
     "times": [
       7.733333333333341,
@@ -4188,7 +4250,11 @@
       5.133333333333351,
       8.000000000000007,
       6.100000000000014,
-      7.20000000000001
+      7.20000000000001,
+      6.566666666666679,
+      5.833333333333348,
+      3.633333333333356,
+      0.666666666666692
     ]
   },
   "Baghdad, Iraq": {
@@ -4739,10 +4805,10 @@
     ]
   },
   "Trabzon, Turkey": {
-    "mean_dist": 510.71710671032645,
-    "mean_time": 7.340740740740752,
-    "std_dist": 389.06304133632193,
-    "std_time": 1.2830594010457137,
+    "mean_dist": 555.2257463222235,
+    "mean_time": 7.333333333333345,
+    "std_dist": 423.1566463991933,
+    "std_time": 1.249233683232095,
     "admin": "Trabzon",
     "country": "Turkey",
     "city": "Trabzon",
@@ -4764,7 +4830,8 @@
       "California",
       "Mazovia",
       "Mazovia",
-      "England"
+      "England",
+      "\u00cele-de-France"
     ],
     "countries": [
       "United States",
@@ -4784,7 +4851,8 @@
       "United States",
       "Poland",
       "Poland",
-      "United Kingdom"
+      "United Kingdom",
+      "France"
     ],
     "dists": [
       957.5656855246332,
@@ -4804,7 +4872,8 @@
       622.6380875753921,
       416.03843181724574,
       39.62317082679978,
-      773.4324656465957
+      773.4324656465957,
+      1356.38125933637
     ],
     "times": [
       6.700000000000012,
@@ -4824,7 +4893,8 @@
       7.666666666666675,
       7.533333333333342,
       7.633333333333342,
-      3.1000000000000245
+      3.1000000000000245,
+      7.20000000000001
     ]
   },
   "Bristol, United Kingdom": {
@@ -5265,10 +5335,10 @@
     ]
   },
   "Sheffield, United Kingdom": {
-    "mean_dist": 89.39861172740184,
-    "mean_time": 7.153333333333343,
-    "std_dist": 70.80836664714016,
-    "std_time": 1.05305903601523,
+    "mean_dist": 105.84076818972086,
+    "mean_time": 6.803030303030314,
+    "std_dist": 85.21424543563445,
+    "std_time": 1.4950730224694893,
     "admin": "Sheffield",
     "country": "United Kingdom",
     "city": "Sheffield",
@@ -5282,7 +5352,8 @@
       "\u00cele-de-France",
       "Ontario",
       "England",
-      "Andalusia"
+      "Andalusia",
+      "Hamburg"
     ],
     "countries": [
       "United States",
@@ -5294,7 +5365,8 @@
       "France",
       "Canada",
       "United Kingdom",
-      "Spain"
+      "Spain",
+      "Germany"
     ],
     "dists": [
       60.00445645146239,
@@ -5306,7 +5378,8 @@
       48.194677156042964,
       38.55739010108056,
       3.196642692248065,
-      177.3245156816626
+      177.3245156816626,
+      270.26233281291104
     ],
     "times": [
       7.9000000000000075,
@@ -5318,7 +5391,8 @@
       8.200000000000006,
       7.700000000000008,
       6.733333333333345,
-      8.13333333333334
+      8.13333333333334,
+      3.300000000000024
     ]
   },
   "St. Petersburg, Russia": {
@@ -5537,10 +5611,10 @@
     ]
   },
   "Li\u00e8ge, Belgium": {
-    "mean_dist": 71.05874199983248,
-    "mean_time": 5.905263157894752,
-    "std_dist": 53.864951492827046,
-    "std_time": 2.0351663626667853,
+    "mean_dist": 74.24623319837768,
+    "mean_time": 6.011111111111126,
+    "std_dist": 52.16982517815149,
+    "std_time": 1.9631346635498588,
     "admin": "Wallonia",
     "country": "Belgium",
     "city": "Li\u00e8ge",
@@ -5563,7 +5637,9 @@
       "Michigan",
       "Michigan",
       "Stockholm",
-      "Andalusia"
+      "Andalusia",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "United States",
@@ -5584,7 +5660,9 @@
       "United States",
       "United States",
       "Sweden",
-      "Spain"
+      "Spain",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       79.51633707443082,
@@ -5605,7 +5683,9 @@
       176.82782677156823,
       82.3500944993532,
       11.072462695895828,
-      61.413637027698535
+      61.413637027698535,
+      103.70981893445997,
+      105.34498023465454
     ],
     "times": [
       7.933333333333341,
@@ -5626,7 +5706,9 @@
       3.5333333333333563,
       4.40000000000002,
       3.200000000000024,
-      8.13333333333334
+      8.13333333333334,
+      7.033333333333344,
+      7.000000000000011
     ]
   },
   "Frankfurt, Germany": {
@@ -6589,10 +6671,10 @@
     ]
   },
   "Florence, Italy": {
-    "mean_dist": 219.7864281151933,
-    "mean_time": 6.9615384615384714,
-    "std_dist": 418.6543596078923,
-    "std_time": 1.0346844891610418,
+    "mean_dist": 243.0438526080239,
+    "mean_time": 6.957777777777788,
+    "std_dist": 399.72820933381195,
+    "std_time": 0.9906575942957262,
     "admin": "Tuscany",
     "country": "Italy",
     "city": "Florence",
@@ -6609,7 +6691,9 @@
       "Stockholm",
       "Stockholm",
       "Stockholm",
-      "Harjumaa"
+      "Harjumaa",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "United States",
@@ -6624,7 +6708,9 @@
       "Sweden",
       "Sweden",
       "Sweden",
-      "Estonia"
+      "Estonia",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       95.25883924405287,
@@ -6639,7 +6725,9 @@
       116.59025285294237,
       38.31040015669668,
       25.315729697899723,
-      41.07456038681398
+      41.07456038681398,
+      213.28623620372417,
+      575.1479874191216
     ],
     "times": [
       7.166666666666677,
@@ -6654,7 +6742,9 @@
       5.066666666666684,
       7.666666666666675,
       8.366666666666672,
-      7.933333333333341
+      7.933333333333341,
+      6.300000000000013,
+      7.566666666666675
     ]
   },
   "Chi\u0219in\u0103u, Moldova": {
@@ -6756,12 +6846,13 @@
     ]
   },
   "Haarlem, Netherlands": {
-    "mean_dist": 46.84019287515358,
-    "mean_time": 6.86904761904763,
-    "std_dist": 30.210662790314295,
-    "std_time": 1.1408340227980962,
+    "mean_dist": 213.11919410271153,
+    "mean_time": 6.896078431372561,
+    "std_dist": 660.603232742273,
+    "std_time": 1.4026996544684438,
     "admin": "Noord-Holland",
     "country": "Netherlands",
+    "city": "Haarlem",
     "regions": [
       "Massachusetts",
       "Massachusetts",
@@ -6776,6 +6867,9 @@
       "North Holland",
       "England",
       "Stockholm",
+      "Stockholm",
+      "Capital Region",
+      "Capital Region",
       "Stockholm"
     ],
     "countries": [
@@ -6792,6 +6886,9 @@
       "Netherlands",
       "United Kingdom",
       "Sweden",
+      "Sweden",
+      "Iceland",
+      "Iceland",
       "Sweden"
     ],
     "dists": [
@@ -6808,7 +6905,10 @@
       16.498311124016244,
       15.3219248853113,
       13.417577811848767,
-      65.07003602148228
+      65.07003602148228,
+      60.97954277844945,
+      53.06639988747696,
+      2853.2176568280197
     ],
     "times": [
       8.13333333333334,
@@ -6824,7 +6924,10 @@
       7.4333333333333425,
       5.2666666666666835,
       7.933333333333341,
-      5.866666666666681
+      5.866666666666681,
+      6.500000000000012,
+      4.566666666666686,
+      10
     ]
   },
   "Qaraghandy, Kazakhstan": {
@@ -6914,12 +7017,13 @@
     ]
   },
   "Turin, Italy": {
-    "mean_dist": 269.3205646402211,
-    "mean_time": 7.412121212121221,
-    "std_dist": 265.25062471819444,
-    "std_time": 0.9141174169516093,
+    "mean_dist": 480.1179236071301,
+    "mean_time": 6.858333333333344,
+    "std_dist": 743.8316530700606,
+    "std_time": 2.03456815874833,
     "admin": "Piedmont",
     "country": "Italy",
+    "city": "Turin",
     "regions": [
       "New Jersey",
       "New South Wales",
@@ -6931,7 +7035,8 @@
       "New South Wales",
       "Ontario",
       "California",
-      "England"
+      "England",
+      "Capital Region"
     ],
     "countries": [
       "United States",
@@ -6944,7 +7049,8 @@
       "Australia",
       "Canada",
       "United States",
-      "United Kingdom"
+      "United Kingdom",
+      "Iceland"
     ],
     "dists": [
       552.95584244807,
@@ -6957,7 +7063,8 @@
       32.625080577651616,
       53.690352614902324,
       316.2689724330469,
-      830.5159855920299
+      830.5159855920299,
+      2798.888872243129
     ],
     "times": [
       7.966666666666674,
@@ -6970,7 +7077,8 @@
       7.766666666666675,
       7.166666666666677,
       8.433333333333339,
-      5.200000000000017
+      5.200000000000017,
+      0.766666666666692
     ]
   },
   "Kabul, Afghanistan": {
@@ -7040,12 +7148,13 @@
     ]
   },
   "Bytom, Poland": {
-    "mean_dist": 282.57260869018995,
-    "mean_time": 6.866666666666679,
-    "std_dist": 68.93136181293487,
-    "std_time": 0.8988528844791579,
+    "mean_dist": 301.05086347216064,
+    "mean_time": 6.3875000000000135,
+    "std_dist": 80.91793595813277,
+    "std_time": 1.5212328242433961,
     "admin": "\u015al\u0105skie",
     "country": "Poland",
+    "city": "Bytom",
     "regions": [
       "New Jersey",
       "\u00cele-de-France",
@@ -7053,7 +7162,8 @@
       "Mazovia",
       "\u00cele-de-France",
       "England",
-      "England"
+      "England",
+      "Massachusetts"
     ],
     "countries": [
       "United States",
@@ -7062,7 +7172,8 @@
       "Poland",
       "France",
       "United Kingdom",
-      "United Kingdom"
+      "United Kingdom",
+      "United States"
     ],
     "dists": [
       253.84690247341285,
@@ -7071,7 +7182,8 @@
       243.2224696391955,
       279.11621733871795,
       317.3280843186852,
-      433.8989876048941
+      433.8989876048941,
+      430.3986469459555
     ],
     "times": [
       6.500000000000012,
@@ -7080,7 +7192,8 @@
       8.23333333333334,
       6.966666666666677,
       5.066666666666684,
-      7.30000000000001
+      7.30000000000001,
+      3.033333333333358
     ]
   },
   "Cologne, Germany": {
@@ -7530,10 +7643,10 @@
     ]
   },
   "Naples, Italy": {
-    "mean_dist": 283.28773608206563,
-    "mean_time": 7.464444444444452,
-    "std_dist": 624.9075882646245,
-    "std_time": 0.9019704082085758,
+    "mean_dist": 266.9469653738847,
+    "mean_time": 7.397916666666674,
+    "std_dist": 608.3649910323985,
+    "std_time": 0.9105453761040351,
     "admin": "Campania",
     "country": "Italy",
     "city": "Naples",
@@ -7552,7 +7665,8 @@
       "Stockholm",
       "Stockholm",
       "Stockholm",
-      "Harjumaa"
+      "Harjumaa",
+      "Hamburg"
     ],
     "countries": [
       "United Kingdom",
@@ -7569,7 +7683,8 @@
       "Sweden",
       "Sweden",
       "Sweden",
-      "Estonia"
+      "Estonia",
+      "Germany"
     ],
     "dists": [
       68.11578605183153,
@@ -7586,7 +7701,8 @@
       87.23630674798056,
       32.81624929144191,
       18.8229224723079,
-      544.3303453805746
+      544.3303453805746,
+      21.835404751171293
     ],
     "times": [
       7.9000000000000075,
@@ -7603,14 +7719,15 @@
       7.400000000000009,
       8.100000000000007,
       7.000000000000011,
-      7.9000000000000075
+      7.9000000000000075,
+      6.400000000000013
     ]
   },
   "Vigo, Spain": {
-    "mean_dist": 432.22454402821126,
-    "mean_time": 7.733333333333341,
-    "std_dist": 177.93875621214127,
-    "std_time": 0.5720334100576818,
+    "mean_dist": 534.7465436816464,
+    "mean_time": 7.361111111111121,
+    "std_dist": 205.55489205435296,
+    "std_time": 0.7975463916999285,
     "admin": "Galicia",
     "country": "Spain",
     "city": "Vigo",
@@ -7618,34 +7735,43 @@
       "Texas",
       "Lubusz",
       "England",
-      "Stockholm"
+      "Stockholm",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "United States",
       "Poland",
       "United Kingdom",
-      "Sweden"
+      "Sweden",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       528.5270698377714,
       518.1349788159233,
       557.2120745926359,
-      125.0240528665145
+      125.0240528665145,
+      720.5687704337128,
+      759.0123155433208
     ],
     "times": [
       8.500000000000005,
       7.1333333333333435,
       8.066666666666674,
-      7.233333333333343
+      7.233333333333343,
+      5.966666666666681,
+      7.266666666666676
     ]
   },
   "Nantes, France": {
-    "mean_dist": 293.18510402809085,
-    "mean_time": 6.944444444444454,
-    "std_dist": 229.09230615753387,
-    "std_time": 1.727625931162377,
+    "mean_dist": 276.8408457356421,
+    "mean_time": 6.451282051282063,
+    "std_dist": 227.27016157178525,
+    "std_time": 2.381933976300684,
     "admin": "Pays de la Loire",
     "country": "France",
+    "city": "Nantes",
     "regions": [
       "Texas",
       "Mazovia",
@@ -7658,7 +7784,8 @@
       "Saxony",
       "Saxony",
       "Mazovia",
-      "Stockholm"
+      "Stockholm",
+      "Hamburg"
     ],
     "countries": [
       "United States",
@@ -7672,7 +7799,8 @@
       "Germany",
       "Germany",
       "Poland",
-      "Sweden"
+      "Sweden",
+      "Germany"
     ],
     "dists": [
       601.5783714529193,
@@ -7686,7 +7814,8 @@
       32.47585645088753,
       42.3484808734474,
       93.89484910528641,
-      535.1164148810012
+      535.1164148810012,
+      80.70974622625775
     ],
     "times": [
       7.800000000000008,
@@ -7700,7 +7829,8 @@
       7.933333333333341,
       8.200000000000006,
       8.13333333333334,
-      8.200000000000006
+      8.200000000000006,
+      0.5333333333333588
     ]
   },
   "Irbid, Jordan": {
@@ -8382,10 +8512,10 @@
     ]
   },
   "Wuppertal, Germany": {
-    "mean_dist": 343.38988430857125,
-    "mean_time": 7.416666666666676,
-    "std_dist": 411.878516356803,
-    "std_time": 0.7915175298121928,
+    "mean_dist": 335.46276352377066,
+    "mean_time": 7.200000000000009,
+    "std_dist": 393.51001364131434,
+    "std_time": 1.019308539643366,
     "admin": "North Rhine-Westphalia",
     "country": "Germany",
     "city": "Wuppertal",
@@ -8399,7 +8529,8 @@
       "England",
       "Florida",
       "England",
-      "Stockholm"
+      "Stockholm",
+      "Massachusetts"
     ],
     "countries": [
       "Australia",
@@ -8411,7 +8542,8 @@
       "United Kingdom",
       "United States",
       "United Kingdom",
-      "Sweden"
+      "Sweden",
+      "United States"
     ],
     "dists": [
       149.96941680246056,
@@ -8423,7 +8555,8 @@
       183.42994149920162,
       326.430337883016,
       366.18246729906485,
-      271.4254415260632
+      271.4254415260632,
+      256.19155567576445
     ],
     "times": [
       8.03333333333334,
@@ -8435,7 +8568,8 @@
       6.033333333333347,
       6.6666666666666785,
       7.733333333333341,
-      6.866666666666678
+      6.866666666666678,
+      5.033333333333351
     ]
   },
   "Fargona, Uzbekistan": {
@@ -8628,12 +8762,13 @@
     ]
   },
   "Budapest, Hungary": {
-    "mean_dist": 175.8978652614595,
-    "mean_time": 4.700000000000019,
-    "std_dist": 208.81519008655982,
-    "std_time": 1.8871397129773602,
+    "mean_dist": 166.8718959253504,
+    "mean_time": 4.847619047619067,
+    "std_dist": 194.58773835125297,
+    "std_time": 1.8163155748860589,
     "admin": "Budapest",
     "country": "Hungary",
+    "city": "Budapest",
     "regions": [
       "\u00cele-de-France",
       "Saxony",
@@ -8646,7 +8781,9 @@
       "Tokyo",
       "Tokyo",
       "England",
-      "Stockholm"
+      "Stockholm",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "France",
@@ -8660,7 +8797,9 @@
       "Japan",
       "Japan",
       "United Kingdom",
-      "Sweden"
+      "Sweden",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       44.00985230810507,
@@ -8674,7 +8813,9 @@
       70.22481805755677,
       4.0067138760844845,
       782.5108838791007,
-      88.00212310525012
+      88.00212310525012,
+      115.23651798669681,
+      110.19564183069502
     ],
     "times": [
       7.4333333333333425,
@@ -8688,7 +8829,9 @@
       5.466666666666683,
       6.633333333333345,
       2.0000000000000284,
-      2.3000000000000274
+      2.3000000000000274,
+      6.633333333333345,
+      4.833333333333352
     ]
   },
   "Al Hufuf, Saudi Arabia": {
@@ -8859,10 +9002,10 @@
     ]
   },
   "Portsmouth, United Kingdom": {
-    "mean_dist": 201.21867750033195,
-    "mean_time": 7.575757575757584,
-    "std_dist": 409.09959363514395,
-    "std_time": 0.7805839447271741,
+    "mean_dist": 201.23096561778326,
+    "mean_time": 7.500000000000009,
+    "std_dist": 376.35920161143656,
+    "std_time": 0.7431740659547321,
     "admin": "Portsmouth",
     "country": "United Kingdom",
     "city": "Portsmouth",
@@ -8877,7 +9020,9 @@
       "England",
       "Stockholm",
       "Stockholm",
-      "Harjumaa"
+      "Harjumaa",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "France",
@@ -8890,7 +9035,9 @@
       "United Kingdom",
       "Sweden",
       "Sweden",
-      "Estonia"
+      "Estonia",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       15.20702461500096,
@@ -8903,7 +9050,9 @@
       31.512986809407366,
       41.785646650418435,
       12.476840897845676,
-      73.2969057020529
+      73.2969057020529,
+      186.91159687554557,
+      215.68550365198544
     ],
     "times": [
       7.733333333333341,
@@ -8916,7 +9065,9 @@
       6.433333333333346,
       6.800000000000011,
       7.633333333333342,
-      8.466666666666672
+      8.466666666666672,
+      6.900000000000011,
+      7.266666666666676
     ]
   },
   "Mariupol, Ukraine": {
@@ -9048,10 +9199,10 @@
     ]
   },
   "Prague, Czechia": {
-    "mean_dist": 154.56907550428647,
-    "mean_time": 6.09666666666668,
-    "std_dist": 238.66814779185066,
-    "std_time": 1.6795799739485076,
+    "mean_dist": 160.20784525732944,
+    "mean_time": 5.83055555555557,
+    "std_dist": 227.77992086074596,
+    "std_time": 1.8484457101061562,
     "admin": "Praha, Hlavn\u00ed M\u011bsto",
     "country": "Czechia",
     "city": "Prague",
@@ -9065,7 +9216,9 @@
       "Tokyo",
       "Zurich",
       "New South Wales",
-      "Stockholm"
+      "Stockholm",
+      "Massachusetts",
+      "\u00cele-de-France"
     ],
     "countries": [
       "France",
@@ -9077,7 +9230,9 @@
       "Japan",
       "Switzerland",
       "Australia",
-      "Sweden"
+      "Sweden",
+      "United States",
+      "France"
     ],
     "dists": [
       75.22767189443653,
@@ -9089,7 +9244,9 @@
       33.51267487213762,
       68.35702624469299,
       100.00233842368506,
-      21.264858159416708
+      21.264858159416708,
+      348.20112613094676,
+      28.602261914141685
     ],
     "times": [
       7.966666666666674,
@@ -9101,39 +9258,50 @@
       7.633333333333342,
       4.566666666666686,
       7.533333333333342,
-      5.466666666666683
+      5.466666666666683,
+      6.566666666666679,
+      2.43333333333336
     ]
   },
   "Kahramanmara\u015f, Turkey": {
-    "mean_dist": 341.21275455535243,
-    "mean_time": 7.266666666666676,
-    "std_dist": 110.03419324488895,
-    "std_time": 1.1247221879201952,
+    "mean_dist": 399.3815313096143,
+    "mean_time": 7.100000000000011,
+    "std_dist": 124.36559558168813,
+    "std_time": 0.9498537899183304,
     "admin": "Kahramanmara\u015f",
     "country": "Turkey",
+    "city": "Kahramanmara\u015f",
     "regions": [
       "\u00cele-de-France",
       "Mazovia",
       "England",
-      "New York"
+      "New York",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "France",
       "Poland",
       "United Kingdom",
-      "United States"
+      "United States",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       519.6699738925646,
       313.6255541586179,
       312.9008851829721,
-      218.65460498725517
+      218.65460498725517,
+      472.3172738820264,
+      559.1208957542494
     ],
     "times": [
       7.566666666666675,
       8.266666666666673,
       7.866666666666674,
-      5.366666666666683
+      5.366666666666683,
+      6.6666666666666785,
+      6.866666666666678
     ]
   },
   "Brighton, United Kingdom": {
@@ -9527,12 +9695,13 @@
     ]
   },
   "Leicester, United Kingdom": {
-    "mean_dist": 99.49444184006994,
-    "mean_time": 7.1222222222222324,
-    "std_dist": 80.04424654271853,
-    "std_time": 1.1115332531415771,
+    "mean_dist": 106.85778253673823,
+    "mean_time": 7.064705882352951,
+    "std_dist": 82.09758302111035,
+    "std_time": 1.0716471097678968,
     "admin": "Leicester",
     "country": "United Kingdom",
+    "city": "Leicester",
     "regions": [
       "\u00cele-de-France",
       "\u00cele-de-France",
@@ -9548,7 +9717,9 @@
       "Michigan",
       "Michigan",
       "Florida",
-      "England"
+      "England",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "France",
@@ -9565,7 +9736,9 @@
       "United States",
       "United States",
       "United States",
-      "United Kingdom"
+      "United Kingdom",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       156.0082049326207,
@@ -9582,7 +9755,9 @@
       197.56625710748074,
       69.06193544979256,
       256.09447045556,
-      23.782170473349606
+      23.782170473349606,
+      86.05288631784303,
+      238.11278920565738
     ],
     "times": [
       7.966666666666674,
@@ -9599,7 +9774,9 @@
       4.3333333333333535,
       5.100000000000017,
       7.4333333333333425,
-      7.866666666666674
+      7.866666666666674,
+      6.100000000000014,
+      7.166666666666677
     ]
   },
   "Ashgabat, Turkmenistan": {
@@ -10859,10 +11036,10 @@
     ]
   },
   "Bern, Switzerland": {
-    "mean_dist": 167.09865785738992,
-    "mean_time": 6.706666666666678,
-    "std_dist": 232.00789020252702,
-    "std_time": 2.081601947219169,
+    "mean_dist": 146.2693540480524,
+    "mean_time": 6.733333333333344,
+    "std_dist": 216.85406094752204,
+    "std_time": 1.9011692308798862,
     "admin": "Bern",
     "country": "Switzerland",
     "city": "Bern",
@@ -10871,28 +11048,32 @@
       "Stockholm",
       "England",
       "England",
-      "Andalusia"
+      "Andalusia",
+      "Capital Region"
     ],
     "countries": [
       "Australia",
       "Sweden",
       "United Kingdom",
       "United Kingdom",
-      "Spain"
+      "Spain",
+      "Iceland"
     ],
     "dists": [
       12.274730210719715,
       66.69455926981895,
       101.93553399552542,
       626.8901246952216,
-      27.698341115663943
+      27.698341115663943,
+      42.12283500136476
     ],
     "times": [
       7.466666666666676,
       7.933333333333341,
       8.03333333333334,
       2.566666666666693,
-      7.533333333333342
+      7.533333333333342,
+      6.866666666666678
     ]
   },
   "Lvov, Ukraine": {
@@ -11102,12 +11283,13 @@
     ]
   },
   "Sunderland, United Kingdom": {
-    "mean_dist": 248.88353289709823,
-    "mean_time": 6.444444444444458,
-    "std_dist": 142.3097572749902,
-    "std_time": 1.6615662698597922,
+    "mean_dist": 251.021976828212,
+    "mean_time": 6.585714285714298,
+    "std_dist": 137.72210194405713,
+    "std_time": 1.579215913830124,
     "admin": "Sunderland",
     "country": "United Kingdom",
+    "city": "Sunderland",
     "regions": [
       "Mazovia",
       "Ontario",
@@ -11120,7 +11302,9 @@
       "California",
       "Michigan",
       "Michigan",
-      "Stockholm"
+      "Stockholm",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Poland",
@@ -11134,7 +11318,9 @@
       "United States",
       "United States",
       "United States",
-      "Sweden"
+      "Sweden",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       171.28498386203628,
@@ -11148,7 +11334,9 @@
       246.96196692156948,
       330.19844607811467,
       385.0164671880434,
-      27.03260311441356
+      27.03260311441356,
+      369.05328618511476,
+      158.6519946446743
     ],
     "times": [
       4.733333333333352,
@@ -11162,7 +11350,9 @@
       7.10000000000001,
       1.8666666666666947,
       6.566666666666679,
-      7.766666666666675
+      7.766666666666675,
+      7.20000000000001,
+      7.666666666666675
     ]
   },
   "Lisbon, Portugal": {
@@ -12064,12 +12254,13 @@
     ]
   },
   "Helsinki, Finland": {
-    "mean_dist": 111.09533476118854,
-    "mean_time": 6.670833333333347,
-    "std_dist": 66.18781253529316,
-    "std_time": 0.9497715368562145,
+    "mean_dist": 135.9020614679401,
+    "mean_time": 6.63666666666668,
+    "std_dist": 99.96480088146551,
+    "std_time": 0.9840336489278277,
     "admin": "Uusimaa",
     "country": "Finland",
+    "city": "Helsinki",
     "regions": [
       "Mazovia",
       "Lubusz",
@@ -12078,7 +12269,9 @@
       "Michigan",
       "Michigan",
       "Florida",
-      "England"
+      "England",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Poland",
@@ -12088,7 +12281,9 @@
       "United States",
       "United States",
       "United States",
-      "United Kingdom"
+      "United Kingdom",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       111.86615638403181,
@@ -12098,7 +12293,9 @@
       69.71642285759296,
       277.9669422165864,
       91.6884492540018,
-      87.00780186646571
+      87.00780186646571,
+      93.23454569328935,
+      377.0233908966031
     ],
     "times": [
       7.933333333333341,
@@ -12108,7 +12305,9 @@
       5.200000000000017,
       7.400000000000009,
       6.466666666666679,
-      5.43333333333335
+      5.43333333333335,
+      5.400000000000016,
+      7.6000000000000085
     ]
   },
   "Dublin, Ireland": {
@@ -12234,19 +12433,23 @@
     ]
   },
   "Genoa, Italy": {
-    "mean_dist": 35.78645323541159,
-    "mean_time": 7.272222222222233,
-    "std_dist": 12.846425811007109,
-    "std_time": 0.6786196956749939,
+    "mean_dist": 386.341074876061,
+    "mean_time": 7.362962962962974,
+    "std_dist": 912.7922803173808,
+    "std_time": 1.1622078227750863,
     "admin": "Liguria",
     "country": "Italy",
+    "city": "Genoa",
     "regions": [
       "Mazovia",
       "England",
       "England",
       "England",
       "Tokyo",
-      "Mazovia"
+      "Mazovia",
+      "\u00cele-de-France",
+      "Vienna",
+      "Stockholm"
     ],
     "countries": [
       "Poland",
@@ -12254,7 +12457,10 @@
       "United Kingdom",
       "United Kingdom",
       "Japan",
-      "Poland"
+      "Poland",
+      "France",
+      "Austria",
+      "Sweden"
     ],
     "dists": [
       20.792587287322885,
@@ -12262,7 +12468,10 @@
       40.2545837872247,
       25.84332142710644,
       33.9844642876695,
-      32.86316197435888
+      32.86316197435888,
+      29.6129253312994,
+      273.38840319328705,
+      2959.349625947493
     ],
     "times": [
       7.966666666666674,
@@ -12270,7 +12479,10 @@
       6.900000000000011,
       7.1333333333333435,
       6.866666666666678,
-      8.366666666666672
+      8.366666666666672,
+      6.633333333333345,
+      6.000000000000014,
+      10
     ]
   },
   "D\u00fcsseldorf, Germany": {
@@ -12870,12 +13082,13 @@
     ]
   },
   "Hannover, Germany": {
-    "mean_dist": 143.29413616878065,
-    "mean_time": 7.428571428571437,
-    "std_dist": 145.7185510088449,
-    "std_time": 0.793110927494164,
+    "mean_dist": 280.1038060778836,
+    "mean_time": 7.480000000000008,
+    "std_dist": 323.12796751510064,
+    "std_time": 0.6767898081712233,
     "admin": "Lower Saxony",
     "country": "Germany",
+    "city": "Hannover",
     "regions": [
       "Mazovia",
       "Ontario",
@@ -12883,7 +13096,10 @@
       "England",
       "California",
       "British Columbia",
-      "England"
+      "England",
+      "Capital Region",
+      "Capital Region",
+      "Vienna"
     ],
     "countries": [
       "Poland",
@@ -12892,7 +13108,10 @@
       "United Kingdom",
       "United States",
       "Canada",
-      "United Kingdom"
+      "United Kingdom",
+      "Iceland",
+      "Iceland",
+      "Austria"
     ],
     "dists": [
       113.16454730579918,
@@ -12901,7 +13120,10 @@
       54.182251474517194,
       423.983633872953,
       7.574211852745241,
-      50.72145127051435
+      50.72145127051435,
+      252.65321890750755,
+      399.5149733157688,
+      1145.8109153740943
     ],
     "times": [
       8.300000000000006,
@@ -12910,7 +13132,10 @@
       6.533333333333346,
       8.400000000000006,
       6.700000000000012,
-      6.966666666666677
+      6.966666666666677,
+      7.333333333333343,
+      7.666666666666675,
+      7.800000000000008
     ]
   },
   "Yekaterinburg, Russia": {
@@ -12951,10 +13176,10 @@
     ]
   },
   "Gent, Belgium": {
-    "mean_dist": 165.97704931423837,
-    "mean_time": 5.672222222222238,
-    "std_dist": 110.75142392489248,
-    "std_time": 1.5838790482565752,
+    "mean_dist": 238.74529569117186,
+    "mean_time": 5.6708333333333485,
+    "std_dist": 238.85975362418802,
+    "std_time": 1.7687438653211178,
     "admin": "Flanders",
     "country": "Belgium",
     "city": "Gent",
@@ -12964,7 +13189,9 @@
       "England",
       "South Holland",
       "Stockholm",
-      ""
+      "",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Sweden",
@@ -12972,7 +13199,9 @@
       "United Kingdom",
       "Netherlands",
       "Sweden",
-      "Gibraltar"
+      "Gibraltar",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       362.64223560931475,
@@ -12980,7 +13209,9 @@
       131.68994374237408,
       42.04653967680309,
       138.64353345469377,
-      66.67885443894787
+      66.67885443894787,
+      814.6471289546964,
+      99.45294068924852
     ],
     "times": [
       6.400000000000013,
@@ -12988,7 +13219,9 @@
       7.500000000000009,
       3.2333333333333574,
       6.600000000000012,
-      3.766666666666689
+      3.766666666666689,
+      3.4333333333333567,
+      7.9000000000000075
     ]
   },
   "Nice, France": {
@@ -13891,10 +14124,10 @@
     ]
   },
   "Coventry, United Kingdom": {
-    "mean_dist": 73.73724015300635,
-    "mean_time": 5.712500000000015,
-    "std_dist": 59.76106034860989,
-    "std_time": 2.0698186648968875,
+    "mean_dist": 75.08666934540749,
+    "mean_time": 5.61481481481483,
+    "std_dist": 56.47239613827416,
+    "std_time": 1.970906359847335,
     "admin": "Coventry",
     "country": "United Kingdom",
     "city": "Coventry",
@@ -13906,7 +14139,8 @@
       "England",
       "England",
       "Stockholm",
-      "Stockholm"
+      "Stockholm",
+      "\u00cele-de-France"
     ],
     "countries": [
       "United Kingdom",
@@ -13916,7 +14150,8 @@
       "United Kingdom",
       "United Kingdom",
       "Sweden",
-      "Sweden"
+      "Sweden",
+      "France"
     ],
     "dists": [
       74.84498453821205,
@@ -13926,7 +14161,8 @@
       20.42385275064491,
       15.924792619923636,
       16.996664603453464,
-      42.04246002294444
+      42.04246002294444,
+      85.88210288461649
     ],
     "times": [
       1.0333333333333588,
@@ -13936,7 +14172,8 @@
       7.30000000000001,
       7.30000000000001,
       5.600000000000016,
-      8.066666666666674
+      8.066666666666674,
+      4.833333333333352
     ]
   },
   "\u0130zmit, Turkey": {
@@ -13998,10 +14235,10 @@
     ]
   },
   "Z\u00fcrich, Switzerland": {
-    "mean_dist": 215.3785941921341,
-    "mean_time": 6.6361111111111235,
-    "std_dist": 463.8655732114078,
-    "std_time": 1.3704864190101793,
+    "mean_dist": 282.96462004667666,
+    "mean_time": 6.817777777777789,
+    "std_dist": 484.58284303620076,
+    "std_time": 1.506227402371337,
     "admin": "Z\u00fcrich",
     "country": "Switzerland",
     "city": "Z\u00fcrich",
@@ -14017,7 +14254,10 @@
       "Stockholm",
       "South Holland",
       "Stockholm",
-      "Harjumaa"
+      "Harjumaa",
+      "Capital Region",
+      "Capital Region",
+      "Stockholm"
     ],
     "countries": [
       "United Kingdom",
@@ -14031,7 +14271,10 @@
       "Sweden",
       "Netherlands",
       "Sweden",
-      "Estonia"
+      "Estonia",
+      "Iceland",
+      "Iceland",
+      "Sweden"
     ],
     "dists": [
       128.54078021902572,
@@ -14045,7 +14288,10 @@
       66.0490505859181,
       73.02162564149918,
       26.555011391705595,
-      161.68098345050694
+      161.68098345050694,
+      80.74046279693178,
+      1196.5322481882092,
+      382.653459409399
     ],
     "times": [
       5.966666666666681,
@@ -14059,7 +14305,10 @@
       6.433333333333346,
       6.633333333333345,
       7.333333333333343,
-      2.7666666666666924
+      2.7666666666666924,
+      6.800000000000011,
+      5.833333333333348,
+      10
     ]
   },
   "Lahore, Pakistan": {
@@ -14885,10 +15134,10 @@
     ]
   },
   "Gaziantep, Turkey": {
-    "mean_dist": 399.8548416724124,
-    "mean_time": 7.08000000000001,
-    "std_dist": 206.71747356035544,
-    "std_time": 1.1291294581815339,
+    "mean_dist": 413.34914988063764,
+    "mean_time": 6.512500000000011,
+    "std_dist": 191.1049911832906,
+    "std_time": 2.042189558891245,
     "admin": "Gaziantep",
     "country": "Turkey",
     "city": "Gaziantep",
@@ -14897,57 +15146,77 @@
       "Tokyo",
       "Bavaria",
       "Stockholm",
-      "South Holland"
+      "South Holland",
+      "Capital Region",
+      "Capital Region",
+      "\u00cele-de-France"
     ],
     "countries": [
       "France",
       "Japan",
       "Germany",
       "Sweden",
-      "Netherlands"
+      "Netherlands",
+      "Iceland",
+      "Iceland",
+      "France"
     ],
     "dists": [
       183.23487779804805,
       461.275159260448,
       541.6159750758196,
       139.3874690918876,
-      673.7607271358588
+      673.7607271358588,
+      555.3581035274967,
+      541.388389908999,
+      210.77249724654354
     ],
     "times": [
       8.000000000000007,
       6.866666666666678,
       4.9666666666666845,
       7.9000000000000075,
-      7.666666666666675
+      7.666666666666675,
+      7.1333333333333435,
+      7.866666666666674,
+      1.7000000000000275
     ]
   },
   "Brest, Belarus": {
-    "mean_dist": 113.78020362129342,
-    "mean_time": 7.177777777777788,
-    "std_dist": 60.90179349853036,
-    "std_time": 0.5717635702341582,
+    "mean_dist": 163.1937949338598,
+    "mean_time": 7.08000000000001,
+    "std_dist": 78.85004718478633,
+    "std_time": 0.4607240678178916,
     "admin": "Brestskaya Voblasts\u2019",
     "country": "Belarus",
     "city": "Brest",
     "regions": [
       "England",
       "England",
-      "Stockholm"
+      "Stockholm",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "United Kingdom",
       "United Kingdom",
-      "Sweden"
+      "Sweden",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       197.63213396056724,
       54.81947955140697,
-      88.88899735190604
+      88.88899735190604,
+      266.00905777944234,
+      208.61930602597644
     ],
     "times": [
       7.866666666666674,
       7.20000000000001,
-      6.466666666666679
+      6.466666666666679,
+      6.866666666666678,
+      7.000000000000011
     ]
   },
   "Armavir, Russia": {
@@ -15014,10 +15283,10 @@
     ]
   },
   "Burgos, Spain": {
-    "mean_dist": 314.1151770102129,
-    "mean_time": 7.366666666666676,
-    "std_dist": 142.58109057866392,
-    "std_time": 0.9321420969406343,
+    "mean_dist": 642.7241833178001,
+    "mean_time": 7.606060606060614,
+    "std_dist": 1048.00764946968,
+    "std_time": 1.1674731569010361,
     "admin": "Castille-Leon",
     "country": "Spain",
     "city": "Burgos",
@@ -15031,7 +15300,8 @@
       "California",
       "British Columbia",
       "Stockholm",
-      "Andalusia"
+      "Andalusia",
+      "Stockholm"
     ],
     "countries": [
       "United States",
@@ -15043,7 +15313,8 @@
       "United States",
       "Canada",
       "Sweden",
-      "Spain"
+      "Spain",
+      "Sweden"
     ],
     "dists": [
       292.2588016971282,
@@ -15055,7 +15326,8 @@
       192.0921415833083,
       207.9794691817974,
       494.40056956487825,
-      164.15903597923403
+      164.15903597923403,
+      3928.8142463936724
     ],
     "times": [
       7.933333333333341,
@@ -15067,7 +15339,8 @@
       7.233333333333343,
       5.23333333333335,
       6.500000000000012,
-      8.03333333333334
+      8.03333333333334,
+      10
     ]
   },
   "Makhachkala, Dagestan, Russia": {
@@ -15230,10 +15503,10 @@
     ]
   },
   "Opole, Poland": {
-    "mean_dist": 241.6536767696448,
-    "mean_time": 6.027777777777792,
-    "std_dist": 124.60325866491043,
-    "std_time": 1.8900731581634218,
+    "mean_dist": 209.8871700876062,
+    "mean_time": 6.383333333333346,
+    "std_dist": 123.64798333425134,
+    "std_time": 1.752220813076296,
     "admin": "Opolskie",
     "country": "Poland",
     "city": "Opole",
@@ -15243,7 +15516,9 @@
       "\u00cele-de-France",
       "Stockholm",
       "Stockholm",
-      "South Holland"
+      "South Holland",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Canada",
@@ -15251,7 +15526,9 @@
       "France",
       "Sweden",
       "Sweden",
-      "Netherlands"
+      "Netherlands",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       92.9677803610151,
@@ -15259,7 +15536,9 @@
       433.2301657106246,
       246.79910253340498,
       81.9666881625028,
-      261.5110775218244
+      261.5110775218244,
+      64.90820198290758,
+      164.26709810007338
     ],
     "times": [
       4.433333333333353,
@@ -15267,14 +15546,16 @@
       7.9000000000000075,
       3.1333333333333577,
       7.933333333333341,
-      7.633333333333342
+      7.633333333333342,
+      7.666666666666675,
+      7.233333333333343
     ]
   },
   "Thessalon\u00edki, Greece": {
-    "mean_dist": 227.73976888685917,
-    "mean_time": 6.676666666666678,
-    "std_dist": 172.93536441554804,
-    "std_time": 1.216283044543676,
+    "mean_dist": 214.0322815412146,
+    "mean_time": 6.263888888888903,
+    "std_dist": 160.87349567332433,
+    "std_time": 1.4441105383292392,
     "admin": "Kentrik\u00ed Makedon\u00eda",
     "country": "Greece",
     "city": "Thessalon\u00edki",
@@ -15288,7 +15569,9 @@
       "\u00cele-de-France",
       "Zurich",
       "New South Wales",
-      "Missouri"
+      "Missouri",
+      "Hamburg",
+      "\u00cele-de-France"
     ],
     "countries": [
       "Canada",
@@ -15300,7 +15583,9 @@
       "France",
       "Switzerland",
       "Australia",
-      "United States"
+      "United States",
+      "Germany",
+      "France"
     ],
     "dists": [
       363.66244258687044,
@@ -15312,7 +15597,9 @@
       54.88842441411143,
       249.22451961371436,
       69.08975884933722,
-      102.6216569964703
+      102.6216569964703,
+      134.929237716925,
+      156.06045190905863
     ],
     "times": [
       4.866666666666685,
@@ -15324,7 +15611,9 @@
       7.533333333333342,
       5.2666666666666835,
       8.266666666666673,
-      6.766666666666678
+      6.766666666666678,
+      4.266666666666687,
+      4.133333333333354
     ]
   },
   "Venice, Italy": {
@@ -15381,12 +15670,13 @@
     ]
   },
   "Copenhagen, Denmark": {
-    "mean_dist": 167.15693812317542,
-    "mean_time": 6.738095238095249,
-    "std_dist": 254.9642500539845,
-    "std_time": 1.1211429218646287,
+    "mean_dist": 164.99442240287013,
+    "mean_time": 6.703703703703715,
+    "std_dist": 228.10281178738086,
+    "std_time": 1.1219960657095707,
     "admin": "Hovedstaden",
     "country": "Denmark",
+    "city": "Copenhagen",
     "regions": [
       "Ontario",
       "Sk\u00e5ne",
@@ -15394,7 +15684,9 @@
       "England",
       "England",
       "England",
-      "England"
+      "England",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Canada",
@@ -15403,7 +15695,9 @@
       "United Kingdom",
       "United Kingdom",
       "United Kingdom",
-      "United Kingdom"
+      "United Kingdom",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       48.35088822249665,
@@ -15412,7 +15706,9 @@
       146.3981906848204,
       42.77350091679204,
       3.014744711152072,
-      138.4094611242096
+      138.4094611242096,
+      76.5450136190005,
+      238.3062211446028
     ],
     "times": [
       6.36666666666668,
@@ -15421,7 +15717,9 @@
       7.266666666666676,
       8.000000000000007,
       7.933333333333341,
-      7.266666666666676
+      7.266666666666676,
+      7.700000000000008,
+      5.466666666666683
     ]
   },
   "Chernivtsi, Ukraine": {
@@ -15494,10 +15792,10 @@
     ]
   },
   "Ko\u0161ice, Slovakia": {
-    "mean_dist": 106.59843618879412,
-    "mean_time": 4.693333333333352,
-    "std_dist": 63.13004141540493,
-    "std_time": 1.0694546897056112,
+    "mean_dist": 133.43664334587478,
+    "mean_time": 4.8000000000000185,
+    "std_dist": 66.0621998650026,
+    "std_time": 1.5848238598237498,
     "admin": "Ko\u0161ick\u00fd",
     "country": "Slovakia",
     "city": "Ko\u0161ice",
@@ -15506,28 +15804,40 @@
       "England",
       "England",
       "Bavaria",
-      "Harjumaa"
+      "Harjumaa",
+      "Capital Region",
+      "Capital Region",
+      "Hamburg"
     ],
     "countries": [
       "Canada",
       "United Kingdom",
       "United Kingdom",
       "Germany",
-      "Estonia"
+      "Estonia",
+      "Iceland",
+      "Iceland",
+      "Germany"
     ],
     "dists": [
       187.14798536920262,
       32.09524859698125,
       100.57149493971046,
       169.24545591156885,
-      43.93199612650742
+      43.93199612650742,
+      125.9723321273683,
+      229.72430443695708,
+      178.80432925870224
     ],
     "times": [
       4.166666666666687,
       5.533333333333349,
       5.666666666666682,
       2.833333333333359,
-      5.2666666666666835
+      5.2666666666666835,
+      5.000000000000018,
+      7.633333333333342,
+      2.3000000000000274
     ]
   },
   "Kislovodsk, Stavropol\u2019skiy Kray, Russia": {
@@ -15672,10 +15982,10 @@
     ]
   },
   "Siirt, Turkey": {
-    "mean_dist": 764.1537975158886,
-    "mean_time": 7.50000000000001,
-    "std_dist": 295.7546025006103,
-    "std_time": 0.5470459388929391,
+    "mean_dist": 702.8844091014467,
+    "mean_time": 7.466666666666676,
+    "std_dist": 298.61547871217374,
+    "std_time": 0.48189440982669696,
     "admin": "Siirt",
     "country": "Turkey",
     "city": "Siirt",
@@ -15685,7 +15995,9 @@
       "New South Wales",
       "Stockholm",
       "Stockholm",
-      "Harjumaa"
+      "Harjumaa",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Canada",
@@ -15693,7 +16005,9 @@
       "Australia",
       "Sweden",
       "Sweden",
-      "Estonia"
+      "Estonia",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       561.4485487885277,
@@ -15701,7 +16015,9 @@
       1026.9361695845382,
       1177.825057175894,
       805.5434894215232,
-      740.2084753568793
+      740.2084753568793,
+      740.9437861552401,
+      297.20870156100216
     ],
     "times": [
       6.633333333333345,
@@ -15709,7 +16025,9 @@
       8.300000000000006,
       7.333333333333343,
       7.333333333333343,
-      7.333333333333343
+      7.333333333333343,
+      7.500000000000009,
+      7.233333333333343
     ]
   },
   "Plze\u0148, Czechia": {
@@ -15774,32 +16092,40 @@
     ]
   },
   "Perugia, Italy": {
-    "mean_dist": 259.38867115890025,
-    "mean_time": 7.066666666666677,
-    "std_dist": 101.16144687524563,
-    "std_time": 1.0917196764059185,
+    "mean_dist": 266.4733301013916,
+    "mean_time": 6.866666666666677,
+    "std_dist": 115.61278058008031,
+    "std_time": 0.9672412085697905,
     "admin": "Umbria",
     "country": "Italy",
     "city": "Perugia",
     "regions": [
       "Ontario",
       "Stockholm",
-      "South Holland"
+      "South Holland",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Canada",
       "Sweden",
-      "Netherlands"
+      "Netherlands",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       400.5200540901164,
       209.11847339956938,
-      168.52748598701493
+      168.52748598701493,
+      143.39501341633334,
+      410.80562361392396
     ],
     "times": [
       7.500000000000009,
       5.566666666666682,
-      8.13333333333334
+      8.13333333333334,
+      5.933333333333348,
+      7.20000000000001
     ]
   },
   "Serpukhov, Moskovskaya Oblast\u2019, Russia": {
@@ -15836,10 +16162,10 @@
     ]
   },
   "Limoges, France": {
-    "mean_dist": 219.58918559309322,
-    "mean_time": 7.680000000000009,
-    "std_dist": 72.50383877366167,
-    "std_time": 0.8950729330929127,
+    "mean_dist": 258.79329179716257,
+    "mean_time": 7.3571428571428665,
+    "std_dist": 105.15563539428975,
+    "std_time": 0.917850194526226,
     "admin": "Nouvelle-Aquitaine",
     "country": "France",
     "city": "Limoges",
@@ -15848,35 +16174,43 @@
       "California",
       "England",
       "New York",
-      "Ontario"
+      "Ontario",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Canada",
       "United States",
       "United Kingdom",
       "United States",
-      "Canada"
+      "Canada",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       220.66383897762583,
       354.9691938317054,
       204.2445773700517,
       145.14437568387174,
-      172.9239421022115
+      172.9239421022115,
+      246.7511007363832,
+      466.8560138782887
     ],
     "times": [
       6.466666666666679,
       8.566666666666672,
       6.800000000000011,
       7.933333333333341,
-      8.633333333333338
+      8.633333333333338,
+      6.733333333333345,
+      6.36666666666668
     ]
   },
   "Khmel\u2019nyts\u2019kyy, Ukraine": {
-    "mean_dist": 333.7349096373064,
-    "mean_time": 6.413333333333346,
-    "std_dist": 155.77711690898582,
-    "std_time": 1.7591791014877052,
+    "mean_dist": 344.1996685104835,
+    "mean_time": 5.9818181818181975,
+    "std_dist": 152.1695618634536,
+    "std_time": 2.1622735713237464,
     "admin": "Khmel\u2019nyts\u2019ka Oblast\u2019",
     "country": "Ukraine",
     "city": "Khmel\u2019nyts\u2019kyy",
@@ -15890,7 +16224,8 @@
       "Michigan",
       "Michigan",
       "Stockholm",
-      "Stockholm"
+      "Stockholm",
+      "\u00cele-de-France"
     ],
     "countries": [
       "Canada",
@@ -15902,7 +16237,8 @@
       "United States",
       "United States",
       "Sweden",
-      "Sweden"
+      "Sweden",
+      "France"
     ],
     "dists": [
       279.1929223634621,
@@ -15914,7 +16250,8 @@
       555.1920366316108,
       630.6518484008333,
       495.79646415851164,
-      273.5045178716656
+      273.5045178716656,
+      448.84725724225484
     ],
     "times": [
       5.700000000000015,
@@ -15926,35 +16263,41 @@
       1.900000000000028,
       5.166666666666684,
       6.766666666666678,
-      6.6666666666666785
+      6.6666666666666785,
+      1.666666666666694
     ]
   },
   "Lublin, Poland": {
-    "mean_dist": 183.79300873624393,
-    "mean_time": 4.044444444444466,
-    "std_dist": 88.0184997632642,
-    "std_time": 0.6756798131338098,
+    "mean_dist": 252.40279056319721,
+    "mean_time": 4.725000000000019,
+    "std_dist": 141.18197021028638,
+    "std_time": 1.316007218825181,
     "admin": "Lubelskie",
     "country": "Poland",
+    "city": "Lublin",
     "regions": [
       "Ontario",
       "Michigan",
-      "Michigan"
+      "Michigan",
+      "\u00cele-de-France"
     ],
     "countries": [
       "Canada",
       "United States",
-      "United States"
+      "United States",
+      "France"
     ],
     "dists": [
       150.3059132877466,
       304.36259018846005,
-      96.71052273252515
+      96.71052273252515,
+      458.23213604405703
     ],
     "times": [
       4.9666666666666845,
       3.800000000000022,
-      3.3666666666666902
+      3.3666666666666902,
+      6.766666666666678
     ]
   },
   "Sochi, Krasnodarskiy Kray, Russia": {
@@ -16627,10 +16970,10 @@
     ]
   },
   "Ia\u015fi, Romania": {
-    "mean_dist": 310.1761804806629,
-    "mean_time": 6.616666666666679,
-    "std_dist": 82.57416854157594,
-    "std_time": 1.0660154261964883,
+    "mean_dist": 293.21168301828095,
+    "mean_time": 5.586666666666682,
+    "std_dist": 81.27712682465292,
+    "std_time": 2.2699583941365713,
     "admin": "Ia\u015fi",
     "country": "Romania",
     "city": "Ia\u015fi",
@@ -16638,25 +16981,29 @@
       "England",
       "Zurich",
       "New South Wales",
-      "Stockholm"
+      "Stockholm",
+      "Hamburg"
     ],
     "countries": [
       "United Kingdom",
       "Switzerland",
       "Australia",
-      "Sweden"
+      "Sweden",
+      "Germany"
     ],
     "dists": [
       220.15834991071648,
       346.94571815002365,
       246.2435100368672,
-      427.35714382504426
+      427.35714382504426,
+      225.35369316875344
     ],
     "times": [
       7.066666666666677,
       4.8000000000000185,
       7.533333333333342,
-      7.066666666666677
+      7.066666666666677,
+      1.4666666666666934
     ]
   },
   "Erfurt, Germany": {
@@ -16797,10 +17144,10 @@
     ]
   },
   "Salzburg, Austria": {
-    "mean_dist": 139.4028301250993,
-    "mean_time": 5.841666666666682,
-    "std_dist": 104.4269820557226,
-    "std_time": 1.7446279981279202,
+    "mean_dist": 156.83229208412237,
+    "mean_time": 5.864102564102579,
+    "std_dist": 117.09646695958902,
+    "std_time": 1.677985235637981,
     "admin": "Salzburg",
     "country": "Austria",
     "city": "Salzburg",
@@ -16816,7 +17163,8 @@
       "England",
       "Bavaria",
       "California",
-      "Stockholm"
+      "Stockholm",
+      "Massachusetts"
     ],
     "countries": [
       "United States",
@@ -16830,7 +17178,8 @@
       "United Kingdom",
       "Germany",
       "United States",
-      "Sweden"
+      "Sweden",
+      "United States"
     ],
     "dists": [
       383.84503831276123,
@@ -16844,7 +17193,8 @@
       22.96984247125675,
       55.98188583087998,
       288.6972273441978,
-      177.26070701633049
+      177.26070701633049,
+      365.9858355923994
     ],
     "times": [
       3.7000000000000224,
@@ -16858,23 +17208,27 @@
       7.333333333333343,
       5.166666666666684,
       1.2333333333333594,
-      5.466666666666683
+      5.466666666666683,
+      6.133333333333347
     ]
   },
   "Shkod\u00ebr, Albania": {
-    "mean_dist": 123.93018325884128,
-    "mean_time": 6.488888888888901,
-    "std_dist": 36.85301750626549,
-    "std_time": 1.1469228826583864,
+    "mean_dist": 141.70427520179632,
+    "mean_time": 6.420833333333346,
+    "std_dist": 55.269320670127115,
+    "std_time": 1.2452060851298605,
     "admin": "Shkod\u00ebr",
     "country": "Albania",
+    "city": "Shkod\u00ebr",
     "regions": [
       "Idaho",
       "Capital Region",
       "England",
       "England",
       "England",
-      "England"
+      "England",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "United States",
@@ -16882,7 +17236,9 @@
       "United Kingdom",
       "United Kingdom",
       "United Kingdom",
-      "United Kingdom"
+      "United Kingdom",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       161.82393761658219,
@@ -16890,7 +17246,9 @@
       76.91736255173078,
       132.10717959683487,
       145.94128287511265,
-      70.2133590805394
+      70.2133590805394,
+      129.04673291452391,
+      261.00636914679905
     ],
     "times": [
       5.533333333333349,
@@ -16898,7 +17256,9 @@
       7.733333333333341,
       7.20000000000001,
       7.9000000000000075,
-      5.400000000000016
+      5.400000000000016,
+      4.733333333333352,
+      7.700000000000008
     ]
   },
   "Odesa, Ukraine": {
@@ -16989,6 +17349,7 @@
     "std_time": 0,
     "admin": "Auvergne-Rh\u00f4ne-Alpes",
     "country": "France",
+    "city": "Annecy",
     "regions": [
       "Idaho"
     ],
@@ -17114,10 +17475,10 @@
     ]
   },
   "Nevinnomyssk, Stavropol\u2019skiy Kray, Russia": {
-    "mean_dist": 1061.3706252236432,
-    "mean_time": 6.257142857142871,
-    "std_dist": 993.1607543788405,
-    "std_time": 1.3173704310510759,
+    "mean_dist": 959.9162012031001,
+    "mean_time": 6.122222222222237,
+    "std_dist": 924.4761418403981,
+    "std_time": 1.1895636714337958,
     "admin": "Stavropol\u2019skiy Kray",
     "country": "Russia",
     "city": "Nevinnomyssk",
@@ -17128,7 +17489,9 @@
       "New South Wales",
       "England",
       "England",
-      "Stockholm"
+      "Stockholm",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "United States",
@@ -17137,7 +17500,9 @@
       "Australia",
       "United Kingdom",
       "United Kingdom",
-      "Sweden"
+      "Sweden",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       1175.7607747878217,
@@ -17146,7 +17511,9 @@
       934.5828773573066,
       629.86000515471,
       364.8513220046045,
-      300.7741751966534
+      300.7741751966534,
+      1086.0209677261748,
+      123.63046653622288
     ],
     "times": [
       5.933333333333348,
@@ -17155,7 +17522,9 @@
       7.933333333333341,
       6.066666666666681,
       8.166666666666673,
-      4.866666666666685
+      4.866666666666685,
+      5.7333333333333485,
+      5.566666666666682
     ]
   },
   "Ayd\u0131n, Turkey": {
@@ -17514,24 +17883,27 @@
     ]
   },
   "Buz\u0103u, Romania": {
-    "mean_dist": 131.5119823898145,
-    "mean_time": 7.22000000000001,
-    "std_dist": 86.27706799721696,
-    "std_time": 0.7151068296260176,
+    "mean_dist": 350.2084912521263,
+    "mean_time": 6.800000000000011,
+    "std_dist": 495.32204203727866,
+    "std_time": 1.1437430428851312,
     "admin": "Buz\u0103u",
     "country": "Romania",
+    "city": "Buz\u0103u",
     "regions": [
       "\u00cele-de-France",
       "England",
       "England",
       "Tokyo",
-      "Florida"
+      "Florida",
+      "Massachusetts"
     ],
     "countries": [
       "France",
       "United Kingdom",
       "United Kingdom",
       "Japan",
+      "United States",
       "United States"
     ],
     "dists": [
@@ -17539,14 +17911,16 @@
       106.72648160412045,
       290.5996462277902,
       46.37511424707264,
-      69.2560217847921
+      69.2560217847921,
+      1443.691035563685
     ],
     "times": [
       6.100000000000014,
       7.466666666666676,
       7.9000000000000075,
       6.700000000000012,
-      7.933333333333341
+      7.933333333333341,
+      4.700000000000019
     ]
   },
   "Cherepovets, Vologodskaya Oblast\u2019, Russia": {
@@ -17688,10 +18062,10 @@
     ]
   },
   "Tekirda\u011f, Turkey": {
-    "mean_dist": 353.3526092705389,
-    "mean_time": 6.508333333333346,
-    "std_dist": 133.72270248356193,
-    "std_time": 0.8926785535678532,
+    "mean_dist": 294.53616985404744,
+    "mean_time": 5.793333333333349,
+    "std_dist": 167.75846658258723,
+    "std_time": 1.6378034070058534,
     "admin": "Tekirda\u011f",
     "country": "Turkey",
     "city": "Tekirda\u011f",
@@ -17699,25 +18073,29 @@
       "\u00cele-de-France",
       "England",
       "Stockholm",
-      "Stockholm"
+      "Stockholm",
+      "Hamburg"
     ],
     "countries": [
       "France",
       "United Kingdom",
       "Sweden",
-      "Sweden"
+      "Sweden",
+      "Germany"
     ],
     "dists": [
       457.4825134038884,
       138.2699963585889,
       473.12603020848564,
-      344.5318971111926
+      344.5318971111926,
+      59.27041218808145
     ],
     "times": [
       5.566666666666682,
       7.4333333333333425,
       7.366666666666676,
-      5.666666666666682
+      5.666666666666682,
+      2.9333333333333584
     ]
   },
   "Gy\u0151r, Hungary": {
@@ -17968,38 +18346,47 @@
     ]
   },
   "\u2019s-Hertogenbosch, Netherlands": {
-    "mean_dist": 41.202658281087906,
-    "mean_time": 7.433333333333342,
-    "std_dist": 6.761725998649954,
-    "std_time": 0.7586537784494001,
+    "mean_dist": 219.80458171621513,
+    "mean_time": 6.426666666666679,
+    "std_dist": 343.26189801911823,
+    "std_time": 1.7579533554676523,
     "admin": "Noord-Brabant",
     "country": "Netherlands",
+    "city": "\u2019s-Hertogenbosch",
     "regions": [
       "\u00cele-de-France",
       "California",
-      "Tokyo"
+      "Tokyo",
+      "Hamburg",
+      "Vienna"
     ],
     "countries": [
       "France",
       "United States",
-      "Japan"
+      "Japan",
+      "Germany",
+      "Austria"
     ],
     "dists": [
       48.82749683283829,
       32.392460947311996,
-      42.388017063113445
+      42.388017063113445,
+      69.51693766448798,
+      905.897996073324
     ],
     "times": [
       6.800000000000011,
       8.500000000000005,
-      7.000000000000011
+      7.000000000000011,
+      3.166666666666691,
+      6.6666666666666785
     ]
   },
   "Shakhty, Rostovskaya Oblast\u2019, Russia": {
-    "mean_dist": 726.1828189083382,
-    "mean_time": 5.983333333333347,
-    "std_dist": 416.48038739360413,
-    "std_time": 0.5325515102890134,
+    "mean_dist": 640.0003710589624,
+    "mean_time": 6.388888888888901,
+    "std_dist": 362.15722574626557,
+    "std_time": 0.7619824695822163,
     "admin": "Rostovskaya Oblast\u2019",
     "country": "Russia",
     "city": "Shakhty",
@@ -18007,25 +18394,33 @@
       "\u00cele-de-France",
       "England",
       "North Holland",
-      "Stockholm"
+      "Stockholm",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "France",
       "United Kingdom",
       "Netherlands",
-      "Sweden"
+      "Sweden",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       788.3098023601838,
       1064.3683207067502,
       1023.7561282042391,
-      28.29702436217984
+      28.29702436217984,
+      512.3261501121015,
+      422.9448006083203
     ],
     "times": [
       5.400000000000016,
       5.600000000000016,
       6.766666666666678,
-      6.16666666666668
+      6.16666666666668,
+      6.766666666666678,
+      7.633333333333342
     ]
   },
   "Bra\u015fov, Romania": {
@@ -18113,10 +18508,10 @@
     ]
   },
   "Pleven, Bulgaria": {
-    "mean_dist": 352.2687907038343,
-    "mean_time": 5.500000000000015,
-    "std_dist": 430.0810432522327,
-    "std_time": 1.9304576314093609,
+    "mean_dist": 587.5654659610447,
+    "mean_time": 5.8888888888889035,
+    "std_dist": 633.1474752869126,
+    "std_time": 2.2047647616743498,
     "admin": "Pleven",
     "country": "Bulgaria",
     "city": "Pleven",
@@ -18126,7 +18521,10 @@
       "Stockholm",
       "Stockholm",
       "Stockholm",
-      "England"
+      "England",
+      "Capital Region",
+      "Capital Region",
+      "Stockholm"
     ],
     "countries": [
       "France",
@@ -18134,7 +18532,10 @@
       "Sweden",
       "Sweden",
       "Sweden",
-      "United Kingdom"
+      "United Kingdom",
+      "Iceland",
+      "Iceland",
+      "Sweden"
     ],
     "dists": [
       160.35190738740462,
@@ -18142,7 +18543,10 @@
       213.93497180374376,
       168.34860614243487,
       153.69300404207422,
-      1311.380461798176
+      1311.380461798176,
+      853.8968872487145,
+      312.0806541616269,
+      2008.4989080160544
     ],
     "times": [
       7.20000000000001,
@@ -18150,14 +18554,17 @@
       2.53333333333336,
       3.2333333333333574,
       6.000000000000014,
-      6.433333333333346
+      6.433333333333346,
+      6.000000000000014,
+      4.000000000000021,
+      10
     ]
   },
   "Vitoria-Gasteiz, Spain": {
-    "mean_dist": 307.46937263900594,
-    "mean_time": 7.066666666666677,
-    "std_dist": 71.69113287240546,
-    "std_time": 0.7662317607037096,
+    "mean_dist": 351.9558013011274,
+    "mean_time": 6.842857142857154,
+    "std_dist": 104.68028426082479,
+    "std_time": 0.885816686348848,
     "admin": "Basque Country",
     "country": "Spain",
     "city": "Vitoria-Gasteiz",
@@ -18166,28 +18573,36 @@
       "England",
       "\u00cele-de-France",
       "England",
-      "Missouri"
+      "Missouri",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "France",
       "United Kingdom",
       "France",
       "United Kingdom",
-      "United States"
+      "United States",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       189.83147438215659,
       351.2672151478135,
       316.1742680847524,
       402.26273839951773,
-      277.8111671807894
+      277.8111671807894,
+      372.688725731603,
+      553.6550201812588
     ],
     "times": [
       6.066666666666681,
       6.36666666666668,
       7.066666666666677,
       7.933333333333341,
-      7.9000000000000075
+      7.9000000000000075,
+      5.366666666666683,
+      7.20000000000001
     ]
   },
   "Taranto, Italy": {
@@ -18434,31 +18849,48 @@
     ]
   },
   "Suceava, Romania": {
-    "mean_dist": 370.3571658961842,
-    "mean_time": 6.600000000000012,
-    "std_dist": 18.858674240489446,
-    "std_time": 0.7845734863959851,
+    "mean_dist": 404.73999412630286,
+    "mean_time": 6.0523809523809655,
+    "std_dist": 210.3517982193694,
+    "std_time": 1.0984631605988135,
     "admin": "Suceava",
     "country": "Romania",
+    "city": "Suceava",
     "regions": [
       "\u00cele-de-France",
       "Stockholm",
-      "England"
+      "England",
+      "Capital Region",
+      "Capital Region",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "France",
       "Sweden",
-      "United Kingdom"
+      "United Kingdom",
+      "Iceland",
+      "Iceland",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       366.6394203177945,
       349.3444806487231,
-      395.0875967220351
+      395.0875967220351,
+      256.84124592435796,
+      631.0982632084337,
+      76.71350964570054,
+      757.4554424170751
     ],
     "times": [
       6.433333333333346,
       5.7333333333333485,
-      7.633333333333342
+      7.633333333333342,
+      4.133333333333354,
+      6.600000000000012,
+      6.833333333333345,
+      5.000000000000018
     ]
   },
   "Stavropol\u2019, Stavropol\u2019skiy Kray, Russia": {
@@ -18604,10 +19036,10 @@
     ]
   },
   "Olomouc, Czechia": {
-    "mean_dist": 153.32283392026926,
-    "mean_time": 5.496666666666681,
-    "std_dist": 214.47502638288205,
-    "std_time": 2.504061145863293,
+    "mean_dist": 205.3041948230871,
+    "mean_time": 5.438888888888904,
+    "std_dist": 250.03414951775318,
+    "std_time": 2.3648206154399634,
     "admin": "Olomouck\u00fd Kraj",
     "country": "Czechia",
     "city": "Olomouc",
@@ -18621,7 +19053,9 @@
       "England",
       "Michigan",
       "Stockholm",
-      "Harjumaa"
+      "Harjumaa",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "France",
@@ -18633,7 +19067,9 @@
       "United Kingdom",
       "United States",
       "Sweden",
-      "Estonia"
+      "Estonia",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       67.962828364842,
@@ -18645,7 +19081,9 @@
       39.42747480343962,
       16.13891143758325,
       232.6514416820704,
-      73.88215004874566
+      73.88215004874566,
+      212.14398370408927,
+      718.2780149702635
     ],
     "times": [
       5.966666666666681,
@@ -18657,43 +19095,50 @@
       7.866666666666674,
       0.766666666666692,
       6.600000000000012,
-      7.666666666666675
+      7.666666666666675,
+      3.7000000000000224,
+      6.600000000000012
     ]
   },
   "Innsbruck, Austria": {
-    "mean_dist": 127.7716786653863,
-    "mean_time": 6.5800000000000125,
-    "std_dist": 112.79385026595182,
-    "std_time": 1.7800873886163815,
+    "mean_dist": 486.3412183499326,
+    "mean_time": 7.15000000000001,
+    "std_dist": 808.3703469508589,
+    "std_time": 2.0652100601615717,
     "admin": "Tirol",
     "country": "Austria",
+    "city": "Innsbruck",
     "regions": [
       "\u00cele-de-France",
       "England",
       "Scotland",
       "\u00cele-de-France",
-      "Florida"
+      "Florida",
+      "Vienna"
     ],
     "countries": [
       "France",
       "United Kingdom",
       "United Kingdom",
       "France",
-      "United States"
+      "United States",
+      "Austria"
     ],
     "dists": [
       87.79390214657961,
       120.68004977407816,
       344.6223226525632,
       26.652794076211798,
-      59.10932467749873
+      59.10932467749873,
+      2279.188916772664
     ],
     "times": [
       7.633333333333342,
       7.500000000000009,
       3.1000000000000245,
       7.9000000000000075,
-      6.766666666666678
+      6.766666666666678,
+      10
     ]
   },
   "Vologda, Vologodskaya Oblast\u2019, Russia": {
@@ -18994,10 +19439,10 @@
     ]
   },
   "Stavanger, Norway": {
-    "mean_dist": 494.0925454834185,
-    "mean_time": 6.226666666666679,
-    "std_dist": 229.69357685360737,
-    "std_time": 0.9560102277463087,
+    "mean_dist": 444.4350666152374,
+    "mean_time": 5.661111111111126,
+    "std_dist": 237.26625426067082,
+    "std_time": 1.5365204397366077,
     "admin": "Rogaland",
     "country": "Norway",
     "city": "Stavanger",
@@ -19006,28 +19451,32 @@
       "England",
       "Florida",
       "Stockholm",
-      "Mazovia"
+      "Mazovia",
+      "\u00cele-de-France"
     ],
     "countries": [
       "United Kingdom",
       "United Kingdom",
       "United States",
       "Sweden",
-      "Poland"
+      "Poland",
+      "France"
     ],
     "dists": [
       532.6330340933089,
       697.0942014286212,
       275.12115281091866,
       188.78551691171617,
-      776.8288221725272
+      776.8288221725272,
+      196.14767227433188
     ],
     "times": [
       7.400000000000009,
       7.033333333333344,
       4.900000000000018,
       5.366666666666683,
-      6.433333333333346
+      6.433333333333346,
+      2.833333333333359
     ]
   },
   "Kocaeli, Turkey": {
@@ -19322,19 +19771,21 @@
     ]
   },
   "Daugavpils, Latvia": {
-    "mean_dist": 215.42674750066223,
-    "mean_time": 6.800000000000011,
-    "std_dist": 58.00989028040472,
-    "std_time": 1.2402210077837486,
+    "mean_dist": 204.25642325208835,
+    "mean_time": 6.7047619047619165,
+    "std_dist": 60.27494416947726,
+    "std_time": 1.171680189778837,
     "admin": "Daugavpils Novads",
     "country": "Latvia",
+    "city": "Daugavpils",
     "regions": [
       "Lisbon",
       "Ontario",
       "Mazovia",
       "England",
       "Stockholm",
-      "New South Wales"
+      "New South Wales",
+      "\u00cele-de-France"
     ],
     "countries": [
       "Portugal",
@@ -19342,7 +19793,8 @@
       "Poland",
       "United Kingdom",
       "Sweden",
-      "Australia"
+      "Australia",
+      "France"
     ],
     "dists": [
       154.38153353305358,
@@ -19350,7 +19802,8 @@
       270.1024824355776,
       159.3244131709722,
       309.0915888989928,
-      176.72338219781116
+      176.72338219781116,
+      137.2344777606452
     ],
     "times": [
       5.2666666666666835,
@@ -19358,7 +19811,8 @@
       8.13333333333334,
       7.700000000000008,
       6.000000000000014,
-      8.200000000000006
+      8.200000000000006,
+      6.133333333333347
     ]
   },
   "Zenica, Bosnia And Herzegovina": {
@@ -19609,12 +20063,13 @@
     ]
   },
   "Bizerte, Tunisia": {
-    "mean_dist": 1314.4876101547673,
-    "mean_time": 5.16190476190478,
-    "std_dist": 1088.7723040231476,
-    "std_time": 1.7038172429221663,
+    "mean_dist": 1162.0726978032258,
+    "mean_time": 4.841666666666686,
+    "std_dist": 1095.3808138299603,
+    "std_time": 1.8049892274224488,
     "admin": "Bizerte",
     "country": "Tunisia",
+    "city": "Bizerte",
     "regions": [
       "Lisbon",
       "Capital Region",
@@ -19622,7 +20077,8 @@
       "England",
       "England",
       "Attica",
-      "England"
+      "England",
+      "\u00cele-de-France"
     ],
     "countries": [
       "Portugal",
@@ -19631,7 +20087,8 @@
       "United Kingdom",
       "United Kingdom",
       "Greece",
-      "United Kingdom"
+      "United Kingdom",
+      "France"
     ],
     "dists": [
       2836.5416756918657,
@@ -19640,7 +20097,8 @@
       2383.6581108734613,
       167.39219949013312,
       1642.276176187801,
-      150.51936956574517
+      150.51936956574517,
+      95.1683113424349
     ],
     "times": [
       6.500000000000012,
@@ -19649,7 +20107,8 @@
       6.833333333333345,
       5.966666666666681,
       3.300000000000024,
-      5.566666666666682
+      5.566666666666682,
+      2.6000000000000263
     ]
   },
   "Miskolc, Hungary": {
@@ -19706,31 +20165,36 @@
     ]
   },
   "Saint-\u00c9tienne, France": {
-    "mean_dist": 137.3925661952508,
-    "mean_time": 7.588888888888898,
-    "std_dist": 30.27743865912369,
-    "std_time": 0.3937787810370953,
+    "mean_dist": 172.5861879541133,
+    "mean_time": 6.941666666666678,
+    "std_dist": 66.35748267027158,
+    "std_time": 1.1717449001856595,
     "admin": "Auvergne-Rh\u00f4ne-Alpes",
     "country": "France",
+    "city": "Saint-\u00c9tienne",
     "regions": [
       "Lisbon",
       "England",
-      "Stockholm"
+      "Stockholm",
+      "Massachusetts"
     ],
     "countries": [
       "Portugal",
       "United Kingdom",
-      "Sweden"
+      "Sweden",
+      "United States"
     ],
     "dists": [
       137.68160283520626,
       174.32934074649143,
-      100.16675500405472
+      100.16675500405472,
+      278.1670532307009
     ],
     "times": [
       7.9000000000000075,
       7.833333333333341,
-      7.033333333333344
+      7.033333333333344,
+      5.000000000000018
     ]
   },
   "Valladolid, Spain": {
@@ -19763,10 +20227,10 @@
     ]
   },
   "Mykolayiv, Ukraine": {
-    "mean_dist": 428.8207526230265,
-    "mean_time": 7.211111111111122,
-    "std_dist": 161.048136566064,
-    "std_time": 1.2831769986547186,
+    "mean_dist": 426.308354328863,
+    "mean_time": 7.312500000000011,
+    "std_dist": 139.81228424623805,
+    "std_time": 1.1473323527983372,
     "admin": "Mykolayivs\u2019ka Oblast\u2019",
     "country": "Ukraine",
     "city": "Mykolayiv",
@@ -19776,7 +20240,9 @@
       "California",
       "California",
       "Mazovia",
-      "Stockholm"
+      "Stockholm",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Portugal",
@@ -19784,7 +20250,9 @@
       "United States",
       "United States",
       "Poland",
-      "Sweden"
+      "Sweden",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       531.6699311691067,
@@ -19792,7 +20260,9 @@
       249.13245940702734,
       281.8496907940628,
       286.3084923072291,
-      655.265202711664
+      655.265202711664,
+      436.2252904226338,
+      401.3170284701109
     ],
     "times": [
       5.766666666666682,
@@ -19800,7 +20270,9 @@
       8.466666666666672,
       7.800000000000008,
       8.700000000000005,
-      5.300000000000017
+      5.300000000000017,
+      7.166666666666677,
+      8.066666666666674
     ]
   },
   "Varna, Bulgaria": {
@@ -20238,19 +20710,21 @@
     ]
   },
   "Jena, Germany": {
-    "mean_dist": 147.97560917894504,
-    "mean_time": 6.5833333333333455,
-    "std_dist": 80.82736977246228,
-    "std_time": 1.2459935794377068,
+    "mean_dist": 143.67413934627376,
+    "mean_time": 6.2952380952381075,
+    "std_dist": 75.56973432372068,
+    "std_time": 1.3522971134307669,
     "admin": "Thuringia",
     "country": "Germany",
+    "city": "Jena",
     "regions": [
       "Capital Region",
       "England",
       "England",
       "Tokyo",
       "Zurich",
-      "New South Wales"
+      "New South Wales",
+      "\u00cele-de-France"
     ],
     "countries": [
       "Denmark",
@@ -20258,7 +20732,8 @@
       "United Kingdom",
       "Japan",
       "Switzerland",
-      "Australia"
+      "Australia",
+      "France"
     ],
     "dists": [
       172.72204306984423,
@@ -20266,7 +20741,8 @@
       58.347365927533325,
       278.7547422098001,
       55.5702397435798,
-      113.48289361040337
+      113.48289361040337,
+      117.86532035024624
     ],
     "times": [
       5.200000000000017,
@@ -20274,7 +20750,8 @@
       7.700000000000008,
       4.633333333333352,
       7.633333333333342,
-      7.700000000000008
+      7.700000000000008,
+      4.566666666666686
     ]
   },
   "Arzamas, Nizhegorodskaya Oblast\u2019, Russia": {
@@ -20423,35 +20900,44 @@
     ]
   },
   "Orekhovo-Zuyevo, Moskovskaya Oblast\u2019, Russia": {
-    "mean_dist": 673.7885193004165,
-    "mean_time": 6.650000000000012,
-    "std_dist": 596.9993550447253,
-    "std_time": 2.641180291713022,
+    "mean_dist": 726.052251868225,
+    "mean_time": 6.8111111111111216,
+    "std_dist": 493.5279400067921,
+    "std_time": 2.18078024320099,
     "admin": "Moskovskaya Oblast\u2019",
     "country": "Russia",
+    "city": "Orekhovo-Zuyevo",
     "regions": [
       "Sk\u00e5ne",
       "Ontario",
       "England",
-      "Mazovia"
+      "Mazovia",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Sweden",
       "Canada",
       "United Kingdom",
-      "Poland"
+      "Poland",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       1377.5853291700878,
       58.18813776978677,
       1152.8775734134904,
-      106.50303684830139
+      106.50303684830139,
+      869.3616251942714,
+      791.7978088134122
     ],
     "times": [
       9.833333333333334,
       2.5000000000000266,
       7.333333333333343,
-      6.933333333333344
+      6.933333333333344,
+      6.733333333333345,
+      7.533333333333342
     ]
   },
   "Kaluga, Kaluzhskaya Oblast\u2019, Russia": {
@@ -20690,10 +21176,10 @@
     ]
   },
   "Maladzyechna, Belarus": {
-    "mean_dist": 170.19239493546752,
-    "mean_time": 6.39761904761906,
-    "std_dist": 61.3231055674352,
-    "std_time": 1.605816030782024,
+    "mean_dist": 185.0089058993986,
+    "mean_time": 6.470833333333346,
+    "std_dist": 72.55148886916234,
+    "std_time": 1.518674266515951,
     "admin": "Minskaya Voblasts\u2019",
     "country": "Belarus",
     "city": "Maladzyechna",
@@ -20711,7 +21197,9 @@
       "Michigan",
       "Michigan",
       "England",
-      "Andalusia"
+      "Andalusia",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Sweden",
@@ -20727,7 +21215,9 @@
       "United States",
       "United States",
       "United Kingdom",
-      "Spain"
+      "Spain",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       233.08758010775918,
@@ -20743,7 +21233,9 @@
       161.08988451806738,
       219.92662491462374,
       121.46044160576133,
-      142.39487032686696
+      142.39487032686696,
+      229.62743092744626,
+      347.8215343663858
     ],
     "times": [
       5.933333333333348,
@@ -20759,7 +21251,9 @@
       3.8333333333333552,
       4.900000000000018,
       7.633333333333342,
-      6.900000000000011
+      6.900000000000011,
+      7.30000000000001,
+      6.6666666666666785
     ]
   },
   "Palermo, Italy": {
@@ -20800,44 +21294,54 @@
     ]
   },
   "Novi Sad, Serbia": {
-    "mean_dist": 204.44619475652212,
-    "mean_time": 5.866666666666681,
-    "std_dist": 164.7552932850557,
-    "std_time": 1.0225241100118607,
+    "mean_dist": 257.41477749530657,
+    "mean_time": 5.705555555555571,
+    "std_dist": 155.54705059100354,
+    "std_time": 0.8886978961476607,
     "admin": "Novi Sad",
     "country": "Serbia",
+    "city": "Novi Sad",
     "regions": [
       "Stockholm",
       "California",
       "Illinois",
-      "Stockholm"
+      "Stockholm",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Sweden",
       "United States",
       "United States",
-      "Sweden"
+      "Sweden",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       212.16445660152667,
       52.469604801677775,
       470.24458531251116,
-      82.90613231037287
+      82.90613231037287,
+      325.11561250487085,
+      401.5882734408802
     ],
     "times": [
       6.633333333333345,
       4.166666666666687,
       6.700000000000012,
-      5.966666666666681
+      5.966666666666681,
+      5.033333333333351,
+      5.7333333333333485
     ]
   },
   "Dijon, France": {
-    "mean_dist": 358.7400275916814,
-    "mean_time": 7.325925925925936,
-    "std_dist": 305.27486405940664,
-    "std_time": 1.1521078672255036,
+    "mean_dist": 567.6598574525997,
+    "mean_time": 7.388888888888899,
+    "std_dist": 797.1249017142723,
+    "std_time": 1.402731022323111,
     "admin": "Bourgogne-Franche-Comt\u00e9",
     "country": "France",
+    "city": "Dijon",
     "regions": [
       "Stockholm",
       "California",
@@ -20847,7 +21351,10 @@
       "California",
       "Massachusetts",
       "England",
-      "England"
+      "England",
+      "Capital Region",
+      "Capital Region",
+      "Stockholm"
     ],
     "countries": [
       "Sweden",
@@ -20858,7 +21365,10 @@
       "United States",
       "United States",
       "United Kingdom",
-      "United Kingdom"
+      "United Kingdom",
+      "Iceland",
+      "Iceland",
+      "Sweden"
     ],
     "dists": [
       376.58800858088154,
@@ -20869,7 +21379,10 @@
       1152.3771813529042,
       116.32989699234,
       180.2716688542664,
-      307.7150774774591
+      307.7150774774591,
+      140.88093915856484,
+      388.90892058042016,
+      3053.4681813670786
     ],
     "times": [
       7.9000000000000075,
@@ -20880,16 +21393,20 @@
       7.800000000000008,
       4.100000000000021,
       7.866666666666674,
-      7.866666666666674
+      7.866666666666674,
+      5.200000000000017,
+      7.533333333333342,
+      10
     ]
   },
   "Tuzla, Bosnia And Herzegovina": {
-    "mean_dist": 141.10742544662594,
-    "mean_time": 6.591666666666679,
-    "std_dist": 77.94142525120202,
-    "std_time": 1.3437871441894642,
+    "mean_dist": 150.69552653279766,
+    "mean_time": 6.36666666666668,
+    "std_dist": 78.32837381256786,
+    "std_time": 1.4177882270600604,
     "admin": "Bosnia and Herzegovina, Federation of",
     "country": "Bosnia And Herzegovina",
+    "city": "Tuzla",
     "regions": [
       "Stockholm",
       "California",
@@ -20898,7 +21415,8 @@
       "England",
       "England",
       "South Holland",
-      "England"
+      "England",
+      "Hamburg"
     ],
     "countries": [
       "Sweden",
@@ -20908,7 +21426,8 @@
       "United Kingdom",
       "United Kingdom",
       "Netherlands",
-      "United Kingdom"
+      "United Kingdom",
+      "Germany"
     ],
     "dists": [
       131.52137657210372,
@@ -20918,7 +21437,8 @@
       41.42102091325598,
       79.21954307970556,
       250.84912184235645,
-      91.93394731120902
+      91.93394731120902,
+      227.40033522217146
     ],
     "times": [
       6.233333333333347,
@@ -20928,7 +21448,8 @@
       6.600000000000012,
       6.300000000000013,
       3.4333333333333567,
-      6.966666666666677
+      6.966666666666677,
+      4.566666666666686
     ]
   },
   "Trondheim, Norway": {
@@ -21009,10 +21530,10 @@
     ]
   },
   "Subotica, Serbia": {
-    "mean_dist": 222.91264345579629,
-    "mean_time": 7.346666666666676,
-    "std_dist": 37.52755105573857,
-    "std_time": 0.5157949635702569,
+    "mean_dist": 246.60830560833298,
+    "mean_time": 6.8111111111111216,
+    "std_dist": 63.095321520458384,
+    "std_time": 1.2867798837158555,
     "admin": "Subotica",
     "country": "Serbia",
     "city": "Subotica",
@@ -21021,28 +21542,32 @@
       "England",
       "Mazovia",
       "Stockholm",
-      "Andalusia"
+      "Andalusia",
+      "Hamburg"
     ],
     "countries": [
       "Sweden",
       "United Kingdom",
       "Poland",
       "Sweden",
-      "Spain"
+      "Spain",
+      "Germany"
     ],
     "dists": [
       254.12681166686843,
       180.6507745652861,
       235.94823071593498,
       267.2469099262119,
-      176.59049040468005
+      176.59049040468005,
+      365.0866163710164
     ],
     "times": [
       6.400000000000013,
       7.500000000000009,
       7.6000000000000085,
       7.30000000000001,
-      7.933333333333341
+      7.933333333333341,
+      4.133333333333354
     ]
   },
   "Szolnok, Hungary": {
@@ -21087,10 +21612,10 @@
     ]
   },
   "F\u00fcrth, Germany": {
-    "mean_dist": 199.41837534970855,
-    "mean_time": 6.642857142857154,
-    "std_dist": 86.34341027253117,
-    "std_time": 1.882898330353754,
+    "mean_dist": 167.6444618232866,
+    "mean_time": 6.7962962962963065,
+    "std_dist": 96.81264293263162,
+    "std_time": 1.6854822692955624,
     "admin": "Bavaria",
     "country": "Germany",
     "city": "F\u00fcrth",
@@ -21101,7 +21626,9 @@
       "Stockholm",
       "Stockholm",
       "Harjumaa",
-      "Harjumaa"
+      "Harjumaa",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Sweden",
@@ -21110,7 +21637,9 @@
       "Sweden",
       "Sweden",
       "Estonia",
-      "Estonia"
+      "Estonia",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       362.0557507026329,
@@ -21119,7 +21648,9 @@
       171.472193684915,
       86.01243946290202,
       141.2365592272018,
-      255.35341040490272
+      255.35341040490272,
+      69.96497745244183,
+      42.906551509177795
     ],
     "times": [
       6.6666666666666785,
@@ -21128,7 +21659,9 @@
       7.766666666666675,
       7.400000000000009,
       7.800000000000008,
-      2.1666666666666945
+      2.1666666666666945,
+      7.266666666666676,
+      7.400000000000009
     ]
   },
   "Pinsk, Belarus": {
@@ -21348,10 +21881,10 @@
     ]
   },
   "Hrodna, Belarus": {
-    "mean_dist": 534.7207320371883,
-    "mean_time": 6.019047619047633,
-    "std_dist": 472.82551114024733,
-    "std_time": 1.1956079867790599,
+    "mean_dist": 619.4785177419137,
+    "mean_time": 5.785185185185201,
+    "std_dist": 467.80710097572126,
+    "std_time": 1.686483016726355,
     "admin": "Hrodzyenskaya Voblasts\u2019",
     "country": "Belarus",
     "city": "Hrodna",
@@ -21362,7 +21895,9 @@
       "Mazovia",
       "England",
       "England",
-      "Andalusia"
+      "Andalusia",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Netherlands",
@@ -21371,7 +21906,9 @@
       "Poland",
       "United Kingdom",
       "United Kingdom",
-      "Spain"
+      "Spain",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       1304.109366338101,
@@ -21380,7 +21917,9 @@
       145.2724723416234,
       1224.511741925865,
       192.0978028234011,
-      199.70953457661318
+      199.70953457661318,
+      1214.7537031396816,
+      617.5078322772234
     ],
     "times": [
       6.36666666666668,
@@ -21389,7 +21928,9 @@
       5.133333333333351,
       3.7333333333333556,
       6.16666666666668,
-      7.9000000000000075
+      7.9000000000000075,
+      2.3333333333333606,
+      7.6000000000000085
     ]
   },
   "Groningen, Netherlands": {
@@ -21446,10 +21987,10 @@
     ]
   },
   "Norwich, United Kingdom": {
-    "mean_dist": 57.26703253556991,
-    "mean_time": 6.772222222222234,
-    "std_dist": 61.04219836309334,
-    "std_time": 0.6510437962928108,
+    "mean_dist": 146.18740512298677,
+    "mean_time": 6.887500000000012,
+    "std_dist": 183.68439941546671,
+    "std_time": 0.6002169746572185,
     "admin": "Norfolk",
     "country": "United Kingdom",
     "city": "Norwich",
@@ -21459,7 +22000,9 @@
       "Tokyo",
       "Florida",
       "Stockholm",
-      "England"
+      "England",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Sweden",
@@ -21467,7 +22010,9 @@
       "Japan",
       "United States",
       "Sweden",
-      "United Kingdom"
+      "United Kingdom",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       26.90507505586328,
@@ -21475,7 +22020,9 @@
       29.959186889086702,
       189.9688651637379,
       10.402914692459927,
-      58.78108046375879
+      58.78108046375879,
+      242.950309722673,
+      582.9467360478018
     ],
     "times": [
       7.20000000000001,
@@ -21483,7 +22030,9 @@
       5.866666666666681,
       7.733333333333341,
       6.066666666666681,
-      6.6666666666666785
+      6.6666666666666785,
+      7.1333333333333435,
+      7.333333333333343
     ]
   },
   "Cottbus, Germany": {
@@ -21531,10 +22080,10 @@
     ]
   },
   "Mulhouse, France": {
-    "mean_dist": 440.3003840281721,
-    "mean_time": 6.166666666666679,
-    "std_dist": 250.14123124816427,
-    "std_time": 2.49221008566916,
+    "mean_dist": 403.1476117235717,
+    "mean_time": 5.892592592592607,
+    "std_dist": 258.1878592198667,
+    "std_time": 2.4742514906446846,
     "admin": "Grand Est",
     "country": "France",
     "city": "Mulhouse",
@@ -21546,7 +22095,8 @@
       "South Holland",
       "England",
       "Stockholm",
-      "Stockholm"
+      "Stockholm",
+      "\u00cele-de-France"
     ],
     "countries": [
       "Sweden",
@@ -21556,7 +22106,8 @@
       "Netherlands",
       "United Kingdom",
       "Sweden",
-      "Sweden"
+      "Sweden",
+      "France"
     ],
     "dists": [
       121.7959215125737,
@@ -21566,7 +22117,8 @@
       402.7799402473198,
       431.0483335866158,
       894.1021492363457,
-      673.5908029710948
+      673.5908029710948,
+      105.92543328676813
     ],
     "times": [
       0.2000000000000255,
@@ -21576,7 +22128,8 @@
       8.200000000000006,
       7.1333333333333435,
       6.766666666666678,
-      4.566666666666686
+      4.566666666666686,
+      3.7000000000000224
     ]
   },
   "Durr\u00ebs, Albania": {
@@ -21613,10 +22166,10 @@
     ]
   },
   "Novara, Italy": {
-    "mean_dist": 292.2014035583875,
-    "mean_time": 6.461111111111124,
-    "std_dist": 259.2499845183903,
-    "std_time": 0.980063615975013,
+    "mean_dist": 336.7537306200792,
+    "mean_time": 6.61666666666668,
+    "std_dist": 243.10228097955638,
+    "std_time": 0.9370461864580365,
     "admin": "Piedmont",
     "country": "Italy",
     "city": "Novara",
@@ -21626,7 +22179,9 @@
       "England",
       "Tokyo",
       "England",
-      ""
+      "",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Sweden",
@@ -21634,7 +22189,9 @@
       "United Kingdom",
       "Japan",
       "United Kingdom",
-      "Gibraltar"
+      "Gibraltar",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       138.02932205414126,
@@ -21642,7 +22199,9 @@
       391.820659938529,
       31.545582882978497,
       161.14968977681804,
-      819.3711671828875
+      819.3711671828875,
+      575.0256939642719,
+      365.79572964603676
     ],
     "times": [
       6.966666666666677,
@@ -21650,14 +22209,16 @@
       7.933333333333341,
       6.233333333333347,
       6.300000000000013,
-      6.6666666666666785
+      6.6666666666666785,
+      6.500000000000012,
+      7.666666666666675
     ]
   },
   "Kherson, Ukraine": {
-    "mean_dist": 438.33500200375704,
-    "mean_time": 6.295238095238109,
-    "std_dist": 117.15942960106126,
-    "std_time": 0.6818342607875246,
+    "mean_dist": 437.7569344852953,
+    "mean_time": 6.39666666666668,
+    "std_dist": 114.77460554834312,
+    "std_time": 0.7644097214336157,
     "admin": "Khersons\u2019ka Oblast\u2019",
     "country": "Ukraine",
     "city": "Kherson",
@@ -21668,7 +22229,10 @@
       "\u00cele-de-France",
       "Mazovia",
       "England",
-      "Stockholm"
+      "Stockholm",
+      "Capital Region",
+      "Capital Region",
+      "\u00cele-de-France"
     ],
     "countries": [
       "Sweden",
@@ -21677,7 +22241,10 @@
       "France",
       "Poland",
       "United Kingdom",
-      "Sweden"
+      "Sweden",
+      "Iceland",
+      "Iceland",
+      "France"
     ],
     "dists": [
       454.78452143863916,
@@ -21686,7 +22253,10 @@
       201.38677997667506,
       358.79800821456,
       527.3318698731987,
-      456.59999032709646
+      456.59999032709646,
+      440.11993346856735,
+      568.0050248291351,
+      301.0993725289512
     ],
     "times": [
       5.600000000000016,
@@ -21695,7 +22265,10 @@
       5.500000000000016,
       6.233333333333347,
       5.7333333333333485,
-      7.266666666666676
+      7.266666666666676,
+      7.066666666666677,
+      7.4333333333333425,
+      5.400000000000016
     ]
   },
   "Logro\u00f1o, Spain": {
@@ -21779,10 +22352,10 @@
     ]
   },
   "N\u00eemes, France": {
-    "mean_dist": 182.64474560429744,
-    "mean_time": 6.766666666666678,
-    "std_dist": 227.71508865272608,
-    "std_time": 2.1098408877042227,
+    "mean_dist": 210.4855227024832,
+    "mean_time": 6.550000000000011,
+    "std_dist": 212.06288399317526,
+    "std_time": 2.1772689314827343,
     "admin": "Occitanie",
     "country": "France",
     "city": "N\u00eemes",
@@ -21793,7 +22366,10 @@
       "Stockholm",
       "Harjumaa",
       "Andalusia",
-      "Andalusia"
+      "Andalusia",
+      "Capital Region",
+      "Capital Region",
+      "Hamburg"
     ],
     "countries": [
       "Canada",
@@ -21802,7 +22378,10 @@
       "Sweden",
       "Estonia",
       "Spain",
-      "Spain"
+      "Spain",
+      "Iceland",
+      "Iceland",
+      "Germany"
     ],
     "dists": [
       294.00882704457086,
@@ -21811,7 +22390,10 @@
       696.7752779099758,
       44.90219731640852,
       31.477021725257643,
-      137.0352832497066
+      137.0352832497066,
+      488.37546518662407,
+      151.17764702314818,
+      186.7888955849776
     ],
     "times": [
       7.400000000000009,
@@ -21820,7 +22402,10 @@
       7.166666666666677,
       8.200000000000006,
       7.9000000000000075,
-      7.766666666666675
+      7.766666666666675,
+      7.666666666666675,
+      7.6000000000000085,
+      2.866666666666692
     ]
   },
   "Ad\u0131yaman, Turkey": {
@@ -21848,10 +22433,10 @@
     ]
   },
   "Kecskem\u00e9t, Hungary": {
-    "mean_dist": 91.8487645699171,
-    "mean_time": 5.850000000000015,
-    "std_dist": 55.6668494012084,
-    "std_time": 1.8976349803158914,
+    "mean_dist": 155.41145742502977,
+    "mean_time": 6.114285714285728,
+    "std_dist": 164.00429327972014,
+    "std_time": 1.872343166794041,
     "admin": "B\u00e1cs-Kiskun",
     "country": "Hungary",
     "city": "Kecskem\u00e9t",
@@ -21861,7 +22446,8 @@
       "Stockholm",
       "Stockholm",
       "Stockholm",
-      "Stockholm"
+      "Stockholm",
+      "Massachusetts"
     ],
     "countries": [
       "Canada",
@@ -21869,7 +22455,8 @@
       "Sweden",
       "Sweden",
       "Sweden",
-      "Sweden"
+      "Sweden",
+      "United States"
     ],
     "dists": [
       36.66772968552057,
@@ -21877,7 +22464,8 @@
       51.584764645669544,
       36.66772968552057,
       149.7244900761704,
-      98.03194090820934
+      98.03194090820934,
+      536.7876145557057
     ],
     "times": [
       2.866666666666692,
@@ -21885,7 +22473,8 @@
       3.5666666666666895,
       7.333333333333343,
       6.833333333333345,
-      6.800000000000011
+      6.800000000000011,
+      7.700000000000008
     ]
   },
   "Afyonkarahisar, Turkey": {
@@ -21917,12 +22506,13 @@
     ]
   },
   "Rzesz\u00f3w, Poland": {
-    "mean_dist": 286.51296532875415,
-    "mean_time": 6.658333333333346,
-    "std_dist": 123.80037990460993,
-    "std_time": 1.7543398568502373,
+    "mean_dist": 320.61647930268356,
+    "mean_time": 6.743333333333345,
+    "std_dist": 135.34220537516154,
+    "std_time": 1.6022241485579363,
     "admin": "Podkarpackie",
     "country": "Poland",
+    "city": "Rzesz\u00f3w",
     "regions": [
       "Ontario",
       "England",
@@ -21931,7 +22521,9 @@
       "England",
       "South Holland",
       "England",
-      "New York"
+      "New York",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Canada",
@@ -21941,7 +22533,9 @@
       "United Kingdom",
       "Netherlands",
       "United Kingdom",
-      "United States"
+      "United States",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       160.33718414682053,
@@ -21951,7 +22545,9 @@
       162.41419737755575,
       331.9543965745034,
       331.4621891048727,
-      443.68916620031996
+      443.68916620031996,
+      540.8185606767421,
+      373.24250972006007
     ],
     "times": [
       5.600000000000016,
@@ -21961,7 +22557,9 @@
       7.800000000000008,
       5.033333333333351,
       7.9000000000000075,
-      7.966666666666674
+      7.966666666666674,
+      7.700000000000008,
+      6.466666666666679
     ]
   },
   "Moscow, Moskva, Russia": {
@@ -21971,6 +22569,7 @@
     "std_time": 1.149999999999996,
     "admin": "Moskva",
     "country": "Russia",
+    "city": "Moscow",
     "regions": [
       "Ontario",
       "England"
@@ -21989,10 +22588,10 @@
     ]
   },
   "Lysychans\u2019k, Ukraine": {
-    "mean_dist": 668.5692494066819,
-    "mean_time": 6.209523809523823,
-    "std_dist": 284.7624351358174,
-    "std_time": 1.6483483109449266,
+    "mean_dist": 651.1252746929118,
+    "mean_time": 5.716666666666682,
+    "std_dist": 270.3395729136286,
+    "std_time": 2.019350830781454,
     "admin": "Luhans\u2019ka Oblast\u2019",
     "country": "Ukraine",
     "city": "Lysychans\u2019k",
@@ -22003,7 +22602,8 @@
       "England",
       "Stockholm",
       "",
-      "Stockholm"
+      "Stockholm",
+      "Hamburg"
     ],
     "countries": [
       "Canada",
@@ -22012,7 +22612,8 @@
       "United Kingdom",
       "Sweden",
       "Gibraltar",
-      "Sweden"
+      "Sweden",
+      "Germany"
     ],
     "dists": [
       880.655243538501,
@@ -22021,7 +22622,8 @@
       1033.4620201506334,
       593.1599454806989,
       425.8833766251866,
-      503.74563308664716
+      503.74563308664716,
+      529.0174516965211
     ],
     "times": [
       2.6333333333333595,
@@ -22030,7 +22632,8 @@
       6.566666666666679,
       8.100000000000007,
       5.800000000000015,
-      7.700000000000008
+      7.700000000000008,
+      2.266666666666694
     ]
   },
   "Le Mans, France": {
@@ -22100,10 +22703,10 @@
     ]
   },
   "Trento, Italy": {
-    "mean_dist": 242.03917258302693,
-    "mean_time": 6.755555555555567,
-    "std_dist": 202.74271236019425,
-    "std_time": 1.3162329337174543,
+    "mean_dist": 307.44477989991975,
+    "mean_time": 6.912500000000011,
+    "std_dist": 229.42922431965656,
+    "std_time": 1.2076075406448123,
     "admin": "Trentino-Alto Adige",
     "country": "Italy",
     "city": "Trento",
@@ -22113,7 +22716,9 @@
       "England",
       "England",
       "Stockholm",
-      "Andalusia"
+      "Andalusia",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Canada",
@@ -22121,7 +22726,9 @@
       "United Kingdom",
       "United Kingdom",
       "Sweden",
-      "Spain"
+      "Spain",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       641.6704913493732,
@@ -22129,7 +22736,9 @@
       114.26671444241548,
       58.40321926299316,
       62.63832286826161,
-      303.95474281605635
+      303.95474281605635,
+      314.18196700750264,
+      693.1412366936937
     ],
     "times": [
       4.733333333333352,
@@ -22137,16 +22746,19 @@
       5.23333333333335,
       6.866666666666678,
       7.733333333333341,
-      7.933333333333341
+      7.933333333333341,
+      6.800000000000011,
+      7.966666666666674
     ]
   },
   "Gdynia, Poland": {
-    "mean_dist": 207.35761151638144,
-    "mean_time": 7.1904761904762,
-    "std_dist": 126.30201903038717,
-    "std_time": 0.5079414682297464,
+    "mean_dist": 419.492516485975,
+    "mean_time": 7.541666666666675,
+    "std_dist": 573.556187618064,
+    "std_time": 1.0435982091888691,
     "admin": "Pomorskie",
     "country": "Poland",
+    "city": "Gdynia",
     "regions": [
       "Ontario",
       "Greater Poland",
@@ -22154,7 +22766,8 @@
       "California",
       "California",
       "California",
-      "California"
+      "California",
+      "Stockholm"
     ],
     "countries": [
       "Canada",
@@ -22163,7 +22776,8 @@
       "United States",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Sweden"
     ],
     "dists": [
       128.6740419735976,
@@ -22172,7 +22786,8 @@
       226.11144713952777,
       393.8285469453584,
       70.3021213350254,
-      259.5622998481009
+      259.5622998481009,
+      1904.43685127313
     ],
     "times": [
       7.6000000000000085,
@@ -22181,7 +22796,8 @@
       7.533333333333342,
       7.166666666666677,
       6.333333333333346,
-      6.733333333333345
+      6.733333333333345,
+      10
     ]
   },
   "Luhans\u2019k, Ukraine": {
@@ -22445,39 +23061,56 @@
     ]
   },
   "Santander, Spain": {
-    "mean_dist": 318.12692752146086,
-    "mean_time": 6.686666666666679,
-    "std_dist": 251.9219509004667,
-    "std_time": 0.7335151289812913,
+    "mean_dist": 361.5229459729156,
+    "mean_time": 5.748148148148163,
+    "std_dist": 221.56142851488931,
+    "std_time": 1.9019879860398066,
     "admin": "Cantabria",
     "country": "Spain",
+    "city": "Santander",
     "regions": [
       "England",
       "England",
       "South Holland",
       "England",
-      "Stockholm"
+      "Stockholm",
+      "Capital Region",
+      "Capital Region",
+      "\u00cele-de-France",
+      "Vienna"
     ],
     "countries": [
       "United Kingdom",
       "United Kingdom",
       "Netherlands",
       "United Kingdom",
-      "Sweden"
+      "Sweden",
+      "Iceland",
+      "Iceland",
+      "France",
+      "Austria"
     ],
     "dists": [
       117.31567566758227,
       24.853979880100194,
       508.11496736780924,
       237.09082341566605,
-      703.2591912761466
+      703.2591912761466,
+      480.5844608016489,
+      285.52734427244593,
+      248.49036831288987,
+      648.4697027619512
     ],
     "times": [
       6.733333333333345,
       7.033333333333344,
       6.100000000000014,
       5.7333333333333485,
-      7.833333333333341
+      7.833333333333341,
+      6.733333333333345,
+      6.566666666666679,
+      1.3333333333333597,
+      3.666666666666689
     ]
   },
   "Chisinau, Moldova": {
@@ -22547,10 +23180,10 @@
     ]
   },
   "Mariupol\u2019, Ukraine": {
-    "mean_dist": 273.2972906553118,
-    "mean_time": 7.2666666666666755,
-    "std_dist": 182.53538413391547,
-    "std_time": 0.5650303171151588,
+    "mean_dist": 383.8144162772347,
+    "mean_time": 7.362500000000009,
+    "std_dist": 254.63202546728783,
+    "std_time": 0.5511194415813025,
     "admin": "Donets\u2019ka Oblast\u2019",
     "country": "Ukraine",
     "city": "Mariupol\u2019",
@@ -22560,7 +23193,9 @@
       "England",
       "North Rhine-Westphalia",
       "Andalusia",
-      "Andalusia"
+      "Andalusia",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "United Kingdom",
@@ -22568,7 +23203,9 @@
       "United Kingdom",
       "Germany",
       "Spain",
-      "Spain"
+      "Spain",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       314.3411544425804,
@@ -22576,7 +23213,9 @@
       466.41100446865227,
       165.29340892813823,
       532.916679597453,
-      19.337057179941993
+      19.337057179941993,
+      602.1228970180667,
+      828.6086892679401
     ],
     "times": [
       6.866666666666678,
@@ -22584,7 +23223,9 @@
       7.766666666666675,
       6.966666666666677,
       8.300000000000006,
-      6.833333333333345
+      6.833333333333345,
+      7.266666666666676,
+      8.03333333333334
     ]
   },
   "Reims, France": {
@@ -23414,31 +24055,44 @@
     ]
   },
   "Le\u00f3n, Spain": {
-    "mean_dist": 411.2886161293254,
-    "mean_time": 6.233333333333346,
-    "std_dist": 67.00822359987234,
-    "std_time": 1.1316981668009944,
+    "mean_dist": 353.0426559549259,
+    "mean_time": 5.69444444444446,
+    "std_dist": 107.7925461554711,
+    "std_time": 1.3730766570635546,
     "admin": "Castille-Leon",
     "country": "Spain",
+    "city": "Le\u00f3n",
     "regions": [
       "England",
       "England",
-      "New York"
+      "New York",
+      "Capital Region",
+      "Capital Region",
+      "Hamburg"
     ],
     "countries": [
       "United Kingdom",
       "United Kingdom",
-      "United States"
+      "United States",
+      "Iceland",
+      "Iceland",
+      "Germany"
     ],
     "dists": [
       400.2066872709812,
       335.3246961367668,
-      498.33446498022823
+      498.33446498022823,
+      429.3256455739506,
+      161.41685507738524,
+      293.6475866902434
     ],
     "times": [
       5.966666666666681,
       7.733333333333341,
-      5.000000000000018
+      5.000000000000018,
+      5.666666666666682,
+      6.533333333333346,
+      3.2666666666666906
     ]
   },
   "Maastricht, Netherlands": {
@@ -23505,6 +24159,7 @@
     "std_time": 0.6333333333333311,
     "admin": "Vladimirskaya Oblast\u2019",
     "country": "Russia",
+    "city": "Kovrov",
     "regions": [
       "England",
       "England"
@@ -23633,32 +24288,40 @@
     ]
   },
   "Kielce, Poland": {
-    "mean_dist": 270.2946814456008,
-    "mean_time": 8.155555555555562,
-    "std_dist": 65.68571958107924,
-    "std_time": 0.5452375176171224,
+    "mean_dist": 261.6783537244808,
+    "mean_time": 7.8533333333333415,
+    "std_dist": 93.50445324926392,
+    "std_time": 0.5678810517079141,
     "admin": "\u015awi\u0119tokrzyskie",
     "country": "Poland",
     "city": "Kielce",
     "regions": [
       "England",
       "California",
-      "Andalusia"
+      "Andalusia",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "United Kingdom",
       "United States",
-      "Spain"
+      "Spain",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       317.1741911781642,
       177.402393790715,
-      316.3074593679233
+      316.3074593679233,
+      125.84177091276081,
+      371.6659533728407
     ],
     "times": [
       7.466666666666676,
       8.800000000000004,
-      8.200000000000006
+      8.200000000000006,
+      7.266666666666676,
+      7.533333333333342
     ]
   },
   "Elbasan, Albania": {
@@ -23744,10 +24407,10 @@
     ]
   },
   "Le Havre, France": {
-    "mean_dist": 409.1301097415299,
-    "mean_time": 7.2962962962963065,
-    "std_dist": 274.0698135521037,
-    "std_time": 0.9571620145435367,
+    "mean_dist": 358.20037378579104,
+    "mean_time": 7.006060606060616,
+    "std_dist": 270.9284312667923,
+    "std_time": 1.1854179829522975,
     "admin": "Normandie",
     "country": "France",
     "city": "Le Havre",
@@ -23760,7 +24423,9 @@
       "California",
       "California",
       "Florida",
-      "Stockholm"
+      "Stockholm",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "United Kingdom",
@@ -23771,7 +24436,9 @@
       "United States",
       "United States",
       "United States",
-      "Sweden"
+      "Sweden",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       18.288885008153976,
@@ -23782,7 +24449,9 @@
       761.1642322883381,
       603.7386350609443,
       242.66020440488668,
-      597.891774215242
+      597.891774215242,
+      167.7529662280514,
+      90.28015774188091
     ],
     "times": [
       5.400000000000016,
@@ -23793,7 +24462,9 @@
       8.000000000000007,
       8.366666666666672,
       7.333333333333343,
-      6.866666666666678
+      6.866666666666678,
+      4.466666666666686,
+      6.933333333333344
     ]
   },
   "Rize, Turkey": {
@@ -24003,19 +24674,22 @@
     ]
   },
   "Dundee, United Kingdom": {
-    "mean_dist": 130.55429235439803,
-    "mean_time": 6.955555555555566,
-    "std_dist": 137.31831751923073,
-    "std_time": 0.7539197979416583,
+    "mean_dist": 199.91511493492075,
+    "mean_time": 6.983333333333344,
+    "std_dist": 177.500602574689,
+    "std_time": 0.7007932013876188,
     "admin": "Dundee City",
     "country": "United Kingdom",
+    "city": "Dundee",
     "regions": [
       "England",
       "England",
       "England",
       "Tokyo",
       "New South Wales",
-      "Stockholm"
+      "Stockholm",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "United Kingdom",
@@ -24023,7 +24697,9 @@
       "United Kingdom",
       "Japan",
       "Australia",
-      "Sweden"
+      "Sweden",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       108.50531964378854,
@@ -24031,7 +24707,9 @@
       16.262675197147075,
       139.48721075068687,
       419.4468643029967,
-      88.61770062121937
+      88.61770062121937,
+      516.2833627679348,
+      299.71180258504296
     ],
     "times": [
       5.900000000000015,
@@ -24039,14 +24717,16 @@
       7.366666666666676,
       6.466666666666679,
       8.23333333333334,
-      6.533333333333346
+      6.533333333333346,
+      6.566666666666679,
+      7.566666666666675
     ]
   },
   "Maribor, Slovenia": {
-    "mean_dist": 250.87019808660202,
-    "mean_time": 6.1277777777777915,
-    "std_dist": 461.2073183775708,
-    "std_time": 0.823591202682373,
+    "mean_dist": 214.3644359547395,
+    "mean_time": 6.016666666666682,
+    "std_dist": 404.47643394039494,
+    "std_time": 0.7675719293112943,
     "admin": "Maribor",
     "country": "Slovenia",
     "city": "Maribor",
@@ -24056,7 +24736,9 @@
       "England",
       "England",
       "England",
-      "Stockholm"
+      "Stockholm",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "United Kingdom",
@@ -24064,7 +24746,9 @@
       "United Kingdom",
       "United Kingdom",
       "United Kingdom",
-      "Sweden"
+      "Sweden",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       19.401818890953408,
@@ -24072,7 +24756,9 @@
       30.205793551759115,
       9.366413617218992,
       1274.3612162060208,
-      168.83697774713124
+      168.83697774713124,
+      88.23020484818575,
+      121.46409427011795
     ],
     "times": [
       5.000000000000018,
@@ -24080,39 +24766,50 @@
       5.500000000000016,
       7.033333333333344,
       6.833333333333345,
-      6.933333333333344
+      6.933333333333344,
+      6.100000000000014,
+      5.2666666666666835
     ]
   },
   "L\u00e1risa, Greece": {
-    "mean_dist": 135.26120960549068,
-    "mean_time": 4.375000000000018,
-    "std_dist": 108.1826766061188,
-    "std_time": 2.3444230515084983,
+    "mean_dist": 298.05639212763316,
+    "mean_time": 4.388888888888908,
+    "std_dist": 403.9071996557657,
+    "std_time": 2.22083289903407,
     "admin": "Thessal\u00eda",
     "country": "Greece",
+    "city": "L\u00e1risa",
     "regions": [
       "England",
       "Mazovia",
       "Michigan",
-      "Michigan"
+      "Michigan",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "United Kingdom",
       "Poland",
       "United States",
-      "United States"
+      "United States",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       322.36840063140835,
       75.40677631840606,
       63.70766930022713,
-      79.5619921719212
+      79.5619921719212,
+      69.56872471488843,
+      1177.724789628948
     ],
     "times": [
       4.666666666666686,
       7.333333333333343,
       0.766666666666692,
-      4.733333333333352
+      4.733333333333352,
+      6.36666666666668,
+      2.4666666666666934
     ]
   },
   "Ternopil\u2019, Ukraine": {
@@ -24145,10 +24842,10 @@
     ]
   },
   "Vladikavkaz, North Ossetia, Russia": {
-    "mean_dist": 1276.2180178514536,
-    "mean_time": 6.133333333333347,
-    "std_dist": 916.8210065700544,
-    "std_time": 1.2009255689767837,
+    "mean_dist": 1432.7598540912782,
+    "mean_time": 5.953333333333347,
+    "std_dist": 877.7642009354482,
+    "std_time": 1.132862647357467,
     "admin": "North Ossetia",
     "country": "Russia",
     "city": "Vladikavkaz",
@@ -24156,25 +24853,29 @@
       "England",
       "Stockholm",
       "North Carolina",
-      "Andalusia"
+      "Andalusia",
+      "Hamburg"
     ],
     "countries": [
       "United Kingdom",
       "Sweden",
       "United States",
-      "Spain"
+      "Spain",
+      "Germany"
     ],
     "dists": [
       427.09075238463544,
       334.9646996981437,
       2447.5756442222532,
-      1895.2409751007824
+      1895.2409751007824,
+      2058.927199050576
     ],
     "times": [
       5.800000000000015,
       7.466666666666676,
       4.3333333333333535,
-      6.933333333333344
+      6.933333333333344,
+      5.23333333333335
     ]
   },
   "A Coru\u00f1a, Spain": {
@@ -24477,38 +25178,47 @@
     ]
   },
   "Sz\u00e9kesfeh\u00e9rv\u00e1r, Hungary": {
-    "mean_dist": 92.50796608460534,
-    "mean_time": 7.52222222222223,
-    "std_dist": 6.09602356834916,
-    "std_time": 0.44081854277505117,
+    "mean_dist": 385.1866492629141,
+    "mean_time": 7.133333333333343,
+    "std_dist": 368.4267879076244,
+    "std_time": 0.8545304103554285,
     "admin": "Fej\u00e9r",
     "country": "Hungary",
+    "city": "Sz\u00e9kesfeh\u00e9rv\u00e1r",
     "regions": [
       "England",
       "California",
-      "England"
+      "England",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "United Kingdom",
       "United States",
-      "United Kingdom"
+      "United Kingdom",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       98.09508911791683,
       84.02843084511348,
-      95.40037829078571
+      95.40037829078571,
+      958.5994634144796,
+      689.8098846462748
     ],
     "times": [
       6.900000000000011,
       7.800000000000008,
-      7.866666666666674
+      7.866666666666674,
+      5.566666666666682,
+      7.533333333333342
     ]
   },
   "Zl\u00edn, Czechia": {
-    "mean_dist": 158.4060306071799,
-    "mean_time": 6.911666666666676,
-    "std_dist": 88.24212738408406,
-    "std_time": 1.20315672757588,
+    "mean_dist": 158.67957539877665,
+    "mean_time": 6.858730158730168,
+    "std_dist": 86.12418722863222,
+    "std_time": 1.1977891786970143,
     "admin": "Zl\u00ednsk\u00fd Kraj",
     "country": "Czechia",
     "city": "Zl\u00edn",
@@ -24532,7 +25242,8 @@
       "Stockholm",
       "Stockholm",
       "England",
-      "Andalusia"
+      "Andalusia",
+      "Vienna"
     ],
     "countries": [
       "United Kingdom",
@@ -24554,7 +25265,8 @@
       "Sweden",
       "Sweden",
       "United Kingdom",
-      "Spain"
+      "Spain",
+      "Austria"
     ],
     "dists": [
       341.7816679688054,
@@ -24576,7 +25288,8 @@
       98.31332902090128,
       75.29156755545915,
       185.68077141261028,
-      188.68988493122725
+      188.68988493122725,
+      164.15047123071207
     ],
     "times": [
       6.900000000000011,
@@ -24598,7 +25311,8 @@
       5.300000000000017,
       7.633333333333342,
       3.5333333333333563,
-      7.6000000000000085
+      7.6000000000000085,
+      5.800000000000015
     ]
   },
   "Ivano-Frankivs\u2019k, Ukraine": {
@@ -24724,10 +25438,10 @@
     ]
   },
   "Vyborg, Leningradskaya Oblast\u2019, Russia": {
-    "mean_dist": 824.0831437486219,
-    "mean_time": 6.900000000000011,
-    "std_dist": 406.39353213648644,
-    "std_time": 1.5536694915228502,
+    "mean_dist": 682.9842857558255,
+    "mean_time": 5.8600000000000145,
+    "std_dist": 460.1740032611369,
+    "std_time": 2.501501771158891,
     "admin": "Leningradskaya Oblast\u2019",
     "country": "Russia",
     "city": "Vyborg",
@@ -24735,25 +25449,29 @@
       "England",
       "Mazovia",
       "Stockholm",
-      "Andalusia"
+      "Andalusia",
+      "\u00cele-de-France"
     ],
     "countries": [
       "United Kingdom",
       "Poland",
       "Sweden",
-      "Spain"
+      "Spain",
+      "France"
     ],
     "dists": [
       344.61261871836723,
       808.0044818352502,
       1464.087138061015,
-      679.6283363798551
+      679.6283363798551,
+      118.58885378463988
     ],
     "times": [
       5.766666666666682,
       8.700000000000005,
       5.000000000000018,
-      8.13333333333334
+      8.13333333333334,
+      1.7000000000000275
     ]
   },
   "Granada, Spain": {
@@ -24794,59 +25512,77 @@
     ]
   },
   "Staryy Oskol, Belgorodskaya Oblast\u2019, Russia": {
-    "mean_dist": 307.0426837731844,
-    "mean_time": 6.733333333333345,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 407.9467292776976,
+    "mean_time": 5.822222222222237,
+    "std_dist": 81.54750830808725,
+    "std_time": 0.9978990275252279,
     "admin": "Belgorodskaya Oblast\u2019",
     "country": "Russia",
+    "city": "Staryy Oskol",
     "regions": [
-      "England"
+      "England",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
-      "United Kingdom"
+      "United Kingdom",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
-      307.0426837731844
+      307.0426837731844,
+      410.0378756162282,
+      506.7596284436803
     ],
     "times": [
-      6.733333333333345
+      6.733333333333345,
+      6.300000000000013,
+      4.433333333333353
     ]
   },
   "Graz, Austria": {
-    "mean_dist": 232.01280654439952,
-    "mean_time": 6.140000000000013,
-    "std_dist": 80.03993384804427,
-    "std_time": 0.8611103942649315,
+    "mean_dist": 256.5427302889628,
+    "mean_time": 6.214285714285729,
+    "std_dist": 78.87554324200799,
+    "std_time": 0.8349236525988045,
     "admin": "Steiermark",
     "country": "Austria",
+    "city": "Graz",
     "regions": [
       "England",
       "England",
       "England",
       "Mazovia",
-      "Stockholm"
+      "Stockholm",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "United Kingdom",
       "United Kingdom",
       "United Kingdom",
       "Poland",
-      "Sweden"
+      "Sweden",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       148.6376924637631,
       177.33663928388356,
       181.64725757944433,
       296.1885507881263,
-      356.25389260678037
+      356.25389260678037,
+      340.0875072365317,
+      295.64757206421007
     ],
     "times": [
       5.866666666666681,
       4.700000000000019,
       6.400000000000013,
       7.333333333333343,
-      6.400000000000013
+      6.400000000000013,
+      7.1333333333333435,
+      5.666666666666682
     ]
   },
   "Ferrara, Italy": {
@@ -24903,10 +25639,10 @@
     ]
   },
   "Tours, France": {
-    "mean_dist": 222.1069271385945,
-    "mean_time": 7.488888888888897,
-    "std_dist": 97.87408323524262,
-    "std_time": 0.9984555975339646,
+    "mean_dist": 274.6842849382192,
+    "mean_time": 7.3083333333333425,
+    "std_dist": 125.32612646325991,
+    "std_time": 0.9446854267720812,
     "admin": "Centre-Val de Loire",
     "country": "France",
     "city": "Tours",
@@ -24916,7 +25652,9 @@
       "England",
       "England",
       "California",
-      "Andalusia"
+      "Andalusia",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "United Kingdom",
@@ -24924,7 +25662,9 @@
       "United Kingdom",
       "United Kingdom",
       "United States",
-      "Spain"
+      "Spain",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       252.7302935922934,
@@ -24932,7 +25672,9 @@
       92.217424617854,
       266.35548396484523,
       339.82592507968377,
-      86.14858812928274
+      86.14858812928274,
+      402.15085402202493,
+      462.68186265216156
     ],
     "times": [
       8.166666666666673,
@@ -24940,7 +25682,9 @@
       8.266666666666673,
       6.866666666666678,
       7.566666666666675,
-      8.466666666666672
+      8.466666666666672,
+      7.20000000000001,
+      6.333333333333346
     ]
   },
   "Kursk, Kurskaya Oblast\u2019, Russia": {
@@ -25010,47 +25754,65 @@
     ]
   },
   "Nusaybin, Turkey": {
-    "mean_dist": 351.4868148575116,
-    "mean_time": 7.500000000000009,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 783.910060595068,
+    "mean_time": 6.6250000000000115,
+    "std_dist": 351.9532130023338,
+    "std_time": 1.5542727845809023,
     "admin": "Mardin",
     "country": "Turkey",
-    "regions": [
-      "England"
-    ],
-    "countries": [
-      "United Kingdom"
-    ],
-    "dists": [
-      351.4868148575116
-    ],
-    "times": [
-      7.500000000000009
-    ]
-  },
-  "Erzincan, Turkey": {
-    "mean_dist": 169.79664227671446,
-    "mean_time": 7.816666666666674,
-    "std_dist": 37.65915302636367,
-    "std_time": 0.2833333333333323,
-    "admin": "Erzincan",
-    "country": "Turkey",
+    "city": "Nusaybin",
     "regions": [
       "England",
-      "Mazovia"
+      "Capital Region",
+      "Capital Region",
+      "Hamburg"
     ],
     "countries": [
       "United Kingdom",
-      "Poland"
+      "Iceland",
+      "Iceland",
+      "Germany"
+    ],
+    "dists": [
+      351.4868148575116,
+      737.243089999409,
+      713.9774884042855,
+      1332.9328491190658
+    ],
+    "times": [
+      7.500000000000009,
+      7.500000000000009,
+      7.566666666666675,
+      3.933333333333355
+    ]
+  },
+  "Erzincan, Turkey": {
+    "mean_dist": 333.41383988462917,
+    "mean_time": 6.800000000000011,
+    "std_dist": 233.42375466929283,
+    "std_time": 1.4562763270549741,
+    "admin": "Erzincan",
+    "country": "Turkey",
+    "city": "Erzincan",
+    "regions": [
+      "England",
+      "Mazovia",
+      "\u00cele-de-France"
+    ],
+    "countries": [
+      "United Kingdom",
+      "Poland",
+      "France"
     ],
     "dists": [
       207.45579530307813,
-      132.1374892503508
+      132.1374892503508,
+      660.6482351004586
     ],
     "times": [
       7.533333333333342,
-      8.100000000000007
+      8.100000000000007,
+      4.766666666666685
     ]
   },
   "Arnhem, Netherlands": {
@@ -25128,10 +25890,10 @@
     ]
   },
   "Chemnitz, Germany": {
-    "mean_dist": 138.37792442313844,
-    "mean_time": 7.5200000000000085,
-    "std_dist": 59.87776232708442,
-    "std_time": 0.388501394248891,
+    "mean_dist": 152.5765711656655,
+    "mean_time": 7.072222222222233,
+    "std_dist": 63.21231312814812,
+    "std_time": 1.0622158298273447,
     "admin": "Saxony",
     "country": "Germany",
     "city": "Chemnitz",
@@ -25140,56 +25902,69 @@
       "Tokyo",
       "England",
       "New South Wales",
-      "Andalusia"
+      "Andalusia",
+      "Hamburg"
     ],
     "countries": [
       "United Kingdom",
       "Japan",
       "United Kingdom",
       "Australia",
-      "Spain"
+      "Spain",
+      "Germany"
     ],
     "dists": [
       214.63447871540478,
       78.38740489850376,
       61.467375032851244,
       188.177045146019,
-      149.22331832291337
+      149.22331832291337,
+      223.56980487830083
     ],
     "times": [
       6.833333333333345,
       7.6000000000000085,
       7.500000000000009,
       7.633333333333342,
-      8.03333333333334
+      8.03333333333334,
+      4.833333333333352
     ]
   },
   "Sivas, Turkey": {
-    "mean_dist": 539.0719875073734,
-    "mean_time": 7.955555555555563,
-    "std_dist": 247.3397980554084,
-    "std_time": 0.2454524670486049,
+    "mean_dist": 495.3508670635421,
+    "mean_time": 7.506666666666675,
+    "std_dist": 214.6539793854257,
+    "std_time": 0.5851495535331097,
     "admin": "Sivas",
     "country": "Turkey",
+    "city": "Sivas",
     "regions": [
       "England",
       "Mazovia",
-      "Mazovia"
+      "Mazovia",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "United Kingdom",
       "Poland",
-      "Poland"
+      "Poland",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       668.8139175368731,
       755.5206578672285,
-      192.88138711801875
+      192.88138711801875,
+      557.2725283681984,
+      302.26584442739204
     ],
     "times": [
       7.666666666666675,
       7.933333333333341,
-      8.266666666666673
+      8.266666666666673,
+      6.933333333333344,
+      6.733333333333345
     ]
   },
   "Kazan\u2019, Tatarstan, Russia": {
@@ -25226,10 +26001,10 @@
     ]
   },
   "\u00c7orum, Turkey": {
-    "mean_dist": 546.693167530922,
-    "mean_time": 7.350000000000009,
-    "std_dist": 203.6223616877616,
-    "std_time": 0.9591180362225501,
+    "mean_dist": 468.3634299015212,
+    "mean_time": 6.912500000000011,
+    "std_dist": 237.4768619838274,
+    "std_time": 1.1303806512262395,
     "admin": "\u00c7orum",
     "country": "Turkey",
     "city": "\u00c7orum",
@@ -25239,7 +26014,9 @@
       "England",
       "Stockholm",
       "Stockholm",
-      "Harjumaa"
+      "Harjumaa",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "United Kingdom",
@@ -25247,7 +26024,9 @@
       "United Kingdom",
       "Sweden",
       "Sweden",
-      "Estonia"
+      "Estonia",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       550.9999965345393,
@@ -25255,7 +26034,9 @@
       713.7888593005496,
       857.3469394364822,
       438.7050593799086,
-      213.5389581499312
+      213.5389581499312,
+      67.3372698968737,
+      399.411164129764
     ],
     "times": [
       7.333333333333343,
@@ -25263,31 +26044,38 @@
       7.733333333333341,
       7.20000000000001,
       8.066666666666674,
-      8.366666666666672
+      8.366666666666672,
+      5.833333333333348,
+      5.366666666666683
     ]
   },
   "Rybinsk, Yaroslavskaya Oblast\u2019, Russia": {
-    "mean_dist": 540.8330267063437,
-    "mean_time": 5.850000000000015,
-    "std_dist": 114.52729719320857,
-    "std_time": 1.316666666666662,
+    "mean_dist": 557.9811265064777,
+    "mean_time": 6.455555555555567,
+    "std_dist": 96.60460231496077,
+    "std_time": 1.3744583669464574,
     "admin": "Yaroslavskaya Oblast\u2019",
     "country": "Russia",
+    "city": "Rybinsk",
     "regions": [
       "England",
-      "Tokyo"
+      "Tokyo",
+      "Massachusetts"
     ],
     "countries": [
       "United Kingdom",
-      "Japan"
+      "Japan",
+      "United States"
     ],
     "dists": [
       655.3603238995523,
-      426.3057295131352
+      426.3057295131352,
+      592.2773261067458
     ],
     "times": [
       7.166666666666677,
-      4.533333333333353
+      4.533333333333353,
+      7.666666666666675
     ]
   },
   "Kam\u201dyanets\u2019-Podil\u2019s\u2019kyy, Ukraine": {
@@ -25388,32 +26176,40 @@
     ]
   },
   "Piatra Neam\u0163, Romania": {
-    "mean_dist": 218.49214026016747,
-    "mean_time": 6.533333333333346,
-    "std_dist": 24.256601586593188,
-    "std_time": 0.8059960481476476,
+    "mean_dist": 296.7463190603329,
+    "mean_time": 6.46666666666668,
+    "std_dist": 120.83602788739667,
+    "std_time": 0.8077403323125816,
     "admin": "Neam\u0163",
     "country": "Romania",
     "city": "Piatra Neam\u0163",
     "regions": [
       "England",
       "Stockholm",
-      "South Holland"
+      "South Holland",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "United Kingdom",
       "Sweden",
-      "Netherlands"
+      "Netherlands",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       249.3858285653846,
       190.13177226736948,
-      215.95881994774834
+      215.95881994774834,
+      301.624906695262,
+      526.6302678259001
     ],
     "times": [
       7.466666666666676,
       6.633333333333345,
-      5.500000000000016
+      5.500000000000016,
+      5.566666666666682,
+      7.166666666666677
     ]
   },
   "Volzhskiy, Volgogradskaya Oblast\u2019, Russia": {
@@ -25567,10 +26363,10 @@
     ]
   },
   "Parma, Italy": {
-    "mean_dist": 67.32232771167811,
-    "mean_time": 7.666666666666675,
-    "std_dist": 43.56451530609272,
-    "std_time": 0.38801489089409247,
+    "mean_dist": 143.71156935814238,
+    "mean_time": 6.646666666666678,
+    "std_dist": 157.66914267659183,
+    "std_time": 2.069310137327031,
     "admin": "Emilia-Romagna",
     "country": "Italy",
     "city": "Parma",
@@ -25578,49 +26374,62 @@
       "England",
       "Mazovia",
       "New South Wales",
-      "Andalusia"
+      "Andalusia",
+      "\u00cele-de-France"
     ],
     "countries": [
       "United Kingdom",
       "Poland",
       "Australia",
-      "Spain"
+      "Spain",
+      "France"
     ],
     "dists": [
       137.13831803332093,
       20.908121667473345,
       67.64423047326527,
-      43.59864067265288
+      43.59864067265288,
+      449.26853594399944
     ],
     "times": [
       7.033333333333344,
       8.066666666666674,
       7.866666666666674,
-      7.700000000000008
+      7.700000000000008,
+      2.566666666666693
     ]
   },
   "Pristina, Kosovo": {
-    "mean_dist": 185.54124945440284,
-    "mean_time": 7.350000000000009,
-    "std_dist": 168.5564976270192,
-    "std_time": 0.7833333333333306,
+    "mean_dist": 142.7238523756212,
+    "mean_time": 6.233333333333347,
+    "std_dist": 135.83803315098262,
+    "std_time": 1.2478871031556544,
     "admin": "Prishtin\u00eb",
     "country": "Kosovo",
+    "city": "Pristina",
     "regions": [
       "England",
-      "England"
+      "England",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "United Kingdom",
-      "United Kingdom"
+      "United Kingdom",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       16.984751827383636,
-      354.097747081422
+      354.097747081422,
+      30.437105053991715,
+      169.37580553968738
     ],
     "times": [
       6.566666666666679,
-      8.13333333333334
+      8.13333333333334,
+      5.033333333333351,
+      5.200000000000017
     ]
   },
   "Belgorod, Belgorodskaya Oblast\u2019, Russia": {
@@ -25821,6 +26630,7 @@
     "std_time": 0.34751099103321614,
     "admin": "Arge\u015f",
     "country": "Romania",
+    "city": "Pite\u015fti",
     "regions": [
       "England",
       "South Holland",
@@ -26170,88 +26980,106 @@
     ]
   },
   "Oldenburg, Germany": {
-    "mean_dist": 353.80318432576183,
-    "mean_time": 5.866666666666681,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 282.3756579190001,
+    "mean_time": 5.783333333333348,
+    "std_dist": 71.42752640676173,
+    "std_time": 0.08333333333333304,
     "admin": "Lower Saxony",
     "country": "Germany",
+    "city": "Oldenburg",
     "regions": [
-      "British Columbia"
+      "British Columbia",
+      "\u00cele-de-France"
     ],
     "countries": [
-      "Canada"
+      "Canada",
+      "France"
     ],
     "dists": [
-      353.80318432576183
+      353.80318432576183,
+      210.94813151223838
     ],
     "times": [
-      5.866666666666681
+      5.866666666666681,
+      5.700000000000015
     ]
   },
   "Plymouth, United Kingdom": {
-    "mean_dist": 223.1573416647668,
-    "mean_time": 7.744444444444452,
-    "std_dist": 114.37737254118971,
-    "std_time": 0.5717635702341582,
+    "mean_dist": 251.55021908593682,
+    "mean_time": 5.980000000000014,
+    "std_dist": 95.40946467773654,
+    "std_time": 2.3260457624236137,
     "admin": "Plymouth",
     "country": "United Kingdom",
     "city": "Plymouth",
     "regions": [
       "British Columbia",
       "California",
-      "Missouri"
+      "Missouri",
+      "Massachusetts",
+      "Hamburg"
     ],
     "countries": [
       "Canada",
       "United States",
-      "United States"
+      "United States",
+      "United States",
+      "Germany"
     ],
     "dists": [
       134.31679293785766,
       150.51441642832398,
-      384.64081562811873
+      384.64081562811873,
+      304.6778828177921,
+      283.60118761759156
     ],
     "times": [
       7.033333333333344,
       8.433333333333339,
-      7.766666666666675
+      7.766666666666675,
+      4.5000000000000195,
+      2.1666666666666945
     ]
   },
   "Baia Mare, Romania": {
-    "mean_dist": 333.5930718618896,
-    "mean_time": 5.966666666666681,
-    "std_dist": 108.87055715281119,
-    "std_time": 1.6051306627326094,
+    "mean_dist": 315.2209705527788,
+    "mean_time": 5.400000000000016,
+    "std_dist": 107.54070103080707,
+    "std_time": 1.937160961973105,
     "admin": "Maramure\u015f",
     "country": "Romania",
+    "city": "Baia Mare",
     "regions": [
       "British Columbia",
       "California",
       "Tokyo",
       "England",
-      "England"
+      "England",
+      "\u00cele-de-France"
     ],
     "countries": [
       "Canada",
       "United States",
       "Japan",
       "United Kingdom",
-      "United Kingdom"
+      "United Kingdom",
+      "France"
     ],
     "dists": [
       474.9138586693346,
       277.82159044387026,
       452.9356943297175,
       209.3645970317123,
-      252.92961883481328
+      252.92961883481328,
+      223.3604640072248
     ],
     "times": [
       4.266666666666687,
       7.833333333333341,
       4.600000000000019,
       7.966666666666674,
-      5.166666666666684
+      5.166666666666684,
+      2.566666666666693
     ]
   },
   "Craiova, Romania": {
@@ -26317,35 +27145,44 @@
     ]
   },
   "Montpellier, France": {
-    "mean_dist": 246.69936390709847,
-    "mean_time": 7.416666666666676,
-    "std_dist": 286.34789280632776,
-    "std_time": 0.7033649282003039,
+    "mean_dist": 294.13687802366616,
+    "mean_time": 7.122222222222232,
+    "std_dist": 282.22268231737934,
+    "std_time": 0.7187094057242743,
     "admin": "Occitanie",
     "country": "France",
+    "city": "Montpellier",
     "regions": [
       "Tokyo",
       "Stockholm",
       "England",
-      "Stockholm"
+      "Stockholm",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Japan",
       "Sweden",
       "United Kingdom",
-      "Sweden"
+      "Sweden",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       161.08659824728588,
       734.8811983879415,
       70.89507784484096,
-      19.934581148325616
+      19.934581148325616,
+      636.9167052031785,
+      141.10710731042445
     ],
     "times": [
       7.333333333333343,
       6.300000000000013,
       7.966666666666674,
-      8.066666666666674
+      8.066666666666674,
+      6.733333333333345,
+      6.333333333333346
     ]
   },
   "Plovdiv, Bulgaria": {
@@ -26463,10 +27300,10 @@
     ]
   },
   "Liberec, Czechia": {
-    "mean_dist": 203.96430331086722,
-    "mean_time": 6.691666666666679,
-    "std_dist": 174.9539448801172,
-    "std_time": 1.8778496863285994,
+    "mean_dist": 234.93490297660247,
+    "mean_time": 5.613333333333348,
+    "std_dist": 168.296816481813,
+    "std_time": 2.7335447072741688,
     "admin": "Libereck\u00fd Kraj",
     "country": "Czechia",
     "city": "Liberec",
@@ -26474,34 +27311,39 @@
       "Tokyo",
       "Florida",
       "England",
-      "Andalusia"
+      "Andalusia",
+      "Hamburg"
     ],
     "countries": [
       "Japan",
       "United States",
       "United Kingdom",
-      "Spain"
+      "Spain",
+      "Germany"
     ],
     "dists": [
       31.420071470864627,
       153.63199643843245,
       496.0869694835855,
-      134.7181758505864
+      134.7181758505864,
+      358.81730163954353
     ],
     "times": [
       7.1333333333333435,
       7.700000000000008,
       3.5333333333333563,
-      8.400000000000006
+      8.400000000000006,
+      1.3000000000000262
     ]
   },
   "Horad Barysaw, Belarus": {
-    "mean_dist": 135.1820052541171,
-    "mean_time": 7.071428571428582,
-    "std_dist": 54.632798927481204,
-    "std_time": 0.8221977075465363,
+    "mean_dist": 128.08188239942297,
+    "mean_time": 6.408333333333346,
+    "std_dist": 54.447516845872,
+    "std_time": 1.915561275449046,
     "admin": "Minskaya Voblasts\u2019",
     "country": "Belarus",
+    "city": "Horad Barysaw",
     "regions": [
       "Tokyo",
       "England",
@@ -26509,7 +27351,8 @@
       "England",
       "California",
       "Stockholm",
-      "Stockholm"
+      "Stockholm",
+      "\u00cele-de-France"
     ],
     "countries": [
       "Japan",
@@ -26518,7 +27361,8 @@
       "United Kingdom",
       "United States",
       "Sweden",
-      "Sweden"
+      "Sweden",
+      "France"
     ],
     "dists": [
       206.31464187298678,
@@ -26527,7 +27371,8 @@
       83.83031530093653,
       205.19703675762668,
       94.33629942637688,
-      167.60921153432676
+      167.60921153432676,
+      78.38102241656422
     ],
     "times": [
       6.800000000000011,
@@ -26536,7 +27381,8 @@
       7.666666666666675,
       6.733333333333345,
       5.500000000000016,
-      6.833333333333345
+      6.833333333333345,
+      1.7666666666666944
     ]
   },
   "Kostroma, Kostromskaya Oblast\u2019, Russia": {
@@ -26573,19 +27419,22 @@
     ]
   },
   "Regensburg, Germany": {
-    "mean_dist": 329.0276659013512,
-    "mean_time": 6.400000000000012,
-    "std_dist": 79.78216549224805,
-    "std_time": 1.3640897113975778,
+    "mean_dist": 323.03504425325684,
+    "mean_time": 6.554166666666679,
+    "std_dist": 81.70124210305232,
+    "std_time": 1.258409214047636,
     "admin": "Bavaria",
     "country": "Germany",
+    "city": "Regensburg",
     "regions": [
       "Tokyo",
       "Mazovia",
       "England",
       "Michigan",
       "Michigan",
-      "Stockholm"
+      "Stockholm",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Japan",
@@ -26593,7 +27442,9 @@
       "United Kingdom",
       "United States",
       "United States",
-      "Sweden"
+      "Sweden",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       297.96647651333416,
@@ -26601,7 +27452,9 @@
       240.8642955685907,
       377.6650919197162,
       405.7875412408714,
-      223.0412047337721
+      223.0412047337721,
+      220.35858497457875,
+      389.7557736433687
     ],
     "times": [
       5.633333333333349,
@@ -26609,7 +27462,9 @@
       7.6000000000000085,
       4.9666666666666845,
       6.866666666666678,
-      4.833333333333352
+      4.833333333333352,
+      6.333333333333346,
+      7.700000000000008
     ]
   },
   "Odense, Denmark": {
@@ -26641,55 +27496,65 @@
     ]
   },
   "Tarragona, Spain": {
-    "mean_dist": 407.853901876772,
-    "mean_time": 5.822222222222237,
-    "std_dist": 173.71829940677634,
-    "std_time": 1.106992366173057,
+    "mean_dist": 424.7557904636293,
+    "mean_time": 5.808333333333348,
+    "std_dist": 153.26629497379523,
+    "std_time": 0.9589852854855341,
     "admin": "Catalonia",
     "country": "Spain",
+    "city": "Tarragona",
     "regions": [
       "Tokyo",
       "England",
-      "England"
+      "England",
+      "Hamburg"
     ],
     "countries": [
       "Japan",
       "United Kingdom",
-      "United Kingdom"
+      "United Kingdom",
+      "Germany"
     ],
     "dists": [
       204.41239773369364,
       628.8463484829952,
-      390.3029594136273
+      390.3029594136273,
+      475.46145622420113
     ],
     "times": [
       4.30000000000002,
       6.900000000000011,
-      6.26666666666668
+      6.26666666666668,
+      5.766666666666682
     ]
   },
   "Split, Croatia": {
-    "mean_dist": 112.3315589037699,
-    "mean_time": 7.116666666666677,
-    "std_dist": 97.49709829483409,
-    "std_time": 0.38333333333333197,
+    "mean_dist": 914.2596393050602,
+    "mean_time": 8.077777777777785,
+    "std_dist": 1136.8880398069716,
+    "std_time": 1.3947874744079896,
     "admin": "Splitsko-Dalmatinska \u017dupanija",
     "country": "Croatia",
+    "city": "Split",
     "regions": [
       "Bavaria",
-      "Mazovia"
+      "Mazovia",
+      "Stockholm"
     ],
     "countries": [
       "Germany",
-      "Poland"
+      "Poland",
+      "Sweden"
     ],
     "dists": [
       209.828657198604,
-      14.83446060893581
+      14.83446060893581,
+      2518.1158001076406
     ],
     "times": [
       6.733333333333345,
-      7.500000000000009
+      7.500000000000009,
+      10
     ]
   },
   "Orl\u00e9ans, France": {
@@ -26910,6 +27775,7 @@
     "std_time": 0.31666666666666554,
     "admin": "Batman",
     "country": "Turkey",
+    "city": "Batman",
     "regions": [
       "England",
       "England"
@@ -27091,32 +27957,40 @@
     ]
   },
   "Potsdam, Germany": {
-    "mean_dist": 364.5808063778791,
-    "mean_time": 5.933333333333348,
-    "std_dist": 102.19161427394621,
-    "std_time": 1.3336110821819478,
+    "mean_dist": 325.8525292225122,
+    "mean_time": 6.446666666666678,
+    "std_dist": 132.27996414702454,
+    "std_time": 1.2257605348879845,
     "admin": "Brandenburg",
     "country": "Germany",
     "city": "Potsdam",
     "regions": [
       "England",
       "Attica",
-      "Stockholm"
+      "Stockholm",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "United Kingdom",
       "Greece",
-      "Sweden"
+      "Sweden",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       255.5754624213447,
       336.9064421260613,
-      501.2605145862315
+      501.2605145862315,
+      117.907735122828,
+      417.61249185609574
     ],
     "times": [
       7.233333333333343,
       4.100000000000021,
-      6.466666666666679
+      6.466666666666679,
+      6.900000000000011,
+      7.533333333333342
     ]
   },
   "Sibiu, Romania": {
@@ -27173,42 +28047,51 @@
     ]
   },
   "Novocherkassk, Rostovskaya Oblast\u2019, Russia": {
-    "mean_dist": 831.4929818355911,
-    "mean_time": 6.966666666666677,
-    "std_dist": 309.3779587538565,
-    "std_time": 1.2195172086617767,
+    "mean_dist": 754.0601893353373,
+    "mean_time": 6.9388888888889,
+    "std_dist": 355.50601639087074,
+    "std_time": 0.9976670317159089,
     "admin": "Rostovskaya Oblast\u2019",
     "country": "Russia",
+    "city": "Novocherkassk",
     "regions": [
       "Mazovia",
       "Mazovia",
       "England",
-      "England"
+      "England",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Poland",
       "Poland",
       "United Kingdom",
-      "United Kingdom"
+      "United Kingdom",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       981.4208068569341,
       511.3889529467862,
       1265.4607000003125,
-      567.7014675383315
+      567.7014675383315,
+      209.64471507982282,
+      988.7444935898369
     ],
     "times": [
       8.566666666666672,
       7.10000000000001,
       5.133333333333351,
-      7.066666666666677
+      7.066666666666677,
+      6.966666666666677,
+      6.800000000000011
     ]
   },
   "Drobeta-Turnu Severin, Romania": {
-    "mean_dist": 267.4669912251127,
-    "mean_time": 6.895833333333345,
-    "std_dist": 76.75820375401717,
-    "std_time": 1.0911815079689193,
+    "mean_dist": 297.64607740106976,
+    "mean_time": 6.536111111111123,
+    "std_dist": 81.7362615611448,
+    "std_time": 1.1392377514465444,
     "admin": "Mehedin\u0163i",
     "country": "Romania",
     "city": "Drobeta-Turnu Severin",
@@ -27220,7 +28103,11 @@
       "Stockholm",
       "England",
       "Stockholm",
-      "Harjumaa"
+      "Harjumaa",
+      "Capital Region",
+      "Capital Region",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Poland",
@@ -27230,7 +28117,11 @@
       "Sweden",
       "United Kingdom",
       "Sweden",
-      "Estonia"
+      "Estonia",
+      "Iceland",
+      "Iceland",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       201.4173054635217,
@@ -27240,7 +28131,11 @@
       227.54625347479757,
       165.39044919540717,
       419.19549208102956,
-      216.0890336451727
+      216.0890336451727,
+      350.09501344734434,
+      346.1388634481339,
+      441.30037395144035,
+      294.48274816501726
     ],
     "times": [
       7.666666666666675,
@@ -27250,7 +28145,11 @@
       8.200000000000006,
       4.833333333333352,
       6.833333333333345,
-      5.566666666666682
+      5.566666666666682,
+      4.700000000000019,
+      7.10000000000001,
+      5.866666666666681,
+      5.600000000000016
     ]
   },
   "Zhytomyr, Ukraine": {
@@ -27405,34 +28304,62 @@
     ]
   },
   "Gda\u0144sk, Poland": {
-    "mean_dist": 294.7744020611051,
-    "mean_time": 5.600000000000016,
-    "std_dist": 258.60077867140205,
-    "std_time": 2.466666666666658,
+    "mean_dist": 316.46385363559375,
+    "mean_time": 6.083333333333346,
+    "std_dist": 184.927966577137,
+    "std_time": 1.848798408576644,
     "admin": "Pomorskie",
     "country": "Poland",
+    "city": "Gda\u0144sk",
     "regions": [
       "Mazovia",
-      "England"
+      "England",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Poland",
-      "United Kingdom"
+      "United Kingdom",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       36.17362338970309,
-      553.3751807325071
+      553.3751807325071,
+      362.26716628726683,
+      314.03944413289804
     ],
     "times": [
       8.066666666666674,
-      3.1333333333333577
+      3.1333333333333577,
+      6.033333333333347,
+      7.10000000000001
     ]
   },
   "Ryazan\u2019, Ryazanskaya Oblast\u2019, Russia": {
-    "regions": [],
-    "countries": [],
-    "dists": [],
-    "times": []
+    "mean_dist": 669.6732739654396,
+    "mean_time": 7.383333333333343,
+    "std_dist": 43.05857614115081,
+    "std_time": 0.18333333333333268,
+    "city": "Ryazan\u2019",
+    "admin": "Ryazanskaya Oblast\u2019",
+    "country": "Russia",
+    "regions": [
+      "Capital Region",
+      "Capital Region"
+    ],
+    "countries": [
+      "Iceland",
+      "Iceland"
+    ],
+    "dists": [
+      626.6146978242888,
+      712.7318501065904
+    ],
+    "times": [
+      7.20000000000001,
+      7.566666666666675
+    ]
   },
   "Banja Luka, Bosnia And Herzegovina": {
     "mean_dist": 64.2422617700624,
@@ -27653,27 +28580,36 @@
     ]
   },
   "Uzhhorod, Ukraine": {
-    "mean_dist": 889.12486370594,
-    "mean_time": 5.900000000000015,
-    "std_dist": 7.354135118378508,
-    "std_time": 1.699999999999994,
+    "mean_dist": 906.6979708975798,
+    "mean_time": 6.300000000000013,
+    "std_dist": 64.74246907330885,
+    "std_time": 1.2703892666772958,
     "admin": "Zakarpats\u2019ka Oblast\u2019",
     "country": "Ukraine",
+    "city": "Uzhhorod",
     "regions": [
       "England",
-      "England"
+      "England",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "United Kingdom",
-      "United Kingdom"
+      "United Kingdom",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       881.7707285875615,
-      896.4789988243185
+      896.4789988243185,
+      836.4561413908446,
+      1012.0860147875946
     ],
     "times": [
       7.6000000000000085,
-      4.200000000000021
+      4.200000000000021,
+      6.566666666666679,
+      6.833333333333345
     ]
   },
   "Amiens, France": {
@@ -27683,6 +28619,7 @@
     "std_time": 3.883333333333324,
     "admin": "Hauts-de-France",
     "country": "France",
+    "city": "Amiens",
     "regions": [
       "Bavaria",
       "New South Wales"
@@ -27701,23 +28638,28 @@
     ]
   },
   "Tambov, Tambovskaya Oblast\u2019, Russia": {
-    "mean_dist": 998.086562712429,
-    "mean_time": 7.066666666666677,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 729.851688474502,
+    "mean_time": 4.666666666666686,
+    "std_dist": 268.234874237927,
+    "std_time": 2.3999999999999915,
     "admin": "Tambovskaya Oblast\u2019",
     "country": "Russia",
+    "city": "Tambov",
     "regions": [
-      "California"
+      "California",
+      "Hamburg"
     ],
     "countries": [
-      "United States"
+      "United States",
+      "Germany"
     ],
     "dists": [
-      998.086562712429
+      998.086562712429,
+      461.61681423657495
     ],
     "times": [
-      7.066666666666677
+      7.066666666666677,
+      2.266666666666694
     ]
   },
   "Poltava, Ukraine": {
@@ -27749,23 +28691,28 @@
     ]
   },
   "Tver\u2019, Tverskaya Oblast\u2019, Russia": {
-    "mean_dist": 727.3973817330061,
-    "mean_time": 7.033333333333344,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 790.9170021096317,
+    "mean_time": 8.516666666666673,
+    "std_dist": 63.51962037662554,
+    "std_time": 1.483333333333328,
     "admin": "Tverskaya Oblast\u2019",
     "country": "Russia",
+    "city": "Tver\u2019",
     "regions": [
-      "Michigan"
+      "Michigan",
+      "Stockholm"
     ],
     "countries": [
-      "United States"
+      "United States",
+      "Sweden"
     ],
     "dists": [
-      727.3973817330061
+      727.3973817330061,
+      854.4366224862572
     ],
     "times": [
-      7.033333333333344
+      7.033333333333344,
+      10
     ]
   },
   "Koblenz, Germany": {
@@ -27826,52 +28773,61 @@
     ]
   },
   "Yelets, Lipetskaya Oblast\u2019, Russia": {
-    "mean_dist": 318.113839574683,
-    "mean_time": 6.56666666666668,
-    "std_dist": 81.24083395909827,
-    "std_time": 0.7760297817881849,
+    "mean_dist": 260.43445720063505,
+    "mean_time": 5.48333333333335,
+    "std_dist": 122.1916047849943,
+    "std_time": 1.9931131427994677,
     "admin": "Lipetskaya Oblast\u2019",
     "country": "Russia",
     "city": "Yelets",
     "regions": [
       "Florida",
       "",
-      "England"
+      "England",
+      "\u00cele-de-France"
     ],
     "countries": [
       "United States",
       "Gibraltar",
-      "United Kingdom"
+      "United Kingdom",
+      "France"
     ],
     "dists": [
       380.44255328099774,
       370.5345186989173,
-      203.36444674413403
+      203.36444674413403,
+      87.3963100784911
     ],
     "times": [
       6.533333333333346,
       7.533333333333342,
-      5.633333333333349
+      5.633333333333349,
+      2.233333333333361
     ]
   },
   "P\u00e9cs, Hungary": {
-    "mean_dist": 95.03593999555986,
-    "mean_time": 7.033333333333344,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 104.89430594168397,
+    "mean_time": 5.250000000000017,
+    "std_dist": 9.85836594612411,
+    "std_time": 1.783333333333327,
     "admin": "Baranya",
     "country": "Hungary",
+    "city": "P\u00e9cs",
     "regions": [
-      "Florida"
+      "Florida",
+      "\u00cele-de-France"
     ],
     "countries": [
-      "United States"
+      "United States",
+      "France"
     ],
     "dists": [
-      95.03593999555986
+      95.03593999555986,
+      114.75267188780808
     ],
     "times": [
-      7.033333333333344
+      7.033333333333344,
+      3.46666666666669
     ]
   },
   "Saransk, Mordoviya, Russia": {
@@ -27895,32 +28851,40 @@
     ]
   },
   "Caerdydd, United Kingdom": {
-    "mean_dist": 104.51816152641352,
-    "mean_time": 6.2111111111111255,
-    "std_dist": 37.81831832466581,
-    "std_time": 0.34676636742949285,
+    "mean_dist": 124.25165462810773,
+    "mean_time": 6.633333333333345,
+    "std_dist": 39.108249698942764,
+    "std_time": 0.6066300355241219,
     "admin": "Cardiff",
     "country": "United Kingdom",
     "city": "Caerdydd",
     "regions": [
       "England",
       "England",
-      "Stockholm"
+      "Stockholm",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "United Kingdom",
       "United Kingdom",
-      "Sweden"
+      "Sweden",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       133.36941478333176,
       51.09200040818741,
-      129.09306938772139
+      129.09306938772139,
+      168.61705166039653,
+      139.08673690090157
     ],
     "times": [
       6.000000000000014,
       5.933333333333348,
-      6.700000000000012
+      6.700000000000012,
+      7.000000000000011,
+      7.533333333333342
     ]
   },
   "Nuremberg, Germany": {
@@ -27973,28 +28937,32 @@
     ]
   },
   "Abertawe, United Kingdom": {
-    "mean_dist": 281.19537484981305,
-    "mean_time": 4.9666666666666845,
-    "std_dist": 236.61301701919848,
-    "std_time": 0.8666666666666636,
+    "mean_dist": 1330.9041479012371,
+    "mean_time": 6.644444444444456,
+    "std_dist": 1497.0306709141057,
+    "std_time": 2.476008336809586,
     "admin": "Swansea",
     "country": "United Kingdom",
     "city": "Abertawe",
     "regions": [
       "England",
+      "Stockholm",
       "Stockholm"
     ],
     "countries": [
       "United Kingdom",
+      "Sweden",
       "Sweden"
     ],
     "dists": [
       517.8083918690115,
-      44.58235783061456
+      44.58235783061456,
+      3430.321694004085
     ],
     "times": [
       4.100000000000021,
-      5.833333333333348
+      5.833333333333348,
+      10
     ]
   },
   "Kaliningrad, Kaliningradskaya Oblast\u2019, Russia": {
@@ -28022,27 +28990,32 @@
     ]
   },
   "Nizhniy Novgorod, Nizhegorodskaya Oblast\u2019, Russia": {
-    "mean_dist": 757.7261349390734,
-    "mean_time": 6.033333333333347,
-    "std_dist": 46.42895398207861,
-    "std_time": 1.0666666666666629,
+    "mean_dist": 652.1209852312081,
+    "mean_time": 6.27777777777779,
+    "std_dist": 154.08437234695344,
+    "std_time": 0.9370297174359085,
     "admin": "Nizhegorodskaya Oblast\u2019",
     "country": "Russia",
+    "city": "Nizhniy Novgorod",
     "regions": [
       "Stockholm",
-      "England"
+      "England",
+      "Vienna"
     ],
     "countries": [
       "Sweden",
-      "United Kingdom"
+      "United Kingdom",
+      "Austria"
     ],
     "dists": [
       711.2971809569948,
-      804.155088921152
+      804.155088921152,
+      440.91068581547756
     ],
     "times": [
       4.9666666666666845,
-      7.10000000000001
+      7.10000000000001,
+      6.766666666666678
     ]
   },
   "Isparta, Turkey": {
@@ -28127,27 +29100,36 @@
     ]
   },
   "Oxford, United Kingdom": {
-    "mean_dist": 65.1101727283307,
-    "mean_time": 7.316666666666676,
-    "std_dist": 17.63599759117714,
-    "std_time": 0.2833333333333323,
+    "mean_dist": 68.35633063407096,
+    "mean_time": 6.658333333333346,
+    "std_dist": 15.584541348473708,
+    "std_time": 0.7532798653591847,
     "admin": "Oxfordshire",
     "country": "United Kingdom",
+    "city": "Oxford",
     "regions": [
       "Stockholm",
-      "Stockholm"
+      "Stockholm",
+      "\u00cele-de-France",
+      "\u00cele-de-France"
     ],
     "countries": [
       "Sweden",
-      "Sweden"
+      "Sweden",
+      "France",
+      "France"
     ],
     "dists": [
       82.74617031950784,
-      47.47417513715356
+      47.47417513715356,
+      83.9981476489739,
+      59.206829430648554
     ],
     "times": [
       7.6000000000000085,
-      7.033333333333344
+      7.033333333333344,
+      6.433333333333346,
+      5.566666666666682
     ]
   },
   "W\u00fcrzburg, Germany": {
@@ -28171,27 +29153,36 @@
     ]
   },
   "Pisa, Italy": {
-    "mean_dist": 93.10445518560293,
+    "mean_dist": 303.662233249376,
     "mean_time": 6.500000000000012,
-    "std_dist": 80.34632769044005,
-    "std_time": 0.5999999999999979,
+    "std_dist": 222.2026072431739,
+    "std_time": 0.537483849886568,
     "admin": "Tuscany",
     "country": "Italy",
+    "city": "Pisa",
     "regions": [
       "Stockholm",
-      "Stockholm"
+      "Stockholm",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
       "Sweden",
-      "Sweden"
+      "Sweden",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
       173.45078287604298,
-      12.758127495162892
+      12.758127495162892,
+      454.02608178796686,
+      574.4139408383313
     ],
     "times": [
       5.900000000000015,
-      7.10000000000001
+      7.10000000000001,
+      6.033333333333347,
+      6.966666666666677
     ]
   },
   "Reggio di Calabria, Italy": {
@@ -28310,24 +29301,32 @@
     ]
   },
   "Noginsk, Moskovskaya Oblast\u2019, Russia": {
-    "mean_dist": 53.25408123410017,
-    "mean_time": 3.333333333333357,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 445.66507016721727,
+    "mean_time": 5.077777777777795,
+    "std_dist": 466.0594371249007,
+    "std_time": 1.2870676788252169,
     "city": "Noginsk",
     "admin": "Moskovskaya Oblast\u2019",
     "country": "Russia",
     "regions": [
-      "Stockholm"
+      "Stockholm",
+      "Capital Region",
+      "Capital Region"
     ],
     "countries": [
-      "Sweden"
+      "Sweden",
+      "Iceland",
+      "Iceland"
     ],
     "dists": [
-      53.25408123410017
+      53.25408123410017,
+      1100.485119814015,
+      183.25600945353685
     ],
     "times": [
-      3.333333333333357
+      3.333333333333357,
+      6.400000000000013,
+      5.500000000000016
     ]
   },
   "Derbent, Dagestan, Russia": {
@@ -28704,6 +29703,81 @@
     ],
     "times": [
       8.03333333333334
+    ]
+  },
+  "Mainz, Germany": {
+    "mean_dist": 284.3727136163937,
+    "mean_time": 6.655555555555568,
+    "std_dist": 84.02350037232353,
+    "std_time": 0.8283555030940327,
+    "city": "Mainz",
+    "admin": "Rhineland-Palatinate",
+    "country": "Germany",
+    "regions": [
+      "Capital Region",
+      "Capital Region",
+      "Hamburg"
+    ],
+    "countries": [
+      "Iceland",
+      "Iceland",
+      "Germany"
+    ],
+    "dists": [
+      381.4330372625468,
+      295.2091510095835,
+      176.47595257705086
+    ],
+    "times": [
+      6.300000000000013,
+      7.800000000000008,
+      5.866666666666681
+    ]
+  },
+  "Bremerhaven, Germany": {
+    "mean_dist": 380.3389170174933,
+    "mean_time": 7.0500000000000105,
+    "std_dist": 60.88461325736341,
+    "std_time": 0.9166666666666634,
+    "city": "Bremerhaven",
+    "admin": "Bremen",
+    "country": "Germany",
+    "regions": [
+      "Capital Region",
+      "Capital Region"
+    ],
+    "countries": [
+      "Iceland",
+      "Iceland"
+    ],
+    "dists": [
+      441.2235302748567,
+      319.4543037601299
+    ],
+    "times": [
+      6.133333333333347,
+      7.966666666666674
+    ]
+  },
+  "Bielefeld, Germany": {
+    "mean_dist": 2614.109997233969,
+    "mean_time": 6.533333333333346,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Bielefeld",
+    "admin": "North Rhine-Westphalia",
+    "country": "Germany",
+    "regions": [
+      "Stockholm"
+    ],
+    "countries": [
+      "Sweden"
+    ],
+    "dists": [
+      2614.109997233969
+    ],
+    "times": [
+      6.533333333333346
     ]
   }
 }
