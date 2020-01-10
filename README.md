@@ -21,3 +21,5 @@ This repository contains statistics for each city in the game, organized by map.
   * `city: String` - City name
   
 The dists, times, regions, and countries lists are in-order (i.e. the n'th element in each correspond to a single guess by a player)
+
+The csv files are generated from the json files and are sorted based on `mean_dist`.  They contain an extra field, `num_guesses`, which counts how many elements their are in the `dists`/`times`/`regions`/`countries` fields (i.e. how many datapoints there are on that city).
