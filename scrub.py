@@ -25,10 +25,10 @@ def convert(fileInput, fileOutput):
         #print(data[row])
         l = data[row]
         try:
-            dists = ['' if (i >= len(l['dists'])) else str(x) for i,x in enumerate(l['dists'])]
-            times = ['' if (i >= len(l['times'])) else str(x) for i,x in enumerate(l['times'])]
-            regions = ['' if (i >= len(l['regions'])) else str(x) for i,x in enumerate(l['regions'])]
-            countries = ['' if (i >= len(l['countries'])) else str(x) for i,x in enumerate(l['countries'])]
+            dists = ['' if (i >= len(l['dists'])) else str(l['dists'][i]) for i in range(longest)]
+            times = ['' if (i >= len(l['times'])) else str(l['times'][i]) for i in range(longest)]
+            regions = ['' if (i >= len(l['regions'])) else str(l['regions'][i]) for i in range(longest)]
+            countries = ['' if (i >= len(l['countries'])) else str(l['countries'][i]) for i in range(longest)]
             st = '%s\t%s\t%s\t%s\t%s\t%d\t' % (row, l['mean_dist'], l['std_dist'], l['mean_time'], l['std_time'], len(l['dists'])) + ('\t'.join(dists)) + '\t' + ('\t'.join(times)) + '\t' + ('\t'.join(regions)) + '\t' + ('\t'.join(countries))
             outputFile.write(st + '\n') #values row
         except:
