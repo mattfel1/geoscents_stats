@@ -105,29 +105,44 @@
     ]
   },
   "Arusha, Tanzania": {
-    "mean_dist": 2022.8115884262177,
-    "mean_time": 4.988888888888907,
-    "std_dist": 1143.6475787554382,
-    "std_time": 1.3180606778966102,
+    "mean_dist": 1188.7062041723896,
+    "mean_time": 5.90555555555557,
+    "std_dist": 1165.799886587003,
+    "std_time": 1.3886333098178905,
+    "city": "Arusha",
+    "admin": "Arusha",
+    "country": "Tanzania",
     "regions": [
       "Unknown",
       "Unknown",
-      "Unknown"
+      "Unknown",
+      "California",
+      "California",
+      "California"
     ],
     "countries": [
       "Unknown",
       "Unknown",
-      "Unknown"
+      "Unknown",
+      "United States",
+      "United States",
+      "United States"
     ],
     "dists": [
       3128.299192969561,
       447.66006721824544,
-      2492.475505090847
+      2492.475505090847,
+      435.85580116062033,
+      161.5715740488549,
+      466.3750845462091
     ],
     "times": [
       3.8333333333333552,
       4.30000000000002,
-      6.833333333333345
+      6.833333333333345,
+      7.700000000000008,
+      6.6666666666666785,
+      6.100000000000014
     ]
   },
   "Kigali, Rwanda": {
@@ -1544,18 +1559,25 @@
     ]
   },
   "Bujumbura, Burundi": {
-    "mean_dist": 1758.8796190600376,
-    "mean_time": 5.65555555555557,
-    "std_dist": 2401.1031490358027,
-    "std_time": 2.324480560586208,
+    "mean_dist": 913.510587868897,
+    "mean_time": 6.305555555555569,
+    "std_dist": 1896.9293642972357,
+    "std_time": 1.8011741712176825,
     "admin": "Bujumbura Mairie",
     "country": "Burundi",
+    "city": "Bujumbura",
     "regions": [
       "California",
       "Michigan",
+      "California",
+      "California",
+      "California",
       "California"
     ],
     "countries": [
+      "United States",
+      "United States",
+      "United States",
       "United States",
       "United States",
       "United States"
@@ -1563,12 +1585,18 @@
     "dists": [
       100.80401056547072,
       5154.244264504872,
-      21.59058210976949
+      21.59058210976949,
+      13.222220985223856,
+      66.10471339053466,
+      125.09773565751158
     ],
     "times": [
       6.133333333333347,
       2.6000000000000263,
-      8.23333333333334
+      8.23333333333334,
+      7.566666666666675,
+      6.933333333333344,
+      6.36666666666668
     ]
   },
   "Benha, Egypt": {
@@ -1751,24 +1779,36 @@
     ]
   },
   "Kinshasa, Congo (Kinshasa)": {
-    "mean_dist": 50.558893644699815,
-    "mean_time": 8.03333333333334,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 216.59542549925632,
+    "mean_time": 7.3833333333333435,
+    "std_dist": 192.47164448328712,
+    "std_time": 0.6121455890735631,
     "city": "Kinshasa",
     "admin": "Kinshasa",
     "country": "Congo (Kinshasa)",
     "regions": [
-      "New South Wales"
+      "New South Wales",
+      "California",
+      "California",
+      "California"
     ],
     "countries": [
-      "Australia"
+      "Australia",
+      "United States",
+      "United States",
+      "United States"
     ],
     "dists": [
-      50.558893644699815
+      50.558893644699815,
+      136.25865586342795,
+      544.4883382529156,
+      135.07581423598197
     ],
     "times": [
-      8.03333333333334
+      8.03333333333334,
+      7.866666666666674,
+      7.1333333333333435,
+      6.500000000000012
     ]
   },
   "Mbabane, Swaziland": {
@@ -3810,23 +3850,36 @@
     ]
   },
   "Wau, South Sudan": {
-    "mean_dist": 195.70146495621208,
-    "mean_time": 8.500000000000005,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 283.0021179121279,
+    "mean_time": 6.858333333333344,
+    "std_dist": 180.43496615619753,
+    "std_time": 1.0158124826954986,
     "admin": "Western Bahr el Ghazal",
     "country": "South Sudan",
+    "city": "Wau",
     "regions": [
+      "California",
+      "California",
+      "California",
       "California"
     ],
     "countries": [
+      "United States",
+      "United States",
+      "United States",
       "United States"
     ],
     "dists": [
-      195.70146495621208
+      195.70146495621208,
+      228.54885078901307,
+      119.79206548474447,
+      587.9660904185419
     ],
     "times": [
-      8.500000000000005
+      8.500000000000005,
+      6.833333333333345,
+      6.300000000000013,
+      5.800000000000015
     ]
   },
   "Shib\u012bn al Kawm, Egypt": {
@@ -4250,13 +4303,17 @@
     ]
   },
   "Bulawayo, Zimbabwe": {
-    "mean_dist": 294.35051675966844,
-    "mean_time": 7.82222222222223,
-    "std_dist": 142.1975665778912,
-    "std_time": 0.4085505846855593,
+    "mean_dist": 253.6605026321156,
+    "mean_time": 7.438888888888898,
+    "std_dist": 119.25627723570027,
+    "std_time": 0.5602303318201861,
     "admin": "Bulawayo",
     "country": "Zimbabwe",
+    "city": "Bulawayo",
     "regions": [
+      "California",
+      "California",
+      "California",
       "California",
       "California",
       "California"
@@ -4264,17 +4321,26 @@
     "countries": [
       "United States",
       "United States",
+      "United States",
+      "United States",
+      "United States",
       "United States"
     ],
     "dists": [
       495.41444279222316,
       190.6255696701119,
-      197.0115378166702
+      197.0115378166702,
+      113.92604259692844,
+      265.89471401273397,
+      259.09070890402575
     ],
     "times": [
       7.333333333333343,
       7.800000000000008,
-      8.33333333333334
+      8.33333333333334,
+      7.566666666666675,
+      7.033333333333344,
+      6.566666666666679
     ]
   },
   "Boma, Congo (Kinshasa)": {
@@ -4466,13 +4532,17 @@
     ]
   },
   "Batna, Algeria": {
-    "mean_dist": 364.0263104916176,
-    "mean_time": 8.088888888888896,
-    "std_dist": 211.01018839521453,
-    "std_time": 0.4779069592801442,
+    "mean_dist": 354.7128978767045,
+    "mean_time": 8.183333333333339,
+    "std_dist": 195.4483843317671,
+    "std_time": 0.4483508877191135,
     "admin": "Batna",
     "country": "Algeria",
+    "city": "Batna",
     "regions": [
+      "California",
+      "California",
+      "California",
       "California",
       "California",
       "California"
@@ -4480,17 +4550,26 @@
     "countries": [
       "United States",
       "United States",
+      "United States",
+      "United States",
+      "United States",
       "United States"
     ],
     "dists": [
       630.8386500996623,
       114.87762047770462,
-      346.362660897486
+      346.362660897486,
+      135.16257599689598,
+      330.5080406055978,
+      570.5278391828803
     ],
     "times": [
       7.533333333333342,
       8.03333333333334,
-      8.700000000000005
+      8.700000000000005,
+      8.766666666666671,
+      8.266666666666673,
+      7.800000000000008
     ]
   },
   "Xai-Xai, Mozambique": {
@@ -4822,23 +4901,36 @@
     ]
   },
   "K\u016bst\u012b, Sudan": {
-    "mean_dist": 367.3391966541842,
-    "mean_time": 8.33333333333334,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 382.9546725655121,
+    "mean_time": 7.925000000000007,
+    "std_dist": 203.17984098962776,
+    "std_time": 0.6378675411086514,
     "admin": "White Nile",
     "country": "Sudan",
+    "city": "K\u016bst\u012b",
     "regions": [
-      "New South Wales"
+      "New South Wales",
+      "California",
+      "California",
+      "California"
     ],
     "countries": [
-      "Australia"
+      "Australia",
+      "United States",
+      "United States",
+      "United States"
     ],
     "dists": [
-      367.3391966541842
+      367.3391966541842,
+      200.34112220126545,
+      718.595363794254,
+      245.54300761234478
     ],
     "times": [
-      8.33333333333334
+      8.33333333333334,
+      7.1333333333333435,
+      7.500000000000009,
+      8.733333333333338
     ]
   },
   "Luxor, Egypt": {
@@ -5916,35 +6008,48 @@
     ]
   },
   "Divo, C\u00f4te D\u2019Ivoire": {
-    "mean_dist": 643.7379733513379,
-    "mean_time": 6.733333333333345,
-    "std_dist": 964.7010068376428,
-    "std_time": 2.1429470880593833,
+    "mean_dist": 434.20100464474683,
+    "mean_time": 5.880952380952396,
+    "std_dist": 768.5125792797721,
+    "std_time": 1.9239391752634365,
     "admin": "G\u00f4h-Djiboua",
     "country": "C\u00f4te D\u2019Ivoire",
+    "city": "Divo",
     "regions": [
       "New South Wales",
       "New South Wales",
       "New South Wales",
-      "Quebec"
+      "Quebec",
+      "California",
+      "California",
+      "California"
     ],
     "countries": [
       "Australia",
       "Australia",
       "Australia",
-      "Canada"
+      "Canada",
+      "United States",
+      "United States",
+      "United States"
     ],
     "dists": [
       127.0026891652051,
       64.64075094027011,
       69.20183518971282,
-      2314.1066181101637
+      2314.1066181101637,
+      183.88773872917227,
+      158.09523262664328,
+      122.47216775206074
     ],
     "times": [
       7.700000000000008,
       8.166666666666673,
       8.03333333333334,
-      3.033333333333358
+      3.033333333333358,
+      5.366666666666683,
+      4.733333333333352,
+      4.133333333333354
     ]
   },
   "Safi, Morocco": {
@@ -6192,23 +6297,36 @@
     ]
   },
   "Surt, Libya": {
-    "mean_dist": 189.90074151450833,
-    "mean_time": 8.800000000000004,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 278.62067387160414,
+    "mean_time": 7.858333333333341,
+    "std_dist": 99.26911529125653,
+    "std_time": 0.6755142074334493,
     "admin": "Surt",
     "country": "Libya",
+    "city": "Surt",
     "regions": [
+      "California",
+      "California",
+      "California",
       "California"
     ],
     "countries": [
+      "United States",
+      "United States",
+      "United States",
       "United States"
     ],
     "dists": [
-      189.90074151450833
+      189.90074151450833,
+      279.0717648180149,
+      205.1746860465431,
+      440.33550310735023
     ],
     "times": [
-      8.800000000000004
+      8.800000000000004,
+      8.100000000000007,
+      7.566666666666675,
+      6.966666666666677
     ]
   },
   "Goma, Congo (Kinshasa)": {
@@ -6398,23 +6516,36 @@
     ]
   },
   "Jinja, Uganda": {
-    "mean_dist": 136.34670402982692,
-    "mean_time": 7.766666666666675,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 182.80400077258355,
+    "mean_time": 7.025000000000011,
+    "std_dist": 48.22077876895722,
+    "std_time": 0.5479127059425901,
     "admin": "Jinja",
     "country": "Uganda",
+    "city": "Jinja",
     "regions": [
-      "New South Wales"
+      "New South Wales",
+      "California",
+      "California",
+      "California"
     ],
     "countries": [
-      "Australia"
+      "Australia",
+      "United States",
+      "United States",
+      "United States"
     ],
     "dists": [
-      136.34670402982692
+      136.34670402982692,
+      138.2682628141765,
+      205.72403188049654,
+      250.8770043658342
     ],
     "times": [
-      7.766666666666675
+      7.766666666666675,
+      7.266666666666676,
+      6.766666666666678,
+      6.300000000000013
     ]
   },
   "Ikare, Nigeria": {
@@ -6522,5 +6653,34 @@
     "countries": [],
     "dists": [],
     "times": []
+  },
+  "Inhambane, Mozambique": {
+    "mean_dist": 343.30972532540085,
+    "mean_time": 7.52222222222223,
+    "std_dist": 207.4038158837228,
+    "std_time": 0.4629481479111019,
+    "city": "Inhambane",
+    "admin": "Inhambane",
+    "country": "Mozambique",
+    "regions": [
+      "California",
+      "California",
+      "California"
+    ],
+    "countries": [
+      "United States",
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      215.23685094722333,
+      178.82369447014722,
+      635.8686305588319
+    ],
+    "times": [
+      8.100000000000007,
+      7.500000000000009,
+      6.966666666666677
+    ]
   }
 }
