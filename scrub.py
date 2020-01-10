@@ -29,7 +29,7 @@ def convert(fileInput, fileOutput):
             times = ['' if (i >= len(l['times'])) else str(x) for i,x in enumerate(l['times'])]
             regions = ['' if (i >= len(l['regions'])) else str(x) for i,x in enumerate(l['regions'])]
             countries = ['' if (i >= len(l['countries'])) else str(x) for i,x in enumerate(l['countries'])]
-            st = '%s\t%s\t%s\t%s\t%s\t%d\t' % (row, l['mean_dist'], l['std_dist'], l['mean_time'], l['std_time'], len(l['dists'])) + ('\t'.join(dists)) + ('\t'.join(times)) + ('\t'.join(regions)) + ('\t'.join(countries))
+            st = '%s\t%s\t%s\t%s\t%s\t%d\t' % (row, l['mean_dist'], l['std_dist'], l['mean_time'], l['std_time'], len(l['dists'])) + ('\t'.join(dists)) + '\t' + ('\t'.join(times)) + '\t' + ('\t'.join(regions)) + '\t' + ('\t'.join(countries))
             outputFile.write(st + '\n') #values row
         except:
             print('Error on %s' % row)
