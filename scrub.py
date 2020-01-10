@@ -38,3 +38,5 @@ for path in pathlist:
         with open(outfile, 'w') as data_file:
             json.dump(data, data_file, indent=2)
         os.remove(file)
+
+        subprocess.call(['./jsontocsv.py', outfile, outfile.replace('.json','.csv')])
