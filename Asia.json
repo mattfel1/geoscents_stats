@@ -1,9 +1,9 @@
 {
   "Kaohsiung, Taiwan": {
-    "mean_dist": 193.17188304250317,
-    "mean_time": 7.150000000000011,
-    "std_dist": 106.18405865566668,
-    "std_time": 1.0155731824388046,
+    "mean_dist": 186.77573316671763,
+    "mean_time": 7.446666666666677,
+    "std_dist": 95.831552126667,
+    "std_time": 1.0849679974799014,
     "admin": "Kaohsiung",
     "country": "Taiwan",
     "city": "Kaohsiung",
@@ -11,25 +11,29 @@
       "California",
       "California",
       "England",
-      "Central and Western"
+      "Central and Western",
+      "New York"
     ],
     "countries": [
       "United States",
       "United States",
       "United Kingdom",
-      "Hong Kong"
+      "Hong Kong",
+      "United States"
     ],
     "dists": [
       328.1306924787653,
       133.66186470649015,
       256.68639968603526,
-      54.208575298722074
+      54.208575298722074,
+      161.19113366357544
     ],
     "times": [
       5.800000000000015,
       8.466666666666672,
       7.700000000000008,
-      6.633333333333345
+      6.633333333333345,
+      8.633333333333338
     ]
   },
   "Siping, Jilin, China": {
@@ -1128,23 +1132,28 @@
     ]
   },
   "Hefei, Anhui, China": {
-    "mean_dist": 82.11235616993265,
-    "mean_time": 7.9000000000000075,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 574.3245691097692,
+    "mean_time": 8.050000000000008,
+    "std_dist": 492.2122129398366,
+    "std_time": 0.14999999999999947,
     "admin": "Anhui",
     "country": "China",
+    "city": "Hefei",
     "regions": [
-      "California"
+      "California",
+      "New York"
     ],
     "countries": [
+      "United States",
       "United States"
     ],
     "dists": [
-      82.11235616993265
+      82.11235616993265,
+      1066.5367820496058
     ],
     "times": [
-      7.9000000000000075
+      7.9000000000000075,
+      8.200000000000006
     ]
   },
   "Lucknow, Uttar Pradesh, India": {
@@ -4233,23 +4242,28 @@
     ]
   },
   "Sargodha, Pakistan": {
-    "mean_dist": 379.2372491905788,
-    "mean_time": 5.566666666666682,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 204.9312513113431,
+    "mean_time": 6.916666666666678,
+    "std_dist": 174.3059978792357,
+    "std_time": 1.3499999999999952,
     "admin": "Punjab",
     "country": "Pakistan",
+    "city": "Sargodha",
     "regions": [
-      "Ontario"
+      "Ontario",
+      "New York"
     ],
     "countries": [
-      "Canada"
+      "Canada",
+      "United States"
     ],
     "dists": [
-      379.2372491905788
+      379.2372491905788,
+      30.625253432107407
     ],
     "times": [
-      5.566666666666682
+      5.566666666666682,
+      8.266666666666673
     ]
   },
   "Patna, Bih\u0101r, India": {
@@ -5714,35 +5728,40 @@
     ]
   },
   "Tyumen\u2019, Tyumenskaya Oblast\u2019, Russia": {
-    "mean_dist": 1946.2051256499676,
-    "mean_time": 6.041666666666681,
-    "std_dist": 576.2699703197453,
-    "std_time": 1.7399513083863967,
+    "mean_dist": 1673.94409668613,
+    "mean_time": 6.393333333333347,
+    "std_dist": 749.7825915047949,
+    "std_time": 1.7078121156093846,
     "admin": "Tyumenskaya Oblast\u2019",
     "country": "Russia",
+    "city": "Tyumen\u2019",
     "regions": [
       "Michigan",
       "Michigan",
       "New South Wales",
-      "California"
+      "California",
+      "New York"
     ],
     "countries": [
       "United States",
       "United States",
       "Australia",
+      "United States",
       "United States"
     ],
     "dists": [
       1195.6890634066986,
       1719.1729134299185,
       2778.293998398108,
-      2091.6645273651447
+      2091.6645273651447,
+      584.89998083078
     ],
     "times": [
       3.46666666666669,
       7.10000000000001,
       5.533333333333349,
-      8.066666666666674
+      8.066666666666674,
+      7.800000000000008
     ]
   },
   "Naha, Japan": {
@@ -7189,24 +7208,28 @@
     "times": []
   },
   "B\u012bkaner, R\u0101jasth\u0101n, India": {
-    "mean_dist": 881.2860894021481,
-    "mean_time": 8.266666666666673,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 672.0517396837508,
+    "mean_time": 8.13333333333334,
+    "std_dist": 209.23434971839734,
+    "std_time": 0.13333333333333286,
     "admin": "R\u0101jasth\u0101n",
     "country": "India",
     "city": "B\u012bkaner",
     "regions": [
-      "California"
+      "California",
+      "New York"
     ],
     "countries": [
+      "United States",
       "United States"
     ],
     "dists": [
-      881.2860894021481
+      881.2860894021481,
+      462.81738996535347
     ],
     "times": [
-      8.266666666666673
+      8.266666666666673,
+      8.000000000000007
     ]
   },
   "Dhanb\u0101d, Jharkhand, India": {
@@ -8376,5 +8399,131 @@
     "countries": [],
     "dists": [],
     "times": []
+  },
+  "Kh\u016djand, Tajikistan": {
+    "mean_dist": 97.80086461436846,
+    "mean_time": 8.000000000000007,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Kh\u016djand",
+    "admin": "Sughd",
+    "country": "Tajikistan",
+    "regions": [
+      "New York"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      97.80086461436846
+    ],
+    "times": [
+      8.000000000000007
+    ]
+  },
+  "Shanghai, Shanghai, China": {
+    "mean_dist": 940.4866007222577,
+    "mean_time": 8.100000000000007,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Shanghai",
+    "admin": "Shanghai",
+    "country": "China",
+    "regions": [
+      "New York"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      940.4866007222577
+    ],
+    "times": [
+      8.100000000000007
+    ]
+  },
+  "Jamshedpur, Jharkhand, India": {
+    "mean_dist": 506.36131793158904,
+    "mean_time": 8.200000000000006,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Jamshedpur",
+    "admin": "Jharkhand",
+    "country": "India",
+    "regions": [
+      "New York"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      506.36131793158904
+    ],
+    "times": [
+      8.200000000000006
+    ]
+  },
+  "Cuttack, Odisha, India": {
+    "mean_dist": 1062.0749960100093,
+    "mean_time": 7.066666666666677,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Cuttack",
+    "admin": "Odisha",
+    "country": "India",
+    "regions": [
+      "New York"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      1062.0749960100093
+    ],
+    "times": [
+      7.066666666666677
+    ]
+  },
+  "Zaozhuang, Shandong, China": {
+    "mean_dist": 756.7592906186862,
+    "mean_time": 7.4333333333333425,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Zaozhuang",
+    "admin": "Shandong",
+    "country": "China",
+    "regions": [
+      "New York"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      756.7592906186862
+    ],
+    "times": [
+      7.4333333333333425
+    ]
+  },
+  "Changping, Beijing, China": {
+    "mean_dist": 999.4844424339258,
+    "mean_time": 7.1333333333333435,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Changping",
+    "admin": "Beijing",
+    "country": "China",
+    "regions": [
+      "New York"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      999.4844424339258
+    ],
+    "times": [
+      7.1333333333333435
+    ]
   }
 }
