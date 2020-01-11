@@ -926,10 +926,10 @@
     ]
   },
   "Alice Springs, Northern Territory, Australia": {
-    "mean_dist": 816.2246468693537,
-    "mean_time": 7.441666666666675,
-    "std_dist": 511.1210342773479,
-    "std_time": 0.4855552377319054,
+    "mean_dist": 906.2687430734734,
+    "mean_time": 7.300000000000009,
+    "std_dist": 491.352751482541,
+    "std_time": 0.518544972870133,
     "admin": "Northern Territory",
     "country": "Australia",
     "city": "Alice Springs",
@@ -937,25 +937,29 @@
       "Ontario",
       "Victoria",
       "California",
-      "New South Wales"
+      "New South Wales",
+      "California"
     ],
     "countries": [
       "Canada",
       "Australia",
       "United States",
-      "Australia"
+      "Australia",
+      "United States"
     ],
     "dists": [
       1330.1563347731435,
       661.977104230374,
       1224.7593329144743,
-      48.005815559422906
+      48.005815559422906,
+      1266.4451278899521
     ],
     "times": [
       6.700000000000012,
       7.333333333333343,
       7.966666666666674,
-      7.766666666666675
+      7.766666666666675,
+      6.733333333333345
     ]
   },
   "Kuantan, Malaysia": {
@@ -1673,31 +1677,36 @@
     ]
   },
   "Lae, Papua New Guinea": {
-    "mean_dist": 432.08077796600065,
-    "mean_time": 7.366666666666677,
-    "std_dist": 110.06246283161181,
-    "std_time": 1.0424330514074556,
+    "mean_dist": 537.5477069853441,
+    "mean_time": 6.866666666666678,
+    "std_dist": 206.04642351599716,
+    "std_time": 1.250999600319676,
     "admin": "Morobe",
     "country": "Papua New Guinea",
+    "city": "Lae",
     "regions": [
       "Victoria",
       "\u00cele-de-France",
+      "California",
       "California"
     ],
     "countries": [
       "Australia",
       "France",
+      "United States",
       "United States"
     ],
     "dists": [
       568.8498871165197,
       428.04897526251415,
-      299.34347151896833
+      299.34347151896833,
+      853.9484940433747
     ],
     "times": [
       5.966666666666681,
       7.666666666666675,
-      8.466666666666672
+      8.466666666666672,
+      5.366666666666683
     ]
   },
   "Majuro, Marshall Islands": {
@@ -2236,31 +2245,36 @@
     ]
   },
   "Butterworth, Malaysia": {
-    "mean_dist": 1423.024858693907,
-    "mean_time": 6.788888888888901,
-    "std_dist": 94.0055138857276,
-    "std_time": 0.7304657739508241,
+    "mean_dist": 1742.076729286563,
+    "mean_time": 6.675000000000012,
+    "std_dist": 558.5786120741724,
+    "std_time": 0.6626441143043671,
     "admin": "Pulau Pinang",
     "country": "Malaysia",
+    "city": "Butterworth",
     "regions": [
       "Victoria",
       "Victoria",
-      "Queensland"
+      "Queensland",
+      "California"
     ],
     "countries": [
       "Australia",
       "Australia",
-      "Australia"
+      "Australia",
+      "United States"
     ],
     "dists": [
       1386.134038988274,
       1552.0815497411136,
-      1330.8589873523333
+      1330.8589873523333,
+      2699.2323410645313
     ],
     "times": [
       7.800000000000008,
       6.466666666666679,
-      6.100000000000014
+      6.100000000000014,
+      6.333333333333346
     ]
   },
   "Muar, Malaysia": {
@@ -2541,23 +2555,28 @@
     ]
   },
   "Wollongong, New South Wales, Australia": {
-    "mean_dist": 222.94502460692112,
-    "mean_time": 7.166666666666677,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 288.5151682656318,
+    "mean_time": 6.150000000000014,
+    "std_dist": 65.57014365871068,
+    "std_time": 1.016666666666663,
     "admin": "New South Wales",
     "country": "Australia",
+    "city": "Wollongong",
     "regions": [
-      "\u00cele-de-France"
+      "\u00cele-de-France",
+      "California"
     ],
     "countries": [
-      "France"
+      "France",
+      "United States"
     ],
     "dists": [
-      222.94502460692112
+      222.94502460692112,
+      354.0853119243425
     ],
     "times": [
-      7.166666666666677
+      7.166666666666677,
+      5.133333333333351
     ]
   },
   "Bekasi, Indonesia": {
@@ -3593,10 +3612,10 @@
     ]
   },
   "Christchurch, New Zealand": {
-    "mean_dist": 385.5956572809986,
-    "mean_time": 7.740000000000007,
-    "std_dist": 304.7415558125389,
-    "std_time": 0.1878533707147376,
+    "mean_dist": 407.6493567302153,
+    "mean_time": 7.683333333333342,
+    "std_dist": 282.5267093500852,
+    "std_time": 0.213220456248838,
     "admin": "Canterbury",
     "country": "New Zealand",
     "city": "Christchurch",
@@ -3605,12 +3624,14 @@
       "Victoria",
       "Victoria",
       "California",
+      "California",
       "California"
     ],
     "countries": [
       "France",
       "Australia",
       "Australia",
+      "United States",
       "United States",
       "United States"
     ],
@@ -3619,14 +3640,16 @@
       776.8058257141897,
       39.491370976961356,
       725.1872479668151,
-      160.19404617217123
+      160.19404617217123,
+      517.9178539762989
     ],
     "times": [
       7.700000000000008,
       7.933333333333341,
       7.966666666666674,
       7.466666666666676,
-      7.633333333333342
+      7.633333333333342,
+      7.400000000000009
     ]
   },
   "George Town, Malaysia": {
@@ -6442,10 +6465,10 @@
     ]
   },
   "Moranbah, Queensland, Australia": {
-    "mean_dist": 489.32482095554957,
-    "mean_time": 6.991666666666677,
-    "std_dist": 431.4183505695818,
-    "std_time": 0.1421560175769327,
+    "mean_dist": 459.179138352275,
+    "mean_time": 6.726666666666678,
+    "std_dist": 390.55407216544586,
+    "std_time": 0.54503822495919,
     "admin": "Queensland",
     "country": "Australia",
     "city": "Moranbah",
@@ -6453,25 +6476,29 @@
       "Victoria",
       "New South Wales",
       "Victoria",
-      "Victoria"
+      "Victoria",
+      "California"
     ],
     "countries": [
       "Australia",
       "Australia",
       "Australia",
-      "Australia"
+      "Australia",
+      "United States"
     ],
     "dists": [
       183.77946631346467,
       446.8739788694754,
       120.7473676095893,
-      1205.8984710296688
+      1205.8984710296688,
+      338.5964079391769
     ],
     "times": [
       6.833333333333345,
       6.866666666666678,
       7.1333333333333435,
-      7.1333333333333435
+      7.1333333333333435,
+      5.666666666666682
     ]
   },
   "Batticaloa, Sri Lanka": {
@@ -6843,27 +6870,32 @@
     ]
   },
   "Watampone, Sulawesi Selatan, Indonesia": {
-    "mean_dist": 1680.0836547725623,
-    "mean_time": 6.066666666666681,
-    "std_dist": 51.59034235670083,
-    "std_time": 2.2333333333333254,
+    "mean_dist": 1343.0903544845632,
+    "mean_time": 6.055555555555569,
+    "std_dist": 478.4384437880343,
+    "std_time": 1.823576732349206,
     "admin": "Sulawesi Selatan",
     "country": "Indonesia",
+    "city": "Watampone",
     "regions": [
       "Michigan",
-      "Michigan"
+      "Michigan",
+      "California"
     ],
     "countries": [
+      "United States",
       "United States",
       "United States"
     ],
     "dists": [
       1628.4933124158615,
-      1731.6739971292632
+      1731.6739971292632,
+      669.1037539085652
     ],
     "times": [
       8.300000000000006,
-      3.8333333333333552
+      3.8333333333333552,
+      6.033333333333347
     ]
   },
   "Palembang, Sumatera Selatan, Indonesia": {
