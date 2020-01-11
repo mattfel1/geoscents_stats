@@ -23,3 +23,9 @@ This repository contains statistics for each city in the game, organized by map.
 The dists, times, regions, and countries lists are in-order (i.e. the n'th element in each correspond to a single guess by a player)
 
 The csv files are generated from the json files and are sorted based on `mean_dist`.  They contain an extra field, `num_guesses`, which counts how many elements their are in the `dists`/`times`/`regions`/`countries` fields (i.e. how many datapoints there are on that city).
+
+The file `metadata.json` reports basic statistics for what you will find in each map's json.  Specifically, it contains:
+* `Entry: String` - Map name
+  * `num_clicks: Int` - Number of unique click events for that map (i.e. one player making one guess adds one to this count)
+  * `num_cities: Int` - Number of cities containing data for this map (should not change once all cities in the game have been played at least once)
+  * `num_clicks_per_city: Float` - num_clicks / num_cities
