@@ -101,5 +101,5 @@ for path in pathlist:
 
 
 with open('metadata.json', 'w') as data_file:
-    json.dump(metadat, data_file, indent=2)
+    json.dump(metadata, data_file, indent=2)
 
