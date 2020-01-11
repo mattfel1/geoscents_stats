@@ -57,6 +57,7 @@ def convert(fileInput, fileOutput):
 
 pathlist = Path('.').glob('**/*_guesses')
 cache = {'127.0.0.1': ["Unknown", "Unknown"]}
+metadata = {}
 
 for path in pathlist:
     # because path is object not string
@@ -64,11 +65,15 @@ for path in pathlist:
     print(file)
     
     with open(file) as json_file:
+        num_clicks = 0
+        num_cities = 0
         data = json.load(json_file)
         for entry in data:
+            num_cities = num_cities + 1
             data[entry]['regions'] = []
             data[entry]['countries'] = []
             for ip in data[entry]['ips']:
+                num_clicks = num_clicks + 1
                 ip4 = '.'.join(re.split(':|\.',ip)[-4:])
                 if (ip4 in cache):
                     data[entry]['regions'].append(cache[ip4][0])
@@ -85,8 +90,16 @@ for path in pathlist:
             data[entry]['dists'] = data[entry].pop('dists',None)
             data[entry]['times'] = data[entry].pop('times',None)
         outfile = file.replace('.','').replace(' ','').replace('_guesses','') + '.json'
+        mapname = outfile.replace('.json','')
+        metadata[mapname] = {'num_cities': num_cities, 'num_clicks': num_clicks, 'num_clicks_per_city': num_clicks/num_cities}
         with open(outfile, 'w') as data_file:
             json.dump(data, data_file, indent=2)
         os.remove(file)
 
         convert(outfile, outfile.replace('.json','.csv'))
+
+
+
+with open('metadata.json', 'w') as data_file:
+    json.dump(metadat, data_file, indent=2)
+
