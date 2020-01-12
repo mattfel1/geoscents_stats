@@ -64,10 +64,25 @@
     ]
   },
   "Maracay, Venezuela": {
-    "regions": [],
-    "countries": [],
-    "dists": [],
-    "times": []
+    "mean_dist": 213.39422231830432,
+    "mean_time": 8.23333333333334,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Maracay",
+    "admin": "Aragua",
+    "country": "Venezuela",
+    "regions": [
+      "V\u00e4sterbotten"
+    ],
+    "countries": [
+      "Sweden"
+    ],
+    "dists": [
+      213.39422231830432
+    ],
+    "times": [
+      8.23333333333334
+    ]
   },
   "Trujillo, Peru": {
     "mean_dist": 778.3288327722936,
@@ -639,10 +654,10 @@
     ]
   },
   "Willemstad, Cura\u00e7ao": {
-    "mean_dist": 328.3499569072763,
-    "mean_time": 7.350000000000009,
-    "std_dist": 380.9175051384642,
-    "std_time": 1.3158225142050415,
+    "mean_dist": 291.4570738667148,
+    "mean_time": 7.485714285714295,
+    "std_dist": 364.0554190004873,
+    "std_time": 1.2627580223974981,
     "admin": "",
     "country": "Cura\u00e7ao",
     "city": "Willemstad",
@@ -652,7 +667,8 @@
       "New South Wales",
       "Saxony",
       "California",
-      "California"
+      "California",
+      "V\u00e4sterbotten"
     ],
     "countries": [
       "United States",
@@ -660,7 +676,8 @@
       "Australia",
       "Germany",
       "United States",
-      "United States"
+      "United States",
+      "Sweden"
     ],
     "dists": [
       25.13309846041277,
@@ -668,7 +685,8 @@
       14.948858201608504,
       914.9208097549404,
       92.53264410339342,
-      110.98868290852239
+      110.98868290852239,
+      70.09977562334569
     ],
     "times": [
       7.533333333333342,
@@ -676,7 +694,8 @@
       8.833333333333337,
       4.666666666666686,
       7.633333333333342,
-      8.266666666666673
+      8.266666666666673,
+      8.300000000000006
     ]
   },
   "Guayaquil, Ecuador": {
@@ -1767,31 +1786,36 @@
     ]
   },
   "Neiva, Colombia": {
-    "mean_dist": 291.3211343555228,
-    "mean_time": 8.100000000000007,
-    "std_dist": 66.84815177160574,
-    "std_time": 0.23726840560069498,
+    "mean_dist": 285.6576176966055,
+    "mean_time": 8.23333333333334,
+    "std_dist": 58.717397841672344,
+    "std_time": 0.30912061651652234,
     "admin": "Huila",
     "country": "Colombia",
+    "city": "Neiva",
     "regions": [
       "New South Wales",
       "New South Wales",
-      "California"
+      "California",
+      "V\u00e4sterbotten"
     ],
     "countries": [
       "Australia",
       "Australia",
-      "United States"
+      "United States",
+      "Sweden"
     ],
     "dists": [
       257.4410036370188,
       231.8274659986186,
-      384.6949334309309
+      384.6949334309309,
+      268.66706771985355
     ],
     "times": [
       7.9000000000000075,
       7.966666666666674,
-      8.433333333333339
+      8.433333333333339,
+      8.633333333333338
     ]
   },
   "Belmopan, Belize": {
@@ -2023,27 +2047,32 @@
     ]
   },
   "Sucre, Bolivia": {
-    "mean_dist": 408.6211188356326,
-    "mean_time": 7.20000000000001,
-    "std_dist": 221.64118969221465,
-    "std_time": 0.8333333333333304,
+    "mean_dist": 356.7087559903036,
+    "mean_time": 7.51111111111112,
+    "std_dist": 195.29379102049572,
+    "std_time": 0.8102735401557541,
     "admin": "Chuquisaca",
     "country": "Bolivia",
+    "city": "Sucre",
     "regions": [
       "New South Wales",
-      "Ontario"
+      "Ontario",
+      "V\u00e4sterbotten"
     ],
     "countries": [
       "Australia",
-      "Canada"
+      "Canada",
+      "Sweden"
     ],
     "dists": [
       186.97992914341796,
-      630.2623085278473
+      630.2623085278473,
+      252.88403029964545
     ],
     "times": [
       8.03333333333334,
-      6.36666666666668
+      6.36666666666668,
+      8.13333333333334
     ]
   },
   "Port-au-Prince, Haiti": {
@@ -2825,23 +2854,28 @@
     ]
   },
   "Puerto Maldonado, Peru": {
-    "mean_dist": 853.2740774273802,
-    "mean_time": 7.4333333333333425,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 895.7431719529118,
+    "mean_time": 7.816666666666674,
+    "std_dist": 42.4690945255316,
+    "std_time": 0.38333333333333197,
     "admin": "Madre de Dios",
     "country": "Peru",
+    "city": "Puerto Maldonado",
     "regions": [
-      "New South Wales"
+      "New South Wales",
+      "V\u00e4sterbotten"
     ],
     "countries": [
-      "Australia"
+      "Australia",
+      "Sweden"
     ],
     "dists": [
-      853.2740774273802
+      853.2740774273802,
+      938.2122664784434
     ],
     "times": [
-      7.4333333333333425
+      7.4333333333333425,
+      8.200000000000006
     ]
   },
   "Cruzeiro do Sul, Acre, Brazil": {
@@ -4044,23 +4078,28 @@
     "times": []
   },
   "Riobamba, Ecuador": {
-    "mean_dist": 123.56802581563744,
-    "mean_time": 8.800000000000004,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 70.62942733023155,
+    "mean_time": 8.483333333333338,
+    "std_dist": 52.9385984854059,
+    "std_time": 0.31666666666666554,
     "admin": "Chimborazo",
     "country": "Ecuador",
+    "city": "Riobamba",
     "regions": [
-      "California"
+      "California",
+      "V\u00e4sterbotten"
     ],
     "countries": [
-      "United States"
+      "United States",
+      "Sweden"
     ],
     "dists": [
-      123.56802581563744
+      123.56802581563744,
+      17.69082884482565
     ],
     "times": [
-      8.800000000000004
+      8.800000000000004,
+      8.166666666666673
     ]
   },
   "Juliaca, Peru": {
@@ -4526,30 +4565,35 @@
     ]
   },
   "Coquimbo, Chile": {
-    "mean_dist": 729.3492687854334,
-    "mean_time": 7.333333333333343,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 523.1510991316457,
+    "mean_time": 7.833333333333341,
+    "std_dist": 206.19816965378783,
+    "std_time": 0.4999999999999982,
     "admin": "Coquimbo",
     "country": "Chile",
+    "city": "Coquimbo",
     "regions": [
-      "New South Wales"
+      "New South Wales",
+      "V\u00e4sterbotten"
     ],
     "countries": [
-      "Australia"
+      "Australia",
+      "Sweden"
     ],
     "dists": [
-      729.3492687854334
+      729.3492687854334,
+      316.95292947785777
     ],
     "times": [
-      7.333333333333343
+      7.333333333333343,
+      8.33333333333334
     ]
   },
   "Ban\u00ed, Dominican Republic": {
-    "mean_dist": 208.79343335494417,
-    "mean_time": 7.193333333333344,
-    "std_dist": 286.1874319381299,
-    "std_time": 1.5104671830632714,
+    "mean_dist": 182.4171199542388,
+    "mean_time": 7.333333333333343,
+    "std_dist": 267.8269118463999,
+    "std_time": 1.413951646718955,
     "admin": "Valdesia",
     "country": "Dominican Republic",
     "city": "Ban\u00ed",
@@ -4558,28 +4602,32 @@
       "Cordoba",
       "California",
       "California",
-      "California"
+      "California",
+      "V\u00e4sterbotten"
     ],
     "countries": [
       "Australia",
       "Argentina",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Sweden"
     ],
     "dists": [
       40.556617631529214,
       780.3243688649926,
       89.46595605130356,
       68.7363423411787,
-      64.8838818857168
+      64.8838818857168,
+      50.53555295071191
     ],
     "times": [
       7.6000000000000085,
       4.266666666666687,
       8.433333333333339,
       8.23333333333334,
-      7.4333333333333425
+      7.4333333333333425,
+      8.03333333333334
     ]
   },
   "Vilhena, Rond\u00f4nia, Brazil": {
@@ -5560,10 +5608,25 @@
     "times": []
   },
   "El Carmen de Bol\u00edvar, Colombia": {
-    "regions": [],
-    "countries": [],
-    "dists": [],
-    "times": []
+    "mean_dist": 750.3777610989966,
+    "mean_time": 7.466666666666676,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "El Carmen de Bol\u00edvar",
+    "admin": "Bol\u00edvar",
+    "country": "Colombia",
+    "regions": [
+      "V\u00e4sterbotten"
+    ],
+    "countries": [
+      "Sweden"
+    ],
+    "dists": [
+      750.3777610989966
+    ],
+    "times": [
+      7.466666666666676
+    ]
   },
   "Temuco, Chile": {
     "regions": [],
@@ -6177,24 +6240,28 @@
     ]
   },
   "Formosa, Argentina": {
-    "mean_dist": 1208.1894007877997,
-    "mean_time": 7.400000000000009,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 1059.2527899815811,
+    "mean_time": 7.333333333333343,
+    "std_dist": 148.9366108062186,
+    "std_time": 0.06666666666666643,
     "city": "Formosa",
     "admin": "Formosa",
     "country": "Argentina",
     "regions": [
-      "Leinster"
+      "Leinster",
+      "V\u00e4sterbotten"
     ],
     "countries": [
-      "Ireland"
+      "Ireland",
+      "Sweden"
     ],
     "dists": [
-      1208.1894007877997
+      1208.1894007877997,
+      910.3161791753625
     ],
     "times": [
-      7.400000000000009
+      7.400000000000009,
+      7.266666666666676
     ]
   },
   "Montero, Bolivia": {
