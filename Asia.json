@@ -819,31 +819,36 @@
     ]
   },
   "Al Quds, West Bank": {
-    "mean_dist": 86.29488584146436,
-    "mean_time": 4.822222222222241,
-    "std_dist": 10.62952964297126,
-    "std_time": 2.5330896568965926,
+    "mean_dist": 140.4967826692566,
+    "mean_time": 5.33333333333335,
+    "std_dist": 94.33067917976102,
+    "std_time": 2.365610092790245,
     "admin": "",
     "country": "West Bank",
+    "city": "Al Quds",
     "regions": [
       "California",
       "Ontario",
-      "Ontario"
+      "Ontario",
+      "Pennsylvania"
     ],
     "countries": [
       "United States",
       "Canada",
-      "Canada"
+      "Canada",
+      "United States"
     ],
     "dists": [
       100.73263774756661,
       75.45056638870348,
-      82.70145338812301
+      82.70145338812301,
+      303.10247315263325
     ],
     "times": [
       8.200000000000006,
       2.100000000000028,
-      4.166666666666687
+      4.166666666666687,
+      6.866666666666678
     ]
   },
   "Voronezh, Voronezhskaya Oblast\u2019, Russia": {
@@ -1611,19 +1616,23 @@
     ]
   },
   "Jiujiang, Jiangxi, China": {
-    "mean_dist": 996.9486869254798,
-    "mean_time": 7.83333333333334,
-    "std_dist": 85.91717376365575,
-    "std_time": 0.6277531951922438,
+    "mean_dist": 1084.607843011791,
+    "mean_time": 7.546666666666676,
+    "std_dist": 229.91323635300213,
+    "std_time": 0.6108645967442808,
     "admin": "Jiangxi",
     "country": "China",
     "city": "Jiujiang",
     "regions": [
       "California",
       "California",
-      "California"
+      "California",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
+      "United States",
       "United States",
       "United States",
       "United States"
@@ -1631,12 +1640,16 @@
     "dists": [
       880.6354815667792,
       1085.5366848355761,
-      1024.6738943740843
+      1024.6738943740843,
+      1519.843380964543,
+      912.3497733179731
     ],
     "times": [
       7.233333333333343,
       7.566666666666675,
-      8.700000000000005
+      8.700000000000005,
+      6.933333333333344,
+      7.30000000000001
     ]
   },
   "Jeonju, Korea, South": {
@@ -2352,23 +2365,44 @@
     ]
   },
   "Bengal\u016bru, Karn\u0101taka, India": {
-    "mean_dist": 553.3201542338085,
-    "mean_time": 8.066666666666674,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 991.5270870019457,
+    "mean_time": 7.1555555555555665,
+    "std_dist": 667.3594937975357,
+    "std_time": 0.7179359990733354,
     "admin": "Karn\u0101taka",
     "country": "India",
+    "city": "Bengal\u016bru",
     "regions": [
-      "California"
+      "California",
+      "Pennsylvania",
+      "Pennsylvania",
+      "North Carolina",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
+      "United States",
+      "United States",
+      "United States",
+      "United States",
       "United States"
     ],
     "dists": [
-      553.3201542338085
+      553.3201542338085,
+      1459.1691328445813,
+      206.11774787127698,
+      1779.6723204163975,
+      1690.612730321709,
+      260.27043632390075
     ],
     "times": [
-      8.066666666666674
+      8.066666666666674,
+      6.16666666666668,
+      7.6000000000000085,
+      7.4333333333333425,
+      6.2000000000000135,
+      7.466666666666676
     ]
   },
   "Cheboksary, Chuvashiya, Russia": {
@@ -2400,10 +2434,10 @@
     ]
   },
   "Jeddah, Saudi Arabia": {
-    "mean_dist": 646.3738820926426,
-    "mean_time": 5.841666666666681,
-    "std_dist": 594.2620718047912,
-    "std_time": 2.669256554839852,
+    "mean_dist": 589.2937838942175,
+    "mean_time": 5.973333333333348,
+    "std_dist": 545.0807112188648,
+    "std_time": 2.4137476624075154,
     "admin": "Makkah al Mukarramah",
     "country": "Saudi Arabia",
     "city": "Jeddah",
@@ -2415,7 +2449,9 @@
       "Pennsylvania",
       "California",
       "California",
-      "Saxony"
+      "Saxony",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
       "United States",
@@ -2425,7 +2461,9 @@
       "United States",
       "United States",
       "United States",
-      "Germany"
+      "Germany",
+      "United States",
+      "United States"
     ],
     "dists": [
       499.22157817922994,
@@ -2435,7 +2473,9 @@
       690.8736175998553,
       71.48752706585287,
       110.36259844373063,
-      429.26198902976677
+      429.26198902976677,
+      272.5849497487772,
+      449.36183245225743
     ],
     "times": [
       7.266666666666676,
@@ -2445,7 +2485,9 @@
       8.23333333333334,
       8.23333333333334,
       8.066666666666674,
-      3.4000000000000234
+      3.4000000000000234,
+      5.966666666666681,
+      7.033333333333344
     ]
   },
   "Andijon, Uzbekistan": {
@@ -2513,23 +2555,32 @@
     ]
   },
   "Ivanovo, Ivanovskaya Oblast\u2019, Russia": {
-    "mean_dist": 3206.7996929865426,
-    "mean_time": 6.400000000000013,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 1500.9284296795504,
+    "mean_time": 6.933333333333344,
+    "std_dist": 1207.7223536446934,
+    "std_time": 0.38586123009300616,
     "admin": "Ivanovskaya Oblast\u2019",
     "country": "Russia",
+    "city": "Ivanovo",
     "regions": [
-      "Ontario"
+      "Ontario",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
-      "Canada"
+      "Canada",
+      "United States",
+      "United States"
     ],
     "dists": [
-      3206.7996929865426
+      3206.7996929865426,
+      721.4254202533157,
+      574.5601757987932
     ],
     "times": [
-      6.400000000000013
+      6.400000000000013,
+      7.10000000000001,
+      7.30000000000001
     ]
   },
   "Ulaanbaatar, Mongolia": {
@@ -3055,27 +3106,36 @@
     ]
   },
   "Kerm\u0101n, Iran": {
-    "mean_dist": 530.4541621305336,
-    "mean_time": 4.18333333333335,
-    "std_dist": 342.0171080334648,
-    "std_time": 3.983333333333324,
+    "mean_dist": 533.6605462053036,
+    "mean_time": 4.2166666666666845,
+    "std_dist": 275.39220572688777,
+    "std_time": 3.4635001563928465,
     "admin": "Kerm\u0101n",
     "country": "Iran",
+    "city": "Kerm\u0101n",
     "regions": [
       "New York",
-      "England"
+      "England",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
       "United States",
-      "United Kingdom"
+      "United Kingdom",
+      "United States",
+      "United States"
     ],
     "dists": [
       872.4712701639984,
-      188.4370540970688
+      188.4370540970688,
+      723.1072856410864,
+      350.62657491906054
     ],
     "times": [
       8.166666666666673,
-      0.2000000000000255
+      0.2000000000000255,
+      1.4000000000000266,
+      7.10000000000001
     ]
   },
   "Kunming, Yunnan, China": {
@@ -3543,27 +3603,36 @@
     ]
   },
   "Tashkent, Uzbekistan": {
-    "mean_dist": 163.10325112008127,
-    "mean_time": 7.016666666666677,
-    "std_dist": 59.23224877708045,
-    "std_time": 0.31666666666666554,
+    "mean_dist": 657.381636770308,
+    "mean_time": 5.8583333333333485,
+    "std_dist": 667.0173523276377,
+    "std_time": 1.2132085558550887,
     "admin": "Toshkent",
     "country": "Uzbekistan",
+    "city": "Tashkent",
     "regions": [
       "New York",
-      "California"
+      "California",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
+      "United States",
       "United States",
       "United States"
     ],
     "dists": [
       222.33549989716172,
-      103.87100234300082
+      103.87100234300082,
+      521.030501802315,
+      1782.2895430387543
     ],
     "times": [
       6.700000000000012,
-      7.333333333333343
+      7.333333333333343,
+      4.30000000000002,
+      5.100000000000017
     ]
   },
   "Bryansk, Bryanskaya Oblast\u2019, Russia": {
@@ -3720,10 +3789,10 @@
     ]
   },
   "Dubai, United Arab Emirates": {
-    "mean_dist": 391.74507123950343,
-    "mean_time": 7.166666666666676,
-    "std_dist": 379.86054678513096,
-    "std_time": 1.0934146311237778,
+    "mean_dist": 402.8050732873029,
+    "mean_time": 6.961904761904772,
+    "std_dist": 352.7244580457912,
+    "std_time": 1.1297462239867129,
     "admin": "Dubayy",
     "country": "United Arab Emirates",
     "city": "Dubai",
@@ -3733,7 +3802,8 @@
       "New South Wales",
       "California",
       "Stockholm",
-      "Andalusia"
+      "Andalusia",
+      "Pennsylvania"
     ],
     "countries": [
       "United States",
@@ -3741,7 +3811,8 @@
       "Australia",
       "United States",
       "Sweden",
-      "Spain"
+      "Spain",
+      "United States"
     ],
     "dists": [
       63.27283421292034,
@@ -3749,7 +3820,8 @@
       175.9846793559883,
       205.81169713526447,
       66.87731335747999,
-      833.6487085889177
+      833.6487085889177,
+      469.16508557409935
     ],
     "times": [
       7.6000000000000085,
@@ -3757,7 +3829,8 @@
       7.1333333333333435,
       8.200000000000006,
       7.4333333333333425,
-      7.800000000000008
+      7.800000000000008,
+      5.7333333333333485
     ]
   },
   "Z\u0101hed\u0101n, Iran": {
@@ -3829,23 +3902,32 @@
     ]
   },
   "Saidu Sharif, Pakistan": {
-    "mean_dist": 872.9290550080908,
-    "mean_time": 8.13333333333334,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 568.0771370551155,
+    "mean_time": 7.52222222222223,
+    "std_dist": 218.38303576055762,
+    "std_time": 0.4374448818895435,
     "admin": "Khyber Pakhtunkhwa",
     "country": "Pakistan",
+    "city": "Saidu Sharif",
     "regions": [
-      "New York"
+      "New York",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
+      "United States",
       "United States"
     ],
     "dists": [
-      872.9290550080908
+      872.9290550080908,
+      372.80603188574196,
+      458.49632427151363
     ],
     "times": [
-      8.13333333333334
+      8.13333333333334,
+      7.30000000000001,
+      7.1333333333333435
     ]
   },
   "Tab\u016bk, Saudi Arabia": {
@@ -3973,35 +4055,48 @@
     ]
   },
   "Antalya, Turkey": {
-    "mean_dist": 410.5568158011817,
-    "mean_time": 7.550000000000008,
-    "std_dist": 348.40855032419444,
-    "std_time": 0.5590169943749455,
+    "mean_dist": 396.78199278559634,
+    "mean_time": 7.128571428571438,
+    "std_dist": 310.1482779035289,
+    "std_time": 0.8525272553346492,
     "admin": "Antalya",
     "country": "Turkey",
+    "city": "Antalya",
     "regions": [
       "New York",
       "Stockholm",
       "New South Wales",
-      "California"
+      "California",
+      "Pennsylvania",
+      "Pennsylvania",
+      "North Carolina"
     ],
     "countries": [
       "United States",
       "Sweden",
       "Australia",
+      "United States",
+      "United States",
+      "United States",
       "United States"
     ],
     "dists": [
       469.39719218065096,
       20.441396968660435,
       205.36400859127826,
-      947.0246654641371
+      947.0246654641371,
+      654.9374946243408,
+      428.9959037798225,
+      51.3132878902841
     ],
     "times": [
       7.733333333333341,
       6.600000000000012,
       7.833333333333341,
-      8.03333333333334
+      8.03333333333334,
+      5.366666666666683,
+      7.066666666666677,
+      7.266666666666676
     ]
   },
   "Baku, Azerbaijan": {
@@ -4130,27 +4225,36 @@
     ]
   },
   "Ulsan, Korea, South": {
-    "mean_dist": 193.41400046185515,
-    "mean_time": 6.300000000000013,
-    "std_dist": 10.062508674299877,
-    "std_time": 0.5999999999999979,
+    "mean_dist": 183.74039235095762,
+    "mean_time": 7.1750000000000105,
+    "std_dist": 50.149380198587004,
+    "std_time": 0.978199877325689,
     "admin": "Ulsan",
     "country": "Korea, South",
+    "city": "Ulsan",
     "regions": [
       "Ontario",
-      "England"
+      "England",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
       "Canada",
-      "United Kingdom"
+      "United Kingdom",
+      "United States",
+      "United States"
     ],
     "dists": [
       183.3514917875553,
-      203.47650913615504
+      203.47650913615504,
+      242.925401711064,
+      105.20816676905605
     ],
     "times": [
       6.900000000000011,
-      5.700000000000015
+      5.700000000000015,
+      7.9000000000000075,
+      8.200000000000006
     ]
   },
   "Wusong, Anhui, China": {
@@ -4917,23 +5021,32 @@
     ]
   },
   "Far\u012bd\u0101b\u0101d, Hary\u0101na, India": {
-    "mean_dist": 1217.3579777669072,
-    "mean_time": 8.03333333333334,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 934.2005480598976,
+    "mean_time": 7.311111111111121,
+    "std_dist": 238.08814994289145,
+    "std_time": 0.5724109721062761,
     "admin": "Hary\u0101na",
     "country": "India",
+    "city": "Far\u012bd\u0101b\u0101d",
     "regions": [
-      "California"
+      "California",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
+      "United States",
       "United States"
     ],
     "dists": [
-      1217.3579777669072
+      1217.3579777669072,
+      950.404447001871,
+      634.8392194109144
     ],
     "times": [
-      8.03333333333334
+      8.03333333333334,
+      7.266666666666676,
+      6.633333333333345
     ]
   },
   "Taoyuan District, Taiwan": {
@@ -4997,10 +5110,29 @@
     ]
   },
   "Yangzhou, Jiangsu, China": {
-    "regions": [],
-    "countries": [],
-    "dists": [],
-    "times": []
+    "mean_dist": 712.1033823881468,
+    "mean_time": 7.283333333333343,
+    "std_dist": 328.46853650166446,
+    "std_time": 0.5166666666666648,
+    "city": "Yangzhou",
+    "admin": "Jiangsu",
+    "country": "China",
+    "regions": [
+      "Pennsylvania",
+      "Pennsylvania"
+    ],
+    "countries": [
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      383.6348458864823,
+      1040.5719188898113
+    ],
+    "times": [
+      6.766666666666678,
+      7.800000000000008
+    ]
   },
   "Ahv\u0101z, Iran": {
     "mean_dist": 609.3511127086199,
@@ -5023,27 +5155,36 @@
     ]
   },
   "Amritsar, Punjab, India": {
-    "mean_dist": 833.1885594721398,
-    "mean_time": 5.43333333333335,
-    "std_dist": 155.95173783027764,
-    "std_time": 0.7333333333333307,
+    "mean_dist": 751.9156720651196,
+    "mean_time": 5.808333333333348,
+    "std_dist": 307.2680690568657,
+    "std_time": 0.7146774719332387,
     "admin": "Punjab",
     "country": "India",
+    "city": "Amritsar",
     "regions": [
       "California",
-      "Michigan"
+      "Michigan",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
+      "United States",
       "United States",
       "United States"
     ],
     "dists": [
       989.1402973024174,
-      677.2368216418621
+      677.2368216418621,
+      1059.6104228192162,
+      281.6751464969824
     ],
     "times": [
       4.700000000000019,
-      6.16666666666668
+      6.16666666666668,
+      6.633333333333345,
+      5.7333333333333485
     ]
   },
   "Weifang, Shandong, China": {
@@ -5728,10 +5869,10 @@
     ]
   },
   "Tyumen\u2019, Tyumenskaya Oblast\u2019, Russia": {
-    "mean_dist": 1673.94409668613,
-    "mean_time": 6.393333333333347,
-    "std_dist": 749.7825915047949,
-    "std_time": 1.7078121156093846,
+    "mean_dist": 1532.0531914769135,
+    "mean_time": 6.483333333333346,
+    "std_dist": 664.8710697885531,
+    "std_time": 1.3650396819628796,
     "admin": "Tyumenskaya Oblast\u2019",
     "country": "Russia",
     "city": "Tyumen\u2019",
@@ -5740,12 +5881,18 @@
       "Michigan",
       "New South Wales",
       "California",
-      "New York"
+      "New York",
+      "Pennsylvania",
+      "Pennsylvania",
+      "North Carolina"
     ],
     "countries": [
       "United States",
       "United States",
       "Australia",
+      "United States",
+      "United States",
+      "United States",
       "United States",
       "United States"
     ],
@@ -5754,14 +5901,20 @@
       1719.1729134299185,
       2778.293998398108,
       2091.6645273651447,
-      584.89998083078
+      584.89998083078,
+      1259.384476502982,
+      836.6097920159277,
+      1790.7107798657464
     ],
     "times": [
       3.46666666666669,
       7.10000000000001,
       5.533333333333349,
       8.066666666666674,
-      7.800000000000008
+      7.800000000000008,
+      7.000000000000011,
+      6.36666666666668,
+      6.533333333333346
     ]
   },
   "Naha, Japan": {
@@ -6333,10 +6486,10 @@
     ]
   },
   "Shymkent, Kazakhstan": {
-    "mean_dist": 999.1385441598816,
-    "mean_time": 5.458333333333349,
-    "std_dist": 169.18132889948083,
-    "std_time": 1.5985019028244274,
+    "mean_dist": 1119.4314614426028,
+    "mean_time": 5.077777777777795,
+    "std_dist": 559.4683132504031,
+    "std_time": 1.5145793532476053,
     "admin": "",
     "country": "Kazakhstan",
     "city": "Shymkent",
@@ -6344,10 +6497,14 @@
       "England",
       "California",
       "California",
-      "California"
+      "California",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
       "United Kingdom",
+      "United States",
+      "United States",
       "United States",
       "United States",
       "United States"
@@ -6356,13 +6513,17 @@
       1249.6747675640004,
       984.383735893028,
       990.121035143788,
-      772.3746380387095
+      772.3746380387095,
+      2251.6155355795686,
+      468.4190564365226
     ],
     "times": [
       3.5666666666666895,
       7.766666666666675,
       6.033333333333347,
-      4.466666666666686
+      4.466666666666686,
+      3.3666666666666902,
+      5.2666666666666835
     ]
   },
   "Kawanakajima, Japan": {
@@ -6931,27 +7092,36 @@
     ]
   },
   "Jiangjiafan, Hubei, China": {
-    "mean_dist": 605.2073816711519,
-    "mean_time": 7.500000000000009,
-    "std_dist": 157.41451933265958,
-    "std_time": 0.33333333333333215,
+    "mean_dist": 686.3045377587242,
+    "mean_time": 6.475000000000012,
+    "std_dist": 226.46068299227352,
+    "std_time": 1.0665038938304667,
     "admin": "Hubei",
     "country": "China",
+    "city": "Jiangjiafan",
     "regions": [
       "New South Wales",
-      "California"
+      "California",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
       "Australia",
+      "United States",
+      "United States",
       "United States"
     ],
     "dists": [
       762.6219010038114,
-      447.7928623384923
+      447.7928623384923,
+      513.1654778287166,
+      1021.6379098638765
     ],
     "times": [
       7.833333333333341,
-      7.166666666666677
+      7.166666666666677,
+      5.200000000000017,
+      5.700000000000015
     ]
   },
   "Sapporo, Japan": {
@@ -7302,28 +7472,40 @@
     ]
   },
   "Qingdao, Shandong, China": {
-    "mean_dist": 821.2564859798372,
-    "mean_time": 8.000000000000007,
-    "std_dist": 237.05942847898945,
-    "std_time": 0.4333333333333318,
+    "mean_dist": 1024.5883822671854,
+    "mean_time": 7.726666666666674,
+    "std_dist": 449.72114927223305,
+    "std_time": 0.5478848216347808,
     "admin": "Shandong",
     "country": "China",
     "city": "Qingdao",
     "regions": [
       "California",
-      "California"
+      "California",
+      "Pennsylvania",
+      "Pennsylvania",
+      "North Carolina"
     ],
     "countries": [
+      "United States",
+      "United States",
+      "United States",
       "United States",
       "United States"
     ],
     "dists": [
       584.1970575008478,
-      1058.3159144588267
+      1058.3159144588267,
+      1846.1998367120727,
+      982.9869903261701,
+      651.2421123380092
     ],
     "times": [
       8.433333333333339,
-      7.566666666666675
+      7.566666666666675,
+      7.766666666666675,
+      6.800000000000011,
+      8.066666666666674
     ]
   },
   "Beidao, Gansu, China": {
@@ -7890,10 +8072,29 @@
     "times": []
   },
   "Shuangshui, Guizhou, China": {
-    "regions": [],
-    "countries": [],
-    "dists": [],
-    "times": []
+    "mean_dist": 1504.8288467770408,
+    "mean_time": 6.483333333333346,
+    "std_dist": 298.74328836123243,
+    "std_time": 0.016666666666666607,
+    "city": "Shuangshui",
+    "admin": "Guizhou",
+    "country": "China",
+    "regions": [
+      "Pennsylvania",
+      "Pennsylvania"
+    ],
+    "countries": [
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      1803.572135138273,
+      1206.0855584158082
+    ],
+    "times": [
+      6.500000000000012,
+      6.466666666666679
+    ]
   },
   "Wuxi, Jiangsu, China": {
     "regions": [],
@@ -7923,24 +8124,36 @@
     ]
   },
   "Nangandao, Henan, China": {
-    "mean_dist": 426.35940284652474,
-    "mean_time": 8.000000000000007,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 733.3726787532082,
+    "mean_time": 7.841666666666674,
+    "std_dist": 509.83686625633163,
+    "std_time": 0.5051814855409208,
     "city": "Nangandao",
     "admin": "Henan",
     "country": "China",
     "regions": [
-      "California"
+      "California",
+      "Pennsylvania",
+      "Pennsylvania",
+      "North Carolina"
     ],
     "countries": [
+      "United States",
+      "United States",
+      "United States",
       "United States"
     ],
     "dists": [
-      426.35940284652474
+      426.35940284652474,
+      841.3090421333771,
+      1508.9330659118589,
+      156.88920412107183
     ],
     "times": [
-      8.000000000000007
+      8.000000000000007,
+      7.20000000000001,
+      7.6000000000000085,
+      8.566666666666672
     ]
   },
   "Xinpu, Jiangsu, China": {
@@ -8049,24 +8262,32 @@
     ]
   },
   "Trichinopoly, Tamil N\u0101du, India": {
-    "mean_dist": 397.34561300819695,
-    "mean_time": 4.866666666666685,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 619.53535969885,
+    "mean_time": 6.633333333333344,
+    "std_dist": 540.033984970496,
+    "std_time": 1.2528486060293234,
     "city": "Trichinopoly",
     "admin": "Tamil N\u0101du",
     "country": "India",
     "regions": [
-      "California"
+      "California",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
+      "United States",
       "United States"
     ],
     "dists": [
-      397.34561300819695
+      397.34561300819695,
+      1363.4247057869688,
+      97.83576030138425
     ],
     "times": [
-      4.866666666666685
+      4.866666666666685,
+      7.400000000000009,
+      7.633333333333342
     ]
   },
   "Tianjin, Tianjin, China": {
@@ -8308,10 +8529,10 @@
     ]
   },
   "Kurnool, Andhra Pradesh, India": {
-    "mean_dist": 1185.0103794675874,
-    "mean_time": 6.24166666666668,
-    "std_dist": 329.440531037682,
-    "std_time": 1.423293324964631,
+    "mean_dist": 1062.8495780146789,
+    "mean_time": 6.585714285714297,
+    "std_dist": 439.66938129923886,
+    "std_time": 1.2184894555505892,
     "city": "Kurnool",
     "admin": "Andhra Pradesh",
     "country": "India",
@@ -8319,25 +8540,37 @@
       "Pennsylvania",
       "California",
       "California",
-      "Saxony"
+      "Saxony",
+      "Pennsylvania",
+      "Pennsylvania",
+      "North Carolina"
     ],
     "countries": [
       "United States",
       "United States",
       "United States",
-      "Germany"
+      "Germany",
+      "United States",
+      "United States",
+      "United States"
     ],
     "dists": [
       1691.349785342756,
       1262.4602118657351,
       867.2193694707111,
-      919.0121511911475
+      919.0121511911475,
+      1179.0802530893502,
+      1336.130050300556,
+      184.69522484249575
     ],
     "times": [
       6.066666666666681,
       8.03333333333334,
       4.100000000000021,
-      6.766666666666678
+      6.766666666666678,
+      6.600000000000012,
+      6.600000000000012,
+      7.933333333333341
     ]
   },
   "Ngerulmud, Palau": {
@@ -8365,10 +8598,29 @@
     "times": []
   },
   "Jincheng, Shanxi, China": {
-    "regions": [],
-    "countries": [],
-    "dists": [],
-    "times": []
+    "mean_dist": 767.3756704807083,
+    "mean_time": 7.2166666666666766,
+    "std_dist": 343.5724277479275,
+    "std_time": 0.4166666666666652,
+    "city": "Jincheng",
+    "admin": "Shanxi",
+    "country": "China",
+    "regions": [
+      "Pennsylvania",
+      "Pennsylvania"
+    ],
+    "countries": [
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      423.80324273278086,
+      1110.948098228636
+    ],
+    "times": [
+      6.800000000000011,
+      7.633333333333342
+    ]
   },
   "Binjai, Sumatera Utara, Indonesia": {
     "regions": [],
@@ -8422,24 +8674,32 @@
     ]
   },
   "Shanghai, Shanghai, China": {
-    "mean_dist": 940.4866007222577,
-    "mean_time": 8.100000000000007,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 1129.6733961610933,
+    "mean_time": 4.477777777777797,
+    "std_dist": 392.4890202424469,
+    "std_time": 2.56129789629793,
     "city": "Shanghai",
     "admin": "Shanghai",
     "country": "China",
     "regions": [
-      "New York"
+      "New York",
+      "Pennsylvania",
+      "Pennsylvania"
     ],
     "countries": [
+      "United States",
+      "United States",
       "United States"
     ],
     "dists": [
-      940.4866007222577
+      940.4866007222577,
+      1676.182398656449,
+      772.3511891045727
     ],
     "times": [
-      8.100000000000007
+      8.100000000000007,
+      2.6666666666666927,
+      2.6666666666666927
     ]
   },
   "Jamshedpur, Jharkhand, India": {
@@ -8464,24 +8724,36 @@
     ]
   },
   "Cuttack, Odisha, India": {
-    "mean_dist": 1062.0749960100093,
-    "mean_time": 7.066666666666677,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 801.3174839906454,
+    "mean_time": 7.450000000000009,
+    "std_dist": 393.2823790863464,
+    "std_time": 0.2455153310442697,
     "city": "Cuttack",
     "admin": "Odisha",
     "country": "India",
     "regions": [
-      "New York"
+      "New York",
+      "Pennsylvania",
+      "Pennsylvania",
+      "North Carolina"
     ],
     "countries": [
+      "United States",
+      "United States",
+      "United States",
       "United States"
     ],
     "dists": [
-      1062.0749960100093
+      1062.0749960100093,
+      479.1105834156263,
+      360.3514224391661,
+      1303.7329340977801
     ],
     "times": [
-      7.066666666666677
+      7.066666666666677,
+      7.4333333333333425,
+      7.566666666666675,
+      7.733333333333341
     ]
   },
   "Zaozhuang, Shandong, China": {
@@ -8524,6 +8796,484 @@
     ],
     "times": [
       7.1333333333333435
+    ]
+  },
+  "Sah\u0101ranpur, Uttar Pradesh, India": {
+    "mean_dist": 1150.6955327496826,
+    "mean_time": 6.533333333333346,
+    "std_dist": 600.1403771174719,
+    "std_time": 0.13333333333333286,
+    "city": "Sah\u0101ranpur",
+    "admin": "Uttar Pradesh",
+    "country": "India",
+    "regions": [
+      "Pennsylvania",
+      "Pennsylvania"
+    ],
+    "countries": [
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      1750.8359098671544,
+      550.5551556322108
+    ],
+    "times": [
+      6.6666666666666785,
+      6.400000000000013
+    ]
+  },
+  "Raurkela, Odisha, India": {
+    "mean_dist": 726.7237268084398,
+    "mean_time": 7.450000000000009,
+    "std_dist": 386.1076126244436,
+    "std_time": 0.08333333333333304,
+    "city": "Raurkela",
+    "admin": "Odisha",
+    "country": "India",
+    "regions": [
+      "Pennsylvania",
+      "Pennsylvania"
+    ],
+    "countries": [
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      1112.8313394328834,
+      340.6161141839961
+    ],
+    "times": [
+      7.366666666666676,
+      7.533333333333342
+    ]
+  },
+  "Doha, Qatar": {
+    "mean_dist": 263.2997632920246,
+    "mean_time": 7.500000000000009,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Doha",
+    "admin": "Ad Daw\u1e29ah",
+    "country": "Qatar",
+    "regions": [
+      "Pennsylvania"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      263.2997632920246
+    ],
+    "times": [
+      7.500000000000009
+    ]
+  },
+  "Izhevsk, Udmurtiya, Russia": {
+    "mean_dist": 362.62873123099916,
+    "mean_time": 6.150000000000014,
+    "std_dist": 199.6880525195005,
+    "std_time": 1.2499999999999956,
+    "city": "Izhevsk",
+    "admin": "Udmurtiya",
+    "country": "Russia",
+    "regions": [
+      "Pennsylvania",
+      "Pennsylvania"
+    ],
+    "countries": [
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      162.94067871149866,
+      562.3167837504997
+    ],
+    "times": [
+      4.900000000000018,
+      7.400000000000009
+    ]
+  },
+  "Shenyang, Liaoning, China": {
+    "mean_dist": 1701.895097608857,
+    "mean_time": 5.366666666666683,
+    "std_dist": 512.1160439111588,
+    "std_time": 0.5666666666666647,
+    "city": "Shenyang",
+    "admin": "Liaoning",
+    "country": "China",
+    "regions": [
+      "Pennsylvania",
+      "Pennsylvania"
+    ],
+    "countries": [
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      1189.7790536976981,
+      2214.011141520016
+    ],
+    "times": [
+      4.8000000000000185,
+      5.933333333333348
+    ]
+  },
+  "Jodhpur, R\u0101jasth\u0101n, India": {
+    "mean_dist": 413.6811610388876,
+    "mean_time": 6.100000000000014,
+    "std_dist": 200.39291580006633,
+    "std_time": 0.2666666666666657,
+    "city": "Jodhpur",
+    "admin": "R\u0101jasth\u0101n",
+    "country": "India",
+    "regions": [
+      "Pennsylvania",
+      "Pennsylvania"
+    ],
+    "countries": [
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      614.0740768389539,
+      213.28824523882128
+    ],
+    "times": [
+      6.36666666666668,
+      5.833333333333348
+    ]
+  },
+  "Xin\u2019an, Jiangsu, China": {
+    "mean_dist": 872.2618532635711,
+    "mean_time": 7.1333333333333435,
+    "std_dist": 291.0320110889126,
+    "std_time": 0.9936837562360574,
+    "city": "Xin\u2019an",
+    "admin": "Jiangsu",
+    "country": "China",
+    "regions": [
+      "Pennsylvania",
+      "Pennsylvania",
+      "North Carolina"
+    ],
+    "countries": [
+      "United States",
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      1151.1179782252482,
+      994.9957510214435,
+      470.6718305440214
+    ],
+    "times": [
+      7.166666666666677,
+      5.900000000000015,
+      8.33333333333334
+    ]
+  },
+  "Allah\u0101b\u0101d, Uttar Pradesh, India": {
+    "mean_dist": 510.46645944869033,
+    "mean_time": 6.988888888888899,
+    "std_dist": 191.87128388971138,
+    "std_time": 0.6723829009069874,
+    "city": "Allah\u0101b\u0101d",
+    "admin": "Uttar Pradesh",
+    "country": "India",
+    "regions": [
+      "Pennsylvania",
+      "Pennsylvania",
+      "North Carolina"
+    ],
+    "countries": [
+      "United States",
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      499.44424313793934,
+      281.1781480287002,
+      750.7769871794314
+    ],
+    "times": [
+      6.866666666666678,
+      6.233333333333347,
+      7.866666666666674
+    ]
+  },
+  "Zhuzhou, Hunan, China": {
+    "mean_dist": 1064.4211968494649,
+    "mean_time": 7.655555555555563,
+    "std_dist": 644.0376837049976,
+    "std_time": 0.4946628731011552,
+    "city": "Zhuzhou",
+    "admin": "Hunan",
+    "country": "China",
+    "regions": [
+      "Pennsylvania",
+      "Pennsylvania",
+      "North Carolina"
+    ],
+    "countries": [
+      "United States",
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      334.9518083372425,
+      1901.4721151185258,
+      956.8396670926262
+    ],
+    "times": [
+      7.166666666666677,
+      7.466666666666676,
+      8.33333333333334
+    ]
+  },
+  "As Sulaym\u0101n\u012byah, Iraq": {
+    "mean_dist": 825.9050079914791,
+    "mean_time": 7.033333333333343,
+    "std_dist": 692.9678628101142,
+    "std_time": 1.4207457613938197,
+    "city": "As Sulaym\u0101n\u012byah",
+    "admin": "As Sulaym\u0101n\u012byah",
+    "country": "Iraq",
+    "regions": [
+      "Pennsylvania",
+      "Pennsylvania",
+      "North Carolina"
+    ],
+    "countries": [
+      "United States",
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      1805.9072769014417,
+      337.7350015821985,
+      334.07274549079693
+    ],
+    "times": [
+      5.033333333333351,
+      8.200000000000006,
+      7.866666666666674
+    ]
+  },
+  "Zamboanga City, Philippines": {
+    "mean_dist": 785.0115051692211,
+    "mean_time": 6.533333333333346,
+    "std_dist": 162.9536717014548,
+    "std_time": 0.7920905298054023,
+    "city": "Zamboanga City",
+    "admin": "Zamboanga",
+    "country": "Philippines",
+    "regions": [
+      "Pennsylvania",
+      "Pennsylvania",
+      "North Carolina"
+    ],
+    "countries": [
+      "United States",
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      786.6650461504711,
+      584.6131985489524,
+      983.7562708082402
+    ],
+    "times": [
+      5.43333333333335,
+      6.900000000000011,
+      7.266666666666676
+    ]
+  },
+  "\u1e28am\u0101h, Syria": {
+    "mean_dist": 188.26197262217042,
+    "mean_time": 6.27777777777779,
+    "std_dist": 133.36665470887294,
+    "std_time": 2.141708098748959,
+    "city": "\u1e28am\u0101h",
+    "admin": "\u1e28am\u0101h",
+    "country": "Syria",
+    "regions": [
+      "Pennsylvania",
+      "Pennsylvania",
+      "North Carolina"
+    ],
+    "countries": [
+      "United States",
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      120.97608722686972,
+      69.3124708729168,
+      374.4973597667247
+    ],
+    "times": [
+      3.2666666666666906,
+      8.066666666666674,
+      7.500000000000009
+    ]
+  },
+  "Baoding, Hebei, China": {
+    "mean_dist": 501.72325495424303,
+    "mean_time": 7.300000000000009,
+    "std_dist": 195.26587674900074,
+    "std_time": 0.5192587309132392,
+    "city": "Baoding",
+    "admin": "Hebei",
+    "country": "China",
+    "regions": [
+      "Pennsylvania",
+      "Pennsylvania",
+      "North Carolina"
+    ],
+    "countries": [
+      "United States",
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      593.840511544258,
+      681.1173982380762,
+      230.21185508039486
+    ],
+    "times": [
+      7.233333333333343,
+      6.700000000000012,
+      7.966666666666674
+    ]
+  },
+  "Nanjing, Jiangsu, China": {
+    "mean_dist": 860.8767261118277,
+    "mean_time": 7.422222222222231,
+    "std_dist": 230.32650612037713,
+    "std_time": 0.6136311676215124,
+    "city": "Nanjing",
+    "admin": "Jiangsu",
+    "country": "China",
+    "regions": [
+      "Pennsylvania",
+      "Pennsylvania",
+      "North Carolina"
+    ],
+    "countries": [
+      "United States",
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      574.8710469315773,
+      1138.8833165384128,
+      868.875814865493
+    ],
+    "times": [
+      7.366666666666676,
+      6.700000000000012,
+      8.200000000000006
+    ]
+  },
+  "Anqing, Anhui, China": {
+    "mean_dist": 1062.079920417053,
+    "mean_time": 7.033333333333344,
+    "std_dist": 516.28893398249,
+    "std_time": 0,
+    "city": "Anqing",
+    "admin": "Anhui",
+    "country": "China",
+    "regions": [
+      "Pennsylvania",
+      "Pennsylvania"
+    ],
+    "countries": [
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      545.7909864345631,
+      1578.3688543995431
+    ],
+    "times": [
+      7.033333333333344,
+      7.033333333333344
+    ]
+  },
+  "Linyi, Shandong, China": {
+    "mean_dist": 466.1460296670328,
+    "mean_time": 7.25000000000001,
+    "std_dist": 364.5169932026328,
+    "std_time": 0.14999999999999947,
+    "city": "Linyi",
+    "admin": "Shandong",
+    "country": "China",
+    "regions": [
+      "Pennsylvania",
+      "Pennsylvania"
+    ],
+    "countries": [
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      101.6290364644,
+      830.6630228696656
+    ],
+    "times": [
+      7.400000000000009,
+      7.10000000000001
+    ]
+  },
+  "Tangshan, Hebei, China": {
+    "mean_dist": 932.2948240526193,
+    "mean_time": 6.300000000000013,
+    "std_dist": 131.05377998576017,
+    "std_time": 0.33333333333333215,
+    "city": "Tangshan",
+    "admin": "Hebei",
+    "country": "China",
+    "regions": [
+      "Pennsylvania",
+      "Pennsylvania"
+    ],
+    "countries": [
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      1063.3486040383796,
+      801.2410440668592
+    ],
+    "times": [
+      5.966666666666681,
+      6.633333333333345
+    ]
+  },
+  "Magnitogorsk, Chelyabinskaya Oblast\u2019, Russia": {
+    "mean_dist": 1095.171058987788,
+    "mean_time": 7.116666666666677,
+    "std_dist": 333.1524384732096,
+    "std_time": 0.2499999999999991,
+    "city": "Magnitogorsk",
+    "admin": "Chelyabinskaya Oblast\u2019",
+    "country": "Russia",
+    "regions": [
+      "Pennsylvania",
+      "Pennsylvania"
+    ],
+    "countries": [
+      "United States",
+      "United States"
+    ],
+    "dists": [
+      762.0186205145783,
+      1428.3234974609975
+    ],
+    "times": [
+      6.866666666666678,
+      7.366666666666676
     ]
   }
 }
