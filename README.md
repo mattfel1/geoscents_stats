@@ -29,3 +29,5 @@ The file `metadata.json` reports basic statistics for what you will find in each
   * `num_clicks: Int` - Number of unique click events for that map (i.e. one player making one guess adds one to this count)
   * `num_cities: Int` - Number of cities containing data for this map (should not change once all cities in the game have been played at least once)
   * `num_clicks_per_city: Float` - num_clicks / num_cities
+  * `most_played_city: String` - City that has been played the most on this map
+  * `must_played_city_num_clicks: Int` - Number of clicks for this most played city
