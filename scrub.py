@@ -16,8 +16,11 @@ def convert(fileInput, fileOutput):
     inputFile.close() #close the input file
     output = csv.writer(outputFile) #create a csv.write
     longest = 0
+    longestCity = ''
     for row in data.keys():
-        if (len(data[row]['dists']) > longest): longest = len(data[row]['dists'])
+        if (len(data[row]['dists']) > longest): 
+            longest = len(data[row]['dists'])
+            longestCity = row
     print(longest)
     header = ['citystring', 'mean_dist', 'std_dist', 'mean_time', 'std_time', 'num_guesses'] + ['dists%d' % i for i in range(longest)] + ['times%d' % i for i in range(longest)] + ['region%d' % i for i in range(longest)] + ['country%d' % i for i in range(longest)]
     outputFile.write('\t'.join(header) + '\n')
@@ -53,6 +56,7 @@ def convert(fileInput, fileOutput):
     for row in sortedlist:
         output.write('\t'.join(row) + '\n')
     output.close()
+    return longest, longestCity
 
 
 pathlist = Path('.').glob('**/*_guesses')
@@ -94,12 +98,14 @@ for path in pathlist:
             data[entry]['times'] = data[entry].pop('times',None)
         outfile = file.replace('.','').replace(' ','').replace('_guesses','') + '.json'
         mapname = outfile.replace('.json','')
-        metadata[mapname] = {'num_cities': num_cities, 'num_clicks': num_clicks, 'num_clicks_per_city': num_clicks/num_cities}
+        
+        longest, longestCity = convert(outfile, outfile.replace('.json','.csv'))
+        
+        metadata[mapname] = {'num_cities': num_cities, 'num_clicks': num_clicks, 'num_clicks_per_city': num_clicks/num_cities, 'most_played_city': longestCity, 'most_played_city_num_clicks': longest}
         with open(outfile, 'w') as data_file:
             json.dump(data, data_file, indent=2)
         os.remove(file)
 
-        convert(outfile, outfile.replace('.json','.csv'))
 
 
 
