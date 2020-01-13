@@ -75,7 +75,10 @@ for path in pathlist:
             for ip in data[entry]['ips']:
                 num_clicks = num_clicks + 1
                 ip4 = '.'.join(re.split(':|\.',ip)[-4:])
-                if (ip4 in cache):
+                if ('optOut' in ip):
+                    data[entry]['regions'].append(cache['127.0.0.1'][0])
+                    data[entry]['countries'].append(cache['127.0.0.1'][1])
+                elif (ip4 in cache):
                     data[entry]['regions'].append(cache[ip4][0])
                     data[entry]['countries'].append(cache[ip4][1])
                 else:
