@@ -1,9 +1,9 @@
 {
   "Palikir, Micronesia, Federated States Of": {
-    "mean_dist": 2230.497908281896,
-    "mean_time": 7.074074074074084,
-    "std_dist": 819.5495347818515,
-    "std_time": 0.8884412453082521,
+    "mean_dist": 1884.8620174852376,
+    "mean_time": 7.0515151515151615,
+    "std_dist": 1049.754248138056,
+    "std_time": 0.80758570691466,
     "admin": "Pohnpei",
     "country": "Micronesia, Federated States Of",
     "city": "Palikir",
@@ -16,7 +16,9 @@
       "Victoria",
       "California",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "Victoria",
+      "Victoria"
     ],
     "countries": [
       "United States",
@@ -27,7 +29,9 @@
       "Australia",
       "United States",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       2622.3559952828455,
@@ -38,7 +42,9 @@
       689.1520174606176,
       2931.8919673378896,
       3035.831573345606,
-      3172.473472371979
+      3172.473472371979,
+      615.3277913943705,
+      43.67322640617834
     ],
     "times": [
       8.433333333333339,
@@ -49,38 +55,45 @@
       7.033333333333344,
       7.233333333333343,
       7.30000000000001,
-      7.400000000000009
+      7.400000000000009,
+      6.800000000000011,
+      7.10000000000001
     ]
   },
   "Gisborne, New Zealand": {
-    "mean_dist": 584.6958058839634,
-    "mean_time": 6.816666666666678,
-    "std_dist": 365.60731895864006,
-    "std_time": 1.2833333333333288,
+    "mean_dist": 626.7571150543237,
+    "mean_time": 6.311111111111124,
+    "std_dist": 304.3859095112635,
+    "std_time": 1.2685171668011135,
     "admin": "Gisborne",
     "country": "New Zealand",
+    "city": "Gisborne",
     "regions": [
       "California",
+      "Victoria",
       "Victoria"
     ],
     "countries": [
       "United States",
+      "Australia",
       "Australia"
     ],
     "dists": [
       950.3031248426036,
-      219.08848692532337
+      219.08848692532337,
+      710.879733395044
     ],
     "times": [
       8.100000000000007,
-      5.533333333333349
+      5.533333333333349,
+      5.300000000000017
     ]
   },
   "Manukau City, New Zealand": {
-    "mean_dist": 587.3381365567794,
-    "mean_time": 7.075000000000012,
-    "std_dist": 359.86771671007284,
-    "std_time": 0.7832890058379872,
+    "mean_dist": 576.2904238115863,
+    "mean_time": 7.022222222222234,
+    "std_dist": 340.72242354180196,
+    "std_time": 0.75342837814065,
     "admin": "Auckland",
     "country": "New Zealand",
     "city": "Manukau City",
@@ -92,7 +105,8 @@
       "California",
       "California",
       "Victoria",
-      "England"
+      "England",
+      "Victoria"
     ],
     "countries": [
       "United States",
@@ -102,7 +116,8 @@
       "United States",
       "United States",
       "Australia",
-      "United Kingdom"
+      "United Kingdom",
+      "Australia"
     ],
     "dists": [
       74.3107026483526,
@@ -112,7 +127,8 @@
       684.8519576619302,
       950.0058968493473,
       614.2874587541223,
-      13.536862391017364
+      13.536862391017364,
+      487.9087218500411
     ],
     "times": [
       5.600000000000016,
@@ -122,7 +138,8 @@
       8.33333333333334,
       7.733333333333341,
       7.4333333333333425,
-      7.000000000000011
+      7.000000000000011,
+      6.600000000000012
     ]
   },
   "Soasio, Indonesia": {
@@ -199,10 +216,10 @@
     ]
   },
   "Vanimo, Papua New Guinea": {
-    "mean_dist": 989.5555931891662,
-    "mean_time": 7.257142857142867,
-    "std_dist": 924.1683670720653,
-    "std_time": 0.7879477634999231,
+    "mean_dist": 919.5006297797368,
+    "mean_time": 7.441666666666675,
+    "std_dist": 884.1267780401419,
+    "std_time": 0.884079873214076,
     "admin": "West Sepik",
     "country": "Papua New Guinea",
     "city": "Vanimo",
@@ -213,7 +230,8 @@
       "Ontario",
       "California",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "California"
     ],
     "countries": [
       "United States",
@@ -222,7 +240,8 @@
       "Canada",
       "United States",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "United States"
     ],
     "dists": [
       397.19311729953273,
@@ -231,7 +250,8 @@
       2108.972444691389,
       296.2115576495794,
       392.6373634325385,
-      486.5960303655308
+      486.5960303655308,
+      429.1158859137307
     ],
     "times": [
       7.30000000000001,
@@ -240,7 +260,8 @@
       7.700000000000008,
       8.533333333333339,
       6.26666666666668,
-      7.20000000000001
+      7.20000000000001,
+      8.733333333333338
     ]
   },
   "Bengkulu, Indonesia": {
@@ -792,35 +813,39 @@
     ]
   },
   "Hervey Bay, Queensland, Australia": {
-    "mean_dist": 1071.3723507408095,
-    "mean_time": 6.550000000000012,
-    "std_dist": 608.0579843988847,
-    "std_time": 0.6499999999999977,
+    "mean_dist": 851.1500735249624,
+    "mean_time": 5.95555555555557,
+    "std_dist": 586.0762558675759,
+    "std_time": 0.9941805981452203,
     "admin": "Queensland",
     "country": "Australia",
     "city": "Hervey Bay",
     "regions": [
       "Ontario",
+      "Victoria",
       "Victoria"
     ],
     "countries": [
       "Canada",
+      "Australia",
       "Australia"
     ],
     "dists": [
       1679.4303351396943,
-      463.3143663419248
+      463.3143663419248,
+      410.7055190932685
     ],
     "times": [
       5.900000000000015,
-      7.20000000000001
+      7.20000000000001,
+      4.766666666666685
     ]
   },
   "Bandar Seri Begawan, Brunei": {
-    "mean_dist": 2342.7225003480903,
-    "mean_time": 5.871428571428586,
-    "std_dist": 2538.094795262334,
-    "std_time": 0.8809137700676378,
+    "mean_dist": 2663.099124017922,
+    "mean_time": 6.045833333333347,
+    "std_dist": 2520.946807844048,
+    "std_time": 0.9444189130535914,
     "admin": "Brunei and Muara",
     "country": "Brunei",
     "city": "Bandar Seri Begawan",
@@ -831,6 +856,7 @@
       "California",
       "California",
       "California",
+      "Victoria",
       "Victoria"
     ],
     "countries": [
@@ -840,6 +866,7 @@
       "United States",
       "United States",
       "United States",
+      "Australia",
       "Australia"
     ],
     "dists": [
@@ -849,7 +876,8 @@
       725.1685058559967,
       1176.0357271412395,
       643.3911813449745,
-      6171.164518310619
+      6171.164518310619,
+      4905.735489706741
     ],
     "times": [
       5.066666666666684,
@@ -858,7 +886,8 @@
       5.766666666666682,
       4.866666666666685,
       5.533333333333349,
-      7.466666666666676
+      7.466666666666676,
+      7.266666666666676
     ]
   },
   "Tuticorin, Tamil N\u0101du, India": {
@@ -1028,10 +1057,10 @@
     ]
   },
   "Alice Springs, Northern Territory, Australia": {
-    "mean_dist": 948.6508328536727,
-    "mean_time": 7.145833333333343,
-    "std_dist": 458.3209570982329,
-    "std_time": 0.642248113184372,
+    "mean_dist": 878.7470879941507,
+    "mean_time": 7.166666666666676,
+    "std_dist": 475.19530639648616,
+    "std_time": 0.6083777254223899,
     "admin": "Northern Territory",
     "country": "Australia",
     "city": "Alice Springs",
@@ -1043,7 +1072,8 @@
       "California",
       "England",
       "California",
-      "Aargau"
+      "Aargau",
+      "Victoria"
     ],
     "countries": [
       "Canada",
@@ -1053,7 +1083,8 @@
       "United States",
       "United Kingdom",
       "United States",
-      "Switzerland"
+      "Switzerland",
+      "Australia"
     ],
     "dists": [
       1330.1563347731435,
@@ -1063,7 +1094,8 @@
       1266.4451278899521,
       1315.0609670151766,
       1270.2458819523156,
-      472.55609849452344
+      472.55609849452344,
+      319.5171291179742
     ],
     "times": [
       6.700000000000012,
@@ -1073,7 +1105,8 @@
       6.733333333333345,
       7.000000000000011,
       7.733333333333341,
-      5.933333333333348
+      5.933333333333348,
+      7.333333333333343
     ]
   },
   "Kuantan, Malaysia": {
@@ -1283,32 +1316,36 @@
     ]
   },
   "Queanbeyan, New South Wales, Australia": {
-    "mean_dist": 578.9457300051448,
-    "mean_time": 6.800000000000011,
-    "std_dist": 55.663961120710965,
-    "std_time": 1.5282524515130147,
+    "mean_dist": 492.7295976168039,
+    "mean_time": 6.97500000000001,
+    "std_dist": 156.91883850496652,
+    "std_time": 1.3577708446813306,
     "admin": "New South Wales",
     "country": "Australia",
     "city": "Queanbeyan",
     "regions": [
       "Ontario",
       "\u00cele-de-France",
-      "Aargau"
+      "Aargau",
+      "Victoria"
     ],
     "countries": [
       "Canada",
       "France",
-      "Switzerland"
+      "Switzerland",
+      "Australia"
     ],
     "dists": [
       641.3638617941766,
       506.19514909916927,
-      589.2781791220885
+      589.2781791220885,
+      234.08120045178143
     ],
     "times": [
       4.666666666666686,
       7.566666666666675,
-      8.166666666666673
+      8.166666666666673,
+      7.500000000000009
     ]
   },
   "Banjarmasin, Indonesia": {
@@ -2002,10 +2039,10 @@
     ]
   },
   "Melton, Victoria, Australia": {
-    "mean_dist": 291.3435067057504,
-    "mean_time": 6.380000000000012,
-    "std_dist": 310.18741305670653,
-    "std_time": 1.4328836503901985,
+    "mean_dist": 258.0642305632693,
+    "mean_time": 6.644444444444456,
+    "std_dist": 292.7759276053631,
+    "std_time": 1.435485034387542,
     "admin": "Victoria",
     "country": "Australia",
     "city": "Melton",
@@ -2014,13 +2051,15 @@
       "New South Wales",
       "California",
       "California",
-      "New South Wales"
+      "New South Wales",
+      "Victoria"
     ],
     "countries": [
       "Australia",
       "Australia",
       "United States",
       "United States",
+      "Australia",
       "Australia"
     ],
     "dists": [
@@ -2028,14 +2067,16 @@
       149.67844904639102,
       895.2174130974972,
       238.6910787972408,
-      156.23581957269965
+      156.23581957269965,
+      91.66784985086332
     ],
     "times": [
       6.000000000000014,
       7.933333333333341,
       5.666666666666682,
       8.03333333333334,
-      4.266666666666687
+      4.266666666666687,
+      7.966666666666674
     ]
   },
   "Blitar, Indonesia": {
@@ -2171,10 +2212,10 @@
     ]
   },
   "Devonport, Tasmania, Australia": {
-    "mean_dist": 119.52125137755706,
-    "mean_time": 7.833333333333341,
-    "std_dist": 51.91300147625695,
-    "std_time": 0.24608038433722249,
+    "mean_dist": 84.40040174245185,
+    "mean_time": 7.314285714285724,
+    "std_dist": 58.17539743551004,
+    "std_time": 0.6504838596772999,
     "admin": "Tasmania",
     "country": "Australia",
     "city": "Devonport",
@@ -2182,32 +2223,44 @@
       "Victoria",
       "\u00cele-de-France",
       "Victoria",
-      "Aargau"
+      "Aargau",
+      "Victoria",
+      "Victoria",
+      "Victoria"
     ],
     "countries": [
       "Australia",
       "France",
       "Australia",
-      "Switzerland"
+      "Switzerland",
+      "Australia",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       131.19449828707437,
       41.487759842059276,
       186.99792862726272,
-      118.40481875383195
+      118.40481875383195,
+      47.39752836744491,
+      7.624357968288145,
+      57.6959203512016
     ],
     "times": [
       7.800000000000008,
       7.566666666666675,
       7.733333333333341,
-      8.23333333333334
+      8.23333333333334,
+      6.333333333333346,
+      6.566666666666679,
+      6.966666666666677
     ]
   },
   "Kimbe, Papua New Guinea": {
-    "mean_dist": 720.1040718941844,
-    "mean_time": 7.317647058823542,
-    "std_dist": 145.0400730684206,
-    "std_time": 1.1094435776113651,
+    "mean_dist": 726.6970940671332,
+    "mean_time": 7.311111111111123,
+    "std_dist": 143.55095448169732,
+    "std_time": 1.0785220797661965,
     "admin": "West New Britain",
     "country": "Papua New Guinea",
     "city": "Kimbe",
@@ -2228,6 +2281,7 @@
       "California",
       "New South Wales",
       "Victoria",
+      "Victoria",
       "Victoria"
     ],
     "countries": [
@@ -2245,6 +2299,7 @@
       "United States",
       "United States",
       "United States",
+      "Australia",
       "Australia",
       "Australia",
       "Australia"
@@ -2266,7 +2321,8 @@
       566.2115030997784,
       549.5215285147302,
       693.1078783724373,
-      646.8407061388066
+      646.8407061388066,
+      838.7784710072638
     ],
     "times": [
       7.366666666666676,
@@ -2285,7 +2341,8 @@
       8.366666666666672,
       7.6000000000000085,
       6.16666666666668,
-      6.966666666666677
+      6.966666666666677,
+      7.20000000000001
     ]
   },
   "Ternate, Indonesia": {
@@ -2564,10 +2621,10 @@
     ]
   },
   "Arawa, Papua New Guinea": {
-    "mean_dist": 1367.792919623941,
-    "mean_time": 7.445833333333342,
-    "std_dist": 180.0202643142904,
-    "std_time": 0.8093099770105915,
+    "mean_dist": 1353.9429577267247,
+    "mean_time": 7.359259259259267,
+    "std_dist": 174.186843653656,
+    "std_time": 0.8013534504435095,
     "admin": "Bougainville",
     "country": "Papua New Guinea",
     "city": "Arawa",
@@ -2579,7 +2636,8 @@
       "California",
       "California",
       "Victoria",
-      "North Carolina"
+      "North Carolina",
+      "Victoria"
     ],
     "countries": [
       "Australia",
@@ -2589,7 +2647,8 @@
       "United States",
       "United States",
       "Australia",
-      "United States"
+      "United States",
+      "Australia"
     ],
     "dists": [
       1180.8493880586134,
@@ -2599,7 +2658,8 @@
       1661.7743878855931,
       1428.455399254355,
       1532.347422734925,
-      1250.4673455398201
+      1250.4673455398201,
+      1243.1432625489929
     ],
     "times": [
       5.900000000000015,
@@ -2609,7 +2669,8 @@
       6.6666666666666785,
       8.533333333333339,
       7.233333333333343,
-      8.100000000000007
+      8.100000000000007,
+      6.6666666666666785
     ]
   },
   "Pinrang, Indonesia": {
@@ -2641,10 +2702,10 @@
     ]
   },
   "Nadi, Fiji": {
-    "mean_dist": 3151.513285317851,
-    "mean_time": 5.81428571428573,
-    "std_dist": 2727.5746714355655,
-    "std_time": 1.6799335911720674,
+    "mean_dist": 2763.3587554263254,
+    "mean_time": 6.0041666666666815,
+    "std_dist": 2750.3369272239916,
+    "std_time": 1.6497842872461919,
     "admin": "Ba",
     "country": "Fiji",
     "city": "Nadi",
@@ -2655,7 +2716,8 @@
       "California",
       "Aargau",
       "California",
-      "Aargau"
+      "Aargau",
+      "Victoria"
     ],
     "countries": [
       "Australia",
@@ -2664,7 +2726,8 @@
       "United States",
       "Switzerland",
       "United States",
-      "Switzerland"
+      "Switzerland",
+      "Australia"
     ],
     "dists": [
       1126.4712147211842,
@@ -2673,7 +2736,8 @@
       7876.680263966639,
       1244.2446484509833,
       3077.6424797885948,
-      1980.918428749157
+      1980.918428749157,
+      46.27704618564375
     ],
     "times": [
       6.500000000000012,
@@ -2682,7 +2746,8 @@
       5.700000000000015,
       5.000000000000018,
       2.5000000000000266,
-      5.633333333333349
+      5.633333333333349,
+      7.333333333333343
     ]
   },
   "Sunbury, Victoria, Australia": {
@@ -2719,12 +2784,13 @@
     ]
   },
   "Rockhampton, Queensland, Australia": {
-    "mean_dist": 1243.935350601876,
-    "mean_time": 7.412500000000009,
-    "std_dist": 578.8073840841205,
-    "std_time": 0.560490236806631,
+    "mean_dist": 1120.7522667750006,
+    "mean_time": 7.44074074074075,
+    "std_dist": 647.4460163786761,
+    "std_time": 0.5344381560678257,
     "admin": "Queensland",
     "country": "Australia",
+    "city": "Rockhampton",
     "regions": [
       "Victoria",
       "California",
@@ -2733,7 +2799,8 @@
       "California",
       "California",
       "California",
-      "New South Wales"
+      "New South Wales",
+      "Victoria"
     ],
     "countries": [
       "Australia",
@@ -2743,6 +2810,7 @@
       "United States",
       "United States",
       "United States",
+      "Australia",
       "Australia"
     ],
     "dists": [
@@ -2753,7 +2821,8 @@
       1603.7241230869354,
       1511.3147158067652,
       1555.1723655669539,
-      317.52354051670756
+      317.52354051670756,
+      135.28759615999576
     ],
     "times": [
       7.700000000000008,
@@ -2763,7 +2832,8 @@
       7.800000000000008,
       7.533333333333342,
       6.766666666666678,
-      7.766666666666675
+      7.766666666666675,
+      7.666666666666675
     ]
   },
   "Kendari, Indonesia": {
@@ -3501,10 +3571,10 @@
     ]
   },
   "Kuala Lumpur, Malaysia": {
-    "mean_dist": 1402.7124217369287,
-    "mean_time": 6.941666666666677,
-    "std_dist": 1596.6086163024918,
-    "std_time": 0.23964673074247259,
+    "mean_dist": 1375.7823849552126,
+    "mean_time": 7.233333333333343,
+    "std_dist": 1429.0654871087415,
+    "std_time": 0.6214677966091401,
     "admin": "Kuala Lumpur",
     "country": "Malaysia",
     "city": "Kuala Lumpur",
@@ -3512,25 +3582,29 @@
       "\u00cele-de-France",
       "Queensland",
       "Victoria",
-      "Victoria"
+      "Victoria",
+      "California"
     ],
     "countries": [
       "France",
       "Australia",
       "Australia",
-      "Australia"
+      "Australia",
+      "United States"
     ],
     "dists": [
       196.85847270973161,
       4077.482502104912,
       1172.8830635994132,
-      163.62564853365774
+      163.62564853365774,
+      1268.0622378283476
     ],
     "times": [
       6.966666666666677,
       7.233333333333343,
       7.000000000000011,
-      6.566666666666679
+      6.566666666666679,
+      8.400000000000006
     ]
   },
   "Padangsidempuan, Indonesia": {
@@ -3619,10 +3693,10 @@
     ]
   },
   "Tarawa, Kiribati": {
-    "mean_dist": 1638.4894499643983,
-    "mean_time": 6.162500000000014,
-    "std_dist": 1108.976419885681,
-    "std_time": 1.769803622188374,
+    "mean_dist": 1631.0231320379,
+    "mean_time": 6.278431372549033,
+    "std_dist": 1076.279596396189,
+    "std_time": 1.7784821749450965,
     "admin": "",
     "country": "Kiribati",
     "city": "Tarawa",
@@ -3642,7 +3716,8 @@
       "Ontario",
       "Ontario",
       "England",
-      "Aargau"
+      "Aargau",
+      "California"
     ],
     "countries": [
       "France",
@@ -3660,7 +3735,8 @@
       "Canada",
       "Canada",
       "United Kingdom",
-      "Switzerland"
+      "Switzerland",
+      "United States"
     ],
     "dists": [
       4434.944202232345,
@@ -3678,7 +3754,8 @@
       2711.9141827035405,
       2521.829827356643,
       1872.0859172519342,
-      2251.8011081535456
+      2251.8011081535456,
+      1511.562045213927
     ],
     "times": [
       10,
@@ -3696,14 +3773,15 @@
       5.633333333333349,
       7.033333333333344,
       6.866666666666678,
-      7.233333333333343
+      7.233333333333343,
+      8.13333333333334
     ]
   },
   "Labasa, Fiji": {
-    "mean_dist": 1413.279879873534,
-    "mean_time": 7.022222222222233,
-    "std_dist": 1167.663916576731,
-    "std_time": 1.323948452989325,
+    "mean_dist": 1101.6535402956506,
+    "mean_time": 7.220833333333343,
+    "std_dist": 1146.2710489644544,
+    "std_time": 1.1977916601442427,
     "admin": "Macuata",
     "country": "Fiji",
     "city": "Labasa",
@@ -3713,7 +3791,9 @@
       "Victoria",
       "New South Wales",
       "New South Wales",
-      "Aargau"
+      "Aargau",
+      "Victoria",
+      "Victoria"
     ],
     "countries": [
       "France",
@@ -3721,7 +3801,9 @@
       "Australia",
       "Australia",
       "Australia",
-      "Switzerland"
+      "Switzerland",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       165.36402001868632,
@@ -3729,7 +3811,9 @@
       1278.2984584330968,
       2087.592951316342,
       3454.5454673321287,
-      1487.0868152205949
+      1487.0868152205949,
+      156.7496362346494,
+      176.7994068893513
     ],
     "times": [
       6.866666666666678,
@@ -3737,7 +3821,9 @@
       4.766666666666685,
       6.833333333333345,
       9.26666666666667,
-      6.833333333333345
+      6.833333333333345,
+      7.733333333333341,
+      7.9000000000000075
     ]
   },
   "Levin, New Zealand": {
@@ -4007,10 +4093,10 @@
     ]
   },
   "Upper Hutt, New Zealand": {
-    "mean_dist": 223.65370903643796,
-    "mean_time": 7.366666666666677,
-    "std_dist": 103.57033852154369,
-    "std_time": 0.5805489101161371,
+    "mean_dist": 234.30555890270688,
+    "mean_time": 7.409523809523819,
+    "std_dist": 99.37396192657549,
+    "std_time": 0.5476397511614293,
     "admin": "Wellington",
     "country": "New Zealand",
     "city": "Upper Hutt",
@@ -4020,7 +4106,8 @@
       "Victoria",
       "Victoria",
       "California",
-      "Aargau"
+      "Aargau",
+      "Victoria"
     ],
     "countries": [
       "France",
@@ -4028,7 +4115,8 @@
       "Australia",
       "Australia",
       "United States",
-      "Switzerland"
+      "Switzerland",
+      "Australia"
     ],
     "dists": [
       129.7197043297334,
@@ -4036,7 +4124,8 @@
       205.4112008260411,
       138.1132151286057,
       236.82033530297292,
-      192.0649696278668
+      192.0649696278668,
+      298.21665810032033
     ],
     "times": [
       7.233333333333343,
@@ -4044,7 +4133,8 @@
       7.20000000000001,
       7.633333333333342,
       8.266666666666673,
-      7.533333333333342
+      7.533333333333342,
+      7.666666666666675
     ]
   },
   "Raba, Indonesia": {
@@ -4100,31 +4190,36 @@
     ]
   },
   "Putrajaya, Malaysia": {
-    "mean_dist": 2367.831978489059,
-    "mean_time": 6.066666666666681,
-    "std_dist": 3079.8664270751274,
-    "std_time": 2.2157684061358025,
+    "mean_dist": 2098.643326219344,
+    "mean_time": 6.341666666666679,
+    "std_dist": 2707.6872969382453,
+    "std_time": 1.9771437029771495,
     "admin": "Putrajaya",
     "country": "Malaysia",
+    "city": "Putrajaya",
     "regions": [
       "\u00cele-de-France",
       "New South Wales",
-      "Florida"
+      "Florida",
+      "Victoria"
     ],
     "countries": [
       "France",
       "Australia",
-      "United States"
+      "United States",
+      "Australia"
     ],
     "dists": [
       195.65970574036845,
       6723.416016080518,
-      184.4202136462908
+      184.4202136462908,
+      1291.0773694101986
     ],
     "times": [
       7.6000000000000085,
       2.9333333333333584,
-      7.666666666666675
+      7.666666666666675,
+      7.166666666666677
     ]
   },
   "Gorontalo, Indonesia": {
@@ -4181,30 +4276,35 @@
     ]
   },
   "Alotau, Papua New Guinea": {
-    "mean_dist": 615.1698188485053,
-    "mean_time": 8.23333333333334,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 761.1841608529064,
+    "mean_time": 7.666666666666675,
+    "std_dist": 146.0143420044011,
+    "std_time": 0.5666666666666647,
     "admin": "Milne Bay",
     "country": "Papua New Guinea",
+    "city": "Alotau",
     "regions": [
-      "\u00cele-de-France"
+      "\u00cele-de-France",
+      "Victoria"
     ],
     "countries": [
-      "France"
+      "France",
+      "Australia"
     ],
     "dists": [
-      615.1698188485053
+      615.1698188485053,
+      907.1985028573075
     ],
     "times": [
-      8.23333333333334
+      8.23333333333334,
+      7.10000000000001
     ]
   },
   "Caloundra, Queensland, Australia": {
-    "mean_dist": 537.9176899849439,
-    "mean_time": 7.95333333333334,
-    "std_dist": 242.60884778138114,
-    "std_time": 0.2985892756874482,
+    "mean_dist": 532.1863376919689,
+    "mean_time": 8.044444444444451,
+    "std_dist": 221.84105311469912,
+    "std_time": 0.3402976184691889,
     "admin": "Queensland",
     "country": "Australia",
     "city": "Caloundra",
@@ -4213,28 +4313,32 @@
       "New South Wales",
       "California",
       "California",
-      "Aargau"
+      "Aargau",
+      "California"
     ],
     "countries": [
       "Australia",
       "Australia",
       "United States",
       "United States",
-      "Switzerland"
+      "Switzerland",
+      "United States"
     ],
     "dists": [
       525.9313516748226,
       776.8807057052178,
       239.7430629612103,
       303.69673622315844,
-      843.33659336031
+      843.33659336031,
+      503.5295762270938
     ],
     "times": [
       7.866666666666674,
       8.000000000000007,
       7.500000000000009,
       8.433333333333339,
-      7.966666666666674
+      7.966666666666674,
+      8.500000000000005
     ]
   },
   "Makassar, Indonesia": {
@@ -4713,10 +4817,10 @@
     ]
   },
   "Popondetta, Papua New Guinea": {
-    "mean_dist": 497.4444469976179,
-    "mean_time": 5.82666666666668,
-    "std_dist": 56.43070083180569,
-    "std_time": 2.452336754109338,
+    "mean_dist": 508.30833253569637,
+    "mean_time": 5.96666666666668,
+    "std_dist": 56.95442659322436,
+    "std_time": 2.2604489885041867,
     "admin": "Northern",
     "country": "Papua New Guinea",
     "city": "Popondetta",
@@ -4725,12 +4829,14 @@
       "New South Wales",
       "California",
       "New South Wales",
+      "Victoria",
       "Victoria"
     ],
     "countries": [
       "United States",
       "Australia",
       "United States",
+      "Australia",
       "Australia",
       "Australia"
     ],
@@ -4739,14 +4845,16 @@
       528.2626433632192,
       470.3309197337766,
       530.070075909753,
-      400.1817681457808
+      400.1817681457808,
+      562.6277602260888
     ],
     "times": [
       6.766666666666678,
       8.600000000000005,
       6.333333333333346,
       1.2333333333333594,
-      6.2000000000000135
+      6.2000000000000135,
+      6.6666666666666785
     ]
   },
   "Parepare, Indonesia": {
@@ -5064,10 +5172,10 @@
     "times": []
   },
   "Mandurah, Western Australia, Australia": {
-    "mean_dist": 405.69462666423664,
-    "mean_time": 5.166666666666684,
-    "std_dist": 466.4737657889667,
-    "std_time": 1.4884742374510684,
+    "mean_dist": 423.2156356482679,
+    "mean_time": 5.261904761904779,
+    "std_dist": 438.21976093331455,
+    "std_time": 1.2749638739268587,
     "admin": "Western Australia",
     "country": "Australia",
     "city": "Mandurah",
@@ -5076,35 +5184,58 @@
       "Victoria",
       "Victoria",
       "California",
-      "California"
+      "California",
+      "Victoria",
+      "Victoria"
     ],
     "countries": [
       "Australia",
       "Australia",
       "Australia",
       "United States",
-      "United States"
+      "United States",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       39.76654823304802,
       115.88211415981081,
       1300.0817600716275,
       141.99374404647196,
-      430.7489668102251
+      430.7489668102251,
+      821.2036960214832,
+      112.8326201952088
     ],
     "times": [
       2.4666666666666934,
       5.033333333333351,
       5.900000000000015,
       6.933333333333344,
-      5.500000000000016
+      5.500000000000016,
+      5.23333333333335,
+      5.766666666666682
     ]
   },
   "Taree, New South Wales, Australia": {
-    "regions": [],
-    "countries": [],
-    "dists": [],
-    "times": []
+    "mean_dist": 86.43477491836391,
+    "mean_time": 8.066666666666674,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Taree",
+    "admin": "New South Wales",
+    "country": "Australia",
+    "regions": [
+      "California"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      86.43477491836391
+    ],
+    "times": [
+      8.066666666666674
+    ]
   },
   "Mendi, Papua New Guinea": {
     "mean_dist": 302.87460456361663,
@@ -5289,10 +5420,10 @@
     ]
   },
   "Johor Bahru, Malaysia": {
-    "mean_dist": 2353.493830452002,
-    "mean_time": 6.991666666666678,
-    "std_dist": 2546.7615356723973,
-    "std_time": 1.7015311731888174,
+    "mean_dist": 2115.658581975467,
+    "mean_time": 6.740000000000012,
+    "std_dist": 2327.0276915704985,
+    "std_time": 1.6029694666808514,
     "admin": "Johor",
     "country": "Malaysia",
     "city": "Johor Bahru",
@@ -5300,25 +5431,29 @@
       "New South Wales",
       "England",
       "Aargau",
-      "California"
+      "California",
+      "Victoria"
     ],
     "countries": [
       "Australia",
       "United Kingdom",
       "Switzerland",
-      "United States"
+      "United States",
+      "Australia"
     ],
     "dists": [
       6666.853174055214,
       1426.8511468894555,
       49.677917722569696,
-      1270.593083140768
+      1270.593083140768,
+      1164.3175880693268
     ],
     "times": [
       8.933333333333337,
       5.366666666666683,
       5.23333333333335,
-      8.433333333333339
+      8.433333333333339,
+      5.7333333333333485
     ]
   },
   "Surabaya, Indonesia": {
@@ -5512,27 +5647,32 @@
     ]
   },
   "Alor Setar, Malaysia": {
-    "mean_dist": 1495.82396560474,
-    "mean_time": 6.933333333333344,
-    "std_dist": 69.4244696199761,
-    "std_time": 0.6666666666666643,
+    "mean_dist": 1114.0264492772146,
+    "mean_time": 6.722222222222233,
+    "std_dist": 542.9105435235875,
+    "std_time": 0.6208317797643975,
     "admin": "Kedah",
     "country": "Malaysia",
+    "city": "Alor Setar",
     "regions": [
+      "Victoria",
       "Victoria",
       "Victoria"
     ],
     "countries": [
       "Australia",
+      "Australia",
       "Australia"
     ],
     "dists": [
       1565.248435224716,
-      1426.399495984764
+      1426.399495984764,
+      350.4314166221642
     ],
     "times": [
       7.6000000000000085,
-      6.26666666666668
+      6.26666666666668,
+      6.300000000000013
     ]
   },
   "Bontang, Indonesia": {
@@ -5661,19 +5801,21 @@
     ]
   },
   "Hawera, New Zealand": {
-    "mean_dist": 332.0519231923664,
-    "mean_time": 7.733333333333341,
-    "std_dist": 242.65382392450138,
-    "std_time": 0.5712235081789736,
+    "mean_dist": 307.39007800678746,
+    "mean_time": 7.714285714285722,
+    "std_dist": 232.63396973581575,
+    "std_time": 0.5309043326540451,
     "admin": "Taranaki",
     "country": "New Zealand",
+    "city": "Hawera",
     "regions": [
       "Victoria",
       "California",
       "California",
       "California",
       "California",
-      "California"
+      "California",
+      "Victoria"
     ],
     "countries": [
       "Australia",
@@ -5681,7 +5823,8 @@
       "United States",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Australia"
     ],
     "dists": [
       320.2716605234612,
@@ -5689,7 +5832,8 @@
       204.57309190982946,
       20.63397230090883,
       219.65305315388716,
-      428.17985731409476
+      428.17985731409476,
+      159.41900689331365
     ],
     "times": [
       7.933333333333341,
@@ -5697,7 +5841,8 @@
       8.533333333333339,
       8.166666666666673,
       7.700000000000008,
-      7.266666666666676
+      7.266666666666676,
+      7.6000000000000085
     ]
   },
   "Tuban, Indonesia": {
@@ -5842,10 +5987,10 @@
     ]
   },
   "Raub, Malaysia": {
-    "mean_dist": 1216.9762955928986,
-    "mean_time": 7.306666666666676,
-    "std_dist": 469.16456521318077,
-    "std_time": 0.27920522121829133,
+    "mean_dist": 1245.782319655867,
+    "mean_time": 7.437500000000009,
+    "std_dist": 377.4209605805567,
+    "std_time": 0.5028909479753575,
     "admin": "Pahang",
     "country": "Malaysia",
     "city": "Raub",
@@ -5854,13 +5999,19 @@
       "New South Wales",
       "California",
       "California",
-      "Pennsylvania"
+      "Pennsylvania",
+      "Victoria",
+      "Victoria",
+      "California"
     ],
     "countries": [
       "Australia",
       "Australia",
       "United States",
       "United States",
+      "United States",
+      "Australia",
+      "Australia",
       "United States"
     ],
     "dists": [
@@ -5868,14 +6019,20 @@
       1250.7439549793785,
       1411.0944051204656,
       1730.2728848580775,
-      334.71832141001295
+      334.71832141001295,
+      1202.3919084836903,
+      1427.2445509651848,
+      1251.7406198335686
     ],
     "times": [
       7.30000000000001,
       7.633333333333342,
       7.466666666666676,
       6.800000000000011,
-      7.333333333333343
+      7.333333333333343,
+      7.000000000000011,
+      7.366666666666676,
+      8.600000000000005
     ]
   },
   "Port Augusta, South Australia, Australia": {
@@ -5908,10 +6065,10 @@
     ]
   },
   "Albany, Western Australia, Australia": {
-    "mean_dist": 992.3239138644394,
-    "mean_time": 7.270833333333343,
-    "std_dist": 1000.7888332847499,
-    "std_time": 0.4653067984315995,
+    "mean_dist": 812.5606793196092,
+    "mean_time": 7.22000000000001,
+    "std_dist": 964.918251138679,
+    "std_time": 0.4284857057125695,
     "admin": "Western Australia",
     "country": "Australia",
     "city": "Albany",
@@ -5923,6 +6080,8 @@
       "California",
       "California",
       "New South Wales",
+      "Victoria",
+      "Victoria",
       "Victoria"
     ],
     "countries": [
@@ -5932,6 +6091,8 @@
       "United States",
       "United States",
       "United States",
+      "Australia",
+      "Australia",
       "Australia",
       "Australia"
     ],
@@ -5943,7 +6104,9 @@
       1442.6630010231988,
       175.7370367145399,
       2571.4176053507394,
-      288.84286268905777
+      288.84286268905777,
+      145.7245172992899,
+      41.290964981287544
     ],
     "times": [
       6.600000000000012,
@@ -5953,7 +6116,9 @@
       7.1333333333333435,
       7.9000000000000075,
       7.6000000000000085,
-      7.6000000000000085
+      7.6000000000000085,
+      7.000000000000011,
+      7.033333333333344
     ]
   },
   "Kalgoorlie, Western Australia, Australia": {
@@ -6379,10 +6544,10 @@
     ]
   },
   "Kingston, Tasmania, Australia": {
-    "mean_dist": 120.93979383347343,
-    "mean_time": 7.662962962962971,
-    "std_dist": 44.44333855979907,
-    "std_time": 0.36292516810026093,
+    "mean_dist": 130.35138175802544,
+    "mean_time": 7.646666666666675,
+    "std_dist": 50.74338571145003,
+    "std_time": 0.3477547028198648,
     "admin": "Tasmania",
     "country": "Australia",
     "city": "Kingston",
@@ -6395,7 +6560,8 @@
       "Victoria",
       "England",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "Victoria"
     ],
     "countries": [
       "Australia",
@@ -6406,7 +6572,8 @@
       "Australia",
       "United Kingdom",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "Australia"
     ],
     "dists": [
       57.75896750206828,
@@ -6417,7 +6584,8 @@
       71.76072436521666,
       89.54850753635687,
       129.21909518109516,
-      175.6423490880593
+      175.6423490880593,
+      215.05567307899358
     ],
     "times": [
       7.1333333333333435,
@@ -6428,7 +6596,8 @@
       7.400000000000009,
       7.766666666666675,
       8.066666666666674,
-      7.866666666666674
+      7.866666666666674,
+      7.500000000000009
     ]
   },
   "Maryborough, Queensland, Australia": {
@@ -6724,31 +6893,36 @@
     ]
   },
   "Kluang, Malaysia": {
-    "mean_dist": 506.0987509804254,
-    "mean_time": 7.544444444444454,
-    "std_dist": 485.9984241612154,
-    "std_time": 0.7699607172920157,
+    "mean_dist": 456.77137263338716,
+    "mean_time": 7.308333333333343,
+    "std_dist": 429.47109562712603,
+    "std_time": 0.7822243923580979,
     "admin": "Johor",
     "country": "Malaysia",
+    "city": "Kluang",
     "regions": [
       "Victoria",
       "New York",
-      "California"
+      "California",
+      "Victoria"
     ],
     "countries": [
       "Australia",
       "United States",
-      "United States"
+      "United States",
+      "Australia"
     ],
     "dists": [
       235.83102975446673,
       93.95916844247618,
-      1188.5060547443331
+      1188.5060547443331,
+      308.7892375922724
     ],
     "times": [
       6.500000000000012,
       7.800000000000008,
-      8.33333333333334
+      8.33333333333334,
+      6.600000000000012
     ]
   },
   "Medan, Indonesia": {
@@ -6776,10 +6950,10 @@
     ]
   },
   "Funafuti, Tuvalu": {
-    "mean_dist": 1452.772416588437,
-    "mean_time": 7.533333333333342,
-    "std_dist": 451.9128998874495,
-    "std_time": 0.5588789484426332,
+    "mean_dist": 1471.0911621286655,
+    "mean_time": 7.543333333333342,
+    "std_dist": 432.23018187040606,
+    "std_time": 0.5310471835073689,
     "admin": "Funafuti",
     "country": "Tuvalu",
     "city": "Funafuti",
@@ -6792,6 +6966,7 @@
       "Pennsylvania",
       "Victoria",
       "North Carolina",
+      "California",
       "California"
     ],
     "countries": [
@@ -6802,6 +6977,7 @@
       "United States",
       "United States",
       "Australia",
+      "United States",
       "United States",
       "United States"
     ],
@@ -6814,7 +6990,8 @@
       1864.0328422869634,
       986.2870637374685,
       1457.3579713100776,
-      491.9325914316626
+      491.9325914316626,
+      1635.9598719907212
     ],
     "times": [
       7.566666666666675,
@@ -6825,7 +7002,8 @@
       7.733333333333341,
       6.833333333333345,
       7.833333333333341,
-      6.600000000000012
+      6.600000000000012,
+      7.633333333333342
     ]
   },
   "Karratha, Western Australia, Australia": {
@@ -6862,23 +7040,28 @@
     ]
   },
   "Tauranga, New Zealand": {
-    "mean_dist": 363.0582443653393,
-    "mean_time": 7.633333333333342,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 544.6361142560995,
+    "mean_time": 7.816666666666674,
+    "std_dist": 181.57786989076027,
+    "std_time": 0.18333333333333268,
     "admin": "Bay of Plenty",
     "country": "New Zealand",
+    "city": "Tauranga",
     "regions": [
-      "Victoria"
+      "Victoria",
+      "California"
     ],
     "countries": [
-      "Australia"
+      "Australia",
+      "United States"
     ],
     "dists": [
-      363.0582443653393
+      363.0582443653393,
+      726.2139841468598
     ],
     "times": [
-      7.633333333333342
+      7.633333333333342,
+      8.000000000000007
     ]
   },
   "Murray Bridge, South Australia, Australia": {
@@ -6955,32 +7138,40 @@
     ]
   },
   "Orange, New South Wales, Australia": {
-    "mean_dist": 207.65859472340625,
-    "mean_time": 7.52222222222223,
-    "std_dist": 91.97951576485339,
-    "std_time": 0.3861810488218379,
+    "mean_dist": 192.32765936336642,
+    "mean_time": 7.206666666666676,
+    "std_dist": 82.54520598342951,
+    "std_time": 0.902687345898035,
     "admin": "New South Wales",
     "country": "Australia",
     "city": "Orange",
     "regions": [
       "Victoria",
       "New South Wales",
-      "Aargau"
+      "Aargau",
+      "Victoria",
+      "California"
     ],
     "countries": [
       "Australia",
       "Australia",
-      "Switzerland"
+      "Switzerland",
+      "Australia",
+      "United States"
     ],
     "dists": [
       250.3297246499373,
       79.90532454338552,
-      292.74073497689585
+      292.74073497689585,
+      110.48790771609198,
+      228.17460493052144
     ],
     "times": [
       7.4333333333333425,
       8.03333333333334,
-      7.10000000000001
+      7.10000000000001,
+      5.533333333333349,
+      7.933333333333341
     ]
   },
   "Melbourne, Victoria, Australia": {
@@ -7174,10 +7365,10 @@
     ]
   },
   "Male, Maldives": {
-    "mean_dist": 1953.3841573179943,
-    "mean_time": 6.493333333333345,
-    "std_dist": 2894.1504777461982,
-    "std_time": 1.1829154191610145,
+    "mean_dist": 2782.833149019541,
+    "mean_time": 6.596969696969708,
+    "std_dist": 3807.1641696365004,
+    "std_time": 1.174515119850947,
     "admin": "Maale",
     "country": "Maldives",
     "city": "Male",
@@ -7191,7 +7382,8 @@
       "New South Wales",
       "California",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "Victoria"
     ],
     "countries": [
       "United States",
@@ -7203,7 +7395,8 @@
       "Australia",
       "United States",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "Australia"
     ],
     "dists": [
       1262.330701494649,
@@ -7215,7 +7408,8 @@
       10554.214822846594,
       203.9739549949164,
       847.921606062875,
-      1294.3727527213928
+      1294.3727527213928,
+      11077.323066035005
     ],
     "times": [
       7.666666666666675,
@@ -7227,7 +7421,8 @@
       5.500000000000016,
       8.03333333333334,
       5.633333333333349,
-      4.266666666666687
+      4.266666666666687,
+      7.633333333333342
     ]
   },
   "Seremban, Malaysia": {
@@ -7495,56 +7690,69 @@
     ]
   },
   "Watampone, Sulawesi Selatan, Indonesia": {
-    "mean_dist": 1343.0903544845632,
-    "mean_time": 6.055555555555569,
-    "std_dist": 478.4384437880343,
-    "std_time": 1.823576732349206,
+    "mean_dist": 1449.7475453383563,
+    "mean_time": 5.841666666666681,
+    "std_dist": 453.6571144082327,
+    "std_time": 1.6221342251627717,
     "admin": "Sulawesi Selatan",
     "country": "Indonesia",
     "city": "Watampone",
     "regions": [
       "Michigan",
       "Michigan",
+      "California",
+      "Victoria"
+    ],
+    "countries": [
+      "United States",
+      "United States",
+      "United States",
+      "Australia"
+    ],
+    "dists": [
+      1628.4933124158615,
+      1731.6739971292632,
+      669.1037539085652,
+      1769.7191178997352
+    ],
+    "times": [
+      8.300000000000006,
+      3.8333333333333552,
+      6.033333333333347,
+      5.200000000000017
+    ]
+  },
+  "Palembang, Sumatera Selatan, Indonesia": {
+    "mean_dist": 732.7573319971917,
+    "mean_time": 6.400000000000013,
+    "std_dist": 517.8609326456324,
+    "std_time": 1.381022165724435,
+    "admin": "Sumatera Selatan",
+    "country": "Indonesia",
+    "city": "Palembang",
+    "regions": [
+      "Michigan",
+      "Michigan",
+      "Victoria",
       "California"
     ],
     "countries": [
       "United States",
       "United States",
-      "United States"
-    ],
-    "dists": [
-      1628.4933124158615,
-      1731.6739971292632,
-      669.1037539085652
-    ],
-    "times": [
-      8.300000000000006,
-      3.8333333333333552,
-      6.033333333333347
-    ]
-  },
-  "Palembang, Sumatera Selatan, Indonesia": {
-    "mean_dist": 795.0876279963943,
-    "mean_time": 7.183333333333343,
-    "std_dist": 447.35470463206326,
-    "std_time": 0.2833333333333323,
-    "admin": "Sumatera Selatan",
-    "country": "Indonesia",
-    "regions": [
-      "Michigan",
-      "Michigan"
-    ],
-    "countries": [
-      "United States",
+      "Australia",
       "United States"
     ],
     "dists": [
       347.732923364331,
-      1242.4423326284575
+      1242.4423326284575,
+      1243.544412951499,
+      97.30965904447943
     ],
     "times": [
       7.466666666666676,
-      6.900000000000011
+      6.900000000000011,
+      4.0333333333333545,
+      7.20000000000001
     ]
   },
   "Porirua, New Zealand": {
@@ -7740,28 +7948,32 @@
     ]
   },
   "Dili, Timor-Leste": {
-    "mean_dist": 2132.387029123067,
-    "mean_time": 7.20000000000001,
-    "std_dist": 694.3764108843429,
-    "std_time": 0.9999999999999964,
+    "mean_dist": 2986.285527200407,
+    "mean_time": 6.90000000000001,
+    "std_dist": 1334.0631007187114,
+    "std_time": 0.9201449161228141,
     "admin": "D\u00edli",
     "country": "Timor-Leste",
     "city": "Dili",
     "regions": [
       "Queensland",
-      "New South Wales"
+      "New South Wales",
+      "Victoria"
     ],
     "countries": [
+      "Australia",
       "Australia",
       "Australia"
     ],
     "dists": [
       2826.76344000741,
-      1438.010618238724
+      1438.010618238724,
+      4694.082523355088
     ],
     "times": [
       8.200000000000006,
-      6.2000000000000135
+      6.2000000000000135,
+      6.300000000000013
     ]
   },
   "Makassar, Sulawesi Selatan, Indonesia": {
@@ -7830,43 +8042,53 @@
     ]
   },
   "Suva, Fiji": {
-    "mean_dist": 5895.545469325009,
-    "mean_time": 2.700000000000026,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 3432.899485450254,
+    "mean_time": 5.083333333333351,
+    "std_dist": 2462.6459838747555,
+    "std_time": 2.383333333333325,
     "admin": "Rewa",
     "country": "Fiji",
+    "city": "Suva",
     "regions": [
-      "Queensland"
+      "Queensland",
+      "Victoria"
     ],
     "countries": [
+      "Australia",
       "Australia"
     ],
     "dists": [
-      5895.545469325009
+      5895.545469325009,
+      970.2535015754985
     ],
     "times": [
-      2.700000000000026
+      2.700000000000026,
+      7.466666666666676
     ]
   },
   "Surakarta, Jawa Tengah, Indonesia": {
-    "mean_dist": 1122.753105989497,
-    "mean_time": 6.26666666666668,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 1153.8944379745371,
+    "mean_time": 5.700000000000015,
+    "std_dist": 31.141331985040097,
+    "std_time": 0.5666666666666647,
     "admin": "Jawa Tengah",
     "country": "Indonesia",
+    "city": "Surakarta",
     "regions": [
-      "Queensland"
+      "Queensland",
+      "Victoria"
     ],
     "countries": [
+      "Australia",
       "Australia"
     ],
     "dists": [
-      1122.753105989497
+      1122.753105989497,
+      1185.0357699595772
     ],
     "times": [
-      6.26666666666668
+      6.26666666666668,
+      5.133333333333351
     ]
   },
   "Pematangsiantar, Sumatera Utara, Indonesia": {
@@ -7948,10 +8170,10 @@
     ]
   },
   "Sale, Victoria, Australia": {
-    "mean_dist": 2032.265095099216,
-    "mean_time": 7.416666666666676,
-    "std_dist": 1214.2432032423076,
-    "std_time": 0.7847504911329009,
+    "mean_dist": 1666.0737179021257,
+    "mean_time": 7.126666666666677,
+    "std_dist": 1309.921274058147,
+    "std_time": 0.910530980618815,
     "admin": "Victoria",
     "country": "Australia",
     "city": "Sale",
@@ -7959,25 +8181,29 @@
       "New York",
       "Ontario",
       "Ontario",
-      "California"
+      "California",
+      "Victoria"
     ],
     "countries": [
       "United States",
       "Canada",
       "Canada",
-      "United States"
+      "United States",
+      "Australia"
     ],
     "dists": [
       2859.200598577697,
       3149.861271773551,
       2078.3560092821626,
-      41.64250076345362
+      41.64250076345362,
+      201.30820911376375
     ],
     "times": [
       6.633333333333345,
       6.633333333333345,
       8.266666666666673,
-      8.13333333333334
+      8.13333333333334,
+      5.966666666666681
     ]
   },
   "Semarang, Jawa Tengah, Indonesia": {
@@ -8066,10 +8292,10 @@
     ]
   },
   "Canberra, Australian Capital Territory, Australia": {
-    "mean_dist": 643.121613963761,
-    "mean_time": 7.509523809523818,
-    "std_dist": 934.9326281519952,
-    "std_time": 0.4962443988614469,
+    "mean_dist": 563.3877065400072,
+    "mean_time": 7.279166666666676,
+    "std_dist": 899.6327660421864,
+    "std_time": 0.76611166505499,
     "admin": "Australian Capital Territory",
     "country": "Australia",
     "city": "Canberra",
@@ -8080,7 +8306,8 @@
       "California",
       "California",
       "North Carolina",
-      "Bavaria"
+      "Bavaria",
+      "Victoria"
     ],
     "countries": [
       "Australia",
@@ -8089,7 +8316,8 @@
       "United States",
       "United States",
       "United States",
-      "Germany"
+      "Germany",
+      "Australia"
     ],
     "dists": [
       178.1950189224071,
@@ -8098,7 +8326,8 @@
       937.540368869421,
       311.9397898667183,
       209.9470098304556,
-      10.61470911420688
+      10.61470911420688,
+      5.250354573731064
     ],
     "times": [
       6.933333333333344,
@@ -8107,7 +8336,8 @@
       7.533333333333342,
       7.700000000000008,
       7.700000000000008,
-      6.6666666666666785
+      6.6666666666666785,
+      5.666666666666682
     ]
   },
   "Ruteng, Nusa Tenggara Timur, Indonesia": {
@@ -8444,10 +8674,10 @@
     ]
   },
   "Cranbourne, Victoria, Australia": {
-    "mean_dist": 216.64347942186546,
-    "mean_time": 7.166666666666677,
-    "std_dist": 215.36052059992937,
-    "std_time": 0.6132789830991344,
+    "mean_dist": 179.12857573026014,
+    "mean_time": 7.133333333333343,
+    "std_dist": 206.7210561660804,
+    "std_time": 0.5525697542693874,
     "admin": "Victoria",
     "country": "Australia",
     "city": "Cranbourne",
@@ -8455,70 +8685,83 @@
       "Victoria",
       "New South Wales",
       "California",
+      "Victoria",
       "Victoria"
     ],
     "countries": [
       "Australia",
       "Australia",
       "United States",
+      "Australia",
       "Australia"
     ],
     "dists": [
       148.20133163623157,
       67.20665594484922,
       585.1685005406706,
-      65.99742956571048
+      65.99742956571048,
+      29.068960963838926
     ],
     "times": [
       7.000000000000011,
       8.13333333333334,
       6.433333333333346,
-      7.10000000000001
+      7.10000000000001,
+      7.000000000000011
     ]
   },
   "Newcastle, New South Wales, Australia": {
-    "mean_dist": 199.1176467297148,
-    "mean_time": 7.033333333333344,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 194.203734982253,
+    "mean_time": 7.000000000000011,
+    "std_dist": 4.91391174746181,
+    "std_time": 0.033333333333333215,
     "admin": "New South Wales",
     "country": "Australia",
+    "city": "Newcastle",
     "regions": [
+      "Victoria",
       "Victoria"
     ],
     "countries": [
+      "Australia",
       "Australia"
     ],
     "dists": [
-      199.1176467297148
+      199.1176467297148,
+      189.28982323479119
     ],
     "times": [
-      7.033333333333344
+      7.033333333333344,
+      6.966666666666677
     ]
   },
   "Warrnambool, Victoria, Australia": {
-    "mean_dist": 487.8966380113632,
-    "mean_time": 5.3500000000000165,
-    "std_dist": 353.16983012094346,
-    "std_time": 2.083333333333326,
+    "mean_dist": 365.89452203255786,
+    "mean_time": 5.677777777777794,
+    "std_dist": 336.0381702699598,
+    "std_time": 1.7630641116330321,
     "admin": "Victoria",
     "country": "Australia",
     "city": "Warrnambool",
     "regions": [
       "Victoria",
-      "Bavaria"
+      "Bavaria",
+      "Victoria"
     ],
     "countries": [
       "Australia",
-      "Germany"
+      "Germany",
+      "Australia"
     ],
     "dists": [
       134.7268078904198,
-      841.0664681323067
+      841.0664681323067,
+      121.89029007494702
     ],
     "times": [
       7.4333333333333425,
-      3.2666666666666906
+      3.2666666666666906,
+      6.333333333333346
     ]
   },
   "Shah Alam, Malaysia": {
@@ -8604,27 +8847,32 @@
     ]
   },
   "Pekalongan, Jawa Tengah, Indonesia": {
-    "mean_dist": 513.7329093038171,
-    "mean_time": 4.9666666666666845,
-    "std_dist": 373.92137216417916,
-    "std_time": 1.8999999999999932,
+    "mean_dist": 369.8558731710801,
+    "mean_time": 4.40000000000002,
+    "std_dist": 366.89598629599396,
+    "std_time": 1.7461067804944996,
     "admin": "Jawa Tengah",
     "country": "Indonesia",
+    "city": "Pekalongan",
     "regions": [
       "Florida",
-      "California"
+      "California",
+      "Victoria"
     ],
     "countries": [
       "United States",
-      "United States"
+      "United States",
+      "Australia"
     ],
     "dists": [
       887.6542814679963,
-      139.81153713963798
+      139.81153713963798,
+      82.10180090560613
     ],
     "times": [
       6.866666666666678,
-      3.0666666666666913
+      3.0666666666666913,
+      3.2666666666666906
     ]
   },
   "Nabire, Papua, Indonesia": {
@@ -8700,39 +8948,43 @@
     ]
   },
   "Cilacap, Jawa Tengah, Indonesia": {
-    "mean_dist": 673.7215262978303,
-    "mean_time": 7.4555555555555655,
-    "std_dist": 400.74665089304597,
-    "std_time": 0.43404499965832316,
+    "mean_dist": 568.2091510186863,
+    "mean_time": 7.1750000000000105,
+    "std_dist": 392.23333956031263,
+    "std_time": 0.6143537706855496,
     "admin": "Jawa Tengah",
     "country": "Indonesia",
     "city": "Cilacap",
     "regions": [
       "California",
       "New South Wales",
-      "Aargau"
+      "Aargau",
+      "Victoria"
     ],
     "countries": [
       "United States",
       "Australia",
-      "Switzerland"
+      "Switzerland",
+      "Australia"
     ],
     "dists": [
       1107.9373724884824,
       772.0327948993498,
-      141.19441150565902
+      141.19441150565902,
+      251.67202518125376
     ],
     "times": [
       7.9000000000000075,
       7.6000000000000085,
-      6.866666666666678
+      6.866666666666678,
+      6.333333333333346
     ]
   },
   "Singapore, Singapore": {
-    "mean_dist": 367.4578689202916,
-    "mean_time": 7.03809523809525,
-    "std_dist": 343.9747548360844,
-    "std_time": 0.5763675446147696,
+    "mean_dist": 386.89902341952615,
+    "mean_time": 7.0111111111111235,
+    "std_dist": 365.0369764739762,
+    "std_time": 0.5593205754956966,
     "admin": "",
     "country": "Singapore",
     "city": "Singapore",
@@ -8743,7 +8995,9 @@
       "Victoria",
       "California",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "Victoria",
+      "California"
     ],
     "countries": [
       "United States",
@@ -8752,7 +9006,9 @@
       "Australia",
       "United States",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "Australia",
+      "United States"
     ],
     "dists": [
       659.7574035722422,
@@ -8761,7 +9017,9 @@
       92.81900245496502,
       78.07006011182685,
       109.40428693793874,
-      34.605623651608695
+      34.605623651608695,
+      878.6952509501496,
+      31.190877383544493
     ],
     "times": [
       7.566666666666675,
@@ -8770,7 +9028,9 @@
       7.30000000000001,
       6.600000000000012,
       6.933333333333344,
-      6.866666666666678
+      6.866666666666678,
+      6.433333333333346,
+      7.400000000000009
     ]
   },
   "Cirebon, Jawa Barat, Indonesia": {
@@ -8838,10 +9098,10 @@
     ]
   },
   "Hamilton, New Zealand": {
-    "mean_dist": 375.3983045343863,
-    "mean_time": 7.557142857142865,
-    "std_dist": 238.11969484214475,
-    "std_time": 0.3327205251345402,
+    "mean_dist": 366.3729739084215,
+    "mean_time": 7.575000000000008,
+    "std_dist": 224.016877909026,
+    "std_time": 0.31479711279206724,
     "admin": "Waikato",
     "country": "New Zealand",
     "city": "Hamilton",
@@ -8852,7 +9112,8 @@
       "Victoria",
       "Aargau",
       "Aargau",
-      "California"
+      "California",
+      "Victoria"
     ],
     "countries": [
       "United States",
@@ -8861,7 +9122,8 @@
       "Australia",
       "Switzerland",
       "Switzerland",
-      "United States"
+      "United States",
+      "Australia"
     ],
     "dists": [
       478.9187406145966,
@@ -8870,7 +9132,8 @@
       188.0343780396175,
       883.7327187358626,
       457.24027919127286,
-      224.8037594040629
+      224.8037594040629,
+      303.19565952666784
     ],
     "times": [
       7.533333333333342,
@@ -8879,7 +9142,8 @@
       7.066666666666677,
       8.000000000000007,
       7.933333333333341,
-      7.20000000000001
+      7.20000000000001,
+      7.700000000000008
     ]
   },
   "Kandy, Sri Lanka": {
@@ -9003,23 +9267,28 @@
     "times": []
   },
   "Broome, Western Australia, Australia": {
-    "mean_dist": 1620.38104423239,
-    "mean_time": 8.633333333333338,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 1725.242738555669,
+    "mean_time": 8.350000000000005,
+    "std_dist": 104.86169432327893,
+    "std_time": 0.2833333333333323,
     "admin": "Western Australia",
     "country": "Australia",
+    "city": "Broome",
     "regions": [
-      "Moscow Oblast"
+      "Moscow Oblast",
+      "California"
     ],
     "countries": [
-      "Russia"
+      "Russia",
+      "United States"
     ],
     "dists": [
-      1620.38104423239
+      1620.38104423239,
+      1830.1044328789478
     ],
     "times": [
-      8.633333333333338
+      8.633333333333338,
+      8.066666666666674
     ]
   },
   "Kediri, Jawa Timur, Indonesia": {
@@ -9047,27 +9316,32 @@
     ]
   },
   "Traralgon, Victoria, Australia": {
-    "mean_dist": 112.23844640349958,
-    "mean_time": 6.866666666666678,
-    "std_dist": 26.464576773785893,
-    "std_time": 0.29999999999999893,
+    "mean_dist": 91.01504492856782,
+    "mean_time": 7.266666666666676,
+    "std_dist": 36.98352907546832,
+    "std_time": 0.6164414002968954,
     "admin": "Victoria",
     "country": "Australia",
+    "city": "Traralgon",
     "regions": [
       "Stockholm",
+      "California",
       "California"
     ],
     "countries": [
       "Sweden",
+      "United States",
       "United States"
     ],
     "dists": [
       138.70302317728547,
-      85.77386962971369
+      85.77386962971369,
+      48.56824197870427
     ],
     "times": [
       7.166666666666677,
-      6.566666666666679
+      6.566666666666679,
+      8.066666666666674
     ]
   },
   "Palangkaraya, Kalimantan Tengah, Indonesia": {
@@ -9497,23 +9771,28 @@
     ]
   },
   "Kairaki, New Zealand": {
-    "mean_dist": 446.26716280230835,
-    "mean_time": 8.300000000000006,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 297.66589145470164,
+    "mean_time": 8.416666666666671,
+    "std_dist": 148.60127134760674,
+    "std_time": 0.11666666666666625,
     "admin": "Canterbury",
     "country": "New Zealand",
+    "city": "Kairaki",
     "regions": [
-      "New South Wales"
+      "New South Wales",
+      "California"
     ],
     "countries": [
-      "Australia"
+      "Australia",
+      "United States"
     ],
     "dists": [
-      446.26716280230835
+      446.26716280230835,
+      149.06462010709487
     ],
     "times": [
-      8.300000000000006
+      8.300000000000006,
+      8.533333333333339
     ]
   },
   "Sawahlunto, Sumatera Barat, Indonesia": {
@@ -9683,27 +9962,32 @@
     ]
   },
   "Kendari, Sulawesi Tenggara, Indonesia": {
-    "mean_dist": 668.4089055815075,
-    "mean_time": 7.816666666666674,
-    "std_dist": 523.1565911999818,
-    "std_time": 0.08333333333333304,
+    "mean_dist": 1179.0182082540744,
+    "mean_time": 7.81111111111112,
+    "std_dist": 838.990821897864,
+    "std_time": 0.06849348892187729,
     "admin": "Sulawesi Tenggara",
     "country": "Indonesia",
+    "city": "Kendari",
     "regions": [
       "New South Wales",
+      "California",
       "California"
     ],
     "countries": [
       "Australia",
+      "United States",
       "United States"
     ],
     "dists": [
       145.2523143815257,
-      1191.5654967814892
+      1191.5654967814892,
+      2200.2368135992083
     ],
     "times": [
       7.733333333333341,
-      7.9000000000000075
+      7.9000000000000075,
+      7.800000000000008
     ]
   },
   "Kavieng, Papua New Guinea": {
@@ -10032,57 +10316,65 @@
     ]
   },
   "Gympie, Queensland, Australia": {
-    "mean_dist": 457.76076872941144,
-    "mean_time": 5.766666666666683,
-    "std_dist": 336.83716478687154,
-    "std_time": 0.6976149845485425,
+    "mean_dist": 465.4051761605762,
+    "mean_time": 5.841666666666682,
+    "std_dist": 292.0098758281378,
+    "std_time": 0.6179603547154116,
     "city": "Gympie",
     "admin": "Queensland",
     "country": "Australia",
     "regions": [
       "California",
       "California",
-      "California"
+      "California",
+      "Victoria"
     ],
     "countries": [
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Australia"
     ],
     "dists": [
       868.925444105255,
       460.49698677955865,
-      43.859875303420615
+      43.859875303420615,
+      488.3383984540706
     ],
     "times": [
       6.6666666666666785,
       5.666666666666682,
-      4.9666666666666845
+      4.9666666666666845,
+      6.066666666666681
     ]
   },
   "Sorong, Papua Barat, Indonesia": {
-    "mean_dist": 2487.0910259892366,
-    "mean_time": 6.983333333333344,
-    "std_dist": 779.5557061771319,
-    "std_time": 0.6833333333333309,
+    "mean_dist": 2544.154526682989,
+    "mean_time": 6.6666666666666785,
+    "std_dist": 641.5999939565692,
+    "std_time": 0.7154382236446751,
     "city": "Sorong",
     "admin": "Papua Barat",
     "country": "Indonesia",
     "regions": [
       "California",
-      "California"
+      "California",
+      "Victoria"
     ],
     "countries": [
       "United States",
-      "United States"
+      "United States",
+      "Australia"
     ],
     "dists": [
       1707.5353198121047,
-      3266.6467321663686
+      3266.6467321663686,
+      2658.2815280704936
     ],
     "times": [
       7.666666666666675,
-      6.300000000000013
+      6.300000000000013,
+      6.033333333333347
     ]
   },
   "Mataram, Nusa Tenggara Barat, Indonesia": {
@@ -10220,10 +10512,10 @@
     ]
   },
   "Daru, Papua New Guinea": {
-    "mean_dist": 984.5696513625984,
-    "mean_time": 7.5166666666666755,
-    "std_dist": 754.8576201266699,
-    "std_time": 0.5756638679723495,
+    "mean_dist": 905.3494046098509,
+    "mean_time": 7.561904761904771,
+    "std_dist": 725.3024743210419,
+    "std_time": 0.5443588252359309,
     "city": "Daru",
     "admin": "Western",
     "country": "Papua New Guinea",
@@ -10233,6 +10525,7 @@
       "California",
       "Pennsylvania",
       "Victoria",
+      "Victoria",
       "Victoria"
     ],
     "countries": [
@@ -10240,6 +10533,7 @@
       "United States",
       "United States",
       "United States",
+      "Australia",
       "Australia",
       "Australia"
     ],
@@ -10249,7 +10543,8 @@
       379.4653124784242,
       2621.8621991376185,
       778.7236947619042,
-      595.272054986684
+      595.272054986684,
+      430.0279240933656
     ],
     "times": [
       7.000000000000011,
@@ -10257,7 +10552,8 @@
       8.000000000000007,
       8.100000000000007,
       6.500000000000012,
-      7.800000000000008
+      7.800000000000008,
+      7.833333333333341
     ]
   },
   "Padang, Sumatera Barat, Indonesia": {
@@ -10332,32 +10628,36 @@
     ]
   },
   "Tamworth, New South Wales, Australia": {
-    "mean_dist": 543.6079542160104,
-    "mean_time": 7.955555555555563,
-    "std_dist": 370.22935896049574,
-    "std_time": 0.0874889763779087,
+    "mean_dist": 510.48277179416965,
+    "mean_time": 7.658333333333342,
+    "std_dist": 325.7209953451963,
+    "std_time": 0.5203497755249703,
     "city": "Tamworth",
     "admin": "New South Wales",
     "country": "Australia",
     "regions": [
       "California",
       "California",
-      "Pennsylvania"
+      "Pennsylvania",
+      "Victoria"
     ],
     "countries": [
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Australia"
     ],
     "dists": [
       187.03701283284445,
       389.8579747290144,
-      1053.9288750861722
+      1053.9288750861722,
+      411.1072245286475
     ],
     "times": [
       7.833333333333341,
       8.03333333333334,
-      8.000000000000007
+      8.000000000000007,
+      6.766666666666678
     ]
   },
   "Biak, Papua, Indonesia": {
@@ -10553,32 +10853,36 @@
     ]
   },
   "Gawler, South Australia, Australia": {
-    "mean_dist": 296.7271613888583,
-    "mean_time": 7.20000000000001,
-    "std_dist": 23.616361291276014,
-    "std_time": 0.7930251502246852,
+    "mean_dist": 281.15391573457504,
+    "mean_time": 7.191666666666677,
+    "std_dist": 33.85080990325071,
+    "std_time": 0.6869315832017019,
     "city": "Gawler",
     "admin": "South Australia",
     "country": "Australia",
     "regions": [
       "Victoria",
       "Victoria",
-      "Aargau"
+      "Aargau",
+      "Victoria"
     ],
     "countries": [
       "Australia",
       "Australia",
-      "Switzerland"
+      "Switzerland",
+      "Australia"
     ],
     "dists": [
       285.50122750139326,
       275.09893549479796,
-      329.5813211703837
+      329.5813211703837,
+      234.4341787717253
     ],
     "times": [
       6.133333333333347,
       7.4333333333333425,
-      8.03333333333334
+      8.03333333333334,
+      7.166666666666677
     ]
   },
   "Port-Vila, Vanuatu": {
@@ -10615,24 +10919,28 @@
     ]
   },
   "Perth, Western Australia, Australia": {
-    "mean_dist": 167.17732969174304,
-    "mean_time": 7.700000000000008,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 226.81923073873918,
+    "mean_time": 7.866666666666674,
+    "std_dist": 59.641901046996125,
+    "std_time": 0.16666666666666607,
     "city": "Perth",
     "admin": "Western Australia",
     "country": "Australia",
     "regions": [
-      "Victoria"
+      "Victoria",
+      "California"
     ],
     "countries": [
-      "Australia"
+      "Australia",
+      "United States"
     ],
     "dists": [
-      167.17732969174304
+      167.17732969174304,
+      286.4611317857353
     ],
     "times": [
-      7.700000000000008
+      7.700000000000008,
+      8.03333333333334
     ]
   },
   "Yogyakarta, Yogyakarta, Indonesia": {
@@ -10839,6 +11147,69 @@
     ],
     "dists": [
       459.3987031360968
+    ],
+    "times": [
+      7.766666666666675
+    ]
+  },
+  "Bowen, Queensland, Australia": {
+    "mean_dist": 99.867365651859,
+    "mean_time": 6.233333333333347,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Bowen",
+    "admin": "Queensland",
+    "country": "Australia",
+    "regions": [
+      "Victoria"
+    ],
+    "countries": [
+      "Australia"
+    ],
+    "dists": [
+      99.867365651859
+    ],
+    "times": [
+      6.233333333333347
+    ]
+  },
+  "Dubbo, New South Wales, Australia": {
+    "mean_dist": 255.91109037412244,
+    "mean_time": 6.133333333333347,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Dubbo",
+    "admin": "New South Wales",
+    "country": "Australia",
+    "regions": [
+      "Victoria"
+    ],
+    "countries": [
+      "Australia"
+    ],
+    "dists": [
+      255.91109037412244
+    ],
+    "times": [
+      6.133333333333347
+    ]
+  },
+  "Raba, Nusa Tenggara Barat, Indonesia": {
+    "mean_dist": 1836.520822750539,
+    "mean_time": 7.766666666666675,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Raba",
+    "admin": "Nusa Tenggara Barat",
+    "country": "Indonesia",
+    "regions": [
+      "California"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      1836.520822750539
     ],
     "times": [
       7.766666666666675
