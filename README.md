@@ -1,3 +1,5 @@
+TODO: The way cities are displayed recently changed, so there are some duplicate entries in the data.  For example, London used to be "London, UK" but now shows as "London, United Kingdom."  Another example is places with unicode characters may have duplicate entries, such as Qu\u1ea3ng H\u00e0 (Quang Ha, Vietnam).  I am working on unifying these.
+
 # Statistics for GeoScents Game
 
 GeoScents is an online multiplayer geography game.  You are given a city and you must try to click the city on the map as quickly and accurately as possible.  Scores are tracked along with the player's region and country.  The data is dumped here every each day for you to peruse and play with.  Feel free to open issues if you would like to see other statistics added to the dataset, and share any interesting results you find!
