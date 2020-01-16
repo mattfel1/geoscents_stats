@@ -1,4 +1,4 @@
-TODO: The way cities are displayed recently changed, so there are some duplicate entries in the data.  For example, London used to be "London, UK" but now shows as "London, United Kingdom."  Another example is places with unicode characters may have duplicate entries, such as Qu\u1ea3ng H\u00e0 (Quang Ha, Vietnam).  I am working on unifying these.
+TODO: The way cities are displayed recently changed, so there are some duplicate entries in the data.  For example, London used to be "London, UK" but now shows as "London, United Kingdom."  Another example is places with special characters may have duplicate entries, such as Qu\u1ea3ng H\u00e0 (Quang Ha, Vietnam).  I am working on unifying these.
 
 # Statistics for GeoScents Game
 
