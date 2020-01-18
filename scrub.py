@@ -86,6 +86,7 @@ for path in pathlist:
                     data[entry]['regions'].append(cache[ip4][0])
                     data[entry]['countries'].append(cache[ip4][1])
                 else:
+                    print(ip4)
                     access_token = 'a0d2f9a2e477c0' # Please get your own free token instead of using mine :(
                     handler = ipinfo.getHandler(access_token)
                     details = handler.getDetails(ip4)
