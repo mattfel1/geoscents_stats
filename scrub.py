@@ -89,10 +89,16 @@ for path in pathlist:
                     print(ip4)
                     access_token = 'a0d2f9a2e477c0' # Please get your own free token instead of using mine :(
                     handler = ipinfo.getHandler(access_token)
-                    details = handler.getDetails(ip4)
-                    cache[ip4] = [details.region, details.country_name]
-                    data[entry]['regions'].append(details.region)
-                    data[entry]['countries'].append(details.country_name)
+                    try: 
+                        details = handler.getDetails(ip4)
+                        cache[ip4] = [details.region, details.country_name]
+                        data[entry]['regions'].append(details.region)
+                        data[entry]['countries'].append(details.country_name)
+                    except:
+                        print('failed to fetch ip')
+                        data[entry]['regions'].append(cache['127.0.0.1'][0])
+                        data[entry]['countries'].append(cache['127.0.0.1'][1])
+
             data[entry].pop('ips', None)
             # Hacky way to put the statistics summaries at the beginning of json entry
             data[entry]['dists'] = data[entry].pop('dists',None)
