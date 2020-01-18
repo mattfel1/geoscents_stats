@@ -98,12 +98,12 @@ for path in pathlist:
             data[entry]['times'] = data[entry].pop('times',None)
         outfile = file.replace('.','').replace(' ','').replace('_guesses','') + '.json'
         mapname = outfile.replace('.json','')
+        with open(outfile, 'w') as data_file:
+            json.dump(data, data_file, indent=2)
         
         longest, longestCity = convert(outfile, outfile.replace('.json','.csv'))
         
         metadata[mapname] = {'num_cities': num_cities, 'num_clicks': num_clicks, 'num_clicks_per_city': num_clicks/num_cities, 'most_played_city': longestCity, 'most_played_city_num_clicks': longest}
-        with open(outfile, 'w') as data_file:
-            json.dump(data, data_file, indent=2)
         os.remove(file)
 
 
