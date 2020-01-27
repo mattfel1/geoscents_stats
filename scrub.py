@@ -60,7 +60,12 @@ def convert(fileInput, fileOutput):
 
 
 pathlist = Path('.').glob('**/*_guesses')
-cache = {'127.0.0.1': ["Unknown", "Unknown"]}
+try:
+    with open('/scratch/ip_cache', 'r') as fp:
+        cache = json.load(fp)
+        print('Loaded %d ips from cache' % len(cache))
+except:
+    cache = {'127.0.0.1': ["Unknown", "Unknown"]}
 metadata = {}
 
 for path in pathlist:
@@ -115,6 +120,8 @@ for path in pathlist:
 
 
 
+with open('/scratch/ip_cache', 'w') as fp:
+    json.dump(cache, fp)
 
 with open('metadata.json', 'w') as data_file:
     json.dump(metadata, data_file, indent=2)
