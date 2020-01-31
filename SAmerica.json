@@ -115,10 +115,10 @@
     ]
   },
   "Cartagena, Colombia": {
-    "mean_dist": 726.7419580173237,
-    "mean_time": 5.588888888888903,
-    "std_dist": 653.5196618091037,
-    "std_time": 2.2429037616336975,
+    "mean_dist": 685.2382246138557,
+    "mean_time": 5.809523809523823,
+    "std_dist": 613.5232217582559,
+    "std_time": 2.1457018155324175,
     "city": "Cartagena",
     "admin": "Bol\u00edvar",
     "country": "Colombia",
@@ -128,6 +128,7 @@
       "Unknown",
       "",
       "Aargau",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -135,6 +136,7 @@
       "Unknown",
       "Unknown",
       null,
+      "Switzerland",
       "Switzerland",
       "Switzerland"
     ],
@@ -144,7 +146,8 @@
       1351.8728511635302,
       426.63638599085033,
       255.05282361567063,
-      202.4824035233573
+      202.4824035233573,
+      436.2158241930473
     ],
     "times": [
       6.2000000000000135,
@@ -152,7 +155,8 @@
       4.633333333333352,
       1.133333333333359,
       7.333333333333343,
-      7.933333333333341
+      7.933333333333341,
+      7.1333333333333435
     ]
   },
   "Basseterre, Saint Kitts And Nevis": {
@@ -281,10 +285,10 @@
     ]
   },
   "Oranjestad, Aruba": {
-    "mean_dist": 510.51260219946204,
-    "mean_time": 6.940579710144938,
-    "std_dist": 639.6992512559917,
-    "std_time": 1.9278772717803474,
+    "mean_dist": 491.7636790322265,
+    "mean_time": 6.986111111111121,
+    "std_dist": 632.6527565050928,
+    "std_time": 1.8998761330643716,
     "admin": "",
     "country": "Aruba",
     "city": "Oranjestad",
@@ -308,6 +312,7 @@
       "Alberta",
       "North Holland",
       "North Holland",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -336,6 +341,7 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -361,7 +367,8 @@
       26.989115035251125,
       158.07336926008628,
       69.79316526098377,
-      15.830944478560633
+      15.830944478560633,
+      60.53844618580841
     ],
     "times": [
       6.6666666666666785,
@@ -386,7 +393,8 @@
       8.03333333333334,
       7.966666666666674,
       8.266666666666673,
-      7.400000000000009
+      7.400000000000009,
+      8.03333333333334
     ]
   },
   "Ciudad Guayana, Venezuela": {
@@ -774,10 +782,10 @@
     ]
   },
   "Willemstad, Cura\u00e7ao": {
-    "mean_dist": 860.9332856804909,
-    "mean_time": 7.19200000000001,
-    "std_dist": 2137.612141029311,
-    "std_time": 1.7561645076067791,
+    "mean_dist": 832.4435760692942,
+    "mean_time": 7.225641025641035,
+    "std_dist": 2100.9358990223545,
+    "std_time": 1.7302563342604773,
     "admin": "",
     "country": "Cura\u00e7ao",
     "city": "Willemstad",
@@ -806,7 +814,8 @@
       "England",
       "England",
       "Aargau",
-      "England"
+      "England",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -833,7 +842,8 @@
       "United Kingdom",
       "United Kingdom",
       "Switzerland",
-      "United Kingdom"
+      "United Kingdom",
+      "Switzerland"
     ],
     "dists": [
       25.13309846041277,
@@ -860,7 +870,8 @@
       826.579984438294,
       8343.725196373829,
       74.05040029695941,
-      7703.356147290228
+      7703.356147290228,
+      120.20083578937728
     ],
     "times": [
       7.533333333333342,
@@ -887,14 +898,15 @@
       0.2000000000000255,
       4.366666666666687,
       8.200000000000006,
-      6.966666666666677
+      6.966666666666677,
+      8.066666666666674
     ]
   },
   "Guayaquil, Ecuador": {
-    "mean_dist": 244.24389587868563,
-    "mean_time": 7.885185185185193,
-    "std_dist": 275.7579323314456,
-    "std_time": 0.5877580570334016,
+    "mean_dist": 242.581221121743,
+    "mean_time": 7.846666666666676,
+    "std_dist": 261.6544933790916,
+    "std_time": 0.5694441734416679,
     "city": "Guayaquil",
     "admin": "Guayas",
     "country": "Ecuador",
@@ -903,6 +915,7 @@
       "Cordoba",
       "Cordoba",
       "North Carolina",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -918,6 +931,7 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -929,7 +943,8 @@
       59.69658267938973,
       278.1202142803127,
       305.37506936151505,
-      55.59378151503841
+      55.59378151503841,
+      227.61714830925948
     ],
     "times": [
       8.266666666666673,
@@ -940,7 +955,8 @@
       8.400000000000006,
       8.13333333333334,
       8.166666666666673,
-      8.066666666666674
+      8.066666666666674,
+      7.500000000000009
     ]
   },
   "Rosario, Argentina": {
@@ -1042,39 +1058,43 @@
     ]
   },
   "Matur\u00edn, Venezuela": {
-    "mean_dist": 225.20185254168885,
-    "mean_time": 7.1333333333333435,
-    "std_dist": 100.70717239289243,
-    "std_time": 1.2754084313139282,
+    "mean_dist": 344.0763140195383,
+    "mean_time": 7.408333333333342,
+    "std_dist": 223.60649298147615,
+    "std_time": 1.2028611723719365,
     "city": "Matur\u00edn",
     "admin": "Monagas",
     "country": "Venezuela",
     "regions": [
       "New Jersey",
       "New South Wales",
-      "North Carolina"
+      "North Carolina",
+      "Aargau"
     ],
     "countries": [
       "United States",
       "Australia",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       256.2567286702252,
       330.04715997464103,
-      89.30166898020035
+      89.30166898020035,
+      700.6996984530866
     ],
     "times": [
       5.33333333333335,
       8.13333333333334,
-      7.933333333333341
+      7.933333333333341,
+      8.23333333333334
     ]
   },
   "Roseau, Dominica": {
-    "mean_dist": 196.58811903173412,
-    "mean_time": 7.46021505376345,
-    "std_dist": 236.7062771722333,
-    "std_time": 1.3584045922291128,
+    "mean_dist": 193.84952847030723,
+    "mean_time": 7.48125000000001,
+    "std_dist": 233.4768183401669,
+    "std_time": 1.342130807397943,
     "admin": "Saint George",
     "country": "Dominica",
     "city": "Roseau",
@@ -1109,7 +1129,8 @@
       "Baden-W\u00fcrttemberg",
       "Aargau",
       "California",
-      "California"
+      "California",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -1142,7 +1163,8 @@
       "Germany",
       "Switzerland",
       "United States",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       177.68405575475902,
@@ -1175,7 +1197,8 @@
       168.22687634792743,
       108.51108703354394,
       13.651720949348592,
-      39.76600007400044
+      39.76600007400044,
+      108.95322106607387
     ],
     "times": [
       6.36666666666668,
@@ -1208,7 +1231,8 @@
       7.466666666666676,
       8.066666666666674,
       8.200000000000006,
-      8.03333333333334
+      8.03333333333334,
+      8.13333333333334
     ]
   },
   "Bridgetown, Barbados": {
@@ -1713,10 +1737,10 @@
     ]
   },
   "Philipsburg, Sint Maarten": {
-    "mean_dist": 909.1699492637885,
-    "mean_time": 6.861904761904771,
-    "std_dist": 1515.8198186752038,
-    "std_time": 1.6279725994562932,
+    "mean_dist": 875.9202237970062,
+    "mean_time": 6.8909090909090995,
+    "std_dist": 1488.7863516210696,
+    "std_time": 1.5960868124721919,
     "admin": "",
     "country": "Sint Maarten",
     "city": "Philipsburg",
@@ -1739,6 +1763,7 @@
       "Aargau",
       "Aargau",
       "Florida",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau"
@@ -1764,6 +1789,7 @@
       "United States",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -1787,7 +1813,8 @@
       1016.652046492073,
       918.2731392842801,
       138.11089728122,
-      44.836080222031214
+      44.836080222031214,
+      177.67598899457735
     ],
     "times": [
       8.13333333333334,
@@ -1810,7 +1837,8 @@
       8.13333333333334,
       5.666666666666682,
       7.9000000000000075,
-      7.400000000000009
+      7.400000000000009,
+      7.500000000000009
     ]
   },
   "Ibagu\u00e9, Colombia": {
@@ -2562,10 +2590,10 @@
     ]
   },
   "Cochabamba, Bolivia": {
-    "mean_dist": 300.9119228421027,
-    "mean_time": 7.500000000000008,
-    "std_dist": 385.7050448436512,
-    "std_time": 1.3713560019012583,
+    "mean_dist": 288.0004406864612,
+    "mean_time": 7.494736842105271,
+    "std_dist": 379.39317532350174,
+    "std_time": 1.3349666819284374,
     "admin": "Cochabamba",
     "country": "Bolivia",
     "city": "Cochabamba",
@@ -2587,7 +2615,8 @@
       "Aargau",
       "Aargau",
       "Aargau",
-      "Baden-W\u00fcrttemberg"
+      "Baden-W\u00fcrttemberg",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -2607,7 +2636,8 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       262.3818156113938,
@@ -2627,7 +2657,8 @@
       183.08566754857816,
       39.15610471515409,
       113.6627933281311,
-      146.84734284773208
+      146.84734284773208,
+      55.59376188491507
     ],
     "times": [
       7.000000000000011,
@@ -2647,7 +2678,8 @@
       8.13333333333334,
       8.166666666666673,
       8.300000000000006,
-      6.966666666666677
+      6.966666666666677,
+      7.400000000000009
     ]
   },
   "Santiago, Dominican Republic": {
@@ -2986,10 +3018,10 @@
     ]
   },
   "Barcelona, Venezuela": {
-    "mean_dist": 575.1639539962083,
-    "mean_time": 5.438095238095253,
-    "std_dist": 443.2044773796847,
-    "std_time": 1.959059425387479,
+    "mean_dist": 518.2772006280225,
+    "mean_time": 4.962500000000017,
+    "std_dist": 441.0545903112608,
+    "std_time": 2.2229508354137377,
     "admin": "Anzo\u00e1tegui",
     "country": "Venezuela",
     "city": "Barcelona",
@@ -2998,6 +3030,7 @@
       "",
       "England",
       "England",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau"
@@ -3009,6 +3042,7 @@
       "United Kingdom",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -3018,7 +3052,8 @@
       1264.3243696081877,
       666.5356955735348,
       197.3333485223779,
-      223.88384058156822
+      223.88384058156822,
+      120.06992705072169
     ],
     "times": [
       4.200000000000021,
@@ -3027,7 +3062,8 @@
       3.2333333333333574,
       8.000000000000007,
       8.13333333333334,
-      6.700000000000012
+      6.700000000000012,
+      1.6333333333333606
     ]
   },
   "Barahona, Dominican Republic": {
@@ -3761,10 +3797,10 @@
     ]
   },
   "Cruzeiro do Sul, Acre, Brazil": {
-    "mean_dist": 1863.4625166463468,
-    "mean_time": 7.248148148148157,
-    "std_dist": 1487.2747545010966,
-    "std_time": 0.590064049905089,
+    "mean_dist": 1722.0805925846482,
+    "mean_time": 7.3500000000000085,
+    "std_dist": 1473.3252227193964,
+    "std_time": 0.637747773200518,
     "admin": "Acre",
     "country": "Brazil",
     "city": "Cruzeiro do Sul",
@@ -3777,6 +3813,7 @@
       "Aargau",
       "Aargau",
       "Aargau",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -3784,6 +3821,7 @@
       "Switzerland",
       "Switzerland",
       "Germany",
+      "Switzerland",
       "Switzerland",
       "Switzerland",
       "Switzerland",
@@ -3799,7 +3837,8 @@
       182.8086512238356,
       414.2505184669865,
       35.91513751854667,
-      409.4568241114012
+      409.4568241114012,
+      449.6432760293597
     ],
     "times": [
       8.03333333333334,
@@ -3810,14 +3849,15 @@
       7.466666666666676,
       6.2000000000000135,
       6.500000000000012,
-      7.533333333333342
+      7.533333333333342,
+      8.266666666666673
     ]
   },
   "Quillota, Chile": {
-    "mean_dist": 331.9072903886037,
-    "mean_time": 7.542857142857151,
-    "std_dist": 306.1647971803393,
-    "std_time": 0.5016525977189634,
+    "mean_dist": 314.84903846702275,
+    "mean_time": 7.545833333333341,
+    "std_dist": 289.9252668598571,
+    "std_time": 0.4693190989792181,
     "city": "Quillota",
     "admin": "Valpara\u00edso",
     "country": "Chile",
@@ -3828,6 +3868,7 @@
       "Aargau",
       "Aargau",
       "Saxony",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -3837,6 +3878,7 @@
       "Switzerland",
       "Switzerland",
       "Germany",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -3846,7 +3888,8 @@
       447.8875955958879,
       15.01159678125377,
       940.4112329049361,
-      77.4071114747774
+      77.4071114747774,
+      195.44127501595565
     ],
     "times": [
       7.20000000000001,
@@ -3855,7 +3898,8 @@
       7.733333333333341,
       8.03333333333334,
       6.466666666666679,
-      7.666666666666675
+      7.666666666666675,
+      7.566666666666675
     ]
   },
   "Port of Spain, Trinidad And Tobago": {
@@ -4859,10 +4903,10 @@
     ]
   },
   "Paita, Peru": {
-    "mean_dist": 1123.9648623313176,
-    "mean_time": 7.988888888888895,
-    "std_dist": 220.84084138718754,
-    "std_time": 0.8086721321301643,
+    "mean_dist": 1112.1853108962528,
+    "mean_time": 7.980952380952388,
+    "std_dist": 206.48482901451754,
+    "std_time": 0.7489372667176164,
     "admin": "Piura",
     "country": "Peru",
     "city": "Paita",
@@ -4870,6 +4914,7 @@
       "California",
       "New South Wales",
       "California",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau"
@@ -4880,6 +4925,7 @@
       "United States",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -4888,7 +4934,8 @@
       931.5767812067566,
       1443.814437558339,
       1156.8089520020408,
-      1270.9594464921001
+      1270.9594464921001,
+      1041.508002285863
     ],
     "times": [
       6.233333333333347,
@@ -4896,7 +4943,8 @@
       8.500000000000005,
       7.933333333333341,
       8.500000000000005,
-      8.433333333333339
+      8.433333333333339,
+      7.933333333333341
     ]
   },
   "Bonao, Dominican Republic": {
@@ -5591,10 +5639,10 @@
     ]
   },
   "Saint George\u2019s, Grenada": {
-    "mean_dist": 378.21386434583394,
-    "mean_time": 7.637681159420298,
-    "std_dist": 491.97098825183025,
-    "std_time": 0.7116901260652341,
+    "mean_dist": 375.74900098992225,
+    "mean_time": 7.6416666666666755,
+    "std_dist": 481.7575950718821,
+    "std_time": 0.6969676383368781,
     "admin": "Saint George",
     "country": "Grenada",
     "city": "Saint George\u2019s",
@@ -5615,6 +5663,7 @@
       "Aargau",
       "Aargau",
       "Saxony",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -5646,6 +5695,7 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -5671,7 +5721,8 @@
       185.19571490856436,
       59.83025130189619,
       43.70038939713136,
-      92.63730026050031
+      92.63730026050031,
+      319.0571438039526
     ],
     "times": [
       5.933333333333348,
@@ -5696,7 +5747,8 @@
       7.966666666666674,
       7.633333333333342,
       8.400000000000006,
-      7.566666666666675
+      7.566666666666675,
+      7.733333333333341
     ]
   },
   "Chiquinquir\u00e1, Colombia": {
@@ -7060,10 +7112,10 @@
     ]
   },
   "Chill\u00e1n, Chile": {
-    "mean_dist": 662.7684967618364,
-    "mean_time": 7.672727272727281,
-    "std_dist": 325.54673385003633,
-    "std_time": 0.754892216778769,
+    "mean_dist": 653.4446693651274,
+    "mean_time": 7.716666666666675,
+    "std_dist": 313.21753504173,
+    "std_time": 0.7372998786864862,
     "admin": "",
     "country": "Chile",
     "city": "Chill\u00e1n",
@@ -7078,7 +7130,8 @@
       "Aargau",
       "Aargau",
       "Aargau",
-      "Saxony"
+      "Saxony",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -7091,7 +7144,8 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       682.6658908278964,
@@ -7104,7 +7158,8 @@
       754.8073175703644,
       310.6363133660652,
       1365.135472489709,
-      636.6711214503069
+      636.6711214503069,
+      550.8825680013274
     ],
     "times": [
       7.633333333333342,
@@ -7117,7 +7172,8 @@
       8.366666666666672,
       8.200000000000006,
       8.13333333333334,
-      8.266666666666673
+      8.266666666666673,
+      8.200000000000006
     ]
   },
   "Trujillo, Venezuela": {
@@ -8323,10 +8379,10 @@
     ]
   },
   "Puerto Plata, Dominican Republic": {
-    "mean_dist": 124.34426319564997,
-    "mean_time": 7.497916666666675,
-    "std_dist": 76.98735379917403,
-    "std_time": 0.9729300498722596,
+    "mean_dist": 133.3312291534969,
+    "mean_time": 7.364912280701762,
+    "std_dist": 76.53513095596179,
+    "std_time": 1.0005538632382518,
     "admin": "Cibao Norte",
     "country": "Dominican Republic",
     "city": "Puerto Plata",
@@ -8341,6 +8397,9 @@
       "England",
       "England",
       "Alberta",
+      "Aargau",
+      "Aargau",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -8364,6 +8423,9 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
+      "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -8382,7 +8444,10 @@
       132.17434152969983,
       74.67044868141102,
       15.487290047928427,
-      196.16400386324156
+      196.16400386324156,
+      222.8461548303307,
+      213.77950781281882,
+      107.15948014289212
     ],
     "times": [
       8.166666666666673,
@@ -8400,20 +8465,24 @@
       8.700000000000005,
       7.466666666666676,
       7.733333333333341,
-      8.166666666666673
+      8.166666666666673,
+      5.500000000000016,
+      7.4333333333333425,
+      7.033333333333344
     ]
   },
   "Ariquemes, Rond\u00f4nia, Brazil": {
-    "mean_dist": 1262.3626478322665,
-    "mean_time": 7.730000000000008,
-    "std_dist": 973.6243101910414,
-    "std_time": 0.28846336181759813,
+    "mean_dist": 1159.5032281373558,
+    "mean_time": 7.645454545454554,
+    "std_dist": 983.6504182310321,
+    "std_time": 0.3835698156652043,
     "admin": "Rond\u00f4nia",
     "country": "Brazil",
     "city": "Ariquemes",
     "regions": [
       "New South Wales",
       "Stockholm",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -8433,6 +8502,7 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -8445,7 +8515,8 @@
       224.39008180659016,
       1283.405622774605,
       320.1894160043321,
-      185.84737318683025
+      185.84737318683025,
+      130.90903118824912
     ],
     "times": [
       7.766666666666675,
@@ -8457,7 +8528,8 @@
       8.066666666666674,
       7.466666666666676,
       8.13333333333334,
-      8.23333333333334
+      8.23333333333334,
+      6.800000000000011
     ]
   },
   "M\u00e9rida, Venezuela": {
@@ -8673,10 +8745,10 @@
     ]
   },
   "Bayam\u00f3n, Puerto Rico": {
-    "mean_dist": 182.37470188854343,
-    "mean_time": 8.150000000000006,
-    "std_dist": 340.50461892998976,
-    "std_time": 0.875245997166254,
+    "mean_dist": 175.98643364757277,
+    "mean_time": 8.141269841269846,
+    "std_dist": 333.5243332397175,
+    "std_time": 0.8550444625899812,
     "admin": "Puerto Rico",
     "country": "Puerto Rico",
     "city": "Bayam\u00f3n",
@@ -8693,6 +8765,7 @@
       "Saxony",
       "Aargau",
       "Florida",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -8722,6 +8795,7 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -8744,6 +8818,7 @@
       37.192284359239444,
       48.221068828159844,
       54.79064005649457,
+      48.221068828159844,
       48.221068828159844
     ],
     "times": [
@@ -8766,7 +8841,8 @@
       8.500000000000005,
       7.866666666666674,
       8.833333333333337,
-      9.000000000000004
+      9.000000000000004,
+      7.966666666666674
     ]
   },
   "Moquegua, Peru": {
@@ -9244,10 +9320,10 @@
     ]
   },
   "Quillacollo, Bolivia": {
-    "mean_dist": 210.69647163742718,
-    "mean_time": 7.780555555555563,
-    "std_dist": 119.05006178653176,
-    "std_time": 1.1196443163173382,
+    "mean_dist": 208.93586672312247,
+    "mean_time": 7.823076923076931,
+    "std_dist": 114.54208644194132,
+    "std_time": 1.0857574153663434,
     "admin": "Cochabamba",
     "country": "Bolivia",
     "city": "Quillacollo",
@@ -9263,6 +9339,7 @@
       "Alberta",
       "Aargau",
       "Aargau",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -9275,6 +9352,7 @@
       "United States",
       "Switzerland",
       "Canada",
+      "Switzerland",
       "Switzerland",
       "Switzerland",
       "Switzerland"
@@ -9291,7 +9369,8 @@
       213.36370101637468,
       36.71525850672262,
       376.69908739248785,
-      6.346128982466276
+      6.346128982466276,
+      187.8086077514657
     ],
     "times": [
       5.7333333333333485,
@@ -9305,14 +9384,15 @@
       8.466666666666672,
       8.500000000000005,
       8.300000000000006,
-      8.433333333333339
+      8.433333333333339,
+      8.33333333333334
     ]
   },
   "Mercedes, Argentina": {
-    "mean_dist": 663.9636627493832,
-    "mean_time": 8.000000000000007,
-    "std_dist": 323.1926080178768,
-    "std_time": 0.49178435502956996,
+    "mean_dist": 619.1978251648145,
+    "mean_time": 8.019047619047626,
+    "std_dist": 318.67761145072996,
+    "std_time": 0.45768816682309493,
     "admin": "Buenos Aires",
     "country": "Argentina",
     "city": "Mercedes",
@@ -9322,6 +9402,7 @@
       "Aargau",
       "New York",
       "Aargau",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -9329,6 +9410,7 @@
       "United States",
       "Switzerland",
       "United States",
+      "Switzerland",
       "Switzerland",
       "Switzerland"
     ],
@@ -9338,7 +9420,8 @@
       680.074063910582,
       304.84297318814146,
       702.0590831344272,
-      282.4351497122956
+      282.4351497122956,
+      350.60279965740267
     ],
     "times": [
       7.166666666666677,
@@ -9346,7 +9429,8 @@
       8.566666666666672,
       7.533333333333342,
       8.13333333333334,
-      8.400000000000006
+      8.400000000000006,
+      8.13333333333334
     ]
   },
   "San Antonio, Chile": {
@@ -9503,10 +9587,10 @@
     ]
   },
   "Manaus, Amazonas, Brazil": {
-    "mean_dist": 794.548621410587,
-    "mean_time": 6.5380952380952495,
-    "std_dist": 746.6934624297459,
-    "std_time": 2.593975227906613,
+    "mean_dist": 747.3543709446831,
+    "mean_time": 6.575000000000011,
+    "std_dist": 709.5409198349143,
+    "std_time": 2.428405398152819,
     "city": "Manaus",
     "admin": "Amazonas",
     "country": "Brazil",
@@ -9514,6 +9598,7 @@
       "New South Wales",
       "Cordoba",
       "California",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -9526,6 +9611,7 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -9535,7 +9621,8 @@
       2439.501834307748,
       292.3934982727296,
       215.93502254512694,
-      337.1294564611822
+      337.1294564611822,
+      416.99461768335556
     ],
     "times": [
       6.933333333333344,
@@ -9544,7 +9631,8 @@
       6.733333333333345,
       8.000000000000007,
       8.000000000000007,
-      7.833333333333341
+      7.833333333333341,
+      6.833333333333345
     ]
   },
   "Rafaela, Argentina": {
@@ -11099,10 +11187,10 @@
     ]
   },
   "General Roca, Argentina": {
-    "mean_dist": 897.6845371594337,
-    "mean_time": 7.605555555555564,
-    "std_dist": 267.86782835266524,
-    "std_time": 0.4415530951114121,
+    "mean_dist": 891.2287375679322,
+    "mean_time": 7.5809523809523895,
+    "std_dist": 248.50107485527647,
+    "std_time": 0.41321701237936304,
     "city": "General Roca",
     "admin": "R\u00edo Negro",
     "country": "Argentina",
@@ -11112,6 +11200,7 @@
       "Aargau",
       "Aargau",
       "Baden-W\u00fcrttemberg",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -11120,6 +11209,7 @@
       "Switzerland",
       "Switzerland",
       "Germany",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -11128,7 +11218,8 @@
       1324.2166770955318,
       1032.1868570691615,
       850.7860991977656,
-      912.8867154502874
+      912.8867154502874,
+      852.4939400189226
     ],
     "times": [
       7.30000000000001,
@@ -11136,20 +11227,22 @@
       7.700000000000008,
       7.333333333333343,
       7.033333333333344,
-      7.9000000000000075
+      7.9000000000000075,
+      7.4333333333333425
     ]
   },
   "Ocumare del Tuy, Venezuela": {
-    "mean_dist": 227.97342052359215,
-    "mean_time": 8.083333333333341,
-    "std_dist": 87.07256000942812,
-    "std_time": 0.5563605279286399,
+    "mean_dist": 219.10681949589434,
+    "mean_time": 8.02380952380953,
+    "std_dist": 83.48796493123714,
+    "std_time": 0.5353279029892043,
     "city": "Ocumare del Tuy",
     "admin": "Miranda",
     "country": "Venezuela",
     "regions": [
       "North Carolina",
       "Alberta",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -11161,6 +11254,7 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -11169,7 +11263,8 @@
       333.2204370667036,
       211.7489505363351,
       336.001734243189,
-      118.56252919575533
+      118.56252919575533,
+      165.90721332970747
     ],
     "times": [
       7.266666666666676,
@@ -11177,7 +11272,8 @@
       8.566666666666672,
       8.466666666666672,
       8.400000000000006,
-      8.466666666666672
+      8.466666666666672,
+      7.666666666666675
     ]
   },
   "Cajamarca, Peru": {
@@ -11222,10 +11318,10 @@
     ]
   },
   "Santa Ana de Yacuma, Bolivia": {
-    "mean_dist": 471.75189670826563,
-    "mean_time": 7.600000000000009,
-    "std_dist": 144.50408782746084,
-    "std_time": 1.3152201038490157,
+    "mean_dist": 474.99808756211416,
+    "mean_time": 7.618518518518528,
+    "std_dist": 141.06910970407992,
+    "std_time": 1.2804427389312434,
     "city": "Santa Ana de Yacuma",
     "admin": "El Beni",
     "country": "Bolivia",
@@ -11246,7 +11342,8 @@
       "Baden-W\u00fcrttemberg",
       "Aargau",
       "California",
-      "California"
+      "California",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -11265,7 +11362,8 @@
       "Germany",
       "Switzerland",
       "United States",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       644.6324153041559,
@@ -11284,7 +11382,8 @@
       341.3813059188554,
       536.2423434860973,
       494.74572813773324,
-      433.65651599117473
+      433.65651599117473,
+      530.1833320775387
     ],
     "times": [
       2.8000000000000256,
@@ -11303,7 +11402,8 @@
       8.000000000000007,
       8.03333333333334,
       7.966666666666674,
-      7.500000000000009
+      7.500000000000009,
+      7.933333333333341
     ]
   },
   "Luj\u00e1n, Argentina": {
@@ -12612,10 +12712,10 @@
     ]
   },
   "Ferre\u00f1afe, Peru": {
-    "mean_dist": 949.8676941279483,
-    "mean_time": 8.238888888888896,
-    "std_dist": 264.91367950265,
-    "std_time": 0.405251027218596,
+    "mean_dist": 942.6892630837966,
+    "mean_time": 8.276190476190482,
+    "std_dist": 245.89190428796536,
+    "std_time": 0.3861549510992994,
     "city": "Ferre\u00f1afe",
     "admin": "Lambayeque",
     "country": "Peru",
@@ -12625,6 +12725,7 @@
       "Aargau",
       "Alberta",
       "Alberta",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -12633,6 +12734,7 @@
       "Switzerland",
       "Canada",
       "Canada",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -12641,7 +12743,8 @@
       944.8869780861245,
       1083.4542276094899,
       959.4413525118703,
-      391.05762671638587
+      391.05762671638587,
+      899.6186768188863
     ],
     "times": [
       8.600000000000005,
@@ -12649,7 +12752,8 @@
       7.833333333333341,
       7.633333333333342,
       8.800000000000004,
-      8.23333333333334
+      8.23333333333334,
+      8.500000000000005
     ]
   },
   "Huacho, Peru": {
@@ -13003,10 +13107,10 @@
     ]
   },
   "Rancagua, Chile": {
-    "mean_dist": 493.41295887249464,
-    "mean_time": 6.933333333333346,
-    "std_dist": 515.9013889444187,
-    "std_time": 1.8131617565886207,
+    "mean_dist": 385.13480420491817,
+    "mean_time": 7.052380952380964,
+    "std_dist": 468.7753494565492,
+    "std_time": 1.5996881782315195,
     "city": "Rancagua",
     "admin": "Libertador General Bernardo O\u2019Higgins",
     "country": "Chile",
@@ -13015,28 +13119,36 @@
       "Aargau",
       "Aargau",
       "England",
-      "England"
+      "England",
+      "Aargau",
+      "Aargau"
     ],
     "countries": [
       "Canada",
       "Switzerland",
       "Switzerland",
       "United Kingdom",
-      "United Kingdom"
+      "United Kingdom",
+      "Switzerland",
+      "Switzerland"
     ],
     "dists": [
       156.32306278931554,
       68.22613101214908,
       756.3705808179628,
       94.01500656488128,
-      1392.1300131781643
+      1392.1300131781643,
+      148.41222735569576,
+      80.46660771625842
     ],
     "times": [
       8.533333333333339,
       8.366666666666672,
       7.800000000000008,
       6.300000000000013,
-      3.666666666666689
+      3.666666666666689,
+      8.13333333333334,
+      6.566666666666679
     ]
   },
   "Concepci\u00f3n del Uruguay, Argentina": {
@@ -13169,28 +13281,32 @@
     ]
   },
   "Sangolqu\u00ed, Ecuador": {
-    "mean_dist": 261.42515118431004,
-    "mean_time": 8.483333333333338,
-    "std_dist": 59.193230236966485,
-    "std_time": 0.18333333333333268,
+    "mean_dist": 234.3095354065135,
+    "mean_time": 8.455555555555561,
+    "std_dist": 61.69607422904524,
+    "std_time": 0.15475986974648964,
     "city": "Sangolqu\u00ed",
     "admin": "Pichincha",
     "country": "Ecuador",
     "regions": [
       "Aargau",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
+      "Switzerland",
       "Switzerland",
       "Switzerland"
     ],
     "dists": [
       202.23192094734355,
-      320.6183814212765
+      320.6183814212765,
+      180.0783038509204
     ],
     "times": [
       8.300000000000006,
-      8.666666666666671
+      8.666666666666671,
+      8.400000000000006
     ]
   },
   "San Carlos del Zulia, Venezuela": {
@@ -14073,14 +14189,15 @@
     ]
   },
   "Oca\u00f1a, Colombia": {
-    "mean_dist": 289.07377724850545,
-    "mean_time": 8.23333333333334,
-    "std_dist": 164.47535928437532,
-    "std_time": 0.43800896320948784,
+    "mean_dist": 274.0821757233804,
+    "mean_time": 8.283333333333339,
+    "std_dist": 144.78726535043631,
+    "std_time": 0.38908725099762365,
     "city": "Oca\u00f1a",
     "admin": "Norte de Santander",
     "country": "Colombia",
     "regions": [
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau"
@@ -14088,17 +14205,20 @@
     "countries": [
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
       502.24624098150457,
       263.08742904872656,
-      101.88766171528525
+      101.88766171528525,
+      229.10737114800517
     ],
     "times": [
       7.633333333333342,
       8.400000000000006,
-      8.666666666666671
+      8.666666666666671,
+      8.433333333333339
     ]
   },
   "Venado Tuerto, Argentina": {
@@ -14256,6 +14376,27 @@
     ],
     "times": [
       7.9000000000000075
+    ]
+  },
+  "C\u00f3rdoba, Argentina": {
+    "mean_dist": 251.32659330799962,
+    "mean_time": 7.733333333333341,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "C\u00f3rdoba",
+    "admin": "C\u00f3rdoba",
+    "country": "Argentina",
+    "regions": [
+      "Aargau"
+    ],
+    "countries": [
+      "Switzerland"
+    ],
+    "dists": [
+      251.32659330799962
+    ],
+    "times": [
+      7.733333333333341
     ]
   }
 }
