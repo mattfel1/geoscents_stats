@@ -1737,12 +1737,13 @@
     ]
   },
   "Las Vegas, Nevada, United States": {
-    "mean_dist": 303.15960235014103,
-    "mean_time": 5.970000000000015,
-    "std_dist": 338.3064117899065,
-    "std_time": 1.9539390414692455,
+    "mean_dist": 408.87742107089275,
+    "mean_time": 5.9611111111111255,
+    "std_dist": 501.68776988699,
+    "std_time": 1.8553642615965888,
     "admin": "Nevada",
     "country": "United States",
+    "city": "Las Vegas",
     "regions": [
       "Unknown",
       "Unknown",
@@ -1753,7 +1754,9 @@
       "Missouri",
       "California",
       "New York",
-      "Florida"
+      "Florida",
+      "Alberta",
+      "Brussels Capital"
     ],
     "countries": [
       "Unknown",
@@ -1765,7 +1768,9 @@
       "United States",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Canada",
+      "Belgium"
     ],
     "dists": [
       34.90468633963742,
@@ -1777,7 +1782,9 @@
       64.26157012641927,
       180.5709143046924,
       965.2949875463992,
-      5.969770792237549
+      5.969770792237549,
+      161.19346117989812,
+      1713.7395681694045
     ],
     "times": [
       7.800000000000008,
@@ -1789,7 +1796,9 @@
       6.2000000000000135,
       7.700000000000008,
       5.833333333333348,
-      7.30000000000001
+      7.30000000000001,
+      7.166666666666677,
+      4.666666666666686
     ]
   },
   "Mexicali, Baja California, Mexico": {
@@ -2623,10 +2632,10 @@
     ]
   },
   "Santiago, Dominican Republic": {
-    "mean_dist": 241.52756336789636,
-    "mean_time": 6.856923076923088,
-    "std_dist": 426.13645715086875,
-    "std_time": 1.7158359760323612,
+    "mean_dist": 240.98403930032666,
+    "mean_time": 6.779601990049762,
+    "std_dist": 420.7828749418512,
+    "std_time": 1.8762189424113993,
     "admin": "Cibao Norte",
     "country": "Dominican Republic",
     "city": "Santiago",
@@ -2695,7 +2704,9 @@
       "Saxony",
       "Aargau",
       "Aargau",
-      "New York"
+      "New York",
+      "Alberta",
+      "Brussels Capital"
     ],
     "countries": [
       "Unknown",
@@ -2762,7 +2773,9 @@
       "Germany",
       "Switzerland",
       "Switzerland",
-      "United States"
+      "United States",
+      "Canada",
+      "Belgium"
     ],
     "dists": [
       61.77204707009487,
@@ -2829,7 +2842,9 @@
       77.2270786265166,
       69.62602081508332,
       114.53453327577151,
-      326.33358400160955
+      326.33358400160955,
+      51.913870343497145,
+      394.72514386512705
     ],
     "times": [
       7.666666666666675,
@@ -2896,7 +2911,9 @@
       8.366666666666672,
       8.200000000000006,
       8.100000000000007,
-      6.533333333333346
+      6.533333333333346,
+      8.23333333333334,
+      0.30000000000002547
     ]
   },
   "Eugene, Oregon, United States": {
@@ -3668,10 +3685,10 @@
     ]
   },
   "Roseau, Dominica": {
-    "mean_dist": 534.7403968745801,
-    "mean_time": 6.6245421245421365,
-    "std_dist": 678.2922056072158,
-    "std_time": 1.9045914265778248,
+    "mean_dist": 527.2672265995303,
+    "mean_time": 6.618947368421064,
+    "std_dist": 673.1057977059147,
+    "std_time": 1.9502985384403997,
     "admin": "Saint George",
     "country": "Dominica",
     "city": "Roseau",
@@ -3766,7 +3783,11 @@
       "Pennsylvania",
       "Aargau",
       "British Columbia",
-      "Texas"
+      "Texas",
+      "Alberta",
+      "Alberta",
+      "Brussels Capital",
+      "Aargau"
     ],
     "countries": [
       "Unknown",
@@ -3859,7 +3880,11 @@
       "United States",
       "Switzerland",
       "Canada",
-      "United States"
+      "United States",
+      "Canada",
+      "Canada",
+      "Belgium",
+      "Switzerland"
     ],
     "dists": [
       45.49049308612585,
@@ -3952,7 +3977,11 @@
       108.64236100577797,
       107.02284880216921,
       2999.3621713509197,
-      637.2918153243254
+      637.2918153243254,
+      86.47829602218421,
+      12.205681245043367,
+      1244.7232073987473,
+      85.6032267026117
     ],
     "times": [
       7.800000000000008,
@@ -4045,7 +4074,11 @@
       5.466666666666683,
       8.400000000000006,
       6.966666666666677,
-      2.400000000000027
+      2.400000000000027,
+      8.200000000000006,
+      7.800000000000008,
+      1.666666666666694,
+      8.300000000000006
     ]
   },
   "Indianapolis, Indiana, United States": {
@@ -4358,10 +4391,10 @@
     ]
   },
   "Colorado Springs, Colorado, United States": {
-    "mean_dist": 229.48068585682412,
-    "mean_time": 5.737777777777793,
-    "std_dist": 250.54403200003247,
-    "std_time": 2.2817428902669823,
+    "mean_dist": 219.42125601891294,
+    "mean_time": 5.885416666666681,
+    "std_dist": 245.696813985477,
+    "std_time": 2.282085083073999,
     "admin": "Colorado",
     "country": "United States",
     "city": "Colorado Springs",
@@ -4380,7 +4413,8 @@
       "Pennsylvania",
       "Pennsylvania",
       "England",
-      "England"
+      "England",
+      "Alberta"
     ],
     "countries": [
       "Unknown",
@@ -4397,7 +4431,8 @@
       "United States",
       "United States",
       "United Kingdom",
-      "United Kingdom"
+      "United Kingdom",
+      "Canada"
     ],
     "dists": [
       188.44101967611348,
@@ -4414,7 +4449,8 @@
       93.9286915331818,
       114.89201827269999,
       630.419833300416,
-      844.925231356465
+      844.925231356465,
+      68.52980845024508
     ],
     "times": [
       7.166666666666677,
@@ -4431,7 +4467,8 @@
       7.833333333333341,
       8.266666666666673,
       0.5666666666666921,
-      5.700000000000015
+      5.700000000000015,
+      8.100000000000007
     ]
   },
   "Washington, District of Columbia, United States": {
@@ -6647,10 +6684,10 @@
     ]
   },
   "Montr\u00e9al, Qu\u00e9bec, Canada": {
-    "mean_dist": 250.30332858472812,
-    "mean_time": 6.91529411764707,
-    "std_dist": 438.75881126473547,
-    "std_time": 1.3528140889443865,
+    "mean_dist": 247.77223135462873,
+    "mean_time": 6.927131782945748,
+    "std_dist": 436.8241783776101,
+    "std_time": 1.349346780694728,
     "admin": "Qu\u00e9bec",
     "country": "Canada",
     "city": "Montr\u00e9al",
@@ -6739,7 +6776,8 @@
       "England",
       "England",
       "Aargau",
-      "Texas"
+      "Texas",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -6826,7 +6864,8 @@
       "United Kingdom",
       "United Kingdom",
       "Switzerland",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       49.3258555061564,
@@ -6913,7 +6952,8 @@
       787.4301156750422,
       295.78284685173855,
       28.16989117622932,
-      1243.5742450818511
+      1243.5742450818511,
+      32.62896679617736
     ],
     "times": [
       5.066666666666684,
@@ -7000,7 +7040,8 @@
       7.166666666666677,
       6.933333333333344,
       7.333333333333343,
-      6.000000000000014
+      6.000000000000014,
+      7.933333333333341
     ]
   },
   "Mission Viejo, California, United States": {
@@ -7065,10 +7106,10 @@
     ]
   },
   "McKinney, Texas, United States": {
-    "mean_dist": 366.25365710467884,
-    "mean_time": 7.446666666666675,
-    "std_dist": 127.30343588403854,
-    "std_time": 0.4405047609781795,
+    "mean_dist": 379.6230415446477,
+    "mean_time": 7.594444444444453,
+    "std_dist": 119.99516458904917,
+    "std_time": 0.5204758032112474,
     "admin": "Texas",
     "country": "United States",
     "city": "McKinney",
@@ -7077,35 +7118,39 @@
       "New Jersey",
       "Illinois",
       "Texas",
-      "Saxony"
+      "Saxony",
+      "Aargau"
     ],
     "countries": [
       "United States",
       "United States",
       "United States",
       "United States",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       435.73937587644883,
       423.7703043701587,
       391.16908213467343,
       116.0333084500125,
-      464.55621469210047
+      464.55621469210047,
+      446.469963744492
     ],
     "times": [
       6.6666666666666785,
       7.366666666666676,
       7.500000000000009,
       7.966666666666674,
-      7.733333333333341
+      7.733333333333341,
+      8.33333333333334
     ]
   },
   "Greenville, South Carolina, United States": {
-    "mean_dist": 243.932681753444,
-    "mean_time": 5.673333333333348,
-    "std_dist": 135.5864771215335,
-    "std_time": 1.809530325802797,
+    "mean_dist": 245.8896489019987,
+    "mean_time": 6.088888888888903,
+    "std_dist": 123.85028293855201,
+    "std_time": 1.8952832942418063,
     "admin": "South Carolina",
     "country": "United States",
     "city": "Greenville",
@@ -7114,6 +7159,7 @@
       "New Jersey",
       "Illinois",
       "Illinois",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -7121,6 +7167,7 @@
       "United States",
       "United States",
       "United States",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -7128,14 +7175,16 @@
       243.69760847604127,
       22.34126744142005,
       262.57974530732815,
-      449.99009590924896
+      449.99009590924896,
+      255.67448464477198
     ],
     "times": [
       6.033333333333347,
       4.666666666666686,
       6.966666666666677,
       2.7666666666666924,
-      7.933333333333341
+      7.933333333333341,
+      8.166666666666673
     ]
   },
   "Brooklyn, New York, United States": {
@@ -11987,10 +12036,10 @@
     ]
   },
   "Guant\u00e1namo, Cuba": {
-    "mean_dist": 225.89805125693155,
-    "mean_time": 7.104285714285724,
-    "std_dist": 238.20076861042506,
-    "std_time": 1.4909453848446474,
+    "mean_dist": 223.26770540984234,
+    "mean_time": 7.116901408450714,
+    "std_dist": 237.538980239539,
+    "std_time": 1.4841665459551994,
     "admin": "Guant\u00e1namo",
     "country": "Cuba",
     "city": "Guant\u00e1namo",
@@ -12061,6 +12110,7 @@
       "England",
       "England",
       "England",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -12136,6 +12186,7 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -12208,7 +12259,8 @@
       11.748264411431068,
       10.19672580218911,
       59.106745158808494,
-      80.40831682459334
+      80.40831682459334,
+      39.14349611359887
     ],
     "times": [
       7.533333333333342,
@@ -12280,7 +12332,8 @@
       8.100000000000007,
       8.433333333333339,
       8.200000000000006,
-      8.13333333333334
+      8.13333333333334,
+      8.000000000000007
     ]
   },
   "New York, New York, United States": {
@@ -12658,10 +12711,10 @@
     ]
   },
   "Port-au-Prince, Haiti": {
-    "mean_dist": 150.44922943908435,
-    "mean_time": 7.117375886524833,
-    "std_dist": 216.49041312863687,
-    "std_time": 1.3388161094867972,
+    "mean_dist": 156.45931414622146,
+    "mean_time": 7.075347222222233,
+    "std_dist": 226.60195356173475,
+    "std_time": 1.4292111654205057,
     "admin": "Ouest",
     "country": "Haiti",
     "city": "Port-au-Prince",
@@ -12759,7 +12812,9 @@
       "Aargau",
       "Aargau",
       "Michigan",
-      "New York"
+      "New York",
+      "Alberta",
+      "Brussels Capital"
     ],
     "countries": [
       "United States",
@@ -12855,7 +12910,9 @@
       "Switzerland",
       "Switzerland",
       "United States",
-      "United States"
+      "United States",
+      "Canada",
+      "Belgium"
     ],
     "dists": [
       95.28284703423704,
@@ -12951,7 +13008,9 @@
       15.97617054321631,
       22.96546141900492,
       541.8643148394407,
-      40.82710413800941
+      40.82710413800941,
+      14.156315481177659,
+      863.7102752821547
     ],
     "times": [
       4.766666666666685,
@@ -13047,7 +13106,9 @@
       7.966666666666674,
       8.266666666666673,
       7.266666666666676,
-      6.833333333333345
+      6.833333333333345,
+      8.23333333333334,
+      1.966666666666695
     ]
   },
   "Tulsa, Oklahoma, United States": {
@@ -13425,10 +13486,10 @@
     ]
   },
   "Vancouver, British Columbia, Canada": {
-    "mean_dist": 426.2247130547771,
-    "mean_time": 7.09113475177306,
-    "std_dist": 1023.4101639143955,
-    "std_time": 1.5221234975036746,
+    "mean_dist": 422.25392828940784,
+    "mean_time": 7.104561403508782,
+    "std_dist": 1018.7372300232626,
+    "std_time": 1.5196768702882997,
     "admin": "British Columbia",
     "country": "Canada",
     "city": "Vancouver",
@@ -13526,7 +13587,8 @@
       "England",
       "England",
       "England",
-      "Aargau"
+      "Aargau",
+      "Alberta"
     ],
     "countries": [
       "United States",
@@ -13622,7 +13684,8 @@
       "United Kingdom",
       "United Kingdom",
       "United Kingdom",
-      "Switzerland"
+      "Switzerland",
+      "Canada"
     ],
     "dists": [
       12.39454639594954,
@@ -13718,7 +13781,8 @@
       27.254776330889552,
       18.029094251033218,
       333.42412071510824,
-      26.35156562727978
+      26.35156562727978,
+      49.00016034469571
     ],
     "times": [
       5.500000000000016,
@@ -13814,14 +13878,15 @@
       8.600000000000005,
       5.066666666666684,
       5.466666666666683,
-      8.000000000000007
+      8.000000000000007,
+      8.366666666666672
     ]
   },
   "Managua, Nicaragua": {
-    "mean_dist": 322.7950205481874,
-    "mean_time": 6.919259259259269,
-    "std_dist": 479.0631803286991,
-    "std_time": 1.3765225265566696,
+    "mean_dist": 321.47130235703224,
+    "mean_time": 6.922463768115952,
+    "std_dist": 475.27879242864265,
+    "std_time": 1.3659339560750128,
     "admin": "Managua",
     "country": "Nicaragua",
     "city": "Managua",
@@ -13915,7 +13980,9 @@
       "Texas",
       "Michigan",
       "California",
-      "New York"
+      "New York",
+      "Alberta",
+      "Brussels Capital"
     ],
     "countries": [
       "United States",
@@ -14007,7 +14074,9 @@
       "United States",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Canada",
+      "Belgium"
     ],
     "dists": [
       230.86470574759278,
@@ -14099,7 +14168,9 @@
       1708.7656984061507,
       558.0924247779371,
       31.780617534178557,
-      374.09927176746845
+      374.09927176746845,
+      17.4846614748364,
+      506.32330603527055
     ],
     "times": [
       4.30000000000002,
@@ -14191,7 +14262,9 @@
       3.666666666666689,
       7.4333333333333425,
       6.100000000000014,
-      1.5000000000000269
+      1.5000000000000269,
+      7.800000000000008,
+      6.333333333333346
     ]
   },
   "Celaya, Guanajuato, Mexico": {
@@ -15063,10 +15136,10 @@
     ]
   },
   "Quetzaltenango, Guatemala": {
-    "mean_dist": 298.6569372277088,
-    "mean_time": 6.989542483660139,
-    "std_dist": 381.66721634343423,
-    "std_time": 1.6724147961477047,
+    "mean_dist": 296.8465735109633,
+    "mean_time": 7.000000000000009,
+    "std_dist": 380.24977320050357,
+    "std_time": 1.6676243203390835,
     "admin": "Quetzaltenango",
     "country": "Guatemala",
     "city": "Quetzaltenango",
@@ -15172,7 +15245,8 @@
       "Maryland",
       "Aargau",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "Alberta"
     ],
     "countries": [
       "United States",
@@ -15276,7 +15350,8 @@
       "United States",
       "Switzerland",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "Canada"
     ],
     "dists": [
       77.51494957217633,
@@ -15380,7 +15455,8 @@
       77.94932358766712,
       473.6707797706895,
       120.1731257358642,
-      30.941076277808005
+      30.941076277808005,
+      112.18947440292534
     ],
     "times": [
       6.066666666666681,
@@ -15484,7 +15560,8 @@
       5.2666666666666835,
       6.400000000000013,
       8.166666666666673,
-      7.500000000000009
+      7.500000000000009,
+      8.066666666666674
     ]
   },
   "Poughkeepsie, New York, United States": {
@@ -15922,10 +15999,10 @@
     ]
   },
   "Mexico City, Ciudad de M\u00e9xico, Mexico": {
-    "mean_dist": 426.22910617113746,
-    "mean_time": 6.983333333333344,
-    "std_dist": 306.89977266741636,
-    "std_time": 1.604824901029064,
+    "mean_dist": 409.24658749796856,
+    "mean_time": 7.06140350877194,
+    "std_dist": 307.28088470402884,
+    "std_time": 1.5967534004898736,
     "admin": "Ciudad de M\u00e9xico",
     "country": "Mexico",
     "city": "Mexico City",
@@ -15947,7 +16024,8 @@
       "Alberta",
       "Alberta",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "Alberta"
     ],
     "countries": [
       "United States",
@@ -15967,7 +16045,8 @@
       "Canada",
       "Canada",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "Canada"
     ],
     "dists": [
       362.92500420404434,
@@ -15987,7 +16066,8 @@
       168.2374448766831,
       139.64906106853783,
       106.0045622953231,
-      208.05178040015622
+      208.05178040015622,
+      103.56125138092806
     ],
     "times": [
       8.166666666666673,
@@ -16007,7 +16087,8 @@
       8.800000000000004,
       8.466666666666672,
       7.1333333333333435,
-      7.6000000000000085
+      7.6000000000000085,
+      8.466666666666672
     ]
   },
   "Springfield, Illinois, United States": {
@@ -17208,10 +17289,10 @@
     ]
   },
   "Quer\u00e9taro, Quer\u00e9taro, Mexico": {
-    "mean_dist": 417.8703197626023,
-    "mean_time": 7.125396825396837,
-    "std_dist": 297.9769572816303,
-    "std_time": 1.5400784959691238,
+    "mean_dist": 413.4580042267995,
+    "mean_time": 7.187878787878799,
+    "std_dist": 291.82732040791524,
+    "std_time": 1.531670556085189,
     "admin": "Quer\u00e9taro",
     "country": "Mexico",
     "city": "Quer\u00e9taro",
@@ -17236,7 +17317,8 @@
       "Pennsylvania",
       "Alberta",
       "Alberta",
-      "Saxony"
+      "Saxony",
+      "Alberta"
     ],
     "countries": [
       "Israel",
@@ -17259,7 +17341,8 @@
       "United States",
       "Canada",
       "Canada",
-      "Germany"
+      "Germany",
+      "Canada"
     ],
     "dists": [
       91.62637656835454,
@@ -17282,7 +17365,8 @@
       910.6052789127372,
       289.77981238345154,
       359.00462040852403,
-      464.1359270833596
+      464.1359270833596,
+      320.79937797494074
     ],
     "times": [
       4.533333333333353,
@@ -17305,7 +17389,8 @@
       6.533333333333346,
       8.33333333333334,
       8.733333333333338,
-      8.300000000000006
+      8.300000000000006,
+      8.500000000000005
     ]
   },
   "Zumpango, M\u00e9xico, Mexico": {
@@ -17593,10 +17678,10 @@
     ]
   },
   "Puebla, Puebla, Mexico": {
-    "mean_dist": 516.3899319173607,
-    "mean_time": 6.923076923076935,
-    "std_dist": 393.7990439731933,
-    "std_time": 1.2074826972542092,
+    "mean_dist": 506.41139953169574,
+    "mean_time": 6.9166666666666785,
+    "std_dist": 385.90991571104956,
+    "std_time": 1.1747846813859284,
     "admin": "Puebla",
     "country": "Mexico",
     "city": "Puebla",
@@ -17626,7 +17711,9 @@
       "Aargau",
       "Pennsylvania",
       "Alberta",
-      "Aargau"
+      "Aargau",
+      "Alberta",
+      "Brussels Capital"
     ],
     "countries": [
       "United States",
@@ -17654,7 +17741,9 @@
       "Switzerland",
       "United States",
       "Canada",
-      "Switzerland"
+      "Switzerland",
+      "Canada",
+      "Belgium"
     ],
     "dists": [
       144.35772044838046,
@@ -17682,7 +17771,9 @@
       513.0415276637331,
       675.5652932268009,
       359.61470757485597,
-      374.18872206089037
+      374.18872206089037,
+      151.21629060986461,
+      602.1646664262371
     ],
     "times": [
       4.666666666666686,
@@ -17710,7 +17801,9 @@
       7.933333333333341,
       6.833333333333345,
       8.33333333333334,
-      8.33333333333334
+      8.33333333333334,
+      7.4333333333333425,
+      6.233333333333347
     ]
   },
   "Morelia, Michoac\u00e1n de Ocampo, Mexico": {
@@ -19954,10 +20047,10 @@
     ]
   },
   "Tegucigalpa, Honduras": {
-    "mean_dist": 222.91351818796474,
-    "mean_time": 6.749350649350664,
-    "std_dist": 362.222882195509,
-    "std_time": 1.48509293357189,
+    "mean_dist": 220.5255347548989,
+    "mean_time": 6.761538461538476,
+    "std_dist": 360.5029617889732,
+    "std_time": 1.4794131134343804,
     "admin": "Francisco Moraz\u00e1n",
     "country": "Honduras",
     "city": "Tegucigalpa",
@@ -20035,6 +20128,7 @@
       "Aargau",
       "Maryland",
       "Pennsylvania",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -20117,6 +20211,7 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -20196,7 +20291,8 @@
       87.52648378354634,
       78.14132485231943,
       128.30594222850812,
-      84.6547888954389
+      84.6547888954389,
+      36.65081040882658
     ],
     "times": [
       5.966666666666681,
@@ -20275,14 +20371,15 @@
       6.500000000000012,
       6.400000000000013,
       7.666666666666675,
-      7.933333333333341
+      7.933333333333341,
+      7.700000000000008
     ]
   },
   "Hartford, South Dakota, United States": {
-    "mean_dist": 220.12113692178448,
-    "mean_time": 5.990476190476203,
-    "std_dist": 91.56906019197291,
-    "std_time": 2.3312040819403395,
+    "mean_dist": 275.78597183376684,
+    "mean_time": 6.283333333333346,
+    "std_dist": 170.3725274415854,
+    "std_time": 2.314207327694631,
     "admin": "South Dakota",
     "country": "United States",
     "city": "Hartford",
@@ -20293,7 +20390,8 @@
       "New York",
       "Michigan",
       "Ontario",
-      "Pennsylvania"
+      "Pennsylvania",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -20302,7 +20400,8 @@
       "United States",
       "United States",
       "Canada",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       256.05539316708274,
@@ -20311,7 +20410,8 @@
       262.7731851758439,
       289.74686880945353,
       288.0911956016546,
-      99.04251786293257
+      99.04251786293257,
+      665.4398162176434
     ],
     "times": [
       1.0000000000000253,
@@ -20320,7 +20420,8 @@
       6.400000000000013,
       7.166666666666677,
       8.03333333333334,
-      7.733333333333341
+      7.733333333333341,
+      8.33333333333334
     ]
   },
   "Carson City, Nevada, United States": {
@@ -20381,10 +20482,10 @@
     ]
   },
   "San Salvador, El Salvador": {
-    "mean_dist": 125.734469050724,
-    "mean_time": 7.298312236286926,
-    "std_dist": 212.93694690775538,
-    "std_time": 1.2100365413247323,
+    "mean_dist": 129.25543360234693,
+    "mean_time": 7.30958333333334,
+    "std_dist": 213.90358735875682,
+    "std_time": 1.2066159490952792,
     "city": "San Salvador",
     "admin": "San Salvador",
     "country": "El Salvador",
@@ -20467,7 +20568,8 @@
       "England",
       "England",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "Alberta"
     ],
     "countries": [
       "United States",
@@ -20548,7 +20650,8 @@
       "United Kingdom",
       "United Kingdom",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "Canada"
     ],
     "dists": [
       15.422100471537235,
@@ -20629,7 +20732,8 @@
       265.2232366594687,
       79.63556795089066,
       40.8910096589278,
-      33.058476173659514
+      33.058476173659514,
+      407.41163318055794
     ],
     "times": [
       4.866666666666685,
@@ -20710,7 +20814,8 @@
       7.633333333333342,
       7.800000000000008,
       8.366666666666672,
-      8.23333333333334
+      8.23333333333334,
+      8.200000000000006
     ]
   },
   "Huntsville, Alabama, United States": {
@@ -20837,10 +20942,10 @@
     ]
   },
   "Oaxaca, Oaxaca, Mexico": {
-    "mean_dist": 719.9268621312492,
-    "mean_time": 7.10000000000001,
-    "std_dist": 379.70237238948704,
-    "std_time": 1.5158704588002339,
+    "mean_dist": 709.4261707124928,
+    "mean_time": 7.155555555555566,
+    "std_dist": 376.43192659812854,
+    "std_time": 1.514266857336025,
     "admin": "Oaxaca",
     "country": "Mexico",
     "city": "Oaxaca",
@@ -20870,7 +20975,8 @@
       "Aargau",
       "Pennsylvania",
       "Pennsylvania",
-      "Pennsylvania"
+      "Pennsylvania",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -20898,7 +21004,8 @@
       "Switzerland",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       360.7714361781286,
@@ -20926,7 +21033,8 @@
       515.4852325974703,
       609.7214072472374,
       81.19756020186112,
-      354.7955114329117
+      354.7955114329117,
+      436.40819382482556
     ],
     "times": [
       1.900000000000028,
@@ -20954,7 +21062,8 @@
       8.000000000000007,
       8.03333333333334,
       7.633333333333342,
-      8.23333333333334
+      8.23333333333334,
+      8.600000000000005
     ]
   },
   "Annapolis, Maryland, United States": {
@@ -21031,10 +21140,10 @@
     ]
   },
   "San Antonio, Texas, United States": {
-    "mean_dist": 259.1469234829867,
-    "mean_time": 5.620000000000014,
-    "std_dist": 181.91033278914782,
-    "std_time": 2.4957385902996876,
+    "mean_dist": 254.3631893511492,
+    "mean_time": 5.709090909090923,
+    "std_dist": 174.10314187062085,
+    "std_time": 2.3962129595031945,
     "admin": "Texas",
     "country": "United States",
     "city": "San Antonio",
@@ -21048,7 +21157,8 @@
       "Washington",
       "Vermont",
       "Arizona",
-      "British Columbia"
+      "British Columbia",
+      "Aargau"
     ],
     "countries": [
       null,
@@ -21060,7 +21170,8 @@
       "United States",
       "United States",
       "United States",
-      "Canada"
+      "Canada",
+      "Switzerland"
     ],
     "dists": [
       338.8204014318837,
@@ -21072,7 +21183,8 @@
       208.15723355386146,
       82.76803815366125,
       193.79169498033326,
-      81.94292444139077
+      81.94292444139077,
+      206.5258480327739
     ],
     "times": [
       1.8666666666666947,
@@ -21084,7 +21196,8 @@
       6.766666666666678,
       5.966666666666681,
       6.600000000000012,
-      5.700000000000015
+      5.700000000000015,
+      6.600000000000012
     ]
   },
   "Cape Coral, Florida, United States": {
@@ -21215,10 +21328,10 @@
     ]
   },
   "Camag\u00fcey, Cuba": {
-    "mean_dist": 204.22214036175419,
-    "mean_time": 7.242361111111122,
-    "std_dist": 221.24376682409905,
-    "std_time": 1.3768378220100113,
+    "mean_dist": 204.70303144309125,
+    "mean_time": 7.26530612244899,
+    "std_dist": 218.99988462706418,
+    "std_time": 1.3719568953198074,
     "admin": "Camag\u00fcey",
     "country": "Cuba",
     "city": "Camag\u00fcey",
@@ -21270,7 +21383,8 @@
       "Aargau",
       "England",
       "England",
-      "Aargau"
+      "Aargau",
+      "Alberta"
     ],
     "countries": [
       "Germany",
@@ -21320,7 +21434,8 @@
       "Switzerland",
       "United Kingdom",
       "United Kingdom",
-      "Switzerland"
+      "Switzerland",
+      "Canada"
     ],
     "dists": [
       230.9854552080563,
@@ -21370,7 +21485,8 @@
       59.438014919198324,
       87.36298586478561,
       268.53934770238584,
-      315.5319790597055
+      315.5319790597055,
+      227.78580334727053
     ],
     "times": [
       7.800000000000008,
@@ -21420,14 +21536,15 @@
       7.933333333333341,
       7.800000000000008,
       7.333333333333343,
-      7.566666666666675
+      7.566666666666675,
+      8.366666666666672
     ]
   },
   "Cap-Ha\u00eftien, Haiti": {
-    "mean_dist": 168.064147485847,
-    "mean_time": 7.251546391752589,
-    "std_dist": 216.55199043844192,
-    "std_time": 1.3307278720244533,
+    "mean_dist": 166.93857571377012,
+    "mean_time": 7.259863945578243,
+    "std_dist": 215.72931419506952,
+    "std_time": 1.3264529891818972,
     "admin": "Nord",
     "country": "Haiti",
     "city": "Cap-Ha\u00eftien",
@@ -21525,6 +21642,7 @@
       "England",
       "England",
       "Pennsylvania",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -21627,6 +21745,7 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -21726,7 +21845,8 @@
       20.272659446648007,
       51.235922727681306,
       45.60809231152318,
-      70.98693694121255
+      70.98693694121255,
+      57.75811382231225
     ],
     "times": [
       4.766666666666685,
@@ -21825,7 +21945,8 @@
       7.233333333333343,
       7.566666666666675,
       8.33333333333334,
-      8.33333333333334
+      8.33333333333334,
+      8.066666666666674
     ]
   },
   "Lexington, Kentucky, United States": {
@@ -22176,10 +22297,10 @@
     ]
   },
   "Belmopan, Belize": {
-    "mean_dist": 264.79465561540394,
-    "mean_time": 7.086363636363647,
-    "std_dist": 551.2511999739786,
-    "std_time": 1.5072605121899014,
+    "mean_dist": 262.7335181000784,
+    "mean_time": 7.0970037453183625,
+    "std_dist": 548.4864415283533,
+    "std_time": 1.5020887699782663,
     "admin": "Cayo",
     "country": "Belize",
     "city": "Belmopan",
@@ -22271,7 +22392,8 @@
       "Aargau",
       "England",
       "England",
-      "Texas"
+      "Texas",
+      "Aargau"
     ],
     "countries": [
       "Netherlands",
@@ -22361,7 +22483,8 @@
       "Switzerland",
       "United Kingdom",
       "United Kingdom",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       634.9813400669544,
@@ -22451,7 +22574,8 @@
       45.6118664588361,
       2304.324004767559,
       43.26581653790979,
-      1676.6244407263684
+      1676.6244407263684,
+      81.35341675142993
     ],
     "times": [
       5.800000000000015,
@@ -22541,7 +22665,8 @@
       8.000000000000007,
       5.400000000000016,
       6.100000000000014,
-      1.0666666666666922
+      1.0666666666666922,
+      8.03333333333334
     ]
   },
   "Mesa, Arizona, United States": {
@@ -24053,10 +24178,10 @@
     ]
   },
   "Halifax, Nova Scotia, Canada": {
-    "mean_dist": 418.11244640794735,
-    "mean_time": 6.8319819819819925,
-    "std_dist": 806.7014239526632,
-    "std_time": 1.438837527000449,
+    "mean_dist": 413.3034031044602,
+    "mean_time": 6.842666666666678,
+    "std_dist": 802.3725331725743,
+    "std_time": 1.4321655190913025,
     "admin": "Nova Scotia",
     "country": "Canada",
     "city": "Halifax",
@@ -24134,7 +24259,8 @@
       "Aargau",
       "Aargau",
       "Michigan",
-      "New York"
+      "New York",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -24210,7 +24336,8 @@
       "Switzerland",
       "Switzerland",
       "United States",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       787.5855558247016,
@@ -24286,7 +24413,8 @@
       41.769480113504116,
       291.76377244411077,
       151.07805701079846,
-      241.81122718199885
+      241.81122718199885,
+      57.43419864641443
     ],
     "times": [
       6.36666666666668,
@@ -24362,7 +24490,8 @@
       8.13333333333334,
       7.533333333333342,
       4.3333333333333535,
-      6.566666666666679
+      6.566666666666679,
+      7.633333333333342
     ]
   },
   "Staten Island, New York, United States": {
@@ -26861,10 +26990,10 @@
     ]
   },
   "Barrie, Ontario, Canada": {
-    "mean_dist": 329.53381289977716,
-    "mean_time": 7.133823529411775,
-    "std_dist": 510.5011012471171,
-    "std_time": 1.0140756544313703,
+    "mean_dist": 329.9325685653185,
+    "mean_time": 7.108920187793438,
+    "std_dist": 507.2838086215187,
+    "std_time": 1.0476437194757946,
     "admin": "Ontario",
     "country": "Canada",
     "city": "Barrie",
@@ -26936,6 +27065,9 @@
       "Aargau",
       "Aargau",
       "Aargau",
+      "Aargau",
+      "Alberta",
+      "Brussels Capital",
       "Aargau"
     ],
     "countries": [
@@ -27006,6 +27138,9 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
+      "Canada",
+      "Belgium",
       "Switzerland"
     ],
     "dists": [
@@ -27076,7 +27211,10 @@
       40.33445764019526,
       168.50204325121544,
       198.7064113448854,
-      40.52295406731985
+      40.52295406731985,
+      29.838669084740953,
+      943.9501661000749,
+      43.12425576794895
     ],
     "times": [
       4.5000000000000195,
@@ -27146,7 +27284,10 @@
       7.1333333333333435,
       7.6000000000000085,
       7.9000000000000075,
-      7.733333333333341
+      7.733333333333341,
+      8.23333333333334,
+      4.533333333333353,
+      6.866666666666678
     ]
   },
   "Thornton, Colorado, United States": {
@@ -27503,10 +27644,10 @@
     ]
   },
   "Ciudad Valles, San Luis Potos\u00ed, Mexico": {
-    "mean_dist": 472.7074630846983,
-    "mean_time": 6.7500000000000115,
-    "std_dist": 416.4496253786078,
-    "std_time": 1.3198848281558306,
+    "mean_dist": 459.0638582545103,
+    "mean_time": 6.815942028985519,
+    "std_dist": 412.29249086864024,
+    "std_time": 1.3274096515818992,
     "admin": "San Luis Potos\u00ed",
     "country": "Mexico",
     "city": "Ciudad Valles",
@@ -27532,6 +27673,7 @@
       "Pennsylvania",
       "Alberta",
       "Pennsylvania",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -27556,6 +27698,7 @@
       "United States",
       "Canada",
       "United States",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -27580,7 +27723,8 @@
       301.6867608134465,
       266.81660245740994,
       270.7836245392259,
-      390.88111116375234
+      390.88111116375234,
+      158.90455199037427
     ],
     "times": [
       6.866666666666678,
@@ -27604,7 +27748,8 @@
       8.366666666666672,
       8.433333333333339,
       8.300000000000006,
-      6.700000000000012
+      6.700000000000012,
+      8.266666666666673
     ]
   },
   "Kingston, Ontario, Canada": {
@@ -28947,10 +29092,10 @@
     ]
   },
   "Beaumont, Texas, United States": {
-    "mean_dist": 432.68806848158357,
-    "mean_time": 7.447619047619057,
-    "std_dist": 219.81129760805663,
-    "std_time": 1.0165077382191456,
+    "mean_dist": 415.8984121309928,
+    "mean_time": 7.288888888888899,
+    "std_dist": 231.6024328336033,
+    "std_time": 1.1344221349422376,
     "admin": "Texas",
     "country": "United States",
     "city": "Beaumont",
@@ -28961,7 +29106,9 @@
       "California",
       "North Carolina",
       "England",
-      "England"
+      "England",
+      "Alberta",
+      "Brussels Capital"
     ],
     "countries": [
       "Canada",
@@ -28970,7 +29117,9 @@
       "United States",
       "United States",
       "United Kingdom",
-      "United Kingdom"
+      "United Kingdom",
+      "Canada",
+      "Belgium"
     ],
     "dists": [
       592.2847654246079,
@@ -28979,7 +29128,9 @@
       135.05092011801523,
       352.4201297077694,
       294.2915979460978,
-      867.4359936988619
+      867.4359936988619,
+      96.69410297716512,
+      617.5751268306852
     ],
     "times": [
       8.23333333333334,
@@ -28988,7 +29139,9 @@
       8.33333333333334,
       5.466666666666683,
       7.033333333333344,
-      6.700000000000012
+      6.700000000000012,
+      8.066666666666674,
+      5.400000000000016
     ]
   },
   "Lynchburg, Virginia, United States": {
@@ -29378,10 +29531,10 @@
     ]
   },
   "Guastatoya, Guatemala": {
-    "mean_dist": 268.7861651301642,
-    "mean_time": 7.172893772893786,
-    "std_dist": 549.3175521283431,
-    "std_time": 1.1974424525025116,
+    "mean_dist": 265.47100123872394,
+    "mean_time": 7.16451612903227,
+    "std_dist": 543.8387830836797,
+    "std_time": 1.197097310234198,
     "admin": "El Progreso",
     "country": "Guatemala",
     "city": "Guastatoya",
@@ -29476,7 +29629,9 @@
       "England",
       "Michigan",
       "California",
-      "New York"
+      "New York",
+      "Alberta",
+      "Brussels Capital"
     ],
     "countries": [
       "United States",
@@ -29569,7 +29724,9 @@
       "United Kingdom",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Canada",
+      "Belgium"
     ],
     "dists": [
       88.49129550520337,
@@ -29662,7 +29819,9 @@
       123.80488981462275,
       61.57734880867945,
       103.80851012086987,
-      159.13213042015764
+      159.13213042015764,
+      115.85397121279755,
+      113.40811714358573
     ],
     "times": [
       6.466666666666679,
@@ -29755,7 +29914,9 @@
       6.133333333333347,
       7.333333333333343,
       4.933333333333351,
-      4.600000000000019
+      4.600000000000019,
+      7.9000000000000075,
+      5.666666666666682
     ]
   },
   "Hayward, California, United States": {
@@ -32613,10 +32774,10 @@
     ]
   },
   "Saskatoon, Saskatchewan, Canada": {
-    "mean_dist": 499.07854305333404,
-    "mean_time": 6.932013201320144,
-    "std_dist": 769.8732779779104,
-    "std_time": 1.4939034212990292,
+    "mean_dist": 494.349378673126,
+    "mean_time": 6.938888888888901,
+    "std_dist": 767.5629594452009,
+    "std_time": 1.4881674430039218,
     "admin": "Saskatchewan",
     "country": "Canada",
     "city": "Saskatoon",
@@ -32721,7 +32882,8 @@
       "England",
       "England",
       "Aargau",
-      "Indiana"
+      "Indiana",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -32824,7 +32986,8 @@
       "United Kingdom",
       "United Kingdom",
       "Switzerland",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       2304.7611831355816,
@@ -32927,7 +33090,8 @@
       145.04938696380654,
       104.98450005871835,
       36.620790694187455,
-      564.7552191451252
+      564.7552191451252,
+      16.70377627211503
     ],
     "times": [
       5.066666666666684,
@@ -33030,7 +33194,8 @@
       7.700000000000008,
       5.533333333333349,
       7.833333333333341,
-      6.900000000000011
+      6.900000000000011,
+      7.633333333333342
     ]
   },
   "Qu\u00e9bec, Qu\u00e9bec, Canada": {
@@ -37736,10 +37901,10 @@
     ]
   },
   "Saint John\u2019s, Newfoundland and Labrador, Canada": {
-    "mean_dist": 545.5796362254507,
-    "mean_time": 6.750191570881237,
-    "std_dist": 874.951205788258,
-    "std_time": 1.5122393260964142,
+    "mean_dist": 565.8323300453598,
+    "mean_time": 6.715355805243456,
+    "std_dist": 901.1929884756813,
+    "std_time": 1.557239596383192,
     "admin": "Newfoundland and Labrador",
     "country": "Canada",
     "city": "Saint John\u2019s",
@@ -37830,7 +37995,9 @@
       "England",
       "England",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "Alberta",
+      "Brussels Capital"
     ],
     "countries": [
       "United States",
@@ -37919,7 +38086,9 @@
       "United Kingdom",
       "United Kingdom",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "Canada",
+      "Belgium"
     ],
     "dists": [
       254.09890347042284,
@@ -38008,7 +38177,9 @@
       561.0401661757986,
       670.9747575341144,
       953.9278608586427,
-      110.11860054940786
+      110.11860054940786,
+      16.559193907940756,
+      2877.089828514866
     ],
     "times": [
       7.033333333333344,
@@ -38097,7 +38268,9 @@
       6.966666666666677,
       5.7333333333333485,
       7.366666666666676,
-      8.066666666666674
+      8.066666666666674,
+      7.666666666666675,
+      2.733333333333359
     ]
   },
   "Salisbury, Maryland, United States": {
@@ -41348,10 +41521,10 @@
     ]
   },
   "Chinandega, Nicaragua": {
-    "mean_dist": 230.65490845785055,
-    "mean_time": 6.506965174129365,
-    "std_dist": 135.09382071190998,
-    "std_time": 1.8596218994916842,
+    "mean_dist": 233.18275985323012,
+    "mean_time": 6.568115942028998,
+    "std_dist": 137.8377009170606,
+    "std_time": 1.8674811437618895,
     "admin": "Chinandega",
     "country": "Nicaragua",
     "city": "Chinandega",
@@ -41422,7 +41595,9 @@
       "England",
       "Michigan",
       "Ontario",
-      "British Columbia"
+      "British Columbia",
+      "Alberta",
+      "Brussels Capital"
     ],
     "countries": [
       "United States",
@@ -41491,7 +41666,9 @@
       "United Kingdom",
       "United States",
       "Canada",
-      "Canada"
+      "Canada",
+      "Canada",
+      "Belgium"
     ],
     "dists": [
       300.62315369641897,
@@ -41560,7 +41737,9 @@
       105.08088657386664,
       223.0721219644938,
       636.3782317829834,
-      299.85107568674704
+      299.85107568674704,
+      126.28860808146368,
+      509.44295511542816
     ],
     "times": [
       3.4000000000000234,
@@ -41629,7 +41808,9 @@
       6.033333333333347,
       8.500000000000005,
       5.2666666666666835,
-      6.500000000000012
+      6.500000000000012,
+      8.23333333333334,
+      9.000000000000004
     ]
   },
   "Hillsboro, Oregon, United States": {
@@ -42566,10 +42747,10 @@
     ]
   },
   "Gastonia, North Carolina, United States": {
-    "mean_dist": 229.72597684387347,
-    "mean_time": 6.733333333333345,
-    "std_dist": 43.27670148148753,
-    "std_time": 1.4445299120013582,
+    "mean_dist": 245.88766161941749,
+    "mean_time": 6.8904761904762015,
+    "std_dist": 56.325127160641294,
+    "std_time": 1.3916661574808582,
     "admin": "North Carolina",
     "country": "United States",
     "city": "Gastonia",
@@ -42579,7 +42760,8 @@
       "Pennsylvania",
       "Michigan",
       "California",
-      "New York"
+      "New York",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -42587,7 +42769,8 @@
       "United States",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       303.39585699067,
@@ -42595,7 +42778,8 @@
       259.1266064292344,
       189.60954442640772,
       239.45659688405883,
-      176.06249432954144
+      176.06249432954144,
+      342.8577702726817
     ],
     "times": [
       4.133333333333354,
@@ -42603,7 +42787,8 @@
       7.966666666666674,
       6.766666666666678,
       6.933333333333344,
-      5.966666666666681
+      5.966666666666681,
+      7.833333333333341
     ]
   },
   "Jurupa Valley, California, United States": {
@@ -42869,10 +43054,10 @@
     ]
   },
   "Guanajuato, Guanajuato, Mexico": {
-    "mean_dist": 511.0446806763867,
-    "mean_time": 7.697101449275371,
-    "std_dist": 670.318065977531,
-    "std_time": 1.1843142716592843,
+    "mean_dist": 525.7299339452599,
+    "mean_time": 7.719444444444453,
+    "std_dist": 659.9730928396465,
+    "std_time": 1.1643197293264234,
     "admin": "Guanajuato",
     "country": "Mexico",
     "city": "Guanajuato",
@@ -42899,6 +43084,7 @@
       "Florida",
       "Florida",
       "Michigan",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -42924,6 +43110,7 @@
       "United States",
       "United States",
       "United States",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -42949,7 +43136,8 @@
       3181.644600872078,
       311.377701059424,
       262.3199922020784,
-      179.37585387898415
+      179.37585387898415,
+      863.4907591293431
     ],
     "times": [
       3.4333333333333567,
@@ -42974,7 +43162,8 @@
       9.600000000000001,
       8.533333333333339,
       8.300000000000006,
-      8.533333333333339
+      8.533333333333339,
+      8.23333333333334
     ]
   },
   "Huntington Beach, California, United States": {
@@ -43117,10 +43306,10 @@
     ]
   },
   "Ciudad del Carmen, Campeche, Mexico": {
-    "mean_dist": 1077.600711947924,
-    "mean_time": 7.127450980392167,
-    "std_dist": 910.5667426971767,
-    "std_time": 1.7973195472109564,
+    "mean_dist": 1079.2130534131475,
+    "mean_time": 7.192592592592602,
+    "std_dist": 884.9367827633112,
+    "std_time": 1.7672101035441612,
     "admin": "Campeche",
     "country": "Mexico",
     "city": "Ciudad del Carmen",
@@ -43141,7 +43330,8 @@
       "California",
       "Aargau",
       "Baden-W\u00fcrttemberg",
-      "British Columbia"
+      "British Columbia",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -43160,7 +43350,8 @@
       "United States",
       "Switzerland",
       "Germany",
-      "Canada"
+      "Canada",
+      "Switzerland"
     ],
     "dists": [
       1796.030762881591,
@@ -43179,7 +43370,8 @@
       600.3504275215847,
       450.81481123573434,
       496.53069949662756,
-      4401.182340944819
+      4401.182340944819,
+      1106.6228583219427
     ],
     "times": [
       5.23333333333335,
@@ -43198,7 +43390,8 @@
       7.30000000000001,
       7.30000000000001,
       4.900000000000018,
-      9.633333333333335
+      9.633333333333335,
+      8.300000000000006
     ]
   },
   "Zacatecas, Zacatecas, Mexico": {
@@ -44866,10 +45059,10 @@
     ]
   },
   "Bayam\u00f3n, Puerto Rico": {
-    "mean_dist": 230.44769957274255,
-    "mean_time": 7.2154761904762035,
-    "std_dist": 546.9427649674856,
-    "std_time": 1.8792619739922911,
+    "mean_dist": 226.74422506722675,
+    "mean_time": 7.240935672514633,
+    "std_dist": 542.8317293721472,
+    "std_time": 1.8724223872438124,
     "admin": "Puerto Rico",
     "country": "Puerto Rico",
     "city": "Bayam\u00f3n",
@@ -44925,6 +45118,7 @@
       "Aargau",
       "Aargau",
       "Maryland",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -44987,6 +45181,7 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -45045,7 +45240,8 @@
       58.84494278934089,
       38.67153121467998,
       38.67153121467998,
-      44.918809093189594
+      44.918809093189594,
+      19.349652758341268
     ],
     "times": [
       2.43333333333336,
@@ -45103,6 +45299,7 @@
       8.766666666666671,
       8.400000000000006,
       8.300000000000006,
+      8.666666666666671,
       8.666666666666671
     ]
   },
@@ -46992,10 +47189,10 @@
     ]
   },
   "Sonsonate, El Salvador": {
-    "mean_dist": 233.92257551536258,
-    "mean_time": 7.257142857142866,
-    "std_dist": 534.2732146708868,
-    "std_time": 1.509894801939908,
+    "mean_dist": 233.5852695482579,
+    "mean_time": 7.245794392523373,
+    "std_dist": 529.5771277737302,
+    "std_time": 1.5116406975308905,
     "admin": "Sonsonate",
     "country": "El Salvador",
     "city": "Sonsonate",
@@ -47104,7 +47301,9 @@
       "Aargau",
       "England",
       "England",
-      "Aargau"
+      "Aargau",
+      "Alberta",
+      "Brussels Capital"
     ],
     "countries": [
       "United States",
@@ -47211,7 +47410,9 @@
       "Switzerland",
       "United Kingdom",
       "United Kingdom",
-      "Switzerland"
+      "Switzerland",
+      "Canada",
+      "Belgium"
     ],
     "dists": [
       170.3758750561084,
@@ -47318,7 +47519,9 @@
       114.71981298675895,
       424.6801004897218,
       109.27032435258266,
-      98.20320406960624
+      98.20320406960624,
+      82.28834216703567,
+      349.4650703834913
     ],
     "times": [
       7.233333333333343,
@@ -47425,7 +47628,9 @@
       8.366666666666672,
       6.6666666666666785,
       6.966666666666677,
-      8.300000000000006
+      8.300000000000006,
+      8.13333333333334,
+      5.166666666666684
     ]
   },
   "St. Paul, Minnesota, United States": {
@@ -48688,10 +48893,10 @@
     ]
   },
   "Le\u00f3n, Nicaragua": {
-    "mean_dist": 262.64320727792875,
-    "mean_time": 7.106274509803933,
-    "std_dist": 390.9484772012064,
-    "std_time": 1.0447440080189112,
+    "mean_dist": 260.3524270234684,
+    "mean_time": 7.114341085271329,
+    "std_dist": 389.2422723078518,
+    "std_time": 1.04131129687244,
     "admin": "Le\u00f3n",
     "country": "Nicaragua",
     "city": "Le\u00f3n",
@@ -48778,6 +48983,7 @@
       "England",
       "England",
       "England",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau"
@@ -48867,6 +49073,7 @@
       "United Kingdom",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -48954,7 +49161,8 @@
       286.7121430413659,
       73.22815316499623,
       98.16000319044936,
-      27.089848058892454
+      27.089848058892454,
+      65.63610539433937
     ],
     "times": [
       5.33333333333335,
@@ -49041,7 +49249,8 @@
       8.33333333333334,
       8.266666666666673,
       7.066666666666677,
-      8.166666666666673
+      8.166666666666673,
+      7.800000000000008
     ]
   },
   "North Charleston, South Carolina, United States": {
@@ -50019,10 +50228,10 @@
     ]
   },
   "Gona\u00efves, Haiti": {
-    "mean_dist": 199.46680473139727,
-    "mean_time": 7.340350877192994,
-    "std_dist": 495.23751726655433,
-    "std_time": 1.2994276269138418,
+    "mean_dist": 204.0772969005808,
+    "mean_time": 7.295876288659805,
+    "std_dist": 494.6553744923917,
+    "std_time": 1.367996651757642,
     "admin": "Artibonite",
     "country": "Haiti",
     "city": "Gona\u00efves",
@@ -50121,7 +50330,9 @@
       "Aargau",
       "Michigan",
       "California",
-      "New York"
+      "New York",
+      "Alberta",
+      "Brussels Capital"
     ],
     "countries": [
       "United States",
@@ -50218,7 +50429,9 @@
       "Switzerland",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Canada",
+      "Belgium"
     ],
     "dists": [
       98.68401011924983,
@@ -50315,7 +50528,9 @@
       69.42711461368977,
       203.76484881059295,
       8.703599436191963,
-      213.90985028223383
+      213.90985028223383,
+      12.781076625508836,
+      833.370273248087
     ],
     "times": [
       7.466666666666676,
@@ -50412,7 +50627,9 @@
       8.300000000000006,
       6.600000000000012,
       6.36666666666668,
-      3.933333333333355
+      3.933333333333355,
+      7.633333333333342,
+      2.733333333333359
     ]
   },
   "Abbotsford, British Columbia, Canada": {
@@ -52098,10 +52315,10 @@
     ]
   },
   "Sarnia, Ontario, Canada": {
-    "mean_dist": 322.32906098466424,
-    "mean_time": 7.085620915032691,
-    "std_dist": 387.8430634016587,
-    "std_time": 1.6518327433036692,
+    "mean_dist": 340.61499192745913,
+    "mean_time": 6.993081761006301,
+    "std_dist": 418.75243146051645,
+    "std_time": 1.7885304098220118,
     "admin": "Ontario",
     "country": "Canada",
     "city": "Sarnia",
@@ -52156,7 +52373,9 @@
       "Aargau",
       "Maryland",
       "Georgia",
-      "British Columbia"
+      "British Columbia",
+      "Alberta",
+      "Brussels Capital"
     ],
     "countries": [
       "United States",
@@ -52209,7 +52428,9 @@
       "Switzerland",
       "United States",
       "United States",
-      "Canada"
+      "Canada",
+      "Canada",
+      "Belgium"
     ],
     "dists": [
       333.5771721347809,
@@ -52262,7 +52483,9 @@
       76.13127867954964,
       251.61592438940718,
       113.89067087299328,
-      440.85798059793035
+      440.85798059793035,
+      41.9558312717573,
+      1571.8566306656996
     ],
     "times": [
       7.766666666666675,
@@ -52315,7 +52538,9 @@
       7.6000000000000085,
       2.100000000000028,
       5.900000000000015,
-      3.9000000000000217
+      3.9000000000000217,
+      7.700000000000008,
+      1.5666666666666937
     ]
   },
   "Boulder, Colorado, United States": {
@@ -52633,10 +52858,10 @@
     ]
   },
   "San Crist\u00f3bal, Dominican Republic": {
-    "mean_dist": 229.91486067224193,
-    "mean_time": 7.421311475409846,
-    "std_dist": 455.5134343444904,
-    "std_time": 1.4344706732641221,
+    "mean_dist": 224.80936555018226,
+    "mean_time": 7.435978835978847,
+    "std_dist": 449.1108508491632,
+    "std_time": 1.4143669673826957,
     "admin": "Valdesia",
     "country": "Dominican Republic",
     "city": "San Crist\u00f3bal",
@@ -52701,7 +52926,9 @@
       "England",
       "England",
       "Michigan",
-      "New York"
+      "New York",
+      "Alberta",
+      "Aargau"
     ],
     "countries": [
       "Canada",
@@ -52764,7 +52991,9 @@
       "United Kingdom",
       "United Kingdom",
       "United States",
-      "United States"
+      "United States",
+      "Canada",
+      "Switzerland"
     ],
     "dists": [
       228.06375938108815,
@@ -52827,7 +53056,9 @@
       1738.4785417745054,
       112.18211387476657,
       60.715840651650744,
-      100.05837221995009
+      100.05837221995009,
+      67.18709325585422,
+      70.99643539887033
     ],
     "times": [
       7.033333333333344,
@@ -52890,7 +53121,9 @@
       6.866666666666678,
       6.000000000000014,
       6.866666666666678,
-      4.066666666666688
+      4.066666666666688,
+      7.666666666666675,
+      8.100000000000007
     ]
   },
   "Sioux Falls, South Dakota, United States": {
@@ -54752,28 +54985,32 @@
     ]
   },
   "Panama City, Florida, United States": {
-    "mean_dist": 382.14019038846914,
-    "mean_time": 6.533333333333346,
-    "std_dist": 55.159203870959004,
-    "std_time": 1.1333333333333293,
+    "mean_dist": 465.28845861856644,
+    "mean_time": 7.077777777777787,
+    "std_dist": 125.91913092846701,
+    "std_time": 1.2038005659033082,
     "city": "Panama City",
     "admin": "Florida",
     "country": "United States",
     "regions": [
       "Harjumaa",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
       "Estonia",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
       437.29939425942814,
-      326.98098651751013
+      326.98098651751013,
+      631.5849950787609
     ],
     "times": [
       5.400000000000016,
-      7.666666666666675
+      7.666666666666675,
+      8.166666666666673
     ]
   },
   "Matanzas, Cuba": {
@@ -55260,10 +55497,10 @@
     ]
   },
   "Pomona, California, United States": {
-    "mean_dist": 202.30984226329917,
-    "mean_time": 7.366666666666674,
-    "std_dist": 138.60443978924076,
-    "std_time": 1.3333333333333286,
+    "mean_dist": 179.56253650161545,
+    "mean_time": 7.561111111111118,
+    "std_dist": 136.36907715761188,
+    "std_time": 1.2924877915702,
     "city": "Pomona",
     "admin": "California",
     "country": "United States",
@@ -55272,28 +55509,32 @@
       "Alberta",
       "Pennsylvania",
       "Alberta",
-      "Indiana"
+      "Indiana",
+      "Alberta"
     ],
     "countries": [
       "United States",
       "Canada",
       "United States",
       "Canada",
-      "United States"
+      "United States",
+      "Canada"
     ],
     "dists": [
       257.03267163045433,
       156.86042505929544,
       36.943198057979124,
       119.93975013354604,
-      440.7731664352209
+      440.7731664352209,
+      65.82600769319687
     ],
     "times": [
       8.13333333333334,
       7.700000000000008,
       8.33333333333334,
       7.933333333333341,
-      4.733333333333352
+      4.733333333333352,
+      8.533333333333339
     ]
   },
   "Ciudad L\u00e1zaro C\u00e1rdenas, Michoac\u00e1n de Ocampo, Mexico": {
@@ -55593,32 +55834,36 @@
     ]
   },
   "West Valley City, Utah, United States": {
-    "mean_dist": 115.5454381105269,
-    "mean_time": 6.1888888888889015,
-    "std_dist": 56.20148230925338,
-    "std_time": 1.3998236220465392,
+    "mean_dist": 114.41396132158728,
+    "mean_time": 6.475000000000012,
+    "std_dist": 48.711350622721575,
+    "std_time": 1.3096596249916699,
     "city": "West Valley City",
     "admin": "Utah",
     "country": "United States",
     "regions": [
       "Massachusetts",
       "North Carolina",
-      "Indiana"
+      "Indiana",
+      "Aargau"
     ],
     "countries": [
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       65.83787680756417,
       194.1093545151427,
-      86.68908300887378
+      86.68908300887378,
+      111.0195309547684
     ],
     "times": [
       6.900000000000011,
       7.4333333333333425,
-      4.233333333333354
+      4.233333333333354,
+      7.333333333333343
     ]
   },
   "Gainesville, Florida, United States": {
