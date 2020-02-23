@@ -73,6 +73,7 @@ for path in pathlist:
     file = str(path)
     print(file)
     
+    total_num_clicks = 0
     with open(file) as json_file:
         num_clicks = 0
         num_cities = 0
@@ -114,11 +115,12 @@ for path in pathlist:
             json.dump(data, data_file, indent=2)
         
         longest, longestCity = convert(outfile, outfile.replace('.json','.csv'))
-        
+        total_num_clicks = total_num_clicks + num_clicks
+
         metadata[mapname] = {'num_cities': num_cities, 'num_clicks': num_clicks, 'num_clicks_per_city': num_clicks/num_cities, 'most_played_city': longestCity, 'most_played_city_num_clicks': longest}
         os.remove(file)
 
-
+metadata['Total'] = {'num_clicks': total_num_clicks}
 
 with open('/scratch/ip_cache', 'w') as fp:
     json.dump(cache, fp)
