@@ -68,12 +68,13 @@ except:
     cache = {'127.0.0.1': ["Unknown", "Unknown"]}
 metadata = {}
 
+total_num_clicks = 0
+
 for path in pathlist:
     # because path is object not string
     file = str(path)
     print(file)
     
-    total_num_clicks = 0
     with open(file) as json_file:
         num_clicks = 0
         num_cities = 0
