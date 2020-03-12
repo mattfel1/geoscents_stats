@@ -1009,9 +1009,9 @@
     ]
   },
   "Oranjestad, Aruba": {
-    "mean_dist": 320.9,
+    "mean_dist": 331.6,
     "mean_time": 7.4,
-    "std_dist": 476.8,
+    "std_dist": 479.1,
     "std_time": 1.3,
     "admin": "",
     "country": "Aruba",
@@ -1093,7 +1093,11 @@
       "x",
       12.058,
       11.784,
-      12.589
+      12.589,
+      11.986,
+      16.788,
+      12.388,
+      13.791
     ],
     "lons": [
       "x",
@@ -1172,10 +1176,14 @@
       "x",
       -67.598,
       -65.912,
-      -69.606
+      -69.606,
+      -70.222,
+      -61.415,
+      -69.503,
+      -60.986
     ],
-    "mean_lat": 12.143,
-    "mean_lon": -67.705,
+    "mean_lat": 13.054,
+    "mean_lon": -66.463,
     "regions": [
       "Unknown",
       "Unknown",
@@ -1253,7 +1261,11 @@
       "Hlavn\u00ed m\u011bsto Praha",
       "Colorado",
       "Pomerania",
-      "Aargau"
+      "Aargau",
+      "Uusimaa",
+      "Uusimaa",
+      "Bavaria",
+      "Bavaria"
     ],
     "countries": [
       "Unknown",
@@ -1332,7 +1344,11 @@
       "Czech Republic",
       "United States",
       "Poland",
-      "Switzerland"
+      "Switzerland",
+      "Finland",
+      "Finland",
+      "Germany",
+      "Germany"
     ],
     "dists": [
       785.7,
@@ -1411,7 +1427,11 @@
       26.9,
       269.2,
       455,
-      46.3
+      46.3,
+      64,
+      1040.2,
+      59.1,
+      988.9
     ],
     "times": [
       6.6,
@@ -1490,7 +1510,11 @@
       7.4,
       5.5,
       7.2,
-      8.5
+      8.5,
+      7.1,
+      6.6,
+      7.9,
+      7.6
     ]
   },
   "Ciudad Guayana, Venezuela": {
@@ -8954,9 +8978,9 @@
     ]
   },
   "Piura, Peru": {
-    "mean_dist": 1041,
-    "mean_time": 7.8,
-    "std_dist": 585.8,
+    "mean_dist": 1040.1,
+    "mean_time": 7.7,
+    "std_dist": 576,
     "std_time": 1.1,
     "admin": "Piura",
     "country": "Peru",
@@ -8990,7 +9014,8 @@
       -10.991,
       -11.496,
       -36.362,
-      -6.531
+      -6.531,
+      -12.076
     ],
     "lons": [
       "x",
@@ -9021,10 +9046,11 @@
       -74.35,
       -74.119,
       -73.04,
-      -76.386
+      -76.386,
+      -74.579
     ],
-    "mean_lat": -15.877,
-    "mean_lon": -74.684,
+    "mean_lat": -15.243,
+    "mean_lon": -74.667,
     "regions": [
       "New South Wales",
       "California",
@@ -9050,6 +9076,7 @@
       "\u00d6sterg\u00f6tland",
       "Bavaria",
       "Hesse",
+      "Washington",
       "Washington",
       "Washington",
       "Washington",
@@ -9085,6 +9112,7 @@
       "United States",
       "United States",
       "United States",
+      "United States",
       "United States"
     ],
     "dists": [
@@ -9116,7 +9144,8 @@
       943.7,
       1000.5,
       3549.5,
-      491.7
+      491.7,
+      1012.3
     ],
     "times": [
       7.5,
@@ -9147,14 +9176,15 @@
       7,
       7.7,
       4.2,
-      7.1
+      7.1,
+      6.2
     ]
   },
   "Maracaibo, Venezuela": {
-    "mean_dist": 305.0904216508266,
-    "mean_time": 7.591666666666675,
-    "std_dist": 239.80424679660103,
-    "std_time": 1.1427002620498867,
+    "mean_dist": 331.9,
+    "mean_time": 7.5,
+    "std_dist": 256.3,
+    "std_time": 1.1,
     "admin": "Zulia",
     "country": "Venezuela",
     "city": "Maracaibo",
@@ -9174,7 +9204,8 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      8.082
     ],
     "lons": [
       "x",
@@ -9192,10 +9223,11 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      -65.241
     ],
-    "mean_lat": 0,
-    "mean_lon": 0,
+    "mean_lat": 8.082,
+    "mean_lon": -65.241,
     "regions": [
       "New South Wales",
       "Texas",
@@ -9212,7 +9244,8 @@
       "Aargau",
       "Ljubljana",
       "Aargau",
-      "Baden-W\u00fcrttemberg"
+      "Baden-W\u00fcrttemberg",
+      "Washington"
     ],
     "countries": [
       "Australia",
@@ -9230,7 +9263,8 @@
       "Switzerland",
       "Slovenia",
       "Switzerland",
-      "Germany"
+      "Germany",
+      "United States"
     ],
     "dists": [
       415.5,
@@ -9248,7 +9282,8 @@
       137.6,
       420.9,
       108.1,
-      19.8
+      19.8,
+      763.1
     ],
     "times": [
       7.9,
@@ -9266,7 +9301,8 @@
       8.2,
       8.2,
       7.6,
-      6.4
+      6.4,
+      6.5
     ]
   },
   "Cochabamba, Bolivia": {
@@ -15813,9 +15849,9 @@
     ]
   },
   "Ponce, Puerto Rico": {
-    "mean_dist": 351.5,
-    "mean_time": 7.6,
-    "std_dist": 1189.7,
+    "mean_dist": 360.7,
+    "mean_time": 7.5,
+    "std_dist": 1162.9,
     "std_time": 1.8,
     "admin": "Puerto Rico",
     "country": "Puerto Rico",
@@ -15871,7 +15907,11 @@
       "x",
       "x",
       17.971,
-      18.363
+      18.363,
+      18.046,
+      8.968,
+      18.633,
+      18.535
     ],
     "lons": [
       "x",
@@ -15924,10 +15964,14 @@
       "x",
       "x",
       -66.449,
-      -66.243
+      -66.243,
+      -66.733,
+      -79.783,
+      -66.63,
+      -66.015
     ],
-    "mean_lat": 18.167,
-    "mean_lon": -66.346,
+    "mean_lat": 16.752,
+    "mean_lon": -68.642,
     "regions": [
       "California",
       "New York",
@@ -15979,7 +16023,11 @@
       "Aargau",
       "Hlavn\u00ed m\u011bsto Praha",
       "Washington",
-      "Washington"
+      "Washington",
+      "Uusimaa",
+      "Uusimaa",
+      "Bavaria",
+      "Bavaria"
     ],
     "countries": [
       "United States",
@@ -16032,7 +16080,11 @@
       "Switzerland",
       "Czech Republic",
       "United States",
-      "United States"
+      "United States",
+      "Finland",
+      "Finland",
+      "Germany",
+      "Germany"
     ],
     "dists": [
       27.2,
@@ -16085,7 +16137,11 @@
       17.6,
       11.9,
       18.5,
-      55.6
+      55.6,
+      12.6,
+      1741.1,
+      69,
+      86.4
     ],
     "times": [
       8.1,
@@ -16138,7 +16194,11 @@
       8.4,
       5.8,
       7.6,
-      7.5
+      7.5,
+      8.6,
+      4,
+      7.6,
+      8.2
     ]
   },
   "Tarma, Peru": {
@@ -18475,10 +18535,10 @@
     ]
   },
   "Turbo, Colombia": {
-    "mean_dist": 421.8,
-    "mean_time": 6.4,
-    "std_dist": 251.9,
-    "std_time": 1.9,
+    "mean_dist": 389.8,
+    "mean_time": 6.9,
+    "std_dist": 227.9,
+    "std_time": 1.7,
     "admin": "Antioquia",
     "country": "Colombia",
     "city": "Turbo",
@@ -18487,44 +18547,68 @@
       "x",
       "x",
       "x",
-      9.278
+      9.278,
+      5.888,
+      3.65,
+      9.254,
+      7.319
     ],
     "lons": [
       "x",
       "x",
       "x",
       "x",
-      -74.273
+      -74.273,
+      -74.121,
+      -73.113,
+      -74.839,
+      -75.763
     ],
-    "mean_lat": 9.278,
-    "mean_lon": -74.273,
+    "mean_lat": 7.077,
+    "mean_lon": -74.421,
     "regions": [
       "Ontario",
       "Baden-W\u00fcrttemberg",
       "Baden-W\u00fcrttemberg",
       "Baden-W\u00fcrttemberg",
-      "Washington"
+      "Washington",
+      "Uusimaa",
+      "Uusimaa",
+      "Bavaria",
+      "Bavaria"
     ],
     "countries": [
       "Canada",
       "Germany",
       "Germany",
       "Germany",
-      "United States"
+      "United States",
+      "Finland",
+      "Finland",
+      "Germany",
+      "Germany"
     ],
     "dists": [
       474.9,
       880.8,
       146.7,
       305.5,
-      301.1
+      301.1,
+      379.4,
+      636.8,
+      245.1,
+      138.2
     ],
     "times": [
       3.4,
       8.6,
       8.4,
       5.3,
-      6.4
+      6.4,
+      8.7,
+      5.5,
+      8.2,
+      7.9
     ]
   },
   "General Pico, Argentina": {
@@ -24984,10 +25068,10 @@
     ]
   },
   "Azogues, Ecuador": {
-    "mean_dist": 373,
+    "mean_dist": 348.2,
     "mean_time": 7.5,
-    "std_dist": 556.2,
-    "std_time": 1.6,
+    "std_dist": 529.4,
+    "std_time": 1.5,
     "admin": "Ca\u00f1ar",
     "country": "Ecuador",
     "city": "Azogues",
@@ -25023,7 +25107,11 @@
       "x",
       "x",
       -0.252,
-      -1.614
+      -1.614,
+      -1.099,
+      -1.904,
+      -0.996,
+      -2.745
     ],
     "lons": [
       "x",
@@ -25057,10 +25145,14 @@
       "x",
       "x",
       -78.172,
-      -78.764
+      -78.764,
+      -79.252,
+      -79.065,
+      -79.867,
+      -79.662
     ],
-    "mean_lat": -0.933,
-    "mean_lon": -78.467,
+    "mean_lat": -1.434,
+    "mean_lon": -79.13,
     "regions": [
       "California",
       "California",
@@ -25093,7 +25185,11 @@
       "Ljubljana",
       "Ljubljana",
       "Washington",
-      "Washington"
+      "Washington",
+      "Uusimaa",
+      "Uusimaa",
+      "Bavaria",
+      "Bavaria"
     ],
     "countries": [
       "United States",
@@ -25127,7 +25223,11 @@
       "Slovenia",
       "Slovenia",
       "United States",
-      "United States"
+      "United States",
+      "Finland",
+      "Finland",
+      "Germany",
+      "Germany"
     ],
     "dists": [
       326.9,
@@ -25161,7 +25261,11 @@
       222.5,
       1715.4,
       286.3,
-      125.4
+      125.4,
+      188,
+      96.2,
+      224.9,
+      91.3
     ],
     "times": [
       8.1,
@@ -25195,7 +25299,11 @@
       7.5,
       6.1,
       5.9,
-      7.5
+      7.5,
+      8.6,
+      7.3,
+      7.8,
+      8.1
     ]
   },
   "Chill\u00e1n, Chile": {
@@ -33580,10 +33688,10 @@
     ]
   },
   "Temuco, Chile": {
-    "mean_dist": 673.5544176877004,
-    "mean_time": 7.320833333333343,
-    "std_dist": 462.64752120413095,
-    "std_time": 1.39646751762358,
+    "mean_dist": 729.9,
+    "mean_time": 7.3,
+    "std_dist": 488.7,
+    "std_time": 1.2,
     "city": "Temuco",
     "admin": "Araucan\u00eda",
     "country": "Chile",
@@ -33603,7 +33711,11 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      -36.773,
+      -25.884,
+      -32.542,
+      -25.901
     ],
     "lons": [
       "x",
@@ -33621,10 +33733,14 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      -72.069,
+      -69.214,
+      -71.35,
+      -70.324
     ],
-    "mean_lat": 0,
-    "mean_lon": 0,
+    "mean_lat": -30.275,
+    "mean_lon": -70.739,
     "regions": [
       "Aargau",
       "Aargau",
@@ -33641,7 +33757,11 @@
       "Styria",
       "Bavaria",
       "Bavaria",
-      "Hlavn\u00ed m\u011bsto Praha"
+      "Hlavn\u00ed m\u011bsto Praha",
+      "Uusimaa",
+      "Uusimaa",
+      "Bavaria",
+      "Bavaria"
     ],
     "countries": [
       "Switzerland",
@@ -33659,7 +33779,11 @@
       "Austria",
       "Germany",
       "Germany",
-      "Czech Republic"
+      "Czech Republic",
+      "Finland",
+      "Finland",
+      "Germany",
+      "Germany"
     ],
     "dists": [
       322.6,
@@ -33677,7 +33801,11 @@
       1897.4,
       901.3,
       516.8,
-      625
+      625,
+      222.1,
+      1462.6,
+      696.9,
+      1442
     ],
     "times": [
       8.2,
@@ -33695,7 +33823,11 @@
       5.7,
       3.8,
       4.9,
-      8
+      8,
+      8.5,
+      7.6,
+      7.5,
+      7.5
     ]
   },
   "Arjona, Colombia": {
@@ -41396,9 +41528,9 @@
     ]
   },
   "Moca, Dominican Republic": {
-    "mean_dist": 107.9,
+    "mean_dist": 104,
     "mean_time": 8,
-    "std_dist": 91.1,
+    "std_dist": 87.3,
     "std_time": 0.6,
     "city": "Moca",
     "admin": "Cibao Norte",
@@ -41435,7 +41567,11 @@
       "x",
       "x",
       "x",
-      19.142
+      19.142,
+      18.925,
+      19.04,
+      18.925,
+      19.12
     ],
     "lons": [
       "x",
@@ -41469,10 +41605,14 @@
       "x",
       "x",
       "x",
-      -70.681
+      -70.681,
+      -70.427,
+      -69.316,
+      -70.837,
+      -70.837
     ],
-    "mean_lat": 19.142,
-    "mean_lon": -70.681,
+    "mean_lat": 19.03,
+    "mean_lon": -70.419,
     "regions": [
       "California",
       "Aargau",
@@ -41505,7 +41645,11 @@
       "Colorado",
       "Colorado",
       "Aargau",
-      "Washington"
+      "Washington",
+      "Uusimaa",
+      "Uusimaa",
+      "Bavaria",
+      "Bavaria"
     ],
     "countries": [
       "United States",
@@ -41539,7 +41683,11 @@
       "United States",
       "United States",
       "Switzerland",
-      "United States"
+      "United States",
+      "Finland",
+      "Finland",
+      "Germany",
+      "Germany"
     ],
     "dists": [
       59.3,
@@ -41573,7 +41721,11 @@
       142.6,
       61.3,
       117.5,
-      32.8
+      32.8,
+      53.3,
+      132.7,
+      61.9,
+      45.1
     ],
     "times": [
       7.3,
@@ -41607,7 +41759,11 @@
       7.6,
       6.4,
       7.9,
-      7.5
+      7.5,
+      8.4,
+      7.6,
+      8,
+      8.2
     ]
   },
   "Bah\u00eda Blanca, Argentina": {
@@ -45430,10 +45586,10 @@
     ]
   },
   "Armenia, Colombia": {
-    "mean_dist": 359.3,
-    "mean_time": 7.8,
-    "std_dist": 135.5,
-    "std_time": 0.7,
+    "mean_dist": 348.4,
+    "mean_time": 7.6,
+    "std_dist": 137.1,
+    "std_time": 0.9,
     "city": "Armenia",
     "admin": "Quind\u00edo",
     "country": "Colombia",
@@ -45451,7 +45607,8 @@
       8.441,
       6.093,
       10.168,
-      4.061
+      4.061,
+      3.475
     ],
     "lons": [
       "x",
@@ -45467,10 +45624,11 @@
       -74.771,
       -72.402,
       -74.429,
-      -73.215
+      -73.215,
+      -74.271
     ],
-    "mean_lat": 7.19,
-    "mean_lon": -73.704,
+    "mean_lat": 6.447,
+    "mean_lon": -73.817,
     "regions": [
       "Aargau",
       "California",
@@ -45485,7 +45643,8 @@
       "Washington",
       "Washington",
       "Uusimaa",
-      "Uusimaa"
+      "Uusimaa",
+      "Washington"
     ],
     "countries": [
       "Switzerland",
@@ -45501,7 +45660,8 @@
       "United States",
       "United States",
       "Finland",
-      "Finland"
+      "Finland",
+      "United States"
     ],
     "dists": [
       481.6,
@@ -45517,7 +45677,8 @@
       445.9,
       402.2,
       641.4,
-      278.3
+      278.3,
+      195.7
     ],
     "times": [
       8.5,
@@ -45533,7 +45694,8 @@
       6.3,
       6.8,
       8.5,
-      6.6
+      6.6,
+      5.8
     ]
   },
   "El Tigre, Venezuela": {
@@ -50454,10 +50616,10 @@
     ]
   },
   "Comodoro Rivadavia, Argentina": {
-    "mean_dist": 1640.1,
-    "mean_time": 7.8,
-    "std_dist": 486,
-    "std_time": 1.1,
+    "mean_dist": 1601.9,
+    "mean_time": 7.6,
+    "std_dist": 490.7,
+    "std_time": 1.2,
     "city": "Comodoro Rivadavia",
     "admin": "Chubut",
     "country": "Argentina",
@@ -50475,7 +50637,8 @@
       "x",
       "x",
       "x",
-      -31.562
+      -31.562,
+      -37.309
     ],
     "lons": [
       "x",
@@ -50491,10 +50654,11 @@
       "x",
       "x",
       "x",
-      -63.396
+      -63.396,
+      -61.649
     ],
-    "mean_lat": -31.562,
-    "mean_lon": -63.396,
+    "mean_lat": -34.435,
+    "mean_lon": -62.522,
     "regions": [
       "Alberta",
       "Aargau",
@@ -50509,6 +50673,7 @@
       "Aargau",
       "Aargau",
       "Aargau",
+      "Washington",
       "Washington"
     ],
     "countries": [
@@ -50525,6 +50690,7 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "United States",
       "United States"
     ],
     "dists": [
@@ -50541,7 +50707,8 @@
       1678.4,
       1709.7,
       1541.2,
-      1629.7
+      1629.7,
+      1068.2
     ],
     "times": [
       8.5,
@@ -50557,7 +50724,8 @@
       8.4,
       8.4,
       8,
-      3.8
+      3.8,
+      5.9
     ]
   },
   "San Luis, Argentina": {
