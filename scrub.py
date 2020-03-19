@@ -38,6 +38,7 @@ def convert(fileInput, fileOutput):
             outputFile.write(st + '\n') #values row
         except:
             print('Error on %s' % row)
+            print(sys.exc_info()[0])
 
     outputFile.close()
 
