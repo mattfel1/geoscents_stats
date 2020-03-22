@@ -1,8 +1,8 @@
 {
   "Szczecin, Poland": {
-    "mean_dist": 276.8,
+    "mean_dist": 276.6,
     "mean_time": 7,
-    "std_dist": 185,
+    "std_dist": 187.6,
     "std_time": 1.2,
     "admin": "Zachodniopomorskie",
     "country": "Poland",
@@ -79,7 +79,9 @@
       53.526,
       51.879,
       53.111,
-      52.27
+      52.27,
+      51.086,
+      53.388
     ],
     "lons": [
       "x",
@@ -153,10 +155,12 @@
       14.786,
       19.618,
       14.901,
-      20.366
+      20.366,
+      21.343,
+      14.499
     ],
-    "mean_lat": 52.397,
-    "mean_lon": 17.415,
+    "mean_lat": 52.374,
+    "mean_lon": 17.487,
     "regions": [
       "Unknown",
       "Unknown",
@@ -229,7 +233,9 @@
       "Aargau",
       "North Holland",
       "Aargau",
-      "Utrecht"
+      "Utrecht",
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "Unknown",
@@ -303,7 +309,9 @@
       "Switzerland",
       "Netherlands",
       "Switzerland",
-      "Netherlands"
+      "Netherlands",
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       486.3,
@@ -377,7 +385,9 @@
       20.6,
       383.5,
       42.3,
-      412.1
+      412.1,
+      531.1,
+      4
     ],
     "times": [
       7.4,
@@ -451,7 +461,9 @@
       8.1,
       5.2,
       8.2,
-      7
+      7,
+      6,
+      8.1
     ]
   },
   "Manchester, United Kingdom": {
@@ -2592,9 +2604,9 @@
     ]
   },
   "Mannheim, Germany": {
-    "mean_dist": 141.5,
-    "mean_time": 6.9,
-    "std_dist": 127.7,
+    "mean_dist": 136.3,
+    "mean_time": 6.8,
+    "std_dist": 124.3,
     "std_time": 1.4,
     "city": "Mannheim",
     "admin": "Baden-W\u00fcrttemberg",
@@ -2642,7 +2654,11 @@
       51.285,
       52.021,
       53.5,
-      48.968
+      48.968,
+      50.208,
+      49.422,
+      50.02,
+      49.872
     ],
     "lons": [
       "x",
@@ -2687,10 +2703,14 @@
       10.274,
       8.46,
       12.76,
-      10.818
+      10.818,
+      8.743,
+      8.69,
+      8.46,
+      10.703
     ],
-    "mean_lat": 50.543,
-    "mean_lon": 9.44,
+    "mean_lat": 50.377,
+    "mean_lon": 9.367,
     "regions": [
       "Unknown",
       "Unknown",
@@ -2734,7 +2754,11 @@
       "Washington",
       "South Moravian",
       "England",
-      "Leinster"
+      "Leinster",
+      "Zurich",
+      "South Holland",
+      "Utrecht",
+      "South Moravian"
     ],
     "countries": [
       "Unknown",
@@ -2779,7 +2803,11 @@
       "United States",
       "Czech Republic",
       "United Kingdom",
-      "Ireland"
+      "Ireland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands",
+      "Czech Republic"
     ],
     "dists": [
       377.9,
@@ -2824,7 +2852,11 @@
       236,
       280.3,
       534.5,
-      180.4
+      180.4,
+      81.1,
+      18.1,
+      57.8,
+      165.8
     ],
     "times": [
       6.1,
@@ -2869,7 +2901,11 @@
       7.1,
       6.1,
       4.7,
-      6.7
+      6.7,
+      5.5,
+      6.4,
+      6.2,
+      4.3
     ]
   },
   "San Marino, San Marino": {
@@ -3394,9 +3430,9 @@
     ]
   },
   "Minsk, Belarus": {
-    "mean_dist": 199.6,
+    "mean_dist": 195.8,
     "mean_time": 6.4,
-    "std_dist": 354.7,
+    "std_dist": 349.2,
     "std_time": 2,
     "admin": "Minsk",
     "country": "Belarus",
@@ -3486,7 +3522,10 @@
       52.517,
       53.394,
       53.868,
-      53.834
+      53.834,
+      53.563,
+      53.215,
+      52.937
     ],
     "lons": [
       "x",
@@ -3573,10 +3612,13 @@
       30.661,
       28.638,
       27.383,
-      27.613
+      27.613,
+      27.954,
+      26.405,
+      27.037
     ],
-    "mean_lat": 54.011,
-    "mean_lon": 28.108,
+    "mean_lat": 53.845,
+    "mean_lon": 27.899,
     "regions": [
       "Unknown",
       "Massachusetts",
@@ -3662,7 +3704,10 @@
       "Uusimaa",
       "Uusimaa",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "Unknown",
@@ -3749,7 +3794,10 @@
       "Finland",
       "Finland",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       1947.1,
@@ -3836,7 +3884,10 @@
       257,
       90.2,
       12.5,
-      7.8
+      7.8,
+      45.3,
+      108,
+      112.5
     ],
     "times": [
       2.1,
@@ -3923,7 +3974,10 @@
       8.4,
       7.8,
       8.1,
-      8
+      8,
+      4.9,
+      5.5,
+      5.4
     ]
   },
   "Ljubljana, Slovenia": {
@@ -10573,9 +10627,9 @@
     ]
   },
   "Douglas, Isle Of Man": {
-    "mean_dist": 417.9,
+    "mean_dist": 412.6,
     "mean_time": 5.7,
-    "std_dist": 674.2,
+    "std_dist": 671.3,
     "std_time": 2.1,
     "city": "Douglas",
     "admin": "",
@@ -10655,7 +10709,8 @@
       51.628,
       54.269,
       56.124,
-      60.284
+      60.284,
+      54.244
     ],
     "lons": [
       "x",
@@ -10732,10 +10787,11 @@
       -2.18,
       -4.814,
       -5.113,
-      -1.394
+      -1.394,
+      -4.714
     ],
-    "mean_lat": 53.427,
-    "mean_lon": -3.928,
+    "mean_lat": 53.468,
+    "mean_lon": -3.967,
     "regions": [
       "Unknown",
       "Unknown",
@@ -10811,7 +10867,8 @@
       "Friesland",
       "Lower Saxony",
       "Lower Saxony",
-      "Lisbon"
+      "Lisbon",
+      "Zurich"
     ],
     "countries": [
       "Unknown",
@@ -10888,7 +10945,8 @@
       "Netherlands",
       "Germany",
       "Germany",
-      "Portugal"
+      "Portugal",
+      "Switzerland"
     ],
     "dists": [
       2.3,
@@ -10965,7 +11023,8 @@
       320,
       25.4,
       223.1,
-      706.7
+      706.7,
+      18.5
     ],
     "times": [
       7.5,
@@ -11042,7 +11101,8 @@
       7.7,
       1.2,
       2.9,
-      5.5
+      5.5,
+      7.4
     ]
   },
   "Tallinn, Estonia": {
@@ -13579,9 +13639,9 @@
     ]
   },
   "Warsaw, Poland": {
-    "mean_dist": 174.6,
+    "mean_dist": 174.2,
     "mean_time": 6.9,
-    "std_dist": 254,
+    "std_dist": 249.5,
     "std_time": 1.5,
     "admin": "Mazowieckie",
     "country": "Poland",
@@ -13664,7 +13724,10 @@
       52.13,
       52.673,
       52.234,
-      52.961
+      52.961,
+      52.024,
+      53.077,
+      51.159
     ],
     "lons": [
       "x",
@@ -13744,10 +13807,13 @@
       19.211,
       20.916,
       21.688,
-      19.369
+      19.369,
+      19.096,
+      17.72,
+      20.711
     ],
-    "mean_lat": 52.307,
-    "mean_lon": 19.886,
+    "mean_lat": 52.281,
+    "mean_lon": 19.801,
     "regions": [
       "Unknown",
       "Unknown",
@@ -13826,7 +13892,10 @@
       "Zurich",
       "Bavaria",
       "Aargau",
-      "Lisbon"
+      "Lisbon",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "Unknown",
@@ -13906,7 +13975,10 @@
       "Switzerland",
       "Germany",
       "Switzerland",
-      "Portugal"
+      "Portugal",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       37.8,
@@ -13986,7 +14058,10 @@
       122.6,
       47.4,
       46.9,
-      135.5
+      135.5,
+      132.2,
+      239.5,
+      122.8
     ],
     "times": [
       8.2,
@@ -14066,7 +14141,10 @@
       7,
       5,
       8,
-      7.8
+      7.8,
+      7.7,
+      4.6,
+      6.6
     ]
   },
   "Stockholm, Sweden": {
@@ -18650,9 +18728,9 @@
     ]
   },
   "Piraeus, Greece": {
-    "mean_dist": 221.5,
+    "mean_dist": 219.9,
     "mean_time": 6,
-    "std_dist": 304.1,
+    "std_dist": 299.9,
     "std_time": 2.2,
     "admin": "Attik\u00ed",
     "country": "Greece",
@@ -18747,7 +18825,10 @@
       40.264,
       37.369,
       39.482,
-      38.112
+      38.112,
+      37.978,
+      40.528,
+      38.746
     ],
     "lons": [
       "x",
@@ -18839,10 +18920,13 @@
       23.299,
       23.313,
       21.918,
-      23.356
+      23.356,
+      23.985,
+      23.644,
+      21.516
     ],
-    "mean_lat": 38.651,
-    "mean_lon": 23.145,
+    "mean_lat": 38.732,
+    "mean_lon": 23.127,
     "regions": [
       "Massachusetts",
       "Massachusetts",
@@ -18933,7 +19017,10 @@
       "Aargau",
       "Uusimaa",
       "England",
-      "Aargau"
+      "Aargau",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United States",
@@ -19025,7 +19112,10 @@
       "Switzerland",
       "Finland",
       "United Kingdom",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       57.3,
@@ -19117,7 +19207,10 @@
       259.6,
       72.9,
       230,
-      35
+      35,
+      25.2,
+      286.7,
+      210
     ],
     "times": [
       7.6,
@@ -19209,7 +19302,10 @@
       8.2,
       5.1,
       2.7,
-      7.7
+      7.7,
+      6.8,
+      5,
+      5.9
     ]
   },
   "Krak\u00f3w, Poland": {
@@ -21291,10 +21387,10 @@
     ]
   },
   "Bristol, United Kingdom": {
-    "mean_dist": 204.5,
+    "mean_dist": 194.8,
     "mean_time": 6.1,
-    "std_dist": 271.9,
-    "std_time": 1.8,
+    "std_dist": 265.1,
+    "std_time": 1.7,
     "admin": "Bristol, City of",
     "country": "United Kingdom",
     "city": "Bristol",
@@ -21377,7 +21473,13 @@
       52.972,
       50.252,
       51.304,
-      51.595
+      51.595,
+      51.451,
+      51.52,
+      52.833,
+      51.415,
+      51.268,
+      51.268
     ],
     "lons": [
       "x",
@@ -21458,10 +21560,16 @@
       -2.525,
       -0.695,
       -2.295,
-      -2.816
+      -2.816,
+      -2.759,
+      -2.065,
+      -0.569,
+      -2.471,
+      -1.375,
+      -1.835
     ],
-    "mean_lat": 52.565,
-    "mean_lon": -1.951,
+    "mean_lat": 52.348,
+    "mean_lon": -1.927,
     "regions": [
       "Massachusetts",
       "Massachusetts",
@@ -21541,7 +21649,13 @@
       "Utrecht",
       "North Holland",
       "Leinster",
-      "Zurich"
+      "Zurich",
+      "Zurich",
+      "South Holland",
+      "Utrecht",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United States",
@@ -21622,7 +21736,13 @@
       "Netherlands",
       "Netherlands",
       "Ireland",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       231.4,
@@ -21703,7 +21823,13 @@
       169.3,
       187.8,
       25.7,
-      22.8
+      22.8,
+      12.2,
+      36.7,
+      206.2,
+      8.6,
+      86.2,
+      55.7
     ],
     "times": [
       6.4,
@@ -21784,13 +21910,19 @@
       5.3,
       5.6,
       3.9,
-      6.3
+      6.3,
+      7.7,
+      6.9,
+      6.6,
+      7.7,
+      6.9,
+      4.7
     ]
   },
   "Belgrade, Serbia": {
-    "mean_dist": 211.5,
+    "mean_dist": 210.7,
     "mean_time": 5.9,
-    "std_dist": 354.7,
+    "std_dist": 350.4,
     "std_time": 1.9,
     "admin": "Beograd",
     "country": "Serbia",
@@ -21906,7 +22038,10 @@
       44.501,
       43.021,
       45.128,
-      44.105
+      44.105,
+      44.163,
+      42.049,
+      43.451
     ],
     "lons": [
       "x",
@@ -22019,10 +22154,13 @@
       20.467,
       19.112,
       16.799,
-      17.471
+      17.471,
+      20.419,
+      20.653,
+      19.905
     ],
-    "mean_lat": 44.321,
-    "mean_lon": 19.515,
+    "mean_lat": 44.127,
+    "mean_lon": 19.658,
     "regions": [
       "Massachusetts",
       "Massachusetts",
@@ -22134,7 +22272,10 @@
       "North Holland",
       "Utrecht",
       "North Holland",
-      "Lisbon"
+      "Lisbon",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United States",
@@ -22247,7 +22388,10 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Portugal"
+      "Portugal",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       416.8,
@@ -22360,7 +22504,10 @@
       35.2,
       227.4,
       290.5,
-      250.6
+      250.6,
+      72.8,
+      308.2,
+      158.4
     ],
     "times": [
       6.8,
@@ -22473,13 +22620,16 @@
       4.9,
       3,
       0.6,
-      5.6
+      5.6,
+      7,
+      6.7,
+      2.9
     ]
   },
   "Basel, Switzerland": {
-    "mean_dist": 111.1,
-    "mean_time": 6.4,
-    "std_dist": 171.5,
+    "mean_dist": 108.7,
+    "mean_time": 6.3,
+    "std_dist": 168.4,
     "std_time": 1.8,
     "admin": "Basel-Stadt",
     "country": "Switzerland",
@@ -22570,7 +22720,11 @@
       46.915,
       47.583,
       47.217,
-      46.757
+      46.757,
+      47.546,
+      47.505,
+      46.876,
+      46.994
     ],
     "lons": [
       "x",
@@ -22658,10 +22812,14 @@
       8,
       7.367,
       7.201,
-      8.575
+      8.575,
+      7.421,
+      7.597,
+      9.15,
+      7.424
     ],
-    "mean_lat": 47.217,
-    "mean_lon": 8.56,
+    "mean_lat": 47.22,
+    "mean_lon": 8.404,
     "regions": [
       "Massachusetts",
       "Massachusetts",
@@ -22748,7 +22906,11 @@
       "Auvergne-Rh\u00f4ne-Alpes",
       "Auvergne-Rh\u00f4ne-Alpes",
       "Auvergne-Rh\u00f4ne-Alpes",
-      "Leinster"
+      "Leinster",
+      "Zurich",
+      "South Holland",
+      "Utrecht",
+      "South Moravian"
     ],
     "countries": [
       "United States",
@@ -22836,7 +22998,11 @@
       "France",
       "France",
       "France",
-      "Ireland"
+      "Ireland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands",
+      "Czech Republic"
     ],
     "dists": [
       147.1,
@@ -22924,7 +23090,11 @@
       80.1,
       16.7,
       49.8,
-      117.9
+      117.9,
+      13.2,
+      8.4,
+      141.4,
+      66.3
     ],
     "times": [
       8,
@@ -23012,7 +23182,11 @@
       5,
       6.9,
       7.1,
-      4.7
+      4.7,
+      5.7,
+      6.6,
+      5.5,
+      2.7
     ]
   },
   "Gliwice, Poland": {
@@ -23794,10 +23968,10 @@
     ]
   },
   "Li\u00e8ge, Belgium": {
-    "mean_dist": 141.4,
-    "mean_time": 6.4,
-    "std_dist": 305.8,
-    "std_time": 1.9,
+    "mean_dist": 139.2,
+    "mean_time": 6.3,
+    "std_dist": 302.6,
+    "std_time": 2,
     "admin": "Wallonia",
     "country": "Belgium",
     "city": "Li\u00e8ge",
@@ -23885,7 +24059,9 @@
       50.391,
       50.445,
       50.243,
-      52.234
+      52.234,
+      50.354,
+      50.058
     ],
     "lons": [
       "x",
@@ -23971,10 +24147,12 @@
       6.447,
       5.5,
       5.871,
-      5.411
+      5.411,
+      5.526,
+      5.584
     ],
-    "mean_lat": 50.55,
-    "mean_lon": 5.327,
+    "mean_lat": 50.497,
+    "mean_lon": 5.362,
     "regions": [
       "Massachusetts",
       "Massachusetts",
@@ -24059,7 +24237,9 @@
       "Aargau",
       "Washington",
       "Aargau",
-      "Moravskoslezsk\u00fd"
+      "Moravskoslezsk\u00fd",
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -24145,7 +24325,9 @@
       "Switzerland",
       "United States",
       "Switzerland",
-      "Czech Republic"
+      "Czech Republic",
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       79.5,
@@ -24231,7 +24413,9 @@
       66.8,
       21.2,
       47.6,
-      178.8
+      178.8,
+      30.8,
+      63.5
     ],
     "times": [
       7.9,
@@ -24317,7 +24501,9 @@
       8.3,
       6.2,
       8.4,
-      5
+      5,
+      2,
+      8.2
     ]
   },
   "Frankfurt, Germany": {
@@ -25871,9 +26057,9 @@
     ]
   },
   "Paris, France": {
-    "mean_dist": 106.5,
+    "mean_dist": 103.5,
     "mean_time": 6.9,
-    "std_dist": 88.5,
+    "std_dist": 87.4,
     "std_time": 1.5,
     "admin": "\u00cele-de-France",
     "country": "France",
@@ -25934,7 +26120,10 @@
       48.472,
       47.583,
       48.357,
-      48.434
+      48.434,
+      48.857,
+      48.472,
+      48.242
     ],
     "lons": [
       "x",
@@ -25992,10 +26181,13 @@
       2.535,
       2.708,
       3.053,
-      2.938
+      2.938,
+      2.129,
+      2.075,
+      2.881
     ],
-    "mean_lat": 48.246,
-    "mean_lon": 2.632,
+    "mean_lat": 48.301,
+    "mean_lon": 2.578,
     "regions": [
       "Massachusetts",
       "Massachusetts",
@@ -26052,7 +26244,10 @@
       "Bavaria",
       "South Moravian",
       "Friesland",
-      "Friesland"
+      "Friesland",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United States",
@@ -26109,6 +26304,9 @@
       "Germany",
       "Germany",
       "Czech Republic",
+      "Netherlands",
+      "Netherlands",
+      "Switzerland",
       "Netherlands",
       "Netherlands"
     ],
@@ -26168,7 +26366,10 @@
       46.2,
       145.4,
       77.5,
-      65.4
+      65.4,
+      14.9,
+      47.6,
+      80.2
     ],
     "times": [
       7.9,
@@ -26226,7 +26427,10 @@
       7.2,
       7.6,
       7.4,
-      8.1
+      8.1,
+      7.3,
+      7,
+      5.9
     ]
   },
   "Erzurum, Turkey": {
@@ -30019,10 +30223,10 @@
     ]
   },
   "Naples, Italy": {
-    "mean_dist": 182.8,
-    "mean_time": 7,
-    "std_dist": 418.4,
-    "std_time": 1.4,
+    "mean_dist": 186.9,
+    "mean_time": 6.9,
+    "std_dist": 413.7,
+    "std_time": 1.5,
     "admin": "Campania",
     "country": "Italy",
     "city": "Naples",
@@ -30086,7 +30290,10 @@
       40.748,
       40.931,
       41.184,
-      40.704
+      40.704,
+      41.361,
+      40.879,
+      44.944
     ],
     "lons": [
       "x",
@@ -30148,10 +30355,13 @@
       14.211,
       15.697,
       13.981,
-      14.384
+      14.384,
+      13.057,
+      14.096,
+      8.115
     ],
-    "mean_lat": 40.687,
-    "mean_lon": 14.649,
+    "mean_lat": 41.153,
+    "mean_lon": 13.86,
     "regions": [
       "Scotland",
       "\u00cele-de-France",
@@ -30212,7 +30422,10 @@
       "Aargau",
       "Uusimaa",
       "Uusimaa",
-      "Aargau"
+      "Aargau",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United Kingdom",
@@ -30274,7 +30487,10 @@
       "Switzerland",
       "Finland",
       "Finland",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       68.1,
@@ -30336,7 +30552,10 @@
       10.5,
       122.4,
       44.2,
-      19.1
+      19.1,
+      115.1,
+      13.2,
+      676.1
     ],
     "times": [
       7.9,
@@ -30398,7 +30617,10 @@
       8.2,
       6.1,
       7.1,
-      8.2
+      8.2,
+      6.4,
+      5.9,
+      3.1
     ]
   },
   "Vigo, Spain": {
@@ -30827,9 +31049,9 @@
     ]
   },
   "Nantes, France": {
-    "mean_dist": 366.9,
+    "mean_dist": 366.5,
     "mean_time": 6.2,
-    "std_dist": 430,
+    "std_dist": 422.5,
     "std_time": 2.1,
     "admin": "Pays de la Loire",
     "country": "France",
@@ -30901,7 +31123,10 @@
       47.27,
       47.033,
       52.388,
-      46.598
+      46.598,
+      47.272,
+      44.739,
+      44.821
     ],
     "lons": [
       "x",
@@ -30970,10 +31195,13 @@
       -2.122,
       4.088,
       12.122,
-      -1.03
+      -1.03,
+      -0.343,
+      3.341,
+      4.088
     ],
-    "mean_lat": 46.873,
-    "mean_lon": 4.392,
+    "mean_lat": 46.621,
+    "mean_lon": 3.986,
     "regions": [
       "Texas",
       "Mazovia",
@@ -31041,7 +31269,10 @@
       "Aargau",
       "Mazovia",
       "Mazovia",
-      "Aargau"
+      "Aargau",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United States",
@@ -31110,7 +31341,10 @@
       "Switzerland",
       "Poland",
       "Poland",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       601.5,
@@ -31179,7 +31413,10 @@
       40.7,
       430,
       1137.4,
-      80.2
+      80.2,
+      94.3,
+      469.6,
+      512.5
     ],
     "times": [
       7.8,
@@ -31248,13 +31485,16 @@
       7.9,
       8.5,
       7.8,
-      8.4
+      8.4,
+      6.8,
+      6.8,
+      5.5
     ]
   },
   "Samsun, Turkey": {
-    "mean_dist": 454.2,
+    "mean_dist": 456.2,
     "mean_time": 6.9,
-    "std_dist": 234.7,
+    "std_dist": 226.8,
     "std_time": 1.2,
     "admin": "Samsun",
     "country": "Turkey",
@@ -31299,7 +31539,10 @@
       40.791,
       36.502,
       40.923,
-      39.865
+      39.865,
+      37.015,
+      37.701,
+      38.248
     ],
     "lons": [
       "x",
@@ -31341,10 +31584,13 @@
       37.563,
       29.511,
       32.789,
-      33.019
+      33.019,
+      37.674,
+      32.156,
+      39.346
     ],
-    "mean_lat": 39.334,
-    "mean_lon": 34.054,
+    "mean_lat": 38.998,
+    "mean_lon": 34.521,
     "regions": [
       "Texas",
       "\u00cele-de-France",
@@ -31385,7 +31631,10 @@
       "Aargau",
       "Auvergne-Rh\u00f4ne-Alpes",
       "South Moravian",
-      "Lisbon"
+      "Lisbon",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United States",
@@ -31427,7 +31676,10 @@
       "Switzerland",
       "France",
       "Czech Republic",
-      "Portugal"
+      "Portugal",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       191.9,
@@ -31469,7 +31721,10 @@
       115.8,
       794.4,
       300.4,
-      321.7
+      321.7,
+      487.9,
+      535.9,
+      423.5
     ],
     "times": [
       8.2,
@@ -31511,7 +31766,10 @@
       8.4,
       4.2,
       5.9,
-      5.9
+      5.9,
+      7.9,
+      6.6,
+      6.8
     ]
   },
   "Bari, Italy": {
@@ -34436,9 +34694,9 @@
     ]
   },
   "Wuppertal, Germany": {
-    "mean_dist": 327.3,
+    "mean_dist": 324.8,
     "mean_time": 7,
-    "std_dist": 429.7,
+    "std_dist": 416.5,
     "std_time": 1.4,
     "admin": "North Rhine-Westphalia",
     "country": "Germany",
@@ -34485,7 +34743,10 @@
       51.592,
       52.734,
       51.123,
-      51.95
+      51.95,
+      48.666,
+      50.28,
+      48.126
     ],
     "lons": [
       "x",
@@ -34529,10 +34790,13 @@
       9.495,
       11.843,
       9.035,
-      7.424
+      7.424,
+      10.641,
+      6.792,
+      9.265
     ],
-    "mean_lat": 51.849,
-    "mean_lon": 9.449,
+    "mean_lat": 50.638,
+    "mean_lon": 9.213,
     "regions": [
       "New South Wales",
       "Mazovia",
@@ -34575,7 +34839,10 @@
       "Uusimaa",
       "Uusimaa",
       "Aargau",
-      "Leinster"
+      "Leinster",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "Australia",
@@ -34619,7 +34886,10 @@
       "Finland",
       "Finland",
       "Switzerland",
-      "Ireland"
+      "Ireland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       149.9,
@@ -34663,7 +34933,10 @@
       165.6,
       359.9,
       130.7,
-      79.8
+      79.8,
+      379.6,
+      111,
+      378.5
     ],
     "times": [
       8,
@@ -34707,7 +34980,10 @@
       8.9,
       7.6,
       8.4,
-      6.6
+      6.6,
+      7.4,
+      6.8,
+      5.9
     ]
   },
   "Birmingham, United Kingdom": {
@@ -34974,10 +35250,10 @@
     ]
   },
   "Diyarbak\u0131r, Turkey": {
-    "mean_dist": 597.9,
+    "mean_dist": 599.7,
     "mean_time": 7,
-    "std_dist": 435.2,
-    "std_time": 1.6,
+    "std_dist": 430.6,
+    "std_time": 1.5,
     "admin": "Diyarbak\u0131r",
     "country": "Turkey",
     "city": "Diyarbak\u0131r",
@@ -35027,7 +35303,10 @@
       37.655,
       49.485,
       40.043,
-      39.106
+      39.106,
+      39.109,
+      36.548,
+      39.777
     ],
     "lons": [
       "x",
@@ -35075,10 +35354,13 @@
       28.648,
       49.622,
       39.749,
-      34.572
+      34.572,
+      40.55,
+      29.798,
+      31.179
     ],
-    "mean_lat": 39.703,
-    "mean_lon": 35.377,
+    "mean_lat": 39.44,
+    "mean_lon": 35.048,
     "regions": [
       "\u00cele-de-France",
       "\u00cele-de-France",
@@ -35125,7 +35407,10 @@
       "Mazovia",
       "Mazovia",
       "Aargau",
-      "Friesland"
+      "Friesland",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "France",
@@ -35173,6 +35458,9 @@
       "Poland",
       "Poland",
       "Switzerland",
+      "Netherlands",
+      "Switzerland",
+      "Netherlands",
       "Netherlands"
     ],
     "dists": [
@@ -35221,7 +35509,10 @@
       1017.5,
       1488.5,
       239.6,
-      509.5
+      509.5,
+      135.1,
+      935.4,
+      810.1
     ],
     "times": [
       6.2,
@@ -35269,13 +35560,16 @@
       8.3,
       7.8,
       8.4,
-      7.7
+      7.7,
+      7.7,
+      6,
+      4.9
     ]
   },
   "Budapest, Hungary": {
-    "mean_dist": 148.6,
-    "mean_time": 5.7,
-    "std_dist": 182.3,
+    "mean_dist": 147.4,
+    "mean_time": 5.6,
+    "std_dist": 179.2,
     "std_time": 2,
     "admin": "Budapest",
     "country": "Hungary",
@@ -35360,7 +35654,10 @@
       49.934,
       47.112,
       50.592,
-      46.796
+      46.796,
+      46.997,
+      47.112,
+      47.7
     ],
     "lons": [
       "x",
@@ -35442,10 +35739,13 @@
       17.125,
       20.135,
       3.947,
-      18.18
+      18.18,
+      17.256,
+      19.963,
+      17.49
     ],
-    "mean_lat": 47.313,
-    "mean_lon": 18.801,
+    "mean_lat": 47.308,
+    "mean_lon": 18.736,
     "regions": [
       "\u00cele-de-France",
       "Thuringia",
@@ -35526,7 +35826,10 @@
       "Mazovia",
       "Mazovia",
       "Mazovia",
-      "Friesland"
+      "Friesland",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "France",
@@ -35608,6 +35911,9 @@
       "Poland",
       "Poland",
       "Poland",
+      "Netherlands",
+      "Switzerland",
+      "Netherlands",
       "Netherlands"
     ],
     "dists": [
@@ -35690,7 +35996,10 @@
       306.3,
       90.2,
       1153.1,
-      103.7
+      103.7,
+      148.8,
+      79.1,
+      121.5
     ],
     "times": [
       7.4,
@@ -35772,7 +36081,10 @@
       2.8,
       5.4,
       2.5,
-      6.4
+      6.4,
+      7.7,
+      4.3,
+      4.4
     ]
   },
   "Riga, Latvia": {
@@ -40206,10 +40518,10 @@
     ]
   },
   "Rome, Italy": {
-    "mean_dist": 109.1,
+    "mean_dist": 105.1,
     "mean_time": 6.9,
-    "std_dist": 62.7,
-    "std_time": 1.4,
+    "std_dist": 60.1,
+    "std_time": 1.3,
     "admin": "Lazio",
     "country": "Italy",
     "city": "Rome",
@@ -40253,7 +40565,13 @@
       41.228,
       42.563,
       42.648,
-      43.409
+      43.409,
+      42.267,
+      42.605,
+      42.563,
+      41.621,
+      42.69,
+      42.135
     ],
     "lons": [
       "x",
@@ -40295,10 +40613,16 @@
       13.118,
       11.048,
       11.45,
+      11.968,
+      11.562,
+      12.141,
+      11.335,
+      12.194,
+      12.141,
       11.968
     ],
-    "mean_lat": 42.308,
-    "mean_lon": 12.054,
+    "mean_lat": 42.311,
+    "mean_lon": 11.972,
     "regions": [
       "\u00cele-de-France",
       "California",
@@ -40339,7 +40663,13 @@
       "Bavaria",
       "Auvergne-Rh\u00f4ne-Alpes",
       "South Holland",
-      "South Holland"
+      "South Holland",
+      "Zurich",
+      "South Holland",
+      "Utrecht",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "France",
@@ -40380,6 +40710,12 @@
       "Germany",
       "Germany",
       "France",
+      "Netherlands",
+      "Netherlands",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands",
+      "Switzerland",
       "Netherlands",
       "Netherlands"
     ],
@@ -40423,7 +40759,13 @@
       91.1,
       139.5,
       119.2,
-      173.4
+      173.4,
+      86.4,
+      83.7,
+      120.1,
+      38.7,
+      92.7,
+      50.1
     ],
     "times": [
       7.9,
@@ -40465,7 +40807,13 @@
       7.8,
       5.6,
       6.9,
-      7.9
+      7.9,
+      6.5,
+      7.3,
+      6.5,
+      7.5,
+      6.8,
+      6.2
     ]
   },
   "Essen, Germany": {
@@ -42426,10 +42774,10 @@
     ]
   },
   "Podgorica, Montenegro": {
-    "mean_dist": 241.6,
-    "mean_time": 5.9,
-    "std_dist": 403.7,
-    "std_time": 1.9,
+    "mean_dist": 246.2,
+    "mean_time": 5.8,
+    "std_dist": 407.9,
+    "std_time": 2,
     "admin": "Podgorica",
     "country": "Montenegro",
     "city": "Podgorica",
@@ -42519,7 +42867,10 @@
       41.662,
       42.69,
       42.092,
-      42.349
+      42.349,
+      42.651,
+      44.533,
+      42.605
     ],
     "lons": [
       "x",
@@ -42607,10 +42958,13 @@
       21.171,
       20.078,
       21.056,
-      20.711
+      20.711,
+      19.499,
+      6.159,
+      19.043
     ],
-    "mean_lat": 42.878,
-    "mean_lon": 19.552,
+    "mean_lat": 42.924,
+    "mean_lon": 18.993,
     "regions": [
       "\u00cele-de-France",
       "New South Wales",
@@ -42697,7 +43051,10 @@
       "South Holland",
       "Leinster",
       "Aargau",
-      "Friesland"
+      "Friesland",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "France",
@@ -42785,6 +43142,9 @@
       "Netherlands",
       "Ireland",
       "Switzerland",
+      "Netherlands",
+      "Switzerland",
+      "Netherlands",
       "Netherlands"
     ],
     "dists": [
@@ -42873,7 +43233,10 @@
       180.8,
       71,
       152.9,
-      119.3
+      119.3,
+      28,
+      1080.6,
+      23.9
     ],
     "times": [
       7.4,
@@ -42961,7 +43324,10 @@
       3.7,
       4,
       8.3,
-      6
+      6,
+      7.2,
+      0.8,
+      2.4
     ]
   },
   "Hamburg, Germany": {
@@ -44329,9 +44695,9 @@
     ]
   },
   "Vilnius, Lithuania": {
-    "mean_dist": 208.3,
-    "mean_time": 6.7,
-    "std_dist": 272.7,
+    "mean_dist": 208.6,
+    "mean_time": 6.6,
+    "std_dist": 269.3,
     "std_time": 1.4,
     "admin": "Vilniaus Miestas",
     "country": "Lithuania",
@@ -44416,7 +44782,9 @@
       55.522,
       55.705,
       54.846,
-      45.315
+      45.315,
+      55.672,
+      55.605
     ],
     "lons": [
       "x",
@@ -44498,10 +44866,12 @@
       24.135,
       21.857,
       24.449,
-      16.968
+      16.968,
+      22.087,
+      22.436
     ],
-    "mean_lat": 53.785,
-    "mean_lon": 22.998,
+    "mean_lat": 54.197,
+    "mean_lon": 22.834,
     "regions": [
       "New South Wales",
       "\u00cele-de-France",
@@ -44582,7 +44952,9 @@
       "Washington",
       "Washington",
       "Aargau",
-      "Alberta"
+      "Alberta",
+      "Zurich",
+      "South Holland"
     ],
     "countries": [
       "Australia",
@@ -44664,7 +45036,9 @@
       "United States",
       "United States",
       "Switzerland",
-      "Canada"
+      "Canada",
+      "Switzerland",
+      "Netherlands"
     ],
     "dists": [
       108.8,
@@ -44746,7 +45120,9 @@
       119.8,
       247.2,
       58.4,
-      1198.5
+      1198.5,
+      232.6,
+      209.7
     ],
     "times": [
       7.8,
@@ -44828,7 +45204,9 @@
       7.8,
       5.7,
       7.4,
-      7.9
+      7.9,
+      5.8,
+      5.2
     ]
   },
   "Gibraltar, Gibraltar": {
@@ -51856,10 +52234,10 @@
     ]
   },
   "Helsinki, Finland": {
-    "mean_dist": 181.8,
-    "mean_time": 6.5,
-    "std_dist": 256.3,
-    "std_time": 1.4,
+    "mean_dist": 200.1,
+    "mean_time": 6.6,
+    "std_dist": 315.2,
+    "std_time": 1.5,
     "admin": "Uusimaa",
     "country": "Finland",
     "city": "Helsinki",
@@ -51947,7 +52325,9 @@
       60.322,
       63.142,
       60.085,
-      60.638
+      60.638,
+      60.209,
+      55.012
     ],
     "lons": [
       "x",
@@ -52033,10 +52413,12 @@
       25.369,
       29.338,
       25.039,
-      26.401
+      26.401,
+      25.193,
+      -6.206
     ],
-    "mean_lat": 60.737,
-    "mean_lon": 24.871,
+    "mean_lat": 60.346,
+    "mean_lon": 22.948,
     "regions": [
       "Mazovia",
       "Lubusz",
@@ -52121,7 +52503,9 @@
       "Aargau",
       "Friesland",
       "Uusimaa",
-      "Zurich"
+      "Zurich",
+      "Zurich",
+      "South Holland"
     ],
     "countries": [
       "Poland",
@@ -52207,7 +52591,9 @@
       "Switzerland",
       "Netherlands",
       "Finland",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "Netherlands"
     ],
     "dists": [
       111.8,
@@ -52293,7 +52679,9 @@
       29,
       403.3,
       11.5,
-      95.5
+      95.5,
+      14.8,
+      1921.7
     ],
     "times": [
       7.9,
@@ -52379,7 +52767,9 @@
       8,
       6.2,
       8,
-      6.7
+      6.7,
+      7.3,
+      9.8
     ]
   },
   "Dublin, Ireland": {
@@ -53006,9 +53396,9 @@
     ]
   },
   "Belfast, United Kingdom": {
-    "mean_dist": 109.2,
+    "mean_dist": 107.5,
     "mean_time": 7.1,
-    "std_dist": 345.2,
+    "std_dist": 341.3,
     "std_time": 1.4,
     "admin": "Belfast",
     "country": "United Kingdom",
@@ -53055,7 +53445,8 @@
       54.528,
       54.242,
       54.276,
-      52.152
+      52.152,
+      54.915
     ],
     "lons": [
       "x",
@@ -53099,10 +53490,11 @@
       -6.609,
       -5.688,
       -5.458,
-      -3.81
+      -3.81,
+      -6.152
     ],
-    "mean_lat": 53.799,
-    "mean_lon": -5.391,
+    "mean_lat": 54.022,
+    "mean_lon": -5.543,
     "regions": [
       "Mazovia",
       "Ontario",
@@ -53145,7 +53537,8 @@
       "Grand Est",
       "Aargau",
       "Aargau",
-      "Lisbon"
+      "Lisbon",
+      "Zurich"
     ],
     "countries": [
       "Poland",
@@ -53189,7 +53582,8 @@
       "France",
       "Switzerland",
       "Switzerland",
-      "Portugal"
+      "Portugal",
+      "Switzerland"
     ],
     "dists": [
       15.7,
@@ -53233,7 +53627,8 @@
       42.5,
       43.4,
       48.4,
-      307.2
+      307.2,
+      37.1
     ],
     "times": [
       8.1,
@@ -53277,7 +53672,8 @@
       4.5,
       7.9,
       7.7,
-      5.5
+      5.5,
+      6.8
     ]
   },
   "Genoa, Italy": {
@@ -55549,9 +55945,9 @@
     ]
   },
   "Stuttgart, Germany": {
-    "mean_dist": 214.2,
+    "mean_dist": 206.8,
     "mean_time": 6.9,
-    "std_dist": 261.6,
+    "std_dist": 255,
     "std_time": 1.6,
     "city": "Stuttgart",
     "admin": "Baden-W\u00fcrttemberg",
@@ -55597,7 +55993,10 @@
       52.384,
       52.251,
       50.871,
-      50.354
+      50.354,
+      48.93,
+      50.611,
+      48.968
     ],
     "lons": [
       "x",
@@ -55640,10 +56039,13 @@
       12.257,
       11.999,
       10.698,
-      10.933
+      10.933,
+      9.955,
+      7.942,
+      8.805
     ],
-    "mean_lat": 50.62,
-    "mean_lon": 10.773,
+    "mean_lat": 50.247,
+    "mean_lon": 10.149,
     "regions": [
       "Mazovia",
       "\u00cele-de-France",
@@ -55685,7 +56087,10 @@
       "Washington",
       "Washington",
       "Washington",
-      "Friesland"
+      "Friesland",
+      "South Moravian",
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "Poland",
@@ -55728,7 +56133,10 @@
       "United States",
       "United States",
       "United States",
-      "Netherlands"
+      "Netherlands",
+      "Czech Republic",
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       297.2,
@@ -55771,7 +56179,10 @@
       455.1,
       433.7,
       256.1,
-      215
+      215,
+      57.7,
+      222.8,
+      35.7
     ],
     "times": [
       8,
@@ -55814,7 +56225,10 @@
       7.7,
       7,
       6.3,
-      7.9
+      7.9,
+      6.4,
+      4.7,
+      8.1
     ]
   },
   "Southend-on-Sea, United Kingdom": {
@@ -59446,10 +59860,10 @@
     ]
   },
   "Bremen, Germany": {
-    "mean_dist": 176.5,
+    "mean_dist": 176.9,
     "mean_time": 5.9,
-    "std_dist": 164.3,
-    "std_time": 1.9,
+    "std_dist": 163,
+    "std_time": 1.8,
     "admin": "Bremen",
     "country": "Germany",
     "city": "Bremen",
@@ -59536,7 +59950,10 @@
       51.544,
       52.446,
       52.639,
-      53.215
+      53.215,
+      51.523,
+      53.181,
+      50.317
     ],
     "lons": [
       "x",
@@ -59621,10 +60038,13 @@
       10.818,
       11.623,
       12.919,
+      8.575,
+      11.102,
+      8.632,
       8.575
     ],
-    "mean_lat": 51.972,
-    "mean_lon": 10.946,
+    "mean_lat": 51.913,
+    "mean_lon": 10.644,
     "regions": [
       "\u00cele-de-France",
       "Utrecht",
@@ -59708,7 +60128,10 @@
       "Mazovia",
       "Mazovia",
       "Mazovia",
-      "Aargau"
+      "Aargau",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "France",
@@ -59793,7 +60216,10 @@
       "Poland",
       "Poland",
       "Poland",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       29.5,
@@ -59878,7 +60304,10 @@
       218.9,
       202.5,
       280.8,
-      21.2
+      21.2,
+      233.3,
+      15.8,
+      307.5
     ],
     "times": [
       8.3,
@@ -59963,7 +60392,10 @@
       7.6,
       7.9,
       6.8,
-      7.7
+      7.7,
+      6.3,
+      6.4,
+      6.1
     ]
   },
   "Vinnytsya, Ukraine": {
@@ -61918,9 +62350,9 @@
     ]
   },
   "Bradford, United Kingdom": {
-    "mean_dist": 165.9,
-    "mean_time": 6.6,
-    "std_dist": 153.9,
+    "mean_dist": 166.4,
+    "mean_time": 6.5,
+    "std_dist": 152.4,
     "std_time": 1.8,
     "admin": "Bradford",
     "country": "United Kingdom",
@@ -62013,7 +62445,10 @@
       52.27,
       53.704,
       52.341,
-      52.708
+      52.708,
+      53.905,
+      51.484,
+      51.95
     ],
     "lons": [
       "x",
@@ -62103,10 +62538,13 @@
       -0.397,
       -1.155,
       -1.835,
-      -1.457
+      -1.457,
+      -0.976,
+      -0.397,
+      -2.755
     ],
-    "mean_lat": 52.866,
-    "mean_lon": -1.271,
+    "mean_lat": 52.787,
+    "mean_lon": -1.291,
     "regions": [
       "",
       "",
@@ -62195,7 +62633,10 @@
       "Uusimaa",
       "Uusimaa",
       "Leinster",
-      "Bavaria"
+      "Bavaria",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       null,
@@ -62285,7 +62726,10 @@
       "Finland",
       "Finland",
       "Ireland",
-      "Germany"
+      "Germany",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       261.2,
@@ -62375,7 +62819,10 @@
       192.6,
       40.5,
       162.3,
-      122.9
+      122.9,
+      52,
+      273.1,
+      216.4
     ],
     "times": [
       0.6,
@@ -62465,7 +62912,10 @@
       7.9,
       7.7,
       6.1,
-      7.9
+      7.9,
+      5.1,
+      4.3,
+      5.3
     ]
   },
   "Coventry, United Kingdom": {
@@ -63660,9 +64110,9 @@
     ]
   },
   "Vaduz, Liechtenstein": {
-    "mean_dist": 93.1,
+    "mean_dist": 99.5,
     "mean_time": 6,
-    "std_dist": 204.2,
+    "std_dist": 207.8,
     "std_time": 2.1,
     "admin": "Vaduz",
     "country": "Liechtenstein",
@@ -63721,7 +64171,8 @@
       47.367,
       47.112,
       50.941,
-      49.722
+      49.722,
+      50.058
     ],
     "lons": [
       "x",
@@ -63777,10 +64228,11 @@
       7.11,
       9.38,
       14.614,
-      5.986
+      5.986,
+      5.296
     ],
-    "mean_lat": 47.704,
-    "mean_lon": 9.364,
+    "mean_lat": 47.9,
+    "mean_lon": 9.025,
     "regions": [
       "Thuringia",
       "Lubusz",
@@ -63835,6 +64287,7 @@
       "Washington",
       "South Holland",
       "North Holland",
+      "South Moravian",
       "South Moravian"
     ],
     "countries": [
@@ -63891,6 +64344,7 @@
       "United States",
       "Netherlands",
       "Netherlands",
+      "Czech Republic",
       "Czech Republic"
     ],
     "dists": [
@@ -63947,7 +64401,8 @@
       183.4,
       10.5,
       563,
-      388.1
+      388.1,
+      449.3
     ],
     "times": [
       6.1,
@@ -64003,7 +64458,8 @@
       6.6,
       5.1,
       4.5,
-      4.5
+      4.5,
+      4.8
     ]
   },
   "Strasbourg, France": {
@@ -64342,9 +64798,9 @@
     ]
   },
   "Madrid, Spain": {
-    "mean_dist": 119.2,
+    "mean_dist": 118.2,
     "mean_time": 6.9,
-    "std_dist": 245.8,
+    "std_dist": 244,
     "std_time": 1.4,
     "admin": "Madrid",
     "country": "Spain",
@@ -64412,7 +64868,8 @@
       39.998,
       40.396,
       40.835,
-      40.66
+      40.66,
+      39.91
     ],
     "lons": [
       "x",
@@ -64477,10 +64934,11 @@
       -2.122,
       -3.79,
       -3.56,
-      -3.33
+      -3.33,
+      -3.503
     ],
-    "mean_lat": 40.064,
-    "mean_lon": -3.454,
+    "mean_lat": 40.055,
+    "mean_lon": -3.456,
     "regions": [
       "Thuringia",
       "England",
@@ -64544,7 +65002,8 @@
       "South Holland",
       "South Holland",
       "South Holland",
-      "South Holland"
+      "South Holland",
+      "Aargau"
     ],
     "countries": [
       "Germany",
@@ -64609,7 +65068,8 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       42.4,
@@ -64674,7 +65134,8 @@
       139.8,
       9.1,
       49.5,
-      41.5
+      41.5,
+      56.5
     ],
     "times": [
       7.7,
@@ -64739,7 +65200,8 @@
       6.2,
       6.1,
       6.7,
-      7.2
+      7.2,
+      8.1
     ]
   },
   "Linz, Austria": {
@@ -67496,9 +67958,9 @@
     ]
   },
   "Brest, Belarus": {
-    "mean_dist": 456.2,
+    "mean_dist": 452.1,
     "mean_time": 5.9,
-    "std_dist": 447.1,
+    "std_dist": 440.7,
     "std_time": 2,
     "admin": "Brestskaya Voblasts\u2019",
     "country": "Belarus",
@@ -67581,7 +68043,10 @@
       53.388,
       53.319,
       53.305,
-      52.73
+      52.73,
+      52.695,
+      53.732,
+      53.146
     ],
     "lons": [
       "x",
@@ -67661,10 +68126,13 @@
       28.648,
       27.67,
       27.236,
-      28.184
+      28.184,
+      24.618,
+      30.949,
+      29.856
     ],
-    "mean_lat": 52.701,
-    "mean_lon": 26.09,
+    "mean_lat": 52.774,
+    "mean_lon": 26.448,
     "regions": [
       "England",
       "England",
@@ -67743,7 +68211,10 @@
       "North Holland",
       "Utrecht",
       "North Holland",
-      "Zurich"
+      "Zurich",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United Kingdom",
@@ -67823,7 +68294,10 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       197.6,
@@ -67903,7 +68377,10 @@
       362.5,
       299.8,
       273.3,
-      312
+      312,
+      90.9,
+      518.5,
+      431.3
     ],
     "times": [
       7.8,
@@ -67983,7 +68460,10 @@
       6,
       6.6,
       4.5,
-      7.2
+      7.2,
+      5.9,
+      6.1,
+      6
     ]
   },
   "Ni\u0161, Serbia": {
@@ -74756,10 +75236,10 @@
     ]
   },
   "Lausanne, Switzerland": {
-    "mean_dist": 156.1,
+    "mean_dist": 151.2,
     "mean_time": 6.3,
-    "std_dist": 329.4,
-    "std_time": 1.8,
+    "std_dist": 324.7,
+    "std_time": 1.7,
     "admin": "Vaud",
     "country": "Switzerland",
     "city": "Lausanne",
@@ -74847,7 +75327,10 @@
       47.152,
       46.717,
       46.796,
-      42.945
+      42.945,
+      46.601,
+      46.518,
+      46.518
     ],
     "lons": [
       "x",
@@ -74933,10 +75416,13 @@
       8.575,
       7.022,
       7.367,
-      15.649
+      15.649,
+      6.328,
+      6.792,
+      6.734
     ],
-    "mean_lat": 45.831,
-    "mean_lon": 10.12,
+    "mean_lat": 45.944,
+    "mean_lon": 9.567,
     "regions": [
       "Ontario",
       "Washington",
@@ -75021,7 +75507,10 @@
       "Mazovia",
       "South Holland",
       "South Holland",
-      "South Holland"
+      "South Holland",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "Canada",
@@ -75106,6 +75595,9 @@
       "Poland",
       "Poland",
       "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Switzerland",
       "Netherlands",
       "Netherlands"
     ],
@@ -75193,7 +75685,10 @@
       161.9,
       35.2,
       62.2,
-      814.2
+      814.2,
+      25.8,
+      10.9,
+      6.5
     ],
     "times": [
       5.5,
@@ -75279,7 +75774,10 @@
       0.6,
       6.9,
       6.3,
-      3.3
+      3.3,
+      6.9,
+      6.3,
+      5.7
     ]
   },
   "Siirt, Turkey": {
@@ -76820,9 +77318,9 @@
     ]
   },
   "Limoges, France": {
-    "mean_dist": 287.3,
+    "mean_dist": 281.3,
     "mean_time": 6.6,
-    "std_dist": 147.6,
+    "std_dist": 148.8,
     "std_time": 1.5,
     "admin": "Nouvelle-Aquitaine",
     "country": "France",
@@ -76881,7 +77379,10 @@
       47.855,
       44.161,
       44.615,
-      47.02
+      47.02,
+      44.78,
+      46.279,
+      48.816
     ],
     "lons": [
       "x",
@@ -76937,10 +77438,13 @@
       2.363,
       5.584,
       -0.512,
-      2.631
+      2.631,
+      1.615,
+      1.213,
+      2.708
     ],
-    "mean_lat": 46.313,
-    "mean_lon": 3.258,
+    "mean_lat": 46.363,
+    "mean_lon": 3.034,
     "regions": [
       "Ontario",
       "California",
@@ -76995,7 +77499,10 @@
       "South Holland",
       "South Moravian",
       "Leinster",
-      "Lisbon"
+      "Lisbon",
+      "South Moravian",
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "Canada",
@@ -77051,7 +77558,10 @@
       "Netherlands",
       "Czech Republic",
       "Ireland",
-      "Portugal"
+      "Portugal",
+      "Czech Republic",
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       220.6,
@@ -77107,7 +77617,10 @@
       240.6,
       387.9,
       193,
-      169.5
+      169.5,
+      120.1,
+      50,
+      349.8
     ],
     "times": [
       6.4,
@@ -77163,7 +77676,10 @@
       5.6,
       5.3,
       6.4,
-      7.8
+      7.8,
+      4,
+      7.1,
+      7.4
     ]
   },
   "Khmel\u2019nyts\u2019kyy, Ukraine": {
@@ -78011,9 +78527,9 @@
     ]
   },
   "Sochi, Krasnodarskiy Kray, Russia": {
-    "mean_dist": 828.4,
+    "mean_dist": 794.9,
     "mean_time": 5.2,
-    "std_dist": 660.3,
+    "std_dist": 653.8,
     "std_time": 2,
     "admin": "Krasnodarskiy Kray",
     "country": "Russia",
@@ -78062,7 +78578,10 @@
       "x",
       "x",
       52.322,
-      44.202
+      44.202,
+      44.659,
+      44.657,
+      48.357
     ],
     "lons": [
       "x",
@@ -78108,10 +78627,13 @@
       "x",
       "x",
       42.023,
-      39.231
+      39.231,
+      40.32,
+      37.966,
+      43.43
     ],
-    "mean_lat": 48.262,
-    "mean_lon": 40.627,
+    "mean_lat": 46.839,
+    "mean_lon": 40.594,
     "regions": [
       "New York",
       "California",
@@ -78156,7 +78678,10 @@
       "Bavaria",
       "\u00d6sterg\u00f6tland",
       "Washington",
-      "South Holland"
+      "South Holland",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United States",
@@ -78202,6 +78727,9 @@
       "Germany",
       "Sweden",
       "United States",
+      "Netherlands",
+      "Switzerland",
+      "Netherlands",
       "Netherlands"
     ],
     "dists": [
@@ -78248,7 +78776,10 @@
       158.3,
       95,
       985.7,
-      78.9
+      78.9,
+      127.9,
+      184.1,
+      602.1
     ],
     "times": [
       6.8,
@@ -78294,7 +78825,10 @@
       6.6,
       5.1,
       6.6,
-      4.9
+      4.9,
+      6.1,
+      2.5,
+      7.1
     ]
   },
   "Elaz\u0131\u011f, Turkey": {
@@ -81069,9 +81603,9 @@
     ]
   },
   "Szeged, Hungary": {
-    "mean_dist": 206.4,
-    "mean_time": 6.5,
-    "std_dist": 212.4,
+    "mean_dist": 209,
+    "mean_time": 6.4,
+    "std_dist": 211.2,
     "std_time": 1.8,
     "admin": "Csongr\u00e1d",
     "country": "Hungary",
@@ -81154,7 +81688,10 @@
       47.27,
       46.479,
       47.23,
-      47.256
+      47.256,
+      46.957,
+      43.199,
+      47.033
     ],
     "lons": [
       "x",
@@ -81234,10 +81771,13 @@
       19.905,
       20.078,
       18.87,
-      19.254
+      19.254,
+      18.464,
+      24.967,
+      18.18
     ],
-    "mean_lat": 47.035,
-    "mean_lon": 18.918,
+    "mean_lat": 46.857,
+    "mean_lon": 19.138,
     "regions": [
       "Washington",
       "Lisbon",
@@ -81316,7 +81856,10 @@
       "North Holland",
       "Aargau",
       "Friesland",
-      "Lisbon"
+      "Lisbon",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United States",
@@ -81396,7 +81939,10 @@
       "Netherlands",
       "Switzerland",
       "Netherlands",
-      "Portugal"
+      "Portugal",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       184.4,
@@ -81476,7 +82022,10 @@
       114.8,
       26,
       146.2,
-      131
+      131,
+      150.9,
+      509.6,
+      173.7
     ],
     "times": [
       6,
@@ -81556,7 +82105,10 @@
       7.2,
       8.4,
       7.4,
-      7.2
+      7.2,
+      7.2,
+      2.7,
+      4.7
     ]
   },
   "Blackpool, United Kingdom": {
@@ -83678,10 +84230,10 @@
     ]
   },
   "Panev\u0117\u017eys, Lithuania": {
-    "mean_dist": 192.2,
+    "mean_dist": 189.9,
     "mean_time": 6.6,
-    "std_dist": 316.9,
-    "std_time": 1.6,
+    "std_dist": 311.4,
+    "std_time": 1.5,
     "admin": "Panev\u0117\u017eio Miestas",
     "country": "Lithuania",
     "city": "Panev\u0117\u017eys",
@@ -83764,7 +84316,10 @@
       55.408,
       55.768,
       55.032,
-      55.627
+      55.627,
+      55.802,
+      55.145,
+      55.898
     ],
     "lons": [
       "x",
@@ -83845,10 +84400,13 @@
       23.184,
       22.551,
       24.531,
-      21.957
+      21.957,
+      22.49,
+      23.816,
+      21.228
     ],
-    "mean_lat": 55.138,
-    "mean_lon": 23.411,
+    "mean_lat": 55.193,
+    "mean_lon": 23.307,
     "regions": [
       "California",
       "Idaho",
@@ -83928,7 +84486,10 @@
       "North Holland",
       "Utrecht",
       "North Holland",
-      "Lisbon"
+      "Lisbon",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United States",
@@ -84009,7 +84570,10 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Portugal"
+      "Portugal",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       795.1,
@@ -84090,7 +84654,10 @@
       83.1,
       113.8,
       79.2,
-      151.7
+      151.7,
+      117.7,
+      74.7,
+      197
     ],
     "times": [
       8.1,
@@ -84171,6 +84738,9 @@
       6.2,
       5.1,
       7.4,
+      6.1,
+      6.8,
+      6.8,
       6.1
     ]
   },
@@ -85407,9 +85977,9 @@
     ]
   },
   "Cork, Ireland": {
-    "mean_dist": 202.9,
+    "mean_dist": 201.5,
     "mean_time": 6.3,
-    "std_dist": 417.2,
+    "std_dist": 412.1,
     "std_time": 1.9,
     "admin": "Cork",
     "country": "Ireland",
@@ -85532,7 +86102,10 @@
       52.021,
       53.827,
       53.698,
-      53.414
+      53.414,
+      52.8,
+      53.285,
+      53.146
     ],
     "lons": [
       "x",
@@ -85652,10 +86225,13 @@
       -8.392,
       -8.035,
       -6.781,
-      -6.652
+      -6.652,
+      -8.798,
+      -9.024,
+      -6.839
     ],
-    "mean_lat": 53.713,
-    "mean_lon": -7.361,
+    "mean_lat": 53.649,
+    "mean_lon": -7.447,
     "regions": [
       "Idaho",
       "England",
@@ -85774,7 +86350,10 @@
       "Friesland",
       "Lower Saxony",
       "Lower Saxony",
-      "Uusimaa"
+      "Uusimaa",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United States",
@@ -85894,7 +86473,10 @@
       "Netherlands",
       "Germany",
       "Germany",
-      "Finland"
+      "Finland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       82.5,
@@ -86014,7 +86596,10 @@
       15.4,
       216.7,
       230.8,
-      209.4
+      209.4,
+      102.3,
+      158.2,
+      178.3
     ],
     "times": [
       5,
@@ -86134,13 +86719,16 @@
       7.8,
       2.4,
       1.1,
-      6.4
+      6.4,
+      7.1,
+      4.8,
+      7.1
     ]
   },
   "Salzburg, Austria": {
-    "mean_dist": 113.4,
+    "mean_dist": 112,
     "mean_time": 6.5,
-    "std_dist": 206.6,
+    "std_dist": 202.9,
     "std_time": 1.8,
     "admin": "Salzburg",
     "country": "Austria",
@@ -86222,7 +86810,10 @@
       47.622,
       47.23,
       49.422,
-      47.583
+      47.583,
+      47.894,
+      47.112,
+      48.049
     ],
     "lons": [
       "x",
@@ -86301,10 +86892,13 @@
       14.039,
       12.658,
       13.003,
-      16.167
+      16.167,
+      14.499,
+      13.579,
+      12.831
     ],
-    "mean_lat": 47.896,
-    "mean_lon": 13.437,
+    "mean_lat": 47.861,
+    "mean_lon": 13.47,
     "regions": [
       "Idaho",
       "England",
@@ -86382,7 +86976,10 @@
       "South Holland",
       "South Holland",
       "Leinster",
-      "California"
+      "California",
+      "South Moravian",
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -86461,7 +87058,10 @@
       "Netherlands",
       "Netherlands",
       "Ireland",
-      "United States"
+      "United States",
+      "Czech Republic",
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       383.8,
@@ -86540,7 +87140,10 @@
       77.6,
       70.5,
       179.2,
-      235.3
+      235.3,
+      109.2,
+      87.5,
+      30.7
     ],
     "times": [
       3.7,
@@ -86619,14 +87222,17 @@
       6.5,
       0.8,
       3,
-      5.3
+      5.3,
+      6.1,
+      6.5,
+      7.2
     ]
   },
   "Shkod\u00ebr, Albania": {
-    "mean_dist": 271.4,
-    "mean_time": 6,
-    "std_dist": 386.4,
-    "std_time": 2,
+    "mean_dist": 263.5,
+    "mean_time": 6.1,
+    "std_dist": 376.8,
+    "std_time": 1.9,
     "admin": "Shkod\u00ebr",
     "country": "Albania",
     "city": "Shkod\u00ebr",
@@ -86713,7 +87319,12 @@
       42.903,
       40.954,
       41.228,
-      41.257
+      41.257,
+      40.707,
+      42.818,
+      41.054,
+      40.178,
+      41.315
     ],
     "lons": [
       "x",
@@ -86798,10 +87409,15 @@
       19.023,
       19.765,
       19.79,
-      19.714
+      19.714,
+      19.556,
+      20.078,
+      19.618,
+      19.671,
+      19.733
     ],
-    "mean_lat": 41.35,
-    "mean_lon": 19.726,
+    "mean_lat": 41.312,
+    "mean_lon": 19.728,
     "regions": [
       "Idaho",
       "Capital Region",
@@ -86885,7 +87501,12 @@
       "Colorado",
       "Colorado",
       "Aargau",
-      "Lisbon"
+      "Lisbon",
+      "Zurich",
+      "South Holland",
+      "Utrecht",
+      "Zurich",
+      "Utrecht"
     ],
     "countries": [
       "United States",
@@ -86970,7 +87591,12 @@
       "United States",
       "United States",
       "Switzerland",
-      "Portugal"
+      "Portugal",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands",
+      "Switzerland",
+      "Netherlands"
     ],
     "dists": [
       161.8,
@@ -87055,7 +87681,12 @@
       101.2,
       125.5,
       96.1,
-      91.6
+      91.6,
+      151.4,
+      95.1,
+      113,
+      210.5,
+      85.6
     ],
     "times": [
       5.5,
@@ -87140,7 +87771,12 @@
       2.3,
       6.3,
       8.5,
-      6.7
+      6.7,
+      7.8,
+      3.2,
+      7,
+      7.2,
+      6.9
     ]
   },
   "Odesa, Ukraine": {
@@ -91531,10 +92167,10 @@
     ]
   },
   "Bia\u0142ystok, Poland": {
-    "mean_dist": 289.2,
+    "mean_dist": 285.7,
     "mean_time": 6.7,
-    "std_dist": 166.2,
-    "std_time": 1.4,
+    "std_dist": 164.7,
+    "std_time": 1.3,
     "admin": "Podlaskie",
     "country": "Poland",
     "city": "Bia\u0142ystok",
@@ -91602,7 +92238,10 @@
       50.831,
       52.824,
       52.482,
-      51.014
+      51.014,
+      53.459,
+      50.206,
+      51.736
     ],
     "lons": [
       "x",
@@ -91668,10 +92307,13 @@
       16.799,
       21.99,
       18.237,
-      20.596
+      20.596,
+      21.8,
+      21.631,
+      21.458
     ],
-    "mean_lat": 52.105,
-    "mean_lon": 18.921,
+    "mean_lat": 52.022,
+    "mean_lon": 19.659,
     "regions": [
       "\u00cele-de-France",
       "Michigan",
@@ -91736,7 +92378,10 @@
       "Bavaria",
       "Uusimaa",
       "South Holland",
-      "South Holland"
+      "South Holland",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "France",
@@ -91801,6 +92446,9 @@
       "Germany",
       "Germany",
       "Finland",
+      "Netherlands",
+      "Netherlands",
+      "Switzerland",
       "Netherlands",
       "Netherlands"
     ],
@@ -91868,7 +92516,10 @@
       506.4,
       86.8,
       339.6,
-      295.5
+      295.5,
+      97.3,
+      344,
+      195.3
     ],
     "times": [
       5.5,
@@ -91934,13 +92585,16 @@
       7.8,
       6.2,
       7.2,
-      7.2
+      7.2,
+      6.9,
+      7.4,
+      5.2
     ]
   },
   "Siracusa, Italy": {
-    "mean_dist": 420.2,
+    "mean_dist": 417,
     "mean_time": 6.7,
-    "std_dist": 356.8,
+    "std_dist": 353.5,
     "std_time": 1.2,
     "admin": "Sicilia",
     "country": "Italy",
@@ -92008,7 +92662,9 @@
       37.54,
       37.69,
       37.93,
-      41.358
+      41.358,
+      37.704,
+      41.748
     ],
     "lons": [
       "x",
@@ -92073,10 +92729,12 @@
       14.185,
       15.203,
       15.477,
-      12.773
+      12.773,
+      14.265,
+      15.189
     ],
-    "mean_lat": 39.473,
-    "mean_lon": 15.75,
+    "mean_lat": 39.529,
+    "mean_lon": 15.523,
     "regions": [
       "\u00cele-de-France",
       "\u00cele-de-France",
@@ -92140,7 +92798,9 @@
       "Washington",
       "Uusimaa",
       "Aargau",
-      "Friesland"
+      "Friesland",
+      "Zurich",
+      "South Holland"
     ],
     "countries": [
       "France",
@@ -92204,6 +92864,8 @@
       "United States",
       "United States",
       "Finland",
+      "Switzerland",
+      "Netherlands",
       "Switzerland",
       "Netherlands"
     ],
@@ -92270,7 +92932,9 @@
       110.8,
       69.3,
       97,
-      523.7
+      523.7,
+      114.7,
+      520.2
     ],
     "times": [
       6.3,
@@ -92335,7 +92999,9 @@
       6.8,
       7.2,
       8.2,
-      6.2
+      6.2,
+      7.9,
+      6.4
     ]
   },
   "Lugano, Switzerland": {
@@ -92800,9 +93466,9 @@
     ]
   },
   "Buz\u0103u, Romania": {
-    "mean_dist": 176.8,
+    "mean_dist": 173.9,
     "mean_time": 7,
-    "std_dist": 214.5,
+    "std_dist": 211.9,
     "std_time": 1.7,
     "admin": "Buz\u0103u",
     "country": "Romania",
@@ -92868,7 +93534,9 @@
       46.359,
       44.862,
       46.558,
-      45.148
+      45.148,
+      44.947,
+      44.326
     ],
     "lons": [
       "x",
@@ -92931,10 +93599,12 @@
       26.06,
       26.29,
       25.312,
-      26.807
+      26.807,
+      26.516,
+      28.188
     ],
-    "mean_lat": 45.476,
-    "mean_lon": 26.433,
+    "mean_lat": 45.371,
+    "mean_lon": 26.548,
     "regions": [
       "\u00cele-de-France",
       "England",
@@ -92996,7 +93666,9 @@
       "South Holland",
       "South Holland",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "Zurich",
+      "Utrecht"
     ],
     "countries": [
       "France",
@@ -93059,7 +93731,9 @@
       "Netherlands",
       "Netherlands",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "Netherlands"
     ],
     "dists": [
       144.6,
@@ -93122,7 +93796,9 @@
       145.7,
       52.1,
       194.1,
-      0.8
+      0.8,
+      32.5,
+      142.8
     ],
     "times": [
       6.1,
@@ -93185,7 +93861,9 @@
       6.4,
       6.5,
       8.7,
-      8.3
+      8.3,
+      7.1,
+      5.1
     ]
   },
   "Cherepovets, Vologodskaya Oblast\u2019, Russia": {
@@ -93362,9 +94040,9 @@
     ]
   },
   "Aarhus, Denmark": {
-    "mean_dist": 190.1,
+    "mean_dist": 186.7,
     "mean_time": 6.1,
-    "std_dist": 273.7,
+    "std_dist": 270.4,
     "std_time": 1.9,
     "admin": "Midtjylland",
     "country": "Denmark",
@@ -93467,7 +94145,10 @@
       56.267,
       56.349,
       56.253,
-      56.785
+      56.785,
+      56.639,
+      56.509,
+      55.31
     ],
     "lons": [
       "x",
@@ -93567,10 +94248,13 @@
       10.333,
       10.185,
       10.07,
-      9.821
+      9.821,
+      9.836,
+      9.84,
+      9.092
     ],
-    "mean_lat": 55.976,
-    "mean_lon": 10.604,
+    "mean_lat": 55.998,
+    "mean_lon": 10.477,
     "regions": [
       "\u00cele-de-France",
       "England",
@@ -93669,7 +94353,10 @@
       "Bavaria",
       "Aargau",
       "Friesland",
-      "Lisbon"
+      "Lisbon",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "France",
@@ -93769,7 +94456,10 @@
       "Germany",
       "Switzerland",
       "Netherlands",
-      "Portugal"
+      "Portugal",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       48.7,
@@ -93869,7 +94559,10 @@
       14.3,
       21.4,
       13.7,
-      73.8
+      73.8,
+      58.3,
+      45.3,
+      117.3
     ],
     "times": [
       7.3,
@@ -93969,7 +94662,10 @@
       7.9,
       8.4,
       7.9,
-      6.3
+      6.3,
+      5.6,
+      5.6,
+      6.5
     ]
   },
   "Karaman, Turkey": {
@@ -94254,10 +94950,10 @@
     ]
   },
   "\u010ca\u010dak, Serbia": {
-    "mean_dist": 215.3,
+    "mean_dist": 213.3,
     "mean_time": 5.8,
-    "std_dist": 313.2,
-    "std_time": 2,
+    "std_dist": 310.1,
+    "std_time": 2.1,
     "admin": "\u010ca\u010dak",
     "country": "Serbia",
     "city": "\u010ca\u010dak",
@@ -94350,7 +95046,9 @@
       44.657,
       43.03,
       43.451,
-      44.253
+      44.253,
+      43.705,
+      42.307
     ],
     "lons": [
       "x",
@@ -94441,10 +95139,12 @@
       17.605,
       19.1,
       19.56,
-      21.358
+      21.358,
+      21.167,
+      19.79
     ],
-    "mean_lat": 44.827,
-    "mean_lon": 20.118,
+    "mean_lat": 44.717,
+    "mean_lon": 20.14,
     "regions": [
       "\u00cele-de-France",
       "Michigan",
@@ -94534,7 +95234,9 @@
       "Aargau",
       "North Holland",
       "Utrecht",
-      "North Holland"
+      "North Holland",
+      "Zurich",
+      "South Holland"
     ],
     "countries": [
       "France",
@@ -94625,6 +95327,8 @@
       "Switzerland",
       "Netherlands",
       "Netherlands",
+      "Netherlands",
+      "Switzerland",
       "Netherlands"
     ],
     "dists": [
@@ -94716,7 +95420,9 @@
       233.1,
       137.7,
       78.7,
-      91.5
+      91.5,
+      70.2,
+      181.3
     ],
     "times": [
       6.9,
@@ -94807,7 +95513,9 @@
       7.6,
       5,
       5.1,
-      4.5
+      4.5,
+      7.4,
+      1.8
     ]
   },
   "Tekirda\u011f, Turkey": {
@@ -95242,9 +95950,9 @@
     ]
   },
   "Gy\u0151r, Hungary": {
-    "mean_dist": 237,
+    "mean_dist": 236.9,
     "mean_time": 5.9,
-    "std_dist": 231.9,
+    "std_dist": 230.7,
     "std_time": 2.2,
     "admin": "Gy\u0151r-Moson-Sopron",
     "country": "Hungary",
@@ -95343,7 +96051,8 @@
       46.724,
       43.199,
       47.208,
-      47.933
+      47.933,
+      47.112
     ],
     "lons": [
       "x",
@@ -95439,10 +96148,11 @@
       19.435,
       24.909,
       20.513,
-      18.065
+      18.065,
+      20.538
     ],
-    "mean_lat": 46.832,
-    "mean_lon": 19.628,
+    "mean_lat": 46.847,
+    "mean_lon": 19.678,
     "regions": [
       "\u00cele-de-France",
       "England",
@@ -95537,7 +96247,8 @@
       "Uusimaa",
       "Leinster",
       "Bavaria",
-      "Leinster"
+      "Leinster",
+      "Aargau"
     ],
     "countries": [
       "France",
@@ -95633,7 +96344,8 @@
       "Finland",
       "Ireland",
       "Germany",
-      "Ireland"
+      "Ireland",
+      "Switzerland"
     ],
     "dists": [
       117.1,
@@ -95729,7 +96441,8 @@
       174.2,
       756.3,
       223.5,
-      41.5
+      41.5,
+      228.4
     ],
     "times": [
       5.6,
@@ -95825,7 +96538,8 @@
       4.5,
       1.9,
       7.6,
-      1.4
+      1.4,
+      8.6
     ]
   },
   "Penza, Penzenskaya Oblast\u2019, Russia": {
@@ -101154,9 +101868,9 @@
     ]
   },
   "Aberdeen, United Kingdom": {
-    "mean_dist": 251.7,
+    "mean_dist": 254.8,
     "mean_time": 6.2,
-    "std_dist": 226.1,
+    "std_dist": 226.2,
     "std_time": 1.8,
     "admin": "Aberdeen City",
     "country": "United Kingdom",
@@ -101237,7 +101951,8 @@
       54.551,
       56.637,
       56.605,
-      57.361
+      57.361,
+      52.833
     ],
     "lons": [
       "x",
@@ -101315,10 +102030,11 @@
       -1.96,
       -3.158,
       -3.33,
-      -2.467
+      -2.467,
+      -3.273
     ],
-    "mean_lat": 56.016,
-    "mean_lon": -2.69,
+    "mean_lat": 55.804,
+    "mean_lon": -2.729,
     "regions": [
       "\u00cele-de-France",
       "Bavaria",
@@ -101395,7 +102111,8 @@
       "Uusimaa",
       "Uusimaa",
       "South Moravian",
-      "Aargau"
+      "Aargau",
+      "South Moravian"
     ],
     "countries": [
       "France",
@@ -101473,7 +102190,8 @@
       "Finland",
       "Finland",
       "Czech Republic",
-      "Switzerland"
+      "Switzerland",
+      "Czech Republic"
     ],
     "dists": [
       80,
@@ -101551,7 +102269,8 @@
       291.2,
       88.3,
       98.5,
-      31.5
+      31.5,
+      488.2
     ],
     "times": [
       6.5,
@@ -101629,7 +102348,8 @@
       7.9,
       8.4,
       5.1,
-      8.2
+      8.2,
+      5.9
     ]
   },
   "Bruges, Belgium": {
@@ -103105,9 +103825,9 @@
     ]
   },
   "Brest, France": {
-    "mean_dist": 328.4,
-    "mean_time": 7.1,
-    "std_dist": 293.7,
+    "mean_dist": 295.8,
+    "mean_time": 7,
+    "std_dist": 292.4,
     "std_time": 1.2,
     "admin": "Bretagne",
     "country": "France",
@@ -103161,7 +103881,13 @@
       48.434,
       48.968,
       48.854,
-      48.998
+      48.998,
+      48.475,
+      48.396,
+      48.434,
+      48.475,
+      48.165,
+      48.434
     ],
     "lons": [
       "x",
@@ -103212,10 +103938,16 @@
       6.562,
       -0.799,
       -1.202,
-      -1.215
+      -1.215,
+      -3.794,
+      -4.423,
+      -4.193,
+      -4.369,
+      -4.02,
+      -3.905
     ],
-    "mean_lat": 47.548,
-    "mean_lon": 0.808,
+    "mean_lat": 47.847,
+    "mean_lon": -0.93,
     "regions": [
       "\u00cele-de-France",
       "England",
@@ -103265,7 +103997,13 @@
       "Leinster",
       "North Holland",
       "Utrecht",
-      "North Holland"
+      "North Holland",
+      "Zurich",
+      "South Holland",
+      "Utrecht",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "France",
@@ -103315,6 +104053,12 @@
       "Czech Republic",
       "Ireland",
       "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands",
+      "Switzerland",
       "Netherlands",
       "Netherlands"
     ],
@@ -103367,7 +104111,13 @@
       815.3,
       278.7,
       247.4,
-      249.9
+      249.9,
+      52.5,
+      5.3,
+      22.7,
+      13.2,
+      43.1,
+      43.7
     ],
     "times": [
       7.9,
@@ -103418,7 +104168,13 @@
       8,
       5.6,
       5.6,
-      6.1
+      6.1,
+      7.6,
+      3.1,
+      7,
+      7.3,
+      6.6,
+      6.8
     ]
   },
   "Ourense, Spain": {
@@ -103781,9 +104537,9 @@
     ]
   },
   "Constan\u0163a, Romania": {
-    "mean_dist": 371.6,
+    "mean_dist": 368.4,
     "mean_time": 6.2,
-    "std_dist": 375.7,
+    "std_dist": 374.3,
     "std_time": 2,
     "admin": "Constan\u0163a",
     "country": "Romania",
@@ -103863,7 +104619,8 @@
       44.698,
       42.733,
       44.109,
-      44.453
+      44.453,
+      44.944
     ],
     "lons": [
       "x",
@@ -103940,10 +104697,11 @@
       28.705,
       24.334,
       23.658,
-      28.069
+      28.069,
+      29.856
     ],
-    "mean_lat": 44.279,
-    "mean_lon": 27.429,
+    "mean_lat": 44.339,
+    "mean_lon": 27.65,
     "regions": [
       "\u00cele-de-France",
       "England",
@@ -104019,7 +104777,8 @@
       "Aargau",
       "Friesland",
       "Uusimaa",
-      "Zurich"
+      "Zurich",
+      "Aargau"
     ],
     "countries": [
       "France",
@@ -104096,6 +104855,7 @@
       "Switzerland",
       "Netherlands",
       "Finland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -104173,7 +104933,8 @@
       55.6,
       381.6,
       395,
-      51.2
+      51.2,
+      128.6
     ],
     "times": [
       4.4,
@@ -104250,7 +105011,8 @@
       8.4,
       7.2,
       5.3,
-      4.8
+      4.8,
+      8.3
     ]
   },
   "Olomouc, Czechia": {
@@ -105882,9 +106644,9 @@
     ]
   },
   "Mazyr, Belarus": {
-    "mean_dist": 371,
+    "mean_dist": 366.2,
     "mean_time": 6.1,
-    "std_dist": 327.9,
+    "std_dist": 322.6,
     "std_time": 1.8,
     "admin": "Homyel\u2019skaya Voblasts\u2019",
     "country": "Belarus",
@@ -105964,7 +106726,10 @@
       53.388,
       53.8,
       48.854,
-      54.107
+      54.107,
+      53.939,
+      52.446,
+      52.798
     ],
     "lons": [
       "x",
@@ -106041,10 +106806,13 @@
       27.555,
       26.807,
       31.006,
-      30.891
+      30.891,
+      30.082,
+      24.392,
+      26.75
     ],
-    "mean_lat": 53.165,
-    "mean_lon": 28.422,
+    "mean_lat": 53.141,
+    "mean_lon": 28.111,
     "regions": [
       "\u00cele-de-France",
       "England",
@@ -106120,7 +106888,10 @@
       "South Holland",
       "North Holland",
       "Leinster",
-      "Aargau"
+      "Aargau",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "France",
@@ -106197,7 +106968,10 @@
       "Netherlands",
       "Netherlands",
       "Ireland",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       219.5,
@@ -106274,7 +107048,10 @@
       188.8,
       255.6,
       375.4,
-      253.4
+      253.4,
+      217.4,
+      335.1,
+      190.3
     ],
     "times": [
       6.5,
@@ -106351,7 +107128,10 @@
       5.8,
       6.8,
       6,
-      7.8
+      7.8,
+      8.1,
+      4.6,
+      7.6
     ]
   },
   "Namur, Belgium": {
@@ -107265,9 +108045,9 @@
     ]
   },
   "Olsztyn, Poland": {
-    "mean_dist": 268.4,
+    "mean_dist": 267.2,
     "mean_time": 6.5,
-    "std_dist": 139.9,
+    "std_dist": 137.6,
     "std_time": 2,
     "admin": "Warmi\u0144sko-Mazurskie",
     "country": "Poland",
@@ -107313,7 +108093,10 @@
       52.49,
       51.609,
       53.937,
-      52.128
+      52.128,
+      50.356,
+      52.587,
+      52.234
     ],
     "lons": [
       "x",
@@ -107356,10 +108139,13 @@
       20.755,
       16.428,
       19.445,
-      22.436
+      22.436,
+      19.211,
+      22.149,
+      19.503
     ],
-    "mean_lat": 52.189,
-    "mean_lon": 19.106,
+    "mean_lat": 52.097,
+    "mean_lon": 19.343,
     "regions": [
       "Valencia",
       "England",
@@ -107401,7 +108187,10 @@
       "Flanders",
       "Washington",
       "South Holland",
-      "Aargau"
+      "Aargau",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "Spain",
@@ -107444,7 +108233,10 @@
       "Belgium",
       "United States",
       "Netherlands",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       192.7,
@@ -107487,7 +108279,10 @@
       146.7,
       365.7,
       69.5,
-      227.3
+      227.3,
+      392.5,
+      174.7,
+      185.8
     ],
     "times": [
       5.4,
@@ -107530,13 +108325,16 @@
       8.6,
       6.3,
       7.2,
-      7.6
+      7.6,
+      8.1,
+      6.7,
+      5.2
     ]
   },
   "Zwolle, Netherlands": {
-    "mean_dist": 262.5,
+    "mean_dist": 260,
     "mean_time": 5.6,
-    "std_dist": 436.8,
+    "std_dist": 434.4,
     "std_time": 2.3,
     "admin": "Overijssel",
     "country": "Netherlands",
@@ -107690,7 +108488,9 @@
       52.057,
       52.552,
       52.377,
-      52.972
+      52.972,
+      51.774,
+      52.622
     ],
     "lons": [
       "x",
@@ -107841,10 +108641,12 @@
       5.756,
       5.871,
       6.638,
-      6.216
+      6.216,
+      4.487,
+      5.929
     ],
-    "mean_lat": 53.643,
-    "mean_lon": 7.025,
+    "mean_lat": 53.462,
+    "mean_lon": 6.798,
     "regions": [
       "Valencia",
       "Stockholm",
@@ -107994,7 +108796,9 @@
       "North Holland",
       "Utrecht",
       "North Holland",
-      "Aargau"
+      "Aargau",
+      "Zurich",
+      "South Holland"
     ],
     "countries": [
       "Spain",
@@ -108145,7 +108949,9 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "Netherlands"
     ],
     "dists": [
       52.1,
@@ -108296,7 +109102,9 @@
       56.8,
       15.5,
       40.1,
-      50.5
+      50.5,
+      137.8,
+      15.7
     ],
     "times": [
       4.5,
@@ -108447,7 +109255,9 @@
       5.9,
       6.4,
       5.2,
-      8
+      8,
+      7.6,
+      6.4
     ]
   },
   "Stavanger, Norway": {
@@ -111587,9 +112397,9 @@
     ]
   },
   "Nizhyn, Ukraine": {
-    "mean_dist": 376.1,
-    "mean_time": 7,
-    "std_dist": 139.7,
+    "mean_dist": 379.9,
+    "mean_time": 7.1,
+    "std_dist": 137.4,
     "std_time": 1.4,
     "admin": "Chernihivs\u2019ka Oblast\u2019",
     "country": "Ukraine",
@@ -111634,7 +112444,9 @@
       49.391,
       49.834,
       48.104,
-      49.234
+      49.234,
+      49.725,
+      49.309
     ],
     "lons": [
       "x",
@@ -111676,10 +112488,12 @@
       28.868,
       31.236,
       38.401,
-      35.09
+      35.09,
+      25.941,
+      37.793
     ],
-    "mean_lat": 49.473,
-    "mean_lon": 31.575,
+    "mean_lat": 49.48,
+    "mean_lon": 31.623,
     "regions": [
       "Lisbon",
       "Stockholm",
@@ -111720,7 +112534,9 @@
       "Uusimaa",
       "Leinster",
       "Bavaria",
-      "Aargau"
+      "Aargau",
+      "Zurich",
+      "South Holland"
     ],
     "countries": [
       "Portugal",
@@ -111762,7 +112578,9 @@
       "Finland",
       "Ireland",
       "Germany",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "Netherlands"
     ],
     "dists": [
       425.6,
@@ -111804,7 +112622,9 @@
       283.4,
       143.2,
       572.3,
-      304.8
+      304.8,
+      446.7,
+      462.7
     ],
     "times": [
       6.7,
@@ -111846,7 +112666,9 @@
       7.4,
       7.4,
       7.2,
-      8.6
+      8.6,
+      7.8,
+      7.2
     ]
   },
   "Andorra la Vella, Andorra": {
@@ -113994,9 +114816,9 @@
     ]
   },
   "Ruse, Bulgaria": {
-    "mean_dist": 329.8,
-    "mean_time": 5.3,
-    "std_dist": 375.3,
+    "mean_dist": 320.8,
+    "mean_time": 5.4,
+    "std_dist": 367.1,
     "std_time": 2.1,
     "admin": "Ruse",
     "country": "Bulgaria",
@@ -114054,7 +114876,10 @@
       42.092,
       45.717,
       42.52,
-      42.419
+      42.419,
+      42.438,
+      42.69,
+      42.945
     ],
     "lons": [
       "x",
@@ -114109,10 +114934,13 @@
       25.945,
       18.18,
       23.471,
-      26.612
+      26.612,
+      24.79,
+      24.449,
+      25.139
     ],
-    "mean_lat": 43.431,
-    "mean_lon": 24.642,
+    "mean_lat": 43.272,
+    "mean_lon": 24.674,
     "regions": [
       "Lisbon",
       "Tokyo",
@@ -114166,7 +114994,10 @@
       "South Holland",
       "North Holland",
       "Utrecht",
-      "North Holland"
+      "North Holland",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "Portugal",
@@ -114220,6 +115051,9 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Switzerland",
       "Netherlands",
       "Netherlands"
     ],
@@ -114276,7 +115110,10 @@
       195.8,
       648.6,
       251.1,
-      167.6
+      167.6,
+      184.3,
+      178.6,
+      121.3
     ],
     "times": [
       7.8,
@@ -114331,7 +115168,10 @@
       4.8,
       1.8,
       4.2,
-      5.8
+      5.8,
+      8.1,
+      5.3,
+      5.9
     ]
   },
   "Clermont-Ferrand, France": {
@@ -115734,9 +116574,9 @@
     ]
   },
   "Miskolc, Hungary": {
-    "mean_dist": 188.3,
-    "mean_time": 6.7,
-    "std_dist": 136.9,
+    "mean_dist": 185.1,
+    "mean_time": 6.6,
+    "std_dist": 136.2,
     "std_time": 1.7,
     "admin": "Borsod-Aba\u00faj-Zempl\u00e9n",
     "country": "Hungary",
@@ -115816,7 +116656,10 @@
       46.558,
       46.724,
       46.955,
-      47.191
+      47.191,
+      47.702,
+      48.049,
+      46.915
     ],
     "lons": [
       "x",
@@ -115893,10 +116736,13 @@
       19.733,
       19.033,
       18.985,
-      19.733
+      19.733,
+      20.189,
+      21.171,
+      18.467
     ],
-    "mean_lat": 47.541,
-    "mean_lon": 18.902,
+    "mean_lat": 47.544,
+    "mean_lon": 19.142,
     "regions": [
       "Lisbon",
       "England",
@@ -115972,7 +116818,10 @@
       "Aargau",
       "Uusimaa",
       "Uusimaa",
-      "North Holland"
+      "North Holland",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "Portugal",
@@ -116049,6 +116898,9 @@
       "Switzerland",
       "Finland",
       "Finland",
+      "Netherlands",
+      "Switzerland",
+      "Netherlands",
       "Netherlands"
     ],
     "dists": [
@@ -116126,7 +116978,10 @@
       188.6,
       201.6,
       185.3,
-      127.9
+      127.9,
+      62.3,
+      29.6,
+      217.9
     ],
     "times": [
       5.5,
@@ -116203,7 +117058,10 @@
       8.5,
       5.9,
       8.1,
-      7.4
+      7.4,
+      7.3,
+      4.1,
+      5.3
     ]
   },
   "Saint-\u00c9tienne, France": {
@@ -117302,9 +118160,9 @@
     ]
   },
   "Varna, Bulgaria": {
-    "mean_dist": 338.8,
+    "mean_dist": 333,
     "mean_time": 6.2,
-    "std_dist": 414.6,
+    "std_dist": 407.5,
     "std_time": 2,
     "admin": "Varna",
     "country": "Bulgaria",
@@ -117379,7 +118237,10 @@
       44.577,
       42.86,
       42.337,
-      42.477
+      42.477,
+      42.99,
+      43.199,
+      42.563
     ],
     "lons": [
       "x",
@@ -117451,10 +118312,13 @@
       28.299,
       27.152,
       26.035,
-      27.785
+      27.785,
+      27.321,
+      24.277,
+      25.024
     ],
-    "mean_lat": 43.302,
-    "mean_lon": 26.565,
+    "mean_lat": 43.213,
+    "mean_lon": 26.328,
     "regions": [
       "Lisbon",
       "England",
@@ -117525,7 +118389,10 @@
       "Zurich",
       "South Moravian",
       "Colorado",
-      "Aargau"
+      "Aargau",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "Portugal",
@@ -117597,7 +118464,10 @@
       "Switzerland",
       "Czech Republic",
       "United States",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       826.4,
@@ -117669,7 +118539,10 @@
       154.8,
       72,
       180.4,
-      82.5
+      82.5,
+      52.8,
+      293.2,
+      244.8
     ],
     "times": [
       6.1,
@@ -117741,7 +118614,10 @@
       7.7,
       5.1,
       2.7,
-      8.3
+      8.3,
+      7.5,
+      4.1,
+      5.9
     ]
   },
   "Kolomna, Moskovskaya Oblast\u2019, Russia": {
@@ -122335,10 +123211,10 @@
     ]
   },
   "Salamanca, Spain": {
-    "mean_dist": 342.2,
+    "mean_dist": 348.7,
     "mean_time": 6.6,
-    "std_dist": 340.6,
-    "std_time": 1.7,
+    "std_dist": 329.5,
+    "std_time": 1.6,
     "admin": "Castille-Leon",
     "country": "Spain",
     "city": "Salamanca",
@@ -122382,7 +123258,10 @@
       42.733,
       42.987,
       37.793,
-      41.963
+      41.963,
+      37.658,
+      37.242,
+      37.15
     ],
     "lons": [
       "x",
@@ -122424,10 +123303,13 @@
       -3.215,
       -3.158,
       -3.273,
-      -4.941
+      -4.941,
+      -4.829,
+      -2.87,
+      -3.905
     ],
-    "mean_lat": 40.398,
-    "mean_lon": -4.442,
+    "mean_lat": 39.382,
+    "mean_lon": -4.25,
     "regions": [
       "Capital Region",
       "England",
@@ -122468,7 +123350,10 @@
       "Aargau",
       "Aargau",
       "South Moravian",
-      "Lisbon"
+      "Lisbon",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "Denmark",
@@ -122510,7 +123395,10 @@
       "Switzerland",
       "Switzerland",
       "Czech Republic",
-      "Portugal"
+      "Portugal",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       448.8,
@@ -122552,7 +123440,10 @@
       282.3,
       305.6,
       408.9,
-      126
+      126,
+      375.2,
+      479.6,
+      451.2
     ],
     "times": [
       7.7,
@@ -122594,7 +123485,10 @@
       8.1,
       8.4,
       4.9,
-      6.1
+      6.1,
+      7,
+      7,
+      6.7
     ]
   },
   "S\u00f8rum, Norway": {
@@ -123041,9 +123935,9 @@
     ]
   },
   "Arad, Romania": {
-    "mean_dist": 333.2,
+    "mean_dist": 329.4,
     "mean_time": 6.3,
-    "std_dist": 188,
+    "std_dist": 185.2,
     "std_time": 1.9,
     "admin": "Arad",
     "country": "Romania",
@@ -123101,7 +123995,10 @@
       44.985,
       46.399,
       45.393,
-      42.586
+      42.586,
+      46.362,
+      45.514,
+      45.595
     ],
     "lons": [
       "x",
@@ -123156,10 +124053,13 @@
       25.542,
       24.909,
       25.312,
-      26.236
+      26.236,
+      23.007,
+      26.175,
+      24.737
     ],
-    "mean_lat": 45.541,
-    "mean_lon": 25.388,
+    "mean_lat": 45.585,
+    "mean_lon": 25.27,
     "regions": [
       "Sk\u00e5ne",
       "Sk\u00e5ne",
@@ -123213,7 +124113,10 @@
       "North Holland",
       "North Holland",
       "Utrecht",
-      "North Holland"
+      "North Holland",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "Sweden",
@@ -123267,6 +124170,9 @@
       "Switzerland",
       "Netherlands",
       "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Switzerland",
       "Netherlands",
       "Netherlands"
     ],
@@ -123323,7 +124229,10 @@
       353.9,
       277,
       321.3,
-      557.8
+      557.8,
+      131.4,
+      383,
+      272
     ],
     "times": [
       0.9,
@@ -123378,7 +124287,10 @@
       7.4,
       6.1,
       5,
-      5
+      5,
+      7.8,
+      6.3,
+      7
     ]
   },
   "Orekhovo-Zuyevo, Moskovskaya Oblast\u2019, Russia": {
@@ -125781,9 +126693,9 @@
     ]
   },
   "Maladzyechna, Belarus": {
-    "mean_dist": 217.4,
+    "mean_dist": 218.8,
     "mean_time": 6.7,
-    "std_dist": 214.3,
+    "std_dist": 211.8,
     "std_time": 1.7,
     "admin": "Minskaya Voblasts\u2019",
     "country": "Belarus",
@@ -125882,7 +126794,10 @@
       53.139,
       53.327,
       53.007,
-      53.903
+      53.903,
+      51.952,
+      54.646,
+      52.341
     ],
     "lons": [
       "x",
@@ -125978,10 +126893,13 @@
       28.843,
       27.599,
       27.728,
-      27.613
+      27.613,
+      23.813,
+      25.024,
+      30.603
     ],
-    "mean_lat": 54.176,
-    "mean_lon": 28.53,
+    "mean_lat": 54.013,
+    "mean_lon": 28.25,
     "regions": [
       "Stockholm",
       "California",
@@ -126076,7 +126994,10 @@
       "Utrecht",
       "North Holland",
       "North Holland",
-      "North Holland"
+      "North Holland",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "Sweden",
@@ -126171,6 +127092,9 @@
       "Czech Republic",
       "Netherlands",
       "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Switzerland",
       "Netherlands",
       "Netherlands"
     ],
@@ -126268,7 +127192,10 @@
       184.7,
       120.2,
       156.4,
-      67.1
+      67.1,
+      332.5,
+      124.3,
+      331.5
     ],
     "times": [
       5.9,
@@ -126364,7 +127291,10 @@
       7.4,
       6.8,
       6.4,
-      1.7
+      1.7,
+      6.3,
+      2.8,
+      7.4
     ]
   },
   "Palermo, Italy": {
@@ -127194,9 +128124,9 @@
     ]
   },
   "Dijon, France": {
-    "mean_dist": 244.8,
+    "mean_dist": 235.3,
     "mean_time": 6.9,
-    "std_dist": 414.7,
+    "std_dist": 406.9,
     "std_time": 1.3,
     "admin": "Bourgogne-Franche-Comt\u00e9",
     "country": "France",
@@ -127261,7 +128191,10 @@
       47.544,
       48.002,
       44.903,
-      47.335
+      47.335,
+      47.507,
+      47.505,
+      47.855
     ],
     "lons": [
       "x",
@@ -127323,10 +128256,13 @@
       5.469,
       2.927,
       2.708,
-      2.516
+      2.516,
+      5.407,
+      4.433,
+      5.066
     ],
-    "mean_lat": 47.126,
-    "mean_lon": 4.211,
+    "mean_lat": 47.209,
+    "mean_lon": 4.337,
     "regions": [
       "Stockholm",
       "California",
@@ -127387,7 +128323,10 @@
       "Aargau",
       "Lower Saxony",
       "Lower Saxony",
-      "Lisbon"
+      "Lisbon",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "Sweden",
@@ -127449,7 +128388,10 @@
       "Switzerland",
       "Germany",
       "Germany",
-      "Portugal"
+      "Portugal",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       376.5,
@@ -127511,7 +128453,10 @@
       40.6,
       174.3,
       323.7,
-      189.3
+      189.3,
+      34.5,
+      48.8,
+      58.4
     ],
     "times": [
       7.9,
@@ -127573,13 +128518,16 @@
       7.8,
       2.1,
       2.8,
-      7.7
+      7.7,
+      6.8,
+      6.3,
+      6.1
     ]
   },
   "Tuzla, Bosnia And Herzegovina": {
-    "mean_dist": 250.1,
-    "mean_time": 6,
-    "std_dist": 392.3,
+    "mean_dist": 246.9,
+    "mean_time": 6.1,
+    "std_dist": 387.6,
     "std_time": 1.7,
     "admin": "Bosnia and Herzegovina, Federation of",
     "country": "Bosnia And Herzegovina",
@@ -127690,7 +128638,10 @@
       43.661,
       43.493,
       41.791,
-      44.302
+      44.302,
+      44.577,
+      42.86,
+      44.409
     ],
     "lons": [
       "x",
@@ -127798,10 +128749,13 @@
       18.352,
       18.41,
       20.193,
-      18.41
+      18.41,
+      18.176,
+      20.883,
+      17.317
     ],
-    "mean_lat": 43.654,
-    "mean_lon": 18.18,
+    "mean_lat": 43.713,
+    "mean_lon": 18.302,
     "regions": [
       "Stockholm",
       "California",
@@ -127908,7 +128862,10 @@
       "Aargau",
       "Aargau",
       "North Holland",
-      "England"
+      "England",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "Sweden",
@@ -128016,7 +128973,10 @@
       "Switzerland",
       "Switzerland",
       "Netherlands",
-      "United Kingdom"
+      "United Kingdom",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       131.5,
@@ -128124,7 +129084,10 @@
       102.2,
       119.4,
       330.4,
-      34.9
+      34.9,
+      39.9,
+      258.2,
+      109.2
     ],
     "times": [
       6.2,
@@ -128232,7 +129195,10 @@
       7,
       8.3,
       6.9,
-      4.6
+      4.6,
+      7.1,
+      4.7,
+      7.5
     ]
   },
   "Trondheim, Norway": {
@@ -131283,9 +132249,9 @@
     ]
   },
   "Manisa, Turkey": {
-    "mean_dist": 571.9,
+    "mean_dist": 545.8,
     "mean_time": 7.5,
-    "std_dist": 397.2,
+    "std_dist": 398.6,
     "std_time": 1.1,
     "admin": "Manisa",
     "country": "Turkey",
@@ -131321,7 +132287,9 @@
       37.586,
       40.66,
       38.438,
-      39.106
+      39.106,
+      38.43,
+      37.838
     ],
     "lons": [
       "x",
@@ -131354,10 +132322,12 @@
       34.2,
       37.678,
       27.315,
-      28.015
+      28.015,
+      29.683,
+      27.498
     ],
-    "mean_lat": 39.589,
-    "mean_lon": 32.537,
+    "mean_lat": 39.365,
+    "mean_lon": 31.93,
     "regions": [
       "Michigan",
       "England",
@@ -131389,7 +132359,9 @@
       "Washington",
       "Aargau",
       "Uusimaa",
-      "Uusimaa"
+      "Uusimaa",
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -131422,7 +132394,9 @@
       "United States",
       "Switzerland",
       "Finland",
-      "Finland"
+      "Finland",
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       614.8,
@@ -131455,7 +132429,9 @@
       602.6,
       904.6,
       23.9,
-      72.7
+      72.7,
+      196.4,
+      88.1
     ],
     "times": [
       9.7,
@@ -131488,7 +132464,9 @@
       5.9,
       8.2,
       8,
-      7.9
+      7.9,
+      7.7,
+      7.4
     ]
   },
   "Gij\u00f3n, Spain": {
@@ -132013,9 +132991,9 @@
     ]
   },
   "Antwerp, Belgium": {
-    "mean_dist": 186.7,
+    "mean_dist": 181.2,
     "mean_time": 6.1,
-    "std_dist": 386.9,
+    "std_dist": 381.4,
     "std_time": 2.1,
     "admin": "Flanders",
     "country": "Belgium",
@@ -132106,7 +133084,10 @@
       51.231,
       50.581,
       50.648,
-      46.994
+      46.994,
+      51.052,
+      50.868,
+      51.123
     ],
     "lons": [
       "x",
@@ -132194,10 +133175,13 @@
       4.433,
       4.596,
       4.664,
-      18.41
+      18.41,
+      4.257,
+      4.318,
+      4.433
     ],
-    "mean_lat": 50.632,
-    "mean_lon": 5.214,
+    "mean_lat": 50.703,
+    "mean_lon": 5.049,
     "regions": [
       "Michigan",
       "Ontario",
@@ -132284,7 +133268,10 @@
       "Aargau",
       "Uusimaa",
       "Uusimaa",
-      "Leinster"
+      "Leinster",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United States",
@@ -132372,7 +133359,10 @@
       "Switzerland",
       "Finland",
       "Finland",
-      "Ireland"
+      "Ireland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       51.9,
@@ -132460,7 +133450,10 @@
       1.8,
       72.1,
       65.9,
-      1119.5
+      1119.5,
+      21.6,
+      39.7,
+      10.9
     ],
     "times": [
       5,
@@ -132548,7 +133541,10 @@
       8.3,
       6.2,
       8,
-      1.8
+      1.8,
+      6.3,
+      4,
+      6.3
     ]
   },
   "Kropyvnyts\u2019kyy, Ukraine": {
@@ -133258,10 +134254,10 @@
     ]
   },
   "Groningen, Netherlands": {
-    "mean_dist": 213.7,
+    "mean_dist": 208.4,
     "mean_time": 6.1,
-    "std_dist": 420.2,
-    "std_time": 2,
+    "std_dist": 415.5,
+    "std_time": 1.9,
     "admin": "Groningen",
     "country": "Netherlands",
     "city": "Groningen",
@@ -133370,7 +134366,10 @@
       53.25,
       52.937,
       53.077,
-      52.759
+      52.759,
+      53.252,
+      53.077,
+      53.181
     ],
     "lons": [
       "x",
@@ -133477,10 +134476,13 @@
       6.332,
       6.216,
       6.504,
-      7.314
+      7.314,
+      5.983,
+      6.447,
+      6.504
     ],
-    "mean_lat": 52.661,
-    "mean_lon": 6.161,
+    "mean_lat": 52.763,
+    "mean_lon": 6.191,
     "regions": [
       "Michigan",
       "England",
@@ -133586,7 +134588,10 @@
       "South Holland",
       "North Holland",
       "Utrecht",
-      "North Holland"
+      "North Holland",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United States",
@@ -133692,6 +134697,9 @@
       "France",
       "Netherlands",
       "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Switzerland",
       "Netherlands",
       "Netherlands"
     ],
@@ -133800,7 +134808,10 @@
       16.8,
       39.6,
       16.7,
-      71
+      71,
+      39.8,
+      18.2,
+      6.6
     ],
     "times": [
       6.9,
@@ -133907,7 +134918,10 @@
       3.7,
       5.7,
       6.7,
-      6.9
+      6.9,
+      7.3,
+      6.8,
+      6.6
     ]
   },
   "Norwich, United Kingdom": {
@@ -135425,9 +136439,9 @@
     ]
   },
   "Novara, Italy": {
-    "mean_dist": 316.2,
+    "mean_dist": 329.4,
     "mean_time": 6.3,
-    "std_dist": 293.4,
+    "std_dist": 292.6,
     "std_time": 1.5,
     "admin": "Piedmont",
     "country": "Italy",
@@ -135473,7 +136487,10 @@
       44.533,
       38.52,
       45.352,
-      41.751
+      41.751,
+      45.921,
+      41.834,
+      41.402
     ],
     "lons": [
       "x",
@@ -135516,10 +136533,13 @@
       11.853,
       15.937,
       9.035,
-      13.977
+      13.977,
+      11.274,
+      15.592,
+      13.981
     ],
-    "mean_lat": 42.539,
-    "mean_lon": 12.7,
+    "mean_lat": 42.759,
+    "mean_lon": 13.092,
     "regions": [
       "Stockholm",
       "Ontario",
@@ -135561,7 +136581,10 @@
       "Bavaria",
       "Bavaria",
       "Aargau",
-      "Zurich"
+      "Zurich",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "Sweden",
@@ -135604,7 +136627,10 @@
       "Germany",
       "Germany",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       138,
@@ -135647,7 +136673,10 @@
       273.9,
       978.5,
       34.1,
-      595.8
+      595.8,
+      212.7,
+      689.7,
+      624.2
     ],
     "times": [
       6.9,
@@ -135690,7 +136719,10 @@
       7.7,
       7.2,
       8,
-      6.9
+      6.9,
+      7.1,
+      6.6,
+      6.7
     ]
   },
   "Kherson, Ukraine": {
@@ -135951,10 +136983,10 @@
     ]
   },
   "Logro\u00f1o, Spain": {
-    "mean_dist": 233.1,
+    "mean_dist": 234.3,
     "mean_time": 6.8,
-    "std_dist": 148.4,
-    "std_time": 1.4,
+    "std_dist": 148.5,
+    "std_time": 1.6,
     "admin": "La Rioja",
     "country": "Spain",
     "city": "Logro\u00f1o",
@@ -136016,7 +137048,10 @@
       41.271,
       41.756,
       39.998,
-      43.132
+      43.132,
+      39.151,
+      40.396,
+      43.156
     ],
     "lons": [
       "x",
@@ -136076,10 +137111,13 @@
       1.098,
       1.26,
       -5.286,
-      -8.014
+      -8.014,
+      -5.458,
+      -3.215,
+      -1.95
     ],
-    "mean_lat": 41.627,
-    "mean_lon": -3.105,
+    "mean_lat": 41.446,
+    "mean_lon": -3.214,
     "regions": [
       "Stockholm",
       "Ontario",
@@ -136138,7 +137176,10 @@
       "Uusimaa",
       "Uusimaa",
       "Leinster",
-      "Bavaria"
+      "Bavaria",
+      "South Moravian",
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "Sweden",
@@ -136198,7 +137239,10 @@
       "Finland",
       "Finland",
       "Ireland",
-      "Germany"
+      "Germany",
+      "Czech Republic",
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       255.9,
@@ -136258,7 +137302,10 @@
       321,
       314.5,
       364,
-      461.4
+      461.4,
+      448.4,
+      239.7,
+      85.7
     ],
     "times": [
       8,
@@ -136318,13 +137365,16 @@
       6.7,
       5.8,
       3.6,
-      7.3
+      7.3,
+      1.6,
+      7,
+      8.2
     ]
   },
   "Malm\u00f6, Sweden": {
-    "mean_dist": 373.2,
+    "mean_dist": 374.7,
     "mean_time": 6,
-    "std_dist": 446.1,
+    "std_dist": 445.3,
     "std_time": 2,
     "admin": "Sk\u00e5ne",
     "country": "Sweden",
@@ -136437,7 +137487,9 @@
       56.189,
       57.656,
       56.7,
-      57.351
+      57.351,
+      56.029,
+      62.932
     ],
     "lons": [
       "x",
@@ -136547,10 +137599,12 @@
       13.981,
       14.3,
       13.981,
-      12.122
+      12.122,
+      12.539,
+      17.087
     ],
-    "mean_lat": 57.968,
-    "mean_lon": 14.618,
+    "mean_lat": 58.076,
+    "mean_lon": 14.632,
     "regions": [
       "Ontario",
       "Ontario",
@@ -136659,7 +137713,9 @@
       "Mazovia",
       "Mazovia",
       "South Moravian",
-      "Lisbon"
+      "Lisbon",
+      "Zurich",
+      "South Holland"
     ],
     "countries": [
       "Canada",
@@ -136769,7 +137825,9 @@
       "Poland",
       "Poland",
       "Czech Republic",
-      "Portugal"
+      "Portugal",
+      "Switzerland",
+      "Netherlands"
     ],
     "dists": [
       204.4,
@@ -136879,7 +137937,9 @@
       89.6,
       243.1,
       137.4,
-      204.3
+      204.3,
+      58.4,
+      848.6
     ],
     "times": [
       7.2,
@@ -136989,7 +138049,9 @@
       4.9,
       6.2,
       3,
-      6.4
+      6.4,
+      5,
+      5.6
     ]
   },
   "N\u00eemes, France": {
@@ -137460,9 +138522,9 @@
     ]
   },
   "Ad\u0131yaman, Turkey": {
-    "mean_dist": 580.9,
-    "mean_time": 6.6,
-    "std_dist": 318,
+    "mean_dist": 582.3,
+    "mean_time": 6.5,
+    "std_dist": 311.7,
     "std_time": 1.8,
     "admin": "Ad\u0131yaman",
     "country": "Turkey",
@@ -137503,7 +138565,10 @@
       39.575,
       38.701,
       38.157,
-      38.385
+      38.385,
+      37.75,
+      40.528,
+      38.927
     ],
     "lons": [
       "x",
@@ -137541,10 +138606,13 @@
       32.878,
       31.466,
       28.82,
-      36.585
+      36.585,
+      28.932,
+      31.236,
+      35.262
     ],
-    "mean_lat": 39.35,
-    "mean_lon": 30.368,
+    "mean_lat": 39.28,
+    "mean_lon": 30.728,
     "regions": [
       "Ontario",
       "England",
@@ -137581,7 +138649,10 @@
       "Mazovia",
       "South Holland",
       "South Holland",
-      "South Holland"
+      "South Holland",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "Canada",
@@ -137618,6 +138689,9 @@
       "Poland",
       "Poland",
       "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Switzerland",
       "Netherlands",
       "Netherlands"
     ],
@@ -137657,7 +138731,10 @@
       509.9,
       603.8,
       829.9,
-      163.2
+      163.2,
+      821.4,
+      680.1,
+      292.8
     ],
     "times": [
       6.8,
@@ -137695,7 +138772,10 @@
       8,
       6.8,
       8,
-      5.4
+      5.4,
+      7.2,
+      4,
+      6.6
     ]
   },
   "Kecskem\u00e9t, Hungary": {
@@ -138118,9 +139198,9 @@
     ]
   },
   "Afyonkarahisar, Turkey": {
-    "mean_dist": 426.5,
+    "mean_dist": 418.2,
     "mean_time": 6.9,
-    "std_dist": 286.5,
+    "std_dist": 285.3,
     "std_time": 1.6,
     "admin": "Afyonkarahisar",
     "country": "Turkey",
@@ -138170,7 +139250,9 @@
       39.576,
       38.566,
       39.294,
-      39.509
+      39.509,
+      39.199,
+      39.954
     ],
     "lons": [
       "x",
@@ -138217,10 +139299,12 @@
       33.939,
       33.537,
       27.66,
-      35.607
+      35.607,
+      30.139,
+      34.975
     ],
-    "mean_lat": 39.236,
-    "mean_lon": 32.685,
+    "mean_lat": 39.349,
+    "mean_lon": 32.642,
     "regions": [
       "Ontario",
       "England",
@@ -138266,7 +139350,9 @@
       "Grand Est",
       "Uusimaa",
       "Uusimaa",
-      "Aargau"
+      "Aargau",
+      "Zurich",
+      "South Holland"
     ],
     "countries": [
       "Canada",
@@ -138313,7 +139399,9 @@
       "France",
       "Finland",
       "Finland",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "Netherlands"
     ],
     "dists": [
       722.5,
@@ -138360,7 +139448,9 @@
       306.3,
       260.1,
       256.8,
-      444.2
+      444.2,
+      61.2,
+      403.3
     ],
     "times": [
       4.9,
@@ -138407,13 +139497,15 @@
       2.8,
       8,
       7.8,
-      8.7
+      8.7,
+      8.2,
+      7.2
     ]
   },
   "Rzesz\u00f3w, Poland": {
-    "mean_dist": 403.5,
+    "mean_dist": 395,
     "mean_time": 6.9,
-    "std_dist": 334.9,
+    "std_dist": 331.4,
     "std_time": 1.4,
     "admin": "Podkarpackie",
     "country": "Poland",
@@ -138487,7 +139579,10 @@
       49.572,
       53.542,
       51.419,
-      52.902
+      52.902,
+      52.376,
+      51.123,
+      50.648
     ],
     "lons": [
       "x",
@@ -138558,10 +139653,13 @@
       19.33,
       17.003,
       18.513,
-      17.145
+      17.145,
+      18.18,
+      20.711,
+      22.609
     ],
-    "mean_lat": 51.601,
-    "mean_lon": 18.593,
+    "mean_lat": 51.546,
+    "mean_lon": 19.07,
     "regions": [
       "Ontario",
       "England",
@@ -138631,7 +139729,10 @@
       "Bavaria",
       "Washington",
       "Lower Saxony",
-      "Lower Saxony"
+      "Lower Saxony",
+      "South Moravian",
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "Canada",
@@ -138702,7 +139803,10 @@
       "Germany",
       "United States",
       "Germany",
-      "Germany"
+      "Germany",
+      "Czech Republic",
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       160.3,
@@ -138773,7 +139877,10 @@
       199.3,
       516.5,
       287.4,
-      460.4
+      460.4,
+      369.3,
+      148.2,
+      77.4
     ],
     "times": [
       5.6,
@@ -138844,7 +139951,10 @@
       8.1,
       7.3,
       7.5,
-      6.9
+      6.9,
+      5.8,
+      7.4,
+      8.1
     ]
   },
   "Moscow, Moskva, Russia": {
@@ -141757,10 +142867,10 @@
     ]
   },
   "Tirana, Albania": {
-    "mean_dist": 219.4,
+    "mean_dist": 214.6,
     "mean_time": 5.9,
-    "std_dist": 374,
-    "std_time": 1.9,
+    "std_dist": 368.9,
+    "std_time": 2,
     "admin": "Tiran\u00eb",
     "country": "Albania",
     "city": "Tirana",
@@ -141851,7 +142961,10 @@
       41.193,
       42.307,
       41.086,
-      42.736
+      42.736,
+      41.491,
+      42.945,
+      41.097
     ],
     "lons": [
       "x",
@@ -141940,10 +143053,13 @@
       19.514,
       24.219,
       19.517,
-      19.096
+      19.096,
+      19.729,
+      19.56,
+      19.79
     ],
-    "mean_lat": 42.891,
-    "mean_lon": 20.313,
+    "mean_lat": 42.76,
+    "mean_lon": 20.236,
     "regions": [
       "Ontario",
       "Greater Poland",
@@ -142031,7 +143147,10 @@
       "Lower Saxony",
       "Lower Saxony",
       "Uusimaa",
-      "Zurich"
+      "Zurich",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "Canada",
@@ -142120,7 +143239,10 @@
       "Germany",
       "Germany",
       "Finland",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       66.4,
@@ -142209,7 +143331,10 @@
       29.4,
       380.5,
       36.7,
-      167.6
+      167.6,
+      19.7,
+      181.1,
+      25.6
     ],
     "times": [
       7.7,
@@ -142298,7 +143423,10 @@
       4.6,
       3.9,
       7.2,
-      6.1
+      6.1,
+      7.1,
+      1.7,
+      6.9
     ]
   },
   "Vitsyebsk, Belarus": {
@@ -143343,9 +144471,9 @@
     ]
   },
   "Chernihiv, Ukraine": {
-    "mean_dist": 391.7,
+    "mean_dist": 391.4,
     "mean_time": 6.3,
-    "std_dist": 250.2,
+    "std_dist": 248.6,
     "std_time": 2,
     "admin": "Chernihivs\u2019ka Oblast\u2019",
     "country": "Ukraine",
@@ -143425,7 +144553,8 @@
       48.28,
       49.953,
       50.428,
-      48.702
+      48.702,
+      48.511
     ],
     "lons": [
       "x",
@@ -143502,10 +144631,11 @@
       32.214,
       27.372,
       30.891,
-      33.249
+      33.249,
+      33.652
     ],
-    "mean_lat": 49.855,
-    "mean_lon": 30.97,
+    "mean_lat": 49.791,
+    "mean_lon": 31.098,
     "regions": [
       "England",
       "Mazovia",
@@ -143581,7 +144711,8 @@
       "Uusimaa",
       "Uusimaa",
       "Leinster",
-      "Leinster"
+      "Leinster",
+      "Aargau"
     ],
     "countries": [
       "United Kingdom",
@@ -143658,7 +144789,8 @@
       "Finland",
       "Finland",
       "Ireland",
-      "Ireland"
+      "Ireland",
+      "Switzerland"
     ],
     "dists": [
       395.1,
@@ -143735,7 +144867,8 @@
       364.4,
       325.8,
       123.1,
-      341.1
+      341.1,
+      372.8
     ],
     "times": [
       6.8,
@@ -143812,7 +144945,8 @@
       8.4,
       8.1,
       4.6,
-      6.4
+      6.4,
+      7.4
     ]
   },
   "Stara Zagora, Bulgaria": {
@@ -145719,9 +146853,9 @@
     ]
   },
   "Mariupol\u2019, Ukraine": {
-    "mean_dist": 628.8,
+    "mean_dist": 602.1,
     "mean_time": 5.9,
-    "std_dist": 466.9,
+    "std_dist": 461.1,
     "std_time": 2.1,
     "admin": "Donets\u2019ka Oblast\u2019",
     "country": "Ukraine",
@@ -145799,7 +146933,13 @@
       47.611,
       47.583,
       49.12,
-      46.321
+      46.321,
+      49.047,
+      45.958,
+      47.23,
+      50.282,
+      47.387,
+      47.152
     ],
     "lons": [
       "x",
@@ -145874,10 +147014,16 @@
       33.282,
       33.077,
       31.236,
-      35.142
+      35.142,
+      34.051,
+      33.824,
+      31.121,
+      33.705,
+      37.908,
+      37.218
     ],
-    "mean_lat": 47.988,
-    "mean_lon": 33.424,
+    "mean_lat": 47.936,
+    "mean_lon": 33.852,
     "regions": [
       "England",
       "England",
@@ -145951,7 +147097,13 @@
       "Colorado",
       "North Holland",
       "Utrecht",
-      "North Holland"
+      "North Holland",
+      "Zurich",
+      "South Holland",
+      "Utrecht",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United Kingdom",
@@ -146025,6 +147177,12 @@
       "United States",
       "United States",
       "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands",
+      "Switzerland",
       "Netherlands",
       "Netherlands"
     ],
@@ -146101,7 +147259,13 @@
       326.9,
       341.7,
       520.1,
-      203.1
+      203.1,
+      338.9,
+      312.1,
+      486.5,
+      453.1,
+      41.9,
+      26.3
     ],
     "times": [
       6.8,
@@ -146176,7 +147340,13 @@
       7.4,
       5.6,
       6.5,
-      5
+      5,
+      6.4,
+      4.1,
+      5.6,
+      7.1,
+      6.1,
+      5.2
     ]
   },
   "Reims, France": {
@@ -149262,10 +150432,10 @@
     ]
   },
   "Taganrog, Rostovskaya Oblast\u2019, Russia": {
-    "mean_dist": 576.2,
-    "mean_time": 5.8,
-    "std_dist": 512.3,
-    "std_time": 1.9,
+    "mean_dist": 576.9,
+    "mean_time": 5.7,
+    "std_dist": 505,
+    "std_time": 1.8,
     "admin": "Rostovskaya Oblast\u2019",
     "country": "Russia",
     "city": "Taganrog",
@@ -149303,7 +150473,8 @@
       "x",
       "x",
       47.22,
-      46.479
+      46.479,
+      47.661
     ],
     "lons": [
       "x",
@@ -149339,10 +150510,11 @@
       "x",
       "x",
       40.913,
-      41.416
+      41.416,
+      30.949
     ],
-    "mean_lat": 46.849,
-    "mean_lon": 41.164,
+    "mean_lat": 47.12,
+    "mean_lon": 37.759,
     "regions": [
       "England",
       "England",
@@ -149377,7 +150549,8 @@
       "Bavaria",
       "Bavaria",
       "Uusimaa",
-      "Leinster"
+      "Leinster",
+      "South Moravian"
     ],
     "countries": [
       "United Kingdom",
@@ -149413,7 +150586,8 @@
       "Germany",
       "Germany",
       "Finland",
-      "Ireland"
+      "Ireland",
+      "Czech Republic"
     ],
     "dists": [
       1052,
@@ -149449,7 +150623,8 @@
       924.7,
       501.2,
       150.5,
-      207.4
+      207.4,
+      601
     ],
     "times": [
       6.2,
@@ -149485,7 +150660,8 @@
       5.9,
       5.8,
       4.2,
-      6.7
+      6.7,
+      4.1
     ]
   },
   "Novokuybyshevsk, Samarskaya Oblast\u2019, Russia": {
@@ -150225,9 +151401,9 @@
     ]
   },
   "K\u0131r\u0131kkale, Turkey": {
-    "mean_dist": 394.2,
-    "mean_time": 7.3,
-    "std_dist": 288.8,
+    "mean_dist": 373.1,
+    "mean_time": 7.2,
+    "std_dist": 286,
     "std_time": 1.1,
     "admin": "K\u0131r\u0131kkale",
     "country": "Turkey",
@@ -150264,7 +151440,10 @@
       38.339,
       53.011,
       38.882,
-      39.998
+      39.998,
+      39.065,
+      38.52,
+      39.598
     ],
     "lons": [
       "x",
@@ -150298,10 +151477,13 @@
       32.847,
       36.64,
       29.913,
-      30.316
+      30.316,
+      36.466,
+      33.537,
+      33.364
     ],
-    "mean_lat": 42.557,
-    "mean_lon": 32.428,
+    "mean_lat": 41.059,
+    "mean_lon": 33.297,
     "regions": [
       "England",
       "",
@@ -150334,7 +151516,10 @@
       "South Holland",
       "Friesland",
       "South Holland",
-      "South Holland"
+      "South Holland",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United Kingdom",
@@ -150367,6 +151552,9 @@
       "Slovenia",
       "Netherlands",
       "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Switzerland",
       "Netherlands",
       "Netherlands"
     ],
@@ -150402,7 +151590,10 @@
       178,
       1482.3,
       328.9,
-      274.5
+      274.5,
+      266.8,
+      147.8,
+      31.3
     ],
     "times": [
       7.4,
@@ -150436,7 +151627,10 @@
       6.7,
       5.6,
       7.1,
-      7.8
+      7.8,
+      8,
+      6.6,
+      5.2
     ]
   },
   "Lida, Belarus": {
@@ -152342,10 +153536,10 @@
     ]
   },
   "Sergiyev Posad, Moskovskaya Oblast\u2019, Russia": {
-    "mean_dist": 342.7,
+    "mean_dist": 335.4,
     "mean_time": 6.2,
-    "std_dist": 319.4,
-    "std_time": 1.6,
+    "std_dist": 317.9,
+    "std_time": 1.5,
     "admin": "Moskovskaya Oblast\u2019",
     "country": "Russia",
     "city": "Sergiyev Posad",
@@ -152384,7 +153578,8 @@
       55.419,
       52.27,
       53.663,
-      53.8
+      53.8,
+      55.672
     ],
     "lons": [
       "x",
@@ -152421,10 +153616,11 @@
       38.259,
       42.394,
       41.589,
-      48.779
+      48.779,
+      37.559
     ],
-    "mean_lat": 55.168,
-    "mean_lon": 40.239,
+    "mean_lat": 55.194,
+    "mean_lon": 40.098,
     "regions": [
       "England",
       "England",
@@ -152460,7 +153656,8 @@
       "Bavaria",
       "South Holland",
       "South Holland",
-      "South Holland"
+      "South Holland",
+      "Zurich"
     ],
     "countries": [
       "United Kingdom",
@@ -152497,7 +153694,8 @@
       "Germany",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       94.8,
@@ -152534,7 +153732,8 @@
       101.3,
       527.9,
       367.9,
-      730.7
+      730.7,
+      82.3
     ],
     "times": [
       3.5,
@@ -152571,14 +153770,15 @@
       5,
       6.2,
       7.2,
-      7.8
+      7.8,
+      7.3
     ]
   },
   "V\u00e4ster\u00e5s, Sweden": {
-    "mean_dist": 230.1,
+    "mean_dist": 225.2,
     "mean_time": 6.6,
-    "std_dist": 211.1,
-    "std_time": 1.8,
+    "std_dist": 205.4,
+    "std_time": 1.7,
     "admin": "V\u00e4stmanland",
     "country": "Sweden",
     "city": "V\u00e4ster\u00e5s",
@@ -152645,7 +153845,12 @@
       61.668,
       57.826,
       60.493,
-      57.625
+      57.625,
+      57.55,
+      59.569,
+      59.395,
+      58.678,
+      58.255
     ],
     "lons": [
       "x",
@@ -152710,10 +153915,15 @@
       16.972,
       15.937,
       16.799,
-      16.198
+      16.198,
+      16.105,
+      17.432,
+      18.061,
+      11.796,
+      16.224
     ],
-    "mean_lat": 59.494,
-    "mean_lon": 16.805,
+    "mean_lat": 59.092,
+    "mean_lon": 16.364,
     "regions": [
       "England",
       "England",
@@ -152777,7 +153987,12 @@
       "Bavaria",
       "Bavaria",
       "Bavaria",
-      "Washington"
+      "Washington",
+      "Zurich",
+      "South Holland",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United Kingdom",
@@ -152842,7 +154057,12 @@
       "Germany",
       "Germany",
       "Germany",
-      "United States"
+      "United States",
+      "Switzerland",
+      "Netherlands",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       357.5,
@@ -152907,7 +154127,12 @@
       227.9,
       203.5,
       97.1,
-      223.8
+      223.8,
+      232.5,
+      50.6,
+      89.7,
+      290.3,
+      153.9
     ],
     "times": [
       7.3,
@@ -152972,7 +154197,12 @@
       5.1,
       7.5,
       8,
-      5.2
+      5.2,
+      7.6,
+      7.1,
+      7.2,
+      6.7,
+      4.9
     ]
   },
   "Rijeka, Croatia": {
@@ -155274,9 +156504,9 @@
     ]
   },
   "Foggia, Italy": {
-    "mean_dist": 275.2,
+    "mean_dist": 273.7,
     "mean_time": 7.1,
-    "std_dist": 182.1,
+    "std_dist": 180.7,
     "std_time": 1.1,
     "admin": "Puglia",
     "country": "Italy",
@@ -155334,7 +156564,8 @@
       45.067,
       40.756,
       42.349,
-      41.532
+      41.532,
+      41.963
     ],
     "lons": [
       "x",
@@ -155389,10 +156620,11 @@
       10.53,
       15.524,
       13.751,
-      14.499
+      14.499,
+      13.291
     ],
-    "mean_lat": 42.426,
-    "mean_lon": 13.576,
+    "mean_lat": 42.333,
+    "mean_lon": 13.519,
     "regions": [
       "England",
       "England",
@@ -155446,7 +156678,8 @@
       "Uusimaa",
       "Uusimaa",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "South Moravian"
     ],
     "countries": [
       "United Kingdom",
@@ -155501,7 +156734,8 @@
       "Finland",
       "Finland",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "Czech Republic"
     ],
     "dists": [
       73.1,
@@ -155556,7 +156790,8 @@
       571.3,
       78.3,
       179.3,
-      88.6
+      88.6,
+      196.4
     ],
     "times": [
       7,
@@ -155611,13 +156846,14 @@
       6.3,
       7.3,
       7.9,
-      7.9
+      7.9,
+      5.1
     ]
   },
   "Gera, Germany": {
     "mean_dist": 184.5,
-    "mean_time": 6.5,
-    "std_dist": 260.7,
+    "mean_time": 6.4,
+    "std_dist": 254.6,
     "std_time": 1.8,
     "admin": "Thuringia",
     "country": "Germany",
@@ -155679,7 +156915,10 @@
       50.868,
       51.159,
       51.843,
-      49.76
+      49.76,
+      50.797,
+      53.354,
+      51.05
     ],
     "lons": [
       "x",
@@ -155738,10 +156977,13 @@
       12.831,
       9.38,
       11.853,
-      8.402
+      8.402,
+      10.411,
+      12.888,
+      9.898
     ],
-    "mean_lat": 50.955,
-    "mean_lon": 10.723,
+    "mean_lat": 51.168,
+    "mean_lon": 10.817,
     "regions": [
       "England",
       "England",
@@ -155799,7 +157041,10 @@
       "Aargau",
       "Moravskoslezsk\u00fd",
       "Baden-W\u00fcrttemberg",
-      "Leinster"
+      "Leinster",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United Kingdom",
@@ -155858,7 +157103,10 @@
       "Switzerland",
       "Czech Republic",
       "Germany",
-      "Ireland"
+      "Ireland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       27.9,
@@ -155917,7 +157165,10 @@
       53.4,
       190.8,
       109.2,
-      288.1
+      288.1,
+      116.7,
+      281.7,
+      153.4
     ],
     "times": [
       6.4,
@@ -155976,7 +157227,10 @@
       8.2,
       8.2,
       3.9,
-      5.3
+      5.3,
+      8.4,
+      4,
+      6.5
     ]
   },
   "Kielce, Poland": {
@@ -157207,9 +158461,9 @@
     ]
   },
   "Le Havre, France": {
-    "mean_dist": 305.2,
+    "mean_dist": 301.7,
     "mean_time": 6,
-    "std_dist": 287.9,
+    "std_dist": 287.3,
     "std_time": 1.8,
     "admin": "Normandie",
     "country": "France",
@@ -157284,7 +158538,8 @@
       49.61,
       49.309,
       48.664,
-      50.758
+      50.758,
+      49.044
     ],
     "lons": [
       "x",
@@ -157356,10 +158611,11 @@
       0.12,
       0.177,
       -3.905,
-      1.845
+      1.845,
+      0.58
     ],
-    "mean_lat": 48.385,
-    "mean_lon": 0.226,
+    "mean_lat": 48.436,
+    "mean_lon": 0.253,
     "regions": [
       "England",
       "England",
@@ -157430,7 +158686,8 @@
       "Auvergne-Rh\u00f4ne-Alpes",
       "Auvergne-Rh\u00f4ne-Alpes",
       "South Holland",
-      "South Holland"
+      "South Holland",
+      "Aargau"
     ],
     "countries": [
       "United Kingdom",
@@ -157502,7 +158759,8 @@
       "France",
       "France",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       18.2,
@@ -157574,7 +158832,8 @@
       11.7,
       22.3,
       306.6,
-      186.6
+      186.6,
+      61.7
     ],
     "times": [
       5.4,
@@ -157646,7 +158905,8 @@
       4.9,
       4.9,
       5.3,
-      6.3
+      6.3,
+      7.9
     ]
   },
   "Rize, Turkey": {
@@ -158823,9 +160083,9 @@
     ]
   },
   "Orsha, Belarus": {
-    "mean_dist": 425.6,
+    "mean_dist": 418.7,
     "mean_time": 6,
-    "std_dist": 473.5,
+    "std_dist": 469.2,
     "std_time": 2.3,
     "admin": "Vitsyebskaya Voblasts\u2019",
     "country": "Belarus",
@@ -158903,7 +160163,9 @@
       54.444,
       58.346,
       53.457,
-      53.111
+      53.111,
+      52.343,
+      54.208
     ],
     "lons": [
       "x",
@@ -158978,10 +160240,12 @@
       28.59,
       26.52,
       29.913,
-      26.117
+      26.117,
+      29.277,
+      29.281
     ],
-    "mean_lat": 54.57,
-    "mean_lon": 27.738,
+    "mean_lat": 54.2,
+    "mean_lon": 28.179,
     "regions": [
       "England",
       "England",
@@ -159055,7 +160319,9 @@
       "Bavaria",
       "North Holland",
       "Aargau",
-      "Utrecht"
+      "Utrecht",
+      "Zurich",
+      "South Holland"
     ],
     "countries": [
       "United Kingdom",
@@ -159128,6 +160394,8 @@
       "Germany",
       "Germany",
       "Germany",
+      "Netherlands",
+      "Switzerland",
       "Netherlands",
       "Switzerland",
       "Netherlands"
@@ -159205,7 +160473,9 @@
       118.5,
       488.7,
       122.2,
-      322.7
+      322.7,
+      253.1,
+      81.3
     ],
     "times": [
       6.6,
@@ -159280,6 +160550,8 @@
       7.6,
       0.8,
       8.5,
+      5.6,
+      7.6,
       5.6
     ]
   },
@@ -164615,10 +165887,10 @@
     ]
   },
   "Sz\u00e9kesfeh\u00e9rv\u00e1r, Hungary": {
-    "mean_dist": 225.1,
+    "mean_dist": 218.3,
     "mean_time": 6.3,
-    "std_dist": 322,
-    "std_time": 1.9,
+    "std_dist": 317.4,
+    "std_time": 1.8,
     "admin": "Fej\u00e9r",
     "country": "Hungary",
     "city": "Sz\u00e9kesfeh\u00e9rv\u00e1r",
@@ -164695,7 +165967,10 @@
       47.033,
       46.479,
       46.757,
-      46.955
+      46.955,
+      47.546,
+      46.994,
+      47.033
     ],
     "lons": [
       "x",
@@ -164770,10 +166045,13 @@
       17.892,
       20.02,
       18.583,
-      18.583
+      18.583,
+      17.486,
+      17.892,
+      18.87
     ],
-    "mean_lat": 47.469,
-    "mean_lon": 19.661,
+    "mean_lat": 47.427,
+    "mean_lon": 19.424,
     "regions": [
       "England",
       "California",
@@ -164847,7 +166125,10 @@
       "South Holland",
       "Aargau",
       "South Holland",
-      "Friesland"
+      "Friesland",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United Kingdom",
@@ -164918,6 +166199,9 @@
       "Belgium",
       "Belgium",
       "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Switzerland",
       "Netherlands",
       "Netherlands",
       "Switzerland",
@@ -164997,7 +166281,10 @@
       42.8,
       146.2,
       50.4,
-      29.7
+      29.7,
+      79.6,
+      44.9,
+      39.2
     ],
     "times": [
       6.9,
@@ -165072,14 +166359,17 @@
       7.1,
       7.3,
       6.5,
-      6.7
+      6.7,
+      7.3,
+      5.3,
+      5.2
     ]
   },
   "Zl\u00edn, Czechia": {
-    "mean_dist": 155.4,
-    "mean_time": 6.7,
-    "std_dist": 96.7,
-    "std_time": 1.2,
+    "mean_dist": 156.6,
+    "mean_time": 6.6,
+    "std_dist": 95.2,
+    "std_time": 1.3,
     "admin": "Zl\u00ednsk\u00fd Kraj",
     "country": "Czechia",
     "city": "Zl\u00edn",
@@ -165144,7 +166434,10 @@
       49.59,
       49.252,
       46.359,
-      49.722
+      49.722,
+      49.5,
+      49.044,
+      50.02
     ],
     "lons": [
       "x",
@@ -165207,10 +166500,13 @@
       14.185,
       14.817,
       22.321,
-      17.49
+      17.49,
+      14.898,
+      16.167,
+      14.614
     ],
-    "mean_lat": 49.035,
-    "mean_lon": 16.739,
+    "mean_lat": 49.168,
+    "mean_lon": 16.326,
     "regions": [
       "England",
       "England",
@@ -165272,7 +166568,10 @@
       "Washington",
       "Washington",
       "England",
-      "Aargau"
+      "Aargau",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United Kingdom",
@@ -165335,7 +166634,10 @@
       "United States",
       "United States",
       "United Kingdom",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       341.7,
@@ -165398,7 +166700,10 @@
       253.8,
       205.6,
       472.7,
-      55.9
+      55.9,
+      201.5,
+      109.8,
+      235.6
     ],
     "times": [
       6.9,
@@ -165461,7 +166766,10 @@
       7.2,
       4.3,
       2.2,
-      7.8
+      7.8,
+      7.6,
+      3.4,
+      2.8
     ]
   },
   "Ivano-Frankivs\u2019k, Ukraine": {
@@ -166057,10 +167365,10 @@
     ]
   },
   "Mostar, Bosnia And Herzegovina": {
-    "mean_dist": 208.9,
+    "mean_dist": 205.3,
     "mean_time": 6.4,
-    "std_dist": 371.3,
-    "std_time": 1.8,
+    "std_dist": 363.7,
+    "std_time": 1.7,
     "admin": "Bosnia and Herzegovina, Federation of",
     "country": "Bosnia And Herzegovina",
     "city": "Mostar",
@@ -166127,7 +167435,10 @@
       43.953,
       42.818,
       43.911,
-      42.168
+      42.168,
+      42.99,
+      42.392,
+      44.161
     ],
     "lons": [
       "x",
@@ -166192,10 +167503,13 @@
       17.95,
       20.02,
       17.662,
-      22.763
+      22.763,
+      17.773,
+      20.711,
+      17.892
     ],
-    "mean_lat": 44.853,
-    "mean_lon": 18.289,
+    "mean_lat": 44.635,
+    "mean_lon": 18.355,
     "regions": [
       "England",
       "England",
@@ -166259,7 +167573,10 @@
       "Leinster",
       "North Holland",
       "Utrecht",
-      "North Holland"
+      "North Holland",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United Kingdom",
@@ -166323,6 +167640,9 @@
       "Netherlands",
       "Ireland",
       "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Switzerland",
       "Netherlands",
       "Netherlands"
     ],
@@ -166389,7 +167709,10 @@
       67.8,
       188.2,
       63.6,
-      424.3
+      424.3,
+      40.1,
+      258.5,
+      90.3
     ],
     "times": [
       7.4,
@@ -166454,7 +167777,10 @@
       1.7,
       4.6,
       7,
-      5
+      5,
+      7.5,
+      4.3,
+      6.4
     ]
   },
   "Vyborg, Leningradskaya Oblast\u2019, Russia": {
@@ -166655,9 +167981,9 @@
     ]
   },
   "Granada, Spain": {
-    "mean_dist": 236.8,
+    "mean_dist": 247,
     "mean_time": 6.4,
-    "std_dist": 193.4,
+    "std_dist": 199.1,
     "std_time": 1.5,
     "admin": "Andalusia",
     "country": "Spain",
@@ -166719,7 +168045,10 @@
       37.494,
       38.225,
       37.951,
-      36.687
+      36.687,
+      43.328,
+      38.248,
+      40.966
     ],
     "lons": [
       "x",
@@ -166778,10 +168107,13 @@
       -3.414,
       -2.609,
       -5.025,
-      -2.525
+      -2.525,
+      -5.175,
+      -1.892,
+      -2.64
     ],
-    "mean_lat": 39.147,
-    "mean_lon": -3.227,
+    "mean_lat": 39.572,
+    "mean_lon": -3.229,
     "regions": [
       "England",
       "England",
@@ -166839,7 +168171,10 @@
       "Washington",
       "Washington",
       "Washington",
-      "Aargau"
+      "Aargau",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United Kingdom",
@@ -166898,7 +168233,10 @@
       "United States",
       "United States",
       "United States",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       68.9,
@@ -166957,7 +168295,10 @@
       39.5,
       145.8,
       154.1,
-      108
+      108,
+      698.4,
+      191.5,
+      430.5
     ],
     "times": [
       4.8,
@@ -167016,7 +168357,10 @@
       6.6,
       6.7,
       7.1,
-      7.2
+      7.2,
+      6.7,
+      7.3,
+      6.5
     ]
   },
   "Staryy Oskol, Belgorodskaya Oblast\u2019, Russia": {
@@ -170047,9 +171391,9 @@
     ]
   },
   "Arnhem, Netherlands": {
-    "mean_dist": 162.3,
+    "mean_dist": 158.8,
     "mean_time": 5.7,
-    "std_dist": 263.9,
+    "std_dist": 261.1,
     "std_time": 2.2,
     "admin": "Gelderland",
     "country": "Netherlands",
@@ -170162,7 +171506,10 @@
       51.914,
       52.241,
       52.798,
-      51.771
+      51.771,
+      52.024,
+      51.843,
+      52.057
     ],
     "lons": [
       "x",
@@ -170272,10 +171619,13 @@
       5.181,
       5.229,
       4.779,
-      4.779
+      4.779,
+      5.407,
+      5.296,
+      5.641
     ],
-    "mean_lat": 52.257,
-    "mean_lon": 5.214,
+    "mean_lat": 52.192,
+    "mean_lon": 5.268,
     "regions": [
       "England",
       "England",
@@ -170384,7 +171734,10 @@
       "Uusimaa",
       "Uusimaa",
       "Auvergne-Rh\u00f4ne-Alpes",
-      "Aargau"
+      "Aargau",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United Kingdom",
@@ -170494,7 +171847,10 @@
       "Finland",
       "Finland",
       "France",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       61.4,
@@ -170604,7 +171960,10 @@
       51.4,
       55.1,
       118.9,
-      82.1
+      82.1,
+      35.4,
+      45.8,
+      20.7
     ],
     "times": [
       7.7,
@@ -170714,7 +172073,10 @@
       8.3,
       7.3,
       5.3,
-      8.2
+      8.2,
+      7.2,
+      5,
+      5.7
     ]
   },
   "Ivanovo, Ivanovskaya Oblast\u2019, Russia": {
@@ -174665,9 +176027,9 @@
     ]
   },
   "M\u00fcnster, Germany": {
-    "mean_dist": 184.2,
-    "mean_time": 7.1,
-    "std_dist": 253.1,
+    "mean_dist": 179.7,
+    "mean_time": 7,
+    "std_dist": 245.4,
     "std_time": 1.2,
     "admin": "North Rhine-Westphalia",
     "country": "Germany",
@@ -174715,7 +176077,10 @@
       52.093,
       51.592,
       51.657,
-      52.517
+      52.517,
+      51.306,
+      51.7,
+      52.868
     ],
     "lons": [
       "x",
@@ -174760,10 +176125,13 @@
       7.769,
       9.495,
       8.506,
-      8.517
+      8.517,
+      6.73,
+      6.101,
+      9.092
     ],
-    "mean_lat": 51.784,
-    "mean_lon": 8.717,
+    "mean_lat": 51.821,
+    "mean_lon": 8.415,
     "regions": [
       "England",
       "New South Wales",
@@ -174807,7 +176175,10 @@
       "Aargau",
       "Friesland",
       "Lower Saxony",
-      "Lower Saxony"
+      "Lower Saxony",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United Kingdom",
@@ -174852,7 +176223,10 @@
       "Switzerland",
       "Netherlands",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       109.3,
@@ -174897,7 +176271,10 @@
       17,
       135.6,
       70.1,
-      86.2
+      86.2,
+      95.9,
+      108.5,
+      141.1
     ],
     "times": [
       6.9,
@@ -174942,14 +176319,17 @@
       8.4,
       7.6,
       5.5,
-      6.4
+      6.4,
+      6.3,
+      4.9,
+      5.7
     ]
   },
   "Huelva, Spain": {
-    "mean_dist": 508.4,
+    "mean_dist": 497.4,
     "mean_time": 6.2,
-    "std_dist": 296.5,
-    "std_time": 1.9,
+    "std_dist": 295.2,
+    "std_time": 1.8,
     "admin": "Andalusia",
     "country": "Spain",
     "city": "Huelva",
@@ -175027,7 +176407,13 @@
       38.044,
       47.12,
       42.006,
-      39.587
+      39.587,
+      42.138,
+      41.748,
+      40.44,
+      37.153,
+      37.334,
+      41.358
     ],
     "lons": [
       "x",
@@ -175103,10 +176489,16 @@
       -3.273,
       -0.673,
       -1.605,
-      -0.613
+      -0.613,
+      -4.312,
+      -2.928,
+      -3.503,
+      -6.67,
+      -6.551,
+      -6.264
     ],
-    "mean_lat": 40.463,
-    "mean_lon": -3.714,
+    "mean_lat": 40.344,
+    "mean_lon": -4.075,
     "regions": [
       "England",
       "England",
@@ -175181,7 +176573,13 @@
       "North Holland",
       "Lower Saxony",
       "Lower Saxony",
-      "Uusimaa"
+      "Uusimaa",
+      "Zurich",
+      "South Holland",
+      "Utrecht",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United Kingdom",
@@ -175257,7 +176655,13 @@
       "Netherlands",
       "Germany",
       "Germany",
-      "Finland"
+      "Finland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       263.6,
@@ -175333,7 +176737,13 @@
       333.7,
       1211.5,
       698,
-      608.4
+      608.4,
+      587.7,
+      606.5,
+      462.4,
+      25.3,
+      34.7,
+      460.4
     ],
     "times": [
       7.7,
@@ -175409,7 +176819,13 @@
       2.6,
       6.2,
       6.3,
-      6.3
+      6.3,
+      7.9,
+      5,
+      6.7,
+      8,
+      6.1,
+      5.6
     ]
   },
   "Parma, Italy": {
@@ -178542,9 +179958,9 @@
     ]
   },
   "Ipswich, United Kingdom": {
-    "mean_dist": 259.5,
-    "mean_time": 6.7,
-    "std_dist": 271.6,
+    "mean_dist": 254.1,
+    "mean_time": 6.6,
+    "std_dist": 267.5,
     "std_time": 1.8,
     "admin": "Suffolk",
     "country": "United Kingdom",
@@ -178613,7 +180029,10 @@
       52.27,
       52.534,
       52.164,
-      52.763
+      52.763,
+      52.519,
+      52.199,
+      53.834
     ],
     "lons": [
       "x",
@@ -178679,10 +180098,13 @@
       -3.043,
       -2.264,
       0.177,
-      -2.41
+      -2.41,
+      0.921,
+      0.005,
+      -1.892
     ],
-    "mean_lat": 52.634,
-    "mean_lon": -1.884,
+    "mean_lat": 52.681,
+    "mean_lon": -1.549,
     "regions": [
       "Ontario",
       "Stockholm",
@@ -178747,7 +180169,10 @@
       "Bavaria",
       "Washington",
       "Aargau",
-      "Leinster"
+      "Leinster",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "Canada",
@@ -178813,7 +180238,10 @@
       "Germany",
       "United States",
       "Switzerland",
-      "Ireland"
+      "Ireland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       347.8,
@@ -178879,7 +180307,10 @@
       288.1,
       239.1,
       68.5,
-      254.7
+      254.7,
+      52.7,
+      80.7,
+      283.8
     ],
     "times": [
       5.8,
@@ -178945,13 +180376,16 @@
       7.4,
       7.4,
       8.4,
-      6.9
+      6.9,
+      6.2,
+      6.7,
+      5.6
     ]
   },
   "Cambridge, United Kingdom": {
-    "mean_dist": 162.4,
+    "mean_dist": 158.6,
     "mean_time": 6.4,
-    "std_dist": 157.7,
+    "std_dist": 155.5,
     "std_time": 1.7,
     "admin": "Cambridgeshire",
     "country": "United Kingdom",
@@ -179021,7 +180455,10 @@
       51.986,
       51.95,
       53.971,
-      51.159
+      51.159,
+      51.774,
+      52.763,
+      52.057
     ],
     "lons": [
       "x",
@@ -179088,10 +180525,13 @@
       -1.087,
       0.58,
       -0.569,
-      -2.64
+      -2.64,
+      -0.171,
+      -1.72,
+      -0.339
     ],
-    "mean_lat": 52.176,
-    "mean_lon": -0.906,
+    "mean_lat": 52.182,
+    "mean_lon": -0.857,
     "regions": [
       "New South Wales",
       "England",
@@ -179157,6 +180597,9 @@
       "Bavaria",
       "Aargau",
       "North Holland",
+      "Utrecht",
+      "Zurich",
+      "South Holland",
       "Utrecht"
     ],
     "countries": [
@@ -179222,6 +180665,9 @@
       "Switzerland",
       "Germany",
       "Germany",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands",
       "Switzerland",
       "Netherlands",
       "Netherlands"
@@ -179291,7 +180737,10 @@
       85.6,
       42.1,
       202.1,
-      222.5
+      222.5,
+      51.3,
+      139.2,
+      34.9
     ],
     "times": [
       8.1,
@@ -179358,7 +180807,10 @@
       8.5,
       8.2,
       4.5,
-      4.9
+      4.9,
+      7.7,
+      1.9,
+      5.8
     ]
   },
   "Zonguldak, Turkey": {
@@ -189137,9 +190589,9 @@
     ]
   },
   "Oradea, Romania": {
-    "mean_dist": 353.2,
+    "mean_dist": 364.3,
     "mean_time": 7,
-    "std_dist": 153.7,
+    "std_dist": 155.5,
     "std_time": 1.2,
     "admin": "Bihor",
     "country": "Romania",
@@ -189191,7 +190643,10 @@
       44.988,
       46.418,
       45.724,
-      45.189
+      45.189,
+      44.783,
+      44.698,
+      44.368
     ],
     "lons": [
       "x",
@@ -189240,10 +190695,13 @@
       26.228,
       22.985,
       24.612,
-      26.232
+      26.232,
+      28.184,
+      27.613,
+      28.015
     ],
-    "mean_lat": 45.837,
-    "mean_lon": 22.168,
+    "mean_lat": 45.471,
+    "mean_lon": 23.898,
     "regions": [
       "England",
       "Mazovia",
@@ -189291,7 +190749,10 @@
       "Washington",
       "Washington",
       "Uusimaa",
-      "Uusimaa"
+      "Uusimaa",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United Kingdom",
@@ -189340,7 +190801,10 @@
       "United States",
       "United States",
       "Finland",
-      "Finland"
+      "Finland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       176.3,
@@ -189389,7 +190853,10 @@
       403.8,
       107.3,
       253.6,
-      391.4
+      391.4,
+      546,
+      512.2,
+      559.1
     ],
     "times": [
       5.5,
@@ -189438,7 +190905,10 @@
       7.1,
       6.8,
       7.4,
-      7.7
+      7.7,
+      7.5,
+      7,
+      6.3
     ]
   },
   "Batman, Turkey": {
@@ -192135,9 +193605,9 @@
     ]
   },
   "Kyiv, Ukraine": {
-    "mean_dist": 298.6,
+    "mean_dist": 296,
     "mean_time": 6,
-    "std_dist": 408.1,
+    "std_dist": 401.6,
     "std_time": 2,
     "admin": "Kyyiv, Misto",
     "country": "Ukraine",
@@ -192210,7 +193680,10 @@
       48.126,
       49.158,
       48.757,
-      49.822
+      49.822,
+      50.54,
+      49.647,
+      46.876
     ],
     "lons": [
       "x",
@@ -192280,10 +193753,13 @@
       30.546,
       26.865,
       35.975,
-      34.668
+      34.668,
+      30.427,
+      27.958,
+      34.515
     ],
-    "mean_lat": 50.031,
-    "mean_lon": 27.897,
+    "mean_lat": 49.904,
+    "mean_lon": 28.281,
     "regions": [
       "England",
       "England",
@@ -192352,7 +193828,10 @@
       "North Holland",
       "Utrecht",
       "North Holland",
-      "Lisbon"
+      "Lisbon",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United Kingdom",
@@ -192422,7 +193901,10 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Portugal"
+      "Portugal",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       385.6,
@@ -192492,7 +193974,10 @@
       256.5,
       297.9,
       435.1,
-      303.6
+      303.6,
+      13.5,
+      202.4,
+      492.5
     ],
     "times": [
       8.2,
@@ -192562,7 +194047,10 @@
       5.3,
       6.1,
       2.3,
-      5.7
+      5.7,
+      7,
+      5.4,
+      5.4
     ]
   },
   "Novocherkassk, Rostovskaya Oblast\u2019, Russia": {
@@ -196484,9 +197972,9 @@
     ]
   },
   "Livorno, Italy": {
-    "mean_dist": 175,
+    "mean_dist": 186.8,
     "mean_time": 6.5,
-    "std_dist": 172.1,
+    "std_dist": 180.8,
     "std_time": 1.6,
     "admin": "Tuscany",
     "country": "Italy",
@@ -196549,7 +198037,10 @@
       43.953,
       44.492,
       40.923,
-      43.479
+      43.479,
+      40.882,
+      44.119,
+      40.44
     ],
     "lons": [
       "x",
@@ -196609,10 +198100,13 @@
       10.185,
       10.875,
       15.534,
-      11.144
+      11.144,
+      15.645,
+      11.911,
+      15.822
     ],
-    "mean_lat": 43.641,
-    "mean_lon": 11.373,
+    "mean_lat": 43.092,
+    "mean_lon": 12.299,
     "regions": [
       "England",
       "Aargau",
@@ -196671,7 +198165,10 @@
       "Aargau",
       "South Holland",
       "South Moravian",
-      "Lisbon"
+      "Lisbon",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United Kingdom",
@@ -196731,7 +198228,10 @@
       "Switzerland",
       "Netherlands",
       "Czech Republic",
-      "Portugal"
+      "Portugal",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       486.7,
@@ -196791,7 +198291,10 @@
       45.6,
       114.2,
       520.3,
-      68.3
+      68.3,
+      530.5,
+      143.6,
+      572.2
     ],
     "times": [
       7.4,
@@ -196851,7 +198354,10 @@
       8,
       5.7,
       6.3,
-      8.1
+      8.1,
+      7.8,
+      5.6,
+      6.9
     ]
   },
   "Bila Tserkva, Ukraine": {
@@ -197441,10 +198947,10 @@
     ]
   },
   "Dresden, Germany": {
-    "mean_dist": 155.5,
+    "mean_dist": 157.8,
     "mean_time": 6.6,
-    "std_dist": 123.8,
-    "std_time": 1.6,
+    "std_dist": 121.5,
+    "std_time": 1.5,
     "admin": "Saxony",
     "country": "Germany",
     "city": "Dresden",
@@ -197489,7 +198995,10 @@
       51.95,
       53.222,
       51.484,
-      51.412
+      51.412,
+      51.234,
+      53.007,
+      53.181
     ],
     "lons": [
       "x",
@@ -197532,10 +199041,13 @@
       12.946,
       12.246,
       14.499,
-      8.172
+      8.172,
+      12.654,
+      12.313,
+      12.601
     ],
-    "mean_lat": 51.458,
-    "mean_lon": 12.51,
+    "mean_lat": 51.692,
+    "mean_lon": 12.513,
     "regions": [
       "England",
       "Vienna",
@@ -197577,7 +199089,10 @@
       "Uusimaa",
       "Uusimaa",
       "Aargau",
-      "North Holland"
+      "North Holland",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United Kingdom",
@@ -197620,6 +199135,9 @@
       "Finland",
       "Finland",
       "Switzerland",
+      "Netherlands",
+      "Switzerland",
+      "Netherlands",
       "Netherlands"
     ],
     "dists": [
@@ -197663,7 +199181,10 @@
       114.5,
       262.4,
       71,
-      390.3
+      390.3,
+      79,
+      238.8,
+      249.6
     ],
     "times": [
       7.2,
@@ -197706,7 +199227,10 @@
       6.7,
       6.9,
       8,
-      7.7
+      7.7,
+      7.9,
+      6.9,
+      6.3
     ]
   },
   "Castell\u00f3n de la Plana, Spain": {
@@ -198697,9 +200221,9 @@
     ]
   },
   "Tambov, Tambovskaya Oblast\u2019, Russia": {
-    "mean_dist": 574.7,
+    "mean_dist": 546.4,
     "mean_time": 6.4,
-    "std_dist": 707.2,
+    "std_dist": 679.7,
     "std_time": 1.9,
     "admin": "Tambovskaya Oblast\u2019",
     "country": "Russia",
@@ -198732,7 +200256,10 @@
       40.66,
       60.55,
       55.028,
-      56.285
+      56.285,
+      48.704,
+      53.423,
+      51.879
     ],
     "lons": [
       "x",
@@ -198762,10 +200289,13 @@
       -8.794,
       47.053,
       37.191,
-      36.125
+      36.125,
+      44.461,
+      41.934,
+      37.735
     ],
-    "mean_lat": 53.506,
-    "mean_lon": 31.909,
+    "mean_lat": 52.692,
+    "mean_lon": 35.459,
     "regions": [
       "California",
       "Hamburg",
@@ -198794,7 +200324,10 @@
       "Bavaria",
       "Aargau",
       "Washington",
-      "South Moravian"
+      "South Moravian",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United States",
@@ -198824,7 +200357,10 @@
       "Germany",
       "Switzerland",
       "United States",
-      "Czech Republic"
+      "Czech Republic",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       998,
@@ -198854,7 +200390,10 @@
       3966,
       934.3,
       377.3,
-      522.7
+      522.7,
+      495.7,
+      84.1,
+      268.3
     ],
     "times": [
       7,
@@ -198884,7 +200423,10 @@
       4.2,
       8.3,
       6.7,
-      3.8
+      3.8,
+      7.7,
+      4.2,
+      7.1
     ]
   },
   "Poltava, Ukraine": {
@@ -200024,9 +201566,9 @@
     ]
   },
   "Yelets, Lipetskaya Oblast\u2019, Russia": {
-    "mean_dist": 498,
-    "mean_time": 6.5,
-    "std_dist": 237.8,
+    "mean_dist": 506.1,
+    "mean_time": 6.4,
+    "std_dist": 239.4,
     "std_time": 1.5,
     "admin": "Lipetskaya Oblast\u2019",
     "country": "Russia",
@@ -200082,7 +201624,10 @@
       50.482,
       53.528,
       56.827,
-      56.221
+      56.221,
+      53.459,
+      61.086,
+      56.732
     ],
     "lons": [
       "x",
@@ -200135,10 +201680,13 @@
       42.54,
       40.722,
       36.758,
-      43.717
+      43.717,
+      44.979,
+      40.669,
+      34.227
     ],
-    "mean_lat": 54.491,
-    "mean_lon": 40.107,
+    "mean_lat": 55.358,
+    "mean_lon": 40.057,
     "regions": [
       "Florida",
       "",
@@ -200190,7 +201738,10 @@
       "Washington",
       "South Moravian",
       "Auvergne-Rh\u00f4ne-Alpes",
-      "Auvergne-Rh\u00f4ne-Alpes"
+      "Auvergne-Rh\u00f4ne-Alpes",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United States",
@@ -200243,7 +201794,10 @@
       "United States",
       "Czech Republic",
       "France",
-      "France"
+      "France",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       380.4,
@@ -200296,7 +201850,10 @@
       363.9,
       182.2,
       485.3,
-      526.9
+      526.9,
+      444.1,
+      954.9,
+      537
     ],
     "times": [
       6.5,
@@ -200349,14 +201906,17 @@
       5.6,
       3.6,
       5.6,
-      7.3
+      7.3,
+      7.5,
+      5.9,
+      4.5
     ]
   },
   "P\u00e9cs, Hungary": {
-    "mean_dist": 211.3,
-    "mean_time": 6.2,
-    "std_dist": 191.6,
-    "std_time": 1.9,
+    "mean_dist": 208.3,
+    "mean_time": 5.9,
+    "std_dist": 189.1,
+    "std_time": 2.2,
     "admin": "Baranya",
     "country": "Hungary",
     "city": "P\u00e9cs",
@@ -200432,7 +201992,10 @@
       47.348,
       46.361,
       46.915,
-      45.948
+      45.948,
+      46.359,
+      47.23,
+      47.191
     ],
     "lons": [
       "x",
@@ -200506,10 +202069,13 @@
       17.547,
       26.057,
       19.215,
-      17.849
+      17.849,
+      18.237,
+      17.777,
+      20.998
     ],
-    "mean_lat": 47.033,
-    "mean_lon": 19.909,
+    "mean_lat": 47.019,
+    "mean_lon": 19.786,
     "regions": [
       "Florida",
       "\u00cele-de-France",
@@ -200582,7 +202148,10 @@
       "Mazovia",
       "Friesland",
       "Leinster",
-      "Uusimaa"
+      "Uusimaa",
+      "South Moravian",
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -200656,7 +202225,10 @@
       "Poland",
       "Netherlands",
       "Ireland",
-      "Finland"
+      "Finland",
+      "Czech Republic",
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       95,
@@ -200730,7 +202302,10 @@
       150,
       603.5,
       120.1,
-      32.1
+      32.1,
+      31,
+      132.2,
+      245.4
     ],
     "times": [
       7,
@@ -200804,7 +202379,10 @@
       4.3,
       3.8,
       6.8,
-      7.1
+      7.1,
+      2.8,
+      0,
+      0.1
     ]
   },
   "Saransk, Mordoviya, Russia": {
@@ -201885,10 +203463,10 @@
     ]
   },
   "Kirov, Kirovskaya Oblast\u2019, Russia": {
-    "mean_dist": 896.7,
+    "mean_dist": 908.9,
     "mean_time": 7.1,
-    "std_dist": 226.1,
-    "std_time": 1.5,
+    "std_dist": 226.3,
+    "std_time": 1.4,
     "admin": "Kirovskaya Oblast\u2019",
     "country": "Russia",
     "city": "Kirov",
@@ -201929,7 +203507,10 @@
       50.941,
       50.795,
       55.211,
-      49.387
+      49.387,
+      48.475,
+      52.305,
+      49.158
     ],
     "lons": [
       "x",
@@ -201968,10 +203549,13 @@
       47.571,
       44.522,
       39.173,
-      44.058
+      44.058,
+      43.483,
+      42.682,
+      42.107
     ],
-    "mean_lat": 52.247,
-    "mean_lon": 41.856,
+    "mean_lat": 51.491,
+    "mean_lon": 42.156,
     "regions": [
       "England",
       "Pennsylvania",
@@ -202009,7 +203593,10 @@
       "Bavaria",
       "Auvergne-Rh\u00f4ne-Alpes",
       "Auvergne-Rh\u00f4ne-Alpes",
-      "Zurich"
+      "Zurich",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "United Kingdom",
@@ -202048,7 +203635,10 @@
       "Germany",
       "France",
       "France",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       813.8,
@@ -202087,7 +203677,10 @@
       861,
       927,
       738.6,
-      1086.1
+      1086.1,
+      1195.4,
+      825.1,
+      1158.3
     ],
     "times": [
       5.7,
@@ -202126,7 +203719,10 @@
       6.5,
       6.6,
       6.7,
-      5.6
+      5.6,
+      7.4,
+      5.9,
+      6.5
     ]
   },
   "Abertawe, United Kingdom": {
@@ -204212,9 +205808,9 @@
     ]
   },
   "Oxford, United Kingdom": {
-    "mean_dist": 128.3,
-    "mean_time": 7.5,
-    "std_dist": 419.5,
+    "mean_dist": 128.6,
+    "mean_time": 7.4,
+    "std_dist": 408.3,
     "std_time": 0.8,
     "admin": "Oxfordshire",
     "country": "United Kingdom",
@@ -204271,7 +205867,10 @@
       51.664,
       51.867,
       51.974,
-      51.774
+      51.774,
+      51.738,
+      53.285,
+      53.526
     ],
     "lons": [
       "x",
@@ -204325,10 +205924,13 @@
       -1.202,
       -0.589,
       -0.704,
-      -0.458
+      -0.458,
+      -1.551,
+      -1.49,
+      -2.525
     ],
-    "mean_lat": 51.867,
-    "mean_lon": -0.806,
+    "mean_lat": 52.051,
+    "mean_lon": -1.003,
     "regions": [
       "Stockholm",
       "Stockholm",
@@ -204381,7 +205983,10 @@
       "Aargau",
       "Lisbon",
       "Lisbon",
-      "Zurich"
+      "Zurich",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "Sweden",
@@ -204435,7 +206040,10 @@
       "Switzerland",
       "Portugal",
       "Portugal",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       82.7,
@@ -204489,7 +206097,10 @@
       12.2,
       46.6,
       43.8,
-      54.4
+      54.4,
+      21,
+      169.2,
+      213.3
     ],
     "times": [
       7.6,
@@ -204543,7 +206154,10 @@
       8.1,
       7.9,
       7.7,
-      7.3
+      7.3,
+      6,
+      6.7,
+      6.2
     ]
   },
   "W\u00fcrzburg, Germany": {
@@ -205199,9 +206813,9 @@
     ]
   },
   "Reggio di Calabria, Italy": {
-    "mean_dist": 387.5,
-    "mean_time": 5.9,
-    "std_dist": 333,
+    "mean_dist": 389.3,
+    "mean_time": 6,
+    "std_dist": 329.2,
     "std_time": 1.6,
     "admin": "Calabria",
     "country": "Italy",
@@ -205260,7 +206874,10 @@
       40.835,
       42.006,
       44.152,
-      39.308
+      39.308,
+      41.405,
+      39.196,
+      43.994
     ],
     "lons": [
       "x",
@@ -205316,10 +206933,13 @@
       15.304,
       13.406,
       11.117,
-      16.224
+      16.224,
+      14.783,
+      16.512,
+      11.278
     ],
-    "mean_lat": 40.727,
-    "mean_lon": 15.87,
+    "mean_lat": 40.861,
+    "mean_lon": 15.59,
     "regions": [
       "Stockholm",
       "Stockholm",
@@ -205374,7 +206994,10 @@
       "Utrecht",
       "North Holland",
       "Utrecht",
-      "North Holland"
+      "North Holland",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "Sweden",
@@ -205429,6 +207052,9 @@
       "Switzerland",
       "Netherlands",
       "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Switzerland",
       "Netherlands",
       "Netherlands"
     ],
@@ -205486,7 +207112,10 @@
       303.9,
       472.6,
       770.6,
-      142
+      142,
+      373.1,
+      142,
+      748.9
     ],
     "times": [
       8.3,
@@ -205542,13 +207171,16 @@
       6.7,
       4.3,
       3.5,
-      2.3
+      2.3,
+      6.3,
+      7.1,
+      7.2
     ]
   },
   "Tula, Tul\u2019skaya Oblast\u2019, Russia": {
-    "mean_dist": 443.3,
-    "mean_time": 6.8,
-    "std_dist": 233.4,
+    "mean_dist": 466.2,
+    "mean_time": 6.7,
+    "std_dist": 241.6,
     "std_time": 1.6,
     "admin": "Tul\u2019skaya Oblast\u2019",
     "country": "Russia",
@@ -205583,7 +207215,10 @@
       51.34,
       59.248,
       50.994,
-      45.189
+      45.189,
+      55.607,
+      46.757,
+      52.128
     ],
     "lons": [
       "x",
@@ -205615,10 +207250,13 @@
       38.081,
       45.496,
       42.54,
-      42.682
+      42.682,
+      50.5,
+      39.173,
+      42.797
     ],
-    "mean_lat": 52.79,
-    "mean_lon": 40.214,
+    "mean_lat": 52.467,
+    "mean_lon": 41.2,
     "regions": [
       "Stockholm",
       "Stockholm",
@@ -205649,7 +207287,10 @@
       "Aargau",
       "Alberta",
       "Washington",
-      "South Moravian"
+      "South Moravian",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "Sweden",
@@ -205681,7 +207322,10 @@
       "Switzerland",
       "Canada",
       "United States",
-      "Czech Republic"
+      "Czech Republic",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       438.7,
@@ -205713,7 +207357,10 @@
       319.4,
       737.5,
       486.6,
-      1065.1
+      1065.1,
+      836.3,
+      834.7,
+      414.2
     ],
     "times": [
       5.6,
@@ -205745,7 +207392,10 @@
       8.4,
       7.5,
       5.8,
-      4.3
+      4.3,
+      6.8,
+      3.6,
+      6.7
     ]
   },
   "Saratov, Saratovskaya Oblast\u2019, Russia": {
@@ -208170,9 +209820,9 @@
     ]
   },
   "Cagliari, Italy": {
-    "mean_dist": 392.2,
-    "mean_time": 6,
-    "std_dist": 364.7,
+    "mean_dist": 390,
+    "mean_time": 6.1,
+    "std_dist": 355.3,
     "std_time": 2,
     "city": "Cagliari",
     "admin": "Sardegna",
@@ -208210,7 +209860,10 @@
       39.196,
       45.156,
       40.484,
-      40.283
+      40.283,
+      42.392,
+      40.879,
+      39.017
     ],
     "lons": [
       "x",
@@ -208245,10 +209898,13 @@
       8.92,
       10.003,
       16.454,
-      9.125
+      9.125,
+      13.464,
+      15.074,
+      8.632
     ],
-    "mean_lat": 43.526,
-    "mean_lon": 13.055,
+    "mean_lat": 42.605,
+    "mean_lon": 12.833,
     "regions": [
       "Stockholm",
       "England",
@@ -208282,7 +209938,10 @@
       "Uusimaa",
       "Uusimaa",
       "Leinster",
-      "Bavaria"
+      "Bavaria",
+      "South Moravian",
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "Sweden",
@@ -208317,7 +209976,10 @@
       "Finland",
       "Finland",
       "Ireland",
-      "Germany"
+      "Germany",
+      "Czech Republic",
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       347.7,
@@ -208352,7 +210014,10 @@
       16,
       663.9,
       642.7,
-      117.9
+      117.9,
+      508.7,
+      540.4,
+      46.6
     ],
     "times": [
       5.2,
@@ -208387,7 +210052,10 @@
       8.1,
       7.6,
       7.5,
-      4.5
+      4.5,
+      6.5,
+      7.1,
+      8
     ]
   },
   "Cherkessk, Karachayevo-Cherkesiya, Russia": {
@@ -211577,9 +213245,9 @@
     ]
   },
   "Bielefeld, Germany": {
-    "mean_dist": 223.6,
-    "mean_time": 6.2,
-    "std_dist": 406.6,
+    "mean_dist": 225.7,
+    "mean_time": 6.1,
+    "std_dist": 397.7,
     "std_time": 2.1,
     "city": "Bielefeld",
     "admin": "North Rhine-Westphalia",
@@ -211641,7 +213309,10 @@
       52.001,
       52.376,
       65.711,
-      52.164
+      52.164,
+      48.283,
+      50.868,
+      51.304
     ],
     "lons": [
       "x",
@@ -211700,10 +213371,13 @@
       7.629,
       8.958,
       20.193,
-      7.309
+      7.309,
+      11.447,
+      6.677,
+      10.358
     ],
-    "mean_lat": 53.734,
-    "mean_lon": 9.68,
+    "mean_lat": 52.757,
+    "mean_lon": 9.629,
     "regions": [
       "Stockholm",
       "England",
@@ -211761,7 +213435,10 @@
       "Bavaria",
       "California",
       "California",
-      "Aargau"
+      "Aargau",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "Sweden",
@@ -211820,7 +213497,10 @@
       "Germany",
       "United States",
       "United States",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       2614.1,
@@ -211879,7 +213559,10 @@
       61.6,
       48.3,
       1656.2,
-      84.6
+      84.6,
+      465.4,
+      182.1,
+      149.6
     ],
     "times": [
       6.5,
@@ -211938,7 +213621,10 @@
       7.8,
       8.3,
       9.7,
-      7.9
+      7.9,
+      5.7,
+      5,
+      7.2
     ]
   },
   "Como, Italy": {
@@ -212581,9 +214267,9 @@
     ]
   },
   "Syktyvkar, Komi, Russia": {
-    "mean_dist": 1255.9,
-    "mean_time": 7,
-    "std_dist": 446.1,
+    "mean_dist": 1192.1,
+    "mean_time": 6.9,
+    "std_dist": 473.5,
     "std_time": 1.4,
     "city": "Syktyvkar",
     "admin": "Komi",
@@ -212611,7 +214297,10 @@
       58.678,
       53.246,
       51.879,
-      54.735
+      54.735,
+      57.016,
+      57.016,
+      61.42
     ],
     "lons": [
       "x",
@@ -212636,10 +214325,13 @@
       40.669,
       45.336,
       44.35,
-      36.566
+      36.566,
+      42.279,
+      32.156,
+      46.478
     ],
-    "mean_lat": 51.953,
-    "mean_lon": 42.546,
+    "mean_lat": 54.13,
+    "mean_lon": 41.798,
     "regions": [
       "South Holland",
       "Leinster",
@@ -212663,7 +214355,10 @@
       "Aargau",
       "Friesland",
       "Aargau",
-      "Lisbon"
+      "Lisbon",
+      "South Moravian",
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "Netherlands",
@@ -212688,7 +214383,10 @@
       "Switzerland",
       "Netherlands",
       "Switzerland",
-      "Portugal"
+      "Portugal",
+      "Czech Republic",
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       1027.2,
@@ -212713,7 +214411,10 @@
       650.9,
       990.5,
       1155.4,
-      1131.5
+      1131.5,
+      706.7,
+      1171.9,
+      231.5
     ],
     "times": [
       8.3,
@@ -212738,7 +214439,10 @@
       8,
       5.7,
       8.5,
-      7.9
+      7.9,
+      4.3,
+      6.6,
+      7.6
     ]
   },
   "Edirne, Turkey": {
@@ -213801,9 +215505,9 @@
     ]
   },
   "Bataysk, Rostovskaya Oblast\u2019, Russia": {
-    "mean_dist": 728.8,
-    "mean_time": 6.1,
-    "std_dist": 554.3,
+    "mean_dist": 756.2,
+    "mean_time": 6.2,
+    "std_dist": 520,
     "std_time": 1.5,
     "city": "Bataysk",
     "admin": "Rostovskaya Oblast\u2019",
@@ -213825,7 +215529,10 @@
       "x",
       "x",
       "x",
-      53.181
+      53.181,
+      53.287,
+      57.267,
+      54.979
     ],
     "lons": [
       "x",
@@ -213844,10 +215551,13 @@
       "x",
       "x",
       "x",
-      43.487
+      43.487,
+      37.904,
+      42.509,
+      42.739
     ],
-    "mean_lat": 53.181,
-    "mean_lon": 43.487,
+    "mean_lat": 54.678,
+    "mean_lon": 41.659,
     "regions": [
       "Vienna",
       "Aargau",
@@ -213865,7 +215575,10 @@
       "Bavaria",
       "Bavaria",
       "Bavaria",
-      "Vienna"
+      "Vienna",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "Austria",
@@ -213884,7 +215597,10 @@
       "Germany",
       "Germany",
       "Germany",
-      "Austria"
+      "Austria",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       1151.4,
@@ -213903,7 +215619,10 @@
       74.2,
       1126.1,
       1415.2,
-      722.8
+      722.8,
+      696.2,
+      1141.9,
+      896.6
     ],
     "times": [
       6.1,
@@ -213922,7 +215641,10 @@
       5.6,
       7.3,
       8.4,
-      7.3
+      7.3,
+      8,
+      6.7,
+      6
     ]
   },
   "Maykop, Adygeya, Russia": {
@@ -214165,9 +215887,9 @@
     ]
   },
   "Dzerzhinsk, Nizhegorodskaya Oblast\u2019, Russia": {
-    "mean_dist": 621,
+    "mean_dist": 638.5,
     "mean_time": 6,
-    "std_dist": 320.9,
+    "std_dist": 333.9,
     "std_time": 1.8,
     "city": "Dzerzhinsk",
     "admin": "Nizhegorodskaya Oblast\u2019",
@@ -214212,7 +215934,10 @@
       48.049,
       50.758,
       55.112,
-      54.712
+      54.712,
+      47.036,
+      57.361,
+      44.78
     ],
     "lons": [
       "x",
@@ -214254,10 +215979,13 @@
       44.177,
       44.177,
       39.749,
-      46.19
+      46.19,
+      43.771,
+      48.203,
+      42.164
     ],
-    "mean_lat": 51.927,
-    "mean_lon": 43.545,
+    "mean_lat": 51.455,
+    "mean_lon": 43.795,
     "regions": [
       "Aargau",
       "Aargau",
@@ -214298,7 +216026,10 @@
       "South Holland",
       "South Holland",
       "South Holland",
-      "Aargau"
+      "Aargau",
+      "Zurich",
+      "South Holland",
+      "Utrecht"
     ],
     "countries": [
       "Switzerland",
@@ -214340,7 +216071,10 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       831.1,
@@ -214382,7 +216116,10 @@
       913.2,
       612.4,
       264.8,
-      242.5
+      242.5,
+      1024.7,
+      314,
+      1278.6
     ],
     "times": [
       7.1,
@@ -214424,7 +216161,10 @@
       5.1,
       4.7,
       4.9,
-      7.7
+      7.7,
+      7.5,
+      4.6,
+      4.9
     ]
   },
   "Nal\u2019chik, Kabardino-Balkariya, Russia": {
