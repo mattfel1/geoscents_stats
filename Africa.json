@@ -107,9 +107,9 @@
     ]
   },
   "Eldoret, Kenya": {
-    "mean_dist": 636.6,
-    "mean_time": 7,
-    "std_dist": 1084.2,
+    "mean_dist": 611.5,
+    "mean_time": 7.1,
+    "std_dist": 1055.5,
     "std_time": 1.3,
     "admin": "Uasin Gishu",
     "country": "Kenya",
@@ -145,7 +145,9 @@
       11.411,
       0.135,
       1.187,
-      13.617
+      13.617,
+      0.315,
+      -0.242
     ],
     "lons": [
       "x",
@@ -178,10 +180,12 @@
       24.522,
       38.094,
       39.93,
-      -16.935
+      -16.935,
+      37.636,
+      36.708
     ],
-    "mean_lat": 5.606,
-    "mean_lon": 24.58,
+    "mean_lat": 4.015,
+    "mean_lon": 28.177,
     "regions": [
       "Unknown",
       "Unknown",
@@ -213,7 +217,9 @@
       "Washington",
       "Zurich",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "Aargau",
+      "Aargau"
     ],
     "countries": [
       "Unknown",
@@ -246,7 +252,9 @@
       "United States",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland",
+      "Switzerland"
     ],
     "dists": [
       347.1,
@@ -279,7 +287,9 @@
       1695.6,
       316.9,
       523.4,
-      5926
+      5926,
+      264.1,
+      181
     ],
     "times": [
       8.1,
@@ -312,13 +322,15 @@
       8.2,
       5.8,
       6.3,
-      3.8
+      3.8,
+      8.2,
+      8.4
     ]
   },
   "Chimoio, Mozambique": {
-    "mean_dist": 700.2,
-    "mean_time": 6.5,
-    "std_dist": 900.7,
+    "mean_dist": 682,
+    "mean_time": 6.6,
+    "std_dist": 879.2,
     "std_time": 1.6,
     "city": "Chimoio",
     "admin": "Manica",
@@ -356,7 +368,9 @@
       -17.244,
       -13.27,
       -21.818,
-      7.28
+      7.28,
+      -20.547,
+      -16.285
     ],
     "lons": [
       "x",
@@ -391,10 +405,12 @@
       36.965,
       35.172,
       34.202,
-      22.093
+      22.093,
+      34.078,
+      38.193
     ],
-    "mean_lat": -13.041,
-    "mean_lon": 32.613,
+    "mean_lat": -13.868,
+    "mean_lon": 33.155,
     "regions": [
       "Unknown",
       "Unknown",
@@ -428,7 +444,9 @@
       "Styria",
       "Styria",
       "Aargau",
-      "Berlin"
+      "Berlin",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "Unknown",
@@ -463,7 +481,9 @@
       "Austria",
       "Austria",
       "Switzerland",
-      "Germany"
+      "Germany",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       224.3,
@@ -498,7 +518,9 @@
       424,
       675.3,
       309.6,
-      3189.3
+      3189.3,
+      171,
+      591.2
     ],
     "times": [
       5.7,
@@ -533,7 +555,9 @@
       6.4,
       2.2,
       8.4,
-      3.2
+      3.2,
+      8.1,
+      8.5
     ]
   },
   "Kano, Nigeria": {
@@ -1170,10 +1194,10 @@
     ]
   },
   "Benoni, South Africa": {
-    "mean_dist": 586,
+    "mean_dist": 578.9,
     "mean_time": 7.1,
-    "std_dist": 796.4,
-    "std_time": 1.4,
+    "std_dist": 779,
+    "std_time": 1.3,
     "city": "Benoni",
     "admin": "Gauteng",
     "country": "South Africa",
@@ -1209,7 +1233,9 @@
       -26.232,
       -31.915,
       -27.92,
-      -28.379
+      -28.379,
+      -32.726,
+      -26.565
     ],
     "lons": [
       "x",
@@ -1243,10 +1269,12 @@
       27.798,
       20.095,
       27.352,
-      24.086
+      24.086,
+      23.684,
+      27.798
     ],
-    "mean_lat": -28.143,
-    "mean_lon": 25.804,
+    "mean_lat": -28.416,
+    "mean_lon": 25.792,
     "regions": [
       "Unknown",
       "Unknown",
@@ -1279,7 +1307,9 @@
       "Aargau",
       "Utrecht",
       "North Holland",
-      "North Holland"
+      "North Holland",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "Unknown",
@@ -1313,7 +1343,9 @@
       "Switzerland",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       455.7,
@@ -1347,7 +1379,9 @@
       53.7,
       1025,
       219.4,
-      487.1
+      487.1,
+      858.3,
+      70.2
     ],
     "times": [
       4.2,
@@ -1381,7 +1415,9 @@
       8.2,
       6.5,
       7.6,
-      7.7
+      7.7,
+      7.6,
+      8.5
     ]
   },
   "Suez, Egypt": {
@@ -1540,9 +1576,9 @@
     ]
   },
   "Kitwe, Zambia": {
-    "mean_dist": 1240.5,
+    "mean_dist": 1196.2,
     "mean_time": 6.7,
-    "std_dist": 1611,
+    "std_dist": 1567,
     "std_time": 1.6,
     "admin": "Copperbelt",
     "country": "Zambia",
@@ -1574,7 +1610,9 @@
       -6.405,
       -14.575,
       -22.809,
-      -21.452
+      -21.452,
+      -21.328,
+      -13.591
     ],
     "lons": [
       "x",
@@ -1603,10 +1641,12 @@
       30.624,
       26.399,
       17.825,
-      24.737
+      24.737,
+      24.519,
+      29.562
     ],
-    "mean_lat": -16.31,
-    "mean_lon": 24.896,
+    "mean_lat": -16.693,
+    "mean_lon": 25.611,
     "regions": [
       "Unknown",
       "Unknown",
@@ -1634,7 +1674,9 @@
       "Styria",
       "Washington",
       "Washington",
-      "Washington"
+      "Washington",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "Unknown",
@@ -1663,7 +1705,9 @@
       "Austria",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       5461.1,
@@ -1692,7 +1736,9 @@
       759.3,
       277.9,
       1563,
-      1029.6
+      1029.6,
+      1025.4,
+      169.3
     ],
     "times": [
       1.7,
@@ -1721,7 +1767,9 @@
       5.3,
       6,
       4.8,
-      5.4
+      5.4,
+      6.4,
+      8.1
     ]
   },
   "Bamenda, Cameroon": {
@@ -1958,9 +2006,9 @@
     ]
   },
   "Blantyre, Malawi": {
-    "mean_dist": 1681.4,
-    "mean_time": 6.6,
-    "std_dist": 2062.7,
+    "mean_dist": 1604.8,
+    "mean_time": 6.5,
+    "std_dist": 2013.4,
     "std_time": 1.6,
     "city": "Blantyre",
     "admin": "Blantyre",
@@ -1993,7 +2041,9 @@
       1.261,
       -13.862,
       -12.771,
-      19.859
+      19.859,
+      -11.535,
+      -12.051
     ],
     "lons": [
       "x",
@@ -2023,10 +2073,12 @@
       12.654,
       47.103,
       33.639,
-      -13.904
+      -13.904,
+      31.016,
+      34.109
     ],
-    "mean_lat": -1.378,
-    "mean_lon": 19.873,
+    "mean_lat": -4.849,
+    "mean_lon": 24.102,
     "regions": [
       "Unknown",
       "Unknown",
@@ -2055,7 +2107,9 @@
       "Uusimaa",
       "Uusimaa",
       "Zurich",
-      "Connecticut"
+      "Connecticut",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "Unknown",
@@ -2085,7 +2139,9 @@
       "Finland",
       "Finland",
       "Switzerland",
-      "United States"
+      "United States",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       5801.2,
@@ -2115,7 +2171,9 @@
       3100.9,
       1319.3,
       365.8,
-      6652.6
+      6652.6,
+      638.7,
+      426.4
     ],
     "times": [
       2.4,
@@ -2145,14 +2203,16 @@
       7.8,
       6.1,
       8.1,
-      6.2
+      6.2,
+      4.5,
+      8.1
     ]
   },
   "Souk Ahras, Algeria": {
-    "mean_dist": 423.8,
-    "mean_time": 7.5,
-    "std_dist": 214.8,
-    "std_time": 0.7,
+    "mean_dist": 492.5,
+    "mean_time": 7.2,
+    "std_dist": 436.5,
+    "std_time": 1.2,
     "city": "Souk Ahras",
     "admin": "Souk Ahras",
     "country": "Algeria",
@@ -2183,7 +2243,11 @@
       "x",
       "x",
       35.793,
-      34.464
+      34.464,
+      35.983,
+      35.227,
+      20.76,
+      35.908
     ],
     "lons": [
       "x",
@@ -2212,10 +2276,14 @@
       "x",
       "x",
       4.367,
-      5.616
+      5.616,
+      0.419,
+      2.739,
+      -11.738,
+      7.101
     ],
-    "mean_lat": 35.128,
-    "mean_lon": 4.991,
+    "mean_lat": 33.022,
+    "mean_lon": 1.417,
     "regions": [
       "Unknown",
       "Unknown",
@@ -2243,7 +2311,11 @@
       "Prevalje",
       "Styria",
       "Washington",
-      "California"
+      "California",
+      "North Rhine-Westphalia",
+      "North Rhine-Westphalia",
+      "Stockholm",
+      "Aargau"
     ],
     "countries": [
       "Unknown",
@@ -2272,7 +2344,11 @@
       "Slovenia",
       "Austria",
       "United States",
-      "United States"
+      "United States",
+      "Germany",
+      "Germany",
+      "Sweden",
+      "Switzerland"
     ],
     "dists": [
       440.2,
@@ -2301,7 +2377,11 @@
       154.9,
       637,
       326.7,
-      293.1
+      293.1,
+      676.9,
+      484.6,
+      2574.9,
+      87.2
     ],
     "times": [
       6.4,
@@ -2330,7 +2410,11 @@
       7.6,
       7.5,
       6.9,
-      8.7
+      8.7,
+      6.3,
+      4.1,
+      2.6,
+      8.1
     ]
   },
   "Kigoma, Tanzania": {
@@ -4543,9 +4627,9 @@
     ]
   },
   "Kumasi, Ghana": {
-    "mean_dist": 258.8,
-    "mean_time": 7.2,
-    "std_dist": 276.5,
+    "mean_dist": 255.1,
+    "mean_time": 7.3,
+    "std_dist": 273,
     "std_time": 1.4,
     "city": "Kumasi",
     "admin": "Ashanti",
@@ -4582,7 +4666,8 @@
       11.228,
       6.344,
       5.512,
-      9.388
+      9.388,
+      6.436
     ],
     "lons": [
       "x",
@@ -4616,10 +4701,11 @@
       -13.239,
       0.141,
       -1.158,
-      -1.628
+      -1.628,
+      -0.415
     ],
-    "mean_lat": 8.118,
-    "mean_lon": -3.971,
+    "mean_lat": 7.781,
+    "mean_lon": -3.259,
     "regions": [
       "New South Wales",
       "Aargau",
@@ -4652,7 +4738,8 @@
       "Uusimaa",
       "Uusimaa",
       "Aargau",
-      "Zurich"
+      "Zurich",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -4685,6 +4772,7 @@
       "Sweden",
       "Finland",
       "Finland",
+      "Switzerland",
       "Switzerland",
       "Switzerland"
     ],
@@ -4720,7 +4808,8 @@
       1371,
       199.4,
       140.9,
-      300
+      300,
+      137
     ],
     "times": [
       8,
@@ -4754,7 +4843,8 @@
       5.7,
       4.9,
       7.5,
-      7.1
+      7.1,
+      8.2
     ]
   },
   "Entebbe, Uganda": {
@@ -5886,9 +5976,9 @@
     ]
   },
   "Ksar El Kebir, Morocco": {
-    "mean_dist": 294.6,
+    "mean_dist": 280.2,
     "mean_time": 7.8,
-    "std_dist": 224.6,
+    "std_dist": 220.6,
     "std_time": 0.6,
     "admin": "Tanger-T\u00e9touan-Al Hoce\u00efma",
     "country": "Morocco",
@@ -5915,7 +6005,9 @@
       33.033,
       35.013,
       32.761,
-      34.541
+      34.541,
+      33.558,
+      34.311
     ],
     "lons": [
       "x",
@@ -5939,10 +6031,12 @@
       -8.161,
       -3.958,
       -4.313,
-      -4.128
+      -4.128,
+      -5.82,
+      -6.077
     ],
-    "mean_lat": 33.793,
-    "mean_lon": -5.085,
+    "mean_lat": 33.833,
+    "mean_lon": -5.332,
     "regions": [
       "New South Wales",
       "California",
@@ -5965,6 +6059,8 @@
       "Washington",
       "Uusimaa",
       "Uusimaa",
+      "Aargau",
+      "Utrecht",
       "Aargau"
     ],
     "countries": [
@@ -5989,6 +6085,8 @@
       "United States",
       "Finland",
       "Finland",
+      "Switzerland",
+      "Netherlands",
       "Switzerland"
     ],
     "dists": [
@@ -6013,7 +6111,9 @@
       303.1,
       177.6,
       291.1,
-      171.2
+      171.2,
+      162.7,
+      80.3
     ],
     "times": [
       8.2,
@@ -6037,7 +6137,9 @@
       5.9,
       7.4,
       8.4,
-      8.2
+      8.2,
+      7,
+      8.1
     ]
   },
   "Bauchi, Nigeria": {
@@ -6422,9 +6524,9 @@
     ]
   },
   "Maputo, Mozambique": {
-    "mean_dist": 547.1,
-    "mean_time": 7.3,
-    "std_dist": 819.4,
+    "mean_dist": 539.7,
+    "mean_time": 7.4,
+    "std_dist": 804.1,
     "std_time": 1.1,
     "city": "Maputo",
     "admin": "Maputo",
@@ -6468,7 +6570,9 @@
       8.112,
       -26.731,
       -26.148,
-      -25.311
+      -25.311,
+      -19.236,
+      -25.981
     ],
     "lons": [
       "x",
@@ -6509,10 +6613,12 @@
       20.728,
       32.717,
       31.882,
-      31.603
+      31.603,
+      34.357,
+      32.81
     ],
-    "mean_lat": -17.412,
-    "mean_lon": 32.105,
+    "mean_lat": -18.211,
+    "mean_lon": 32.333,
     "regions": [
       "New South Wales",
       "California",
@@ -6552,6 +6658,8 @@
       "Uusimaa",
       "Aargau",
       "Aargau",
+      "Aargau",
+      "North Rhine-Westphalia",
       "Aargau"
     ],
     "countries": [
@@ -6593,6 +6701,8 @@
       "Finland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
+      "Germany",
       "Switzerland"
     ],
     "dists": [
@@ -6634,7 +6744,9 @@
       3999.2,
       87.2,
       73.8,
-      122
+      122,
+      768.8,
+      22.3
     ],
     "times": [
       7.8,
@@ -6675,7 +6787,9 @@
       7.4,
       8.4,
       8.1,
-      8.4
+      8.4,
+      8.4,
+      8.5
     ]
   },
   "Brits, South Africa": {
@@ -7067,9 +7181,9 @@
     ]
   },
   "Mbanza-Ngungu, Congo (Kinshasa)": {
-    "mean_dist": 464.4,
+    "mean_dist": 454.9,
     "mean_time": 7.6,
-    "std_dist": 489.3,
+    "std_dist": 482.9,
     "std_time": 0.6,
     "city": "Mbanza-Ngungu",
     "admin": "Kongo Central",
@@ -7101,7 +7215,8 @@
       -4.028,
       -2.65,
       -7.742,
-      -4.575
+      -4.575,
+      -5.162
     ],
     "lons": [
       "x",
@@ -7130,10 +7245,11 @@
       18.403,
       20.552,
       27.328,
-      16.537
+      16.537,
+      16.661
     ],
-    "mean_lat": -4.581,
-    "mean_lon": 19.238,
+    "mean_lat": -4.678,
+    "mean_lon": 18.808,
     "regions": [
       "New South Wales",
       "Aargau",
@@ -7161,7 +7277,8 @@
       "Washington",
       "Washington",
       "Zurich",
-      "Connecticut"
+      "Connecticut",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -7190,7 +7307,8 @@
       "United States",
       "United States",
       "Switzerland",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       637.7,
@@ -7219,7 +7337,8 @@
       415.5,
       694.4,
       1404.9,
-      200.4
+      200.4,
+      199.7
     ],
     "times": [
       7.6,
@@ -7248,14 +7367,15 @@
       7.5,
       6.7,
       6.3,
-      7.9
+      7.9,
+      8
     ]
   },
   "Bo, Sierra Leone": {
-    "mean_dist": 715.6,
+    "mean_dist": 675,
     "mean_time": 7.4,
-    "std_dist": 1495.7,
-    "std_time": 0.9,
+    "std_dist": 1456.8,
+    "std_time": 0.8,
     "city": "Bo",
     "admin": "Southern",
     "country": "Sierra Leone",
@@ -7289,7 +7409,9 @@
       8.831,
       8.372,
       11.528,
-      -1.786
+      -1.786,
+      7.881,
+      8.464
     ],
     "lons": [
       "x",
@@ -7321,10 +7443,12 @@
       -11.924,
       -12.109,
       -14.472,
-      36.357
+      36.357,
+      -11.862,
+      -12.666
     ],
-    "mean_lat": 7.051,
-    "mean_lon": -4.177,
+    "mean_lat": 7.331,
+    "mean_lon": -6.199,
     "regions": [
       "New South Wales",
       "North Carolina",
@@ -7355,7 +7479,9 @@
       "Utrecht",
       "Aargau",
       "North Rhine-Westphalia",
-      "North Rhine-Westphalia"
+      "North Rhine-Westphalia",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -7387,7 +7513,9 @@
       "Netherlands",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       63.4,
@@ -7419,7 +7547,9 @@
       97.9,
       60.4,
       496.2,
-      5442.5
+      5442.5,
+      16.6,
+      115.8
     ],
     "times": [
       7.7,
@@ -7451,7 +7581,9 @@
       7.2,
       8.4,
       6.9,
-      7.6
+      7.6,
+      6.9,
+      8.2
     ]
   },
   "Luanda, Angola": {
@@ -9755,9 +9887,9 @@
     ]
   },
   "Butembo, Congo (Kinshasa)": {
-    "mean_dist": 968.3,
-    "mean_time": 6.7,
-    "std_dist": 516.7,
+    "mean_dist": 954.5,
+    "mean_time": 6.6,
+    "std_dist": 500.8,
     "std_time": 1.7,
     "admin": "Nord-Kivu",
     "country": "Congo (Kinshasa)",
@@ -9787,7 +9919,9 @@
       -9.677,
       -5.433,
       -11.231,
-      -4.297
+      -4.297,
+      8.301,
+      -5.717
     ],
     "lons": [
       "x",
@@ -9814,10 +9948,12 @@
       26.777,
       27.328,
       16.754,
-      14.65
+      14.65,
+      30.097,
+      28.819
     ],
-    "mean_lat": -6.44,
-    "mean_lon": 20.392,
+    "mean_lat": -4.507,
+    "mean_lon": 22.659,
     "regions": [
       "California",
       "California",
@@ -9843,7 +9979,9 @@
       "Utrecht",
       "Zurich",
       "South Holland",
-      "Connecticut"
+      "Connecticut",
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -9870,7 +10008,9 @@
       "Netherlands",
       "Switzerland",
       "Netherlands",
-      "United States"
+      "United States",
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       1494.1,
@@ -9897,7 +10037,9 @@
       1125.1,
       655.5,
       1873.8,
-      1698.1
+      1698.1,
+      913.1,
+      652.2
     ],
     "times": [
       3.8,
@@ -9924,7 +10066,9 @@
       4.5,
       7,
       5.6,
-      6.3
+      6.3,
+      4,
+      8.5
     ]
   },
   "Ouagadougou, Burkina Faso": {
@@ -11851,9 +11995,9 @@
     ]
   },
   "Sapele, Nigeria": {
-    "mean_dist": 414.9,
+    "mean_dist": 419.4,
     "mean_time": 7.8,
-    "std_dist": 303.2,
+    "std_dist": 292.6,
     "std_time": 0.7,
     "city": "Sapele",
     "admin": "Delta",
@@ -11871,7 +12015,8 @@
       6.99,
       8.112,
       6.199,
-      6.621
+      6.621,
+      9.565
     ],
     "lons": [
       "x",
@@ -11886,10 +12031,11 @@
       7.287,
       7.364,
       5.855,
-      8.772
+      8.772,
+      7.937
     ],
-    "mean_lat": 7.589,
-    "mean_lon": 7.275,
+    "mean_lat": 7.918,
+    "mean_lon": 7.385,
     "regions": [
       "Lombardy",
       "Aargau",
@@ -11903,7 +12049,8 @@
       "Uusimaa",
       "Uusimaa",
       "Bavaria",
-      "California"
+      "California",
+      "Aargau"
     ],
     "countries": [
       "Italy",
@@ -11918,7 +12065,8 @@
       "Finland",
       "Finland",
       "Germany",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       1073.8,
@@ -11933,7 +12081,8 @@
       215.6,
       309.2,
       39.4,
-      351.3
+      351.3,
+      478.4
     ],
     "times": [
       6.4,
@@ -11948,7 +12097,8 @@
       8.6,
       7.9,
       7.9,
-      8.4
+      8.4,
+      8.3
     ]
   },
   "Korhogo, C\u00f4te D\u2019Ivoire": {
@@ -13021,9 +13171,9 @@
     ]
   },
   "Katsina, Nigeria": {
-    "mean_dist": 768.4,
-    "mean_time": 6.9,
-    "std_dist": 723.9,
+    "mean_dist": 752.7,
+    "mean_time": 7,
+    "std_dist": 711.8,
     "std_time": 1.9,
     "admin": "Katsina",
     "country": "Nigeria",
@@ -13050,7 +13200,8 @@
       "x",
       9.816,
       7.275,
-      9.107
+      9.107,
+      9.474
     ],
     "lons": [
       "x",
@@ -13074,10 +13225,11 @@
       "x",
       6.941,
       5.207,
-      10.257
+      10.257,
+      6.545
     ],
-    "mean_lat": 8.732,
-    "mean_lon": 7.468,
+    "mean_lat": 8.918,
+    "mean_lon": 7.237,
     "regions": [
       "Thuringia",
       "\u00cele-de-France",
@@ -13100,6 +13252,7 @@
       "Aargau",
       "Washington",
       "Washington",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -13124,6 +13277,7 @@
       "Switzerland",
       "United States",
       "United States",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -13148,7 +13302,8 @@
       401.2,
       360.1,
       687.2,
-      520.1
+      520.1,
+      407.5
     ],
     "times": [
       1.7,
@@ -13172,7 +13327,8 @@
       8.8,
       3.7,
       7.6,
-      8.4
+      8.4,
+      8.3
     ]
   },
   "Nabeul, Tunisia": {
@@ -13654,10 +13810,10 @@
     ]
   },
   "Lusaka, Zambia": {
-    "mean_dist": 501.6,
+    "mean_dist": 495.6,
     "mean_time": 7,
-    "std_dist": 706.1,
-    "std_time": 1.7,
+    "std_dist": 698.2,
+    "std_time": 1.8,
     "city": "Lusaka",
     "admin": "Lusaka",
     "country": "Zambia",
@@ -13700,7 +13856,8 @@
       "x",
       "x",
       -14.223,
-      -14.583
+      -14.583,
+      -13.139
     ],
     "lons": [
       "x",
@@ -13741,10 +13898,11 @@
       "x",
       "x",
       29.005,
-      29.84
+      29.84,
+      28.912
     ],
-    "mean_lat": -14.403,
-    "mean_lon": 29.422,
+    "mean_lat": -13.981,
+    "mean_lon": 29.252,
     "regions": [
       "Thuringia",
       "\u00cele-de-France",
@@ -13784,6 +13942,7 @@
       "Prevalje",
       "Aargau",
       "California",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -13825,6 +13984,7 @@
       "Slovenia",
       "Switzerland",
       "United States",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -13866,7 +14026,8 @@
       1550.2,
       169,
       153.7,
-      191.1
+      191.1,
+      262.1
     ],
     "times": [
       7,
@@ -13907,7 +14068,8 @@
       2,
       7.3,
       8.4,
-      8.1
+      8.1,
+      4.2
     ]
   },
   "Garoua, Cameroon": {
@@ -14795,9 +14957,9 @@
     ]
   },
   "Dodoma, Tanzania": {
-    "mean_dist": 439.6,
-    "mean_time": 7.1,
-    "std_dist": 912.7,
+    "mean_dist": 420.6,
+    "mean_time": 7.2,
+    "std_dist": 884.7,
     "std_time": 1.1,
     "admin": "Dodoma",
     "country": "Tanzania",
@@ -14830,7 +14992,9 @@
       -6.264,
       -3.356,
       -8.3,
-      -7.924
+      -7.924,
+      -7.41,
+      -7.195
     ],
     "lons": [
       "x",
@@ -14860,10 +15024,12 @@
       35.412,
       34.438,
       33.738,
-      37.351
+      37.351,
+      36.213,
+      34.666
     ],
-    "mean_lat": -6.474,
-    "mean_lon": 35.158,
+    "mean_lat": -6.71,
+    "mean_lon": 35.238,
     "regions": [
       "Thuringia",
       "Mazovia",
@@ -14892,7 +15058,9 @@
       "Washington",
       "Washington",
       "Aargau",
-      "Utrecht"
+      "Utrecht",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "Germany",
@@ -14922,7 +15090,9 @@
       "United States",
       "United States",
       "Switzerland",
-      "Netherlands"
+      "Netherlands",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       4965.3,
@@ -14952,7 +15122,9 @@
       38.3,
       346.2,
       323.4,
-      262.1
+      262.1,
+      145.7,
+      164.2
     ],
     "times": [
       6.7,
@@ -14982,7 +15154,9 @@
       5.1,
       4.9,
       7.9,
-      4.8
+      4.8,
+      7.5,
+      8.5
     ]
   },
   "Sekondi, Ghana": {
@@ -15362,9 +15536,9 @@
     ]
   },
   "Gemena, Congo (Kinshasa)": {
-    "mean_dist": 1000.2,
+    "mean_dist": 1015.4,
     "mean_time": 7.2,
-    "std_dist": 328.1,
+    "std_dist": 329.3,
     "std_time": 1.7,
     "city": "Gemena",
     "admin": "Sud-Ubangi",
@@ -15392,7 +15566,8 @@
       "x",
       0.315,
       -4.655,
-      -4.421
+      -4.421,
+      -4.143
     ],
     "lons": [
       "x",
@@ -15417,10 +15592,11 @@
       "x",
       24.457,
       18.196,
-      16.29
+      16.29,
+      29.562
     ],
-    "mean_lat": -2.92,
-    "mean_lon": 19.647,
+    "mean_lat": -3.226,
+    "mean_lon": 22.126,
     "regions": [
       "\u00cele-de-France",
       "Alberta",
@@ -15444,6 +15620,7 @@
       "Colorado",
       "Aargau",
       "Washington",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -15469,6 +15646,7 @@
       "United States",
       "Switzerland",
       "United States",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -15494,7 +15672,8 @@
       630.6,
       615.2,
       897.3,
-      937.5
+      937.5,
+      1364.3
     ],
     "times": [
       5.8,
@@ -15519,7 +15698,8 @@
       6.7,
       7.6,
       6.2,
-      7.8
+      7.8,
+      8.5
     ]
   },
   "Abidjan, C\u00f4te D\u2019Ivoire": {
@@ -15929,9 +16109,9 @@
     ]
   },
   "Umtata, South Africa": {
-    "mean_dist": 561.6,
-    "mean_time": 7,
-    "std_dist": 172.4,
+    "mean_dist": 563.8,
+    "mean_time": 7.1,
+    "std_dist": 170.3,
     "std_time": 1.4,
     "city": "Umtata",
     "admin": "Eastern Cape",
@@ -15969,7 +16149,8 @@
       -27.599,
       -31.836,
       -30.73,
-      -32.661
+      -32.661,
+      -25.898
     ],
     "lons": [
       "x",
@@ -16004,10 +16185,11 @@
       29.84,
       22.322,
       21.039,
-      21.58
+      21.58,
+      29.376
     ],
-    "mean_lat": -30.915,
-    "mean_lon": 23.468,
+    "mean_lat": -30.601,
+    "mean_lon": 23.837,
     "regions": [
       "\u00cele-de-France",
       "Michigan",
@@ -16041,7 +16223,8 @@
       "North Holland",
       "Aargau",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "Aargau"
     ],
     "countries": [
       "France",
@@ -16076,7 +16259,8 @@
       "Netherlands",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       284.1,
@@ -16111,7 +16295,8 @@
       454,
       612.3,
       743.4,
-      689.3
+      689.3,
+      634.3
     ],
     "times": [
       6.7,
@@ -16146,7 +16331,8 @@
       1.5,
       8,
       7.6,
-      7.2
+      7.2,
+      8.3
     ]
   },
   "Lobito, Angola": {
@@ -17482,10 +17668,10 @@
     ]
   },
   "Kindia, Guinea": {
-    "mean_dist": 559.2,
+    "mean_dist": 555.4,
     "mean_time": 6.6,
-    "std_dist": 789.2,
-    "std_time": 1.6,
+    "std_dist": 773,
+    "std_time": 1.7,
     "admin": "Kindia",
     "country": "Guinea",
     "city": "Kindia",
@@ -17530,7 +17716,9 @@
       11.576,
       9.107,
       7.359,
-      14.443
+      14.443,
+      6.221,
+      10.755
     ],
     "lons": [
       "x",
@@ -17573,10 +17761,12 @@
       -11.738,
       -12.573,
       -0.044,
-      -13.584
+      -13.584,
+      -7.314,
+      -11.088
     ],
-    "mean_lat": 9.266,
-    "mean_lon": -6.735,
+    "mean_lat": 9.162,
+    "mean_lon": -7.063,
     "regions": [
       "\u00cele-de-France",
       "Michigan",
@@ -17618,7 +17808,9 @@
       "South Holland",
       "South Holland",
       "Auvergne-Rh\u00f4ne-Alpes",
-      "Auvergne-Rh\u00f4ne-Alpes"
+      "Auvergne-Rh\u00f4ne-Alpes",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "France",
@@ -17661,7 +17853,9 @@
       "Netherlands",
       "Netherlands",
       "France",
-      "France"
+      "France",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       77.2,
@@ -17704,7 +17898,9 @@
       209,
       110.8,
       1441.1,
-      493.5
+      493.5,
+      745.6,
+      209.5
     ],
     "times": [
       4.7,
@@ -17747,14 +17943,16 @@
       7.9,
       6.4,
       4.5,
-      6.8
+      6.8,
+      3.2,
+      8.1
     ]
   },
   "Benin City, Nigeria": {
-    "mean_dist": 279.0881558111443,
-    "mean_time": 7.233333333333341,
-    "std_dist": 145.13101586445117,
-    "std_time": 1.3902038219867807,
+    "mean_dist": 249.7,
+    "mean_time": 7.2,
+    "std_dist": 148.2,
+    "std_time": 1.2,
     "admin": "Edo",
     "country": "Nigeria",
     "city": "Benin City",
@@ -17768,7 +17966,9 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      5.758,
+      5.327
     ],
     "lons": [
       "x",
@@ -17780,10 +17980,12 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      5.307,
+      4.967
     ],
-    "mean_lat": 0,
-    "mean_lon": 0,
+    "mean_lat": 5.542,
+    "mean_lon": 5.137,
     "regions": [
       "\u00cele-de-France",
       "Michigan",
@@ -17794,6 +17996,8 @@
       "Baden-W\u00fcrttemberg",
       "Prevalje",
       "Prevalje",
+      "Aargau",
+      "North Rhine-Westphalia",
       "Aargau"
     ],
     "countries": [
@@ -17806,6 +18010,8 @@
       "Germany",
       "Slovenia",
       "Slovenia",
+      "Switzerland",
+      "Germany",
       "Switzerland"
     ],
     "dists": [
@@ -17818,7 +18024,9 @@
       121.5,
       87.5,
       458.7,
-      518.9
+      518.9,
+      73.3,
+      133.8
     ],
     "times": [
       7.3,
@@ -17830,7 +18038,9 @@
       8.3,
       6.9,
       6.8,
-      8.2
+      8.2,
+      7.5,
+      7.8
     ]
   },
   "Tanga, Tanzania": {
@@ -18449,10 +18659,10 @@
     ]
   },
   "Mbale, Uganda": {
-    "mean_dist": 304.2,
+    "mean_dist": 299.3,
     "mean_time": 6.8,
-    "std_dist": 263.5,
-    "std_time": 1.6,
+    "std_dist": 259,
+    "std_time": 1.7,
     "admin": "Mbale",
     "country": "Uganda",
     "city": "Mbale",
@@ -18484,7 +18694,9 @@
       1.288,
       -4.237,
       -0.05,
-      1.368
+      1.368,
+      0.005,
+      0.965
     ],
     "lons": [
       "x",
@@ -18514,10 +18726,12 @@
       31.746,
       30.561,
       30.669,
-      33.243
+      33.243,
+      30.737,
+      33.645
     ],
-    "mean_lat": -0.225,
-    "mean_lon": 31.972,
+    "mean_lat": -0.022,
+    "mean_lon": 32.035,
     "regions": [
       "\u00cele-de-France",
       "Michigan",
@@ -18546,7 +18760,9 @@
       "Washington",
       "Washington",
       "Zurich",
-      "Connecticut"
+      "Connecticut",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "France",
@@ -18576,7 +18792,9 @@
       "United States",
       "United States",
       "Switzerland",
-      "United States"
+      "United States",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       393.1,
@@ -18606,7 +18824,9 @@
       270.2,
       715.3,
       409.3,
-      107.5
+      107.5,
+      400.2,
+      59.9
     ],
     "times": [
       5.4,
@@ -18636,7 +18856,9 @@
       6.9,
       4.5,
       8.3,
-      8.2
+      8.2,
+      3.5,
+      8.3
     ]
   },
   "Kananga, Congo (Kinshasa)": {
@@ -19428,9 +19650,9 @@
     ]
   },
   "Koforidua, Ghana": {
-    "mean_dist": 488.3,
+    "mean_dist": 465.1,
     "mean_time": 7.4,
-    "std_dist": 753.2,
+    "std_dist": 733.8,
     "std_time": 0.7,
     "admin": "Eastern",
     "country": "Ghana",
@@ -19464,7 +19686,9 @@
       5.811,
       11.444,
       5.882,
-      6.528
+      6.528,
+      6.775,
+      6.066
     ],
     "lons": [
       "x",
@@ -19495,10 +19719,12 @@
       0.212,
       13.176,
       -1.343,
-      -0.415
+      -0.415,
+      -1.189,
+      -1.436
     ],
-    "mean_lat": 7.076,
-    "mean_lon": -1.513,
+    "mean_lat": 6.982,
+    "mean_lon": -1.485,
     "regions": [
       "California",
       "Aargau",
@@ -19528,6 +19754,8 @@
       "Styria",
       "Styria",
       "Aargau",
+      "Aargau",
+      "North Rhine-Westphalia",
       "Aargau"
     ],
     "countries": [
@@ -19559,6 +19787,8 @@
       "Austria",
       "Austria",
       "Switzerland",
+      "Switzerland",
+      "Germany",
       "Switzerland"
     ],
     "dists": [
@@ -19590,7 +19820,9 @@
       60.7,
       1591.5,
       122,
-      51.7
+      51.7,
+      127.8,
+      130.1
     ],
     "times": [
       8.3,
@@ -19621,7 +19853,9 @@
       7.2,
       6.7,
       8.1,
-      7.6
+      7.6,
+      6.4,
+      8.4
     ]
   },
   "Sabh\u0101, Libya": {
@@ -21339,9 +21573,9 @@
     ]
   },
   "Wad Medani, Sudan": {
-    "mean_dist": 382.2,
-    "mean_time": 7.3,
-    "std_dist": 240.6,
+    "mean_dist": 482.2,
+    "mean_time": 7.1,
+    "std_dist": 472.7,
     "std_time": 1.4,
     "admin": "Al Gazira",
     "country": "Sudan",
@@ -21371,7 +21605,11 @@
       15.909,
       7.099,
       15.64,
-      15.102
+      15.102,
+      15.73,
+      2.916,
+      34.617,
+      15.909
     ],
     "lons": [
       "x",
@@ -21398,10 +21636,14 @@
       32.439,
       32.051,
       32.532,
-      27.798
+      27.798,
+      31.047,
+      43.112,
+      38.1,
+      32.996
     ],
-    "mean_lat": 13.437,
-    "mean_lon": 31.205,
+    "mean_lat": 15.365,
+    "mean_lon": 33.759,
     "regions": [
       "California",
       "Aargau",
@@ -21427,6 +21669,10 @@
       "Aargau",
       "Uusimaa",
       "Uusimaa",
+      "Aargau",
+      "North Rhine-Westphalia",
+      "North Rhine-Westphalia",
+      "Stockholm",
       "Aargau"
     ],
     "countries": [
@@ -21454,6 +21700,10 @@
       "Switzerland",
       "Finland",
       "Finland",
+      "Switzerland",
+      "Germany",
+      "Germany",
+      "Sweden",
       "Switzerland"
     ],
     "dists": [
@@ -21481,7 +21731,11 @@
       203.9,
       827.4,
       174,
-      620.1
+      620.1,
+      303.9,
+      1654.7,
+      2294.6,
+      176.9
     ],
     "times": [
       8.4,
@@ -21508,7 +21762,11 @@
       8.4,
       7.2,
       8.2,
-      8.2
+      8.2,
+      6.6,
+      4.7,
+      5,
+      8.3
     ]
   },
   "Baidoa, Somalia": {
@@ -21757,9 +22015,9 @@
     ]
   },
   "Al \u2018Ar\u012bsh, Egypt": {
-    "mean_dist": 356.7,
-    "mean_time": 7.6,
-    "std_dist": 471.7,
+    "mean_dist": 357.6,
+    "mean_time": 7.7,
+    "std_dist": 464.3,
     "std_time": 1.3,
     "admin": "Sham\u0101l S\u012bn\u0101\u2019",
     "country": "Egypt",
@@ -21795,7 +22053,8 @@
       30.252,
       29.47,
       34.273,
-      30.466
+      30.466,
+      28.279
     ],
     "lons": [
       "x",
@@ -21828,10 +22087,11 @@
       33.119,
       30.988,
       3.667,
-      31.975
+      31.975,
+      31.511
     ],
-    "mean_lat": 29.534,
-    "mean_lon": 27.613,
+    "mean_lat": 29.377,
+    "mean_lon": 28.1,
     "regions": [
       "California",
       "Aargau",
@@ -21863,6 +22123,7 @@
       "Connecticut",
       "Berlin",
       "Berlin",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -21896,6 +22157,7 @@
       "United States",
       "Germany",
       "Germany",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -21929,7 +22191,8 @@
       116.8,
       326.7,
       2830.8,
-      189.1
+      189.1,
+      385.9
     ],
     "times": [
       8.7,
@@ -21962,6 +22225,7 @@
       7.3,
       3.9,
       2.7,
+      8.5,
       8.5
     ]
   },
@@ -22289,10 +22553,10 @@
     ]
   },
   "Tobruk, Libya": {
-    "mean_dist": 723.8,
-    "mean_time": 7.3,
-    "std_dist": 392.3,
-    "std_time": 1.1,
+    "mean_dist": 799,
+    "mean_time": 6.7,
+    "std_dist": 452.5,
+    "std_time": 1.9,
     "admin": "Al Bu\u0163n\u0101n",
     "country": "Libya",
     "city": "Tobruk",
@@ -22318,7 +22582,12 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      30.626,
+      28.524,
+      33.694,
+      32.291,
+      36.208
     ],
     "lons": [
       "x",
@@ -22342,10 +22611,15 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      18.146,
+      17.403,
+      9.607,
+      14.433,
+      1.811
     ],
-    "mean_lat": 0,
-    "mean_lon": 0,
+    "mean_lat": 32.268,
+    "mean_lon": 12.28,
     "regions": [
       "California",
       "California",
@@ -22368,7 +22642,12 @@
       "Aargau",
       "Bavaria",
       "Hesse",
-      "\u00d6sterg\u00f6tland"
+      "\u00d6sterg\u00f6tland",
+      "North Rhine-Westphalia",
+      "North Rhine-Westphalia",
+      "Stockholm",
+      "Aargau",
+      "North Rhine-Westphalia"
     ],
     "countries": [
       "United States",
@@ -22392,7 +22671,12 @@
       "Switzerland",
       "Germany",
       "Germany",
-      "Sweden"
+      "Sweden",
+      "Germany",
+      "Germany",
+      "Sweden",
+      "Switzerland",
+      "Germany"
     ],
     "dists": [
       809.3,
@@ -22416,7 +22700,12 @@
       863.3,
       309,
       811.5,
-      58.7
+      58.7,
+      575.1,
+      743,
+      1350.9,
+      896.4,
+      2084.3
     ],
     "times": [
       7.3,
@@ -22440,7 +22729,12 @@
       8.1,
       8.1,
       7.7,
-      3.4
+      3.4,
+      5.2,
+      3.3,
+      2.1,
+      8,
+      1.7
     ]
   },
   "Nyanza, Rwanda": {
@@ -23340,9 +23634,9 @@
     ]
   },
   "Douala, Cameroon": {
-    "mean_dist": 423.8,
+    "mean_dist": 427.3,
     "mean_time": 7,
-    "std_dist": 614.6,
+    "std_dist": 599.1,
     "std_time": 1.7,
     "admin": "Littoral",
     "country": "Cameroon",
@@ -23380,7 +23674,9 @@
       5.049,
       3.473,
       6.942,
-      8.408
+      8.408,
+      4.308,
+      -2.194
     ],
     "lons": [
       "x",
@@ -23415,10 +23711,12 @@
       12.577,
       9.607,
       -10.946,
-      -0.024
+      -0.024,
+      12.175,
+      9.793
     ],
-    "mean_lat": 5.545,
-    "mean_lon": 5.798,
+    "mean_lat": 4.547,
+    "mean_lon": 6.951,
     "regions": [
       "California",
       "New York",
@@ -23452,7 +23750,9 @@
       "Washington",
       "Aargau",
       "North Rhine-Westphalia",
-      "North Rhine-Westphalia"
+      "North Rhine-Westphalia",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -23487,7 +23787,9 @@
       "United States",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       166.7,
@@ -23522,7 +23824,9 @@
       336.3,
       66.2,
       2308.2,
-      1179.3
+      1179.3,
+      274.8,
+      695.5
     ],
     "times": [
       8.1,
@@ -23557,14 +23861,16 @@
       2.5,
       8.1,
       6.7,
-      7.8
+      7.8,
+      4.9,
+      8.5
     ]
   },
   "Wau, South Sudan": {
-    "mean_dist": 411.9,
-    "mean_time": 7.2,
-    "std_dist": 336.6,
-    "std_time": 0.9,
+    "mean_dist": 425.7,
+    "mean_time": 7.3,
+    "std_dist": 338.1,
+    "std_time": 0.8,
     "admin": "Western Bahr el Ghazal",
     "country": "South Sudan",
     "city": "Wau",
@@ -23600,7 +23906,9 @@
       "x",
       "x",
       7.587,
-      12.303
+      12.303,
+      15.879,
+      7.451
     ],
     "lons": [
       "x",
@@ -23634,10 +23942,12 @@
       "x",
       "x",
       30.261,
-      33.831
+      33.831,
+      29.623,
+      31.325
     ],
-    "mean_lat": 9.945,
-    "mean_lon": 32.046,
+    "mean_lat": 10.805,
+    "mean_lon": 31.26,
     "regions": [
       "California",
       "California",
@@ -23670,6 +23980,8 @@
       "Aargau",
       "Aargau",
       "Washington",
+      "Aargau",
+      "North Rhine-Westphalia",
       "Aargau"
     ],
     "countries": [
@@ -23704,6 +24016,8 @@
       "Switzerland",
       "Switzerland",
       "United States",
+      "Switzerland",
+      "Germany",
       "Switzerland"
     ],
     "dists": [
@@ -23738,7 +24052,9 @@
       525.5,
       322.3,
       250.6,
-      819.1
+      819.1,
+      926.6,
+      368.6
     ],
     "times": [
       8.5,
@@ -23772,7 +24088,9 @@
       8.3,
       7.2,
       6.7,
-      8.2
+      8.2,
+      7.6,
+      8.1
     ]
   },
   "Shib\u012bn al Kawm, Egypt": {
@@ -25765,9 +26083,9 @@
     ]
   },
   "Maxixe, Mozambique": {
-    "mean_dist": 751.4,
-    "mean_time": 6.9,
-    "std_dist": 809.4,
+    "mean_dist": 734.8,
+    "mean_time": 7,
+    "std_dist": 793.9,
     "std_time": 1.4,
     "admin": "Inhambane",
     "country": "Mozambique",
@@ -25813,7 +26131,9 @@
       -17.176,
       -19.907,
       8.845,
-      3.798
+      3.798,
+      -20.024,
+      -25.563
     ],
     "lons": [
       "x",
@@ -25856,10 +26176,12 @@
       34.109,
       34.573,
       25.183,
-      34.481
+      34.481,
+      34.171,
+      32.532
     ],
-    "mean_lat": -14.407,
-    "mean_lon": 33.665,
+    "mean_lat": -15.338,
+    "mean_lon": 33.63,
     "regions": [
       "California",
       "Aargau",
@@ -25901,7 +26223,9 @@
       "Utrecht",
       "Aargau",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -25944,7 +26268,9 @@
       "Netherlands",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       403.8,
@@ -25987,7 +26313,9 @@
       755.6,
       448,
       3802.5,
-      3077.6
+      3077.6,
+      445.2,
+      344.7
     ],
     "times": [
       8.1,
@@ -26030,7 +26358,9 @@
       5.4,
       7.9,
       3.6,
-      5.9
+      5.9,
+      8,
+      8.3
     ]
   },
   "Agadir, Morocco": {
@@ -26207,9 +26537,9 @@
     ]
   },
   "Uitenhage, South Africa": {
-    "mean_dist": 555.4,
+    "mean_dist": 559,
     "mean_time": 7.6,
-    "std_dist": 295,
+    "std_dist": 291.9,
     "std_time": 0.7,
     "admin": "Eastern Cape",
     "country": "South Africa",
@@ -26251,7 +26581,8 @@
       -28.2,
       -26.815,
       -32.779,
-      -28.161
+      -28.161,
+      -27.64
     ],
     "lons": [
       "x",
@@ -26290,10 +26621,11 @@
       25.09,
       28.148,
       19.631,
-      22.611
+      22.611,
+      26.684
     ],
-    "mean_lat": -29.16,
-    "mean_lon": 24.514,
+    "mean_lat": -28.942,
+    "mean_lon": 24.824,
     "regions": [
       "California",
       "Ontario",
@@ -26331,7 +26663,8 @@
       "Uusimaa",
       "Washington",
       "Auvergne-Rh\u00f4ne-Alpes",
-      "Auvergne-Rh\u00f4ne-Alpes"
+      "Auvergne-Rh\u00f4ne-Alpes",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -26370,7 +26703,8 @@
       "Finland",
       "United States",
       "France",
-      "France"
+      "France",
+      "Switzerland"
     ],
     "dists": [
       418.7,
@@ -26409,7 +26743,8 @@
       618.7,
       816.2,
       546.2,
-      676.4
+      676.4,
+      691.5
     ],
     "times": [
       8.2,
@@ -26448,7 +26783,8 @@
       7.9,
       6.8,
       6.7,
-      7.9
+      7.9,
+      8.3
     ]
   },
   "Mbandaka, Congo (Kinshasa)": {
@@ -29032,9 +29368,9 @@
     ]
   },
   "Mopti, Mali": {
-    "mean_dist": 455.2,
+    "mean_dist": 443.8,
     "mean_time": 6.9,
-    "std_dist": 561.1,
+    "std_dist": 547.7,
     "std_time": 1.1,
     "admin": "Mopti",
     "country": "Mali",
@@ -29074,7 +29410,9 @@
       13.125,
       16.355,
       13.035,
-      -3.493
+      -3.493,
+      13.361,
+      12.938
     ],
     "lons": [
       "x",
@@ -29111,10 +29449,12 @@
       -9.424,
       -3.478,
       -6.64,
-      11.371
+      11.371,
+      -6.2,
+      -5.705
     ],
-    "mean_lat": 12.565,
-    "mean_lon": -0.714,
+    "mean_lat": 12.671,
+    "mean_lon": -1.666,
     "regions": [
       "California",
       "California",
@@ -29150,7 +29490,9 @@
       "Zurich",
       "Utrecht",
       "Zurich",
-      "South Holland"
+      "South Holland",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -29187,7 +29529,9 @@
       "Switzerland",
       "Netherlands",
       "Switzerland",
-      "Netherlands"
+      "Netherlands",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       684,
@@ -29224,7 +29568,9 @@
       586.2,
       220.6,
       311,
-      2633.6
+      2633.6,
+      251.6,
+      238.5
     ],
     "times": [
       6,
@@ -29261,7 +29607,9 @@
       7.6,
       6.9,
       7.6,
-      6
+      6,
+      8,
+      8
     ]
   },
   "Sam\u0101l\u016b\u0163, Egypt": {
@@ -31201,9 +31549,9 @@
     ]
   },
   "Lichinga, Mozambique": {
-    "mean_dist": 702.1,
+    "mean_dist": 725.6,
     "mean_time": 7.5,
-    "std_dist": 276.8,
+    "std_dist": 298.2,
     "std_time": 0.8,
     "admin": "Niassa",
     "country": "Mozambique",
@@ -31236,7 +31584,9 @@
       "x",
       "x",
       -17.708,
-      -15.528
+      -15.528,
+      -25.878,
+      -19.294
     ],
     "lons": [
       "x",
@@ -31266,10 +31616,12 @@
       "x",
       "x",
       34.016,
-      38.429
+      38.429,
+      32.139,
+      34.295
     ],
-    "mean_lat": -16.618,
-    "mean_lon": 36.222,
+    "mean_lat": -19.602,
+    "mean_lon": 34.719,
     "regions": [
       "California",
       "California",
@@ -31298,7 +31650,9 @@
       "Aargau",
       "Uusimaa",
       "Aargau",
-      "Washington"
+      "Washington",
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -31328,7 +31682,9 @@
       "Switzerland",
       "Finland",
       "Switzerland",
-      "United States"
+      "United States",
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       458.6,
@@ -31358,7 +31714,9 @@
       541.4,
       184.5,
       507.3,
-      423.4
+      423.4,
+      1435.6,
+      674.1
     ],
     "times": [
       7.5,
@@ -31388,7 +31746,9 @@
       8.2,
       7.6,
       8.5,
-      5.7
+      5.7,
+      6.9,
+      8.3
     ]
   },
   "Praia, Cabo Verde": {
@@ -33284,9 +33644,9 @@
     ]
   },
   "Blida, Algeria": {
-    "mean_dist": 193.5,
+    "mean_dist": 190.3,
     "mean_time": 7.8,
-    "std_dist": 111.9,
+    "std_dist": 107.1,
     "std_time": 1.1,
     "admin": "Blida",
     "country": "Algeria",
@@ -33303,7 +33663,9 @@
       "x",
       "x",
       36.133,
-      34.464
+      34.464,
+      36.333,
+      35.682
     ],
     "lons": [
       "x",
@@ -33317,10 +33679,12 @@
       "x",
       "x",
       4.41,
-      -0.044
+      -0.044,
+      1.688,
+      5.338
     ],
-    "mean_lat": 35.298,
-    "mean_lon": 2.183,
+    "mean_lat": 35.653,
+    "mean_lon": 2.848,
     "regions": [
       "New South Wales",
       "Aargau",
@@ -33333,6 +33697,8 @@
       "Aargau",
       "Aargau",
       "Aargau",
+      "Aargau",
+      "North Rhine-Westphalia",
       "Aargau"
     ],
     "countries": [
@@ -33347,6 +33713,8 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
+      "Germany",
       "Switzerland"
     ],
     "dists": [
@@ -33361,7 +33729,9 @@
       324.7,
       352.2,
       145.2,
-      339.2
+      339.2,
+      102.6,
+      239.9
     ],
     "times": [
       7.5,
@@ -33375,7 +33745,9 @@
       8.4,
       7.6,
       8.5,
-      8.6
+      8.6,
+      7.9,
+      8.3
     ]
   },
   "Potchefstroom, South Africa": {
@@ -34012,10 +34384,10 @@
     ]
   },
   "Bok\u00e9, Guinea": {
-    "mean_dist": 1237.4,
-    "mean_time": 6.8,
-    "std_dist": 1814.4,
-    "std_time": 1.2,
+    "mean_dist": 1234.5,
+    "mean_time": 6.9,
+    "std_dist": 1763.1,
+    "std_time": 1.1,
     "admin": "Bok\u00e9",
     "country": "Guinea",
     "city": "Bok\u00e9",
@@ -34049,7 +34421,9 @@
       13.67,
       10.023,
       4.03,
-      26.519
+      26.519,
+      10.502,
+      10.023
     ],
     "lons": [
       "x",
@@ -34081,10 +34455,12 @@
       -15.55,
       -10.16,
       10.35,
-      45.37
+      45.37,
+      2.068,
+      -8.954
     ],
-    "mean_lat": 13.965,
-    "mean_lon": 0.026,
+    "mean_lat": 13.039,
+    "mean_lon": -0.84,
     "regions": [
       "New South Wales",
       "Aargau",
@@ -34115,7 +34491,9 @@
       "Washington",
       "Aargau",
       "Auvergne-Rh\u00f4ne-Alpes",
-      "Auvergne-Rh\u00f4ne-Alpes"
+      "Auvergne-Rh\u00f4ne-Alpes",
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -34147,7 +34525,9 @@
       "United States",
       "Switzerland",
       "France",
-      "France"
+      "France",
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       185.6,
@@ -34179,7 +34559,9 @@
       332.6,
       463.8,
       2822.1,
-      6460.9
+      6460.9,
+      1788.7,
+      593.2
     ],
     "times": [
       7.8,
@@ -34211,7 +34593,9 @@
       6.5,
       8,
       4.8,
-      6.5
+      6.5,
+      6.8,
+      8.1
     ]
   },
   "Kindu, Congo (Kinshasa)": {
@@ -35123,9 +35507,9 @@
     ]
   },
   "Al Khums, Libya": {
-    "mean_dist": 418.6,
+    "mean_dist": 410.4,
     "mean_time": 7.5,
-    "std_dist": 556.8,
+    "std_dist": 550.9,
     "std_time": 1.1,
     "admin": "Al Marqab",
     "country": "Libya",
@@ -35164,7 +35548,8 @@
       "x",
       "x",
       31.897,
-      30.344
+      30.344,
+      31.818
     ],
     "lons": [
       "x",
@@ -35200,10 +35585,11 @@
       "x",
       "x",
       14.248,
-      17.268
+      17.268,
+      15.269
     ],
-    "mean_lat": 31.12,
-    "mean_lon": 15.758,
+    "mean_lat": 31.352,
+    "mean_lon": 15.594,
     "regions": [
       "Oregon",
       "Oregon",
@@ -35238,7 +35624,8 @@
       "Hesse",
       "\u00d6sterg\u00f6tland",
       "Aargau",
-      "Washington"
+      "Washington",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -35274,7 +35661,8 @@
       "Germany",
       "Sweden",
       "Switzerland",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       2291.7,
@@ -35310,7 +35698,8 @@
       709.5,
       138.7,
       84.7,
-      384.2
+      384.2,
+      133.2
     ],
     "times": [
       1.9,
@@ -35346,7 +35735,8 @@
       7.3,
       5.7,
       8,
-      6.8
+      6.8,
+      8.3
     ]
   },
   "Gandajika, Congo (Kinshasa)": {
@@ -35738,9 +36128,9 @@
     ]
   },
   "Mwanza, Tanzania": {
-    "mean_dist": 797.3,
-    "mean_time": 7.6,
-    "std_dist": 721.9,
+    "mean_dist": 780.2,
+    "mean_time": 7.7,
+    "std_dist": 693.8,
     "std_time": 0.7,
     "admin": "Mwanza",
     "country": "Tanzania",
@@ -35767,7 +36157,9 @@
       "x",
       "x",
       -4.311,
-      -9.86
+      -9.86,
+      -7.041,
+      -7.103
     ],
     "lons": [
       "x",
@@ -35791,10 +36183,12 @@
       "x",
       "x",
       33.722,
-      40.049
+      40.049,
+      36.863,
+      33.831
     ],
-    "mean_lat": -7.085,
-    "mean_lon": 36.885,
+    "mean_lat": -7.078,
+    "mean_lon": 36.116,
     "regions": [
       "Oregon",
       "Oregon",
@@ -35817,7 +36211,9 @@
       "Prevalje",
       "Prevalje",
       "Uusimaa",
-      "Uusimaa"
+      "Uusimaa",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -35841,7 +36237,9 @@
       "Slovenia",
       "Slovenia",
       "Finland",
-      "Finland"
+      "Finland",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       3303.7,
@@ -35865,7 +36263,9 @@
       1365.8,
       1456.8,
       217.7,
-      1133.5
+      1133.5,
+      665.2,
+      519.2
     ],
     "times": [
       8.5,
@@ -35889,13 +36289,15 @@
       6.2,
       5.9,
       7.5,
-      8.2
+      8.2,
+      7.4,
+      8.5
     ]
   },
   "Accra, Ghana": {
-    "mean_dist": 1667,
+    "mean_dist": 1636.8,
     "mean_time": 6.2,
-    "std_dist": 2064.9,
+    "std_dist": 2055.7,
     "std_time": 2.1,
     "admin": "Greater Accra",
     "country": "Ghana",
@@ -35950,7 +36352,8 @@
       6.436,
       7.728,
       5.98,
-      7.174
+      7.174,
+      5.789
     ],
     "lons": [
       "x",
@@ -36002,10 +36405,11 @@
       -1.807,
       -1.436,
       -0.885,
-      -4.777
+      -4.777,
+      -1.343
     ],
-    "mean_lat": 1.361,
-    "mean_lon": 5.969,
+    "mean_lat": 1.993,
+    "mean_lon": 4.924,
     "regions": [
       "California",
       "California",
@@ -36056,7 +36460,8 @@
       "Aargau",
       "Utrecht",
       "Zurich",
-      "South Holland"
+      "South Holland",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -36108,7 +36513,8 @@
       "Switzerland",
       "Netherlands",
       "Switzerland",
-      "Netherlands"
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       133.3,
@@ -36160,7 +36566,8 @@
       201.6,
       277.1,
       88.1,
-      535.4
+      535.4,
+      127.5
     ],
     "times": [
       8.4,
@@ -36212,7 +36619,8 @@
       8.2,
       6.5,
       6.9,
-      7
+      7,
+      8.1
     ]
   },
   "Touggourt, Algeria": {
@@ -36610,9 +37018,9 @@
     ]
   },
   "Osogbo, Nigeria": {
-    "mean_dist": 529.5,
-    "mean_time": 6.4,
-    "std_dist": 920.8,
+    "mean_dist": 501.8,
+    "mean_time": 6.5,
+    "std_dist": 895.6,
     "std_time": 2.2,
     "admin": "Osun",
     "country": "Nigeria",
@@ -36631,7 +37039,8 @@
       7.587,
       9.29,
       7.635,
-      8.47
+      8.47,
+      7.082
     ],
     "lons": [
       "x",
@@ -36647,10 +37056,11 @@
       5.667,
       4.781,
       6.73,
-      7.002
+      7.002,
+      5.338
     ],
-    "mean_lat": 8.398,
-    "mean_lon": 6.276,
+    "mean_lat": 8.21,
+    "mean_lon": 6.142,
     "regions": [
       "Mazovia",
       "Aargau",
@@ -36665,7 +37075,8 @@
       "Washington",
       "South Holland",
       "South Holland",
-      "Zurich"
+      "Zurich",
+      "Aargau"
     ],
     "countries": [
       "Poland",
@@ -36681,6 +37092,7 @@
       "United States",
       "Netherlands",
       "Netherlands",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -36697,7 +37109,8 @@
       123.6,
       170.8,
       239.6,
-      279.9
+      279.9,
+      114.9
     ],
     "times": [
       8.2,
@@ -36713,7 +37126,8 @@
       6.4,
       2.7,
       7,
-      7.9
+      7.9,
+      8.3
     ]
   },
   "Lubango, Angola": {
@@ -37206,9 +37620,9 @@
     ]
   },
   "Gedaref, Sudan": {
-    "mean_dist": 671.8,
+    "mean_dist": 663.8,
     "mean_time": 7.3,
-    "std_dist": 621.7,
+    "std_dist": 600.4,
     "std_time": 0.8,
     "admin": "Al Gedaref",
     "country": "Sudan",
@@ -37239,7 +37653,9 @@
       13.321,
       18.268,
       14.246,
-      29.126
+      29.126,
+      18.944,
+      17.954
     ],
     "lons": [
       "x",
@@ -37267,10 +37683,12 @@
       32.232,
       34.708,
       28.962,
-      23.92
+      23.92,
+      31.953,
+      33.924
     ],
-    "mean_lat": 17.279,
-    "mean_lon": 30.953,
+    "mean_lat": 17.539,
+    "mean_lon": 31.394,
     "regions": [
       "New South Wales",
       "Aargau",
@@ -37297,7 +37715,9 @@
       "Styria",
       "Styria",
       "North Rhine-Westphalia",
-      "North Rhine-Westphalia"
+      "North Rhine-Westphalia",
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -37325,7 +37745,9 @@
       "Austria",
       "Austria",
       "Germany",
-      "Germany"
+      "Germany",
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       1191.3,
@@ -37353,7 +37775,9 @@
       349.3,
       475.6,
       692.3,
-      2050.7
+      2050.7,
+      656.3,
+      462.2
     ],
     "times": [
       8.1,
@@ -37381,7 +37805,9 @@
       6.8,
       6.3,
       7.6,
-      8.4
+      8.4,
+      7.1,
+      8.2
     ]
   },
   "Middelburg, South Africa": {
@@ -39027,10 +39453,10 @@
     ]
   },
   "Abengourou, C\u00f4te D\u2019Ivoire": {
-    "mean_dist": 358.8,
-    "mean_time": 7.3,
-    "std_dist": 649.7,
-    "std_time": 1.6,
+    "mean_dist": 527.2,
+    "mean_time": 6.9,
+    "std_dist": 880.4,
+    "std_time": 2,
     "city": "Abengourou",
     "admin": "Como\u00e9",
     "country": "C\u00f4te D\u2019Ivoire",
@@ -39066,7 +39492,12 @@
       6.99,
       6.19,
       6.181,
-      6.251
+      6.251,
+      5.789,
+      6.528,
+      15.73,
+      6.528,
+      25.879
     ],
     "lons": [
       "x",
@@ -39100,10 +39531,15 @@
       -6.077,
       -5.303,
       -5.17,
-      -5.427
+      -5.427,
+      -5.334,
+      28.448,
+      -15.636,
+      -4.777,
+      8.215
     ],
-    "mean_lat": 3.516,
-    "mean_lon": -2.87,
+    "mean_lat": 6.374,
+    "mean_lon": -1.185,
     "regions": [
       "Aargau",
       "Aargau",
@@ -39136,7 +39572,12 @@
       "Aargau",
       "Connecticut",
       "Styria",
-      "Aargau"
+      "Aargau",
+      "North Rhine-Westphalia",
+      "North Rhine-Westphalia",
+      "Stockholm",
+      "Aargau",
+      "North Rhine-Westphalia"
     ],
     "countries": [
       "Switzerland",
@@ -39170,7 +39611,12 @@
       "Switzerland",
       "United States",
       "Austria",
-      "Switzerland"
+      "Switzerland",
+      "Germany",
+      "Germany",
+      "Sweden",
+      "Switzerland",
+      "Germany"
     ],
     "dists": [
       285.7,
@@ -39204,7 +39650,12 @@
       287,
       209.2,
       195.4,
-      220.5
+      220.5,
+      229.1,
+      3527,
+      1658.9,
+      143.9,
+      2464.9
     ],
     "times": [
       7.4,
@@ -39238,7 +39689,12 @@
       8.5,
       7.2,
       6.7,
-      8.1
+      8.1,
+      1.9,
+      1.6,
+      3.4,
+      8,
+      9.3
     ]
   },
   "Biskra, Algeria": {
@@ -39636,10 +40092,10 @@
     ]
   },
   "Tukuyu, Tanzania": {
-    "mean_dist": 1013.9,
-    "mean_time": 6.6,
-    "std_dist": 1472.6,
-    "std_time": 2,
+    "mean_dist": 927.7,
+    "mean_time": 6.8,
+    "std_dist": 1384.6,
+    "std_time": 1.9,
     "admin": "Mbeya",
     "country": "Tanzania",
     "city": "Tukuyu",
@@ -39668,7 +40124,11 @@
       -5.51,
       34.394,
       -9.035,
-      -2.177
+      -2.177,
+      -12.263,
+      -6.364,
+      -10.714,
+      -6.826
     ],
     "lons": [
       "x",
@@ -39695,10 +40155,14 @@
       34.761,
       9.621,
       38.471,
-      24.441
+      24.441,
+      37.327,
+      31.418,
+      36.399,
+      32.81
     ],
-    "mean_lat": 4.418,
-    "mean_lon": 26.823,
+    "mean_lat": -2.311,
+    "mean_lon": 30.656,
     "regions": [
       "Florida",
       "Aargau",
@@ -39724,7 +40188,11 @@
       "Washington",
       "Washington",
       "Uusimaa",
-      "Uusimaa"
+      "Uusimaa",
+      "North Rhine-Westphalia",
+      "Aargau",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -39751,7 +40219,11 @@
       "United States",
       "United States",
       "Finland",
-      "Finland"
+      "Finland",
+      "Germany",
+      "Switzerland",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       386.2,
@@ -39778,7 +40250,11 @@
       433.7,
       5473.3,
       530.9,
-      1285.6
+      1285.6,
+      523.9,
+      403.4,
+      343.2,
+      284.5
     ],
     "times": [
       7.6,
@@ -39805,7 +40281,11 @@
       2.7,
       7.1,
       8.4,
-      7.2
+      7.2,
+      7,
+      8.3,
+      6.8,
+      8.6
     ]
   },
   "Shashemen\u0113, Ethiopia": {
@@ -40656,9 +41136,9 @@
     ]
   },
   "Parakou, Benin": {
-    "mean_dist": 346.9,
+    "mean_dist": 337.6,
     "mean_time": 7.2,
-    "std_dist": 434.4,
+    "std_dist": 423.6,
     "std_time": 1.2,
     "admin": "Borgou",
     "country": "Benin",
@@ -40695,7 +41175,9 @@
       11.141,
       9.749,
       6.621,
-      9.84
+      9.84,
+      7.513,
+      8.464
     ],
     "lons": [
       "x",
@@ -40729,10 +41211,12 @@
       -10.53,
       2.09,
       0.976,
-      3.111
+      3.111,
+      1.038,
+      2.183
     ],
-    "mean_lat": 8.204,
-    "mean_lon": 0.099,
+    "mean_lat": 8.161,
+    "mean_lon": 0.401,
     "regions": [
       "California",
       "England",
@@ -40765,7 +41249,9 @@
       "Washington",
       "Washington",
       "Ravne na Koro\u0161kem",
-      "California"
+      "California",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -40799,7 +41285,9 @@
       "United States",
       "United States",
       "Slovenia",
-      "United States"
+      "United States",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       176.2,
@@ -40833,7 +41321,9 @@
       1452.6,
       73.7,
       352.3,
-      77.4
+      77.4,
+      267.4,
+      108.5
     ],
     "times": [
       8.1,
@@ -40867,7 +41357,9 @@
       4.1,
       7.4,
       7.7,
-      8.4
+      8.4,
+      7.5,
+      8.1
     ]
   },
   "Oyo, Nigeria": {
@@ -42948,9 +43440,9 @@
     ]
   },
   "Divo, C\u00f4te D\u2019Ivoire": {
-    "mean_dist": 444,
+    "mean_dist": 420.5,
     "mean_time": 6.6,
-    "std_dist": 624.8,
+    "std_dist": 612.6,
     "std_time": 1.6,
     "admin": "G\u00f4h-Djiboua",
     "country": "C\u00f4te D\u2019Ivoire",
@@ -42986,7 +43478,9 @@
       6.695,
       10.709,
       6.066,
-      7.728
+      7.728,
+      5.296,
+      5.789
     ],
     "lons": [
       "x",
@@ -43019,10 +43513,12 @@
       -4.332,
       -12.388,
       -5.891,
-      -4.963
+      -4.963,
+      -5.551,
+      -5.798
     ],
-    "mean_lat": 6.112,
-    "mean_lon": -1.591,
+    "mean_lat": 6.025,
+    "mean_lon": -2.219,
     "regions": [
       "New South Wales",
       "New South Wales",
@@ -43054,6 +43550,8 @@
       "Utrecht",
       "North Holland",
       "Utrecht",
+      "Aargau",
+      "North Rhine-Westphalia",
       "Aargau"
     ],
     "countries": [
@@ -43087,6 +43585,8 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
+      "Switzerland",
+      "Germany",
       "Switzerland"
     ],
     "dists": [
@@ -43120,7 +43620,9 @@
       148.2,
       943.9,
       64,
-      214.5
+      214.5,
+      63.9,
+      48.8
     ],
     "times": [
       7.7,
@@ -43153,7 +43655,9 @@
       5.4,
       5,
       6.8,
-      7.2
+      7.2,
+      5.4,
+      7.6
     ]
   },
   "Safi, Morocco": {
@@ -43378,9 +43882,9 @@
     ]
   },
   "Pietermaritzburg, South Africa": {
-    "mean_dist": 505.4,
-    "mean_time": 7.1,
-    "std_dist": 257,
+    "mean_dist": 499.6,
+    "mean_time": 7.2,
+    "std_dist": 254.8,
     "std_time": 1.1,
     "admin": "KwaZulu-Natal",
     "country": "South Africa",
@@ -43415,7 +43919,8 @@
       "x",
       "x",
       -29.458,
-      -32.459
+      -32.459,
+      -27.31
     ],
     "lons": [
       "x",
@@ -43447,10 +43952,11 @@
       "x",
       "x",
       24.111,
-      23.429
+      23.429,
+      28.355
     ],
-    "mean_lat": -30.958,
-    "mean_lon": 23.77,
+    "mean_lat": -29.742,
+    "mean_lon": 25.298,
     "regions": [
       "New South Wales",
       "California",
@@ -43481,7 +43987,8 @@
       "Aargau",
       "Styria",
       "Washington",
-      "Washington"
+      "Washington",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -43513,7 +44020,8 @@
       "Switzerland",
       "Austria",
       "United States",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       335.6,
@@ -43545,7 +44053,8 @@
       474.5,
       243.4,
       607.6,
-      734.7
+      734.7,
+      323.8
     ],
     "times": [
       7.8,
@@ -43577,7 +44086,8 @@
       8.5,
       6.3,
       7.5,
-      6.8
+      6.8,
+      8.3
     ]
   },
   "Wamba, Congo (Kinshasa)": {
@@ -43736,10 +44246,10 @@
     ]
   },
   "Gao, Mali": {
-    "mean_dist": 750.1019836971831,
-    "mean_time": 6.572000000000013,
-    "std_dist": 284.9394958048496,
-    "std_time": 1.5977951474870973,
+    "mean_dist": 771.4,
+    "mean_time": 6.5,
+    "std_dist": 290,
+    "std_time": 1.5,
     "admin": "Gao",
     "country": "Mali",
     "city": "Gao",
@@ -43768,7 +44278,10 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      9.953,
+      11.485,
+      12.575
     ],
     "lons": [
       "x",
@@ -43795,10 +44308,13 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      10.236,
+      -3.849,
+      -7.098
     ],
-    "mean_lat": 0,
-    "mean_lon": 0,
+    "mean_lat": 11.337,
+    "mean_lon": -0.236,
     "regions": [
       "New South Wales",
       "Aargau",
@@ -43824,7 +44340,10 @@
       "Styria",
       "California",
       "Bavaria",
-      "Bavaria"
+      "Bavaria",
+      "Utrecht",
+      "Aargau",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -43851,7 +44370,10 @@
       "Austria",
       "United States",
       "Germany",
-      "Germany"
+      "Germany",
+      "Netherlands",
+      "Switzerland",
+      "Switzerland"
     ],
     "dists": [
       551.4,
@@ -43878,7 +44400,10 @@
       739.8,
       424.3,
       787.3,
-      1064.4
+      1064.4,
+      1316,
+      671.4,
+      862.6
     ],
     "times": [
       7.2,
@@ -43905,7 +44430,10 @@
       6.2,
       7.6,
       6.4,
-      6.1
+      6.1,
+      6.1,
+      6.4,
+      7
     ]
   },
   "Cidade de Nacala, Mozambique": {
@@ -44948,9 +45476,9 @@
     ]
   },
   "Mogadishu, Somalia": {
-    "mean_dist": 527.6,
+    "mean_dist": 518.8,
     "mean_time": 7,
-    "std_dist": 754.6,
+    "std_dist": 748.2,
     "std_time": 1.3,
     "admin": "Banaadir",
     "country": "Somalia",
@@ -44998,7 +45526,8 @@
       2.173,
       -8.691,
       4.051,
-      -21.699
+      -21.699,
+      1.709
     ],
     "lons": [
       "x",
@@ -45043,10 +45572,11 @@
       44.597,
       50.56,
       46.432,
-      33.44
+      33.44,
+      44.133
     ],
-    "mean_lat": 0.278,
-    "mean_lon": 42.448,
+    "mean_lat": 0.437,
+    "mean_lon": 42.635,
     "regions": [
       "New South Wales",
       "Aargau",
@@ -45090,7 +45620,8 @@
       "Aargau",
       "Ontario",
       "Styria",
-      "Berlin"
+      "Berlin",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -45135,7 +45666,8 @@
       "Switzerland",
       "Canada",
       "Austria",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       106.4,
@@ -45180,7 +45712,8 @@
       86.3,
       1327.5,
       250.4,
-      2943.5
+      2943.5,
+      142.7
     ],
     "times": [
       8.1,
@@ -45225,14 +45758,15 @@
       8.1,
       9.9,
       6.6,
-      4.5
+      4.5,
+      8.3
     ]
   },
   "Kampala, Uganda": {
-    "mean_dist": 861.7,
-    "mean_time": 6.3,
-    "std_dist": 1078.9,
-    "std_time": 2.5,
+    "mean_dist": 834.9,
+    "mean_time": 6.4,
+    "std_dist": 1067.5,
+    "std_time": 2.4,
     "admin": "Kampala",
     "country": "Uganda",
     "city": "Kampala",
@@ -45262,7 +45796,8 @@
       7.801,
       -14.808,
       -3.424,
-      2.775
+      2.775,
+      0.315
     ],
     "lons": [
       "x",
@@ -45290,10 +45825,11 @@
       29.357,
       29.933,
       17.682,
-      9.472
+      9.472,
+      33.831
     ],
-    "mean_lat": 1.257,
-    "mean_lon": 22.46,
+    "mean_lat": 1.178,
+    "mean_lon": 23.408,
     "regions": [
       "New South Wales",
       "New York",
@@ -45320,7 +45856,8 @@
       "Utrecht",
       "North Holland",
       "North Rhine-Westphalia",
-      "North Rhine-Westphalia"
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -45348,7 +45885,8 @@
       "Netherlands",
       "Netherlands",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       141.9,
@@ -45376,7 +45914,8 @@
       905.8,
       1706.8,
       1707.4,
-      2583.1
+      2583.1,
+      138.7
     ],
     "times": [
       8.5,
@@ -45404,13 +45943,14 @@
       2,
       0.4,
       7.5,
-      7.2
+      7.2,
+      8.1
     ]
   },
   "Massawa, Eritrea": {
-    "mean_dist": 903.5,
-    "mean_time": 7.2,
-    "std_dist": 1800.3,
+    "mean_dist": 819.4,
+    "mean_time": 7.3,
+    "std_dist": 1714.2,
     "std_time": 1,
     "admin": "Sem\u0113naw\u012b K\u2019eyih Bahr\u012b",
     "country": "Eritrea",
@@ -45431,7 +45971,9 @@
       "x",
       "x",
       "x",
-      9.93
+      9.93,
+      14.083,
+      15.102
     ],
     "lons": [
       "x",
@@ -45449,10 +45991,12 @@
       "x",
       "x",
       "x",
-      45.318
+      45.318,
+      40.854,
+      39.121
     ],
-    "mean_lat": 9.93,
-    "mean_lon": 45.318,
+    "mean_lat": 13.038,
+    "mean_lon": 41.764,
     "regions": [
       "California",
       "Aargau",
@@ -45469,7 +46013,9 @@
       "Prevalje",
       "California",
       "Aargau",
-      "Washington"
+      "Washington",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -45487,7 +46033,9 @@
       "Slovenia",
       "United States",
       "Switzerland",
-      "United States"
+      "United States",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       285.3,
@@ -45505,7 +46053,9 @@
       5578.2,
       113.6,
       74.5,
-      896.3
+      896.3,
+      227.1,
+      66.4
     ],
     "times": [
       6.1,
@@ -45523,7 +46073,9 @@
       6.2,
       8.1,
       7.6,
-      7.9
+      7.9,
+      8.1,
+      8.3
     ]
   },
   "Surt, Libya": {
@@ -46780,10 +47332,10 @@
     ]
   },
   "Gusau, Nigeria": {
-    "mean_dist": 641.7,
-    "mean_time": 7.4,
-    "std_dist": 250.3,
-    "std_time": 1.6,
+    "mean_dist": 633.9,
+    "mean_time": 7.5,
+    "std_dist": 242.5,
+    "std_time": 1.5,
     "admin": "Zamfara",
     "country": "Nigeria",
     "city": "Gusau",
@@ -46809,7 +47361,9 @@
       5.182,
       7.082,
       5.333,
-      8.372
+      8.372,
+      6.498,
+      8.188
     ],
     "lons": [
       "x",
@@ -46833,10 +47387,12 @@
       7.34,
       6.452,
       6.817,
-      7.566
+      7.566,
+      5.678,
+      7.658
     ],
-    "mean_lat": 6.955,
-    "mean_lon": 6.562,
+    "mean_lat": 7.041,
+    "mean_lon": 6.585,
     "regions": [
       "California",
       "Aargau",
@@ -46859,7 +47415,9 @@
       "Bavaria",
       "Utrecht",
       "Zurich",
-      "South Holland"
+      "South Holland",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -46883,7 +47441,9 @@
       "Germany",
       "Netherlands",
       "Switzerland",
-      "Netherlands"
+      "Netherlands",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       617.1,
@@ -46907,7 +47467,9 @@
       780.6,
       566.1,
       760.4,
-      433.8
+      433.8,
+      639.8,
+      456
     ],
     "times": [
       8.7,
@@ -46931,7 +47493,9 @@
       8,
       5.2,
       7.8,
-      1.9
+      1.9,
+      8.1,
+      8.6
     ]
   },
   "Kimberley, South Africa": {
@@ -48643,9 +49207,9 @@
     ]
   },
   "Ed Damer, Sudan": {
-    "mean_dist": 660.2,
-    "mean_time": 7.3,
-    "std_dist": 421.3,
+    "mean_dist": 687.3,
+    "mean_time": 7.4,
+    "std_dist": 424.4,
     "std_time": 1.6,
     "admin": "River Nile",
     "country": "Sudan",
@@ -48667,7 +49231,8 @@
       "x",
       "x",
       12.394,
-      13.842
+      13.842,
+      12.666
     ],
     "lons": [
       "x",
@@ -48686,10 +49251,11 @@
       "x",
       "x",
       23.807,
-      32.439
+      32.439,
+      24.55
     ],
-    "mean_lat": 13.118,
-    "mean_lon": 28.122,
+    "mean_lat": 12.967,
+    "mean_lon": 26.932,
     "regions": [
       "New South Wales",
       "Massachusetts",
@@ -48707,7 +49273,8 @@
       "Aargau",
       "Styria",
       "Aargau",
-      "California"
+      "California",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -48726,7 +49293,8 @@
       "Switzerland",
       "Austria",
       "Switzerland",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       161.1,
@@ -48745,7 +49313,8 @@
       482.8,
       1304.5,
       1233.5,
-      447.3
+      447.3,
+      1148.4
     ],
     "times": [
       7.6,
@@ -48764,7 +49333,8 @@
       8.7,
       6.7,
       8.4,
-      8.1
+      8.1,
+      8
     ]
   },
   "M\u2019Sila, Algeria": {
@@ -49359,10 +49929,10 @@
     ]
   },
   "Taza, Morocco": {
-    "mean_dist": 386.6,
-    "mean_time": 7.4,
-    "std_dist": 396.7,
-    "std_time": 0.9,
+    "mean_dist": 376.4,
+    "mean_time": 7.1,
+    "std_dist": 366.3,
+    "std_time": 1.4,
     "city": "Taza",
     "admin": "F\u00e8s-Mekn\u00e8s",
     "country": "Morocco",
@@ -49391,7 +49961,12 @@
       33.207,
       27.064,
       35.118,
-      33.849
+      33.849,
+      32.527,
+      32.527,
+      33.54,
+      34.694,
+      35.151
     ],
     "lons": [
       "x",
@@ -49418,10 +49993,15 @@
       -6.767,
       -12.595,
       -4.643,
-      -5.705
+      -5.705,
+      -6.912,
+      -6.819,
+      -5.427,
+      -7.19,
+      1.718
     ],
-    "mean_lat": 31.878,
-    "mean_lon": -4.878,
+    "mean_lat": 32.524,
+    "mean_lon": -4.895,
     "regions": [
       "England",
       "Aargau",
@@ -49447,7 +50027,12 @@
       "Colorado",
       "Styria",
       "Styria",
-      "Aargau"
+      "Aargau",
+      "North Rhine-Westphalia",
+      "North Rhine-Westphalia",
+      "Stockholm",
+      "Aargau",
+      "North Rhine-Westphalia"
     ],
     "countries": [
       "United Kingdom",
@@ -49474,7 +50059,12 @@
       "United States",
       "Austria",
       "Austria",
-      "Switzerland"
+      "Switzerland",
+      "Germany",
+      "Germany",
+      "Sweden",
+      "Switzerland",
+      "Germany"
     ],
     "dists": [
       248.6,
@@ -49501,7 +50091,12 @@
       277.9,
       1141.9,
       114.9,
-      160.7
+      160.7,
+      327.9,
+      320.9,
+      150.3,
+      295.4,
+      534.7
     ],
     "times": [
       4.9,
@@ -49528,7 +50123,12 @@
       7.5,
       7.3,
       5.1,
-      7.9
+      7.9,
+      7.2,
+      5.6,
+      6,
+      8.4,
+      1.5
     ]
   },
   "Antsirabe, Madagascar": {
@@ -50345,10 +50945,10 @@
     ]
   },
   "S\u00e3o Tom\u00e9, Sao Tome And Principe": {
-    "mean_dist": 1069.7,
-    "mean_time": 6.5,
-    "std_dist": 1652,
-    "std_time": 1.6,
+    "mean_dist": 1109.4,
+    "mean_time": 6.2,
+    "std_dist": 1634.5,
+    "std_time": 1.7,
     "city": "S\u00e3o Tom\u00e9",
     "admin": "S\u00e3o Tom\u00e9",
     "country": "Sao Tome And Principe",
@@ -50381,7 +50981,12 @@
       1.895,
       -8.943,
       10.558,
-      13.707
+      13.707,
+      0.129,
+      -0.521,
+      3.009,
+      0.408,
+      7.082
     ],
     "lons": [
       "x",
@@ -50412,10 +51017,15 @@
       7.194,
       45.896,
       -6.768,
-      -14.43
+      -14.43,
+      6.823,
+      13.877,
+      43.112,
+      6.73,
+      21.58
     ],
-    "mean_lat": 1.019,
-    "mean_lon": 12.639,
+    "mean_lat": 1.437,
+    "mean_lon": 15.049,
     "regions": [
       "California",
       "V\u00e4sterbotten",
@@ -50445,7 +51055,12 @@
       "Uusimaa",
       "Ravne na Koro\u0161kem",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "North Rhine-Westphalia",
+      "North Rhine-Westphalia",
+      "Stockholm",
+      "Aargau",
+      "North Rhine-Westphalia"
     ],
     "countries": [
       "United States",
@@ -50476,6 +51091,11 @@
       "Finland",
       "Slovenia",
       "Germany",
+      "Germany",
+      "Germany",
+      "Germany",
+      "Sweden",
+      "Switzerland",
       "Germany"
     ],
     "dists": [
@@ -50507,7 +51127,12 @@
       181,
       4458.1,
       1876.1,
-      2764
+      2764,
+      24.8,
+      800,
+      4053.9,
+      8.3,
+      1809.4
     ],
     "times": [
       5.5,
@@ -50538,7 +51163,12 @@
       4,
       5.3,
       6.9,
-      5.3
+      5.3,
+      4.1,
+      3,
+      3.8,
+      6.5,
+      4.6
     ]
   },
   "Algiers, Algeria": {
@@ -51306,9 +51936,9 @@
     ]
   },
   "Bahir Dar, Ethiopia": {
-    "mean_dist": 441.6,
+    "mean_dist": 458.7,
     "mean_time": 7.3,
-    "std_dist": 207.3,
+    "std_dist": 211.7,
     "std_time": 0.9,
     "city": "Bahir Dar",
     "admin": "\u0100mara",
@@ -51336,7 +51966,9 @@
       "x",
       "x",
       9.29,
-      11.399
+      11.399,
+      9.168,
+      8.096
     ],
     "lons": [
       "x",
@@ -51361,10 +51993,12 @@
       "x",
       "x",
       39.864,
-      36.98
+      36.98,
+      44.38,
+      40.235
     ],
-    "mean_lat": 10.344,
-    "mean_lon": 38.422,
+    "mean_lat": 9.488,
+    "mean_lon": 40.364,
     "regions": [
       "California",
       "California",
@@ -51388,7 +52022,9 @@
       "Styria",
       "Styria",
       "Washington",
-      "Zurich"
+      "Zurich",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -51413,6 +52049,8 @@
       "Austria",
       "Austria",
       "United States",
+      "Switzerland",
+      "Germany",
       "Switzerland"
     ],
     "dists": [
@@ -51438,7 +52076,9 @@
       309.6,
       413,
       373.5,
-      49.1
+      49.1,
+      811.6,
+      499.3
     ],
     "times": [
       8,
@@ -51463,7 +52103,9 @@
       6.6,
       6.8,
       6.5,
-      6.7
+      6.7,
+      5.6,
+      8.3
     ]
   },
   "Namibe, Angola": {
@@ -52207,9 +52849,9 @@
     ]
   },
   "Omdurman, Sudan": {
-    "mean_dist": 385.7,
+    "mean_dist": 374.7,
     "mean_time": 7.3,
-    "std_dist": 692,
+    "std_dist": 683,
     "std_time": 1.1,
     "city": "Omdurman",
     "admin": "Khartoum",
@@ -52243,7 +52885,8 @@
       12.938,
       16.711,
       14.113,
-      16.177
+      16.177,
+      15.909
     ],
     "lons": [
       "x",
@@ -52274,10 +52917,11 @@
       -3.2,
       33.088,
       32.067,
+      32.903,
       32.903
     ],
-    "mean_lat": 15.128,
-    "mean_lon": 26.777,
+    "mean_lat": 15.24,
+    "mean_lon": 27.652,
     "regions": [
       "New York",
       "Aargau",
@@ -52306,6 +52950,7 @@
       "Washington",
       "South Holland",
       "South Holland",
+      "Aargau",
       "Aargau",
       "Aargau"
     ],
@@ -52338,6 +52983,7 @@
       "Netherlands",
       "Netherlands",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -52369,7 +53015,8 @@
       3852,
       138,
       172.9,
-      77
+      77,
+      55.7
     ],
     "times": [
       7.8,
@@ -52400,7 +53047,8 @@
       4.8,
       5.1,
       8.2,
-      8.5
+      8.5,
+      8.3
     ]
   },
   "Nouakchott, Mauritania": {
@@ -53544,9 +54192,9 @@
     ]
   },
   "Jirj\u0101, Egypt": {
-    "mean_dist": 343.3,
-    "mean_time": 7.6,
-    "std_dist": 176.8,
+    "mean_dist": 347.3,
+    "mean_time": 7.7,
+    "std_dist": 171.4,
     "std_time": 1,
     "city": "Jirj\u0101",
     "admin": "S\u016bh\u0101j",
@@ -53565,7 +54213,8 @@
       "x",
       "x",
       "x",
-      29.581
+      29.581,
+      29.823
     ],
     "lons": [
       "x",
@@ -53581,10 +54230,11 @@
       "x",
       "x",
       "x",
-      31.511
+      31.511,
+      30.768
     ],
-    "mean_lat": 29.581,
-    "mean_lon": 31.511,
+    "mean_lat": 29.701,
+    "mean_lon": 31.139,
     "regions": [
       "California",
       "California",
@@ -53598,6 +54248,7 @@
       "Aargau",
       "Baden-W\u00fcrttemberg",
       "Ontario",
+      "Aargau",
       "Aargau",
       "Aargau"
     ],
@@ -53615,6 +54266,7 @@
       "Germany",
       "Canada",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -53631,7 +54283,8 @@
       379.2,
       136.3,
       266,
-      363.2
+      363.2,
+      403.4
     ],
     "times": [
       8.5,
@@ -53647,7 +54300,8 @@
       7.8,
       6.6,
       7.7,
-      8.4
+      8.4,
+      8.5
     ]
   },
   "Darnah, Libya": {
@@ -54182,9 +54836,9 @@
     ]
   },
   "Ndola, Zambia": {
-    "mean_dist": 289.6,
+    "mean_dist": 278.6,
     "mean_time": 7.3,
-    "std_dist": 271.3,
+    "std_dist": 268.1,
     "std_time": 1.5,
     "city": "Ndola",
     "admin": "Copperbelt",
@@ -54207,7 +54861,8 @@
       -15.37,
       -19.098,
       -15.749,
-      -14.133
+      -14.133,
+      -13.501
     ],
     "lons": [
       "x",
@@ -54227,10 +54882,11 @@
       26.477,
       22.649,
       28.077,
-      27.149
+      27.149,
+      29.19
     ],
-    "mean_lat": -16.087,
-    "mean_lon": 26.088,
+    "mean_lat": -15.57,
+    "mean_lon": 26.708,
     "regions": [
       "North Carolina",
       "Ontario",
@@ -54248,6 +54904,7 @@
       "Aargau",
       "Washington",
       "Washington",
+      "Aargau",
       "Aargau",
       "Aargau"
     ],
@@ -54269,6 +54926,7 @@
       "United States",
       "United States",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -54289,7 +54947,8 @@
       352.5,
       933,
       311.9,
-      205.4
+      205.4,
+      80.8
     ],
     "times": [
       4.8,
@@ -54309,7 +54968,8 @@
       2.1,
       5.6,
       8.2,
-      8.3
+      8.3,
+      8
     ]
   },
   "Monrovia, Liberia": {
@@ -55506,9 +56166,9 @@
     ]
   },
   "Beira, Mozambique": {
-    "mean_dist": 555.9,
+    "mean_dist": 546.1,
     "mean_time": 7.3,
-    "std_dist": 755.9,
+    "std_dist": 744.6,
     "std_time": 0.9,
     "city": "Beira",
     "admin": "Sofala",
@@ -55541,7 +56201,8 @@
       "x",
       "x",
       "x",
-      -18.855
+      -18.855,
+      -22.163
     ],
     "lons": [
       "x",
@@ -55571,10 +56232,11 @@
       "x",
       "x",
       "x",
-      35.501
+      35.501,
+      34.202
     ],
-    "mean_lat": -18.855,
-    "mean_lon": 35.501,
+    "mean_lat": -20.509,
+    "mean_lon": 34.851,
     "regions": [
       "Massachusetts",
       "Aargau",
@@ -55603,6 +56265,7 @@
       "Aargau",
       "Aargau",
       "Styria",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -55633,6 +56296,7 @@
       "Switzerland",
       "Switzerland",
       "Austria",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -55663,7 +56327,8 @@
       281.3,
       110.4,
       459.2,
-      126
+      126,
+      269.6
     ],
     "times": [
       5.1,
@@ -55693,7 +56358,8 @@
       8.2,
       8.1,
       6.9,
-      7.9
+      7.9,
+      8
     ]
   },
   "Gu\u00e9ck\u00e9dou, Guinea": {
@@ -55906,9 +56572,9 @@
     ]
   },
   "Jijel, Algeria": {
-    "mean_dist": 556.1,
+    "mean_dist": 549.3,
     "mean_time": 7.7,
-    "std_dist": 982.4,
+    "std_dist": 962.3,
     "std_time": 1.1,
     "city": "Jijel",
     "admin": "Jijel",
@@ -55936,7 +56602,8 @@
       "x",
       "x",
       "x",
-      -3.3
+      -3.3,
+      34.923
     ],
     "lons": [
       "x",
@@ -55961,10 +56628,11 @@
       "x",
       "x",
       "x",
-      27.234
+      27.234,
+      2.09
     ],
-    "mean_lat": -3.3,
-    "mean_lon": 27.234,
+    "mean_lat": 15.811,
+    "mean_lon": 14.662,
     "regions": [
       "V\u00e4sterbotten",
       "Aargau",
@@ -55988,7 +56656,8 @@
       "Aargau",
       "Aargau",
       "California",
-      "Alberta"
+      "Alberta",
+      "Aargau"
     ],
     "countries": [
       "Sweden",
@@ -56013,7 +56682,8 @@
       "Switzerland",
       "Switzerland",
       "United States",
-      "Canada"
+      "Canada",
+      "Switzerland"
     ],
     "dists": [
       1354.9,
@@ -56038,7 +56708,8 @@
       69.4,
       96.8,
       441.5,
-      4984.6
+      4984.6,
+      392.7
     ],
     "times": [
       8.3,
@@ -56063,7 +56734,8 @@
       8.2,
       8.2,
       8.2,
-      6.1
+      6.1,
+      8.4
     ]
   },
   "Sokod\u00e9, Togo": {
@@ -56885,9 +57557,9 @@
     ]
   },
   "Malanje, Angola": {
-    "mean_dist": 1115.4,
+    "mean_dist": 1097.9,
     "mean_time": 7.4,
-    "std_dist": 1517,
+    "std_dist": 1475.1,
     "std_time": 0.8,
     "city": "Malanje",
     "admin": "Malanje",
@@ -56923,7 +57595,9 @@
       -13.32,
       -12.258,
       19.253,
-      2.498
+      2.498,
+      -5.51,
+      -12.777
     ],
     "lons": [
       "x",
@@ -56956,10 +57630,12 @@
       15.826,
       16.806,
       30.436,
-      81.814
+      81.814,
+      26.663,
+      14.155
     ],
-    "mean_lat": -7.969,
-    "mean_lon": 27.506,
+    "mean_lat": -8.23,
+    "mean_lon": 25.929,
     "regions": [
       "California",
       "Aargau",
@@ -56991,7 +57667,9 @@
       "Aargau",
       "Colorado",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -57024,7 +57702,9 @@
       "Switzerland",
       "United States",
       "Germany",
-      "Germany"
+      "Germany",
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       482.7,
@@ -57057,7 +57737,9 @@
       424,
       306.5,
       3554.9,
-      7373.6
+      7373.6,
+      1222.8,
+      431.6
     ],
     "times": [
       7.4,
@@ -57090,13 +57772,15 @@
       7.3,
       5.3,
       5.3,
-      7.7
+      7.7,
+      6.3,
+      8.1
     ]
   },
   "Cape Town, South Africa": {
-    "mean_dist": 287.4,
+    "mean_dist": 269.9,
     "mean_time": 7.7,
-    "std_dist": 367.3,
+    "std_dist": 356.8,
     "std_time": 0.7,
     "city": "Cape Town",
     "admin": "Western Cape",
@@ -57123,7 +57807,9 @@
       "x",
       -32.741,
       -27.621,
-      -33.162
+      -33.162,
+      -33.969,
+      -34.02
     ],
     "lons": [
       "x",
@@ -57147,10 +57833,12 @@
       "x",
       25.992,
       30.747,
-      23.615
+      23.615,
+      19.878,
+      18.239
     ],
-    "mean_lat": -31.174,
-    "mean_lon": 26.784,
+    "mean_lat": -32.302,
+    "mean_lon": 23.694,
     "regions": [
       "California",
       "Aargau",
@@ -57173,7 +57861,9 @@
       "California",
       "Washington",
       "Washington",
-      "Washington"
+      "Washington",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -57197,7 +57887,9 @@
       "United States",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       98.6,
@@ -57221,7 +57913,9 @@
       934.2,
       714,
       1367.4,
-      487.3
+      487.3,
+      133.3,
+      21.2
     ],
     "times": [
       7.7,
@@ -57245,14 +57939,16 @@
       7.8,
       7.6,
       8,
-      6.3
+      6.3,
+      7.6,
+      8.1
     ]
   },
   "Port Said, Egypt": {
-    "mean_dist": 194,
-    "mean_time": 7.2,
-    "std_dist": 144.2,
-    "std_time": 1,
+    "mean_dist": 214.2,
+    "mean_time": 6.7,
+    "std_dist": 160.4,
+    "std_time": 1.7,
     "city": "Port Said",
     "admin": "B\u016br Sa\u2018\u012bd",
     "country": "Egypt",
@@ -57280,7 +57976,12 @@
       "x",
       30.145,
       30.063,
-      25.396
+      25.396,
+      29.257,
+      30.946,
+      26.629,
+      30.386,
+      31.184
     ],
     "lons": [
       "x",
@@ -57306,10 +58007,15 @@
       "x",
       32.253,
       32.417,
-      34.645
+      34.645,
+      30.768,
+      27.056,
+      29.654,
+      32.346,
+      31.047
     ],
-    "mean_lat": 28.534,
-    "mean_lon": 33.105,
+    "mean_lat": 29.25,
+    "mean_lon": 31.273,
     "regions": [
       "California",
       "California",
@@ -57334,7 +58040,12 @@
       "Styria",
       "Aargau",
       "Washington",
-      "Styria"
+      "Styria",
+      "North Rhine-Westphalia",
+      "North Rhine-Westphalia",
+      "Stockholm",
+      "Aargau",
+      "North Rhine-Westphalia"
     ],
     "countries": [
       "United States",
@@ -57360,7 +58071,12 @@
       "Austria",
       "Switzerland",
       "United States",
-      "Austria"
+      "Austria",
+      "Germany",
+      "Germany",
+      "Sweden",
+      "Switzerland",
+      "Germany"
     ],
     "dists": [
       165.7,
@@ -57386,7 +58102,12 @@
       396.5,
       123.9,
       133.5,
-      691.4
+      691.4,
+      266.3,
+      499.4,
+      575,
+      97.2,
+      118.4
     ],
     "times": [
       7.4,
@@ -57412,13 +58133,18 @@
       5.1,
       8.4,
       7.1,
-      4.6
+      4.6,
+      6.7,
+      2.2,
+      3.9,
+      7.5,
+      1.4
     ]
   },
   "East London, South Africa": {
-    "mean_dist": 751.1,
+    "mean_dist": 732.3,
     "mean_time": 6.8,
-    "std_dist": 1152.3,
+    "std_dist": 1111.3,
     "std_time": 1.8,
     "city": "East London",
     "admin": "Eastern Cape",
@@ -57448,7 +58174,9 @@
       -31.599,
       -30.102,
       -31.244,
-      -30.372
+      -30.372,
+      -32.961,
+      -32.935
     ],
     "lons": [
       "x",
@@ -57475,10 +58203,12 @@
       28.448,
       23.366,
       23.022,
-      23.92
+      23.92,
+      23.869,
+      21.209
     ],
-    "mean_lat": -29.034,
-    "mean_lon": 24.648,
+    "mean_lat": -29.745,
+    "mean_lon": 24.265,
     "regions": [
       "New York",
       "Baden-W\u00fcrttemberg",
@@ -57504,7 +58234,9 @@
       "Aargau",
       "Ontario",
       "North Rhine-Westphalia",
-      "North Rhine-Westphalia"
+      "North Rhine-Westphalia",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -57531,7 +58263,9 @@
       "Switzerland",
       "Canada",
       "Germany",
-      "Germany"
+      "Germany",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       198.4,
@@ -57558,7 +58292,9 @@
       161.8,
       532.5,
       495.1,
-      472.2
+      472.2,
+      373.1,
+      621.4
     ],
     "times": [
       8.3,
@@ -57585,7 +58321,9 @@
       7.7,
       8.3,
       7.1,
-      7.6
+      7.6,
+      7.6,
+      8.3
     ]
   },
   "Owerri, Nigeria": {
@@ -58669,10 +59407,10 @@
     ]
   },
   "Constantine, Algeria": {
-    "mean_dist": 351,
+    "mean_dist": 340.3,
     "mean_time": 7.4,
-    "std_dist": 634.1,
-    "std_time": 1,
+    "std_dist": 613.7,
+    "std_time": 0.9,
     "city": "Constantine",
     "admin": "Constantine",
     "country": "Algeria",
@@ -58703,7 +59441,9 @@
       "x",
       34.058,
       35.983,
-      30.481
+      30.481,
+      34.515,
+      36.732
     ],
     "lons": [
       "x",
@@ -58732,10 +59472,12 @@
       "x",
       4.555,
       4.41,
-      4.487
+      4.487,
+      4.101,
+      7.473
     ],
-    "mean_lat": 33.507,
-    "mean_lon": 4.484,
+    "mean_lat": 34.353,
+    "mean_lon": 5.005,
     "regions": [
       "California",
       "Aargau",
@@ -58763,7 +59505,9 @@
       "Bavaria",
       "Colorado",
       "Uusimaa",
-      "Uusimaa"
+      "Uusimaa",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -58792,7 +59536,9 @@
       "Germany",
       "United States",
       "Finland",
-      "Finland"
+      "Finland",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       188.2,
@@ -58821,7 +59567,9 @@
       55.6,
       316.1,
       200.9,
-      682.4
+      682.4,
+      305.4,
+      88.3
     ],
     "times": [
       7,
@@ -58850,13 +59598,15 @@
       7.6,
       7.2,
       8.7,
-      7.3
+      7.3,
+      7.9,
+      8
     ]
   },
   "Kaolack, Senegal": {
-    "mean_dist": 1093.1,
+    "mean_dist": 1027.9,
     "mean_time": 7.2,
-    "std_dist": 1916.3,
+    "std_dist": 1853.5,
     "std_time": 1.3,
     "city": "Kaolack",
     "admin": "Kaolack",
@@ -58896,7 +59646,10 @@
       14.833,
       5.974,
       11.802,
-      13.662
+      13.662,
+      14.383,
+      10.998,
+      15.192
     ],
     "lons": [
       "x",
@@ -58933,10 +59686,13 @@
       -16.843,
       47.474,
       -11.089,
-      -0.508
+      -0.508,
+      -15.265,
+      -11.955,
+      -16.75
     ],
-    "mean_lat": 10.713,
-    "mean_lon": 6.009,
+    "mean_lat": 11.362,
+    "mean_lon": 1.24,
     "regions": [
       "California",
       "Aargau",
@@ -58972,7 +59728,10 @@
       "Aargau",
       "Utrecht",
       "North Holland",
-      "North Holland"
+      "North Holland",
+      "Aargau",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -59009,7 +59768,10 @@
       "Switzerland",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Switzerland",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       38.4,
@@ -59046,7 +59808,10 @@
       110.3,
       7000.6,
       602.4,
-      1683.4
+      1683.4,
+      93.6,
+      570.1,
+      135.4
     ],
     "times": [
       8.2,
@@ -59083,7 +59848,10 @@
       7.6,
       4.5,
       1,
-      6.3
+      6.3,
+      8.4,
+      7.1,
+      8.1
     ]
   },
   "El Fasher, Sudan": {
@@ -59481,10 +60249,10 @@
     ]
   },
   "San-P\u00e9dro, C\u00f4te D\u2019Ivoire": {
-    "mean_dist": 249,
+    "mean_dist": 246.2,
     "mean_time": 7.5,
-    "std_dist": 181.8,
-    "std_time": 1,
+    "std_dist": 175.7,
+    "std_time": 0.9,
     "city": "San-P\u00e9dro",
     "admin": "Bas-Sassandra",
     "country": "C\u00f4te D\u2019Ivoire",
@@ -59515,7 +60283,9 @@
       7.034,
       6.159,
       7.174,
-      5.278
+      5.278,
+      5.943,
+      6.344
     ],
     "lons": [
       "x",
@@ -59544,10 +60314,12 @@
       -5.098,
       -4.963,
       -6.355,
-      -5.748
+      -5.748,
+      -5.179,
+      -5.613
     ],
-    "mean_lat": 6.411,
-    "mean_lon": -5.541,
+    "mean_lat": 6.322,
+    "mean_lon": -5.492,
     "regions": [
       "Aargau",
       "Aargau",
@@ -59575,7 +60347,9 @@
       "Washington",
       "Aargau",
       "Aargau",
-      "Washington"
+      "Washington",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -59604,7 +60378,9 @@
       "United States",
       "Switzerland",
       "Switzerland",
-      "United States"
+      "United States",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       651.1,
@@ -59633,7 +60409,9 @@
       304,
       241.4,
       269.2,
-      113.7
+      113.7,
+      207.7,
+      208.6
     ],
     "times": [
       5.4,
@@ -59662,7 +60440,9 @@
       6.9,
       7.1,
       8.5,
-      5.4
+      5.4,
+      7.4,
+      7.7
     ]
   },
   "Guelmim, Morocco": {
@@ -60066,9 +60846,9 @@
     ]
   },
   "Keren, Eritrea": {
-    "mean_dist": 764.9,
-    "mean_time": 6.8,
-    "std_dist": 1115.7,
+    "mean_dist": 747.6,
+    "mean_time": 6.9,
+    "std_dist": 1095.6,
     "std_time": 1.4,
     "city": "Keren",
     "admin": "\u0100nseba",
@@ -60115,7 +60895,9 @@
       10.919,
       9.428,
       12.143,
-      15.998
+      15.998,
+      16.643,
+      15.73
     ],
     "lons": [
       "x",
@@ -60159,10 +60941,12 @@
       50.333,
       15.826,
       -14.822,
-      38.007
+      38.007,
+      31.582,
+      38.193
     ],
-    "mean_lat": 9.742,
-    "mean_lon": 34.593,
+    "mean_lat": 10.458,
+    "mean_lon": 34.626,
     "regions": [
       "Aargau",
       "Ontario",
@@ -60205,6 +60989,8 @@
       "Utrecht",
       "North Holland",
       "Styria",
+      "Aargau",
+      "Utrecht",
       "Aargau"
     ],
     "countries": [
@@ -60249,6 +61035,8 @@
       "Netherlands",
       "Netherlands",
       "Austria",
+      "Switzerland",
+      "Netherlands",
       "Switzerland"
     ],
     "dists": [
@@ -60293,7 +61081,9 @@
       1390,
       2549.9,
       5749.2,
-      59
+      59,
+      741.1,
+      28
     ],
     "times": [
       6.8,
@@ -60337,6 +61127,8 @@
       5,
       4.8,
       3.7,
+      8.2,
+      7.2,
       8.2
     ]
   },
@@ -61852,10 +62644,10 @@
     ]
   },
   "Abuja, Nigeria": {
-    "mean_dist": 334.6,
-    "mean_time": 8,
-    "std_dist": 135,
-    "std_time": 0.3,
+    "mean_dist": 383.9,
+    "mean_time": 7.9,
+    "std_dist": 375.3,
+    "std_time": 0.6,
     "city": "Abuja",
     "admin": "Federal Capital Territory",
     "country": "Nigeria",
@@ -61878,7 +62670,10 @@
       "x",
       8.508,
       6.528,
-      5.82
+      5.82,
+      -2.079,
+      8.831,
+      9.474
     ],
     "lons": [
       "x",
@@ -61899,10 +62694,13 @@
       "x",
       5.759,
       4.688,
-      6.111
+      6.111,
+      21.28,
+      8.03,
+      7.937
     ],
-    "mean_lat": 6.951,
-    "mean_lon": 5.519,
+    "mean_lat": 6.18,
+    "mean_lon": 8.967,
     "regions": [
       "Aargau",
       "Aargau",
@@ -61922,7 +62720,10 @@
       "Aargau",
       "Washington",
       "Aargau",
-      "Connecticut"
+      "Connecticut",
+      "Utrecht",
+      "Aargau",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -61943,7 +62744,10 @@
       "Switzerland",
       "United States",
       "Switzerland",
-      "United States"
+      "United States",
+      "Netherlands",
+      "Switzerland",
+      "Switzerland"
     ],
     "dists": [
       269.4,
@@ -61964,7 +62768,10 @@
       514.1,
       205.1,
       422.9,
-      395.2
+      395.2,
+      1964.9,
+      61.3,
+      62
     ],
     "times": [
       7.5,
@@ -61985,7 +62792,10 @@
       8.5,
       7.1,
       8.6,
-      7.4
+      7.4,
+      5.7,
+      8.5,
+      8.2
     ]
   },
   "Cairo, Egypt": {
@@ -62204,10 +63014,10 @@
     ]
   },
   "Sfax, Tunisia": {
-    "mean_dist": 163.7,
+    "mean_dist": 161.9,
     "mean_time": 7.5,
-    "std_dist": 218.4,
-    "std_time": 1,
+    "std_dist": 215,
+    "std_time": 0.9,
     "city": "Sfax",
     "admin": "Sfax",
     "country": "Tunisia",
@@ -62240,7 +63050,8 @@
       35.378,
       35.832,
       32.124,
-      34.77
+      34.77,
+      34.847
     ],
     "lons": [
       "x",
@@ -62271,10 +63082,11 @@
       9.122,
       9.793,
       13.083,
-      10.164
+      10.164,
+      9.515
     ],
-    "mean_lat": 33.48,
-    "mean_lon": 11.437,
+    "mean_lat": 33.651,
+    "mean_lon": 11.197,
     "regions": [
       "Aargau",
       "Aargau",
@@ -62304,7 +63116,8 @@
       "Washington",
       "Utrecht",
       "North Holland",
-      "North Holland"
+      "North Holland",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -62335,7 +63148,8 @@
       "United States",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       33.8,
@@ -62366,7 +63180,8 @@
       161.3,
       146.8,
       365.1,
-      50.7
+      50.7,
+      110.5
     ],
     "times": [
       7.8,
@@ -62397,7 +63212,8 @@
       8,
       6.6,
       6.8,
-      3.6
+      3.6,
+      7.8
     ]
   },
   "Calabar, Nigeria": {
@@ -65122,10 +65938,10 @@
     ]
   },
   "Kafr ash Shaykh, Egypt": {
-    "mean_dist": 324.5695491959874,
-    "mean_time": 8.006250000000007,
-    "std_dist": 200.36966683582662,
-    "std_time": 0.4249540416327379,
+    "mean_dist": 313.2,
+    "mean_time": 7.8,
+    "std_dist": 183.3,
+    "std_time": 0.6,
     "city": "Kafr ash Shaykh",
     "admin": "Kafr ash Shaykh",
     "country": "Egypt",
@@ -65145,7 +65961,11 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      28.707,
+      29.581,
+      28.742,
+      27.869
     ],
     "lons": [
       "x",
@@ -65163,10 +65983,14 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      30.468,
+      30.768,
+      31.016,
+      31.696
     ],
-    "mean_lat": 0,
-    "mean_lon": 0,
+    "mean_lat": 28.724,
+    "mean_lon": 30.987,
     "regions": [
       "Aargau",
       "Mississippi",
@@ -65183,7 +66007,11 @@
       "California",
       "Aargau",
       "Washington",
-      "Baden-W\u00fcrttemberg"
+      "Baden-W\u00fcrttemberg",
+      "Utrecht",
+      "Aargau",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -65201,7 +66029,11 @@
       "United States",
       "Switzerland",
       "United States",
-      "Germany"
+      "Germany",
+      "Netherlands",
+      "Switzerland",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       251.8,
@@ -65219,7 +66051,11 @@
       490.6,
       190,
       215,
-      154.4
+      154.4,
+      270.8,
+      170.6,
+      263.2,
+      367.6
     ],
     "times": [
       7.4,
@@ -65237,7 +66073,11 @@
       7.2,
       8.1,
       8.4,
-      8
+      8,
+      5.8,
+      8.3,
+      7.4,
+      8.4
     ]
   },
   "Oran, Algeria": {
@@ -65354,9 +66194,9 @@
     ]
   },
   "Ajd\u0101biy\u0101, Libya": {
-    "mean_dist": 362.5,
-    "mean_time": 7.6,
-    "std_dist": 154.5,
+    "mean_dist": 367.4,
+    "mean_time": 7.7,
+    "std_dist": 153.8,
     "std_time": 0.6,
     "city": "Ajd\u0101biy\u0101",
     "admin": "Al W\u0101h\u0327\u0101t",
@@ -65382,7 +66222,9 @@
       "x",
       30.626,
       25.768,
-      32.291
+      32.291,
+      29.067,
+      32.213
     ],
     "lons": [
       "x",
@@ -65405,10 +66247,12 @@
       "x",
       20.002,
       19.177,
-      13.969
+      13.969,
+      18.022,
+      14.619
     ],
-    "mean_lat": 29.561,
-    "mean_lon": 17.716,
+    "mean_lat": 29.993,
+    "mean_lon": 17.157,
     "regions": [
       "Aargau",
       "Aargau",
@@ -65430,7 +66274,9 @@
       "Aargau",
       "Auvergne-Rh\u00f4ne-Alpes",
       "Auvergne-Rh\u00f4ne-Alpes",
-      "California"
+      "California",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -65453,7 +66299,9 @@
       "Switzerland",
       "France",
       "France",
-      "United States"
+      "United States",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       472.8,
@@ -65476,7 +66324,9 @@
       482.7,
       26.1,
       565.4,
-      615.9
+      615.9,
+      284,
+      554.6
     ],
     "times": [
       7.8,
@@ -65499,7 +66349,9 @@
       8.1,
       7.6,
       6.9,
-      7.8
+      7.8,
+      8.5,
+      8.5
     ]
   },
   "Benghazi, Libya": {
@@ -67097,10 +67949,10 @@
     ]
   },
   "Malakal, South Sudan": {
-    "mean_dist": 333.8,
-    "mean_time": 7.3,
-    "std_dist": 380.1,
-    "std_time": 1,
+    "mean_dist": 336.4,
+    "mean_time": 7.1,
+    "std_dist": 374.4,
+    "std_time": 1.6,
     "city": "Malakal",
     "admin": "Upper Nile",
     "country": "South Sudan",
@@ -67135,7 +67987,8 @@
       10.206,
       7.218,
       8.301,
-      6.99
+      6.99,
+      5.789
     ],
     "lons": [
       "x",
@@ -67168,10 +68021,11 @@
       31.882,
       32.396,
       31.86,
-      30.397
+      30.397,
+      31.789
     ],
-    "mean_lat": 8.097,
-    "mean_lon": 31.308,
+    "mean_lat": 7.808,
+    "mean_lon": 31.368,
     "regions": [
       "Aargau",
       "Aargau",
@@ -67203,6 +68057,7 @@
       "Aargau",
       "Washington",
       "Styria",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -67236,6 +68091,7 @@
       "Switzerland",
       "United States",
       "Austria",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -67269,7 +68125,8 @@
       78.5,
       270.3,
       139.1,
-      315.1
+      315.1,
+      416.9
     ],
     "times": [
       6.4,
@@ -67302,13 +68159,14 @@
       8,
       6.5,
       4.7,
-      7.6
+      7.6,
+      0.1
     ]
   },
   "Sidi Bel Abb\u00e8s, Algeria": {
-    "mean_dist": 438.7,
+    "mean_dist": 452.6,
     "mean_time": 7.4,
-    "std_dist": 420.6,
+    "std_dist": 405.6,
     "std_time": 0.5,
     "city": "Sidi Bel Abb\u00e8s",
     "admin": "Sidi Bel Abb\u00e8s",
@@ -67330,7 +68188,9 @@
       34.847,
       36.438,
       36.713,
-      30.744
+      30.744,
+      35.202,
+      36.508
     ],
     "lons": [
       "x",
@@ -67349,10 +68209,12 @@
       -1.807,
       2.084,
       4.132,
-      18.66
+      18.66,
+      3.358,
+      7.844
     ],
-    "mean_lat": 35.117,
-    "mean_lon": 4.912,
+    "mean_lat": 35.251,
+    "mean_lon": 5.037,
     "regions": [
       "Aargau",
       "Baden-W\u00fcrttemberg",
@@ -67370,7 +68232,9 @@
       "Aargau",
       "Zurich",
       "North Rhine-Westphalia",
-      "North Rhine-Westphalia"
+      "North Rhine-Westphalia",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -67389,7 +68253,9 @@
       "Switzerland",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       710.2,
@@ -67408,7 +68274,9 @@
       112.9,
       282.1,
       461.6,
-      1863.7
+      1863.7,
+      363.3,
+      778.3
     ],
     "times": [
       6.5,
@@ -67427,7 +68295,9 @@
       7.6,
       6.3,
       7.3,
-      7.3
+      7.3,
+      7.6,
+      7.6
     ]
   },
   "Tamale, Ghana": {
@@ -68172,10 +69042,10 @@
     ]
   },
   "Bumba, Congo (Kinshasa)": {
-    "mean_dist": 813.2,
-    "mean_time": 7,
-    "std_dist": 336.8,
-    "std_time": 2,
+    "mean_dist": 843.9,
+    "mean_time": 6.9,
+    "std_dist": 361,
+    "std_time": 1.9,
     "city": "Bumba",
     "admin": "Mongala",
     "country": "Congo (Kinshasa)",
@@ -68212,7 +69082,11 @@
       -8.392,
       -3.122,
       -4.699,
-      -0.707
+      -0.707,
+      -1.079,
+      6.99,
+      -5.994,
+      -11.778
     ],
     "lons": [
       "x",
@@ -68247,10 +69121,14 @@
       25.849,
       28.448,
       18.455,
-      28.819
+      28.819,
+      21.209,
+      12.392,
+      28.726,
+      18.424
     ],
-    "mean_lat": -3.093,
-    "mean_lon": 22.048,
+    "mean_lat": -3.053,
+    "mean_lon": 21.475,
     "regions": [
       "Aargau",
       "North Carolina",
@@ -68284,7 +69162,11 @@
       "Uusimaa",
       "Aargau",
       "Washington",
-      "Aargau"
+      "Aargau",
+      "North Rhine-Westphalia",
+      "Stockholm",
+      "Aargau",
+      "North Rhine-Westphalia"
     ],
     "countries": [
       "Switzerland",
@@ -68319,7 +69201,11 @@
       "Finland",
       "Switzerland",
       "United States",
-      "Switzerland"
+      "Switzerland",
+      "Germany",
+      "Sweden",
+      "Switzerland",
+      "Germany"
     ],
     "dists": [
       752.3,
@@ -68354,7 +69240,11 @@
       1235.2,
       889.9,
       885.8,
-      776.9
+      776.9,
+      389.2,
+      1236.6,
+      1145.6,
+      1615.9
     ],
     "times": [
       7.9,
@@ -68389,14 +69279,18 @@
       8.2,
       8.5,
       6.8,
-      8.3
+      8.3,
+      4.4,
+      5.5,
+      8.3,
+      6.1
     ]
   },
   "Bida, Nigeria": {
-    "mean_dist": 299.5613273907023,
-    "mean_time": 8.306666666666674,
-    "std_dist": 74.86834169070596,
-    "std_time": 0.279999999999999,
+    "mean_dist": 577.9,
+    "mean_time": 7.1,
+    "std_dist": 605.8,
+    "std_time": 2.2,
     "city": "Bida",
     "admin": "Niger",
     "country": "Nigeria",
@@ -68410,7 +69304,12 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      6.436,
+      -10.957,
+      19.187,
+      10.389,
+      6.99
     ],
     "lons": [
       "x",
@@ -68422,10 +69321,15 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      4.781,
+      16.197,
+      -0.879,
+      9.236,
+      16.011
     ],
-    "mean_lat": 0,
-    "mean_lon": 0,
+    "mean_lat": 6.409,
+    "mean_lon": 9.069,
     "regions": [
       "Aargau",
       "California",
@@ -68436,7 +69340,12 @@
       "Washington",
       "Washington",
       "Aargau",
-      "California"
+      "California",
+      "North Rhine-Westphalia",
+      "North Rhine-Westphalia",
+      "Stockholm",
+      "Aargau",
+      "North Rhine-Westphalia"
     ],
     "countries": [
       "Switzerland",
@@ -68448,7 +69357,12 @@
       "United States",
       "United States",
       "Switzerland",
-      "United States"
+      "United States",
+      "Germany",
+      "Germany",
+      "Sweden",
+      "Switzerland",
+      "Germany"
     ],
     "dists": [
       399.1,
@@ -68460,7 +69374,12 @@
       363.3,
       259,
       381.4,
-      191.7
+      191.7,
+      323.6,
+      2496.8,
+      1346.5,
+      382.4,
+      1125.3
     ],
     "times": [
       8.2,
@@ -68472,14 +69391,19 @@
       7.6,
       8.1,
       8.6,
-      8.3
+      8.3,
+      6.6,
+      2.6,
+      1.7,
+      8.6,
+      4.4
     ]
   },
   "Bethal, South Africa": {
-    "mean_dist": 577.9,
-    "mean_time": 7.6,
-    "std_dist": 343.7,
-    "std_time": 0.7,
+    "mean_dist": 577.2,
+    "mean_time": 7,
+    "std_dist": 350.1,
+    "std_time": 1.4,
     "city": "Bethal",
     "admin": "Mpumalanga",
     "country": "South Africa",
@@ -68502,7 +69426,12 @@
       -32.465,
       -27.145,
       -31.124,
-      -28.782
+      -28.782,
+      -33.246,
+      -27.393,
+      -26.897,
+      -27.393,
+      -32.465
     ],
     "lons": [
       "x",
@@ -68523,10 +69452,15 @@
       22.137,
       29.283,
       24.436,
-      30.298
+      30.298,
+      24.55,
+      29.654,
+      23.529,
+      27.52,
+      20.745
     ],
-    "mean_lat": -29.843,
-    "mean_lon": 26.132,
+    "mean_lat": -29.661,
+    "mean_lon": 25.666,
     "regions": [
       "Aargau",
       "North Holland",
@@ -68546,7 +69480,12 @@
       "Pomerania",
       "Aargau",
       "Washington",
-      "Zurich"
+      "Zurich",
+      "North Rhine-Westphalia",
+      "North Rhine-Westphalia",
+      "Stockholm",
+      "Aargau",
+      "North Rhine-Westphalia"
     ],
     "countries": [
       "Switzerland",
@@ -68567,7 +69506,12 @@
       "Poland",
       "Switzerland",
       "United States",
-      "Switzerland"
+      "Switzerland",
+      "Germany",
+      "Germany",
+      "Sweden",
+      "Switzerland",
+      "Germany"
     ],
     "dists": [
       617.3,
@@ -68588,7 +69532,12 @@
       971.9,
       76.9,
       711.5,
-      270.3
+      270.3,
+      889.1,
+      104.7,
+      590,
+      217.1,
+      1073.8
     ],
     "times": [
       8.4,
@@ -68609,7 +69558,12 @@
       7.6,
       6.7,
       7.9,
-      6.9
+      6.9,
+      5.4,
+      3.7,
+      3.2,
+      8.2,
+      5
     ]
   },
   "Lagos, Nigeria": {
@@ -69394,10 +70348,10 @@
     ]
   },
   "Chitungwiza, Zimbabwe": {
-    "mean_dist": 568.6,
-    "mean_time": 6.4,
-    "std_dist": 716.2,
-    "std_time": 2.4,
+    "mean_dist": 571.2,
+    "mean_time": 6.5,
+    "std_dist": 694.5,
+    "std_time": 2.3,
     "city": "Chitungwiza",
     "admin": "Harare",
     "country": "Zimbabwe",
@@ -69428,7 +70382,9 @@
       -1.357,
       -5.14,
       -13.736,
-      -17.575
+      -17.575,
+      -22.878,
+      -20.692
     ],
     "lons": [
       "x",
@@ -69457,10 +70413,12 @@
       10.071,
       35.759,
       29.821,
-      28.912
+      28.912,
+      24.612,
+      29.469
     ],
-    "mean_lat": -14.835,
-    "mean_lon": 27.282,
+    "mean_lat": -15.704,
+    "mean_lon": 27.252,
     "regions": [
       "Aargau",
       "Aargau",
@@ -69488,7 +70446,9 @@
       "Ravne na Koro\u0161kem",
       "North Holland",
       "Utrecht",
-      "North Holland"
+      "North Holland",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -69517,7 +70477,9 @@
       "Slovenia",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       545.8,
@@ -69546,7 +70508,9 @@
       2948.6,
       1516.9,
       493.4,
-      236.3
+      236.3,
+      866.5,
+      344.8
     ],
     "times": [
       8.2,
@@ -69575,13 +70539,15 @@
       4.9,
       1.4,
       2.4,
-      5.1
+      5.1,
+      6.7,
+      8.1
     ]
   },
   "Lobamba, Swaziland": {
-    "mean_dist": 457.9,
-    "mean_time": 7,
-    "std_dist": 1259.2,
+    "mean_dist": 448.4,
+    "mean_time": 7.1,
+    "std_dist": 1244.3,
     "std_time": 1.5,
     "city": "Lobamba",
     "admin": "Hhohho",
@@ -69624,7 +70590,8 @@
       -26.232,
       -27.126,
       -26.045,
-      -25.934
+      -25.934,
+      -25.814
     ],
     "lons": [
       "x",
@@ -69664,10 +70631,11 @@
       31.263,
       31.768,
       31.489,
-      31.552
+      31.552,
+      31.696
     ],
-    "mean_lat": -20.164,
-    "mean_lon": 30.753,
+    "mean_lat": -20.635,
+    "mean_lon": 30.831,
     "regions": [
       "Aargau",
       "Aargau",
@@ -69706,7 +70674,8 @@
       "Connecticut",
       "Styria",
       "Styria",
-      "Styria"
+      "Styria",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -69746,7 +70715,8 @@
       "United States",
       "Austria",
       "Austria",
-      "Austria"
+      "Austria",
+      "Switzerland"
     ],
     "dists": [
       101.2,
@@ -69786,7 +70756,8 @@
       26.8,
       92.5,
       55,
-      68.8
+      68.8,
+      87.8
     ],
     "times": [
       8,
@@ -69826,7 +70797,8 @@
       5.9,
       5.3,
       6.8,
-      6.1
+      6.1,
+      8.3
     ]
   },
   "Luanshya, Zambia": {
@@ -70438,9 +71410,9 @@
     ]
   },
   "Zarzis, Tunisia": {
-    "mean_dist": 583.7,
+    "mean_dist": 570.9,
     "mean_time": 7,
-    "std_dist": 1164.1,
+    "std_dist": 1141.3,
     "std_time": 1.6,
     "city": "Zarzis",
     "admin": "M\u00e9denine",
@@ -70491,7 +71463,9 @@
       33.694,
       34.643,
       33.558,
-      35.151
+      35.151,
+      35.581,
+      34.234
     ],
     "lons": [
       "x",
@@ -70539,10 +71513,12 @@
       10.071,
       9.917,
       10.7,
-      10.164
+      10.164,
+      9.391,
+      8.215
     ],
-    "mean_lat": 31.199,
-    "mean_lon": 9.95,
+    "mean_lat": 31.635,
+    "mean_lon": 9.815,
     "regions": [
       "Aargau",
       "North Carolina",
@@ -70589,6 +71565,8 @@
       "Aargau",
       "Connecticut",
       "Styria",
+      "Aargau",
+      "North Rhine-Westphalia",
       "Aargau"
     ],
     "countries": [
@@ -70637,6 +71615,8 @@
       "Switzerland",
       "United States",
       "Austria",
+      "Switzerland",
+      "Germany",
       "Switzerland"
     ],
     "dists": [
@@ -70685,7 +71665,9 @@
       97.4,
       166.5,
       37.4,
-      201.7
+      201.7,
+      278.4,
+      278.1
     ],
     "times": [
       8.3,
@@ -70733,14 +71715,16 @@
       6.6,
       6.6,
       6.6,
-      8.3
+      8.3,
+      8.4,
+      8.5
     ]
   },
   "Chlef, Algeria": {
-    "mean_dist": 580.2,
-    "mean_time": 6.7,
-    "std_dist": 631.2,
-    "std_time": 2,
+    "mean_dist": 583.1,
+    "mean_time": 6.8,
+    "std_dist": 600.5,
+    "std_time": 1.9,
     "city": "Chlef",
     "admin": "Chlef",
     "country": "Algeria",
@@ -70762,7 +71746,9 @@
       15.371,
       31.679,
       35.666,
-      33.733
+      33.733,
+      29.438,
+      36.058
     ],
     "lons": [
       "x",
@@ -70782,10 +71768,12 @@
       16.568,
       4.203,
       6.062,
-      9.7
+      9.7,
+      1.604,
+      6.545
     ],
-    "mean_lat": 30.561,
-    "mean_lon": 8.429,
+    "mean_lat": 31.186,
+    "mean_lon": 7.185,
     "regions": [
       "Aargau",
       "North Carolina",
@@ -70804,7 +71792,9 @@
       "North Holland",
       "North Holland",
       "Utrecht",
-      "North Holland"
+      "North Holland",
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -70824,7 +71814,9 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       247.1,
@@ -70844,7 +71836,9 @@
       2762.8,
       565.7,
       430.6,
-      810
+      810,
+      749,
+      469.4
     ],
     "times": [
       8.3,
@@ -70864,7 +71858,9 @@
       1.3,
       7.2,
       3.7,
-      5.6
+      5.6,
+      7.7,
+      8.4
     ]
   },
   "Assab, Eritrea": {
@@ -71620,10 +72616,10 @@
     ]
   },
   "Damietta, Egypt": {
-    "mean_dist": 271.6,
-    "mean_time": 7.5,
-    "std_dist": 166.3,
-    "std_time": 1.5,
+    "mean_dist": 270.5,
+    "mean_time": 7.6,
+    "std_dist": 162.3,
+    "std_time": 1.4,
     "city": "Damietta",
     "admin": "Dumy\u0101\u0163",
     "country": "Egypt",
@@ -71647,7 +72643,8 @@
       28.256,
       28.606,
       27.951,
-      26.629
+      26.629,
+      29.419
     ],
     "lons": [
       "x",
@@ -71669,10 +72666,11 @@
       31.563,
       31.047,
       32.439,
-      31.139
+      31.139,
+      30.675
     ],
-    "mean_lat": 27.86,
-    "mean_lon": 31.547,
+    "mean_lat": 28.172,
+    "mean_lon": 31.372,
     "regions": [
       "Pennsylvania",
       "Aargau",
@@ -71693,6 +72691,7 @@
       "Colorado",
       "Aargau",
       "England",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -71715,6 +72714,7 @@
       "United States",
       "Switzerland",
       "United Kingdom",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -71737,7 +72737,8 @@
       352.6,
       321.6,
       390.3,
-      536.7
+      536.7,
+      248
     ],
     "times": [
       7.9,
@@ -71759,7 +72760,8 @@
       8.2,
       8.2,
       4.5,
-      8.4
+      8.4,
+      8.5
     ]
   },
   "Nsukka, Nigeria": {
@@ -72216,9 +73218,9 @@
     ]
   },
   "Ismailia, Egypt": {
-    "mean_dist": 159.2,
-    "mean_time": 7.5,
-    "std_dist": 105.6,
+    "mean_dist": 157.8,
+    "mean_time": 7.6,
+    "std_dist": 102.8,
     "std_time": 0.8,
     "city": "Ismailia",
     "admin": "Al Ism\u0101\u2018\u012bl\u012byah",
@@ -72245,7 +73247,9 @@
       30.344,
       27.99,
       30.306,
-      30.481
+      30.481,
+      29.392,
+      31.025
     ],
     "lons": [
       "x",
@@ -72269,10 +73273,12 @@
       31.468,
       31.375,
       31.232,
-      33.351
+      33.351,
+      30.644,
+      31.603
     ],
-    "mean_lat": 30.14,
-    "mean_lon": 31.973,
+    "mean_lat": 30.159,
+    "mean_lon": 31.73,
     "regions": [
       "North Carolina",
       "Aargau",
@@ -72295,7 +73301,9 @@
       "Washington",
       "Washington",
       "Uusimaa",
-      "Uusimaa"
+      "Uusimaa",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -72319,7 +73327,9 @@
       "United States",
       "United States",
       "Finland",
-      "Finland"
+      "Finland",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       212.8,
@@ -72343,7 +73353,9 @@
       80.6,
       301.5,
       103.4,
-      105.2
+      105.2,
+      204.7,
+      79.1
     ],
     "times": [
       7.8,
@@ -72367,7 +73379,9 @@
       7,
       7.9,
       8.2,
-      8.1
+      8.1,
+      7.3,
+      8.3
     ]
   },
   "Welkom, South Africa": {
@@ -73861,10 +74875,10 @@
     ]
   },
   "Maradi, Niger": {
-    "mean_dist": 869.7,
-    "mean_time": 6.6,
-    "std_dist": 1039.4,
-    "std_time": 1.7,
+    "mean_dist": 837.3,
+    "mean_time": 6.7,
+    "std_dist": 1020.1,
+    "std_time": 1.6,
     "city": "Maradi",
     "admin": "Maradi",
     "country": "Niger",
@@ -73903,7 +74917,9 @@
       9.244,
       13.933,
       7.403,
-      1.931
+      1.931,
+      16.415,
+      14.563
     ],
     "lons": [
       "x",
@@ -73940,10 +74956,12 @@
       39.956,
       3.946,
       18.567,
-      13.618
+      13.618,
+      7.071,
+      5.431
     ],
-    "mean_lat": 6.403,
-    "mean_lon": 15.202,
+    "mean_lat": 7.701,
+    "mean_lon": 13.923,
     "regions": [
       "Aargau",
       "Aargau",
@@ -73979,7 +74997,9 @@
       "Berlin",
       "Aargau",
       "North Rhine-Westphalia",
-      "North Rhine-Westphalia"
+      "North Rhine-Westphalia",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -74016,7 +75036,9 @@
       "Germany",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       323.7,
@@ -74053,7 +75075,9 @@
       3610.3,
       343.8,
       1424.7,
-      1472
+      1472,
+      325,
+      215.5
     ],
     "times": [
       6.4,
@@ -74090,13 +75114,15 @@
       1,
       7.4,
       6.3,
-      6.4
+      6.4,
+      8.3,
+      6.9
     ]
   },
   "Ab\u00e9ch\u00e9, Chad": {
-    "mean_dist": 553.2,
+    "mean_dist": 552.4,
     "mean_time": 7,
-    "std_dist": 577.3,
+    "std_dist": 568.5,
     "std_time": 1.6,
     "city": "Ab\u00e9ch\u00e9",
     "admin": "Ouadda\u00ef",
@@ -74133,7 +75159,8 @@
       11.485,
       16.177,
       16.563,
-      17.798
+      17.798,
+      11.94
     ],
     "lons": [
       "x",
@@ -74167,10 +75194,11 @@
       15.454,
       17.806,
       20.311,
-      1.697
+      1.697,
+      16.383
     ],
-    "mean_lat": 15.505,
-    "mean_lon": 13.817,
+    "mean_lat": 14.792,
+    "mean_lon": 14.33,
     "regions": [
       "Aargau",
       "Aargau",
@@ -74203,7 +75231,8 @@
       "Aargau",
       "Washington",
       "Connecticut",
-      "Styria"
+      "Styria",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -74237,7 +75266,8 @@
       "Switzerland",
       "United States",
       "United States",
-      "Austria"
+      "Austria",
+      "Switzerland"
     ],
     "dists": [
       553.8,
@@ -74271,7 +75301,8 @@
       639.1,
       415.9,
       307.9,
-      2092.4
+      2092.4,
+      526.2
     ],
     "times": [
       6.4,
@@ -74305,13 +75336,14 @@
       7.8,
       5.7,
       7.7,
-      3.4
+      3.4,
+      6.9
     ]
   },
   "S\u00e9gou, Mali": {
-    "mean_dist": 474,
-    "mean_time": 7.3,
-    "std_dist": 841.9,
+    "mean_dist": 473.1,
+    "mean_time": 7.2,
+    "std_dist": 814.1,
     "std_time": 0.9,
     "city": "S\u00e9gou",
     "admin": "S\u00e9gou",
@@ -74344,7 +75376,9 @@
       16.622,
       5.991,
       18.048,
-      13.21
+      13.21,
+      17.393,
+      11.211
     ],
     "lons": [
       "x",
@@ -74374,10 +75408,12 @@
       -2.364,
       32.422,
       -2.37,
-      -7.19
+      -7.19,
+      -2.488,
+      -4.313
     ],
-    "mean_lat": 13.273,
-    "mean_lon": 0.537,
+    "mean_lat": 13.479,
+    "mean_lon": -0.25,
     "regions": [
       "Aargau",
       "Aargau",
@@ -74406,6 +75442,8 @@
       "Uusimaa",
       "Uusimaa",
       "Zurich",
+      "Aargau",
+      "North Rhine-Westphalia",
       "Aargau"
     ],
     "countries": [
@@ -74436,6 +75474,8 @@
       "Finland",
       "Finland",
       "Switzerland",
+      "Switzerland",
+      "Germany",
       "Switzerland"
     ],
     "dists": [
@@ -74466,7 +75506,9 @@
       547.8,
       4314.2,
       660,
-      103.9
+      103.9,
+      597.1,
+      325.7
     ],
     "times": [
       7.9,
@@ -74496,7 +75538,9 @@
       8.4,
       6.4,
       6.7,
-      8.5
+      8.5,
+      6,
+      7.2
     ]
   },
   "Mwene-Ditu, Congo (Kinshasa)": {
@@ -76667,9 +77711,9 @@
     ]
   },
   "Ilorin, Nigeria": {
-    "mean_dist": 367.2,
+    "mean_dist": 365,
     "mean_time": 7.5,
-    "std_dist": 271,
+    "std_dist": 263,
     "std_time": 1.3,
     "city": "Ilorin",
     "admin": "Kwara",
@@ -76704,7 +77748,9 @@
       7.359,
       8.004,
       9.66,
-      8.004
+      8.004,
+      6.405,
+      8.923
     ],
     "lons": [
       "x",
@@ -76736,10 +77782,12 @@
       7.751,
       -9.696,
       8.568,
-      5.895
+      5.895,
+      5.771,
+      8.122
     ],
-    "mean_lat": 8.649,
-    "mean_lon": 4.76,
+    "mean_lat": 8.403,
+    "mean_lon": 5.306,
     "regions": [
       "Aargau",
       "Aargau",
@@ -76770,7 +77818,9 @@
       "Uusimaa",
       "Utrecht",
       "North Holland",
-      "North Holland"
+      "North Holland",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -76802,7 +77852,9 @@
       "Finland",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       443.3,
@@ -76834,7 +77886,9 @@
       374.3,
       1568.6,
       460,
-      157.6
+      157.6,
+      268,
+      395.6
     ],
     "times": [
       8.3,
@@ -76866,7 +77920,9 @@
       8.7,
       3.6,
       5.4,
-      4.6
+      4.6,
+      7.8,
+      8.6
     ]
   },
   "Az Zaq\u0101z\u012bq, Egypt": {
@@ -78272,9 +79328,9 @@
     ]
   },
   "Agadez, Niger": {
-    "mean_dist": 395.2,
+    "mean_dist": 395.1,
     "mean_time": 6.6,
-    "std_dist": 217.8,
+    "std_dist": 209.9,
     "std_time": 1.5,
     "city": "Agadez",
     "admin": "Agadez",
@@ -78302,7 +79358,9 @@
       14.203,
       15.504,
       15.646,
-      15.192
+      15.192,
+      15.252,
+      14.473
     ],
     "lons": [
       "x",
@@ -78327,10 +79385,12 @@
       9.886,
       9.193,
       10.715,
-      5.895
+      5.895,
+      5.586,
+      4.503
     ],
-    "mean_lat": 15.052,
-    "mean_lon": 9.385,
+    "mean_lat": 14.998,
+    "mean_lon": 8.145,
     "regions": [
       "Aargau",
       "Aargau",
@@ -78354,6 +79414,8 @@
       "Pomerania",
       "Washington",
       "Zurich",
+      "Aargau",
+      "North Rhine-Westphalia",
       "Aargau"
     ],
     "countries": [
@@ -78379,6 +79441,8 @@
       "Poland",
       "United States",
       "Switzerland",
+      "Switzerland",
+      "Germany",
       "Switzerland"
     ],
     "dists": [
@@ -78404,7 +79468,9 @@
       371.4,
       210.2,
       327.9,
-      299.8
+      299.8,
+      321.1,
+      466.1
     ],
     "times": [
       4.9,
@@ -78429,7 +79495,9 @@
       2,
       5,
       6.5,
-      8.1
+      8.1,
+      7.4,
+      6.4
     ]
   },
   "Mahajanga, Madagascar": {
@@ -78815,9 +79883,9 @@
     ]
   },
   "Mallaw\u012b, Egypt": {
-    "mean_dist": 192.7,
+    "mean_dist": 200.7,
     "mean_time": 7.8,
-    "std_dist": 86.4,
+    "std_dist": 90.8,
     "std_time": 0.8,
     "city": "Mallaw\u012b",
     "admin": "Al Miny\u0101",
@@ -78849,7 +79917,9 @@
       27.127,
       28.878,
       26.989,
-      27.712
+      27.712,
+      29.796,
+      31.184
     ],
     "lons": [
       "x",
@@ -78878,10 +79948,12 @@
       32.253,
       30.706,
       31.727,
-      30.761
+      30.761,
+      30.83,
+      31.418
     ],
-    "mean_lat": 26.781,
-    "mean_lon": 31.581,
+    "mean_lat": 27.708,
+    "mean_lon": 31.467,
     "regions": [
       "Aargau",
       "Baden-W\u00fcrttemberg",
@@ -78909,7 +79981,9 @@
       "California",
       "Connecticut",
       "Connecticut",
-      "Utrecht"
+      "Utrecht",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -78938,7 +80012,9 @@
       "United States",
       "United States",
       "United States",
-      "Netherlands"
+      "Netherlands",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       110.4,
@@ -78967,7 +80043,9 @@
       154.7,
       128.2,
       120.3,
-      7.9
+      7.9,
+      229.7,
+      388.1
     ],
     "times": [
       8.2,
@@ -78996,7 +80074,9 @@
       8.5,
       5.3,
       8,
-      5
+      5,
+      7.7,
+      8.2
     ]
   },
   "Sousse, Tunisia": {
@@ -79632,9 +80712,9 @@
     ]
   },
   "Kikwit, Congo (Kinshasa)": {
-    "mean_dist": 542.1,
-    "mean_time": 7.1,
-    "std_dist": 311.4,
+    "mean_dist": 526.8,
+    "mean_time": 7.2,
+    "std_dist": 307.6,
     "std_time": 1,
     "city": "Kikwit",
     "admin": "Kwilu",
@@ -79666,7 +80746,9 @@
       -3.308,
       -5.803,
       2.359,
-      -5.069
+      -5.069,
+      -2.967,
+      -6.272
     ],
     "lons": [
       "x",
@@ -79695,10 +80777,12 @@
       22.786,
       23.894,
       26.87,
-      13.505
+      13.505,
+      22.384,
+      20.002
     ],
-    "mean_lat": -3.557,
-    "mean_lon": 19.656,
+    "mean_lat": -3.72,
+    "mean_lon": 19.892,
     "regions": [
       "Aargau",
       "Aargau",
@@ -79726,6 +80810,8 @@
       "Utrecht",
       "Zurich",
       "South Holland",
+      "Aargau",
+      "North Rhine-Westphalia",
       "Aargau"
     ],
     "countries": [
@@ -79755,6 +80841,8 @@
       "Netherlands",
       "Switzerland",
       "Netherlands",
+      "Switzerland",
+      "Germany",
       "Switzerland"
     ],
     "dists": [
@@ -79784,7 +80872,9 @@
       476.7,
       564.9,
       1212,
-      591.9
+      591.9,
+      454.1,
+      187.9
     ],
     "times": [
       8,
@@ -79813,7 +80903,9 @@
       5.7,
       7.6,
       4.4,
-      8.2
+      8.2,
+      6.6,
+      8.7
     ]
   },
   "T\u00e9bessa, Algeria": {
@@ -80145,9 +81237,9 @@
     ]
   },
   "Djougou, Benin": {
-    "mean_dist": 366.6,
+    "mean_dist": 363.6,
     "mean_time": 7,
-    "std_dist": 616.2,
+    "std_dist": 601.6,
     "std_time": 1.1,
     "city": "Djougou",
     "admin": "Donga",
@@ -80192,7 +81284,9 @@
       8.556,
       9.199,
       10.395,
-      10.03
+      10.03,
+      7.328,
+      6.713
     ],
     "lons": [
       "x",
@@ -80234,10 +81328,12 @@
       2.183,
       2.461,
       2.084,
-      2.084
+      2.084,
+      0.945,
+      1.626
     ],
-    "mean_lat": 7.43,
-    "mean_lon": 5.077,
+    "mean_lat": 7.372,
+    "mean_lon": 4.535,
     "regions": [
       "Aargau",
       "Aargau",
@@ -80278,7 +81374,9 @@
       "South Holland",
       "Aargau",
       "Zurich",
-      "Zurich"
+      "Zurich",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -80320,6 +81418,8 @@
       "Netherlands",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
+      "Germany",
       "Switzerland"
     ],
     "dists": [
@@ -80362,7 +81462,9 @@
       138.6,
       102.2,
       89,
-      57.4
+      57.4,
+      275.8,
+      332.1
     ],
     "times": [
       7.4,
@@ -80404,7 +81506,9 @@
       6.2,
       7.9,
       5.9,
-      7.7
+      7.7,
+      6.3,
+      8.3
     ]
   },
   "Azare, Nigeria": {
@@ -80724,9 +81828,9 @@
     ]
   },
   "Moanda, Congo (Kinshasa)": {
-    "mean_dist": 761.7,
+    "mean_dist": 769.8,
     "mean_time": 7,
-    "std_dist": 525.8,
+    "std_dist": 515.1,
     "std_time": 1.9,
     "city": "Moanda",
     "admin": "Kongo Central",
@@ -80752,7 +81856,8 @@
       -3.308,
       -5.162,
       -2.093,
-      -1.404
+      -1.404,
+      -5.439
     ],
     "lons": [
       "x",
@@ -80775,10 +81880,11 @@
       24.55,
       18.888,
       23.304,
-      23.9
+      23.9,
+      20.837
     ],
-    "mean_lat": -2.89,
-    "mean_lon": 20.637,
+    "mean_lat": -3.254,
+    "mean_lon": 20.665,
     "regions": [
       "Aargau",
       "Baden-W\u00fcrttemberg",
@@ -80800,7 +81906,8 @@
       "England",
       "Aargau",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -80823,7 +81930,8 @@
       "United Kingdom",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       1361.2,
@@ -80846,7 +81954,8 @@
       1382.4,
       728,
       1286.7,
-      1375.8
+      1375.8,
+      940.1
     ],
     "times": [
       8.1,
@@ -80869,7 +81978,8 @@
       1.2,
       8.6,
       6.1,
-      4.3
+      4.3,
+      8.3
     ]
   },
   "Nguru, Nigeria": {
@@ -81010,9 +82120,9 @@
     ]
   },
   "Cuito, Angola": {
-    "mean_dist": 648.1,
+    "mean_dist": 611.1,
     "mean_time": 7,
-    "std_dist": 933.9,
+    "std_dist": 896.8,
     "std_time": 1.3,
     "city": "Cuito",
     "admin": "Bi\u00e9",
@@ -81046,7 +82156,10 @@
       -11.14,
       -17.598,
       -12.647,
-      -14.763
+      -14.763,
+      -13.682,
+      -13.35,
+      -12.505
     ],
     "lons": [
       "x",
@@ -81077,10 +82190,13 @@
       13.969,
       29.169,
       13.372,
-      12.949
+      12.949,
+      13.691,
+      15.516,
+      15.176
     ],
-    "mean_lat": -9.026,
-    "mean_lon": 12.662,
+    "mean_lat": -10.158,
+    "mean_lon": 13.244,
     "regions": [
       "Aargau",
       "Aargau",
@@ -81110,7 +82226,10 @@
       "Bavaria",
       "Utrecht",
       "Bavaria",
-      "Bavaria"
+      "Bavaria",
+      "Aargau",
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -81141,7 +82260,10 @@
       "Germany",
       "Netherlands",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland",
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       354.1,
@@ -81172,7 +82294,10 @@
       351.4,
       1435.3,
       388.3,
-      506.2
+      506.2,
+      380.5,
+      188.2,
+      191.9
     ],
     "times": [
       8.3,
@@ -81203,7 +82328,10 @@
       6.6,
       6.8,
       6.2,
-      5.9
+      5.9,
+      8.1,
+      5.9,
+      8
     ]
   },
   "El Jadid, Morocco": {
@@ -81368,9 +82496,9 @@
     ]
   },
   "Mi\u015fr\u0101tah, Libya": {
-    "mean_dist": 385.9,
+    "mean_dist": 391.3,
     "mean_time": 7.6,
-    "std_dist": 721.5,
+    "std_dist": 711.1,
     "std_time": 0.9,
     "city": "Mi\u015fr\u0101tah",
     "admin": "Mi\u015fr\u0101tah",
@@ -81407,7 +82535,8 @@
       31.381,
       31.66,
       30.546,
-      32.055
+      32.055,
+      32.37
     ],
     "lons": [
       "x",
@@ -81441,10 +82570,11 @@
       16.061,
       21.301,
       15.269,
-      20.93
+      20.93,
+      21.116
     ],
-    "mean_lat": 31.571,
-    "mean_lon": 17.561,
+    "mean_lat": 31.704,
+    "mean_lon": 18.154,
     "regions": [
       "Aargau",
       "England",
@@ -81477,6 +82607,7 @@
       "Washington",
       "Aargau",
       "Utrecht",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -81511,6 +82642,7 @@
       "United States",
       "Switzerland",
       "Netherlands",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -81545,7 +82677,8 @@
       143.4,
       590,
       204.4,
-      549.6
+      549.6,
+      564.9
     ],
     "times": [
       8.1,
@@ -81579,7 +82712,8 @@
       7.6,
       8.4,
       5.9,
-      8
+      8,
+      8.3
     ]
   },
   "Klerksdorp, South Africa": {
@@ -81970,9 +83104,9 @@
     ]
   },
   "Bafoussam, Cameroon": {
-    "mean_dist": 357.8,
+    "mean_dist": 350.7,
     "mean_time": 7.4,
-    "std_dist": 504.2,
+    "std_dist": 496.9,
     "std_time": 1.1,
     "city": "Bafoussam",
     "admin": "Ouest",
@@ -82005,7 +83139,8 @@
       4.153,
       6.306,
       -13.275,
-      5.419
+      5.419,
+      4.308
     ],
     "lons": [
       "x",
@@ -82035,10 +83170,11 @@
       9.824,
       13.679,
       14.526,
-      13.32
+      13.32,
+      11.092
     ],
-    "mean_lat": 2.457,
-    "mean_lon": 12.276,
+    "mean_lat": 2.663,
+    "mean_lon": 12.144,
     "regions": [
       "Aargau",
       "Aargau",
@@ -82067,6 +83203,7 @@
       "Connecticut",
       "Berlin",
       "Berlin",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -82097,6 +83234,7 @@
       "United States",
       "Germany",
       "Germany",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -82127,7 +83265,8 @@
       162.1,
       372.9,
       2135.6,
-      322.2
+      322.2,
+      151.6
     ],
     "times": [
       8.1,
@@ -82157,6 +83296,7 @@
       6.2,
       7,
       2.9,
+      8.2,
       8.2
     ]
   },
@@ -82650,10 +83790,10 @@
     ]
   },
   "Guelma, Algeria": {
-    "mean_dist": 415.7,
+    "mean_dist": 409.8,
     "mean_time": 7.1,
-    "std_dist": 237,
-    "std_time": 1.6,
+    "std_dist": 232.9,
+    "std_time": 1.5,
     "city": "Guelma",
     "admin": "Guelma",
     "country": "Algeria",
@@ -82680,7 +83820,9 @@
       33.926,
       36.283,
       35.151,
-      36.657
+      36.657,
+      35.732,
+      35.832
     ],
     "lons": [
       "x",
@@ -82705,10 +83847,12 @@
       1.811,
       2.925,
       1.44,
-      7.101
+      7.101,
+      1.873,
+      5.616
     ],
-    "mean_lat": 35.504,
-    "mean_lon": 3.319,
+    "mean_lat": 35.596,
+    "mean_lon": 3.461,
     "regions": [
       "Aargau",
       "Aargau",
@@ -82732,6 +83876,8 @@
       "Aargau",
       "Aargau",
       "Utrecht",
+      "Aargau",
+      "North Rhine-Westphalia",
       "Aargau"
     ],
     "countries": [
@@ -82757,6 +83903,8 @@
       "Switzerland",
       "Switzerland",
       "Netherlands",
+      "Switzerland",
+      "Germany",
       "Switzerland"
     ],
     "dists": [
@@ -82782,7 +83930,9 @@
       583,
       403.5,
       559.2,
-      36
+      36,
+      505.5,
+      177.1
     ],
     "times": [
       8,
@@ -82807,7 +83957,9 @@
       8.3,
       8.3,
       4.9,
-      8
+      8,
+      6.9,
+      8.4
     ]
   },
   "Kroonstad, South Africa": {
@@ -83169,10 +84321,10 @@
     ]
   },
   "Pemba, Mozambique": {
-    "mean_dist": 1089.3,
-    "mean_time": 7.3,
-    "std_dist": 1262.6,
-    "std_time": 1.1,
+    "mean_dist": 1291.1,
+    "mean_time": 6.4,
+    "std_dist": 1309.9,
+    "std_time": 2.4,
     "city": "Pemba",
     "admin": "Cabo Delgado",
     "country": "Mozambique",
@@ -83193,7 +84345,11 @@
       -18.943,
       13.136,
       -18.062,
-      -15.839
+      -15.839,
+      -20.169,
+      0.779,
+      1.802,
+      -20.431
     ],
     "lons": [
       "x",
@@ -83212,10 +84368,14 @@
       30.583,
       -5.536,
       34.481,
-      38.471
+      38.471,
+      34.295,
+      19.074,
+      10.535,
+      34.573
     ],
-    "mean_lat": -9.927,
-    "mean_lon": 24.499,
+    "mean_lat": -9.715,
+    "mean_lon": 24.559,
     "regions": [
       "Aargau",
       "Aargau",
@@ -83233,6 +84393,10 @@
       "Uusimaa",
       "Uusimaa",
       "Aargau",
+      "Aargau",
+      "North Rhine-Westphalia",
+      "North Rhine-Westphalia",
+      "Stockholm",
       "Aargau"
     ],
     "countries": [
@@ -83252,6 +84416,10 @@
       "Finland",
       "Finland",
       "Switzerland",
+      "Switzerland",
+      "Germany",
+      "Germany",
+      "Sweden",
       "Switzerland"
     ],
     "dists": [
@@ -83271,7 +84439,11 @@
       1252.6,
       5849.3,
       859.6,
-      387.4
+      387.4,
+      1039,
+      2818.1,
+      3695.4,
+      1043
     ],
     "times": [
       8.3,
@@ -83290,7 +84462,11 @@
       7.3,
       3.9,
       7.9,
-      8.1
+      8.1,
+      0.5,
+      1.6,
+      0.8,
+      7.8
     ]
   },
   "Makurdi, Nigeria": {
@@ -84683,9 +85859,9 @@
     ]
   },
   "Tiaret, Algeria": {
-    "mean_dist": 196.2,
+    "mean_dist": 206.7,
     "mean_time": 7.5,
-    "std_dist": 120.9,
+    "std_dist": 126.4,
     "std_time": 1,
     "city": "Tiaret",
     "admin": "Tiaret",
@@ -84709,7 +85885,8 @@
       34.117,
       35.925,
       35.988,
-      36.158
+      36.158,
+      35.455
     ],
     "lons": [
       "x",
@@ -84730,10 +85907,11 @@
       3.996,
       5.897,
       1.063,
-      2.059
+      2.059,
+      5.802
     ],
-    "mean_lat": 35.511,
-    "mean_lon": 3.015,
+    "mean_lat": 35.504,
+    "mean_lon": 3.363,
     "regions": [
       "Aargau",
       "Baden-W\u00fcrttemberg",
@@ -84753,7 +85931,8 @@
       "Washington",
       "Washington",
       "Zurich",
-      "Connecticut"
+      "Connecticut",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -84774,7 +85953,8 @@
       "United States",
       "United States",
       "Switzerland",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       78.9,
@@ -84795,7 +85975,8 @@
       281.9,
       417.9,
       71.4,
-      109.2
+      109.2,
+      406.2
     ],
     "times": [
       8.2,
@@ -84816,7 +85997,8 @@
       7.6,
       7.5,
       8.1,
-      8.2
+      8.2,
+      8.5
     ]
   },
   "Annaba, Algeria": {

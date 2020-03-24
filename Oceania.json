@@ -545,10 +545,10 @@
     ]
   },
   "Gisborne, New Zealand": {
-    "mean_dist": 316.9265629293481,
-    "mean_time": 7.507407407407419,
-    "std_dist": 273.77564803072454,
-    "std_time": 0.9385363499139142,
+    "mean_dist": 340.3,
+    "mean_time": 7.4,
+    "std_dist": 278.8,
+    "std_time": 0.9,
     "admin": "Gisborne",
     "country": "New Zealand",
     "city": "Gisborne",
@@ -579,7 +579,9 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      -43.081,
+      -41.61
     ],
     "lons": [
       "x",
@@ -608,10 +610,12 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      171.3,
+      172.594
     ],
-    "mean_lat": 0,
-    "mean_lon": 0,
+    "mean_lat": -42.345,
+    "mean_lon": 171.947,
     "regions": [
       "California",
       "Victoria",
@@ -639,7 +643,9 @@
       "Baden-W\u00fcrttemberg",
       "Baden-W\u00fcrttemberg",
       "Baden-W\u00fcrttemberg",
-      "Baden-W\u00fcrttemberg"
+      "Baden-W\u00fcrttemberg",
+      "Berlin",
+      "Utrecht"
     ],
     "countries": [
       "United States",
@@ -668,7 +674,9 @@
       "Germany",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "Germany",
+      "Netherlands"
     ],
     "dists": [
       950.3,
@@ -697,7 +705,9 @@
       33.5,
       26.8,
       26.4,
-      53
+      53,
+      748.1,
+      565.4
     ],
     "times": [
       8.1,
@@ -726,7 +736,9 @@
       7.7,
       7.8,
       7.9,
-      8.2
+      8.2,
+      7.2,
+      6.2
     ]
   },
   "Manukau City, New Zealand": {
@@ -1088,9 +1100,9 @@
     ]
   },
   "Vanimo, Papua New Guinea": {
-    "mean_dist": 564.1,
+    "mean_dist": 579.8,
     "mean_time": 7.2,
-    "std_dist": 698.3,
+    "std_dist": 713.1,
     "std_time": 1.2,
     "admin": "West Sepik",
     "country": "Papua New Guinea",
@@ -1141,7 +1153,9 @@
       "x",
       -6.869,
       -5.913,
-      -5.852
+      -5.852,
+      -8.005,
+      -2.668
     ],
     "lons": [
       "x",
@@ -1189,10 +1203,12 @@
       "x",
       144.958,
       144.434,
-      143.865
+      143.865,
+      157.275,
+      141.476
     ],
-    "mean_lat": -6.211,
-    "mean_lon": 144.419,
+    "mean_lat": -5.861,
+    "mean_lon": 146.401,
     "regions": [
       "California",
       "Victoria",
@@ -1239,7 +1255,9 @@
       "Aargau",
       "Baden-W\u00fcrttemberg",
       "Washington",
-      "Zurich"
+      "Zurich",
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -1287,6 +1305,8 @@
       "Switzerland",
       "Germany",
       "United States",
+      "Switzerland",
+      "Netherlands",
       "Switzerland"
     ],
     "dists": [
@@ -1335,7 +1355,9 @@
       14.6,
       616.3,
       498.8,
-      452
+      452,
+      1863.7,
+      19.3
     ],
     "times": [
       7.3,
@@ -1383,7 +1405,9 @@
       7.4,
       6.7,
       8,
-      7.6
+      7.6,
+      6.7,
+      5.5
     ]
   },
   "Batu Pahat, Malaysia": {
@@ -3163,9 +3187,9 @@
     ]
   },
   "Goroka, Papua New Guinea": {
-    "mean_dist": 346.7,
+    "mean_dist": 347.7,
     "mean_time": 7.2,
-    "std_dist": 647.1,
+    "std_dist": 632.6,
     "std_time": 1.4,
     "admin": "Eastern Highlands",
     "country": "Papua New Guinea",
@@ -3232,7 +3256,10 @@
       -5.785,
       -4.916,
       -5.061,
-      -5.568
+      -5.568,
+      -8.309,
+      -4.221,
+      -8.375
     ],
     "lons": [
       "x",
@@ -3296,10 +3323,13 @@
       144.668,
       143.943,
       142.709,
-      142.782
+      142.782,
+      149.747,
+      144.176,
+      147.057
     ],
-    "mean_lat": -6.089,
-    "mean_lon": 144.672,
+    "mean_lat": -6.328,
+    "mean_lon": 145.305,
     "regions": [
       "California",
       "Victoria",
@@ -3362,7 +3392,10 @@
       "Aargau",
       "Baden-W\u00fcrttemberg",
       "Baden-W\u00fcrttemberg",
-      "Baden-W\u00fcrttemberg"
+      "Baden-W\u00fcrttemberg",
+      "Aargau",
+      "Berlin",
+      "Utrecht"
     ],
     "countries": [
       "United States",
@@ -3426,7 +3459,10 @@
       "Switzerland",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland",
+      "Germany",
+      "Netherlands"
     ],
     "dists": [
       341.8,
@@ -3490,7 +3526,10 @@
       85.9,
       205.6,
       317.1,
-      293.5
+      293.5,
+      541.1,
+      246.5,
+      314.6
     ],
     "times": [
       8.3,
@@ -3554,7 +3593,10 @@
       8.3,
       5.6,
       7.2,
-      6.7
+      6.7,
+      8.3,
+      6.4,
+      5.7
     ]
   },
   "New Plymouth, New Zealand": {
@@ -8874,9 +8916,9 @@
     ]
   },
   "Majuro, Marshall Islands": {
-    "mean_dist": 1125.1,
+    "mean_dist": 1117,
     "mean_time": 7.1,
-    "std_dist": 1235.5,
+    "std_dist": 1232.7,
     "std_time": 1.2,
     "admin": "Majuro",
     "country": "Marshall Islands",
@@ -8989,7 +9031,8 @@
       1.123,
       1.545,
       4.085,
-      -7.265
+      -7.265,
+      4.956
     ],
     "lons": [
       "x",
@@ -9099,10 +9142,11 @@
       128.187,
       173.325,
       158.68,
-      158.307
+      158.307,
+      171.729
     ],
-    "mean_lat": -0.041,
-    "mean_lon": 165.835,
+    "mean_lat": 0.292,
+    "mean_lon": 166.228,
     "regions": [
       "Victoria",
       "Massachusetts",
@@ -9211,7 +9255,8 @@
       "Uusimaa",
       "Uusimaa",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -9321,7 +9366,8 @@
       "Finland",
       "Finland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       2410.5,
@@ -9431,7 +9477,8 @@
       4833.5,
       654.4,
       1444.7,
-      2157.4
+      2157.4,
+      241.8
     ],
     "times": [
       7.3,
@@ -9541,7 +9588,8 @@
       6.8,
       6.3,
       4.4,
-      5.3
+      5.3,
+      7.7
     ]
   },
   "Melton, Victoria, Australia": {
@@ -10286,10 +10334,10 @@
     ]
   },
   "Devonport, Tasmania, Australia": {
-    "mean_dist": 142.6,
+    "mean_dist": 141.1,
     "mean_time": 7.1,
-    "std_dist": 361.1,
-    "std_time": 1.5,
+    "std_dist": 351.1,
+    "std_time": 1.4,
     "admin": "Tasmania",
     "country": "Australia",
     "city": "Devonport",
@@ -10359,7 +10407,11 @@
       -41.288,
       -41.342,
       -42.557,
-      -42.021
+      -42.021,
+      -42.372,
+      -41.556,
+      -41.132,
+      -41.61
     ],
     "lons": [
       "x",
@@ -10427,10 +10479,14 @@
       146.627,
       146.409,
       148.32,
-      146.119
+      146.119,
+      148.923,
+      146.984,
+      147.152,
+      147.057
     ],
-    "mean_lat": -41.105,
-    "mean_lon": 146.239,
+    "mean_lat": -41.212,
+    "mean_lon": 146.484,
     "regions": [
       "Victoria",
       "\u00cele-de-France",
@@ -10497,7 +10553,11 @@
       "Aargau",
       "Aargau",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "Berlin",
+      "Utrecht",
+      "Berlin",
+      "Utrecht"
     ],
     "countries": [
       "Australia",
@@ -10565,7 +10625,11 @@
       "Switzerland",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Germany",
+      "Netherlands",
+      "Germany",
+      "Netherlands"
     ],
     "dists": [
       131.1,
@@ -10633,7 +10697,11 @@
       26.9,
       17.9,
       223.9,
-      93.8
+      93.8,
+      251.7,
+      67.8,
+      69,
+      76.3
     ],
     "times": [
       7.8,
@@ -10701,7 +10769,11 @@
       7.8,
       8.2,
       7,
-      4.9
+      4.9,
+      7.7,
+      7.1,
+      7.6,
+      8
     ]
   },
   "Kimbe, Papua New Guinea": {
@@ -12923,9 +12995,9 @@
     ]
   },
   "Sunbury, Victoria, Australia": {
-    "mean_dist": 329.6,
+    "mean_dist": 322.7,
     "mean_time": 7.5,
-    "std_dist": 687.6,
+    "std_dist": 680.3,
     "std_time": 1,
     "admin": "Victoria",
     "country": "Australia",
@@ -12969,7 +13041,8 @@
       -36.668,
       -35.807,
       -38.272,
-      -38.19
+      -38.19,
+      -37.18
     ],
     "lons": [
       "x",
@@ -13010,10 +13083,11 @@
       144.477,
       139.662,
       146.7,
-      146.305
+      146.305,
+      144.378
     ],
-    "mean_lat": -35.296,
-    "mean_lon": 144.393,
+    "mean_lat": -35.441,
+    "mean_lon": 144.392,
     "regions": [
       "Victoria",
       "New South Wales",
@@ -13053,7 +13127,8 @@
       "Berlin",
       "Berlin",
       "Bavaria",
-      "Bavaria"
+      "Bavaria",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -13094,7 +13169,8 @@
       "Germany",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       40.1,
@@ -13135,7 +13211,8 @@
       102.2,
       490.7,
       191.2,
-      156.1
+      156.1,
+      52.2
     ],
     "times": [
       5.8,
@@ -13176,13 +13253,14 @@
       6.4,
       6.1,
       3.7,
-      7.8
+      7.8,
+      8.3
     ]
   },
   "Rockhampton, Queensland, Australia": {
-    "mean_dist": 504.7,
-    "mean_time": 7.1,
-    "std_dist": 571.7,
+    "mean_dist": 486,
+    "mean_time": 7,
+    "std_dist": 565.5,
     "std_time": 1.3,
     "admin": "Queensland",
     "country": "Australia",
@@ -13230,7 +13308,9 @@
       -22.022,
       -20.366,
       -37.464,
-      -22.359
+      -22.359,
+      -23.013,
+      -22.756
     ],
     "lons": [
       "x",
@@ -13275,10 +13355,12 @@
       149.311,
       148.264,
       145.388,
-      150.762
+      150.762,
+      151.296,
+      150.104
     ],
-    "mean_lat": -25.552,
-    "mean_lon": 148.431,
+    "mean_lat": -24.663,
+    "mean_lon": 149.187,
     "regions": [
       "Victoria",
       "California",
@@ -13322,7 +13404,9 @@
       "Aargau",
       "Bavaria",
       "Alberta",
-      "Baden-W\u00fcrttemberg"
+      "Baden-W\u00fcrttemberg",
+      "Berlin",
+      "Utrecht"
     ],
     "countries": [
       "Australia",
@@ -13367,7 +13451,9 @@
       "Switzerland",
       "Germany",
       "Canada",
-      "Germany"
+      "Germany",
+      "Germany",
+      "Netherlands"
     ],
     "dists": [
       175,
@@ -13412,7 +13498,9 @@
       193.9,
       406.4,
       1642.5,
-      114.4
+      114.4,
+      88.3,
+      79.8
     ],
     "times": [
       7.7,
@@ -13457,7 +13545,9 @@
       7.9,
       6,
       2.2,
-      5.2
+      5.2,
+      5.2,
+      6.1
     ]
   },
   "Wollongong, New South Wales, Australia": {
@@ -15756,10 +15846,10 @@
     ]
   },
   "Lismore, New South Wales, Australia": {
-    "mean_dist": 552.1,
-    "mean_time": 7.1,
-    "std_dist": 401.3,
-    "std_time": 1.3,
+    "mean_dist": 626.2,
+    "mean_time": 7,
+    "std_dist": 602.1,
+    "std_time": 1.4,
     "admin": "New South Wales",
     "country": "Australia",
     "city": "Lismore",
@@ -15797,7 +15887,9 @@
       -32.285,
       -32.469,
       -28.076,
-      -34.977
+      -34.977,
+      -31.519,
+      -33.802
     ],
     "lons": [
       "x",
@@ -15833,10 +15925,12 @@
       152.141,
       151.996,
       134.457,
-      141.041
+      141.041,
+      150.015,
+      118.472
     ],
-    "mean_lat": -31.824,
-    "mean_lon": 145.872,
+    "mean_lat": -31.992,
+    "mean_lon": 143.546,
     "regions": [
       "\u00cele-de-France",
       "\u00cele-de-France",
@@ -15871,7 +15965,9 @@
       "Aargau",
       "Baden-W\u00fcrttemberg",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "Berlin",
+      "Utrecht"
     ],
     "countries": [
       "France",
@@ -15907,7 +16003,9 @@
       "Switzerland",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "Germany",
+      "Netherlands"
     ],
     "dists": [
       608.2,
@@ -15943,7 +16041,9 @@
       401.1,
       424.6,
       1841.5,
-      1342.7
+      1342.7,
+      435.3,
+      3338
     ],
     "times": [
       7,
@@ -15979,7 +16079,9 @@
       8.3,
       3.4,
       3.3,
-      4.1
+      4.1,
+      6.1,
+      2.9
     ]
   },
   "Madang, Papua New Guinea": {
@@ -18460,9 +18562,9 @@
     ]
   },
   "Labasa, Fiji": {
-    "mean_dist": 621.7,
+    "mean_dist": 609.7,
     "mean_time": 7.2,
-    "std_dist": 1473.5,
+    "std_dist": 1457.1,
     "std_time": 1.5,
     "admin": "Macuata",
     "country": "Fiji",
@@ -18546,7 +18648,9 @@
       -20.736,
       -17.023,
       -17.509,
-      -17.578
+      -17.578,
+      -17.088,
+      -17.572
     ],
     "lons": [
       "x",
@@ -18627,10 +18731,12 @@
       165.635,
       178.186,
       178.331,
-      177.968
+      177.968,
+      178.796,
+      178.253
     ],
-    "mean_lat": -18.211,
-    "mean_lon": 175.03,
+    "mean_lat": -17.917,
+    "mean_lon": 176.194,
     "regions": [
       "\u00cele-de-France",
       "Queensland",
@@ -18710,7 +18816,9 @@
       "Washington",
       "Washington",
       "Washington",
-      "Baden-W\u00fcrttemberg"
+      "Baden-W\u00fcrttemberg",
+      "Berlin",
+      "Utrecht"
     ],
     "countries": [
       "France",
@@ -18791,7 +18899,9 @@
       "United States",
       "United States",
       "United States",
-      "Germany"
+      "Germany",
+      "Germany",
+      "Netherlands"
     ],
     "dists": [
       165.3,
@@ -18872,7 +18982,9 @@
       1525.8,
       144.2,
       165.1,
-      198.3
+      198.3,
+      97.3,
+      175.9
     ],
     "times": [
       6.8,
@@ -18953,7 +19065,9 @@
       4.1,
       7.7,
       8.1,
-      6.7
+      6.7,
+      7,
+      7.3
     ]
   },
   "Levin, New Zealand": {
@@ -19459,10 +19573,10 @@
     ]
   },
   "Mount Gambier, South Australia, Australia": {
-    "mean_dist": 468,
+    "mean_dist": 468.7,
     "mean_time": 6.8,
-    "std_dist": 535.2,
-    "std_time": 1.5,
+    "std_dist": 524.2,
+    "std_time": 1.4,
     "admin": "South Australia",
     "country": "Australia",
     "city": "Mount Gambier",
@@ -19513,7 +19627,9 @@
       -27.918,
       -33.898,
       -35.075,
-      -35.748
+      -35.748,
+      -34.044,
+      -38.039
     ],
     "lons": [
       "x",
@@ -19562,10 +19678,12 @@
       134.381,
       138.792,
       139.279,
-      141.476
+      141.476,
+      138.676,
+      146.549
     ],
-    "mean_lat": -31.613,
-    "mean_lon": 138.708,
+    "mean_lat": -32.294,
+    "mean_lon": 139.309,
     "regions": [
       "\u00cele-de-France",
       "Victoria",
@@ -19613,7 +19731,9 @@
       "Berlin",
       "Berlin",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "Berlin",
+      "Utrecht"
     ],
     "countries": [
       "France",
@@ -19662,7 +19782,9 @@
       "Germany",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "Germany",
+      "Netherlands"
     ],
     "dists": [
       716.7,
@@ -19711,7 +19833,9 @@
       1252.2,
       472,
       334,
-      240.1
+      240.1,
+      461.1,
+      507.7
     ],
     "times": [
       5.5,
@@ -19760,7 +19884,9 @@
       4.8,
       3.9,
       5.1,
-      5.7
+      5.7,
+      5.9,
+      5.9
     ]
   },
   "Christchurch, New Zealand": {
@@ -20971,9 +21097,9 @@
     ]
   },
   "Alotau, Papua New Guinea": {
-    "mean_dist": 652.5,
+    "mean_dist": 714.8,
     "mean_time": 7.7,
-    "std_dist": 543.2,
+    "std_dist": 660.5,
     "std_time": 0.7,
     "admin": "Milne Bay",
     "country": "Papua New Guinea",
@@ -21018,7 +21144,9 @@
       -2.16,
       -5.627,
       -6.652,
-      -4.627
+      -4.627,
+      -33.146,
+      -6.646
     ],
     "lons": [
       "x",
@@ -21060,10 +21188,12 @@
       150.545,
       143.35,
       145.394,
-      152.794
+      152.794,
+      170.094,
+      145.461
     ],
-    "mean_lat": -5.794,
-    "mean_lon": 144.447,
+    "mean_lat": -8.614,
+    "mean_lon": 147.113,
     "regions": [
       "\u00cele-de-France",
       "Victoria",
@@ -21104,7 +21234,9 @@
       "Aargau",
       "Uusimaa",
       "Uusimaa",
-      "Aargau"
+      "Aargau",
+      "Berlin",
+      "Utrecht"
     ],
     "countries": [
       "France",
@@ -21146,7 +21278,9 @@
       "Switzerland",
       "Finland",
       "Finland",
-      "Switzerland"
+      "Switzerland",
+      "Germany",
+      "Netherlands"
     ],
     "dists": [
       615.1,
@@ -21188,7 +21322,9 @@
       905.3,
       939.5,
       689.1,
-      681.4
+      681.4,
+      3237.2,
+      683.5
     ],
     "times": [
       8.2,
@@ -21230,7 +21366,9 @@
       7.3,
       7.7,
       8.2,
-      7.7
+      7.7,
+      8.4,
+      7.3
     ]
   },
   "Caloundra, Queensland, Australia": {
@@ -23613,9 +23751,9 @@
     ]
   },
   "Napier, New Zealand": {
-    "mean_dist": 568.9,
-    "mean_time": 7.1,
-    "std_dist": 1049,
+    "mean_dist": 557.4,
+    "mean_time": 7.2,
+    "std_dist": 1033.2,
     "std_time": 1.7,
     "admin": "Hawke\u2019s Bay",
     "country": "New Zealand",
@@ -23649,7 +23787,8 @@
       "x",
       -39.629,
       -38.759,
-      -43.699
+      -43.699,
+      -41.014
     ],
     "lons": [
       "x",
@@ -23680,10 +23819,11 @@
       "x",
       175.429,
       175.107,
-      170.278
+      170.278,
+      175.211
     ],
-    "mean_lat": -40.695,
-    "mean_lon": 173.604,
+    "mean_lat": -40.775,
+    "mean_lon": 174.006,
     "regions": [
       "Ontario",
       "New South Wales",
@@ -23713,7 +23853,8 @@
       "Uusimaa",
       "Aargau",
       "Bavaria",
-      "Baden-W\u00fcrttemberg"
+      "Baden-W\u00fcrttemberg",
+      "Aargau"
     ],
     "countries": [
       "Canada",
@@ -23744,7 +23885,8 @@
       "Finland",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       119.8,
@@ -23775,7 +23917,8 @@
       905.7,
       129.2,
       176.6,
-      723.9
+      723.9,
+      223.4
     ],
     "times": [
       7.6,
@@ -23806,7 +23949,8 @@
       0.4,
       8,
       6.8,
-      3.4
+      3.4,
+      8.1
     ]
   },
   "Mandurah, Western Australia, Australia": {
@@ -24719,9 +24863,9 @@
     ]
   },
   "Luganville, Vanuatu": {
-    "mean_dist": 786.7,
+    "mean_dist": 849.6,
     "mean_time": 6.7,
-    "std_dist": 1306.9,
+    "std_dist": 1374.3,
     "std_time": 1.7,
     "admin": "Sanma",
     "country": "Vanuatu",
@@ -24812,7 +24956,9 @@
       0.012,
       1.146,
       -16.626,
-      -8.92
+      -8.92,
+      3.817,
+      2.133
     ],
     "lons": [
       "x",
@@ -24900,10 +25046,12 @@
       120.669,
       103.46,
       168.813,
-      160.556
+      160.556,
+      125.867,
+      173.465
     ],
-    "mean_lat": -11.132,
-    "mean_lon": 159.803,
+    "mean_lat": -9.647,
+    "mean_lon": 158.736,
     "regions": [
       "New South Wales",
       "California",
@@ -24990,7 +25138,9 @@
       "Berlin",
       "Berlin",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "Berlin",
+      "Utrecht"
     ],
     "countries": [
       "Australia",
@@ -25078,7 +25228,9 @@
       "Germany",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "Germany",
+      "Netherlands"
     ],
     "dists": [
       4164.2,
@@ -25166,7 +25318,9 @@
       5388.6,
       7237.2,
       214.3,
-      1026.7
+      1026.7,
+      5028.2,
+      2080.4
     ],
     "times": [
       1.2,
@@ -25254,14 +25408,16 @@
       6.9,
       5.9,
       7.2,
-      2.6
+      2.6,
+      5.2,
+      3.4
     ]
   },
   "Klang, Malaysia": {
-    "mean_dist": 726.9,
+    "mean_dist": 714.6,
     "mean_time": 7.4,
-    "std_dist": 1344.7,
-    "std_time": 1,
+    "std_dist": 1327.3,
+    "std_time": 1.1,
     "admin": "Selangor",
     "country": "Malaysia",
     "city": "Klang",
@@ -25299,7 +25455,8 @@
       "x",
       "x",
       2.345,
-      4.231
+      4.231,
+      5.688
     ],
     "lons": [
       "x",
@@ -25335,10 +25492,11 @@
       "x",
       "x",
       102.735,
-      102.082
+      102.082,
+      101.531
     ],
-    "mean_lat": 3.288,
-    "mean_lon": 102.408,
+    "mean_lat": 4.088,
+    "mean_lon": 102.116,
     "regions": [
       "New South Wales",
       "Victoria",
@@ -25373,7 +25531,8 @@
       "Baden-W\u00fcrttemberg",
       "Baden-W\u00fcrttemberg",
       "Aargau",
-      "Baden-W\u00fcrttemberg"
+      "Baden-W\u00fcrttemberg",
+      "Berlin"
     ],
     "countries": [
       "Australia",
@@ -25409,6 +25568,7 @@
       "Germany",
       "Germany",
       "Switzerland",
+      "Germany",
       "Germany"
     ],
     "dists": [
@@ -25445,7 +25605,8 @@
       321.2,
       2432.2,
       151.5,
-      147
+      147,
+      296.6
     ],
     "times": [
       5.2,
@@ -25481,7 +25642,8 @@
       8.1,
       5.7,
       8.2,
-      6.9
+      6.9,
+      5.9
     ]
   },
   "Gladstone, Queensland, Australia": {
@@ -28612,9 +28774,9 @@
     ]
   },
   "Raub, Malaysia": {
-    "mean_dist": 986.6,
+    "mean_dist": 954.5,
     "mean_time": 7.1,
-    "std_dist": 605.9,
+    "std_dist": 614.1,
     "std_time": 1.2,
     "admin": "Pahang",
     "country": "Malaysia",
@@ -28643,7 +28805,8 @@
       "x",
       "x",
       5.462,
-      3.613
+      3.613,
+      2.708
     ],
     "lons": [
       "x",
@@ -28669,10 +28832,11 @@
       "x",
       "x",
       116.592,
-      102.992
+      102.992,
+      103.098
     ],
-    "mean_lat": 4.537,
-    "mean_lon": 109.792,
+    "mean_lat": 3.927,
+    "mean_lon": 107.56,
     "regions": [
       "Victoria",
       "New South Wales",
@@ -28697,7 +28861,8 @@
       "Aargau",
       "Aargau",
       "Aargau",
-      "Washington"
+      "Washington",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -28723,7 +28888,8 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       1358,
@@ -28749,7 +28915,8 @@
       181.1,
       1723.6,
       1645.1,
-      129.1
+      129.1,
+      184.3
     ],
     "times": [
       7.3,
@@ -28775,7 +28942,8 @@
       8.1,
       7.5,
       8.1,
-      6.6
+      6.6,
+      8.4
     ]
   },
   "Port Augusta, South Australia, Australia": {
@@ -29617,10 +29785,10 @@
     ]
   },
   "Kalgoorlie, Western Australia, Australia": {
-    "mean_dist": 540.7,
-    "mean_time": 6.9,
-    "std_dist": 437,
-    "std_time": 1.1,
+    "mean_dist": 544,
+    "mean_time": 6.8,
+    "std_dist": 429,
+    "std_time": 1.2,
     "admin": "Western Australia",
     "country": "Australia",
     "city": "Kalgoorlie",
@@ -29675,7 +29843,9 @@
       -32.469,
       -34.023,
       -31.788,
-      -23.341
+      -23.341,
+      -28.281,
+      -28.391
     ],
     "lons": [
       "x",
@@ -29728,10 +29898,12 @@
       115.939,
       116.343,
       115.571,
-      114.754
+      114.754,
+      116.035,
+      115.135
     ],
-    "mean_lat": -28.693,
-    "mean_lon": 117.132,
+    "mean_lat": -28.645,
+    "mean_lon": 116.925,
     "regions": [
       "Victoria",
       "California",
@@ -29783,7 +29955,9 @@
       "Uusimaa",
       "Bavaria",
       "Zurich",
-      "Connecticut"
+      "Connecticut",
+      "Berlin",
+      "Utrecht"
     ],
     "countries": [
       "Australia",
@@ -29836,7 +30010,9 @@
       "Finland",
       "Germany",
       "Switzerland",
-      "United States"
+      "United States",
+      "Germany",
+      "Netherlands"
     ],
     "dists": [
       1174.6,
@@ -29889,7 +30065,9 @@
       557.1,
       603.6,
       571.7,
-      1056.3
+      1056.3,
+      591.5,
+      664.7
     ],
     "times": [
       5.6,
@@ -29942,7 +30120,9 @@
       7.3,
       6,
       7.8,
-      7.7
+      7.7,
+      5.2,
+      3.1
     ]
   },
   "Tweed Heads, New South Wales, Australia": {
@@ -30448,9 +30628,9 @@
     ]
   },
   "Adelaide, South Australia, Australia": {
-    "mean_dist": 283.6,
+    "mean_dist": 280.2,
     "mean_time": 7.2,
-    "std_dist": 426.8,
+    "std_dist": 424.3,
     "std_time": 1.1,
     "admin": "South Australia",
     "country": "Australia",
@@ -30518,7 +30698,8 @@
       -32.469,
       -37.122,
       -34.709,
-      -30.624
+      -30.624,
+      -35.423
     ],
     "lons": [
       "x",
@@ -30583,10 +30764,11 @@
       137.486,
       144.16,
       138.211,
-      131.77
+      131.77,
+      138.139
     ],
-    "mean_lat": -34.097,
-    "mean_lon": 137.887,
+    "mean_lat": -34.192,
+    "mean_lon": 137.905,
     "regions": [
       "Victoria",
       "Victoria",
@@ -30650,7 +30832,8 @@
       "Washington",
       "Baden-W\u00fcrttemberg",
       "Baden-W\u00fcrttemberg",
-      "North Rhine-Westphalia"
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -30715,7 +30898,8 @@
       "United States",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       267.9,
@@ -30780,7 +30964,8 @@
       292.8,
       555.9,
       43.4,
-      798
+      798,
+      68.5
     ],
     "times": [
       3.7,
@@ -30845,7 +31030,8 @@
       2.9,
       5.6,
       4.5,
-      6.5
+      6.5,
+      8.1
     ]
   },
   "Sandakan, Malaysia": {
@@ -31213,10 +31399,10 @@
     ]
   },
   "Ballarat, Victoria, Australia": {
-    "mean_dist": 383.4,
-    "mean_time": 6.8,
-    "std_dist": 634.5,
-    "std_time": 1.5,
+    "mean_dist": 388.6,
+    "mean_time": 6.7,
+    "std_dist": 624.6,
+    "std_time": 1.6,
     "admin": "Victoria",
     "country": "Australia",
     "city": "Ballarat",
@@ -31260,7 +31446,9 @@
       -37.527,
       -32.591,
       -36.971,
-      -13.129
+      -13.129,
+      -36.438,
+      -32.463
     ],
     "lons": [
       "x",
@@ -31302,10 +31490,12 @@
       144.668,
       148.005,
       146.888,
-      133.205
+      133.205,
+      143.309,
+      150.829
     ],
-    "mean_lat": -31.386,
-    "mean_lon": 143.53,
+    "mean_lat": -32.261,
+    "mean_lon": 144.541,
     "regions": [
       "Victoria",
       "Aargau",
@@ -31346,7 +31536,9 @@
       "Washington",
       "North Holland",
       "Utrecht",
-      "North Holland"
+      "North Holland",
+      "Berlin",
+      "Utrecht"
     ],
     "countries": [
       "Australia",
@@ -31388,6 +31580,8 @@
       "United States",
       "Netherlands",
       "Netherlands",
+      "Netherlands",
+      "Germany",
       "Netherlands"
     ],
     "dists": [
@@ -31430,7 +31624,9 @@
       73.1,
       669.7,
       277.5,
-      2914
+      2914,
+      133.2,
+      851.7
     ],
     "times": [
       7.5,
@@ -31472,7 +31668,9 @@
       6.2,
       4.9,
       4.1,
-      2.9
+      2.9,
+      5.8,
+      3.5
     ]
   },
   "Noum\u00e9a, New Caledonia": {
@@ -32685,9 +32883,9 @@
     ]
   },
   "Bunbury, Western Australia, Australia": {
-    "mean_dist": 437.1,
+    "mean_dist": 429.6,
     "mean_time": 6.9,
-    "std_dist": 637.7,
+    "std_dist": 634.1,
     "std_time": 1.2,
     "admin": "Western Australia",
     "country": "Australia",
@@ -32745,7 +32943,8 @@
       -25.974,
       -33.542,
       -33.202,
-      -34.683
+      -34.683,
+      -33.323
     ],
     "lons": [
       "x",
@@ -32800,10 +32999,11 @@
       114.962,
       116.172,
       116.301,
-      116.343
+      116.343,
+      116.011
     ],
-    "mean_lat": -29.958,
-    "mean_lon": 116.514,
+    "mean_lat": -30.294,
+    "mean_lon": 116.464,
     "regions": [
       "Victoria",
       "New South Wales",
@@ -32857,7 +33057,8 @@
       "North Rhine-Westphalia",
       "North Rhine-Westphalia",
       "Bavaria",
-      "Bavaria"
+      "Bavaria",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -32912,7 +33113,8 @@
       "Germany",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       31.1,
@@ -32967,7 +33169,8 @@
       822.2,
       53.2,
       62.6,
-      162
+      162,
+      33.6
     ],
     "times": [
       7.6,
@@ -33022,7 +33225,8 @@
       7.4,
       5.1,
       2.8,
-      7.4
+      7.4,
+      8.3
     ]
   },
   "Echuca, Victoria, Australia": {
@@ -33456,9 +33660,9 @@
     ]
   },
   "Sungai Petani, Malaysia": {
-    "mean_dist": 512.9,
-    "mean_time": 7.1,
-    "std_dist": 526.5,
+    "mean_dist": 516.4,
+    "mean_time": 7,
+    "std_dist": 550.1,
     "std_time": 1.4,
     "admin": "Kedah",
     "country": "Malaysia",
@@ -33496,7 +33700,11 @@
       2.721,
       2.708,
       2.567,
-      5.896
+      5.896,
+      5.769,
+      6.041,
+      4.922,
+      4.6
     ],
     "lons": [
       "x",
@@ -33531,10 +33739,14 @@
       103.157,
       102.735,
       112.742,
-      100.921
+      100.921,
+      116.575,
+      100.486,
+      101.795,
+      101.859
     ],
-    "mean_lat": 3.238,
-    "mean_lon": 106.274,
+    "mean_lat": 3.936,
+    "mean_lon": 105.909,
     "regions": [
       "Victoria",
       "New South Wales",
@@ -33568,7 +33780,11 @@
       "Uusimaa",
       "Uusimaa",
       "Zurich",
-      "Aargau"
+      "Aargau",
+      "Utrecht",
+      "Aargau",
+      "Berlin",
+      "Utrecht"
     ],
     "countries": [
       "Australia",
@@ -33603,7 +33819,11 @@
       "Finland",
       "Finland",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "Netherlands",
+      "Switzerland",
+      "Germany",
+      "Netherlands"
     ],
     "dists": [
       1839,
@@ -33638,7 +33858,11 @@
       440.7,
       411.7,
       1402.4,
-      56.1
+      56.1,
+      1780.9,
+      43.5,
+      166.6,
+      192.2
     ],
     "times": [
       5.8,
@@ -33673,7 +33897,11 @@
       7.6,
       8.6,
       6,
-      8
+      8,
+      5.5,
+      8,
+      6.2,
+      5.8
     ]
   },
   "Armidale, New South Wales, Australia": {
@@ -34584,10 +34812,10 @@
     ]
   },
   "Funafuti, Tuvalu": {
-    "mean_dist": 1021.8,
-    "mean_time": 7,
-    "std_dist": 1127.7,
-    "std_time": 1.3,
+    "mean_dist": 1030.6,
+    "mean_time": 7.1,
+    "std_dist": 1177.7,
+    "std_time": 1.2,
     "admin": "Funafuti",
     "country": "Tuvalu",
     "city": "Funafuti",
@@ -34695,7 +34923,11 @@
       1.4,
       -17.146,
       -9.209,
-      0.92
+      0.92,
+      -42.089,
+      -8.597,
+      -9.028,
+      -8.597
     ],
     "lons": [
       "x",
@@ -34801,10 +35033,14 @@
       173.398,
       178.387,
       143.474,
-      173.776
+      173.776,
+      147.336,
+      179.709,
+      179.782,
+      179.492
     ],
-    "mean_lat": -8.693,
-    "mean_lon": 166.655,
+    "mean_lat": -10.217,
+    "mean_lon": 167.55,
     "regions": [
       "Victoria",
       "California",
@@ -34909,7 +35145,11 @@
       "Baden-W\u00fcrttemberg",
       "Washington",
       "North Rhine-Westphalia",
-      "North Rhine-Westphalia"
+      "North Rhine-Westphalia",
+      "Utrecht",
+      "Aargau",
+      "Aargau",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -35015,7 +35255,11 @@
       "Germany",
       "United States",
       "Germany",
-      "Germany"
+      "Germany",
+      "Netherlands",
+      "Switzerland",
+      "Switzerland",
+      "Switzerland"
     ],
     "dists": [
       1482.5,
@@ -35121,7 +35365,11 @@
       1277.4,
       963.7,
       3926,
-      1210.2
+      1210.2,
+      4863.7,
+      54.9,
+      84.2,
+      31.6
     ],
     "times": [
       7.5,
@@ -35227,7 +35475,11 @@
       5.4,
       6.5,
       7.8,
-      6.5
+      6.5,
+      6.2,
+      7.5,
+      8.2,
+      8
     ]
   },
   "Karratha, Western Australia, Australia": {
@@ -36343,10 +36595,10 @@
     ]
   },
   "Melbourne, Victoria, Australia": {
-    "mean_dist": 145.8,
+    "mean_dist": 185.5,
     "mean_time": 7.5,
-    "std_dist": 230.8,
-    "std_time": 0.6,
+    "std_dist": 350.3,
+    "std_time": 0.7,
     "admin": "Victoria",
     "country": "Australia",
     "city": "Melbourne",
@@ -36398,7 +36650,9 @@
       -23.751,
       -38.101,
       -37.665,
-      -36.744
+      -36.744,
+      -36.869,
+      -19.433
     ],
     "lons": [
       "x",
@@ -36448,10 +36702,12 @@
       149.806,
       144.16,
       147.077,
-      145.829
+      145.829,
+      147.19,
+      147.274
     ],
-    "mean_lat": -36.419,
-    "mean_lon": 146.186,
+    "mean_lat": -35.238,
+    "mean_lon": 146.336,
     "regions": [
       "Victoria",
       "New South Wales",
@@ -36500,7 +36756,9 @@
       "Uusimaa",
       "Uusimaa",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "Berlin",
+      "Utrecht"
     ],
     "countries": [
       "Australia",
@@ -36550,7 +36808,9 @@
       "Finland",
       "Finland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Germany",
+      "Netherlands"
     ],
     "dists": [
       34,
@@ -36600,7 +36860,9 @@
       1630.3,
       77.9,
       185.6,
-      141.4
+      141.4,
+      222.5,
+      2056.5
     ],
     "times": [
       7.2,
@@ -36650,7 +36912,9 @@
       7.5,
       8.1,
       6,
-      7.1
+      7.1,
+      6.8,
+      5.1
     ]
   },
   "Moranbah, Queensland, Australia": {
@@ -36935,9 +37199,9 @@
     ]
   },
   "Male, Maldives": {
-    "mean_dist": 1979.8,
+    "mean_dist": 1955.1,
     "mean_time": 6.9,
-    "std_dist": 3587.7,
+    "std_dist": 3571.5,
     "std_time": 1.3,
     "admin": "Maale",
     "country": "Maldives",
@@ -37020,7 +37284,8 @@
       8.167,
       -7.273,
       4.376,
-      2.158
+      2.158,
+      3.941
     ],
     "lons": [
       "x",
@@ -37100,10 +37365,11 @@
       80.211,
       128.65,
       73.352,
-      73.539
+      73.539,
+      73.715
     ],
-    "mean_lat": 3.135,
-    "mean_lon": 88.695,
+    "mean_lat": 3.189,
+    "mean_lon": 87.696,
     "regions": [
       "California",
       "California",
@@ -37182,7 +37448,8 @@
       "North Rhine-Westphalia",
       "North Rhine-Westphalia",
       "Bavaria",
-      "Bavaria"
+      "Bavaria",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -37262,7 +37529,8 @@
       "Germany",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       1262.3,
@@ -37342,7 +37610,8 @@
       864.9,
       6250.5,
       28.4,
-      223.3
+      223.3,
+      34.6
     ],
     "times": [
       7.6,
@@ -37422,7 +37691,8 @@
       6.7,
       7.8,
       5.7,
-      7.2
+      7.2,
+      7.8
     ]
   },
   "Seremban, Malaysia": {
@@ -38304,9 +38574,9 @@
     ]
   },
   "Kuching, Malaysia": {
-    "mean_dist": 582.3,
-    "mean_time": 6.8,
-    "std_dist": 434.5,
+    "mean_dist": 579.2,
+    "mean_time": 6.9,
+    "std_dist": 428,
     "std_time": 1.2,
     "city": "Kuching",
     "admin": "Sarawak",
@@ -38342,7 +38612,8 @@
       2.272,
       6.45,
       -3.394,
-      2.277
+      2.277,
+      4.014
     ],
     "lons": [
       "x",
@@ -38375,10 +38646,11 @@
       103.75,
       124.58,
       119.421,
-      103.528
+      103.528,
+      113.907
     ],
-    "mean_lat": 2.483,
-    "mean_lon": 110.672,
+    "mean_lat": 2.738,
+    "mean_lon": 111.211,
     "regions": [
       "Aargau",
       "Aargau",
@@ -38410,7 +38682,8 @@
       "Aargau",
       "Auvergne-Rh\u00f4ne-Alpes",
       "Auvergne-Rh\u00f4ne-Alpes",
-      "Zurich"
+      "Zurich",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -38443,6 +38716,7 @@
       "Switzerland",
       "France",
       "France",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -38476,7 +38750,8 @@
       735.7,
       1672.2,
       1149.3,
-      760.4
+      760.4,
+      483.9
     ],
     "times": [
       5.1,
@@ -38509,7 +38784,8 @@
       8,
       5.9,
       7.2,
-      6.4
+      6.4,
+      7.5
     ]
   },
   "Kuala Terengganu, Malaysia": {
@@ -39079,10 +39355,10 @@
     ]
   },
   "Tarakan, Kalimantan Utara, Indonesia": {
-    "mean_dist": 1153.3,
-    "mean_time": 7.1,
-    "std_dist": 633.7,
-    "std_time": 1,
+    "mean_dist": 1063.4,
+    "mean_time": 6.9,
+    "std_dist": 645.5,
+    "std_time": 1.1,
     "admin": "Kalimantan Utara",
     "country": "Indonesia",
     "city": "Tarakan",
@@ -39101,7 +39377,9 @@
       "x",
       "x",
       -3.539,
-      -2.228
+      -2.228,
+      -0.617,
+      1.109
     ],
     "lons": [
       "x",
@@ -39118,10 +39396,12 @@
       "x",
       "x",
       138.574,
-      115.571
+      115.571,
+      115.342,
+      116.519
     ],
-    "mean_lat": -2.883,
-    "mean_lon": 127.072,
+    "mean_lat": -1.318,
+    "mean_lon": 121.501,
     "regions": [
       "Michigan",
       "Michigan",
@@ -39137,7 +39417,9 @@
       "Baden-W\u00fcrttemberg",
       "Aargau",
       "Baden-W\u00fcrttemberg",
-      "Zurich"
+      "Zurich",
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -39154,6 +39436,8 @@
       "Germany",
       "Switzerland",
       "Germany",
+      "Switzerland",
+      "Netherlands",
       "Switzerland"
     ],
     "dists": [
@@ -39171,7 +39455,9 @@
       601.9,
       781.8,
       2448.3,
-      656
+      656,
+      504.5,
+      273.1
     ],
     "times": [
       4.3,
@@ -39188,7 +39474,9 @@
       7.7,
       8.2,
       5.8,
-      7.5
+      7.5,
+      4.4,
+      6.9
     ]
   },
   "Sumenep, Jawa Timur, Indonesia": {
@@ -40480,9 +40768,9 @@
     ]
   },
   "Darwin, Northern Territory, Australia": {
-    "mean_dist": 375.5,
+    "mean_dist": 369.9,
     "mean_time": 7.2,
-    "std_dist": 584.9,
+    "std_dist": 580.1,
     "std_time": 1.4,
     "admin": "Northern Territory",
     "country": "Australia",
@@ -40581,7 +40869,9 @@
       -26.548,
       -15.908,
       -12.962,
-      -12.42
+      -12.42,
+      -12.242,
+      -12.952
     ],
     "lons": [
       "x",
@@ -40677,10 +40967,12 @@
       119.719,
       132.262,
       134.268,
-      131.754
+      131.754,
+      132.262,
+      130.594
     ],
-    "mean_lat": -15.447,
-    "mean_lon": 134.602,
+    "mean_lat": -15.04,
+    "mean_lon": 134.148,
     "regions": [
       "Queensland",
       "New South Wales",
@@ -40775,7 +41067,9 @@
       "Auvergne-Rh\u00f4ne-Alpes",
       "Auvergne-Rh\u00f4ne-Alpes",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "Aargau",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -40871,7 +41165,9 @@
       "France",
       "France",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland",
+      "Switzerland"
     ],
     "dists": [
       221,
@@ -40967,7 +41263,9 @@
       1953.8,
       416.1,
       375.6,
-      98.2
+      98.2,
+      154.8,
+      64.8
     ],
     "times": [
       5,
@@ -41063,7 +41361,9 @@
       7.8,
       6.8,
       5.5,
-      4.2
+      4.2,
+      8.2,
+      8.3
     ]
   },
   "Cambridge, New Zealand": {
@@ -41204,9 +41504,9 @@
     ]
   },
   "Dili, Timor-Leste": {
-    "mean_dist": 806.6,
+    "mean_dist": 795.4,
     "mean_time": 6.8,
-    "std_dist": 1360.9,
+    "std_dist": 1341.7,
     "std_time": 1.7,
     "admin": "D\u00edli",
     "country": "Timor-Leste",
@@ -41271,7 +41571,9 @@
       -8.453,
       -8.741,
       -11.924,
-      -9.502
+      -9.502,
+      -8.58,
+      -8.381
     ],
     "lons": [
       "x",
@@ -41333,10 +41635,12 @@
       126.821,
       126.023,
       161.103,
-      121.178
+      121.178,
+      118.171,
+      126.531
     ],
-    "mean_lat": -7.217,
-    "mean_lon": 133.123,
+    "mean_lat": -7.365,
+    "mean_lon": 131.856,
     "regions": [
       "Queensland",
       "New South Wales",
@@ -41397,7 +41701,9 @@
       "Aargau",
       "Aargau",
       "North Rhine-Westphalia",
-      "North Rhine-Westphalia"
+      "North Rhine-Westphalia",
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -41459,7 +41765,9 @@
       "Switzerland",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       2826.7,
@@ -41521,7 +41829,9 @@
       137,
       52.8,
       3902.4,
-      494.5
+      494.5,
+      814.5,
+      106.5
     ],
     "times": [
       8.2,
@@ -41583,6 +41893,8 @@
       8.2,
       8.3,
       6.6,
+      7.8,
+      5.4,
       7.8
     ]
   },
@@ -41975,9 +42287,9 @@
     ]
   },
   "Suva, Fiji": {
-    "mean_dist": 1187.5,
-    "mean_time": 7.2,
-    "std_dist": 2181.2,
+    "mean_dist": 1165.3,
+    "mean_time": 7.1,
+    "std_dist": 2132.5,
     "std_time": 1.3,
     "admin": "Rewa",
     "country": "Fiji",
@@ -42068,7 +42380,12 @@
       -15.647,
       -21.381,
       -8.491,
-      -2.495
+      -2.495,
+      -6.779,
+      -18.27,
+      -17.786,
+      -19.195,
+      -21.138
     ],
     "lons": [
       "x",
@@ -42156,10 +42473,15 @@
       167.344,
       166.433,
       158.564,
-      128.505
+      128.505,
+      161.41,
+      178.041,
+      177.605,
+      177.553,
+      165.557
     ],
-    "mean_lat": -9.707,
-    "mean_lon": 160.461,
+    "mean_lat": -10.861,
+    "mean_lon": 162.39,
     "regions": [
       "Queensland",
       "Victoria",
@@ -42246,7 +42568,12 @@
       "Berlin",
       "Berlin",
       "North Rhine-Westphalia",
-      "North Rhine-Westphalia"
+      "North Rhine-Westphalia",
+      "Utrecht",
+      "Aargau",
+      "Aargau",
+      "Berlin",
+      "Utrecht"
     ],
     "countries": [
       "Australia",
@@ -42334,7 +42661,12 @@
       "Germany",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "Netherlands",
+      "Switzerland",
+      "Switzerland",
+      "Germany",
+      "Netherlands"
     ],
     "dists": [
       5895.5,
@@ -42422,7 +42754,12 @@
       1212.3,
       1307,
       2400,
-      5709.1
+      5709.1,
+      2235.8,
+      44.9,
+      96.4,
+      150.6,
+      1389.6
     ],
     "times": [
       2.7,
@@ -42510,7 +42847,12 @@
       6.2,
       4.5,
       6.6,
-      7.3
+      7.3,
+      4.4,
+      8.2,
+      8.1,
+      7.3,
+      4.7
     ]
   },
   "Surakarta, Jawa Tengah, Indonesia": {
@@ -44286,10 +44628,10 @@
     ]
   },
   "Lhokseumawe, Aceh, Indonesia": {
-    "mean_dist": 740.5291835296545,
-    "mean_time": 7.666666666666675,
-    "std_dist": 983.9455139362701,
-    "std_time": 1.0013879257199831,
+    "mean_dist": 964.3,
+    "mean_time": 7.5,
+    "std_dist": 1123,
+    "std_time": 0.9,
     "admin": "Aceh",
     "country": "Indonesia",
     "city": "Lhokseumawe",
@@ -44301,7 +44643,8 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      -9.543
     ],
     "lons": [
       "x",
@@ -44311,10 +44654,11 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      117.128
     ],
-    "mean_lat": 0,
-    "mean_lon": 0,
+    "mean_lat": -9.543,
+    "mean_lon": 117.128,
     "regions": [
       "Victoria",
       "Victoria",
@@ -44323,7 +44667,8 @@
       "Baden-W\u00fcrttemberg",
       "Baden-W\u00fcrttemberg",
       "Aargau",
-      "Baden-W\u00fcrttemberg"
+      "Baden-W\u00fcrttemberg",
+      "Berlin"
     ],
     "countries": [
       "Australia",
@@ -44333,6 +44678,7 @@
       "Germany",
       "Germany",
       "Switzerland",
+      "Germany",
       "Germany"
     ],
     "dists": [
@@ -44343,7 +44689,8 @@
       1429.8,
       147.8,
       83.7,
-      46.5
+      46.5,
+      2754.8
     ],
     "times": [
       8.7,
@@ -44353,14 +44700,15 @@
       7.6,
       7.8,
       7.8,
-      7.9
+      7.9,
+      7.3
     ]
   },
   "Poso, Sulawesi Tengah, Indonesia": {
-    "mean_dist": 764.3,
-    "mean_time": 7.4,
-    "std_dist": 691.3,
-    "std_time": 0.6,
+    "mean_dist": 777.2,
+    "mean_time": 7.3,
+    "std_dist": 641,
+    "std_time": 0.7,
     "admin": "Sulawesi Tengah",
     "country": "Indonesia",
     "city": "Poso",
@@ -44376,7 +44724,9 @@
       "x",
       "x",
       "x",
-      -3.66
+      -3.66,
+      -9.367,
+      -8.591
     ],
     "lons": [
       "x",
@@ -44390,10 +44740,12 @@
       "x",
       "x",
       "x",
-      136.373
+      136.373,
+      119.501,
+      119.561
     ],
-    "mean_lat": -3.66,
-    "mean_lon": 136.373,
+    "mean_lat": -7.206,
+    "mean_lon": 125.145,
     "regions": [
       "Victoria",
       "Aargau",
@@ -44406,7 +44758,9 @@
       "Baden-W\u00fcrttemberg",
       "Colorado",
       "Colorado",
-      "Connecticut"
+      "Connecticut",
+      "Berlin",
+      "Utrecht"
     ],
     "countries": [
       "Australia",
@@ -44420,7 +44774,9 @@
       "Germany",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Germany",
+      "Netherlands"
     ],
     "dists": [
       2060.3,
@@ -44434,7 +44790,9 @@
       368.2,
       1173.1,
       318.8,
-      1752.6
+      1752.6,
+      897.9,
+      811.7
     ],
     "times": [
       8.3,
@@ -44448,7 +44806,9 @@
       7.7,
       7,
       6.6,
-      8.1
+      8.1,
+      7,
+      6.1
     ]
   },
   "Bintulu, Malaysia": {
@@ -44655,10 +45015,10 @@
     ]
   },
   "Nowra, New South Wales, Australia": {
-    "mean_dist": 194.9,
+    "mean_dist": 198.7,
     "mean_time": 7.5,
-    "std_dist": 100.3,
-    "std_time": 1.1,
+    "std_dist": 117,
+    "std_time": 1,
     "admin": "New South Wales",
     "country": "Australia",
     "city": "Nowra",
@@ -44679,7 +45039,9 @@
       "x",
       "x",
       "x",
-      -33.08
+      -33.08,
+      -31.358,
+      -34.947
     ],
     "lons": [
       "x",
@@ -44698,10 +45060,12 @@
       "x",
       "x",
       "x",
-      150.254
+      150.254,
+      152.721,
+      150.835
     ],
-    "mean_lat": -33.08,
-    "mean_lon": 150.254,
+    "mean_lat": -33.128,
+    "mean_lon": 151.27,
     "regions": [
       "Victoria",
       "California",
@@ -44719,7 +45083,9 @@
       "Baden-W\u00fcrttemberg",
       "Baden-W\u00fcrttemberg",
       "Baden-W\u00fcrttemberg",
-      "Washington"
+      "Washington",
+      "Aargau",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -44738,7 +45104,9 @@
       "Germany",
       "Germany",
       "Germany",
-      "United States"
+      "United States",
+      "Switzerland",
+      "Switzerland"
     ],
     "dists": [
       221,
@@ -44757,7 +45125,9 @@
       61.1,
       61.4,
       89.8,
-      202.9
+      202.9,
+      438.8,
+      22.6
     ],
     "times": [
       7.4,
@@ -44776,13 +45146,15 @@
       7.6,
       8.3,
       8.1,
-      6
+      6,
+      8,
+      8.2
     ]
   },
   "Ashton, New Zealand": {
-    "mean_dist": 376.8,
+    "mean_dist": 380.2,
     "mean_time": 7.4,
-    "std_dist": 390.5,
+    "std_dist": 389.2,
     "std_time": 1.2,
     "admin": "Canterbury",
     "country": "New Zealand",
@@ -44824,7 +45196,9 @@
       "x",
       "x",
       -41.397,
-      -42.799
+      -42.799,
+      -43.147,
+      -37.233
     ],
     "lons": [
       "x",
@@ -44863,10 +45237,12 @@
       "x",
       "x",
       175.574,
-      171.076
+      171.076,
+      171.752,
+      175.351
     ],
-    "mean_lat": -42.098,
-    "mean_lon": 173.325,
+    "mean_lat": -41.144,
+    "mean_lon": 173.438,
     "regions": [
       "Victoria",
       "New South Wales",
@@ -44904,7 +45280,9 @@
       "Alberta",
       "England",
       "Aargau",
-      "Baden-W\u00fcrttemberg"
+      "Baden-W\u00fcrttemberg",
+      "Berlin",
+      "Utrecht"
     ],
     "countries": [
       "Australia",
@@ -44943,7 +45321,9 @@
       "Canada",
       "United Kingdom",
       "Switzerland",
-      "Germany"
+      "Germany",
+      "Germany",
+      "Netherlands"
     ],
     "dists": [
       330.7,
@@ -44982,7 +45362,9 @@
       359.7,
       2324.4,
       418.5,
-      133.7
+      133.7,
+      83.5,
+      800.9
     ],
     "times": [
       7.6,
@@ -45021,7 +45403,9 @@
       7.3,
       8.2,
       8.4,
-      4
+      4,
+      5.9,
+      7.5
     ]
   },
   "Bukittinggi, Sumatera Barat, Indonesia": {
@@ -47477,10 +47861,10 @@
     ]
   },
   "Ambon, Maluku, Indonesia": {
-    "mean_dist": 1173.1,
-    "mean_time": 6.6,
-    "std_dist": 941.5,
-    "std_time": 1.4,
+    "mean_dist": 1093.3,
+    "mean_time": 6.7,
+    "std_dist": 924.7,
+    "std_time": 1.3,
     "admin": "Maluku",
     "country": "Indonesia",
     "city": "Ambon",
@@ -47493,7 +47877,8 @@
       "x",
       "x",
       "x",
-      -3.214
+      -3.214,
+      -0.343
     ],
     "lons": [
       "x",
@@ -47504,10 +47889,11 @@
       "x",
       "x",
       "x",
-      104.08
+      104.08,
+      128.2
     ],
-    "mean_lat": -3.214,
-    "mean_lon": 104.08,
+    "mean_lat": -1.778,
+    "mean_lon": 116.139,
     "regions": [
       "Florida",
       "Aargau",
@@ -47517,7 +47903,8 @@
       "Baden-W\u00fcrttemberg",
       "Aargau",
       "Baden-W\u00fcrttemberg",
-      "Washington"
+      "Washington",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -47528,7 +47915,8 @@
       "Germany",
       "Switzerland",
       "Germany",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       1712.3,
@@ -47539,7 +47927,8 @@
       279.1,
       525.8,
       493.5,
-      2677.5
+      2677.5,
+      375
     ],
     "times": [
       4.1,
@@ -47550,7 +47939,8 @@
       7.9,
       7.9,
       7.5,
-      4.3
+      4.3,
+      7.3
     ]
   },
   "Serang, Banten, Indonesia": {
@@ -48903,9 +49293,9 @@
     ]
   },
   "Townsville, Queensland, Australia": {
-    "mean_dist": 646,
+    "mean_dist": 639.3,
     "mean_time": 7.3,
-    "std_dist": 733.9,
+    "std_dist": 727.6,
     "std_time": 0.7,
     "admin": "Queensland",
     "country": "Australia",
@@ -48957,7 +49347,8 @@
       -18.339,
       -28.524,
       -16.187,
-      -30.981
+      -30.981,
+      -21.414
     ],
     "lons": [
       "x",
@@ -49006,10 +49397,11 @@
       145.176,
       153.084,
       134.584,
-      152.353
+      152.353,
+      148.876
     ],
-    "mean_lat": -24.802,
-    "mean_lon": 144.506,
+    "mean_lat": -24.541,
+    "mean_lon": 144.842,
     "regions": [
       "California",
       "New South Wales",
@@ -49057,7 +49449,8 @@
       "Washington",
       "Baden-W\u00fcrttemberg",
       "Baden-W\u00fcrttemberg",
-      "Zurich"
+      "Zurich",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -49106,6 +49499,7 @@
       "United States",
       "Germany",
       "Germany",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -49155,7 +49549,8 @@
       195.9,
       1214.1,
       1334.4,
-      1419.8
+      1419.8,
+      325.8
     ],
     "times": [
       7.2,
@@ -49204,7 +49599,8 @@
       7.4,
       6,
       6.5,
-      6.7
+      6.7,
+      8.3
     ]
   },
   "Sungai Penuh, Jambi, Indonesia": {
@@ -49803,9 +50199,9 @@
     ]
   },
   "Broome, Western Australia, Australia": {
-    "mean_dist": 682.8,
+    "mean_dist": 728.3,
     "mean_time": 7,
-    "std_dist": 760.3,
+    "std_dist": 838.6,
     "std_time": 1.1,
     "admin": "Western Australia",
     "country": "Australia",
@@ -49850,7 +50246,9 @@
       -15.278,
       -17.093,
       -16.729,
-      -18.477
+      -18.477,
+      -26.055,
+      -18.89
     ],
     "lons": [
       "x",
@@ -49892,10 +50290,12 @@
       133.641,
       123.121,
       124.12,
-      122.178
+      122.178,
+      151.761,
+      121.888
     ],
-    "mean_lat": -20.451,
-    "mean_lon": 123.015,
+    "mean_lat": -20.9,
+    "mean_lon": 126.083,
     "regions": [
       "Moscow Oblast",
       "California",
@@ -49936,6 +50336,8 @@
       "Baden-W\u00fcrttemberg",
       "Baden-W\u00fcrttemberg",
       "Washington",
+      "Aargau",
+      "Utrecht",
       "Aargau"
     ],
     "countries": [
@@ -49978,6 +50380,8 @@
       "Germany",
       "Germany",
       "United States",
+      "Switzerland",
+      "Netherlands",
       "Switzerland"
     ],
     "dists": [
@@ -50020,7 +50424,9 @@
       1251.5,
       135,
       242.9,
-      57.5
+      57.5,
+      3166.3,
+      109.4
     ],
     "times": [
       8.6,
@@ -50062,7 +50468,9 @@
       7.1,
       3.7,
       7,
-      7.4
+      7.4,
+      6.3,
+      7.5
     ]
   },
   "Kediri, Jawa Timur, Indonesia": {
@@ -51773,10 +52181,10 @@
     ]
   },
   "Port Lincoln, South Australia, Australia": {
-    "mean_dist": 426.1,
-    "mean_time": 7.2,
-    "std_dist": 548.9,
-    "std_time": 1,
+    "mean_dist": 438.4,
+    "mean_time": 7.1,
+    "std_dist": 551.7,
+    "std_time": 1.1,
     "admin": "South Australia",
     "country": "Australia",
     "city": "Port Lincoln",
@@ -51833,7 +52241,9 @@
       -34.169,
       -32.746,
       -36.862,
-      -33.724
+      -33.724,
+      -33.121,
+      -35.949
     ],
     "lons": [
       "x",
@@ -51888,10 +52298,12 @@
       137.994,
       137.96,
       144.344,
-      136.196
+      136.196,
+      137.621,
+      150.031
     ],
-    "mean_lat": -34.15,
-    "mean_lon": 138.378,
+    "mean_lat": -34.247,
+    "mean_lon": 139.74,
     "regions": [
       "New South Wales",
       "New South Wales",
@@ -51945,7 +52357,9 @@
       "Aargau",
       "Washington",
       "North Rhine-Westphalia",
-      "North Rhine-Westphalia"
+      "North Rhine-Westphalia",
+      "Berlin",
+      "Utrecht"
     ],
     "countries": [
       "Australia",
@@ -52000,7 +52414,9 @@
       "Switzerland",
       "United States",
       "Germany",
-      "Germany"
+      "Germany",
+      "Germany",
+      "Netherlands"
     ],
     "dists": [
       1115.1,
@@ -52055,7 +52471,9 @@
       204.8,
       293.7,
       800.1,
-      116.2
+      116.2,
+      241.5,
+      1290.7
     ],
     "times": [
       7.6,
@@ -52110,7 +52528,9 @@
       7,
       7.2,
       7.5,
-      6.8
+      6.8,
+      4.3,
+      6.3
     ]
   },
   "Bandar Lampung, Lampung, Indonesia": {
@@ -54962,9 +55382,9 @@
     ]
   },
   "Bendigo, Victoria, Australia": {
-    "mean_dist": 251.2,
+    "mean_dist": 258.1,
     "mean_time": 6.9,
-    "std_dist": 478.9,
+    "std_dist": 474.9,
     "std_time": 1.4,
     "admin": "Victoria",
     "country": "Australia",
@@ -55009,7 +55429,9 @@
       "x",
       -36.657,
       -37.126,
-      -34.139
+      -34.139,
+      -32.577,
+      -36.482
     ],
     "lons": [
       "x",
@@ -55051,10 +55473,12 @@
       "x",
       145.539,
       144.025,
-      139.3
+      139.3,
+      150.818,
+      144.523
     ],
-    "mean_lat": -35.974,
-    "mean_lon": 142.954,
+    "mean_lat": -35.396,
+    "mean_lon": 144.841,
     "regions": [
       "California",
       "Aargau",
@@ -55095,7 +55519,9 @@
       "England",
       "Aargau",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -55137,7 +55563,9 @@
       "United Kingdom",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       278.2,
@@ -55179,7 +55607,9 @@
       2069.7,
       112.8,
       46.5,
-      536.8
+      536.8,
+      757.2,
+      37.7
     ],
     "times": [
       6.2,
@@ -55221,7 +55651,9 @@
       5.1,
       8.3,
       3.8,
-      5.9
+      5.9,
+      5.9,
+      8
     ]
   },
   "Padangsidempuan, Sumatera Utara, Indonesia": {
@@ -55338,9 +55770,9 @@
     ]
   },
   "Yeppoon, Queensland, Australia": {
-    "mean_dist": 350.7,
+    "mean_dist": 341.2,
     "mean_time": 7.2,
-    "std_dist": 414.7,
+    "std_dist": 409.9,
     "std_time": 1.5,
     "admin": "Queensland",
     "country": "Australia",
@@ -55371,7 +55803,8 @@
       "x",
       "x",
       -19.508,
-      -19.85
+      -19.85,
+      -23.763
     ],
     "lons": [
       "x",
@@ -55399,10 +55832,11 @@
       "x",
       "x",
       147.715,
-      148.078
+      148.078,
+      151.343
     ],
-    "mean_lat": -19.679,
-    "mean_lon": 147.896,
+    "mean_lat": -21.04,
+    "mean_lon": 149.045,
     "regions": [
       "California",
       "Aargau",
@@ -55429,7 +55863,8 @@
       "Alberta",
       "Ontario",
       "Baden-W\u00fcrttemberg",
-      "Baden-W\u00fcrttemberg"
+      "Baden-W\u00fcrttemberg",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -55457,7 +55892,8 @@
       "Canada",
       "Canada",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       1635.7,
@@ -55485,7 +55921,8 @@
       274.2,
       511,
       511.4,
-      458.2
+      458.2,
+      92.1
     ],
     "times": [
       7.2,
@@ -55513,7 +55950,8 @@
       4.4,
       2.3,
       4,
-      5
+      5,
+      8.1
     ]
   },
   "Blitar, Jawa Timur, Indonesia": {
@@ -55814,9 +56252,9 @@
     ]
   },
   "Geraldton, Western Australia, Australia": {
-    "mean_dist": 743.7,
+    "mean_dist": 738.7,
     "mean_time": 7,
-    "std_dist": 773,
+    "std_dist": 763.9,
     "std_time": 0.8,
     "admin": "Western Australia",
     "country": "Australia",
@@ -55860,7 +56298,8 @@
       -16.241,
       -26.82,
       -33.505,
-      -18.201
+      -18.201,
+      -33.626
     ],
     "lons": [
       "x",
@@ -55901,10 +56340,11 @@
       125.807,
       119.315,
       116.011,
-      123.049
+      123.049,
+      115.141
     ],
-    "mean_lat": -25.279,
-    "mean_lon": 118.856,
+    "mean_lat": -26.322,
+    "mean_lon": 118.391,
     "regions": [
       "New South Wales",
       "New South Wales",
@@ -55944,7 +56384,8 @@
       "Washington",
       "Washington",
       "Washington",
-      "Washington"
+      "Washington",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -55985,7 +56426,8 @@
       "United States",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       472.1,
@@ -56026,7 +56468,8 @@
       1804.6,
       511.7,
       543.8,
-      1455.7
+      1455.7,
+      542.8
     ],
     "times": [
       7.9,
@@ -56067,7 +56510,8 @@
       7.2,
       7.1,
       7.4,
-      7.2
+      7.2,
+      7.9
     ]
   },
   "Medan, Sumatera Utara, Indonesia": {
@@ -57521,9 +57965,9 @@
     ]
   },
   "Ngerulmud, Palau": {
-    "mean_dist": 1539.1,
+    "mean_dist": 1594,
     "mean_time": 6.8,
-    "std_dist": 1997.6,
+    "std_dist": 2007.7,
     "std_time": 1.4,
     "city": "Ngerulmud",
     "admin": "Melekeok",
@@ -57609,7 +58053,9 @@
       -16.663,
       0.528,
       7.642,
-      6.835
+      6.835,
+      -7.918,
+      -1.282
     ],
     "lons": [
       "x",
@@ -57692,10 +58138,12 @@
       178.028,
       172.817,
       137.691,
-      134.366
+      134.366,
+      157.474,
+      174.988
     ],
-    "mean_lat": -2.795,
-    "mean_lon": 143.419,
+    "mean_lat": -3.02,
+    "mean_lon": 146.27,
     "regions": [
       "New South Wales",
       "North Carolina",
@@ -57777,7 +58225,9 @@
       "Uusimaa",
       "Uusimaa",
       "Uusimaa",
-      "Uusimaa"
+      "Uusimaa",
+      "Berlin",
+      "Utrecht"
     ],
     "countries": [
       "Australia",
@@ -57860,7 +58310,9 @@
       "Finland",
       "Finland",
       "Finland",
-      "Finland"
+      "Finland",
+      "Germany",
+      "Netherlands"
     ],
     "dists": [
       5588.6,
@@ -57943,7 +58395,9 @@
       5477.4,
       4303.8,
       338.4,
-      79.1
+      79.1,
+      3058.7,
+      4582.2
     ],
     "times": [
       5.6,
@@ -58026,7 +58480,9 @@
       7.7,
       4.4,
       6.6,
-      7.4
+      7.4,
+      7,
+      6
     ]
   },
   "Baubau, Sulawesi Tenggara, Indonesia": {
@@ -59420,9 +59876,9 @@
     ]
   },
   "Griffith, New South Wales, Australia": {
-    "mean_dist": 478.3,
-    "mean_time": 7.1,
-    "std_dist": 430.4,
+    "mean_dist": 472,
+    "mean_time": 7,
+    "std_dist": 420.3,
     "std_time": 1.4,
     "city": "Griffith",
     "admin": "New South Wales",
@@ -59459,7 +59915,9 @@
       "x",
       -33.434,
       -29.034,
-      -35.061
+      -35.061,
+      -35.527,
+      -32.53
     ],
     "lons": [
       "x",
@@ -59493,10 +59951,12 @@
       "x",
       117.885,
       151.778,
-      138.206
+      138.206,
+      147.626,
+      151.488
     ],
-    "mean_lat": -32.509,
-    "mean_lon": 135.956,
+    "mean_lat": -33.117,
+    "mean_lon": 141.396,
     "regions": [
       "Victoria",
       "Victoria",
@@ -59529,7 +59989,9 @@
       "Baden-W\u00fcrttemberg",
       "Uusimaa",
       "Uusimaa",
-      "Alberta"
+      "Alberta",
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -59563,7 +60025,9 @@
       "Germany",
       "Finland",
       "Finland",
-      "Canada"
+      "Canada",
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       437.3,
@@ -59597,7 +60061,9 @@
       344.8,
       2593,
       797.4,
-      721.2
+      721.2,
+      199.6,
+      542.1
     ],
     "times": [
       7.1,
@@ -59631,7 +60097,9 @@
       6.5,
       6.4,
       7.1,
-      2.5
+      2.5,
+      5.4,
+      6.8
     ]
   },
   "Tawau, Malaysia": {
@@ -59921,10 +60389,10 @@
     ]
   },
   "Pasuruan, Jawa Timur, Indonesia": {
-    "mean_dist": 455.9,
+    "mean_dist": 434.7,
     "mean_time": 7.3,
-    "std_dist": 652.1,
-    "std_time": 1.1,
+    "std_dist": 636.7,
+    "std_time": 1,
     "city": "Pasuruan",
     "admin": "Jawa Timur",
     "country": "Indonesia",
@@ -59943,7 +60411,8 @@
       "x",
       "x",
       "x",
-      -3.243
+      -3.243,
+      -7.373
     ],
     "lons": [
       "x",
@@ -59960,10 +60429,11 @@
       "x",
       "x",
       "x",
-      134.651
+      134.651,
+      111.876
     ],
-    "mean_lat": -3.243,
-    "mean_lon": 134.651,
+    "mean_lat": -5.308,
+    "mean_lon": 123.263,
     "regions": [
       "Victoria",
       "Victoria",
@@ -59979,7 +60449,8 @@
       "Baden-W\u00fcrttemberg",
       "Baden-W\u00fcrttemberg",
       "Baden-W\u00fcrttemberg",
-      "Alberta"
+      "Alberta",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -59996,7 +60467,8 @@
       "Germany",
       "Germany",
       "Germany",
-      "Canada"
+      "Canada",
+      "Switzerland"
     ],
     "dists": [
       1102.1,
@@ -60013,7 +60485,8 @@
       49.3,
       54.2,
       61,
-      2455.9
+      2455.9,
+      116.3
     ],
     "times": [
       6.3,
@@ -60030,7 +60503,8 @@
       7.1,
       8,
       8.3,
-      7
+      7,
+      7.6
     ]
   },
   "Mackay, Queensland, Australia": {
@@ -60811,9 +61285,9 @@
     ]
   },
   "Port-Vila, Vanuatu": {
-    "mean_dist": 735.4,
+    "mean_dist": 782.4,
     "mean_time": 7.1,
-    "std_dist": 1354.8,
+    "std_dist": 1418.1,
     "std_time": 1.1,
     "city": "Port-Vila",
     "admin": "Shefa",
@@ -60891,7 +61365,9 @@
       -15.664,
       2.381,
       -3.795,
-      -1.986
+      -1.986,
+      1.054,
+      -19.096
     ],
     "lons": [
       "x",
@@ -60966,10 +61442,12 @@
       167.796,
       128.272,
       151.962,
-      127.997
+      127.997,
+      128.618,
+      169.117
     ],
-    "mean_lat": -11.336,
-    "mean_lon": 156.127,
+    "mean_lat": -10.98,
+    "mean_lon": 155.01,
     "regions": [
       "Victoria",
       "Victoria",
@@ -61043,7 +61521,9 @@
       "Berlin",
       "Berlin",
       "North Rhine-Westphalia",
-      "North Rhine-Westphalia"
+      "North Rhine-Westphalia",
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -61118,7 +61598,9 @@
       "Germany",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       1082.8,
@@ -61193,7 +61675,9 @@
       236.5,
       4924.1,
       2361.2,
-      4734.5
+      4734.5,
+      4820.6,
+      173.5
     ],
     "times": [
       6.5,
@@ -61268,7 +61752,9 @@
       6.6,
       5.7,
       7.2,
-      6.7
+      6.7,
+      5.8,
+      7.8
     ]
   },
   "Perth, Western Australia, Australia": {
@@ -61773,10 +62259,10 @@
     ]
   },
   "Goulburn, New South Wales, Australia": {
-    "mean_dist": 279.9,
-    "mean_time": 7.4,
-    "std_dist": 285.7,
-    "std_time": 1,
+    "mean_dist": 290.5,
+    "mean_time": 7.2,
+    "std_dist": 289.1,
+    "std_time": 1.2,
     "city": "Goulburn",
     "admin": "New South Wales",
     "country": "Australia",
@@ -61816,7 +62302,9 @@
       -35.126,
       -34.529,
       -24.811,
-      -30.109
+      -30.109,
+      -34.133,
+      -37.809
     ],
     "lons": [
       "x",
@@ -61854,10 +62342,12 @@
       150.037,
       150.545,
       152.273,
-      152.286
+      152.286,
+      151.71,
+      142.051
     ],
-    "mean_lat": -31.143,
-    "mean_lon": 151.285,
+    "mean_lat": -32.752,
+    "mean_lon": 149.817,
     "regions": [
       "North Carolina",
       "Aargau",
@@ -61894,7 +62384,9 @@
       "Aargau",
       "Uusimaa",
       "Uusimaa",
-      "Baden-W\u00fcrttemberg"
+      "Baden-W\u00fcrttemberg",
+      "Berlin",
+      "Utrecht"
     ],
     "countries": [
       "United States",
@@ -61932,7 +62424,9 @@
       "Switzerland",
       "Finland",
       "Finland",
-      "Germany"
+      "Germany",
+      "Germany",
+      "Netherlands"
     ],
     "dists": [
       1402.5,
@@ -61970,7 +62464,9 @@
       51.4,
       80.1,
       1132.2,
-      569.7
+      569.7,
+      195.8,
+      765.8
     ],
     "times": [
       5.9,
@@ -62008,7 +62504,9 @@
       7.6,
       8.3,
       7.6,
-      4.6
+      4.6,
+      5.7,
+      3.3
     ]
   },
   "Maumere, Nusa Tenggara Timur, Indonesia": {
@@ -62101,10 +62599,10 @@
     ]
   },
   "Wellington, New Zealand": {
-    "mean_dist": 145.5,
-    "mean_time": 7.5,
-    "std_dist": 119.3,
-    "std_time": 0.6,
+    "mean_dist": 368.2,
+    "mean_time": 7.4,
+    "std_dist": 1050.8,
+    "std_time": 0.7,
     "city": "Wellington",
     "admin": "Wellington",
     "country": "New Zealand",
@@ -62130,7 +62628,8 @@
       "x",
       -39.292,
       -38.897,
-      -37.411
+      -37.411,
+      -28.573
     ],
     "lons": [
       "x",
@@ -62154,10 +62653,11 @@
       "x",
       176.203,
       176.154,
-      175.864
+      175.864,
+      118.026
     ],
-    "mean_lat": -38.533,
-    "mean_lon": 176.073,
+    "mean_lat": -36.043,
+    "mean_lon": 161.561,
     "regions": [
       "North Carolina",
       "Aargau",
@@ -62180,7 +62680,8 @@
       "Aargau",
       "Washington",
       "Washington",
-      "Baden-W\u00fcrttemberg"
+      "Baden-W\u00fcrttemberg",
+      "Utrecht"
     ],
     "countries": [
       "United States",
@@ -62204,7 +62705,8 @@
       "Switzerland",
       "United States",
       "United States",
-      "Germany"
+      "Germany",
+      "Netherlands"
     ],
     "dists": [
       393.2,
@@ -62228,7 +62730,8 @@
       40.3,
       253.6,
       291.4,
-      442.2
+      442.2,
+      5266.5
     ],
     "times": [
       8,
@@ -62252,7 +62755,8 @@
       8.2,
       6.2,
       8.3,
-      6.2
+      6.2,
+      5.8
     ]
   },
   "Mojokerto, Jawa Timur, Indonesia": {
@@ -63818,9 +64322,9 @@
     ]
   },
   "Geelong, Victoria, Australia": {
-    "mean_dist": 404.7,
+    "mean_dist": 397.6,
     "mean_time": 6.6,
-    "std_dist": 634.9,
+    "std_dist": 629.4,
     "std_time": 1.4,
     "city": "Geelong",
     "admin": "Victoria",
@@ -63868,7 +64372,8 @@
       -37.469,
       -37.858,
       -29.593,
-      -37.986
+      -37.986,
+      -37.642
     ],
     "lons": [
       "x",
@@ -63913,10 +64418,11 @@
       144.523,
       145.159,
       151.693,
-      145.103
+      145.103,
+      145.249
     ],
-    "mean_lat": -35.726,
-    "mean_lon": 146.619,
+    "mean_lat": -36.109,
+    "mean_lon": 146.345,
     "regions": [
       "Aargau",
       "Aargau",
@@ -63960,7 +64466,8 @@
       "Aargau",
       "Washington",
       "Uusimaa",
-      "Uusimaa"
+      "Uusimaa",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -64005,7 +64512,8 @@
       "Switzerland",
       "United States",
       "Finland",
-      "Finland"
+      "Finland",
+      "Switzerland"
     ],
     "dists": [
       447.8,
@@ -64050,7 +64558,8 @@
       78.4,
       75.2,
       1166.4,
-      65.1
+      65.1,
+      94.9
     ],
     "times": [
       7.8,
@@ -64095,7 +64604,8 @@
       5.2,
       7.7,
       6.8,
-      8.5
+      8.5,
+      6
     ]
   },
   "Merauke, Papua, Indonesia": {
@@ -64206,10 +64716,10 @@
     ]
   },
   "Gorontalo, Gorontalo, Indonesia": {
-    "mean_dist": 897.844792040383,
-    "mean_time": 7.59111111111112,
-    "std_dist": 899.03628590126,
-    "std_time": 0.5712191856237753,
+    "mean_dist": 880.1,
+    "mean_time": 7.3,
+    "std_dist": 873.1,
+    "std_time": 1,
     "city": "Gorontalo",
     "admin": "Gorontalo",
     "country": "Indonesia",
@@ -64228,7 +64738,8 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      1.255
     ],
     "lons": [
       "x",
@@ -64245,10 +64756,11 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      128.562
     ],
-    "mean_lat": 0,
-    "mean_lon": 0,
+    "mean_lat": 1.255,
+    "mean_lon": 128.562,
     "regions": [
       "Aargau",
       "Aargau",
@@ -64264,7 +64776,8 @@
       "Aargau",
       "Baden-W\u00fcrttemberg",
       "Baden-W\u00fcrttemberg",
-      "Baden-W\u00fcrttemberg"
+      "Baden-W\u00fcrttemberg",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -64281,7 +64794,8 @@
       "Switzerland",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       2193.8,
@@ -64298,7 +64812,8 @@
       612.1,
       48.3,
       80.5,
-      3.3
+      3.3,
+      615.7
     ],
     "times": [
       7,
@@ -64315,7 +64830,8 @@
       7,
       7.6,
       8.1,
-      8.3
+      8.3,
+      3.7
     ]
   },
   "Kulat, Bali, Indonesia": {
