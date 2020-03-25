@@ -1,8 +1,8 @@
 {
   "Tenochtitlan, Aztec Empire": {
-    "mean_dist": 937,
+    "mean_dist": 916.6,
     "mean_time": 6.8,
-    "std_dist": 1687.1,
+    "std_dist": 1671.4,
     "std_time": 1.5,
     "city": "Tenochtitlan",
     "country": "Aztec Empire",
@@ -86,7 +86,9 @@
       11.689,
       19.058,
       20.947,
-      20.398
+      20.398,
+      19.952,
+      19.058
     ],
     "lons": [
       "x",
@@ -168,10 +170,12 @@
       -85.121,
       -101.176,
       -100.108,
-      -99.388
+      -99.388,
+      -100.47,
+      -99.294
     ],
-    "mean_lat": 18.964,
-    "mean_lon": -99.012,
+    "mean_lat": 19.002,
+    "mean_lon": -99.072,
     "regions": [
       "Vienna",
       "Alberta",
@@ -252,7 +256,9 @@
       "Saarland",
       "Aargau",
       "Plovdiv",
-      "Plovdiv"
+      "Plovdiv",
+      "Aargau",
+      "Aargau"
     ],
     "countries": [
       "Austria",
@@ -334,7 +340,9 @@
       "Germany",
       "Switzerland",
       "Bulgaria",
-      "Bulgaria"
+      "Bulgaria",
+      "Switzerland",
+      "Switzerland"
     ],
     "dists": [
       10756.7,
@@ -416,7 +424,9 @@
       1728.9,
       218.5,
       196.7,
-      110.5
+      110.5,
+      151.4,
+      45
     ],
     "times": [
       9.4,
@@ -498,13 +508,15 @@
       2.2,
       8.4,
       6.8,
-      7.6
+      7.6,
+      8,
+      8.2
     ]
   },
   "Taipei 101 (\u81fa\u5317101/\u53f0\u5317101)": {
-    "mean_dist": 316.4,
+    "mean_dist": 312.1,
     "mean_time": 7,
-    "std_dist": 496,
+    "std_dist": 492.2,
     "std_time": 1.7,
     "city": "Taipei 101 (\u81fa\u5317101/\u53f0\u5317101)",
     "country": "",
@@ -559,7 +571,8 @@
       24.993,
       23.147,
       47.661,
-      17.76
+      17.76,
+      24.778
     ],
     "lons": [
       "x",
@@ -612,10 +625,11 @@
       121.411,
       119.185,
       140.71,
-      120.416
+      120.416,
+      120.705
     ],
-    "mean_lat": 24.645,
-    "mean_lon": 121.877,
+    "mean_lat": 24.652,
+    "mean_lon": 121.812,
     "regions": [
       "Burgenland",
       "Burgenland",
@@ -667,7 +681,8 @@
       "Aargau",
       "Lisbon",
       "Lisbon",
-      "Lisbon"
+      "Lisbon",
+      "Aargau"
     ],
     "countries": [
       "Austria",
@@ -720,7 +735,8 @@
       "Switzerland",
       "Portugal",
       "Portugal",
-      "Portugal"
+      "Portugal",
+      "Switzerland"
     ],
     "dists": [
       1426.9,
@@ -773,7 +789,8 @@
       16,
       319.8,
       3026.5,
-      817.4
+      817.4,
+      91.1
     ],
     "times": [
       5.7,
@@ -826,7 +843,8 @@
       8,
       4.8,
       2.9,
-      2.5
+      2.5,
+      8.1
     ]
   },
   "Rosalind Franklin takes first diffraction photo of DNA": {
@@ -1564,9 +1582,9 @@
     ]
   },
   "Mount Everest": {
-    "mean_dist": 530.4,
+    "mean_dist": 522.4,
     "mean_time": 7,
-    "std_dist": 651.5,
+    "std_dist": 647.4,
     "std_time": 1.5,
     "city": "Mount Everest",
     "country": "",
@@ -1619,6 +1637,7 @@
       26.064,
       31.805,
       40.834,
+      27.335,
       27.335
     ],
     "lons": [
@@ -1670,10 +1689,11 @@
       87.294,
       73.647,
       74.823,
-      88.47
+      88.47,
+      88
     ],
-    "mean_lat": 28.441,
-    "mean_lon": 84.133,
+    "mean_lat": 28.376,
+    "mean_lon": 84.36,
     "regions": [
       "Burgenland",
       "California",
@@ -1723,6 +1743,7 @@
       "Aargau",
       "Auvergne-Rh\u00f4ne-Alpes",
       "Auvergne-Rh\u00f4ne-Alpes",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -1774,6 +1795,7 @@
       "Switzerland",
       "France",
       "France",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -1825,7 +1847,8 @@
       217,
       1347.4,
       1805.3,
-      168.5
+      168.5,
+      128.3
     ],
     "times": [
       0.8,
@@ -1876,7 +1899,8 @@
       8.3,
       5.5,
       4.5,
-      7.9
+      7.9,
+      8
     ]
   },
   "Great Zimbabwe": {
@@ -3106,9 +3130,9 @@
     ]
   },
   "Eyjafjallaj\u00f6kull Volcano": {
-    "mean_dist": 606.8,
+    "mean_dist": 608.1,
     "mean_time": 7.2,
-    "std_dist": 2131.1,
+    "std_dist": 2109.2,
     "std_time": 1.3,
     "city": "Eyjafjallaj\u00f6kull Volcano",
     "country": "",
@@ -3160,7 +3184,8 @@
       64.806,
       64.676,
       -19.948,
-      61.713
+      61.713,
+      61.601
     ],
     "lons": [
       "x",
@@ -3210,10 +3235,11 @@
       -19.529,
       -18.925,
       124.156,
-      8.941
+      8.941,
+      -7.294
     ],
-    "mean_lat": 57.469,
-    "mean_lon": -6.128,
+    "mean_lat": 57.744,
+    "mean_lon": -6.206,
     "regions": [
       "Burgenland",
       "Alberta",
@@ -3262,7 +3288,8 @@
       "Auvergne-Rh\u00f4ne-Alpes",
       "Colorado",
       "Colorado",
-      "Washington"
+      "Washington",
+      "Auckland"
     ],
     "countries": [
       "Austria",
@@ -3312,7 +3339,8 @@
       "France",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "New Zealand"
     ],
     "dists": [
       169.3,
@@ -3362,7 +3390,8 @@
       131.9,
       122.1,
       14453.3,
-      1460.6
+      1460.6,
+      667.6
     ],
     "times": [
       3.8,
@@ -3412,7 +3441,8 @@
       7,
       7.5,
       2.9,
-      6.9
+      6.9,
+      5.8
     ]
   },
   "Bering Strait": {
@@ -3756,9 +3786,9 @@
     ]
   },
   "Exxon Valdez Oil Spill": {
-    "mean_dist": 1811.3,
-    "mean_time": 6.8,
-    "std_dist": 2857,
+    "mean_dist": 1780.8,
+    "mean_time": 6.9,
+    "std_dist": 2841.6,
     "std_time": 2,
     "city": "Exxon Valdez Oil Spill",
     "country": "",
@@ -3819,7 +3849,8 @@
       61.713,
       60.334,
       60.801,
-      61.601
+      61.601,
+      60.451
     ],
     "lons": [
       "x",
@@ -3878,10 +3909,11 @@
       -147.294,
       -147.058,
       -147.294,
-      -148.941
+      -148.941,
+      -147.058
     ],
-    "mean_lat": 49.699,
-    "mean_lon": -115.709,
+    "mean_lat": 50.188,
+    "mean_lon": -117.134,
     "regions": [
       "Burgenland",
       "California",
@@ -3935,6 +3967,7 @@
       "South Holland",
       "Auvergne-Rh\u00f4ne-Alpes",
       "Auvergne-Rh\u00f4ne-Alpes",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -3998,6 +4031,7 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -4057,7 +4091,8 @@
       99.7,
       57.2,
       23.8,
-      139.7
+      139.7,
+      44.5
     ],
     "times": [
       2.2,
@@ -4116,13 +4151,14 @@
       8.2,
       8.1,
       8.4,
+      8.2,
       8.2
     ]
   },
   "Stonehenge": {
-    "mean_dist": 138.4,
+    "mean_dist": 134.2,
     "mean_time": 7.7,
-    "std_dist": 144.8,
+    "std_dist": 143.3,
     "std_time": 1.2,
     "city": "Stonehenge",
     "country": "",
@@ -4173,7 +4209,9 @@
       51.617,
       52.203,
       52.057,
-      51.504
+      51.504,
+      50.875,
+      50.875
     ],
     "lons": [
       "x",
@@ -4222,10 +4260,12 @@
       -2.117,
       -4.235,
       -2.823,
-      -2.818
+      -2.818,
+      -1.882,
+      -1.647
     ],
-    "mean_lat": 51.422,
-    "mean_lon": -2.188,
+    "mean_lat": 51.367,
+    "mean_lon": -2.145,
     "regions": [
       "Burgenland",
       "Saxony",
@@ -4273,7 +4313,9 @@
       "California",
       "Washington",
       "Aargau",
-      "England"
+      "England",
+      "Aargau",
+      "Aargau"
     ],
     "countries": [
       "Austria",
@@ -4322,7 +4364,9 @@
       "United States",
       "United States",
       "Switzerland",
-      "United Kingdom"
+      "United Kingdom",
+      "Switzerland",
+      "Switzerland"
     ],
     "dists": [
       822.9,
@@ -4371,7 +4415,9 @@
       52.8,
       201.3,
       119.5,
-      77.9
+      77.9,
+      33.9,
+      36
     ],
     "times": [
       5.3,
@@ -4420,14 +4466,16 @@
       8,
       2.9,
       8.5,
-      6.6
+      6.6,
+      8.4,
+      8.5
     ]
   },
   "Leshan Giant Buddha (\u4e50\u5c71\u5927\u4f5b)": {
-    "mean_dist": 834.2,
-    "mean_time": 6.8,
-    "std_dist": 879.4,
-    "std_time": 2,
+    "mean_dist": 822.4,
+    "mean_time": 6.9,
+    "std_dist": 875,
+    "std_time": 1.9,
     "city": "Leshan Giant Buddha (\u4e50\u5c71\u5927\u4f5b)",
     "country": "",
     "lats": [
@@ -4481,7 +4529,8 @@
       24.714,
       29.009,
       29.423,
-      30.314
+      30.314,
+      31.468
     ],
     "lons": [
       "x",
@@ -4534,10 +4583,11 @@
       112.049,
       104.941,
       104.941,
-      88.313
+      88.313,
+      103.294
     ],
-    "mean_lat": 29.421,
-    "mean_lon": 103.176,
+    "mean_lat": 29.518,
+    "mean_lon": 103.182,
     "regions": [
       "Burgenland",
       "Alberta",
@@ -4589,7 +4639,8 @@
       "Madrid",
       "Aargau",
       "Aargau",
-      "Connecticut"
+      "Connecticut",
+      "Aargau"
     ],
     "countries": [
       "Austria",
@@ -4642,7 +4693,8 @@
       "Spain",
       "Switzerland",
       "Switzerland",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       1851.2,
@@ -4695,7 +4747,8 @@
       978.9,
       127.9,
       113.8,
-      1491
+      1491,
+      218.8
     ],
     "times": [
       0.4,
@@ -4748,7 +4801,8 @@
       6.9,
       8.1,
       8.3,
-      5.6
+      5.6,
+      8.1
     ]
   },
   "Denali (formerly Mount McKinley)": {
@@ -5212,9 +5266,9 @@
     ]
   },
   "Royal Palace of Amsterdam": {
-    "mean_dist": 109.3,
+    "mean_dist": 108.7,
     "mean_time": 7.3,
-    "std_dist": 157.9,
+    "std_dist": 156.8,
     "std_time": 1.3,
     "city": "Royal Palace of Amsterdam",
     "country": "",
@@ -5281,7 +5335,8 @@
       52.057,
       51.938,
       51.617,
-      55.423
+      55.423,
+      51.764
     ],
     "lons": [
       "x",
@@ -5346,10 +5401,11 @@
       4.941,
       4.9,
       4.705,
-      8.235
+      8.235,
+      4.941
     ],
-    "mean_lat": 52.656,
-    "mean_lon": 5.859,
+    "mean_lat": 52.606,
+    "mean_lon": 5.808,
     "regions": [
       "Burgenland",
       "Saxony",
@@ -5413,7 +5469,8 @@
       "Aargau",
       "Uusimaa",
       "Uusimaa",
-      "Washington"
+      "Washington",
+      "Aargau"
     ],
     "countries": [
       "Austria",
@@ -5478,7 +5535,8 @@
       "Switzerland",
       "Finland",
       "Finland",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       22.3,
@@ -5543,7 +5601,8 @@
       35.2,
       48.3,
       84.9,
-      403.7
+      403.7,
+      67.7
     ],
     "times": [
       5.4,
@@ -5608,7 +5667,8 @@
       8.4,
       6.9,
       8,
-      3.9
+      3.9,
+      8.3
     ]
   },
   "Uaxactun, Mayan Civilization": {
@@ -5982,9 +6042,9 @@
     ]
   },
   "Sinking of the RMS Titanic": {
-    "mean_dist": 1018.9,
-    "mean_time": 6.6,
-    "std_dist": 1126,
+    "mean_dist": 1090.9,
+    "mean_time": 6.7,
+    "std_dist": 1298.6,
     "std_time": 1.8,
     "city": "Sinking of the RMS Titanic",
     "country": "",
@@ -6047,7 +6107,9 @@
       57.9,
       43.3,
       41.371,
-      48.799
+      48.799,
+      40.474,
+      33.47
     ],
     "lons": [
       "x",
@@ -6108,10 +6170,12 @@
       -39.294,
       -48.705,
       -44.941,
-      -6.219
+      -6.219,
+      -49.176,
+      -122.588
     ],
-    "mean_lat": 45.196,
-    "mean_lon": -42.659,
+    "mean_lat": 44.413,
+    "mean_lon": -46.775,
     "regions": [
       "Burgenland",
       "Florida",
@@ -6171,7 +6235,9 @@
       "North Holland",
       "Aargau",
       "Bavaria",
-      "Bavaria"
+      "Bavaria",
+      "Aargau",
+      "Auckland"
     ],
     "countries": [
       "Austria",
@@ -6232,7 +6298,9 @@
       "Netherlands",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland",
+      "New Zealand"
     ],
     "dists": [
       1178.5,
@@ -6293,7 +6361,9 @@
       1948.7,
       202.5,
       418.3,
-      3461
+      3461,
+      153.3,
+      6275.8
     ],
     "times": [
       2.7,
@@ -6354,7 +6424,9 @@
       2.8,
       7.5,
       6.3,
-      6.2
+      6.2,
+      7.4,
+      10
     ]
   },
   "Mausoleum at Halicarnassus": {
@@ -8786,9 +8858,9 @@
     ]
   },
   "Vela Incident": {
-    "mean_dist": 4760.2,
+    "mean_dist": 4665.4,
     "mean_time": 7.2,
-    "std_dist": 5416.6,
+    "std_dist": 5401.2,
     "std_time": 1.2,
     "city": "Vela Incident",
     "country": "",
@@ -8840,7 +8912,8 @@
       -46.869,
       -46.706,
       -46.706,
-      -47.031
+      -47.031,
+      -46.38
     ],
     "lons": [
       "x",
@@ -8890,10 +8963,11 @@
       41.176,
       43.294,
       41.882,
-      42.117
+      42.117,
+      41.176
     ],
-    "mean_lat": -36.27,
-    "mean_lon": 27.313,
+    "mean_lat": -37.189,
+    "mean_lon": 28.573,
     "regions": [
       "Burgenland",
       "Ontario",
@@ -8939,6 +9013,7 @@
       "Aargau",
       "Uusimaa",
       "Uusimaa",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -8992,6 +9067,7 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -9042,7 +9118,8 @@
       90.4,
       252.5,
       146.7,
-      160.5
+      160.5,
+      113.1
     ],
     "times": [
       6.2,
@@ -9092,7 +9169,8 @@
       8.3,
       8.4,
       8.1,
-      8.1
+      8.1,
+      8
     ]
   },
   "Wright Flyer (First heavier-than-air powered flight) ": {
@@ -9550,9 +9628,9 @@
     ]
   },
   "Porcelain Tower of Nanjing (\u7409\u7483\u5854)": {
-    "mean_dist": 546.3,
+    "mean_dist": 541.8,
     "mean_time": 7.4,
-    "std_dist": 500.8,
+    "std_dist": 497.5,
     "std_time": 1.1,
     "city": "Porcelain Tower of Nanjing (\u7409\u7483\u5854)",
     "country": "",
@@ -9612,7 +9690,8 @@
       29.009,
       33.865,
       29.719,
-      35.426
+      35.426,
+      29.629
     ],
     "lons": [
       "x",
@@ -9670,10 +9749,11 @@
       119.058,
       119.058,
       112.603,
-      114.352
+      114.352,
+      119.764
     ],
-    "mean_lat": 31.933,
-    "mean_lon": 117.613,
+    "mean_lat": 31.805,
+    "mean_lon": 117.733,
     "regions": [
       "Burgenland",
       "Alberta",
@@ -9730,7 +9810,8 @@
       "Aargau",
       "Aargau",
       "Bavaria",
-      "Bavaria"
+      "Bavaria",
+      "Aargau"
     ],
     "countries": [
       "Austria",
@@ -9788,7 +9869,8 @@
       "Switzerland",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       535.7,
@@ -9846,7 +9928,8 @@
       339.2,
       203.6,
       642.5,
-      554.4
+      554.4,
+      285.4
     ],
     "times": [
       2.3,
@@ -9904,7 +9987,8 @@
       8.4,
       7.2,
       6.9,
-      5.9
+      5.9,
+      8
     ]
   },
   "Mont Blanc": {
@@ -10648,9 +10732,9 @@
     ]
   },
   "Mount Kilimanjaro": {
-    "mean_dist": 739.9,
+    "mean_dist": 728.8,
     "mean_time": 6.9,
-    "std_dist": 1265.9,
+    "std_dist": 1257.8,
     "std_time": 1.7,
     "city": "Mount Kilimanjaro",
     "country": "",
@@ -10711,7 +10795,8 @@
       -3.357,
       -4.067,
       -2.883,
-      -3.357
+      -3.357,
+      -3.83
     ],
     "lons": [
       "x",
@@ -10770,10 +10855,11 @@
       37.176,
       36.47,
       36.47,
-      37.411
+      37.411,
+      36.941
     ],
-    "mean_lat": -2.206,
-    "mean_lon": 35.6,
+    "mean_lat": -2.292,
+    "mean_lon": 35.67,
     "regions": [
       "California",
       "Florida",
@@ -10827,6 +10913,7 @@
       "Aargau",
       "Alberta",
       "Washington",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -10890,6 +10977,7 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -10949,7 +11037,8 @@
       36.9,
       147.4,
       100.3,
-      31.9
+      31.9,
+      95.5
     ],
     "times": [
       5.5,
@@ -11008,13 +11097,14 @@
       8.2,
       8.3,
       8,
-      8.3
+      8.3,
+      8.1
     ]
   },
   "Magura Cave Prehistoric Paintings": {
-    "mean_dist": 1900.5,
+    "mean_dist": 1883.1,
     "mean_time": 6.2,
-    "std_dist": 2743.6,
+    "std_dist": 2732.8,
     "std_time": 2,
     "city": "Magura Cave Prehistoric Paintings",
     "country": "",
@@ -11105,7 +11195,8 @@
       43.816,
       44.157,
       43.987,
-      44.834
+      44.834,
+      42.605
     ],
     "lons": [
       "x",
@@ -11194,10 +11285,11 @@
       23.058,
       22.588,
       22.117,
-      24.941
+      24.941,
+      26.823
     ],
-    "mean_lat": 38.687,
-    "mean_lon": 17.432,
+    "mean_lat": 38.818,
+    "mean_lon": 17.745,
     "regions": [
       "California",
       "England",
@@ -11282,6 +11374,7 @@
       "North Holland",
       "North Holland",
       "Utrecht",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -11374,6 +11467,7 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -11463,7 +11557,8 @@
       39.4,
       47.8,
       47.1,
-      224.4
+      224.4,
+      365.8
     ],
     "times": [
       4.9,
@@ -11552,7 +11647,8 @@
       8.2,
       8.3,
       8.4,
-      8.5
+      8.5,
+      8.6
     ]
   },
   "That Wanaka Tree": {
@@ -12482,9 +12578,9 @@
     ]
   },
   "The White House": {
-    "mean_dist": 207.6,
+    "mean_dist": 208.1,
     "mean_time": 7.6,
-    "std_dist": 420.8,
+    "std_dist": 418.1,
     "std_time": 1.3,
     "city": "The White House",
     "country": "",
@@ -12564,7 +12660,8 @@
       37.525,
       39.015,
       35.51,
-      38.274
+      38.274,
+      36.768
     ],
     "lons": [
       "x",
@@ -12642,10 +12739,11 @@
       -76.47,
       -76.47,
       -80.337,
-      -78.823
+      -78.823,
+      -77.882
     ],
-    "mean_lat": 38.516,
-    "mean_lon": -76.748,
+    "mean_lat": 38.443,
+    "mean_lon": -76.795,
     "regions": [
       "California",
       "Saxony",
@@ -12722,7 +12820,8 @@
       "Aargau",
       "Aargau",
       "Bavaria",
-      "Bavaria"
+      "Bavaria",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -12800,7 +12899,8 @@
       "Switzerland",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       3677.2,
@@ -12878,7 +12978,8 @@
       160.4,
       50.6,
       476.6,
-      170
+      170,
+      248
     ],
     "times": [
       3.7,
@@ -12956,7 +13057,8 @@
       8.5,
       8.6,
       7.8,
-      2.4
+      2.4,
+      8.5
     ]
   },
   "Large Hadron Collider (LHC) at CERN": {
@@ -14016,9 +14118,9 @@
     ]
   },
   "CN Tower": {
-    "mean_dist": 1056.5,
+    "mean_dist": 1037.6,
     "mean_time": 7,
-    "std_dist": 2699.4,
+    "std_dist": 2677.9,
     "std_time": 2,
     "city": "CN Tower",
     "country": "",
@@ -14075,7 +14177,8 @@
       43.644,
       43.644,
       46.655,
-      44.57
+      44.57,
+      43.472
     ],
     "lons": [
       "x",
@@ -14130,10 +14233,11 @@
       -79.764,
       -78.588,
       -74.588,
-      -79.396
+      -79.396,
+      -79.764
     ],
-    "mean_lat": 44.983,
-    "mean_lon": -83.958,
+    "mean_lat": 44.899,
+    "mean_lon": -83.725,
     "regions": [
       "California",
       "Alberta",
@@ -14187,7 +14291,8 @@
       "Washington",
       "Aargau",
       "Bavaria",
-      "Bavaria"
+      "Bavaria",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -14242,7 +14347,8 @@
       "United States",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       11784.8,
@@ -14297,7 +14403,8 @@
       30.3,
       64.2,
       503.7,
-      103.1
+      103.1,
+      35.8
     ],
     "times": [
       1.2,
@@ -14352,7 +14459,8 @@
       3.9,
       8.3,
       1,
-      6.7
+      6.7,
+      7.9
     ]
   },
   "Battle of Waterloo": {
@@ -15048,9 +15156,9 @@
     ]
   },
   "Great Barrier Reef": {
-    "mean_dist": 957.3,
-    "mean_time": 7.6,
-    "std_dist": 1876.7,
+    "mean_dist": 940.9,
+    "mean_time": 7.7,
+    "std_dist": 1861.4,
     "std_time": 0.9,
     "city": "Great Barrier Reef",
     "country": "",
@@ -15103,7 +15211,8 @@
       -18.679,
       -18.003,
       -19.799,
-      -38.034
+      -38.034,
+      -18.679
     ],
     "lons": [
       "x",
@@ -15154,10 +15263,11 @@
       149.882,
       148.47,
       149.411,
-      148.799
+      148.799,
+      148.941
     ],
-    "mean_lat": -20.662,
-    "mean_lon": 148.704,
+    "mean_lat": -20.576,
+    "mean_lon": 148.715,
     "regions": [
       "North Rhine-Westphalia",
       "Saxony",
@@ -15207,7 +15317,8 @@
       "Aargau",
       "Aargau",
       "Aargau",
-      "England"
+      "England",
+      "Aargau"
     ],
     "countries": [
       "Germany",
@@ -15258,7 +15369,8 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
-      "United Kingdom"
+      "United Kingdom",
+      "Switzerland"
     ],
     "dists": [
       11682.5,
@@ -15309,7 +15421,8 @@
       234.3,
       87.1,
       246.5,
-      2198.7
+      2198.7,
+      138.1
     ],
     "times": [
       4.6,
@@ -15360,7 +15473,8 @@
       8.2,
       8.4,
       8.3,
-      4.5
+      4.5,
+      8.1
     ]
   },
   "Auschwitz concentration camp": {
@@ -15800,10 +15914,10 @@
     ]
   },
   "Lighthouse of Alexandria": {
-    "mean_dist": 844.9,
+    "mean_dist": 833.3,
     "mean_time": 7,
-    "std_dist": 1942.4,
-    "std_time": 2.1,
+    "std_dist": 1929.9,
+    "std_time": 2,
     "city": "Lighthouse of Alexandria",
     "country": "",
     "lats": [
@@ -15871,7 +15985,8 @@
       30.246,
       30.041,
       31.063,
-      30.246
+      30.246,
+      30.655
     ],
     "lons": [
       "x",
@@ -15938,10 +16053,11 @@
       29.882,
       30.117,
       30.588,
-      30.588
+      30.588,
+      30.352
     ],
-    "mean_lat": 31.098,
-    "mean_lon": 31.093,
+    "mean_lat": 31.076,
+    "mean_lon": 31.056,
     "regions": [
       "Florida",
       "Saxony",
@@ -16004,6 +16120,7 @@
       "Aargau",
       "Alberta",
       "Washington",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -16074,6 +16191,7 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -16141,7 +16259,8 @@
       107.5,
       132.2,
       68.9,
-      126.8
+      126.8,
+      76.4
     ],
     "times": [
       4.5,
@@ -16208,6 +16327,7 @@
       8.4,
       8.5,
       8.3,
+      8.4,
       8.4
     ]
   },
@@ -16808,9 +16928,9 @@
     ]
   },
   "Waitomo Glowworm Caves": {
-    "mean_dist": 2013.6,
+    "mean_dist": 2019,
     "mean_time": 7.2,
-    "std_dist": 4170.6,
+    "std_dist": 4135.3,
     "std_time": 1.2,
     "city": "Waitomo Glowworm Caves",
     "country": "",
@@ -16872,7 +16992,8 @@
       71.769,
       -45.555,
       -33.532,
-      -34.319
+      -34.319,
+      -32.337
     ],
     "lons": [
       "x",
@@ -16932,10 +17053,11 @@
       -84.941,
       170.823,
       149.647,
+      150.352,
       150.352
     ],
-    "mean_lat": -33.223,
-    "mean_lon": 155.043,
+    "mean_lat": -33.183,
+    "mean_lon": 154.829,
     "regions": [
       "Ontario",
       "Aargau",
@@ -16992,6 +17114,7 @@
       "Aargau",
       "Aargau",
       "Indiana",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau"
@@ -17054,6 +17177,7 @@
       "United States",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -17114,7 +17238,8 @@
       14354.8,
       884.7,
       2344.4,
-      2254
+      2254,
+      2332.6
     ],
     "times": [
       5.3,
@@ -17174,7 +17299,8 @@
       5.4,
       8.1,
       7.8,
-      7.8
+      7.8,
+      8.1
     ]
   },
   "Debre Damo Monastery": {
@@ -18240,9 +18366,9 @@
     ]
   },
   "Golden Gate Bridge": {
-    "mean_dist": 143.6,
+    "mean_dist": 142.5,
     "mean_time": 7.7,
-    "std_dist": 191.2,
+    "std_dist": 188.8,
     "std_time": 0.7,
     "city": "Golden Gate Bridge",
     "country": "",
@@ -18307,7 +18433,9 @@
       39.015,
       37.148,
       38.46,
-      37.9
+      37.9,
+      37.713,
+      37.525
     ],
     "lons": [
       "x",
@@ -18370,10 +18498,12 @@
       -121.411,
       -121.647,
       -121.176,
-      -122.117
+      -122.117,
+      -122.823,
+      -120.47
     ],
-    "mean_lat": 37.585,
-    "mean_lon": -121.926,
+    "mean_lat": 37.59,
+    "mean_lon": -121.889,
     "regions": [
       "Florida",
       "Florida",
@@ -18431,6 +18561,8 @@
       "Aargau",
       "Aargau",
       "Washington",
+      "Aargau",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -18498,6 +18630,8 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -18561,7 +18695,9 @@
       162.2,
       104.6,
       134.3,
-      32.9
+      32.9,
+      32.5,
+      179.7
     ],
     "times": [
       6.5,
@@ -18624,7 +18760,9 @@
       8.2,
       8.2,
       8.3,
-      8.2
+      8.2,
+      8.2,
+      8.1
     ]
   },
   "Null Island": {
@@ -20616,9 +20754,9 @@
     ]
   },
   "Sigiriya Fortress": {
-    "mean_dist": 2771.3,
+    "mean_dist": 2779.7,
     "mean_time": 6.8,
-    "std_dist": 3316.7,
+    "std_dist": 3289.6,
     "std_time": 1.7,
     "city": "Sigiriya Fortress",
     "country": "",
@@ -20681,7 +20819,8 @@
       7.063,
       8.239,
       7.769,
-      7.769
+      7.769,
+      36.578
     ],
     "lons": [
       "x",
@@ -20742,10 +20881,11 @@
       80.705,
       80.235,
       80.705,
-      80.47
+      80.47,
+      73.176
     ],
-    "mean_lat": 11.196,
-    "mean_lon": 77.85,
+    "mean_lat": 12.35,
+    "mean_lon": 77.638,
     "regions": [
       "Florida",
       "Alberta",
@@ -20805,7 +20945,8 @@
       "Aargau",
       "Aargau",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "Auckland"
     ],
     "countries": [
       "United States",
@@ -20866,7 +21007,8 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "New Zealand"
     ],
     "dists": [
       6919.9,
@@ -20927,7 +21069,8 @@
       99.5,
       65.7,
       21.7,
-      38
+      38,
+      3273.8
     ],
     "times": [
       7.7,
@@ -20988,7 +21131,8 @@
       7.9,
       7.7,
       8.4,
-      7.1
+      7.1,
+      3.9
     ]
   },
   "Newnes Glowworm Tunnel": {
@@ -21748,9 +21892,9 @@
     ]
   },
   "K2 (Mountain)": {
-    "mean_dist": 1688.1,
+    "mean_dist": 1661,
     "mean_time": 7.1,
-    "std_dist": 2738.3,
+    "std_dist": 2722.3,
     "std_time": 1.6,
     "city": "K2 (Mountain)",
     "country": "",
@@ -21811,7 +21955,8 @@
       35.426,
       36.196,
       33.865,
-      35.039
+      35.039,
+      34.844
     ],
     "lons": [
       "x",
@@ -21870,10 +22015,11 @@
       76.941,
       74.588,
       78.117,
+      76.705,
       76.705
     ],
-    "mean_lat": 33.334,
-    "mean_lon": 78.708,
+    "mean_lat": 33.392,
+    "mean_lon": 78.631,
     "regions": [
       "Florida",
       "Alberta",
@@ -21920,6 +22066,7 @@
       "Aargau",
       "Uusimaa",
       "Uusimaa",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -21990,6 +22137,7 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -22049,7 +22197,8 @@
       63.7,
       176.5,
       267.8,
-      95.3
+      95.3,
+      116.7
     ],
     "times": [
       5.3,
@@ -22108,7 +22257,8 @@
       8.3,
       8.2,
       8.2,
-      8.4
+      8.4,
+      8.2
     ]
   },
   "Lake Titicaca": {
@@ -23020,9 +23170,9 @@
     ]
   },
   "Carthage, Carthaginian Civilization": {
-    "mean_dist": 1386.9,
+    "mean_dist": 1364.4,
     "mean_time": 7.2,
-    "std_dist": 2424.5,
+    "std_dist": 2409.5,
     "std_time": 0.9,
     "city": "Carthage",
     "country": "Carthaginian Civilization",
@@ -23083,7 +23233,8 @@
       40.155,
       36.387,
       36.958,
-      38.274
+      38.274,
+      36.768
     ],
     "lons": [
       "x",
@@ -23142,10 +23293,11 @@
       43.475,
       11.529,
       10.117,
-      10.117
+      10.117,
+      9.411
     ],
-    "mean_lat": 36.789,
-    "mean_lon": 16.151,
+    "mean_lat": 36.787,
+    "mean_lon": 15.633,
     "regions": [
       "Saxony",
       "Florida",
@@ -23201,6 +23353,7 @@
       "Aargau",
       "Aargau",
       "Washington",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau"
@@ -23262,6 +23415,7 @@
       "United States",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -23321,7 +23475,8 @@
       2891.1,
       119.4,
       21.7,
-      159
+      159,
+      81.6
     ],
     "times": [
       6.1,
@@ -23380,7 +23535,8 @@
       5.4,
       7.9,
       6.6,
-      7.2
+      7.2,
+      6.7
     ]
   },
   "Alcatraz Island": {
@@ -25450,9 +25606,9 @@
     ]
   },
   "Taj Mahal": {
-    "mean_dist": 430.9,
+    "mean_dist": 421.9,
     "mean_time": 7.5,
-    "std_dist": 385.9,
+    "std_dist": 383.9,
     "std_time": 1.1,
     "city": "Taj Mahal",
     "country": "",
@@ -25524,7 +25680,9 @@
       25.85,
       26.064,
       27.335,
-      27.335
+      27.335,
+      26.489,
+      26.276
     ],
     "lons": [
       "x",
@@ -25594,10 +25752,12 @@
       77.647,
       76.941,
       77.411,
-      79.058
+      79.058,
+      79.058,
+      78.352
     ],
-    "mean_lat": 25.396,
-    "mean_lon": 76.03,
+    "mean_lat": 25.464,
+    "mean_lon": 76.215,
     "regions": [
       "Saxony",
       "Alberta",
@@ -25664,6 +25824,8 @@
       "Aargau",
       "Indiana",
       "Indiana",
+      "Aargau",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau"
@@ -25736,6 +25898,8 @@
       "United States",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -25806,7 +25970,9 @@
       152.4,
       165,
       64.8,
-      102
+      102,
+      126.4,
+      104.5
     ],
     "times": [
       3.8,
@@ -25876,7 +26042,9 @@
       5.5,
       8.1,
       8.4,
-      8.3
+      8.3,
+      8.4,
+      8.2
     ]
   },
   "Chapel of the Rosario, Puebla": {
@@ -26882,10 +27050,10 @@
     ]
   },
   "Pompeii (Mount Vesuvius)": {
-    "mean_dist": 154.7,
-    "mean_time": 7.3,
-    "std_dist": 131.6,
-    "std_time": 1.5,
+    "mean_dist": 153.1,
+    "mean_time": 7.4,
+    "std_dist": 131.5,
+    "std_time": 1.4,
     "city": "Pompeii (Mount Vesuvius)",
     "country": "",
     "lats": [
@@ -26963,7 +27131,8 @@
       39.931,
       40.655,
       41.311,
-      45.184
+      45.184,
+      40.474
     ],
     "lons": [
       "x",
@@ -27040,10 +27209,11 @@
       14.117,
       14.823,
       13.176,
-      9.629
+      9.629,
+      14.352
     ],
     "mean_lat": 40.489,
-    "mean_lon": 13.743,
+    "mean_lon": 13.772,
     "regions": [
       "Alberta",
       "Ontario",
@@ -27119,7 +27289,8 @@
       "Aargau",
       "Aargau",
       "Lisbon",
-      "Lisbon"
+      "Lisbon",
+      "Aargau"
     ],
     "countries": [
       "Canada",
@@ -27196,7 +27367,8 @@
       "Switzerland",
       "Switzerland",
       "Portugal",
-      "Portugal"
+      "Portugal",
+      "Switzerland"
     ],
     "dists": [
       135,
@@ -27273,7 +27445,8 @@
       96.6,
       29.2,
       127.3,
-      632.3
+      632.3,
+      33
     ],
     "times": [
       7,
@@ -27350,7 +27523,8 @@
       8.3,
       8.5,
       5.1,
-      5
+      5,
+      8.5
     ]
   },
   "Hanging Gardens of Babylon": {
@@ -28028,9 +28202,9 @@
     ]
   },
   "Hoover Dam": {
-    "mean_dist": 1177.4,
+    "mean_dist": 1163.4,
     "mean_time": 7.3,
-    "std_dist": 2932,
+    "std_dist": 2913.7,
     "std_time": 1.4,
     "city": "Hoover Dam",
     "country": "",
@@ -28104,7 +28278,8 @@
       36.958,
       36.768,
       35.812,
-      33.668
+      33.668,
+      37.525
     ],
     "lons": [
       "x",
@@ -28176,10 +28351,11 @@
       -106.117,
       -112.235,
       -112.235,
-      -116.705
+      -116.705,
+      -114.117
     ],
-    "mean_lat": 36.359,
-    "mean_lon": -114.041,
+    "mean_lat": 36.417,
+    "mean_lon": -114.045,
     "regions": [
       "Saxony",
       "Florida",
@@ -28248,6 +28424,7 @@
       "Aargau",
       "Aargau",
       "Indiana",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau"
@@ -28322,6 +28499,7 @@
       "United States",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -28394,7 +28572,8 @@
       777.4,
       239.1,
       226.4,
-      316.8
+      316.8,
+      176.7
     ],
     "times": [
       6.4,
@@ -28466,13 +28645,14 @@
       7.6,
       8.5,
       8.2,
-      7.8
+      7.8,
+      8.5
     ]
   },
   "Tsar Bomba Nuclear Test Site": {
-    "mean_dist": 1457.6,
+    "mean_dist": 1431.3,
     "mean_time": 6.9,
-    "std_dist": 2539.7,
+    "std_dist": 2523.9,
     "std_time": 1.6,
     "city": "Tsar Bomba Nuclear Test Site",
     "country": "",
@@ -28530,7 +28710,8 @@
       33.139,
       78.571,
       75.849,
-      75.197
+      75.197,
+      75.615
     ],
     "lons": [
       "x",
@@ -28586,10 +28767,11 @@
       101.568,
       16.235,
       60.47,
-      59.294
+      59.294,
+      60
     ],
-    "mean_lat": 62.679,
-    "mean_lon": 65.384,
+    "mean_lat": 63.267,
+    "mean_lon": 65.139,
     "regions": [
       "Saxony",
       "Florida",
@@ -28642,6 +28824,7 @@
       "New York",
       "Colorado",
       "Colorado",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau"
@@ -28700,6 +28883,7 @@
       "United States",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -28756,7 +28940,8 @@
       5190.1,
       1112.9,
       41,
-      39
+      39,
+      12.8
     ],
     "times": [
       5.5,
@@ -28812,13 +28997,14 @@
       5.1,
       8,
       8.3,
-      8.3
+      8.3,
+      8.2
     ]
   },
   "Longmen Grottoes": {
-    "mean_dist": 2302.3,
+    "mean_dist": 2267.9,
     "mean_time": 7.2,
-    "std_dist": 3468.4,
+    "std_dist": 3448.8,
     "std_time": 1.3,
     "city": "Longmen Grottoes",
     "country": "",
@@ -28880,7 +29066,8 @@
       35.039,
       34.062,
       31.872,
-      32.874
+      32.874,
+      33.865
     ],
     "lons": [
       "x",
@@ -28940,10 +29127,11 @@
       112.941,
       114.117,
       109.411,
-      112.235
+      112.235,
+      115.294
     ],
-    "mean_lat": 32.673,
-    "mean_lon": 111.138,
+    "mean_lat": 32.733,
+    "mean_lon": 111.345,
     "regions": [
       "Saxony",
       "Florida",
@@ -28999,6 +29187,7 @@
       "Auvergne-Rh\u00f4ne-Alpes",
       "Uusimaa",
       "Uusimaa",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -29059,6 +29248,7 @@
       "France",
       "Finland",
       "Finland",
+      "Switzerland",
       "Switzerland",
       "Switzerland",
       "Switzerland",
@@ -29122,7 +29312,8 @@
       68.8,
       160.9,
       412.1,
-      188.1
+      188.1,
+      270.8
     ],
     "times": [
       6.8,
@@ -29182,13 +29373,14 @@
       8.4,
       8.4,
       8.4,
-      8.4
+      8.4,
+      8.3
     ]
   },
   "Hagia Sophia": {
-    "mean_dist": 513.4,
-    "mean_time": 6.9,
-    "std_dist": 1334.1,
+    "mean_dist": 505.7,
+    "mean_time": 7,
+    "std_dist": 1322.8,
     "std_time": 1.3,
     "city": "Hagia Sophia",
     "country": "",
@@ -29245,7 +29437,8 @@
       41.726,
       53.277,
       40.92,
-      40.547
+      40.547,
+      40.113
     ],
     "lons": [
       "x",
@@ -29300,10 +29493,11 @@
       27.058,
       23.185,
       28.126,
-      27.952
+      27.952,
+      28.941
     ],
-    "mean_lat": 38.183,
-    "mean_lon": 33.316,
+    "mean_lat": 38.29,
+    "mean_lon": 33.073,
     "regions": [
       "Saxony",
       "Florida",
@@ -29357,7 +29551,8 @@
       "Aargau",
       "Virginia",
       "Plovdiv",
-      "Plovdiv"
+      "Plovdiv",
+      "Aargau"
     ],
     "countries": [
       "Germany",
@@ -29412,7 +29607,8 @@
       "Switzerland",
       "United States",
       "Bulgaria",
-      "Bulgaria"
+      "Bulgaria",
+      "Switzerland"
     ],
     "dists": [
       959.2,
@@ -29467,7 +29663,8 @@
       179,
       1431.7,
       72.2,
-      100.5
+      100.5,
+      99.6
     ],
     "times": [
       4.3,
@@ -29522,7 +29719,8 @@
       8.2,
       7.9,
       6.5,
-      7.5
+      7.5,
+      8.1
     ]
   },
   "Moai Statues of Easter Island": {
@@ -30404,9 +30602,9 @@
     ]
   },
   "Pearl Harbor": {
-    "mean_dist": 1538.7,
-    "mean_time": 7.1,
-    "std_dist": 3350.3,
+    "mean_dist": 1522.9,
+    "mean_time": 7.2,
+    "std_dist": 3332.3,
     "std_time": 1.7,
     "city": "Pearl Harbor",
     "country": "",
@@ -30489,7 +30687,8 @@
       9.288,
       24.742,
       -28.368,
-      20.398
+      20.398,
+      19.058
     ],
     "lons": [
       "x",
@@ -30570,10 +30769,11 @@
       -161.99,
       -82.745,
       -11.713,
-      -156.235
+      -156.235,
+      -156.941
     ],
-    "mean_lat": 18.948,
-    "mean_lon": -125.36,
+    "mean_lat": 18.951,
+    "mean_lon": -126.347,
     "regions": [
       "Saxony",
       "Florida",
@@ -30653,7 +30853,8 @@
       "North Rhine-Westphalia",
       "North Rhine-Westphalia",
       "North Rhine-Westphalia",
-      "California"
+      "California",
+      "Aargau"
     ],
     "countries": [
       "Germany",
@@ -30734,7 +30935,8 @@
       "Germany",
       "Germany",
       "Germany",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       5660.5,
@@ -30815,7 +31017,8 @@
       1409.2,
       7603.4,
       16531.8,
-      206.6
+      206.6,
+      275.4
     ],
     "times": [
       3.7,
@@ -30896,13 +31099,14 @@
       3.6,
       6.7,
       8.8,
-      7.9
+      7.9,
+      8.3
     ]
   },
   "Ellora Caves": {
-    "mean_dist": 3186,
-    "mean_time": 6.9,
-    "std_dist": 3990.3,
+    "mean_dist": 3136.4,
+    "mean_time": 7,
+    "std_dist": 3977.7,
     "std_time": 1.6,
     "city": "Ellora Caves",
     "country": "",
@@ -30968,7 +31172,8 @@
       22.97,
       19.506,
       18.796,
-      22.166
+      22.166,
+      20.175
     ],
     "lons": [
       "x",
@@ -31032,10 +31237,11 @@
       76.392,
       76.941,
       80.509,
-      83.764
+      83.764,
+      75.764
     ],
-    "mean_lat": 23.728,
-    "mean_lon": 60.393,
+    "mean_lat": 23.567,
+    "mean_lon": 61.092,
     "regions": [
       "Saxony",
       "Florida",
@@ -31098,7 +31304,8 @@
       "Lisbon",
       "Aargau",
       "North Rhine-Westphalia",
-      "California"
+      "California",
+      "Aargau"
     ],
     "countries": [
       "Germany",
@@ -31162,7 +31369,8 @@
       "Portugal",
       "Switzerland",
       "Germany",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       7511.6,
@@ -31226,7 +31434,8 @@
       350.5,
       193.4,
       575.7,
-      921.9
+      921.9,
+      63.5
     ],
     "times": [
       6.5,
@@ -31290,7 +31499,8 @@
       6.6,
       8.2,
       7.3,
-      7.3
+      7.3,
+      8.3
     ]
   },
   "Darvaza Gas Crater": {
@@ -32774,9 +32984,9 @@
     ]
   },
   "The Great Molasses Flood": {
-    "mean_dist": 2134.5,
+    "mean_dist": 2088.4,
     "mean_time": 7.1,
-    "std_dist": 3683.2,
+    "std_dist": 3654.9,
     "std_time": 1.7,
     "city": "The Great Molasses Flood",
     "country": "",
@@ -32824,7 +33034,8 @@
       38.602,
       42.875,
       42.079,
-      41.014
+      41.014,
+      42.255
     ],
     "lons": [
       "x",
@@ -32870,10 +33081,11 @@
       -91.474,
       -86.647,
       -69.882,
-      -72.235
+      -72.235,
+      -71.764
     ],
-    "mean_lat": 41.689,
-    "mean_lon": -74.738,
+    "mean_lat": 41.736,
+    "mean_lon": -74.49,
     "regions": [
       "Saxony",
       "Alberta",
@@ -32917,6 +33129,7 @@
       "Aargau",
       "Saarland",
       "North Rhine-Westphalia",
+      "Aargau",
       "Aargau",
       "Aargau"
     ],
@@ -32964,6 +33177,7 @@
       "Germany",
       "Germany",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -33010,7 +33224,8 @@
       1772.1,
       1275.1,
       101.8,
-      179.6
+      179.6,
+      59.6
     ],
     "times": [
       5.1,
@@ -33056,7 +33271,8 @@
       4.5,
       4.8,
       8.3,
-      8.2
+      8.2,
+      8.4
     ]
   },
   "Citadelle Laferri\u00e8re": {
@@ -33922,9 +34138,9 @@
     ]
   },
   "Tiwanaku, Tiwanaku Empire": {
-    "mean_dist": 6506.3,
-    "mean_time": 6.4,
-    "std_dist": 6590.6,
+    "mean_dist": 6052.4,
+    "mean_time": 6.5,
+    "std_dist": 6558.4,
     "std_time": 1.6,
     "city": "Tiwanaku",
     "country": "Tiwanaku Empire",
@@ -33980,7 +34196,11 @@
       -16.417,
       -2.366,
       -20.689,
-      -18.229
+      -18.229,
+      -15.961,
+      -15.733,
+      -15.275,
+      -15.733
     ],
     "lons": [
       "x",
@@ -34034,10 +34254,14 @@
       -69.411,
       15.723,
       -69.176,
-      -68.941
+      -68.941,
+      -70.117,
+      -70.352,
+      -68.47,
+      -68.47
     ],
-    "mean_lat": -11.097,
-    "mean_lon": -46.114,
+    "mean_lat": -11.929,
+    "mean_lon": -50.339,
     "regions": [
       "Saxony",
       "England",
@@ -34090,6 +34314,10 @@
       "Aargau",
       "Uusimaa",
       "Uusimaa",
+      "Aargau",
+      "Aargau",
+      "Aargau",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -34144,6 +34372,10 @@
       "Switzerland",
       "Finland",
       "Finland",
+      "Switzerland",
+      "Switzerland",
+      "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -34198,7 +34430,11 @@
       80.2,
       9335.5,
       462.8,
-      188.3
+      188.3,
+      167.6,
+      201.3,
+      143.8,
+      93.8
     ],
     "times": [
       7,
@@ -34252,7 +34488,11 @@
       8,
       7.5,
       6.7,
-      8.4
+      8.4,
+      7.7,
+      8.2,
+      8.3,
+      7.9
     ]
   },
   "Vostok 1 (Yuri Gagarin) Landing Site": {
@@ -34710,10 +34950,10 @@
     ]
   },
   "Abu Simbel Temples": {
-    "mean_dist": 926.7,
-    "mean_time": 7.2,
-    "std_dist": 1560.2,
-    "std_time": 1.6,
+    "mean_dist": 917.2,
+    "mean_time": 7.1,
+    "std_dist": 1537.3,
+    "std_time": 1.7,
     "city": "Abu Simbel Temples",
     "country": "",
     "lats": [
@@ -34771,7 +35011,9 @@
       32.073,
       23.261,
       22.605,
-      22.166
+      22.166,
+      21.726,
+      32.675
     ],
     "lons": [
       "x",
@@ -34828,10 +35070,12 @@
       53.647,
       31.529,
       31.764,
-      30.352
+      30.352,
+      31.294,
+      36.235
     ],
-    "mean_lat": 23.947,
-    "mean_lon": 33.541,
+    "mean_lat": 24.33,
+    "mean_lon": 33.567,
     "regions": [
       "Saxony",
       "England",
@@ -34887,7 +35131,9 @@
       "Washington",
       "Aargau",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "Aargau",
+      "Auckland"
     ],
     "countries": [
       "Germany",
@@ -34944,7 +35190,9 @@
       "United States",
       "Switzerland",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "New Zealand"
     ],
     "dists": [
       2696.3,
@@ -35001,7 +35249,9 @@
       2425.3,
       103.2,
       33.1,
-      132.3
+      132.3,
+      75.9,
+      1235.7
     ],
     "times": [
       8.1,
@@ -35058,7 +35308,9 @@
       5.6,
       8.2,
       8.3,
-      8.2
+      8.2,
+      7.9,
+      2.5
     ]
   },
   "Burj Khalifa": {
@@ -36172,9 +36424,9 @@
     ]
   },
   "Tikal, Maya Civilization": {
-    "mean_dist": 1009.7,
+    "mean_dist": 1185.9,
     "mean_time": 7,
-    "std_dist": 2130.2,
+    "std_dist": 2571.9,
     "std_time": 1.6,
     "city": "Tikal",
     "country": "Maya Civilization",
@@ -36247,7 +36499,8 @@
       0.2,
       16.573,
       19.356,
-      16.345
+      16.345,
+      42.78
     ],
     "lons": [
       "x",
@@ -36318,10 +36571,11 @@
       -72.235,
       -88.705,
       -91.215,
-      -89.647
+      -89.647,
+      91.764
     ],
-    "mean_lat": 14.219,
-    "mean_lon": -87.868,
+    "mean_lat": 15.899,
+    "mean_lon": -77.302,
     "regions": [
       "England",
       "England",
@@ -36391,6 +36645,7 @@
       "Washington",
       "Aargau",
       "Connecticut",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -36462,6 +36717,7 @@
       "United States",
       "Switzerland",
       "United States",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -36533,7 +36789,8 @@
       2684.3,
       121.3,
       290.8,
-      97.4
+      97.4,
+      13341.6
     ],
     "times": [
       4.3,
@@ -36604,7 +36861,8 @@
       6.8,
       8.1,
       5.6,
-      8.1
+      8.1,
+      5.4
     ]
   },
   "Edward Jenner Develops the First Successful Vaccine": {
@@ -39710,9 +39968,9 @@
     ]
   },
   "Area 51": {
-    "mean_dist": 387.2,
+    "mean_dist": 384.7,
     "mean_time": 7.8,
-    "std_dist": 453.5,
+    "std_dist": 450,
     "std_time": 1,
     "city": "Area 51",
     "country": "",
@@ -39773,7 +40031,8 @@
       36.004,
       36.768,
       46.492,
-      36.004
+      36.004,
+      36.768
     ],
     "lons": [
       "x",
@@ -39832,10 +40091,11 @@
       -115.294,
       -116,
       -110.588,
-      -115.058
+      -115.058,
+      -113.176
     ],
-    "mean_lat": 36.836,
-    "mean_lon": -112.965,
+    "mean_lat": 36.831,
+    "mean_lon": -112.979,
     "regions": [
       "Alberta",
       "Saxony",
@@ -39893,7 +40153,8 @@
       "Aargau",
       "Aargau",
       "North Holland",
-      "Aargau"
+      "Aargau",
+      "Auckland"
     ],
     "countries": [
       "Canada",
@@ -39952,7 +40213,8 @@
       "Switzerland",
       "Switzerland",
       "Netherlands",
-      "Switzerland"
+      "Switzerland",
+      "New Zealand"
     ],
     "dists": [
       162.2,
@@ -40011,7 +40273,8 @@
       144.1,
       54.3,
       1116,
-      152.1
+      152.1,
+      239.3
     ],
     "times": [
       7.7,
@@ -40070,7 +40333,8 @@
       8.6,
       8.4,
       2.6,
-      8.5
+      8.5,
+      5.9
     ]
   },
   "The Colosseum": {
@@ -43518,9 +43782,9 @@
     ]
   },
   "The Little Mermaid (statue)": {
-    "mean_dist": 1255.6,
-    "mean_time": 6.9,
-    "std_dist": 2512.7,
+    "mean_dist": 1238.6,
+    "mean_time": 7,
+    "std_dist": 2497.7,
     "std_time": 1.4,
     "city": "The Little Mermaid (statue)",
     "country": "",
@@ -43590,7 +43854,8 @@
       54.607,
       55.017,
       55.958,
-      55.557
+      55.557,
+      55.153
     ],
     "lons": [
       "x",
@@ -43658,10 +43923,11 @@
       10.588,
       10.823,
       11.529,
+      11.058,
       11.058
     ],
-    "mean_lat": 53.71,
-    "mean_lon": 11.793,
+    "mean_lat": 53.795,
+    "mean_lon": 11.749,
     "regions": [
       "Alberta",
       "Saxony",
@@ -43726,6 +43992,7 @@
       "Washington",
       "Washington",
       "Washington",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau"
@@ -43796,6 +44063,7 @@
       "United States",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -43864,7 +44132,8 @@
       175.7,
       135,
       73,
-      97.8
+      97.8,
+      114.2
     ],
     "times": [
       7.6,
@@ -43932,7 +44201,8 @@
       7.8,
       8.1,
       8.3,
-      8.1
+      8.1,
+      8.4
     ]
   },
   "Cusco, Incan Empire": {
@@ -46036,9 +46306,9 @@
     ]
   },
   "Battle of Isandlwana": {
-    "mean_dist": 4111,
-    "mean_time": 5.9,
-    "std_dist": 4342.9,
+    "mean_dist": 4042.2,
+    "mean_time": 6,
+    "std_dist": 4337.7,
     "std_time": 2.1,
     "city": "Battle of Isandlwana",
     "country": "",
@@ -46100,7 +46370,8 @@
       -27.612,
       14.328,
       27.546,
-      19.11
+      19.11,
+      -28.031
     ],
     "lons": [
       "x",
@@ -46160,10 +46431,11 @@
       30.823,
       3.488,
       21.176,
-      33.357
+      33.357,
+      31.058
     ],
-    "mean_lat": 1.737,
-    "mean_lon": 29.504,
+    "mean_lat": 0.383,
+    "mean_lon": 29.574,
     "regions": [
       "Alberta",
       "Saxony",
@@ -46222,7 +46494,8 @@
       "Aargau",
       "England",
       "Utrecht",
-      "Utrecht"
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "Canada",
@@ -46282,7 +46555,8 @@
       "Switzerland",
       "United Kingdom",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       7955.3,
@@ -46342,7 +46616,8 @@
       83.9,
       5573.7,
       6297.1,
-      5285.6
+      5285.6,
+      53.4
     ],
     "times": [
       7.7,
@@ -46402,13 +46677,14 @@
       8,
       1.5,
       0.7,
-      3.1
+      3.1,
+      8.3
     ]
   },
   "Sognefjord": {
-    "mean_dist": 276.9,
+    "mean_dist": 279,
     "mean_time": 7,
-    "std_dist": 283.2,
+    "std_dist": 281.3,
     "std_time": 1.6,
     "city": "Sognefjord",
     "country": "",
@@ -46470,7 +46746,8 @@
       64.141,
       66.206,
       61.237,
-      60.362
+      60.362,
+      63.881
     ],
     "lons": [
       "x",
@@ -46530,10 +46807,11 @@
       12.47,
       11.004,
       7.294,
-      8.945
+      8.945,
+      10.117
     ],
-    "mean_lat": 61.988,
-    "mean_lon": 7.751,
+    "mean_lat": 62.07,
+    "mean_lon": 7.854,
     "regions": [
       "Alberta",
       "Saxony",
@@ -46592,7 +46870,8 @@
       "North Holland",
       "North Holland",
       "Utrecht",
-      "England"
+      "England",
+      "Aargau"
     ],
     "countries": [
       "Canada",
@@ -46652,7 +46931,8 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "United Kingdom"
+      "United Kingdom",
+      "Switzerland"
     ],
     "dists": [
       741.9,
@@ -46712,7 +46992,8 @@
       503.3,
       636,
       115,
-      221.1
+      221.1,
+      400.2
     ],
     "times": [
       7,
@@ -46772,13 +47053,14 @@
       5.4,
       7.4,
       5.3,
-      6.1
+      6.1,
+      8.2
     ]
   },
   "Buckingham Palace": {
-    "mean_dist": 171.1,
+    "mean_dist": 167.6,
     "mean_time": 7.8,
-    "std_dist": 604.6,
+    "std_dist": 596.1,
     "std_time": 1,
     "city": "Buckingham Palace",
     "country": "",
@@ -46849,6 +47131,8 @@
       51.576,
       51.813,
       51.173,
+      51.617,
+      51.617,
       51.617
     ],
     "lons": [
@@ -46918,10 +47202,12 @@
       -1.513,
       -3.607,
       -1.647,
+      -0.705,
+      -0.941,
       -0.705
     ],
-    "mean_lat": 51.484,
-    "mean_lon": -0.879,
+    "mean_lat": 51.493,
+    "mean_lon": -0.875,
     "regions": [
       "Alberta",
       "Saxony",
@@ -46989,7 +47275,9 @@
       "Colorado",
       "Colorado",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "Auckland",
+      "Auckland"
     ],
     "countries": [
       "Canada",
@@ -47058,7 +47346,9 @@
       "United States",
       "United States",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "New Zealand",
+      "New Zealand"
     ],
     "dists": [
       20.7,
@@ -47127,6 +47417,8 @@
       96.1,
       242.4,
       111.8,
+      41.8,
+      57.5,
       41.8
     ],
     "times": [
@@ -47196,13 +47488,15 @@
       7,
       6.6,
       8.1,
-      8.5
+      8.5,
+      7,
+      7
     ]
   },
   "Ryugyong Hotel (\ub958\uacbd\ub824\uad00)": {
-    "mean_dist": 370.3,
+    "mean_dist": 363.9,
     "mean_time": 7.4,
-    "std_dist": 725.5,
+    "std_dist": 720.4,
     "std_time": 1.2,
     "city": "Ryugyong Hotel (\ub958\uacbd\ub824\uad00)",
     "country": "",
@@ -47260,7 +47554,8 @@
       12.439,
       38.83,
       39.809,
-      39.383
+      39.383,
+      39.199
     ],
     "lons": [
       "x",
@@ -47316,10 +47611,11 @@
       104.705,
       125.176,
       124.784,
-      125.411
+      125.411,
+      125.647
     ],
-    "mean_lat": 35.685,
-    "mean_lon": 123.945,
+    "mean_lat": 35.881,
+    "mean_lon": 124.039,
     "regions": [
       "Alberta",
       "Saxony",
@@ -47374,6 +47670,7 @@
       "Washington",
       "Aargau",
       "Connecticut",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -47430,6 +47727,7 @@
       "United States",
       "Switzerland",
       "United States",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -47486,7 +47784,8 @@
       3610.4,
       53.1,
       118.3,
-      47.3
+      47.3,
+      19.5
     ],
     "times": [
       7.3,
@@ -47542,7 +47841,8 @@
       6.6,
       8.4,
       6.6,
-      8
+      8,
+      7.9
     ]
   },
   "Nikk\u014d T\u014dsh\u014d-g\u016b (\u65e5\u5149\u6771\u7167\u5bae)": {
@@ -47880,9 +48180,9 @@
     ]
   },
   "Trinity Nuclear Test Site": {
-    "mean_dist": 1866.2,
-    "mean_time": 6.5,
-    "std_dist": 2909.3,
+    "mean_dist": 1843.1,
+    "mean_time": 6.6,
+    "std_dist": 2895.5,
     "std_time": 1.7,
     "city": "Trinity Nuclear Test Site",
     "country": "",
@@ -47957,7 +48257,8 @@
       32.721,
       34.61,
       32.675,
-      33.865
+      33.865,
+      32.874
     ],
     "lons": [
       "x",
@@ -48030,10 +48331,11 @@
       -101.936,
       -98.164,
       -108,
-      -110.823
+      -110.823,
+      -108.47
     ],
-    "mean_lat": 32.76,
-    "mean_lon": -113.095,
+    "mean_lat": 32.764,
+    "mean_lon": -112.91,
     "regions": [
       "Alberta",
       "Saxony",
@@ -48104,6 +48406,7 @@
       "North Holland",
       "North Holland",
       "Utrecht",
+      "Aargau",
       "Aargau",
       "Aargau"
     ],
@@ -48178,6 +48481,7 @@
       "Netherlands",
       "Netherlands",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -48251,7 +48555,8 @@
       435.4,
       771.5,
       180.4,
-      402.4
+      402.4,
+      205.8
     ],
     "times": [
       7.4,
@@ -48324,7 +48629,8 @@
       2.9,
       3.9,
       8.1,
-      8.3
+      8.3,
+      8.2
     ]
   },
   "Giant Magellan Telescope (GMT)": {
@@ -49110,9 +49416,9 @@
     ]
   },
   "Christ the Redeemer Statue": {
-    "mean_dist": 827.3,
-    "mean_time": 7.3,
-    "std_dist": 2087.8,
+    "mean_dist": 788,
+    "mean_time": 7.4,
+    "std_dist": 2041.1,
     "std_time": 1.3,
     "city": "Christ the Redeemer Statue",
     "country": "",
@@ -49172,7 +49478,10 @@
       -20.911,
       -23.547,
       -20.974,
-      -7.999
+      -7.999,
+      -23.547,
+      -23.329,
+      -22.674
     ],
     "lons": [
       "x",
@@ -49230,10 +49539,13 @@
       -42.117,
       -43.764,
       -41.513,
-      -51.372
+      -51.372,
+      -43.058,
+      -43.529,
+      -43.529
     ],
-    "mean_lat": -20.35,
-    "mean_lon": -43.856,
+    "mean_lat": -20.775,
+    "mean_lon": -43.784,
     "regions": [
       "Alberta",
       "V\u00e4sterbotten",
@@ -49290,7 +49602,10 @@
       "Aargau",
       "Aargau",
       "Colorado",
-      "Colorado"
+      "Colorado",
+      "Aargau",
+      "Aargau",
+      "Aargau"
     ],
     "countries": [
       "Canada",
@@ -49348,7 +49663,10 @@
       "Switzerland",
       "Switzerland",
       "United States",
-      "United States"
+      "United States",
+      "Switzerland",
+      "Switzerland",
+      "Switzerland"
     ],
     "dists": [
       10.6,
@@ -49406,7 +49724,10 @@
       253.3,
       87,
       281,
-      1877.2
+      1877.2,
+      67.9,
+      53.1,
+      44.9
     ],
     "times": [
       8.1,
@@ -49464,13 +49785,16 @@
       8.4,
       8.3,
       4.3,
-      5.2
+      5.2,
+      8.3,
+      8.5,
+      8.5
     ]
   },
   "Battle of Marathon": {
-    "mean_dist": 387.2,
-    "mean_time": 7.7,
-    "std_dist": 1303.9,
+    "mean_dist": 384.3,
+    "mean_time": 7.8,
+    "std_dist": 1294.9,
     "std_time": 0.9,
     "city": "Battle of Marathon",
     "country": "",
@@ -49544,7 +49868,8 @@
       37.9,
       36.958,
       37.525,
-      38.274
+      38.274,
+      38.46
     ],
     "lons": [
       "x",
@@ -49616,10 +49941,11 @@
       24.705,
       22.352,
       22.588,
+      21.882,
       21.882
     ],
-    "mean_lat": 38.035,
-    "mean_lon": 22.697,
+    "mean_lat": 38.055,
+    "mean_lon": 22.658,
     "regions": [
       "Alberta",
       "Alberta",
@@ -49687,6 +50013,7 @@
       "Alberta",
       "Washington",
       "Washington",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -49762,6 +50089,7 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -49834,7 +50162,8 @@
       68.1,
       192.7,
       138.7,
-      183.9
+      183.9,
+      186.8
     ],
     "times": [
       7.4,
@@ -49906,13 +50235,14 @@
       8.4,
       8.6,
       8.7,
-      8.6
+      8.6,
+      8.4
     ]
   },
   "Cave of the Crystals (Cueva de los Cristales)": {
-    "mean_dist": 1551.3,
+    "mean_dist": 1535.3,
     "mean_time": 6.9,
-    "std_dist": 2686.9,
+    "std_dist": 2674.1,
     "std_time": 1.8,
     "city": "Cave of the Crystals (Cueva de los Cristales)",
     "country": "",
@@ -49996,7 +50326,8 @@
       26.913,
       24.346,
       20.049,
-      17.707
+      17.707,
+      26.913
     ],
     "lons": [
       "x",
@@ -50078,10 +50409,11 @@
       -105.647,
       -105.647,
       -98.219,
-      -96.47
+      -96.47,
+      -103.058
     ],
-    "mean_lat": 23.778,
-    "mean_lon": -97.036,
+    "mean_lat": 23.876,
+    "mean_lon": -97.224,
     "regions": [
       "Alberta",
       "V\u00e4sterbotten",
@@ -50162,7 +50494,8 @@
       "Aargau",
       "Aargau",
       "Bavaria",
-      "Bavaria"
+      "Bavaria",
+      "Aargau"
     ],
     "countries": [
       "Canada",
@@ -50244,7 +50577,8 @@
       "Switzerland",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       1761.3,
@@ -50326,7 +50660,8 @@
       105.2,
       389.9,
       1139.2,
-      1457.6
+      1457.6,
+      262.2
     ],
     "times": [
       7.1,
@@ -50408,7 +50743,8 @@
       8.1,
       8.4,
       7,
-      7.2
+      7.2,
+      7.9
     ]
   },
   "Lenin's Mausoleum": {
@@ -55420,9 +55756,9 @@
     ]
   },
   "Taal Volcano": {
-    "mean_dist": 3369.3,
+    "mean_dist": 3326,
     "mean_time": 6.8,
-    "std_dist": 4973.2,
+    "std_dist": 4953.9,
     "std_time": 1.7,
     "city": "Taal Volcano",
     "country": "",
@@ -55500,7 +55836,8 @@
       8.239,
       14.286,
       13.826,
-      13.364
+      13.364,
+      14.286
     ],
     "lons": [
       "x",
@@ -55576,10 +55913,11 @@
       122.823,
       121.176,
       120.47,
-      121.176
+      121.176,
+      122.117
     ],
-    "mean_lat": 11.873,
-    "mean_lon": 101.507,
+    "mean_lat": 11.978,
+    "mean_lon": 102.403,
     "regions": [
       "Alberta",
       "Alberta",
@@ -55652,6 +55990,7 @@
       "New South Wales",
       "Aargau",
       "Texas",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau"
@@ -55730,6 +56069,7 @@
       "United States",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -55806,7 +56146,8 @@
       671.8,
       36.2,
       60.4,
-      74.3
+      74.3,
+      124.6
     ],
     "times": [
       8.1,
@@ -55882,6 +56223,7 @@
       4.9,
       8.1,
       7.9,
+      8.2,
       8.2
     ]
   },
@@ -56232,9 +56574,9 @@
     ]
   },
   "Valley of the Kings": {
-    "mean_dist": 1157.2,
+    "mean_dist": 1142,
     "mean_time": 7.3,
-    "std_dist": 2938.5,
+    "std_dist": 2911.6,
     "std_time": 1.2,
     "city": "Valley of the Kings",
     "country": "",
@@ -56288,7 +56630,8 @@
       26.064,
       26.489,
       24.993,
-      23.696
+      23.696,
+      22.824
     ],
     "lons": [
       "x",
@@ -56340,10 +56683,11 @@
       31.764,
       32.705,
       32.47,
-      32.47
+      32.47,
+      30.588
     ],
-    "mean_lat": 26.114,
-    "mean_lon": 33.007,
+    "mean_lat": 25.909,
+    "mean_lon": 32.856,
     "regions": [
       "Alberta",
       "Florida",
@@ -56391,6 +56735,7 @@
       "Aargau",
       "Washington",
       "Washington",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -56446,6 +56791,7 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -56498,7 +56844,8 @@
       91.1,
       83.8,
       84.1,
-      227.7
+      227.7,
+      383.1
     ],
     "times": [
       8.2,
@@ -56550,7 +56897,8 @@
       7.1,
       8.3,
       8.3,
-      8.1
+      8.1,
+      8.3
     ]
   },
   "Assassination of Archduke Franz Ferdinand": {
@@ -56906,9 +57254,9 @@
     ]
   },
   "Extremely Large Telescope (ELT)": {
-    "mean_dist": 1683.5,
+    "mean_dist": 1673.4,
     "mean_time": 7.2,
-    "std_dist": 3315.7,
+    "std_dist": 3283.8,
     "std_time": 1.5,
     "city": "Extremely Large Telescope (ELT)",
     "country": "",
@@ -56962,7 +57310,8 @@
       -27.401,
       -25.06,
       -37.946,
-      -8.547
+      -8.547,
+      -35.099
     ],
     "lons": [
       "x",
@@ -57014,10 +57363,11 @@
       -71.058,
       -69.411,
       -74.603,
-      -76.941
+      -76.941,
+      -71.058
     ],
-    "mean_lat": -25.586,
-    "mean_lon": -71.54,
+    "mean_lat": -26.379,
+    "mean_lon": -71.499,
     "regions": [
       "Ontario",
       "Aargau",
@@ -57068,7 +57418,8 @@
       "Aargau",
       "Aargau",
       "Zurich",
-      "Washington"
+      "Washington",
+      "Aargau"
     ],
     "countries": [
       "Canada",
@@ -57120,7 +57471,8 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       8394.6,
@@ -57172,7 +57524,8 @@
       323.9,
       94.7,
       1542.2,
-      1922.4
+      1922.4,
+      1171.2
     ],
     "times": [
       6.3,
@@ -57224,7 +57577,8 @@
       8.1,
       8.4,
       7.1,
-      3.6
+      3.6,
+      7.7
     ]
   },
   "Assassination of Yitzhak Rabin": {
@@ -57664,9 +58018,9 @@
     ]
   },
   "Matterhorn Mountain": {
-    "mean_dist": 679.9,
+    "mean_dist": 668.6,
     "mean_time": 7.3,
-    "std_dist": 2290.6,
+    "std_dist": 2272,
     "std_time": 1.5,
     "city": "Matterhorn Mountain",
     "country": "",
@@ -57726,7 +58080,8 @@
       47.142,
       45.669,
       46.492,
-      -50.471
+      -50.471,
+      45.669
     ],
     "lons": [
       "x",
@@ -57784,10 +58139,11 @@
       7.294,
       7.294,
       6.588,
-      80.235
+      80.235,
+      7.764
     ],
-    "mean_lat": 41.047,
-    "mean_lon": 5.767,
+    "mean_lat": 41.24,
+    "mean_lon": 5.85,
     "regions": [
       "Florida",
       "Florida",
@@ -57844,7 +58200,8 @@
       "Washington",
       "Aargau",
       "Aargau",
-      "England"
+      "England",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -57902,7 +58259,8 @@
       "United States",
       "Switzerland",
       "Switzerland",
-      "United Kingdom"
+      "United Kingdom",
+      "Switzerland"
     ],
     "dists": [
       162.3,
@@ -57960,7 +58318,8 @@
       132.6,
       44.2,
       100.3,
-      12784.2
+      12784.2,
+      35
     ],
     "times": [
       7.7,
@@ -58018,14 +58377,15 @@
       7.1,
       8.3,
       8.3,
-      6
+      6,
+      8.1
     ]
   },
   "Hadrian's Wall": {
-    "mean_dist": 741.8,
-    "mean_time": 7.2,
-    "std_dist": 1627.4,
-    "std_time": 1.6,
+    "mean_dist": 722.2,
+    "mean_time": 7.3,
+    "std_dist": 1607.7,
+    "std_time": 1.5,
     "city": "Hadrian's Wall",
     "country": "",
     "lats": [
@@ -58095,7 +58455,9 @@
       41.741,
       44.577,
       52.237,
-      55.589
+      55.589,
+      54.744,
+      54.881
     ],
     "lons": [
       "x",
@@ -58164,10 +58526,12 @@
       -105.534,
       -111.402,
       -3.054,
-      -3.113
+      -3.113,
+      -2.117,
+      -3.764
     ],
-    "mean_lat": 53.57,
-    "mean_lon": -8.273,
+    "mean_lat": 53.653,
+    "mean_lon": -7.917,
     "regions": [
       "Florida",
       "Florida",
@@ -58235,7 +58599,9 @@
       "Lisbon",
       "Lisbon",
       "Lisbon",
-      "Lisbon"
+      "Lisbon",
+      "Aargau",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -58304,7 +58670,9 @@
       "Portugal",
       "Portugal",
       "Portugal",
-      "Portugal"
+      "Portugal",
+      "Switzerland",
+      "Switzerland"
     ],
     "dists": [
       154.3,
@@ -58373,7 +58741,9 @@
       7051.1,
       7094.7,
       313.9,
-      81.5
+      81.5,
+      33,
+      95.3
     ],
     "times": [
       7.8,
@@ -58442,7 +58812,9 @@
       4.3,
       5.4,
       1.7,
-      3.1
+      3.1,
+      8.2,
+      8.5
     ]
   },
   "Marie Curie Discovers Polonium and Radium": {
@@ -61411,9 +61783,9 @@
     ]
   },
   "'I Have a Dream' Speech by Martin Luther King Jr.": {
-    "mean_dist": 275.1,
-    "mean_time": 7.4,
-    "std_dist": 251.5,
+    "mean_dist": 274.9,
+    "mean_time": 7.3,
+    "std_dist": 248.6,
     "std_time": 1.1,
     "city": "'I Have a Dream' Speech by Martin Luther King Jr.",
     "country": "",
@@ -61459,7 +61831,8 @@
       38.087,
       38.087,
       41.726,
-      31.11
+      31.11,
+      40.113
     ],
     "lons": [
       "x",
@@ -61503,10 +61876,11 @@
       -76.47,
       -76.705,
       -72.47,
-      -83.407
+      -83.407,
+      -74.352
     ],
-    "mean_lat": 38.518,
-    "mean_lon": -76.545,
+    "mean_lat": 38.625,
+    "mean_lon": -76.399,
     "regions": [
       "Florida",
       "V\u00e4sterbotten",
@@ -61549,7 +61923,8 @@
       "Aargau",
       "Aargau",
       "Utrecht",
-      "Utrecht"
+      "Utrecht",
+      "Auckland"
     ],
     "countries": [
       "United States",
@@ -61593,7 +61968,8 @@
       "Switzerland",
       "Switzerland",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "New Zealand"
     ],
     "dists": [
       453.4,
@@ -61637,7 +62013,8 @@
       102.4,
       94,
       500.1,
-      1040.2
+      1040.2,
+      268.4
     ],
     "times": [
       7.5,
@@ -61681,13 +62058,14 @@
       8.3,
       8.3,
       4.2,
-      5.2
+      5.2,
+      5.8
     ]
   },
   "Anahuac , Nat'l Wildlife Refuge, United States": {
-    "mean_dist": 1168.4,
+    "mean_dist": 1167.4,
     "mean_time": 6.5,
-    "std_dist": 1242.1,
+    "std_dist": 1237.9,
     "std_time": 1.8,
     "city": "Anahuac ",
     "admin": "Nat'l Wildlife Refuge",
@@ -61837,7 +62215,8 @@
       30.859,
       30.041,
       30.655,
-      30.041
+      30.041,
+      32.073
     ],
     "lons": [
       "x",
@@ -61984,10 +62363,11 @@
       -91.764,
       -93.647,
       -93.176,
-      -91.764
+      -91.764,
+      -84.235
     ],
-    "mean_lat": 34.896,
-    "mean_lon": -98.589,
+    "mean_lat": 34.768,
+    "mean_lon": -97.936,
     "regions": [
       "Florida",
       "Florida",
@@ -62131,6 +62511,7 @@
       "Aargau",
       "Washington",
       "Washington",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau"
@@ -62280,6 +62661,7 @@
       "United States",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -62427,7 +62809,8 @@
       292.9,
       91,
       168.7,
-      263.3
+      263.3,
+      1012.3
     ],
     "times": [
       6.8,
@@ -62574,13 +62957,14 @@
       5.6,
       6.9,
       8.1,
-      8.5
+      8.5,
+      8.2
     ]
   },
   "Zion, Nat\u2019l Park, United States": {
-    "mean_dist": 623.5,
+    "mean_dist": 617.1,
     "mean_time": 6.9,
-    "std_dist": 1342,
+    "std_dist": 1331.4,
     "std_time": 1.7,
     "city": "Zion",
     "admin": "Nat\u2019l Park",
@@ -62701,7 +63085,9 @@
       35.233,
       34.454,
       32.675,
-      36.958
+      36.958,
+      36.004,
+      34.844
     ],
     "lons": [
       "x",
@@ -62819,10 +63205,12 @@
       -112,
       -112,
       -88.47,
-      -114.117
+      -114.117,
+      -111.294,
+      -112.47
     ],
-    "mean_lat": 38.033,
-    "mean_lon": -111.399,
+    "mean_lat": 37.785,
+    "mean_lon": -111.445,
     "regions": [
       "Florida",
       "Aargau",
@@ -62936,6 +63324,8 @@
       "Washington",
       "California",
       "California",
+      "Aargau",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -63057,6 +63447,8 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -63175,7 +63567,9 @@
       249.1,
       331.3,
       2288.2,
-      104.9
+      104.9,
+      212.2,
+      279.3
     ],
     "times": [
       7.2,
@@ -63293,7 +63687,9 @@
       8.5,
       8.4,
       5.8,
-      8.4
+      8.4,
+      8.3,
+      8.1
     ]
   },
   "Great Smoky Mountains, Nat\u2019l Park, United States": {
@@ -64880,9 +65276,9 @@
     ]
   },
   "Antonine Wall": {
-    "mean_dist": 1260.8,
+    "mean_dist": 1240.5,
     "mean_time": 6.7,
-    "std_dist": 2600,
+    "std_dist": 2582.5,
     "std_time": 2.1,
     "city": "Antonine Wall",
     "country": "",
@@ -64944,7 +65340,8 @@
       48.346,
       48.575,
       55.288,
-      55.423
+      55.423,
+      56.354
     ],
     "lons": [
       "x",
@@ -65004,10 +65401,11 @@
       3.235,
       -1.647,
       -4.235,
-      -4
+      -4,
+      -4.705
     ],
-    "mean_lat": 51.008,
-    "mean_lon": -1.332,
+    "mean_lat": 51.231,
+    "mean_lon": -1.472,
     "regions": [
       "Florida",
       "New York",
@@ -65066,7 +65464,8 @@
       "North Rhine-Westphalia",
       "Washington",
       "Aargau",
-      "California"
+      "California",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -65126,7 +65525,8 @@
       "Germany",
       "United States",
       "Switzerland",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       10410.4,
@@ -65186,7 +65586,8 @@
       981.6,
       838.1,
       76.1,
-      60.5
+      60.5,
+      58.5
     ],
     "times": [
       5.3,
@@ -65246,14 +65647,15 @@
       1.8,
       0.1,
       8,
-      8.3
+      8.3,
+      8.2
     ]
   },
   "Channel Islands, Nat\u2019l Park, United States": {
-    "mean_dist": 1272.9,
-    "mean_time": 6.3,
-    "std_dist": 1667.8,
-    "std_time": 1.9,
+    "mean_dist": 1380.5,
+    "mean_time": 6.4,
+    "std_dist": 1920,
+    "std_time": 2,
     "city": "Channel Islands",
     "admin": "Nat\u2019l Park",
     "country": "United States",
@@ -65338,7 +65740,8 @@
       32.874,
       33.404,
       46,
-      38.92
+      38.92,
+      41.726
     ],
     "lons": [
       "x",
@@ -65421,10 +65824,11 @@
       -118.823,
       -119.241,
       -108,
-      -110.583
+      -110.583,
+      8.941
     ],
-    "mean_lat": 39.231,
-    "mean_lon": -114.288,
+    "mean_lat": 39.387,
+    "mean_lon": -106.586,
     "regions": [
       "Aargau",
       "Aargau",
@@ -65506,7 +65910,8 @@
       "Aargau",
       "Lisbon",
       "Utrecht",
-      "Utrecht"
+      "Utrecht",
+      "Auckland"
     ],
     "countries": [
       "Switzerland",
@@ -65589,7 +65994,8 @@
       "Switzerland",
       "Portugal",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "New Zealand"
     ],
     "dists": [
       237.2,
@@ -65672,7 +66078,8 @@
       152.8,
       82.2,
       1665.5,
-      986.5
+      986.5,
+      10101.9
     ],
     "times": [
       6.6,
@@ -65755,13 +66162,14 @@
       8.2,
       4.1,
       2.9,
-      5.5
+      5.5,
+      10
     ]
   },
   "Yosemite, Nat\u2019l Park, United States": {
-    "mean_dist": 455.5,
+    "mean_dist": 448.6,
     "mean_time": 7.2,
-    "std_dist": 436.2,
+    "std_dist": 434.6,
     "std_time": 1.1,
     "city": "Yosemite",
     "admin": "Nat\u2019l Park",
@@ -65865,7 +66273,9 @@
       38.274,
       43.987,
       43.816,
-      42.78
+      42.78,
+      37.336,
+      38.645
     ],
     "lons": [
       "x",
@@ -65966,10 +66376,12 @@
       -113.882,
       -113.176,
       -111.764,
-      -119.764
+      -119.764,
+      -118.588,
+      -118.823
     ],
-    "mean_lat": 42.382,
-    "mean_lon": -113.691,
+    "mean_lat": 41.65,
+    "mean_lon": -114.527,
     "regions": [
       "Florida",
       "Florida",
@@ -66069,7 +66481,9 @@
       "Washington",
       "Aargau",
       "Aargau",
-      "England"
+      "England",
+      "Aargau",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -66170,7 +66584,9 @@
       "United States",
       "Switzerland",
       "Switzerland",
-      "United Kingdom"
+      "United Kingdom",
+      "Switzerland",
+      "Switzerland"
     ],
     "dists": [
       62.1,
@@ -66271,7 +66687,9 @@
       497.1,
       864.9,
       929.5,
-      546.8
+      546.8,
+      102.2,
+      106.9
     ],
     "times": [
       7.7,
@@ -66372,7 +66790,9 @@
       6.6,
       8.2,
       7.9,
-      6
+      6,
+      7,
+      8.2
     ]
   },
   "Mojave, Nat\u2019l Preserve, United States": {
@@ -67633,9 +68053,9 @@
     ]
   },
   "Wolfe Creek Crater": {
-    "mean_dist": 5780.5,
-    "mean_time": 6.9,
-    "std_dist": 6356.2,
+    "mean_dist": 5675.4,
+    "mean_time": 7,
+    "std_dist": 6343.4,
     "std_time": 1.5,
     "city": "Wolfe Creek Crater",
     "country": "",
@@ -67692,7 +68112,8 @@
       -18.903,
       -20.022,
       -19.799,
-      -21.133
+      -21.133,
+      -20.022
     ],
     "lons": [
       "x",
@@ -67747,10 +68168,11 @@
       131.058,
       128.47,
       127.294,
-      127.529
+      127.529,
+      128.235
     ],
-    "mean_lat": -21.985,
-    "mean_lon": 132.458,
+    "mean_lat": -21.845,
+    "mean_lon": 132.156,
     "regions": [
       "Florida",
       "Florida",
@@ -67798,6 +68220,7 @@
       "Aargau",
       "Uusimaa",
       "Uusimaa",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -67859,6 +68282,7 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -67914,7 +68338,8 @@
       344.2,
       118.1,
       87.3,
-      219.8
+      219.8,
+      105.2
     ],
     "times": [
       5.8,
@@ -67969,7 +68394,8 @@
       8.1,
       8,
       8.2,
-      8.2
+      8.2,
+      8
     ]
   },
   "Okefenokee, Nat\u2019l Wildlife Refuge, United States": {
@@ -69507,9 +69933,9 @@
     ]
   },
   "Boring, Oregon, United States": {
-    "mean_dist": 430.7,
+    "mean_dist": 425.5,
     "mean_time": 7.5,
-    "std_dist": 949.2,
+    "std_dist": 941.9,
     "std_time": 1.2,
     "city": "Boring",
     "admin": "Oregon",
@@ -69572,7 +69998,8 @@
       45.669,
       45.503,
       41.014,
-      44.069
+      44.069,
+      46.329
     ],
     "lons": [
       "x",
@@ -69632,10 +70059,11 @@
       -122.117,
       -123.294,
       -121.411,
-      -121.465
+      -121.465,
+      -123.294
     ],
-    "mean_lat": 45.37,
-    "mean_lon": -116.987,
+    "mean_lat": 45.411,
+    "mean_lon": -117.261,
     "regions": [
       "Florida",
       "Florida",
@@ -69694,7 +70122,8 @@
       "Aargau",
       "Aargau",
       "Utrecht",
-      "Utrecht"
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -69754,7 +70183,8 @@
       "Switzerland",
       "Switzerland",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       112.3,
@@ -69814,7 +70244,8 @@
       33.3,
       72.2,
       497.1,
-      167.3
+      167.3,
+      122.7
     ],
     "times": [
       6.3,
@@ -69874,7 +70305,8 @@
       8.4,
       8.5,
       2.4,
-      4.9
+      4.9,
+      8.1
     ]
   },
   "The Biggest Ball of Twine, Minnesota, United States": {
@@ -70219,9 +70651,9 @@
     ]
   },
   "Gereja Ayam ('Chicken Church')": {
-    "mean_dist": 2475.9,
+    "mean_dist": 2437.6,
     "mean_time": 6.8,
-    "std_dist": 4541.3,
+    "std_dist": 4515.1,
     "std_time": 1.9,
     "city": "Gereja Ayam ('Chicken Church')",
     "country": "",
@@ -70287,7 +70719,8 @@
       10.167,
       -6.885,
       -7.136,
-      -8.077
+      -8.077,
+      -7.842
     ],
     "lons": [
       "x",
@@ -70351,10 +70784,11 @@
       42.534,
       108.454,
       109.176,
-      110.588
+      110.588,
+      109.647
     ],
-    "mean_lat": -3.396,
-    "mean_lon": 98.889,
+    "mean_lat": -3.598,
+    "mean_lon": 99.378,
     "regions": [
       "Florida",
       "Florida",
@@ -70416,6 +70850,7 @@
       "Aargau",
       "Washington",
       "Zurich",
+      "Aargau",
       "Aargau",
       "Aargau"
     ],
@@ -70479,6 +70914,7 @@
       "Switzerland",
       "Switzerland",
       "United States",
+      "Switzerland",
       "Switzerland",
       "Switzerland",
       "Switzerland"
@@ -70545,7 +70981,8 @@
       7745.1,
       206.4,
       122.3,
-      69
+      69,
+      64.4
     ],
     "times": [
       6,
@@ -70609,13 +71046,14 @@
       4.9,
       4.3,
       8.2,
-      8.2
+      8.2,
+      8.3
     ]
   },
   "Annual Nobel Prize Ceremony (excluding Peace Prize)": {
-    "mean_dist": 379,
+    "mean_dist": 373.5,
     "mean_time": 6.9,
-    "std_dist": 869.4,
+    "std_dist": 863.9,
     "std_time": 1.5,
     "city": "Annual Nobel Prize Ceremony (excluding Peace Prize)",
     "country": "",
@@ -70684,7 +71122,8 @@
       58.953,
       57.135,
       59.742,
-      59.312
+      59.312,
+      59.502
     ],
     "lons": [
       "x",
@@ -70751,10 +71190,11 @@
       13.773,
       15.435,
       17.176,
-      16.368
+      16.368,
+      17.882
     ],
-    "mean_lat": 59.166,
-    "mean_lon": 16.956,
+    "mean_lat": 59.178,
+    "mean_lon": 16.988,
     "regions": [
       "Florida",
       "Florida",
@@ -70820,7 +71260,8 @@
       "Plovdiv",
       "Plovdiv",
       "Bavaria",
-      "Bavaria"
+      "Bavaria",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -70887,7 +71328,8 @@
       "Bulgaria",
       "Bulgaria",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       618.8,
@@ -70954,7 +71396,8 @@
       248.4,
       288.5,
       68,
-      96.4
+      96.4,
+      21.9
     ],
     "times": [
       6.7,
@@ -71021,7 +71464,8 @@
       4.4,
       7.3,
       6.9,
-      6.5
+      6.5,
+      8.2
     ]
   },
   "Batman, Turkey": {
@@ -71359,9 +71803,9 @@
     ]
   },
   "Smithsonian Institution": {
-    "mean_dist": 292.7,
+    "mean_dist": 292.4,
     "mean_time": 7.5,
-    "std_dist": 519.3,
+    "std_dist": 509.5,
     "std_time": 1.3,
     "city": "Smithsonian Institution",
     "country": "",
@@ -71416,7 +71860,9 @@
       42.079,
       36.578,
       36.578,
-      36.768
+      36.768,
+      35.812,
+      36.958
     ],
     "lons": [
       "x",
@@ -71469,10 +71915,12 @@
       -72.705,
       -75.764,
       -76,
-      -77.176
+      -77.176,
+      -77.647,
+      -76.47
     ],
-    "mean_lat": 37.665,
-    "mean_lon": -76.817,
+    "mean_lat": 37.495,
+    "mean_lon": -76.849,
     "regions": [
       "Florida",
       "Florida",
@@ -71522,6 +71970,8 @@
       "Aargau",
       "Uusimaa",
       "Uusimaa",
+      "Aargau",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau"
@@ -71577,6 +72027,8 @@
       "Finland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -71630,7 +72082,9 @@
       509.1,
       279.8,
       272.2,
-      236.1
+      236.1,
+      346.4,
+      220.1
     ],
     "times": [
       3.3,
@@ -71683,7 +72137,9 @@
       7.5,
       8,
       8.6,
-      8.5
+      8.5,
+      8.5,
+      8.1
     ]
   },
   "Trajan's Column": {
@@ -72009,9 +72465,9 @@
     ]
   },
   "Hot Springs, Nat\u2019l Park, United States": {
-    "mean_dist": 928.6,
-    "mean_time": 6.6,
-    "std_dist": 849.5,
+    "mean_dist": 921.9,
+    "mean_time": 6.7,
+    "std_dist": 848.5,
     "std_time": 1.7,
     "city": "Hot Springs",
     "admin": "Nat\u2019l Park",
@@ -72125,7 +72581,8 @@
       33.073,
       33.47,
       34.454,
-      34.454
+      34.454,
+      34.062
     ],
     "lons": [
       "x",
@@ -72236,10 +72693,11 @@
       -93.882,
       -93.647,
       -94.588,
-      -94.117
+      -94.117,
+      -95.058
     ],
-    "mean_lat": 34.798,
-    "mean_lon": -95.362,
+    "mean_lat": 34.761,
+    "mean_lon": -95.347,
     "regions": [
       "Florida",
       "Florida",
@@ -72340,6 +72798,7 @@
       "Washington",
       "Aargau",
       "Alberta",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -72460,6 +72919,7 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -72571,7 +73031,8 @@
       178.7,
       129.5,
       141.8,
-      98.8
+      98.8,
+      192.1
     ],
     "times": [
       6.7,
@@ -72682,13 +73143,14 @@
       8.3,
       8.3,
       8.4,
+      8.3,
       8.3
     ]
   },
   "Yoho, Nat\u2019l Park, Canada": {
-    "mean_dist": 634.7,
+    "mean_dist": 622,
     "mean_time": 7.3,
-    "std_dist": 644.1,
+    "std_dist": 642.4,
     "std_time": 1.5,
     "city": "Yoho",
     "admin": "Nat\u2019l Park",
@@ -72737,7 +73199,8 @@
       52.348,
       51.47,
       51.911,
-      51.173
+      51.173,
+      51.024
     ],
     "lons": [
       "x",
@@ -72783,10 +73246,11 @@
       -117.411,
       -115.058,
       -115.764,
-      -116.941
+      -116.941,
+      -117.176
     ],
-    "mean_lat": 53.469,
-    "mean_lon": -114.913,
+    "mean_lat": 53.341,
+    "mean_lon": -115.033,
     "regions": [
       "Florida",
       "England",
@@ -72827,6 +73291,7 @@
       "Aargau",
       "Auvergne-Rh\u00f4ne-Alpes",
       "Auvergne-Rh\u00f4ne-Alpes",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -72877,6 +73342,7 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -72923,7 +73389,8 @@
       123.5,
       99.3,
       76,
-      40
+      40,
+      63.2
     ],
     "times": [
       4.5,
@@ -72969,14 +73436,15 @@
       8.3,
       8.2,
       8.5,
-      8.4
+      8.4,
+      8.2
     ]
   },
   "Heliopolis, Ancient Egypt": {
-    "mean_dist": 213.4,
+    "mean_dist": 210.1,
     "mean_time": 7.4,
-    "std_dist": 384.6,
-    "std_time": 1.2,
+    "std_dist": 378.6,
+    "std_time": 1.3,
     "city": "Heliopolis",
     "country": "Ancient Egypt",
     "lats": [
@@ -73034,7 +73502,9 @@
       30.655,
       30.041,
       31.063,
-      30.859
+      30.859,
+      30.041,
+      28.384
     ],
     "lons": [
       "x",
@@ -73091,10 +73561,12 @@
       30.117,
       31.529,
       31.294,
-      29.647
+      29.647,
+      31.529,
+      30.352
     ],
-    "mean_lat": 30.156,
-    "mean_lon": 30.608,
+    "mean_lat": 30.021,
+    "mean_lon": 30.656,
     "regions": [
       "New York",
       "New York",
@@ -73150,7 +73622,9 @@
       "Aargau",
       "Aargau",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "Aargau",
+      "Auckland"
     ],
     "countries": [
       "United States",
@@ -73207,7 +73681,9 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "New Zealand"
     ],
     "dists": [
       308.3,
@@ -73264,7 +73740,9 @@
       128.2,
       23.4,
       103.8,
-      178.6
+      178.6,
+      23.4,
+      214.9
     ],
     "times": [
       1.6,
@@ -73321,13 +73799,15 @@
       8.3,
       8.5,
       8.4,
-      8.4
+      8.4,
+      8.2,
+      2.9
     ]
   },
   "Elba (Napoleon Bonaparte's Island of Exile)": {
-    "mean_dist": 965.8,
+    "mean_dist": 956.2,
     "mean_time": 6.2,
-    "std_dist": 1719.2,
+    "std_dist": 1706.1,
     "std_time": 2.5,
     "city": "Elba (Napoleon Bonaparte's Island of Exile)",
     "country": "",
@@ -73389,7 +73869,8 @@
       42.044,
       35.491,
       30.344,
-      47.18
+      47.18,
+      40.834
     ],
     "lons": [
       "x",
@@ -73449,10 +73930,11 @@
       9.129,
       13.019,
       -50.696,
-      -7.76
+      -7.76,
+      14.352
     ],
-    "mean_lat": 39.263,
-    "mean_lon": 5.789,
+    "mean_lat": 39.319,
+    "mean_lon": 6.095,
     "regions": [
       "England",
       "England",
@@ -73511,7 +73993,8 @@
       "Utrecht",
       "Connecticut",
       "Lisbon",
-      "Lisbon"
+      "Lisbon",
+      "Auckland"
     ],
     "countries": [
       "United Kingdom",
@@ -73571,7 +74054,8 @@
       "Netherlands",
       "United States",
       "Portugal",
-      "Portugal"
+      "Portugal",
+      "New Zealand"
     ],
     "dists": [
       6217.5,
@@ -73631,7 +74115,8 @@
       125.5,
       844.2,
       5496.3,
-      1497.1
+      1497.1,
+      400.5
     ],
     "times": [
       2.6,
@@ -73691,7 +74176,8 @@
       2,
       3.7,
       0,
-      2.2
+      2.2,
+      3.8
     ]
   },
   "Blue Mustang Statue (Blucifer)": {
@@ -74796,9 +75282,9 @@
     ]
   },
   "Butrint, Ancient Greece / Rome": {
-    "mean_dist": 345.5,
+    "mean_dist": 344,
     "mean_time": 6.8,
-    "std_dist": 367.6,
+    "std_dist": 364.9,
     "std_time": 2,
     "city": "Butrint",
     "country": "Ancient Greece / Rome",
@@ -74865,7 +75351,8 @@
       40.149,
       39.973,
       40.834,
-      37.45
+      37.45,
+      38.46
     ],
     "lons": [
       "x",
@@ -74930,10 +75417,11 @@
       18.682,
       19.71,
       23.058,
-      21.505
+      21.505,
+      22.352
     ],
-    "mean_lat": 39.799,
-    "mean_lon": 21.093,
+    "mean_lat": 39.739,
+    "mean_lon": 21.15,
     "regions": [
       "New York",
       "New York",
@@ -74997,7 +75485,8 @@
       "Plovdiv",
       "Utrecht",
       "Aargau",
-      "England"
+      "England",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -75062,7 +75551,8 @@
       "Bulgaria",
       "Netherlands",
       "Switzerland",
-      "United Kingdom"
+      "United Kingdom",
+      "Switzerland"
     ],
     "dists": [
       323,
@@ -75127,7 +75617,8 @@
       122.5,
       36.6,
       284.7,
-      286
+      286,
+      246.8
     ],
     "times": [
       7.1,
@@ -75192,7 +75683,8 @@
       6.8,
       5.6,
       8.3,
-      1
+      1,
+      8.1
     ]
   },
   "Jasper, Nat\u2019l Park, Canada": {
@@ -76121,10 +76613,10 @@
     ]
   },
   "Boll Weevil Monument": {
-    "mean_dist": 2089.6,
-    "mean_time": 7.1,
-    "std_dist": 3790,
-    "std_time": 1.6,
+    "mean_dist": 2078.6,
+    "mean_time": 7,
+    "std_dist": 3759.3,
+    "std_time": 1.8,
     "city": "Boll Weevil Monument",
     "country": "",
     "lats": [
@@ -76186,7 +76678,8 @@
       30.859,
       31.266,
       30.859,
-      32.073
+      32.073,
+      40.474
     ],
     "lons": [
       "x",
@@ -76247,10 +76740,11 @@
       -87.294,
       -84.235,
       -84.47,
-      -85.176
+      -85.176,
+      -96.941
     ],
-    "mean_lat": 34.74,
-    "mean_lon": -90.157,
+    "mean_lat": 34.989,
+    "mean_lon": -90.452,
     "regions": [
       "V\u00e4sterbotten",
       "V\u00e4sterbotten",
@@ -76310,7 +76804,8 @@
       "Aargau",
       "Aargau",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "Auckland"
     ],
     "countries": [
       "Sweden",
@@ -76371,7 +76866,8 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "New Zealand"
     ],
     "dists": [
       8421.1,
@@ -76432,7 +76928,8 @@
       146.1,
       153.9,
       141.1,
-      106
+      106,
+      1424.2
     ],
     "times": [
       8.8,
@@ -76493,13 +76990,14 @@
       8.3,
       8.3,
       7.9,
-      8.6
+      8.6,
+      0.8
     ]
   },
   "Little Sandy, Nat'l Wildlife Refuge, United States": {
-    "mean_dist": 850,
-    "mean_time": 6.6,
-    "std_dist": 842.2,
+    "mean_dist": 844.7,
+    "mean_time": 6.7,
+    "std_dist": 841.3,
     "std_time": 1.7,
     "city": "Little Sandy",
     "admin": "Nat'l Wildlife Refuge",
@@ -76636,7 +77134,8 @@
       32.874,
       32.274,
       35.78,
-      30.859
+      30.859,
+      33.668
     ],
     "lons": [
       "x",
@@ -76770,10 +77269,11 @@
       -95.058,
       -93.411,
       -92.431,
-      -94.117
+      -94.117,
+      -96
     ],
-    "mean_lat": 33.935,
-    "mean_lon": -95.764,
+    "mean_lat": 33.921,
+    "mean_lon": -95.776,
     "regions": [
       "V\u00e4sterbotten",
       "Aargau",
@@ -76906,7 +77406,8 @@
       "Aargau",
       "Aargau",
       "North Rhine-Westphalia",
-      "California"
+      "California",
+      "Aargau"
     ],
     "countries": [
       "Sweden",
@@ -77040,7 +77541,8 @@
       "Switzerland",
       "Switzerland",
       "Germany",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       1202.9,
@@ -77174,7 +77676,8 @@
       37.4,
       178.2,
       440.5,
-      221.3
+      221.3,
+      137.5
     ],
     "times": [
       8.1,
@@ -77308,7 +77811,8 @@
       8.3,
       8.2,
       5.2,
-      7.7
+      7.7,
+      8.3
     ]
   },
   "Kluane, Nat\u2019l Park, Canada": {
@@ -77641,9 +78145,9 @@
     ]
   },
   "Large Underground Xenon Experiment (LUX)": {
-    "mean_dist": 1949.4,
+    "mean_dist": 1918.7,
     "mean_time": 7,
-    "std_dist": 2404.6,
+    "std_dist": 2397.1,
     "std_time": 1.5,
     "city": "Large Underground Xenon Experiment (LUX)",
     "country": "",
@@ -77708,7 +78212,8 @@
       34.258,
       32.475,
       33.668,
-      35.039
+      35.039,
+      43.987
     ],
     "lons": [
       "x",
@@ -77771,10 +78276,11 @@
       -109.647,
       -104.705,
       -106.117,
-      -108
+      -108,
+      -104
     ],
-    "mean_lat": 38.379,
-    "mean_lon": -102.934,
+    "mean_lat": 38.612,
+    "mean_lon": -102.979,
     "regions": [
       "V\u00e4sterbotten",
       "England",
@@ -77836,7 +78342,8 @@
       "Indiana",
       "Aargau",
       "Aargau",
-      "California"
+      "California",
+      "Aargau"
     ],
     "countries": [
       "Sweden",
@@ -77899,7 +78406,8 @@
       "United States",
       "Switzerland",
       "Switzerland",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       9174,
@@ -77962,7 +78470,8 @@
       1230.8,
       1323.2,
       1205.3,
-      1097
+      1097,
+      45.1
     ],
     "times": [
       8.6,
@@ -78025,7 +78534,8 @@
       5.8,
       8,
       8,
-      8.3
+      8.3,
+      8.1
     ]
   },
   "Eratosthenes Measures Earth's Circumference": {
@@ -78363,9 +78873,9 @@
     ]
   },
   "Middelfart, Denmark": {
-    "mean_dist": 209.1,
-    "mean_time": 7.2,
-    "std_dist": 575.7,
+    "mean_dist": 224.2,
+    "mean_time": 7.1,
+    "std_dist": 582.9,
     "std_time": 1.6,
     "city": "Middelfart",
     "country": "Denmark",
@@ -78429,7 +78939,8 @@
       55.665,
       63.39,
       55.423,
-      55.557
+      55.557,
+      62.381
     ],
     "lons": [
       "x",
@@ -78491,10 +79002,11 @@
       8.188,
       -44.156,
       10.117,
-      11.294
+      11.294,
+      24.47
     ],
-    "mean_lat": 55.922,
-    "mean_lon": 7.106,
+    "mean_lat": 56.245,
+    "mean_lon": 7.974,
     "regions": [
       "California",
       "California",
@@ -78555,7 +79067,8 @@
       "Utrecht",
       "Connecticut",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "Auckland"
     ],
     "countries": [
       "United States",
@@ -78617,7 +79130,8 @@
       "Netherlands",
       "United States",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "New Zealand"
     ],
     "dists": [
       818.7,
@@ -78679,7 +79193,8 @@
       99.5,
       3067.6,
       24.9,
-      97.7
+      97.7,
+      1135.1
     ],
     "times": [
       7.5,
@@ -78741,7 +79256,8 @@
       4.5,
       5.9,
       8.5,
-      8.4
+      8.4,
+      4.8
     ]
   },
   "Birth/Death Place of Johannes Gutenberg": {
@@ -82307,10 +82823,10 @@
     ]
   },
   "Everglades, Nat\u2019l Park, United States": {
-    "mean_dist": 759.7,
+    "mean_dist": 749,
     "mean_time": 7.3,
-    "std_dist": 1235.6,
-    "std_time": 1.3,
+    "std_dist": 1226,
+    "std_time": 1.2,
     "city": "Everglades",
     "admin": "Nat\u2019l Park",
     "country": "United States",
@@ -82365,7 +82881,8 @@
       25.422,
       24.346,
       46.165,
-      44.874
+      44.874,
+      23.696
     ],
     "lons": [
       "x",
@@ -82418,10 +82935,11 @@
       -80,
       -81.176,
       -104.47,
-      -117.171
+      -117.171,
+      -81.647
     ],
-    "mean_lat": 29.467,
-    "mean_lon": -89.113,
+    "mean_lat": 29.179,
+    "mean_lon": -88.74,
     "regions": [
       "Alberta",
       "Alberta",
@@ -82473,7 +82991,8 @@
       "Aargau",
       "Aargau",
       "Utrecht",
-      "Utrecht"
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "Canada",
@@ -82526,7 +83045,8 @@
       "Switzerland",
       "Switzerland",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       2038.3,
@@ -82579,7 +83099,8 @@
       70.1,
       118.1,
       3135.3,
-      3918.6
+      3918.6,
+      204.2
     ],
     "times": [
       7.6,
@@ -82632,7 +83153,8 @@
       8.3,
       8.4,
       2.5,
-      4
+      4,
+      7.8
     ]
   },
   "de facto Capital of the European Union": {
@@ -84047,10 +84569,10 @@
     ]
   },
   "Joseph Smith Discovers the Golden Plates (Book of Mormon)": {
-    "mean_dist": 1075,
-    "mean_time": 6.8,
-    "std_dist": 1836.7,
-    "std_time": 1.6,
+    "mean_dist": 1085.2,
+    "mean_time": 6.7,
+    "std_dist": 1819.5,
+    "std_time": 1.7,
     "city": "Joseph Smith Discovers the Golden Plates (Book of Mormon)",
     "country": "",
     "lats": [
@@ -84110,7 +84632,9 @@
       34.867,
       43.816,
       44.327,
-      44.497
+      44.497,
+      43.472,
+      31.063
     ],
     "lons": [
       "x",
@@ -84169,10 +84693,12 @@
       -88.592,
       -76.705,
       -76.941,
-      -75.058
+      -75.058,
+      -79.294,
+      -101.882
     ],
-    "mean_lat": 41.565,
-    "mean_lon": -81.97,
+    "mean_lat": 41.235,
+    "mean_lon": -82.632,
     "regions": [
       "Saxony",
       "South Carolina",
@@ -84230,7 +84756,9 @@
       "North Rhine-Westphalia",
       "Aargau",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "Aargau",
+      "Auckland"
     ],
     "countries": [
       "Germany",
@@ -84289,7 +84817,9 @@
       "Germany",
       "Switzerland",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "New Zealand"
     ],
     "dists": [
       952.1,
@@ -84348,7 +84878,9 @@
       1364.2,
       65.7,
       116.8,
-      209.2
+      209.2,
+      182.6,
+      2570.6
     ],
     "times": [
       6.9,
@@ -84407,7 +84939,9 @@
       4.4,
       8.4,
       8.3,
-      8.4
+      8.4,
+      7.9,
+      2.7
     ]
   },
   "Joshua Tree, Nat\u2019l Park, United States": {
@@ -85136,10 +85670,10 @@
     ]
   },
   "Chang'an (\u957f\u5b89), Han Dynasty, China": {
-    "mean_dist": 394.8,
-    "mean_time": 7.2,
-    "std_dist": 299.7,
-    "std_time": 1.4,
+    "mean_dist": 389.6,
+    "mean_time": 7.1,
+    "std_dist": 295.1,
+    "std_time": 1.6,
     "city": "Chang'an (\u957f\u5b89)",
     "country": "Han Dynasty, China",
     "lats": [
@@ -85193,7 +85727,9 @@
       29.512,
       28.801,
       29.835,
-      31.959
+      31.959,
+      33.668,
+      36.578
     ],
     "lons": [
       "x",
@@ -85246,10 +85782,12 @@
       113.074,
       111.058,
       112.941,
-      113.78
+      113.78,
+      111.529,
+      108.235
     ],
-    "mean_lat": 33.033,
-    "mean_lon": 109.887,
+    "mean_lat": 33.223,
+    "mean_lon": 109.886,
     "regions": [
       "England",
       "California",
@@ -85301,7 +85839,9 @@
       "Bavaria",
       "Bavaria",
       "Bavaria",
-      "Bavaria"
+      "Bavaria",
+      "Aargau",
+      "Auckland"
     ],
     "countries": [
       "United Kingdom",
@@ -85354,7 +85894,9 @@
       "Germany",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland",
+      "New Zealand"
     ],
     "dists": [
       556.3,
@@ -85407,7 +85949,9 @@
       659.2,
       641.1,
       622.5,
-      521.8
+      521.8,
+      251.4,
+      264
     ],
     "times": [
       6.1,
@@ -85460,13 +86004,15 @@
       4.8,
       6.1,
       3,
-      6.8
+      6.8,
+      8,
+      1.5
     ]
   },
   "Code of Hammurabi Discovery Site": {
-    "mean_dist": 1734,
-    "mean_time": 6.3,
-    "std_dist": 2777.5,
+    "mean_dist": 1721.6,
+    "mean_time": 6.4,
+    "std_dist": 2742.8,
     "std_time": 1.8,
     "city": "Code of Hammurabi Discovery Site",
     "country": "",
@@ -85508,7 +86054,8 @@
       35.039,
       29.057,
       32.658,
-      26.913
+      26.913,
+      34.454
     ],
     "lons": [
       "x",
@@ -85548,10 +86095,11 @@
       34.352,
       30.769,
       47.529,
-      28.941
+      28.941,
+      35.058
     ],
-    "mean_lat": 31.274,
-    "mean_lon": 37.66,
+    "mean_lat": 31.486,
+    "mean_lon": 37.487,
     "regions": [
       "Aargau",
       "California",
@@ -85590,7 +86138,8 @@
       "Aargau",
       "North Holland",
       "Utrecht",
-      "North Holland"
+      "North Holland",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -85630,7 +86179,8 @@
       "Switzerland",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       1764.7,
@@ -85670,7 +86220,8 @@
       1324.7,
       1707.2,
       85.9,
-      1955.1
+      1955.1,
+      1250.9
     ],
     "times": [
       6.5,
@@ -85710,13 +86261,14 @@
       7.8,
       0.6,
       1.1,
-      3.8
+      3.8,
+      8.3
     ]
   },
   "Karakorum, Mongol Empire": {
-    "mean_dist": 303.7,
+    "mean_dist": 306.3,
     "mean_time": 7.3,
-    "std_dist": 306.1,
+    "std_dist": 301.8,
     "std_time": 1,
     "city": "Karakorum",
     "country": "Mongol Empire",
@@ -85752,7 +86304,8 @@
       46.407,
       46.655,
       48.417,
-      44.609
+      44.609,
+      45.835
     ],
     "lons": [
       "x",
@@ -85786,10 +86339,11 @@
       97.773,
       101.176,
       102.117,
-      98.98
+      98.98,
+      107.529
     ],
-    "mean_lat": 46.436,
-    "mean_lon": 100.351,
+    "mean_lat": 46.393,
+    "mean_lon": 100.863,
     "regions": [
       "Aargau",
       "California",
@@ -85822,7 +86376,8 @@
       "Washington",
       "Texas",
       "Aargau",
-      "Lisbon"
+      "Lisbon",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -85856,7 +86411,8 @@
       "United States",
       "United States",
       "Switzerland",
-      "Portugal"
+      "Portugal",
+      "Switzerland"
     ],
     "dists": [
       209.9,
@@ -85890,7 +86446,8 @@
       396.2,
       141,
       144.9,
-      415.9
+      415.9,
+      389.3
     ],
     "times": [
       7.1,
@@ -85924,7 +86481,8 @@
       6.2,
       6.5,
       7.8,
-      4.7
+      4.7,
+      7.5
     ]
   },
   "Mount Rainier, Nat\u2019l Park, United States": {
@@ -88486,9 +89044,9 @@
     ]
   },
   "Centers for Disease Control and Prevention (CDC)": {
-    "mean_dist": 621.5,
+    "mean_dist": 614.3,
     "mean_time": 7.6,
-    "std_dist": 1340.6,
+    "std_dist": 1328.7,
     "std_time": 1.1,
     "city": "Centers for Disease Control and Prevention (CDC)",
     "country": "",
@@ -88543,7 +89101,8 @@
       32.874,
       32.475,
       32.073,
-      32.274
+      32.274,
+      36.004
     ],
     "lons": [
       "x",
@@ -88596,10 +89155,11 @@
       -83.058,
       -83.764,
       -83.764,
-      -84
+      -84,
+      -83.764
     ],
-    "mean_lat": 32.609,
-    "mean_lon": -84.024,
+    "mean_lat": 32.756,
+    "mean_lon": -84.013,
     "regions": [
       "California",
       "California",
@@ -88650,6 +89210,7 @@
       "California",
       "California",
       "California",
+      "Aargau",
       "Aargau",
       "Aargau"
     ],
@@ -88704,6 +89265,7 @@
       "United States",
       "United States",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -88757,7 +89319,8 @@
       156.4,
       156.3,
       198.9,
-      172.2
+      172.2,
+      250.5
     ],
     "times": [
       7.5,
@@ -88810,6 +89373,7 @@
       7.5,
       7.1,
       8.2,
+      8.1,
       8.1
     ]
   },
@@ -89447,9 +90011,9 @@
     ]
   },
   "Crater Lake, Nat\u2019l Park, United States": {
-    "mean_dist": 759,
+    "mean_dist": 750.1,
     "mean_time": 7.3,
-    "std_dist": 705.5,
+    "std_dist": 704.6,
     "std_time": 1.3,
     "city": "Crater Lake",
     "admin": "Nat\u2019l Park",
@@ -89525,7 +90089,8 @@
       34.389,
       40.834,
       42.954,
-      42.43
+      42.43,
+      41.903
     ],
     "lons": [
       "x",
@@ -89598,10 +90163,11 @@
       -102.771,
       -101.411,
       -122.352,
-      -123.764
+      -123.764,
+      -122.352
     ],
-    "mean_lat": 41.636,
-    "mean_lon": -117.019,
+    "mean_lat": 41.647,
+    "mean_lon": -117.241,
     "regions": [
       "Aargau",
       "California",
@@ -89672,6 +90238,7 @@
       "Aargau",
       "Auvergne-Rh\u00f4ne-Alpes",
       "Auvergne-Rh\u00f4ne-Alpes",
+      "Aargau",
       "Aargau",
       "Aargau"
     ],
@@ -89746,6 +90313,7 @@
       "France",
       "France",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -89819,7 +90387,8 @@
       1922.5,
       1724,
       20.5,
-      147.7
+      147.7,
+      118.2
     ],
     "times": [
       6.5,
@@ -89892,13 +90461,14 @@
       6.4,
       6.8,
       7.9,
-      8.2
+      8.2,
+      8
     ]
   },
   "Millennium Seed Bank (MSB)": {
-    "mean_dist": 1878.4,
-    "mean_time": 7,
-    "std_dist": 3623.8,
+    "mean_dist": 1844.7,
+    "mean_time": 7.1,
+    "std_dist": 3596.9,
     "std_time": 1.4,
     "city": "Millennium Seed Bank (MSB)",
     "country": "",
@@ -89953,7 +90523,8 @@
       46.407,
       46.655,
       50.946,
-      51.381
+      51.381,
+      51.173
     ],
     "lons": [
       "x",
@@ -90006,10 +90577,11 @@
       8.126,
       9.882,
       -0.579,
-      -1.317
+      -1.317,
+      -1.882
     ],
-    "mean_lat": 54.921,
-    "mean_lon": 7.297,
+    "mean_lat": 54.782,
+    "mean_lon": 6.957,
     "regions": [
       "Aargau",
       "England",
@@ -90061,7 +90633,8 @@
       "Plovdiv",
       "Plovdiv",
       "Plovdiv",
-      "Plovdiv"
+      "Plovdiv",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -90114,7 +90687,8 @@
       "Bulgaria",
       "Bulgaria",
       "Bulgaria",
-      "Bulgaria"
+      "Bulgaria",
+      "Switzerland"
     ],
     "dists": [
       6117.5,
@@ -90167,7 +90741,8 @@
       793.9,
       877.9,
       36.7,
-      92.2
+      92.2,
+      125.6
     ],
     "times": [
       6.8,
@@ -90220,7 +90795,8 @@
       5,
       4.2,
       5.9,
-      7.3
+      7.3,
+      8.1
     ]
   },
   "Meteor Crater (Canyon Diablo Crater)": {
@@ -90558,9 +91134,9 @@
     ]
   },
   "Great Zimbabwe, Kingdom of Zimbabwe": {
-    "mean_dist": 655.6,
+    "mean_dist": 647.3,
     "mean_time": 6.8,
-    "std_dist": 1137.9,
+    "std_dist": 1124.4,
     "std_time": 1.9,
     "city": "Great Zimbabwe",
     "country": "Kingdom of Zimbabwe",
@@ -90602,7 +91178,8 @@
       -19.352,
       -19.299,
       -20.245,
-      -0.606
+      -0.606,
+      -20.689
     ],
     "lons": [
       "x",
@@ -90642,10 +91219,11 @@
       28.799,
       22.534,
       31.529,
-      35.623
+      35.623,
+      27.764
     ],
-    "mean_lat": -16.17,
-    "mean_lon": 27.028,
+    "mean_lat": -16.408,
+    "mean_lon": 27.067,
     "regions": [
       "Aargau",
       "Aargau",
@@ -90684,7 +91262,8 @@
       "Plovdiv",
       "Utrecht",
       "Aargau",
-      "England"
+      "England",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -90724,7 +91303,8 @@
       "Bulgaria",
       "Netherlands",
       "Switzerland",
-      "United Kingdom"
+      "United Kingdom",
+      "Switzerland"
     ],
     "dists": [
       215.7,
@@ -90764,7 +91344,8 @@
       245.2,
       885.2,
       62.2,
-      2244.8
+      2244.8,
+      333.4
     ],
     "times": [
       8.1,
@@ -90804,14 +91385,15 @@
       7.8,
       5.6,
       8.1,
-      3.4
+      3.4,
+      8
     ]
   },
   "Battle of Lake Trasimene": {
-    "mean_dist": 1733.8,
-    "mean_time": 6.6,
-    "std_dist": 2676.7,
-    "std_time": 2.1,
+    "mean_dist": 1704.5,
+    "mean_time": 6.7,
+    "std_dist": 2662.1,
+    "std_time": 2,
     "city": "Battle of Lake Trasimene",
     "country": "",
     "lats": [
@@ -90870,7 +91452,8 @@
       -0.218,
       38.423,
       41.726,
-      54.469
+      54.469,
+      43.644
     ],
     "lons": [
       "x",
@@ -90928,10 +91511,11 @@
       32.181,
       -89.411,
       14.117,
-      100.235
+      100.235,
+      11.764
     ],
-    "mean_lat": 39.182,
-    "mean_lon": 7.93,
+    "mean_lat": 39.405,
+    "mean_lon": 8.121,
     "regions": [
       "Aargau",
       "England",
@@ -90988,7 +91572,8 @@
       "North Holland",
       "Utrecht",
       "Aargau",
-      "New Jersey"
+      "New Jersey",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -91046,7 +91631,8 @@
       "Netherlands",
       "Netherlands",
       "Switzerland",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       1566.4,
@@ -91104,7 +91690,8 @@
       5219.6,
       7994.2,
       227.8,
-      6141
+      6141,
+      62.6
     ],
     "times": [
       5.9,
@@ -91162,7 +91749,8 @@
       3.7,
       1.3,
       8.5,
-      5.9
+      5.9,
+      8.2
     ]
   },
   "Susa, Parthian / Sasanian Empire": {
@@ -92024,9 +92612,9 @@
     ]
   },
   "Battle of Cannae": {
-    "mean_dist": 710.4,
-    "mean_time": 6.9,
-    "std_dist": 1062.5,
+    "mean_dist": 700.1,
+    "mean_time": 7,
+    "std_dist": 1056.7,
     "std_time": 1.8,
     "city": "Battle of Cannae",
     "country": "",
@@ -92090,7 +92678,8 @@
       35.812,
       42.43,
       42.43,
-      41.371
+      41.371,
+      41.903
     ],
     "lons": [
       "x",
@@ -92152,10 +92741,11 @@
       37.176,
       13.647,
       14.823,
-      17.647
+      17.647,
+      15.529
     ],
-    "mean_lat": 40.128,
-    "mean_lon": 13.482,
+    "mean_lat": 40.187,
+    "mean_lon": 13.55,
     "regions": [
       "Aargau",
       "California",
@@ -92214,6 +92804,7 @@
       "South Holland",
       "Auvergne-Rh\u00f4ne-Alpes",
       "Auvergne-Rh\u00f4ne-Alpes",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau"
@@ -92278,6 +92869,7 @@
       "France",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -92340,7 +92932,8 @@
       1923.2,
       240.7,
       165.4,
-      126.6
+      126.6,
+      83.1
     ],
     "times": [
       6.1,
@@ -92402,13 +92995,14 @@
       0.5,
       8.1,
       8.5,
-      8.5
+      8.5,
+      8.4
     ]
   },
   "Battle of the Trebia": {
-    "mean_dist": 615.6,
+    "mean_dist": 599.6,
     "mean_time": 7.5,
-    "std_dist": 1300.9,
+    "std_dist": 1282.4,
     "std_time": 1.4,
     "city": "Battle of the Trebia",
     "country": "",
@@ -92471,7 +93065,9 @@
       45.17,
       43.644,
       45.002,
-      45.002
+      45.002,
+      43.644,
+      44.327
     ],
     "lons": [
       "x",
@@ -92532,10 +93128,12 @@
       11.058,
       10.588,
       9.647,
-      9.647
+      9.647,
+      10.117,
+      10.117
     ],
-    "mean_lat": 44.224,
-    "mean_lon": 10.767,
+    "mean_lat": 44.206,
+    "mean_lon": 10.719,
     "regions": [
       "Aargau",
       "Northern Ireland",
@@ -92590,6 +93188,8 @@
       "Aargau",
       "Aargau",
       "Auvergne-Rh\u00f4ne-Alpes",
+      "Aargau",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -92656,6 +93256,8 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -92717,7 +93319,9 @@
       115.2,
       174.8,
       6.4,
-      6.4
+      6.4,
+      161.5,
+      90.1
     ],
     "times": [
       7,
@@ -92778,7 +93382,9 @@
       8.4,
       8.1,
       8.3,
-      8.4
+      8.4,
+      8.3,
+      8.3
     ]
   },
   "Australian Grains Genebank (AGG)": {
@@ -93068,9 +93674,9 @@
     ]
   },
   "Apollo 11 Splashdown (First Moon Landing)": {
-    "mean_dist": 4133.1,
+    "mean_dist": 4072.2,
     "mean_time": 6.9,
-    "std_dist": 4611.6,
+    "std_dist": 4595.8,
     "std_time": 1.4,
     "city": "Apollo 11 Splashdown (First Moon Landing)",
     "country": "",
@@ -93132,7 +93738,8 @@
       11.975,
       8.239,
       20.472,
-      35.619
+      35.619,
+      6.592
     ],
     "lons": [
       "x",
@@ -93192,10 +93799,11 @@
       167.764,
       168.47,
       -159.241,
-      172.235
+      172.235,
+      169.647
     ],
-    "mean_lat": 11.196,
-    "mean_lon": 102.369,
+    "mean_lat": 10.966,
+    "mean_lon": 105.733,
     "regions": [
       "California",
       "Aargau",
@@ -93254,7 +93862,8 @@
       "Aargau",
       "Aargau",
       "Lisbon",
-      "California"
+      "California",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -93314,7 +93923,8 @@
       "Switzerland",
       "Switzerland",
       "Portugal",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       787.4,
@@ -93374,7 +93984,8 @@
       528,
       504.6,
       3223.7,
-      2782.1
+      2782.1,
+      538.6
     ],
     "times": [
       5.9,
@@ -93434,13 +94045,14 @@
       8.2,
       8.3,
       10,
-      6.2
+      6.2,
+      8.2
     ]
   },
   "Cirta, Berber Kingdom of Numidia": {
-    "mean_dist": 2380.2,
+    "mean_dist": 2347.5,
     "mean_time": 5.7,
-    "std_dist": 2333.7,
+    "std_dist": 2331.9,
     "std_time": 2.3,
     "city": "Cirta",
     "country": "Berber Kingdom of Numidia",
@@ -93511,7 +94123,8 @@
       27.805,
       30.614,
       37.148,
-      37.336
+      37.336,
+      36.958
     ],
     "lons": [
       "x",
@@ -93580,10 +94193,11 @@
       -14.171,
       -7.105,
       7.529,
-      7.529
+      7.529,
+      8.235
     ],
-    "mean_lat": 28.727,
-    "mean_lon": 11.757,
+    "mean_lat": 29.001,
+    "mean_lon": 11.64,
     "regions": [
       "California",
       "Victoria",
@@ -93650,6 +94264,7 @@
       "North Holland",
       "North Holland",
       "Utrecht",
+      "Aargau",
       "Aargau",
       "Aargau"
     ],
@@ -93720,6 +94335,7 @@
       "Netherlands",
       "Netherlands",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -93789,7 +94405,8 @@
       2170.8,
       1421.9,
       119.2,
-      135.2
+      135.2,
+      159
     ],
     "times": [
       4.7,
@@ -93858,13 +94475,14 @@
       3.9,
       3.4,
       8.1,
-      8.1
+      8.1,
+      8.2
     ]
   },
   "Hokusai Creates The Great Wave off Kanagawa (\u795e\u5948\u5ddd\u6c96\u6d6a\u88cf)": {
-    "mean_dist": 1174.3,
+    "mean_dist": 1152.2,
     "mean_time": 7,
-    "std_dist": 3250.1,
+    "std_dist": 3221.1,
     "std_time": 1.6,
     "city": "Hokusai Creates The Great Wave off Kanagawa (\u795e\u5948\u5ddd\u6c96\u6d6a\u88cf)",
     "country": "",
@@ -93917,7 +94535,8 @@
       36.196,
       36.958,
       38.954,
-      35.056
+      35.056,
+      36.196
     ],
     "lons": [
       "x",
@@ -93968,10 +94587,11 @@
       139.764,
       139.058,
       69.176,
-      131.982
+      131.982,
+      139.294
     ],
-    "mean_lat": 36.531,
-    "mean_lon": 130.722,
+    "mean_lat": 36.513,
+    "mean_lon": 131.198,
     "regions": [
       "California",
       "England",
@@ -94021,7 +94641,8 @@
       "Aargau",
       "Aargau",
       "Lisbon",
-      "Lisbon"
+      "Lisbon",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -94072,7 +94693,8 @@
       "Switzerland",
       "Switzerland",
       "Portugal",
-      "Portugal"
+      "Portugal",
+      "Switzerland"
     ],
     "dists": [
       1875.7,
@@ -94123,7 +94745,8 @@
       56.8,
       154.6,
       6090.5,
-      707.7
+      707.7,
+      70.2
     ],
     "times": [
       4.8,
@@ -94174,7 +94797,8 @@
       8.3,
       8.1,
       3.3,
-      0.2
+      0.2,
+      8.1
     ]
   },
   "Adam Smith Begins Writing 'The Wealth of Nations'": {
@@ -94781,9 +95405,9 @@
     ]
   },
   "Vincent van Gogh Paints 'The Starry Night'": {
-    "mean_dist": 393.6,
+    "mean_dist": 392.2,
     "mean_time": 7.2,
-    "std_dist": 872.8,
+    "std_dist": 865.1,
     "std_time": 1.5,
     "city": "Vincent van Gogh Paints 'The Starry Night'",
     "country": "",
@@ -94843,7 +95467,8 @@
       43.127,
       49.825,
       42.43,
-      43.127
+      43.127,
+      43.3
     ],
     "lons": [
       "x",
@@ -94901,10 +95526,11 @@
       4,
       2.572,
       6.117,
-      5.176
+      5.176,
+      8.705
     ],
-    "mean_lat": 43.777,
-    "mean_lon": 4.201,
+    "mean_lat": 43.752,
+    "mean_lon": 4.438,
     "regions": [
       "California",
       "California",
@@ -94961,6 +95587,7 @@
       "Aargau",
       "Zurich",
       "Aargau",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -95014,6 +95641,7 @@
       "Switzerland",
       "Switzerland",
       "United States",
+      "Switzerland",
       "Switzerland",
       "Switzerland",
       "Switzerland",
@@ -95077,7 +95705,8 @@
       99.7,
       692.7,
       183.6,
-      78.7
+      78.7,
+      316.8
     ],
     "times": [
       7.8,
@@ -95135,14 +95764,15 @@
       8.4,
       6.7,
       8.2,
-      7.5
+      7.5,
+      8.3
     ]
   },
   "Yangcheng (\u967d\u57ce), Xia Dynasty, China": {
-    "mean_dist": 454.8,
-    "mean_time": 7.2,
-    "std_dist": 376.9,
-    "std_time": 1.5,
+    "mean_dist": 444,
+    "mean_time": 7.3,
+    "std_dist": 375.7,
+    "std_time": 1.4,
     "city": "Yangcheng (\u967d\u57ce)",
     "country": "Xia Dynasty, China",
     "lats": [
@@ -95206,7 +95836,9 @@
       33.668,
       37.048,
       24.828,
-      35.665
+      35.665,
+      33.865,
+      33.272
     ],
     "lons": [
       "x",
@@ -95269,10 +95901,12 @@
       111.529,
       107.656,
       113.416,
-      107.239
+      107.239,
+      112.941,
+      114.117
     ],
-    "mean_lat": 33.075,
-    "mean_lon": 112.295,
+    "mean_lat": 33.125,
+    "mean_lon": 112.418,
     "regions": [
       "California",
       "England",
@@ -95334,7 +95968,9 @@
       "Aargau",
       "Lisbon",
       "Lisbon",
-      "Lisbon"
+      "Lisbon",
+      "Aargau",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -95397,7 +96033,9 @@
       "Switzerland",
       "Portugal",
       "Portugal",
-      "Portugal"
+      "Portugal",
+      "Switzerland",
+      "Switzerland"
     ],
     "dists": [
       378.5,
@@ -95460,7 +96098,9 @@
       163.2,
       563.7,
       1071,
-      543.3
+      543.3,
+      66,
+      165.7
     ],
     "times": [
       6.8,
@@ -95523,7 +96163,9 @@
       8.3,
       5.9,
       3.7,
-      2.9
+      2.9,
+      8.4,
+      8.2
     ]
   },
   "New Echota, Cherokee Nation (pre-1830)": {
@@ -97805,9 +98447,9 @@
     ]
   },
   "Par\u00e1 Falls": {
-    "mean_dist": 1360.2,
+    "mean_dist": 1334.2,
     "mean_time": 7.3,
-    "std_dist": 1476.5,
+    "std_dist": 1464.8,
     "std_time": 1.1,
     "city": "Par\u00e1 Falls",
     "country": "",
@@ -97847,7 +98489,8 @@
       3.519,
       3.993,
       8.958,
-      6.607
+      6.607,
+      6.12
     ],
     "lons": [
       "x",
@@ -97885,10 +98528,11 @@
       -61.882,
       -60.47,
       -68.25,
-      -64.25
+      -64.25,
+      -60.941
     ],
-    "mean_lat": 4.86,
-    "mean_lon": -62.617,
+    "mean_lat": 4.986,
+    "mean_lon": -62.449,
     "regions": [
       "California",
       "Aargau",
@@ -97925,7 +98569,8 @@
       "Aargau",
       "Aargau",
       "Zurich",
-      "Zurich"
+      "Zurich",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -97952,6 +98597,7 @@
       "Switzerland",
       "Switzerland",
       "United States",
+      "Switzerland",
       "Switzerland",
       "Switzerland",
       "Switzerland",
@@ -98001,7 +98647,8 @@
       426.5,
       517.5,
       505.3,
-      44.6
+      44.6,
+      396.6
     ],
     "times": [
       7.8,
@@ -98039,13 +98686,14 @@
       7.8,
       8.3,
       7.5,
-      8
+      8,
+      7.5
     ]
   },
   "Drottningholm Palace": {
-    "mean_dist": 181.2,
+    "mean_dist": 184,
     "mean_time": 7.2,
-    "std_dist": 317.5,
+    "std_dist": 315.6,
     "std_time": 1.5,
     "city": "Drottningholm Palace",
     "country": "",
@@ -98108,7 +98756,9 @@
       60.657,
       65.797,
       59.861,
-      56.747
+      56.747,
+      59.502,
+      61.031
     ],
     "lons": [
       "x",
@@ -98169,10 +98819,12 @@
       14.407,
       26.823,
       17.411,
-      14.117
+      14.117,
+      17.647,
+      9.411
     ],
-    "mean_lat": 59.6,
-    "mean_lon": 17.216,
+    "mean_lat": 59.679,
+    "mean_lon": 16.782,
     "regions": [
       "California",
       "California",
@@ -98232,7 +98884,9 @@
       "Saarland",
       "North Rhine-Westphalia",
       "Aargau",
-      "California"
+      "California",
+      "Aargau",
+      "Auckland"
     ],
     "countries": [
       "United States",
@@ -98293,7 +98947,9 @@
       "Germany",
       "Germany",
       "Switzerland",
-      "United States"
+      "United States",
+      "Switzerland",
+      "New Zealand"
     ],
     "dists": [
       527.7,
@@ -98354,7 +99010,9 @@
       243.8,
       851.6,
       65.6,
-      362
+      362,
+      24.2,
+      505.2
     ],
     "times": [
       7.6,
@@ -98415,13 +99073,15 @@
       6.8,
       3.8,
       8.3,
-      8.5
+      8.5,
+      8.1,
+      6.2
     ]
   },
   "Khone Phapheng Falls (\u0e99\u0ec9\u0eb3\u0e95\u0ebb\u0e81\u0e95\u0eb2\u0e94\u0e84\u0ead\u0e99\u0e9e\u0eb0\u0ec0\u0e9e\u0eb1\u0e87)": {
-    "mean_dist": 889.2,
+    "mean_dist": 871.5,
     "mean_time": 7.1,
-    "std_dist": 2490.5,
+    "std_dist": 2462.5,
     "std_time": 1.7,
     "city": "Khone Phapheng Falls (\u0e99\u0ec9\u0eb3\u0e95\u0ebb\u0e81\u0e95\u0eb2\u0e94\u0e84\u0ead\u0e99\u0e9e\u0eb0\u0ec0\u0e9e\u0eb1\u0e87)",
     "country": "",
@@ -98465,7 +99125,8 @@
       -16.758,
       15.585,
       16.118,
-      16.952
+      16.952,
+      15.204
     ],
     "lons": [
       "x",
@@ -98507,10 +99168,11 @@
       -37.411,
       99.215,
       105.647,
-      98.405
+      98.405,
+      105.176
     ],
-    "mean_lat": 13.957,
-    "mean_lon": 93.928,
+    "mean_lat": 14.035,
+    "mean_lon": 94.631,
     "regions": [
       "California",
       "Ontario",
@@ -98551,7 +99213,8 @@
       "New York",
       "Lisbon",
       "Aargau",
-      "Lisbon"
+      "Lisbon",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -98593,7 +99256,8 @@
       "United States",
       "Portugal",
       "Switzerland",
-      "Portugal"
+      "Portugal",
+      "Switzerland"
     ],
     "dists": [
       670.3,
@@ -98635,7 +99299,8 @@
       16078.4,
       745.5,
       243.3,
-      873.8
+      873.8,
+      162
     ],
     "times": [
       6.7,
@@ -98677,13 +99342,14 @@
       6.6,
       0.9,
       8.3,
-      7
+      7,
+      8.1
     ]
   },
   "Birthplace of Archimedes": {
-    "mean_dist": 988,
+    "mean_dist": 957.3,
     "mean_time": 6.8,
-    "std_dist": 2121.6,
+    "std_dist": 2091.7,
     "std_time": 1.8,
     "city": "Birthplace of Archimedes",
     "country": "",
@@ -98744,6 +99410,8 @@
       40.07,
       41.549,
       39.199,
+      37.336,
+      37.713,
       37.336
     ],
     "lons": [
@@ -98803,10 +99471,12 @@
       16.996,
       14.352,
       17.176,
-      15.294
+      15.294,
+      16,
+      16
     ],
-    "mean_lat": 39.354,
-    "mean_lon": 15.535,
+    "mean_lat": 39.161,
+    "mean_lon": 15.584,
     "regions": [
       "California",
       "England",
@@ -98863,6 +99533,8 @@
       "Auvergne-Rh\u00f4ne-Alpes",
       "Saarland",
       "North Rhine-Westphalia",
+      "Aargau",
+      "Aargau",
       "Aargau",
       "Aargau"
     ],
@@ -98923,6 +99595,8 @@
       "Germany",
       "Germany",
       "Switzerland",
+      "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -98982,7 +99656,9 @@
       365.2,
       504.5,
       288.8,
-      29.7
+      29.7,
+      95.3,
+      69.7
     ],
     "times": [
       6.2,
@@ -99041,7 +99717,9 @@
       1.7,
       1.7,
       8.5,
-      8.4
+      8.4,
+      8,
+      8.3
     ]
   },
   "Copernicus Creates Heliocentric Model of Solar System ('Commentariolus')": {
@@ -99443,9 +100121,9 @@
     ]
   },
   "Tian Tan Buddha (\u5929\u58c7\u5927\u4f5b)": {
-    "mean_dist": 1037.8,
+    "mean_dist": 1015.9,
     "mean_time": 7.1,
-    "std_dist": 913.4,
+    "std_dist": 913.3,
     "std_time": 1.5,
     "city": "Tian Tan Buddha (\u5929\u58c7\u5927\u4f5b)",
     "country": "",
@@ -99490,7 +100168,8 @@
       22.166,
       34.937,
       22.386,
-      22.386
+      22.386,
+      22.824
     ],
     "lons": [
       "x",
@@ -99533,10 +100212,11 @@
       112.941,
       115.185,
       114.352,
-      113.411
+      113.411,
+      112.941
     ],
-    "mean_lat": 21.85,
-    "mean_lon": 110.718,
+    "mean_lat": 21.911,
+    "mean_lon": 110.857,
     "regions": [
       "Ontario",
       "England",
@@ -99577,6 +100257,7 @@
       "Washington",
       "Aargau",
       "Washington",
+      "Aargau",
       "Aargau",
       "Aargau"
     ],
@@ -99621,6 +100302,7 @@
       "Switzerland",
       "United States",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -99664,7 +100346,8 @@
       99.7,
       1415.8,
       48.3,
-      52.8
+      52.8,
+      117.5
     ],
     "times": [
       6,
@@ -99707,13 +100390,14 @@
       8,
       5.7,
       7.4,
+      8.2,
       8.2
     ]
   },
   "Angkor Wat (\u17a2\u1784\u17d2\u1782\u179a\u179c\u178f\u17d2\u178f)": {
-    "mean_dist": 264.4,
+    "mean_dist": 261.3,
     "mean_time": 7.4,
-    "std_dist": 288.8,
+    "std_dist": 286.5,
     "std_time": 1.4,
     "city": "Angkor Wat (\u17a2\u1784\u17d2\u1782\u179a\u179c\u178f\u17d2\u178f)",
     "country": "",
@@ -99763,7 +100447,8 @@
       19.058,
       12.671,
       15.433,
-      11.743
+      11.743,
+      12.439
     ],
     "lons": [
       "x",
@@ -99811,10 +100496,11 @@
       98.117,
       104,
       119.058,
-      103.294
+      103.294,
+      104.235
     ],
-    "mean_lat": 12.848,
-    "mean_lon": 104.563,
+    "mean_lat": 12.827,
+    "mean_lon": 104.547,
     "regions": [
       "Ontario",
       "Maryland",
@@ -99861,6 +100547,7 @@
       "Auvergne-Rh\u00f4ne-Alpes",
       "Aargau",
       "Washington",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -99909,6 +100596,7 @@
       "France",
       "Switzerland",
       "United States",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -99957,7 +100645,8 @@
       877.7,
       83.6,
       1651,
-      195.6
+      195.6,
+      115.3
     ],
     "times": [
       7,
@@ -100005,13 +100694,14 @@
       5.2,
       8,
       3.4,
-      8
+      8,
+      8.3
     ]
   },
   "Dettifoss (waterfall)": {
-    "mean_dist": 408.9,
+    "mean_dist": 402.1,
     "mean_time": 7.7,
-    "std_dist": 1286.5,
+    "std_dist": 1273.3,
     "std_time": 0.9,
     "city": "Dettifoss (waterfall)",
     "country": "",
@@ -100060,7 +100750,8 @@
       64.61,
       65.797,
       65.405,
-      65.797
+      65.797,
+      66.374
     ],
     "lons": [
       "x",
@@ -100107,10 +100798,11 @@
       -19.545,
       -16.47,
       -16,
-      -16.235
+      -16.235,
+      -14.823
     ],
-    "mean_lat": 64.953,
-    "mean_lon": -12.357,
+    "mean_lat": 65.055,
+    "mean_lon": -12.533,
     "regions": [
       "Ontario",
       "England",
@@ -100154,6 +100846,7 @@
       "Washington",
       "Washington",
       "Zurich",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau"
@@ -100200,6 +100893,7 @@
       "Switzerland",
       "United States",
       "United States",
+      "Switzerland",
       "Switzerland",
       "Switzerland",
       "Switzerland",
@@ -100250,7 +100944,8 @@
       199,
       4.3,
       48.7,
-      7
+      7,
+      93.9
     ],
     "times": [
       5.5,
@@ -100297,7 +100992,8 @@
       7.9,
       8,
       8,
-      8.3
+      8.3,
+      8
     ]
   },
   "Venus de Milo Statue (\u0391\u03c6\u03c1\u03bf\u03b4\u03af\u03c4\u03b7 \u03c4\u03b7\u03c2 \u039c\u03ae\u03bb\u03bf\u03c5)": {
@@ -101059,9 +101755,9 @@
     ]
   },
   "Buzludhzha Monument (\u0411\u0443\u0437\u043b\u0443\u0434\u0436\u0430)": {
-    "mean_dist": 811.8,
+    "mean_dist": 787.9,
     "mean_time": 7.1,
-    "std_dist": 1561.4,
+    "std_dist": 1536.4,
     "std_time": 1.7,
     "city": "Buzludhzha Monument (\u0411\u0443\u0437\u043b\u0443\u0434\u0436\u0430)",
     "country": "",
@@ -101116,7 +101812,9 @@
       42.954,
       39.199,
       43.987,
-      43.987
+      43.987,
+      44.834,
+      43.644
     ],
     "lons": [
       "x",
@@ -101169,10 +101867,12 @@
       26.823,
       59.764,
       26.352,
-      25.647
+      25.647,
+      24.705,
+      26.117
     ],
-    "mean_lat": 42.191,
-    "mean_lon": 34.049,
+    "mean_lat": 42.407,
+    "mean_lon": 33.14,
     "regions": [
       "Alberta",
       "England",
@@ -101223,6 +101923,8 @@
       "Aargau",
       "Aargau",
       "Indiana",
+      "Aargau",
+      "Aargau",
       "Aargau",
       "Aargau"
     ],
@@ -101277,6 +101979,8 @@
       "Switzerland",
       "United States",
       "Switzerland",
+      "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -101330,7 +102034,9 @@
       119,
       2892.2,
       159.3,
-      140.6
+      140.6,
+      239.8,
+      116.8
     ],
     "times": [
       7.4,
@@ -101383,13 +102089,15 @@
       8.5,
       6.4,
       8.6,
+      8.6,
+      7.9,
       8.6
     ]
   },
   "Submerged City of Shicheng (\u72ee\u57ce)": {
-    "mean_dist": 514.1,
+    "mean_dist": 507.7,
     "mean_time": 7.2,
-    "std_dist": 538.6,
+    "std_dist": 535.6,
     "std_time": 1.3,
     "city": "Submerged City of Shicheng (\u72ee\u57ce)",
     "country": "",
@@ -101446,7 +102154,8 @@
       27.707,
       27.451,
       22.02,
-      26.539
+      26.539,
+      28.384
     ],
     "lons": [
       "x",
@@ -101501,10 +102210,11 @@
       117.466,
       112.411,
       111.843,
-      104.71
+      104.71,
+      120
     ],
-    "mean_lat": 27.855,
-    "mean_lon": 115.553,
+    "mean_lat": 27.893,
+    "mean_lon": 115.87,
     "regions": [
       "California",
       "California",
@@ -101558,7 +102268,8 @@
       "Saarland",
       "North Rhine-Westphalia",
       "Connecticut",
-      "England"
+      "England",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -101613,7 +102324,8 @@
       "Germany",
       "Germany",
       "United States",
-      "United Kingdom"
+      "United Kingdom",
+      "Switzerland"
     ],
     "dists": [
       1313.2,
@@ -101668,7 +102380,8 @@
       258.4,
       685.8,
       1105.6,
-      1440.8
+      1440.8,
+      167.8
     ],
     "times": [
       6.4,
@@ -101723,7 +102436,8 @@
       7.7,
       4.4,
       6.6,
-      4.9
+      4.9,
+      8.1
     ]
   },
   "Hacienda N\u00e1poles (Pablo Escobar's estate)": {
@@ -103121,10 +103835,10 @@
     ]
   },
   "Pe\u00f1\u00f3n de V\u00e9lez de la Gomera (Shortest International Border)": {
-    "mean_dist": 1419.7,
-    "mean_time": 6.9,
-    "std_dist": 2806.2,
-    "std_time": 1.9,
+    "mean_dist": 1398.1,
+    "mean_time": 6.8,
+    "std_dist": 2748.9,
+    "std_time": 2.1,
     "city": "Pe\u00f1\u00f3n de V\u00e9lez de la Gomera (Shortest International Border)",
     "country": "",
     "lats": [
@@ -103169,7 +103883,9 @@
       35.426,
       35.812,
       36.196,
-      35.619
+      35.619,
+      36.387,
+      49.043
     ],
     "lons": [
       "x",
@@ -103213,10 +103929,12 @@
       -5.411,
       -5.411,
       -4.47,
-      -4.941
+      -4.941,
+      -4.235,
+      5.882
     ],
-    "mean_lat": 36.064,
-    "mean_lon": -5.432,
+    "mean_lat": 36.896,
+    "mean_lon": -4.65,
     "regions": [
       "England",
       "England",
@@ -103259,7 +103977,9 @@
       "Aargau",
       "Aargau",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "Aargau",
+      "Auckland"
     ],
     "countries": [
       "United Kingdom",
@@ -103303,7 +104023,9 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "New Zealand"
     ],
     "dists": [
       1894.5,
@@ -103347,7 +104069,9 @@
       104.7,
       123.2,
       114.8,
-      76.4
+      76.4,
+      135.2,
+      1752.6
     ],
     "times": [
       5.1,
@@ -103391,13 +104115,15 @@
       8.1,
       8.4,
       8.3,
-      8.2
+      8.2,
+      8.4,
+      1.3
     ]
   },
   "Terracotta Army (\u5175\u9a6c\u4fd1)": {
-    "mean_dist": 1040.2,
+    "mean_dist": 1031.5,
     "mean_time": 7,
-    "std_dist": 2373.4,
+    "std_dist": 2353.1,
     "std_time": 1.6,
     "city": "Terracotta Army (\u5175\u9a6c\u4fd1)",
     "country": "",
@@ -103456,7 +104182,8 @@
       32.874,
       44.469,
       31.67,
-      36.287
+      36.287,
+      33.272
     ],
     "lons": [
       "x",
@@ -103513,10 +104240,11 @@
       109.882,
       122.862,
       113.647,
-      102.715
+      102.715,
+      115.058
     ],
-    "mean_lat": 34.524,
-    "mean_lon": 112.309,
+    "mean_lat": 34.469,
+    "mean_lon": 112.428,
     "regions": [
       "Aargau",
       "Aargau",
@@ -103572,7 +104300,8 @@
       "Aargau",
       "North Rhine-Westphalia",
       "California",
-      "North Rhine-Westphalia"
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -103629,7 +104358,8 @@
       "Switzerland",
       "Germany",
       "United States",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       5987.2,
@@ -103686,7 +104416,8 @@
       177.1,
       1614.4,
       507.2,
-      631.2
+      631.2,
+      548.4
     ],
     "times": [
       6.6,
@@ -103743,13 +104474,14 @@
       8,
       4,
       4.2,
-      7
+      7,
+      8.4
     ]
   },
   "Battle of Hastings (1066)": {
-    "mean_dist": 175.2,
-    "mean_time": 7.7,
-    "std_dist": 284.8,
+    "mean_dist": 172.1,
+    "mean_time": 7.8,
+    "std_dist": 281.8,
     "std_time": 0.9,
     "city": "Battle of Hastings (1066)",
     "country": "",
@@ -103792,7 +104524,8 @@
       51.47,
       50.875,
       50.171,
-      51.322
+      51.322,
+      51.024
     ],
     "lons": [
       "x",
@@ -103833,10 +104566,11 @@
       2.352,
       0.47,
       26.156,
-      -1.882
+      -1.882,
+      1.176
     ],
-    "mean_lat": 51.393,
-    "mean_lon": 1.898,
+    "mean_lat": 51.373,
+    "mean_lon": 1.858,
     "regions": [
       "California",
       "Aargau",
@@ -103876,7 +104610,8 @@
       "Aargau",
       "Aargau",
       "North Rhine-Westphalia",
-      "California"
+      "California",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -103917,7 +104652,8 @@
       "Switzerland",
       "Switzerland",
       "Germany",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       173.6,
@@ -103958,7 +104694,8 @@
       144,
       4.2,
       1806.6,
-      171.5
+      171.5,
+      49.8
     ],
     "times": [
       7.3,
@@ -103999,7 +104736,8 @@
       8.5,
       8.2,
       3.5,
-      6.8
+      6.8,
+      8.2
     ]
   },
   "Tyre (\u0635\u0648\u0631\u200e), Phoenicia": {
@@ -104885,9 +105623,9 @@
     ]
   },
   "2010 Winter Olympics (XXI Olympiad)": {
-    "mean_dist": 387.2,
-    "mean_time": 6.5,
-    "std_dist": 649.4,
+    "mean_dist": 377.8,
+    "mean_time": 6.6,
+    "std_dist": 643.6,
     "std_time": 1.7,
     "city": "2010 Winter Olympics (XXI Olympiad)",
     "country": "",
@@ -104929,6 +105667,7 @@
       51.666,
       49.199,
       49.815,
+      49.043,
       49.043
     ],
     "lons": [
@@ -104969,10 +105708,11 @@
       -124.313,
       -124,
       -121.647,
-      -123.529
+      -123.529,
+      -123.058
     ],
-    "mean_lat": 49.801,
-    "mean_lon": -119.466,
+    "mean_lat": 49.747,
+    "mean_lon": -119.722,
     "regions": [
       "Baden-W\u00fcrttemberg",
       "Aargau",
@@ -105009,6 +105749,7 @@
       "Washington",
       "Colorado",
       "Colorado",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau"
@@ -105051,6 +105792,7 @@
       "United States",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -105091,7 +105833,8 @@
       282.1,
       65.6,
       122.2,
-      38.7
+      38.7,
+      23.1
     ],
     "times": [
       7.1,
@@ -105131,14 +105874,15 @@
       4.9,
       8,
       8.1,
-      8.1
+      8.1,
+      8.4
     ]
   },
   "1972 Summer Olympics": {
-    "mean_dist": 224.4,
+    "mean_dist": 222.1,
     "mean_time": 7.4,
-    "std_dist": 169.3,
-    "std_time": 1.1,
+    "std_dist": 168.2,
+    "std_time": 1,
     "city": "1972 Summer Olympics",
     "country": "",
     "lats": [
@@ -105187,7 +105931,8 @@
       52.647,
       49.353,
       48.101,
-      48.101
+      48.101,
+      49.043
     ],
     "lons": [
       "x",
@@ -105235,10 +105980,11 @@
       11.513,
       10.117,
       10.352,
-      10.352
+      10.352,
+      10.823
     ],
-    "mean_lat": 49.841,
-    "mean_lon": 10.4,
+    "mean_lat": 49.812,
+    "mean_lon": 10.415,
     "regions": [
       "Baden-W\u00fcrttemberg",
       "Aargau",
@@ -105285,6 +106031,7 @@
       "Zurich",
       "Aargau",
       "Aargau",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -105329,6 +106076,7 @@
       "Finland",
       "United States",
       "United States",
+      "Switzerland",
       "Switzerland",
       "Switzerland",
       "Switzerland",
@@ -105381,7 +106129,8 @@
       501.9,
       172.3,
       90.1,
-      90.1
+      90.1,
+      115
     ],
     "times": [
       7,
@@ -105429,7 +106178,8 @@
       7.1,
       8.3,
       8.4,
-      8.2
+      8.2,
+      8
     ]
   },
   "2012 Summer Olympics (XXX Olympiad)": {
@@ -106743,10 +107493,10 @@
     ]
   },
   "2010 FIFA World Cup Final (ESP 1, GUM 0)": {
-    "mean_dist": 560.4,
-    "mean_time": 7.3,
-    "std_dist": 1499.4,
-    "std_time": 1.4,
+    "mean_dist": 548.5,
+    "mean_time": 7.2,
+    "std_dist": 1465.1,
+    "std_time": 1.5,
     "city": "2010 FIFA World Cup Final (ESP 1, GUM 0)",
     "country": "",
     "lats": [
@@ -106789,7 +107539,9 @@
       -28.223,
       -26.343,
       -25.06,
-      -26.343
+      -26.343,
+      -25.489,
+      -30.515
     ],
     "lons": [
       "x",
@@ -106831,10 +107583,12 @@
       23.746,
       26.117,
       27.058,
+      25.411,
+      27.764,
       25.411
     ],
-    "mean_lat": -22.017,
-    "mean_lon": 26.609,
+    "mean_lat": -22.815,
+    "mean_lon": 26.606,
     "regions": [
       "Aargau",
       "Aargau",
@@ -106875,7 +107629,9 @@
       "Alberta",
       "Aargau",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "Aargau",
+      "Auckland"
     ],
     "countries": [
       "Switzerland",
@@ -106917,7 +107673,9 @@
       "Canada",
       "Switzerland",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "Switzerland",
+      "New Zealand"
     ],
     "dists": [
       1167.2,
@@ -106959,7 +107717,9 @@
       473.5,
       186.2,
       160,
-      256.5
+      256.5,
+      85.6,
+      538.2
     ],
     "times": [
       7.2,
@@ -107001,7 +107761,9 @@
       4.6,
       8.1,
       8,
-      8.4
+      8.4,
+      7.8,
+      3.9
     ]
   },
   "1896 Summer Olympics (First Olympiad)": {
@@ -107679,9 +108441,9 @@
     ]
   },
   "1930 FIFA World Cup (First World Cup, URU 6, YUG 0)": {
-    "mean_dist": 1333.7,
+    "mean_dist": 1313.2,
     "mean_time": 6.8,
-    "std_dist": 3286.1,
+    "std_dist": 3259.6,
     "std_time": 1.9,
     "city": "1930 FIFA World Cup (First World Cup, URU 6, YUG 0)",
     "country": "",
@@ -107739,7 +108501,8 @@
       44.834,
       -33.532,
       -34.71,
-      -33.926
+      -33.926,
+      -33.729
     ],
     "lons": [
       "x",
@@ -107795,10 +108558,11 @@
       12,
       -54.823,
       -56.705,
-      -56.705
+      -56.705,
+      -57.882
     ],
-    "mean_lat": -24.778,
-    "mean_lon": -48.979,
+    "mean_lat": -25.076,
+    "mean_lon": -49.275,
     "regions": [
       "Aargau",
       "Aargau",
@@ -107853,7 +108617,8 @@
       "Indiana",
       "Aargau",
       "Aargau",
-      "Bavaria"
+      "Bavaria",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -107909,7 +108674,8 @@
       "United States",
       "Switzerland",
       "Switzerland",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       223.2,
@@ -107965,7 +108731,8 @@
       11205.2,
       194.6,
       54.4,
-      118.9
+      118.9,
+      204.9
     ],
     "times": [
       4.5,
@@ -108021,7 +108788,8 @@
       6.7,
       8.4,
       8.1,
-      7.4
+      7.4,
+      8
     ]
   },
   "2020 Summer Olympics (XXXII Olympiad)": {
@@ -110139,10 +110907,10 @@
     ]
   },
   "Ta Prohm Temple (\u1794\u17d2\u179a\u17b6\u179f\u17b6\u1791\u178f\u17b6\u1796\u17d2\u179a\u17a0\u17d2\u1798)": {
-    "mean_dist": 407.9,
-    "mean_time": 7,
-    "std_dist": 1038.7,
-    "std_time": 1.9,
+    "mean_dist": 400.7,
+    "mean_time": 7.1,
+    "std_dist": 1019.2,
+    "std_time": 1.8,
     "city": "Ta Prohm Temple (\u1794\u17d2\u179a\u17b6\u179f\u17b6\u1791\u178f\u17b6\u1796\u17d2\u179a\u17a0\u17d2\u1798)",
     "country": "",
     "lats": [
@@ -110195,7 +110963,9 @@
       15.204,
       12.207,
       15.76,
-      11.743
+      11.743,
+      11.278,
+      11.975
     ],
     "lons": [
       "x",
@@ -110247,10 +111017,12 @@
       101.176,
       103.764,
       101.074,
-      103.058
+      103.058,
+      105.176,
+      104
     ],
-    "mean_lat": 13.232,
-    "mean_lon": 102.569,
+    "mean_lat": 13.086,
+    "mean_lon": 102.752,
     "regions": [
       "Aargau",
       "California",
@@ -110301,7 +111073,9 @@
       "Washington",
       "Aargau",
       "Bavaria",
-      "Bavaria"
+      "Bavaria",
+      "Aargau",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -110353,7 +111127,9 @@
       "United States",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland",
+      "Switzerland"
     ],
     "dists": [
       95.6,
@@ -110405,7 +111181,9 @@
       352.2,
       137.1,
       398.2,
-      208.5
+      208.5,
+      277.5,
+      162.6
     ],
     "times": [
       8,
@@ -110457,13 +111235,15 @@
       5.5,
       8.2,
       5.7,
-      6.3
+      6.3,
+      8.5,
+      8.2
     ]
   },
   "La Brea Tar Pits": {
-    "mean_dist": 301.4,
+    "mean_dist": 294.6,
     "mean_time": 7.7,
-    "std_dist": 622.4,
+    "std_dist": 615.5,
     "std_time": 1,
     "city": "La Brea Tar Pits",
     "country": "",
@@ -110504,7 +111284,8 @@
       41.726,
       43.827,
       32.475,
-      33.47
+      33.47,
+      33.668
     ],
     "lons": [
       "x",
@@ -110543,10 +111324,11 @@
       -79.058,
       -98.368,
       -117.882,
-      -119.294
+      -119.294,
+      -118.352
     ],
-    "mean_lat": 34.812,
-    "mean_lon": -115.42,
+    "mean_lat": 34.749,
+    "mean_lon": -115.583,
     "regions": [
       "Aargau",
       "Aargau",
@@ -110583,6 +111365,7 @@
       "Aargau",
       "New South Wales",
       "Zurich",
+      "Aargau",
       "Aargau",
       "Aargau"
     ],
@@ -110621,6 +111404,7 @@
       "Switzerland",
       "Switzerland",
       "Australia",
+      "Switzerland",
       "Switzerland",
       "Switzerland",
       "Switzerland"
@@ -110662,7 +111446,8 @@
       3519.4,
       2033,
       181.9,
-      108.9
+      108.9,
+      43.8
     ],
     "times": [
       8.3,
@@ -110701,14 +111486,15 @@
       6.3,
       6,
       8,
+      8.1,
       8.1
     ]
   },
   "Debre Damo Monastery (\u12f0\u1265\u1228 \u12f3\u121e)": {
-    "mean_dist": 1964.3,
+    "mean_dist": 1920.5,
     "mean_time": 7.3,
-    "std_dist": 3531,
-    "std_time": 1.7,
+    "std_dist": 3501.2,
+    "std_time": 1.6,
     "city": "Debre Damo Monastery (\u12f0\u1265\u1228 \u12f3\u121e)",
     "country": "",
     "lats": [
@@ -110753,7 +111539,8 @@
       9.645,
       13.826,
       26.913,
-      12.439
+      12.439,
+      13.826
     ],
     "lons": [
       "x",
@@ -110797,10 +111584,11 @@
       37.882,
       39.529,
       47.764,
-      39.764
+      39.764,
+      38.823
     ],
-    "mean_lat": 15.189,
-    "mean_lon": 27.342,
+    "mean_lat": 15.13,
+    "mean_lon": 27.841,
     "regions": [
       "Aargau",
       "California",
@@ -110841,6 +111629,7 @@
       "South Holland",
       "South Holland",
       "South Holland",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau"
@@ -110887,6 +111676,7 @@
       "Netherlands",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -110931,7 +111721,8 @@
       547.6,
       66.1,
       1648.3,
-      221.1
+      221.1,
+      79
     ],
     "times": [
       8.1,
@@ -110975,7 +111766,8 @@
       7.1,
       8.2,
       8.3,
-      8.2
+      8.2,
+      8.1
     ]
   },
   "Discovery of Neanderthals (Neandertal Valley)": {
@@ -111425,9 +112217,9 @@
     ]
   },
   "F*cking, Austria": {
-    "mean_dist": 299.7,
+    "mean_dist": 295.3,
     "mean_time": 7.6,
-    "std_dist": 870.2,
+    "std_dist": 858.8,
     "std_time": 1.5,
     "city": "F*cking",
     "country": "Austria",
@@ -111467,7 +112259,8 @@
       48.888,
       47.303,
       47.142,
-      47.624
+      47.624,
+      46.98
     ],
     "lons": [
       "x",
@@ -111505,10 +112298,11 @@
       17.411,
       11.294,
       12.705,
-      12.705
+      12.705,
+      13.647
     ],
-    "mean_lat": 46.619,
-    "mean_lon": 15.563,
+    "mean_lat": 46.635,
+    "mean_lon": 15.48,
     "regions": [
       "Aargau",
       "Aargau",
@@ -111543,6 +112337,7 @@
       "Aargau",
       "Auvergne-Rh\u00f4ne-Alpes",
       "Auvergne-Rh\u00f4ne-Alpes",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau"
@@ -111583,6 +112378,7 @@
       "France",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -111621,7 +112417,8 @@
       347.3,
       144.9,
       103.5,
-      50.6
+      50.6,
+      134.3
     ],
     "times": [
       8,
@@ -111659,7 +112456,8 @@
       5.8,
       8.5,
       8.4,
-      8.3
+      8.3,
+      8.4
     ]
   },
   "Sh*tten Bay": {
@@ -112513,9 +113311,9 @@
     ]
   },
   "Origin of COVID-19 (Coronavirus) Outbreak": {
-    "mean_dist": 1263.2,
-    "mean_lat": 25.592,
-    "mean_lon": 108.06,
+    "mean_dist": 1052.7,
+    "mean_lat": 26.908,
+    "mean_lon": 109.486,
     "lats": [
       "x",
       "x",
@@ -112525,7 +113323,9 @@
       30.041,
       29.835,
       30.451,
-      29.629
+      29.629,
+      31.468,
+      30.246
     ],
     "lons": [
       "x",
@@ -112536,11 +113336,13 @@
       115.764,
       115.764,
       115.294,
-      114.823
+      114.823,
+      114.352,
+      113.176
     ],
-    "mean_time": 7.7,
-    "std_dist": 1896.8,
-    "std_time": 1.1,
+    "mean_time": 7.8,
+    "std_dist": 1772.8,
+    "std_time": 1,
     "city": "Origin of COVID-19 (Coronavirus) Outbreak",
     "country": "",
     "regions": [
@@ -112549,6 +113351,8 @@
       "Aargau",
       "California",
       "New York",
+      "Aargau",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau",
@@ -112563,6 +113367,8 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -112574,7 +113380,9 @@
       154.1,
       164.6,
       97.5,
-      118.2
+      118.2,
+      98.2,
+      113.1
     ],
     "times": [
       7,
@@ -112585,6 +113393,8 @@
       7.9,
       8,
       8.3,
+      8.2,
+      8.4,
       8.2
     ]
   }
