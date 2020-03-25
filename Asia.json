@@ -3847,9 +3847,9 @@
     ]
   },
   "Karaj, Iran": {
-    "mean_dist": 573.6,
+    "mean_dist": 578.7,
     "mean_time": 6.8,
-    "std_dist": 707.3,
+    "std_dist": 682,
     "std_time": 1.6,
     "city": "Karaj",
     "admin": "Alborz",
@@ -3881,7 +3881,10 @@
       35.252,
       34.47,
       32.751,
-      34.647
+      34.647,
+      34.146,
+      27.186,
+      35.535
     ],
     "lons": [
       "x",
@@ -3910,10 +3913,13 @@
       47.862,
       48.209,
       44.108,
-      53.124
+      53.124,
+      47.3,
+      57.945,
+      47.34
     ],
-    "mean_lat": 34.28,
-    "mean_lon": 48.325,
+    "mean_lat": 33.426,
+    "mean_lon": 49.412,
     "regions": [
       "New South Wales",
       "Utrecht",
@@ -3941,7 +3947,10 @@
       "Aargau",
       "Uusimaa",
       "Uusimaa",
-      "Washington"
+      "Washington",
+      "\u00d8stfold",
+      "\u00d8stfold",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -3970,7 +3979,10 @@
       "Switzerland",
       "Finland",
       "Finland",
-      "United States"
+      "United States",
+      "Norway",
+      "Norway",
+      "Switzerland"
     ],
     "dists": [
       136.6,
@@ -3999,7 +4011,10 @@
       287.7,
       291.2,
       715.5,
-      233.9
+      233.9,
+      381.5,
+      1163.1,
+      329.1
     ],
     "times": [
       5.1,
@@ -4028,14 +4043,17 @@
       8.1,
       8,
       5.5,
-      5.4
+      5.4,
+      3.4,
+      6.5,
+      7.9
     ]
   },
   "Astrakhan\u2019, Astrakhanskaya Oblast\u2019, Russia": {
-    "mean_dist": 922.9,
-    "mean_time": 6.7,
-    "std_dist": 1088.7,
-    "std_time": 1.6,
+    "mean_dist": 1005.2,
+    "mean_time": 6.5,
+    "std_dist": 1109.2,
+    "std_time": 1.9,
     "admin": "Astrakhanskaya Oblast\u2019",
     "country": "Russia",
     "city": "Astrakhan\u2019",
@@ -4060,7 +4078,9 @@
       "x",
       46.538,
       53.842,
-      56.949
+      56.949,
+      54.585,
+      53.602
     ],
     "lons": [
       "x",
@@ -4083,10 +4103,12 @@
       "x",
       48.122,
       49.6,
-      83.922
+      83.922,
+      86.197,
+      41.574
     ],
-    "mean_lat": 52.443,
-    "mean_lon": 60.548,
+    "mean_lat": 53.103,
+    "mean_lon": 61.883,
     "regions": [
       "England",
       "Stockholm",
@@ -4108,7 +4130,9 @@
       "Aargau",
       "Aargau",
       "Uusimaa",
-      "Uusimaa"
+      "Uusimaa",
+      "England",
+      "England"
     ],
     "countries": [
       "United Kingdom",
@@ -4131,7 +4155,9 @@
       "Switzerland",
       "Switzerland",
       "Finland",
-      "Finland"
+      "Finland",
+      "United Kingdom",
+      "United Kingdom"
     ],
     "dists": [
       613.3,
@@ -4154,7 +4180,9 @@
       52.2,
       21.7,
       840.4,
-      2699.7
+      2699.7,
+      2810.3,
+      929.4
     ],
     "times": [
       6.1,
@@ -4177,7 +4205,9 @@
       5.5,
       7.6,
       7.7,
-      8
+      8,
+      1.5,
+      7.6
     ]
   },
   "Daejeon, Korea, South": {
@@ -7507,10 +7537,10 @@
     ]
   },
   "Tainan, Taiwan": {
-    "mean_dist": 512.4,
-    "mean_time": 7.6,
-    "std_dist": 1691.2,
-    "std_time": 0.7,
+    "mean_dist": 561.2,
+    "mean_time": 6.8,
+    "std_dist": 1565,
+    "std_time": 2,
     "admin": "Tainan",
     "country": "Taiwan",
     "city": "Tainan",
@@ -7535,7 +7565,13 @@
       "x",
       "x",
       24.141,
-      23.189
+      23.189,
+      21.102,
+      24.141,
+      23.427,
+      28.337,
+      23.95,
+      24.299
     ],
     "lons": [
       "x",
@@ -7558,10 +7594,16 @@
       "x",
       "x",
       120.794,
-      120.533
+      120.533,
+      110.102,
+      120.794,
+      120.968,
+      92.803,
+      120.868,
+      121.055
     ],
-    "mean_lat": 23.665,
-    "mean_lon": 120.663,
+    "mean_lat": 24.073,
+    "mean_lon": 115.989,
     "regions": [
       "California",
       "California",
@@ -7583,7 +7625,13 @@
       "Ontario",
       "Alberta",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "Vienna",
+      "Vienna",
+      "Upper Austria",
+      "Upper Austria",
+      "Utrecht",
+      "Lower Austria"
     ],
     "countries": [
       "United States",
@@ -7606,7 +7654,13 @@
       "Canada",
       "Canada",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "Austria",
+      "Austria",
+      "Austria",
+      "Austria",
+      "Netherlands",
+      "Austria"
     ],
     "dists": [
       197.8,
@@ -7629,7 +7683,13 @@
       223.4,
       70.3,
       140.6,
-      40.1
+      40.1,
+      1061.5,
+      140.6,
+      91.8,
+      2802.5,
+      125.8,
+      168.7
     ],
     "times": [
       8.1,
@@ -7652,7 +7712,13 @@
       7,
       8.4,
       8.3,
-      8.3
+      8.3,
+      2.5,
+      7.5,
+      1.7,
+      0.3,
+      4.6,
+      6.3
     ]
   },
   "N\u0101gpur, Mah\u0101r\u0101shtra, India": {
@@ -12371,9 +12437,9 @@
     ]
   },
   "Coimbatore, Tamil N\u0101du, India": {
-    "mean_dist": 550.5,
+    "mean_dist": 544.5,
     "mean_time": 7.6,
-    "std_dist": 661.8,
+    "std_dist": 646.6,
     "std_time": 0.8,
     "admin": "Tamil N\u0101du",
     "country": "India",
@@ -12413,7 +12479,10 @@
       "x",
       18.69,
       20.492,
-      22.149
+      22.149,
+      19.27,
+      10.616,
+      9.507
     ],
     "lons": [
       "x",
@@ -12450,10 +12519,13 @@
       "x",
       80.652,
       78.507,
-      77.069
+      77.069,
+      82.158,
+      78.373,
+      77.765
     ],
-    "mean_lat": 20.443,
-    "mean_lon": 78.742,
+    "mean_lat": 16.787,
+    "mean_lon": 79.087,
     "regions": [
       "California",
       "Aargau",
@@ -12489,7 +12561,10 @@
       "Bavaria",
       "North Rhine-Westphalia",
       "North Rhine-Westphalia",
-      "North Rhine-Westphalia"
+      "North Rhine-Westphalia",
+      "\u00d8stfold",
+      "\u00d8stfold",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -12526,7 +12601,10 @@
       "Germany",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "Norway",
+      "Norway",
+      "Switzerland"
     ],
     "dists": [
       206.8,
@@ -12563,7 +12641,10 @@
       2116.5,
       943,
       1068.6,
-      1239.8
+      1239.8,
+      1075.9,
+      161.2,
+      188.3
     ],
     "times": [
       7.4,
@@ -12600,7 +12681,10 @@
       7.2,
       7.7,
       7.5,
-      8.1
+      8.1,
+      6.2,
+      6.4,
+      8.8
     ]
   },
   "Bangkok, Thailand": {
@@ -12974,9 +13058,9 @@
     ]
   },
   "Sukkur, Pakistan": {
-    "mean_dist": 507.2,
-    "mean_time": 7,
-    "std_dist": 319.7,
+    "mean_dist": 508.5,
+    "mean_time": 6.9,
+    "std_dist": 305.9,
     "std_time": 1.4,
     "admin": "Sindh",
     "country": "Pakistan",
@@ -13007,7 +13091,10 @@
       39.33,
       34.969,
       25.4,
-      32.738
+      32.738,
+      32.554,
+      26.568,
+      30.001
     ],
     "lons": [
       "x",
@@ -13035,10 +13122,13 @@
       69.144,
       72.81,
       67.507,
-      72.115
+      72.115,
+      73.465,
+      64.03,
+      71.593
     ],
-    "mean_lat": 32.139,
-    "mean_lon": 70.025,
+    "mean_lat": 31.227,
+    "mean_lon": 69.901,
     "regions": [
       "California",
       "New South Wales",
@@ -13065,6 +13155,9 @@
       "Uusimaa",
       "Bavaria",
       "Bavaria",
+      "Aargau",
+      "\u00d8stfold",
+      "\u00d8stfold",
       "Aargau"
     ],
     "countries": [
@@ -13093,6 +13186,9 @@
       "Finland",
       "Germany",
       "Germany",
+      "Switzerland",
+      "Norway",
+      "Norway",
       "Switzerland"
     ],
     "dists": [
@@ -13121,7 +13217,10 @@
       1292,
       889.9,
       289.7,
-      640.7
+      640.7,
+      697.5,
+      493.4,
+      368.9
     ],
     "times": [
       8.2,
@@ -13149,7 +13248,10 @@
       5.3,
       7,
       7.2,
-      8.4
+      8.4,
+      5.3,
+      6.8,
+      6
     ]
   },
   "Jiaozuo, Henan, China": {
@@ -13451,9 +13553,9 @@
     ]
   },
   "Bengal\u016bru, Karn\u0101taka, India": {
-    "mean_dist": 757.1,
-    "mean_time": 7.1,
-    "std_dist": 540,
+    "mean_dist": 744.3,
+    "mean_time": 7,
+    "std_dist": 542.4,
     "std_time": 1.4,
     "admin": "Karn\u0101taka",
     "country": "India",
@@ -13484,7 +13586,10 @@
       "x",
       "x",
       "x",
-      14.59
+      14.59,
+      15.383,
+      25.086,
+      13.834
     ],
     "lons": [
       "x",
@@ -13512,10 +13617,13 @@
       "x",
       "x",
       "x",
-      75.244
+      75.244,
+      77.986,
+      73.505,
+      75.766
     ],
-    "mean_lat": 14.59,
-    "mean_lon": 75.244,
+    "mean_lat": 17.223,
+    "mean_lon": 75.625,
     "regions": [
       "California",
       "Pennsylvania",
@@ -13542,6 +13650,9 @@
       "Colorado",
       "Pomerania",
       "Bangkok",
+      "Aargau",
+      "\u00d8stfold",
+      "\u00d8stfold",
       "Aargau"
     ],
     "countries": [
@@ -13570,6 +13681,9 @@
       "United States",
       "Poland",
       "Thailand",
+      "Switzerland",
+      "Norway",
+      "Norway",
       "Switzerland"
     ],
     "dists": [
@@ -13598,7 +13712,10 @@
       1321.1,
       519.3,
       1378.9,
-      308.2
+      308.2,
+      272.2,
+      1412.7,
+      216.5
     ],
     "times": [
       8,
@@ -13626,7 +13743,10 @@
       6.1,
       1.3,
       7,
-      8.4
+      8.4,
+      5.2,
+      5.3,
+      7.8
     ]
   },
   "Cheboksary, Chuvashiya, Russia": {
@@ -13982,9 +14102,9 @@
     ]
   },
   "Andijon, Uzbekistan": {
-    "mean_dist": 267.3,
-    "mean_time": 7.5,
-    "std_dist": 171.5,
+    "mean_dist": 261.8,
+    "mean_time": 7.6,
+    "std_dist": 171,
     "std_time": 0.6,
     "admin": "Andijon",
     "country": "Uzbekistan",
@@ -14017,7 +14137,8 @@
       40.58,
       41.039,
       41.625,
-      41.56
+      41.56,
+      41.754
     ],
     "lons": [
       "x",
@@ -14047,10 +14168,11 @@
       68.724,
       71.332,
       74.201,
-      71.68
+      71.68,
+      72.201
     ],
-    "mean_lat": 40.44,
-    "mean_lon": 70.981,
+    "mean_lat": 40.628,
+    "mean_lon": 71.155,
     "regions": [
       "California",
       "Aargau",
@@ -14078,6 +14200,7 @@
       "Uusimaa",
       "Bavaria",
       "Bavaria",
+      "Aargau",
       "Aargau",
       "Aargau"
     ],
@@ -14109,6 +14232,7 @@
       "Germany",
       "Germany",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -14139,7 +14263,8 @@
       305.6,
       89,
       181.2,
-      101.9
+      101.9,
+      107.8
     ],
     "times": [
       8.4,
@@ -14169,7 +14294,8 @@
       7.4,
       7.5,
       7.8,
-      7.5
+      7.5,
+      8.1
     ]
   },
   "Baguio City, Philippines": {
@@ -15526,9 +15652,9 @@
     ]
   },
   "Eski\u015fehir, Turkey": {
-    "mean_dist": 476.1,
+    "mean_dist": 492.8,
     "mean_time": 7.2,
-    "std_dist": 316.7,
+    "std_dist": 308.4,
     "std_time": 0.8,
     "admin": "Eski\u015fehir",
     "country": "Turkey",
@@ -15571,7 +15697,12 @@
       40.25,
       39.591,
       39.196,
-      37.278
+      37.278,
+      39.551,
+      40.448,
+      40.448,
+      38.757,
+      38.712
     ],
     "lons": [
       "x",
@@ -15611,10 +15742,15 @@
       40.907,
       39.162,
       39.588,
-      34.909
+      34.909,
+      37.912,
+      40.907,
+      33.779,
+      38.56,
+      37.314
     ],
-    "mean_lat": 39.078,
-    "mean_lon": 38.641,
+    "mean_lat": 39.359,
+    "mean_lon": 38.115,
     "regions": [
       "\u00cele-de-France",
       "New South Wales",
@@ -15653,7 +15789,12 @@
       "Aargau",
       "Alberta",
       "Uusimaa",
-      "Uusimaa"
+      "Uusimaa",
+      "\u00d8stfold",
+      "\u00d8stfold",
+      "Aargau",
+      "England",
+      "England"
     ],
     "countries": [
       "France",
@@ -15693,7 +15834,12 @@
       "Switzerland",
       "Canada",
       "Finland",
-      "Finland"
+      "Finland",
+      "Norway",
+      "Norway",
+      "Switzerland",
+      "United Kingdom",
+      "United Kingdom"
     ],
     "dists": [
       948.8,
@@ -15733,7 +15879,12 @@
       884.6,
       738.6,
       779.7,
-      472.5
+      472.5,
+      632.2,
+      884.8,
+      285.7,
+      700.5,
+      596.3
     ],
     "times": [
       7.2,
@@ -15773,7 +15924,12 @@
       8.1,
       5,
       7.4,
-      7.7
+      7.7,
+      6.7,
+      6.6,
+      5.8,
+      6.6,
+      7.3
     ]
   },
   "Anshan, Liaoning, China": {
@@ -16248,10 +16404,10 @@
     ]
   },
   "Ludhi\u0101na, Punjab, India": {
-    "mean_dist": 709.4,
-    "mean_time": 6.3,
-    "std_dist": 916.2,
-    "std_time": 1.7,
+    "mean_dist": 730.5,
+    "mean_time": 6.4,
+    "std_dist": 856.8,
+    "std_time": 1.6,
     "admin": "Punjab",
     "country": "India",
     "city": "Ludhi\u0101na",
@@ -16266,7 +16422,9 @@
       "x",
       "x",
       "x",
-      31.343
+      31.343,
+      20.508,
+      28.133
     ],
     "lons": [
       "x",
@@ -16279,10 +16437,12 @@
       "x",
       "x",
       "x",
-      75.766
+      75.766,
+      79.677,
+      72.172
     ],
-    "mean_lat": 31.343,
-    "mean_lon": 75.766,
+    "mean_lat": 26.661,
+    "mean_lon": 75.871,
     "regions": [
       "New York",
       "Mazovia",
@@ -16294,7 +16454,9 @@
       "Aargau",
       "Bangkok",
       "Uusimaa",
-      "Aargau"
+      "Aargau",
+      "England",
+      "England"
     ],
     "countries": [
       "United States",
@@ -16307,7 +16469,9 @@
       "Switzerland",
       "Thailand",
       "Finland",
-      "Switzerland"
+      "Switzerland",
+      "United Kingdom",
+      "United Kingdom"
     ],
     "dists": [
       983.6,
@@ -16320,7 +16484,9 @@
       87.4,
       1052,
       399.6,
-      47.2
+      47.2,
+      1219.4,
+      473.9
     ],
     "times": [
       7.4,
@@ -16333,7 +16499,9 @@
       8.2,
       5.9,
       5.4,
-      6.5
+      6.5,
+      5.8,
+      7.4
     ]
   },
   "Zibo, Shandong, China": {
@@ -18157,9 +18325,9 @@
     ]
   },
   "Quetta, Pakistan": {
-    "mean_dist": 450.8,
+    "mean_dist": 433.9,
     "mean_time": 7,
-    "std_dist": 406.4,
+    "std_dist": 396.4,
     "std_time": 1.2,
     "admin": "Balochist\u0101n",
     "country": "Pakistan",
@@ -18198,7 +18366,10 @@
       "x",
       28.031,
       27.354,
-      29.782
+      29.782,
+      30.112,
+      28.641,
+      30.076
     ],
     "lons": [
       "x",
@@ -18234,10 +18405,13 @@
       "x",
       68.116,
       68.448,
-      69.413
+      69.413,
+      71.205,
+      64.465,
+      67.16
     ],
-    "mean_lat": 28.389,
-    "mean_lon": 68.658,
+    "mean_lat": 28.999,
+    "mean_lon": 68.134,
     "regions": [
       "New York",
       "California",
@@ -18272,7 +18446,10 @@
       "Hesse",
       "Uusimaa",
       "Uusimaa",
-      "Utrecht"
+      "Utrecht",
+      "\u00d8stfold",
+      "\u00d8stfold",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -18308,7 +18485,10 @@
       "Germany",
       "Finland",
       "Finland",
-      "Netherlands"
+      "Netherlands",
+      "Norway",
+      "Norway",
+      "Switzerland"
     ],
     "dists": [
       176.5,
@@ -18344,7 +18524,10 @@
       226.5,
       265.4,
       347.4,
-      235
+      235,
+      402,
+      303.7,
+      20.5
     ],
     "times": [
       8,
@@ -18380,7 +18563,10 @@
       7.3,
       8.4,
       6.1,
-      7.4
+      7.4,
+      6.2,
+      6.3,
+      8
     ]
   },
   "Tokyo, Japan": {
@@ -19338,9 +19524,9 @@
     ]
   },
   "C\u1ea7n Th\u01a1, Vietnam": {
-    "mean_dist": 431.5,
+    "mean_dist": 415.1,
     "mean_time": 7.2,
-    "std_dist": 773.2,
+    "std_dist": 759.1,
     "std_time": 1.1,
     "admin": "C\u1ea7n Th\u01a1",
     "country": "Vietnam",
@@ -19366,7 +19552,8 @@
       "x",
       "x",
       "x",
-      9.251
+      9.251,
+      9.678
     ],
     "lons": [
       "x",
@@ -19389,10 +19576,11 @@
       "x",
       "x",
       "x",
-      105.321
+      105.321,
+      105.234
     ],
-    "mean_lat": 9.251,
-    "mean_lon": 105.321,
+    "mean_lat": 9.464,
+    "mean_lon": 105.277,
     "regions": [
       "New York",
       "England",
@@ -19414,6 +19602,7 @@
       "Aargau",
       "Bavaria",
       "Bavaria",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -19437,6 +19626,7 @@
       "Switzerland",
       "Germany",
       "Germany",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -19460,7 +19650,8 @@
       344.7,
       451.7,
       645.1,
-      101.5
+      101.5,
+      71.7
     ],
     "times": [
       8.2,
@@ -19483,7 +19674,8 @@
       7.9,
       7.1,
       6.8,
-      7.9
+      7.9,
+      7.4
     ]
   },
   "Sh\u012br\u0101z, Iran": {
@@ -22546,9 +22738,9 @@
     ]
   },
   "Vish\u0101khapatnam, Andhra Pradesh, India": {
-    "mean_dist": 861.8,
-    "mean_time": 6.9,
-    "std_dist": 451.5,
+    "mean_dist": 846.6,
+    "mean_time": 7,
+    "std_dist": 450.3,
     "std_time": 1.5,
     "admin": "Andhra Pradesh",
     "country": "India",
@@ -22580,7 +22772,8 @@
       "x",
       "x",
       18.493,
-      26.024
+      26.024,
+      15.594
     ],
     "lons": [
       "x",
@@ -22609,10 +22802,11 @@
       "x",
       "x",
       83.328,
-      75.331
+      75.331,
+      79.851
     ],
-    "mean_lat": 22.258,
-    "mean_lon": 79.329,
+    "mean_lat": 20.037,
+    "mean_lon": 79.503,
     "regions": [
       "New York",
       "Aargau",
@@ -22638,6 +22832,7 @@
       "Aargau",
       "Prevalje",
       "Prevalje",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau"
@@ -22669,6 +22864,7 @@
       "Slovenia",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -22698,7 +22894,8 @@
       1359.8,
       464.6,
       84.9,
-      1235.2
+      1235.2,
+      437.8
     ],
     "times": [
       7.6,
@@ -22727,7 +22924,8 @@
       5.9,
       7.4,
       5.6,
-      8.2
+      8.2,
+      8.1
     ]
   },
   "Omsk, Omskaya Oblast\u2019, Russia": {
@@ -22922,9 +23120,9 @@
     ]
   },
   "Saidu Sharif, Pakistan": {
-    "mean_dist": 402.9,
+    "mean_dist": 395.3,
     "mean_time": 7.4,
-    "std_dist": 285.2,
+    "std_dist": 278.9,
     "std_time": 0.7,
     "admin": "Khyber Pakhtunkhwa",
     "country": "Pakistan",
@@ -22946,7 +23144,8 @@
       "x",
       28.579,
       29.374,
-      33.464
+      33.464,
+      32.738
     ],
     "lons": [
       "x",
@@ -22965,10 +23164,11 @@
       "x",
       67.753,
       67.594,
-      72.984
+      72.984,
+      73.94
     ],
-    "mean_lat": 30.472,
-    "mean_lon": 69.443,
+    "mean_lat": 31.038,
+    "mean_lon": 70.567,
     "regions": [
       "New York",
       "Pennsylvania",
@@ -22986,6 +23186,7 @@
       "Bangkok",
       "Uusimaa",
       "England",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -23005,6 +23206,7 @@
       "Thailand",
       "Finland",
       "United Kingdom",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -23024,7 +23226,8 @@
       517.6,
       812.1,
       746.8,
-      154.4
+      154.4,
+      267.6
     ],
     "times": [
       8.1,
@@ -23043,7 +23246,8 @@
       6.5,
       6,
       6.1,
-      8.4
+      8.4,
+      7.5
     ]
   },
   "Tab\u016bk, Saudi Arabia": {
@@ -24913,9 +25117,9 @@
     ]
   },
   "Ulsan, Korea, South": {
-    "mean_dist": 183.3,
+    "mean_dist": 185.1,
     "mean_time": 7.5,
-    "std_dist": 66,
+    "std_dist": 64.9,
     "std_time": 0.9,
     "admin": "Ulsan",
     "country": "Korea, South",
@@ -24939,7 +25143,8 @@
       36.027,
       36.598,
       36.516,
-      37.083
+      37.083,
+      36.863
     ],
     "lons": [
       "x",
@@ -24960,10 +25165,11 @@
       128.096,
       127.994,
       128.009,
-      128.081
+      128.081,
+      127.488
     ],
-    "mean_lat": 36.556,
-    "mean_lon": 128.045,
+    "mean_lat": 36.617,
+    "mean_lon": 127.933,
     "regions": [
       "Ontario",
       "England",
@@ -24983,7 +25189,8 @@
       "Uusimaa",
       "Uusimaa",
       "Uusimaa",
-      "Uusimaa"
+      "Uusimaa",
+      "Aargau"
     ],
     "countries": [
       "Canada",
@@ -25004,7 +25211,8 @@
       "Finland",
       "Finland",
       "Finland",
-      "Finland"
+      "Finland",
+      "Switzerland"
     ],
     "dists": [
       183.3,
@@ -25025,7 +25233,8 @@
       122.3,
       166.7,
       159.4,
-      203.6
+      203.6,
+      219.9
     ],
     "times": [
       6.9,
@@ -25046,7 +25255,8 @@
       8.7,
       6.8,
       8.7,
-      5.6
+      5.6,
+      7.8
     ]
   },
   "Wusong, Anhui, China": {
@@ -26957,9 +27167,9 @@
     ]
   },
   "Mawlamyine, Burma": {
-    "mean_dist": 795.6,
-    "mean_time": 6.3,
-    "std_dist": 1063.8,
+    "mean_dist": 754.9,
+    "mean_time": 6,
+    "std_dist": 1001.5,
     "std_time": 2.4,
     "admin": "Mon State",
     "country": "Burma",
@@ -26983,7 +27193,10 @@
       "x",
       23.442,
       20.291,
-      28.26
+      28.26,
+      21.221,
+      21.667,
+      16.177
     ],
     "lons": [
       "x",
@@ -27004,10 +27217,13 @@
       "x",
       96.265,
       95.498,
-      95.15
+      95.15,
+      94.154,
+      92.195,
+      97.758
     ],
-    "mean_lat": 23.997,
-    "mean_lon": 95.637,
+    "mean_lat": 21.843,
+    "mean_lon": 95.17,
     "regions": [
       "California",
       "V\u00e4sterbotten",
@@ -27027,7 +27243,10 @@
       "England",
       "Uusimaa",
       "Uusimaa",
-      "New South Wales"
+      "New South Wales",
+      "\u00d8stfold",
+      "\u00d8stfold",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -27048,7 +27267,10 @@
       "United Kingdom",
       "Finland",
       "Finland",
-      "Australia"
+      "Australia",
+      "Norway",
+      "Norway",
+      "Switzerland"
     ],
     "dists": [
       5086,
@@ -27069,7 +27291,10 @@
       328.7,
       785.6,
       479.7,
-      1332.9
+      1332.9,
+      642.1,
+      812.8,
+      37
     ],
     "times": [
       9.9,
@@ -27090,7 +27315,10 @@
       3.5,
       7.6,
       8.5,
-      1.4
+      1.4,
+      3.2,
+      2.3,
+      7.6
     ]
   },
   "Incheon, Korea, South": {
@@ -30118,9 +30346,9 @@
     ]
   },
   "Yangzhou, Jiangsu, China": {
-    "mean_dist": 570.6,
+    "mean_dist": 553.8,
     "mean_time": 7,
-    "std_dist": 477.1,
+    "std_dist": 474.7,
     "std_time": 0.7,
     "city": "Yangzhou",
     "admin": "Jiangsu",
@@ -30149,7 +30377,8 @@
       "x",
       "x",
       37.377,
-      40.184
+      40.184,
+      33.753
     ],
     "lons": [
       "x",
@@ -30175,10 +30404,11 @@
       "x",
       "x",
       113.976,
-      122.098
+      122.098,
+      119.49
     ],
-    "mean_lat": 38.78,
-    "mean_lon": 118.037,
+    "mean_lat": 37.104,
+    "mean_lon": 118.521,
     "regions": [
       "Pennsylvania",
       "Pennsylvania",
@@ -30203,7 +30433,8 @@
       "Pomerania",
       "Colorado",
       "Bavaria",
-      "Bavaria"
+      "Bavaria",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -30229,7 +30460,8 @@
       "Poland",
       "United States",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       383.6,
@@ -30255,7 +30487,8 @@
       1379.4,
       420.1,
       743.8,
-      897.9
+      897.9,
+      150.5
     ],
     "times": [
       6.7,
@@ -30281,13 +30514,14 @@
       4.9,
       7.4,
       7.1,
-      6.5
+      6.5,
+      8.2
     ]
   },
   "Ahv\u0101z, Iran": {
-    "mean_dist": 614.9,
-    "mean_time": 6.4,
-    "std_dist": 388.8,
+    "mean_dist": 591.5,
+    "mean_time": 6.5,
+    "std_dist": 389.9,
     "std_time": 1.6,
     "admin": "Kh\u016bzest\u0101n",
     "country": "Iran",
@@ -30309,7 +30543,8 @@
       "x",
       "x",
       "x",
-      31.933
+      31.933,
+      32.956
     ],
     "lons": [
       "x",
@@ -30328,10 +30563,11 @@
       "x",
       "x",
       "x",
-      51.165
+      51.165,
+      49.339
     ],
-    "mean_lat": 31.933,
-    "mean_lon": 51.165,
+    "mean_lat": 32.444,
+    "mean_lon": 50.251,
     "regions": [
       "Michigan",
       "Aargau",
@@ -30349,6 +30585,7 @@
       "Alberta",
       "Bangkok",
       "Hlavn\u00ed m\u011bsto Praha",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -30368,6 +30605,7 @@
       "Canada",
       "Thailand",
       "Czech Republic",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -30387,7 +30625,8 @@
       257.8,
       358,
       438.7,
-      242.6
+      242.6,
+      195.3
     ],
     "times": [
       5.5,
@@ -30406,7 +30645,8 @@
       8.3,
       4.3,
       5.5,
-      8.4
+      8.4,
+      8
     ]
   },
   "Amritsar, Punjab, India": {
@@ -32825,10 +33065,10 @@
     ]
   },
   "Baghdad, Iraq": {
-    "mean_dist": 367.8,
-    "mean_time": 6.8,
-    "std_dist": 566.1,
-    "std_time": 1.2,
+    "mean_dist": 349.9,
+    "mean_time": 6.7,
+    "std_dist": 540.6,
+    "std_time": 1.3,
     "city": "Baghdad",
     "admin": "Baghd\u0101d",
     "country": "Iraq",
@@ -32859,7 +33099,10 @@
       34.399,
       31.792,
       32.554,
-      33.464
+      33.464,
+      31.968,
+      31.268,
+      33.319
     ],
     "lons": [
       "x",
@@ -32888,10 +33131,13 @@
       44.906,
       47.594,
       45.04,
-      43.776
+      43.776,
+      46.083,
+      46.297,
+      44.993
     ],
-    "mean_lat": 33.052,
-    "mean_lon": 45.329,
+    "mean_lat": 32.68,
+    "mean_lon": 45.527,
     "regions": [
       "Massachusetts",
       "Massachusetts",
@@ -32919,6 +33165,9 @@
       "Aargau",
       "Alberta",
       "Washington",
+      "Aargau",
+      "\u00d8stfold",
+      "\u00d8stfold",
       "Aargau"
     ],
     "countries": [
@@ -32948,6 +33197,9 @@
       "Switzerland",
       "Canada",
       "United States",
+      "Switzerland",
+      "Norway",
+      "Norway",
       "Switzerland"
     ],
     "dists": [
@@ -32977,7 +33229,10 @@
       127,
       345.7,
       106,
-      58.9
+      58.9,
+      219.6,
+      291.4,
+      55.7
     ],
     "times": [
       7.8,
@@ -33006,14 +33261,17 @@
       7.6,
       5.4,
       6.6,
-      8.1
+      8.1,
+      3.5,
+      6.7,
+      7.9
     ]
   },
   "Kolkata, West Bengal, India": {
-    "mean_dist": 668.1,
-    "mean_time": 6.6,
-    "std_dist": 686.7,
-    "std_time": 1.1,
+    "mean_dist": 620.8,
+    "mean_time": 6.5,
+    "std_dist": 663.3,
+    "std_time": 1.2,
     "admin": "West Bengal",
     "country": "India",
     "city": "Kolkata",
@@ -33041,7 +33299,10 @@
       "x",
       22.795,
       16.219,
-      24.915
+      24.915,
+      23.386,
+      19.884,
+      22.39
     ],
     "lons": [
       "x",
@@ -33067,10 +33328,13 @@
       "x",
       87.582,
       75.939,
-      73.865
+      73.865,
+      86.505,
+      84.893,
+      87.762
     ],
-    "mean_lat": 21.309,
-    "mean_lon": 79.128,
+    "mean_lat": 21.598,
+    "mean_lon": 82.757,
     "regions": [
       "Michigan",
       "Michigan",
@@ -33095,7 +33359,10 @@
       "Aargau",
       "Zurich",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "\u00d8stfold",
+      "\u00d8stfold",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -33121,7 +33388,10 @@
       "Switzerland",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Norway",
+      "Norway",
+      "Switzerland"
     ],
     "dists": [
       100.1,
@@ -33147,7 +33417,10 @@
       131.9,
       83.1,
       1473.7,
-      1495.7
+      1495.7,
+      211,
+      459,
+      58.9
     ],
     "times": [
       5.6,
@@ -33173,7 +33446,10 @@
       8.2,
       7.8,
       7.4,
-      6.7
+      6.7,
+      4.2,
+      7.3,
+      8
     ]
   },
   "Neijiang, Sichuan, China": {
@@ -34500,10 +34776,10 @@
     ]
   },
   "Luzhou, Sichuan, China": {
-    "mean_dist": 404.5,
-    "mean_time": 7.1,
-    "std_dist": 488.5,
-    "std_time": 1.6,
+    "mean_dist": 669.5,
+    "mean_time": 5.9,
+    "std_dist": 695.7,
+    "std_time": 2.3,
     "admin": "Sichuan",
     "country": "China",
     "city": "Luzhou",
@@ -34520,7 +34796,13 @@
       "x",
       29.625,
       30.897,
-      29.55
+      29.55,
+      40.316,
+      34.184,
+      42.716,
+      42.333,
+      28.838,
+      28.717
     ],
     "lons": [
       "x",
@@ -34535,10 +34817,16 @@
       "x",
       106.538,
       104.8,
-      104.886
+      104.886,
+      118.36,
+      113.666,
+      115.492,
+      124.098,
+      108.437,
+      101.149
     ],
-    "mean_lat": 30.024,
-    "mean_lon": 105.408,
+    "mean_lat": 34.13,
+    "mean_lon": 110.825,
     "regions": [
       "Michigan",
       "Michigan",
@@ -34552,7 +34840,13 @@
       "Aargau",
       "Aargau",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "Vienna",
+      "Vienna",
+      "Upper Austria",
+      "Upper Austria",
+      "Utrecht",
+      "Lower Austria"
     ],
     "countries": [
       "United States",
@@ -34567,7 +34861,13 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "Austria",
+      "Austria",
+      "Austria",
+      "Austria",
+      "Netherlands",
+      "Austria"
     ],
     "dists": [
       350.4,
@@ -34582,7 +34882,13 @@
       181.9,
       139.6,
       231.2,
-      88.5
+      88.5,
+      1736.5,
+      981.5,
+      1785.4,
+      2249.2,
+      297.8,
+      412.6
     ],
     "times": [
       3.5,
@@ -34597,7 +34903,13 @@
       7.9,
       8.3,
       8.5,
-      8.4
+      8.4,
+      4.1,
+      4.7,
+      0.6,
+      5.2,
+      3.7,
+      2.2
     ]
   },
   "Tabr\u012bz, Iran": {
@@ -35459,10 +35771,10 @@
     ]
   },
   "Butterworth, Malaysia": {
-    "mean_dist": 202.7,
-    "mean_time": 6.6,
-    "std_dist": 151.3,
-    "std_time": 1.1,
+    "mean_dist": 212,
+    "mean_time": 6.5,
+    "std_dist": 155,
+    "std_time": 1.2,
     "admin": "Pulau Pinang",
     "country": "Malaysia",
     "city": "Butterworth",
@@ -35489,7 +35801,10 @@
       5.384,
       5.643,
       4.607,
-      7.45
+      7.45,
+      3.006,
+      3.656,
+      5.901
     ],
     "lons": [
       "x",
@@ -35514,10 +35829,13 @@
       100.279,
       100.54,
       101.989,
-      99.671
+      99.671,
+      103.542,
+      103.061,
+      100.54
     ],
-    "mean_lat": 5.771,
-    "mean_lon": 100.619,
+    "mean_lat": 5.092,
+    "mean_lon": 101.374,
     "regions": [
       "Florida",
       "V\u00e4sterbotten",
@@ -35541,6 +35859,9 @@
       "Aargau",
       "Aargau",
       "Washington",
+      "Aargau",
+      "\u00d8stfold",
+      "\u00d8stfold",
       "Aargau"
     ],
     "countries": [
@@ -35566,6 +35887,9 @@
       "Switzerland",
       "Switzerland",
       "United States",
+      "Switzerland",
+      "Norway",
+      "Norway",
       "Switzerland"
     ],
     "dists": [
@@ -35591,7 +35915,10 @@
       13.8,
       29.5,
       197.7,
-      240
+      240,
+      439.7,
+      354,
+      56
     ],
     "times": [
       6.2,
@@ -35616,7 +35943,10 @@
       7.9,
       8,
       4.7,
-      8.1
+      8.1,
+      4.4,
+      4.2,
+      7.7
     ]
   },
   "Indore, Madhya Pradesh, India": {
@@ -38128,10 +38458,10 @@
     ]
   },
   "Haikou, Hainan, China": {
-    "mean_dist": 747.4,
+    "mean_dist": 768.8,
     "mean_time": 7,
-    "std_dist": 966.8,
-    "std_time": 1.3,
+    "std_dist": 944.3,
+    "std_time": 1.2,
     "admin": "Hainan",
     "country": "China",
     "city": "Haikou",
@@ -38163,7 +38493,10 @@
       "x",
       39.184,
       33.968,
-      19.803
+      19.803,
+      27.991,
+      32.592,
+      20.047
     ],
     "lons": [
       "x",
@@ -38193,10 +38526,13 @@
       "x",
       100.54,
       114.362,
-      110.102
+      110.102,
+      118.32,
+      119.143,
+      110.884
     ],
-    "mean_lat": 30.985,
-    "mean_lon": 108.334,
+    "mean_lat": 28.93,
+    "mean_lon": 112.225,
     "regions": [
       "England",
       "Aargau",
@@ -38225,6 +38561,9 @@
       "Alberta",
       "North Holland",
       "Utrecht",
+      "Aargau",
+      "\u00d8stfold",
+      "\u00d8stfold",
       "Aargau"
     ],
     "countries": [
@@ -38255,6 +38594,9 @@
       "Canada",
       "Netherlands",
       "Netherlands",
+      "Switzerland",
+      "Norway",
+      "Norway",
       "Switzerland"
     ],
     "dists": [
@@ -38285,7 +38627,10 @@
       2441,
       2324.5,
       1598.2,
-      35.6
+      35.6,
+      1199.2,
+      1647,
+      59
     ],
     "times": [
       5.9,
@@ -38315,7 +38660,10 @@
       6.2,
       6.7,
       6.1,
-      8
+      8,
+      7,
+      6.5,
+      7.6
     ]
   },
   "Bil\u0101spur, Chhatt\u012bsgarh, India": {
@@ -38563,10 +38911,10 @@
     ]
   },
   "Shymkent, Kazakhstan": {
-    "mean_dist": 642.7,
-    "mean_time": 6.2,
-    "std_dist": 483.7,
-    "std_time": 1.8,
+    "mean_dist": 635.8,
+    "mean_time": 5.8,
+    "std_dist": 469.5,
+    "std_time": 2.1,
     "city": "Shymkent",
     "admin": "",
     "country": "Kazakhstan",
@@ -38597,7 +38945,11 @@
       "x",
       41.495,
       49.267,
-      39.864
+      39.864,
+      42.653,
+      48.813,
+      46.811,
+      46.239
     ],
     "lons": [
       "x",
@@ -38626,10 +38978,14 @@
       "x",
       67.073,
       67.42,
-      71.925
+      71.925,
+      70.028,
+      59.771,
+      65.408,
+      63.422
     ],
-    "mean_lat": 43.542,
-    "mean_lon": 68.806,
+    "mean_lat": 45.02,
+    "mean_lon": 66.435,
     "regions": [
       "Mazovia",
       "New South Wales",
@@ -38657,7 +39013,11 @@
       "Bangkok",
       "Aargau",
       "Uusimaa",
-      "Uusimaa"
+      "Uusimaa",
+      "Vienna",
+      "Vienna",
+      "Utrecht",
+      "Lower Austria"
     ],
     "countries": [
       "Poland",
@@ -38686,7 +39046,11 @@
       "Thailand",
       "Switzerland",
       "Finland",
-      "Finland"
+      "Finland",
+      "Austria",
+      "Austria",
+      "Netherlands",
+      "Austria"
     ],
     "dists": [
       595.2,
@@ -38715,7 +39079,11 @@
       569.5,
       227.9,
       790.6,
-      335.6
+      335.6,
+      51.3,
+      1050.1,
+      599.3,
+      656.4
     ],
     "times": [
       7.9,
@@ -38744,7 +39112,11 @@
       5.1,
       8,
       8.4,
-      7.6
+      7.6,
+      2,
+      2.3,
+      5.8,
+      2.1
     ]
   },
   "Kawanakajima, Japan": {
@@ -39195,9 +39567,9 @@
     ]
   },
   "Tirupp\u016br, Tamil N\u0101du, India": {
-    "mean_dist": 357,
-    "mean_time": 7.4,
-    "std_dist": 532.9,
+    "mean_dist": 441.3,
+    "mean_time": 7.2,
+    "std_dist": 585.8,
     "std_time": 1.6,
     "admin": "Tamil N\u0101du",
     "country": "India",
@@ -39225,7 +39597,9 @@
       "x",
       "x",
       10.105,
-      11.297
+      11.297,
+      23.401,
+      23.295
     ],
     "lons": [
       "x",
@@ -39250,10 +39624,12 @@
       "x",
       "x",
       76.896,
-      77.939
+      77.939,
+      72.549,
+      78.084
     ],
-    "mean_lat": 10.701,
-    "mean_lon": 77.417,
+    "mean_lat": 17.024,
+    "mean_lon": 76.366,
     "regions": [
       "England",
       "Central and Western",
@@ -39277,7 +39653,9 @@
       "Aargau",
       "Bavaria",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "England",
+      "England"
     ],
     "countries": [
       "United Kingdom",
@@ -39302,7 +39680,9 @@
       "Switzerland",
       "Germany",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "United Kingdom",
+      "United Kingdom"
     ],
     "dists": [
       482.7,
@@ -39327,7 +39707,9 @@
       88.5,
       197.9,
       118.3,
-      70.7
+      70.7,
+      1460.6,
+      1360.5
     ],
     "times": [
       6.9,
@@ -39352,7 +39734,9 @@
       8.3,
       1,
       8.3,
-      8.6
+      8.6,
+      4.3,
+      7.4
     ]
   },
   "Iligan, Philippines": {
@@ -41370,9 +41754,9 @@
     ]
   },
   "Busan, Korea, South": {
-    "mean_dist": 298,
-    "mean_time": 6.7,
-    "std_dist": 634.8,
+    "mean_dist": 290.4,
+    "mean_time": 6.8,
+    "std_dist": 621.9,
     "std_time": 1.7,
     "admin": "Busan",
     "country": "Korea, South",
@@ -41399,7 +41783,8 @@
       35.816,
       35.535,
       35.61,
-      37.071
+      37.071,
+      36.097
     ],
     "lons": [
       "x",
@@ -41423,10 +41808,11 @@
       128.531,
       128.792,
       127.221,
-      126.445
+      126.445,
+      128.444
     ],
-    "mean_lat": 36.107,
-    "mean_lon": 128.225,
+    "mean_lat": 36.105,
+    "mean_lon": 128.257,
     "regions": [
       "England",
       "Aargau",
@@ -41449,6 +41835,7 @@
       "Bavaria",
       "Bavaria",
       "Zurich",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -41472,6 +41859,7 @@
       "Germany",
       "Germany",
       "Germany",
+      "Switzerland",
       "Switzerland",
       "Switzerland"
     ],
@@ -41497,7 +41885,8 @@
       91.2,
       52.7,
       172,
-      318.4
+      318.4,
+      122.6
     ],
     "times": [
       0.9,
@@ -41521,6 +41910,7 @@
       7.9,
       8,
       7.6,
+      8.1,
       8.1
     ]
   },
@@ -42395,9 +42785,9 @@
     ]
   },
   "Jiangjiafan, Hubei, China": {
-    "mean_dist": 462.9,
+    "mean_dist": 441.3,
     "mean_time": 7,
-    "std_dist": 340.2,
+    "std_dist": 342.4,
     "std_time": 0.9,
     "admin": "Hubei",
     "country": "China",
@@ -42419,7 +42809,8 @@
       31.12,
       31.046,
       39.885,
-      35.377
+      35.377,
+      30.376
     ],
     "lons": [
       "x",
@@ -42438,10 +42829,11 @@
       113.058,
       113.84,
       107.929,
-      111.42
+      111.42,
+      111.928
     ],
-    "mean_lat": 34.357,
-    "mean_lon": 111.561,
+    "mean_lat": 33.56,
+    "mean_lon": 111.634,
     "regions": [
       "New South Wales",
       "California",
@@ -42459,7 +42851,8 @@
       "Aargau",
       "Aargau",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -42478,7 +42871,8 @@
       "Switzerland",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       762.6,
@@ -42497,7 +42891,8 @@
       91.8,
       165.8,
       1054.3,
-      487.5
+      487.5,
+      74.5
     ],
     "times": [
       7.8,
@@ -42516,7 +42911,8 @@
       7.3,
       7.7,
       4.9,
-      6.8
+      6.8,
+      7.4
     ]
   },
   "Sapporo, Japan": {
@@ -43480,10 +43876,10 @@
     ]
   },
   "Jal\u0101l\u0101b\u0101d, Afghanistan": {
-    "mean_dist": 448.3,
-    "mean_time": 6.9,
-    "std_dist": 654.1,
-    "std_time": 1,
+    "mean_dist": 496.2,
+    "mean_time": 6.5,
+    "std_dist": 643.4,
+    "std_time": 1.3,
     "admin": "Nangarh\u0101r",
     "country": "Afghanistan",
     "city": "Jal\u0101l\u0101b\u0101d",
@@ -43514,7 +43910,11 @@
       "x",
       36.516,
       33.681,
-      35.535
+      35.535,
+      34.826,
+      35.252,
+      35.886,
+      33.753
     ],
     "lons": [
       "x",
@@ -43543,10 +43943,14 @@
       "x",
       66.464,
       69.333,
-      69.767
+      69.767,
+      59.51,
+      68.116,
+      54.729,
+      63.856
     ],
-    "mean_lat": 35.244,
-    "mean_lon": 68.521,
+    "mean_lat": 35.064,
+    "mean_lon": 64.539,
     "regions": [
       "Stockholm",
       "California",
@@ -43574,7 +43978,11 @@
       "Uusimaa",
       "Aargau",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "Vienna",
+      "Vienna",
+      "Upper Austria",
+      "Lower Austria"
     ],
     "countries": [
       "Sweden",
@@ -43603,7 +44011,11 @@
       "Finland",
       "Switzerland",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "Austria",
+      "Austria",
+      "Austria",
+      "Austria"
     ],
     "dists": [
       218.1,
@@ -43632,7 +44044,11 @@
       738.6,
       427.1,
       132.1,
-      135.9
+      135.9,
+      1000,
+      230,
+      1435.2,
+      610.5
     ],
     "times": [
       6.5,
@@ -43661,7 +44077,11 @@
       7.5,
       7.4,
       8,
-      8.1
+      8.1,
+      4.2,
+      6,
+      3.5,
+      2.9
     ]
   },
   "Cagayan de Oro, Philippines": {
@@ -44142,10 +44562,10 @@
     ]
   },
   "Fukuoka, Japan": {
-    "mean_dist": 569.4,
+    "mean_dist": 621.3,
     "mean_time": 7.4,
-    "std_dist": 300.9,
-    "std_time": 1.2,
+    "std_dist": 301.5,
+    "std_time": 1.1,
     "city": "Fukuoka",
     "admin": "Fukuoka",
     "country": "Japan",
@@ -44161,7 +44581,10 @@
       "x",
       "x",
       34.684,
-      35.605
+      35.605,
+      36.966,
+      38.712,
+      34.684
     ],
     "lons": [
       "x",
@@ -44175,10 +44598,13 @@
       "x",
       "x",
       136.181,
-      135.746
+      135.746,
+      139.444,
+      139.918,
+      136.354
     ],
-    "mean_lat": 35.144,
-    "mean_lon": 135.963,
+    "mean_lat": 36.13,
+    "mean_lon": 137.528,
     "regions": [
       "California",
       "Aargau",
@@ -44191,6 +44617,9 @@
       "Aargau",
       "California",
       "Aargau",
+      "Aargau",
+      "\u00d8stfold",
+      "\u00d8stfold",
       "Aargau"
     ],
     "countries": [
@@ -44205,6 +44634,9 @@
       "Switzerland",
       "United States",
       "Switzerland",
+      "Switzerland",
+      "Norway",
+      "Norway",
       "Switzerland"
     ],
     "dists": [
@@ -44219,7 +44651,10 @@
       299.2,
       199.1,
       544.6,
-      537
+      537,
+      901.1,
+      1025.1,
+      560.2
     ],
     "times": [
       6.2,
@@ -44233,7 +44668,10 @@
       8.1,
       8.2,
       8.1,
-      8.3
+      8.3,
+      7.4,
+      6.6,
+      8.1
     ]
   },
   "Kolh\u0101pur, Mah\u0101r\u0101shtra, India": {
@@ -46437,10 +46875,10 @@
     ]
   },
   "Chennai, Tamil N\u0101du, India": {
-    "mean_dist": 465.4,
-    "mean_time": 7.5,
-    "std_dist": 521.9,
-    "std_time": 0.6,
+    "mean_dist": 552,
+    "mean_time": 6.4,
+    "std_dist": 499.4,
+    "std_time": 2,
     "city": "Chennai",
     "admin": "Tamil N\u0101du",
     "country": "India",
@@ -46461,7 +46899,13 @@
       "x",
       "x",
       "x",
-      13.16
+      13.16,
+      21.988,
+      11.552,
+      21.263,
+      21.344,
+      16.393,
+      19.149
     ],
     "lons": [
       "x",
@@ -46480,10 +46924,16 @@
       "x",
       "x",
       "x",
-      80.286
+      80.286,
+      73.245,
+      78.634,
+      84.719,
+      82.981,
+      75.579,
+      81.59
     ],
-    "mean_lat": 13.16,
-    "mean_lon": 80.286,
+    "mean_lat": 17.835,
+    "mean_lon": 79.576,
     "regions": [
       "Andalusia",
       "Aargau",
@@ -46501,7 +46951,13 @@
       "Aargau",
       "Aargau",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "Vienna",
+      "Vienna",
+      "Upper Austria",
+      "Upper Austria",
+      "Utrecht",
+      "Lower Austria"
     ],
     "countries": [
       "Spain",
@@ -46520,7 +46976,13 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "Austria",
+      "Austria",
+      "Austria",
+      "Austria",
+      "Netherlands",
+      "Austria"
     ],
     "dists": [
       1931.6,
@@ -46539,7 +47001,13 @@
       46.1,
       45.5,
       80.4,
-      7.8
+      7.8,
+      1238.5,
+      247.3,
+      1023.7,
+      961.5,
+      624.8,
+      688.1
     ],
     "times": [
       8.3,
@@ -46558,7 +47026,13 @@
       7,
       7.7,
       7.7,
-      8.4
+      8.4,
+      3.6,
+      3.5,
+      2.1,
+      2,
+      4.5,
+      3.9
     ]
   },
   "Kuwait City, Kuwait": {
@@ -46663,9 +47137,9 @@
     ]
   },
   "Sr\u012bnagar, Jammu and Kashm\u012br, India": {
-    "mean_dist": 302.3,
-    "mean_time": 6.3,
-    "std_dist": 381.7,
+    "mean_dist": 318.6,
+    "mean_time": 6.4,
+    "std_dist": 402.4,
     "std_time": 1.8,
     "city": "Sr\u012bnagar",
     "admin": "Jammu and Kashm\u012br",
@@ -46695,7 +47169,11 @@
       31.421,
       33.968,
       21.183,
-      27.955
+      27.955,
+      26.837,
+      34.898,
+      32.006,
+      33.536
     ],
     "lons": [
       "x",
@@ -46722,10 +47200,14 @@
       76.542,
       76.026,
       76.896,
-      76.809
+      76.809,
+      85.201,
+      75.157,
+      75.592,
+      74.983
     ],
-    "mean_lat": 29.98,
-    "mean_lon": 76.186,
+    "mean_lat": 30.649,
+    "mean_lon": 76.749,
     "regions": [
       "Andalusia",
       "Aargau",
@@ -46751,7 +47233,11 @@
       "Zurich",
       "North Rhine-Westphalia",
       "Stockholm",
-      "North Rhine-Westphalia"
+      "North Rhine-Westphalia",
+      "\u00d8stfold",
+      "\u00d8stfold",
+      "Aargau",
+      "Aargau"
     ],
     "countries": [
       "Spain",
@@ -46778,7 +47264,11 @@
       "Switzerland",
       "Germany",
       "Sweden",
-      "Germany"
+      "Germany",
+      "Norway",
+      "Norway",
+      "Switzerland",
+      "Switzerland"
     ],
     "dists": [
       1446.1,
@@ -46805,7 +47295,11 @@
       338.7,
       112.6,
       1450.7,
-      709.1
+      709.1,
+      1280.4,
+      94.1,
+      243.7,
+      64.5
     ],
     "times": [
       8.1,
@@ -46832,7 +47326,11 @@
       7.1,
       4.3,
       1.6,
-      2.8
+      2.8,
+      6.6,
+      5.6,
+      8.2,
+      8.1
     ]
   },
   "Shuozhou, Shanxi, China": {
@@ -47360,10 +47858,10 @@
     ]
   },
   "Kirov, Kirovskaya Oblast\u2019, Russia": {
-    "mean_dist": 1042.4,
-    "mean_time": 7.2,
-    "std_dist": 426.8,
-    "std_time": 0.9,
+    "mean_dist": 1405.8,
+    "mean_time": 6.1,
+    "std_dist": 1094.7,
+    "std_time": 2.2,
     "admin": "Kirovskaya Oblast\u2019",
     "country": "Russia",
     "city": "Kirov",
@@ -47386,7 +47884,13 @@
       "x",
       "x",
       "x",
-      52.12
+      52.12,
+      51.639,
+      55.298,
+      55.15,
+      57.503,
+      53.616,
+      54.652
     ],
     "lons": [
       "x",
@@ -47407,10 +47911,16 @@
       "x",
       "x",
       "x",
-      38.3
+      38.3,
+      42.994,
+      79.677,
+      39.603,
+      137.571,
+      89.052,
+      130.096
     ],
-    "mean_lat": 52.12,
-    "mean_lon": 38.3,
+    "mean_lat": 54.282,
+    "mean_lon": 79.613,
     "regions": [
       "England",
       "Pennsylvania",
@@ -47430,7 +47940,13 @@
       "Bavaria",
       "Bavaria",
       "Bangkok",
-      "Aargau"
+      "Aargau",
+      "Vienna",
+      "Vienna",
+      "Upper Austria",
+      "Upper Austria",
+      "Utrecht",
+      "Lower Austria"
     ],
     "countries": [
       "United Kingdom",
@@ -47451,7 +47967,13 @@
       "Germany",
       "Germany",
       "Thailand",
-      "Switzerland"
+      "Switzerland",
+      "Austria",
+      "Austria",
+      "Austria",
+      "Austria",
+      "Netherlands",
+      "Austria"
     ],
     "dists": [
       813.8,
@@ -47472,7 +47994,13 @@
       1473.7,
       798.7,
       1659.9,
-      1014.3
+      1014.3,
+      880.8,
+      1840,
+      720.3,
+      4793.2,
+      2465.7,
+      4640.2
     ],
     "times": [
       5.7,
@@ -47493,7 +48021,13 @@
       6.4,
       6.9,
       5.9,
-      8.5
+      8.5,
+      3.2,
+      2,
+      0.4,
+      4.4,
+      3.1,
+      2.5
     ]
   },
   "Zhanjiang, Guangdong, China": {
@@ -48146,10 +48680,10 @@
     ]
   },
   "Bh\u0101tp\u0101ra, West Bengal, India": {
-    "mean_dist": 452.2,
-    "mean_time": 6.4,
-    "std_dist": 542.8,
-    "std_time": 1.9,
+    "mean_dist": 585.9,
+    "mean_time": 5.9,
+    "std_dist": 623.1,
+    "std_time": 2.1,
     "city": "Bh\u0101tp\u0101ra",
     "admin": "West Bengal",
     "country": "India",
@@ -48186,7 +48720,13 @@
       22.074,
       23.135,
       27.896,
-      23.348
+      23.348,
+      21.988,
+      24.141,
+      20.94,
+      25.165,
+      16.891,
+      23.745
     ],
     "lons": [
       "x",
@@ -48221,10 +48761,16 @@
       73.065,
       88.167,
       75.485,
-      88.022
+      88.022,
+      74.027,
+      87.501,
+      73.766,
+      73.94,
+      74.622,
+      72.636
     ],
-    "mean_lat": 24.312,
-    "mean_lon": 81.11,
+    "mean_lat": 23.228,
+    "mean_lon": 78.596,
     "regions": [
       "California",
       "California",
@@ -48258,7 +48804,13 @@
       "Zurich",
       "Connecticut",
       "Utrecht",
-      "Aargau"
+      "Aargau",
+      "Vienna",
+      "Vienna",
+      "Upper Austria",
+      "Upper Austria",
+      "Utrecht",
+      "Lower Austria"
     ],
     "countries": [
       "United States",
@@ -48293,7 +48845,13 @@
       "Switzerland",
       "United States",
       "Netherlands",
-      "Switzerland"
+      "Switzerland",
+      "Austria",
+      "Austria",
+      "Austria",
+      "Austria",
+      "Netherlands",
+      "Austria"
     ],
     "dists": [
       349.2,
@@ -48328,7 +48886,13 @@
       1589.7,
       48,
       1423.5,
-      75.1
+      75.1,
+      1492.1,
+      177.1,
+      1536.2,
+      1502.3,
+      1595.9,
+      1624.3
     ],
     "times": [
       5.6,
@@ -48363,14 +48927,20 @@
       7.5,
       7.1,
       5.3,
-      8
+      8,
+      1.9,
+      4.7,
+      3.6,
+      2.9,
+      2.9,
+      4.3
     ]
   },
   "Meerut, Uttar Pradesh, India": {
-    "mean_dist": 460,
+    "mean_dist": 512,
     "mean_time": 6.9,
-    "std_dist": 368.8,
-    "std_time": 1.3,
+    "std_dist": 413.1,
+    "std_time": 1.2,
     "city": "Meerut",
     "admin": "Uttar Pradesh",
     "country": "India",
@@ -48392,7 +48962,9 @@
       "x",
       "x",
       17.035,
-      29.096
+      29.096,
+      24.667,
+      15.789
     ],
     "lons": [
       "x",
@@ -48412,10 +48984,12 @@
       "x",
       "x",
       79.416,
-      77.765
+      77.765,
+      76.809,
+      77.301
     ],
-    "mean_lat": 23.065,
-    "mean_lon": 78.59,
+    "mean_lat": 21.646,
+    "mean_lon": 77.822,
     "regions": [
       "California",
       "California",
@@ -48434,7 +49008,9 @@
       "Aargau",
       "Aargau",
       "England",
-      "Aargau"
+      "Aargau",
+      "England",
+      "England"
     ],
     "countries": [
       "United States",
@@ -48454,7 +49030,9 @@
       "Switzerland",
       "Switzerland",
       "United Kingdom",
-      "Switzerland"
+      "Switzerland",
+      "United Kingdom",
+      "United Kingdom"
     ],
     "dists": [
       491,
@@ -48474,7 +49052,9 @@
       324.1,
       176.5,
       1341.8,
-      12.4
+      12.4,
+      489.8,
+      1469.5
     ],
     "times": [
       7.8,
@@ -48494,7 +49074,9 @@
       8.4,
       8,
       6.9,
-      8
+      8,
+      6.7,
+      7.6
     ]
   },
   "Jinhua, Zhejiang, China": {
@@ -48825,10 +49407,10 @@
     ]
   },
   "\u0100sansol, West Bengal, India": {
-    "mean_dist": 375.2452803610643,
-    "mean_time": 6.926666666666678,
-    "std_dist": 413.4601223212539,
-    "std_time": 1.4571001134927983,
+    "mean_dist": 394.3,
+    "mean_time": 6.6,
+    "std_dist": 418.3,
+    "std_time": 1.8,
     "city": "\u0100sansol",
     "admin": "West Bengal",
     "country": "India",
@@ -48847,7 +49429,9 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      22.763,
+      23.613
     ],
     "lons": [
       "x",
@@ -48864,10 +49448,12 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      77.591,
+      88.08
     ],
-    "mean_lat": 0,
-    "mean_lon": 0,
+    "mean_lat": 23.188,
+    "mean_lon": 82.835,
     "regions": [
       "Bavaria",
       "Aargau",
@@ -48883,7 +49469,9 @@
       "Aargau",
       "Aargau",
       "Aargau",
-      "Bangkok"
+      "Bangkok",
+      "England",
+      "England"
     ],
     "countries": [
       "Germany",
@@ -48900,7 +49488,9 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
-      "Thailand"
+      "Thailand",
+      "United Kingdom",
+      "United Kingdom"
     ],
     "dists": [
       19.5,
@@ -48917,7 +49507,9 @@
       205.4,
       49.2,
       267.3,
-      130.2
+      130.2,
+      964.9,
+      112
     ],
     "times": [
       6.5,
@@ -48934,7 +49526,9 @@
       7.8,
       8.1,
       7.8,
-      4.8
+      4.8,
+      1.9,
+      7.1
     ]
   },
   "Shuangshui, Guizhou, China": {
@@ -51811,10 +52405,10 @@
     ]
   },
   "Qazv\u012bn, Iran": {
-    "mean_dist": 523.1,
-    "mean_time": 6.7,
-    "std_dist": 415.9,
-    "std_time": 2,
+    "mean_dist": 534.9,
+    "mean_time": 6.6,
+    "std_dist": 403.1,
+    "std_time": 1.9,
     "city": "Qazv\u012bn",
     "admin": "Qazv\u012bn",
     "country": "Iran",
@@ -51844,7 +52438,9 @@
       27.263,
       36.097,
       40.646,
-      33.464
+      33.464,
+      30.351,
+      33.271
     ],
     "lons": [
       "x",
@@ -51872,10 +52468,12 @@
       53.251,
       51.513,
       53.86,
-      42.472
+      42.472,
+      52.382,
+      56.525
     ],
-    "mean_lat": 34.747,
-    "mean_lon": 50.879,
+    "mean_lat": 33.908,
+    "mean_lon": 51.9,
     "regions": [
       "Pennsylvania",
       "California",
@@ -51902,7 +52500,9 @@
       "Bavaria",
       "North Rhine-Westphalia",
       "Stockholm",
-      "North Rhine-Westphalia"
+      "North Rhine-Westphalia",
+      "England",
+      "England"
     ],
     "countries": [
       "United States",
@@ -51930,7 +52530,9 @@
       "Germany",
       "Germany",
       "Sweden",
-      "Germany"
+      "Germany",
+      "United Kingdom",
+      "United Kingdom"
     ],
     "dists": [
       636.2,
@@ -51958,7 +52560,9 @@
       1047.3,
       137.1,
       591.2,
-      753.9
+      753.9,
+      694.3,
+      682.7
     ],
     "times": [
       6.1,
@@ -51986,7 +52590,9 @@
       7,
       6,
       4.6,
-      2.4
+      2.4,
+      4.9,
+      6.5
     ]
   },
   "Kurnool, Andhra Pradesh, India": {
@@ -53689,9 +54295,9 @@
     ]
   },
   "Kh\u016djand, Tajikistan": {
-    "mean_dist": 316.3,
+    "mean_dist": 307.4,
     "mean_time": 6.9,
-    "std_dist": 468.7,
+    "std_dist": 461.8,
     "std_time": 1.4,
     "city": "Kh\u016djand",
     "admin": "Sughd",
@@ -53721,7 +54327,8 @@
       "x",
       40.448,
       40.262,
-      38.78
+      38.78,
+      40.316
     ],
     "lons": [
       "x",
@@ -53748,10 +54355,11 @@
       "x",
       70.55,
       70.622,
-      67.333
+      67.333,
+      68.637
     ],
-    "mean_lat": 39.83,
-    "mean_lon": 69.501,
+    "mean_lat": 39.951,
+    "mean_lon": 69.285,
     "regions": [
       "New York",
       "Aargau",
@@ -53777,6 +54385,7 @@
       "Aargau",
       "Uusimaa",
       "Uusimaa",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -53804,6 +54413,7 @@
       "Switzerland",
       "Finland",
       "Finland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -53831,7 +54441,8 @@
       143.4,
       80.7,
       85,
-      258
+      258,
+      83.3
     ],
     "times": [
       8,
@@ -53858,6 +54469,7 @@
       8.3,
       8.2,
       2.5,
+      8.1,
       8.1
     ]
   },
@@ -54017,9 +54629,9 @@
     ]
   },
   "Jamshedpur, Jharkhand, India": {
-    "mean_dist": 749.4,
-    "mean_time": 7.1,
-    "std_dist": 437.4,
+    "mean_dist": 729.2,
+    "mean_time": 7.2,
+    "std_dist": 441.3,
     "std_time": 0.8,
     "city": "Jamshedpur",
     "admin": "Jharkhand",
@@ -54050,7 +54662,8 @@
       26.896,
       25.321,
       23.521,
-      23.697
+      23.697,
+      21.021
     ],
     "lons": [
       "x",
@@ -54078,10 +54691,11 @@
       76.158,
       85.675,
       81.661,
-      81.016
+      81.016,
+      86.805
     ],
-    "mean_lat": 24.858,
-    "mean_lon": 81.127,
+    "mean_lat": 24.091,
+    "mean_lon": 82.263,
     "regions": [
       "New York",
       "Aargau",
@@ -54108,7 +54722,8 @@
       "Washington",
       "Uusimaa",
       "Uusimaa",
-      "Seoul"
+      "Seoul",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -54136,7 +54751,8 @@
       "United States",
       "Finland",
       "Finland",
-      "South Korea"
+      "South Korea",
+      "Switzerland"
     ],
     "dists": [
       506.3,
@@ -54164,7 +54780,8 @@
       1110.6,
       286.7,
       470.8,
-      538.9
+      538.9,
+      206.1
     ],
     "times": [
       8.2,
@@ -54192,14 +54809,15 @@
       4.6,
       8.3,
       7.8,
-      7.9
+      7.9,
+      8.3
     ]
   },
   "Cuttack, Odisha, India": {
-    "mean_dist": 404.6,
-    "mean_time": 7.7,
-    "std_dist": 389.1,
-    "std_time": 0.8,
+    "mean_dist": 505.5,
+    "mean_time": 7.1,
+    "std_dist": 426.4,
+    "std_time": 1.5,
     "city": "Cuttack",
     "admin": "Odisha",
     "country": "India",
@@ -54228,7 +54846,13 @@
       "x",
       22.63,
       16.842,
-      19.721
+      19.721,
+      26.18,
+      21.747,
+      17.091,
+      23.903,
+      25.837,
+      12.653
     ],
     "lons": [
       "x",
@@ -54255,10 +54879,16 @@
       "x",
       85.415,
       80.894,
-      85.415
+      85.415,
+      78.547,
+      81.59,
+      81.068,
+      77.504,
+      74.448,
+      77.852
     ],
-    "mean_lat": 19.73,
-    "mean_lon": 83.908,
+    "mean_lat": 20.733,
+    "mean_lon": 80.303,
     "regions": [
       "New York",
       "Pennsylvania",
@@ -54284,7 +54914,13 @@
       "Aargau",
       "Bavaria",
       "Bavaria",
-      "Aargau"
+      "Aargau",
+      "Vienna",
+      "Vienna",
+      "Upper Austria",
+      "Upper Austria",
+      "Utrecht",
+      "Lower Austria"
     ],
     "countries": [
       "United States",
@@ -54311,7 +54947,13 @@
       "Switzerland",
       "Germany",
       "Germany",
-      "Switzerland"
+      "Switzerland",
+      "Austria",
+      "Austria",
+      "Austria",
+      "Austria",
+      "Netherlands",
+      "Austria"
     ],
     "dists": [
       1062,
@@ -54338,7 +54980,13 @@
       15.1,
       245.1,
       662.9,
-      96.8
+      96.8,
+      982,
+      468,
+      631.3,
+      943.7,
+      1312.2,
+      1219.7
     ],
     "times": [
       7,
@@ -54365,7 +55013,13 @@
       8.6,
       7.5,
       7.9,
-      8.4
+      8.4,
+      6.1,
+      4.6,
+      3.2,
+      4.1,
+      5.4,
+      4.6
     ]
   },
   "Zaozhuang, Shandong, China": {
@@ -55305,10 +55959,10 @@
     ]
   },
   "Shenyang, Liaoning, China": {
-    "mean_dist": 707,
-    "mean_time": 7.1,
-    "std_dist": 911.1,
-    "std_time": 1,
+    "mean_dist": 1006,
+    "mean_time": 6.3,
+    "std_dist": 987,
+    "std_time": 1.6,
     "city": "Shenyang",
     "admin": "Liaoning",
     "country": "China",
@@ -55327,7 +55981,13 @@
       "x",
       "x",
       40.937,
-      26.413
+      26.413,
+      37.896,
+      27.878,
+      40.051,
+      31.638,
+      26.691,
+      27.032
     ],
     "lons": [
       "x",
@@ -55344,10 +56004,16 @@
       "x",
       "x",
       123.017,
-      102.452
+      102.452,
+      118.534,
+      115.492,
+      108.972,
+      92.63,
+      106.438,
+      117.056
     ],
-    "mean_lat": 33.675,
-    "mean_lon": 112.734,
+    "mean_lat": 32.317,
+    "mean_lon": 110.573,
     "regions": [
       "Pennsylvania",
       "Pennsylvania",
@@ -55363,7 +56029,13 @@
       "Aargau",
       "Aargau",
       "Bavaria",
-      "Bavaria"
+      "Bavaria",
+      "Vienna",
+      "Vienna",
+      "Upper Austria",
+      "Upper Austria",
+      "Utrecht",
+      "Lower Austria"
     ],
     "countries": [
       "United States",
@@ -55380,7 +56052,13 @@
       "Switzerland",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Austria",
+      "Austria",
+      "Austria",
+      "Austria",
+      "Netherlands",
+      "Austria"
     ],
     "dists": [
       1189.7,
@@ -55397,7 +56075,13 @@
       68,
       68.3,
       103,
-      2568.8
+      2568.8,
+      603.8,
+      1708.4,
+      1230.2,
+      2950.3,
+      2286.7,
+      1742.7
     ],
     "times": [
       4.8,
@@ -55414,7 +56098,13 @@
       8.2,
       8.2,
       7.8,
-      7.2
+      7.2,
+      4.4,
+      4.7,
+      3.4,
+      5,
+      4.9,
+      3.1
     ]
   },
   "Jodhpur, R\u0101jasth\u0101n, India": {
@@ -56319,9 +57009,9 @@
     ]
   },
   "Zamboanga City, Philippines": {
-    "mean_dist": 516.9,
+    "mean_dist": 530.3,
     "mean_time": 7.1,
-    "std_dist": 585.2,
+    "std_dist": 570.4,
     "std_time": 1,
     "city": "Zamboanga City",
     "admin": "Zamboanga",
@@ -56355,7 +57045,9 @@
       12.315,
       12.884,
       10.312,
-      9.194
+      9.194,
+      11.523,
+      15.148
     ],
     "lons": [
       "x",
@@ -56386,10 +57078,12 @@
       125.401,
       123.121,
       123.973,
-      125.72
+      125.72,
+      123.402,
+      121.548
     ],
-    "mean_lat": 9.964,
-    "mean_lon": 123.321,
+    "mean_lat": 10.361,
+    "mean_lon": 123.221,
     "regions": [
       "Pennsylvania",
       "Pennsylvania",
@@ -56419,7 +57113,9 @@
       "Bavaria",
       "Utrecht",
       "Bavaria",
-      "Baden-W\u00fcrttemberg"
+      "Baden-W\u00fcrttemberg",
+      "England",
+      "England"
     ],
     "countries": [
       "United States",
@@ -56450,7 +57146,9 @@
       "Germany",
       "Netherlands",
       "Germany",
-      "Germany"
+      "Germany",
+      "United Kingdom",
+      "United Kingdom"
     ],
     "dists": [
       786.6,
@@ -56481,7 +57179,9 @@
       701.7,
       672.9,
       430.8,
-      473.9
+      473.9,
+      532.1,
+      916.8
     ],
     "times": [
       5.4,
@@ -56512,7 +57212,9 @@
       7.3,
       4.2,
       8.1,
-      5.6
+      5.6,
+      6.7,
+      7.4
     ]
   },
   "\u1e28am\u0101h, Syria": {
@@ -58155,9 +58857,9 @@
     ]
   },
   "Shuangyashan, Heilongjiang, China": {
-    "mean_dist": 673.9,
+    "mean_dist": 640.2,
     "mean_time": 7.5,
-    "std_dist": 750.7,
+    "std_dist": 738.5,
     "std_time": 0.9,
     "city": "Shuangyashan",
     "admin": "Heilongjiang",
@@ -58177,7 +58879,8 @@
       28.198,
       45.333,
       41.365,
-      47.19
+      47.19,
+      47.307
     ],
     "lons": [
       "x",
@@ -58194,10 +58897,11 @@
       114.52,
       129.4,
       119.751,
-      129.226
+      129.226,
+      129.835
     ],
-    "mean_lat": 39.473,
-    "mean_lon": 122.341,
+    "mean_lat": 40.452,
+    "mean_lon": 123.278,
     "regions": [
       "Bavaria",
       "Aargau",
@@ -58213,6 +58917,7 @@
       "Uusimaa",
       "Bavaria",
       "Bavaria",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -58230,6 +58935,7 @@
       "Finland",
       "Germany",
       "Germany",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -58247,7 +58953,8 @@
       2523.4,
       211.6,
       1097.4,
-      171.2
+      171.2,
+      134.9
     ],
     "times": [
       6.4,
@@ -58264,7 +58971,8 @@
       8.2,
       7.4,
       7.3,
-      8
+      8,
+      8.1
     ]
   },
   "Abbottabad, Pakistan": {
@@ -58977,10 +59685,10 @@
     ]
   },
   "Hengshui, Hebei, China": {
-    "mean_dist": 545.2,
-    "mean_time": 7.1,
-    "std_dist": 402.2,
-    "std_time": 1.1,
+    "mean_dist": 608.2,
+    "mean_time": 6.5,
+    "std_dist": 464.8,
+    "std_time": 1.9,
     "city": "Hengshui",
     "admin": "Hebei",
     "country": "China",
@@ -59014,7 +59722,13 @@
       "x",
       32.3,
       32.665,
-      32.153
+      32.153,
+      34.969,
+      27.648,
+      37.278,
+      34.47,
+      42.627,
+      30.151
     ],
     "lons": [
       "x",
@@ -59046,10 +59760,16 @@
       "x",
       117.404,
       111.841,
-      117.23
+      117.23,
+      116.448,
+      115.666,
+      91.586,
+      115.405,
+      120.955,
+      119.664
     ],
-    "mean_lat": 32.372,
-    "mean_lon": 115.491,
+    "mean_lat": 33.806,
+    "mean_lon": 114.022,
     "regions": [
       "Bavaria",
       "Aargau",
@@ -59080,7 +59800,13 @@
       "England",
       "South Holland",
       "South Holland",
-      "South Holland"
+      "South Holland",
+      "Vienna",
+      "Vienna",
+      "Upper Austria",
+      "Upper Austria",
+      "Utrecht",
+      "Lower Austria"
     ],
     "countries": [
       "Germany",
@@ -59112,7 +59838,13 @@
       "United Kingdom",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Austria",
+      "Austria",
+      "Austria",
+      "Austria",
+      "Netherlands",
+      "Austria"
     ],
     "dists": [
       669.9,
@@ -59144,7 +59876,13 @@
       660.4,
       622.2,
       662.2,
-      634.4
+      634.4,
+      313.1,
+      1119.9,
+      2121.8,
+      362.2,
+      704.7,
+      917.3
     ],
     "times": [
       4.4,
@@ -59176,7 +59914,13 @@
       6.1,
       6.8,
       5.8,
-      6.7
+      6.7,
+      4.4,
+      5.5,
+      2,
+      1.3,
+      4.6,
+      2.1
     ]
   },
   "Kitaku, Japan": {
@@ -59317,10 +60061,10 @@
     ]
   },
   "Kochi, Kerala, India": {
-    "mean_dist": 812.4188507752899,
-    "mean_time": 7.309523809523819,
-    "std_dist": 707.8910366966559,
-    "std_time": 1.1232578683682064,
+    "mean_dist": 769.2,
+    "mean_time": 7.2,
+    "std_dist": 677.6,
+    "std_time": 1,
     "city": "Kochi",
     "admin": "Kerala",
     "country": "India",
@@ -59345,7 +60089,10 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      16.55,
+      13.918,
+      9.507
     ],
     "lons": [
       "x",
@@ -59368,10 +60115,13 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      74.595,
+      78.721,
+      77.417
     ],
-    "mean_lat": 0,
-    "mean_lon": 0,
+    "mean_lat": 13.325,
+    "mean_lon": 76.911,
     "regions": [
       "Bavaria",
       "Aargau",
@@ -59393,7 +60143,10 @@
       "Aargau",
       "Bavaria",
       "\u00d6sterg\u00f6tland",
-      "Hesse"
+      "Hesse",
+      "\u00d8stfold",
+      "\u00d8stfold",
+      "Aargau"
     ],
     "countries": [
       "Germany",
@@ -59416,7 +60169,10 @@
       "Switzerland",
       "Germany",
       "Sweden",
-      "Germany"
+      "Germany",
+      "Norway",
+      "Norway",
+      "Switzerland"
     ],
     "dists": [
       1543.6,
@@ -59439,7 +60195,10 @@
       288.6,
       356.4,
       1201.6,
-      2182.3
+      2182.3,
+      747.6,
+      512,
+      142.4
     ],
     "times": [
       5.5,
@@ -59462,7 +60221,10 @@
       8.2,
       7.4,
       6.8,
-      6.8
+      6.8,
+      7.3,
+      7,
+      7.7
     ]
   },
   "Gaziantep, Turkey": {
@@ -61544,9 +62306,9 @@
     ]
   },
   "Yancheng, Jiangsu, China": {
-    "mean_dist": 547.1,
+    "mean_dist": 579.9,
     "mean_time": 7.4,
-    "std_dist": 508.5,
+    "std_dist": 575.6,
     "std_time": 0.8,
     "city": "Yancheng",
     "admin": "Jiangsu",
@@ -61567,7 +62329,10 @@
       "x",
       35.093,
       30.617,
-      35.957
+      35.957,
+      27.146,
+      36.237,
+      33.319
     ],
     "lons": [
       "x",
@@ -61585,10 +62350,13 @@
       "x",
       98.193,
       104.584,
-      119.49
+      119.49,
+      101.543,
+      119.316,
+      119.838
     ],
-    "mean_lat": 33.889,
-    "mean_lon": 107.422,
+    "mean_lat": 33.061,
+    "mean_lon": 110.493,
     "regions": [
       "Aargau",
       "California",
@@ -61605,6 +62373,9 @@
       "Aargau",
       "Washington",
       "Washington",
+      "Aargau",
+      "\u00d8stfold",
+      "\u00d8stfold",
       "Aargau"
     ],
     "countries": [
@@ -61623,6 +62394,9 @@
       "Switzerland",
       "United States",
       "United States",
+      "Switzerland",
+      "Norway",
+      "Norway",
       "Switzerland"
     ],
     "dists": [
@@ -61641,7 +62415,10 @@
       390.3,
       2020.8,
       1495.8,
-      291.7
+      291.7,
+      1911.1,
+      325.5,
+      27.6
     ],
     "times": [
       5.6,
@@ -61659,6 +62436,9 @@
       8.3,
       6.9,
       6.1,
+      8.4,
+      6,
+      7.4,
       8.4
     ]
   },
@@ -61824,10 +62604,10 @@
     ]
   },
   "Aleppo, Syria": {
-    "mean_dist": 256.3,
-    "mean_time": 6.3,
-    "std_dist": 467.8,
-    "std_time": 1.9,
+    "mean_dist": 239.9,
+    "mean_time": 6,
+    "std_dist": 438.6,
+    "std_time": 2,
     "city": "Aleppo",
     "admin": "\u1e28alab",
     "country": "Syria",
@@ -61857,7 +62637,11 @@
       35.535,
       36.546,
       35.751,
-      35.629
+      35.629,
+      35.605,
+      35.816,
+      36.027,
+      35.605
     ],
     "lons": [
       "x",
@@ -61885,10 +62669,14 @@
       38.56,
       37.045,
       36.816,
-      37.227
+      37.227,
+      36.3,
+      37.43,
+      40.212,
+      36.3
     ],
-    "mean_lat": 36.578,
-    "mean_lon": 41.76,
+    "mean_lat": 36.252,
+    "mean_lon": 40.08,
     "regions": [
       "Unknown",
       "Unknown",
@@ -61915,7 +62703,11 @@
       "Uusimaa",
       "Bavaria",
       "Zurich",
-      "Connecticut"
+      "Connecticut",
+      "Vienna",
+      "Vienna",
+      "Upper Austria",
+      "Lower Austria"
     ],
     "countries": [
       "Unknown",
@@ -61943,7 +62735,11 @@
       "Finland",
       "Germany",
       "Switzerland",
-      "United States"
+      "United States",
+      "Austria",
+      "Austria",
+      "Austria",
+      "Austria"
     ],
     "dists": [
       66.3,
@@ -61971,7 +62767,11 @@
       147.2,
       36.9,
       62,
-      67
+      67,
+      104.6,
+      51.5,
+      274.1,
+      104.6
     ],
     "times": [
       7.3,
@@ -61999,13 +62799,17 @@
       8,
       7.4,
       5.4,
-      7
+      7,
+      6.4,
+      5.8,
+      2.2,
+      2.9
     ]
   },
   "Linxia Chengguanzhen, Gansu, China": {
-    "mean_dist": 1007.3,
-    "mean_time": 6.6,
-    "std_dist": 673.7,
+    "mean_dist": 939.5,
+    "mean_time": 6.7,
+    "std_dist": 675.2,
     "std_time": 1.1,
     "city": "Linxia Chengguanzhen",
     "admin": "Gansu",
@@ -62029,7 +62833,9 @@
       27.648,
       21.506,
       37.002,
-      24.967
+      24.967,
+      34.613,
+      36.585
     ],
     "lons": [
       "x",
@@ -62050,10 +62856,12 @@
       117.665,
       111.058,
       115.579,
-      111.366
+      111.366,
+      107.755,
+      104.539
     ],
-    "mean_lat": 27.78,
-    "mean_lon": 113.917,
+    "mean_lat": 30.386,
+    "mean_lon": 111.327,
     "regions": [
       "Aargau",
       "Aargau",
@@ -62073,7 +62881,9 @@
       "Bavaria",
       "Bavaria",
       "Aargau",
-      "Washington"
+      "Washington",
+      "Aargau",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -62094,7 +62904,9 @@
       "Germany",
       "Germany",
       "Switzerland",
-      "United States"
+      "United States",
+      "Switzerland",
+      "Switzerland"
     ],
     "dists": [
       1785.6,
@@ -62115,7 +62927,9 @@
       1627.4,
       1743.3,
       1119.4,
-      1417.3
+      1417.3,
+      428.6,
+      162.7
     ],
     "times": [
       5.3,
@@ -62136,7 +62950,9 @@
       5.2,
       6.9,
       8.3,
-      6.8
+      6.8,
+      7.9,
+      8.3
     ]
   },
   "Kaly\u0101n, Mah\u0101r\u0101shtra, India": {
@@ -63177,9 +63993,9 @@
     ]
   },
   "Shangqiu, Henan, China": {
-    "mean_dist": 589,
+    "mean_dist": 587,
     "mean_time": 6.8,
-    "std_dist": 417.1,
+    "std_dist": 412.6,
     "std_time": 1.2,
     "city": "Shangqiu",
     "admin": "Henan",
@@ -63206,7 +64022,10 @@
       29.789,
       29.488,
       45.454,
-      35.394
+      35.394,
+      31.23,
+      24.536,
+      33.464
     ],
     "lons": [
       "x",
@@ -63230,10 +64049,13 @@
       113.999,
       110.869,
       130.269,
-      114.362
+      114.362,
+      115.886,
+      116.187,
+      113.145
     ],
-    "mean_lat": 36.898,
-    "mean_lon": 117.791,
+    "mean_lat": 34.752,
+    "mean_lon": 116.976,
     "regions": [
       "Aargau",
       "Aargau",
@@ -63256,6 +64078,9 @@
       "Uusimaa",
       "Uusimaa",
       "Uusimaa",
+      "Aargau",
+      "\u00d8stfold",
+      "\u00d8stfold",
       "Aargau"
     ],
     "countries": [
@@ -63280,6 +64105,9 @@
       "Finland",
       "Finland",
       "Finland",
+      "Switzerland",
+      "Norway",
+      "Norway",
       "Switzerland"
     ],
     "dists": [
@@ -63304,7 +64132,10 @@
       541,
       712.3,
       1741.2,
-      157.4
+      157.4,
+      358.7,
+      1103.6,
+      255.7
     ],
     "times": [
       6.4,
@@ -63328,7 +64159,10 @@
       7.8,
       7.9,
       7.2,
-      7.3
+      7.3,
+      7.1,
+      5,
+      8.1
     ]
   },
   "Tongshan, Jiangsu, China": {
@@ -63963,9 +64797,9 @@
     ]
   },
   "Shangrao, Jiangxi, China": {
-    "mean_dist": 479.3,
+    "mean_dist": 470.6,
     "mean_time": 7,
-    "std_dist": 500.9,
+    "std_dist": 494.7,
     "std_time": 1,
     "city": "Shangrao",
     "admin": "Jiangxi",
@@ -63999,7 +64833,8 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      28.565
     ],
     "lons": [
       "x",
@@ -64030,10 +64865,11 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      115.752
     ],
-    "mean_lat": 0,
-    "mean_lon": 0,
+    "mean_lat": 28.565,
+    "mean_lon": 115.752,
     "regions": [
       "Aargau",
       "Aargau",
@@ -64063,7 +64899,8 @@
       "Prevalje",
       "Prevalje",
       "Aargau",
-      "Alberta"
+      "Alberta",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -64094,7 +64931,8 @@
       "Slovenia",
       "Slovenia",
       "Switzerland",
-      "Canada"
+      "Canada",
+      "Switzerland"
     ],
     "dists": [
       329.6,
@@ -64125,7 +64963,8 @@
       1121.5,
       390.3,
       235.3,
-      291.6
+      291.6,
+      216.8
     ],
     "times": [
       7.9,
@@ -64156,7 +64995,8 @@
       6.1,
       7.7,
       6.9,
-      8.6
+      8.6,
+      7.7
     ]
   },
   "Pingxiang, Jiangxi, China": {
@@ -67473,10 +68313,10 @@
     ]
   },
   "Bezw\u0101da, Andhra Pradesh, India": {
-    "mean_dist": 634,
-    "mean_time": 7.6,
-    "std_dist": 368.1,
-    "std_time": 0.7,
+    "mean_dist": 716.5,
+    "mean_time": 7.5,
+    "std_dist": 404.8,
+    "std_time": 0.8,
     "city": "Bezw\u0101da",
     "admin": "Andhra Pradesh",
     "country": "India",
@@ -67500,7 +68340,10 @@
       "x",
       "x",
       23.123,
-      27.032
+      27.032,
+      27.684,
+      28.26,
+      25.946
     ],
     "lons": [
       "x",
@@ -67522,10 +68365,13 @@
       "x",
       "x",
       76.272,
-      78.547
+      78.547,
+      81.984,
+      76.809,
+      75.244
     ],
-    "mean_lat": 25.077,
-    "mean_lon": 77.409,
+    "mean_lat": 26.409,
+    "mean_lon": 77.771,
     "regions": [
       "Aargau",
       "North Carolina",
@@ -67546,7 +68392,10 @@
       "Aargau",
       "Aargau",
       "Uusimaa",
-      "Uusimaa"
+      "Uusimaa",
+      "\u00d8stfold",
+      "\u00d8stfold",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -67568,7 +68417,10 @@
       "Switzerland",
       "Switzerland",
       "Finland",
-      "Finland"
+      "Finland",
+      "Norway",
+      "Norway",
+      "Switzerland"
     ],
     "dists": [
       1106.1,
@@ -67590,7 +68442,10 @@
       116.3,
       110.6,
       864,
-      1188.4
+      1188.4,
+      1249.2,
+      1363,
+      1187.1
     ],
     "times": [
       7.9,
@@ -67612,7 +68467,10 @@
       8.3,
       8.4,
       8.2,
-      8.3
+      8.3,
+      5.4,
+      7.3,
+      7.6
     ]
   },
   "Shaoguan, Guangdong, China": {
@@ -68659,9 +69517,9 @@
     ]
   },
   "Shaoxing, Zhejiang, China": {
-    "mean_dist": 505.9,
-    "mean_time": 7.6,
-    "std_dist": 625,
+    "mean_dist": 565.3,
+    "mean_time": 7.5,
+    "std_dist": 648.5,
     "std_time": 0.8,
     "city": "Shaoxing",
     "admin": "Zhejiang",
@@ -68686,7 +69544,10 @@
       31.343,
       29.248,
       23.829,
-      33.968
+      33.968,
+      44.626,
+      23.745,
+      29.399
     ],
     "lons": [
       "x",
@@ -68708,10 +69569,13 @@
       120.707,
       120.186,
       116.181,
-      120.273
+      120.273,
+      116.147,
+      111.493,
+      120.186
     ],
-    "mean_lat": 30.138,
-    "mean_lon": 114.963,
+    "mean_lat": 30.874,
+    "mean_lon": 115.257,
     "regions": [
       "Aargau",
       "Aargau",
@@ -68732,6 +69596,9 @@
       "Aargau",
       "Aargau",
       "Zurich",
+      "Aargau",
+      "\u00d8stfold",
+      "\u00d8stfold",
       "Aargau"
     ],
     "countries": [
@@ -68754,6 +69621,9 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
+      "Norway",
+      "Norway",
       "Switzerland"
     ],
     "dists": [
@@ -68776,7 +69646,10 @@
       149.8,
       91.4,
       812.2,
-      442.1
+      442.1,
+      1672,
+      1136.8,
+      76.4
     ],
     "times": [
       7.8,
@@ -68798,7 +69671,10 @@
       8.2,
       8.4,
       7.8,
-      8.4
+      8.4,
+      6.6,
+      6,
+      8
     ]
   },
   "Ghulja, Xinjiang, China": {
@@ -74500,10 +75376,10 @@
     ]
   },
   "Zhangjiakou Shi Xuanhua Qu, Hebei, China": {
-    "mean_dist": 420.3642165723621,
-    "mean_time": 7.312820512820523,
-    "std_dist": 344.214939318775,
-    "std_time": 0.7339785578202569,
+    "mean_dist": 521.5,
+    "mean_time": 7.2,
+    "std_dist": 472.3,
+    "std_time": 0.7,
     "city": "Zhangjiakou Shi Xuanhua Qu",
     "admin": "Hebei",
     "country": "China",
@@ -74520,7 +75396,10 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      34.075,
+      24.772,
+      40.118
     ],
     "lons": [
       "x",
@@ -74535,10 +75414,13 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      116.756,
+      108.537,
+      118.273
     ],
-    "mean_lat": 0,
-    "mean_lon": 0,
+    "mean_lat": 32.988,
+    "mean_lon": 114.522,
     "regions": [
       "Aargau",
       "Aargau",
@@ -74552,7 +75434,10 @@
       "California",
       "Aargau",
       "Aargau",
-      "Alberta"
+      "Alberta",
+      "\u00d8stfold",
+      "\u00d8stfold",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -74567,7 +75452,10 @@
       "United States",
       "Switzerland",
       "Switzerland",
-      "Canada"
+      "Canada",
+      "Norway",
+      "Norway",
+      "Switzerland"
     ],
     "dists": [
       150.9,
@@ -74582,7 +75470,10 @@
       976,
       226.7,
       608.9,
-      632.7
+      632.7,
+      740.8,
+      1859.6,
+      280.3
     ],
     "times": [
       6.7,
@@ -74597,7 +75488,10 @@
       5.4,
       8,
       8,
-      7.7
+      7.7,
+      5.8,
+      7.5,
+      8
     ]
   },
   "Mandalay, Burma": {
@@ -78873,10 +79767,10 @@
     ]
   },
   "Hamamatsu, Japan": {
-    "mean_dist": 339.4,
-    "mean_time": 8,
-    "std_dist": 203.1,
-    "std_time": 0.4,
+    "mean_dist": 344.8,
+    "mean_time": 7.9,
+    "std_dist": 205.3,
+    "std_time": 0.5,
     "city": "Hamamatsu",
     "admin": "Shizuoka",
     "country": "Japan",
@@ -78893,7 +79787,10 @@
       "x",
       37.926,
       34.04,
-      33.029
+      33.029,
+      35.709,
+      33.464,
+      33.174
     ],
     "lons": [
       "x",
@@ -78908,10 +79805,13 @@
       "x",
       140.142,
       131.313,
-      131.486
+      131.486,
+      137.792,
+      134.094,
+      131.139
     ],
-    "mean_lat": 34.998,
-    "mean_lon": 134.313,
+    "mean_lat": 34.557,
+    "mean_lon": 134.327,
     "regions": [
       "Aargau",
       "Aargau",
@@ -78925,6 +79825,9 @@
       "Aargau",
       "Bavaria",
       "Bavaria",
+      "Aargau",
+      "\u00d8stfold",
+      "\u00d8stfold",
       "Aargau"
     ],
     "countries": [
@@ -78940,6 +79843,9 @@
       "Switzerland",
       "Germany",
       "Germany",
+      "Switzerland",
+      "Norway",
+      "Norway",
       "Switzerland"
     ],
     "dists": [
@@ -78955,7 +79861,10 @@
       249.7,
       416.9,
       593.8,
-      606.2
+      606.2,
+      110.3,
+      362.8,
+      631.8
     ],
     "times": [
       8.1,
@@ -78970,7 +79879,10 @@
       8.5,
       7.4,
       7.6,
-      8.2
+      8.2,
+      6.3,
+      7.8,
+      8
     ]
   },
   "Chongqing, Chongqing, China": {
@@ -79284,9 +80196,9 @@
     ]
   },
   "Gorakhpur, Uttar Pradesh, India": {
-    "mean_dist": 524.3,
+    "mean_dist": 536.3,
     "mean_time": 7.3,
-    "std_dist": 274.1,
+    "std_dist": 271.5,
     "std_time": 0.9,
     "city": "Gorakhpur",
     "admin": "Uttar Pradesh",
@@ -79305,7 +80217,11 @@
       "x",
       30.755,
       28.507,
-      16.3
+      16.3,
+      17.956,
+      27.878,
+      28.107,
+      27.955
     ],
     "lons": [
       "x",
@@ -79321,10 +80237,14 @@
       "x",
       77.411,
       76.962,
-      78.246
+      78.246,
+      80.593,
+      78.982,
+      80.025,
+      78.721
     ],
-    "mean_lat": 25.187,
-    "mean_lon": 77.539,
+    "mean_lat": 25.351,
+    "mean_lon": 78.705,
     "regions": [
       "Aargau",
       "Aargau",
@@ -79339,7 +80259,11 @@
       "Bangkok",
       "Washington",
       "Washington",
-      "Washington"
+      "Washington",
+      "\u00d8stfold",
+      "\u00d8stfold",
+      "Aargau",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -79355,7 +80279,11 @@
       "Thailand",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Norway",
+      "Norway",
+      "Switzerland",
+      "Switzerland"
     ],
     "dists": [
       640.7,
@@ -79371,7 +80299,11 @@
       382.5,
       732.5,
       661.5,
-      1277
+      1277,
+      1018.7,
+      452.1,
+      363.8,
+      479.1
     ],
     "times": [
       7.7,
@@ -79387,7 +80319,11 @@
       4.6,
       5.9,
       6.8,
-      7.1
+      7.1,
+      6.1,
+      7.5,
+      8.1,
+      8.2
     ]
   },
   "Guilin, Guangxi, China": {
@@ -79635,10 +80571,10 @@
     ]
   },
   "Mangalore, Karn\u0101taka, India": {
-    "mean_dist": 656.3407562777161,
-    "mean_time": 7.3080000000000105,
-    "std_dist": 599.5318871608544,
-    "std_time": 0.9848758523003992,
+    "mean_dist": 699.2,
+    "mean_time": 7.3,
+    "std_dist": 621.7,
+    "std_time": 0.9,
     "city": "Mangalore",
     "admin": "Karn\u0101taka",
     "country": "India",
@@ -79667,7 +80603,10 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      12.991,
+      23.956,
+      24.246
     ],
     "lons": [
       "x",
@@ -79694,10 +80633,13 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      75.679,
+      82.72,
+      84.169
     ],
-    "mean_lat": 0,
-    "mean_lon": 0,
+    "mean_lat": 20.397,
+    "mean_lon": 80.856,
     "regions": [
       "Aargau",
       "Aargau",
@@ -79723,7 +80665,10 @@
       "Bavaria",
       "Uusimaa",
       "Ontario",
-      "Alberta"
+      "Alberta",
+      "Aargau",
+      "England",
+      "England"
     ],
     "countries": [
       "Switzerland",
@@ -79750,7 +80695,10 @@
       "Germany",
       "Finland",
       "Canada",
-      "Canada"
+      "Canada",
+      "Switzerland",
+      "United Kingdom",
+      "United Kingdom"
     ],
     "dists": [
       509,
@@ -79777,7 +80725,10 @@
       1409.8,
       1288.2,
       1152.5,
-      180.1
+      180.1,
+      90.4,
+      1482.5,
+      1597.5
     ],
     "times": [
       6.9,
@@ -79804,7 +80755,10 @@
       4.6,
       8.2,
       5.8,
-      7.1
+      7.1,
+      8.1,
+      7.2,
+      7.5
     ]
   },
   "Or\u016bm\u012byeh, Iran": {
@@ -79969,10 +80923,10 @@
     ]
   },
   "Sanzhou, Chongqing, China": {
-    "mean_dist": 1019.8,
-    "mean_time": 6.4,
-    "std_dist": 763.1,
-    "std_time": 2.2,
+    "mean_dist": 960.7,
+    "mean_time": 6.5,
+    "std_dist": 777.2,
+    "std_time": 2.1,
     "city": "Sanzhou",
     "admin": "Chongqing",
     "country": "China",
@@ -79992,7 +80946,8 @@
       "x",
       29.172,
       29.323,
-      29.474
+      29.474,
+      30.897
     ],
     "lons": [
       "x",
@@ -80010,10 +80965,11 @@
       "x",
       107.32,
       106.19,
-      106.538
+      106.538,
+      108.277
     ],
-    "mean_lat": 29.323,
-    "mean_lon": 106.682,
+    "mean_lat": 29.716,
+    "mean_lon": 107.081,
     "regions": [
       "Aargau",
       "Aargau",
@@ -80028,6 +80984,7 @@
       "Bangkok",
       "Bangkok",
       "Uusimaa",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau"
@@ -80048,6 +81005,7 @@
       "Finland",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -80066,7 +81024,8 @@
       868.2,
       210.5,
       269.9,
-      233.2
+      233.2,
+      14.5
     ],
     "times": [
       6.7,
@@ -80084,7 +81043,8 @@
       8,
       8.1,
       8.1,
-      8.3
+      8.3,
+      7.9
     ]
   },
   "Makhachkala, Dagestan, Russia": {
@@ -84789,9 +85749,9 @@
     ]
   },
   "Zhenjiang, Jiangsu, China": {
-    "mean_dist": 294.9,
+    "mean_dist": 289.6,
     "mean_time": 7.6,
-    "std_dist": 175.6,
+    "std_dist": 173.2,
     "std_time": 0.6,
     "city": "Zhenjiang",
     "admin": "Jiangsu",
@@ -84817,7 +85777,8 @@
       30.749,
       33.825,
       30.83,
-      34.327
+      34.327,
+      33.825
     ],
     "lons": [
       "x",
@@ -84840,10 +85801,11 @@
       120.012,
       119.577,
       117.05,
-      119.751
+      119.751,
+      119.403
     ],
-    "mean_lat": 32.558,
-    "mean_lon": 118.942,
+    "mean_lat": 32.769,
+    "mean_lon": 119.019,
     "regions": [
       "Aargau",
       "Aargau",
@@ -84865,6 +85827,7 @@
       "Bavaria",
       "Aargau",
       "Alberta",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -84888,6 +85851,7 @@
       "Germany",
       "Switzerland",
       "Canada",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -84911,7 +85875,8 @@
       172.6,
       179,
       273.4,
-      236.2
+      236.2,
+      178.4
     ],
     "times": [
       6.4,
@@ -84934,7 +85899,8 @@
       6.1,
       8.2,
       8.4,
-      8.3
+      8.3,
+      8.2
     ]
   },
   "Ji\u2019an, Jiangxi, China": {
@@ -85206,9 +86172,9 @@
     ]
   },
   "Yantai, Shandong, China": {
-    "mean_dist": 702,
-    "mean_time": 7.5,
-    "std_dist": 543.3,
+    "mean_dist": 753.2,
+    "mean_time": 7.4,
+    "std_dist": 581.6,
     "std_time": 0.9,
     "city": "Yantai",
     "admin": "Shandong",
@@ -85234,7 +86200,9 @@
       34.272,
       34.741,
       34.434,
-      36.655
+      36.655,
+      25.139,
+      32.762
     ],
     "lons": [
       "x",
@@ -85257,10 +86225,12 @@
       115.298,
       113.301,
       105.06,
-      119.143
+      119.143,
+      106.364,
+      118.244
     ],
-    "mean_lat": 35.86,
-    "mean_lon": 112.878,
+    "mean_lat": 34.324,
+    "mean_lon": 112.75,
     "regions": [
       "Aargau",
       "Aargau",
@@ -85282,7 +86252,9 @@
       "North Holland",
       "Utrecht",
       "North Holland",
-      "Aargau"
+      "Aargau",
+      "England",
+      "England"
     ],
     "countries": [
       "Switzerland",
@@ -85305,7 +86277,9 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Switzerland"
+      "Switzerland",
+      "United Kingdom",
+      "United Kingdom"
     ],
     "dists": [
       437.7,
@@ -85328,7 +86302,9 @@
       657.9,
       790.2,
       1507.8,
-      222.5
+      222.5,
+      1979.3,
+      602.6
     ],
     "times": [
       6.9,
@@ -85351,14 +86327,16 @@
       7.5,
       8.1,
       6.9,
-      8.4
+      8.4,
+      6,
+      6.4
     ]
   },
   "Mysore, Karn\u0101taka, India": {
-    "mean_dist": 713.2966147636467,
-    "mean_time": 7.5166666666666755,
-    "std_dist": 632.648541804424,
-    "std_time": 0.9755543804454688,
+    "mean_dist": 675.6,
+    "mean_time": 7.5,
+    "std_dist": 627.1,
+    "std_time": 0.9,
     "city": "Mysore",
     "admin": "Karn\u0101taka",
     "country": "India",
@@ -85376,7 +86354,8 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      13.497
     ],
     "lons": [
       "x",
@@ -85392,10 +86371,11 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      76.026
     ],
-    "mean_lat": 0,
-    "mean_lon": 0,
+    "mean_lat": 13.497,
+    "mean_lon": 76.026,
     "regions": [
       "Aargau",
       "Alberta",
@@ -85410,7 +86390,8 @@
       "Aargau",
       "Aargau",
       "Alberta",
-      "Bangkok"
+      "Bangkok",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -85426,7 +86407,8 @@
       "Switzerland",
       "Switzerland",
       "Canada",
-      "Thailand"
+      "Thailand",
+      "Switzerland"
     ],
     "dists": [
       2124.6,
@@ -85442,7 +86424,8 @@
       236,
       251.9,
       271.6,
-      1904.5
+      1904.5,
+      148.8
     ],
     "times": [
       7.5,
@@ -85458,7 +86441,8 @@
       8.4,
       8,
       8,
-      4.6
+      4.6,
+      8.4
     ]
   },
   "\u014csaka, Japan": {
@@ -85569,9 +86553,9 @@
     ]
   },
   "Ul\u2019yanovsk, Ul\u2019yanovskaya Oblast\u2019, Russia": {
-    "mean_dist": 783.1,
+    "mean_dist": 750.3,
     "mean_time": 7.2,
-    "std_dist": 1353.8,
+    "std_dist": 1316.9,
     "std_time": 1.1,
     "city": "Ul\u2019yanovsk",
     "admin": "Ul\u2019yanovskaya Oblast\u2019",
@@ -85591,7 +86575,8 @@
       "x",
       "x",
       53.388,
-      54.198
+      54.198,
+      54.551
     ],
     "lons": [
       "x",
@@ -85608,10 +86593,11 @@
       "x",
       "x",
       42.631,
-      46.905
+      46.905,
+      52.382
     ],
-    "mean_lat": 53.793,
-    "mean_lon": 44.768,
+    "mean_lat": 54.045,
+    "mean_lon": 47.306,
     "regions": [
       "Leinster",
       "Aargau",
@@ -85627,7 +86613,8 @@
       "California",
       "Aargau",
       "Uusimaa",
-      "Uusimaa"
+      "Uusimaa",
+      "Aargau"
     ],
     "countries": [
       "Ireland",
@@ -85644,7 +86631,8 @@
       "United States",
       "Switzerland",
       "Finland",
-      "Finland"
+      "Finland",
+      "Switzerland"
     ],
     "dists": [
       871.8,
@@ -85661,7 +86649,8 @@
       379.3,
       757.8,
       393,
-      98.7
+      98.7,
+      258
     ],
     "times": [
       7.1,
@@ -85678,7 +86667,8 @@
       4.7,
       8.6,
       7.4,
-      7.4
+      7.4,
+      7.3
     ]
   },
   "Xiamen, Fujian, China": {
@@ -85890,9 +86880,9 @@
     ]
   },
   "Jiamusi, Heilongjiang, China": {
-    "mean_dist": 1039.8,
-    "mean_time": 7.7,
-    "std_dist": 1160.1,
+    "mean_dist": 1217,
+    "mean_time": 7.6,
+    "std_dist": 1278.8,
     "std_time": 0.6,
     "city": "Jiamusi",
     "admin": "Heilongjiang",
@@ -85915,7 +86905,9 @@
       41.054,
       45.272,
       46.835,
-      45.999
+      45.999,
+      28.387,
+      34.422
     ],
     "lons": [
       "x",
@@ -85935,10 +86927,12 @@
       118.666,
       129.835,
       132.703,
-      128.792
+      128.792,
+      90.543,
+      120.157
     ],
-    "mean_lat": 44.79,
-    "mean_lon": 127.499,
+    "mean_lat": 40.328,
+    "mean_lon": 120.116,
     "regions": [
       "Aargau",
       "England",
@@ -85957,7 +86951,9 @@
       "Washington",
       "Bavaria",
       "Bavaria",
-      "Aargau"
+      "Aargau",
+      "England",
+      "England"
     ],
     "countries": [
       "Switzerland",
@@ -85977,7 +86973,9 @@
       "United States",
       "Germany",
       "Germany",
-      "Switzerland"
+      "Switzerland",
+      "United Kingdom",
+      "United Kingdom"
     ],
     "dists": [
       143.4,
@@ -85997,7 +86995,9 @@
       1132.7,
       177.7,
       179,
-      150.9
+      150.9,
+      4001.7,
+      1622.6
     ],
     "times": [
       7.5,
@@ -86017,7 +87017,9 @@
       7.7,
       7.9,
       7.6,
-      8.3
+      8.3,
+      6.5,
+      7.4
     ]
   },
   "Yichun, Jiangxi, China": {
@@ -87010,10 +88012,10 @@
     ]
   },
   "Guangyuan, Sichuan, China": {
-    "mean_dist": 435.53152350058133,
-    "mean_time": 8.090476190476199,
-    "std_dist": 283.83355759755204,
-    "std_time": 0.3300862252499678,
+    "mean_dist": 533.8,
+    "mean_time": 7.8,
+    "std_dist": 401.3,
+    "std_time": 0.5,
     "city": "Guangyuan",
     "admin": "Sichuan",
     "country": "China",
@@ -87031,7 +88033,10 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      25.437,
+      26.955,
+      30.226
     ],
     "lons": [
       "x",
@@ -87047,10 +88052,13 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      116.234,
+      119.577,
+      105.321
     ],
-    "mean_lat": 0,
-    "mean_lon": 0,
+    "mean_lat": 27.539,
+    "mean_lon": 113.71,
     "regions": [
       "Aargau",
       "California",
@@ -87065,6 +88073,9 @@
       "England",
       "Aargau",
       "Aargau",
+      "Aargau",
+      "\u00d8stfold",
+      "\u00d8stfold",
       "Aargau"
     ],
     "countries": [
@@ -87081,6 +88092,9 @@
       "United Kingdom",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
+      "Norway",
+      "Norway",
       "Switzerland"
     ],
     "dists": [
@@ -87097,7 +88111,10 @@
       1018.1,
       267.2,
       195.5,
-      223.4
+      223.4,
+      1272.3,
+      1455.7,
+      250.5
     ],
     "times": [
       8.3,
@@ -87113,7 +88130,10 @@
       8.1,
       8.3,
       8.3,
-      8.1
+      8.1,
+      6.3,
+      6.7,
+      8.3
     ]
   },
   "Hubli, Karn\u0101taka, India": {
@@ -87492,9 +88512,9 @@
     ]
   },
   "Huainan, Anhui, China": {
-    "mean_dist": 866.5,
-    "mean_time": 6.8,
-    "std_dist": 654.3,
+    "mean_dist": 837.6,
+    "mean_time": 6.9,
+    "std_dist": 648.6,
     "std_time": 1.3,
     "city": "Huainan",
     "admin": "Anhui",
@@ -87517,7 +88537,8 @@
       30.674,
       27.423,
       33.053,
-      28.798
+      28.798,
+      29.776
     ],
     "lons": [
       "x",
@@ -87537,10 +88558,11 @@
       116.187,
       119.485,
       102.597,
-      107.749
+      107.749,
+      117.143
     ],
-    "mean_lat": 32.412,
-    "mean_lon": 114.273,
+    "mean_lat": 32.148,
+    "mean_lon": 114.56,
     "regions": [
       "California",
       "Alberta",
@@ -87559,7 +88581,8 @@
       "Aargau",
       "Zurich",
       "Connecticut",
-      "Zurich"
+      "Zurich",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -87579,6 +88602,7 @@
       "Switzerland",
       "Switzerland",
       "United States",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -87599,7 +88623,8 @@
       230,
       627.1,
       1343.3,
-      979.3
+      979.3,
+      317.7
     ],
     "times": [
       5.7,
@@ -87619,7 +88644,8 @@
       7.9,
       7,
       7.7,
-      6.5
+      6.5,
+      8.1
     ]
   },
   "Jaipur, R\u0101jasth\u0101n, India": {
@@ -87778,9 +88804,9 @@
     ]
   },
   "N\u0101sik, Mah\u0101r\u0101shtra, India": {
-    "mean_dist": 261.5,
+    "mean_dist": 259.4,
     "mean_time": 7.5,
-    "std_dist": 241.2,
+    "std_dist": 233.2,
     "std_time": 1,
     "city": "N\u0101sik",
     "admin": "Mah\u0101r\u0101shtra",
@@ -87799,7 +88825,8 @@
       "x",
       19.512,
       20.697,
-      24.099
+      24.099,
+      18.329
     ],
     "lons": [
       "x",
@@ -87815,10 +88842,11 @@
       "x",
       74.772,
       74.375,
-      80.333
+      80.333,
+      75.07
     ],
-    "mean_lat": 21.436,
-    "mean_lon": 76.493,
+    "mean_lat": 20.659,
+    "mean_lon": 76.137,
     "regions": [
       "Aargau",
       "Aargau",
@@ -87833,7 +88861,8 @@
       "Bangkok",
       "Bavaria",
       "Bavaria",
-      "Washington"
+      "Washington",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -87849,7 +88878,8 @@
       "Thailand",
       "Germany",
       "Germany",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       147.5,
@@ -87865,7 +88895,8 @@
       289.8,
       117.1,
       99.3,
-      814.6
+      814.6,
+      230
     ],
     "times": [
       8.9,
@@ -87881,7 +88912,8 @@
       5.8,
       6.9,
       7.2,
-      5.1
+      5.1,
+      8.5
     ]
   },
   "Suzhou, Anhui, China": {
@@ -88034,9 +89066,9 @@
     ]
   },
   "Sharjah, United Arab Emirates": {
-    "mean_dist": 235.1,
+    "mean_dist": 226.6,
     "mean_time": 6.5,
-    "std_dist": 449.2,
+    "std_dist": 440.5,
     "std_time": 1.5,
     "city": "Sharjah",
     "admin": "Ash Sh\u0101riqah",
@@ -88062,7 +89094,8 @@
       "x",
       "x",
       26.139,
-      25.165
+      25.165,
+      25.086
     ],
     "lons": [
       "x",
@@ -88085,10 +89118,11 @@
       "x",
       "x",
       51.125,
+      55.772,
       55.772
     ],
-    "mean_lat": 25.652,
-    "mean_lon": 53.448,
+    "mean_lat": 25.463,
+    "mean_lon": 54.222,
     "regions": [
       "Unknown",
       "Unknown",
@@ -88110,6 +89144,7 @@
       "Ontario",
       "Alberta",
       "Washington",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -88133,6 +89168,7 @@
       "Canada",
       "Canada",
       "United States",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -88156,7 +89192,8 @@
       176.6,
       81.7,
       437.1,
-      43.3
+      43.3,
+      48.5
     ],
     "times": [
       6.1,
@@ -88179,7 +89216,8 @@
       6,
       7.9,
       5.8,
-      7.9
+      7.9,
+      7.7
     ]
   },
   "Nur-Sultan, Kazakhstan": {
