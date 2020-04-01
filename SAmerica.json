@@ -552,9 +552,9 @@
     ]
   },
   "Cartagena, Colombia": {
-    "mean_dist": 489.3,
-    "mean_time": 6.9,
-    "std_dist": 529.7,
+    "mean_dist": 483.2,
+    "mean_time": 7,
+    "std_dist": 521.8,
     "std_time": 1.9,
     "city": "Cartagena",
     "admin": "Bol\u00edvar",
@@ -588,7 +588,8 @@
       8.237,
       9.153,
       8.186,
-      7.539
+      7.539,
+      11.078
     ],
     "lons": [
       "x",
@@ -619,10 +620,14 @@
       -76.481,
       -75.455,
       -75.045,
-      -75.017
+      -75.017,
+      -72.787
     ],
-    "mean_lat": 8.278,
-    "mean_lon": -75.499,
+    "mean_lat": 8.838,
+    "mean_lon": -74.957,
+    "true_lat": 10.3997,
+    "true_lon": -75.5144,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Cartagena%2C+Colombia&go=Go&ns0=1",
     "regions": [
       "Unknown",
       "Unknown",
@@ -652,7 +657,8 @@
       "Aargau",
       "Aargau",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "Aargau"
     ],
     "countries": [
       "Unknown",
@@ -683,7 +689,8 @@
       "Switzerland",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       1886.6,
@@ -714,7 +721,8 @@
       262.7,
       138.7,
       251.3,
-      322.7
+      322.7,
+      307.3
     ],
     "times": [
       6.2,
@@ -745,13 +753,14 @@
       8.5,
       8.7,
       8.3,
-      7.9
+      7.9,
+      8.1
     ]
   },
   "Basseterre, Saint Kitts And Nevis": {
-    "mean_dist": 456.4,
+    "mean_dist": 453.8,
     "mean_time": 7.2,
-    "std_dist": 957.3,
+    "std_dist": 949.8,
     "std_time": 1.5,
     "admin": "Saint George Basseterre",
     "country": "Saint Kitts And Nevis",
@@ -869,7 +878,9 @@
       7.779,
       12.486,
       14.364,
-      16.77
+      16.77,
+      12.489,
+      17.065
     ],
     "lons": [
       "x",
@@ -984,10 +995,12 @@
       -61.192,
       -61.239,
       -61.318,
-      -61.705
+      -61.705,
+      -60.884,
+      -63.039
     ],
-    "mean_lat": 15.073,
-    "mean_lon": -63.332,
+    "mean_lat": 15.06,
+    "mean_lon": -63.271,
     "true_lat": 17.302,
     "true_lon": -62.717,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Basseterre%2C+Saint Kitts And Nevis&go=Go&ns0=1",
@@ -1104,6 +1117,8 @@
       "Berlin",
       "Buenos Aires F.D.",
       "Buenos Aires F.D.",
+      "Aargau",
+      "California",
       "Aargau"
     ],
     "countries": [
@@ -1219,6 +1234,8 @@
       "Germany",
       "Argentina",
       "Argentina",
+      "Switzerland",
+      "United States",
       "Switzerland"
     ],
     "dists": [
@@ -1334,7 +1351,9 @@
       1071.7,
       558.4,
       359.2,
-      122.7
+      122.7,
+      570.2,
+      43.1
     ],
     "times": [
       7.8,
@@ -1449,7 +1468,9 @@
       3.5,
       6.8,
       6.9,
-      8.5
+      8.5,
+      7.7,
+      8.7
     ]
   },
   "Oranjestad, Aruba": {
@@ -2285,9 +2306,9 @@
     ]
   },
   "Kingstown, Saint Vincent And The Grenadines": {
-    "mean_dist": 306.3,
+    "mean_dist": 304.5,
     "mean_time": 7.2,
-    "std_dist": 475.3,
+    "std_dist": 473.1,
     "std_time": 1.3,
     "admin": "Saint George",
     "country": "Saint Vincent And The Grenadines",
@@ -2386,7 +2407,8 @@
       12.185,
       13.891,
       17.556,
-      15.98
+      15.98,
+      11.986
     ],
     "lons": [
       "x",
@@ -2482,10 +2504,11 @@
       -61.342,
       -61.192,
       -63.347,
+      -61.192,
       -61.192
     ],
-    "mean_lat": 14.304,
-    "mean_lon": -63.399,
+    "mean_lat": 14.211,
+    "mean_lon": -63.311,
     "true_lat": 13.1483,
     "true_lon": -61.2121,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kingstown%2C+Saint Vincent And The Grenadines&go=Go&ns0=1",
@@ -2583,6 +2606,7 @@
       "Buenos Aires F.D.",
       "Berlin",
       "Central Bohemia",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -2679,6 +2703,7 @@
       "Argentina",
       "Germany",
       "Czech Republic",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -2775,7 +2800,8 @@
       108,
       82.7,
       541,
-      314.8
+      314.8,
+      129.2
     ],
     "times": [
       8.1,
@@ -2871,13 +2897,14 @@
       6.9,
       7.1,
       1.3,
+      8.6,
       8.6
     ]
   },
   "Georgetown, Guyana": {
-    "mean_dist": 429.2,
+    "mean_dist": 422.9,
     "mean_time": 7.1,
-    "std_dist": 835.1,
+    "std_dist": 826.4,
     "std_time": 1.3,
     "admin": "Demerara-Mahaica",
     "country": "Guyana",
@@ -2966,7 +2993,9 @@
       6.909,
       6.551,
       5.859,
-      4.658
+      4.658,
+      8.135,
+      6.4
     ],
     "lons": [
       "x",
@@ -3052,10 +3081,12 @@
       -58.161,
       -58.263,
       -57.086,
-      -53.496
+      -53.496,
+      -60.166,
+      -57.908
     ],
-    "mean_lat": 3.702,
-    "mean_lon": -58.94,
+    "mean_lat": 3.932,
+    "mean_lon": -58.947,
     "true_lat": 6.802,
     "true_lon": -58.167,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Georgetown%2C+Guyana&go=Go&ns0=1",
@@ -3143,7 +3174,9 @@
       "Buenos Aires F.D.",
       "Buenos Aires F.D.",
       "Virginia",
-      "Virginia"
+      "Virginia",
+      "Aargau",
+      "Aargau"
     ],
     "countries": [
       "Unknown",
@@ -3229,7 +3262,9 @@
       "Argentina",
       "Argentina",
       "United States",
-      "United States"
+      "United States",
+      "Switzerland",
+      "Switzerland"
     ],
     "dists": [
       547.3,
@@ -3315,7 +3350,9 @@
       11.9,
       29.8,
       158.8,
-      569
+      569,
+      265.6,
+      53
     ],
     "times": [
       7.3,
@@ -3401,7 +3438,9 @@
       4.9,
       3,
       7.3,
-      7.1
+      7.1,
+      7.6,
+      8.3
     ]
   },
   "Santa Cruz, Bolivia": {
@@ -3785,9 +3824,9 @@
     ]
   },
   "Willemstad, Cura\u00e7ao": {
-    "mean_dist": 659.8,
+    "mean_dist": 654.2,
     "mean_time": 7.1,
-    "std_dist": 1409.7,
+    "std_dist": 1404.8,
     "std_time": 1.5,
     "admin": "",
     "country": "Cura\u00e7ao",
@@ -3906,7 +3945,8 @@
       10.614,
       12.512,
       -0.688,
-      11.986
+      11.986,
+      12.086
     ],
     "lons": [
       "x",
@@ -4022,10 +4062,11 @@
       -62.707,
       -69.835,
       -90.642,
-      -69.606
+      -69.606,
+      -68.888
     ],
-    "mean_lat": 10.997,
-    "mean_lon": -64.128,
+    "mean_lat": 11.025,
+    "mean_lon": -64.25,
     "true_lat": 12.2004,
     "true_lon": -69.02,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Willemstad%2C+Cura\u00e7ao&go=Go&ns0=1",
@@ -4143,6 +4184,7 @@
       "Berlin",
       "Utrecht",
       "Berlin",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -4259,6 +4301,7 @@
       "Germany",
       "Netherlands",
       "Germany",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -4375,7 +4418,8 @@
       710.2,
       95.1,
       2784,
-      68
+      68,
+      19.1
     ],
     "times": [
       7.5,
@@ -4491,7 +4535,8 @@
       8,
       5.3,
       6.4,
-      8.2
+      8.2,
+      8.5
     ]
   },
   "Guayaquil, Ecuador": {
@@ -4812,9 +4857,9 @@
     ]
   },
   "Rosario, Argentina": {
-    "mean_dist": 362.9,
-    "mean_time": 6.7,
-    "std_dist": 302.7,
+    "mean_dist": 347.6,
+    "mean_time": 6.8,
+    "std_dist": 300,
     "std_time": 2,
     "city": "Rosario",
     "admin": "Santa Fe",
@@ -4835,7 +4880,8 @@
       "x",
       "x",
       "x",
-      -32.196
+      -32.196,
+      -33.319
     ],
     "lons": [
       "x",
@@ -4853,10 +4899,14 @@
       "x",
       "x",
       "x",
-      -60.521
+      -60.521,
+      -59.652
     ],
-    "mean_lat": -32.196,
-    "mean_lon": -60.521,
+    "mean_lat": -32.757,
+    "mean_lon": -60.086,
+    "true_lat": -32.9511,
+    "true_lon": -60.6663,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Rosario%2C+Argentina&go=Go&ns0=1",
     "regions": [
       "New Jersey",
       "California",
@@ -4873,7 +4923,8 @@
       "Bavaria",
       "Bavaria",
       "Bangkok",
-      "Buenos Aires F.D."
+      "Buenos Aires F.D.",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -4891,7 +4942,8 @@
       "Germany",
       "Germany",
       "Thailand",
-      "Argentina"
+      "Argentina",
+      "Switzerland"
     ],
     "dists": [
       494.4,
@@ -4909,7 +4961,8 @@
       846,
       266.5,
       1192.3,
-      84.9
+      84.9,
+      102.8
     ],
     "times": [
       1.6,
@@ -4927,13 +4980,14 @@
       6.8,
       5.8,
       6.1,
-      3
+      3,
+      8.3
     ]
   },
   "Santo Domingo, Dominican Republic": {
-    "mean_dist": 446,
-    "mean_time": 6.9,
-    "std_dist": 1216.1,
+    "mean_dist": 438.2,
+    "mean_time": 7,
+    "std_dist": 1204.2,
     "std_time": 1.9,
     "admin": "Ozama",
     "country": "Dominican Republic",
@@ -4984,7 +5038,8 @@
       18.818,
       18.486,
       18.389,
-      17.605
+      17.605,
+      17.753
     ],
     "lons": [
       "x",
@@ -5032,10 +5087,11 @@
       -72.353,
       -71.043,
       -62.731,
-      -71.145
+      -71.145,
+      -69.811
     ],
-    "mean_lat": 17.597,
-    "mean_lon": -70.359,
+    "mean_lat": 17.606,
+    "mean_lon": -70.327,
     "true_lat": 18.4701,
     "true_lon": -69.9001,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Santo Domingo%2C+Dominican Republic&go=Go&ns0=1",
@@ -5085,7 +5141,8 @@
       "Berlin",
       "Berlin",
       "Berlin",
-      "Hesse"
+      "Hesse",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -5133,7 +5190,8 @@
       "Germany",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       55,
@@ -5181,7 +5239,8 @@
       261.3,
       120.5,
       756.2,
-      163
+      163,
+      80.2
     ],
     "times": [
       1.7,
@@ -5229,7 +5288,8 @@
       7.6,
       6.6,
       6.5,
-      8
+      8,
+      8.5
     ]
   },
   "Matur\u00edn, Venezuela": {
@@ -6700,9 +6760,9 @@
     ]
   },
   "Medell\u00edn, Colombia": {
-    "mean_dist": 276.2,
-    "mean_time": 7.4,
-    "std_dist": 179.7,
+    "mean_dist": 276.6,
+    "mean_time": 7.5,
+    "std_dist": 176.2,
     "std_time": 1.1,
     "city": "Medell\u00edn",
     "admin": "Antioquia",
@@ -6732,7 +6792,8 @@
       6.394,
       11.229,
       3.937,
-      7.115
+      7.115,
+      8.644
     ],
     "lons": [
       "x",
@@ -6759,10 +6820,11 @@
       -74.377,
       -75.147,
       -75.297,
-      -75.866
+      -75.866,
+      -74.532
     ],
-    "mean_lat": 7.459,
-    "mean_lon": -75.499,
+    "mean_lat": 7.557,
+    "mean_lon": -75.418,
     "true_lat": 6.275,
     "true_lon": -75.575,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Medell\u00edn%2C+Colombia&go=Go&ns0=1",
@@ -6791,7 +6853,8 @@
       "Berlin",
       "Berlin",
       "Buenos Aires F.D.",
-      "Aargau"
+      "Aargau",
+      "California"
     ],
     "countries": [
       "United States",
@@ -6818,7 +6881,8 @@
       "Germany",
       "Germany",
       "Argentina",
-      "Switzerland"
+      "Switzerland",
+      "United States"
     ],
     "dists": [
       348.6,
@@ -6845,7 +6909,8 @@
       132.9,
       552.9,
       261.6,
-      98.8
+      98.8,
+      287.5
     ],
     "times": [
       7.3,
@@ -6872,13 +6937,14 @@
       7.8,
       7.7,
       4.4,
-      8
+      8,
+      8.3
     ]
   },
   "Villavicencio, Colombia": {
-    "mean_dist": 430.8,
-    "mean_time": 7,
-    "std_dist": 189.5,
+    "mean_dist": 423.2,
+    "mean_time": 7.1,
+    "std_dist": 186.7,
     "std_time": 2.3,
     "admin": "Meta",
     "country": "Colombia",
@@ -6900,7 +6966,8 @@
       10.117,
       7.115,
       3.973,
-      2.819
+      2.819,
+      6.093
     ],
     "lons": [
       "x",
@@ -6919,10 +6986,14 @@
       -74.326,
       -75.558,
       -75.763,
-      -73.308
+      -73.308,
+      -75.455
     ],
-    "mean_lat": 6.636,
-    "mean_lon": -74.657,
+    "mean_lat": 6.558,
+    "mean_lon": -74.771,
+    "true_lat": 4.1533,
+    "true_lon": -73.635,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Villavicencio%2C+Colombia&go=Go&ns0=1",
     "regions": [
       "New Jersey",
       "New South Wales",
@@ -6940,7 +7011,8 @@
       "Berlin",
       "Aargau",
       "Berlin",
-      "Utrecht"
+      "Utrecht",
+      "California"
     ],
     "countries": [
       "United States",
@@ -6959,7 +7031,8 @@
       "Germany",
       "Switzerland",
       "Germany",
-      "Netherlands"
+      "Netherlands",
+      "United States"
     ],
     "dists": [
       85.1,
@@ -6978,7 +7051,8 @@
       667.5,
       392.1,
       236.9,
-      152.7
+      152.7,
+      295.2
     ],
     "times": [
       6.4,
@@ -6997,13 +7071,14 @@
       0.8,
       8.6,
       7.6,
-      5.4
+      5.4,
+      8.6
     ]
   },
   "Ciudad Bol\u00edvar, Venezuela": {
-    "mean_dist": 767.2,
-    "mean_time": 6.5,
-    "std_dist": 753.8,
+    "mean_dist": 743.8,
+    "mean_time": 6.6,
+    "std_dist": 749.3,
     "std_time": 1.9,
     "city": "Ciudad Bol\u00edvar",
     "admin": "Bol\u00edvar",
@@ -7034,7 +7109,8 @@
       -19.447,
       10.165,
       -6.696,
-      -16.116
+      -16.116,
+      9.051
     ],
     "lons": [
       "x",
@@ -7062,10 +7138,14 @@
       -63.141,
       -67.806,
       -76.221,
-      -65.707
+      -65.707,
+      -62.833
     ],
-    "mean_lat": 4.207,
-    "mean_lon": -65.776,
+    "mean_lat": 4.492,
+    "mean_lon": -65.603,
+    "true_lat": 8.1,
+    "true_lon": -63.6,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ciudad Bol\u00edvar%2C+Venezuela&go=Go&ns0=1",
     "regions": [
       "New Jersey",
       "Alberta",
@@ -7092,7 +7172,8 @@
       "Berlin",
       "Buenos Aires F.D.",
       "Santiago Metropolitan",
-      "Santiago Metropolitan"
+      "Santiago Metropolitan",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -7120,7 +7201,8 @@
       "Germany",
       "Argentina",
       "Chile",
-      "Chile"
+      "Chile",
+      "Switzerland"
     ],
     "dists": [
       428.6,
@@ -7148,7 +7230,8 @@
       3063.5,
       515.7,
       2159.9,
-      2702.6
+      2702.6,
+      135.2
     ],
     "times": [
       6.3,
@@ -7176,7 +7259,8 @@
       5.4,
       7.3,
       1.2,
-      3.4
+      3.4,
+      8.5
     ]
   },
   "Concepci\u00f3n, Chile": {
@@ -7768,9 +7852,9 @@
     ]
   },
   "Castries, Saint Lucia": {
-    "mean_dist": 288.8,
+    "mean_dist": 284.8,
     "mean_time": 7.4,
-    "std_dist": 869.2,
+    "std_dist": 863.7,
     "std_time": 1.1,
     "admin": "Castries",
     "country": "Saint Lucia",
@@ -7845,7 +7929,8 @@
       14.538,
       14.661,
       13.692,
-      12.287
+      12.287,
+      13.991
     ],
     "lons": [
       "x",
@@ -7917,10 +8002,11 @@
       -61.136,
       -61.954,
       -60.781,
-      -61.5
+      -61.5,
+      -60.986
     ],
-    "mean_lat": 9.805,
-    "mean_lon": -61.327,
+    "mean_lat": 10.084,
+    "mean_lon": -61.304,
     "true_lat": 14.002,
     "true_lon": -61,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Castries%2C+Saint Lucia&go=Go&ns0=1",
@@ -7994,7 +8080,8 @@
       "Silesia",
       "Colorado",
       "California",
-      "Aargau"
+      "Aargau",
+      "California"
     ],
     "countries": [
       "United States",
@@ -8066,7 +8153,8 @@
       "Poland",
       "United States",
       "United States",
-      "Switzerland"
+      "Switzerland",
+      "United States"
     ],
     "dists": [
       71.7,
@@ -8138,7 +8226,8 @@
       61.4,
       126.3,
       41.7,
-      198.1
+      198.1,
+      1.8
     ],
     "times": [
       6.4,
@@ -8210,14 +8299,15 @@
       6.2,
       4.7,
       7.8,
-      8
+      8,
+      8.6
     ]
   },
   "Quito, Ecuador": {
-    "mean_dist": 381,
-    "mean_time": 7.4,
-    "std_dist": 743.8,
-    "std_time": 1.4,
+    "mean_dist": 376.2,
+    "mean_time": 7.5,
+    "std_dist": 734.2,
+    "std_time": 1.3,
     "city": "Quito",
     "admin": "Pichincha",
     "country": "Ecuador",
@@ -8257,7 +8347,8 @@
       6.039,
       -1.205,
       -1.682,
-      -0.173
+      -0.173,
+      -2.025
     ],
     "lons": [
       "x",
@@ -8295,10 +8386,11 @@
       -56.416,
       -78.376,
       -77.952,
-      -78.944
+      -78.944,
+      -78.226
     ],
-    "mean_lat": -2.528,
-    "mean_lon": -74.804,
+    "mean_lat": -2.486,
+    "mean_lon": -75.089,
     "true_lat": -0.215,
     "true_lon": -78.5001,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Quito%2C+Ecuador&go=Go&ns0=1",
@@ -8338,7 +8430,8 @@
       "North Rhine-Westphalia",
       "Buenos Aires F.D.",
       "Buenos Aires F.D.",
-      "Aargau"
+      "Aargau",
+      "California"
     ],
     "countries": [
       "United States",
@@ -8376,7 +8469,8 @@
       "Germany",
       "Argentina",
       "Argentina",
-      "Switzerland"
+      "Switzerland",
+      "United States"
     ],
     "dists": [
       207.5,
@@ -8414,7 +8508,8 @@
       2547.8,
       110.9,
       174.2,
-      49.6
+      49.6,
+      203.6
     ],
     "times": [
       7.6,
@@ -8452,13 +8547,14 @@
       7.4,
       4.1,
       6.5,
-      8.5
+      8.5,
+      8.7
     ]
   },
   "Philipsburg, Sint Maarten": {
-    "mean_dist": 574.8,
-    "mean_time": 6.8,
-    "std_dist": 1161.8,
+    "mean_dist": 566.9,
+    "mean_time": 6.9,
+    "std_dist": 1152.9,
     "std_time": 1.6,
     "admin": "",
     "country": "Sint Maarten",
@@ -8573,7 +8669,9 @@
       17.655,
       13.289,
       17.161,
-      17.065
+      17.065,
+      17.851,
+      16.868
     ],
     "lons": [
       "x",
@@ -8685,10 +8783,12 @@
       -62.833,
       -60.828,
       -62.265,
-      -62.32
+      -62.32,
+      -62.628,
+      -61.5
     ],
-    "mean_lat": 13.095,
-    "mean_lon": -64.333,
+    "mean_lat": 13.308,
+    "mean_lon": -64.22,
     "true_lat": 18.0255,
     "true_lon": -63.045,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Philipsburg%2C+Sint Maarten&go=Go&ns0=1",
@@ -8802,6 +8902,8 @@
       "Aargau",
       "Buenos Aires F.D.",
       "Buenos Aires F.D.",
+      "Aargau",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -8914,6 +9016,8 @@
       "Switzerland",
       "Argentina",
       "Argentina",
+      "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -9026,7 +9130,9 @@
       46.8,
       577.5,
       126.6,
-      131.4
+      131.4,
+      48.1,
+      208.3
     ],
     "times": [
       8.1,
@@ -9138,6 +9244,8 @@
       8.7,
       6.5,
       7.8,
+      8.7,
+      8.7,
       8.7
     ]
   },
@@ -9649,9 +9757,9 @@
     ]
   },
   "La Paz, Bolivia": {
-    "mean_dist": 439.3,
+    "mean_dist": 434.3,
     "mean_time": 6.8,
-    "std_dist": 551,
+    "std_dist": 548.2,
     "std_time": 1.5,
     "admin": "La Paz",
     "country": "Bolivia",
@@ -9720,7 +9828,8 @@
       -16.313,
       -15.549,
       -18.523,
-      -15.72
+      -15.72,
+      -16.017
     ],
     "lons": [
       "x",
@@ -9786,10 +9895,11 @@
       -68.58,
       -63.668,
       -63.654,
-      -69.196
+      -69.196,
+      -69.093
     ],
-    "mean_lat": -15.776,
-    "mean_lon": -65.523,
+    "mean_lat": -15.789,
+    "mean_lon": -65.711,
     "true_lat": -16.498,
     "true_lon": -68.15,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=La Paz%2C+Bolivia&go=Go&ns0=1",
@@ -9857,6 +9967,7 @@
       "Aargau",
       "Berlin",
       "Berlin",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -9923,6 +10034,7 @@
       "Switzerland",
       "Germany",
       "Germany",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -9989,7 +10101,8 @@
       50.2,
       490.4,
       527.1,
-      141.3
+      141.3,
+      114
     ],
     "times": [
       7.9,
@@ -10055,7 +10168,8 @@
       8.4,
       5.9,
       7.8,
-      8.5
+      8.5,
+      8.2
     ]
   },
   "Pasto, Colombia": {
@@ -13646,9 +13760,9 @@
     ]
   },
   "Iquitos, Peru": {
-    "mean_dist": 960.6,
-    "mean_time": 7.9,
-    "std_dist": 308.8,
+    "mean_dist": 983.6,
+    "mean_time": 8,
+    "std_dist": 297.2,
     "std_time": 0.7,
     "city": "Iquitos",
     "admin": "Loreto",
@@ -13667,7 +13781,9 @@
       -6.029,
       -11.923,
       -7.319,
-      -10.762
+      -10.762,
+      -14.926,
+      -13.028
     ],
     "lons": [
       "x",
@@ -13683,10 +13799,15 @@
       -76.515,
       -72.377,
       -75.55,
-      -76.584
+      -76.584,
+      -73.403,
+      -74.839
     ],
-    "mean_lat": -9.008,
-    "mean_lon": -75.256,
+    "mean_lat": -10.664,
+    "mean_lon": -74.878,
+    "true_lat": -3.75,
+    "true_lon": -73.25,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Iquitos%2C+Peru&go=Go&ns0=1",
     "regions": [
       "New South Wales",
       "Aargau",
@@ -13701,7 +13822,9 @@
       "Washington",
       "California",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "California",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -13717,7 +13840,9 @@
       "United States",
       "United States",
       "Germany",
-      "Germany"
+      "Germany",
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       685.8,
@@ -13733,7 +13858,9 @@
       441.7,
       913.8,
       471.4,
-      862
+      862,
+      1242.8,
+      1046.4
     ],
     "times": [
       7.8,
@@ -13749,7 +13876,9 @@
       6.6,
       8.8,
       6.3,
-      6.9
+      6.9,
+      8.7,
+      8.4
     ]
   },
   "Bucaramanga, Colombia": {
@@ -13944,9 +14073,9 @@
     ]
   },
   "Santiago, Chile": {
-    "mean_dist": 387.7,
+    "mean_dist": 378.5,
     "mean_time": 7.5,
-    "std_dist": 298.7,
+    "std_dist": 298.1,
     "std_time": 0.8,
     "admin": "Regi\u00f3n Metropolitana",
     "country": "Chile",
@@ -13981,7 +14110,8 @@
       -29.15,
       -24.365,
       -39.96,
-      -38.563
+      -38.563,
+      -32.802
     ],
     "lons": [
       "x",
@@ -14013,10 +14143,14 @@
       -72.047,
       -69.756,
       -73.916,
-      -72.033
+      -72.033,
+      -71.453
     ],
-    "mean_lat": -33.89,
-    "mean_lon": -71.661,
+    "mean_lat": -33.781,
+    "mean_lon": -71.641,
+    "true_lat": -33.45,
+    "true_lon": -70.667,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Santiago%2C+Chile&go=Go&ns0=1",
     "regions": [
       "New South Wales",
       "Ontario",
@@ -14047,7 +14181,8 @@
       "North Rhine-Westphalia",
       "North Rhine-Westphalia",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "California"
     ],
     "countries": [
       "Australia",
@@ -14079,7 +14214,8 @@
       "Germany",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "United States"
     ],
     "dists": [
       324,
@@ -14111,7 +14247,8 @@
       495.7,
       1013.9,
       779.5,
-      581.7
+      581.7,
+      102.7
     ],
     "times": [
       7.3,
@@ -14143,7 +14280,8 @@
       7.5,
       7,
       7.5,
-      7.4
+      7.4,
+      8.4
     ]
   },
   "Santa Fe, Argentina": {
@@ -14496,9 +14634,9 @@
     ]
   },
   "Barahona, Dominican Republic": {
-    "mean_dist": 300.3,
+    "mean_dist": 298.6,
     "mean_time": 7.1,
-    "std_dist": 635.8,
+    "std_dist": 630.6,
     "std_time": 1.8,
     "admin": "Enriquillo",
     "country": "Dominican Republic",
@@ -14562,6 +14700,7 @@
       19.411,
       18.437,
       18.679,
+      18.73,
       18.73
     ],
     "lons": [
@@ -14623,10 +14762,11 @@
       -71.145,
       -68.99,
       -70.064,
-      -70.632
+      -70.632,
+      -69.298
     ],
-    "mean_lat": 18.067,
-    "mean_lon": -69.571,
+    "mean_lat": 18.102,
+    "mean_lon": -69.556,
     "true_lat": 18.2004,
     "true_lon": -71.1,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Barahona%2C+Dominican Republic&go=Go&ns0=1",
@@ -14689,7 +14829,8 @@
       "Berlin",
       "Central Bohemia",
       "Buenos Aires F.D.",
-      "California"
+      "California",
+      "Aargau"
     ],
     "countries": [
       "Canada",
@@ -14750,7 +14891,8 @@
       "Germany",
       "Czech Republic",
       "Argentina",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       114.7,
@@ -14811,7 +14953,8 @@
       134.7,
       224.2,
       121.5,
-      76.8
+      76.8,
+      198.9
     ],
     "times": [
       7,
@@ -14872,7 +15015,8 @@
       6.6,
       4,
       7.3,
-      7.7
+      7.7,
+      8.7
     ]
   },
   "Lorica, Colombia": {
@@ -15049,9 +15193,9 @@
     ]
   },
   "Loja, Ecuador": {
-    "mean_dist": 352.7,
+    "mean_dist": 348.5,
     "mean_time": 7.6,
-    "std_dist": 434.1,
+    "std_dist": 430.1,
     "std_time": 1.4,
     "admin": "Loja",
     "country": "Ecuador",
@@ -15100,7 +15244,8 @@
       -0.742,
       -23.812,
       -1.768,
-      -2.437
+      -2.437,
+      -2.54
     ],
     "lons": [
       "x",
@@ -15146,10 +15291,11 @@
       -78.889,
       -58.925,
       -78.431,
+      -79.56,
       -79.56
     ],
-    "mean_lat": -3.64,
-    "mean_lon": -77.47,
+    "mean_lat": -3.561,
+    "mean_lon": -77.619,
     "true_lat": -3.99,
     "true_lon": -79.21,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Loja%2C+Ecuador&go=Go&ns0=1",
@@ -15197,6 +15343,7 @@
       "Lisbon",
       "Berlin",
       "Berlin",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -15243,6 +15390,7 @@
       "Portugal",
       "Germany",
       "Germany",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -15289,7 +15437,8 @@
       362.9,
       3097,
       261.6,
-      176.9
+      176.9,
+      165.8
     ],
     "times": [
       7,
@@ -15335,7 +15484,8 @@
       3.5,
       7.5,
       8.2,
-      8.6
+      8.6,
+      8
     ]
   },
   "Azul, Argentina": {
@@ -19060,9 +19210,9 @@
     ]
   },
   "Portoviejo, Ecuador": {
-    "mean_dist": 295.2,
+    "mean_dist": 294.6,
     "mean_time": 7.3,
-    "std_dist": 477.6,
+    "std_dist": 474.2,
     "std_time": 1.4,
     "admin": "Manab\u00ed",
     "country": "Ecuador",
@@ -19135,7 +19285,8 @@
       -19.738,
       -1.71,
       -1.41,
-      -0.303
+      -0.303,
+      -3.259
     ],
     "lons": [
       "x",
@@ -19205,10 +19356,11 @@
       -63.449,
       -77.309,
       -78.683,
-      -80.199
+      -80.199,
+      -79.867
     ],
-    "mean_lat": -3.06,
-    "mean_lon": -77.903,
+    "mean_lat": -3.068,
+    "mean_lon": -77.982,
     "true_lat": -1.06,
     "true_lon": -80.46,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Portoviejo%2C+Ecuador&go=Go&ns0=1",
@@ -19280,7 +19432,8 @@
       "Zurich",
       "Obwalden",
       "Buenos Aires F.D.",
-      "Buenos Aires F.D."
+      "Buenos Aires F.D.",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -19350,7 +19503,8 @@
       "Switzerland",
       "Switzerland",
       "Argentina",
-      "Argentina"
+      "Argentina",
+      "Switzerland"
     ],
     "dists": [
       327.8,
@@ -19420,7 +19574,8 @@
       2782.1,
       357.6,
       201.2,
-      88.9
+      88.9,
+      253.2
     ],
     "times": [
       8.5,
@@ -19490,13 +19645,14 @@
       2.2,
       4.5,
       7.3,
-      6.8
+      6.8,
+      8.2
     ]
   },
   "Valera, Venezuela": {
-    "mean_dist": 405.1,
+    "mean_dist": 403.9,
     "mean_time": 7.6,
-    "std_dist": 296.9,
+    "std_dist": 292,
     "std_time": 1.1,
     "admin": "Trujillo",
     "country": "Venezuela",
@@ -19530,7 +19686,8 @@
       8.184,
       9.762,
       8.627,
-      -0.328
+      -0.328,
+      9.051
     ],
     "lons": [
       "x",
@@ -19561,10 +19718,14 @@
       -61.649,
       -69.606,
       -66.385,
-      -78.841
+      -78.841,
+      -67.246
     ],
-    "mean_lat": 7.782,
-    "mean_lon": -67.655,
+    "mean_lat": 7.898,
+    "mean_lon": -67.618,
+    "true_lat": 9.32,
+    "true_lon": -70.62,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Valera%2C+Venezuela&go=Go&ns0=1",
     "regions": [
       "California",
       "Ontario",
@@ -19594,7 +19755,8 @@
       "Washington",
       "Washington",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "California"
     ],
     "countries": [
       "United States",
@@ -19625,7 +19787,8 @@
       "United States",
       "United States",
       "Germany",
-      "Germany"
+      "Germany",
+      "United States"
     ],
     "dists": [
       285.1,
@@ -19656,7 +19819,8 @@
       993.8,
       121.5,
       471.4,
-      1406.9
+      1406.9,
+      371.5
     ],
     "times": [
       8.7,
@@ -19687,7 +19851,8 @@
       5.3,
       6.4,
       4.9,
-      5.5
+      5.5,
+      8.6
     ]
   },
   "Saint John\u2019s, Antigua And Barbuda": {
@@ -20365,9 +20530,9 @@
     ]
   },
   "Pereira, Colombia": {
-    "mean_dist": 300,
+    "mean_dist": 299.5,
     "mean_time": 7.1,
-    "std_dist": 147.8,
+    "std_dist": 145.2,
     "std_time": 1.7,
     "admin": "Risaralda",
     "country": "Colombia",
@@ -20400,7 +20565,8 @@
       3.426,
       3.597,
       4.502,
-      5.041
+      5.041,
+      5.786
     ],
     "lons": [
       "x",
@@ -20430,10 +20596,11 @@
       -73.3,
       -71.624,
       -72.527,
-      -74.145
+      -74.145,
+      -73.3
     ],
-    "mean_lat": 5.095,
-    "mean_lon": -73.787,
+    "mean_lat": 5.144,
+    "mean_lon": -73.752,
     "true_lat": 4.8104,
     "true_lon": -75.68,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Pereira%2C+Colombia&go=Go&ns0=1",
@@ -20465,7 +20632,8 @@
       "Santiago Metropolitan",
       "Santiago Metropolitan",
       "Santiago Metropolitan",
-      "Buenos Aires F.D."
+      "Buenos Aires F.D.",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -20495,7 +20663,8 @@
       "Chile",
       "Chile",
       "Chile",
-      "Argentina"
+      "Argentina",
+      "Switzerland"
     ],
     "dists": [
       353.3,
@@ -20525,7 +20694,8 @@
       305.4,
       469.4,
       351.1,
-      171.9
+      171.9,
+      284.9
     ],
     "times": [
       8.6,
@@ -20555,7 +20725,8 @@
       5.3,
       4.1,
       6,
-      7.1
+      7.1,
+      7.9
     ]
   },
   "Guajar\u00e1-Mirim, Rond\u00f4nia, Brazil": {
@@ -20960,9 +21131,9 @@
     ]
   },
   "Reconquista, Argentina": {
-    "mean_dist": 720.8,
+    "mean_dist": 734,
     "mean_time": 7,
-    "std_dist": 651,
+    "std_dist": 640.4,
     "std_time": 1.8,
     "admin": "Santa Fe",
     "country": "Argentina",
@@ -20990,7 +21161,8 @@
       "x",
       -31.932,
       -28.645,
-      -29.544
+      -29.544,
+      -38.081
     ],
     "lons": [
       "x",
@@ -21015,10 +21187,14 @@
       "x",
       -57.292,
       -56.984,
-      -59.242
+      -59.242,
+      -62.833
     ],
-    "mean_lat": -30.04,
-    "mean_lon": -57.839,
+    "mean_lat": -32.05,
+    "mean_lon": -59.087,
+    "true_lat": -29.1395,
+    "true_lon": -59.65,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Reconquista%2C+Argentina&go=Go&ns0=1",
     "regions": [
       "California",
       "Aargau",
@@ -21042,7 +21218,8 @@
       "Bangkok",
       "Aargau",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "California"
     ],
     "countries": [
       "United States",
@@ -21067,7 +21244,8 @@
       "Thailand",
       "Switzerland",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "United States"
     ],
     "dists": [
       1122.8,
@@ -21092,7 +21270,8 @@
       2923.4,
       383.9,
       265.2,
-      59.9
+      59.9,
+      1036.8
     ],
     "times": [
       7.9,
@@ -21117,13 +21296,14 @@
       0.1,
       8.3,
       8.3,
-      8.1
+      8.1,
+      8
     ]
   },
   "Potos\u00ed, Bolivia": {
-    "mean_dist": 364.7,
+    "mean_dist": 363.7,
     "mean_time": 7.5,
-    "std_dist": 418,
+    "std_dist": 412.7,
     "std_time": 1.1,
     "admin": "Potos\u00ed",
     "country": "Bolivia",
@@ -21166,7 +21346,8 @@
       -16.365,
       -16.905,
       -15.174,
-      -16.29
+      -16.29,
+      -17.887
     ],
     "lons": [
       "x",
@@ -21206,10 +21387,14 @@
       -63.496,
       -64.167,
       -64.886,
-      -63.454
+      -63.454,
+      -63.244
     ],
-    "mean_lat": -17.148,
-    "mean_lon": -64.936,
+    "mean_lat": -17.197,
+    "mean_lon": -64.823,
+    "true_lat": -19.5696,
+    "true_lon": -65.75,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Potos\u00ed%2C+Bolivia&go=Go&ns0=1",
     "regions": [
       "California",
       "California",
@@ -21248,7 +21433,8 @@
       "Lisbon",
       "Aargau",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -21288,7 +21474,8 @@
       "Portugal",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       452.6,
@@ -21328,7 +21515,8 @@
       428.6,
       340,
       497.2,
-      438
+      438,
+      323.4
     ],
     "times": [
       7.8,
@@ -21368,7 +21556,8 @@
       5.7,
       8.3,
       8.4,
-      6.1
+      6.1,
+      8.2
     ]
   },
   "Ponce, Puerto Rico": {
@@ -22138,9 +22327,9 @@
     ]
   },
   "Trelew, Argentina": {
-    "mean_dist": 1575.9,
+    "mean_dist": 1544.7,
     "mean_time": 7.5,
-    "std_dist": 1030.6,
+    "std_dist": 1009.8,
     "std_time": 1.1,
     "admin": "Chubut",
     "country": "Argentina",
@@ -22162,7 +22351,8 @@
       -42.537,
       -30.79,
       -35.443,
-      -35.359
+      -35.359,
+      -36.525
     ],
     "lons": [
       "x",
@@ -22181,10 +22371,14 @@
       -67.777,
       -61.294,
       -59.858,
-      -58.421
+      -58.421,
+      -57.292
     ],
-    "mean_lat": -33.568,
-    "mean_lon": -61.686,
+    "mean_lat": -33.99,
+    "mean_lon": -61.058,
+    "true_lat": -43.25,
+    "true_lon": -65.33,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Trelew%2C+Argentina&go=Go&ns0=1",
     "regions": [
       "California",
       "Aargau",
@@ -22201,6 +22395,7 @@
       "Washington",
       "Uusimaa",
       "Uusimaa",
+      "Aargau",
       "Aargau",
       "Aargau"
     ],
@@ -22221,6 +22416,7 @@
       "Finland",
       "Finland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -22240,7 +22436,8 @@
       214.5,
       1430.5,
       986.8,
-      1058.9
+      1058.9,
+      1013.5
     ],
     "times": [
       7.9,
@@ -22257,6 +22454,7 @@
       7,
       6.6,
       6.7,
+      8.3,
       8.3,
       8.3,
       8.3
@@ -23586,9 +23784,9 @@
     ]
   },
   "Bonao, Dominican Republic": {
-    "mean_dist": 228.7,
+    "mean_dist": 226.5,
     "mean_time": 7.4,
-    "std_dist": 734.1,
+    "std_dist": 729.6,
     "std_time": 1.6,
     "admin": "Cibao Sur",
     "country": "Dominican Republic",
@@ -23670,7 +23868,8 @@
       18.931,
       18.63,
       18.437,
-      19.12
+      19.12,
+      18.437
     ],
     "lons": [
       "x",
@@ -23749,10 +23948,11 @@
       -68.792,
       -70.577,
       -69.606,
-      -69.709
+      -69.709,
+      -70.53
     ],
-    "mean_lat": 16.325,
-    "mean_lon": -67.704,
+    "mean_lat": 16.397,
+    "mean_lon": -67.801,
     "true_lat": 18.942,
     "true_lon": -70.409,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bonao%2C+Dominican Republic&go=Go&ns0=1",
@@ -23833,7 +24033,8 @@
       "Obwalden",
       "Buenos Aires F.D.",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "California"
     ],
     "countries": [
       "United States",
@@ -23912,7 +24113,8 @@
       "Switzerland",
       "Argentina",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "United States"
     ],
     "dists": [
       89.9,
@@ -23991,7 +24193,8 @@
       170,
       38.8,
       101.4,
-      76.1
+      76.1,
+      57.4
     ],
     "times": [
       8.3,
@@ -24070,7 +24273,8 @@
       2.9,
       7.3,
       8.8,
-      8.4
+      8.4,
+      8.7
     ]
   },
   "Azua, Dominican Republic": {
@@ -25343,9 +25547,9 @@
     ]
   },
   "Carolina, Puerto Rico": {
-    "mean_dist": 174.8,
-    "mean_time": 7.4,
-    "std_dist": 302.9,
+    "mean_dist": 173.3,
+    "mean_time": 7.5,
+    "std_dist": 300.9,
     "std_time": 1.4,
     "admin": "Puerto Rico",
     "country": "Puerto Rico",
@@ -25415,7 +25619,8 @@
       16.065,
       18.681,
       18.437,
-      18.73
+      18.73,
+      17.753
     ],
     "lons": [
       "x",
@@ -25482,10 +25687,11 @@
       -61.909,
       -66.117,
       -66.117,
-      -77.097
+      -77.097,
+      -66.22
     ],
-    "mean_lat": 17.884,
-    "mean_lon": -68.518,
+    "mean_lat": 17.876,
+    "mean_lon": -68.374,
     "true_lat": 18.4054,
     "true_lon": -65.9792,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Carolina%2C+Puerto Rico&go=Go&ns0=1",
@@ -25554,7 +25760,8 @@
       "Berlin",
       "Berlin",
       "Berlin",
-      "Central Bohemia"
+      "Central Bohemia",
+      "Aargau"
     ],
     "countries": [
       "Canada",
@@ -25621,7 +25828,8 @@
       "Germany",
       "Germany",
       "Germany",
-      "Czech Republic"
+      "Czech Republic",
+      "Switzerland"
     ],
     "dists": [
       32.4,
@@ -25688,7 +25896,8 @@
       504.4,
       34,
       15,
-      1172.3
+      1172.3,
+      76.8
     ],
     "times": [
       6.5,
@@ -25755,13 +25964,14 @@
       7.7,
       6.1,
       6.5,
-      2.9
+      2.9,
+      8.9
     ]
   },
   "Manta, Ecuador": {
-    "mean_dist": 399.8,
+    "mean_dist": 394.2,
     "mean_time": 7.5,
-    "std_dist": 666.6,
+    "std_dist": 659,
     "std_time": 1.3,
     "admin": "Manab\u00ed",
     "country": "Ecuador",
@@ -25804,7 +26014,8 @@
       4.915,
       8.323,
       -2.376,
-      1.215
+      1.215,
+      -1.82
     ],
     "lons": [
       "x",
@@ -25844,10 +26055,14 @@
       -57.805,
       -81.384,
       -78.32,
-      -78.944
+      -78.944,
+      -79.354
     ],
-    "mean_lat": 0.869,
-    "mean_lon": -76.656,
+    "mean_lat": 0.571,
+    "mean_lon": -76.956,
+    "true_lat": -0.98,
+    "true_lon": -80.73,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Manta%2C+Ecuador&go=Go&ns0=1",
     "regions": [
       "Ontario",
       "New South Wales",
@@ -25886,7 +26101,8 @@
       "Berlin",
       "Berlin",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "California"
     ],
     "countries": [
       "Canada",
@@ -25926,7 +26142,8 @@
       "Germany",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "United States"
     ],
     "dists": [
       187.3,
@@ -25966,7 +26183,8 @@
       2629.4,
       1036.9,
       309.5,
-      314.6
+      314.6,
+      179.1
     ],
     "times": [
       7.1,
@@ -26006,7 +26224,8 @@
       6.9,
       5.7,
       6.2,
-      7.7
+      7.7,
+      8.5
     ]
   },
   "La Serena, Chile": {
@@ -26895,9 +27114,9 @@
     ]
   },
   "Saint George\u2019s, Grenada": {
-    "mean_dist": 655.7,
+    "mean_dist": 651.5,
     "mean_time": 6.9,
-    "std_dist": 1377.5,
+    "std_dist": 1371.7,
     "std_time": 1.9,
     "admin": "Saint George",
     "country": "Grenada",
@@ -27008,7 +27227,8 @@
       -15.513,
       14.739,
       4.504,
-      16.422
+      16.422,
+      13.692
     ],
     "lons": [
       "x",
@@ -27116,10 +27336,11 @@
       -65.213,
       -60.781,
       -57.19,
-      -61.342
+      -61.342,
+      -60.884
     ],
-    "mean_lat": 6.205,
-    "mean_lon": -61.467,
+    "mean_lat": 6.358,
+    "mean_lon": -61.456,
     "true_lat": 12.0526,
     "true_lon": -61.7416,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Saint George\u2019s%2C+Grenada&go=Go&ns0=1",
@@ -27229,7 +27450,8 @@
       "Santiago Metropolitan",
       "North Rhine-Westphalia",
       "North Rhine-Westphalia",
-      "Buenos Aires F.D."
+      "Buenos Aires F.D.",
+      "California"
     ],
     "countries": [
       "Canada",
@@ -27337,7 +27559,8 @@
       "Chile",
       "Germany",
       "Germany",
-      "Argentina"
+      "Argentina",
+      "United States"
     ],
     "dists": [
       829.8,
@@ -27445,7 +27668,8 @@
       3088.9,
       316.3,
       977.1,
-      487.8
+      487.8,
+      204.6
     ],
     "times": [
       5.9,
@@ -27553,7 +27777,8 @@
       0.7,
       7.3,
       3.9,
-      7.3
+      7.3,
+      7.8
     ]
   },
   "Chiquinquir\u00e1, Colombia": {
@@ -27873,10 +28098,10 @@
     ]
   },
   "Paran\u00e1, Argentina": {
-    "mean_dist": 453.9,
+    "mean_dist": 479,
     "mean_time": 7.1,
-    "std_dist": 258,
-    "std_time": 0.9,
+    "std_dist": 271.2,
+    "std_time": 0.8,
     "admin": "Entre R\u00edos",
     "country": "Argentina",
     "city": "Paran\u00e1",
@@ -27897,7 +28122,8 @@
       "x",
       "x",
       -34.853,
-      -33.748
+      -33.748,
+      -39.762
     ],
     "lons": [
       "x",
@@ -27916,10 +28142,14 @@
       "x",
       "x",
       -65.809,
-      -58.318
+      -58.318,
+      -62.218
     ],
-    "mean_lat": -34.3,
-    "mean_lon": -62.063,
+    "mean_lat": -36.121,
+    "mean_lon": -62.115,
+    "true_lat": -31.7333,
+    "true_lon": -60.5333,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Paran\u00e1%2C+Argentina&go=Go&ns0=1",
     "regions": [
       "New South Wales",
       "Texas",
@@ -27937,7 +28167,8 @@
       "Ljubljana",
       "Styria",
       "Washington",
-      "Aargau"
+      "Aargau",
+      "California"
     ],
     "countries": [
       "Australia",
@@ -27956,7 +28187,8 @@
       "Slovenia",
       "Austria",
       "United States",
-      "Switzerland"
+      "Switzerland",
+      "United States"
     ],
     "dists": [
       354.4,
@@ -27975,7 +28207,8 @@
       251.4,
       959.4,
       600.6,
-      305.1
+      305.1,
+      905.6
     ],
     "times": [
       7.3,
@@ -27994,13 +28227,14 @@
       6,
       7.1,
       6.2,
-      8.3
+      8.3,
+      7.8
     ]
   },
   "Caguas, Puerto Rico": {
-    "mean_dist": 362.3,
-    "mean_time": 7,
-    "std_dist": 644.1,
+    "mean_dist": 358.3,
+    "mean_time": 7.1,
+    "std_dist": 640.8,
     "std_time": 1.7,
     "admin": "Puerto Rico",
     "country": "Puerto Rico",
@@ -28080,7 +28314,8 @@
       18.046,
       8.492,
       7.779,
-      17.825
+      17.825,
+      17.753
     ],
     "lons": [
       "x",
@@ -28157,10 +28392,11 @@
       -64.373,
       -80.894,
       -79.56,
-      -66.449
+      -66.449,
+      -66.117
     ],
-    "mean_lat": 17.338,
-    "mean_lon": -71.044,
+    "mean_lat": 17.351,
+    "mean_lon": -70.885,
     "true_lat": 18.2319,
     "true_lon": -66.0388,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Caguas%2C+Puerto Rico&go=Go&ns0=1",
@@ -28239,7 +28475,8 @@
       "Berlin",
       "North Rhine-Westphalia",
       "North Rhine-Westphalia",
-      "Buenos Aires F.D."
+      "Buenos Aires F.D.",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -28316,7 +28553,8 @@
       "Germany",
       "Germany",
       "Germany",
-      "Argentina"
+      "Argentina",
+      "Switzerland"
     ],
     "dists": [
       2114.5,
@@ -28393,7 +28631,8 @@
       177.1,
       1935.8,
       1868,
-      62.6
+      62.6,
+      53.8
     ],
     "times": [
       6.5,
@@ -28470,7 +28709,8 @@
       8,
       5.9,
       3.2,
-      6.8
+      6.8,
+      8.8
     ]
   },
   "Ayacucho, Peru": {
@@ -28955,9 +29195,9 @@
     ]
   },
   "Los \u00c1ngeles, Chile": {
-    "mean_dist": 422.8,
-    "mean_time": 7.8,
-    "std_dist": 267.3,
+    "mean_dist": 429.4,
+    "mean_time": 7.9,
+    "std_dist": 262.9,
     "std_time": 0.5,
     "admin": "Biob\u00edo",
     "country": "Chile",
@@ -28983,7 +29223,8 @@
       -37.02,
       -35.944,
       -37.061,
-      -27.539
+      -27.539,
+      -32.368
     ],
     "lons": [
       "x",
@@ -29006,10 +29247,14 @@
       -72.171,
       -70.016,
       -71.043,
-      -68.996
+      -68.996,
+      -71.966
     ],
-    "mean_lat": -34.391,
-    "mean_lon": -70.556,
+    "mean_lat": -33.986,
+    "mean_lon": -70.838,
+    "true_lat": -37.46,
+    "true_lon": -72.36,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Los \u00c1ngeles%2C+Chile&go=Go&ns0=1",
     "regions": [
       "New South Wales",
       "Aargau",
@@ -29031,7 +29276,8 @@
       "Aargau",
       "Aargau",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -29054,7 +29300,8 @@
       "Switzerland",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       259.9,
@@ -29077,7 +29324,8 @@
       51.6,
       268.3,
       124.6,
-      1147
+      1147,
+      567.2
     ],
     "times": [
       7.4,
@@ -29100,13 +29348,14 @@
       8.4,
       8.2,
       6.6,
-      7.7
+      7.7,
+      8.6
     ]
   },
   "San Fernando, Trinidad And Tobago": {
-    "mean_dist": 590.2,
+    "mean_dist": 581.1,
     "mean_time": 7.2,
-    "std_dist": 1359.5,
+    "std_dist": 1349.2,
     "std_time": 1.6,
     "admin": "San Fernando",
     "country": "Trinidad And Tobago",
@@ -29223,7 +29472,9 @@
       9.863,
       -51.418,
       -52.169,
-      10.1
+      10.1,
+      10.37,
+      10.775
     ],
     "lons": [
       "x",
@@ -29337,10 +29588,12 @@
       -60.884,
       -58.552,
       -60.063,
-      -61.021
+      -61.021,
+      -60.884,
+      -60.986
     ],
-    "mean_lat": 2.929,
-    "mean_lon": -61.448,
+    "mean_lat": 3.475,
+    "mean_lon": -61.411,
     "true_lat": 10.2805,
     "true_lon": -61.4594,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=San Fernando%2C+Trinidad And Tobago&go=Go&ns0=1",
@@ -29456,7 +29709,9 @@
       "Aargau",
       "Berlin",
       "Berlin",
-      "Buenos Aires F.D."
+      "Buenos Aires F.D.",
+      "Aargau",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -29570,7 +29825,9 @@
       "Switzerland",
       "Germany",
       "Germany",
-      "Argentina"
+      "Argentina",
+      "Switzerland",
+      "Switzerland"
     ],
     "dists": [
       45.6,
@@ -29684,7 +29941,9 @@
       78.1,
       6866.3,
       6945.4,
-      51.9
+      51.9,
+      63.7,
+      75.4
     ],
     "times": [
       8.2,
@@ -29798,7 +30057,9 @@
       8.4,
       3.5,
       3.7,
-      7.3
+      7.3,
+      8.4,
+      8.6
     ]
   },
   "Pergamino, Argentina": {
@@ -30760,9 +31021,9 @@
     ]
   },
   "Chulucanas, Peru": {
-    "mean_dist": 723.9,
+    "mean_dist": 741.4,
     "mean_time": 7.7,
-    "std_dist": 448.3,
+    "std_dist": 448.1,
     "std_time": 1.3,
     "city": "Chulucanas",
     "admin": "Piura",
@@ -30792,7 +31053,8 @@
       -14.428,
       -5.16,
       -10.61,
-      -14.926
+      -14.926,
+      -14.228
     ],
     "lons": [
       "x",
@@ -30819,10 +31081,11 @@
       -71.761,
       -76.221,
       -77.61,
-      -74.429
+      -74.429,
+      -74.737
     ],
-    "mean_lat": -10.2,
-    "mean_lon": -75.515,
+    "mean_lat": -10.871,
+    "mean_lon": -75.385,
     "true_lat": -5.0896,
     "true_lon": -80.17,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Chulucanas%2C+Peru&go=Go&ns0=1",
@@ -30851,6 +31114,7 @@
       "California",
       "Washington",
       "Aargau",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -30877,6 +31141,7 @@
       "United States",
       "United States",
       "United States",
+      "Switzerland",
       "Switzerland",
       "Switzerland"
     ],
@@ -30905,7 +31170,8 @@
       1387.5,
       437.4,
       675.5,
-      1261.1
+      1261.1,
+      1177.5
     ],
     "times": [
       8.3,
@@ -30932,13 +31198,14 @@
       4.6,
       7.2,
       8.8,
-      7.9
+      7.9,
+      8.6
     ]
   },
   "Riobamba, Ecuador": {
-    "mean_dist": 404.1,
+    "mean_dist": 397.2,
     "mean_time": 7.1,
-    "std_dist": 690.9,
+    "std_dist": 685.9,
     "std_time": 1.8,
     "admin": "Chimborazo",
     "country": "Ecuador",
@@ -30993,7 +31260,8 @@
       8.186,
       -1.357,
       7.473,
-      -1.408
+      -1.408,
+      -1.202
     ],
     "lons": [
       "x",
@@ -31045,10 +31313,11 @@
       -81.407,
       -77.918,
       -66.528,
-      -79.56
+      -79.56,
+      -78.636
     ],
-    "mean_lat": -2.577,
-    "mean_lon": -75.466,
+    "mean_lat": -2.519,
+    "mean_lon": -75.598,
     "true_lat": -1.67,
     "true_lon": -78.65,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Riobamba%2C+Ecuador&go=Go&ns0=1",
@@ -31102,7 +31371,8 @@
       "North Rhine-Westphalia",
       "North Rhine-Westphalia",
       "North Rhine-Westphalia",
-      "Aargau"
+      "Aargau",
+      "California"
     ],
     "countries": [
       "United States",
@@ -31154,7 +31424,8 @@
       "Germany",
       "Germany",
       "Germany",
-      "Switzerland"
+      "Switzerland",
+      "United States"
     ],
     "dists": [
       123.5,
@@ -31206,7 +31477,8 @@
       1137.8,
       88.4,
       1685.7,
-      105.2
+      105.2,
+      51.9
     ],
     "times": [
       8.8,
@@ -31258,13 +31530,14 @@
       4.4,
       7.5,
       3.5,
-      8.4
+      8.4,
+      8.5
     ]
   },
   "Juliaca, Peru": {
-    "mean_dist": 815.5,
+    "mean_dist": 824.3,
     "mean_time": 7.9,
-    "std_dist": 544.3,
+    "std_dist": 536,
     "std_time": 0.9,
     "admin": "Puno",
     "country": "Peru",
@@ -31295,7 +31568,8 @@
       -10.711,
       -14.128,
       -12.627,
-      -8.532
+      -8.532,
+      -8.886
     ],
     "lons": [
       "x",
@@ -31323,10 +31597,11 @@
       -72.582,
       -72.171,
       -76.584,
-      -77.247
+      -77.247,
+      -77.097
     ],
-    "mean_lat": -11.448,
-    "mean_lon": -74.857,
+    "mean_lat": -11.021,
+    "mean_lon": -75.231,
     "true_lat": -15.5,
     "true_lon": -70.14,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Juliaca%2C+Peru&go=Go&ns0=1",
@@ -31356,7 +31631,8 @@
       "Pomerania",
       "Aargau",
       "Aargau",
-      "Buenos Aires F.D."
+      "Buenos Aires F.D.",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -31384,7 +31660,8 @@
       "Poland",
       "Switzerland",
       "Switzerland",
-      "Argentina"
+      "Argentina",
+      "Switzerland"
     ],
     "dists": [
       2882.8,
@@ -31412,7 +31689,8 @@
       594.4,
       266.3,
       764.8,
-      1093.9
+      1093.9,
+      1054.4
     ],
     "times": [
       6.4,
@@ -31440,7 +31718,8 @@
       6.8,
       8.6,
       8.4,
-      7.9
+      7.9,
+      8.5
     ]
   },
   "Arica, Chile": {
@@ -31641,9 +31920,9 @@
     ]
   },
   "Milagro, Ecuador": {
-    "mean_dist": 341.4,
+    "mean_dist": 334.9,
     "mean_time": 7.7,
-    "std_dist": 549.2,
+    "std_dist": 542.1,
     "std_time": 1.3,
     "admin": "Guayas",
     "country": "Ecuador",
@@ -31680,7 +31959,8 @@
       -2.848,
       6.758,
       10.169,
-      -1.847
+      -1.847,
+      -1.099
     ],
     "lons": [
       "x",
@@ -31714,10 +31994,11 @@
       -79.765,
       -58.318,
       -83.193,
-      -78.891
+      -78.891,
+      -79.97
     ],
-    "mean_lat": 0.667,
-    "mean_lon": -77.086,
+    "mean_lat": 0.491,
+    "mean_lon": -77.374,
     "true_lat": -2.1796,
     "true_lon": -79.6,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Milagro%2C+Ecuador&go=Go&ns0=1",
@@ -31753,7 +32034,8 @@
       "Aargau",
       "Berlin",
       "Berlin",
-      "Buenos Aires F.D."
+      "Buenos Aires F.D.",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -31787,7 +32069,8 @@
       "Switzerland",
       "Germany",
       "Germany",
-      "Argentina"
+      "Argentina",
+      "Switzerland"
     ],
     "dists": [
       1156.2,
@@ -31821,7 +32104,8 @@
       76.6,
       2562.5,
       1429.6,
-      87
+      87,
+      126.9
     ],
     "times": [
       5.9,
@@ -31855,7 +32139,8 @@
       8.5,
       7.5,
       5,
-      5.3
+      5.3,
+      8.5
     ]
   },
   "La Romana, Dominican Republic": {
@@ -32131,9 +32416,9 @@
     ]
   },
   "San Crist\u00f3bal, Dominican Republic": {
-    "mean_dist": 166.1,
-    "mean_time": 8,
-    "std_dist": 467.3,
+    "mean_dist": 162.5,
+    "mean_time": 8.1,
+    "std_dist": 459.1,
     "std_time": 0.8,
     "admin": "Valdesia",
     "country": "Dominican Republic",
@@ -32191,7 +32476,9 @@
       18.535,
       18.73,
       19.312,
-      18.777
+      18.777,
+      18.828,
+      18.34
     ],
     "lons": [
       "x",
@@ -32246,10 +32533,12 @@
       -70.632,
       -68.99,
       -69.961,
-      -69.653
+      -69.653,
+      -70.222,
+      -70.94
     ],
     "mean_lat": 18.585,
-    "mean_lon": -70.204,
+    "mean_lon": -70.251,
     "true_lat": 18.416,
     "true_lon": -70.109,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=San Crist\u00f3bal%2C+Dominican Republic&go=Go&ns0=1",
@@ -32306,7 +32595,9 @@
       "California",
       "Aargau",
       "Buenos Aires F.D.",
-      "Buenos Aires F.D."
+      "Buenos Aires F.D.",
+      "California",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -32361,7 +32652,9 @@
       "United States",
       "Switzerland",
       "Argentina",
-      "Argentina"
+      "Argentina",
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       75.8,
@@ -32416,7 +32709,9 @@
       56.8,
       122.9,
       100.8,
-      62.5
+      62.5,
+      47.3,
+      88.1
     ],
     "times": [
       7,
@@ -32471,7 +32766,9 @@
       8.2,
       8.8,
       5.8,
-      7.2
+      7.2,
+      8.8,
+      8.7
     ]
   },
   "San Pedro, Argentina": {
@@ -33169,9 +33466,9 @@
     ]
   },
   "Paysand\u00fa, Uruguay": {
-    "mean_dist": 440.7,
-    "mean_time": 6.9,
-    "std_dist": 748.6,
+    "mean_dist": 440.5,
+    "mean_time": 7,
+    "std_dist": 745.4,
     "std_time": 1.3,
     "admin": "Paysand\u00fa",
     "country": "Uruguay",
@@ -33290,7 +33587,8 @@
       -31.753,
       -32.281,
       -32.412,
-      -26.823
+      -26.823,
+      -33.919
     ],
     "lons": [
       "x",
@@ -33406,10 +33704,11 @@
       -56.474,
       -55.137,
       -55.445,
-      -56.164
+      -56.164,
+      -54.009
     ],
-    "mean_lat": -30.27,
-    "mean_lon": -57.043,
+    "mean_lat": -30.346,
+    "mean_lon": -56.979,
     "true_lat": -32.33,
     "true_lon": -58.08,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Paysand\u00fa%2C+Uruguay&go=Go&ns0=1",
@@ -33527,7 +33826,8 @@
       "Berlin",
       "Berlin",
       "Berlin",
-      "Aargau"
+      "Aargau",
+      "California"
     ],
     "countries": [
       "United States",
@@ -33643,7 +33943,8 @@
       "Germany",
       "Germany",
       "Germany",
-      "Switzerland"
+      "Switzerland",
+      "United States"
     ],
     "dists": [
       121.2,
@@ -33759,7 +34060,8 @@
       164.3,
       276.5,
       247.5,
-      639.6
+      639.6,
+      418.2
     ],
     "times": [
       7.7,
@@ -33875,7 +34177,8 @@
       7.2,
       4.4,
       7.7,
-      8.1
+      8.1,
+      8.5
     ]
   },
   "Azogues, Ecuador": {
@@ -35205,9 +35508,9 @@
     ]
   },
   "Coquimbo, Chile": {
-    "mean_dist": 350.2,
+    "mean_dist": 351.5,
     "mean_time": 7.2,
-    "std_dist": 293.8,
+    "std_dist": 289.2,
     "std_time": 1.4,
     "admin": "Coquimbo",
     "country": "Chile",
@@ -35243,7 +35546,8 @@
       -28.222,
       -26.687,
       -30.642,
-      -27.821
+      -27.821,
+      -33.405
     ],
     "lons": [
       "x",
@@ -35276,10 +35580,11 @@
       -71.008,
       -70.064,
       -70.495,
-      -70.754
+      -70.754,
+      -70.632
     ],
-    "mean_lat": -30.02,
-    "mean_lon": -70.95,
+    "mean_lat": -30.262,
+    "mean_lon": -70.928,
     "true_lat": -29.9529,
     "true_lon": -71.3436,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Coquimbo%2C+Chile&go=Go&ns0=1",
@@ -35314,7 +35619,8 @@
       "Santiago Metropolitan",
       "Santiago Metropolitan",
       "Santiago Metropolitan",
-      "Santiago Metropolitan"
+      "Santiago Metropolitan",
+      "Aargau"
     ],
     "countries": [
       "Australia",
@@ -35347,7 +35653,8 @@
       "Chile",
       "Chile",
       "Chile",
-      "Chile"
+      "Chile",
+      "Switzerland"
     ],
     "dists": [
       729.3,
@@ -35380,7 +35687,8 @@
       195.1,
       384,
       111.8,
-      243.8
+      243.8,
+      389.7
     ],
     "times": [
       7.3,
@@ -35413,7 +35721,8 @@
       4.3,
       6.3,
       2.2,
-      5.2
+      5.2,
+      8.4
     ]
   },
   "Ban\u00ed, Dominican Republic": {
@@ -36027,9 +36336,9 @@
     ]
   },
   "Tarija, Bolivia": {
-    "mean_dist": 511.7,
+    "mean_dist": 501.8,
     "mean_time": 7.4,
-    "std_dist": 283.1,
+    "std_dist": 288.5,
     "std_time": 1.2,
     "admin": "Tarija",
     "country": "Bolivia",
@@ -36082,7 +36391,8 @@
       -18.864,
       -20.125,
       -16.165,
-      -17.298
+      -17.298,
+      -21.281
     ],
     "lons": [
       "x",
@@ -36132,10 +36442,11 @@
       -62.526,
       -65.809,
       -67.656,
-      -65.501
+      -65.501,
+      -64.783
     ],
-    "mean_lat": -18.672,
-    "mean_lon": -64.001,
+    "mean_lat": -18.802,
+    "mean_lon": -64.04,
     "true_lat": -21.5167,
     "true_lon": -64.75,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tarija%2C+Bolivia&go=Go&ns0=1",
@@ -36187,7 +36498,8 @@
       "California",
       "Aargau",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -36237,7 +36549,8 @@
       "United States",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       725.4,
@@ -36287,7 +36600,8 @@
       375.2,
       189.8,
       668.9,
-      475.5
+      475.5,
+      26.4
     ],
     "times": [
       7.1,
@@ -36337,7 +36651,8 @@
       7.8,
       7.8,
       7.4,
-      8.2
+      8.2,
+      7.8
     ]
   },
   "San Fernando del Valle de Catamarca, Argentina": {
@@ -36687,9 +37002,9 @@
     ]
   },
   "Ambato, Ecuador": {
-    "mean_dist": 219.8,
-    "mean_time": 7.1,
-    "std_dist": 351.7,
+    "mean_dist": 219.1,
+    "mean_time": 7.2,
+    "std_dist": 348.7,
     "std_time": 1.9,
     "admin": "Tungurahua",
     "country": "Ecuador",
@@ -36752,7 +37067,8 @@
       -9.191,
       -0.482,
       -1.178,
-      -0.07
+      -0.07,
+      0.341
     ],
     "lons": [
       "x",
@@ -36812,10 +37128,11 @@
       -73.711,
       -79.047,
       -80.815,
-      -78.431
+      -78.431,
+      -78.533
     ],
-    "mean_lat": -1.364,
-    "mean_lon": -77.4,
+    "mean_lat": -1.283,
+    "mean_lon": -77.454,
     "true_lat": -1.2696,
     "true_lon": -78.62,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ambato%2C+Ecuador&go=Go&ns0=1",
@@ -36877,6 +37194,7 @@
       "North Holland",
       "Aargau",
       "Styria",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -36937,6 +37255,7 @@
       "Netherlands",
       "Switzerland",
       "Austria",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -36997,7 +37316,8 @@
       1034.8,
       99.5,
       244.2,
-      134.9
+      134.9,
+      179.3
     ],
     "times": [
       7.8,
@@ -37057,7 +37377,8 @@
       3,
       8.4,
       6.8,
-      7.9
+      7.9,
+      8.1
     ]
   },
   "Coronel, Chile": {
@@ -37410,9 +37731,9 @@
     ]
   },
   "Latacunga, Ecuador": {
-    "mean_dist": 486,
+    "mean_dist": 475.9,
     "mean_time": 8,
-    "std_dist": 1654.8,
+    "std_dist": 1635.2,
     "std_time": 0.8,
     "admin": "Cotopaxi",
     "country": "Ecuador",
@@ -37456,7 +37777,8 @@
       -2.025,
       -0.842,
       -1.729,
-      -2.028
+      -2.028,
+      -0.688
     ],
     "lons": [
       "x",
@@ -37497,10 +37819,14 @@
       -79.662,
       -78.123,
       -79.386,
-      -80.017
+      -80.017,
+      -77.918
     ],
-    "mean_lat": 0.055,
-    "mean_lon": -69.743,
+    "mean_lat": -0.012,
+    "mean_lon": -70.486,
+    "true_lat": -0.9296,
+    "true_lon": -78.61,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Latacunga%2C+Ecuador&go=Go&ns0=1",
     "regions": [
       "New York",
       "Bogota D.C.",
@@ -37540,7 +37866,8 @@
       "Bavaria",
       "Berlin",
       "Berlin",
-      "Buenos Aires F.D."
+      "Buenos Aires F.D.",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -37581,7 +37908,8 @@
       "Germany",
       "Germany",
       "Germany",
-      "Argentina"
+      "Argentina",
+      "Switzerland"
     ],
     "dists": [
       81.1,
@@ -37622,7 +37950,8 @@
       168.9,
       54.9,
       123.9,
-      198.5
+      198.5,
+      81.4
     ],
     "times": [
       7.5,
@@ -37663,7 +37992,8 @@
       7.8,
       8.3,
       4.8,
-      7.5
+      7.5,
+      8.1
     ]
   },
   "Huancayo, Peru": {
@@ -40911,9 +41241,9 @@
     ]
   },
   "M\u00e9rida, Venezuela": {
-    "mean_dist": 510.4,
+    "mean_dist": 515.4,
     "mean_time": 7.6,
-    "std_dist": 727.8,
+    "std_dist": 713.5,
     "std_time": 1.2,
     "admin": "M\u00e9rida",
     "country": "Venezuela",
@@ -40942,7 +41272,8 @@
       10.066,
       -26.178,
       10.674,
-      7.013
+      7.013,
+      9.254
     ],
     "lons": [
       "x",
@@ -40968,10 +41299,11 @@
       -70.324,
       -69.948,
       -70.837,
-      -66.425
+      -66.425,
+      -65.399
     ],
-    "mean_lat": 0.393,
-    "mean_lon": -69.383,
+    "mean_lat": 2.165,
+    "mean_lon": -68.586,
     "true_lat": 8.4,
     "true_lon": -71.13,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=M\u00e9rida%2C+Venezuela&go=Go&ns0=1",
@@ -40999,6 +41331,7 @@
       "Aargau",
       "Washington",
       "Aargau",
+      "California",
       "California"
     ],
     "countries": [
@@ -41025,6 +41358,7 @@
       "Switzerland",
       "United States",
       "Switzerland",
+      "United States",
       "United States"
     ],
     "dists": [
@@ -41051,7 +41385,8 @@
       205.3,
       3847,
       254.8,
-      540.8
+      540.8,
+      636.7
     ],
     "times": [
       7.5,
@@ -41077,14 +41412,15 @@
       8.4,
       7,
       8.3,
-      8.7
+      8.7,
+      8.6
     ]
   },
   "Corrientes, Argentina": {
-    "mean_dist": 728.1,
-    "mean_time": 8.1,
-    "std_dist": 406.3,
-    "std_time": 0.4,
+    "mean_dist": 748,
+    "mean_time": 8,
+    "std_dist": 405.4,
+    "std_time": 0.5,
     "admin": "Corrientes",
     "country": "Argentina",
     "city": "Corrientes",
@@ -41107,7 +41443,8 @@
       -34.005,
       -28.373,
       -39.487,
-      -38.909
+      -38.909,
+      -37.593
     ],
     "lons": [
       "x",
@@ -41128,10 +41465,14 @@
       -59.55,
       -59.447,
       -62.983,
-      -61.852
+      -61.852,
+      -59.652
     ],
-    "mean_lat": -34.767,
-    "mean_lon": -60.813,
+    "mean_lat": -35.171,
+    "mean_lon": -60.647,
+    "true_lat": -27.49,
+    "true_lon": -58.81,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Corrientes%2C+Argentina&go=Go&ns0=1",
     "regions": [
       "Bogota D.C.",
       "Aargau",
@@ -41151,7 +41492,8 @@
       "Aargau",
       "Aargau",
       "Silesia",
-      "Colorado"
+      "Colorado",
+      "California"
     ],
     "countries": [
       "Colombia",
@@ -41172,6 +41514,7 @@
       "Switzerland",
       "Switzerland",
       "Poland",
+      "United States",
       "United States"
     ],
     "dists": [
@@ -41193,7 +41536,8 @@
       727.8,
       116.5,
       1388.5,
-      1300.7
+      1300.7,
+      1126.2
     ],
     "times": [
       7.9,
@@ -41214,7 +41558,8 @@
       8.3,
       8.5,
       7.8,
-      6.9
+      6.9,
+      6.8
     ]
   },
   "El Banco, Colombia": {
@@ -42668,9 +43013,9 @@
     ]
   },
   "Porto Velho, Rond\u00f4nia, Brazil": {
-    "mean_dist": 1205.2,
+    "mean_dist": 1237.4,
     "mean_time": 6.8,
-    "std_dist": 980.3,
+    "std_dist": 999,
     "std_time": 1.4,
     "admin": "Rond\u00f4nia",
     "country": "Brazil",
@@ -42728,7 +43073,8 @@
       -21.655,
       -11.521,
       -0.922,
-      -14.727
+      -14.727,
+      -7.562
     ],
     "lons": [
       "x",
@@ -42783,10 +43129,11 @@
       -43.345,
       -62.755,
       -48.774,
-      -45.184
+      -45.184,
+      -37.18
     ],
-    "mean_lat": -13.581,
-    "mean_lon": -52.765,
+    "mean_lat": -13.399,
+    "mean_lon": -52.293,
     "true_lat": -8.75,
     "true_lon": -63.9,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Porto Velho%2C+Brazil&go=Go&ns0=1",
@@ -42843,7 +43190,8 @@
       "\u00d6sterg\u00f6tland",
       "Buenos Aires F.D.",
       "Virginia",
-      "Virginia"
+      "Virginia",
+      "California"
     ],
     "countries": [
       "United States",
@@ -42897,6 +43245,7 @@
       "Germany",
       "Sweden",
       "Argentina",
+      "United States",
       "United States",
       "United States"
     ],
@@ -42953,7 +43302,8 @@
       2625.8,
       332.6,
       1887.2,
-      2141.8
+      2141.8,
+      2943.3
     ],
     "times": [
       8.2,
@@ -43008,7 +43358,8 @@
       5.4,
       2.2,
       6.6,
-      7.6
+      7.6,
+      8.2
     ]
   },
   "Puno, Peru": {
@@ -43367,9 +43718,9 @@
     ]
   },
   "Callao, Peru": {
-    "mean_dist": 549.6,
+    "mean_dist": 546.6,
     "mean_time": 7.3,
-    "std_dist": 376.8,
+    "std_dist": 371.8,
     "std_time": 1.3,
     "admin": "Callao",
     "country": "Peru",
@@ -43408,7 +43759,8 @@
       -13.829,
       -12.928,
       -18.034,
-      -13.156
+      -13.156,
+      -8.072
     ],
     "lons": [
       "x",
@@ -43444,10 +43796,14 @@
       -75.455,
       -72.479,
       -65.501,
-      -74.324
+      -74.324,
+      -77.302
     ],
-    "mean_lat": -12.823,
-    "mean_lon": -73.744,
+    "mean_lat": -12.391,
+    "mean_lon": -74.067,
+    "true_lat": -12.07,
+    "true_lon": -77.135,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Callao%2C+Peru&go=Go&ns0=1",
     "regions": [
       "New South Wales",
       "Aargau",
@@ -43482,7 +43838,8 @@
       "Aargau",
       "S\u00e3o Paulo",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "California"
     ],
     "countries": [
       "Australia",
@@ -43518,7 +43875,8 @@
       "Switzerland",
       "Brazil",
       "Germany",
-      "Germany"
+      "Germany",
+      "United States"
     ],
     "dists": [
       573.1,
@@ -43554,7 +43912,8 @@
       267.1,
       514.2,
       1413.5,
-      328
+      328,
+      444.9
     ],
     "times": [
       7.8,
@@ -43590,7 +43949,8 @@
       8.3,
       5.7,
       6.8,
-      7.2
+      7.2,
+      8.5
     ]
   },
   "Esmeraldas, Ecuador": {
@@ -46948,9 +47308,9 @@
     ]
   },
   "Calabozo, Venezuela": {
-    "mean_dist": 350,
-    "mean_time": 7.3,
-    "std_dist": 354.7,
+    "mean_dist": 343.1,
+    "mean_time": 7.4,
+    "std_dist": 348.4,
     "std_time": 1.3,
     "city": "Calabozo",
     "admin": "Gu\u00e1rico",
@@ -46977,7 +47337,8 @@
       9.458,
       8.033,
       -0.717,
-      8.033
+      8.033,
+      9.153
     ],
     "lons": [
       "x",
@@ -47001,10 +47362,11 @@
       -66.322,
       -67.143,
       -78.737,
-      -65.399
+      -65.399,
+      -65.707
     ],
-    "mean_lat": 7.464,
-    "mean_lon": -68.235,
+    "mean_lat": 7.632,
+    "mean_lon": -67.982,
     "true_lat": 8.9304,
     "true_lon": -67.44,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Calabozo%2C+Venezuela&go=Go&ns0=1",
@@ -47030,7 +47392,8 @@
       "Aargau",
       "Aargau",
       "Virginia",
-      "Virginia"
+      "Virginia",
+      "Aargau"
     ],
     "countries": [
       "Canada",
@@ -47054,7 +47417,8 @@
       "Switzerland",
       "Switzerland",
       "United States",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       354.8,
@@ -47078,7 +47442,8 @@
       135.9,
       104.8,
       1648.3,
-      245.5
+      245.5,
+      191.8
     ],
     "times": [
       7.2,
@@ -47102,7 +47467,8 @@
       8.6,
       8.8,
       4.5,
-      5.9
+      5.9,
+      8.6
     ]
   },
   "Magangu\u00e9, Colombia": {
@@ -47428,10 +47794,10 @@
     ]
   },
   "San Mart\u00edn, Argentina": {
-    "mean_dist": 693.7,
+    "mean_dist": 668.4,
     "mean_time": 7.7,
-    "std_dist": 226.6,
-    "std_time": 1,
+    "std_dist": 253.3,
+    "std_time": 0.9,
     "city": "San Mart\u00edn",
     "admin": "Mendoza",
     "country": "Argentina",
@@ -47457,7 +47823,9 @@
       -35.015,
       -34.09,
       -31.67,
-      -32.281
+      -32.281,
+      -33.319,
+      -33.233
     ],
     "lons": [
       "x",
@@ -47481,10 +47849,12 @@
       -60.789,
       -60.884,
       -66.425,
-      -68.58
+      -68.58,
+      -60.576,
+      -68.067
     ],
-    "mean_lat": -32.522,
-    "mean_lon": -62.892,
+    "mean_lat": -32.648,
+    "mean_lon": -63.13,
     "true_lat": -33.07,
     "true_lon": -68.49,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=San Mart\u00edn%2C+Argentina&go=Go&ns0=1",
@@ -47508,6 +47878,8 @@
       "Aargau",
       "Berlin",
       "Utrecht",
+      "Aargau",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau"
@@ -47534,6 +47906,8 @@
       "Netherlands",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -47558,7 +47932,9 @@
       741.5,
       713.4,
       248.6,
-      88
+      88,
+      736.6,
+      43.3
     ],
     "times": [
       5.8,
@@ -47582,7 +47958,9 @@
       6.5,
       8.7,
       7.9,
-      8.5
+      8.5,
+      8.4,
+      8.2
     ]
   },
   "Rio Branco, Acre, Brazil": {
@@ -49338,9 +49716,9 @@
     ]
   },
   "Girardot, Colombia": {
-    "mean_dist": 352.8,
-    "mean_time": 7.6,
-    "std_dist": 189.6,
+    "mean_dist": 336.1,
+    "mean_time": 7.7,
+    "std_dist": 183.9,
     "std_time": 1.1,
     "city": "Girardot",
     "admin": "Cundinamarca",
@@ -49360,7 +49738,9 @@
       6.707,
       6.602,
       9.711,
-      7.779
+      7.779,
+      6.195,
+      2.604
     ],
     "lons": [
       "x",
@@ -49377,10 +49757,12 @@
       -74.737,
       -73.04,
       -74.839,
-      -74.326
+      -74.326,
+      -75.147,
+      -74.018
     ],
-    "mean_lat": 7.699,
-    "mean_lon": -74.235,
+    "mean_lat": 6.599,
+    "mean_lon": -74.351,
     "true_lat": 4.31,
     "true_lon": -74.81,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Girardot%2C+Colombia&go=Go&ns0=1",
@@ -49399,7 +49781,9 @@
       "Aargau",
       "Buenos Aires F.D.",
       "Berlin",
-      "Hesse"
+      "Hesse",
+      "Aargau",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -49416,7 +49800,9 @@
       "Switzerland",
       "Argentina",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland",
+      "Switzerland"
     ],
     "dists": [
       504.8,
@@ -49433,7 +49819,9 @@
       266.6,
       321.4,
       600.6,
-      389.4
+      389.4,
+      212.9,
+      208.9
     ],
     "times": [
       8.3,
@@ -49450,7 +49838,9 @@
       8.5,
       6.5,
       6.7,
-      7.4
+      7.4,
+      8.6,
+      8.4
     ]
   },
   "Puerto Montt, Chile": {
@@ -50626,9 +51016,9 @@
     ]
   },
   "La Vega, Dominican Republic": {
-    "mean_dist": 278.8,
+    "mean_dist": 273.9,
     "mean_time": 7.7,
-    "std_dist": 887.3,
+    "std_dist": 877.5,
     "std_time": 1,
     "city": "La Vega",
     "admin": "Cibao Sur",
@@ -50675,7 +51065,8 @@
       18.63,
       18.828,
       18.703,
-      19.12
+      19.12,
+      19.799
     ],
     "lons": [
       "x",
@@ -50719,10 +51110,11 @@
       -70.064,
       -70.119,
       -70.631,
+      -70.735,
       -70.735
     ],
-    "mean_lat": 15.603,
-    "mean_lon": -68.594,
+    "mean_lat": 15.85,
+    "mean_lon": -68.719,
     "true_lat": 19.2166,
     "true_lon": -70.5166,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=La Vega%2C+Dominican Republic&go=Go&ns0=1",
@@ -50768,7 +51160,8 @@
       "Buenos Aires F.D.",
       "Aargau",
       "Virginia",
-      "Virginia"
+      "Virginia",
+      "California"
     ],
     "countries": [
       "United States",
@@ -50811,6 +51204,7 @@
       "Germany",
       "Argentina",
       "Switzerland",
+      "United States",
       "United States",
       "United States"
     ],
@@ -50856,7 +51250,8 @@
       80.6,
       60,
       58.3,
-      25.3
+      25.3,
+      68.7
     ],
     "times": [
       6.8,
@@ -50900,7 +51295,8 @@
       4.9,
       8.5,
       7,
-      6.2
+      6.2,
+      8.6
     ]
   },
   "San Juan, Dominican Republic": {
@@ -51499,9 +51895,9 @@
     ]
   },
   "Formosa, Argentina": {
-    "mean_dist": 801.7,
-    "mean_time": 7.6,
-    "std_dist": 231.5,
+    "mean_dist": 803.5,
+    "mean_time": 7.7,
+    "std_dist": 223.8,
     "std_time": 0.8,
     "city": "Formosa",
     "admin": "Formosa",
@@ -51520,7 +51916,8 @@
       "x",
       -29.723,
       -27.009,
-      -35.61
+      -35.61,
+      -33.577
     ],
     "lons": [
       "x",
@@ -51536,10 +51933,11 @@
       "x",
       -63.86,
       -54.159,
-      -61.089
+      -61.089,
+      -59.139
     ],
-    "mean_lat": -30.78,
-    "mean_lon": -59.702,
+    "mean_lat": -31.479,
+    "mean_lon": -59.561,
     "true_lat": -26.1728,
     "true_lon": -58.1828,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Formosa%2C+Argentina&go=Go&ns0=1",
@@ -51557,6 +51955,7 @@
       "Aargau",
       "Washington",
       "Buenos Aires F.D.",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -51573,6 +51972,7 @@
       "Switzerland",
       "United States",
       "Argentina",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -51589,7 +51989,8 @@
       409.1,
       683.1,
       410.7,
-      1085.3
+      1085.3,
+      828.4
     ],
     "times": [
       7.4,
@@ -51605,13 +52006,14 @@
       8,
       5.7,
       5.7,
-      7.8
+      7.8,
+      8.6
     ]
   },
   "Montero, Bolivia": {
-    "mean_dist": 448.9,
+    "mean_dist": 447.7,
     "mean_time": 7.6,
-    "std_dist": 530.6,
+    "std_dist": 526.5,
     "std_time": 1.1,
     "city": "Montero",
     "admin": "Santa Cruz",
@@ -51678,7 +52080,8 @@
       -16.56,
       -16.708,
       6.166,
-      -17.985
+      -17.985,
+      -17.691
     ],
     "lons": [
       "x",
@@ -51742,10 +52145,11 @@
       -66.63,
       -65.501,
       -58.42,
-      -66.015
+      -66.015,
+      -66.733
     ],
-    "mean_lat": -14.709,
-    "mean_lon": -63.531,
+    "mean_lat": -14.833,
+    "mean_lon": -63.664,
     "true_lat": -17.3496,
     "true_lon": -63.26,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Montero%2C+Bolivia&go=Go&ns0=1",
@@ -51811,7 +52215,8 @@
       "Berlin",
       "Berlin",
       "Virginia",
-      "Virginia"
+      "Virginia",
+      "California"
     ],
     "countries": [
       "United States",
@@ -51874,6 +52279,7 @@
       "Switzerland",
       "Germany",
       "Germany",
+      "United States",
       "United States",
       "United States"
     ],
@@ -51939,7 +52345,8 @@
       369,
       248.7,
       2668.4,
-      300.3
+      300.3,
+      370.2
     ],
     "times": [
       4.6,
@@ -52003,7 +52410,8 @@
       7.4,
       7.7,
       5.8,
-      8.5
+      8.5,
+      8.1
     ]
   },
   "Ovalle, Chile": {
@@ -52703,10 +53111,10 @@
     ]
   },
   "Calama, Chile": {
-    "mean_dist": 818.2,
+    "mean_dist": 825.1,
     "mean_time": 7.4,
-    "std_dist": 599.1,
-    "std_time": 1.1,
+    "std_dist": 586.6,
+    "std_time": 1,
     "city": "Calama",
     "admin": "Antofagasta",
     "country": "Chile",
@@ -52750,7 +53158,9 @@
       -22.619,
       -27.874,
       -26.961,
-      -27.555
+      -27.555,
+      -32.368,
+      -29.365
     ],
     "lons": [
       "x",
@@ -52792,10 +53202,12 @@
       -68.627,
       -69.503,
       -70.427,
-      -70.016
+      -70.016,
+      -71.556,
+      -70.94
     ],
-    "mean_lat": -29.66,
-    "mean_lon": -70.344,
+    "mean_lat": -29.845,
+    "mean_lon": -70.483,
     "true_lat": -22.45,
     "true_lon": -68.92,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Calama%2C+Chile&go=Go&ns0=1",
@@ -52839,6 +53251,8 @@
       "Buenos Aires F.D.",
       "North Rhine-Westphalia",
       "North Rhine-Westphalia",
+      "Aargau",
+      "California",
       "Aargau"
     ],
     "countries": [
@@ -52881,6 +53295,8 @@
       "Argentina",
       "Germany",
       "Germany",
+      "Switzerland",
+      "United States",
       "Switzerland"
     ],
     "dists": [
@@ -52923,7 +53339,9 @@
       35.4,
       606,
       524.1,
-      578.3
+      578.3,
+      1133,
+      795
     ],
     "times": [
       8.6,
@@ -52965,7 +53383,9 @@
       4.2,
       7.4,
       7.7,
-      8.3
+      8.3,
+      8,
+      8.2
     ]
   },
   "Oruro, Bolivia": {
@@ -53355,9 +53775,9 @@
     ]
   },
   "Barranquilla, Colombia": {
-    "mean_dist": 427.5,
-    "mean_time": 7.6,
-    "std_dist": 330.5,
+    "mean_dist": 414.4,
+    "mean_time": 7.7,
+    "std_dist": 330.6,
     "std_time": 0.7,
     "city": "Barranquilla",
     "admin": "Atl\u00e1ntico",
@@ -53387,7 +53807,8 @@
       4.912,
       2.707,
       9.458,
-      7.932
+      7.932,
+      10.269
     ],
     "lons": [
       "x",
@@ -53414,10 +53835,14 @@
       -72.219,
       -70.324,
       -75.045,
-      -74.224
+      -74.224,
+      -74.429
     ],
-    "mean_lat": 6.443,
-    "mean_lon": -73.119,
+    "mean_lat": 6.99,
+    "mean_lon": -73.306,
+    "true_lat": 10.96,
+    "true_lon": -74.8,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Barranquilla%2C+Colombia&go=Go&ns0=1",
     "regions": [
       "North Carolina",
       "North Carolina",
@@ -53442,6 +53867,7 @@
       "Washington",
       "Washington",
       "California",
+      "Aargau",
       "Aargau",
       "Aargau"
     ],
@@ -53470,6 +53896,7 @@
       "United States",
       "United States",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -53497,7 +53924,8 @@
       729.9,
       1042,
       169.1,
-      342.5
+      342.5,
+      86.8
     ],
     "times": [
       7.7,
@@ -53524,7 +53952,8 @@
       7.4,
       8.6,
       8.3,
-      7.3
+      7.3,
+      8.3
     ]
   },
   "General Roca, Argentina": {
@@ -54017,9 +54446,9 @@
     ]
   },
   "Santa Ana de Yacuma, Bolivia": {
-    "mean_dist": 572,
+    "mean_dist": 565.4,
     "mean_time": 7,
-    "std_dist": 716.4,
+    "std_dist": 713,
     "std_time": 1.5,
     "city": "Santa Ana de Yacuma",
     "admin": "El Beni",
@@ -54090,7 +54519,8 @@
       -21.759,
       -13.822,
       -11.522,
-      -15.025
+      -15.025,
+      -14.926
     ],
     "lons": [
       "x",
@@ -54158,10 +54588,11 @@
       -60.679,
       -65.919,
       -66.267,
-      -64.27
+      -64.27,
+      -65.604
     ],
-    "mean_lat": -16.345,
-    "mean_lon": -64.233,
+    "mean_lat": -16.281,
+    "mean_lon": -64.296,
     "true_lat": -13.76,
     "true_lon": -65.58,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Santa Ana de Yacuma%2C+Bolivia&go=Go&ns0=1",
@@ -54231,6 +54662,7 @@
       "Zurich",
       "Obwalden",
       "Buenos Aires F.D.",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -54299,6 +54731,7 @@
       "Switzerland",
       "Switzerland",
       "Argentina",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -54367,7 +54800,8 @@
       1029.5,
       37.2,
       259.7,
-      199.2
+      199.2,
+      129.6
     ],
     "times": [
       2.8,
@@ -54435,13 +54869,14 @@
       3.8,
       4.2,
       7.2,
-      8.5
+      8.5,
+      8.2
     ]
   },
   "Luj\u00e1n, Argentina": {
-    "mean_dist": 709.9,
-    "mean_time": 6.4,
-    "std_dist": 555.4,
+    "mean_dist": 683.6,
+    "mean_time": 6.5,
+    "std_dist": 555.9,
     "std_time": 2.1,
     "city": "Luj\u00e1n",
     "admin": "Buenos Aires",
@@ -54467,7 +54902,8 @@
       -45.33,
       -27.689,
       -36.091,
-      -47.563
+      -47.563,
+      -33.405
     ],
     "lons": [
       "x",
@@ -54490,10 +54926,14 @@
       -64.373,
       -65.439,
       -61.831,
-      -68.169
+      -68.169,
+      -59.037
     ],
-    "mean_lat": -33.671,
-    "mean_lon": -61.578,
+    "mean_lat": -33.65,
+    "mean_lon": -61.383,
+    "true_lat": -34.5796,
+    "true_lon": -59.11,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Luj\u00e1n%2C+Argentina&go=Go&ns0=1",
     "regions": [
       "North Carolina",
       "Aargau",
@@ -54515,7 +54955,8 @@
       "Berlin",
       "Berlin",
       "Utrecht",
-      "Berlin"
+      "Berlin",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -54538,7 +54979,8 @@
       "Germany",
       "Germany",
       "Netherlands",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       1228.3,
@@ -54561,7 +55003,8 @@
       1276,
       974,
       298.6,
-      1628.6
+      1628.6,
+      130.7
     ],
     "times": [
       7.7,
@@ -54584,14 +55027,15 @@
       4.5,
       6.9,
       7.1,
-      6
+      6,
+      8.6
     ]
   },
   "San Juan de los Morros, Venezuela": {
-    "mean_dist": 419.3,
-    "mean_time": 7,
-    "std_dist": 732.1,
-    "std_time": 1.8,
+    "mean_dist": 413.5,
+    "mean_time": 7.1,
+    "std_dist": 722,
+    "std_time": 1.7,
     "city": "San Juan de los Morros",
     "admin": "Gu\u00e1rico",
     "country": "Venezuela",
@@ -54628,7 +55072,8 @@
       -26.231,
       9.951,
       6.093,
-      9.305
+      9.305,
+      10.066
     ],
     "lons": [
       "x",
@@ -54663,10 +55108,11 @@
       -55.626,
       -68.037,
       -63.86,
-      -65.501
+      -65.501,
+      -69.401
     ],
-    "mean_lat": 5.472,
-    "mean_lon": -67.347,
+    "mean_lat": 5.825,
+    "mean_lon": -67.505,
     "true_lat": 9.901,
     "true_lon": -67.354,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=San Juan de los Morros%2C+Venezuela&go=Go&ns0=1",
@@ -54703,7 +55149,8 @@
       "Berlin",
       "Berlin",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -54738,7 +55185,8 @@
       "Germany",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       119.7,
@@ -54773,7 +55221,8 @@
       4213,
       75,
       572,
-      213.5
+      213.5,
+      224.9
     ],
     "times": [
       6.2,
@@ -54808,7 +55257,8 @@
       4.1,
       7.7,
       3.6,
-      7.3
+      7.3,
+      8.4
     ]
   },
   "San Fernando, Chile": {
@@ -57199,9 +57649,9 @@
     ]
   },
   "Ji-Paran\u00e1, Rond\u00f4nia, Brazil": {
-    "mean_dist": 809.9,
+    "mean_dist": 806.3,
     "mean_time": 7.1,
-    "std_dist": 1238.1,
+    "std_dist": 1227.9,
     "std_time": 1.4,
     "city": "Ji-Paran\u00e1",
     "admin": "Rond\u00f4nia",
@@ -57264,7 +57714,8 @@
       -11.419,
       -20.417,
       -20.369,
-      -11.519
+      -11.519,
+      -9.597
     ],
     "lons": [
       "x",
@@ -57324,10 +57775,11 @@
       -62.115,
       -55.39,
       -56.416,
-      -62.013
+      -62.013,
+      -67.246
     ],
-    "mean_lat": -10.519,
-    "mean_lon": -59.246,
+    "mean_lat": -10.472,
+    "mean_lon": -59.646,
     "true_lat": -10.8333,
     "true_lon": -61.967,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ji-Paran\u00e1%2C+Brazil&go=Go&ns0=1",
@@ -57389,6 +57841,7 @@
       "Aargau",
       "Buenos Aires F.D.",
       "Buenos Aires F.D.",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -57449,6 +57902,7 @@
       "Switzerland",
       "Argentina",
       "Argentina",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -57509,7 +57963,8 @@
       67.1,
       1276.8,
       1215.1,
-      76.5
+      76.5,
+      593.8
     ],
     "times": [
       5.4,
@@ -57569,7 +58024,8 @@
       8.4,
       5.4,
       0.8,
-      8.6
+      8.6,
+      8
     ]
   },
   "Manizales, Colombia": {
@@ -60289,9 +60745,9 @@
     ]
   },
   "Pisco, Peru": {
-    "mean_dist": 328.2,
-    "mean_time": 7.1,
-    "std_dist": 288.4,
+    "mean_dist": 333.9,
+    "mean_time": 7.2,
+    "std_dist": 285,
     "std_time": 2,
     "city": "Pisco",
     "admin": "Ica",
@@ -60324,7 +60780,8 @@
       -12.727,
       -15.224,
       -14.029,
-      -13.829
+      -13.829,
+      -14.029
     ],
     "lons": [
       "x",
@@ -60354,10 +60811,14 @@
       -72.274,
       -73.198,
       -72.89,
-      -74.532
+      -74.532,
+      -71.658
     ],
-    "mean_lat": -13.096,
-    "mean_lon": -73.26,
+    "mean_lat": -13.168,
+    "mean_lon": -73.137,
+    "true_lat": -13.71,
+    "true_lon": -76.22,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Pisco%2C+Peru&go=Go&ns0=1",
     "regions": [
       "Aargau",
       "Aargau",
@@ -60384,6 +60845,7 @@
       "Utrecht",
       "North Holland",
       "Utrecht",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau"
@@ -60416,6 +60878,7 @@
       "Netherlands",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -60446,7 +60909,8 @@
       440.8,
       366.3,
       361.2,
-      182.7
+      182.7,
+      493.6
     ],
     "times": [
       8.3,
@@ -60476,13 +60940,14 @@
       5.4,
       8.4,
       8.5,
-      8.5
+      8.5,
+      7.9
     ]
   },
   "Osorno, Chile": {
-    "mean_dist": 771.1,
-    "mean_time": 7.1,
-    "std_dist": 802.9,
+    "mean_dist": 752.3,
+    "mean_time": 7.2,
+    "std_dist": 797.7,
     "std_time": 1.8,
     "city": "Osorno",
     "admin": "Los Lagos",
@@ -60519,7 +60984,8 @@
       -40.138,
       -25.53,
       -20.896,
-      -34.644
+      -34.644,
+      -41.865
     ],
     "lons": [
       "x",
@@ -60553,10 +61019,11 @@
       -73.196,
       -69.914,
       -69.298,
-      -71.295
+      -71.295,
+      -72.684
     ],
-    "mean_lat": -33.961,
-    "mean_lon": -71.696,
+    "mean_lat": -34.488,
+    "mean_lon": -71.762,
     "true_lat": -40.57,
     "true_lon": -73.16,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Osorno%2C+Chile&go=Go&ns0=1",
@@ -60592,7 +61059,8 @@
       "Utrecht",
       "Utrecht",
       "North Rhine-Westphalia",
-      "Buenos Aires F.D."
+      "Buenos Aires F.D.",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -60626,7 +61094,8 @@
       "Netherlands",
       "Netherlands",
       "Germany",
-      "Argentina"
+      "Argentina",
+      "Switzerland"
     ],
     "dists": [
       1346.1,
@@ -60660,7 +61129,8 @@
       48,
       1699.1,
       2217.8,
-      678.9
+      678.9,
+      149.4
     ],
     "times": [
       8.4,
@@ -60694,14 +61164,15 @@
       4.7,
       4.7,
       1.3,
-      7.3
+      7.3,
+      8.2
     ]
   },
   "Tacna, Peru": {
-    "mean_dist": 787,
-    "mean_time": 8,
-    "std_dist": 484.7,
-    "std_time": 1,
+    "mean_dist": 779.1,
+    "mean_time": 8.1,
+    "std_dist": 475.5,
+    "std_time": 0.9,
     "city": "Tacna",
     "admin": "Tacna",
     "country": "Peru",
@@ -60727,7 +61198,8 @@
       -12.655,
       -13.228,
       -11.822,
-      -14.428
+      -14.428,
+      -13.929
     ],
     "lons": [
       "x",
@@ -60751,10 +61223,11 @@
       -75.192,
       -76.481,
       -76.789,
-      -73.711
+      -73.711,
+      -74.018
     ],
-    "mean_lat": -8.876,
-    "mean_lon": -75.594,
+    "mean_lat": -9.508,
+    "mean_lon": -75.397,
     "true_lat": -18,
     "true_lon": -70.25,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tacna%2C+Peru&go=Go&ns0=1",
@@ -60778,6 +61251,7 @@
       "Washington",
       "Colorado",
       "Colorado",
+      "Aargau",
       "Aargau",
       "Aargau",
       "Aargau"
@@ -60804,6 +61278,7 @@
       "United States",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -60828,7 +61303,8 @@
       796.1,
       852.3,
       982.3,
-      542.4
+      542.4,
+      605.9
     ],
     "times": [
       8.7,
@@ -60852,13 +61328,14 @@
       7.5,
       8.6,
       8.6,
-      8.7
+      8.7,
+      8.6
     ]
   },
   "San Rafael, Argentina": {
-    "mean_dist": 676.6,
+    "mean_dist": 673.9,
     "mean_time": 7.7,
-    "std_dist": 197.7,
+    "std_dist": 190.8,
     "std_time": 1.1,
     "city": "San Rafael",
     "admin": "Mendoza",
@@ -60876,7 +61353,8 @@
       "x",
       -33.663,
       -35.777,
-      -35.777
+      -35.777,
+      -38.646
     ],
     "lons": [
       "x",
@@ -60891,10 +61369,14 @@
       "x",
       -60.576,
       -68.99,
-      -58.626
+      -58.626,
+      -63.244
     ],
-    "mean_lat": -35.072,
-    "mean_lon": -62.73,
+    "mean_lat": -35.965,
+    "mean_lon": -62.859,
+    "true_lat": -34.6,
+    "true_lon": -68.3333,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=San Rafael%2C+Argentina&go=Go&ns0=1",
     "regions": [
       "Aargau",
       "Aargau",
@@ -60908,7 +61390,8 @@
       "Styria",
       "Aargau",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "California"
     ],
     "countries": [
       "Switzerland",
@@ -60923,7 +61406,8 @@
       "Austria",
       "Switzerland",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "United States"
     ],
     "dists": [
       809.9,
@@ -60938,7 +61422,8 @@
       651.1,
       721.3,
       143.9,
-      891.3
+      891.3,
+      639
     ],
     "times": [
       8.4,
@@ -60953,7 +61438,8 @@
       4.9,
       8.6,
       8.5,
-      8.4
+      8.4,
+      8
     ]
   },
   "Viedma, Argentina": {
@@ -61073,9 +61559,9 @@
     ]
   },
   "Curic\u00f3, Chile": {
-    "mean_dist": 527.4,
+    "mean_dist": 518,
     "mean_time": 7.4,
-    "std_dist": 426.2,
+    "std_dist": 421.4,
     "std_time": 1.1,
     "city": "Curic\u00f3",
     "admin": "Maule",
@@ -61107,7 +61593,8 @@
       -22.405,
       -33.919,
       -34.432,
-      -31.757
+      -31.757,
+      -32.628
     ],
     "lons": [
       "x",
@@ -61136,10 +61623,11 @@
       -69.322,
       -71.248,
       -70.782,
-      -71.35
+      -71.35,
+      -70.94
     ],
-    "mean_lat": -29.756,
-    "mean_lon": -70.605,
+    "mean_lat": -30.235,
+    "mean_lon": -70.66,
     "true_lat": -34.98,
     "true_lon": -71.24,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Curic\u00f3%2C+Chile&go=Go&ns0=1",
@@ -61170,6 +61658,7 @@
       "Utrecht",
       "Aargau",
       "Buenos Aires F.D.",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -61199,6 +61688,7 @@
       "Netherlands",
       "Switzerland",
       "Argentina",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -61228,7 +61718,8 @@
       1410.6,
       117.9,
       73.8,
-      358.4
+      358.4,
+      262.8
     ],
     "times": [
       8.2,
@@ -61257,7 +61748,8 @@
       6.3,
       8.1,
       3.6,
-      8.2
+      8.2,
+      8.5
     ]
   },
   "Ferre\u00f1afe, Peru": {
@@ -61464,9 +61956,9 @@
     ]
   },
   "Huacho, Peru": {
-    "mean_dist": 443.5,
+    "mean_dist": 448.9,
     "mean_time": 7.5,
-    "std_dist": 252.4,
+    "std_dist": 246.7,
     "std_time": 1,
     "city": "Huacho",
     "admin": "Lima",
@@ -61489,7 +61981,8 @@
       -8.072,
       -8.377,
       -6.531,
-      -13.729
+      -13.729,
+      -14.727
     ],
     "lons": [
       "x",
@@ -61509,10 +62002,11 @@
       -76.071,
       -78.226,
       -76.899,
-      -76.173
+      -76.173,
+      -74.224
     ],
-    "mean_lat": -9.055,
-    "mean_lon": -76.389,
+    "mean_lat": -9.57,
+    "mean_lon": -76.192,
     "true_lat": -11.11,
     "true_lon": -77.6199,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Huacho%2C+Peru&go=Go&ns0=1",
@@ -61534,6 +62028,7 @@
       "Washington",
       "Aargau",
       "Utrecht",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -61554,6 +62049,7 @@
       "United States",
       "Switzerland",
       "Netherlands",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -61574,7 +62070,8 @@
       378,
       311,
       515.1,
-      330.8
+      330.8,
+      545.1
     ],
     "times": [
       8.5,
@@ -61594,7 +62091,8 @@
       7.4,
       8.7,
       8.3,
-      8.3
+      8.3,
+      8.6
     ]
   },
   "Natal, Amazonas, Brazil": {
@@ -62889,9 +63387,9 @@
     ]
   },
   "R\u00edo Gallegos, Argentina": {
-    "mean_dist": 2009.4,
+    "mean_dist": 1989.3,
     "mean_time": 7.6,
-    "std_dist": 825.9,
+    "std_dist": 801.4,
     "std_time": 0.6,
     "city": "R\u00edo Gallegos",
     "admin": "Santa Cruz",
@@ -62910,7 +63408,8 @@
       -35.511,
       -32.628,
       -32.194,
-      -48.934
+      -48.934,
+      -36.525
     ],
     "lons": [
       "x",
@@ -62926,10 +63425,14 @@
       -62.646,
       -60.576,
       -60.679,
-      -70.324
+      -70.324,
+      -65.399
     ],
-    "mean_lat": -32.461,
-    "mean_lon": -63.452,
+    "mean_lat": -33.042,
+    "mean_lon": -63.73,
+    "true_lat": -51.6333,
+    "true_lon": -69.2166,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=R\u00edo Gallegos%2C+Argentina&go=Go&ns0=1",
     "regions": [
       "Aargau",
       "Aargau",
@@ -62944,7 +63447,8 @@
       "Uusimaa",
       "Aargau",
       "California",
-      "Aargau"
+      "Aargau",
+      "California"
     ],
     "countries": [
       "Switzerland",
@@ -62960,7 +63464,8 @@
       "Finland",
       "Switzerland",
       "United States",
-      "Switzerland"
+      "Switzerland",
+      "United States"
     ],
     "dists": [
       2207.8,
@@ -62976,7 +63481,8 @@
       1867.2,
       2226.3,
       2270.2,
-      310.2
+      310.2,
+      1706.7
     ],
     "times": [
       7.8,
@@ -62992,13 +63498,14 @@
       8,
       8.4,
       7.8,
-      7.8
+      7.8,
+      8.6
     ]
   },
   "Rancagua, Chile": {
-    "mean_dist": 516.1,
-    "mean_time": 6.7,
-    "std_dist": 511.7,
+    "mean_dist": 507.2,
+    "mean_time": 6.8,
+    "std_dist": 510.4,
     "std_time": 1.7,
     "city": "Rancagua",
     "admin": "Libertador General Bernardo O\u2019Higgins",
@@ -63052,7 +63559,8 @@
       -28.373,
       -34.628,
       -33.364,
-      -34.082
+      -34.082,
+      -33.577
     ],
     "lons": [
       "x",
@@ -63103,10 +63611,14 @@
       -70.324,
       -71.35,
       -71.603,
-      -71.267
+      -71.267,
+      -71.043
     ],
-    "mean_lat": -32.388,
-    "mean_lon": -71.194,
+    "mean_lat": -32.44,
+    "mean_lon": -71.188,
+    "true_lat": -34.17,
+    "true_lon": -70.74,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Rancagua%2C+Chile&go=Go&ns0=1",
     "regions": [
       "Alberta",
       "Aargau",
@@ -63156,7 +63668,8 @@
       "Santiago Metropolitan",
       "Santiago Metropolitan",
       "Santiago Metropolitan",
-      "Santiago Metropolitan"
+      "Santiago Metropolitan",
+      "Aargau"
     ],
     "countries": [
       "Canada",
@@ -63207,7 +63720,8 @@
       "Chile",
       "Chile",
       "Chile",
-      "Chile"
+      "Chile",
+      "Switzerland"
     ],
     "dists": [
       156.3,
@@ -63258,7 +63772,8 @@
       645.7,
       75.7,
       119.9,
-      49.5
+      49.5,
+      71.5
     ],
     "times": [
       8.5,
@@ -63309,7 +63824,8 @@
       6.7,
       4.1,
       5.1,
-      2.4
+      2.4,
+      8.5
     ]
   },
   "Concepci\u00f3n del Uruguay, Argentina": {
@@ -63766,9 +64282,9 @@
     ]
   },
   "Talcahuano, Chile": {
-    "mean_dist": 684.3,
-    "mean_time": 7.5,
-    "std_dist": 477.5,
+    "mean_dist": 670.8,
+    "mean_time": 7.6,
+    "std_dist": 470.6,
     "std_time": 0.8,
     "city": "Talcahuano",
     "admin": "Biob\u00edo",
@@ -63794,7 +64310,8 @@
       -25.42,
       -36.027,
       -25.97,
-      -27.639
+      -27.639,
+      -33.834
     ],
     "lons": [
       "x",
@@ -63817,10 +64334,14 @@
       -69.624,
       -71.864,
       -70.062,
-      -70.332
+      -70.332,
+      -70.735
     ],
-    "mean_lat": -28.456,
-    "mean_lon": -70.716,
+    "mean_lat": -29.224,
+    "mean_lon": -70.719,
+    "true_lat": -36.7167,
+    "true_lon": -73.1167,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Talcahuano%2C+Chile&go=Go&ns0=1",
     "regions": [
       "Aargau",
       "Saxony",
@@ -63842,7 +64363,8 @@
       "Uusimaa",
       "Uusimaa",
       "Berlin",
-      "Utrecht"
+      "Utrecht",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -63865,7 +64387,8 @@
       "Finland",
       "Finland",
       "Germany",
-      "Netherlands"
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       702.6,
@@ -63888,7 +64411,8 @@
       1299,
       135.8,
       1229.4,
-      1042.6
+      1042.6,
+      386.5
     ],
     "times": [
       8.1,
@@ -63911,7 +64435,8 @@
       6.4,
       8.1,
       7.5,
-      6.1
+      6.1,
+      8.4
     ]
   },
   "San Felipe, Venezuela": {
@@ -64998,10 +65523,10 @@
     ]
   },
   "Talara, Peru": {
-    "mean_dist": 1168.3,
+    "mean_dist": 1172,
     "mean_time": 7.3,
-    "std_dist": 1277.8,
-    "std_time": 1.6,
+    "std_dist": 1257.8,
+    "std_time": 1.5,
     "city": "Talara",
     "admin": "Piura",
     "country": "Peru",
@@ -65036,7 +65561,8 @@
       -14.478,
       0.032,
       -2.385,
-      -12.275
+      -12.275,
+      -13.829
     ],
     "lons": [
       "x",
@@ -65069,10 +65595,11 @@
       -75.147,
       -79.149,
       -78.533,
-      -74.942
+      -74.942,
+      -74.224
     ],
-    "mean_lat": -9.016,
-    "mean_lon": -75.909,
+    "mean_lat": -9.417,
+    "mean_lon": -75.769,
     "true_lat": -4.58,
     "true_lon": -81.28,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Talara%2C+Peru&go=Go&ns0=1",
@@ -65107,7 +65634,8 @@
       "Berlin",
       "Berlin",
       "North Rhine-Westphalia",
-      "North Rhine-Westphalia"
+      "North Rhine-Westphalia",
+      "Aargau"
     ],
     "countries": [
       "Canada",
@@ -65140,7 +65668,8 @@
       "Germany",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       524.5,
@@ -65173,7 +65702,8 @@
       1289.3,
       564.8,
       390.3,
-      1103.3
+      1103.3,
+      1286.9
     ],
     "times": [
       8.1,
@@ -65206,7 +65736,8 @@
       7.7,
       7.8,
       6.2,
-      6.5
+      6.5,
+      8.5
     ]
   },
   "Z\u00e1rate, Argentina": {
@@ -66740,9 +67271,9 @@
     ]
   },
   "Hu\u00e1nuco, Peru": {
-    "mean_dist": 477.1,
-    "mean_time": 6.1,
-    "std_dist": 555.9,
+    "mean_dist": 472,
+    "mean_time": 6.2,
+    "std_dist": 549.6,
     "std_time": 2.1,
     "city": "Hu\u00e1nuco",
     "admin": "Hu\u00e1nuco",
@@ -66785,7 +67316,8 @@
       -11.419,
       -10.745,
       -10.967,
-      -5.141
+      -5.141,
+      -12.426
     ],
     "lons": [
       "x",
@@ -66825,10 +67357,11 @@
       -73.916,
       -74.087,
       -74.374,
-      -75.318
+      -75.318,
+      -76.379
     ],
-    "mean_lat": -12.054,
-    "mean_lon": -73.327,
+    "mean_lat": -12.079,
+    "mean_lon": -73.53,
     "true_lat": -9.92,
     "true_lon": -76.24,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Hu\u00e1nuco%2C+Peru&go=Go&ns0=1",
@@ -66870,7 +67403,8 @@
       "Santiago Metropolitan",
       "Santiago Metropolitan",
       "Santiago Metropolitan",
-      "Santiago Metropolitan"
+      "Santiago Metropolitan",
+      "Aargau"
     ],
     "countries": [
       "Germany",
@@ -66910,7 +67444,8 @@
       "Chile",
       "Chile",
       "Chile",
-      "Chile"
+      "Chile",
+      "Switzerland"
     ],
     "dists": [
       1111.6,
@@ -66950,7 +67485,8 @@
       303.7,
       252.7,
       234.9,
-      540.9
+      540.9,
+      279
     ],
     "times": [
       6.6,
@@ -66990,7 +67526,8 @@
       4.2,
       6.3,
       5.6,
-      3.7
+      3.7,
+      8.6
     ]
   },
   "Guanare, Venezuela": {
@@ -67200,9 +67737,9 @@
     ]
   },
   "Cuman\u00e1, Venezuela": {
-    "mean_dist": 486.8,
-    "mean_time": 7.2,
-    "std_dist": 265.8,
+    "mean_dist": 466.7,
+    "mean_time": 7.3,
+    "std_dist": 262.4,
     "std_time": 1.6,
     "city": "Cuman\u00e1",
     "admin": "Sucre",
@@ -67228,7 +67765,9 @@
       9.559,
       9.762,
       10.168,
-      8.947
+      8.947,
+      8.848,
+      8.033
     ],
     "lons": [
       "x",
@@ -67251,10 +67790,15 @@
       -68.58,
       -69.196,
       -67.656,
-      -68.832
+      -68.832,
+      -65.296,
+      -65.296
     ],
-    "mean_lat": 9.107,
-    "mean_lon": -67.427,
+    "mean_lat": 8.959,
+    "mean_lon": -66.953,
+    "true_lat": 10.45,
+    "true_lon": -64.18,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Cuman\u00e1%2C+Venezuela&go=Go&ns0=1",
     "regions": [
       "Aargau",
       "Baden-W\u00fcrttemberg",
@@ -67276,7 +67820,9 @@
       "Aargau",
       "Aargau",
       "Aargau",
-      "Buenos Aires F.D."
+      "Buenos Aires F.D.",
+      "California",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -67299,7 +67845,9 @@
       "Switzerland",
       "Switzerland",
       "Switzerland",
-      "Argentina"
+      "Argentina",
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       487.7,
@@ -67322,7 +67870,9 @@
       491.9,
       554.3,
       381.6,
-      536.6
+      536.6,
+      216.1,
+      295.2
     ],
     "times": [
       8.5,
@@ -67345,7 +67895,9 @@
       8.4,
       8.7,
       8.6,
-      7.9
+      7.9,
+      8.8,
+      8.7
     ]
   },
   "La Rioja, Argentina": {
@@ -67721,9 +68273,9 @@
     ]
   },
   "San Pedro de Macor\u00eds, Dominican Republic": {
-    "mean_dist": 444.5,
-    "mean_time": 7,
-    "std_dist": 1109.3,
+    "mean_dist": 436.5,
+    "mean_time": 7.1,
+    "std_dist": 1099,
     "std_time": 2,
     "city": "San Pedro de Macor\u00eds",
     "admin": "Higuamo",
@@ -67775,7 +68327,8 @@
       9.709,
       10.64,
       -41.01,
-      18.679
+      18.679,
+      18.828
     ],
     "lons": [
       "x",
@@ -67824,10 +68377,11 @@
       -81.967,
       -82.912,
       -98.95,
-      -70.166
+      -70.166,
+      -69.709
     ],
-    "mean_lat": 13.716,
-    "mean_lon": -72.778,
+    "mean_lat": 13.938,
+    "mean_lon": -72.645,
     "true_lat": 18.4504,
     "true_lon": -69.3,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=San Pedro de Macor\u00eds%2C+Dominican Republic&go=Go&ns0=1",
@@ -67878,7 +68432,8 @@
       "Santiago Metropolitan",
       "Santiago Metropolitan",
       "Santiago Metropolitan",
-      "Buenos Aires F.D."
+      "Buenos Aires F.D.",
+      "Aargau"
     ],
     "countries": [
       "Switzerland",
@@ -67927,7 +68482,8 @@
       "Chile",
       "Chile",
       "Chile",
-      "Argentina"
+      "Argentina",
+      "Switzerland"
     ],
     "dists": [
       163.3,
@@ -67976,7 +68532,8 @@
       1675.2,
       1701.7,
       7285.3,
-      94.8
+      94.8,
+      60.1
     ],
     "times": [
       8.5,
@@ -68025,7 +68582,8 @@
       5.9,
       0.5,
       4.7,
-      8.2
+      8.2,
+      8.7
     ]
   },
   "San Ram\u00f3n de la Nueva Or\u00e1n, Argentina": {
@@ -68193,9 +68751,9 @@
     ]
   },
   "Cerro de Pasco, Peru": {
-    "mean_dist": 392.1,
+    "mean_dist": 399.5,
     "mean_time": 7.5,
-    "std_dist": 240.9,
+    "std_dist": 240.6,
     "std_time": 1.7,
     "city": "Cerro de Pasco",
     "admin": "Pasco",
@@ -68231,6 +68789,7 @@
       -7.129,
       -11.16,
       -11.419,
+      -12.827,
       -12.827
     ],
     "lons": [
@@ -68264,10 +68823,11 @@
       -78.865,
       -75.306,
       -77.507,
-      -75.455
+      -75.455,
+      -70.94
     ],
-    "mean_lat": -9.899,
-    "mean_lon": -75.941,
+    "mean_lat": -10.165,
+    "mean_lon": -75.486,
     "true_lat": -10.69,
     "true_lon": -76.27,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Cerro de Pasco%2C+Peru&go=Go&ns0=1",
@@ -68302,7 +68862,8 @@
       "Styria",
       "Styria",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "California"
     ],
     "countries": [
       "Canada",
@@ -68335,7 +68896,8 @@
       "Austria",
       "Austria",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "United States"
     ],
     "dists": [
       583.4,
@@ -68368,7 +68930,8 @@
       487.8,
       117.4,
       157.5,
-      253.7
+      253.7,
+      626.9
     ],
     "times": [
       7.9,
@@ -68401,7 +68964,8 @@
       7.2,
       1.3,
       8.6,
-      8.6
+      8.6,
+      7.8
     ]
   },
   "Leticia, Colombia": {
@@ -70007,9 +70571,9 @@
     ]
   },
   "Presidencia Roque S\u00e1enz Pe\u00f1a, Argentina": {
-    "mean_dist": 809.2,
+    "mean_dist": 835.9,
     "mean_time": 6.4,
-    "std_dist": 874.5,
+    "std_dist": 863.2,
     "std_time": 2.6,
     "city": "Presidencia Roque S\u00e1enz Pe\u00f1a",
     "admin": "Chaco",
@@ -70035,7 +70599,8 @@
       -26.915,
       -42.349,
       -36.32,
-      -13.729
+      -13.729,
+      -39.126
     ],
     "lons": [
       "x",
@@ -70058,10 +70623,14 @@
       -62.526,
       -63.962,
       -61.342,
-      -23.122
+      -23.122,
+      -63.347
     ],
-    "mean_lat": -29.907,
-    "mean_lon": -59.196,
+    "mean_lat": -30.616,
+    "mean_lon": -59.516,
+    "true_lat": -26.79,
+    "true_lon": -60.45,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Presidencia Roque S\u00e1enz Pe\u00f1a%2C+Argentina&go=Go&ns0=1",
     "regions": [
       "Baden-W\u00fcrttemberg",
       "Baden-W\u00fcrttemberg",
@@ -70083,7 +70652,8 @@
       "Santiago Metropolitan",
       "Santiago Metropolitan",
       "Santiago Metropolitan",
-      "Santiago Metropolitan"
+      "Santiago Metropolitan",
+      "California"
     ],
     "countries": [
       "Germany",
@@ -70106,7 +70676,8 @@
       "Chile",
       "Chile",
       "Chile",
-      "Chile"
+      "Chile",
+      "United States"
     ],
     "dists": [
       897.7,
@@ -70129,7 +70700,8 @@
       206.4,
       1759.3,
       1063.1,
-      4136.5
+      4136.5,
+      1397.9
     ],
     "times": [
       8.2,
@@ -70152,19 +70724,47 @@
       2.2,
       1.4,
       3.9,
-      5.8
+      5.8,
+      7.9
     ]
   },
   "Asunci\u00f3n, Paraguay": {
-    "lats": [],
-    "lons": [],
+    "lats": [
+      -25.53,
+      -26.731
+    ],
+    "lons": [
+      -56.266,
+      -56.882
+    ],
     "true_lat": -25.2964,
     "true_lon": -57.6415,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Asunci\u00f3n%2C+Paraguay&go=Go&ns0=1",
-    "regions": [],
-    "countries": [],
-    "dists": [],
-    "times": []
+    "mean_dist": 158.5,
+    "mean_lat": -26.13,
+    "mean_lon": -56.574,
+    "mean_time": 8.3,
+    "std_dist": 18,
+    "std_time": 0.1,
+    "city": "Asunci\u00f3n",
+    "admin": "Asunci\u00f3n",
+    "country": "Paraguay",
+    "regions": [
+      "California",
+      "Aargau"
+    ],
+    "countries": [
+      "United States",
+      "Switzerland"
+    ],
+    "dists": [
+      140.5,
+      176.6
+    ],
+    "times": [
+      8.5,
+      8.2
+    ]
   },
   "Corumb\u00e1, Mato Grosso do Sul, Brazil": {
     "lats": [
@@ -70199,15 +70799,36 @@
     ]
   },
   "San Lorenzo, Paraguay": {
-    "lats": [],
-    "lons": [],
+    "lats": [
+      -26.363
+    ],
+    "lons": [
+      -55.856
+    ],
     "true_lat": -25.34,
     "true_lon": -57.52,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=San Lorenzo%2C+Paraguay&go=Go&ns0=1",
-    "regions": [],
-    "countries": [],
-    "dists": [],
-    "times": []
+    "mean_dist": 201.6,
+    "mean_lat": -26.363,
+    "mean_lon": -55.856,
+    "mean_time": 8.3,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "San Lorenzo",
+    "admin": "Central",
+    "country": "Paraguay",
+    "regions": [
+      "Aargau"
+    ],
+    "countries": [
+      "Switzerland"
+    ],
+    "dists": [
+      201.6
+    ],
+    "times": [
+      8.3
+    ]
   },
   "Londrina, Paran\u00e1, Brazil": {
     "lats": [
@@ -70345,23 +70966,399 @@
   },
   "Rivera, Uruguay": {
     "lats": [
-      -32.107375585500705
+      -32.107375585500705,
+      -32.281
     ],
     "lons": [
-      -57.90849673202614
+      -57.90849673202614,
+      -56.882
     ],
     "true_lat": -30.8996,
     "true_lon": -55.56,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Rivera%2C+Uruguay&go=Go&ns0=1",
-    "mean_dist": 260,
-    "mean_lat": -32.107,
-    "mean_lon": -57.908,
-    "mean_time": 8.1,
-    "std_dist": 0,
-    "std_time": 7.1,
+    "mean_dist": 229.1,
+    "mean_lat": -32.194,
+    "mean_lon": -57.395,
+    "mean_time": 8,
+    "std_dist": 30.9,
+    "std_time": 0.1,
     "city": "Rivera",
     "admin": "Rivera",
     "country": "Uruguay",
+    "regions": [
+      "Aargau",
+      "Aargau"
+    ],
+    "countries": [
+      "Switzerland",
+      "Switzerland"
+    ],
+    "dists": [
+      260.00717215746124,
+      198.2
+    ],
+    "times": [
+      8.100000000000007,
+      7.9
+    ]
+  },
+  "Ciudad del Este, Paraguay": {
+    "lats": [
+      -25.9011286956889,
+      -25.251255359698746,
+      -24.784,
+      -24.316
+    ],
+    "lons": [
+      -56.266666666666666,
+      -55.753594771241836,
+      -56.369,
+      -55.035
+    ],
+    "true_lat": -25.5167,
+    "true_lon": -54.6161,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ciudad del Este%2C+Paraguay&go=Go&ns0=1",
+    "mean_dist": 155.7,
+    "mean_lat": -25.063,
+    "mean_lon": -55.856,
+    "mean_time": 7.6,
+    "std_dist": 29,
+    "std_time": 0.9,
+    "city": "Ciudad del Este",
+    "admin": "Alto Paran\u00e1",
+    "country": "Paraguay",
+    "regions": [
+      "Aargau",
+      "California",
+      "California",
+      "Aargau"
+    ],
+    "countries": [
+      "Switzerland",
+      "United States",
+      "United States",
+      "Switzerland"
+    ],
+    "dists": [
+      170.80047306857614,
+      118.02221343697187,
+      194.3,
+      139.9
+    ],
+    "times": [
+      8.13333333333334,
+      8.33333333333334,
+      6,
+      8.2
+    ]
+  },
+  "V\u00e1rzea Grande, Mato Grosso, Brazil": {
+    "lats": [
+      -15.5219000159349
+    ],
+    "lons": [
+      -45.389542483660136
+    ],
+    "true_lat": -15.65,
+    "true_lon": -56.14,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=V\u00e1rzea Grande%2C+Brazil&go=Go&ns0=1",
+    "mean_dist": 1151.4,
+    "mean_lat": -15.521,
+    "mean_lon": -45.389,
+    "mean_time": 7.7,
+    "std_dist": 0,
+    "std_time": 7.9,
+    "city": "V\u00e1rzea Grande",
+    "admin": "Mato Grosso",
+    "country": "Brazil",
+    "regions": [
+      "California"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      1151.4052826793522
+    ],
+    "times": [
+      7.700000000000008
+    ]
+  },
+  "Coronel Oviedo, Paraguay": {
+    "lats": [
+      -24.410577222513634
+    ],
+    "lons": [
+      -56.4718954248366
+    ],
+    "true_lat": -25.45,
+    "true_lon": -56.44,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Coronel Oviedo%2C+Paraguay&go=Go&ns0=1",
+    "mean_dist": 115.6,
+    "mean_lat": -24.41,
+    "mean_lon": -56.471,
+    "mean_time": 8.2,
+    "std_dist": 0,
+    "std_time": 7.1,
+    "city": "Coronel Oviedo",
+    "admin": "Caaguaz\u00fa",
+    "country": "Paraguay",
+    "regions": [
+      "California"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      115.62327571591199
+    ],
+    "times": [
+      8.200000000000006
+    ]
+  },
+  "Cayenne, French Guiana": {
+    "lats": [
+      4.45352821315247
+    ],
+    "lons": [
+      -53.393464052287584
+    ],
+    "true_lat": 4.933,
+    "true_lon": -52.33,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Cayenne%2C+French Guiana&go=Go&ns0=1",
+    "mean_dist": 129.3,
+    "mean_lat": 4.453,
+    "mean_lon": -53.393,
+    "mean_time": 7.9,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Cayenne",
+    "admin": "",
+    "country": "French Guiana",
+    "regions": [
+      "California"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      129.3532371496899
+    ],
+    "times": [
+      7.966666666666674
+    ]
+  },
+  "Fernand\u00f3polis, S\u00e3o Paulo, Brazil": {
+    "lats": [
+      -7.255981190347239
+    ],
+    "lons": [
+      -38.41176470588235
+    ],
+    "true_lat": -20.2696,
+    "true_lon": -50.26,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Fernand\u00f3polis%2C+Brazil&go=Go&ns0=1",
+    "mean_dist": 1929.4,
+    "mean_lat": -7.255,
+    "mean_lon": -38.411,
+    "mean_time": 8.4,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Fernand\u00f3polis",
+    "admin": "S\u00e3o Paulo",
+    "country": "Brazil",
+    "regions": [
+      "California"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      1929.4469037998601
+    ],
+    "times": [
+      8.433333333333339
+    ]
+  },
+  "Macei\u00f3, Alagoas, Brazil": {
+    "lats": [
+      -8.479433275725302
+    ],
+    "lons": [
+      -41.695424836601305
+    ],
+    "true_lat": -9.62,
+    "true_lon": -35.73,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Macei\u00f3%2C+Brazil&go=Go&ns0=1",
+    "mean_dist": 667.2,
+    "mean_lat": -8.479,
+    "mean_lon": -41.695,
+    "mean_time": 8.1,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Macei\u00f3",
+    "admin": "Alagoas",
+    "country": "Brazil",
+    "regions": [
+      "California"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      667.2135704785675
+    ],
+    "times": [
+      8.13333333333334
+    ]
+  },
+  "Punta del Este, Uruguay": {
+    "lats": [
+      -32.7156113762713
+    ],
+    "lons": [
+      -55.5483660130719
+    ],
+    "true_lat": -34.97,
+    "true_lon": -54.95,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Punta del Este%2C+Uruguay&go=Go&ns0=1",
+    "mean_dist": 256.6,
+    "mean_lat": -32.715,
+    "mean_lon": -55.548,
+    "mean_time": 8.4,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Punta del Este",
+    "admin": "Maldonado",
+    "country": "Uruguay",
+    "regions": [
+      "California"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      256.6938109780995
+    ],
+    "times": [
+      8.433333333333339
+    ]
+  },
+  "Passo Fundo, Rio Grande do Sul, Brazil": {
+    "lats": [
+      -2.4372342005194167
+    ],
+    "lons": [
+      -52.88039215686274
+    ],
+    "true_lat": -28.25,
+    "true_lon": -52.42,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Passo Fundo%2C+Brazil&go=Go&ns0=1",
+    "mean_dist": 2870.6,
+    "mean_lat": -2.437,
+    "mean_lon": -52.88,
+    "mean_time": 8.1,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Passo Fundo",
+    "admin": "Rio Grande do Sul",
+    "country": "Brazil",
+    "regions": [
+      "California"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      2870.664285691691
+    ],
+    "times": [
+      8.166666666666673
+    ]
+  },
+  "Petrolina, Pernambuco, Brazil": {
+    "lats": [
+      -9.496034018572063
+    ],
+    "lons": [
+      -38.92483660130719
+    ],
+    "true_lat": -9.38,
+    "true_lon": -40.51,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Petrolina%2C+Brazil&go=Go&ns0=1",
+    "mean_dist": 174.3,
+    "mean_lat": -9.496,
+    "mean_lon": -38.924,
+    "mean_time": 8.5,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Petrolina",
+    "admin": "Pernambuco",
+    "country": "Brazil",
+    "regions": [
+      "California"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      174.35403848131085
+    ],
+    "times": [
+      8.566666666666672
+    ]
+  },
+  "Montevideo, Uruguay": {
+    "lats": [
+      -33.663072216731685
+    ],
+    "lons": [
+      -54.00915032679738
+    ],
+    "true_lat": -34.858,
+    "true_lon": -56.1711,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Montevideo%2C+Uruguay&go=Go&ns0=1",
+    "mean_dist": 239,
+    "mean_lat": -33.663,
+    "mean_lon": -54.009,
+    "mean_time": 8.3,
+    "std_dist": 0,
+    "std_time": 5.3,
+    "city": "Montevideo",
+    "admin": "Montevideo",
+    "country": "Uruguay",
+    "regions": [
+      "California"
+    ],
+    "countries": [
+      "United States"
+    ],
+    "dists": [
+      239.00927686931647
+    ],
+    "times": [
+      8.300000000000006
+    ]
+  },
+  "Presidente Prudente, S\u00e3o Paulo, Brazil": {
+    "lats": [
+      -24.6914365846903
+    ],
+    "lons": [
+      -48.16013071895425
+    ],
+    "true_lat": -22.12,
+    "true_lon": -51.39,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Presidente Prudente%2C+Brazil&go=Go&ns0=1",
+    "mean_dist": 436.2,
+    "mean_lat": -24.691,
+    "mean_lon": -48.16,
+    "mean_time": 8.1,
+    "std_dist": 0,
+    "std_time": 7.1,
+    "city": "Presidente Prudente",
+    "admin": "S\u00e3o Paulo",
+    "country": "Brazil",
     "regions": [
       "Aargau"
     ],
@@ -70369,48 +71366,490 @@
       "Switzerland"
     ],
     "dists": [
-      260.00717215746124
+      436.29664821347643
     ],
     "times": [
       8.100000000000007
     ]
   },
-  "Ciudad del Este, Paraguay": {
+  "Jundia\u00ed, S\u00e3o Paulo, Brazil": {
     "lats": [
-      -25.9011286956889,
-      -25.251255359698746
+      -24.222989415088744
     ],
     "lons": [
-      -56.266666666666666,
-      -55.753594771241836
+      -50.93071895424836
     ],
-    "true_lat": -25.5167,
-    "true_lon": -54.6161,
-    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ciudad del Este%2C+Paraguay&go=Go&ns0=1",
-    "mean_dist": 144.4,
-    "mean_lat": -25.576,
-    "mean_lon": -56.01,
-    "mean_time": 8.2,
-    "std_dist": 26.3,
-    "std_time": 0.1,
-    "city": "Ciudad del Este",
-    "admin": "Alto Paran\u00e1",
-    "country": "Paraguay",
+    "true_lat": -23.2,
+    "true_lon": -46.88,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Jundia\u00ed%2C+Brazil&go=Go&ns0=1",
+    "mean_dist": 427.7,
+    "mean_lat": -24.222,
+    "mean_lon": -50.93,
+    "mean_time": 7.9,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Jundia\u00ed",
+    "admin": "S\u00e3o Paulo",
+    "country": "Brazil",
     "regions": [
-      "Aargau",
-      "California"
+      "Aargau"
     ],
     "countries": [
-      "Switzerland",
-      "United States"
+      "Switzerland"
     ],
     "dists": [
-      170.80047306857614,
-      118.02221343697187
+      427.7745879439257
     ],
     "times": [
-      8.13333333333334,
-      8.33333333333334
+      7.966666666666674
+    ]
+  },
+  "Uruguaiana, Rio Grande do Sul, Brazil": {
+    "lats": [
+      -27.555736619092638
+    ],
+    "lons": [
+      -49.18627450980392
+    ],
+    "true_lat": -29.7696,
+    "true_lon": -57.09,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Uruguaiana%2C+Brazil&go=Go&ns0=1",
+    "mean_dist": 809.2,
+    "mean_lat": -27.555,
+    "mean_lon": -49.186,
+    "mean_time": 6.1,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Uruguaiana",
+    "admin": "Rio Grande do Sul",
+    "country": "Brazil",
+    "regions": [
+      "Aargau"
+    ],
+    "countries": [
+      "Switzerland"
+    ],
+    "dists": [
+      809.2759148602869
+    ],
+    "times": [
+      6.133333333333347
+    ]
+  },
+  "P\u00f4rto Seguro, Bahia, Brazil": {
+    "lats": [
+      -3.875962841496802
+    ],
+    "lons": [
+      -40.97712418300654
+    ],
+    "true_lat": -16.4296,
+    "true_lon": -39.08,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=P\u00f4rto Seguro%2C+Brazil&go=Go&ns0=1",
+    "mean_dist": 1411.1,
+    "mean_lat": -3.875,
+    "mean_lon": -40.977,
+    "mean_time": 8.1,
+    "std_dist": 0,
+    "std_time": 7.1,
+    "city": "P\u00f4rto Seguro",
+    "admin": "Bahia",
+    "country": "Brazil",
+    "regions": [
+      "Aargau"
+    ],
+    "countries": [
+      "Switzerland"
+    ],
+    "dists": [
+      1411.1934477919006
+    ],
+    "times": [
+      8.100000000000007
+    ]
+  },
+  "S\u00e3o Mateus, Esp\u00edrito Santo, Brazil": {
+    "lats": [
+      -12.224962967177524
+    ],
+    "lons": [
+      -37.385620915032675
+    ],
+    "true_lat": -18.7296,
+    "true_lon": -39.86,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=S\u00e3o Mateus%2C+Brazil&go=Go&ns0=1",
+    "mean_dist": 770.2,
+    "mean_lat": -12.224,
+    "mean_lon": -37.385,
+    "mean_time": 7.9,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "S\u00e3o Mateus",
+    "admin": "Esp\u00edrito Santo",
+    "country": "Brazil",
+    "regions": [
+      "Aargau"
+    ],
+    "countries": [
+      "Switzerland"
+    ],
+    "dists": [
+      770.2949832898985
+    ],
+    "times": [
+      7.966666666666674
+    ]
+  },
+  "Barbacena, Minas Gerais, Brazil": {
+    "lats": [
+      -28.28329182128479
+    ],
+    "lons": [
+      -49.80196078431372
+    ],
+    "true_lat": -21.22,
+    "true_lon": -43.77,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Barbacena%2C+Brazil&go=Go&ns0=1",
+    "mean_dist": 993.4,
+    "mean_lat": -28.283,
+    "mean_lon": -49.801,
+    "mean_time": 8.1,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Barbacena",
+    "admin": "Minas Gerais",
+    "country": "Brazil",
+    "regions": [
+      "Aargau"
+    ],
+    "countries": [
+      "Switzerland"
+    ],
+    "dists": [
+      993.4963877713332
+    ],
+    "times": [
+      8.166666666666673
+    ]
+  },
+  "Chapec\u00f3, Santa Catarina, Brazil": {
+    "lats": [
+      -3.978646343711921
+    ],
+    "lons": [
+      -44.773856209150324
+    ],
+    "true_lat": -27.1,
+    "true_lon": -52.64,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Chapec\u00f3%2C+Brazil&go=Go&ns0=1",
+    "mean_dist": 2703.3,
+    "mean_lat": -3.978,
+    "mean_lon": -44.773,
+    "mean_time": 6.6,
+    "std_dist": 0,
+    "std_time": 1.2,
+    "city": "Chapec\u00f3",
+    "admin": "Santa Catarina",
+    "country": "Brazil",
+    "regions": [
+      "Aargau"
+    ],
+    "countries": [
+      "Switzerland"
+    ],
+    "dists": [
+      2703.341974326804
+    ],
+    "times": [
+      6.600000000000012
+    ]
+  },
+  "Curitiba, Paran\u00e1, Brazil": {
+    "lats": [
+      -26.36314815761923
+    ],
+    "lons": [
+      -49.49411764705883
+    ],
+    "true_lat": -25.42,
+    "true_lon": -49.32,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Curitiba%2C+Brazil&go=Go&ns0=1",
+    "mean_dist": 106.3,
+    "mean_lat": -26.363,
+    "mean_lon": -49.494,
+    "mean_time": 8.4,
+    "std_dist": 0,
+    "std_time": 5.3,
+    "city": "Curitiba",
+    "admin": "Paran\u00e1",
+    "country": "Brazil",
+    "regions": [
+      "Aargau"
+    ],
+    "countries": [
+      "Switzerland"
+    ],
+    "dists": [
+      106.30977085669784
+    ],
+    "times": [
+      8.400000000000006
+    ]
+  },
+  "Paramaribo, Suriname": {
+    "lats": [
+      4.45352821315247
+    ],
+    "lons": [
+      -52.98300653594771
+    ],
+    "true_lat": 5.835,
+    "true_lon": -55.167,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Paramaribo%2C+Suriname&go=Go&ns0=1",
+    "mean_dist": 286.5,
+    "mean_lat": 4.453,
+    "mean_lon": -52.983,
+    "mean_time": 8.2,
+    "std_dist": 0,
+    "std_time": 7.1,
+    "city": "Paramaribo",
+    "admin": "Paramaribo",
+    "country": "Suriname",
+    "regions": [
+      "Aargau"
+    ],
+    "countries": [
+      "Switzerland"
+    ],
+    "dists": [
+      286.5229149340869
+    ],
+    "times": [
+      8.200000000000006
+    ]
+  },
+  "Divin\u00f3polis, Minas Gerais, Brazil": {
+    "lats": [
+      -27.190133775629157
+    ],
+    "lons": [
+      -48.981045751633985
+    ],
+    "true_lat": -20.1495,
+    "true_lon": -44.9,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Divin\u00f3polis%2C+Brazil&go=Go&ns0=1",
+    "mean_dist": 886.1,
+    "mean_lat": -27.19,
+    "mean_lon": -48.981,
+    "mean_time": 8,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Divin\u00f3polis",
+    "admin": "Minas Gerais",
+    "country": "Brazil",
+    "regions": [
+      "Aargau"
+    ],
+    "countries": [
+      "Switzerland"
+    ],
+    "dists": [
+      886.1644302112868
+    ],
+    "times": [
+      8.03333333333334
+    ]
+  },
+  "Tup\u00e3, S\u00e3o Paulo, Brazil": {
+    "lats": [
+      -22.42733567181523
+    ],
+    "lons": [
+      -47.54444444444445
+    ],
+    "true_lat": -21.93,
+    "true_lon": -50.52,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tup\u00e3%2C+Brazil&go=Go&ns0=1",
+    "mean_dist": 311.3,
+    "mean_lat": -22.427,
+    "mean_lon": -47.544,
+    "mean_time": 8.4,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Tup\u00e3",
+    "admin": "S\u00e3o Paulo",
+    "country": "Brazil",
+    "regions": [
+      "Aargau"
+    ],
+    "countries": [
+      "Switzerland"
+    ],
+    "dists": [
+      311.3308015276325
+    ],
+    "times": [
+      8.433333333333339
+    ]
+  },
+  "Campo Mour\u00e3o, Paran\u00e1, Brazil": {
+    "lats": [
+      -30.347233148340788
+    ],
+    "lons": [
+      -53.49607843137255
+    ],
+    "true_lat": -24.0496,
+    "true_lon": -52.42,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Campo Mour\u00e3o%2C+Brazil&go=Go&ns0=1",
+    "mean_dist": 708.2,
+    "mean_lat": -30.347,
+    "mean_lon": -53.496,
+    "mean_time": 8,
+    "std_dist": 0,
+    "std_time": 7.1,
+    "city": "Campo Mour\u00e3o",
+    "admin": "Paran\u00e1",
+    "country": "Brazil",
+    "regions": [
+      "Aargau"
+    ],
+    "countries": [
+      "Switzerland"
+    ],
+    "dists": [
+      708.2912185414662
+    ],
+    "times": [
+      8.000000000000007
+    ]
+  },
+  "Ita\u00fana, Minas Gerais, Brazil": {
+    "lats": [
+      -19.54479130970114
+    ],
+    "lons": [
+      -43.95294117647059
+    ],
+    "true_lat": -20.06,
+    "true_lon": -44.57,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ita\u00fana%2C+Brazil&go=Go&ns0=1",
+    "mean_dist": 86.3,
+    "mean_lat": -19.544,
+    "mean_lon": -43.952,
+    "mean_time": 8.5,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Ita\u00fana",
+    "admin": "Minas Gerais",
+    "country": "Brazil",
+    "regions": [
+      "Aargau"
+    ],
+    "countries": [
+      "Switzerland"
+    ],
+    "dists": [
+      86.31033277734605
+    ],
+    "times": [
+      8.533333333333339
+    ]
+  },
+  "Posadas, Argentina": {
+    "lats": [
+      -29.365341961458846
+    ],
+    "lons": [
+      -59.75555555555556
+    ],
+    "true_lat": -27.3578,
+    "true_lon": -55.8851,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Posadas%2C+Argentina&go=Go&ns0=1",
+    "mean_dist": 439.5,
+    "mean_lat": -29.365,
+    "mean_lon": -59.755,
+    "mean_time": 8.5,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Posadas",
+    "admin": "Misiones",
+    "country": "Argentina",
+    "regions": [
+      "Aargau"
+    ],
+    "countries": [
+      "Switzerland"
+    ],
+    "dists": [
+      439.5644799984474
+    ],
+    "times": [
+      8.566666666666672
+    ]
+  },
+  "Patos, Para\u00edba, Brazil": {
+    "lats": [
+      -22.236924813014664
+    ],
+    "lons": [
+      -47.339215686274514
+    ],
+    "true_lat": -7.0196,
+    "true_lon": -37.29,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Patos%2C+Brazil&go=Go&ns0=1",
+    "mean_dist": 2005.9,
+    "mean_lat": -22.236,
+    "mean_lon": -47.339,
+    "mean_time": 8.2,
+    "std_dist": 0,
+    "std_time": 7.1,
+    "city": "Patos",
+    "admin": "Para\u00edba",
+    "country": "Brazil",
+    "regions": [
+      "Aargau"
+    ],
+    "countries": [
+      "Switzerland"
+    ],
+    "dists": [
+      2005.9089670428355
+    ],
+    "times": [
+      8.200000000000006
+    ]
+  },
+  "Itabuna, Bahia, Brazil": {
+    "lats": [
+      -10.104570322295405
+    ],
+    "lons": [
+      -37.79607843137255
+    ],
+    "true_lat": -14.7896,
+    "true_lon": -39.28,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Itabuna%2C+Brazil&go=Go&ns0=1",
+    "mean_dist": 545.2,
+    "mean_lat": -10.104,
+    "mean_lon": -37.796,
+    "mean_time": 8.2,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Itabuna",
+    "admin": "Bahia",
+    "country": "Brazil",
+    "regions": [
+      "Aargau"
+    ],
+    "countries": [
+      "Switzerland"
+    ],
+    "dists": [
+      545.2847874192181
+    ],
+    "times": [
+      8.266666666666673
     ]
   }
 }
