@@ -21,7 +21,6 @@ def convert(fileInput, fileOutput):
         if (len(data[row]['dists']) > longest): 
             longest = len(data[row]['dists'])
             longestCity = row
-    print(longest)
     header = ['citystring', 'mean_dist', 'std_dist', 'mean_time', 'std_time', 'num_guesses'] + ['dists%d' % i for i in range(longest)] + ['times%d' % i for i in range(longest)] + ['region%d' % i for i in range(longest)] + ['country%d' % i for i in range(longest)] + ['lat%d' % i for i in range(longest)] + ['lon%d' % i for i in range(longest)]
     outputFile.write('\t'.join(header) + '\n')
     for row in data.keys():
@@ -119,7 +118,7 @@ for path in pathlist:
         
         longest, longestCity = convert(outfile, outfile.replace('.json','.csv'))
         total_num_clicks = total_num_clicks + num_clicks
-
+        print(num_clicks)
         metadata[mapname] = {'num_cities': num_cities, 'num_clicks': num_clicks, 'num_clicks_per_city': num_clicks/num_cities, 'most_played_city': longestCity, 'most_played_city_num_clicks': longest}
         os.remove(file)
 
