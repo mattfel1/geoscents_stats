@@ -1114,9 +1114,9 @@
     ]
   },
   "The Hague, Netherlands": {
-    "mean_dist": 97.8,
+    "mean_dist": 96.8,
     "mean_time": 6.4,
-    "std_dist": 196.4,
+    "std_dist": 193.8,
     "std_time": 1.7,
     "admin": "Zuid-Holland",
     "country": "Netherlands",
@@ -1226,7 +1226,10 @@
       52.798,
       51.086,
       52.093,
-      51.988
+      51.988,
+      52.972,
+      52.658,
+      51.986
     ],
     "lons": [
       "x",
@@ -1333,10 +1336,13 @@
       5.469,
       5.469,
       4.261,
-      4.315
+      4.315,
+      4.549,
+      4.779,
+      4.491
     ],
-    "mean_lat": 52.269,
-    "mean_lon": 5.576,
+    "mean_lat": 52.286,
+    "mean_lon": 5.515,
     "true_lat": 52.08,
     "true_lon": 4.27,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=The Hague%2C+Netherlands&go=Go&ns0=1",
@@ -1445,7 +1451,10 @@
       "Madrid",
       "Berlin",
       "Berlin",
-      "South Moravian"
+      "South Moravian",
+      "England",
+      "Berlin",
+      "Trentino-Alto Adige"
     ],
     "countries": [
       "Unknown",
@@ -1552,7 +1561,10 @@
       "Spain",
       "Germany",
       "Germany",
-      "Czech Republic"
+      "Czech Republic",
+      "United Kingdom",
+      "Germany",
+      "Italy"
     ],
     "dists": [
       61.2,
@@ -1659,7 +1671,10 @@
       113.9,
       138,
       1.5,
-      10.6
+      10.6,
+      101,
+      72.9,
+      18.3
     ],
     "times": [
       7.5,
@@ -1766,7 +1781,10 @@
       7.6,
       4.8,
       5.6,
-      6.9
+      6.9,
+      6.1,
+      7.5,
+      5.9
     ]
   },
   "Horlivka, Ukraine": {
@@ -4171,9 +4189,9 @@
     ]
   },
   "Minsk, Belarus": {
-    "mean_dist": 199.2,
+    "mean_dist": 197.3,
     "mean_time": 6.3,
-    "std_dist": 352.5,
+    "std_dist": 351.2,
     "std_time": 2,
     "admin": "Minsk",
     "country": "Belarus",
@@ -4277,7 +4295,8 @@
       53.077,
       53.25,
       53.782,
-      41.271
+      41.271,
+      53.834
     ],
     "lons": [
       "x",
@@ -4378,10 +4397,11 @@
       28.418,
       26.347,
       27.356,
-      26.98
+      26.98,
+      27.325
     ],
-    "mean_lat": 53.207,
-    "mean_lon": 27.388,
+    "mean_lat": 53.231,
+    "mean_lon": 27.385,
     "true_lat": 53.9,
     "true_lon": 27.5666,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Minsk%2C+Belarus&go=Go&ns0=1",
@@ -4484,7 +4504,8 @@
       "Madrid",
       "South Moravian",
       "South Moravian",
-      "Madrid"
+      "Madrid",
+      "Aargau"
     ],
     "countries": [
       "Unknown",
@@ -4585,7 +4606,8 @@
       "Spain",
       "Czech Republic",
       "Czech Republic",
-      "Spain"
+      "Spain",
+      "Switzerland"
     ],
     "dists": [
       1947.1,
@@ -4686,7 +4708,8 @@
       107.4,
       108.1,
       18.9,
-      1404.8
+      1404.8,
+      17.3
     ],
     "times": [
       2.1,
@@ -4787,14 +4810,15 @@
       7.2,
       7.5,
       7.8,
-      6.6
+      6.6,
+      8.3
     ]
   },
   "Ljubljana, Slovenia": {
-    "mean_dist": 198.8,
-    "mean_time": 6.1,
-    "std_dist": 307.2,
-    "std_time": 1.5,
+    "mean_dist": 208.7,
+    "mean_time": 6,
+    "std_dist": 333,
+    "std_time": 1.6,
     "admin": "Ljubljana",
     "country": "Slovenia",
     "city": "Ljubljana",
@@ -4905,7 +4929,11 @@
       46.338,
       43.929,
       46.239,
-      44.657
+      44.657,
+      45.958,
+      44.869,
+      50.937,
+      46.439
     ],
     "lons": [
       "x",
@@ -5014,10 +5042,14 @@
       15.163,
       19.319,
       14.556,
-      19.733
+      19.733,
+      14.556,
+      14.71,
+      -7.027,
+      15.362
     ],
-    "mean_lat": 46.904,
-    "mean_lon": 17.186,
+    "mean_lat": 46.918,
+    "mean_lon": 16.461,
     "true_lat": 46.0553,
     "true_lon": 14.515,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ljubljana%2C+Slovenia&go=Go&ns0=1",
@@ -5128,7 +5160,11 @@
       "Buenos Aires F.D.",
       "Madrid",
       "Madrid",
-      "England"
+      "England",
+      "North Holland",
+      "North Holland",
+      "North Holland",
+      "Aargau"
     ],
     "countries": [
       "Unknown",
@@ -5237,7 +5273,11 @@
       "Argentina",
       "Spain",
       "Spain",
-      "United Kingdom"
+      "United Kingdom",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       287.6,
@@ -5346,7 +5386,11 @@
       58.9,
       445.5,
       20.7,
-      436.2
+      436.2,
+      11.2,
+      132.7,
+      1670.4,
+      77.8
     ],
     "times": [
       5.5,
@@ -5455,7 +5499,11 @@
       6.2,
       5.1,
       5.9,
-      3.2
+      3.2,
+      0.7,
+      4,
+      1.5,
+      7.8
     ]
   },
   "Bydgoszcz, Poland": {
@@ -6489,9 +6537,9 @@
     ]
   },
   "Oslo, Norway": {
-    "mean_dist": 136,
+    "mean_dist": 135.2,
     "mean_time": 6,
-    "std_dist": 157.5,
+    "std_dist": 157.1,
     "std_time": 1.8,
     "admin": "Oslo",
     "country": "Norway",
@@ -6611,7 +6659,8 @@
       59.832,
       59.89,
       59.601,
-      60.379
+      60.379,
+      59.744
     ],
     "lons": [
       "x",
@@ -6728,10 +6777,11 @@
       10.473,
       10.415,
       8.57,
-      22.551
+      22.551,
+      10.07
     ],
-    "mean_lat": 60.008,
-    "mean_lon": 10.617,
+    "mean_lat": 60.003,
+    "mean_lon": 10.606,
     "true_lat": 59.9167,
     "true_lon": 10.75,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Oslo%2C+Norway&go=Go&ns0=1",
@@ -6850,7 +6900,8 @@
       "Madrid",
       "Lower Saxony",
       "Bremen",
-      "Hamburg"
+      "Hamburg",
+      "England"
     ],
     "countries": [
       "Unknown",
@@ -6967,7 +7018,8 @@
       "Spain",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "United Kingdom"
     ],
     "dists": [
       271,
@@ -7084,7 +7136,8 @@
       18,
       18.8,
       126.9,
-      654.3
+      654.3,
+      42.5
     ],
     "times": [
       6.9,
@@ -7201,13 +7254,14 @@
       3.7,
       4.7,
       6.5,
-      3.5
+      3.5,
+      6
     ]
   },
   "Salerno, Italy": {
-    "mean_dist": 278.4,
+    "mean_dist": 278.3,
     "mean_time": 5.8,
-    "std_dist": 195.6,
+    "std_dist": 194.6,
     "std_time": 1.9,
     "admin": "Campania",
     "country": "Italy",
@@ -7315,7 +7369,8 @@
       41.01,
       43.241,
       38.248,
-      40.937
+      40.937,
+      38.927
     ],
     "lons": [
       "x",
@@ -7420,10 +7475,11 @@
       16.454,
       13.176,
       15.879,
-      15.323
+      15.323,
+      16.915
     ],
-    "mean_lat": 41.652,
-    "mean_lon": 13.784,
+    "mean_lat": 41.522,
+    "mean_lon": 13.933,
     "true_lat": 40.6804,
     "true_lon": 14.7699,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Salerno%2C+Italy&go=Go&ns0=1",
@@ -7530,7 +7586,8 @@
       "Madrid",
       "Madrid",
       "Trentino-Alto Adige",
-      "Madrid"
+      "Madrid",
+      "Berlin"
     ],
     "countries": [
       "Unknown",
@@ -7635,7 +7692,8 @@
       "Spain",
       "Spain",
       "Italy",
-      "Spain"
+      "Spain",
+      "Germany"
     ],
     "dists": [
       6.3,
@@ -7740,7 +7798,8 @@
       146.4,
       313.7,
       286.6,
-      54.6
+      54.6,
+      267.5
     ],
     "times": [
       7.4,
@@ -7845,7 +7904,8 @@
       6.2,
       5,
       6.5,
-      2.2
+      2.2,
+      7.3
     ]
   },
   "Geneva, Switzerland": {
@@ -8577,9 +8637,9 @@
     ]
   },
   "Athens, Greece": {
-    "mean_dist": 160.9,
+    "mean_dist": 160,
     "mean_time": 6.2,
-    "std_dist": 286.1,
+    "std_dist": 285.1,
     "std_time": 1.9,
     "admin": "Attik\u00ed",
     "country": "Greece",
@@ -8708,7 +8768,8 @@
       37.93,
       38.161,
       38.611,
-      39.106
+      39.106,
+      37.884
     ],
     "lons": [
       "x",
@@ -8834,10 +8895,11 @@
       23.414,
       23.065,
       22.379,
-      22.321
+      22.321,
+      23.184
     ],
-    "mean_lat": 38.737,
-    "mean_lon": 22.832,
+    "mean_lat": 38.715,
+    "mean_lon": 22.841,
     "true_lat": 37.9833,
     "true_lon": 23.7333,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Athens%2C+Greece&go=Go&ns0=1",
@@ -8965,7 +9027,8 @@
       "Zurich",
       "Obwalden",
       "Gornja Radgona",
-      "Leinster"
+      "Leinster",
+      "Berlin"
     ],
     "countries": [
       "Unknown",
@@ -9091,7 +9154,8 @@
       "Switzerland",
       "Switzerland",
       "Slovenia",
-      "Ireland"
+      "Ireland",
+      "Germany"
     ],
     "dists": [
       20.3,
@@ -9217,7 +9281,8 @@
       28.5,
       61.7,
       137.2,
-      175.1
+      175.1,
+      49.3
     ],
     "times": [
       6.1,
@@ -9343,7 +9408,8 @@
       1.2,
       4.9,
       6.9,
-      3.6
+      3.6,
+      7.4
     ]
   },
   "Bonn, Germany": {
@@ -10263,9 +10329,9 @@
     ]
   },
   "Pozna\u0144, Poland": {
-    "mean_dist": 171.2,
+    "mean_dist": 169.3,
     "mean_time": 6.4,
-    "std_dist": 140.5,
+    "std_dist": 138.7,
     "std_time": 1.6,
     "admin": "Wielkopolskie",
     "country": "Poland",
@@ -10359,7 +10425,11 @@
       52.517,
       54.276,
       52.622,
-      50.941
+      50.941,
+      51.34,
+      52.92,
+      51.448,
+      52.763
     ],
     "lons": [
       "x",
@@ -10450,10 +10520,14 @@
       17.49,
       19.33,
       19.56,
-      18.755
+      18.755,
+      20.366,
+      17.777,
+      16.799,
+      16.339
     ],
-    "mean_lat": 52.024,
-    "mean_lon": 18.345,
+    "mean_lat": 52.034,
+    "mean_lon": 18.291,
     "true_lat": 52.4058,
     "true_lon": 16.8999,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Pozna\u0144%2C+Poland&go=Go&ns0=1",
@@ -10546,7 +10620,11 @@
       "Hamburg",
       "Madrid",
       "Madrid",
-      "Aargau"
+      "Aargau",
+      "Berlin",
+      "Hesse",
+      "Aargau",
+      "Berlin"
     ],
     "countries": [
       "Unknown",
@@ -10637,7 +10715,11 @@
       "Germany",
       "Spain",
       "Spain",
-      "Switzerland"
+      "Switzerland",
+      "Germany",
+      "Germany",
+      "Switzerland",
+      "Germany"
     ],
     "dists": [
       46.1,
@@ -10728,7 +10810,11 @@
       41.8,
       263.2,
       181.6,
-      207.1
+      207.1,
+      265.7,
+      82.3,
+      106.6,
+      54.8
     ],
     "times": [
       7.4,
@@ -10819,7 +10905,11 @@
       7.9,
       4.4,
       6.7,
-      8.1
+      8.1,
+      7.1,
+      4.1,
+      8.2,
+      6.6
     ]
   },
   "Bilbao, Spain": {
@@ -11491,10 +11581,10 @@
     ]
   },
   "Malatya, Turkey": {
-    "mean_dist": 701.4,
-    "mean_time": 6.3,
-    "std_dist": 458.9,
-    "std_time": 2.1,
+    "mean_dist": 681.3,
+    "mean_time": 6.2,
+    "std_dist": 444.3,
+    "std_time": 2.2,
     "admin": "Malatya",
     "country": "Turkey",
     "city": "Malatya",
@@ -11589,7 +11679,17 @@
       39.241,
       40.44,
       39.465,
-      38.716
+      38.716,
+      39.196,
+      36.873,
+      39.241,
+      38.802,
+      39.062,
+      41.097,
+      41.202,
+      39.151,
+      40.447,
+      40.174
     ],
     "lons": [
       "x",
@@ -11682,10 +11782,20 @@
       33.268,
       33.594,
       39.116,
-      40.17
+      40.17,
+      36.01,
+      32.214,
+      27.67,
+      31.683,
+      35.435,
+      35.377,
+      33.272,
+      33.767,
+      30.584,
+      34.085
     ],
-    "mean_lat": 39.931,
-    "mean_lon": 32.437,
+    "mean_lat": 39.83,
+    "mean_lon": 32.58,
     "true_lat": 38.3704,
     "true_lon": 38.3,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Malatya%2C+Turkey&go=Go&ns0=1",
@@ -11780,7 +11890,17 @@
       "Madrid",
       "Madrid",
       "Aargau",
-      "Madrid"
+      "Madrid",
+      "North Holland",
+      "North Holland",
+      "Groningen",
+      "North Holland",
+      "North Holland",
+      "Utrecht",
+      "North Holland",
+      "North Holland",
+      "North Holland",
+      "North Holland"
     ],
     "countries": [
       "Unknown",
@@ -11873,7 +11993,17 @@
       "Spain",
       "Spain",
       "Switzerland",
-      "Spain"
+      "Spain",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       954,
@@ -11966,7 +12096,17 @@
       446.5,
       465.1,
       140.7,
-      167.1
+      167.1,
+      218.6,
+      561.1,
+      925.5,
+      576.9,
+      260.1,
+      392.9,
+      532.4,
+      402.4,
+      701.6,
+      414.4
     ],
     "times": [
       6,
@@ -12059,7 +12199,17 @@
       7.6,
       7,
       7.9,
-      3.3
+      3.3,
+      7.5,
+      6.2,
+      8,
+      7.3,
+      8,
+      2,
+      1.4,
+      5.2,
+      3.2,
+      3
     ]
   },
   "Rouen, France": {
@@ -12599,9 +12749,9 @@
     ]
   },
   "Karlsruhe, Germany": {
-    "mean_dist": 150.7,
+    "mean_dist": 154.4,
     "mean_time": 6.3,
-    "std_dist": 108.7,
+    "std_dist": 111.7,
     "std_time": 1.7,
     "admin": "Baden-W\u00fcrttemberg",
     "country": "Germany",
@@ -12668,7 +12818,8 @@
       49.535,
       50.02,
       52.376,
-      52.234
+      52.234,
+      52.446
     ],
     "lons": [
       "x",
@@ -12732,10 +12883,11 @@
       8.805,
       8,
       11.335,
-      11.105
+      11.105,
+      8.805
     ],
-    "mean_lat": 50.493,
-    "mean_lon": 9.299,
+    "mean_lat": 50.671,
+    "mean_lon": 9.254,
     "true_lat": 49,
     "true_lon": 8.4,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Karlsruhe%2C+Germany&go=Go&ns0=1",
@@ -12801,7 +12953,8 @@
       "Trentino-Alto Adige",
       "Gornja Radgona",
       "Madrid",
-      "California"
+      "California",
+      "England"
     ],
     "countries": [
       "Unknown",
@@ -12865,7 +13018,8 @@
       "Italy",
       "Slovenia",
       "Spain",
-      "United States"
+      "United States",
+      "United Kingdom"
     ],
     "dists": [
       126.3,
@@ -12929,7 +13083,8 @@
       66.3,
       117.1,
       428.5,
-      407.1
+      407.1,
+      384.3
     ],
     "times": [
       7.8,
@@ -12993,13 +13148,14 @@
       6.6,
       6.9,
       2.3,
+      6.5,
       6.5
     ]
   },
   "Douglas, Isle Of Man": {
-    "mean_dist": 448,
-    "mean_time": 5.7,
-    "std_dist": 751.1,
+    "mean_dist": 443.2,
+    "mean_time": 5.8,
+    "std_dist": 748.3,
     "std_time": 2.1,
     "city": "Douglas",
     "admin": "",
@@ -13093,7 +13249,8 @@
       54.253,
       54.14,
       37.297,
-      38.203
+      38.203,
+      54.208
     ],
     "lons": [
       "x",
@@ -13184,10 +13341,11 @@
       -4.672,
       -4.596,
       11.314,
-      20.366
+      20.366,
+      -4.711
     ],
-    "mean_lat": 52.632,
-    "mean_lon": -1.724,
+    "mean_lat": 52.679,
+    "mean_lon": -1.812,
     "true_lat": 54.1504,
     "true_lon": -4.48,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Douglas%2C+Isle Of Man&go=Go&ns0=1",
@@ -13280,7 +13438,8 @@
       "Pennsylvania",
       "Trentino-Alto Adige",
       "Madrid",
-      "Madrid"
+      "Madrid",
+      "Aargau"
     ],
     "countries": [
       "Unknown",
@@ -13371,7 +13530,8 @@
       "United States",
       "Italy",
       "Spain",
-      "Spain"
+      "Spain",
+      "Switzerland"
     ],
     "dists": [
       2.3,
@@ -13462,7 +13622,8 @@
       17,
       7.6,
       2228.1,
-      2583.2
+      2583.2,
+      16.3
     ],
     "times": [
       7.5,
@@ -13553,7 +13714,8 @@
       7,
       6.4,
       2.4,
-      3.9
+      3.9,
+      7.8
     ]
   },
   "Tallinn, Estonia": {
@@ -15519,9 +15681,9 @@
     ]
   },
   "Sarajevo, Bosnia And Herzegovina": {
-    "mean_dist": 254.3,
+    "mean_dist": 248.4,
     "mean_time": 5.5,
-    "std_dist": 376.6,
+    "std_dist": 369.4,
     "std_time": 2,
     "admin": "Bosnia and Herzegovina, Federation of",
     "country": "Bosnia And Herzegovina",
@@ -15655,7 +15817,13 @@
       43.869,
       42.818,
       44.657,
-      42.009
+      42.009,
+      44.657,
+      42.392,
+      43.367,
+      44.543,
+      44.078,
+      43.156
     ],
     "lons": [
       "x",
@@ -15786,10 +15954,16 @@
       18.352,
       19.1,
       18.525,
-      20.247
+      20.247,
+      19.675,
+      20.883,
+      17.95,
+      17.591,
+      17.49,
+      17.605
     ],
-    "mean_lat": 44.308,
-    "mean_lon": 19.452,
+    "mean_lat": 44.225,
+    "mean_lon": 19.327,
     "true_lat": 43.85,
     "true_lon": 18.383,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Sarajevo%2C+Bosnia And Herzegovina&go=Go&ns0=1",
@@ -15922,7 +16096,13 @@
       "Aargau",
       "Berlin",
       "Berlin",
-      "South Moravian"
+      "South Moravian",
+      "North Holland",
+      "North Holland",
+      "Groningen",
+      "North Holland",
+      "North Holland",
+      "North Holland"
     ],
     "countries": [
       "Unknown",
@@ -16053,7 +16233,13 @@
       "Switzerland",
       "Germany",
       "Germany",
-      "Czech Republic"
+      "Czech Republic",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       58,
@@ -16184,7 +16370,13 @@
       3.2,
       128.5,
       90.4,
-      254.7
+      254.7,
+      136.5,
+      259.7,
+      63.9,
+      99.5,
+      75.8,
+      99.3
     ],
     "times": [
       6.2,
@@ -16315,7 +16507,13 @@
       6.1,
       3.6,
       5.3,
-      7
+      7,
+      5.1,
+      3.3,
+      6.2,
+      1.3,
+      7.7,
+      3.2
     ]
   },
   "Lyon, France": {
@@ -17373,7 +17571,7 @@
     ]
   },
   "Stockholm, Sweden": {
-    "mean_dist": 196.7,
+    "mean_dist": 198.4,
     "mean_time": 6.1,
     "std_dist": 190.5,
     "std_time": 1.5,
@@ -17490,7 +17688,8 @@
       59.518,
       58.993,
       57.424,
-      59.451
+      59.451,
+      56.859
     ],
     "lons": [
       "x",
@@ -17602,10 +17801,11 @@
       18.611,
       16.339,
       15.419,
-      18.755
+      18.755,
+      13.694
     ],
-    "mean_lat": 58.779,
-    "mean_lon": 15.997,
+    "mean_lat": 58.73,
+    "mean_lon": 15.938,
     "true_lat": 59.3508,
     "true_lon": 18.0973,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Stockholm%2C+Sweden&go=Go&ns0=1",
@@ -17719,7 +17919,8 @@
       "Berlin",
       "Hesse",
       "Berlin",
-      "Aargau"
+      "Aargau",
+      "England"
     ],
     "countries": [
       "Unknown",
@@ -17831,7 +18032,8 @@
       "Germany",
       "Germany",
       "Germany",
-      "Switzerland"
+      "Switzerland",
+      "United Kingdom"
     ],
     "dists": [
       505.9,
@@ -17943,7 +18145,8 @@
       34.5,
       107.7,
       265,
-      38.9
+      38.9,
+      378.9
     ],
     "times": [
       7.5,
@@ -18055,13 +18258,14 @@
       6.8,
       5.1,
       7.4,
-      8.1
+      8.1,
+      6.6
     ]
   },
   "\u0130zmir, Turkey": {
-    "mean_dist": 444.6,
+    "mean_dist": 441.7,
     "mean_time": 6.4,
-    "std_dist": 478.2,
+    "std_dist": 475.7,
     "std_time": 1.9,
     "admin": "\u0130zmir",
     "country": "Turkey",
@@ -18141,7 +18345,8 @@
       36.362,
       38.746,
       52.868,
-      38.942
+      38.942,
+      37.012
     ],
     "lons": [
       "x",
@@ -18218,10 +18423,11 @@
       29.971,
       32.962,
       15.304,
-      38.33
+      38.33,
+      28.935
     ],
-    "mean_lat": 40.168,
-    "mean_lon": 28.835,
+    "mean_lat": 40.01,
+    "mean_lon": 28.84,
     "true_lat": 38.4361,
     "true_lon": 27.1518,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=\u0130zmir%2C+Turkey&go=Go&ns0=1",
@@ -18300,7 +18506,8 @@
       "Trentino-Alto Adige",
       "Florida",
       "\u00cele-de-France",
-      "Madrid"
+      "Madrid",
+      "Trentino-Alto Adige"
     ],
     "countries": [
       "Unknown",
@@ -18377,7 +18584,8 @@
       "Italy",
       "United States",
       "France",
-      "Spain"
+      "Spain",
+      "Italy"
     ],
     "dists": [
       80.3,
@@ -18454,7 +18662,8 @@
       339.3,
       506,
       1844.7,
-      971.2
+      971.2,
+      222.9
     ],
     "times": [
       7.5,
@@ -18531,7 +18740,8 @@
       5.4,
       4.6,
       7.1,
-      0.9
+      0.9,
+      5
     ]
   },
   "Vienna, Austria": {
@@ -20203,9 +20413,9 @@
     ]
   },
   "Mahilyow, Belarus": {
-    "mean_dist": 345.1,
+    "mean_dist": 344.8,
     "mean_time": 6.5,
-    "std_dist": 523.2,
+    "std_dist": 520.7,
     "std_time": 1.8,
     "admin": "Mahilyowskaya Voblasts\u2019",
     "country": "Belarus",
@@ -20312,7 +20522,8 @@
       53.266,
       53.629,
       47.426,
-      45.433
+      45.433,
+      53.181
     ],
     "lons": [
       "x",
@@ -20416,10 +20627,11 @@
       26.206,
       26.98,
       28.418,
-      4.664
+      4.664,
+      25.83
     ],
-    "mean_lat": 52.843,
-    "mean_lon": 27.313,
+    "mean_lat": 52.852,
+    "mean_lon": 27.272,
     "true_lat": 53.8985,
     "true_lon": 30.3247,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Mahilyow%2C+Belarus&go=Go&ns0=1",
@@ -20525,7 +20737,8 @@
       "South Moravian",
       "Madrid",
       "England",
-      "Madrid"
+      "Madrid",
+      "Trentino-Alto Adige"
     ],
     "countries": [
       "Unknown",
@@ -20629,7 +20842,8 @@
       "Czech Republic",
       "Spain",
       "United Kingdom",
-      "Spain"
+      "Spain",
+      "Italy"
     ],
     "dists": [
       902.4,
@@ -20733,7 +20947,8 @@
       280.7,
       221.8,
       731.9,
-      2057
+      2057,
+      307.4
     ],
     "times": [
       6.2,
@@ -20837,7 +21052,8 @@
       7.8,
       6.3,
       5.5,
-      9.5
+      9.5,
+      7.5
     ]
   },
   "Verona, Italy": {
@@ -23111,9 +23327,9 @@
     ]
   },
   "Piraeus, Greece": {
-    "mean_dist": 227.3,
+    "mean_dist": 237.1,
     "mean_time": 6,
-    "std_dist": 297.5,
+    "std_dist": 314.4,
     "std_time": 2.1,
     "admin": "Attik\u00ed",
     "country": "Greece",
@@ -23234,7 +23450,8 @@
       38.566,
       38.342,
       47.49,
-      37.613
+      37.613,
+      48.23
     ],
     "lons": [
       "x",
@@ -23352,10 +23569,11 @@
       21.861,
       23.698,
       33.443,
-      22.777
+      22.777,
+      14.267
     ],
-    "mean_lat": 39.129,
-    "mean_lon": 22.906,
+    "mean_lat": 39.357,
+    "mean_lon": 22.69,
     "true_lat": 37.95,
     "true_lon": 23.7,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Piraeus%2C+Greece&go=Go&ns0=1",
@@ -23475,7 +23693,8 @@
       "California",
       "Federation of B&H",
       "Madrid",
-      "South Moravian"
+      "South Moravian",
+      "North Holland"
     ],
     "countries": [
       "United States",
@@ -23593,7 +23812,8 @@
       "United States",
       "Bosnia and Herzegovina",
       "Spain",
-      "Czech Republic"
+      "Czech Republic",
+      "Netherlands"
     ],
     "dists": [
       57.3,
@@ -23711,7 +23931,8 @@
       174.5,
       43.6,
       1324,
-      89.2
+      89.2,
+      1373.7
     ],
     "times": [
       7.6,
@@ -23829,7 +24050,8 @@
       5.8,
       6.3,
       7.7,
-      6.5
+      6.5,
+      9.8
     ]
   },
   "Krak\u00f3w, Poland": {
@@ -25157,9 +25379,9 @@
     ]
   },
   "Brno, Czechia": {
-    "mean_dist": 253.9,
+    "mean_dist": 248.8,
     "mean_time": 5.6,
-    "std_dist": 461.8,
+    "std_dist": 455.5,
     "std_time": 2.1,
     "admin": "Jihomoravsk\u00fd Kraj",
     "country": "Czechia",
@@ -25286,7 +25508,11 @@
       45.865,
       48.549,
       49.347,
-      42.917
+      42.917,
+      49.234,
+      49.554,
+      49.497,
+      47.348
     ],
     "lons": [
       "x",
@@ -25410,10 +25636,14 @@
       28.187,
       19.905,
       17.662,
-      21.823
+      21.823,
+      16.167,
+      16.512,
+      17.605,
+      15.304
     ],
-    "mean_lat": 48.5,
-    "mean_lon": 16.708,
+    "mean_lat": 48.543,
+    "mean_lon": 16.675,
     "true_lat": 49.2004,
     "true_lon": 16.61,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Brno%2C+Czechia&go=Go&ns0=1",
@@ -25539,7 +25769,11 @@
       "England",
       "England",
       "England",
-      "Madrid"
+      "Madrid",
+      "Berlin",
+      "Hesse",
+      "Aargau",
+      "Berlin"
     ],
     "countries": [
       "United States",
@@ -25663,7 +25897,11 @@
       "United Kingdom",
       "United Kingdom",
       "United Kingdom",
-      "Spain"
+      "Spain",
+      "Germany",
+      "Germany",
+      "Switzerland",
+      "Germany"
     ],
     "dists": [
       328.1,
@@ -25787,7 +26025,11 @@
       943.7,
       251.6,
       78.1,
-      805.7
+      805.7,
+      32.3,
+      39.9,
+      79.3,
+      227.4
     ],
     "times": [
       4.6,
@@ -25911,7 +26153,11 @@
       3.7,
       5.7,
       6.1,
-      2.5
+      2.5,
+      5.7,
+      6.4,
+      8.2,
+      4.2
     ]
   },
   "Trabzon, Turkey": {
@@ -32874,9 +33120,9 @@
     ]
   },
   "Florence, Italy": {
-    "mean_dist": 199.5,
-    "mean_time": 6.4,
-    "std_dist": 450.1,
+    "mean_dist": 197.3,
+    "mean_time": 6.5,
+    "std_dist": 447.6,
     "std_time": 1.6,
     "admin": "Tuscany",
     "country": "Italy",
@@ -32958,7 +33204,8 @@
       43.409,
       41.488,
       45.352,
-      40.66
+      40.66,
+      44.078
     ],
     "lons": [
       "x",
@@ -33037,10 +33284,11 @@
       13.061,
       14.096,
       11.508,
-      15.247
+      15.247,
+      11.22
     ],
-    "mean_lat": 43.999,
-    "mean_lon": 10.279,
+    "mean_lat": 44.002,
+    "mean_lon": 10.312,
     "true_lat": 43.78,
     "true_lon": 11.25,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Florence%2C+Italy&go=Go&ns0=1",
@@ -33121,7 +33369,8 @@
       "Berlin",
       "South Moravian",
       "South Moravian",
-      "Madrid"
+      "Madrid",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -33200,7 +33449,8 @@
       "Germany",
       "Czech Republic",
       "Czech Republic",
-      "Spain"
+      "Spain",
+      "Switzerland"
     ],
     "dists": [
       95.2,
@@ -33279,7 +33529,8 @@
       151.5,
       345.1,
       176,
-      478
+      478,
+      33.2
     ],
     "times": [
       7.1,
@@ -33358,7 +33609,8 @@
       7.2,
       4.6,
       6.9,
-      6.8
+      6.8,
+      8.2
     ]
   },
   "Haarlem, Netherlands": {
@@ -38072,9 +38324,9 @@
     ]
   },
   "Nantes, France": {
-    "mean_dist": 357.2,
+    "mean_dist": 356.3,
     "mean_time": 5.9,
-    "std_dist": 392.2,
+    "std_dist": 390,
     "std_time": 2.1,
     "admin": "Pays de la Loire",
     "country": "France",
@@ -38163,7 +38415,8 @@
       47.348,
       47.073,
       49.497,
-      43.255
+      43.255,
+      44.862
     ],
     "lons": [
       "x",
@@ -38249,10 +38502,11 @@
       -2.122,
       -1.662,
       0.235,
-      1.347
+      1.347,
+      -0.397
     ],
-    "mean_lat": 46.622,
-    "mean_lon": 2.82,
+    "mean_lat": 46.564,
+    "mean_lon": 2.713,
     "true_lat": 47.2104,
     "true_lon": -1.59,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Nantes%2C+France&go=Go&ns0=1",
@@ -38340,7 +38594,8 @@
       "Madrid",
       "Madrid",
       "Aargau",
-      "Madrid"
+      "Madrid",
+      "Trentino-Alto Adige"
     ],
     "countries": [
       "United States",
@@ -38426,7 +38681,8 @@
       "Spain",
       "Spain",
       "Switzerland",
-      "Spain"
+      "Spain",
+      "Italy"
     ],
     "dists": [
       601.5,
@@ -38512,7 +38768,8 @@
       43,
       16.1,
       287.8,
-      496.2
+      496.2,
+      276.8
     ],
     "times": [
       7.8,
@@ -38598,7 +38855,8 @@
       6.1,
       5.2,
       7.2,
-      3.7
+      3.7,
+      4.6
     ]
   },
   "Samsun, Turkey": {
@@ -39482,9 +39740,9 @@
     ]
   },
   "Wroc\u0142aw, Poland": {
-    "mean_dist": 183.5,
+    "mean_dist": 183.4,
     "mean_time": 6.2,
-    "std_dist": 174,
+    "std_dist": 173.1,
     "std_time": 1.8,
     "admin": "Dolno\u015bl\u0105skie",
     "country": "Poland",
@@ -39588,7 +39846,8 @@
       51.52,
       50.907,
       52.482,
-      51.357
+      51.357,
+      51.986
     ],
     "lons": [
       "x",
@@ -39689,10 +39948,14 @@
       21.171,
       19.556,
       16.627,
-      16.888
+      16.888,
+      15.074
     ],
-    "mean_lat": 51.777,
-    "mean_lon": 18.146,
+    "mean_lat": 51.782,
+    "mean_lon": 18.065,
+    "true_lat": 51.1104,
+    "true_lon": 17.03,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Wroc\u0142aw%2C+Poland&go=Go&ns0=1",
     "regions": [
       "New South Wales",
       "Mazovia",
@@ -39792,7 +40055,8 @@
       "Zurich",
       "Obwalden",
       "Queensland",
-      "Buenos Aires F.D."
+      "Buenos Aires F.D.",
+      "Trentino-Alto Adige"
     ],
     "countries": [
       "Australia",
@@ -39893,7 +40157,8 @@
       "Switzerland",
       "Switzerland",
       "Australia",
-      "Argentina"
+      "Argentina",
+      "Italy"
     ],
     "dists": [
       244.8,
@@ -39994,7 +40259,8 @@
       291.3,
       178.2,
       155,
-      29.2
+      29.2,
+      166.6
     ],
     "times": [
       7.9,
@@ -40095,13 +40361,14 @@
       5.1,
       7.6,
       5.2,
-      7.9
+      7.9,
+      4.9
     ]
   },
   "Kharkiv, Ukraine": {
-    "mean_dist": 404.4,
-    "mean_time": 6.5,
-    "std_dist": 341.1,
+    "mean_dist": 440.8,
+    "mean_time": 6.6,
+    "std_dist": 451,
     "std_time": 1.5,
     "admin": "Kharkivs\u2019ka Oblast\u2019",
     "country": "Ukraine",
@@ -40173,7 +40440,8 @@
       50.132,
       50.132,
       48.854,
-      50.02
+      50.02,
+      60.964
     ],
     "lons": [
       "x",
@@ -40242,10 +40510,11 @@
       35.147,
       36.355,
       24.047,
-      35.665
+      35.665,
+      -6.304
     ],
-    "mean_lat": 49.409,
-    "mean_lon": 31.517,
+    "mean_lat": 49.698,
+    "mean_lon": 30.571,
     "true_lat": 50,
     "true_lon": 36.25,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kharkiv%2C+Ukraine&go=Go&ns0=1",
@@ -40316,7 +40585,8 @@
       "Aargau",
       "Aargau",
       "Trentino-Alto Adige",
-      "Aargau"
+      "Aargau",
+      "North Holland"
     ],
     "countries": [
       "Australia",
@@ -40385,7 +40655,8 @@
       "Switzerland",
       "Switzerland",
       "Italy",
-      "Switzerland"
+      "Switzerland",
+      "Netherlands"
     ],
     "dists": [
       451.8,
@@ -40454,7 +40725,8 @@
       80,
       16.5,
       890.6,
-      41.8
+      41.8,
+      2879.5
     ],
     "times": [
       5,
@@ -40523,7 +40795,8 @@
       4.5,
       7.7,
       5.9,
-      8.2
+      8.2,
+      9.5
     ]
   },
   "Nottingham, United Kingdom": {
@@ -42057,9 +42330,9 @@
     ]
   },
   "Denizli, Turkey": {
-    "mean_dist": 387.9,
+    "mean_dist": 391,
     "mean_time": 6.7,
-    "std_dist": 281.4,
+    "std_dist": 281.3,
     "std_time": 1.6,
     "admin": "Denizli",
     "country": "Turkey",
@@ -42152,7 +42425,8 @@
       39.33,
       41.043,
       40.396,
-      40.499
+      40.499,
+      39.017
     ],
     "lons": [
       "x",
@@ -42242,10 +42516,11 @@
       39.979,
       28.087,
       33.019,
-      34.323
+      34.323,
+      36.528
     ],
-    "mean_lat": 39.682,
-    "mean_lon": 31.981,
+    "mean_lat": 39.662,
+    "mean_lon": 32.119,
     "true_lat": 37.7704,
     "true_lon": 29.08,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Denizli%2C+Turkey&go=Go&ns0=1",
@@ -42337,7 +42612,8 @@
       "Aargau",
       "Uusimaa",
       "Madrid",
-      "Madrid"
+      "Madrid",
+      "England"
     ],
     "countries": [
       "Australia",
@@ -42427,7 +42703,8 @@
       "Switzerland",
       "Finland",
       "Spain",
-      "Spain"
+      "Spain",
+      "United Kingdom"
     ],
     "dists": [
       200.7,
@@ -42517,7 +42794,8 @@
       962.9,
       373.7,
       448.1,
-      544.4
+      544.4,
+      663.5
     ],
     "times": [
       7.3,
@@ -42607,7 +42885,8 @@
       8.4,
       6.9,
       8,
-      5.2
+      5.2,
+      7.7
     ]
   },
   "Wuppertal, Germany": {
@@ -43811,9 +44090,9 @@
     ]
   },
   "Budapest, Hungary": {
-    "mean_dist": 150.3,
-    "mean_time": 5.8,
-    "std_dist": 181.5,
+    "mean_dist": 150.8,
+    "mean_time": 5.7,
+    "std_dist": 180.7,
     "std_time": 2,
     "admin": "Budapest",
     "country": "Hungary",
@@ -43923,7 +44202,8 @@
       47.062,
       47.316,
       47.39,
-      49.76
+      49.76,
+      47.348
     ],
     "lons": [
       "x",
@@ -44030,10 +44310,11 @@
       18.902,
       19.412,
       19.499,
-      9.495
+      9.495,
+      16.339
     ],
-    "mean_lat": 47.259,
-    "mean_lon": 18.554,
+    "mean_lat": 47.261,
+    "mean_lon": 18.508,
     "true_lat": 47.5,
     "true_lon": 19.0833,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Budapest%2C+Hungary&go=Go&ns0=1",
@@ -44142,7 +44423,8 @@
       "Plovdiv",
       "Oregon",
       "South Moravian",
-      "Madrid"
+      "Madrid",
+      "England"
     ],
     "countries": [
       "France",
@@ -44249,7 +44531,8 @@
       "Bulgaria",
       "United States",
       "Czech Republic",
-      "Spain"
+      "Spain",
+      "United Kingdom"
     ],
     "dists": [
       44,
@@ -44356,7 +44639,8 @@
       50.5,
       32.1,
       33.5,
-      747.4
+      747.4,
+      207
     ],
     "times": [
       7.4,
@@ -44463,7 +44747,8 @@
       7.8,
       7.3,
       8.2,
-      9.7
+      9.7,
+      4.8
     ]
   },
   "Riga, Latvia": {
@@ -53741,9 +54026,9 @@
     ]
   },
   "Hamburg, Germany": {
-    "mean_dist": 133,
-    "mean_time": 6.2,
-    "std_dist": 176,
+    "mean_dist": 125.4,
+    "mean_time": 6.3,
+    "std_dist": 165.1,
     "std_time": 1.6,
     "admin": "Hamburg",
     "country": "Germany",
@@ -53806,7 +54091,17 @@
       51.592,
       53.61,
       53.629,
-      53.492
+      53.492,
+      52.552,
+      51.771,
+      52.972,
+      53.945,
+      53.663,
+      53.423,
+      53.423,
+      52.288,
+      53.56,
+      52.798
     ],
     "lons": [
       "x",
@@ -53866,10 +54161,20 @@
       10.07,
       9.7,
       9.783,
-      9.667
+      9.667,
+      8.977,
+      8.977,
+      10.013,
+      9.712,
+      9.322,
+      9.495,
+      10.473,
+      10.53,
+      9.84,
+      10.415
     ],
-    "mean_lat": 52.694,
-    "mean_lon": 9.648,
+    "mean_lat": 52.817,
+    "mean_lon": 9.693,
     "true_lat": 53.55,
     "true_lon": 10,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Hamburg%2C+Germany&go=Go&ns0=1",
@@ -53931,7 +54236,17 @@
       "Brussels Capital",
       "Baden-W\u00fcrttemberg",
       "Aargau",
-      "Trentino-Alto Adige"
+      "Trentino-Alto Adige",
+      "North Holland",
+      "North Holland",
+      "Groningen",
+      "North Holland",
+      "North Holland",
+      "Aargau",
+      "Berlin",
+      "Hesse",
+      "Aargau",
+      "Berlin"
     ],
     "countries": [
       "France",
@@ -53991,7 +54306,17 @@
       "Belgium",
       "Germany",
       "Switzerland",
-      "Italy"
+      "Italy",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Switzerland",
+      "Germany",
+      "Germany",
+      "Switzerland",
+      "Germany"
     ],
     "dists": [
       36.5,
@@ -54051,7 +54376,17 @@
       217.6,
       20.8,
       16.8,
-      22.8
+      22.8,
+      130.2,
+      209.3,
+      64.2,
+      47.8,
+      46.4,
+      36.2,
+      34.3,
+      144.7,
+      10.6,
+      88
     ],
     "times": [
       7.8,
@@ -54111,7 +54446,17 @@
       7.6,
       6.8,
       8.3,
-      5.7
+      5.7,
+      7.4,
+      5.8,
+      8.2,
+      7.6,
+      7.3,
+      8.1,
+      3.6,
+      6.6,
+      8,
+      7.3
     ]
   },
   "Kayseri, Turkey": {
@@ -55073,10 +55418,10 @@
     ]
   },
   "Ankara, Turkey": {
-    "mean_dist": 338.2,
-    "mean_time": 6.1,
-    "std_dist": 398.4,
-    "std_time": 2,
+    "mean_dist": 330.2,
+    "mean_time": 6.2,
+    "std_dist": 396.2,
+    "std_time": 1.9,
     "admin": "Ankara",
     "country": "Turkey",
     "city": "Ankara",
@@ -55155,7 +55500,9 @@
       39.42,
       40.308,
       39.688,
-      39.821
+      39.821,
+      39.821,
+      39.998
     ],
     "lons": [
       "x",
@@ -55232,10 +55579,12 @@
       36.873,
       33.537,
       33.134,
-      33.652
+      33.652,
+      32.904,
+      33.422
     ],
-    "mean_lat": 39.528,
-    "mean_lon": 33.134,
+    "mean_lat": 39.546,
+    "mean_lon": 33.136,
     "true_lat": 39.9272,
     "true_lon": 32.8644,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ankara%2C+Turkey&go=Go&ns0=1",
@@ -55314,6 +55663,8 @@
       "Madrid",
       "Aargau",
       "Aargau",
+      "Aargau",
+      "Trentino-Alto Adige",
       "Aargau"
     ],
     "countries": [
@@ -55391,6 +55742,8 @@
       "Spain",
       "Switzerland",
       "Switzerland",
+      "Switzerland",
+      "Italy",
       "Switzerland"
     ],
     "dists": [
@@ -55468,7 +55821,9 @@
       347.6,
       71.2,
       35.2,
-      68.2
+      68.2,
+      12.2,
+      48.2
     ],
     "times": [
       0.5,
@@ -55545,7 +55900,9 @@
       4.8,
       8.1,
       7.8,
-      8.3
+      8.3,
+      6.7,
+      8
     ]
   },
   "Vilnius, Lithuania": {
@@ -56639,9 +56996,9 @@
     ]
   },
   "Bern, Switzerland": {
-    "mean_dist": 99.2,
+    "mean_dist": 98.4,
     "mean_time": 6.6,
-    "std_dist": 169.7,
+    "std_dist": 169.2,
     "std_time": 1.6,
     "admin": "Bern",
     "country": "Switzerland",
@@ -56753,7 +57110,8 @@
       46.77,
       49.834,
       46.757,
-      46.059
+      46.059,
+      46.836
     ],
     "lons": [
       "x",
@@ -56862,10 +57220,11 @@
       7.06,
       14.844,
       7.597,
-      7.367
+      7.367,
+      7.482
     ],
-    "mean_lat": 47.08,
-    "mean_lon": 8.376,
+    "mean_lat": 47.074,
+    "mean_lon": 8.353,
     "true_lat": 46.9167,
     "true_lon": 7.467,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bern%2C+Switzerland&go=Go&ns0=1",
@@ -56976,7 +57335,8 @@
       "England",
       "England",
       "England",
-      "Luxembourg"
+      "Luxembourg",
+      "England"
     ],
     "countries": [
       "Australia",
@@ -57085,7 +57445,8 @@
       "United Kingdom",
       "United Kingdom",
       "United Kingdom",
-      "Luxembourg"
+      "Luxembourg",
+      "United Kingdom"
     ],
     "dists": [
       12.2,
@@ -57194,7 +57555,8 @@
       34.9,
       633.7,
       20.3,
-      95.6
+      95.6,
+      8.9
     ],
     "times": [
       7.4,
@@ -57303,6 +57665,7 @@
       5.1,
       8.2,
       5.6,
+      6.3,
       6.3
     ]
   },
@@ -57735,9 +58098,9 @@
     ]
   },
   "Sunderland, United Kingdom": {
-    "mean_dist": 255.3,
-    "mean_time": 6.5,
-    "std_dist": 197.3,
+    "mean_dist": 254.7,
+    "mean_time": 6.6,
+    "std_dist": 196,
     "std_time": 1.5,
     "admin": "Sunderland",
     "country": "United Kingdom",
@@ -57821,7 +58184,11 @@
       53.215,
       53.698,
       51.014,
-      54.478
+      54.478,
+      53.526,
+      51.141,
+      54.912,
+      51.556
     ],
     "lons": [
       "x",
@@ -57902,10 +58269,14 @@
       -0.569,
       -2.18,
       0.695,
-      -0.627
+      -0.627,
+      -2.007,
+      -2.295,
+      -1.547,
+      -2.065
     ],
-    "mean_lat": 52.853,
-    "mean_lon": -1.405,
+    "mean_lat": 52.846,
+    "mean_lon": -1.464,
     "true_lat": 54.92,
     "true_lon": -1.38,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Sunderland%2C+United Kingdom&go=Go&ns0=1",
@@ -57988,7 +58359,11 @@
       "Madrid",
       "Madrid",
       "Trentino-Alto Adige",
-      "Aargau"
+      "Aargau",
+      "Berlin",
+      "Hesse",
+      "Aargau",
+      "Berlin"
     ],
     "countries": [
       "Poland",
@@ -58069,7 +58444,11 @@
       "Spain",
       "Spain",
       "Italy",
-      "Switzerland"
+      "Switzerland",
+      "Germany",
+      "Germany",
+      "Switzerland",
+      "Germany"
     ],
     "dists": [
       171.2,
@@ -58150,7 +58529,11 @@
       196.7,
       145.4,
       455.9,
-      68.9
+      68.9,
+      160.2,
+      424.6,
+      10.7,
+      376.7
     ],
     "times": [
       4.7,
@@ -58231,7 +58614,11 @@
       5.2,
       4.1,
       4.8,
-      8
+      8,
+      7.1,
+      7.4,
+      7.8,
+      6.8
     ]
   },
   "Lisbon, Portugal": {
@@ -64059,9 +64446,9 @@
     ]
   },
   "Palma, Spain": {
-    "mean_dist": 199.1,
+    "mean_dist": 193.7,
     "mean_time": 6.5,
-    "std_dist": 268.1,
+    "std_dist": 263.7,
     "std_time": 1.7,
     "admin": "Balearic Islands",
     "country": "Spain",
@@ -64143,7 +64530,11 @@
       39.42,
       45.627,
       39.598,
-      37.884
+      37.884,
+      39.554,
+      39.263,
+      39.375,
+      39.732
     ],
     "lons": [
       "x",
@@ -64222,10 +64613,14 @@
       2.823,
       -1.512,
       2.766,
-      -2.007
+      -2.007,
+      2.823,
+      -0.684,
+      2.65,
+      2.305
     ],
-    "mean_lat": 39.864,
-    "mean_lon": 0.668,
+    "mean_lat": 39.828,
+    "mean_lon": 0.773,
     "true_lat": 39.5743,
     "true_lon": 2.6542,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Palma%2C+Spain&go=Go&ns0=1",
@@ -64306,7 +64701,11 @@
       "Trentino-Alto Adige",
       "Madrid",
       "Madrid",
-      "Wisconsin"
+      "Wisconsin",
+      "Berlin",
+      "Hesse",
+      "Aargau",
+      "Berlin"
     ],
     "countries": [
       "Poland",
@@ -64385,7 +64784,11 @@
       "Italy",
       "Spain",
       "Spain",
-      "United States"
+      "United States",
+      "Germany",
+      "Germany",
+      "Switzerland",
+      "Germany"
     ],
     "dists": [
       534.9,
@@ -64464,7 +64867,11 @@
       22.4,
       754.2,
       9.9,
-      445.8
+      445.8,
+      14.6,
+      288.8,
+      22,
+      34.6
     ],
     "times": [
       8.3,
@@ -64543,7 +64950,11 @@
       6.3,
       5.8,
       3.2,
-      5.6
+      5.6,
+      6.2,
+      2.9,
+      8.1,
+      5.5
     ]
   },
   "Marseille, France": {
@@ -66329,9 +66740,9 @@
     ]
   },
   "Belfast, United Kingdom": {
-    "mean_dist": 116.1,
+    "mean_dist": 114.7,
     "mean_time": 6.6,
-    "std_dist": 294.6,
+    "std_dist": 292.4,
     "std_time": 1.5,
     "admin": "Belfast",
     "country": "United Kingdom",
@@ -66397,7 +66808,8 @@
       53.181,
       54.545,
       54.912,
-      51.931
+      51.931,
+      54.377
     ],
     "lons": [
       "x",
@@ -66460,10 +66872,11 @@
       -3.158,
       -5.688,
       -6.436,
-      -0.92
+      -0.92,
+      -5.803
     ],
     "mean_lat": 54.355,
-    "mean_lon": -5.306,
+    "mean_lon": -5.327,
     "true_lat": 54.6,
     "true_lon": -5.96,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Belfast%2C+United Kingdom&go=Go&ns0=1",
@@ -66528,7 +66941,8 @@
       "Uusimaa",
       "Aargau",
       "Hesse",
-      "Saarland"
+      "Saarland",
+      "Aargau"
     ],
     "countries": [
       "Poland",
@@ -66591,7 +67005,8 @@
       "Finland",
       "Switzerland",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       15.7,
@@ -66654,7 +67069,8 @@
       242,
       18.4,
       46.3,
-      447.4
+      447.4,
+      26.7
     ],
     "times": [
       8.1,
@@ -66717,7 +67133,8 @@
       3.7,
       8.2,
       6.4,
-      5.4
+      5.4,
+      7.9
     ]
   },
   "Genoa, Italy": {
@@ -68709,10 +69126,10 @@
     ]
   },
   "Liverpool, United Kingdom": {
-    "mean_dist": 101.8,
-    "mean_time": 6.7,
-    "std_dist": 130.7,
-    "std_time": 1.7,
+    "mean_dist": 120.9,
+    "mean_time": 6.6,
+    "std_dist": 152.9,
+    "std_time": 1.8,
     "city": "Liverpool",
     "admin": "Liverpool",
     "country": "United Kingdom",
@@ -68767,7 +69184,13 @@
       53.007,
       51.631,
       51.304,
-      53.868
+      53.868,
+      55.572,
+      53.78,
+      54.846,
+      52.838,
+      50.922,
+      60.063
     ],
     "lons": [
       "x",
@@ -68820,10 +69243,16 @@
       -2.64,
       -2.299,
       -2.41,
-      -2.755
+      -2.755,
+      -2.237,
+      -2.985,
+      -2.41,
+      0.446,
+      -2.264,
+      -3.1
     ],
-    "mean_lat": 53.164,
-    "mean_lon": -2.783,
+    "mean_lat": 53.594,
+    "mean_lon": -2.585,
     "true_lat": 53.416,
     "true_lon": -2.918,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Liverpool%2C+United Kingdom&go=Go&ns0=1",
@@ -68878,7 +69307,13 @@
       "Lower Saxony",
       "Bremen",
       "Hamburg",
-      "Kronoberg"
+      "Kronoberg",
+      "Utrecht",
+      "North Holland",
+      "North Holland",
+      "North Holland",
+      "North Holland",
+      "North Holland"
     ],
     "countries": [
       "Poland",
@@ -68931,7 +69366,13 @@
       "Germany",
       "Germany",
       "Germany",
-      "Sweden"
+      "Sweden",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       102.3,
@@ -68984,7 +69425,13 @@
       49,
       202.7,
       237.3,
-      51.4
+      51.4,
+      243.7,
+      40.7,
+      162.4,
+      233.4,
+      280.8,
+      739.2
     ],
     "times": [
       8.7,
@@ -69037,13 +69484,19 @@
       7.8,
       7.7,
       5.3,
-      6.3
+      6.3,
+      0.6,
+      6.8,
+      6,
+      7.3,
+      7,
+      5.4
     ]
   },
   "Braga, Portugal": {
-    "mean_dist": 174.6,
+    "mean_dist": 177.8,
     "mean_time": 6.7,
-    "std_dist": 135.9,
+    "std_dist": 136.6,
     "std_time": 1.5,
     "admin": "Braga",
     "country": "Portugal",
@@ -69135,7 +69588,11 @@
       38.659,
       39.754,
       41.337,
-      40.44
+      40.44,
+      39.509,
+      37.861,
+      41.141,
+      38.837
     ],
     "lons": [
       "x",
@@ -69224,10 +69681,14 @@
       -8.453,
       -7.989,
       -8.047,
-      -8.334
+      -8.334,
+      -8.622,
+      -8.219,
+      -8.507,
+      -8.852
     ],
-    "mean_lat": 40.271,
-    "mean_lon": -8.319,
+    "mean_lat": 40.133,
+    "mean_lon": -8.353,
     "true_lat": 41.555,
     "true_lon": -8.4213,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Braga%2C+Portugal&go=Go&ns0=1",
@@ -69318,7 +69779,11 @@
       "Obwalden",
       "North Rhine-Westphalia",
       "North Rhine-Westphalia",
-      "England"
+      "England",
+      "Berlin",
+      "Hesse",
+      "Aargau",
+      "Berlin"
     ],
     "countries": [
       "Poland",
@@ -69407,7 +69872,11 @@
       "Switzerland",
       "Germany",
       "Germany",
-      "United Kingdom"
+      "United Kingdom",
+      "Germany",
+      "Germany",
+      "Switzerland",
+      "Germany"
     ],
     "dists": [
       379.9,
@@ -69496,7 +69965,11 @@
       321.9,
       203.4,
       39.4,
-      124.1
+      124.1,
+      228,
+      411,
+      46.5,
+      304.4
     ],
     "times": [
       8.5,
@@ -69585,7 +70058,11 @@
       4.4,
       2.5,
       7,
-      5.8
+      5.8,
+      5.8,
+      5.6,
+      7.3,
+      7.5
     ]
   },
   "Stuttgart, Germany": {
@@ -74329,9 +74806,9 @@
     ]
   },
   "Bremen, Germany": {
-    "mean_dist": 185.4,
-    "mean_time": 5.9,
-    "std_dist": 187.3,
+    "mean_dist": 183.8,
+    "mean_time": 6,
+    "std_dist": 187.1,
     "std_time": 1.8,
     "admin": "Bremen",
     "country": "Germany",
@@ -74438,7 +74915,8 @@
       52.26,
       49.542,
       50.02,
-      53.111
+      53.111,
+      52.868
     ],
     "lons": [
       "x",
@@ -74542,10 +75020,11 @@
       10.677,
       9.059,
       7.712,
-      8.402
+      8.402,
+      8.977
     ],
-    "mean_lat": 51.87,
-    "mean_lon": 10.484,
+    "mean_lat": 51.901,
+    "mean_lon": 10.437,
     "true_lat": 53.08,
     "true_lon": 8.8,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bremen%2C+Germany&go=Go&ns0=1",
@@ -74651,7 +75130,8 @@
       "Plovdiv",
       "Oregon",
       "Madrid",
-      "Aargau"
+      "Aargau",
+      "England"
     ],
     "countries": [
       "France",
@@ -74755,7 +75235,8 @@
       "Bulgaria",
       "United States",
       "Spain",
-      "Switzerland"
+      "Switzerland",
+      "United Kingdom"
     ],
     "dists": [
       29.5,
@@ -74859,7 +75340,8 @@
       156,
       393.8,
       348.3,
-      26.7
+      26.7,
+      26.4
     ],
     "times": [
       8.3,
@@ -74963,7 +75445,8 @@
       8.1,
       3.8,
       4.9,
-      8
+      8,
+      7.4
     ]
   },
   "Vinnytsya, Ukraine": {
@@ -76365,9 +76848,9 @@
     ]
   },
   "Konya, Turkey": {
-    "mean_dist": 426.9,
-    "mean_time": 5.9,
-    "std_dist": 361.2,
+    "mean_dist": 424.1,
+    "mean_time": 6,
+    "std_dist": 360.4,
     "std_time": 2.1,
     "admin": "Konya",
     "country": "Turkey",
@@ -76469,7 +76952,8 @@
       39.998,
       39.998,
       39.106,
-      39.887
+      39.887,
+      37.655
     ],
     "lons": [
       "x",
@@ -76568,10 +77052,11 @@
       30.258,
       31.466,
       33.479,
-      29.484
+      29.484,
+      34.227
     ],
-    "mean_lat": 39.597,
-    "mean_lon": 33.576,
+    "mean_lat": 39.53,
+    "mean_lon": 33.598,
     "true_lat": 37.875,
     "true_lon": 32.475,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Konya%2C+Turkey&go=Go&ns0=1",
@@ -76672,7 +77157,8 @@
       "Aargau",
       "Berlin",
       "Berlin",
-      "Madrid"
+      "Madrid",
+      "Aargau"
     ],
     "countries": [
       null,
@@ -76771,7 +77257,8 @@
       "Switzerland",
       "Germany",
       "Germany",
-      "Spain"
+      "Spain",
+      "Switzerland"
     ],
     "dists": [
       120.8,
@@ -76870,7 +77357,8 @@
       304.1,
       251.7,
       162.5,
-      342
+      342,
+      155.9
     ],
     "times": [
       3.7,
@@ -76969,7 +77457,8 @@
       7.9,
       6,
       5.6,
-      8.1
+      8.1,
+      7.6
     ]
   },
   "Kryvyy Rih, Ukraine": {
@@ -78141,9 +78630,9 @@
     ]
   },
   "Coventry, United Kingdom": {
-    "mean_dist": 100.9,
-    "mean_time": 6.5,
-    "std_dist": 75.4,
+    "mean_dist": 99.9,
+    "mean_time": 6.4,
+    "std_dist": 75.2,
     "std_time": 1.6,
     "admin": "Coventry",
     "country": "United Kingdom",
@@ -78211,7 +78700,8 @@
       51.7,
       52.728,
       54.545,
-      53.077
+      53.077,
+      52.164
     ],
     "lons": [
       "x",
@@ -78276,10 +78766,11 @@
       -0.857,
       -1.547,
       -2.41,
-      -7.874
+      -7.874,
+      -1.145
     ],
-    "mean_lat": 52.653,
-    "mean_lon": -2.052,
+    "mean_lat": 52.618,
+    "mean_lon": -1.987,
     "true_lat": 52.4204,
     "true_lon": -1.5,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Coventry%2C+United Kingdom&go=Go&ns0=1",
@@ -78346,7 +78837,8 @@
       "Aargau",
       "Aargau",
       "Madrid",
-      "Kronoberg"
+      "Kronoberg",
+      "Trentino-Alto Adige"
     ],
     "countries": [
       null,
@@ -78411,7 +78903,8 @@
       "Switzerland",
       "Switzerland",
       "Spain",
-      "Sweden"
+      "Sweden",
+      "Italy"
     ],
     "dists": [
       74.8,
@@ -78476,7 +78969,8 @@
       91.3,
       34.3,
       243.8,
-      435
+      435,
+      37.3
     ],
     "times": [
       1,
@@ -78541,7 +79035,8 @@
       8.3,
       8.2,
       7.3,
-      3
+      3,
+      4.6
     ]
   },
   "Z\u00fcrich, Switzerland": {
@@ -81051,9 +81546,9 @@
     ]
   },
   "Linz, Austria": {
-    "mean_dist": 163.2,
+    "mean_dist": 180,
     "mean_time": 6.2,
-    "std_dist": 179,
+    "std_dist": 247.2,
     "std_time": 1.6,
     "admin": "Ober\u00f6sterreich",
     "country": "Austria",
@@ -81162,7 +81657,8 @@
       48.049,
       47.348,
       47.971,
-      47.738
+      47.738,
+      59.153
     ],
     "lons": [
       "x",
@@ -81268,10 +81764,11 @@
       14.441,
       8.575,
       14.096,
-      13.924
+      13.924,
+      37.513
     ],
-    "mean_lat": 47.767,
-    "mean_lon": 13.862,
+    "mean_lat": 48.038,
+    "mean_lon": 14.425,
     "true_lat": 48.3192,
     "true_lon": 14.2888,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Linz%2C+Austria&go=Go&ns0=1",
@@ -81379,7 +81876,8 @@
       "Trentino-Alto Adige",
       "Madrid",
       "Madrid",
-      "Madrid"
+      "Madrid",
+      "North Holland"
     ],
     "countries": [
       "Germany",
@@ -81485,7 +81983,8 @@
       "Italy",
       "Spain",
       "Spain",
-      "Spain"
+      "Spain",
+      "Netherlands"
     ],
     "dists": [
       116.1,
@@ -81591,7 +82090,8 @@
       32,
       439.8,
       41.1,
-      69.9
+      69.9,
+      1928.3
     ],
     "times": [
       7.4,
@@ -81697,7 +82197,8 @@
       4.4,
       6.9,
       6.2,
-      1.7
+      1.7,
+      9.5
     ]
   },
   "Saarbr\u00fccken, Germany": {
@@ -83111,10 +83612,10 @@
     ]
   },
   "Southampton, United Kingdom": {
-    "mean_dist": 122.9,
+    "mean_dist": 124.1,
     "mean_time": 6.6,
-    "std_dist": 166.7,
-    "std_time": 1.6,
+    "std_dist": 165.9,
+    "std_time": 1.5,
     "admin": "Southampton",
     "country": "United Kingdom",
     "city": "Southampton",
@@ -83165,7 +83666,9 @@
       52.234,
       53.868,
       51.742,
-      41.46
+      41.46,
+      50.904,
+      53.271
     ],
     "lons": [
       "x",
@@ -83214,10 +83717,12 @@
       -2.64,
       -1.202,
       -1.097,
-      0.733
+      0.733,
+      -1.547,
+      0.582
     ],
-    "mean_lat": 50.931,
-    "mean_lon": -1.289,
+    "mean_lat": 51.096,
+    "mean_lon": -1.174,
     "true_lat": 50.9,
     "true_lon": -1.4,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Southampton%2C+United Kingdom&go=Go&ns0=1",
@@ -83268,7 +83773,9 @@
       "Utrecht",
       "Utrecht",
       "Federation of B&H",
-      "Madrid"
+      "Madrid",
+      "England",
+      "North Holland"
     ],
     "countries": [
       "France",
@@ -83317,7 +83824,9 @@
       "Netherlands",
       "Netherlands",
       "Bosnia and Herzegovina",
-      "Spain"
+      "Spain",
+      "United Kingdom",
+      "Netherlands"
     ],
     "dists": [
       52.6,
@@ -83366,7 +83875,9 @@
       171.4,
       330.4,
       96,
-      1062.3
+      1062.3,
+      10.3,
+      296.4
     ],
     "times": [
       7.8,
@@ -83415,7 +83926,9 @@
       6.8,
       6.1,
       6.8,
-      5.3
+      5.3,
+      6.8,
+      6.2
     ]
   },
   "Amsterdam, Netherlands": {
@@ -85399,9 +85912,9 @@
     ]
   },
   "Ni\u0161, Serbia": {
-    "mean_dist": 217.4,
+    "mean_dist": 215.3,
     "mean_time": 5.9,
-    "std_dist": 182.3,
+    "std_dist": 182.5,
     "std_time": 1.8,
     "admin": "Ni\u0161",
     "country": "Serbia",
@@ -85497,7 +86010,8 @@
       42.658,
       43.619,
       43.538,
-      48.562
+      48.562,
+      43.409
     ],
     "lons": [
       "x",
@@ -85590,10 +86104,11 @@
       19.202,
       20.826,
       21.57,
-      18.487
+      18.487,
+      21.631
     ],
-    "mean_lat": 44.273,
-    "mean_lon": 20.19,
+    "mean_lat": 44.253,
+    "mean_lon": 20.225,
     "true_lat": 43.3304,
     "true_lon": 21.9,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ni\u0161%2C+Serbia&go=Go&ns0=1",
@@ -85688,7 +86203,8 @@
       "Utrecht",
       "Aargau",
       "Zurich",
-      "Madrid"
+      "Madrid",
+      "Berlin"
     ],
     "countries": [
       "United States",
@@ -85781,7 +86297,8 @@
       "Netherlands",
       "Switzerland",
       "Switzerland",
-      "Spain"
+      "Spain",
+      "Germany"
     ],
     "dists": [
       346.8,
@@ -85874,7 +86391,8 @@
       231.7,
       92.4,
       35.2,
-      638.6
+      638.6,
+      23.4
     ],
     "times": [
       5.5,
@@ -85967,7 +86485,8 @@
       3.8,
       7.5,
       4.8,
-      1.8
+      1.8,
+      7.8
     ]
   },
   "Burgos, Spain": {
@@ -88775,9 +89294,9 @@
     ]
   },
   "Thessalon\u00edki, Greece": {
-    "mean_dist": 189.8,
-    "mean_time": 6.2,
-    "std_dist": 331.7,
+    "mean_dist": 190.9,
+    "mean_time": 6.1,
+    "std_dist": 330.6,
     "std_time": 1.8,
     "admin": "Kentrik\u00ed Makedon\u00eda",
     "country": "Greece",
@@ -88906,7 +89425,8 @@
       39.286,
       40.461,
       39.643,
-      40.484
+      40.484,
+      37.747
     ],
     "lons": [
       "x",
@@ -89032,10 +89552,11 @@
       21.343,
       21.547,
       21.918,
-      23.701
+      23.701,
+      22.896
     ],
-    "mean_lat": 39.733,
-    "mean_lon": 22.465,
+    "mean_lat": 39.68,
+    "mean_lon": 22.477,
     "true_lat": 40.6961,
     "true_lon": 22.885,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Thessalon\u00edki%2C+Greece&go=Go&ns0=1",
@@ -89163,7 +89684,8 @@
       "Queensland",
       "Buenos Aires F.D.",
       "Madrid",
-      "Aargau"
+      "Aargau",
+      "Trentino-Alto Adige"
     ],
     "countries": [
       "Canada",
@@ -89289,7 +89811,8 @@
       "Australia",
       "Argentina",
       "Spain",
-      "Switzerland"
+      "Switzerland",
+      "Italy"
     ],
     "dists": [
       363.6,
@@ -89415,7 +89938,8 @@
       204.4,
       115.9,
       142.9,
-      72.8
+      72.8,
+      327.8
     ],
     "times": [
       4.8,
@@ -89541,13 +90065,14 @@
       6.6,
       5.4,
       6.1,
-      8.3
+      8.3,
+      4.1
     ]
   },
   "Venice, Italy": {
-    "mean_dist": 127,
+    "mean_dist": 131.8,
     "mean_time": 6.3,
-    "std_dist": 170.4,
+    "std_dist": 171.2,
     "std_time": 1.5,
     "admin": "Veneto",
     "country": "Italy",
@@ -89630,7 +90155,12 @@
       45.797,
       45.127,
       44.821,
-      45.352
+      45.352,
+      44.739,
+      44.878,
+      45.067,
+      42.952,
+      45.967
     ],
     "lons": [
       "x",
@@ -89710,10 +90240,15 @@
       12.141,
       11.481,
       8.46,
-      12.256
+      12.256,
+      10.99,
+      12.371,
+      12.141,
+      10.223,
+      6.281
     ],
-    "mean_lat": 44.489,
-    "mean_lon": 12.255,
+    "mean_lat": 44.52,
+    "mean_lon": 12.011,
     "true_lat": 45.4387,
     "true_lon": 12.335,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Venice%2C+Italy&go=Go&ns0=1",
@@ -89795,7 +90330,12 @@
       "South Moravian",
       "South Moravian",
       "Madrid",
-      "Aargau"
+      "Aargau",
+      "Utrecht",
+      "North Holland",
+      "North Holland",
+      "North Holland",
+      "North Holland"
     ],
     "countries": [
       "Canada",
@@ -89875,7 +90415,12 @@
       "Czech Republic",
       "Czech Republic",
       "Spain",
-      "Switzerland"
+      "Switzerland",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       33.4,
@@ -89955,7 +90500,12 @@
       42.6,
       75.1,
       311.5,
-      11.4
+      11.4,
+      131,
+      62.3,
+      44,
+      323.6,
+      473.5
     ],
     "times": [
       6.7,
@@ -90035,7 +90585,12 @@
       5.5,
       7.3,
       6.5,
-      7.8
+      7.8,
+      2.7,
+      6.2,
+      6.3,
+      5.2,
+      7.4
     ]
   },
   "Copenhagen, Denmark": {
@@ -94809,9 +95364,9 @@
     ]
   },
   "Plze\u0148, Czechia": {
-    "mean_dist": 294.7,
-    "mean_time": 5.3,
-    "std_dist": 385.5,
+    "mean_dist": 296.1,
+    "mean_time": 5.2,
+    "std_dist": 383.6,
     "std_time": 2.1,
     "admin": "Plze\u0148sk\u00fd Kraj",
     "country": "Czechia",
@@ -94906,7 +95461,8 @@
       50.01,
       49.878,
       50.058,
-      42.945
+      42.945,
+      48.816
     ],
     "lons": [
       "x",
@@ -94998,10 +95554,11 @@
       17.407,
       16.191,
       14.614,
-      21.113
+      21.113,
+      18.985
     ],
-    "mean_lat": 49.391,
-    "mean_lon": 15.346,
+    "mean_lat": 49.377,
+    "mean_lon": 15.433,
     "true_lat": 49.7404,
     "true_lon": 13.36,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Plze\u0148%2C+Czechia&go=Go&ns0=1",
@@ -95095,6 +95652,7 @@
       "Plovdiv",
       "Oregon",
       "Madrid",
+      "England",
       "England"
     ],
     "countries": [
@@ -95187,6 +95745,7 @@
       "Bulgaria",
       "United States",
       "Spain",
+      "United Kingdom",
       "United Kingdom"
     ],
     "dists": [
@@ -95279,7 +95838,8 @@
       291.5,
       203.7,
       96.5,
-      960.7
+      960.7,
+      420.7
     ],
     "times": [
       5.7,
@@ -95371,7 +95931,8 @@
       7.2,
       5.5,
       3.3,
-      2.1
+      2.1,
+      3.5
     ]
   },
   "Lecce, Italy": {
@@ -99759,9 +100320,9 @@
     ]
   },
   "Tartu, Estonia": {
-    "mean_dist": 266.2,
+    "mean_dist": 280.3,
     "mean_time": 6.2,
-    "std_dist": 434.3,
+    "std_dist": 458.5,
     "std_time": 1.7,
     "admin": "Tartumaa",
     "country": "Estonia",
@@ -99883,7 +100444,8 @@
       48.664,
       58.828,
       54.762,
-      55.078
+      55.078,
+      51.722
     ],
     "lons": [
       "x",
@@ -100002,10 +100564,11 @@
       7.424,
       24.507,
       21.489,
-      23.126
+      23.126,
+      -1.548
     ],
-    "mean_lat": 57.904,
-    "mean_lon": 24.952,
+    "mean_lat": 57.775,
+    "mean_lon": 24.4,
     "true_lat": 58.3839,
     "true_lon": 26.7099,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tartu%2C+Estonia&go=Go&ns0=1",
@@ -100126,7 +100689,8 @@
       "Madrid",
       "Trentino-Alto Adige",
       "Madrid",
-      "England"
+      "England",
+      "North Holland"
     ],
     "countries": [
       "United States",
@@ -100245,7 +100809,8 @@
       "Spain",
       "Italy",
       "Spain",
-      "United Kingdom"
+      "United Kingdom",
+      "Netherlands"
     ],
     "dists": [
       27.1,
@@ -100364,7 +100929,8 @@
       1660.7,
       136.8,
       513.8,
-      427.4
+      427.4,
+      1928.2
     ],
     "times": [
       5.8,
@@ -100483,7 +101049,8 @@
       8.8,
       4.1,
       4.9,
-      3
+      3,
+      8.2
     ]
   },
   "Cartagena, Spain": {
@@ -101137,10 +101704,10 @@
     ]
   },
   "Ancona, Italy": {
-    "mean_dist": 206.3,
-    "mean_time": 6.4,
-    "std_dist": 131.8,
-    "std_time": 1.7,
+    "mean_dist": 205.2,
+    "mean_time": 6.5,
+    "std_dist": 128.1,
+    "std_time": 1.6,
     "admin": "Marche",
     "country": "Italy",
     "city": "Ancona",
@@ -101208,7 +101775,12 @@
       41.877,
       42.477,
       42.7,
-      42.392
+      42.392,
+      43.786,
+      44.985,
+      45.372,
+      43.577,
+      43.114
     ],
     "lons": [
       "x",
@@ -101274,10 +101846,18 @@
       14.786,
       12.888,
       12.76,
-      13.981
+      13.981,
+      11.335,
+      10.99,
+      12.026,
+      12.543,
+      10.818
     ],
-    "mean_lat": 43.15,
-    "mean_lon": 12.741,
+    "mean_lat": 43.338,
+    "mean_lon": 12.519,
+    "true_lat": 43.6004,
+    "true_lon": 13.4999,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ancona%2C+Italy&go=Go&ns0=1",
     "regions": [
       "Washington",
       "England",
@@ -101342,7 +101922,12 @@
       "Trentino-Alto Adige",
       "North Holland",
       "Utrecht",
-      "Trentino-Alto Adige"
+      "Trentino-Alto Adige",
+      "England",
+      "Berlin",
+      "Hesse",
+      "Aargau",
+      "Berlin"
     ],
     "countries": [
       "United States",
@@ -101408,7 +101993,12 @@
       "Italy",
       "Netherlands",
       "Netherlands",
-      "Italy"
+      "Italy",
+      "United Kingdom",
+      "Germany",
+      "Germany",
+      "Switzerland",
+      "Germany"
     ],
     "dists": [
       369.5,
@@ -101474,7 +102064,12 @@
       218.4,
       134.3,
       116.6,
-      139.9
+      139.9,
+      175.2,
+      252.1,
+      229.1,
+      77,
+      223.4
     ],
     "times": [
       6.9,
@@ -101540,7 +102135,12 @@
       3.9,
       6.8,
       7,
-      6.2
+      6.2,
+      7.4,
+      6.1,
+      5.7,
+      8.1,
+      7.5
     ]
   },
   "Szeged, Hungary": {
@@ -103146,9 +103746,9 @@
     ]
   },
   "Kaposv\u00e1r, Hungary": {
-    "mean_dist": 314.2,
+    "mean_dist": 311.9,
     "mean_time": 5.6,
-    "std_dist": 382.9,
+    "std_dist": 381.1,
     "std_time": 2.4,
     "admin": "Somogy",
     "country": "Hungary",
@@ -103233,7 +103833,8 @@
       49.685,
       45.392,
       46.081,
-      47.007
+      47.007,
+      47.191
     ],
     "lons": [
       "x",
@@ -103315,10 +103916,11 @@
       16.167,
       24.998,
       21.967,
-      18.793
+      18.793,
+      18.985
     ],
-    "mean_lat": 46.646,
-    "mean_lon": 20.678,
+    "mean_lat": 46.666,
+    "mean_lon": 20.615,
     "true_lat": 46.367,
     "true_lon": 17.8,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kaposv\u00e1r%2C+Hungary&go=Go&ns0=1",
@@ -103402,7 +104004,8 @@
       "Zurich",
       "Buenos Aires F.D.",
       "England",
-      "Madrid"
+      "Madrid",
+      "England"
     ],
     "countries": [
       "United States",
@@ -103484,7 +104087,8 @@
       "Switzerland",
       "Argentina",
       "United Kingdom",
-      "Spain"
+      "Spain",
+      "United Kingdom"
     ],
     "dists": [
       678.6,
@@ -103566,7 +104170,8 @@
       388.4,
       567.4,
       322.1,
-      104
+      104,
+      128.6
     ],
     "times": [
       5.6,
@@ -103648,7 +104253,8 @@
       1.5,
       7.9,
       4.3,
-      1.9
+      1.9,
+      7.7
     ]
   },
   "Krasnodar, Krasnodarskiy Kray, Russia": {
@@ -103984,9 +104590,9 @@
     ]
   },
   "Cluj-Napoca, Romania": {
-    "mean_dist": 218.1,
+    "mean_dist": 213.3,
     "mean_time": 6.5,
-    "std_dist": 203.1,
+    "std_dist": 202.5,
     "std_time": 1.7,
     "admin": "Cluj",
     "country": "Romania",
@@ -104065,7 +104671,9 @@
       45.23,
       46.915,
       46.876,
-      46.106
+      46.106,
+      46.994,
+      47.073
     ],
     "lons": [
       "x",
@@ -104141,10 +104749,12 @@
       22.091,
       25.542,
       24.334,
-      24.737
+      24.737,
+      23.759,
+      23.126
     ],
-    "mean_lat": 46.431,
-    "mean_lon": 24.701,
+    "mean_lat": 46.468,
+    "mean_lon": 24.625,
     "true_lat": 46.7884,
     "true_lon": 23.5984,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Cluj-Napoca%2C+Romania&go=Go&ns0=1",
@@ -104222,7 +104832,9 @@
       "Trentino-Alto Adige",
       "Madrid",
       "Aargau",
-      "Brussels Capital"
+      "Brussels Capital",
+      "Aargau",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -104298,7 +104910,9 @@
       "Italy",
       "Spain",
       "Switzerland",
-      "Belgium"
+      "Belgium",
+      "Switzerland",
+      "Switzerland"
     ],
     "dists": [
       324.8,
@@ -104374,7 +104988,9 @@
       208.7,
       148.5,
       56.8,
-      115.6
+      115.6,
+      25.9,
+      47.8
     ],
     "times": [
       6.9,
@@ -104450,7 +105066,9 @@
       3.8,
       6.3,
       8.1,
-      5.6
+      5.6,
+      8.2,
+      8.5
     ]
   },
   "Rotterdam, Netherlands": {
@@ -105864,9 +106482,9 @@
     ]
   },
   "Sakarya, Turkey": {
-    "mean_dist": 420.1,
+    "mean_dist": 421.5,
     "mean_time": 6,
-    "std_dist": 258.4,
+    "std_dist": 256.6,
     "std_time": 2.2,
     "admin": "Sakarya",
     "country": "Turkey",
@@ -105932,7 +106550,8 @@
       38.475,
       39.083,
       37.518,
-      38.52
+      38.52,
+      40.308
     ],
     "lons": [
       "x",
@@ -105995,10 +106614,11 @@
       27.728,
       31.727,
       29.453,
-      30.143
+      30.143,
+      36.413
     ],
-    "mean_lat": 38.641,
-    "mean_lon": 32.889,
+    "mean_lat": 38.702,
+    "mean_lon": 33.019,
     "true_lat": 40.8,
     "true_lon": 30.415,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Sakarya%2C+Turkey&go=Go&ns0=1",
@@ -106063,7 +106683,8 @@
       "Queensland",
       "Buenos Aires F.D.",
       "Trentino-Alto Adige",
-      "Trentino-Alto Adige"
+      "Trentino-Alto Adige",
+      "England"
     ],
     "countries": [
       "United States",
@@ -106126,7 +106747,8 @@
       "Australia",
       "Argentina",
       "Italy",
-      "Italy"
+      "Italy",
+      "United Kingdom"
     ],
     "dists": [
       235.8,
@@ -106189,7 +106811,8 @@
       345.9,
       221.2,
       374.1,
-      254.4
+      254.4,
+      509.5
     ],
     "times": [
       1.2,
@@ -106252,7 +106875,8 @@
       5.9,
       6.7,
       4.2,
-      7.6
+      7.6,
+      7.2
     ]
   },
   "Ia\u015fi, Romania": {
@@ -108664,9 +109288,9 @@
     ]
   },
   "Shkod\u00ebr, Albania": {
-    "mean_dist": 261,
-    "mean_time": 6,
-    "std_dist": 363.5,
+    "mean_dist": 259.2,
+    "mean_time": 6.1,
+    "std_dist": 362,
     "std_time": 1.9,
     "admin": "Shkod\u00ebr",
     "country": "Albania",
@@ -108769,6 +109393,7 @@
       41.336,
       41.402,
       41.358,
+      41.358,
       41.358
     ],
     "lons": [
@@ -108869,10 +109494,11 @@
       19.649,
       19.79,
       19.618,
-      20.078
+      20.078,
+      19.848
     ],
-    "mean_lat": 41.702,
-    "mean_lon": 20.373,
+    "mean_lat": 41.69,
+    "mean_lon": 20.355,
     "true_lat": 42.0685,
     "true_lon": 19.5188,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Shkod\u00ebr%2C+Albania&go=Go&ns0=1",
@@ -108974,7 +109600,8 @@
       "South Moravian",
       "Madrid",
       "Madrid",
-      "Leinster"
+      "Leinster",
+      "Aargau"
     ],
     "countries": [
       "United States",
@@ -109074,7 +109701,8 @@
       "Czech Republic",
       "Spain",
       "Spain",
-      "Ireland"
+      "Ireland",
+      "Switzerland"
     ],
     "dists": [
       161.8,
@@ -109174,7 +109802,8 @@
       82.1,
       77.4,
       79.3,
-      91.5
+      91.5,
+      83.5
     ],
     "times": [
       5.5,
@@ -109274,7 +109903,8 @@
       5.8,
       7.3,
       6.8,
-      5.3
+      5.3,
+      8.4
     ]
   },
   "Odesa, Ukraine": {
@@ -109748,9 +110378,9 @@
     ]
   },
   "Annecy, France": {
-    "mean_dist": 202.2,
+    "mean_dist": 201.1,
     "mean_time": 6.6,
-    "std_dist": 217.9,
+    "std_dist": 216.6,
     "std_time": 1.6,
     "admin": "Auvergne-Rh\u00f4ne-Alpes",
     "country": "France",
@@ -109830,7 +110460,8 @@
       43.535,
       46.079,
       44.124,
-      47.33
+      47.33,
+      45.717
     ],
     "lons": [
       "x",
@@ -109907,10 +110538,11 @@
       5.871,
       5.699,
       3.794,
-      2.118
+      2.118,
+      4.549
     ],
-    "mean_lat": 46.457,
-    "mean_lon": 3.475,
+    "mean_lat": 46.435,
+    "mean_lon": 3.506,
     "true_lat": 45.9,
     "true_lon": 6.1167,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Annecy%2C+France&go=Go&ns0=1",
@@ -109989,7 +110621,8 @@
       "Madrid",
       "North Rhine-Westphalia",
       "Saarland",
-      "Saarland"
+      "Saarland",
+      "Berlin"
     ],
     "countries": [
       "United States",
@@ -110064,6 +110697,7 @@
       "Netherlands",
       "Germany",
       "Spain",
+      "Germany",
       "Germany",
       "Germany",
       "Germany"
@@ -110143,7 +110777,8 @@
       263.6,
       37.9,
       268.8,
-      344.2
+      344.2,
+      123.1
     ],
     "times": [
       7.3,
@@ -110220,7 +110855,8 @@
       7.8,
       5.5,
       3.2,
-      8.1
+      8.1,
+      7.8
     ]
   },
   "Gala\u0163i, Romania": {
@@ -117192,9 +117828,9 @@
     ]
   },
   "Cherepovets, Vologodskaya Oblast\u2019, Russia": {
-    "mean_dist": 744,
-    "mean_time": 6.2,
-    "std_dist": 476.2,
+    "mean_dist": 726.1,
+    "mean_time": 6.3,
+    "std_dist": 480.3,
     "std_time": 1.5,
     "admin": "Vologodskaya Oblast\u2019",
     "country": "Russia",
@@ -117232,7 +117868,8 @@
       58.316,
       55.211,
       51.914,
-      50.224
+      50.224,
+      58.285
     ],
     "lons": [
       "x",
@@ -117267,10 +117904,11 @@
       38.311,
       49.354,
       44.062,
-      45.301
+      45.301,
+      39.576
     ],
-    "mean_lat": 54.341,
-    "mean_lon": 42.483,
+    "mean_lat": 54.623,
+    "mean_lon": 42.276,
     "true_lat": 59.1404,
     "true_lon": 37.91,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Cherepovets%2C+Russia&go=Go&ns0=1",
@@ -117307,7 +117945,8 @@
       "Aargau",
       "Trentino-Alto Adige",
       "South Moravian",
-      "South Moravian"
+      "South Moravian",
+      "Aargau"
     ],
     "countries": [
       "France",
@@ -117342,7 +117981,8 @@
       "Switzerland",
       "Italy",
       "Czech Republic",
-      "Czech Republic"
+      "Czech Republic",
+      "Switzerland"
     ],
     "dists": [
       773.4,
@@ -117377,7 +118017,8 @@
       94.5,
       814.9,
       891,
-      1097.8
+      1097.8,
+      135.2
     ],
     "times": [
       5.1,
@@ -117412,7 +118053,8 @@
       6.7,
       3.8,
       7,
-      7.4
+      7.4,
+      7.1
     ]
   },
   "Aarhus, Denmark": {
@@ -118246,9 +118888,9 @@
     ]
   },
   "Karaman, Turkey": {
-    "mean_dist": 493.3,
+    "mean_dist": 490.1,
     "mean_time": 6.9,
-    "std_dist": 354.3,
+    "std_dist": 351.7,
     "std_time": 1.7,
     "admin": "Karaman",
     "country": "Turkey",
@@ -118305,7 +118947,8 @@
       39.33,
       39.658,
       39.554,
-      39.465
+      39.465,
+      39.91
     ],
     "lons": [
       "x",
@@ -118359,10 +119002,11 @@
       33.077,
       29.606,
       27.67,
-      21.171
+      21.171,
+      34.63
     ],
-    "mean_lat": 39.511,
-    "mean_lon": 30.49,
+    "mean_lat": 39.534,
+    "mean_lon": 30.733,
     "true_lat": 37.1815,
     "true_lon": 33.215,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Karaman%2C+Turkey&go=Go&ns0=1",
@@ -118418,7 +119062,8 @@
       "Brussels Capital",
       "Brussels Capital",
       "Kronoberg",
-      "Kronoberg"
+      "Kronoberg",
+      "England"
     ],
     "countries": [
       "France",
@@ -118472,7 +119117,8 @@
       "Belgium",
       "Belgium",
       "Sweden",
-      "Sweden"
+      "Sweden",
+      "United Kingdom"
     ],
     "dists": [
       363.4,
@@ -118526,7 +119172,8 @@
       239.3,
       417.8,
       550.5,
-      1079.9
+      1079.9,
+      327.4
     ],
     "times": [
       6.7,
@@ -118580,13 +119227,14 @@
       6.6,
       3.2,
       7.5,
-      3.1
+      3.1,
+      7.5
     ]
   },
   "\u010ca\u010dak, Serbia": {
     "mean_dist": 221.2,
     "mean_time": 5.5,
-    "std_dist": 347.8,
+    "std_dist": 346.5,
     "std_time": 2,
     "admin": "\u010ca\u010dak",
     "country": "Serbia",
@@ -118727,7 +119375,8 @@
       43.23,
       44.368,
       44.33,
-      53.766
+      53.766,
+      41.963
     ],
     "lons": [
       "x",
@@ -118865,10 +119514,11 @@
       21.818,
       20.366,
       17.428,
-      31.064
+      31.064,
+      19.733
     ],
-    "mean_lat": 44.764,
-    "mean_lon": 20.651,
+    "mean_lat": 44.729,
+    "mean_lon": 20.64,
     "true_lat": 43.8897,
     "true_lon": 20.3301,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=\u010ca\u010dak%2C+Serbia&go=Go&ns0=1",
@@ -119008,7 +119658,8 @@
       "Uusimaa",
       "Lower Saxony",
       "Bremen",
-      "Hamburg"
+      "Hamburg",
+      "England"
     ],
     "countries": [
       "France",
@@ -119146,7 +119797,8 @@
       "Finland",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "United Kingdom"
     ],
     "dists": [
       88.7,
@@ -119284,7 +119936,8 @@
       140.5,
       53.2,
       236.7,
-      1347.2
+      1347.2,
+      219.5
     ],
     "times": [
       6.9,
@@ -119422,7 +120075,8 @@
       5.3,
       2.8,
       5.9,
-      6
+      6,
+      5.1
     ]
   },
   "Tekirda\u011f, Turkey": {
@@ -121962,9 +122616,9 @@
     ]
   },
   "P\u00e1tra, Greece": {
-    "mean_dist": 316,
+    "mean_dist": 314.7,
     "mean_time": 6.2,
-    "std_dist": 504.4,
+    "std_dist": 502.5,
     "std_time": 1.9,
     "admin": "Dytik\u00ed Ell\u00e1da",
     "country": "Greece",
@@ -122088,7 +122742,8 @@
       40.308,
       38.117,
       38.455,
-      38.746
+      38.746,
+      39.643
     ],
     "lons": [
       "x",
@@ -122209,10 +122864,11 @@
       22.321,
       23.752,
       22.307,
-      22.379
+      22.379,
+      22.264
     ],
-    "mean_lat": 39.084,
-    "mean_lon": 22.677,
+    "mean_lat": 39.097,
+    "mean_lon": 22.667,
     "true_lat": 38.23,
     "true_lon": 21.73,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=P\u00e1tra%2C+Greece&go=Go&ns0=1",
@@ -122335,7 +122991,8 @@
       "North Rhine-Westphalia",
       "Saarland",
       "Saarland",
-      "Trentino-Alto Adige"
+      "Trentino-Alto Adige",
+      "Aargau"
     ],
     "countries": [
       "France",
@@ -122456,7 +123113,8 @@
       "Germany",
       "Germany",
       "Germany",
-      "Italy"
+      "Italy",
+      "Switzerland"
     ],
     "dists": [
       153.5,
@@ -122577,7 +123235,8 @@
       236.6,
       177.2,
       56.2,
-      80.5
+      80.5,
+      163.8
     ],
     "times": [
       5.7,
@@ -122698,7 +123357,8 @@
       6,
       6.1,
       7.5,
-      2.2
+      2.2,
+      8.2
     ]
   },
   "\u2019s-Hertogenbosch, Netherlands": {
@@ -125854,9 +126514,9 @@
     ]
   },
   "Braunschweig, Germany": {
-    "mean_dist": 173.3,
+    "mean_dist": 171.7,
     "mean_time": 6.4,
-    "std_dist": 116,
+    "std_dist": 115.4,
     "std_time": 1.7,
     "admin": "Lower Saxony",
     "country": "Germany",
@@ -125911,7 +126571,8 @@
       51.664,
       52.728,
       52.314,
-      52.622
+      52.622,
+      51.484
     ],
     "lons": [
       "x",
@@ -125963,10 +126624,11 @@
       9.092,
       8.575,
       9.539,
-      10.645
+      10.645,
+      10.013
     ],
-    "mean_lat": 50.903,
-    "mean_lon": 9.67,
+    "mean_lat": 50.922,
+    "mean_lon": 9.681,
     "true_lat": 52.25,
     "true_lon": 10.5,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Braunschweig%2C+Germany&go=Go&ns0=1",
@@ -126020,7 +126682,8 @@
       "Brussels Capital",
       "Madrid",
       "Utrecht",
-      "California"
+      "California",
+      "Trentino-Alto Adige"
     ],
     "countries": [
       "France",
@@ -126072,7 +126735,8 @@
       "Belgium",
       "Spain",
       "Netherlands",
-      "United States"
+      "United States",
+      "Italy"
     ],
     "dists": [
       228.5,
@@ -126124,7 +126788,8 @@
       116.3,
       140.7,
       65.7,
-      42.6
+      42.6,
+      91.4
     ],
     "times": [
       5.7,
@@ -126176,7 +126841,8 @@
       7.5,
       6.5,
       6,
-      7.9
+      7.9,
+      5.7
     ]
   },
   "Voronezh, Voronezhskaya Oblast\u2019, Russia": {
@@ -126976,9 +127642,9 @@
     ]
   },
   "Elbl\u0105g, Poland": {
-    "mean_dist": 262.9,
+    "mean_dist": 259.8,
     "mean_time": 6.6,
-    "std_dist": 166.4,
+    "std_dist": 167.4,
     "std_time": 1.7,
     "admin": "Warmi\u0144sko-Mazurskie",
     "country": "Poland",
@@ -127056,7 +127722,8 @@
       54.511,
       53.007,
       50.538,
-      54.31
+      54.31,
+      54.276
     ],
     "lons": [
       "x",
@@ -127131,10 +127798,11 @@
       19.503,
       17.95,
       21.976,
-      18.41
+      18.41,
+      18.928
     ],
-    "mean_lat": 52.689,
-    "mean_lon": 18.637,
+    "mean_lat": 52.758,
+    "mean_lon": 18.649,
     "true_lat": 54.19,
     "true_lon": 19.4027,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Elbl\u0105g%2C+Poland&go=Go&ns0=1",
@@ -127211,6 +127879,7 @@
       "Aargau",
       "Madrid",
       "Trentino-Alto Adige",
+      "Aargau",
       "Aargau"
     ],
     "countries": [
@@ -127286,6 +127955,7 @@
       "Switzerland",
       "Spain",
       "Italy",
+      "Switzerland",
       "Switzerland"
     ],
     "dists": [
@@ -127361,7 +128031,8 @@
       36.3,
       162.7,
       441.9,
-      65.8
+      65.8,
+      32.3
     ],
     "times": [
       5.4,
@@ -127436,6 +128107,7 @@
       8.4,
       4.6,
       5.8,
+      8.1,
       8.1
     ]
   },
@@ -131856,10 +132528,10 @@
     ]
   },
   "Innsbruck, Austria": {
-    "mean_dist": 162.9,
-    "mean_time": 6.3,
-    "std_dist": 313.2,
-    "std_time": 1.7,
+    "mean_dist": 169.5,
+    "mean_time": 6.1,
+    "std_dist": 307.8,
+    "std_time": 1.8,
     "admin": "Tirol",
     "country": "Austria",
     "city": "Innsbruck",
@@ -131950,7 +132622,12 @@
       47.573,
       47.309,
       47.234,
-      47.322
+      47.322,
+      49.006,
+      47.246,
+      47.465,
+      49.59,
+      45.23
     ],
     "lons": [
       "x",
@@ -132039,10 +132716,15 @@
       5.023,
       11.45,
       9.721,
-      14.02
+      14.02,
+      17.317,
+      11.761,
+      14.499,
+      14.932,
+      14.345
     ],
-    "mean_lat": 47.428,
-    "mean_lon": 12.33,
+    "mean_lat": 47.466,
+    "mean_lon": 12.641,
     "true_lat": 47.2804,
     "true_lon": 11.41,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Innsbruck%2C+Austria&go=Go&ns0=1",
@@ -132133,7 +132815,12 @@
       "Uusimaa",
       "Aargau",
       "California",
-      "Madrid"
+      "Madrid",
+      "Utrecht",
+      "North Holland",
+      "North Holland",
+      "North Holland",
+      "North Holland"
     ],
     "countries": [
       "France",
@@ -132222,7 +132909,12 @@
       "Finland",
       "Switzerland",
       "United States",
-      "Spain"
+      "Spain",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       87.7,
@@ -132311,7 +133003,12 @@
       481.3,
       4.4,
       127.5,
-      196.8
+      196.8,
+      478.3,
+      26.7,
+      233.5,
+      365.3,
+      320.7
     ],
     "times": [
       7.6,
@@ -132400,7 +133097,12 @@
       5.6,
       7.9,
       5.9,
-      5.3
+      5.3,
+      1.7,
+      3.3,
+      3.5,
+      4.1,
+      4.9
     ]
   },
   "Vologda, Vologodskaya Oblast\u2019, Russia": {
@@ -134898,9 +135600,9 @@
     ]
   },
   "Olsztyn, Poland": {
-    "mean_dist": 279,
-    "mean_time": 6.4,
-    "std_dist": 152.2,
+    "mean_dist": 273.6,
+    "mean_time": 6.3,
+    "std_dist": 149.6,
     "std_time": 1.8,
     "admin": "Warmi\u0144sko-Mazurskie",
     "country": "Poland",
@@ -134971,7 +135673,12 @@
       52.965,
       51.05,
       52.128,
-      51.268
+      51.268,
+      50.795,
+      53.09,
+      52.972,
+      52.838,
+      53.232
     ],
     "lons": [
       "x",
@@ -135039,10 +135746,15 @@
       19.621,
       20.807,
       17.375,
-      19.215
+      19.215,
+      18.87,
+      17.858,
+      17.835,
+      19.426,
+      18.556
     ],
-    "mean_lat": 52.049,
-    "mean_lon": 19.235,
+    "mean_lat": 52.113,
+    "mean_lon": 19.148,
     "true_lat": 53.8,
     "true_lon": 20.48,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Olsztyn%2C+Poland&go=Go&ns0=1",
@@ -135112,7 +135824,12 @@
       "Madrid",
       "Madrid",
       "Madrid",
-      "Wisconsin"
+      "Wisconsin",
+      "Utrecht",
+      "North Holland",
+      "North Holland",
+      "North Holland",
+      "North Holland"
     ],
     "countries": [
       "Spain",
@@ -135180,7 +135897,12 @@
       "Spain",
       "Spain",
       "Spain",
-      "United States"
+      "United States",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       192.7,
@@ -135248,7 +135970,12 @@
       108.8,
       306.4,
       278.8,
-      294.2
+      294.2,
+      351.5,
+      190.6,
+      198,
+      127.7,
+      141.9
     ],
     "times": [
       5.4,
@@ -135316,7 +136043,12 @@
       5.6,
       6.8,
       4.6,
-      5.5
+      5.5,
+      3.5,
+      4.1,
+      4.5,
+      4.5,
+      5
     ]
   },
   "Zwolle, Netherlands": {
@@ -136282,9 +137014,9 @@
     ]
   },
   "Stavanger, Norway": {
-    "mean_dist": 232.4,
+    "mean_dist": 240.6,
     "mean_time": 6,
-    "std_dist": 194.2,
+    "std_dist": 198.2,
     "std_time": 1.9,
     "admin": "Rogaland",
     "country": "Norway",
@@ -136382,7 +137114,13 @@
       60.092,
       59.51,
       59.186,
-      61.172
+      61.172,
+      64.244,
+      61.365,
+      60.236,
+      64.574,
+      60.974,
+      60.974
     ],
     "lons": [
       "x",
@@ -136477,10 +137215,16 @@
       5.066,
       6.504,
       5.699,
-      5.407
+      5.407,
+      11.45,
+      7.079,
+      5.871,
+      10.69,
+      5.986,
+      6.389
     ],
-    "mean_lat": 60.249,
-    "mean_lon": 7.473,
+    "mean_lat": 60.467,
+    "mean_lon": 7.525,
     "true_lat": 58.97,
     "true_lon": 5.68,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Stavanger%2C+Norway&go=Go&ns0=1",
@@ -136577,7 +137321,13 @@
       "Aargau",
       "Trentino-Alto Adige",
       "Aargau",
-      "South Moravian"
+      "South Moravian",
+      "North Holland",
+      "North Holland",
+      "Groningen",
+      "North Holland",
+      "North Holland",
+      "North Holland"
     ],
     "countries": [
       "United Kingdom",
@@ -136672,7 +137422,13 @@
       "Switzerland",
       "Italy",
       "Switzerland",
-      "Czech Republic"
+      "Czech Republic",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       532.6,
@@ -136767,7 +137523,13 @@
       129.5,
       76.2,
       24,
-      245.3
+      245.3,
+      660.5,
+      277.3,
+      141.2,
+      676.1,
+      223.5,
+      226.3
     ],
     "times": [
       7.4,
@@ -136862,7 +137624,13 @@
       8.1,
       6.9,
       8.2,
-      7.1
+      7.1,
+      7.3,
+      6.7,
+      7.6,
+      5.6,
+      7.5,
+      4.6
     ]
   },
   "Kocaeli, Turkey": {
@@ -137896,9 +138664,9 @@
     ]
   },
   "Tol\u2019yatti, Samarskaya Oblast\u2019, Russia": {
-    "mean_dist": 633.3,
+    "mean_dist": 641.9,
     "mean_time": 5.8,
-    "std_dist": 447,
+    "std_dist": 447.4,
     "std_time": 1.9,
     "admin": "Samarskaya Oblast\u2019",
     "country": "Russia",
@@ -137957,7 +138725,8 @@
       55.865,
       56.501,
       47.243,
-      52.739
+      52.739,
+      58.407
     ],
     "lons": [
       "x",
@@ -138013,10 +138782,11 @@
       39.749,
       50.058,
       39.883,
-      35.818
+      35.818,
+      33.997
     ],
-    "mean_lat": 52.813,
-    "mean_lon": 42.325,
+    "mean_lat": 53.021,
+    "mean_lon": 42.017,
     "true_lat": 53.4804,
     "true_lon": 49.53,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tol\u2019yatti%2C+Russia&go=Go&ns0=1",
@@ -138074,7 +138844,8 @@
       "Madrid",
       "Uusimaa",
       "Madrid",
-      "Madrid"
+      "Madrid",
+      "England"
     ],
     "countries": [
       "Portugal",
@@ -138130,7 +138901,8 @@
       "Spain",
       "Finland",
       "Spain",
-      "Spain"
+      "Spain",
+      "United Kingdom"
     ],
     "dists": [
       960.5,
@@ -138186,7 +138958,8 @@
       681.7,
       337.6,
       972.6,
-      917.4
+      917.4,
+      1107.8
     ],
     "times": [
       6.9,
@@ -138242,7 +139015,8 @@
       7,
       6.8,
       1.7,
-      5.3
+      5.3,
+      5.7
     ]
   },
   "Besan\u00e7on, France": {
@@ -141207,9 +141981,9 @@
     ]
   },
   "Daugavpils, Latvia": {
-    "mean_dist": 398.6,
+    "mean_dist": 397.3,
     "mean_time": 5.3,
-    "std_dist": 484.5,
+    "std_dist": 482.6,
     "std_time": 2,
     "admin": "Daugavpils Novads",
     "country": "Latvia",
@@ -141327,7 +142101,8 @@
       58.738,
       54.746,
       42.563,
-      57.024
+      57.024,
+      55.833
     ],
     "lons": [
       "x",
@@ -141442,10 +142217,11 @@
       24.679,
       21.688,
       20.826,
-      26.104
+      26.104,
+      22.551
     ],
-    "mean_lat": 55.692,
-    "mean_lon": 24.457,
+    "mean_lat": 55.696,
+    "mean_lon": 24.405,
     "true_lat": 55.88,
     "true_lon": 26.51,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Daugavpils%2C+Latvia&go=Go&ns0=1",
@@ -141562,7 +142338,8 @@
       "Berlin",
       "\u00cele-de-France",
       "Madrid",
-      "Utrecht"
+      "Utrecht",
+      "England"
     ],
     "countries": [
       "Portugal",
@@ -141677,7 +142454,8 @@
       "Germany",
       "France",
       "Spain",
-      "Netherlands"
+      "Netherlands",
+      "United Kingdom"
     ],
     "dists": [
       154.3,
@@ -141792,7 +142570,8 @@
       336.3,
       330,
       1535.9,
-      129.6
+      129.6,
+      247
     ],
     "times": [
       5.2,
@@ -141907,7 +142686,8 @@
       5.5,
       5,
       5.5,
-      4.2
+      4.2,
+      7
     ]
   },
   "Zenica, Bosnia And Herzegovina": {
@@ -143307,9 +144087,9 @@
     ]
   },
   "Ruse, Bulgaria": {
-    "mean_dist": 319,
-    "mean_time": 5.5,
-    "std_dist": 340.8,
+    "mean_dist": 311.8,
+    "mean_time": 5.6,
+    "std_dist": 336,
     "std_time": 2,
     "admin": "Ruse",
     "country": "Bulgaria",
@@ -143402,7 +144182,12 @@
       43.114,
       42.648,
       42.821,
-      50.132
+      50.132,
+      43.869,
+      45.352,
+      44.512,
+      42.903,
+      43.994
     ],
     "lons": [
       "x",
@@ -143492,10 +144277,15 @@
       24.737,
       24.967,
       26.113,
-      26.635
+      26.635,
+      25.887,
+      19.56,
+      28.993,
+      25.83,
+      26.175
     ],
-    "mean_lat": 44.056,
-    "mean_lon": 25.263,
+    "mean_lat": 44.063,
+    "mean_lon": 25.265,
     "true_lat": 43.8537,
     "true_lon": 25.9733,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ruse%2C+Bulgaria&go=Go&ns0=1",
@@ -143587,7 +144377,12 @@
       "Madrid",
       "Lower Saxony",
       "Bremen",
-      "Hamburg"
+      "Hamburg",
+      "Berlin",
+      "Berlin",
+      "Hesse",
+      "Aargau",
+      "Berlin"
     ],
     "countries": [
       "Portugal",
@@ -143677,6 +144472,11 @@
       "Spain",
       "Germany",
       "Germany",
+      "Germany",
+      "Germany",
+      "Germany",
+      "Germany",
+      "Switzerland",
       "Germany"
     ],
     "dists": [
@@ -143767,7 +144567,12 @@
       129.2,
       156.8,
       115.2,
-      699.9
+      699.9,
+      7.1,
+      534.1,
+      251.7,
+      106.3,
+      22.5
     ],
     "times": [
       7.8,
@@ -143857,7 +144662,12 @@
       6.1,
       5.4,
       6.2,
-      7.5
+      7.5,
+      7.7,
+      4.6,
+      7.5,
+      8.3,
+      6.5
     ]
   },
   "Clermont-Ferrand, France": {
@@ -144693,10 +145503,10 @@
     ]
   },
   "Katowice, Poland": {
-    "mean_dist": 210.7,
+    "mean_dist": 212.1,
     "mean_time": 6.1,
-    "std_dist": 135.4,
-    "std_time": 1.9,
+    "std_dist": 134.9,
+    "std_time": 1.8,
     "admin": "\u015al\u0105skie",
     "country": "Poland",
     "city": "Katowice",
@@ -144770,7 +145580,8 @@
       50.169,
       52.314,
       52.03,
-      49.983
+      49.983,
+      52.972
     ],
     "lons": [
       "x",
@@ -144842,10 +145653,11 @@
       19.043,
       21.042,
       20.208,
-      18.928
+      18.928,
+      18.122
     ],
-    "mean_lat": 51.34,
-    "mean_lon": 18.935,
+    "mean_lat": 51.414,
+    "mean_lon": 18.898,
     "true_lat": 50.2604,
     "true_lon": 19.02,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Katowice%2C+Poland&go=Go&ns0=1",
@@ -144919,7 +145731,8 @@
       "North Holland",
       "North Holland",
       "Utrecht",
-      "Trentino-Alto Adige"
+      "Trentino-Alto Adige",
+      "England"
     ],
     "countries": [
       "Portugal",
@@ -144991,7 +145804,8 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Italy"
+      "Italy",
+      "United Kingdom"
     ],
     "dists": [
       397.7,
@@ -145063,7 +145877,8 @@
       10.2,
       268.1,
       213.5,
-      31.4
+      31.4,
+      307.8
     ],
     "times": [
       7.5,
@@ -145135,7 +145950,8 @@
       5.8,
       4.1,
       6.3,
-      2.5
+      2.5,
+      6.9
     ]
   },
   "Samara, Samarskaya Oblast\u2019, Russia": {
@@ -153683,10 +154499,10 @@
     ]
   },
   "Arzamas, Nizhegorodskaya Oblast\u2019, Russia": {
-    "mean_dist": 612.7,
+    "mean_dist": 605.1,
     "mean_time": 5.7,
-    "std_dist": 508.4,
-    "std_time": 2.2,
+    "std_dist": 490.6,
+    "std_time": 2.1,
     "admin": "Nizhegorodskaya Oblast\u2019",
     "country": "Russia",
     "city": "Arzamas",
@@ -153741,7 +154557,12 @@
       44.739,
       45.23,
       51.52,
-      44.994
+      44.994,
+      58.041,
+      63.66,
+      60.436,
+      56.164,
+      57.486
     ],
     "lons": [
       "x",
@@ -153794,10 +154615,18 @@
       39.001,
       40.899,
       43.142,
-      41.475
+      41.475,
+      39.173,
+      40.151,
+      48.031,
+      49.628,
+      47.053
     ],
-    "mean_lat": 52.174,
-    "mean_lon": 41.419,
+    "mean_lat": 53.761,
+    "mean_lon": 42.189,
+    "true_lat": 55.4,
+    "true_lon": 43.8,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Arzamas%2C+Russia&go=Go&ns0=1",
     "regions": [
       "Capital Region",
       "England",
@@ -153849,7 +154678,12 @@
       "North Rhine-Westphalia",
       "Utrecht",
       "North Rhine-Westphalia",
-      "Utrecht"
+      "Utrecht",
+      "North Holland",
+      "North Holland",
+      "Groningen",
+      "North Holland",
+      "North Holland"
     ],
     "countries": [
       "Denmark",
@@ -153902,6 +154736,11 @@
       "Germany",
       "Netherlands",
       "Germany",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
       "Netherlands"
     ],
     "dists": [
@@ -153955,7 +154794,12 @@
       1233.1,
       1149.1,
       433.5,
-      1168.5
+      1168.5,
+      407.1,
+      940.8,
+      613,
+      374.1,
+      306.2
     ],
     "times": [
       4.6,
@@ -154008,13 +154852,18 @@
       2.9,
       5.9,
       3.2,
-      6.7
+      6.7,
+      6.3,
+      4.8,
+      5.4,
+      5.9,
+      6
     ]
   },
   "Salamanca, Spain": {
-    "mean_dist": 363.9,
+    "mean_dist": 358.3,
     "mean_time": 6.6,
-    "std_dist": 323.8,
+    "std_dist": 322.9,
     "std_time": 1.6,
     "admin": "Castille-Leon",
     "country": "Spain",
@@ -154068,7 +154917,8 @@
       39.139,
       48.056,
       37.472,
-      38.066
+      38.066,
+      40.616
     ],
     "lons": [
       "x",
@@ -154119,10 +154969,11 @@
       -4.793,
       1.985,
       -1.892,
-      -4.711
+      -4.711,
+      -6.551
     ],
-    "mean_lat": 39.848,
-    "mean_lon": -3.66,
+    "mean_lat": 39.896,
+    "mean_lon": -3.841,
     "true_lat": 40.9704,
     "true_lon": -5.67,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Salamanca%2C+Spain&go=Go&ns0=1",
@@ -154175,6 +155026,7 @@
       "Plovdiv",
       "Oregon",
       "Gornja Radgona",
+      "England",
       "England"
     ],
     "countries": [
@@ -154226,6 +155078,7 @@
       "Bulgaria",
       "United States",
       "Slovenia",
+      "United Kingdom",
       "United Kingdom"
     ],
     "dists": [
@@ -154277,7 +155130,8 @@
       216.8,
       993.5,
       506.9,
-      333.1
+      333.1,
+      84
     ],
     "times": [
       7.7,
@@ -154328,7 +155182,8 @@
       7.7,
       6.8,
       7.3,
-      6
+      6,
+      6.4
     ]
   },
   "S\u00f8rum, Norway": {
@@ -155398,9 +156253,9 @@
     ]
   },
   "Orekhovo-Zuyevo, Moskovskaya Oblast\u2019, Russia": {
-    "mean_dist": 374.3,
+    "mean_dist": 372.4,
     "mean_time": 6.4,
-    "std_dist": 355,
+    "std_dist": 351,
     "std_time": 1.6,
     "admin": "Moskovskaya Oblast\u2019",
     "country": "Russia",
@@ -155446,7 +156301,8 @@
       60.179,
       55.67,
       56.385,
-      56.463
+      56.463,
+      58.376
     ],
     "lons": [
       "x",
@@ -155489,10 +156345,11 @@
       39.921,
       37.39,
       32.84,
-      37.779
+      37.779,
+      37.85
     ],
-    "mean_lat": 54.623,
-    "mean_lon": 38.542,
+    "mean_lat": 54.794,
+    "mean_lon": 38.51,
     "true_lat": 55.82,
     "true_lon": 38.98,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Orekhovo-Zuyevo%2C+Russia&go=Go&ns0=1",
@@ -155537,7 +156394,8 @@
       "Kronoberg",
       "North Rhine-Westphalia",
       "Saarland",
-      "Saarland"
+      "Saarland",
+      "Berlin"
     ],
     "countries": [
       "Sweden",
@@ -155578,6 +156436,7 @@
       "Netherlands",
       "Finland",
       "Sweden",
+      "Germany",
       "Germany",
       "Germany",
       "Germany"
@@ -155623,7 +156482,8 @@
       487.8,
       100.8,
       385.7,
-      103.2
+      103.2,
+      292.3
     ],
     "times": [
       9.8,
@@ -155666,7 +156526,8 @@
       6,
       4.1,
       6.1,
-      6.8
+      6.8,
+      7
     ]
   },
   "Kaluga, Kaluzhskaya Oblast\u2019, Russia": {
@@ -156032,9 +156893,9 @@
     ]
   },
   "Albacete, Spain": {
-    "mean_dist": 401.5,
+    "mean_dist": 400.5,
     "mean_time": 6,
-    "std_dist": 522.9,
+    "std_dist": 520,
     "std_time": 1.9,
     "admin": "Castille-La Mancha",
     "country": "Spain",
@@ -156127,7 +156988,8 @@
       39.352,
       39.286,
       37.644,
-      40.966
+      40.966,
+      41.358
     ],
     "lons": [
       "x",
@@ -156217,10 +157079,11 @@
       -4.335,
       -3.043,
       -1.878,
-      -1.605
+      -1.605,
+      -3.905
     ],
-    "mean_lat": 40.36,
-    "mean_lon": -2.934,
+    "mean_lat": 40.381,
+    "mean_lon": -2.954,
     "true_lat": 39.0003,
     "true_lon": -1.87,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Albacete%2C+Spain&go=Go&ns0=1",
@@ -156312,6 +157175,7 @@
       "South Moravian",
       "Madrid",
       "Uusimaa",
+      "Trentino-Alto Adige",
       "Trentino-Alto Adige"
     ],
     "countries": [
@@ -156402,6 +157266,7 @@
       "Czech Republic",
       "Spain",
       "Finland",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -156492,7 +157357,8 @@
       216,
       106,
       150.7,
-      219.8
+      219.8,
+      314.1
     ],
     "times": [
       3.6,
@@ -156582,13 +157448,14 @@
       8.2,
       3.1,
       4.7,
-      7.7
+      7.7,
+      5.8
     ]
   },
   "Kolpino, Sankt-Peterburg, Russia": {
-    "mean_dist": 292.3,
+    "mean_dist": 286.8,
     "mean_time": 5.6,
-    "std_dist": 343.5,
+    "std_dist": 342.1,
     "std_time": 1.9,
     "admin": "Sankt-Peterburg",
     "country": "Russia",
@@ -156641,7 +157508,8 @@
       59.861,
       59.802,
       59.744,
-      51.484
+      51.484,
+      59.919
     ],
     "lons": [
       "x",
@@ -156691,10 +157559,11 @@
       30.603,
       30.373,
       29.971,
-      37.678
+      37.678,
+      30.776
     ],
-    "mean_lat": 57.582,
-    "mean_lon": 34.252,
+    "mean_lat": 57.738,
+    "mean_lon": 34.02,
     "true_lat": 59.73,
     "true_lon": 30.65,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kolpino%2C+Russia&go=Go&ns0=1",
@@ -156746,7 +157615,8 @@
       "California",
       "Aargau",
       "Trentino-Alto Adige",
-      "Madrid"
+      "Madrid",
+      "Aargau"
     ],
     "countries": [
       "Sweden",
@@ -156796,7 +157666,8 @@
       "United States",
       "Switzerland",
       "Italy",
-      "Spain"
+      "Spain",
+      "Switzerland"
     ],
     "dists": [
       25.6,
@@ -156846,7 +157717,8 @@
       14.8,
       17.4,
       38,
-      1016.2
+      1016.2,
+      22.1
     ],
     "times": [
       3.5,
@@ -156896,13 +157768,14 @@
       8.1,
       8.1,
       4.7,
-      5.9
+      5.9,
+      8.2
     ]
   },
   "Homyel\u2019, Belarus": {
-    "mean_dist": 347.3,
-    "mean_time": 5.6,
-    "std_dist": 321.2,
+    "mean_dist": 345.9,
+    "mean_time": 5.7,
+    "std_dist": 320.3,
     "std_time": 2.1,
     "admin": "Homyel\u2019skaya Voblasts\u2019",
     "country": "Belarus",
@@ -157029,7 +157902,8 @@
       52.937,
       47.674,
       56.221,
-      53.576
+      53.576,
+      53.698
     ],
     "lons": [
       "x",
@@ -157153,10 +158027,11 @@
       25.197,
       20.155,
       25.542,
-      29.907
+      29.907,
+      29.568
     ],
-    "mean_lat": 53.254,
-    "mean_lon": 27.678,
+    "mean_lat": 53.264,
+    "mean_lon": 27.72,
     "true_lat": 52.43,
     "true_lon": 31,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Homyel\u2019%2C+Belarus&go=Go&ns0=1",
@@ -157282,7 +158157,8 @@
       "Trentino-Alto Adige",
       "Madrid",
       "Hesse",
-      "Saarland"
+      "Saarland",
+      "Aargau"
     ],
     "countries": [
       "Sweden",
@@ -157406,7 +158282,8 @@
       "Italy",
       "Spain",
       "Germany",
-      "Germany"
+      "Germany",
+      "Switzerland"
     ],
     "dists": [
       377.3,
@@ -157530,7 +158407,8 @@
       395,
       936.1,
       550,
-      146.9
+      146.9,
+      170.3
     ],
     "times": [
       4.7,
@@ -157654,7 +158532,8 @@
       7,
       0.1,
       7.9,
-      7
+      7,
+      8.3
     ]
   },
   "Foc\u015fani, Romania": {
@@ -160170,9 +161049,9 @@
     ]
   },
   "Dijon, France": {
-    "mean_dist": 245.5,
+    "mean_dist": 242.5,
     "mean_time": 6.8,
-    "std_dist": 381.9,
+    "std_dist": 380.3,
     "std_time": 1.4,
     "admin": "Bourgogne-Franche-Comt\u00e9",
     "country": "France",
@@ -160251,7 +161130,8 @@
       44.985,
       50.28,
       48.434,
-      46.159
+      46.159,
+      47.426
     ],
     "lons": [
       "x",
@@ -160327,10 +161207,11 @@
       0.925,
       1.673,
       5.641,
-      2.42
+      2.42,
+      5.181
     ],
-    "mean_lat": 47.256,
-    "mean_lon": 4.113,
+    "mean_lat": 47.262,
+    "mean_lon": 4.149,
     "true_lat": 47.3304,
     "true_lon": 5.03,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Dijon%2C+France&go=Go&ns0=1",
@@ -160408,7 +161289,8 @@
       "Trentino-Alto Adige",
       "Gornja Radgona",
       "\u00cele-de-France",
-      "Madrid"
+      "Madrid",
+      "Aargau"
     ],
     "countries": [
       "Sweden",
@@ -160484,7 +161366,8 @@
       "Italy",
       "Slovenia",
       "France",
-      "Spain"
+      "Spain",
+      "Switzerland"
     ],
     "dists": [
       376.5,
@@ -160560,7 +161443,8 @@
       409.7,
       409.8,
       130.9,
-      237.6
+      237.6,
+      15.6
     ],
     "times": [
       7.9,
@@ -160636,7 +161520,8 @@
       3.8,
       6.5,
       5.3,
-      7.1
+      7.1,
+      7.9
     ]
   },
   "Tuzla, Bosnia And Herzegovina": {
@@ -161428,9 +162313,9 @@
     ]
   },
   "Trondheim, Norway": {
-    "mean_dist": 335.3,
+    "mean_dist": 332.1,
     "mean_time": 5.8,
-    "std_dist": 401.7,
+    "std_dist": 400.9,
     "std_time": 1.9,
     "admin": "",
     "country": "Norway",
@@ -161531,7 +162416,8 @@
       60.579,
       60.265,
       63.35,
-      46.849
+      46.849,
+      63.298
     ],
     "lons": [
       "x",
@@ -161629,10 +162515,11 @@
       7.079,
       5.296,
       9.955,
-      15.151
+      15.151,
+      9.898
     ],
-    "mean_lat": 60.258,
-    "mean_lon": 9.315,
+    "mean_lat": 60.359,
+    "mean_lon": 9.335,
     "true_lat": 63.4167,
     "true_lon": 10.4167,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Trondheim%2C+Norway&go=Go&ns0=1",
@@ -161732,7 +162619,8 @@
       "Madrid",
       "Aargau",
       "Aargau",
-      "Madrid"
+      "Madrid",
+      "Trentino-Alto Adige"
     ],
     "countries": [
       "Sweden",
@@ -161830,7 +162718,8 @@
       "Spain",
       "Switzerland",
       "Switzerland",
-      "Spain"
+      "Spain",
+      "Italy"
     ],
     "dists": [
       129.1,
@@ -161928,7 +162817,8 @@
       360.2,
       441.2,
       24.1,
-      1865.3
+      1865.3,
+      29
     ],
     "times": [
       2.4,
@@ -162026,14 +162916,15 @@
       6.3,
       7.8,
       7.2,
-      2.9
+      2.9,
+      6.3
     ]
   },
   "Ja\u00e9n, Spain": {
-    "mean_dist": 411.7,
+    "mean_dist": 412.1,
     "mean_time": 6.6,
-    "std_dist": 240,
-    "std_time": 1.7,
+    "std_dist": 238.4,
+    "std_time": 1.6,
     "admin": "Andalusia",
     "country": "Spain",
     "city": "Ja\u00e9n",
@@ -162109,7 +163000,8 @@
       38.641,
       42.733,
       39.869,
-      38.566
+      38.566,
+      41.662
     ],
     "lons": [
       "x",
@@ -162183,10 +163075,11 @@
       -3.656,
       -4.25,
       -1.954,
-      -1.95
+      -1.95,
+      -2.985
     ],
-    "mean_lat": 40.958,
-    "mean_lon": -3.203,
+    "mean_lat": 40.984,
+    "mean_lon": -3.195,
     "true_lat": 37.7704,
     "true_lon": -3.8,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ja\u00e9n%2C+Spain&go=Go&ns0=1",
@@ -162262,7 +163155,8 @@
       "Madrid",
       "Lower Saxony",
       "Bremen",
-      "Hamburg"
+      "Hamburg",
+      "England"
     ],
     "countries": [
       "Sweden",
@@ -162336,7 +163230,8 @@
       "Spain",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "United Kingdom"
     ],
     "dists": [
       306.2,
@@ -162410,7 +163305,8 @@
       97.6,
       553.1,
       282.9,
-      184.3
+      184.3,
+      438.2
     ],
     "times": [
       6.2,
@@ -162484,7 +163380,8 @@
       7.6,
       3.3,
       7.8,
-      5.7
+      5.7,
+      7.3
     ]
   },
   "Subotica, Serbia": {
@@ -163048,9 +163945,9 @@
     ]
   },
   "Szolnok, Hungary": {
-    "mean_dist": 177.5,
+    "mean_dist": 176.8,
     "mean_time": 6,
-    "std_dist": 173.5,
+    "std_dist": 171.8,
     "std_time": 2.1,
     "admin": "J\u00e1sz-Nagykun-Szolnok",
     "country": "Hungary",
@@ -163152,7 +164049,9 @@
       47.073,
       47.22,
       47.27,
-      48.408
+      48.408,
+      47.348,
+      47.152
     ],
     "lons": [
       "x",
@@ -163251,10 +164150,12 @@
       20.02,
       17.504,
       18.41,
-      20.557
+      20.557,
+      18.755,
+      17.777
     ],
-    "mean_lat": 47.387,
-    "mean_lon": 19.432,
+    "mean_lat": 47.382,
+    "mean_lon": 19.388,
     "true_lat": 47.1864,
     "true_lon": 20.1794,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Szolnok%2C+Hungary&go=Go&ns0=1",
@@ -163355,7 +164256,9 @@
       "Aargau",
       "Uusimaa",
       "Aargau",
-      "Madrid"
+      "Madrid",
+      "England",
+      "Trentino-Alto Adige"
     ],
     "countries": [
       "Sweden",
@@ -163454,7 +164357,9 @@
       "Switzerland",
       "Finland",
       "Switzerland",
-      "Spain"
+      "Spain",
+      "United Kingdom",
+      "Italy"
     ],
     "dists": [
       251.9,
@@ -163553,7 +164458,9 @@
       17.3,
       202,
       133.8,
-      138.8
+      138.8,
+      108.9,
+      181.5
     ],
     "times": [
       5.9,
@@ -163652,7 +164559,9 @@
       8.7,
       7.1,
       8.1,
-      0.5
+      0.5,
+      6.9,
+      6.7
     ]
   },
   "F\u00fcrth, Germany": {
@@ -164072,9 +164981,9 @@
     ]
   },
   "Pinsk, Belarus": {
-    "mean_dist": 308.3,
+    "mean_dist": 315.4,
     "mean_time": 6.4,
-    "std_dist": 220.6,
+    "std_dist": 230.3,
     "std_time": 1.7,
     "admin": "Brestskaya Voblasts\u2019",
     "country": "Belarus",
@@ -164176,7 +165085,8 @@
       54.715,
       53.215,
       54.679,
-      54.005
+      54.005,
+      52.82
     ],
     "lons": [
       "x",
@@ -164275,10 +165185,11 @@
       20.994,
       26.002,
       21.458,
-      27.152
+      27.152,
+      40.871
     ],
-    "mean_lat": 53.084,
-    "mean_lon": 27.072,
+    "mean_lat": 53.078,
+    "mean_lon": 27.409,
     "true_lat": 52.1279,
     "true_lon": 26.0941,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Pinsk%2C+Belarus&go=Go&ns0=1",
@@ -164379,7 +165290,8 @@
       "\u00d6sterg\u00f6tland",
       "Lower Saxony",
       "Hamburg",
-      "Madrid"
+      "Madrid",
+      "North Holland"
     ],
     "countries": [
       "Sweden",
@@ -164478,7 +165390,8 @@
       "Sweden",
       "Germany",
       "Germany",
-      "Spain"
+      "Spain",
+      "Netherlands"
     ],
     "dists": [
       241,
@@ -164577,7 +165490,8 @@
       443.6,
       121.1,
       418,
-      220.3
+      220.3,
+      1002
     ],
     "times": [
       5.7,
@@ -164676,7 +165590,8 @@
       5.7,
       4.6,
       4.8,
-      6.5
+      6.5,
+      4.3
     ]
   },
   "Tetovo, Macedonia": {
@@ -165632,10 +166547,10 @@
     ]
   },
   "Gij\u00f3n, Spain": {
-    "mean_dist": 440,
+    "mean_dist": 440.2,
     "mean_time": 6.4,
-    "std_dist": 546.3,
-    "std_time": 1.9,
+    "std_dist": 543.7,
+    "std_time": 1.8,
     "admin": "Asturias",
     "country": "Spain",
     "city": "Gij\u00f3n",
@@ -165745,7 +166660,8 @@
       43.409,
       43.622,
       38.445,
-      38.021
+      38.021,
+      41.402
     ],
     "lons": [
       "x",
@@ -165853,10 +166769,11 @@
       -5.343,
       -7.648,
       -2.793,
-      -1.432
+      -1.432,
+      -0.915
     ],
-    "mean_lat": 41.702,
-    "mean_lon": -2.752,
+    "mean_lat": 41.692,
+    "mean_lon": -2.687,
     "true_lat": 43.53,
     "true_lon": -5.67,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Gij\u00f3n%2C+Spain&go=Go&ns0=1",
@@ -165966,7 +166883,8 @@
       "Madrid",
       "South Moravian",
       "Madrid",
-      "Leinster"
+      "Leinster",
+      "England"
     ],
     "countries": [
       "United States",
@@ -166074,7 +166992,8 @@
       "Spain",
       "Czech Republic",
       "Spain",
-      "Ireland"
+      "Ireland",
+      "United Kingdom"
     ],
     "dists": [
       448.6,
@@ -166182,7 +167101,8 @@
       29.5,
       159.6,
       614.6,
-      708.6
+      708.6,
+      456
     ],
     "times": [
       2.4,
@@ -166290,7 +167210,8 @@
       7.1,
       7.3,
       0.7,
-      6.5
+      6.5,
+      7.7
     ]
   },
   "Antwerp, Belgium": {
@@ -167956,9 +168877,9 @@
     ]
   },
   "Groningen, Netherlands": {
-    "mean_dist": 184.1,
+    "mean_dist": 179.7,
     "mean_time": 6.1,
-    "std_dist": 377.2,
+    "std_dist": 372.9,
     "std_time": 1.8,
     "admin": "Groningen",
     "country": "Netherlands",
@@ -168105,7 +169026,11 @@
       55.93,
       52.751,
       52.693,
-      52.104
+      52.104,
+      53.007,
+      53.195,
+      53.111,
+      53.082
     ],
     "lons": [
       "x",
@@ -168249,10 +169174,14 @@
       24.092,
       6.973,
       5.354,
-      5.258
+      5.258,
+      6.677,
+      6.539,
+      6.504,
+      5.967
     ],
-    "mean_lat": 52.83,
-    "mean_lon": 6.353,
+    "mean_lat": 52.85,
+    "mean_lon": 6.358,
     "true_lat": 53.2204,
     "true_lon": 6.58,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Groningen%2C+Netherlands&go=Go&ns0=1",
@@ -168398,7 +169327,11 @@
       "Madrid",
       "Madrid",
       "Madrid",
-      "Madrid"
+      "Madrid",
+      "Utrecht",
+      "North Holland",
+      "North Holland",
+      "North Holland"
     ],
     "countries": [
       "United States",
@@ -168542,7 +169475,11 @@
       "Spain",
       "Spain",
       "Spain",
-      "Spain"
+      "Spain",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       162.3,
@@ -168686,7 +169623,11 @@
       1164.7,
       58.3,
       100.8,
-      152.7
+      152.7,
+      24.5,
+      3.9,
+      13,
+      43.5
     ],
     "times": [
       6.9,
@@ -168830,7 +169771,11 @@
       6.5,
       5.5,
       5.4,
-      6.3
+      6.3,
+      5.9,
+      4.4,
+      4.3,
+      6.5
     ]
   },
   "Norwich, United Kingdom": {
@@ -171160,9 +172105,9 @@
     ]
   },
   "Kherson, Ukraine": {
-    "mean_dist": 469.4,
+    "mean_dist": 475.5,
     "mean_time": 6.6,
-    "std_dist": 289.2,
+    "std_dist": 290,
     "std_time": 1.5,
     "admin": "Khersons\u2019ka Oblast\u2019",
     "country": "Ukraine",
@@ -171220,7 +172165,8 @@
       49.61,
       49.722,
       49.347,
-      50.87
+      50.87,
+      53.526
     ],
     "lons": [
       "x",
@@ -171275,10 +172221,11 @@
       31.984,
       29.511,
       31.754,
-      30.312
+      30.312,
+      29.396
     ],
-    "mean_lat": 49.029,
-    "mean_lon": 31.055,
+    "mean_lat": 49.265,
+    "mean_lon": 30.968,
     "true_lat": 46.6325,
     "true_lon": 32.6007,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kherson%2C+Ukraine&go=Go&ns0=1",
@@ -171335,7 +172282,8 @@
       "California",
       "Madrid",
       "England",
-      "South Moravian"
+      "South Moravian",
+      "England"
     ],
     "countries": [
       "Sweden",
@@ -171390,7 +172338,8 @@
       "United States",
       "Spain",
       "United Kingdom",
-      "Czech Republic"
+      "Czech Republic",
+      "United Kingdom"
     ],
     "dists": [
       454.7,
@@ -171445,7 +172394,8 @@
       334.2,
       412.8,
       308.3,
-      500.1
+      500.1,
+      799.7
     ],
     "times": [
       5.6,
@@ -171500,7 +172450,8 @@
       2.3,
       6.6,
       7.9,
-      8
+      8,
+      6.4
     ]
   },
   "Logro\u00f1o, Spain": {
@@ -175732,9 +176683,9 @@
     ]
   },
   "Lysychans\u2019k, Ukraine": {
-    "mean_dist": 628.4,
+    "mean_dist": 627.7,
     "mean_time": 6.2,
-    "std_dist": 401.5,
+    "std_dist": 398.8,
     "std_time": 1.9,
     "admin": "Luhans\u2019ka Oblast\u2019",
     "country": "Ukraine",
@@ -175811,7 +176762,8 @@
       49.246,
       44.002,
       49.422,
-      48.472
+      48.472,
+      50.428
     ],
     "lons": [
       "x",
@@ -175885,10 +176837,11 @@
       30.527,
       27.147,
       30.546,
-      39.461
+      39.461,
+      30.718
     ],
-    "mean_lat": 48.996,
-    "mean_lon": 31.872,
+    "mean_lat": 49.053,
+    "mean_lon": 31.825,
     "true_lat": 48.9204,
     "true_lon": 38.4274,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Lysychans\u2019k%2C+Ukraine&go=Go&ns0=1",
@@ -175964,7 +176917,8 @@
       "North Holland",
       "Madrid",
       "Madrid",
-      "Aargau"
+      "Aargau",
+      "England"
     ],
     "countries": [
       "Canada",
@@ -176038,7 +176992,8 @@
       "Netherlands",
       "Spain",
       "Spain",
-      "Switzerland"
+      "Switzerland",
+      "United Kingdom"
     ],
     "dists": [
       880.6,
@@ -176112,7 +177067,8 @@
       576.2,
       1020.8,
       575.3,
-      90.7
+      90.7,
+      579.1
     ],
     "times": [
       2.6,
@@ -176186,7 +177142,8 @@
       7.8,
       6.8,
       5.9,
-      7.9
+      7.9,
+      6.4
     ]
   },
   "Le Mans, France": {
@@ -180532,9 +181489,9 @@
     ]
   },
   "Stoke-on-Trent, United Kingdom": {
-    "mean_dist": 136.9,
-    "mean_time": 6.4,
-    "std_dist": 97.9,
+    "mean_dist": 134.8,
+    "mean_time": 6.5,
+    "std_dist": 95.4,
     "std_time": 1.4,
     "admin": "Stoke-on-Trent",
     "country": "United Kingdom",
@@ -180609,7 +181566,12 @@
       52.45,
       52.234,
       53.114,
-      52.669
+      52.669,
+      54.039,
+      54.511,
+      52.446,
+      52.56,
+      53.146
     ],
     "lons": [
       "x",
@@ -180681,10 +181643,15 @@
       -1.379,
       -1.432,
       -0.631,
-      -8.603
+      -8.603,
+      -1.72,
+      -2.237,
+      -1.03,
+      -1.503,
+      -1.145
     ],
-    "mean_lat": 53.499,
-    "mean_lon": -2.231,
+    "mean_lat": 53.473,
+    "mean_lon": -2.114,
     "true_lat": 53.0004,
     "true_lon": -2.18,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Stoke-on-Trent%2C+United Kingdom&go=Go&ns0=1",
@@ -180758,7 +181725,12 @@
       "Bremen",
       "Hamburg",
       "South Moravian",
-      "Madrid"
+      "Madrid",
+      "North Holland",
+      "North Holland",
+      "Groningen",
+      "North Holland",
+      "North Holland"
     ],
     "countries": [
       "United Kingdom",
@@ -180830,7 +181802,12 @@
       "Germany",
       "Germany",
       "Czech Republic",
-      "Spain"
+      "Spain",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       23,
@@ -180902,7 +181879,12 @@
       81.5,
       98.9,
       104.2,
-      432.8
+      432.8,
+      119.4,
+      168.1,
+      98.9,
+      66.7,
+      71
     ],
     "times": [
       7.3,
@@ -180974,13 +181956,18 @@
       7.6,
       8.3,
       5.3,
-      7.1
+      7.1,
+      7.5,
+      6.1,
+      8,
+      6.7,
+      7.4
     ]
   },
   "Chernihiv, Ukraine": {
-    "mean_dist": 387.9,
-    "mean_time": 6.3,
-    "std_dist": 235.9,
+    "mean_dist": 395.1,
+    "mean_time": 6.4,
+    "std_dist": 236.4,
     "std_time": 1.9,
     "admin": "Chernihivs\u2019ka Oblast\u2019",
     "country": "Ukraine",
@@ -181072,7 +182059,11 @@
       50.132,
       49.161,
       48.299,
-      49.384
+      49.384,
+      49.006,
+      48.949,
+      50.243,
+      50.648
     ],
     "lons": [
       "x",
@@ -181161,10 +182152,14 @@
       34.802,
       33.475,
       33.913,
-      24.852
+      24.852,
+      25.254,
+      37.505,
+      35.435,
+      19.215
     ],
-    "mean_lat": 49.607,
-    "mean_lon": 31.007,
+    "mean_lat": 49.619,
+    "mean_lon": 30.823,
     "true_lat": 51.5049,
     "true_lon": 31.3015,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Chernihiv%2C+Ukraine&go=Go&ns0=1",
@@ -181255,7 +182250,11 @@
       "Aargau",
       "South Moravian",
       "Madrid",
-      "England"
+      "England",
+      "Berlin",
+      "Hesse",
+      "Aargau",
+      "Berlin"
     ],
     "countries": [
       "United Kingdom",
@@ -181344,7 +182343,11 @@
       "Switzerland",
       "Czech Republic",
       "Spain",
-      "United Kingdom"
+      "United Kingdom",
+      "Germany",
+      "Germany",
+      "Switzerland",
+      "Germany"
     ],
     "dists": [
       395.1,
@@ -181433,7 +182436,11 @@
       289.4,
       302.8,
       402.5,
-      513.6
+      513.6,
+      511.5,
+      524.6,
+      322.1,
+      848.6
     ],
     "times": [
       6.8,
@@ -181522,7 +182529,11 @@
       8,
       8.2,
       6.9,
-      5.1
+      5.1,
+      5.6,
+      7.3,
+      7.7,
+      6
     ]
   },
   "Stara Zagora, Bulgaria": {
@@ -186586,9 +187597,9 @@
     ]
   },
   "Pamplona, Spain": {
-    "mean_dist": 358.6,
+    "mean_dist": 393.8,
     "mean_time": 5.9,
-    "std_dist": 445.3,
+    "std_dist": 559.9,
     "std_time": 1.8,
     "admin": "Navarre",
     "country": "Spain",
@@ -186688,7 +187699,8 @@
       46.856,
       50.217,
       43.114,
-      39.465
+      39.465,
+      50.879
     ],
     "lons": [
       "x",
@@ -186785,10 +187797,11 @@
       6.389,
       41.277,
       -2.065,
-      -2.065
+      -2.065,
+      46.958
     ],
-    "mean_lat": 42,
-    "mean_lon": -0.238,
+    "mean_lat": 42.286,
+    "mean_lon": 1.283,
     "true_lat": 42.82,
     "true_lon": -1.65,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Pamplona%2C+Spain&go=Go&ns0=1",
@@ -186887,7 +187900,8 @@
       "North Rhine-Westphalia",
       "Baden-W\u00fcrttemberg",
       "Aargau",
-      "Trentino-Alto Adige"
+      "Trentino-Alto Adige",
+      "North Holland"
     ],
     "countries": [
       "United Kingdom",
@@ -186984,7 +187998,8 @@
       "Germany",
       "Germany",
       "Switzerland",
-      "Italy"
+      "Italy",
+      "Netherlands"
     ],
     "dists": [
       113.2,
@@ -187081,7 +188096,8 @@
       776,
       3336.2,
       47,
-      374.6
+      374.6,
+      3731.5
     ],
     "times": [
       5.2,
@@ -187178,7 +188194,8 @@
       7.1,
       2.5,
       8.1,
-      5
+      5,
+      7.5
     ]
   },
   "Ulm, Germany": {
@@ -197239,9 +198256,9 @@
     ]
   },
   "Kielce, Poland": {
-    "mean_dist": 245.9,
+    "mean_dist": 243.7,
     "mean_time": 6.6,
-    "std_dist": 278.4,
+    "std_dist": 277.4,
     "std_time": 1.9,
     "admin": "\u015awi\u0119tokrzyskie",
     "country": "Poland",
@@ -197327,7 +198344,8 @@
       51.465,
       53.215,
       53.816,
-      44.615
+      44.615,
+      50.317
     ],
     "lons": [
       "x",
@@ -197410,10 +198428,11 @@
       19.591,
       17.95,
       16.794,
-      43.717
+      43.717,
+      20.826
     ],
-    "mean_lat": 51.325,
-    "mean_lon": 20.927,
+    "mean_lat": 51.283,
+    "mean_lon": 20.922,
     "true_lat": 50.8904,
     "true_lon": 20.66,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kielce%2C+Poland&go=Go&ns0=1",
@@ -197498,7 +198517,8 @@
       "Madrid",
       "Hesse",
       "Saarland",
-      "Leinster"
+      "Leinster",
+      "Aargau"
     ],
     "countries": [
       "United Kingdom",
@@ -197581,7 +198601,8 @@
       "Spain",
       "Germany",
       "Germany",
-      "Ireland"
+      "Ireland",
+      "Switzerland"
     ],
     "dists": [
       317.1,
@@ -197664,7 +198685,8 @@
       98.1,
       318,
       417.9,
-      1849.9
+      1849.9,
+      64.7
     ],
     "times": [
       7.4,
@@ -197747,7 +198769,8 @@
       7.1,
       8,
       5.2,
-      8.1
+      8.1,
+      7.9
     ]
   },
   "Elbasan, Albania": {
@@ -198371,9 +199394,9 @@
     ]
   },
   "Charleroi, Belgium": {
-    "mean_dist": 101.7,
+    "mean_dist": 100.4,
     "mean_time": 6.1,
-    "std_dist": 246.3,
+    "std_dist": 243.5,
     "std_time": 1.9,
     "admin": "Wallonia",
     "country": "Belgium",
@@ -198460,7 +199483,9 @@
       50.831,
       50.038,
       50.831,
-      50.831
+      50.831,
+      50.904,
+      50.206
     ],
     "lons": [
       "x",
@@ -198544,10 +199569,12 @@
       4.894,
       5.097,
       4.606,
-      4.664
+      4.664,
+      4.261,
+      4.951
     ],
-    "mean_lat": 50.45,
-    "mean_lon": 4.706,
+    "mean_lat": 50.455,
+    "mean_lon": 4.701,
     "true_lat": 50.4204,
     "true_lon": 4.45,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Charleroi%2C+Belgium&go=Go&ns0=1",
@@ -198633,7 +199660,9 @@
       "South Moravian",
       "South Moravian",
       "Madrid",
-      "Madrid"
+      "Madrid",
+      "England",
+      "Aargau"
     ],
     "countries": [
       "United Kingdom",
@@ -198717,7 +199746,9 @@
       "Czech Republic",
       "Czech Republic",
       "Spain",
-      "Spain"
+      "Spain",
+      "United Kingdom",
+      "Switzerland"
     ],
     "dists": [
       23.7,
@@ -198801,7 +199832,9 @@
       55.4,
       62.6,
       47,
-      48.1
+      48.1,
+      55.4,
+      42.8
     ],
     "times": [
       6.8,
@@ -198885,7 +199918,9 @@
       7.1,
       8,
       4.4,
-      5.3
+      5.3,
+      7.1,
+      7.9
     ]
   },
   "Le Havre, France": {
@@ -200197,9 +201232,9 @@
     ]
   },
   "Coimbra, Portugal": {
-    "mean_dist": 146.1,
+    "mean_dist": 159.2,
     "mean_time": 6.6,
-    "std_dist": 294.8,
+    "std_dist": 327.8,
     "std_time": 1.5,
     "admin": "Coimbra",
     "country": "Portugal",
@@ -200328,7 +201363,8 @@
       37.723,
       39.887,
       40.572,
-      39.082
+      39.082,
+      56.214
     ],
     "lons": [
       "x",
@@ -200454,10 +201490,11 @@
       -8.878,
       -8.361,
       -7.586,
-      -8.282
+      -8.282,
+      -9.875
     ],
-    "mean_lat": 39.85,
-    "mean_lon": -8.312,
+    "mean_lat": 40.214,
+    "mean_lon": -8.347,
     "true_lat": 40.2004,
     "true_lon": -8.4167,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Coimbra%2C+Portugal&go=Go&ns0=1",
@@ -200585,7 +201622,8 @@
       "Madrid",
       "Madrid",
       "Hesse",
-      "Saarland"
+      "Saarland",
+      "North Holland"
     ],
     "countries": [
       "United Kingdom",
@@ -200711,7 +201749,8 @@
       "Spain",
       "Spain",
       "Germany",
-      "Germany"
+      "Germany",
+      "Netherlands"
     ],
     "dists": [
       23.9,
@@ -200837,7 +201876,8 @@
       278.2,
       35.1,
       81.5,
-      124.7
+      124.7,
+      1783.8
     ],
     "times": [
       6.9,
@@ -200963,13 +202003,14 @@
       6.1,
       5.9,
       8.2,
-      4.7
+      4.7,
+      7.8
     ]
   },
   "Orsha, Belarus": {
-    "mean_dist": 422.5,
+    "mean_dist": 420.4,
     "mean_time": 6.1,
-    "std_dist": 476,
+    "std_dist": 473.8,
     "std_time": 2.2,
     "admin": "Vitsyebskaya Voblasts\u2019",
     "country": "Belarus",
@@ -201065,7 +202106,8 @@
       59.156,
       53.465,
       52.164,
-      47.033
+      47.033,
+      52.902
     ],
     "lons": [
       "x",
@@ -201158,10 +202200,11 @@
       9.84,
       28.405,
       30.431,
-      3.053
+      3.053,
+      28.073
     ],
-    "mean_lat": 53.578,
-    "mean_lon": 25.73,
+    "mean_lat": 53.55,
+    "mean_lon": 25.827,
     "true_lat": 54.5153,
     "true_lon": 30.4215,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Orsha%2C+Belarus&go=Go&ns0=1",
@@ -201256,7 +202299,8 @@
       "California",
       "Utrecht",
       "California",
-      "England"
+      "England",
+      "Aargau"
     ],
     "countries": [
       "United Kingdom",
@@ -201349,7 +202393,8 @@
       "United States",
       "Netherlands",
       "United States",
-      "United Kingdom"
+      "United Kingdom",
+      "Switzerland"
     ],
     "dists": [
       324.7,
@@ -201442,7 +202487,8 @@
       1347.1,
       176,
       261.4,
-      2079.4
+      2079.4,
+      236.6
     ],
     "times": [
       6.6,
@@ -201535,7 +202581,8 @@
       0.8,
       5.5,
       8,
-      7.5
+      7.5,
+      8.1
     ]
   },
   "Balakovo, Saratovskaya Oblast\u2019, Russia": {
@@ -204931,9 +205978,9 @@
     ]
   },
   "A Coru\u00f1a, Spain": {
-    "mean_dist": 390.5,
+    "mean_dist": 385.9,
     "mean_time": 6.5,
-    "std_dist": 377.2,
+    "std_dist": 375.8,
     "std_time": 1.4,
     "admin": "Galicia",
     "country": "Spain",
@@ -204997,7 +206044,8 @@
       43.072,
       47.348,
       37.793,
-      43.114
+      43.114,
+      42.392
     ],
     "lons": [
       "x",
@@ -205058,10 +206106,11 @@
       -9.139,
       16.454,
       -4.711,
-      -9.024
+      -9.024,
+      -8.909
     ],
-    "mean_lat": 41.514,
-    "mean_lon": -3.374,
+    "mean_lat": 41.561,
+    "mean_lon": -3.666,
     "true_lat": 43.33,
     "true_lon": -8.42,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=A Coru\u00f1a%2C+Spain&go=Go&ns0=1",
@@ -205124,7 +206173,8 @@
       "Aargau",
       "Berlin",
       "Berlin",
-      "Madrid"
+      "Madrid",
+      "Aargau"
     ],
     "countries": [
       "United Kingdom",
@@ -205185,7 +206235,8 @@
       "Switzerland",
       "Germany",
       "Germany",
-      "Spain"
+      "Spain",
+      "Switzerland"
     ],
     "dists": [
       312,
@@ -205246,7 +206297,8 @@
       65,
       1985.7,
       690.6,
-      54.5
+      54.5,
+      111.6
     ],
     "times": [
       5.6,
@@ -205307,7 +206359,8 @@
       8.3,
       7.8,
       6.2,
-      5.8
+      5.8,
+      8.2
     ]
   },
   "Rostock, Germany": {
@@ -208894,10 +209947,10 @@
     ]
   },
   "Zl\u00edn, Czechia": {
-    "mean_dist": 165.1,
-    "mean_time": 6,
-    "std_dist": 100.6,
-    "std_time": 1.9,
+    "mean_dist": 169.5,
+    "mean_time": 5.8,
+    "std_dist": 120.5,
+    "std_time": 2.1,
     "admin": "Zl\u00ednsk\u00fd Kraj",
     "country": "Czechia",
     "city": "Zl\u00edn",
@@ -209001,7 +210054,17 @@
       49.082,
       47.361,
       49.909,
-      49.722
+      49.722,
+      48.587,
+      49.497,
+      48.74,
+      49.731,
+      49.535,
+      49.497,
+      45.352,
+      48.946,
+      49.46,
+      49.878
     ],
     "lons": [
       "x",
@@ -209103,10 +210166,20 @@
       19.587,
       15.457,
       15.016,
-      17.547
+      17.547,
+      18.525,
+      15.937,
+      18.698,
+      15.003,
+      16.109,
+      16.167,
+      28.418,
+      20.366,
+      15.994,
+      15.86
     ],
-    "mean_lat": 49.25,
-    "mean_lon": 16.032,
+    "mean_lat": 49.192,
+    "mean_lon": 16.396,
     "true_lat": 49.2304,
     "true_lon": 17.65,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Zl\u00edn%2C+Czechia&go=Go&ns0=1",
@@ -209210,7 +210283,17 @@
       "Madrid",
       "Madrid",
       "Madrid",
-      "Madrid"
+      "Madrid",
+      "North Holland",
+      "North Holland",
+      "Groningen",
+      "North Holland",
+      "North Holland",
+      "North Holland",
+      "Utrecht",
+      "North Holland",
+      "North Holland",
+      "North Holland"
     ],
     "countries": [
       "United Kingdom",
@@ -209312,7 +210395,17 @@
       "Spain",
       "Spain",
       "Spain",
-      "Spain"
+      "Spain",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       341.7,
@@ -209414,7 +210507,17 @@
       141.8,
       263.5,
       204.3,
-      55.2
+      55.2,
+      95.9,
+      127.5,
+      93.8,
+      199.1,
+      116.5,
+      111.4,
+      918.3,
+      200.2,
+      122.6,
+      147.8
     ],
     "times": [
       6.9,
@@ -209516,7 +210619,17 @@
       4.1,
       3.3,
       5.3,
-      5.9
+      5.9,
+      6.6,
+      4,
+      6.4,
+      6.4,
+      6.6,
+      6.2,
+      1.6,
+      0.3,
+      3.8,
+      0.4
     ]
   },
   "Ivano-Frankivs\u2019k, Ukraine": {
@@ -210235,9 +211348,9 @@
     ]
   },
   "Mostar, Bosnia And Herzegovina": {
-    "mean_dist": 207.5,
-    "mean_time": 5.7,
-    "std_dist": 330.2,
+    "mean_dist": 206,
+    "mean_time": 5.8,
+    "std_dist": 328.9,
     "std_time": 2,
     "admin": "Bosnia and Herzegovina, Federation of",
     "country": "Bosnia And Herzegovina",
@@ -210345,7 +211458,8 @@
       44.45,
       53.215,
       43.911,
-      41.402
+      41.402,
+      43.786
     ],
     "lons": [
       "x",
@@ -210450,9 +211564,10 @@
       17.547,
       6.159,
       18.87,
-      26.405
+      26.405,
+      18.122
     ],
-    "mean_lat": 44.471,
+    "mean_lat": 44.46,
     "mean_lon": 18.139,
     "true_lat": 43.3505,
     "true_lon": 17.82,
@@ -210560,7 +211675,8 @@
       "Aargau",
       "Madrid",
       "Madrid",
-      "Madrid"
+      "Madrid",
+      "Aargau"
     ],
     "countries": [
       "United Kingdom",
@@ -210665,7 +211781,8 @@
       "Switzerland",
       "Spain",
       "Spain",
-      "Spain"
+      "Spain",
+      "Switzerland"
     ],
     "dists": [
       64.6,
@@ -210770,7 +211887,8 @@
       124.2,
       1391.9,
       105,
-      737.3
+      737.3,
+      54.2
     ],
     "times": [
       7.4,
@@ -210875,7 +211993,8 @@
       8,
       5.6,
       0.2,
-      6.2
+      6.2,
+      8.3
     ]
   },
   "Vyborg, Leningradskaya Oblast\u2019, Russia": {
@@ -211887,9 +213006,9 @@
     ]
   },
   "Graz, Austria": {
-    "mean_dist": 210.3,
+    "mean_dist": 206.9,
     "mean_time": 5.8,
-    "std_dist": 237.4,
+    "std_dist": 230.7,
     "std_time": 1.7,
     "admin": "Steiermark",
     "country": "Austria",
@@ -211987,7 +213106,14 @@
       47.305,
       47.544,
       47.855,
-      47.874
+      47.874,
+      47.426,
+      47.152,
+      47.7,
+      47.903,
+      47.073,
+      47.23,
+      46.836
     ],
     "lons": [
       "x",
@@ -212082,10 +213208,17 @@
       12.554,
       13.176,
       15.132,
-      14.242
+      14.242,
+      13.694,
+      12.486,
+      13.233,
+      12.99,
+      15.534,
+      11.163,
+      14.671
     ],
-    "mean_lat": 47.677,
-    "mean_lon": 12.741,
+    "mean_lat": 47.63,
+    "mean_lon": 12.829,
     "true_lat": 47.0778,
     "true_lon": 15.41,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Graz%2C+Austria&go=Go&ns0=1",
@@ -212182,7 +213315,14 @@
       "Madrid",
       "Madrid",
       "Madrid",
-      "Madrid"
+      "Madrid",
+      "North Holland",
+      "North Holland",
+      "Groningen",
+      "North Holland",
+      "North Holland",
+      "North Holland",
+      "Aargau"
     ],
     "countries": [
       "United Kingdom",
@@ -212277,7 +213417,14 @@
       "Spain",
       "Spain",
       "Spain",
-      "Spain"
+      "Spain",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       148.6,
@@ -212372,7 +213519,14 @@
       217.2,
       176.1,
       88.9,
-      124.6
+      124.6,
+      135.1,
+      221.3,
+      177.8,
+      203.6,
+      9.4,
+      321.5,
+      62.1
     ],
     "times": [
       5.8,
@@ -212467,13 +213621,20 @@
       4.3,
       4.3,
       5.9,
-      6.3
+      6.3,
+      5.5,
+      4.8,
+      8,
+      4.9,
+      7.7,
+      3.8,
+      8.1
     ]
   },
   "Ferrara, Italy": {
-    "mean_dist": 254.8,
+    "mean_dist": 252.3,
     "mean_time": 6.1,
-    "std_dist": 387.9,
+    "std_dist": 384.8,
     "std_time": 2,
     "admin": "Emilia-Romagna",
     "country": "Italy",
@@ -212533,7 +213694,8 @@
       41.885,
       45.271,
       42.392,
-      44.091
+      44.091,
+      45.393
     ],
     "lons": [
       "x",
@@ -212590,10 +213752,11 @@
       13.315,
       10.358,
       11.623,
-      11.029
+      11.029,
+      10.358
     ],
-    "mean_lat": 43.623,
-    "mean_lon": 13.382,
+    "mean_lat": 43.703,
+    "mean_lon": 13.245,
     "true_lat": 44.8504,
     "true_lon": 11.6099,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ferrara%2C+Italy&go=Go&ns0=1",
@@ -212652,7 +213815,8 @@
       "Oregon",
       "Madrid",
       "Madrid",
-      "Madrid"
+      "Madrid",
+      "England"
     ],
     "countries": [
       "United Kingdom",
@@ -212709,7 +213873,8 @@
       "United States",
       "Spain",
       "Spain",
-      "Spain"
+      "Spain",
+      "United Kingdom"
     ],
     "dists": [
       356.3,
@@ -212766,7 +213931,8 @@
       357.3,
       108.8,
       273.3,
-      96
+      96,
+      115.2
     ],
     "times": [
       7.5,
@@ -212823,7 +213989,8 @@
       5.5,
       3.8,
       7.8,
-      1.4
+      1.4,
+      6.7
     ]
   },
   "Lucerne, Switzerland": {
@@ -214195,9 +215362,9 @@
     ]
   },
   "Luts\u2019k, Ukraine": {
-    "mean_dist": 526.2,
+    "mean_dist": 520.1,
     "mean_time": 6.7,
-    "std_dist": 341.1,
+    "std_dist": 338.6,
     "std_time": 1.5,
     "admin": "Volyns\u2019ka Oblast\u2019",
     "country": "Ukraine",
@@ -214261,7 +215428,9 @@
       48.72,
       49.309,
       50.187,
-      47.777
+      47.777,
+      48.626,
+      49.685
     ],
     "lons": [
       "x",
@@ -214322,10 +215491,12 @@
       32.417,
       29.568,
       24.768,
-      35.147
+      35.147,
+      31.696,
+      26.922
     ],
-    "mean_lat": 49.688,
-    "mean_lon": 33.951,
+    "mean_lat": 49.617,
+    "mean_lon": 33.332,
     "true_lat": 50.7472,
     "true_lon": 25.3334,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Luts\u2019k%2C+Ukraine&go=Go&ns0=1",
@@ -214388,7 +215559,9 @@
       "Buenos Aires F.D.",
       "Madrid",
       "\u00d8stfold",
-      "\u00d8stfold"
+      "\u00d8stfold",
+      "England",
+      "Trentino-Alto Adige"
     ],
     "countries": [
       "United Kingdom",
@@ -214449,7 +215622,9 @@
       "Argentina",
       "Spain",
       "Norway",
-      "Norway"
+      "Norway",
+      "United Kingdom",
+      "Italy"
     ],
     "dists": [
       129.6,
@@ -214510,7 +215685,9 @@
       556.5,
       342,
       74,
-      784.1
+      784.1,
+      514.7,
+      163.4
     ],
     "times": [
       7.1,
@@ -214571,7 +215748,9 @@
       7.5,
       5.1,
       6.6,
-      7.6
+      7.6,
+      7.8,
+      7.7
     ]
   },
   "Nusaybin, Turkey": {
@@ -219459,9 +220638,9 @@
     ]
   },
   "Piatra Neam\u0163, Romania": {
-    "mean_dist": 259.2,
+    "mean_dist": 258.6,
     "mean_time": 5.8,
-    "std_dist": 166.7,
+    "std_dist": 165.9,
     "std_time": 2.1,
     "admin": "Neam\u0163",
     "country": "Romania",
@@ -219562,7 +220741,8 @@
       45.897,
       44.615,
       46.657,
-      45.433
+      45.433,
+      45.148
     ],
     "lons": [
       "x",
@@ -219660,10 +220840,11 @@
       26.953,
       26.347,
       25.803,
-      27.383
+      27.383,
+      26.002
     ],
-    "mean_lat": 46.091,
-    "mean_lon": 24.514,
+    "mean_lat": 46.067,
+    "mean_lon": 24.551,
     "true_lat": 46.94,
     "true_lon": 26.383,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Piatra Neam\u0163%2C+Romania&go=Go&ns0=1",
@@ -219763,7 +220944,8 @@
       "\u00d8stfold",
       "\u00d8stfold",
       "Madrid",
-      "Gornja Radgona"
+      "Gornja Radgona",
+      "England"
     ],
     "countries": [
       "United Kingdom",
@@ -219861,7 +221043,8 @@
       "Norway",
       "Norway",
       "Spain",
-      "Slovenia"
+      "Slovenia",
+      "United Kingdom"
     ],
     "dists": [
       249.3,
@@ -219959,7 +221142,8 @@
       123.8,
       258.4,
       54.1,
-      184.3
+      184.3,
+      201.3
     ],
     "times": [
       7.4,
@@ -220057,7 +221241,8 @@
       6.2,
       7.2,
       5.9,
-      5.9
+      5.9,
+      6
     ]
   },
   "Volzhskiy, Volgogradskaya Oblast\u2019, Russia": {
@@ -221273,9 +222458,9 @@
     ]
   },
   "M\u00fcnster, Germany": {
-    "mean_dist": 182.5,
+    "mean_dist": 179.4,
     "mean_time": 6.9,
-    "std_dist": 238.6,
+    "std_dist": 237.4,
     "std_time": 1.2,
     "admin": "North Rhine-Westphalia",
     "country": "Germany",
@@ -221331,7 +222516,8 @@
       48.626,
       50.758,
       51.771,
-      52.552
+      52.552,
+      51.95
     ],
     "lons": [
       "x",
@@ -221384,10 +222570,11 @@
       12.026,
       8.057,
       7.079,
-      8.402
+      8.402,
+      7.942
     ],
-    "mean_lat": 51.511,
-    "mean_lon": 8.546,
+    "mean_lat": 51.533,
+    "mean_lon": 8.516,
     "true_lat": 51.9704,
     "true_lon": 7.62,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=M\u00fcnster%2C+Germany&go=Go&ns0=1",
@@ -221442,6 +222629,7 @@
       "\u00d8stfold",
       "North Holland",
       "Berlin",
+      "Berlin",
       "Berlin"
     ],
     "countries": [
@@ -221494,6 +222682,7 @@
       "Norway",
       "Norway",
       "Netherlands",
+      "Germany",
       "Germany",
       "Germany"
     ],
@@ -221548,7 +222737,8 @@
       485.8,
       138.1,
       43.1,
-      83.8
+      83.8,
+      22.2
     ],
     "times": [
       6.9,
@@ -221601,13 +222791,14 @@
       4.5,
       7,
       6.5,
-      5.3
+      5.3,
+      8.2
     ]
   },
   "Huelva, Spain": {
-    "mean_dist": 500.7,
-    "mean_time": 6.2,
-    "std_dist": 288.6,
+    "mean_dist": 511.3,
+    "mean_time": 6.1,
+    "std_dist": 292,
     "std_time": 1.8,
     "admin": "Andalusia",
     "country": "Spain",
@@ -221710,7 +222901,12 @@
       40.02,
       41.01,
       40.332,
-      40.293
+      40.293,
+      43.744,
+      41.289,
+      41.532,
+      42.271,
+      38.903
     ],
     "lons": [
       "x",
@@ -221810,10 +223006,15 @@
       -1.631,
       -4.826,
       -1.881,
-      -2.41
+      -2.41,
+      5.239,
+      -1.168,
+      -2.813,
+      -2.889,
+      -2.609
     ],
-    "mean_lat": 40.447,
-    "mean_lon": -3.689,
+    "mean_lat": 40.569,
+    "mean_lon": -3.373,
     "true_lat": 37.2504,
     "true_lon": -6.9299,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Huelva%2C+Spain&go=Go&ns0=1",
@@ -221915,7 +223116,12 @@
       "Plovdiv",
       "Hawaii",
       "Plovdiv",
-      "Brussels Capital"
+      "Brussels Capital",
+      "Utrecht",
+      "North Holland",
+      "North Holland",
+      "North Holland",
+      "North Holland"
     ],
     "countries": [
       "United Kingdom",
@@ -222015,7 +223221,12 @@
       "Bulgaria",
       "United States",
       "Bulgaria",
-      "Belgium"
+      "Belgium",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       263.6,
@@ -222115,7 +223326,12 @@
       553.5,
       455.7,
       555.5,
-      517.5
+      517.5,
+      1254.9,
+      668.8,
+      593,
+      656.2,
+      420.4
     ],
     "times": [
       7.7,
@@ -222215,7 +223431,12 @@
       6.7,
       2.9,
       8.3,
-      4.4
+      4.4,
+      4.7,
+      5.2,
+      6.8,
+      3.7,
+      6.1
     ]
   },
   "Parma, Italy": {
@@ -226529,9 +227750,9 @@
     ]
   },
   "Cambridge, United Kingdom": {
-    "mean_dist": 153.4,
-    "mean_time": 6.4,
-    "std_dist": 151.4,
+    "mean_dist": 152.9,
+    "mean_time": 6.5,
+    "std_dist": 150.5,
     "std_time": 1.7,
     "admin": "Cambridgeshire",
     "country": "United Kingdom",
@@ -226610,7 +227831,8 @@
       52.128,
       51.986,
       51.843,
-      52.393
+      52.393,
+      51.231
     ],
     "lons": [
       "x",
@@ -226686,10 +227908,11 @@
       -0.454,
       -0.397,
       -1.087,
-      -3.472
+      -3.472,
+      0.695
     ],
-    "mean_lat": 52.138,
-    "mean_lon": -0.956,
+    "mean_lat": 52.085,
+    "mean_lon": -0.858,
     "true_lat": 52.2004,
     "true_lon": 0.1166,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Cambridge%2C+United Kingdom&go=Go&ns0=1",
@@ -226767,7 +227990,8 @@
       "California",
       "Aargau",
       "Gornja Radgona",
-      "Madrid"
+      "Madrid",
+      "England"
     ],
     "countries": [
       "Australia",
@@ -226843,7 +228067,8 @@
       "United States",
       "Switzerland",
       "Slovenia",
-      "Spain"
+      "Spain",
+      "United Kingdom"
     ],
     "dists": [
       187.1,
@@ -226919,7 +228144,8 @@
       39.7,
       42.4,
       91.4,
-      244.9
+      244.9,
+      114.8
     ],
     "times": [
       8.1,
@@ -226995,13 +228221,14 @@
       7.9,
       8.3,
       6.2,
+      6.9,
       6.9
     ]
   },
   "Zonguldak, Turkey": {
-    "mean_dist": 540.6,
+    "mean_dist": 547.2,
     "mean_time": 6.5,
-    "std_dist": 415.7,
+    "std_dist": 415.2,
     "std_time": 1.8,
     "admin": "Zonguldak",
     "country": "Turkey",
@@ -227064,7 +228291,8 @@
       37.747,
       40.663,
       37.906,
-      39.658
+      39.658,
+      48.185
     ],
     "lons": [
       "x",
@@ -227124,10 +228352,11 @@
       39.864,
       32.555,
       26.723,
-      36.7
+      36.7,
+      38.736
     ],
-    "mean_lat": 39.044,
-    "mean_lon": 34.173,
+    "mean_lat": 39.551,
+    "mean_lon": 34.427,
     "true_lat": 41.4304,
     "true_lon": 31.78,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Zonguldak%2C+Turkey&go=Go&ns0=1",
@@ -227189,7 +228418,8 @@
       "Zurich",
       "Obwalden",
       "Buenos Aires F.D.",
-      "Madrid"
+      "Madrid",
+      "North Holland"
     ],
     "countries": [
       "Australia",
@@ -227249,7 +228479,8 @@
       "Switzerland",
       "Switzerland",
       "Argentina",
-      "Spain"
+      "Spain",
+      "Netherlands"
     ],
     "dists": [
       374.1,
@@ -227309,7 +228540,8 @@
       804.2,
       107.2,
       583.6,
-      460
+      460,
+      929.4
     ],
     "times": [
       8.2,
@@ -227369,13 +228601,14 @@
       3,
       5.9,
       7.1,
-      7.7
+      7.7,
+      9.3
     ]
   },
   "Udine, Italy": {
-    "mean_dist": 301.4,
+    "mean_dist": 304.2,
     "mean_time": 6.5,
-    "std_dist": 220.7,
+    "std_dist": 218.6,
     "std_time": 1.8,
     "admin": "Friuli-Venezia Giulia",
     "country": "Italy",
@@ -227457,7 +228690,13 @@
       46.079,
       44.078,
       40.505,
-      44.698
+      44.698,
+      44.821,
+      43.953,
+      44.036,
+      46.328,
+      41.358,
+      40.66
     ],
     "lons": [
       "x",
@@ -227536,10 +228775,16 @@
       13.233,
       11.623,
       8.778,
-      10.703
+      10.703,
+      10.76,
+      10.875,
+      11.508,
+      12.357,
+      13.981,
+      15.707
     ],
-    "mean_lat": 43.832,
-    "mean_lon": 12.459,
+    "mean_lat": 43.785,
+    "mean_lon": 12.47,
     "true_lat": 46.07,
     "true_lon": 13.24,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Udine%2C+Italy&go=Go&ns0=1",
@@ -227620,7 +228865,13 @@
       "Aargau",
       "Madrid",
       "Madrid",
-      "England"
+      "England",
+      "North Holland",
+      "North Holland",
+      "Groningen",
+      "North Holland",
+      "North Holland",
+      "North Holland"
     ],
     "countries": [
       "United States",
@@ -227699,7 +228950,13 @@
       "Switzerland",
       "Spain",
       "Spain",
-      "United Kingdom"
+      "United Kingdom",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       392.5,
@@ -227778,7 +229035,13 @@
       1.1,
       255.2,
       716.1,
-      250
+      250,
+      238,
+      299.8,
+      263.8,
+      73.7,
+      527.2,
+      633.6
     ],
     "times": [
       8.8,
@@ -227857,7 +229120,13 @@
       7.1,
       6.7,
       6.1,
-      4.2
+      4.2,
+      7.9,
+      3.4,
+      7.8,
+      3.9,
+      7.8,
+      5.5
     ]
   },
   "Bryansk, Bryanskaya Oblast\u2019, Russia": {
@@ -228531,9 +229800,9 @@
     ]
   },
   "Velikiye Luki, Pskovskaya Oblast\u2019, Russia": {
-    "mean_dist": 720.3,
+    "mean_dist": 726.3,
     "mean_time": 6.8,
-    "std_dist": 374.9,
+    "std_dist": 361.4,
     "std_time": 1.4,
     "admin": "Pskovskaya Oblast\u2019",
     "country": "Russia",
@@ -228573,7 +229842,11 @@
       61.044,
       61.1,
       53.793,
-      57.205
+      57.205,
+      52.972,
+      50.886,
+      53.732,
+      51.914
     ],
     "lons": [
       "x",
@@ -228610,10 +229883,14 @@
       40.496,
       41.416,
       44.26,
-      34.054
+      34.054,
+      40.726,
+      39.576,
+      36.47,
+      44.58
     ],
-    "mean_lat": 55.399,
-    "mean_lon": 39.631,
+    "mean_lat": 54.688,
+    "mean_lon": 39.797,
     "true_lat": 56.32,
     "true_lon": 30.52,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Velikiye Luki%2C+Russia&go=Go&ns0=1",
@@ -228652,7 +229929,11 @@
       "North Rhine-Westphalia",
       "North Rhine-Westphalia",
       "Madrid",
-      "Madrid"
+      "Madrid",
+      "Berlin",
+      "Hesse",
+      "Aargau",
+      "Berlin"
     ],
     "countries": [
       "United States",
@@ -228689,7 +229970,11 @@
       "Germany",
       "Germany",
       "Spain",
-      "Spain"
+      "Spain",
+      "Germany",
+      "Germany",
+      "Switzerland",
+      "Germany"
     ],
     "dists": [
       1185.7,
@@ -228726,7 +230011,11 @@
       778.5,
       821.9,
       917.2,
-      236.8
+      236.8,
+      753.7,
+      848.4,
+      475.7,
+      1036.3
     ],
     "times": [
       7,
@@ -228763,13 +230052,17 @@
       3.3,
       6.6,
       6.6,
-      7.1
+      7.1,
+      7.2,
+      5.5,
+      7.7,
+      7.3
     ]
   },
   "Podol\u2019sk, Moskovskaya Oblast\u2019, Russia": {
-    "mean_dist": 486.3,
-    "mean_time": 5.8,
-    "std_dist": 472.2,
+    "mean_dist": 487.4,
+    "mean_time": 5.9,
+    "std_dist": 467.6,
     "std_time": 1.7,
     "admin": "Moskovskaya Oblast\u2019",
     "country": "Russia",
@@ -228824,7 +230117,8 @@
       57.828,
       47.894,
       58.257,
-      57.672
+      57.672,
+      52.937
     ],
     "lons": [
       "x",
@@ -228876,10 +230170,11 @@
       42.678,
       43.545,
       35.718,
-      30.488
+      30.488,
+      44.81
     ],
-    "mean_lat": 55.872,
-    "mean_lon": 37.747,
+    "mean_lat": 55.709,
+    "mean_lon": 38.139,
     "true_lat": 55.3804,
     "true_lon": 37.5299,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Podol\u2019sk%2C+Russia&go=Go&ns0=1",
@@ -228933,7 +230228,8 @@
       "Obwalden",
       "Lower Saxony",
       "Bremen",
-      "Hamburg"
+      "Hamburg",
+      "England"
     ],
     "countries": [
       "United States",
@@ -228985,7 +230281,8 @@
       "Switzerland",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "United Kingdom"
     ],
     "dists": [
       208.9,
@@ -229037,7 +230334,8 @@
       416.2,
       929.3,
       338.3,
-      501
+      501,
+      545.9
     ],
     "times": [
       8,
@@ -229089,7 +230387,8 @@
       7.2,
       3.2,
       1.8,
-      3.3
+      3.3,
+      7.1
     ]
   },
   "U\u015fak, Turkey": {
@@ -230335,9 +231634,9 @@
     ]
   },
   "Baia Mare, Romania": {
-    "mean_dist": 223.6,
+    "mean_dist": 226.2,
     "mean_time": 6.2,
-    "std_dist": 182.5,
+    "std_dist": 182.4,
     "std_time": 1.9,
     "admin": "Maramure\u015f",
     "country": "Romania",
@@ -230430,7 +231729,11 @@
       47.855,
       46.24,
       44.285,
-      47.204
+      47.204,
+      45.026,
+      46.059,
+      47.661,
+      44.615
     ],
     "lons": [
       "x",
@@ -230520,10 +231823,14 @@
       23.816,
       23.495,
       28.188,
-      27.689
+      27.689,
+      26.29,
+      20.711,
+      23.816,
+      27.958
     ],
-    "mean_lat": 46.395,
-    "mean_lon": 25.041,
+    "mean_lat": 46.306,
+    "mean_lon": 24.985,
     "true_lat": 47.6595,
     "true_lon": 23.5791,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Baia Mare%2C+Romania&go=Go&ns0=1",
@@ -230615,7 +231922,11 @@
       "Aargau",
       "Madrid",
       "England",
-      "Madrid"
+      "Madrid",
+      "Berlin",
+      "Hesse",
+      "Aargau",
+      "Berlin"
     ],
     "countries": [
       "Canada",
@@ -230705,7 +232016,11 @@
       "Switzerland",
       "Spain",
       "United Kingdom",
-      "Spain"
+      "Spain",
+      "Germany",
+      "Germany",
+      "Switzerland",
+      "Germany"
     ],
     "dists": [
       474.9,
@@ -230795,7 +232110,11 @@
       28.1,
       157.9,
       517.1,
-      313.2
+      313.2,
+      359.1,
+      281.4,
+      17.8,
+      477.7
     ],
     "times": [
       4.2,
@@ -230885,7 +232204,11 @@
       7.5,
       3.6,
       5.9,
-      3
+      3,
+      7.2,
+      2.5,
+      7.5,
+      6
     ]
   },
   "Craiova, Romania": {
@@ -232077,10 +233400,10 @@
     ]
   },
   "Plovdiv, Bulgaria": {
-    "mean_dist": 189.3,
-    "mean_time": 6,
-    "std_dist": 208.8,
-    "std_time": 1.9,
+    "mean_dist": 191.3,
+    "mean_time": 6.1,
+    "std_dist": 209,
+    "std_time": 1.8,
     "admin": "Plovdiv",
     "country": "Bulgaria",
     "city": "Plovdiv",
@@ -232177,7 +233500,9 @@
       42.69,
       44.807,
       48.242,
-      42.435
+      42.435,
+      46.439,
+      42.945
     ],
     "lons": [
       "x",
@@ -232272,10 +233597,12 @@
       25.542,
       20.519,
       21.861,
-      22.954
+      22.954,
+      24.104,
+      25.024
     ],
-    "mean_lat": 43.372,
-    "mean_lon": 25.087,
+    "mean_lat": 43.425,
+    "mean_lon": 25.066,
     "true_lat": 42.154,
     "true_lon": 24.754,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Plovdiv%2C+Bulgaria&go=Go&ns0=1",
@@ -232372,7 +233699,9 @@
       "Brussels Capital",
       "Brussels Capital",
       "Madrid",
-      "Trentino-Alto Adige"
+      "Trentino-Alto Adige",
+      "England",
+      "Aargau"
     ],
     "countries": [
       "Japan",
@@ -232467,7 +233796,9 @@
       "Belgium",
       "Belgium",
       "Spain",
-      "Italy"
+      "Italy",
+      "United Kingdom",
+      "Switzerland"
     ],
     "dists": [
       45.8,
@@ -232562,7 +233893,9 @@
       88,
       451.3,
       713.7,
-      151.2
+      151.2,
+      479.2,
+      90.7
     ],
     "times": [
       7.6,
@@ -232657,7 +233990,9 @@
       4.7,
       2.1,
       7.1,
-      8.2
+      8.2,
+      5.7,
+      7.9
     ]
   },
   "Volgodonsk, Rostovskaya Oblast\u2019, Russia": {
@@ -232933,9 +234268,9 @@
     ]
   },
   "Perpignan, France": {
-    "mean_dist": 371.3,
+    "mean_dist": 366.5,
     "mean_time": 6.3,
-    "std_dist": 313.9,
+    "std_dist": 314.5,
     "std_time": 1.7,
     "admin": "Occitanie",
     "country": "France",
@@ -233014,7 +234349,8 @@
       44.305,
       48.087,
       45.676,
-      48.106
+      48.106,
+      42.648
     ],
     "lons": [
       "x",
@@ -233090,10 +234426,11 @@
       1.646,
       -1.145,
       -0.684,
-      -0.941
+      -0.941,
+      3.053
     ],
-    "mean_lat": 46.587,
-    "mean_lon": 1.912,
+    "mean_lat": 46.416,
+    "mean_lon": 1.962,
     "true_lat": 42.7,
     "true_lon": 2.9,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Perpignan%2C+France&go=Go&ns0=1",
@@ -233171,7 +234508,8 @@
       "\u00d8stfold",
       "Lower Austria",
       "Trentino-Alto Adige",
-      "Madrid"
+      "Madrid",
+      "Aargau"
     ],
     "countries": [
       "Japan",
@@ -233247,7 +234585,8 @@
       "Norway",
       "Austria",
       "Italy",
-      "Spain"
+      "Spain",
+      "Switzerland"
     ],
     "dists": [
       12.3,
@@ -233323,7 +234662,8 @@
       205.1,
       677,
       437.2,
-      671.6
+      671.6,
+      13.8
     ],
     "times": [
       7.1,
@@ -233399,7 +234739,8 @@
       5.4,
       1.6,
       5.1,
-      7.2
+      7.2,
+      8.4
     ]
   },
   "Liberec, Czechia": {
@@ -234843,9 +236184,9 @@
     ]
   },
   "Regensburg, Germany": {
-    "mean_dist": 211.9,
+    "mean_dist": 209.8,
     "mean_time": 6.2,
-    "std_dist": 216.7,
+    "std_dist": 216.4,
     "std_time": 1.7,
     "admin": "Bavaria",
     "country": "Germany",
@@ -234934,7 +236275,8 @@
       52.172,
       48.968,
       52.658,
-      52.199
+      52.199,
+      48.854
     ],
     "lons": [
       "x",
@@ -235020,10 +236362,11 @@
       19.087,
       11.911,
       8.664,
-      11.968
+      11.968,
+      11.853
     ],
-    "mean_lat": 50.244,
-    "mean_lon": 10.863,
+    "mean_lat": 50.184,
+    "mean_lon": 10.906,
     "true_lat": 49.0204,
     "true_lon": 12.12,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Regensburg%2C+Germany&go=Go&ns0=1",
@@ -235111,7 +236454,8 @@
       "Utrecht",
       "Trentino-Alto Adige",
       "Madrid",
-      "Madrid"
+      "Madrid",
+      "Trentino-Alto Adige"
     ],
     "countries": [
       "Japan",
@@ -235197,7 +236541,8 @@
       "Netherlands",
       "Italy",
       "Spain",
-      "Spain"
+      "Spain",
+      "Italy"
     ],
     "dists": [
       297.9,
@@ -235283,7 +236628,8 @@
       603.4,
       16.2,
       471.6,
-      353.6
+      353.6,
+      26.7
     ],
     "times": [
       5.6,
@@ -235369,13 +236715,14 @@
       5.8,
       5.4,
       7.2,
-      3.1
+      3.1,
+      5.4
     ]
   },
   "Odense, Denmark": {
-    "mean_dist": 74.2,
+    "mean_dist": 75.1,
     "mean_time": 7.1,
-    "std_dist": 79,
+    "std_dist": 77.1,
     "std_time": 1.2,
     "admin": "Syddanmark",
     "country": "Denmark",
@@ -235468,7 +236815,13 @@
       55.708,
       56.477,
       55.963,
-      55.235
+      55.235,
+      56.317,
+      56.381,
+      56.06,
+      55.514,
+      56.573,
+      55.244
     ],
     "lons": [
       "x",
@@ -235558,10 +236911,16 @@
       9.679,
       9.38,
       9.667,
-      9.854
+      9.854,
+      9.725,
+      10.128,
+      9.783,
+      10.229,
+      9.898,
+      9.207
     ],
-    "mean_lat": 55.711,
-    "mean_lon": 9.656,
+    "mean_lat": 55.759,
+    "mean_lon": 9.683,
     "true_lat": 55.4004,
     "true_lon": 10.3833,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Odense%2C+Denmark&go=Go&ns0=1",
@@ -235653,7 +237012,13 @@
       "Plovdiv",
       "Madrid",
       "Madrid",
-      "Uusimaa"
+      "Uusimaa",
+      "North Holland",
+      "North Holland",
+      "Groningen",
+      "North Holland",
+      "North Holland",
+      "North Holland"
     ],
     "countries": [
       "Japan",
@@ -235743,7 +237108,13 @@
       "Bulgaria",
       "Spain",
       "Spain",
-      "Finland"
+      "Finland",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       17.3,
@@ -235833,7 +237204,13 @@
       56,
       135,
       76.9,
-      38.1
+      38.1,
+      109.9,
+      110.2,
+      82.4,
+      15.9,
+      133.8,
+      76.3
     ],
     "times": [
       7.2,
@@ -235923,13 +237300,19 @@
       8.1,
       6.2,
       5.6,
-      7.2
+      7.2,
+      6.1,
+      4.3,
+      7.1,
+      7,
+      7.6,
+      7.1
     ]
   },
   "Tarragona, Spain": {
-    "mean_dist": 311,
+    "mean_dist": 315.6,
     "mean_time": 6.4,
-    "std_dist": 249.4,
+    "std_dist": 242.8,
     "std_time": 1.5,
     "admin": "Catalonia",
     "country": "Spain",
@@ -236003,7 +237386,13 @@
       38.475,
       42.221,
       41.705,
-      41.532
+      41.532,
+      38.021,
+      39.598,
+      41.097,
+      39.251,
+      41.662,
+      39.465
     ],
     "lons": [
       "x",
@@ -236074,10 +237463,16 @@
       -3.522,
       0.695,
       -5.171,
-      2.535
+      2.535,
+      -1.432,
+      -3.675,
+      -0.052,
+      -1.158,
+      -3.733,
+      -4.596
     ],
-    "mean_lat": 40.293,
-    "mean_lon": -1.149,
+    "mean_lat": 40.201,
+    "mean_lon": -1.416,
     "true_lat": 41.1204,
     "true_lon": 1.25,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tarragona%2C+Spain&go=Go&ns0=1",
@@ -236150,7 +237545,13 @@
       "Utrecht",
       "Madrid",
       "Trentino-Alto Adige",
-      "Aargau"
+      "Aargau",
+      "North Holland",
+      "North Holland",
+      "Groningen",
+      "North Holland",
+      "North Holland",
+      "North Holland"
     ],
     "countries": [
       "Japan",
@@ -236221,7 +237622,13 @@
       "Netherlands",
       "Spain",
       "Italy",
-      "Switzerland"
+      "Switzerland",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       204.4,
@@ -236292,7 +237699,13 @@
       502.5,
       130.8,
       539.2,
-      116.7
+      116.7,
+      414.2,
+      450.2,
+      109.1,
+      291.5,
+      419.9,
+      528.7
     ],
     "times": [
       4.3,
@@ -236363,7 +237776,13 @@
       5.9,
       3.6,
       5.7,
-      7.9
+      7.9,
+      6.1,
+      6.5,
+      7.8,
+      4.7,
+      8,
+      6.5
     ]
   },
   "Split, Croatia": {
@@ -236987,9 +238406,9 @@
     ]
   },
   "Orl\u00e9ans, France": {
-    "mean_dist": 271.5,
+    "mean_dist": 268.9,
     "mean_time": 5.9,
-    "std_dist": 350.1,
+    "std_dist": 348.3,
     "std_time": 2,
     "admin": "Centre-Val de Loire",
     "country": "France",
@@ -237063,7 +238482,8 @@
       48.299,
       46.359,
       46.319,
-      44.202
+      44.202,
+      47.387
     ],
     "lons": [
       "x",
@@ -237134,10 +238554,11 @@
       4.234,
       3.456,
       -0.512,
-      2.248
+      2.248,
+      0.983
     ],
-    "mean_lat": 46.875,
-    "mean_lon": 0.567,
+    "mean_lat": 46.894,
+    "mean_lon": 0.582,
     "true_lat": 47.9004,
     "true_lon": 1.9,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Orl\u00e9ans%2C+France&go=Go&ns0=1",
@@ -237210,7 +238631,8 @@
       "South Moravian",
       "Madrid",
       "Madrid",
-      "Madrid"
+      "Madrid",
+      "England"
     ],
     "countries": [
       "Germany",
@@ -237281,7 +238703,8 @@
       "Czech Republic",
       "Spain",
       "Spain",
-      "Spain"
+      "Spain",
+      "United Kingdom"
     ],
     "dists": [
       406.9,
@@ -237352,7 +238775,8 @@
       178.9,
       207.8,
       253.4,
-      412
+      412,
+      89.2
     ],
     "times": [
       6.4,
@@ -237423,7 +238847,8 @@
       6.8,
       5.2,
       7.4,
-      7.3
+      7.3,
+      7.5
     ]
   },
   "York, United Kingdom": {
@@ -238339,9 +239764,9 @@
     ]
   },
   "Pardubice, Czechia": {
-    "mean_dist": 201.9,
+    "mean_dist": 200.4,
     "mean_time": 5.7,
-    "std_dist": 278.3,
+    "std_dist": 277,
     "std_time": 2.3,
     "admin": "Pardubick\u00fd Kraj",
     "country": "Czechia",
@@ -238433,7 +239858,8 @@
       50.147,
       42.384,
       48.74,
-      45.284
+      45.284,
+      49.685
     ],
     "lons": [
       "x",
@@ -238522,10 +239948,11 @@
       13.118,
       20.36,
       19.158,
-      16.761
+      16.761,
+      14.844
     ],
-    "mean_lat": 49.185,
-    "mean_lon": 16.163,
+    "mean_lat": 49.205,
+    "mean_lon": 16.11,
     "true_lat": 50.0404,
     "true_lon": 15.76,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Pardubice%2C+Czechia&go=Go&ns0=1",
@@ -238616,7 +240043,8 @@
       "Moravskoslezsk\u00fd",
       "Madrid",
       "Brussels Capital",
-      "Madrid"
+      "Madrid",
+      "England"
     ],
     "countries": [
       "France",
@@ -238705,7 +240133,8 @@
       "Czech Republic",
       "Spain",
       "Belgium",
-      "Spain"
+      "Spain",
+      "United Kingdom"
     ],
     "dists": [
       104.4,
@@ -238794,7 +240223,8 @@
       188.7,
       921.5,
       285.2,
-      534.1
+      534.1,
+      76.5
     ],
     "times": [
       7.6,
@@ -238883,7 +240313,8 @@
       5.4,
       8.1,
       2.1,
-      1.1
+      1.1,
+      6.9
     ]
   },
   "Brindisi, Italy": {
@@ -244395,10 +245826,10 @@
     ]
   },
   "Zhytomyr, Ukraine": {
-    "mean_dist": 413.7,
-    "mean_time": 6.9,
-    "std_dist": 313.7,
-    "std_time": 1.6,
+    "mean_dist": 444.4,
+    "mean_time": 6.6,
+    "std_dist": 410.5,
+    "std_time": 1.8,
     "admin": "Zhytomyrs\u2019ka Oblast\u2019",
     "country": "Ukraine",
     "city": "Zhytomyr",
@@ -244461,7 +245892,12 @@
       47.796,
       49.722,
       49.24,
-      46.526
+      46.526,
+      48.01,
+      49.737,
+      49.572,
+      48.067,
+      55.368
     ],
     "lons": [
       "x",
@@ -244522,10 +245958,15 @@
       32.532,
       29.338,
       31.974,
-      27.744
+      27.744,
+      37.793,
+      29.729,
+      28.188,
+      35.696,
+      -9.397
     ],
-    "mean_lat": 49.101,
-    "mean_lon": 31.43,
+    "mean_lat": 49.282,
+    "mean_lon": 30.218,
     "true_lat": 50.2456,
     "true_lon": 28.6622,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Zhytomyr%2C+Ukraine&go=Go&ns0=1",
@@ -244588,7 +246029,12 @@
       "Buenos Aires F.D.",
       "Trentino-Alto Adige",
       "Federation of B&H",
-      "Madrid"
+      "Madrid",
+      "Utrecht",
+      "North Holland",
+      "North Holland",
+      "North Holland",
+      "North Holland"
     ],
     "countries": [
       "Poland",
@@ -244649,7 +246095,12 @@
       "Argentina",
       "Italy",
       "Bosnia and Herzegovina",
-      "Spain"
+      "Spain",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       62,
@@ -244710,7 +246161,12 @@
       392.1,
       75.6,
       262.8,
-      419
+      419,
+      708.7,
+      94.9,
+      82.1,
+      565.6,
+      2586.2
     ],
     "times": [
       7.7,
@@ -244771,14 +246227,19 @@
       4.8,
       7.5,
       6.2,
-      6.8
+      6.8,
+      4.5,
+      3.2,
+      3.2,
+      1.4,
+      4.3
     ]
   },
   "Groznyy, Chechnya, Russia": {
-    "mean_dist": 629.3,
-    "mean_time": 5.9,
-    "std_dist": 508.4,
-    "std_time": 1.9,
+    "mean_dist": 804.8,
+    "mean_time": 5.5,
+    "std_dist": 631.8,
+    "std_time": 2.1,
     "admin": "Chechnya",
     "country": "Russia",
     "city": "Groznyy",
@@ -244802,7 +246263,11 @@
       43.828,
       50.538,
       51.95,
-      51.986
+      51.986,
+      57.173,
+      55.898,
+      52.978,
+      51.734
     ],
     "lons": [
       "x",
@@ -244824,10 +246289,14 @@
       46.19,
       42.739,
       42.509,
-      42.337
+      42.337,
+      30.546,
+      36.355,
+      44.503,
+      18.477
     ],
-    "mean_lat": 50.503,
-    "mean_lon": 44.474,
+    "mean_lat": 52.08,
+    "mean_lon": 39.672,
     "true_lat": 43.3187,
     "true_lon": 45.6987,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Groznyy%2C+Russia&go=Go&ns0=1",
@@ -244851,7 +246320,11 @@
       "Trentino-Alto Adige",
       "Madrid",
       "Berlin",
-      "Berlin"
+      "Berlin",
+      "Utrecht",
+      "North Holland",
+      "North Holland",
+      "North Holland"
     ],
     "countries": [
       "Poland",
@@ -244873,7 +246346,11 @@
       "Italy",
       "Spain",
       "Germany",
-      "Germany"
+      "Germany",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands",
+      "Netherlands"
     ],
     "dists": [
       1142.5,
@@ -244895,7 +246372,11 @@
       69.1,
       833.4,
       988.8,
-      995.8
+      995.8,
+      1870.8,
+      1549.1,
+      1077.7,
+      2230.6
     ],
     "times": [
       7.8,
@@ -244917,7 +246398,11 @@
       0.3,
       7.1,
       3.6,
-      6
+      6,
+      2.7,
+      3.4,
+      5.2,
+      1.4
     ]
   },
   "Ravenna, Italy": {
@@ -247085,9 +248570,9 @@
     ]
   },
   "Banja Luka, Bosnia And Herzegovina": {
-    "mean_dist": 198,
-    "mean_time": 5.6,
-    "std_dist": 248.8,
+    "mean_dist": 198.1,
+    "mean_time": 5.7,
+    "std_dist": 247.1,
     "std_time": 1.9,
     "admin": "Srpska, Republika",
     "country": "Bosnia And Herzegovina",
@@ -247199,7 +248684,9 @@
       45.433,
       44.368,
       54.912,
-      44.119
+      44.119,
+      43.661,
+      44.698
     ],
     "lons": [
       "x",
@@ -247308,10 +248795,12 @@
       18.525,
       16.915,
       28.935,
-      16.972
+      16.972,
+      21.056,
+      18.122
     ],
-    "mean_lat": 44.85,
-    "mean_lon": 19.229,
+    "mean_lat": 44.815,
+    "mean_lon": 19.248,
     "true_lat": 44.7804,
     "true_lon": 17.18,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Banja Luka%2C+Bosnia And Herzegovina&go=Go&ns0=1",
@@ -247422,7 +248911,9 @@
       "Utrecht",
       "Trentino-Alto Adige",
       "Madrid",
-      "Trentino-Alto Adige"
+      "Trentino-Alto Adige",
+      "England",
+      "Berlin"
     ],
     "countries": [
       "United Kingdom",
@@ -247531,7 +249022,9 @@
       "Netherlands",
       "Italy",
       "Spain",
-      "Italy"
+      "Italy",
+      "United Kingdom",
+      "Germany"
     ],
     "dists": [
       102,
@@ -247640,7 +249133,9 @@
       128.1,
       50.3,
       1403.1,
-      75.2
+      75.2,
+      332.9,
+      75
     ],
     "times": [
       7.5,
@@ -247749,7 +249244,9 @@
       2.2,
       3.7,
       4.5,
-      7.1
+      7.1,
+      7.3,
+      7.2
     ]
   },
   "Badajoz, Spain": {
@@ -251039,9 +252536,9 @@
     ]
   },
   "Amiens, France": {
-    "mean_dist": 330.2,
+    "mean_dist": 333.9,
     "mean_time": 6.3,
-    "std_dist": 172.9,
+    "std_dist": 173,
     "std_time": 1.9,
     "admin": "Hauts-de-France",
     "country": "France",
@@ -251093,7 +252590,8 @@
       47.661,
       47.583,
       49.145,
-      52.261
+      52.261,
+      45.838
     ],
     "lons": [
       "x",
@@ -251142,10 +252640,11 @@
       0.465,
       3.743,
       4.874,
-      -0.21
+      -0.21,
+      5.469
     ],
-    "mean_lat": 47.349,
-    "mean_lon": 1.494,
+    "mean_lat": 47.254,
+    "mean_lon": 1.742,
     "true_lat": 49.9004,
     "true_lon": 2.3,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Amiens%2C+France&go=Go&ns0=1",
@@ -251196,7 +252695,8 @@
       "Aargau",
       "Brussels Capital",
       "Brussels Capital",
-      "Uusimaa"
+      "Uusimaa",
+      "Trentino-Alto Adige"
     ],
     "countries": [
       "Germany",
@@ -251245,7 +252745,8 @@
       "Switzerland",
       "Belgium",
       "Belgium",
-      "Finland"
+      "Finland",
+      "Italy"
     ],
     "dists": [
       242.1,
@@ -251294,7 +252795,8 @@
       282.9,
       278.5,
       203.9,
-      315.6
+      315.6,
+      509.7
     ],
     "times": [
       0.4,
@@ -251343,7 +252845,8 @@
       8.5,
       6.8,
       4,
-      6.5
+      6.5,
+      4.9
     ]
   },
   "Tambov, Tambovskaya Oblast\u2019, Russia": {
@@ -252717,9 +254220,9 @@
     ]
   },
   "Caen, France": {
-    "mean_dist": 370.6,
+    "mean_dist": 365.1,
     "mean_time": 6.8,
-    "std_dist": 535.8,
+    "std_dist": 531.7,
     "std_time": 1.5,
     "admin": "Normandie",
     "country": "France",
@@ -252772,7 +254275,8 @@
       49.515,
       46.292,
       43.722,
-      47.505
+      47.505,
+      49.834
     ],
     "lons": [
       "x",
@@ -252822,10 +254326,11 @@
       0.093,
       -0.263,
       -0.538,
-      1.845
+      1.845,
+      0.58
     ],
-    "mean_lat": 47.802,
-    "mean_lon": 1.049,
+    "mean_lat": 47.937,
+    "mean_lon": 1.017,
     "true_lat": 49.1838,
     "true_lon": -0.35,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Caen%2C+France&go=Go&ns0=1",
@@ -252877,6 +254382,7 @@
       "Buenos Aires F.D.",
       "Madrid",
       "Madrid",
+      "England",
       "England"
     ],
     "countries": [
@@ -252927,6 +254433,7 @@
       "Argentina",
       "Spain",
       "Spain",
+      "United Kingdom",
       "United Kingdom"
     ],
     "dists": [
@@ -252977,7 +254484,8 @@
       48.9,
       321.5,
       607.4,
-      247.3
+      247.3,
+      98.7
     ],
     "times": [
       3.6,
@@ -253027,7 +254535,8 @@
       5.2,
       0.3,
       5.8,
-      6.8
+      6.8,
+      7.2
     ]
   },
   "Yelets, Lipetskaya Oblast\u2019, Russia": {
@@ -254300,9 +255809,9 @@
     ]
   },
   "Caerdydd, United Kingdom": {
-    "mean_dist": 280.3,
+    "mean_dist": 278.1,
     "mean_time": 6.2,
-    "std_dist": 370.1,
+    "std_dist": 368.5,
     "std_time": 1.7,
     "admin": "Cardiff",
     "country": "United Kingdom",
@@ -254390,7 +255899,8 @@
       54.174,
       51.914,
       54.701,
-      52.376
+      52.376,
+      52.305
     ],
     "lons": [
       "x",
@@ -254475,10 +255985,11 @@
       -1.279,
       -3.388,
       -2.065,
-      -1.375
+      -1.375,
+      -3.56
     ],
-    "mean_lat": 53.084,
-    "mean_lon": -2.658,
+    "mean_lat": 53.049,
+    "mean_lon": -2.699,
     "true_lat": 51.5,
     "true_lon": -3.225,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Caerdydd%2C+United Kingdom&go=Go&ns0=1",
@@ -254565,7 +256076,8 @@
       "Madrid",
       "Aargau",
       "Brussels Capital",
-      "Brussels Capital"
+      "Brussels Capital",
+      "Berlin"
     ],
     "countries": [
       "United Kingdom",
@@ -254650,7 +256162,8 @@
       "Spain",
       "Switzerland",
       "Belgium",
-      "Belgium"
+      "Belgium",
+      "Germany"
     ],
     "dists": [
       133.3,
@@ -254735,7 +256248,8 @@
       324.8,
       47.4,
       364.3,
-      159.9
+      159.9,
+      92.5
     ],
     "times": [
       6,
@@ -254820,7 +256334,8 @@
       5.1,
       8.4,
       4.4,
-      6.8
+      6.8,
+      7.2
     ]
   },
   "Nuremberg, Germany": {
@@ -256984,9 +258499,9 @@
     ]
   },
   "Donostia, Spain": {
-    "mean_dist": 307.8,
+    "mean_dist": 307.7,
     "mean_time": 6.5,
-    "std_dist": 258.9,
+    "std_dist": 256.8,
     "std_time": 1.9,
     "admin": "Basque Country",
     "country": "Spain",
@@ -257050,7 +258565,8 @@
       40.227,
       43.493,
       42.88,
-      38.791
+      38.791,
+      41.488
     ],
     "lons": [
       "x",
@@ -257111,10 +258627,11 @@
       -1.407,
       -4.711,
       -3.357,
-      -2.525
+      -2.525,
+      -4.653
     ],
-    "mean_lat": 41.409,
-    "mean_lon": -2.542,
+    "mean_lat": 41.412,
+    "mean_lon": -2.638,
     "true_lat": 43.3204,
     "true_lon": -1.98,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Donostia%2C+Spain&go=Go&ns0=1",
@@ -257177,7 +258694,8 @@
       "Madrid",
       "Madrid",
       "Madrid",
-      "England"
+      "England",
+      "Berlin"
     ],
     "countries": [
       "United Kingdom",
@@ -257238,7 +258756,8 @@
       "Spain",
       "Spain",
       "Spain",
-      "United Kingdom"
+      "United Kingdom",
+      "Germany"
     ],
     "dists": [
       296.2,
@@ -257299,7 +258818,8 @@
       347.1,
       221.4,
       122,
-      505.6
+      505.6,
+      299.4
     ],
     "times": [
       7.2,
@@ -257360,7 +258880,8 @@
       7,
       2,
       6.1,
-      3.9
+      3.9,
+      7
     ]
   },
   "Klaip\u0117da, Lithuania": {
@@ -258074,9 +259595,9 @@
     ]
   },
   "Oxford, United Kingdom": {
-    "mean_dist": 123,
+    "mean_dist": 122,
     "mean_time": 7.2,
-    "std_dist": 376.6,
+    "std_dist": 373.9,
     "std_time": 1.2,
     "admin": "Oxfordshire",
     "country": "United Kingdom",
@@ -258146,7 +259667,8 @@
       53.181,
       52.322,
       51.7,
-      52.317
+      52.317,
+      51.448
     ],
     "lons": [
       "x",
@@ -258213,10 +259735,11 @@
       -2.64,
       -1.286,
       -1.49,
-      -1.068
+      -1.068,
+      -1.835
     ],
-    "mean_lat": 52.214,
-    "mean_lon": -1.115,
+    "mean_lat": 52.186,
+    "mean_lon": -1.142,
     "true_lat": 51.7704,
     "true_lon": -1.25,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Oxford%2C+United Kingdom&go=Go&ns0=1",
@@ -258285,7 +259808,8 @@
       "South Moravian",
       "South Moravian",
       "Aargau",
-      "Madrid"
+      "Madrid",
+      "England"
     ],
     "countries": [
       "Sweden",
@@ -258352,7 +259876,8 @@
       "Czech Republic",
       "Czech Republic",
       "Switzerland",
-      "Spain"
+      "Spain",
+      "United Kingdom"
     ],
     "dists": [
       82.7,
@@ -258419,7 +259944,8 @@
       182.9,
       61.4,
       18.2,
-      62
+      62,
+      53.9
     ],
     "times": [
       7.6,
@@ -258486,7 +260012,8 @@
       6.9,
       7.3,
       8.2,
-      0.2
+      0.2,
+      5.6
     ]
   },
   "W\u00fcrzburg, Germany": {
@@ -266491,9 +268018,9 @@
     ]
   },
   "Mainz, Germany": {
-    "mean_dist": 170.2,
+    "mean_dist": 168.3,
     "mean_time": 6.5,
-    "std_dist": 259,
+    "std_dist": 256.4,
     "std_time": 1.7,
     "city": "Mainz",
     "admin": "Rhineland-Palatinate",
@@ -266542,7 +268069,8 @@
       50.095,
       49.872,
       49.872,
-      50.218
+      50.218,
+      50.428
     ],
     "lons": [
       "x",
@@ -266588,10 +268116,14 @@
       7.942,
       8.057,
       9.437,
-      9.706
+      9.706,
+      7.309
     ],
-    "mean_lat": 50.365,
-    "mean_lon": 8.564,
+    "mean_lat": 50.37,
+    "mean_lon": 8.45,
+    "true_lat": 49.9825,
+    "true_lon": 8.2732,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Mainz%2C+Germany&go=Go&ns0=1",
     "regions": [
       "Capital Region",
       "Capital Region",
@@ -266636,7 +268168,8 @@
       "Auvergne-Rh\u00f4ne-Alpes",
       "Trentino-Alto Adige",
       "North Holland",
-      "North Holland"
+      "North Holland",
+      "Aargau"
     ],
     "countries": [
       "Iceland",
@@ -266682,7 +268215,8 @@
       "France",
       "Italy",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Switzerland"
     ],
     "dists": [
       381.4,
@@ -266728,7 +268262,8 @@
       26.7,
       19.7,
       84.2,
-      105.5
+      105.5,
+      84.5
     ],
     "times": [
       6.3,
@@ -266774,7 +268309,8 @@
       5.1,
       6.4,
       5.5,
-      5.9
+      5.9,
+      8.3
     ]
   },
   "Bremerhaven, Germany": {
@@ -268666,9 +270202,9 @@
     ]
   },
   "Syktyvkar, Komi, Russia": {
-    "mean_dist": 1122,
+    "mean_dist": 1122.8,
     "mean_time": 6.8,
-    "std_dist": 529.8,
+    "std_dist": 521.7,
     "std_time": 1.6,
     "city": "Syktyvkar",
     "admin": "Komi",
@@ -268705,7 +270241,8 @@
       60.493,
       44.078,
       60.493,
-      53.127
+      53.127,
+      57.142
     ],
     "lons": [
       "x",
@@ -268739,10 +270276,11 @@
       51.482,
       44.58,
       50.907,
-      42.262
+      42.262,
+      32.444
     ],
-    "mean_lat": 55.004,
-    "mean_lon": 42.619,
+    "mean_lat": 55.138,
+    "mean_lon": 41.983,
     "true_lat": 61.66,
     "true_lon": 50.82,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Syktyvkar%2C+Russia&go=Go&ns0=1",
@@ -268778,7 +270316,8 @@
       "Aargau",
       "England",
       "Aargau",
-      "Madrid"
+      "Madrid",
+      "Trentino-Alto Adige"
     ],
     "countries": [
       "Netherlands",
@@ -268812,7 +270351,8 @@
       "Switzerland",
       "United Kingdom",
       "Switzerland",
-      "Spain"
+      "Spain",
+      "Italy"
     ],
     "dists": [
       1027.2,
@@ -268846,7 +270386,8 @@
       134.4,
       1997.1,
       129.7,
-      1076.4
+      1076.4,
+      1149.7
     ],
     "times": [
       8.3,
@@ -268880,7 +270421,8 @@
       7.8,
       6.7,
       7.5,
-      6.8
+      6.8,
+      7.7
     ]
   },
   "Edirne, Turkey": {
@@ -271507,9 +273049,9 @@
     ]
   },
   "Armavir, Krasnodarskiy Kray, Russia": {
-    "mean_dist": 725.1,
+    "mean_dist": 734.2,
     "mean_time": 6.3,
-    "std_dist": 666.7,
+    "std_dist": 661.6,
     "std_time": 1.4,
     "city": "Armavir",
     "admin": "Krasnodarskiy Kray",
@@ -271556,7 +273098,8 @@
       53.577,
       46.279,
       52.902,
-      44.821
+      44.821,
+      54.912
     ],
     "lons": [
       "x",
@@ -271600,10 +273143,11 @@
       49.672,
       38.828,
       45.96,
-      38.483
+      38.483,
+      43.602
     ],
-    "mean_lat": 47.643,
-    "mean_lon": 41.607,
+    "mean_lat": 48.451,
+    "mean_lon": 41.828,
     "true_lat": 45.0004,
     "true_lon": 41.13,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Armavir%2C+Russia&go=Go&ns0=1",
@@ -271649,7 +273193,8 @@
       "Washington",
       "Aargau",
       "Trentino-Alto Adige",
-      "Aargau"
+      "Aargau",
+      "England"
     ],
     "countries": [
       "Bulgaria",
@@ -271693,7 +273238,8 @@
       "United States",
       "Switzerland",
       "Italy",
-      "Switzerland"
+      "Switzerland",
+      "United Kingdom"
     ],
     "dists": [
       833.4,
@@ -271737,7 +273283,8 @@
       1135.5,
       228.5,
       946.3,
-      209.3
+      209.3,
+      1116.1
     ],
     "times": [
       5.8,
@@ -271781,6 +273328,7 @@
       5.4,
       7.7,
       6.4,
+      6.7,
       6.7
     ]
   },
