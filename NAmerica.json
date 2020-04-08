@@ -2551,6 +2551,9 @@
     ],
     "mean_lat": 19.948,
     "mean_lon": -96.904,
+    "true_lat": 22.3,
+    "true_lon": -97.87,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tampico%2C+Mexico&go=Go&ns0=1",
     "regions": [
       "Unknown",
       "Unknown",
@@ -11644,9 +11647,9 @@
     ]
   },
   "Washington, District of Columbia, United States": {
-    "mean_dist": 123,
-    "mean_time": 5.7,
-    "std_dist": 93.8,
+    "mean_dist": 130.2,
+    "mean_time": 5.5,
+    "std_dist": 96.3,
     "std_time": 2,
     "admin": "District of Columbia",
     "country": "United States",
@@ -11673,7 +11676,12 @@
       37.584,
       38.973,
       39.438,
-      37.814
+      37.814,
+      38.32,
+      39.372,
+      40.749,
+      40.26,
+      38.622
     ],
     "lons": [
       "x",
@@ -11697,10 +11705,15 @@
       -76.528,
       -76.05,
       -77.673,
+      -76.819,
+      -76.243,
+      -75.73,
+      -74.385,
+      -74.641,
       -76.819
     ],
-    "mean_lat": 38.339,
-    "mean_lon": -76.735,
+    "mean_lat": 38.741,
+    "mean_lon": -76.316,
     "true_lat": 38.9047,
     "true_lon": -77.0163,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Washington%2C+United States&go=Go&ns0=1",
@@ -11726,7 +11739,12 @@
       "North Rhine-Westphalia",
       "Berlin",
       "Pennsylvania",
-      "Aargau"
+      "Aargau",
+      "Rheinland-Pfalz",
+      "Hesse",
+      "\u00cele-de-France",
+      "\u00cele-de-France",
+      "Zurich"
     ],
     "countries": [
       "Unknown",
@@ -11750,6 +11768,11 @@
       "Germany",
       "Germany",
       "United States",
+      "Switzerland",
+      "Germany",
+      "Germany",
+      "France",
+      "France",
       "Switzerland"
     ],
     "dists": [
@@ -11774,7 +11797,12 @@
       152.8,
       83.8,
       82,
-      122.3
+      122.3,
+      93.4,
+      122.4,
+      304.1,
+      253.2,
+      35.6
     ],
     "times": [
       6.8,
@@ -11798,7 +11826,12 @@
       5.6,
       7.5,
       4.6,
-      7.6
+      7.6,
+      6.2,
+      1.6,
+      5,
+      5,
+      4.8
     ]
   },
   "Orlando, Florida, United States": {
@@ -42121,10 +42154,10 @@
     ]
   },
   "Scottsdale, Arizona, United States": {
-    "mean_dist": 409.7,
+    "mean_dist": 504,
     "mean_time": 6.2,
-    "std_dist": 667.2,
-    "std_time": 2,
+    "std_dist": 801.4,
+    "std_time": 1.8,
     "admin": "Arizona",
     "country": "United States",
     "city": "Scottsdale",
@@ -42146,7 +42179,12 @@
       "x",
       31.977,
       32.076,
-      35.027
+      35.027,
+      33.856,
+      33.051,
+      39.372,
+      39.52,
+      34.229
     ],
     "lons": [
       "x",
@@ -42166,10 +42204,15 @@
       "x",
       -83.428,
       -93.473,
-      -115.063
+      -115.063,
+      -112.624,
+      -107.244,
+      -78.933,
+      -112.945,
+      -111.728
     ],
-    "mean_lat": 33.026,
-    "mean_lon": -97.321,
+    "mean_lat": 34.888,
+    "mean_lon": -101.929,
     "true_lat": 33.6872,
     "true_lon": -111.8651,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Scottsdale%2C+United States&go=Go&ns0=1",
@@ -42191,7 +42234,12 @@
       "Baden-W\u00fcrttemberg",
       "Uusimaa",
       "Uusimaa",
-      "California"
+      "California",
+      "Rheinland-Pfalz",
+      "Hesse",
+      "\u00cele-de-France",
+      "\u00cele-de-France",
+      "Zurich"
     ],
     "countries": [
       "United States",
@@ -42211,7 +42259,12 @@
       "Germany",
       "Finland",
       "Finland",
-      "United States"
+      "United States",
+      "Germany",
+      "Germany",
+      "France",
+      "France",
+      "Switzerland"
     ],
     "dists": [
       42.5,
@@ -42231,7 +42284,12 @@
       51.1,
       2655.3,
       1724.4,
-      329.2
+      329.2,
+      72.6,
+      434.8,
+      2992.1,
+      655.7,
+      61.5
     ],
     "times": [
       6.7,
@@ -42251,7 +42309,12 @@
       7.8,
       5.4,
       5.4,
-      8.1
+      8.1,
+      6.5,
+      6.2,
+      5,
+      7.1,
+      7.4
     ]
   },
   "Santa Fe, New Mexico, United States": {
@@ -46491,10 +46554,10 @@
     ]
   },
   "Toledo, Ohio, United States": {
-    "mean_dist": 196.6,
-    "mean_time": 6.6,
-    "std_dist": 83.2,
-    "std_time": 1.4,
+    "mean_dist": 390.8,
+    "mean_time": 6.2,
+    "std_dist": 536.5,
+    "std_time": 1.7,
     "city": "Toledo",
     "admin": "Ohio",
     "country": "United States",
@@ -46509,7 +46572,12 @@
       40.382,
       41.34,
       40.798,
-      39.693
+      39.693,
+      40.064,
+      44.162,
+      37.356,
+      39.421,
+      40.309
     ],
     "lons": [
       "x",
@@ -46522,10 +46590,15 @@
       -81.717,
       -83.263,
       -83.16,
-      -83.318
+      -83.318,
+      -88.028,
+      -89.694,
+      -111.023,
+      -89.437,
+      -82.904
     ],
-    "mean_lat": 40.674,
-    "mean_lon": -82.481,
+    "mean_lat": 40.468,
+    "mean_lon": -87.349,
     "true_lat": 41.6639,
     "true_lon": -83.5822,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Toledo%2C+United States&go=Go&ns0=1",
@@ -46540,7 +46613,12 @@
       "Plovdiv",
       "Plovdiv",
       "Aargau",
-      "Silesia"
+      "Silesia",
+      "Rheinland-Pfalz",
+      "Hesse",
+      "\u00cele-de-France",
+      "\u00cele-de-France",
+      "Zurich"
     ],
     "countries": [
       "United States",
@@ -46553,7 +46631,12 @@
       "Bulgaria",
       "Bulgaria",
       "Switzerland",
-      "Poland"
+      "Poland",
+      "Germany",
+      "Germany",
+      "France",
+      "France",
+      "Switzerland"
     ],
     "dists": [
       146,
@@ -46566,7 +46649,12 @@
       211.6,
       44.6,
       102.5,
-      220.2
+      220.2,
+      414,
+      569.8,
+      2391.6,
+      553.8,
+      160.9
     ],
     "times": [
       4.4,
@@ -46579,13 +46667,18 @@
       6.8,
       7.2,
       8.4,
-      4.4
+      4.4,
+      7.1,
+      1.5,
+      5.8,
+      6,
+      5.2
     ]
   },
   "Provo, Utah, United States": {
-    "mean_dist": 211.6,
-    "mean_time": 6.4,
-    "std_dist": 394.8,
+    "mean_dist": 305.8,
+    "mean_time": 6,
+    "std_dist": 433.5,
     "std_time": 1.9,
     "admin": "Utah",
     "country": "United States",
@@ -46606,7 +46699,12 @@
       39.719,
       39.52,
       40.603,
-      39.347
+      39.347,
+      43.977,
+      47.388,
+      38.622,
+      42.526,
+      39.372
     ],
     "lons": [
       "x",
@@ -46624,10 +46722,18 @@
       -111.792,
       -111.215,
       -111.856,
-      -106.379
+      -106.379,
+      -114.866,
+      -99.942,
+      -101.031,
+      -112.816,
+      -112.368
     ],
-    "mean_lat": 39.85,
-    "mean_lon": -110.811,
+    "mean_lat": 41.113,
+    "mean_lon": -109.508,
+    "true_lat": 40.2457,
+    "true_lon": -111.6457,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Provo%2C+United States&go=Go&ns0=1",
     "regions": [
       "Illinois",
       "Texas",
@@ -46644,7 +46750,12 @@
       "California",
       "California",
       "Aargau",
-      "Florida"
+      "Florida",
+      "Rheinland-Pfalz",
+      "Hesse",
+      "\u00cele-de-France",
+      "\u00cele-de-France",
+      "Zurich"
     ],
     "countries": [
       "United States",
@@ -46662,7 +46773,12 @@
       "United States",
       "United States",
       "Switzerland",
-      "United States"
+      "United States",
+      "Germany",
+      "Germany",
+      "France",
+      "France",
+      "Switzerland"
     ],
     "dists": [
       140.1,
@@ -46680,7 +46796,12 @@
       59.8,
       88.5,
       43.5,
-      460.7
+      460.7,
+      492.6,
+      1227.5,
+      928.6,
+      271.7,
+      115.1
     ],
     "times": [
       7.2,
@@ -46698,7 +46819,12 @@
       6.8,
       6.1,
       8,
-      3.4
+      3.4,
+      2.8,
+      5.1,
+      4.5,
+      7.3,
+      4.8
     ]
   },
   "Xalapa, Veracruz, Mexico": {
@@ -47075,10 +47201,10 @@
     ]
   },
   "Miami, Florida, United States": {
-    "mean_dist": 86.9,
+    "mean_dist": 84,
     "mean_time": 7.3,
-    "std_dist": 84.6,
-    "std_time": 1,
+    "std_dist": 78.4,
+    "std_time": 0.9,
     "admin": "Florida",
     "country": "United States",
     "city": "Miami",
@@ -47102,7 +47228,12 @@
       27.105,
       25.433,
       25.901,
-      27.447
+      27.447,
+      26.818,
+      25.954,
+      25.781,
+      26.07,
+      26.99
     ],
     "lons": [
       "x",
@@ -47124,10 +47255,15 @@
       -80.662,
       -80.47,
       -80.475,
-      -81.175
+      -81.175,
+      -80.342,
+      -80.534,
+      -80.534,
+      -80.47,
+      -80.47
     ],
-    "mean_lat": 26.097,
-    "mean_lon": -80.558,
+    "mean_lat": 26.183,
+    "mean_lon": -80.524,
     "true_lat": 25.7839,
     "true_lon": -80.2102,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Miami%2C+United States&go=Go&ns0=1",
@@ -47151,7 +47287,12 @@
       "California",
       "Aargau",
       "Virginia",
-      "Virginia"
+      "Virginia",
+      "Rheinland-Pfalz",
+      "Hesse",
+      "\u00cele-de-France",
+      "\u00cele-de-France",
+      "Zurich"
     ],
     "countries": [
       "United States",
@@ -47173,7 +47314,12 @@
       "United States",
       "Switzerland",
       "United States",
-      "United States"
+      "United States",
+      "Germany",
+      "Germany",
+      "France",
+      "France",
+      "Switzerland"
     ],
     "dists": [
       121.5,
@@ -47195,7 +47341,12 @@
       153.6,
       46.8,
       29.6,
-      208.4
+      208.4,
+      115.8,
+      37.6,
+      32.4,
+      41.1,
+      136.6
     ],
     "times": [
       6.3,
@@ -47217,7 +47368,12 @@
       8,
       8.2,
       7.9,
-      7.3
+      7.3,
+      8,
+      7.3,
+      7.2,
+      6.8,
+      7.1
     ]
   },
   "Fayetteville, North Carolina, United States": {
@@ -63922,10 +64078,10 @@
     ]
   },
   "Bakersfield, California, United States": {
-    "mean_dist": 167.7,
-    "mean_time": 6.6,
-    "std_dist": 108.9,
-    "std_time": 0.9,
+    "mean_dist": 531.8,
+    "mean_time": 6.7,
+    "std_dist": 1224.8,
+    "std_time": 1.3,
     "admin": "California",
     "country": "United States",
     "city": "Bakersfield",
@@ -63938,7 +64094,12 @@
       "x",
       "x",
       "x",
-      38.672
+      38.672,
+      35.232,
+      10.884,
+      38.371,
+      36.895,
+      38.371
     ],
     "lons": [
       "x",
@@ -63949,10 +64110,18 @@
       "x",
       "x",
       "x",
-      -121.976
+      -121.976,
+      -119.67,
+      -78.228,
+      -119.862,
+      -120.439,
+      -121.335
     ],
-    "mean_lat": 38.672,
-    "mean_lon": -121.976,
+    "mean_lat": 33.07,
+    "mean_lon": -113.585,
+    "true_lat": 35.353,
+    "true_lon": -119.0359,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bakersfield%2C+United States&go=Go&ns0=1",
     "regions": [
       "Oregon",
       "New York",
@@ -63962,7 +64131,12 @@
       "Baden-W\u00fcrttemberg",
       "Baden-W\u00fcrttemberg",
       "Michigan",
-      "Trentino-Alto Adige"
+      "Trentino-Alto Adige",
+      "Rheinland-Pfalz",
+      "Hesse",
+      "\u00cele-de-France",
+      "\u00cele-de-France",
+      "Zurich"
     ],
     "countries": [
       "United States",
@@ -63973,7 +64147,12 @@
       "Germany",
       "Germany",
       "United States",
-      "Italy"
+      "Italy",
+      "Germany",
+      "Germany",
+      "France",
+      "France",
+      "Switzerland"
     ],
     "dists": [
       163.6,
@@ -63984,7 +64163,12 @@
       144,
       149.3,
       219.8,
-      452.1
+      452.1,
+      59.1,
+      4927.7,
+      343.5,
+      212.8,
+      393
     ],
     "times": [
       5.4,
@@ -63995,7 +64179,12 @@
       7.8,
       8,
       7.3,
-      5.2
+      5.2,
+      4.8,
+      10,
+      6,
+      5.7,
+      8.2
     ]
   },
   "Montgomery, Alabama, United States": {
@@ -73575,10 +73764,10 @@
     ]
   },
   "Midland, Texas, United States": {
-    "mean_dist": 380.2,
+    "mean_dist": 376.4,
     "mean_time": 7.3,
-    "std_dist": 155.8,
-    "std_time": 1.2,
+    "std_dist": 174.4,
+    "std_time": 1.1,
     "admin": "Texas",
     "country": "United States",
     "city": "Midland",
@@ -73600,7 +73789,12 @@
       31.967,
       31.884,
       28.92,
-      31.256
+      31.256,
+      31.858,
+      31.858,
+      30.262,
+      31.585,
+      31.475
     ],
     "lons": [
       "x",
@@ -73620,10 +73814,15 @@
       -97.572,
       -98.498,
       -97.06,
-      -97.572
+      -97.572,
+      -98.597,
+      -99.366,
+      -94.113,
+      -101.223,
+      -98.597
     ],
-    "mean_lat": 30.768,
-    "mean_lon": -97.962,
+    "mean_lat": 31.088,
+    "mean_lon": -98.17,
     "true_lat": 32.0249,
     "true_lon": -102.1137,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Midland%2C+United States&go=Go&ns0=1",
@@ -73645,7 +73844,12 @@
       "Aargau",
       "North Rhine-Westphalia",
       "Berlin",
-      "Aargau"
+      "Aargau",
+      "Rheinland-Pfalz",
+      "Hesse",
+      "\u00cele-de-France",
+      "\u00cele-de-France",
+      "Zurich"
     ],
     "countries": [
       "United States",
@@ -73665,6 +73869,11 @@
       "Switzerland",
       "Germany",
       "Germany",
+      "Switzerland",
+      "Germany",
+      "Germany",
+      "France",
+      "France",
       "Switzerland"
     ],
     "dists": [
@@ -73685,7 +73894,12 @@
       428.2,
       341.3,
       594.5,
-      438.2
+      438.2,
+      332.2,
+      259.9,
+      785.9,
+      97.2,
+      338
     ],
     "times": [
       7,
@@ -73705,7 +73919,12 @@
       8.4,
       7.9,
       8.2,
-      8.4
+      8.4,
+      7.5,
+      7,
+      6.1,
+      7.1,
+      7.9
     ]
   },
   "Acapulco de Ju\u00e1rez, Guerrero, Mexico": {
@@ -86696,9 +86915,9 @@
     ]
   },
   "C\u00f3rdoba, Veracruz, Mexico": {
-    "mean_dist": 440.1,
-    "mean_time": 7,
-    "std_dist": 416.2,
+    "mean_dist": 482.8,
+    "mean_time": 6.8,
+    "std_dist": 432.5,
     "std_time": 1.4,
     "admin": "Veracruz",
     "country": "Mexico",
@@ -86755,7 +86974,12 @@
       22.081,
       20.868,
       20.492,
-      20.764
+      20.764,
+      24.501,
+      27.105,
+      28.695,
+      21.544,
+      21.962
     ],
     "lons": [
       "x",
@@ -86809,10 +87033,15 @@
       -98.725,
       -101.187,
       -99.075,
-      -98.405
+      -98.405,
+      -103.465,
+      -105.771,
+      -101.543,
+      -98.02,
+      -105.322
     ],
-    "mean_lat": 21.522,
-    "mean_lon": -100.275,
+    "mean_lat": 22.293,
+    "mean_lon": -100.882,
     "true_lat": 18.9204,
     "true_lon": -96.92,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=C\u00f3rdoba%2C+Mexico&go=Go&ns0=1",
@@ -86868,7 +87097,12 @@
       "Flanders",
       "Colorado",
       "Silesia",
-      "Maine"
+      "Maine",
+      "Rheinland-Pfalz",
+      "Hesse",
+      "\u00cele-de-France",
+      "\u00cele-de-France",
+      "Zurich"
     ],
     "countries": [
       "United States",
@@ -86922,7 +87156,12 @@
       "Belgium",
       "United States",
       "Poland",
-      "United States"
+      "United States",
+      "Germany",
+      "Germany",
+      "France",
+      "France",
+      "Switzerland"
     ],
     "dists": [
       505.3,
@@ -86976,7 +87215,12 @@
       398.5,
       495.9,
       285.4,
-      257.2
+      257.2,
+      917.4,
+      1283.1,
+      1183.9,
+      313.5,
+      938.3
     ],
     "times": [
       6.1,
@@ -87030,7 +87274,12 @@
       5.5,
       6,
       7.6,
-      7
+      7,
+      5.6,
+      6.4,
+      3.6,
+      6.2,
+      5.2
     ]
   },
   "Centennial, Colorado, United States": {
@@ -110256,10 +110505,10 @@
     ]
   },
   "Fredericksburg, Virginia, United States": {
-    "mean_dist": 266.2953344088527,
-    "mean_time": 6.792592592592604,
-    "std_dist": 346.798208256616,
-    "std_time": 0.5849507265896167,
+    "mean_dist": 341,
+    "mean_time": 6.3,
+    "std_dist": 408.7,
+    "std_time": 1,
     "admin": "Virginia",
     "country": "United States",
     "city": "Fredericksburg",
@@ -110272,7 +110521,12 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      38.823,
+      35.127,
+      36.12,
+      34.653,
+      37.151
     ],
     "lons": [
       "x",
@@ -110283,10 +110537,18 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      -77.972,
+      -79.83,
+      -78.164,
+      -92.448,
+      -79.958
     ],
-    "mean_lat": 0,
-    "mean_lon": 0,
+    "mean_lat": 36.374,
+    "mean_lon": -81.674,
+    "true_lat": 38.2992,
+    "true_lon": -77.4872,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Fredericksburg%2C+United States&go=Go&ns0=1",
     "regions": [
       "Ontario",
       "Texas",
@@ -110296,7 +110558,12 @@
       "England",
       "Ontario",
       "Baden-W\u00fcrttemberg",
-      "Alberta"
+      "Alberta",
+      "Rheinland-Pfalz",
+      "Hesse",
+      "\u00cele-de-France",
+      "\u00cele-de-France",
+      "Zurich"
     ],
     "countries": [
       "Canada",
@@ -110307,7 +110574,12 @@
       "United Kingdom",
       "Canada",
       "Germany",
-      "Canada"
+      "Canada",
+      "Germany",
+      "Germany",
+      "France",
+      "France",
+      "Switzerland"
     ],
     "dists": [
       199.3,
@@ -110318,7 +110590,12 @@
       1223.1,
       53.9,
       138.2,
-      145.8
+      145.8,
+      71.9,
+      409.8,
+      249.5,
+      1395.9,
+      251.9
     ],
     "times": [
       6.3,
@@ -110329,7 +110606,12 @@
       7.2,
       7.4,
       7.3,
-      6
+      6,
+      6.1,
+      3,
+      6,
+      7.3,
+      6.1
     ]
   },
   "Santa Tecla, El Salvador": {
@@ -114074,10 +114356,10 @@
     ]
   },
   "Hagerstown, Maryland, United States": {
-    "mean_dist": 524.7043845545071,
-    "mean_time": 6.319444444444457,
-    "std_dist": 717.1081974924607,
-    "std_time": 2.092776745420497,
+    "mean_dist": 521.8,
+    "mean_time": 6.2,
+    "std_dist": 634.4,
+    "std_time": 1.8,
     "admin": "Maryland",
     "country": "United States",
     "city": "Hagerstown",
@@ -114093,7 +114375,12 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      39.52,
+      42.003,
+      35.912,
+      38.371,
+      37.611
     ],
     "lons": [
       "x",
@@ -114107,10 +114394,18 @@
       "x",
       "x",
       "x",
-      "x"
+      "x",
+      -75.666,
+      -72.656,
+      -77.203,
+      -91.679,
+      -76.05
     ],
-    "mean_lat": 0,
-    "mean_lon": 0,
+    "mean_lat": 38.683,
+    "mean_lon": -78.65,
+    "true_lat": 39.6402,
+    "true_lon": -77.7217,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Hagerstown%2C+United States&go=Go&ns0=1",
     "regions": [
       "Minnesota",
       "Texas",
@@ -114123,7 +114418,12 @@
       "Colorado",
       "Ontario",
       "North Holland",
-      "Alberta"
+      "Alberta",
+      "Rheinland-Pfalz",
+      "Hesse",
+      "\u00cele-de-France",
+      "\u00cele-de-France",
+      "Zurich"
     ],
     "countries": [
       "United States",
@@ -114137,7 +114437,12 @@
       "United States",
       "Canada",
       "Netherlands",
-      "Canada"
+      "Canada",
+      "Germany",
+      "Germany",
+      "France",
+      "France",
+      "Switzerland"
     ],
     "dists": [
       166.5,
@@ -114151,7 +114456,12 @@
       185.7,
       68.9,
       2130.9,
-      188.1
+      188.1,
+      176.6,
+      500.5,
+      417,
+      1213,
+      268.2
     ],
     "times": [
       7,
@@ -114165,7 +114475,12 @@
       2.7,
       6.8,
       6.2,
-      8.2
+      8.2,
+      5.3,
+      5.9,
+      5.4,
+      7.3,
+      6.5
     ]
   },
   "Corona, California, United States": {
@@ -116998,6 +117313,9 @@
     ],
     "mean_lat": 40.738,
     "mean_lon": -74.63,
+    "true_lat": 40.5611,
+    "true_lon": -74.2943,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Woodbridge%2C+United States&go=Go&ns0=1",
     "regions": [
       "New York",
       "Illinois",
@@ -126007,6 +126325,9 @@
     ],
     "mean_lat": 30.95,
     "mean_lon": -100.614,
+    "true_lat": 29.4874,
+    "true_lon": -95.1087,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=League City%2C+United States&go=Go&ns0=1",
     "regions": [
       "Oregon",
       "Washington",
@@ -142370,10 +142691,10 @@
     ]
   },
   "Sterling Heights, Michigan, United States": {
-    "mean_dist": 225.3,
-    "mean_time": 6.8,
-    "std_dist": 126.2,
-    "std_time": 1.1,
+    "mean_dist": 308.8,
+    "mean_time": 6.4,
+    "std_dist": 291.5,
+    "std_time": 1.5,
     "admin": "Michigan",
     "country": "United States",
     "city": "Sterling Heights",
@@ -142390,7 +142711,12 @@
       "x",
       "x",
       "x",
-      42.621
+      42.621,
+      41.234,
+      42.81,
+      41.572,
+      38.723,
+      44.438
     ],
     "lons": [
       "x",
@@ -142405,10 +142731,18 @@
       "x",
       "x",
       "x",
-      -85.082
+      -85.082,
+      -88.477,
+      -82.968,
+      -89.373,
+      -98.149,
+      -84.762
     ],
-    "mean_lat": 42.621,
-    "mean_lon": -85.082,
+    "mean_lat": 41.899,
+    "mean_lon": -88.135,
+    "true_lat": 42.5809,
+    "true_lon": -83.0305,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Sterling Heights%2C+United States&go=Go&ns0=1",
     "regions": [
       "Illinois",
       "New York",
@@ -142422,7 +142756,12 @@
       "Pennsylvania",
       "Pennsylvania",
       "Aargau",
-      "Florida"
+      "Florida",
+      "Rheinland-Pfalz",
+      "Hesse",
+      "\u00cele-de-France",
+      "\u00cele-de-France",
+      "Zurich"
     ],
     "countries": [
       "United States",
@@ -142437,7 +142776,12 @@
       "United States",
       "United States",
       "Switzerland",
-      "United States"
+      "United States",
+      "Germany",
+      "Germany",
+      "France",
+      "France",
+      "Switzerland"
     ],
     "dists": [
       203,
@@ -142452,7 +142796,12 @@
       185.7,
       205.2,
       225.6,
-      167.9
+      167.9,
+      474.8,
+      25.9,
+      535.2,
+      1343.3,
+      249.3
     ],
     "times": [
       8.3,
@@ -142467,7 +142816,12 @@
       8.2,
       7.9,
       7.1,
-      5.2
+      5.2,
+      5.5,
+      4.3,
+      2.5,
+      7,
+      7.3
     ]
   },
   "Memphis, Tennessee, United States": {
@@ -165500,6 +165854,9 @@
     ],
     "mean_lat": 37.463,
     "mean_lon": -120.221,
+    "true_lat": 38.2594,
+    "true_lon": -122.0319,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Fairfield%2C+United States&go=Go&ns0=1",
     "regions": [
       "Texas",
       "Aargau",
