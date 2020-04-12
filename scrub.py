@@ -103,13 +103,14 @@ for path in pathlist:
                         cache[ip4] = [details.region, details.country_name]
                         data[entry]['regions'].append(details.region)
                         data[entry]['countries'].append(details.country_name)
-                        if (details.country_name in player_countries): player_countries[details.country_name] = player_countries[details.country_name] + 1
-                        else: player_countries[details.country_name] = 1
                     except:
                         print('failed to fetch ip')
                         data[entry]['regions'].append(cache['127.0.0.1'][0])
                         data[entry]['countries'].append(cache['127.0.0.1'][1])
-
+                if (cache[ip4][1] in player_countries): 
+                    player_countries[cache[ip4][1]] = player_countries[cache[ip4][1]] + 1
+                else: 
+                    player_countries[cache[ip4][1]] = 1
             data[entry].pop('ips', None)
             # Hacky way to put the statistics summaries at the beginning of json entry
             data[entry]['dists'] = data[entry].pop('dists',None)
@@ -127,9 +128,10 @@ for path in pathlist:
 
 metadata['Total'] = {'num_clicks': total_num_clicks}
 
-print(player_countries)
-# with open('player_countries.json','w') as data_file:
-#     json.dump()
+with open('player_countries.csv', 'w') as data_file:
+    for key, value in sorted(player_countries.items(), key=lambda item: item[1], reverse=True):
+        k = key if (key != None) else "unknown" 
+        data_file.write('{:25s},'.format(k) + str(value) + "\n")
 
 with open('/scratch/ip_cache', 'w') as fp:
     json.dump(cache, fp)
