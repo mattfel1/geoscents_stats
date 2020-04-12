@@ -6,7 +6,7 @@ import urllib.request
 import re
 import subprocess
 
-map = "World"
+map = "N. America"
 suspect = '68.129.96.29'
 
  
@@ -26,12 +26,10 @@ for path in pathlist:
     with open(file) as json_file:
         data = json.load(json_file)
         for entry in data:
-            num_cities = num_cities + 1
-            data[entry]['regions'] = []
-            data[entry]['countries'] = []
-            if (suspect in data[entry]['ips']):
+            ips = [x.replace("::ffff:","") for x in data[entry]['ips']]
+            if (suspect in ips):
                 print(entry)
-            for i in len(data[entry]['ips']):
-                ip = data[entry]['ips'][i]
+            for i in range(len(ips)):
+                ip = ips[i]
                 if (ip == suspect):
-                    print("%6d,%6d" % (data[entry]['dists'][i], data[entry]['times'][i]))
+                    print("%6.1f,%1.1f" % (data[entry]['dists'][i], data[entry]['times'][i]))
