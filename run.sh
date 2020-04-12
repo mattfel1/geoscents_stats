@@ -1,9 +1,9 @@
 #!/bin/bash
 
-#cd /home/mattfel/geoscents_stats
-#git reset --hard
-#git pull
-scp geoscents.net:/scratch/*_guesses .
+cd /home/mattfel/geoscents_stats
+git reset --hard
+git pull
+transfer.sh
 
 python3 scrub.py
 
