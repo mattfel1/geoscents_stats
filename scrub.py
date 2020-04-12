@@ -70,6 +70,7 @@ except:
 metadata = {}
 
 total_num_clicks = 0
+player_countries = {}
 
 for path in pathlist:
     # because path is object not string
@@ -102,6 +103,8 @@ for path in pathlist:
                         cache[ip4] = [details.region, details.country_name]
                         data[entry]['regions'].append(details.region)
                         data[entry]['countries'].append(details.country_name)
+                        if (details.country_name in player_countries): player_countries[details.country_name] = player_countries[details.country_name] + 1
+                        else: player_countries[details.country_name] = 1
                     except:
                         print('failed to fetch ip')
                         data[entry]['regions'].append(cache['127.0.0.1'][0])
@@ -123,6 +126,10 @@ for path in pathlist:
         os.remove(file)
 
 metadata['Total'] = {'num_clicks': total_num_clicks}
+
+print(player_countries)
+# with open('player_countries.json','w') as data_file:
+#     json.dump()
 
 with open('/scratch/ip_cache', 'w') as fp:
     json.dump(cache, fp)
