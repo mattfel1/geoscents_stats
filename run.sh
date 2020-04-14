@@ -3,7 +3,7 @@
 cd /home/mattfel/geoscents_stats
 git reset --hard
 git pull
-transfer.sh
+./transfer.sh
 
 python3 scrub.py
 
