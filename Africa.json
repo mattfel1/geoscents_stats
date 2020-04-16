@@ -182,10 +182,10 @@
     ]
   },
   "Eldoret, Kenya": {
-    "mean_dist": 676,
-    "mean_time": 7,
-    "std_dist": 999.1,
-    "std_time": 1.4,
+    "mean_dist": 724.5,
+    "mean_time": 6.8,
+    "std_dist": 1006.7,
+    "std_time": 1.5,
     "admin": "Uasin Gishu",
     "country": "Kenya",
     "city": "Eldoret",
@@ -241,7 +241,11 @@
       0.129,
       0.2,
       0.779,
-      0.014
+      0.014,
+      7.988,
+      -18.326,
+      -18.729,
+      0.8
     ],
     "lons": [
       "x",
@@ -295,10 +299,14 @@
       37.636,
       37.472,
       38.1,
-      36.173
+      36.173,
+      38.118,
+      29.747,
+      29.94,
+      36.433
     ],
-    "mean_lat": 0.177,
-    "mean_lon": 31.826,
+    "mean_lat": -0.788,
+    "mean_lon": 32.057,
     "true_lat": 0.52,
     "true_lon": 35.27,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Eldoret%2C+Kenya&go=Go&ns0=1",
@@ -354,7 +362,11 @@
       "Harjumaa",
       "Cairo",
       "Harjumaa",
-      "Cairo"
+      "Cairo",
+      "England",
+      "St Peter Port",
+      "England",
+      "England"
     ],
     "countries": [
       "Unknown",
@@ -408,7 +420,11 @@
       "Estonia",
       "Egypt",
       "Estonia",
-      "Egypt"
+      "Egypt",
+      "United Kingdom",
+      "Guernsey",
+      "United Kingdom",
+      "United Kingdom"
     ],
     "dists": [
       347.1,
@@ -462,7 +478,11 @@
       266.7,
       247.4,
       316,
-      115
+      115,
+      888.4,
+      2180.9,
+      2218.2,
+      133
     ],
     "times": [
       8.1,
@@ -516,7 +536,11 @@
       6.8,
       8,
       8.2,
-      8.1
+      8.1,
+      4.3,
+      4.6,
+      4.2,
+      3.9
     ]
   },
   "Chimoio, Mozambique": {
@@ -1438,9 +1462,9 @@
     ]
   },
   "Kigali, Rwanda": {
-    "mean_dist": 295.5,
-    "mean_time": 7,
-    "std_dist": 668.4,
+    "mean_dist": 290.9,
+    "mean_time": 7.1,
+    "std_dist": 662.6,
     "std_time": 1.3,
     "admin": "Kigali",
     "country": "Rwanda",
@@ -1495,7 +1519,8 @@
       -2.215,
       -2.215,
       -2.025,
-      -2.039
+      -2.039,
+      -1.472
     ],
     "lons": [
       "x",
@@ -1547,10 +1572,11 @@
       30.233,
       30.372,
       30.431,
-      30.057
+      30.057,
+      30.279
     ],
-    "mean_lat": -2.338,
-    "mean_lon": 29.524,
+    "mean_lat": -2.3,
+    "mean_lon": 29.557,
     "true_lat": -1.9536,
     "true_lon": 30.0605,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kigali%2C+Rwanda&go=Go&ns0=1",
@@ -1604,6 +1630,7 @@
       "Cairo",
       "Cairo",
       "South Denmark",
+      "Cairo",
       "Cairo"
     ],
     "countries": [
@@ -1656,6 +1683,7 @@
       "Egypt",
       "Egypt",
       "Denmark",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -1708,7 +1736,8 @@
       34.9,
       45.3,
       42,
-      9.5
+      9.5,
+      58.7
     ],
     "times": [
       3.8,
@@ -1760,7 +1789,8 @@
       7.7,
       6.6,
       6.9,
-      8.1
+      8.1,
+      7.9
     ]
   },
   "Benoni, South Africa": {
@@ -2314,9 +2344,9 @@
     ]
   },
   "Kitwe, Zambia": {
-    "mean_dist": 1085.4,
-    "mean_time": 6.1,
-    "std_dist": 1426.8,
+    "mean_dist": 1061.8,
+    "mean_time": 6.2,
+    "std_dist": 1411.6,
     "std_time": 2,
     "admin": "Copperbelt",
     "country": "Zambia",
@@ -2385,7 +2415,9 @@
       -13.432,
       -13.32,
       -13.793,
-      -11.778
+      -11.778,
+      -13.973,
+      -16.835
     ],
     "lons": [
       "x",
@@ -2451,10 +2483,12 @@
       28.934,
       28.912,
       29.351,
-      31.047
+      31.047,
+      29.073,
+      27.378
     ],
-    "mean_lat": -11.973,
-    "mean_lon": 28.258,
+    "mean_lat": -12.133,
+    "mean_lon": 28.256,
     "true_lat": -12.81,
     "true_lon": 28.22,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kitwe%2C+Zambia&go=Go&ns0=1",
@@ -2522,7 +2556,9 @@
       "Cairo",
       "Harjumaa",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Cairo",
+      "England"
     ],
     "countries": [
       "Unknown",
@@ -2588,7 +2624,9 @@
       "Egypt",
       "Estonia",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Egypt",
+      "United Kingdom"
     ],
     "dists": [
       5461.1,
@@ -2654,7 +2692,9 @@
       103.7,
       94,
       164.1,
-      327.8
+      327.8,
+      158.9,
+      456.6
     ],
     "times": [
       1.7,
@@ -2720,13 +2760,15 @@
       8.2,
       8.1,
       7.9,
-      7.9
+      7.9,
+      7.6,
+      8.1
     ]
   },
   "Bamenda, Cameroon": {
-    "mean_dist": 600.2,
+    "mean_dist": 592.2,
     "mean_time": 7.1,
-    "std_dist": 1203.3,
+    "std_dist": 1192,
     "std_time": 1.3,
     "city": "Bamenda",
     "admin": "North-West",
@@ -2778,7 +2820,8 @@
       4.153,
       4.647,
       3.915,
-      4.03
+      4.03,
+      5.35
     ],
     "lons": [
       "x",
@@ -2827,10 +2870,11 @@
       10.597,
       11.123,
       10.371,
-      11.464
+      11.464,
+      11.998
     ],
-    "mean_lat": 2.924,
-    "mean_lon": 14.722,
+    "mean_lat": 3.097,
+    "mean_lon": 14.528,
     "true_lat": 5.96,
     "true_lon": 10.15,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bamenda%2C+Cameroon&go=Go&ns0=1",
@@ -2881,7 +2925,8 @@
       "Texas",
       "Cairo",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Bucure\u015fti"
     ],
     "countries": [
       "Unknown",
@@ -2930,7 +2975,8 @@
       "United States",
       "Egypt",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Romania"
     ],
     "dists": [
       684.1,
@@ -2979,7 +3025,8 @@
       206.8,
       181.4,
       228.6,
-      259.3
+      259.3,
+      215.4
     ],
     "times": [
       1.8,
@@ -3028,13 +3075,14 @@
       7.4,
       7.7,
       7.7,
-      8
+      8,
+      8.1
     ]
   },
   "Blantyre, Malawi": {
-    "mean_dist": 1238,
+    "mean_dist": 1222.8,
     "mean_time": 6.4,
-    "std_dist": 1747.4,
+    "std_dist": 1737,
     "std_time": 1.9,
     "city": "Blantyre",
     "admin": "Blantyre",
@@ -3099,7 +3147,8 @@
       -15.66,
       -13.245,
       -1.998,
-      -13.07
+      -13.07,
+      -13.251
     ],
     "lons": [
       "x",
@@ -3161,10 +3210,11 @@
       34.852,
       34.125,
       13.197,
-      34.224
+      34.224,
+      33.667
     ],
-    "mean_lat": -10.834,
-    "mean_lon": 28.504,
+    "mean_lat": -10.899,
+    "mean_lon": 28.643,
     "true_lat": -15.79,
     "true_lon": 34.9899,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Blantyre%2C+Malawi&go=Go&ns0=1",
@@ -3228,6 +3278,7 @@
       "Aargau",
       "Cairo",
       "Western Australia",
+      "Cairo",
       "Cairo"
     ],
     "countries": [
@@ -3290,6 +3341,7 @@
       "Switzerland",
       "Egypt",
       "Australia",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -3352,7 +3404,8 @@
       20.6,
       297.8,
       2837.5,
-      313.4
+      313.4,
+      316.1
     ],
     "times": [
       2.4,
@@ -3414,6 +3467,7 @@
       8.5,
       7.3,
       7.2,
+      8,
       8
     ]
   },
@@ -4022,9 +4076,9 @@
     ]
   },
   "Casablanca, Morocco": {
-    "mean_dist": 306.8,
+    "mean_dist": 303.5,
     "mean_time": 7.7,
-    "std_dist": 795.4,
+    "std_dist": 787.2,
     "std_time": 0.7,
     "admin": "Casablanca-Settat",
     "country": "Morocco",
@@ -4075,7 +4129,8 @@
       32.514,
       32.527,
       32.194,
-      32.977
+      32.977,
+      32.665
     ],
     "lons": [
       "x",
@@ -4123,10 +4178,11 @@
       -6.649,
       -8.675,
       -7.262,
-      -7.447
+      -7.447,
+      -8.793
     ],
-    "mean_lat": 32.603,
-    "mean_lon": -8.012,
+    "mean_lat": 32.608,
+    "mean_lon": -8.072,
     "true_lat": 33.6,
     "true_lon": -7.6164,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Casablanca%2C+Morocco&go=Go&ns0=1",
@@ -4176,6 +4232,7 @@
       "Cairo",
       "Aargau",
       "Cairo",
+      "Cairo",
       "Cairo"
     ],
     "countries": [
@@ -4223,6 +4280,7 @@
       "United States",
       "Egypt",
       "Switzerland",
+      "Egypt",
       "Egypt",
       "Egypt"
     ],
@@ -4272,7 +4330,8 @@
       150.6,
       154.8,
       159.7,
-      70.9
+      70.9,
+      151
     ],
     "times": [
       8,
@@ -4320,7 +4379,8 @@
       8.3,
       8.4,
       8.3,
-      8.7
+      8.7,
+      7.5
     ]
   },
   "Tahoua, Niger": {
@@ -5018,9 +5078,9 @@
     ]
   },
   "Libreville, Gabon": {
-    "mean_dist": 958.8,
+    "mean_dist": 942.6,
     "mean_time": 6.4,
-    "std_dist": 1161,
+    "std_dist": 1154.9,
     "std_time": 2,
     "city": "Libreville",
     "admin": "Estuaire",
@@ -5074,6 +5134,7 @@
       14.775,
       -0.18,
       -1.094,
+      -0.914,
       -0.914
     ],
     "lons": [
@@ -5125,10 +5186,11 @@
       -16.429,
       9.824,
       9.685,
-      9.258
+      9.258,
+      9.815
     ],
-    "mean_lat": 4.396,
-    "mean_lon": 5.311,
+    "mean_lat": 4.213,
+    "mean_lon": 5.466,
     "true_lat": 0.3854,
     "true_lon": 9.458,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Libreville%2C+Gabon&go=Go&ns0=1",
@@ -5179,6 +5241,7 @@
       "Cairo",
       "Berlin",
       "Emilia-Romagna",
+      "Cairo",
       "Cairo",
       "Cairo",
       "Cairo"
@@ -5232,6 +5295,7 @@
       "Italy",
       "Egypt",
       "Egypt",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -5283,7 +5347,8 @@
       3264,
       74.9,
       166.4,
-      146.2
+      146.2,
+      149.9
     ],
     "times": [
       8.6,
@@ -5334,7 +5399,8 @@
       5.6,
       7,
       8,
-      7.5
+      7.5,
+      7.8
     ]
   },
   "Djibouti, Djibouti": {
@@ -11834,9 +11900,9 @@
     ]
   },
   "Sikasso, Mali": {
-    "mean_dist": 909.1,
+    "mean_dist": 893,
     "mean_time": 6.9,
-    "std_dist": 1139.8,
+    "std_dist": 1130.8,
     "std_time": 1.5,
     "admin": "Sikasso",
     "country": "Mali",
@@ -11882,7 +11948,8 @@
       13.279,
       13.279,
       16.05,
-      16.338
+      16.338,
+      13.279
     ],
     "lons": [
       "x",
@@ -11925,10 +11992,11 @@
       -6.705,
       -6.333,
       -3.155,
-      -1.63
+      -1.63,
+      -6.473
     ],
-    "mean_lat": 12.793,
-    "mean_lon": -2.947,
+    "mean_lat": 12.813,
+    "mean_lon": -3.094,
     "true_lat": 11.3204,
     "true_lon": -5.68,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Sikasso%2C+Mali&go=Go&ns0=1",
@@ -11973,7 +12041,8 @@
       "Cairo",
       "Cairo",
       "Aargau",
-      "South Denmark"
+      "South Denmark",
+      "Cairo"
     ],
     "countries": [
       "United States",
@@ -12016,7 +12085,8 @@
       "Egypt",
       "Egypt",
       "Switzerland",
-      "Denmark"
+      "Denmark",
+      "Egypt"
     ],
     "dists": [
       475.2,
@@ -12059,7 +12129,8 @@
       244.6,
       229.1,
       592.4,
-      708.8
+      708.8,
+      234.2
     ],
     "times": [
       4.2,
@@ -12102,7 +12173,8 @@
       7.6,
       7.9,
       8.5,
-      8.2
+      8.2,
+      6.9
     ]
   },
   "Livingstone, Zambia": {
@@ -12432,9 +12504,9 @@
     ]
   },
   "Gweru, Zimbabwe": {
-    "mean_dist": 431.5,
-    "mean_time": 6.6,
-    "std_dist": 611.1,
+    "mean_dist": 426.7,
+    "mean_time": 6.7,
+    "std_dist": 607.7,
     "std_time": 1.6,
     "city": "Gweru",
     "admin": "Midlands",
@@ -12504,7 +12576,8 @@
       -18.444,
       -17.923,
       -19.013,
-      -18.269
+      -18.269,
+      -18.612
     ],
     "lons": [
       "x",
@@ -12571,10 +12644,11 @@
       29.871,
       30.853,
       31.753,
-      28.415
+      28.415,
+      30.419
     ],
-    "mean_lat": -16.098,
-    "mean_lon": 30.165,
+    "mean_lat": -16.17,
+    "mean_lon": 30.172,
     "true_lat": -19.45,
     "true_lon": 29.82,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Gweru%2C+Zimbabwe&go=Go&ns0=1",
@@ -12643,7 +12717,8 @@
       "Cairo",
       "South Denmark",
       "Emilia-Romagna",
-      "Berlin"
+      "Berlin",
+      "Cairo"
     ],
     "countries": [
       "United States",
@@ -12710,7 +12785,8 @@
       "Egypt",
       "Denmark",
       "Italy",
-      "Germany"
+      "Germany",
+      "Egypt"
     ],
     "dists": [
       276.4,
@@ -12777,7 +12853,8 @@
       111.9,
       201.6,
       208.6,
-      197.6
+      197.6,
+      112.4
     ],
     "times": [
       4.9,
@@ -12844,7 +12921,8 @@
       8.3,
       7.4,
       5.7,
-      1.7
+      1.7,
+      8.4
     ]
   },
   "Cotonou, Benin": {
@@ -13216,9 +13294,9 @@
     ]
   },
   "Niamey, Niger": {
-    "mean_dist": 549.3,
-    "mean_time": 7.1,
-    "std_dist": 926.1,
+    "mean_dist": 539,
+    "mean_time": 7,
+    "std_dist": 919.1,
     "std_time": 1.5,
     "admin": "Niamey",
     "country": "Niger",
@@ -13270,7 +13348,8 @@
       14.533,
       13.466,
       15.398,
-      13.46
+      13.46,
+      13.279
     ],
     "lons": [
       "x",
@@ -13319,10 +13398,11 @@
       5.802,
       3.745,
       5.171,
-      2.761
+      2.761,
+      2.575
     ],
-    "mean_lat": 10.92,
-    "mean_lon": 8.521,
+    "mean_lat": 11.051,
+    "mean_lon": 8.19,
     "true_lat": 13.5167,
     "true_lon": 2.1167,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Niamey%2C+Niger&go=Go&ns0=1",
@@ -13373,6 +13453,7 @@
       "Cairo",
       "Cairo",
       "Western Australia",
+      "Cairo",
       "Cairo"
     ],
     "countries": [
@@ -13422,6 +13503,7 @@
       "Egypt",
       "Egypt",
       "Australia",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -13471,7 +13553,8 @@
       413.3,
       176.1,
       389.7,
-      70
+      70,
+      56.2
     ],
     "times": [
       3.7,
@@ -13520,7 +13603,8 @@
       8.2,
       7.5,
       7,
-      7.9
+      7.9,
+      6.2
     ]
   },
   "Bujumbura, Burundi": {
@@ -14344,9 +14428,9 @@
     ]
   },
   "Lab\u00e9, Guinea": {
-    "mean_dist": 985,
+    "mean_dist": 972.2,
     "mean_time": 6.2,
-    "std_dist": 1422,
+    "std_dist": 1410.2,
     "std_time": 1.5,
     "city": "Lab\u00e9",
     "admin": "Lab\u00e9",
@@ -14399,7 +14483,8 @@
       12.613,
       33.316,
       4.724,
-      13.623
+      13.623,
+      12.301
     ],
     "lons": [
       "x",
@@ -14449,10 +14534,11 @@
       0.666,
       -5.37,
       17.59,
-      38.345
+      38.345,
+      -15.446
     ],
-    "mean_lat": 10.438,
-    "mean_lon": -3.47,
+    "mean_lat": 10.513,
+    "mean_lon": -3.949,
     "true_lat": 11.32,
     "true_lon": -12.3,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Lab\u00e9%2C+Guinea&go=Go&ns0=1",
@@ -14504,7 +14590,8 @@
       "Hesse",
       "Bavaria",
       "Berlin",
-      "North Rhine-Westphalia"
+      "North Rhine-Westphalia",
+      "Bucure\u015fti"
     ],
     "countries": [
       "United States",
@@ -14554,7 +14641,8 @@
       "Germany",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "Romania"
     ],
     "dists": [
       586.4,
@@ -14604,7 +14692,8 @@
       1417.6,
       2545.7,
       3369.2,
-      5495.2
+      5495.2,
+      359.4
     ],
     "times": [
       6.2,
@@ -14654,7 +14743,8 @@
       4.4,
       4.1,
       5.1,
-      4
+      4,
+      7.4
     ]
   },
   "Ibadan, Nigeria": {
@@ -15716,9 +15806,9 @@
     ]
   },
   "Mbabane, Swaziland": {
-    "mean_dist": 357.3,
+    "mean_dist": 349.8,
     "mean_time": 7.4,
-    "std_dist": 960.1,
+    "std_dist": 949.5,
     "std_time": 1,
     "city": "Mbabane",
     "admin": "Hhohho",
@@ -15763,7 +15853,8 @@
       -26.643,
       -26.509,
       -26.501,
-      -26.023
+      -26.023,
+      -26.448
     ],
     "lons": [
       "x",
@@ -15805,10 +15896,11 @@
       31.275,
       31.232,
       31.532,
-      32.16
+      32.16,
+      31.621
     ],
-    "mean_lat": -21.722,
-    "mean_lon": 29.737,
+    "mean_lat": -21.959,
+    "mean_lon": 29.831,
     "true_lat": -26.3167,
     "true_lon": 31.1333,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Mbabane%2C+Swaziland&go=Go&ns0=1",
@@ -15852,7 +15944,8 @@
       "South Denmark",
       "Cairo",
       "Cairo",
-      "Cairo"
+      "Cairo",
+      "Bucure\u015fti"
     ],
     "countries": [
       "Australia",
@@ -15894,7 +15987,8 @@
       "Denmark",
       "Egypt",
       "Egypt",
-      "Egypt"
+      "Egypt",
+      "Romania"
     ],
     "dists": [
       56.8,
@@ -15936,7 +16030,8 @@
       39,
       23.6,
       44.7,
-      107.5
+      107.5,
+      50.7
     ],
     "times": [
       8.1,
@@ -15978,7 +16073,8 @@
       8,
       7.8,
       7.2,
-      8.3
+      8.3,
+      6.4
     ]
   },
   "Kitale, Kenya": {
@@ -16622,10 +16718,10 @@
     ]
   },
   "El Oued, Algeria": {
-    "mean_dist": 432,
+    "mean_dist": 427.7,
     "mean_time": 7.2,
-    "std_dist": 174.3,
-    "std_time": 1.5,
+    "std_dist": 172.4,
+    "std_time": 1.4,
     "admin": "El Oued",
     "country": "Algeria",
     "city": "El Oued",
@@ -16679,7 +16775,9 @@
       28.626,
       35.146,
       34.676,
-      36.358
+      36.358,
+      35.106,
+      33.759
     ],
     "lons": [
       "x",
@@ -16731,10 +16829,12 @@
       3.157,
       5.344,
       4.942,
-      2.832
+      2.832,
+      3.847,
+      3.645
     ],
-    "mean_lat": 34.051,
-    "mean_lon": 3.663,
+    "mean_lat": 34.085,
+    "mean_lon": 3.671,
     "true_lat": 33.3704,
     "true_lon": 6.86,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=El Oued%2C+Algeria&go=Go&ns0=1",
@@ -16788,7 +16888,9 @@
       "Piedmont",
       "Cairo",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "California",
+      "Bucure\u015fti"
     ],
     "countries": [
       "Australia",
@@ -16840,7 +16942,9 @@
       "Italy",
       "Egypt",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "United States",
+      "Romania"
     ],
     "dists": [
       409.7,
@@ -16892,7 +16996,9 @@
       634.4,
       241.6,
       228.7,
-      495.3
+      495.3,
+      337.4,
+      300.9
     ],
     "times": [
       7.7,
@@ -16944,13 +17050,15 @@
       6.7,
       8.4,
       8,
+      8,
+      7.9,
       8
     ]
   },
   "Arlit, Niger": {
-    "mean_dist": 727.7,
-    "mean_time": 6.8,
-    "std_dist": 732.8,
+    "mean_dist": 718.3,
+    "mean_time": 6.9,
+    "std_dist": 730,
     "std_time": 1.2,
     "city": "Arlit",
     "admin": "Agadez",
@@ -17013,7 +17121,8 @@
       18.101,
       18.278,
       12.372,
-      17.747
+      17.747,
+      17.933
     ],
     "lons": [
       "x",
@@ -17073,10 +17182,11 @@
       6.668,
       6.854,
       15.88,
-      5.74
+      5.74,
+      5.963
     ],
-    "mean_lat": 13.744,
-    "mean_lon": 9.605,
+    "mean_lat": 13.871,
+    "mean_lon": 9.495,
     "true_lat": 18.82,
     "true_lon": 7.33,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Arlit%2C+Niger&go=Go&ns0=1",
@@ -17138,6 +17248,7 @@
       "Cairo",
       "Cairo",
       "Aargau",
+      "Cairo",
       "Cairo"
     ],
     "countries": [
@@ -17198,6 +17309,7 @@
       "Egypt",
       "Egypt",
       "Switzerland",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -17258,7 +17370,8 @@
       106,
       78.3,
       1162.4,
-      205.8
+      205.8,
+      174.6
     ],
     "times": [
       6.6,
@@ -17318,7 +17431,8 @@
       7.3,
       7.8,
       7.9,
-      7.5
+      7.5,
+      8
     ]
   },
   "Port Elizabeth, South Africa": {
@@ -18084,10 +18198,10 @@
     ]
   },
   "Korhogo, C\u00f4te D\u2019Ivoire": {
-    "mean_dist": 398,
+    "mean_dist": 392.3,
     "mean_time": 7.3,
-    "std_dist": 277,
-    "std_time": 1.1,
+    "std_dist": 275.3,
+    "std_time": 1,
     "city": "Korhogo",
     "admin": "Savanes",
     "country": "C\u00f4te D\u2019Ivoire",
@@ -18149,7 +18263,9 @@
       9.452,
       8.902,
       9.085,
-      6.898
+      6.898,
+      8.718,
+      6.143
     ],
     "lons": [
       "x",
@@ -18209,10 +18325,12 @@
       -5.591,
       -5.962,
       -5.545,
-      -5.334
+      -5.334,
+      -5.591,
+      -5.105
     ],
-    "mean_lat": 8.332,
-    "mean_lon": -6.75,
+    "mean_lat": 8.28,
+    "mean_lon": -6.67,
     "true_lat": 9.46,
     "true_lon": -5.64,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Korhogo%2C+C\u00f4te D\u2019Ivoire&go=Go&ns0=1",
@@ -18274,7 +18392,9 @@
       "Cairo",
       "Cairo",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Cairo",
+      "England"
     ],
     "countries": [
       "Italy",
@@ -18334,7 +18454,9 @@
       "Egypt",
       "Egypt",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Egypt",
+      "United Kingdom"
     ],
     "dists": [
       548.7,
@@ -18394,7 +18516,9 @@
       5.3,
       71.4,
       42.8,
-      286.8
+      286.8,
+      82.6,
+      373.4
     ],
     "times": [
       7,
@@ -18454,7 +18578,9 @@
       8.1,
       8.2,
       8.3,
-      7.4
+      7.4,
+      8.1,
+      8.1
     ]
   },
   "Pretoria, South Africa": {
@@ -22630,9 +22756,9 @@
     ]
   },
   "Sekondi, Ghana": {
-    "mean_dist": 633.8,
+    "mean_dist": 623.9,
     "mean_time": 6.8,
-    "std_dist": 801.6,
+    "std_dist": 796.8,
     "std_time": 1.7,
     "admin": "Western",
     "country": "Ghana",
@@ -22687,7 +22813,8 @@
       7.236,
       6.867,
       7.052,
-      6.322
+      6.322,
+      6.053
     ],
     "lons": [
       "x",
@@ -22739,10 +22866,11 @@
       -0.57,
       -0.941,
       -1.127,
-      -0.579
+      -0.579,
+      -1.372
     ],
-    "mean_lat": 7.361,
-    "mean_lon": 1.486,
+    "mean_lat": 7.309,
+    "mean_lon": 1.371,
     "true_lat": 4.9433,
     "true_lon": -1.704,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Sekondi%2C+Ghana&go=Go&ns0=1",
@@ -22796,7 +22924,8 @@
       "Cairo",
       "Cairo",
       "Cairo",
-      "Cairo"
+      "Cairo",
+      "California"
     ],
     "countries": [
       "France",
@@ -22848,7 +22977,8 @@
       "Egypt",
       "Egypt",
       "Egypt",
-      "Egypt"
+      "Egypt",
+      "United States"
     ],
     "dists": [
       268.7,
@@ -22900,7 +23030,8 @@
       284.1,
       229.9,
       242.9,
-      197.4
+      197.4,
+      128.8
     ],
     "times": [
       5.2,
@@ -22952,7 +23083,8 @@
       8.4,
       8.3,
       8.3,
-      7.3
+      7.3,
+      8.2
     ]
   },
   "Addis Ababa, Ethiopia": {
@@ -23288,9 +23420,9 @@
     ]
   },
   "Gemena, Congo (Kinshasa)": {
-    "mean_dist": 1026.1,
-    "mean_time": 6.9,
-    "std_dist": 395.1,
+    "mean_dist": 1000.5,
+    "mean_time": 7,
+    "std_dist": 420.5,
     "std_time": 1.7,
     "city": "Gemena",
     "admin": "Sud-Ubangi",
@@ -23333,7 +23465,8 @@
       -4.822,
       1.492,
       1.804,
-      1.873
+      1.873,
+      3.359
     ],
     "lons": [
       "x",
@@ -23373,10 +23506,11 @@
       17.62,
       28.633,
       22.313,
-      21.88
+      21.88,
+      19.513
     ],
-    "mean_lat": -2.729,
-    "mean_lon": 19.075,
+    "mean_lat": -2.408,
+    "mean_lon": 19.098,
     "true_lat": 3.26,
     "true_lon": 19.77,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Gemena%2C+Congo (Kinshasa)&go=Go&ns0=1",
@@ -23418,6 +23552,7 @@
       "Cairo",
       "Cairo",
       "California",
+      "Cairo",
       "Cairo"
     ],
     "countries": [
@@ -23458,6 +23593,7 @@
       "Egypt",
       "Egypt",
       "United States",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -23498,7 +23634,8 @@
       929.9,
       1004.1,
       325.5,
-      280.5
+      280.5,
+      30.4
     ],
     "times": [
       5.8,
@@ -23538,7 +23675,8 @@
       7.4,
       1.4,
       7,
-      6.5
+      6.5,
+      7.8
     ]
   },
   "Abidjan, C\u00f4te D\u2019Ivoire": {
@@ -23856,10 +23994,10 @@
     ]
   },
   "Port Sudan, Sudan": {
-    "mean_dist": 734.7,
-    "mean_time": 6,
-    "std_dist": 1006.6,
-    "std_time": 1.6,
+    "mean_dist": 708.4,
+    "mean_time": 6.1,
+    "std_dist": 996.4,
+    "std_time": 1.7,
     "city": "Port Sudan",
     "admin": "Red Sea",
     "country": "Sudan",
@@ -23914,7 +24052,9 @@
       18.355,
       18.806,
       20.034,
-      -6.257
+      -6.257,
+      19.693,
+      19.072
     ],
     "lons": [
       "x",
@@ -23967,10 +24107,12 @@
       31.415,
       36.615,
       37.11,
-      37.654
+      37.654,
+      37.287,
+      37.322
     ],
-    "mean_lat": 13.195,
-    "mean_lon": 34.133,
+    "mean_lat": 13.559,
+    "mean_lon": 34.319,
     "true_lat": 19.6158,
     "true_lon": 37.2164,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Port Sudan%2C+Sudan&go=Go&ns0=1",
@@ -24025,7 +24167,9 @@
       "South Denmark",
       "Cairo",
       "Cairo",
-      "Western Australia"
+      "Western Australia",
+      "Cairo",
+      "England"
     ],
     "countries": [
       "France",
@@ -24078,7 +24222,9 @@
       "Denmark",
       "Egypt",
       "Egypt",
-      "Australia"
+      "Australia",
+      "Egypt",
+      "United Kingdom"
     ],
     "dists": [
       92.2,
@@ -24131,7 +24277,9 @@
       625.7,
       109.8,
       47.8,
-      2877.3
+      2877.3,
+      11.3,
+      61.4
     ],
     "times": [
       3.4,
@@ -24184,7 +24332,9 @@
       6.9,
       7.6,
       8.1,
-      5.4
+      5.4,
+      8.4,
+      8.1
     ]
   },
   "Umtata, South Africa": {
@@ -24472,9 +24622,9 @@
     ]
   },
   "Lobito, Angola": {
-    "mean_dist": 404,
+    "mean_dist": 400.1,
     "mean_time": 7.2,
-    "std_dist": 543.6,
+    "std_dist": 538.4,
     "std_time": 1.2,
     "admin": "Benguela",
     "country": "Angola",
@@ -24525,7 +24675,8 @@
       -11.444,
       -11.064,
       -11.799,
-      -12.777
+      -12.777,
+      -12.526
     ],
     "lons": [
       "x",
@@ -24573,10 +24724,11 @@
       15.021,
       15.439,
       14.826,
-      16.661
+      16.661,
+      15.569
     ],
-    "mean_lat": -10.551,
-    "mean_lon": 15.309,
+    "mean_lat": -10.645,
+    "mean_lon": 15.322,
     "true_lat": -12.37,
     "true_lon": 13.5412,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Lobito%2C+Angola&go=Go&ns0=1",
@@ -24626,7 +24778,8 @@
       "Cairo",
       "Cairo",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Cairo"
     ],
     "countries": [
       "France",
@@ -24674,7 +24827,8 @@
       "Egypt",
       "Egypt",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Egypt"
     ],
     "dists": [
       216.3,
@@ -24722,7 +24876,8 @@
       191.1,
       252.5,
       153.5,
-      341.6
+      341.6,
+      220.9
     ],
     "times": [
       3.8,
@@ -24770,13 +24925,14 @@
       8.2,
       8.1,
       7.8,
-      7.7
+      7.7,
+      7.9
     ]
   },
   "Toamasina, Madagascar": {
-    "mean_dist": 327,
+    "mean_dist": 323.7,
     "mean_time": 7.5,
-    "std_dist": 172,
+    "std_dist": 172.6,
     "std_time": 1,
     "city": "Toamasina",
     "admin": "Toamasina",
@@ -24843,7 +24999,8 @@
       -17.087,
       -21.451,
       -18.612,
-      -19.119
+      -19.119,
+      -18.788
     ],
     "lons": [
       "x",
@@ -24907,10 +25064,11 @@
       48.588,
       45.807,
       48.981,
-      47.01
+      47.01,
+      48.47
     ],
-    "mean_lat": -18.833,
-    "mean_lon": 47.287,
+    "mean_lat": -18.831,
+    "mean_lon": 47.325,
     "true_lat": -18.1818,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Toamasina%2C+Madagascar&go=Go&ns0=1",
     "true_lon": 49.405,
@@ -24976,7 +25134,8 @@
       "Aargau",
       "Western Australia",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Cairo"
     ],
     "countries": [
       "France",
@@ -25040,7 +25199,8 @@
       "Switzerland",
       "Australia",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Egypt"
     ],
     "dists": [
       374.2,
@@ -25104,7 +25264,8 @@
       149.3,
       523.2,
       65.4,
-      272.9
+      272.9,
+      119.3
     ],
     "times": [
       7.1,
@@ -25168,7 +25329,8 @@
       8.5,
       7.9,
       8.2,
-      8.3
+      8.3,
+      7.5
     ]
   },
   "Nkongsamba, Cameroon": {
@@ -25728,9 +25890,9 @@
     ]
   },
   "Mombasa, Kenya": {
-    "mean_dist": 737.1,
-    "mean_time": 6.1,
-    "std_dist": 1271.7,
+    "mean_dist": 728.8,
+    "mean_time": 6.2,
+    "std_dist": 1262.7,
     "std_time": 1.8,
     "city": "Mombasa",
     "admin": "Mombasa",
@@ -25794,7 +25956,8 @@
       -3.509,
       -3.886,
       -3.329,
-      1.987
+      1.987,
+      -1.944
     ],
     "lons": [
       "x",
@@ -25855,10 +26018,11 @@
       39.508,
       39.514,
       39.7,
-      37.172
+      37.172,
+      40.106
     ],
-    "mean_lat": -1.068,
-    "mean_lon": 33.682,
+    "mean_lat": -1.091,
+    "mean_lon": 33.856,
     "true_lat": -4.04,
     "true_lon": 39.6899,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Mombasa%2C+Kenya&go=Go&ns0=1",
@@ -25921,7 +26085,8 @@
       "Cairo",
       "Cairo",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Bucure\u015fti"
     ],
     "countries": [
       "France",
@@ -25982,7 +26147,8 @@
       "Egypt",
       "Egypt",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Romania"
     ],
     "dists": [
       649.6,
@@ -26043,7 +26209,8 @@
       62.3,
       25.8,
       78.9,
-      726.3
+      726.3,
+      237.5
     ],
     "times": [
       4.6,
@@ -26104,14 +26271,15 @@
       8.5,
       8,
       7.8,
-      7.7
+      7.7,
+      6.8
     ]
   },
   "Harare, Zimbabwe": {
-    "mean_dist": 406.7,
+    "mean_dist": 397.3,
     "mean_time": 7.1,
-    "std_dist": 635,
-    "std_time": 1.5,
+    "std_dist": 626.3,
+    "std_time": 1.4,
     "city": "Harare",
     "admin": "Harare",
     "country": "Zimbabwe",
@@ -26172,7 +26340,9 @@
       -18.857,
       -17.899,
       -18.606,
-      -19.139
+      -19.139,
+      -18.082,
+      -18.857
     ],
     "lons": [
       "x",
@@ -26231,10 +26401,12 @@
       30.295,
       30.412,
       31.031,
-      30.419
+      30.419,
+      31.718,
+      29.765
     ],
-    "mean_lat": -19.061,
-    "mean_lon": 28.396,
+    "mean_lat": -19.025,
+    "mean_lon": 28.538,
     "true_lat": -17.8178,
     "true_lon": 31.0447,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Harare%2C+Zimbabwe&go=Go&ns0=1",
@@ -26295,7 +26467,9 @@
       "Northern Ireland",
       "Cairo",
       "Cairo",
-      "Cairo"
+      "Cairo",
+      "Cairo",
+      "England"
     ],
     "countries": [
       "France",
@@ -26354,7 +26528,9 @@
       "United Kingdom",
       "Egypt",
       "Egypt",
-      "Egypt"
+      "Egypt",
+      "Egypt",
+      "United Kingdom"
     ],
     "dists": [
       262.8,
@@ -26413,7 +26589,9 @@
       140.1,
       67.4,
       87.6,
-      161.1
+      161.1,
+      77.1,
+      177.8
     ],
     "times": [
       6,
@@ -26472,13 +26650,15 @@
       5.4,
       8,
       8.1,
-      8.2
+      8.2,
+      8.2,
+      7.2
     ]
   },
   "Kindia, Guinea": {
-    "mean_dist": 532.1,
+    "mean_dist": 523.8,
     "mean_time": 6.5,
-    "std_dist": 773.3,
+    "std_dist": 768.6,
     "std_time": 1.6,
     "admin": "Kindia",
     "country": "Guinea",
@@ -26537,7 +26717,8 @@
       11.09,
       10.907,
       10.724,
-      10.008
+      10.008,
+      10.551
     ],
     "lons": [
       "x",
@@ -26593,10 +26774,11 @@
       -11.707,
       -11.15,
       -10.779,
-      -13.703
+      -13.703,
+      -12.412
     ],
-    "mean_lat": 9.57,
-    "mean_lon": -8.392,
+    "mean_lat": 9.606,
+    "mean_lon": -8.541,
     "true_lat": 10.06,
     "true_lon": -12.87,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kindia%2C+Guinea&go=Go&ns0=1",
@@ -26648,6 +26830,7 @@
       "\u00d8stfold",
       "Utrecht",
       "Hesse",
+      "Cairo",
       "Cairo",
       "Cairo",
       "Cairo",
@@ -26710,6 +26893,7 @@
       "Egypt",
       "Egypt",
       "Egypt",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -26766,7 +26950,8 @@
       171,
       210.2,
       240.2,
-      91.3
+      91.3,
+      74
     ],
     "times": [
       4.7,
@@ -26822,7 +27007,8 @@
       7.8,
       7.7,
       6.6,
-      5.7
+      5.7,
+      6.1
     ]
   },
   "Benin City, Nigeria": {
@@ -27606,9 +27792,9 @@
     ]
   },
   "Maseru, Lesotho": {
-    "mean_dist": 875.1,
+    "mean_dist": 858,
     "mean_time": 7.2,
-    "std_dist": 1764.6,
+    "std_dist": 1748.6,
     "std_time": 1.2,
     "city": "Maseru",
     "admin": "Maseru",
@@ -27657,7 +27843,8 @@
       -26.315,
       -29.139,
       -28.977,
-      -3.005
+      -3.005,
+      -29.456
     ],
     "lons": [
       "x",
@@ -27703,10 +27890,11 @@
       31.511,
       28.572,
       28.2,
-      30.162
+      30.162,
+      28.562
     ],
-    "mean_lat": -19.165,
-    "mean_lon": 25.974,
+    "mean_lat": -19.809,
+    "mean_lon": 26.136,
     "true_lat": -29.3167,
     "true_lon": 27.4833,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Maseru%2C+Lesotho&go=Go&ns0=1",
@@ -27754,7 +27942,8 @@
       "Harjumaa",
       "Cairo",
       "Cairo",
-      "Maryland"
+      "Maryland",
+      "Cairo"
     ],
     "countries": [
       "France",
@@ -27800,7 +27989,8 @@
       "Estonia",
       "Egypt",
       "Egypt",
-      "United States"
+      "United States",
+      "Egypt"
     ],
     "dists": [
       101.8,
@@ -27846,7 +28036,8 @@
       517.8,
       107.4,
       79.2,
-      2939.2
+      2939.2,
+      105.7
     ],
     "times": [
       5,
@@ -27892,14 +28083,15 @@
       6.2,
       7.9,
       7.9,
-      5.5
+      5.5,
+      7.9
     ]
   },
   "Mbale, Uganda": {
-    "mean_dist": 513.5,
-    "mean_time": 7,
-    "std_dist": 1171.5,
-    "std_time": 1.5,
+    "mean_dist": 623.7,
+    "mean_time": 6.6,
+    "std_dist": 1231.6,
+    "std_time": 1.9,
     "admin": "Mbale",
     "country": "Uganda",
     "city": "Mbale",
@@ -27956,7 +28148,12 @@
       0.563,
       1.136,
       1.129,
-      0.036
+      0.036,
+      1.501,
+      -4.066,
+      -12.867,
+      5.038,
+      11.703
     ],
     "lons": [
       "x",
@@ -28011,10 +28208,15 @@
       32.841,
       33.197,
       32.646,
-      30.861
+      30.861,
+      32.507,
+      34.538,
+      18.888,
+      13.635,
+      3.528
     ],
-    "mean_lat": 0.558,
-    "mean_lon": 30.824,
+    "mean_lat": 0.515,
+    "mean_lon": 29.366,
     "true_lat": 1.0904,
     "true_lon": 34.17,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Mbale%2C+Uganda&go=Go&ns0=1",
@@ -28071,7 +28273,12 @@
       "Cairo",
       "Cairo",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Cairo",
+      "England",
+      "St Peter Port",
+      "England",
+      "England"
     ],
     "countries": [
       "France",
@@ -28126,7 +28333,12 @@
       "Egypt",
       "Egypt",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Egypt",
+      "United Kingdom",
+      "Guernsey",
+      "United Kingdom",
+      "United Kingdom"
     ],
     "dists": [
       393.1,
@@ -28181,7 +28393,12 @@
       158.9,
       108.2,
       169.4,
-      386
+      386,
+      190.4,
+      574.8,
+      2291.5,
+      2321.4,
+      3580.5
     ],
     "times": [
       5.4,
@@ -28236,7 +28453,12 @@
       7.1,
       7.9,
       7.8,
-      6.9
+      6.9,
+      7.2,
+      1.2,
+      2.4,
+      2.7,
+      1.8
     ]
   },
   "Kananga, Congo (Kinshasa)": {
@@ -28796,9 +29018,9 @@
     ]
   },
   "Yamoussoukro, C\u00f4te D\u2019Ivoire": {
-    "mean_dist": 557.4,
-    "mean_time": 7.3,
-    "std_dist": 1103.5,
+    "mean_dist": 549.8,
+    "mean_time": 7.4,
+    "std_dist": 1091,
     "std_time": 1.2,
     "admin": "Yamoussoukro",
     "country": "C\u00f4te D\u2019Ivoire",
@@ -28843,7 +29065,8 @@
       5.327,
       6.131,
       6.137,
-      7.451
+      7.451,
+      5.768
     ],
     "lons": [
       "x",
@@ -28885,10 +29108,11 @@
       -4.777,
       -3.973,
       -3.549,
-      -4.963
+      -4.963,
+      -3.317
     ],
-    "mean_lat": 3.618,
-    "mean_lon": -1.411,
+    "mean_lat": 3.708,
+    "mean_lon": -1.49,
     "true_lat": 6.8184,
     "true_lon": -5.2755,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Yamoussoukro%2C+C\u00f4te D\u2019Ivoire&go=Go&ns0=1",
@@ -28932,7 +29156,8 @@
       "Aargau",
       "Ontario",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Cairo"
     ],
     "countries": [
       "United States",
@@ -28974,7 +29199,8 @@
       "Switzerland",
       "Canada",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Egypt"
     ],
     "dists": [
       579,
@@ -29016,7 +29242,8 @@
       174.7,
       162.8,
       205.1,
-      78.3
+      78.3,
+      245.9
     ],
     "times": [
       7.9,
@@ -29058,7 +29285,8 @@
       8.2,
       6.5,
       8.3,
-      7.7
+      7.7,
+      8.1
     ]
   },
   "Sann\u0101r, Sudan": {
@@ -33638,9 +33866,9 @@
     ]
   },
   "Tobruk, Libya": {
-    "mean_dist": 845.6,
+    "mean_dist": 830.9,
     "mean_time": 6.6,
-    "std_dist": 448.5,
+    "std_dist": 456.4,
     "std_time": 1.7,
     "admin": "Al Bu\u0163n\u0101n",
     "country": "Libya",
@@ -33696,7 +33924,8 @@
       31.29,
       31.092,
       32.213,
-      31.726
+      31.726,
+      31.721
     ],
     "lons": [
       "x",
@@ -33749,10 +33978,11 @@
       15.795,
       21.008,
       14.898,
-      24.163
+      24.163,
+      24.711
     ],
-    "mean_lat": 30.055,
-    "mean_lon": 16.105,
+    "mean_lat": 30.11,
+    "mean_lon": 16.392,
     "true_lat": 32.08,
     "true_lon": 23.96,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tobruk%2C+Libya&go=Go&ns0=1",
@@ -33807,6 +34037,7 @@
       "Texas",
       "Cairo",
       "Aargau",
+      "Cairo",
       "Cairo"
     ],
     "countries": [
@@ -33860,6 +34091,7 @@
       "United States",
       "Egypt",
       "Switzerland",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -33913,7 +34145,8 @@
       777.3,
       300.4,
       853,
-      43.7
+      43.7,
+      81.3
     ],
     "times": [
       7.3,
@@ -33966,7 +34199,8 @@
       6.4,
       7.5,
       7.6,
-      8.3
+      8.3,
+      7.3
     ]
   },
   "Nyanza, Rwanda": {
@@ -35902,9 +36136,9 @@
     ]
   },
   "Shib\u012bn al Kawm, Egypt": {
-    "mean_dist": 204.8,
+    "mean_dist": 199.9,
     "mean_time": 7.5,
-    "std_dist": 161.8,
+    "std_dist": 162.3,
     "std_time": 1.4,
     "admin": "Al Min\u016bf\u012byah",
     "country": "Egypt",
@@ -35945,7 +36179,8 @@
       30.439,
       30.279,
       30.599,
-      30.621
+      30.621,
+      30.767
     ],
     "lons": [
       "x",
@@ -35983,10 +36218,11 @@
       31.232,
       31.17,
       31.232,
-      30.96
+      30.96,
+      31.022
     ],
-    "mean_lat": 29.296,
-    "mean_lon": 31.522,
+    "mean_lat": 29.378,
+    "mean_lon": 31.494,
     "true_lat": 30.592,
     "true_lon": 30.9,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Shib\u012bn al Kawm%2C+Egypt&go=Go&ns0=1",
@@ -36022,6 +36258,7 @@
       "Cairo",
       "Aargau",
       "South Denmark",
+      "Cairo",
       "Cairo",
       "Cairo",
       "Cairo",
@@ -36064,6 +36301,7 @@
       "Egypt",
       "Egypt",
       "Egypt",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -36102,7 +36340,8 @@
       36,
       43.3,
       31.8,
-      6.6
+      6.6,
+      22.7
     ],
     "times": [
       8.5,
@@ -36140,7 +36379,8 @@
       8.1,
       8.2,
       8.1,
-      7.9
+      7.9,
+      8.1
     ]
   },
   "N\u2019Z\u00e9r\u00e9kor\u00e9, Guinea": {
@@ -37424,9 +37664,9 @@
     ]
   },
   "Kandi, Benin": {
-    "mean_dist": 632,
+    "mean_dist": 628.4,
     "mean_time": 7,
-    "std_dist": 842.3,
+    "std_dist": 835.7,
     "std_time": 1.3,
     "admin": "Alibori",
     "country": "Benin",
@@ -37490,7 +37730,8 @@
       7.973,
       8.83,
       7.251,
-      2.522
+      2.522,
+      7.4
     ],
     "lons": [
       "x",
@@ -37551,10 +37792,11 @@
       2.461,
       2.432,
       2.26,
-      17.211
+      17.211,
+      2.591
     ],
-    "mean_lat": 8.029,
-    "mean_lon": 0.999,
+    "mean_lat": 7.999,
+    "mean_lon": 1.075,
     "true_lat": 11.1304,
     "true_lon": 2.94,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kandi%2C+Benin&go=Go&ns0=1",
@@ -37617,7 +37859,8 @@
       "Cairo",
       "Aargau",
       "Cairo",
-      "Western Australia"
+      "Western Australia",
+      "California"
     ],
     "countries": [
       "United States",
@@ -37678,7 +37921,8 @@
       "Egypt",
       "Switzerland",
       "Egypt",
-      "Australia"
+      "Australia",
+      "United States"
     ],
     "dists": [
       278.4,
@@ -37739,7 +37983,8 @@
       354.9,
       261.6,
       437.6,
-      1842.2
+      1842.2,
+      416.5
     ],
     "times": [
       8.2,
@@ -37800,13 +38045,14 @@
       7.6,
       8.5,
       8.1,
-      7.5
+      7.5,
+      8.3
     ]
   },
   "Kisumu, Kenya": {
-    "mean_dist": 501.5,
+    "mean_dist": 493.5,
     "mean_time": 7.2,
-    "std_dist": 546.3,
+    "std_dist": 542.4,
     "std_time": 1.2,
     "admin": "Kisumu",
     "country": "Kenya",
@@ -37853,7 +38099,8 @@
       1.616,
       1.687,
       0.779,
-      0.572
+      0.572,
+      0.014
     ],
     "lons": [
       "x",
@@ -37897,10 +38144,11 @@
       37.636,
       35.43,
       37.729,
-      34.688
+      34.688,
+      36.173
     ],
-    "mean_lat": 1.659,
-    "mean_lon": 37.318,
+    "mean_lat": 1.593,
+    "mean_lon": 37.272,
     "true_lat": -0.09,
     "true_lon": 34.75,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kisumu%2C+Kenya&go=Go&ns0=1",
@@ -37946,6 +38194,7 @@
       "Harjumaa",
       "Cairo",
       "Harjumaa",
+      "Cairo",
       "Cairo"
     ],
     "countries": [
@@ -37990,6 +38239,7 @@
       "Estonia",
       "Egypt",
       "Estonia",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -38034,7 +38284,8 @@
       372.8,
       211.6,
       345.1,
-      73.9
+      73.9,
+      158.6
     ],
     "times": [
       8,
@@ -38078,7 +38329,8 @@
       8.3,
       7.8,
       7.8,
-      8.1
+      8.1,
+      5.9
     ]
   },
   "Lilongwe, Malawi": {
@@ -39542,9 +39794,9 @@
     ]
   },
   "Uitenhage, South Africa": {
-    "mean_dist": 561.6,
+    "mean_dist": 568.6,
     "mean_time": 7.4,
-    "std_dist": 276.1,
+    "std_dist": 277.7,
     "std_time": 0.9,
     "admin": "Eastern Cape",
     "country": "South Africa",
@@ -39598,7 +39850,8 @@
       -29.139,
       -28.737,
       -29.132,
-      -26.509
+      -26.509,
+      -26.001
     ],
     "lons": [
       "x",
@@ -39649,10 +39902,11 @@
       25.107,
       25.919,
       31.556,
-      28.572
+      28.572,
+      28.423
     ],
-    "mean_lat": -29.276,
-    "mean_lon": 25.723,
+    "mean_lat": -29.104,
+    "mean_lon": 25.865,
     "true_lat": -33.7596,
     "true_lon": 25.39,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Uitenhage%2C+South Africa&go=Go&ns0=1",
@@ -39705,6 +39959,7 @@
       "Cairo",
       "Aargau",
       "South Denmark",
+      "Cairo",
       "Cairo"
     ],
     "countries": [
@@ -39756,6 +40011,7 @@
       "Egypt",
       "Switzerland",
       "Denmark",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -39807,7 +40063,8 @@
       514.3,
       560.7,
       778.7,
-      862.1
+      862.1,
+      910.7
     ],
     "times": [
       8.2,
@@ -39858,7 +40115,8 @@
       8,
       8.3,
       6.5,
-      6.4
+      6.4,
+      7.3
     ]
   },
   "Mbandaka, Congo (Kinshasa)": {
@@ -40376,9 +40634,9 @@
     ]
   },
   "Kumbo, Cameroon": {
-    "mean_dist": 410.4,
+    "mean_dist": 406.5,
     "mean_time": 7.4,
-    "std_dist": 565.9,
+    "std_dist": 560.8,
     "std_time": 1.2,
     "admin": "North-West",
     "country": "Cameroon",
@@ -40432,7 +40690,8 @@
       3.968,
       4.647,
       3.535,
-      4.833
+      4.833,
+      4.286
     ],
     "lons": [
       "x",
@@ -40483,10 +40742,11 @@
       11.897,
       12.051,
       10.443,
-      10.814
+      10.814,
+      10.557
     ],
-    "mean_lat": 4.251,
-    "mean_lon": 10.772,
+    "mean_lat": 4.252,
+    "mean_lon": 10.764,
     "true_lat": 6.2204,
     "true_lon": 10.68,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kumbo%2C+Cameroon&go=Go&ns0=1",
@@ -40537,6 +40797,7 @@
       "Zurich",
       "Cairo",
       "Texas",
+      "Cairo",
       "Cairo",
       "Cairo",
       "Cairo"
@@ -40590,6 +40851,7 @@
       "United States",
       "Egypt",
       "Egypt",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -40641,7 +40903,8 @@
       284.4,
       231.5,
       299.7,
-      154.9
+      154.9,
+      215.4
     ],
     "times": [
       7.7,
@@ -40692,7 +40955,8 @@
       7.9,
       7.9,
       8,
-      8.1
+      8.1,
+      8
     ]
   },
   "Ogbomoso, Nigeria": {
@@ -41554,9 +41818,9 @@
     ]
   },
   "Zaria, Nigeria": {
-    "mean_dist": 411,
+    "mean_dist": 415.4,
     "mean_time": 7.2,
-    "std_dist": 256.3,
+    "std_dist": 248.3,
     "std_time": 1.5,
     "admin": "Kaduna",
     "country": "Nigeria",
@@ -41589,7 +41853,9 @@
       9.015,
       7.451,
       6.528,
-      6.867
+      6.867,
+      7.245,
+      6.539
     ],
     "lons": [
       "x",
@@ -41619,10 +41885,12 @@
       7.009,
       5.06,
       5.338,
-      6.235
+      6.235,
+      6.659,
+      6.96
     ],
-    "mean_lat": 9.797,
-    "mean_lon": 8.54,
+    "mean_lat": 9.434,
+    "mean_lon": 8.323,
     "true_lat": 11.08,
     "true_lon": 7.71,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Zaria%2C+Nigeria&go=Go&ns0=1",
@@ -41654,7 +41922,9 @@
       "Vienna",
       "Vienna",
       "Vienna",
-      "Cairo"
+      "Cairo",
+      "Cairo",
+      "England"
     ],
     "countries": [
       "United States",
@@ -41684,7 +41954,9 @@
       "Austria",
       "Austria",
       "Austria",
-      "Egypt"
+      "Egypt",
+      "Egypt",
+      "United Kingdom"
     ],
     "dists": [
       326.2,
@@ -41714,7 +41986,9 @@
       242,
       497.3,
       569.1,
-      495.5
+      495.5,
+      441.6,
+      511.5
     ],
     "times": [
       7.2,
@@ -41744,7 +42018,9 @@
       3.8,
       5.5,
       7.4,
-      7.9
+      7.9,
+      8.1,
+      8.5
     ]
   },
   "Bulawayo, Zimbabwe": {
@@ -43274,10 +43550,10 @@
     ]
   },
   "Enugu, Nigeria": {
-    "mean_dist": 325.1,
+    "mean_dist": 321,
     "mean_time": 7.6,
-    "std_dist": 268.3,
-    "std_time": 1.3,
+    "std_dist": 264.8,
+    "std_time": 1.2,
     "admin": "Enugu",
     "country": "Nigeria",
     "city": "Enugu",
@@ -43310,7 +43586,8 @@
       7.236,
       7.804,
       5.604,
-      17.014
+      17.014,
+      6.322
     ],
     "lons": [
       "x",
@@ -43341,10 +43618,11 @@
       5.926,
       6.529,
       6.637,
-      -2.566
+      -2.566,
+      5.685
     ],
-    "mean_lat": 8.41,
-    "mean_lon": 5.507,
+    "mean_lat": 8.287,
+    "mean_lon": 5.517,
     "true_lat": 6.45,
     "true_lon": 7.5,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Enugu%2C+Nigeria&go=Go&ns0=1",
@@ -43377,7 +43655,8 @@
       "Cairo",
       "Cairo",
       "Aargau",
-      "Ontario"
+      "Ontario",
+      "Cairo"
     ],
     "countries": [
       "United States",
@@ -43408,7 +43687,8 @@
       "Egypt",
       "Egypt",
       "Switzerland",
-      "Canada"
+      "Canada",
+      "Egypt"
     ],
     "dists": [
       400.7,
@@ -43439,7 +43719,8 @@
       194.5,
       184.8,
       133.8,
-      1605.3
+      1605.3,
+      201
     ],
     "times": [
       4.6,
@@ -43470,7 +43751,8 @@
       8.5,
       8.2,
       8.1,
-      3.4
+      3.4,
+      8.1
     ]
   },
   "Mopti, Mali": {
@@ -43848,9 +44130,9 @@
     ]
   },
   "Sam\u0101l\u016b\u0163, Egypt": {
-    "mean_dist": 230.2,
+    "mean_dist": 228.2,
     "mean_time": 7.8,
-    "std_dist": 142.9,
+    "std_dist": 141.6,
     "std_time": 0.7,
     "admin": "Al Miny\u0101",
     "country": "Egypt",
@@ -43893,7 +44175,8 @@
       28.006,
       27.685,
       30.626,
-      27.521
+      27.521,
+      27.025
     ],
     "lons": [
       "x",
@@ -43933,10 +44216,11 @@
       31.17,
       31.207,
       30.304,
+      31.347,
       31.347
     ],
-    "mean_lat": 28.348,
-    "mean_lon": 31.612,
+    "mean_lat": 28.266,
+    "mean_lon": 31.596,
     "true_lat": 28.3004,
     "true_lon": 30.71,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Sam\u0101l\u016b\u0163%2C+Egypt&go=Go&ns0=1",
@@ -43978,6 +44262,7 @@
       "Cairo",
       "Cairo",
       "Harjumaa",
+      "Cairo",
       "Cairo"
     ],
     "countries": [
@@ -44018,6 +44303,7 @@
       "Egypt",
       "Egypt",
       "Estonia",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -44058,7 +44344,8 @@
       55.7,
       84,
       261.6,
-      106.9
+      106.9,
+      155
     ],
     "times": [
       7.6,
@@ -44098,7 +44385,8 @@
       8.4,
       7.7,
       7.9,
-      8.7
+      8.7,
+      8.5
     ]
   },
   "Batna, Algeria": {
@@ -48644,9 +48932,9 @@
     ]
   },
   "Banjul, Gambia, The": {
-    "mean_dist": 1058,
+    "mean_dist": 1038.3,
     "mean_time": 6.9,
-    "std_dist": 1697.8,
+    "std_dist": 1685,
     "std_time": 1.6,
     "admin": "Banjul",
     "country": "Gambia, The",
@@ -48697,7 +48985,8 @@
       13.618,
       13.632,
       13.279,
-      10.755
+      10.755,
+      13.279
     ],
     "lons": [
       "x",
@@ -48745,10 +49034,11 @@
       -16.395,
       -16.719,
       -15.614,
-      -13.316
+      -13.316,
+      -15.382
     ],
-    "mean_lat": 9.692,
-    "mean_lon": -8.488,
+    "mean_lat": 9.848,
+    "mean_lon": -8.787,
     "true_lat": 13.4539,
     "true_lon": -16.5917,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Banjul%2C+Gambia, The&go=Go&ns0=1",
@@ -48798,7 +49088,8 @@
       "South Denmark",
       "Cairo",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Cairo"
     ],
     "countries": [
       "Australia",
@@ -48846,7 +49137,8 @@
       "Denmark",
       "Egypt",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Egypt"
     ],
     "dists": [
       95.7,
@@ -48894,7 +49186,8 @@
       27.9,
       24.1,
       107.4,
-      465.6
+      465.6,
+      132.1
     ],
     "times": [
       7.9,
@@ -48942,7 +49235,8 @@
       7.2,
       7.8,
       7.8,
-      5.5
+      5.5,
+      7.5
     ]
   },
   "Dire Dawa, Ethiopia": {
@@ -49944,9 +50238,9 @@
     ]
   },
   "Kenitra, Morocco": {
-    "mean_dist": 261.8,
+    "mean_dist": 263.8,
     "mean_time": 7.5,
-    "std_dist": 278.4,
+    "std_dist": 276.5,
     "std_time": 0.8,
     "admin": "Rabat-Sal\u00e9-K\u00e9nitra",
     "country": "Morocco",
@@ -50010,7 +50304,8 @@
       32.426,
       33.125,
       33.673,
-      32.199
+      32.199,
+      30.955
     ],
     "lons": [
       "x",
@@ -50071,10 +50366,11 @@
       -8.661,
       -5.767,
       -7.138,
-      -9.347
+      -9.347,
+      -7.624
     ],
-    "mean_lat": 32.678,
-    "mean_lon": -6.43,
+    "mean_lat": 32.63,
+    "mean_lon": -6.463,
     "true_lat": 34.2704,
     "true_lon": -6.58,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kenitra%2C+Morocco&go=Go&ns0=1",
@@ -50137,7 +50433,8 @@
       "South Denmark",
       "Cairo",
       "Colorado",
-      "Maryland"
+      "Maryland",
+      "Bucure\u015fti"
     ],
     "countries": [
       "Australia",
@@ -50198,7 +50495,8 @@
       "Denmark",
       "Egypt",
       "United States",
-      "United States"
+      "United States",
+      "Romania"
     ],
     "dists": [
       140.9,
@@ -50259,7 +50557,8 @@
       281.7,
       147.7,
       84,
-      345.3
+      345.3,
+      381.3
     ],
     "times": [
       7.8,
@@ -50320,13 +50619,14 @@
       8.3,
       8.3,
       6.9,
-      6.8
+      6.8,
+      8
     ]
   },
   "Iringa, Tanzania": {
-    "mean_dist": 655.6,
+    "mean_dist": 654.1,
     "mean_time": 6.6,
-    "std_dist": 774.4,
+    "std_dist": 765.6,
     "std_time": 1.5,
     "admin": "Iringa",
     "country": "Tanzania",
@@ -50374,7 +50674,8 @@
       -6.426,
       -2.41,
       -8.943,
-      -4.072
+      -4.072,
+      -2.772
     ],
     "lons": [
       "x",
@@ -50419,10 +50720,11 @@
       32.872,
       33.769,
       34.388,
-      33.388
+      33.388,
+      33.806
     ],
-    "mean_lat": -6.817,
-    "mean_lon": 35.394,
+    "mean_lat": -6.624,
+    "mean_lon": 35.318,
     "true_lat": -7.7696,
     "true_lon": 35.69,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Iringa%2C+Tanzania&go=Go&ns0=1",
@@ -50469,6 +50771,7 @@
       "Texas",
       "Cairo",
       "Massachusetts",
+      "Cairo",
       "Cairo"
     ],
     "countries": [
@@ -50514,6 +50817,7 @@
       "United States",
       "Egypt",
       "United States",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -50559,7 +50863,8 @@
       344.9,
       632.6,
       193.7,
-      483.5
+      483.5,
+      593.4
     ],
     "times": [
       7.9,
@@ -50604,7 +50909,8 @@
       6.4,
       8,
       5.6,
-      6.4
+      6.4,
+      8.2
     ]
   },
   "Bok\u00e9, Guinea": {
@@ -51816,9 +52122,9 @@
     ]
   },
   "Sarh, Chad": {
-    "mean_dist": 750.8,
-    "mean_time": 6.7,
-    "std_dist": 896.2,
+    "mean_dist": 752,
+    "mean_time": 6.8,
+    "std_dist": 888.4,
     "std_time": 1.7,
     "admin": "Moyen-Chari",
     "country": "Chad",
@@ -51879,7 +52185,8 @@
       10.907,
       9.091,
       13.098,
-      16.711
+      16.711,
+      16.513
     ],
     "lons": [
       "x",
@@ -51937,10 +52244,11 @@
       17.063,
       15.625,
       17.796,
-      18.703
+      18.703,
+      18.539
     ],
-    "mean_lat": 10.479,
-    "mean_lon": 14.508,
+    "mean_lat": 10.702,
+    "mean_lon": 14.658,
     "true_lat": 9.15,
     "true_lon": 18.39,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Sarh%2C+Chad&go=Go&ns0=1",
@@ -52000,7 +52308,8 @@
       "Cairo",
       "Cairo",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Cairo"
     ],
     "countries": [
       "United States",
@@ -52058,7 +52367,8 @@
       "Egypt",
       "Egypt",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Egypt"
     ],
     "dists": [
       405.1,
@@ -52116,7 +52426,8 @@
       243.4,
       303.6,
       443.8,
-      841.5
+      841.5,
+      818.8
     ],
     "times": [
       5.6,
@@ -52174,7 +52485,8 @@
       7,
       4.4,
       6.8,
-      7.3
+      7.3,
+      8.1
     ]
   },
   "Al Khums, Libya": {
@@ -52456,9 +52768,9 @@
     ]
   },
   "Gandajika, Congo (Kinshasa)": {
-    "mean_dist": 645.6,
-    "mean_time": 6.4,
-    "std_dist": 434.8,
+    "mean_dist": 651.4,
+    "mean_time": 6.5,
+    "std_dist": 428.1,
     "std_time": 1.9,
     "admin": "Lomami",
     "country": "Congo (Kinshasa)",
@@ -52511,7 +52823,9 @@
       -0.312,
       -2.782,
       1.492,
-      -1.11
+      -1.11,
+      1.129,
+      -1.679
     ],
     "lons": [
       "x",
@@ -52561,10 +52875,12 @@
       11.278,
       24.302,
       19.291,
-      25.478
+      25.478,
+      27.263,
+      21.412
     ],
-    "mean_lat": -1.789,
-    "mean_lon": 21.227,
+    "mean_lat": -1.611,
+    "mean_lon": 21.593,
     "true_lat": -6.7396,
     "true_lon": 23.96,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Gandajika%2C+Congo (Kinshasa)&go=Go&ns0=1",
@@ -52616,7 +52932,9 @@
       "Piedmont",
       "Cairo",
       "Cairo",
-      "Cairo"
+      "Cairo",
+      "Cairo",
+      "Bucure\u015fti"
     ],
     "countries": [
       "United States",
@@ -52666,7 +52984,9 @@
       "Italy",
       "Egypt",
       "Egypt",
-      "Egypt"
+      "Egypt",
+      "Egypt",
+      "Romania"
     ],
     "dists": [
       812.1,
@@ -52716,7 +53036,9 @@
       1577.8,
       441.6,
       1051.8,
-      648.2
+      648.2,
+      948.7,
+      629.6
     ],
     "times": [
       1.5,
@@ -52766,7 +53088,9 @@
       7,
       8.2,
       6.4,
-      7.4
+      7.4,
+      7.8,
+      6.7
     ]
   },
   "Port Harcourt, Nigeria": {
@@ -54190,9 +54514,9 @@
     ]
   },
   "Osogbo, Nigeria": {
-    "mean_dist": 432.4,
+    "mean_dist": 423.9,
     "mean_time": 6.8,
-    "std_dist": 637.9,
+    "std_dist": 630.7,
     "std_time": 1.7,
     "admin": "Osun",
     "country": "Nigeria",
@@ -54231,7 +54555,8 @@
       8.971,
       10.375,
       7.067,
-      14.67
+      14.67,
+      7.784
     ],
     "lons": [
       "x",
@@ -54267,10 +54592,11 @@
       5.094,
       7.249,
       6.467,
-      5.296
+      5.296,
+      5.781
     ],
-    "mean_lat": 8.316,
-    "mean_lon": 6.411,
+    "mean_lat": 8.296,
+    "mean_lon": 6.388,
     "true_lat": 7.7704,
     "true_lon": 4.56,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Osogbo%2C+Nigeria&go=Go&ns0=1",
@@ -54308,7 +54634,8 @@
       "Emilia-Romagna",
       "Berlin",
       "Cairo",
-      "Western Australia"
+      "Western Australia",
+      "California"
     ],
     "countries": [
       "Poland",
@@ -54344,7 +54671,8 @@
       "Italy",
       "Germany",
       "Egypt",
-      "Australia"
+      "Australia",
+      "United States"
     ],
     "dists": [
       293.7,
@@ -54380,7 +54708,8 @@
       145.9,
       413.6,
       224.4,
-      771.4
+      771.4,
+      134.5
     ],
     "times": [
       8.2,
@@ -54416,7 +54745,8 @@
       4.4,
       6.5,
       8.3,
-      7.1
+      7.1,
+      8.5
     ]
   },
   "Lubango, Angola": {
@@ -59186,10 +59516,10 @@
     ]
   },
   "Shashemen\u0113, Ethiopia": {
-    "mean_dist": 549.5,
+    "mean_dist": 542,
     "mean_time": 6.6,
-    "std_dist": 868.4,
-    "std_time": 2,
+    "std_dist": 857.8,
+    "std_time": 1.9,
     "admin": "Orom\u012bya",
     "country": "Ethiopia",
     "city": "Shashemen\u0113",
@@ -59229,7 +59559,8 @@
       10.185,
       8.902,
       9.062,
-      9.091
+      9.091,
+      9.452
     ],
     "lons": [
       "x",
@@ -59267,10 +59598,11 @@
       38.632,
       39.096,
       39.009,
-      39.508
+      39.508,
+      39.56
     ],
-    "mean_lat": 7.004,
-    "mean_lon": 36.624,
+    "mean_lat": 7.14,
+    "mean_lon": 36.787,
     "true_lat": 7.2004,
     "true_lon": 38.59,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Shashemen\u0113%2C+Ethiopia&go=Go&ns0=1",
@@ -59310,6 +59642,7 @@
       "Cairo",
       "Cairo",
       "South Denmark",
+      "Cairo",
       "Cairo"
     ],
     "countries": [
@@ -59348,6 +59681,7 @@
       "Egypt",
       "Egypt",
       "Denmark",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -59386,7 +59720,8 @@
       331.9,
       197.2,
       212.1,
-      233.3
+      233.3,
+      272.2
     ],
     "times": [
       6,
@@ -59424,7 +59759,8 @@
       7.5,
       8.1,
       7.3,
-      7.8
+      7.8,
+      8.1
     ]
   },
   "Moundou, Chad": {
@@ -60692,9 +61028,9 @@
     ]
   },
   "Oyo, Nigeria": {
-    "mean_dist": 385.5,
+    "mean_dist": 380.1,
     "mean_time": 7.4,
-    "std_dist": 322.4,
+    "std_dist": 320.5,
     "std_time": 0.9,
     "admin": "Oyo",
     "country": "Nigeria",
@@ -60741,7 +61077,8 @@
       6.698,
       7.804,
       7.43,
-      8.923
+      8.923,
+      7.245
     ],
     "lons": [
       "x",
@@ -60785,10 +61122,11 @@
       4.797,
       4.487,
       6.288,
-      6.916
+      6.916,
+      5.174
     ],
-    "mean_lat": 7.839,
-    "mean_lon": 6.49,
+    "mean_lat": 7.818,
+    "mean_lon": 6.445,
     "true_lat": 7.8504,
     "true_lon": 3.93,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Oyo%2C+Nigeria&go=Go&ns0=1",
@@ -60834,7 +61172,8 @@
       "Cairo",
       "Cairo",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Cairo"
     ],
     "countries": [
       "United States",
@@ -60878,7 +61217,8 @@
       "Egypt",
       "Egypt",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Egypt"
     ],
     "dists": [
       339.5,
@@ -60922,7 +61262,8 @@
       159.8,
       61.6,
       264,
-      349.5
+      349.5,
+      152.7
     ],
     "times": [
       8.5,
@@ -60966,7 +61307,8 @@
       8.1,
       7.2,
       8.1,
-      8
+      8,
+      7.9
     ]
   },
   "Mekn\u00e8s, Morocco": {
@@ -61532,9 +61874,9 @@
     ]
   },
   "F\u00e8s, Morocco": {
-    "mean_dist": 188.3,
+    "mean_dist": 185.9,
     "mean_time": 7.7,
-    "std_dist": 177.1,
+    "std_dist": 173.4,
     "std_time": 0.9,
     "admin": "F\u00e8s-Mekn\u00e8s",
     "country": "Morocco",
@@ -61582,7 +61924,9 @@
       33.488,
       32.813,
       33.125,
-      33.754
+      33.754,
+      33.599,
+      34.199
     ],
     "lons": [
       "x",
@@ -61627,10 +61971,12 @@
       -7.407,
       -6.077,
       -6.448,
-      -5.034
+      -5.034,
+      -6.241,
+      -6.563
     ],
-    "mean_lat": 33.115,
-    "mean_lon": -6.48,
+    "mean_lat": 33.202,
+    "mean_lon": -6.471,
     "true_lat": 34.0546,
     "true_lon": -5.0004,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=F\u00e8s%2C+Morocco&go=Go&ns0=1",
@@ -61677,7 +62023,9 @@
       "Texas",
       "Cairo",
       "Cairo",
-      "Cairo"
+      "Cairo",
+      "Cairo",
+      "England"
     ],
     "countries": [
       "Australia",
@@ -61722,7 +62070,9 @@
       "United States",
       "Egypt",
       "Egypt",
-      "Egypt"
+      "Egypt",
+      "Egypt",
+      "United Kingdom"
     ],
     "dists": [
       63.7,
@@ -61767,7 +62117,9 @@
       231.2,
       170.3,
       169.2,
-      33.5
+      33.5,
+      125.2,
+      144.7
     ],
     "times": [
       7.7,
@@ -61812,7 +62164,9 @@
       6.8,
       8.2,
       8.2,
-      8.2
+      8.2,
+      8,
+      8.1
     ]
   },
   "Kabwe, Zambia": {
@@ -62228,9 +62582,9 @@
     ]
   },
   "Maroua, Cameroon": {
-    "mean_dist": 787,
+    "mean_dist": 775.8,
     "mean_time": 6.7,
-    "std_dist": 645.7,
+    "std_dist": 647.7,
     "std_time": 1.7,
     "admin": "Extr\u00eame-Nord",
     "country": "Cameroon",
@@ -62304,7 +62658,8 @@
       10.542,
       10.359,
       10.542,
-      10.907
+      10.907,
+      10.551
     ],
     "lons": [
       "x",
@@ -62375,10 +62730,11 @@
       14.279,
       14.093,
       14.093,
-      14.279
+      14.279,
+      14.316
     ],
-    "mean_lat": 5.39,
-    "mean_lon": 10.538,
+    "mean_lat": 5.574,
+    "mean_lon": 10.673,
     "true_lat": 10.5956,
     "true_lon": 14.3247,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Maroua%2C+Cameroon&go=Go&ns0=1",
@@ -62445,6 +62801,7 @@
       "Vienna",
       "Wisconsin",
       "Texas",
+      "Cairo",
       "Cairo",
       "Cairo",
       "Cairo",
@@ -62522,6 +62879,7 @@
       "Egypt",
       "Egypt",
       "Egypt",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -62593,7 +62951,8 @@
       7.7,
       36.4,
       25.9,
-      35
+      35,
+      5
     ],
     "times": [
       8.2,
@@ -62664,7 +63023,8 @@
       8.2,
       8.1,
       8.3,
-      8.1
+      8.1,
+      7.3
     ]
   },
   "Awka, Nigeria": {
@@ -64982,9 +65342,9 @@
     ]
   },
   "Gao, Mali": {
-    "mean_dist": 803.6,
-    "mean_time": 6.1,
-    "std_dist": 769.2,
+    "mean_dist": 804.6,
+    "mean_time": 6.2,
+    "std_dist": 760.4,
     "std_time": 1.6,
     "admin": "Gao",
     "country": "Mali",
@@ -65032,7 +65392,8 @@
       12.727,
       15.968,
       13.811,
-      7.503
+      7.503,
+      12.373
     ],
     "lons": [
       "x",
@@ -65077,10 +65438,11 @@
       -6.695,
       -0.013,
       -7.124,
-      48.538
+      48.538,
+      -6.844
     ],
-    "mean_lat": 14.075,
-    "mean_lon": -0.624,
+    "mean_lat": 13.985,
+    "mean_lon": -0.952,
     "true_lat": 16.2666,
     "true_lon": -0.05,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Gao%2C+Mali&go=Go&ns0=1",
@@ -65127,7 +65489,8 @@
       "Cairo",
       "Cairo",
       "Berlin",
-      "Emilia-Romagna"
+      "Emilia-Romagna",
+      "Cairo"
     ],
     "countries": [
       "Australia",
@@ -65172,7 +65535,8 @@
       "Egypt",
       "Egypt",
       "Germany",
-      "Italy"
+      "Italy",
+      "Egypt"
     ],
     "dists": [
       551.4,
@@ -65217,7 +65581,8 @@
       816.4,
       33.3,
       807.1,
-      5363
+      5363,
+      850.2
     ],
     "times": [
       7.2,
@@ -65262,13 +65627,14 @@
       7.5,
       6.4,
       3,
-      4.1
+      4.1,
+      7.6
     ]
   },
   "Cidade de Nacala, Mozambique": {
-    "mean_dist": 799.4,
-    "mean_time": 7,
-    "std_dist": 616.1,
+    "mean_dist": 784.3,
+    "mean_time": 7.1,
+    "std_dist": 618.9,
     "std_time": 1.3,
     "admin": "Nampula",
     "country": "Mozambique",
@@ -65322,7 +65688,8 @@
       -15.585,
       -15.591,
       -15.053,
-      -18.679
+      -18.679,
+      -14.874
     ],
     "lons": [
       "x",
@@ -65373,10 +65740,11 @@
       39.755,
       40.442,
       40.071,
-      35.316
+      35.316,
+      40.488
     ],
-    "mean_lat": -16.819,
-    "mean_lon": 34.732,
+    "mean_lat": -16.75,
+    "mean_lon": 34.937,
     "true_lat": -14.5186,
     "true_lon": 40.715,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Cidade de Nacala%2C+Mozambique&go=Go&ns0=1",
@@ -65429,7 +65797,8 @@
       "Cairo",
       "Cairo",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Cairo"
     ],
     "countries": [
       "Australia",
@@ -65480,7 +65849,8 @@
       "Egypt",
       "Egypt",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Egypt"
     ],
     "dists": [
       966.2,
@@ -65531,7 +65901,8 @@
       157.1,
       122.8,
       91.2,
-      738.1
+      738.1,
+      46.4
     ],
     "times": [
       8,
@@ -65582,7 +65953,8 @@
       8.2,
       8,
       8.4,
-      6
+      6,
+      8.5
     ]
   },
   "Bukavu, Congo (Kinshasa)": {
@@ -66106,9 +66478,9 @@
     ]
   },
   "Mzuzu, Malawi": {
-    "mean_dist": 1285.1,
+    "mean_dist": 1228.5,
     "mean_time": 5.9,
-    "std_dist": 1612.6,
+    "std_dist": 1587,
     "std_time": 2.1,
     "admin": "",
     "country": "Malawi",
@@ -66166,7 +66538,10 @@
       -15.325,
       -11.626,
       -12.535,
-      -15.048
+      -15.048,
+      -13.793,
+      -14.514,
+      -10.888
     ],
     "lons": [
       "x",
@@ -66221,10 +66596,13 @@
       34.631,
       34.202,
       34.511,
-      35.201
+      35.201,
+      34.502,
+      34.92,
+      33.806
     ],
-    "mean_lat": -7.591,
-    "mean_lon": 24.918,
+    "mean_lat": -8.001,
+    "mean_lon": 25.63,
     "true_lat": -11.46,
     "true_lon": 34.02,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Mzuzu%2C+Malawi&go=Go&ns0=1",
@@ -66281,7 +66659,10 @@
       "Aargau",
       "Cairo",
       "Cairo",
-      "Northern Ireland"
+      "Northern Ireland",
+      "Cairo",
+      "Cairo",
+      "Cairo"
     ],
     "countries": [
       "Australia",
@@ -66336,7 +66717,10 @@
       "Switzerland",
       "Egypt",
       "Egypt",
-      "United Kingdom"
+      "United Kingdom",
+      "Egypt",
+      "Egypt",
+      "Egypt"
     ],
     "dists": [
       191.1,
@@ -66391,7 +66775,10 @@
       434.8,
       27.1,
       131,
-      418.9
+      418.9,
+      264.7,
+      353.3,
+      67.7
     ],
     "times": [
       7.7,
@@ -66446,7 +66833,10 @@
       8.2,
       8,
       7.9,
-      2.7
+      2.7,
+      2.4,
+      7,
+      7.1
     ]
   },
   "Bangui, Central African Republic": {
@@ -69524,9 +69914,9 @@
     ]
   },
   "Tizi Ouzou, Algeria": {
-    "mean_dist": 275.6,
+    "mean_dist": 271.8,
     "mean_time": 7.4,
-    "std_dist": 179,
+    "std_dist": 178.4,
     "std_time": 1.4,
     "admin": "Tizi Ouzou",
     "country": "Algeria",
@@ -69571,7 +69961,8 @@
       35.242,
       35.883,
       35.581,
-      35.437
+      35.437,
+      35.739
     ],
     "lons": [
       "x",
@@ -69613,10 +70004,11 @@
       4.137,
       3.513,
       3.203,
-      4.432
+      4.432,
+      4.107
     ],
-    "mean_lat": 35.193,
-    "mean_lon": 4.154,
+    "mean_lat": 35.218,
+    "mean_lon": 4.152,
     "true_lat": 36.8,
     "true_lon": 4.0333,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tizi Ouzou%2C+Algeria&go=Go&ns0=1",
@@ -69658,6 +70050,7 @@
       "Cairo",
       "Cairo",
       "Aargau",
+      "Cairo",
       "Cairo",
       "Cairo",
       "Cairo"
@@ -69702,6 +70095,7 @@
       "Switzerland",
       "Egypt",
       "Egypt",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -69744,7 +70138,8 @@
       173.4,
       112,
       154.6,
-      155.6
+      155.6,
+      118
     ],
     "times": [
       8.7,
@@ -69786,7 +70181,8 @@
       8.8,
       8.3,
       7.7,
-      7.6
+      7.6,
+      5.5
     ]
   },
   "Gusau, Nigeria": {
@@ -70002,9 +70398,9 @@
     ]
   },
   "Kimberley, South Africa": {
-    "mean_dist": 449.9,
+    "mean_dist": 449.7,
     "mean_time": 7.2,
-    "std_dist": 135.4,
+    "std_dist": 133.4,
     "std_time": 1.4,
     "admin": "Northern Cape",
     "country": "South Africa",
@@ -70042,7 +70438,8 @@
       -26.148,
       -30.532,
       -32.177,
-      -32.879
+      -32.879,
+      -26.667
     ],
     "lons": [
       "x",
@@ -70077,10 +70474,11 @@
       27.705,
       25.92,
       25.478,
-      23.582
+      23.582,
+      28.609
     ],
-    "mean_lat": -30.611,
-    "mean_lon": 25.282,
+    "mean_lat": -30.392,
+    "mean_lon": 25.467,
     "true_lat": -28.7468,
     "true_lon": 24.77,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kimberley%2C+South Africa&go=Go&ns0=1",
@@ -70117,7 +70515,8 @@
       "Wisconsin",
       "England",
       "Cairo",
-      "Colorado"
+      "Colorado",
+      "Cairo"
     ],
     "countries": [
       "Australia",
@@ -70152,7 +70551,8 @@
       "United States",
       "United Kingdom",
       "Egypt",
-      "United States"
+      "United States",
+      "Egypt"
     ],
     "dists": [
       648.4,
@@ -70187,7 +70587,8 @@
       409.1,
       227.5,
       387.5,
-      473.3
+      473.3,
+      443
     ],
     "times": [
       8.3,
@@ -70222,7 +70623,8 @@
       7,
       1.2,
       7.7,
-      7.6
+      7.6,
+      8.3
     ]
   },
   "Oum el Bouaghi, Algeria": {
@@ -72310,9 +72712,9 @@
     ]
   },
   "Ed Damer, Sudan": {
-    "mean_dist": 542.1,
+    "mean_dist": 539.4,
     "mean_time": 7.3,
-    "std_dist": 401.2,
+    "std_dist": 396.6,
     "std_time": 1.2,
     "admin": "River Nile",
     "country": "Sudan",
@@ -72357,7 +72759,8 @@
       16.355,
       13.481,
       15.39,
-      15.44
+      15.44,
+      14.002
     ],
     "lons": [
       "x",
@@ -72399,10 +72802,11 @@
       30.954,
       32.54,
       32.54,
-      33.017
+      33.017,
+      32.507
     ],
-    "mean_lat": 15.28,
-    "mean_lon": 30.879,
+    "mean_lat": 15.231,
+    "mean_lon": 30.942,
     "true_lat": 17.59,
     "true_lon": 33.96,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ed Damer%2C+Sudan&go=Go&ns0=1",
@@ -72446,6 +72850,7 @@
       "Harjumaa",
       "South Denmark",
       "South Denmark",
+      "Cairo",
       "Cairo"
     ],
     "countries": [
@@ -72488,6 +72893,7 @@
       "Estonia",
       "Denmark",
       "Denmark",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -72530,7 +72936,8 @@
       347.8,
       481.5,
       287.5,
-      259.2
+      259.2,
+      428.1
     ],
     "times": [
       7.6,
@@ -72572,7 +72979,8 @@
       5.9,
       6.5,
       7,
-      8.3
+      8.3,
+      6.7
     ]
   },
   "M\u2019Sila, Algeria": {
@@ -74664,9 +75072,9 @@
     ]
   },
   "Gitega, Burundi": {
-    "mean_dist": 999.2,
+    "mean_dist": 984.5,
     "mean_time": 6.3,
-    "std_dist": 1361.1,
+    "std_dist": 1355.9,
     "std_time": 1.8,
     "city": "Gitega",
     "admin": "Gitega",
@@ -74736,7 +75144,8 @@
       -2.782,
       -3.403,
       -3.329,
-      -2.008
+      -2.008,
+      -3.144
     ],
     "lons": [
       "x",
@@ -74803,10 +75212,11 @@
       29.933,
       29.897,
       29.908,
-      29.933
+      29.933,
+      29.908
     ],
-    "mean_lat": -1.776,
-    "mean_lon": 22.986,
+    "mean_lat": -1.807,
+    "mean_lon": 23.143,
     "true_lat": -3.4271,
     "true_lon": 29.9246,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Gitega%2C+Burundi&go=Go&ns0=1",
@@ -74875,7 +75285,8 @@
       "Cairo",
       "Northern Ireland",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Cairo"
     ],
     "countries": [
       "Switzerland",
@@ -74942,7 +75353,8 @@
       "Egypt",
       "United Kingdom",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Egypt"
     ],
     "dists": [
       1782.5,
@@ -75009,7 +75421,8 @@
       71.7,
       3.9,
       10.9,
-      157.7
+      157.7,
+      31.4
     ],
     "times": [
       5.9,
@@ -75076,7 +75489,8 @@
       7.8,
       3.9,
       8,
-      6.3
+      6.3,
+      7.4
     ]
   },
   "S\u00e3o Tom\u00e9, Sao Tome And Principe": {
@@ -77478,9 +77892,9 @@
     ]
   },
   "Bouak\u00e9, C\u00f4te D\u2019Ivoire": {
-    "mean_dist": 224.5,
-    "mean_time": 7.4,
-    "std_dist": 187.6,
+    "mean_dist": 220.6,
+    "mean_time": 7.3,
+    "std_dist": 186.5,
     "std_time": 1.3,
     "city": "Bouak\u00e9",
     "admin": "Vall\u00e9e du Bandama",
@@ -77520,7 +77934,8 @@
       7.052,
       7.236,
       6.867,
-      7.65
+      7.65,
+      7.43
     ],
     "lons": [
       "x",
@@ -77557,10 +77972,11 @@
       -5.52,
       -5.334,
       -5.582,
-      1.032
+      1.032,
+      -5.73
     ],
-    "mean_lat": 6.662,
-    "mean_lon": -4.793,
+    "mean_lat": 6.726,
+    "mean_lon": -4.871,
     "true_lat": 7.69,
     "true_lon": -5.03,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bouak\u00e9%2C+C\u00f4te D\u2019Ivoire&go=Go&ns0=1",
@@ -77599,7 +78015,8 @@
       "Cairo",
       "Cairo",
       "Cairo",
-      "Western Australia"
+      "Western Australia",
+      "Cairo"
     ],
     "countries": [
       "United States",
@@ -77636,7 +78053,8 @@
       "Egypt",
       "Egypt",
       "Egypt",
-      "Australia"
+      "Australia",
+      "Egypt"
     ],
     "dists": [
       689.2,
@@ -77673,7 +78091,8 @@
       89.1,
       60.5,
       109.8,
-      668
+      668,
+      82.4
     ],
     "times": [
       7.9,
@@ -77710,7 +78129,8 @@
       8.1,
       8.5,
       8.2,
-      7.3
+      7.3,
+      5.1
     ]
   },
   "Bongor, Chad": {
@@ -78016,9 +78436,9 @@
     ]
   },
   "Omdurman, Sudan": {
-    "mean_dist": 457.8,
-    "mean_time": 7.3,
-    "std_dist": 804.7,
+    "mean_dist": 449.8,
+    "mean_time": 7.4,
+    "std_dist": 797.7,
     "std_time": 1.1,
     "city": "Omdurman",
     "admin": "Khartoum",
@@ -78068,7 +78488,8 @@
       16.147,
       13.933,
       13.724,
-      16.697
+      16.697,
+      15.977
     ],
     "lons": [
       "x",
@@ -78115,10 +78536,11 @@
       32.841,
       28.912,
       28.306,
-      32.64
+      32.64,
+      33.249
     ],
-    "mean_lat": 13.277,
-    "mean_lon": 29.843,
+    "mean_lat": 13.394,
+    "mean_lon": 29.991,
     "true_lat": 15.6167,
     "true_lon": 32.48,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Omdurman%2C+Sudan&go=Go&ns0=1",
@@ -78167,6 +78589,7 @@
       "Cairo",
       "Massachusetts",
       "Northern Ireland",
+      "Cairo",
       "Cairo"
     ],
     "countries": [
@@ -78214,6 +78637,7 @@
       "Egypt",
       "United States",
       "United Kingdom",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -78261,7 +78685,8 @@
       70.5,
       426.8,
       495.7,
-      121.3
+      121.3,
+      91.6
     ],
     "times": [
       7.8,
@@ -78308,13 +78733,14 @@
       8.2,
       7.6,
       5.9,
-      7.8
+      7.8,
+      8.2
     ]
   },
   "Nouakchott, Mauritania": {
-    "mean_dist": 1970.5,
-    "mean_time": 6.9,
-    "std_dist": 3047.1,
+    "mean_dist": 1940.3,
+    "mean_time": 7,
+    "std_dist": 3032.6,
     "std_time": 1.5,
     "city": "Nouakchott",
     "admin": "",
@@ -78382,7 +78808,8 @@
       25.958,
       34.089,
       -13.18,
-      -15.756
+      -15.756,
+      18.463
     ],
     "lons": [
       "x",
@@ -78447,10 +78874,11 @@
       -13.676,
       6.032,
       38.683,
-      27.573
+      27.573,
+      -16.032
     ],
-    "mean_lat": 9.565,
-    "mean_lon": 7.148,
+    "mean_lat": 9.895,
+    "mean_lon": 6.29,
     "true_lat": 18.0864,
     "true_lon": -15.9753,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Nouakchott%2C+Mauritania&go=Go&ns0=1",
@@ -78517,7 +78945,8 @@
       "Hesse",
       "Bavaria",
       "Berlin",
-      "North Rhine-Westphalia"
+      "North Rhine-Westphalia",
+      "Cairo"
     ],
     "countries": [
       "United States",
@@ -78582,7 +79011,8 @@
       "Germany",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "Egypt"
     ],
     "dists": [
       5393.7,
@@ -78647,7 +79077,8 @@
       906.7,
       2816.1,
       6929.2,
-      6075
+      6075,
+      42.3
     ],
     "times": [
       6.3,
@@ -78712,7 +79143,8 @@
       2.2,
       4.2,
       3,
-      5.2
+      5.2,
+      8.4
     ]
   },
   "Gab\u00e8s, Tunisia": {
@@ -79352,9 +79784,9 @@
     ]
   },
   "Nazr\u0113t, Ethiopia": {
-    "mean_dist": 246.1,
+    "mean_dist": 242.8,
     "mean_time": 7.4,
-    "std_dist": 198.1,
+    "std_dist": 197.7,
     "std_time": 1.2,
     "city": "Nazr\u0113t",
     "admin": "Orom\u012bya",
@@ -79413,7 +79845,8 @@
       9.443,
       9.993,
       9.443,
-      10.191
+      10.191,
+      8.902
     ],
     "lons": [
       "x",
@@ -79469,10 +79902,11 @@
       38.966,
       39.152,
       39.338,
-      41.797
+      41.797,
+      39.746
     ],
-    "mean_lat": 9.689,
-    "mean_lon": 40.26,
+    "mean_lat": 9.658,
+    "mean_lon": 40.24,
     "true_lat": 8.55,
     "true_lon": 39.27,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Nazr\u0113t%2C+Ethiopia&go=Go&ns0=1",
@@ -79525,6 +79959,7 @@
       "Zurich",
       "California",
       "Aargau",
+      "Cairo",
       "Cairo",
       "Cairo",
       "Cairo",
@@ -79586,6 +80021,7 @@
       "Egypt",
       "Egypt",
       "Egypt",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -79642,7 +80078,8 @@
       104.7,
       161,
       99.6,
-      331.9
+      331.9,
+      65.3
     ],
     "times": [
       7.9,
@@ -79698,7 +80135,8 @@
       8.2,
       8.3,
       8.4,
-      8
+      8,
+      7.7
     ]
   },
   "Skikda, Algeria": {
@@ -80374,9 +80812,9 @@
     ]
   },
   "Uyo, Nigeria": {
-    "mean_dist": 645,
-    "mean_time": 7.3,
-    "std_dist": 829.8,
+    "mean_dist": 634.4,
+    "mean_time": 7.4,
+    "std_dist": 819.3,
     "std_time": 1.2,
     "city": "Uyo",
     "admin": "Akwa Ibom",
@@ -80413,7 +80851,8 @@
       6.486,
       8.893,
       7.798,
-      9.474
+      9.474,
+      6.137
     ],
     "lons": [
       "x",
@@ -80447,10 +80886,11 @@
       5.033,
       8.153,
       6.288,
-      8.03
+      8.03,
+      5.406
     ],
-    "mean_lat": 7.502,
-    "mean_lon": 6.448,
+    "mean_lat": 7.35,
+    "mean_lon": 6.333,
     "true_lat": 5.008,
     "true_lon": 7.85,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Uyo%2C+Nigeria&go=Go&ns0=1",
@@ -80486,7 +80926,8 @@
       "New York",
       "Cairo",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Cairo"
     ],
     "countries": [
       "United States",
@@ -80520,7 +80961,8 @@
       "United States",
       "Egypt",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Egypt"
     ],
     "dists": [
       659.4,
@@ -80554,7 +80996,8 @@
       352.3,
       433.2,
       355,
-      497
+      497,
+      298.1
     ],
     "times": [
       8.4,
@@ -80588,7 +81031,8 @@
       8.8,
       8.6,
       8.2,
-      8.2
+      8.2,
+      8.5
     ]
   },
   "Bata, Equatorial Guinea": {
@@ -86956,9 +87400,9 @@
     ]
   },
   "Zanzibar, Tanzania": {
-    "mean_dist": 1034.6,
+    "mean_dist": 1008,
     "mean_time": 6.4,
-    "std_dist": 1597.7,
+    "std_dist": 1584.8,
     "std_time": 1.7,
     "city": "Zanzibar",
     "admin": "Zanzibar Urban/West",
@@ -87000,7 +87444,8 @@
       -25.73,
       -20.513,
       -6.663,
-      -2.658
+      -2.658,
+      -6.293
     ],
     "lons": [
       "x",
@@ -87039,10 +87484,11 @@
       32.346,
       25.112,
       39.328,
-      33.367
+      33.367,
+      39.375
     ],
-    "mean_lat": -5.777,
-    "mean_lon": 31.394,
+    "mean_lat": -5.795,
+    "mean_lon": 31.669,
     "true_lat": -6.16,
     "true_lon": 39.2,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Zanzibar%2C+Tanzania&go=Go&ns0=1",
@@ -87083,7 +87529,8 @@
       "Nova Scotia",
       "Western Australia",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Cairo"
     ],
     "countries": [
       "Sweden",
@@ -87122,7 +87569,8 @@
       "Canada",
       "Australia",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Egypt"
     ],
     "dists": [
       65.7,
@@ -87161,7 +87609,8 @@
       2294.7,
       2203.5,
       57.7,
-      754.7
+      754.7,
+      24.4
     ],
     "times": [
       7.6,
@@ -87200,7 +87649,8 @@
       6.6,
       6,
       7.9,
-      4.9
+      4.9,
+      7
     ]
   },
   "Bloemfontein, South Africa": {
@@ -87488,9 +87938,9 @@
     ]
   },
   "Benguela, Angola": {
-    "mean_dist": 586.4,
-    "mean_time": 7.2,
-    "std_dist": 1096.9,
+    "mean_dist": 580.7,
+    "mean_time": 7.3,
+    "std_dist": 1087.7,
     "std_time": 1.1,
     "city": "Benguela",
     "admin": "Benguela",
@@ -87549,7 +87999,8 @@
       -13.764,
       -12.716,
       -11.808,
-      -11.799
+      -11.799,
+      -11.07
     ],
     "lons": [
       "x",
@@ -87605,10 +88056,11 @@
       13.986,
       14.836,
       14.65,
+      15.43,
       15.43
     ],
-    "mean_lat": -11.929,
-    "mean_lon": 14.206,
+    "mean_lat": -11.892,
+    "mean_lon": 14.259,
     "true_lat": -12.5783,
     "true_lon": 13.4072,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Benguela%2C+Angola&go=Go&ns0=1",
@@ -87664,6 +88116,7 @@
       "Cairo",
       "Cairo",
       "Aargau",
+      "Cairo",
       "Cairo",
       "Cairo",
       "Cairo"
@@ -87722,6 +88175,7 @@
       "Switzerland",
       "Egypt",
       "Egypt",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -87778,7 +88232,8 @@
       146,
       155.8,
       159.9,
-      236.3
+      236.3,
+      276.7
     ],
     "times": [
       7.9,
@@ -87834,6 +88289,7 @@
       8.2,
       7.6,
       7.8,
+      8,
       8
     ]
   },
@@ -88134,9 +88590,9 @@
     ]
   },
   "Kaolack, Senegal": {
-    "mean_dist": 995.1,
+    "mean_dist": 979,
     "mean_time": 7.1,
-    "std_dist": 1868.8,
+    "std_dist": 1857.2,
     "std_time": 1.4,
     "city": "Kaolack",
     "admin": "Kaolack",
@@ -88200,7 +88656,8 @@
       14.574,
       9.563,
       14.188,
-      14.362
+      14.362,
+      14.431
     ],
     "lons": [
       "x",
@@ -88261,10 +88718,11 @@
       -15.27,
       0.993,
       -15.373,
-      -16.171
+      -16.171,
+      -16.067
     ],
-    "mean_lat": 11.572,
-    "mean_lon": -4.867,
+    "mean_lat": 11.654,
+    "mean_lon": -5.187,
     "true_lat": 14.15,
     "true_lon": -16.1,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kaolack%2C+Senegal&go=Go&ns0=1",
@@ -88327,7 +88785,8 @@
       "South Denmark",
       "Vilnius",
       "Cairo",
-      "Cairo"
+      "Cairo",
+      "California"
     ],
     "countries": [
       "United States",
@@ -88388,7 +88847,8 @@
       "Denmark",
       "Lithuania",
       "Egypt",
-      "Egypt"
+      "Egypt",
+      "United States"
     ],
     "dists": [
       38.4,
@@ -88449,7 +88909,8 @@
       101,
       1928,
       78.4,
-      24.8
+      24.8,
+      31.4
     ],
     "times": [
       8.2,
@@ -88510,6 +88971,7 @@
       5.9,
       6.7,
       7.1,
+      7.9,
       7.9
     ]
   },
@@ -88816,9 +89278,9 @@
     ]
   },
   "Jawhar, Somalia": {
-    "mean_dist": 610,
+    "mean_dist": 591.2,
     "mean_time": 7,
-    "std_dist": 835.4,
+    "std_dist": 821.7,
     "std_time": 1.8,
     "city": "Jawhar",
     "admin": "Shabeellaha Dhexe",
@@ -88866,7 +89328,9 @@
       2.792,
       2.616,
       2.616,
-      4.03
+      4.03,
+      2.43,
+      4.689
     ],
     "lons": [
       "x",
@@ -88911,10 +89375,12 @@
       45.092,
       45.454,
       45.083,
-      46.917
+      46.917,
+      45.083,
+      47.531
     ],
-    "mean_lat": 4.664,
-    "mean_lon": 46.083,
+    "mean_lat": 4.534,
+    "mean_lon": 46.109,
     "true_lat": 2.767,
     "true_lon": 45.5166,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Jawhar%2C+Somalia&go=Go&ns0=1",
@@ -88961,7 +89427,9 @@
       "Cairo",
       "Cairo",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Cairo",
+      "England"
     ],
     "countries": [
       "United States",
@@ -89006,7 +89474,9 @@
       "Egypt",
       "Egypt",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Egypt",
+      "United Kingdom"
     ],
     "dists": [
       237.5,
@@ -89051,7 +89521,9 @@
       47.2,
       18.1,
       50.9,
-      209.5
+      209.5,
+      60.9,
+      309.3
     ],
     "times": [
       8,
@@ -89096,7 +89568,9 @@
       7.9,
       8.1,
       8,
-      7.8
+      7.8,
+      8.1,
+      8.3
     ]
   },
   "San-P\u00e9dro, C\u00f4te D\u2019Ivoire": {
@@ -89680,10 +90154,10 @@
     ]
   },
   "Bordj Bou Arreridj, Algeria": {
-    "mean_dist": 354.2,
+    "mean_dist": 347.3,
     "mean_time": 6.8,
-    "std_dist": 382.7,
-    "std_time": 1.6,
+    "std_dist": 380.3,
+    "std_time": 1.5,
     "city": "Bordj Bou Arreridj",
     "admin": "Bordj Bou Arr\u00e9ridj",
     "country": "Algeria",
@@ -89726,7 +90200,8 @@
       36.417,
       36.38,
       34.931,
-      36.831
+      36.831,
+      36.041
     ],
     "lons": [
       "x",
@@ -89767,10 +90242,11 @@
       3.408,
       5.961,
       5.936,
-      6.514
+      6.514,
+      3.736
     ],
-    "mean_lat": 34.331,
-    "mean_lon": 4.237,
+    "mean_lat": 34.421,
+    "mean_lon": 4.211,
     "true_lat": 36.059,
     "true_lon": 4.63,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bordj Bou Arreridj%2C+Algeria&go=Go&ns0=1",
@@ -89813,7 +90289,8 @@
       "Bavaria",
       "Bavaria",
       "Aargau",
-      "Texas"
+      "Texas",
+      "Cairo"
     ],
     "countries": [
       "Switzerland",
@@ -89854,7 +90331,8 @@
       "Germany",
       "Germany",
       "Switzerland",
-      "United States"
+      "United States",
+      "Egypt"
     ],
     "dists": [
       77.2,
@@ -89895,7 +90373,8 @@
       116.5,
       124.6,
       172.3,
-      189.1
+      189.1,
+      80.3
     ],
     "times": [
       7.7,
@@ -89936,7 +90415,8 @@
       6.1,
       6.8,
       8.4,
-      7
+      7,
+      7.4
     ]
   },
   "Keren, Eritrea": {
@@ -91498,10 +91978,10 @@
     ]
   },
   "Nairobi, Kenya": {
-    "mean_dist": 405.2,
+    "mean_dist": 402.5,
     "mean_time": 7,
-    "std_dist": 567.5,
-    "std_time": 1.1,
+    "std_dist": 560.2,
+    "std_time": 1.2,
     "city": "Nairobi",
     "admin": "Nairobi City",
     "country": "Kenya",
@@ -91578,7 +92058,9 @@
       1.306,
       0.191,
       -0.552,
-      0.02
+      0.02,
+      -2.772,
+      0.578
     ],
     "lons": [
       "x",
@@ -91653,10 +92135,12 @@
       37.481,
       38.41,
       37.853,
-      37.528
+      37.528,
+      39.653,
+      38.118
     ],
-    "mean_lat": -1.989,
-    "mean_lon": 37.14,
+    "mean_lat": -1.947,
+    "mean_lon": 37.223,
     "true_lat": -1.2833,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Nairobi%2C+Kenya&go=Go&ns0=1",
     "true_lon": 36.8167,
@@ -91733,7 +92217,9 @@
       "Cairo",
       "Cairo",
       "Cairo",
-      "Cairo"
+      "Cairo",
+      "Cairo",
+      "England"
     ],
     "countries": [
       "Switzerland",
@@ -91808,7 +92294,9 @@
       "Egypt",
       "Egypt",
       "Egypt",
-      "Egypt"
+      "Egypt",
+      "Egypt",
+      "United Kingdom"
     ],
     "dists": [
       368.2,
@@ -91883,7 +92371,9 @@
       297.3,
       241.3,
       141,
-      165.1
+      165.1,
+      356.1,
+      252.5
     ],
     "times": [
       8.2,
@@ -91958,7 +92448,9 @@
       7.5,
       7.9,
       8.2,
-      8.1
+      8.1,
+      4.9,
+      7.8
     ]
   },
   "Ghary\u0101n, Libya": {
@@ -92656,9 +93148,9 @@
     ]
   },
   "Abuja, Nigeria": {
-    "mean_dist": 366.8,
+    "mean_dist": 356.2,
     "mean_time": 7.7,
-    "std_dist": 337.6,
+    "std_dist": 336.4,
     "std_time": 0.9,
     "city": "Abuja",
     "admin": "Federal Capital Territory",
@@ -92691,7 +93183,8 @@
       7.728,
       10.572,
       5.789,
-      9.895
+      9.895,
+      9.563
     ],
     "lons": [
       "x",
@@ -92721,10 +93214,11 @@
       6.173,
       7.194,
       6.359,
-      9.76
+      9.76,
+      7.755
     ],
-    "mean_lat": 7.288,
-    "mean_lon": 7.82,
+    "mean_lat": 7.463,
+    "mean_lon": 7.815,
     "true_lat": 9.0833,
     "true_lon": 7.5333,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Abuja%2C+Nigeria&go=Go&ns0=1",
@@ -92756,7 +93250,8 @@
       "Rheinland-Pfalz",
       "California",
       "Aargau",
-      "South Denmark"
+      "South Denmark",
+      "Bucure\u015fti"
     ],
     "countries": [
       "Switzerland",
@@ -92786,7 +93281,8 @@
       "Germany",
       "United States",
       "Switzerland",
-      "Denmark"
+      "Denmark",
+      "Romania"
     ],
     "dists": [
       269.4,
@@ -92816,7 +93312,8 @@
       212.3,
       169.7,
       388.4,
-      260.4
+      260.4,
+      58.7
     ],
     "times": [
       7.5,
@@ -92846,7 +93343,8 @@
       7.7,
       7.7,
       8.4,
-      7.1
+      7.1,
+      8.1
     ]
   },
   "Cairo, Egypt": {
@@ -93962,9 +94460,9 @@
     ]
   },
   "Oujda-Angad, Morocco": {
-    "mean_dist": 577.4,
+    "mean_dist": 563.5,
     "mean_time": 6.8,
-    "std_dist": 426.4,
+    "std_dist": 429.2,
     "std_time": 1.6,
     "city": "Oujda-Angad",
     "admin": "Oriental",
@@ -94006,7 +94504,8 @@
       32.207,
       32.037,
       33.444,
-      33.694
+      33.694,
+      34.523
     ],
     "lons": [
       "x",
@@ -94045,10 +94544,11 @@
       -5.606,
       -6.89,
       -6.705,
-      -5.798
+      -5.798,
+      -2.389
     ],
-    "mean_lat": 32.649,
-    "mean_lon": -6.961,
+    "mean_lat": 32.753,
+    "mean_lon": -6.707,
     "true_lat": 34.69,
     "true_lon": -1.91,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Oujda-Angad%2C+Morocco&go=Go&ns0=1",
@@ -94089,7 +94589,8 @@
       "Cairo",
       "Cairo",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Cairo"
     ],
     "countries": [
       "Switzerland",
@@ -94128,7 +94629,8 @@
       "Egypt",
       "Egypt",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Egypt"
     ],
     "dists": [
       1066.8,
@@ -94167,7 +94669,8 @@
       440.1,
       548.4,
       462.8,
-      374.3
+      374.3,
+      47.6
     ],
     "times": [
       7.9,
@@ -94206,7 +94709,8 @@
       8.1,
       7.4,
       8.2,
-      7.7
+      7.7,
+      7.3
     ]
   },
   "Songea, Tanzania": {
@@ -96004,9 +96508,9 @@
     ]
   },
   "Iwo, Nigeria": {
-    "mean_dist": 729.3,
+    "mean_dist": 706.3,
     "mean_time": 7.8,
-    "std_dist": 1144.8,
+    "std_dist": 1123.4,
     "std_time": 0.6,
     "city": "Iwo",
     "admin": "Osun",
@@ -96032,7 +96536,8 @@
       6.388,
       8.645,
       5.29,
-      6.698
+      6.698,
+      8.166
     ],
     "lons": [
       "x",
@@ -96055,10 +96560,11 @@
       6.595,
       6.562,
       7.135,
-      5.694
+      5.694,
+      6.149
     ],
-    "mean_lat": 2.269,
-    "mean_lon": 10.556,
+    "mean_lat": 2.76,
+    "mean_lon": 10.189,
     "true_lat": 7.63,
     "true_lon": 4.18,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Iwo%2C+Nigeria&go=Go&ns0=1",
@@ -96083,6 +96589,7 @@
       "Rajasthan",
       "England",
       "England",
+      "Cairo",
       "Cairo"
     ],
     "countries": [
@@ -96106,6 +96613,7 @@
       "India",
       "United Kingdom",
       "United Kingdom",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -96129,7 +96637,8 @@
       300.1,
       285.5,
       417.5,
-      196.5
+      196.5,
+      224.9
     ],
     "times": [
       8.2,
@@ -96152,7 +96661,8 @@
       7.8,
       7.1,
       6.7,
-      8
+      8,
+      8.1
     ]
   },
   "Porto-Novo, Benin": {
@@ -96700,9 +97210,9 @@
     ]
   },
   "Tripoli, Libya": {
-    "mean_dist": 525.3,
+    "mean_dist": 528.7,
     "mean_time": 7.4,
-    "std_dist": 1487.7,
+    "std_dist": 1472.6,
     "std_time": 1.2,
     "city": "Tripoli",
     "admin": "\u0162ar\u0101bulus",
@@ -96755,7 +97265,8 @@
       32.657,
       32.186,
       32.344,
-      32.186
+      32.186,
+      32.037
     ],
     "lons": [
       "x",
@@ -96805,10 +97316,11 @@
       12.794,
       13.722,
       13.351,
-      14.464
+      14.464,
+      20.441
     ],
-    "mean_lat": 29.049,
-    "mean_lon": 16.606,
+    "mean_lat": 29.16,
+    "mean_lon": 16.748,
     "true_lat": 32.8925,
     "true_lon": 13.18,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tripoli%2C+Libya&go=Go&ns0=1",
@@ -96855,6 +97367,7 @@
       "Texas",
       "Aargau",
       "South Denmark",
+      "Cairo",
       "Cairo",
       "Cairo",
       "Cairo",
@@ -96910,6 +97423,7 @@
       "Egypt",
       "Egypt",
       "Egypt",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -96960,7 +97474,8 @@
       44.5,
       93.5,
       63,
-      143.7
+      143.7,
+      687.7
     ],
     "times": [
       7.2,
@@ -97010,7 +97525,8 @@
       8.4,
       8.4,
       7.8,
-      8.2
+      8.2,
+      8.4
     ]
   },
   "Lafia, Nigeria": {
@@ -97202,10 +97718,10 @@
     ]
   },
   "Thohoyandou, South Africa": {
-    "mean_dist": 681.3,
-    "mean_time": 7.4,
-    "std_dist": 491.9,
-    "std_time": 1.1,
+    "mean_dist": 685.8,
+    "mean_time": 7.5,
+    "std_dist": 487.3,
+    "std_time": 1,
     "city": "Thohoyandou",
     "admin": "Limpopo",
     "country": "South Africa",
@@ -97248,7 +97764,9 @@
       -27.824,
       -33.737,
       -23.135,
-      -22.322
+      -22.322,
+      -26.334,
+      -30.76
     ],
     "lons": [
       "x",
@@ -97289,10 +97807,12 @@
       26.567,
       18.981,
       30.057,
-      31.317
+      31.317,
+      29.305,
+      22.87
     ],
-    "mean_lat": -28.315,
-    "mean_lon": 25.819,
+    "mean_lat": -28.338,
+    "mean_lon": 25.845,
     "true_lat": -22.95,
     "true_lon": 30.48,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Thohoyandou%2C+South Africa&go=Go&ns0=1",
@@ -97335,7 +97855,9 @@
       "Cairo",
       "Cairo",
       "Cairo",
-      "Aargau"
+      "Aargau",
+      "Cairo",
+      "England"
     ],
     "countries": [
       "Switzerland",
@@ -97376,7 +97898,9 @@
       "Egypt",
       "Egypt",
       "Egypt",
-      "Switzerland"
+      "Switzerland",
+      "Egypt",
+      "United Kingdom"
     ],
     "dists": [
       340.7,
@@ -97417,7 +97941,9 @@
       669.4,
       1642.3,
       47.9,
-      110.6
+      110.6,
+      394.6,
+      1149.9
     ],
     "times": [
       8.2,
@@ -97458,13 +97984,15 @@
       8,
       7.6,
       7.4,
-      8.1
+      8.1,
+      7.8,
+      8.2
     ]
   },
   "Kafr ash Shaykh, Egypt": {
-    "mean_dist": 276.5,
+    "mean_dist": 278.8,
     "mean_time": 7.9,
-    "std_dist": 186.8,
+    "std_dist": 183.5,
     "std_time": 0.5,
     "city": "Kafr ash Shaykh",
     "admin": "Kafr ash Shaykh",
@@ -97494,7 +98022,8 @@
       30.599,
       27.896,
       30.439,
-      30.599
+      30.599,
+      28.3
     ],
     "lons": [
       "x",
@@ -97521,10 +98050,11 @@
       30.799,
       31.317,
       31.17,
-      31.356
+      31.356,
+      29.632
     ],
-    "mean_lat": 29.433,
-    "mean_lon": 31.112,
+    "mean_lat": 29.319,
+    "mean_lon": 30.964,
     "true_lat": 31.109,
     "true_lon": 30.936,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kafr ash Shaykh%2C+Egypt&go=Go&ns0=1",
@@ -97553,7 +98083,8 @@
       "Cairo",
       "Aargau",
       "Cairo",
-      "Cairo"
+      "Cairo",
+      "Bucure\u015fti"
     ],
     "countries": [
       "Switzerland",
@@ -97580,7 +98111,8 @@
       "Egypt",
       "Switzerland",
       "Egypt",
-      "Egypt"
+      "Egypt",
+      "Romania"
     ],
     "dists": [
       251.8,
@@ -97607,7 +98139,8 @@
       58,
       359,
       77.7,
-      69.3
+      69.3,
+      336.6
     ],
     "times": [
       7.4,
@@ -97634,7 +98167,8 @@
       7.7,
       8.5,
       8.1,
-      8.4
+      8.4,
+      7.9
     ]
   },
   "Oran, Algeria": {
@@ -97766,9 +98300,9 @@
     ]
   },
   "Ajd\u0101biy\u0101, Libya": {
-    "mean_dist": 413.5,
+    "mean_dist": 415.8,
     "mean_time": 7.6,
-    "std_dist": 185.8,
+    "std_dist": 183.8,
     "std_time": 0.8,
     "city": "Ajd\u0101biy\u0101",
     "admin": "Al W\u0101h\u0327\u0101t",
@@ -97809,7 +98343,8 @@
       31.108,
       31.71,
       29.957,
-      31.237
+      31.237,
+      31.245
     ],
     "lons": [
       "x",
@@ -97847,10 +98382,11 @@
       13.037,
       20.447,
       16.939,
-      14.093
+      14.093,
+      15.012
     ],
-    "mean_lat": 31.043,
-    "mean_lon": 15.811,
+    "mean_lat": 31.054,
+    "mean_lon": 15.769,
     "true_lat": 30.77,
     "true_lon": 20.22,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ajd\u0101biy\u0101%2C+Libya&go=Go&ns0=1",
@@ -97890,6 +98426,7 @@
       "New York",
       "South Denmark",
       "Cairo",
+      "Cairo",
       "Cairo"
     ],
     "countries": [
@@ -97927,6 +98464,7 @@
       "Germany",
       "United States",
       "Denmark",
+      "Egypt",
       "Egypt",
       "Egypt"
     ],
@@ -97966,7 +98504,8 @@
       685.8,
       106.8,
       327.3,
-      586.1
+      586.1,
+      499
     ],
     "times": [
       7.8,
@@ -98004,13 +98543,14 @@
       8.7,
       7,
       7.9,
-      7.8
+      7.8,
+      7.9
     ]
   },
   "Benghazi, Libya": {
-    "mean_dist": 431.5,
+    "mean_dist": 424.3,
     "mean_time": 6.8,
-    "std_dist": 808.6,
+    "std_dist": 803.1,
     "std_time": 1.4,
     "city": "Benghazi",
     "admin": "Bangh\u0101z\u012b",
@@ -98070,7 +98610,8 @@
       32.186,
       32.029,
       31.396,
-      31.721
+      31.721,
+      31.879
     ],
     "lons": [
       "x",
@@ -98127,10 +98668,11 @@
       20.033,
       20.404,
       20.095,
-      20.581
+      20.581,
+      20.209
     ],
-    "mean_lat": 29.179,
-    "mean_lon": 18.269,
+    "mean_lat": 29.308,
+    "mean_lon": 18.362,
     "true_lat": 32.1167,
     "true_lon": 20.0667,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Benghazi%2C+Libya&go=Go&ns0=1",
@@ -98184,6 +98726,7 @@
       "Plovdiv",
       "Plovdiv",
       "California",
+      "Cairo",
       "Cairo",
       "Cairo",
       "Cairo",
@@ -98246,6 +98789,7 @@
       "Egypt",
       "Egypt",
       "Egypt",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -98303,7 +98847,8 @@
       8.3,
       33.3,
       80.1,
-      65.4
+      65.4,
+      29.6
     ],
     "times": [
       7.4,
@@ -98360,6 +98905,7 @@
       8.1,
       8.1,
       8.3,
+      7.8,
       7.8
     ]
   },
@@ -99940,9 +100486,9 @@
     ]
   },
   "Gharda\u00efa, Algeria": {
-    "mean_dist": 459.8,
+    "mean_dist": 450.1,
     "mean_time": 7.5,
-    "std_dist": 264.8,
+    "std_dist": 266.2,
     "std_time": 0.7,
     "city": "Gharda\u00efa",
     "admin": "Gharda\u00efa",
@@ -99978,7 +100524,8 @@
       35.89,
       36.133,
       33.289,
-      36.508
+      36.508,
+      33.754
     ],
     "lons": [
       "x",
@@ -100011,10 +100558,11 @@
       3.318,
       3.296,
       2.39,
-      3.018
+      3.018,
+      3.179
     ],
-    "mean_lat": 34.978,
-    "mean_lon": 2.671,
+    "mean_lat": 34.906,
+    "mean_lon": 2.701,
     "true_lat": 32.49,
     "true_lon": 3.67,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Gharda\u00efa%2C+Algeria&go=Go&ns0=1",
@@ -100049,7 +100597,8 @@
       "Cairo",
       "Harjumaa",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Cairo"
     ],
     "countries": [
       "Switzerland",
@@ -100082,7 +100631,8 @@
       "Egypt",
       "Estonia",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Egypt"
     ],
     "dists": [
       399.1,
@@ -100115,7 +100665,8 @@
       379.5,
       406.6,
       148.9,
-      450.7
+      450.7,
+      147.8
     ],
     "times": [
       7.9,
@@ -100148,7 +100699,8 @@
       7.8,
       5.8,
       7.7,
-      7.9
+      7.9,
+      7.4
     ]
   },
   "Jos, Nigeria": {
@@ -100654,9 +101206,9 @@
     ]
   },
   "Sidi Bel Abb\u00e8s, Algeria": {
-    "mean_dist": 437.2,
+    "mean_dist": 436.5,
     "mean_time": 7.2,
-    "std_dist": 349.9,
+    "std_dist": 344,
     "std_time": 1.1,
     "city": "Sidi Bel Abb\u00e8s",
     "admin": "Sidi Bel Abb\u00e8s",
@@ -100690,7 +101242,8 @@
       36.657,
       34.719,
       35.429,
-      34.821
+      34.821,
+      35.89
     ],
     "lons": [
       "x",
@@ -100721,10 +101274,11 @@
       2.09,
       0.945,
       2.213,
-      1.842
+      1.842,
+      3.875
     ],
-    "mean_lat": 35.271,
-    "mean_lon": 4.377,
+    "mean_lat": 35.299,
+    "mean_lon": 4.354,
     "true_lat": 35.1903,
     "true_lon": -0.64,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Sidi Bel Abb\u00e8s%2C+Algeria&go=Go&ns0=1",
@@ -100757,6 +101311,7 @@
       "Zurich",
       "Texas",
       "Cairo",
+      "Cairo",
       "Cairo"
     ],
     "countries": [
@@ -100787,6 +101342,7 @@
       "France",
       "Switzerland",
       "United States",
+      "Egypt",
       "Egypt",
       "Egypt"
     ],
@@ -100819,7 +101375,8 @@
       295,
       153.6,
       260.3,
-      229.7
+      229.7,
+      415.8
     ],
     "times": [
       6.5,
@@ -100850,7 +101407,8 @@
       7.2,
       4.7,
       8,
-      8.4
+      8.4,
+      7.9
     ]
   },
   "Tamale, Ghana": {
@@ -101222,9 +101780,9 @@
     ]
   },
   "Bamako, Mali": {
-    "mean_dist": 467.9,
+    "mean_dist": 469.3,
     "mean_time": 6.7,
-    "std_dist": 455.8,
+    "std_dist": 446.9,
     "std_time": 1.1,
     "city": "Bamako",
     "admin": "Bamako",
@@ -101277,7 +101835,9 @@
       12.917,
       14.808,
       13.094,
-      13.365
+      13.365,
+      14.722,
+      13.337
     ],
     "lons": [
       "x",
@@ -101327,10 +101887,12 @@
       -6.009,
       -8.994,
       -8.344,
-      -6.21
+      -6.21,
+      -3.178,
+      -4.044
     ],
-    "mean_lat": 14.232,
-    "mean_lon": -6.628,
+    "mean_lat": 14.211,
+    "mean_lon": -6.31,
     "true_lat": 12.65,
     "true_lon": -8,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bamako%2C+Mali&go=Go&ns0=1",
@@ -101382,7 +101944,9 @@
       "Cairo",
       "Colorado",
       "Colorado",
-      "Colorado"
+      "Colorado",
+      "Cairo",
+      "England"
     ],
     "countries": [
       "Switzerland",
@@ -101432,7 +101996,9 @@
       "Egypt",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Egypt",
+      "United Kingdom"
     ],
     "dists": [
       806.5,
@@ -101482,7 +102048,9 @@
       217.9,
       262.9,
       61.9,
-      209.6
+      209.6,
+      569.5,
+      435.3
     ],
     "times": [
       7.3,
@@ -101532,7 +102100,9 @@
       7.1,
       4.8,
       7,
-      6.9
+      6.9,
+      7.6,
+      7.9
     ]
   },
   "Bizerte, Tunisia": {
@@ -101856,10 +102426,10 @@
     ]
   },
   "Bumba, Congo (Kinshasa)": {
-    "mean_dist": 771.6,
-    "mean_time": 7,
-    "std_dist": 377.8,
-    "std_time": 1.9,
+    "mean_dist": 824.1,
+    "mean_time": 6.8,
+    "std_dist": 526.8,
+    "std_time": 2.1,
     "city": "Bumba",
     "admin": "Mongala",
     "country": "Congo (Kinshasa)",
@@ -101912,7 +102482,11 @@
       -4.125,
       -0.924,
       1.693,
-      -4.791
+      -4.791,
+      2.802,
+      0.047,
+      7.535,
+      19.563
     ],
     "lons": [
       "x",
@@ -101963,10 +102537,14 @@
       27.813,
       24.117,
       21.75,
-      28.448
+      28.448,
+      20.395,
+      23.4,
+      -0.912,
+      4.934
     ],
-    "mean_lat": -2.442,
-    "mean_lon": 22.184,
+    "mean_lat": -1.072,
+    "mean_lon": 20.773,
     "true_lat": 2.19,
     "true_lon": 22.46,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bumba%2C+Congo (Kinshasa)&go=Go&ns0=1",
@@ -102019,7 +102597,11 @@
       "Aargau",
       "Cairo",
       "Cairo",
-      "Aargau"
+      "Aargau",
+      "Cairo",
+      "England",
+      "England",
+      "England"
     ],
     "countries": [
       "Switzerland",
@@ -102070,7 +102652,11 @@
       "Switzerland",
       "Egypt",
       "Egypt",
-      "Switzerland"
+      "Switzerland",
+      "Egypt",
+      "United Kingdom",
+      "United Kingdom",
+      "United Kingdom"
     ],
     "dists": [
       752.3,
@@ -102121,7 +102707,11 @@
       920.3,
       392.2,
       96.2,
-      1022.4
+      1022.4,
+      239.2,
+      260.2,
+      2655.8,
+      2713.2
     ],
     "times": [
       7.9,
@@ -102172,7 +102762,11 @@
       8.3,
       7.3,
       8.2,
-      9.2
+      9.2,
+      8.4,
+      0.9,
+      1.6,
+      5.2
     ]
   },
   "Bida, Nigeria": {
@@ -103754,9 +104348,9 @@
     ]
   },
   "Arua, Uganda": {
-    "mean_dist": 668.7,
+    "mean_dist": 658.2,
     "mean_time": 6.8,
-    "std_dist": 703,
+    "std_dist": 695.9,
     "std_time": 1.7,
     "city": "Arua",
     "admin": "Arua",
@@ -103796,7 +104390,8 @@
       -1.267,
       2.049,
       1.12,
-      1.501
+      1.501,
+      0.944
     ],
     "lons": [
       "x",
@@ -103833,10 +104428,11 @@
       14.587,
       33.274,
       33.088,
-      32.646
+      32.646,
+      32.507
     ],
-    "mean_lat": -1.148,
-    "mean_lon": 28.162,
+    "mean_lat": -1.038,
+    "mean_lon": 28.391,
     "true_lat": 3.0204,
     "true_lon": 30.9,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Arua%2C+Uganda&go=Go&ns0=1",
@@ -103873,6 +104469,7 @@
       "Cairo",
       "Cairo",
       "Lombardy",
+      "Cairo",
       "Cairo",
       "Cairo",
       "Cairo"
@@ -103912,6 +104509,7 @@
       "Italy",
       "Egypt",
       "Egypt",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -103949,7 +104547,8 @@
       1874.8,
       284.9,
       322.1,
-      257.2
+      257.2,
+      291.8
     ],
     "times": [
       8,
@@ -103986,14 +104585,15 @@
       1.3,
       8.2,
       8.2,
+      7.9,
       7.9
     ]
   },
   "Chitungwiza, Zimbabwe": {
-    "mean_dist": 516.5,
+    "mean_dist": 508.9,
     "mean_time": 6.5,
-    "std_dist": 579.2,
-    "std_time": 2.1,
+    "std_dist": 576.8,
+    "std_time": 2,
     "city": "Chitungwiza",
     "admin": "Harare",
     "country": "Zimbabwe",
@@ -104052,7 +104652,8 @@
       -19.499,
       -18.796,
       -19.934,
-      -18.444
+      -18.444,
+      -18.612
     ],
     "lons": [
       "x",
@@ -104109,10 +104710,11 @@
       30.366,
       29.685,
       30.559,
-      30.242
+      30.242,
+      30.465
     ],
-    "mean_lat": -16.698,
-    "mean_lon": 28.573,
+    "mean_lat": -16.742,
+    "mean_lon": 28.617,
     "true_lat": -18,
     "true_lon": 31.1,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Chitungwiza%2C+Zimbabwe&go=Go&ns0=1",
@@ -104171,6 +104773,7 @@
       "Cairo",
       "Cairo",
       "Aargau",
+      "Cairo",
       "Cairo"
     ],
     "countries": [
@@ -104228,6 +104831,7 @@
       "Egypt",
       "Egypt",
       "Switzerland",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -104285,7 +104889,8 @@
       183.7,
       173.5,
       222.4,
-      103.1
+      103.1,
+      95.4
     ],
     "times": [
       8.2,
@@ -104342,13 +104947,14 @@
       8.2,
       8.1,
       8.4,
-      8.1
+      8.1,
+      7.6
     ]
   },
   "Lobamba, Swaziland": {
-    "mean_dist": 543.8,
+    "mean_dist": 533.5,
     "mean_time": 7,
-    "std_dist": 1309,
+    "std_dist": 1297.6,
     "std_time": 1.4,
     "city": "Lobamba",
     "admin": "Hhohho",
@@ -104401,7 +105007,8 @@
       -29.265,
       1.518,
       7.451,
-      -25.971
+      -25.971,
+      -26.334
     ],
     "lons": [
       "x",
@@ -104451,10 +105058,11 @@
       28.571,
       12.821,
       29.19,
-      31.621
+      31.621,
+      31.579
     ],
-    "mean_lat": -20.352,
-    "mean_lon": 29.806,
+    "mean_lat": -20.624,
+    "mean_lon": 29.887,
     "true_lat": -26.4667,
     "true_lon": 31.2,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Lobamba%2C+Swaziland&go=Go&ns0=1",
@@ -104506,7 +105114,8 @@
       "Maryland",
       "Western Australia",
       "Nova Scotia",
-      "Maryland"
+      "Maryland",
+      "Cairo"
     ],
     "countries": [
       "Switzerland",
@@ -104556,7 +105165,8 @@
       "United States",
       "Australia",
       "Canada",
-      "United States"
+      "United States",
+      "Egypt"
     ],
     "dists": [
       101.2,
@@ -104606,7 +105216,8 @@
       404.4,
       3683.9,
       3777.7,
-      69.2
+      69.2,
+      40.5
     ],
     "times": [
       8,
@@ -104656,13 +105267,14 @@
       7.9,
       5.9,
       6.8,
-      8.4
+      8.4,
+      7.4
     ]
   },
   "Luanshya, Zambia": {
-    "mean_dist": 500.5,
+    "mean_dist": 490.8,
     "mean_time": 7,
-    "std_dist": 922.5,
+    "std_dist": 913.6,
     "std_time": 1.7,
     "city": "Luanshya",
     "admin": "Copperbelt",
@@ -104708,7 +105320,8 @@
       -14.148,
       -13.973,
       -13.793,
-      -13.32
+      -13.32,
+      -13.793
     ],
     "lons": [
       "x",
@@ -104751,10 +105364,11 @@
       29.175,
       29.722,
       29.305,
-      26.87
+      26.87,
+      28.98
     ],
-    "mean_lat": -12.928,
-    "mean_lon": 26.219,
+    "mean_lat": -12.966,
+    "mean_lon": 26.339,
     "true_lat": -13.1333,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Luanshya%2C+Zambia&go=Go&ns0=1",
     "true_lon": 28.4,
@@ -104799,7 +105413,8 @@
       "Cairo",
       "Cairo",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Cairo"
     ],
     "countries": [
       "Switzerland",
@@ -104842,7 +105457,8 @@
       "Egypt",
       "Egypt",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Egypt"
     ],
     "dists": [
       256.6,
@@ -104885,7 +105501,8 @@
       140.5,
       170.8,
       122.3,
-      166.8
+      166.8,
+      96.5
     ],
     "times": [
       8.2,
@@ -104928,13 +105545,14 @@
       8,
       8,
       7.7,
-      7.3
+      7.3,
+      8
     ]
   },
   "Funtua, Nigeria": {
-    "mean_dist": 422.6,
-    "mean_time": 7.6,
-    "std_dist": 353.4,
+    "mean_dist": 415.7,
+    "mean_time": 7.7,
+    "std_dist": 350.2,
     "std_time": 1.4,
     "city": "Funtua",
     "admin": "Katsina",
@@ -104971,7 +105589,8 @@
       9.076,
       9.076,
       10.185,
-      9.107
+      9.107,
+      11.645
     ],
     "lons": [
       "x",
@@ -105005,10 +105624,11 @@
       7.658,
       9.267,
       8.515,
-      7.473
+      7.473,
+      9.119
     ],
-    "mean_lat": 8.02,
-    "mean_lon": 7.917,
+    "mean_lat": 8.234,
+    "mean_lon": 7.988,
     "true_lat": 11.5204,
     "true_lon": 7.32,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Funtua%2C+Nigeria&go=Go&ns0=1",
@@ -105044,7 +105664,8 @@
       "Cairo",
       "Cairo",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Cairo"
     ],
     "countries": [
       "Switzerland",
@@ -105078,7 +105699,8 @@
       "Egypt",
       "Egypt",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Egypt"
     ],
     "dists": [
       303.8,
@@ -105112,7 +105734,8 @@
       274.2,
       345.2,
       197.6,
-      268.8
+      268.8,
+      196.4
     ],
     "times": [
       8.2,
@@ -105146,7 +105769,8 @@
       5.7,
       7.9,
       8,
-      7.7
+      7.7,
+      8.2
     ]
   },
   "Yaound\u00e9, Cameroon": {
@@ -106430,10 +107054,10 @@
     ]
   },
   "Assab, Eritrea": {
-    "mean_dist": 598.2,
+    "mean_dist": 575.7,
     "mean_time": 7.5,
-    "std_dist": 782.6,
-    "std_time": 1.1,
+    "std_dist": 772.1,
+    "std_time": 1,
     "city": "Assab",
     "admin": "Debubaw\u012b K\u2019eyih Bahr\u012b",
     "country": "Eritrea",
@@ -106480,7 +107104,9 @@
       15.252,
       12.364,
       12.727,
-      8.024
+      8.024,
+      13.279,
+      13.46
     ],
     "lons": [
       "x",
@@ -106525,10 +107151,12 @@
       40.08,
       42.679,
       42.369,
-      20.597
+      20.597,
+      41.788,
+      42.159
     ],
-    "mean_lat": 12.966,
-    "mean_lon": 35.827,
+    "mean_lat": 13.004,
+    "mean_lon": 36.413,
     "true_lat": 13.01,
     "true_lon": 42.73,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Assab%2C+Eritrea&go=Go&ns0=1",
@@ -106575,7 +107203,9 @@
       "Cairo",
       "Cairo",
       "Cairo",
-      "Western Australia"
+      "Western Australia",
+      "Cairo",
+      "Cairo"
     ],
     "countries": [
       "Switzerland",
@@ -106620,7 +107250,9 @@
       "Egypt",
       "Egypt",
       "Egypt",
-      "Australia"
+      "Australia",
+      "Egypt",
+      "Egypt"
     ],
     "dists": [
       424.2,
@@ -106665,7 +107297,9 @@
       379.1,
       72,
       50.1,
-      2481
+      2481,
+      106.2,
+      79.5
     ],
     "times": [
       8.1,
@@ -106710,7 +107344,9 @@
       8.3,
       8.4,
       8,
-      4
+      4,
+      7.9,
+      7
     ]
   },
   "Paarl, South Africa": {
@@ -107306,9 +107942,9 @@
     ]
   },
   "Mars\u00e1 Ma\u0163r\u016b\u1e29, Egypt": {
-    "mean_dist": 528.4,
+    "mean_dist": 511.2,
     "mean_time": 7.3,
-    "std_dist": 377.5,
+    "std_dist": 381.9,
     "std_time": 1.5,
     "city": "Mars\u00e1 Ma\u0163r\u016b\u1e29",
     "admin": "Ma\u0163r\u016b\u1e29",
@@ -107341,7 +107977,8 @@
       29.013,
       31.245,
       30.927,
-      29.662
+      29.662,
+      31.086
     ],
     "lons": [
       "x",
@@ -107371,10 +108008,11 @@
       30.768,
       26.985,
       27.82,
-      30.675
+      30.675,
+      27.309
     ],
-    "mean_lat": 29.512,
-    "mean_lon": 30.085,
+    "mean_lat": 29.655,
+    "mean_lon": 29.833,
     "true_lat": 31.3504,
     "true_lon": 27.23,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Mars\u00e1 Ma\u0163r\u016b\u1e29%2C+Egypt&go=Go&ns0=1",
@@ -107406,7 +108044,8 @@
       "Aguascalientes",
       "Cairo",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Cairo"
     ],
     "countries": [
       "United States",
@@ -107436,7 +108075,8 @@
       "Mexico",
       "Egypt",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Egypt"
     ],
     "dists": [
       626.7,
@@ -107466,7 +108106,8 @@
       427.9,
       26,
       73.2,
-      379.7
+      379.7,
+      30.2
     ],
     "times": [
       8.5,
@@ -107496,7 +108137,8 @@
       7.4,
       7.1,
       8.1,
-      7
+      7,
+      7.8
     ]
   },
   "Damietta, Egypt": {
@@ -110500,9 +111142,9 @@
     ]
   },
   "Likasi, Congo (Kinshasa)": {
-    "mean_dist": 1105.1,
-    "mean_time": 6.8,
-    "std_dist": 818,
+    "mean_dist": 1115.3,
+    "mean_time": 6.9,
+    "std_dist": 807.1,
     "std_time": 1.8,
     "city": "Likasi",
     "admin": "Haut-Katanga",
@@ -110538,7 +111180,8 @@
       -2.307,
       2.049,
       0.005,
-      2.421
+      2.421,
+      1.417
     ],
     "lons": [
       "x",
@@ -110571,10 +111214,11 @@
       16.51,
       21.518,
       24.859,
-      29.314
+      29.314,
+      23.183
     ],
-    "mean_lat": -0.767,
-    "mean_lon": 19.874,
+    "mean_lat": -0.646,
+    "mean_lon": 20.057,
     "true_lat": -10.97,
     "true_lon": 26.78,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Likasi%2C+Congo (Kinshasa)&go=Go&ns0=1",
@@ -110609,7 +111253,8 @@
       "South Denmark",
       "Cairo",
       "Cairo",
-      "Cairo"
+      "Cairo",
+      "California"
     ],
     "countries": [
       "Switzerland",
@@ -110642,7 +111287,8 @@
       "Denmark",
       "Egypt",
       "Egypt",
-      "Egypt"
+      "Egypt",
+      "United States"
     ],
     "dists": [
       947.1,
@@ -110675,7 +111321,8 @@
       1487.2,
       1560.3,
       1238.7,
-      1515.2
+      1515.2,
+      1433.6
     ],
     "times": [
       8.3,
@@ -110708,7 +111355,8 @@
       6.5,
       6.5,
       6.6,
-      1.9
+      1.9,
+      7.5
     ]
   },
   "Akure, Nigeria": {
@@ -111522,9 +112170,9 @@
     ]
   },
   "Ab\u00e9ch\u00e9, Chad": {
-    "mean_dist": 632.3,
+    "mean_dist": 624,
     "mean_time": 6.9,
-    "std_dist": 637.6,
+    "std_dist": 632.9,
     "std_time": 1.7,
     "city": "Ab\u00e9ch\u00e9",
     "admin": "Ouadda\u00ef",
@@ -111573,7 +112221,8 @@
       10.734,
       10.359,
       9.137,
-      9.993
+      9.993,
+      15.395
     ],
     "lons": [
       "x",
@@ -111619,10 +112268,11 @@
       17.193,
       16.692,
       16.723,
-      17.249
+      17.249,
+      19.025
     ],
-    "mean_lat": 11.009,
-    "mean_lon": 16.142,
+    "mean_lat": 11.267,
+    "mean_lon": 16.312,
     "true_lat": 13.84,
     "true_lon": 20.83,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ab\u00e9ch\u00e9%2C+Chad&go=Go&ns0=1",
@@ -111670,7 +112320,8 @@
       "Cairo",
       "Cairo",
       "Texas",
-      "Cairo"
+      "Cairo",
+      "Bucure\u015fti"
     ],
     "countries": [
       "Switzerland",
@@ -111716,7 +112367,8 @@
       "Egypt",
       "Egypt",
       "United States",
-      "Egypt"
+      "Egypt",
+      "Romania"
     ],
     "dists": [
       553.8,
@@ -111762,7 +112414,8 @@
       524.7,
       593.3,
       688.1,
-      578.4
+      578.4,
+      259.9
     ],
     "times": [
       6.4,
@@ -111808,13 +112461,14 @@
       8.1,
       7.8,
       6.9,
-      6.5
+      6.5,
+      7.8
     ]
   },
   "S\u00e9gou, Mali": {
-    "mean_dist": 404.9,
+    "mean_dist": 398.4,
     "mean_time": 7.2,
-    "std_dist": 699.7,
+    "std_dist": 693,
     "std_time": 0.8,
     "city": "S\u00e9gou",
     "admin": "S\u00e9gou",
@@ -111862,7 +112516,8 @@
       13.112,
       17.245,
       14.301,
-      13.451
+      13.451,
+      12.373
     ],
     "lons": [
       "x",
@@ -111907,10 +112562,11 @@
       -5.522,
       -2.55,
       -6.551,
-      -6.324
+      -6.324,
+      -6.148
     ],
-    "mean_lat": 13.985,
-    "mean_lon": -2.886,
+    "mean_lat": 13.917,
+    "mean_lon": -3.022,
     "true_lat": 13.44,
     "true_lon": -6.26,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=S\u00e9gou%2C+Mali&go=Go&ns0=1",
@@ -111957,6 +112613,7 @@
       "Aargau",
       "Harjumaa",
       "South Denmark",
+      "Cairo",
       "Cairo"
     ],
     "countries": [
@@ -112002,6 +112659,7 @@
       "Switzerland",
       "Estonia",
       "Denmark",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -112047,7 +112705,8 @@
       87.6,
       580.7,
       100.8,
-      7.1
+      7.1,
+      119.2
     ],
     "times": [
       7.9,
@@ -112092,7 +112751,8 @@
       8.1,
       7.5,
       7.1,
-      6.9
+      6.9,
+      7.6
     ]
   },
   "Mwene-Ditu, Congo (Kinshasa)": {
@@ -113414,9 +114074,9 @@
     ]
   },
   "Uvira, Congo (Kinshasa)": {
-    "mean_dist": 671.7,
+    "mean_dist": 667.1,
     "mean_time": 7.8,
-    "std_dist": 411.2,
+    "std_dist": 405.5,
     "std_time": 0.7,
     "city": "Uvira",
     "admin": "Sud-Kivu",
@@ -113452,7 +114112,8 @@
       -4.791,
       -3.957,
       0.563,
-      1.678
+      1.678,
+      1.315
     ],
     "lons": [
       "x",
@@ -113485,10 +114146,11 @@
       28.541,
       14.898,
       23.622,
-      20.961
+      20.961,
+      28.423
     ],
-    "mean_lat": -2.417,
-    "mean_lon": 23.405,
+    "mean_lat": -1.95,
+    "mean_lon": 24.032,
     "true_lat": -3.37,
     "true_lon": 29.14,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Uvira%2C+Congo (Kinshasa)&go=Go&ns0=1",
@@ -113523,6 +114185,7 @@
       "Aargau",
       "California",
       "Cairo",
+      "Cairo",
       "Cairo"
     ],
     "countries": [
@@ -113555,6 +114218,7 @@
       "Finland",
       "Switzerland",
       "United States",
+      "Egypt",
       "Egypt",
       "Egypt"
     ],
@@ -113589,7 +114253,8 @@
       171.4,
       1581.7,
       753.2,
-      1068.3
+      1068.3,
+      527
     ],
     "times": [
       8.2,
@@ -113622,7 +114287,8 @@
       8.4,
       8.2,
       8.3,
-      7.2
+      7.2,
+      7.8
     ]
   },
   "Al Miny\u0101, Egypt": {
@@ -113850,9 +114516,9 @@
     ]
   },
   "Brazzaville, Congo (Brazzaville)": {
-    "mean_dist": 442.4,
+    "mean_dist": 436.1,
     "mean_time": 6.9,
-    "std_dist": 587.9,
+    "std_dist": 584.8,
     "std_time": 1.7,
     "city": "Brazzaville",
     "admin": "Brazzaville",
@@ -113914,7 +114580,8 @@
       0.445,
       -4.631,
       -4.257,
-      -4.235
+      -4.235,
+      -4.442
     ],
     "lons": [
       "x",
@@ -113973,10 +114640,11 @@
       23.931,
       26.116,
       14.641,
-      15.362
+      15.362,
+      14.641
     ],
-    "mean_lat": -2.266,
-    "mean_lon": 15.23,
+    "mean_lat": -2.336,
+    "mean_lon": 15.211,
     "true_lat": -4.2592,
     "true_lon": 15.2847,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Brazzaville%2C+Congo (Brazzaville)&go=Go&ns0=1",
@@ -114037,7 +114705,8 @@
       "Maryland",
       "Western Australia",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Cairo"
     ],
     "countries": [
       "Switzerland",
@@ -114096,7 +114765,8 @@
       "United States",
       "Australia",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Egypt"
     ],
     "dists": [
       555.9,
@@ -114155,7 +114825,8 @@
       1093.8,
       1201.4,
       71.3,
-      8.9
+      8.9,
+      74.2
     ],
     "times": [
       8.3,
@@ -114214,7 +114885,8 @@
       6.1,
       6.5,
       8,
-      7.6
+      7.6,
+      7.7
     ]
   },
   "Dar es Salaam, Tanzania": {
@@ -114822,9 +115494,9 @@
     ]
   },
   "Tunis, Tunisia": {
-    "mean_dist": 301.7,
+    "mean_dist": 296.8,
     "mean_time": 7.5,
-    "std_dist": 744.1,
+    "std_dist": 737.6,
     "std_time": 0.9,
     "city": "Tunis",
     "admin": "Tunis",
@@ -114879,7 +115551,8 @@
       34.668,
       36.183,
       34.981,
-      37.103
+      37.103,
+      36.341
     ],
     "lons": [
       "x",
@@ -114931,10 +115604,11 @@
       10.381,
       10.381,
       10,
-      9.7
+      9.7,
+      10.418
     ],
-    "mean_lat": 34.877,
-    "mean_lon": 11.736,
+    "mean_lat": 34.943,
+    "mean_lon": 11.676,
     "true_lat": 36.8028,
     "true_lon": 10.1797,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tunis%2C+Tunisia&go=Go&ns0=1",
@@ -114988,7 +115662,8 @@
       "Cairo",
       "Cairo",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Cairo"
     ],
     "countries": [
       "Switzerland",
@@ -115040,7 +115715,8 @@
       "Egypt",
       "Egypt",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Egypt"
     ],
     "dists": [
       381.6,
@@ -115092,7 +115768,8 @@
       237.9,
       71.1,
       203.1,
-      54.1
+      54.1,
+      55.5
     ],
     "times": [
       7.6,
@@ -115144,7 +115821,8 @@
       8.3,
       8.2,
       8.2,
-      6.7
+      6.7,
+      7.3
     ]
   },
   "Ilorin, Nigeria": {
@@ -115474,9 +116152,9 @@
     ]
   },
   "Az Zaq\u0101z\u012bq, Egypt": {
-    "mean_dist": 436.7,
-    "mean_time": 7.6,
-    "std_dist": 1190.5,
+    "mean_dist": 424.6,
+    "mean_time": 7.5,
+    "std_dist": 1173.7,
     "std_time": 1.1,
     "city": "Az Zaq\u0101z\u012bq",
     "admin": "Ash Sharq\u012byah",
@@ -115512,7 +116190,8 @@
       30.439,
       26.968,
       30.607,
-      31.025
+      31.025,
+      30.607
     ],
     "lons": [
       "x",
@@ -115545,10 +116224,11 @@
       31.418,
       32.763,
       31.3,
-      30.211
+      30.211,
+      31.022
     ],
-    "mean_lat": 28.721,
-    "mean_lon": 27.351,
+    "mean_lat": 28.821,
+    "mean_lon": 27.545,
     "true_lat": 30.5833,
     "true_lon": 31.5167,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Az Zaq\u0101z\u012bq%2C+Egypt&go=Go&ns0=1",
@@ -115583,7 +116263,8 @@
       "Cairo",
       "Western Australia",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Cairo"
     ],
     "countries": [
       "Switzerland",
@@ -115616,7 +116297,8 @@
       "Egypt",
       "Australia",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Egypt"
     ],
     "dists": [
       348,
@@ -115649,7 +116331,8 @@
       18.5,
       419.8,
       20.8,
-      133.9
+      133.9,
+      47.3
     ],
     "times": [
       8.4,
@@ -115682,7 +116365,8 @@
       8.3,
       7.9,
       8.3,
-      7.9
+      7.9,
+      7
     ]
   },
   "Damaturu, Nigeria": {
@@ -117148,9 +117832,9 @@
     ]
   },
   "Tabora, Tanzania": {
-    "mean_dist": 557.2,
+    "mean_dist": 553,
     "mean_time": 7.2,
-    "std_dist": 452.6,
+    "std_dist": 447.6,
     "std_time": 1.4,
     "city": "Tabora",
     "admin": "Tabora",
@@ -117193,7 +117877,8 @@
       -3.71,
       -4.251,
       -5.994,
-      -14.951
+      -14.951,
+      -6.578
     ],
     "lons": [
       "x",
@@ -117233,10 +117918,11 @@
       34.016,
       34.187,
       32.067,
-      25.276
+      25.276,
+      35.996
     ],
-    "mean_lat": -5.242,
-    "mean_lon": 34.018,
+    "mean_lat": -5.303,
+    "mean_lon": 34.108,
     "true_lat": -5.02,
     "true_lon": 32.8,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tabora%2C+Tanzania&go=Go&ns0=1",
@@ -117278,7 +117964,8 @@
       "Cairo",
       "Cairo",
       "Aargau",
-      "Ontario"
+      "Ontario",
+      "Bucure\u015fti"
     ],
     "countries": [
       "Switzerland",
@@ -117318,7 +118005,8 @@
       "Egypt",
       "Egypt",
       "Switzerland",
-      "Canada"
+      "Canada",
+      "Romania"
     ],
     "dists": [
       576.9,
@@ -117358,7 +118046,8 @@
       198.5,
       175.9,
       135.3,
-      1377.1
+      1377.1,
+      393.7
     ],
     "times": [
       8.2,
@@ -117398,7 +118087,8 @@
       8.2,
       7.6,
       8.4,
-      8.1
+      8.1,
+      8.2
     ]
   },
   "Bukoba, Tanzania": {
@@ -121700,9 +122390,9 @@
     ]
   },
   "Nguru, Nigeria": {
-    "mean_dist": 795,
-    "mean_time": 7.2,
-    "std_dist": 609.4,
+    "mean_dist": 793.8,
+    "mean_time": 7.3,
+    "std_dist": 601.8,
     "std_time": 1.3,
     "city": "Nguru",
     "admin": "Yobe",
@@ -121746,7 +122436,8 @@
       8.709,
       6.328,
       7.061,
-      8.28
+      8.28,
+      7.798
     ],
     "lons": [
       "x",
@@ -121787,10 +122478,11 @@
       7.411,
       5.57,
       6.102,
-      7.194
+      7.194,
+      5.963
     ],
-    "mean_lat": 8.168,
-    "mean_lon": 8.525,
+    "mean_lat": 8.153,
+    "mean_lon": 8.423,
     "true_lat": 12.8804,
     "true_lon": 10.45,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Nguru%2C+Nigeria&go=Go&ns0=1",
@@ -121833,7 +122525,8 @@
       "Cairo",
       "Cairo",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Cairo"
     ],
     "countries": [
       "Switzerland",
@@ -121874,7 +122567,8 @@
       "Egypt",
       "Egypt",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Egypt"
     ],
     "dists": [
       690.7,
@@ -121915,7 +122609,8 @@
       570.2,
       903.6,
       803.2,
-      623
+      623,
+      748.3
     ],
     "times": [
       8.1,
@@ -121956,7 +122651,8 @@
       8.6,
       8.3,
       8.2,
-      7.8
+      7.8,
+      8.3
     ]
   },
   "Cuito, Angola": {
@@ -123508,9 +124204,9 @@
     ]
   },
   "Bafoussam, Cameroon": {
-    "mean_dist": 373.9,
+    "mean_dist": 368.9,
     "mean_time": 7.5,
-    "std_dist": 507.2,
+    "std_dist": 502.9,
     "std_time": 1.1,
     "city": "Bafoussam",
     "admin": "Ouest",
@@ -123561,6 +124257,7 @@
       4.647,
       5.018,
       6.529,
+      4.471,
       4.471
     ],
     "lons": [
@@ -123609,10 +124306,11 @@
       10.566,
       10.752,
       -5.364,
-      10.557
+      10.557,
+      11.16
     ],
     "mean_lat": 4.471,
-    "mean_lon": 10.119,
+    "mean_lon": 10.157,
     "true_lat": 5.4904,
     "true_lon": 10.4099,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bafoussam%2C+Cameroon&go=Go&ns0=1",
@@ -123662,6 +124360,7 @@
       "Cairo",
       "Cairo",
       "Western Australia",
+      "Cairo",
       "Cairo"
     ],
     "countries": [
@@ -123710,6 +124409,7 @@
       "Egypt",
       "Egypt",
       "Australia",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -123758,7 +124458,8 @@
       95.2,
       64.7,
       1748,
-      114.4
+      114.4,
+      140.5
     ],
     "times": [
       8.1,
@@ -123806,7 +124507,8 @@
       8,
       8,
       6.8,
-      7.9
+      7.9,
+      8.5
     ]
   },
   "Matola, Mozambique": {
@@ -124978,9 +125680,9 @@
     ]
   },
   "Man, C\u00f4te D\u2019Ivoire": {
-    "mean_dist": 454.6,
+    "mean_dist": 445,
     "mean_time": 7.4,
-    "std_dist": 591.1,
+    "std_dist": 586.5,
     "std_time": 1.2,
     "city": "Man",
     "admin": "Montagnes",
@@ -125023,7 +125725,8 @@
       5.943,
       6.128,
       6.153,
-      6.137
+      6.137,
+      6.692
     ],
     "lons": [
       "x",
@@ -125063,10 +125766,11 @@
       -6.138,
       -5.396,
       -6.534,
-      -5.545
+      -5.545,
+      -7.586
     ],
-    "mean_lat": 8.783,
-    "mean_lon": -4.917,
+    "mean_lat": 8.653,
+    "mean_lon": -5.084,
     "true_lat": 7.4004,
     "true_lon": -7.55,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Man%2C+C\u00f4te D\u2019Ivoire&go=Go&ns0=1",
@@ -125104,6 +125808,7 @@
       "Nouvelle-Aquitaine",
       "New York",
       "Texas",
+      "Cairo",
       "Cairo",
       "Cairo",
       "Cairo",
@@ -125148,6 +125853,7 @@
       "Egypt",
       "Egypt",
       "Egypt",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -125188,7 +125894,8 @@
       224.7,
       276.6,
       178.3,
-      262.1
+      262.1,
+      78.8
     ],
     "times": [
       8.1,
@@ -125228,7 +125935,8 @@
       8.5,
       8.3,
       8.1,
-      8
+      8,
+      7.3
     ]
   },
   "Pemba, Mozambique": {
@@ -126442,10 +127150,10 @@
     ]
   },
   "Ijebu-Ode, Nigeria": {
-    "mean_dist": 427,
-    "mean_time": 7.6,
-    "std_dist": 466.4,
-    "std_time": 0.8,
+    "mean_dist": 544.2,
+    "mean_time": 7,
+    "std_dist": 613.9,
+    "std_time": 1.7,
     "city": "Ijebu-Ode",
     "admin": "Ogun",
     "country": "Nigeria",
@@ -126473,7 +127181,11 @@
       9.26,
       7.236,
       6.143,
-      6.128
+      6.128,
+      7.33,
+      10.572,
+      -0.858,
+      18.631
     ],
     "lons": [
       "x",
@@ -126499,10 +127211,14 @@
       7.411,
       4.193,
       5.501,
-      6.111
+      6.111,
+      5.766,
+      8.215,
+      24.045,
+      -6.877
     ],
-    "mean_lat": 6.826,
-    "mean_lon": 7.808,
+    "mean_lat": 7.266,
+    "mean_lon": 7.804,
     "true_lat": 6.8204,
     "true_lon": 3.92,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ijebu-Ode%2C+Nigeria&go=Go&ns0=1",
@@ -126530,7 +127246,11 @@
       "Cairo",
       "Cairo",
       "Northern Ireland",
-      "Cairo"
+      "Cairo",
+      "England",
+      "St Peter Port",
+      "England",
+      "England"
     ],
     "countries": [
       "Switzerland",
@@ -126556,7 +127276,11 @@
       "Egypt",
       "Egypt",
       "United Kingdom",
-      "Egypt"
+      "Egypt",
+      "United Kingdom",
+      "Guernsey",
+      "United Kingdom",
+      "United Kingdom"
     ],
     "dists": [
       217.3,
@@ -126582,7 +127306,11 @@
       470.4,
       55.2,
       190.2,
-      254.1
+      254.1,
+      211.5,
+      630,
+      2390.8,
+      1758
     ],
     "times": [
       8.1,
@@ -126608,7 +127336,11 @@
       8,
       8.2,
       6.7,
-      8.2
+      8.2,
+      2.8,
+      5.4,
+      5.6,
+      1
     ]
   },
   "Madent Atbara, Sudan": {
@@ -126830,9 +127562,9 @@
     ]
   },
   "Birnin Kebbi, Nigeria": {
-    "mean_dist": 630.4,
-    "mean_time": 7.2,
-    "std_dist": 154.2,
+    "mean_dist": 773.7,
+    "mean_time": 7.3,
+    "std_dist": 673.4,
     "std_time": 1.7,
     "city": "Birnin Kebbi",
     "admin": "Kebbi",
@@ -126858,7 +127590,8 @@
       8.902,
       8.718,
       7.614,
-      6.898
+      6.898,
+      -13.862
     ],
     "lons": [
       "x",
@@ -126881,10 +127614,11 @@
       6.149,
       8.33,
       6.845,
-      7.658
+      7.658,
+      25.942
     ],
-    "mean_lat": 8.983,
-    "mean_lon": 7.512,
+    "mean_lat": 7.226,
+    "mean_lon": 8.93,
     "true_lat": 12.4504,
     "true_lon": 4.1999,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Birnin Kebbi%2C+Nigeria&go=Go&ns0=1",
@@ -126909,7 +127643,8 @@
       "Cairo",
       "Cairo",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Madrid"
     ],
     "countries": [
       "Switzerland",
@@ -126932,7 +127667,8 @@
       "Egypt",
       "Egypt",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Spain"
     ],
     "dists": [
       285.3,
@@ -126955,7 +127691,8 @@
       448.3,
       613.1,
       610.7,
-      724.4
+      724.4,
+      3781.7
     ],
     "times": [
       7.9,
@@ -126978,7 +127715,8 @@
       8.1,
       8.2,
       8,
-      8
+      8,
+      9.9
     ]
   },
   "Durban, South Africa": {
@@ -127932,9 +128670,9 @@
     ]
   },
   "Kongolo, Congo (Kinshasa)": {
-    "mean_dist": 700.2,
+    "mean_dist": 686.1,
     "mean_time": 7.5,
-    "std_dist": 432.7,
+    "std_dist": 436.4,
     "std_time": 0.9,
     "city": "Kongolo",
     "admin": "Tanganyika",
@@ -127972,7 +128710,9 @@
       -2.967,
       -5.183,
       -6.108,
-      -3.029
+      -3.029,
+      -5.554,
+      -3.27
     ],
     "lons": [
       "x",
@@ -128007,10 +128747,12 @@
       25.973,
       24.293,
       26.706,
-      24.364
+      24.364,
+      26.892,
+      19.29
     ],
-    "mean_lat": -2.962,
-    "mean_lon": 21.856,
+    "mean_lat": -3.093,
+    "mean_lon": 21.968,
     "true_lat": -5.3795,
     "true_lon": 26.98,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kongolo%2C+Congo (Kinshasa)&go=Go&ns0=1",
@@ -128047,7 +128789,9 @@
       "Cairo",
       "Cairo",
       "Cairo",
-      "Harjumaa"
+      "Harjumaa",
+      "Cairo",
+      "England"
     ],
     "countries": [
       "United States",
@@ -128082,7 +128826,9 @@
       "Egypt",
       "Egypt",
       "Egypt",
-      "Estonia"
+      "Estonia",
+      "Egypt",
+      "United Kingdom"
     ],
     "dists": [
       1119.4,
@@ -128117,7 +128863,9 @@
       290.4,
       298.2,
       86.5,
-      390.3
+      390.3,
+      21.7,
+      884.1
     ],
     "times": [
       6.7,
@@ -128152,7 +128900,9 @@
       7.8,
       7.8,
       8,
-      7.3
+      7.3,
+      7.8,
+      7.9
     ]
   },
   "Lira, Uganda": {
@@ -128798,9 +129548,9 @@
     ]
   },
   "Al Ghardaqah, Egypt": {
-    "mean_dist": 1257.2,
+    "mean_dist": 1230.1,
     "mean_time": 6.1,
-    "std_dist": 1487.5,
+    "std_dist": 1480.5,
     "std_time": 2.5,
     "city": "Al Ghardaqah",
     "admin": "Al Ba\u1e29r al A\u1e29mar",
@@ -128847,7 +129597,8 @@
       30.018,
       27.006,
       30.05,
-      26.352
+      26.352,
+      26.527
     ],
     "lons": [
       "x",
@@ -128891,10 +129642,11 @@
       29.494,
       29.765,
       31.304,
-      34.202
+      34.202,
+      34.363
     ],
-    "mean_lat": 28.634,
-    "mean_lon": 30.383,
+    "mean_lat": 28.483,
+    "mean_lon": 30.668,
     "true_lat": 27.23,
     "true_lon": 33.83,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Al Ghardaqah%2C+Egypt&go=Go&ns0=1",
@@ -128940,6 +129692,7 @@
       "England",
       "England",
       "California",
+      "Cairo",
       "Cairo"
     ],
     "countries": [
@@ -128984,6 +129737,7 @@
       "United Kingdom",
       "United Kingdom",
       "United States",
+      "Egypt",
       "Egypt"
     ],
     "dists": [
@@ -129028,7 +129782,8 @@
       524.5,
       403,
       398.8,
-      104.3
+      104.3,
+      94.3
     ],
     "times": [
       8,
@@ -129072,7 +129827,8 @@
       4.6,
       4.7,
       8.7,
-      7.1
+      7.1,
+      7.7
     ]
   }
 }
