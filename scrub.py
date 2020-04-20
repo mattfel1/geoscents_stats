@@ -70,7 +70,7 @@ except:
 metadata = {}
 
 total_num_clicks = 0
-player_countries = {}
+player_countries = {'Total': 0}
 
 for path in pathlist:
     # because path is object not string
@@ -109,8 +109,10 @@ for path in pathlist:
                         data[entry]['countries'].append(cache['127.0.0.1'][1])
                 if (cache[ip4][1] in player_countries): 
                     player_countries[cache[ip4][1]] = player_countries[cache[ip4][1]] + 1
+                    player_countries["Total"] = player_countries["Total"] + 1
                 else: 
                     player_countries[cache[ip4][1]] = 1
+                    player_countries["Total"] = player_countries["Total"] + 1
             data[entry].pop('ips', None)
             # Hacky way to put the statistics summaries at the beginning of json entry
             data[entry]['dists'] = data[entry].pop('dists',None)
