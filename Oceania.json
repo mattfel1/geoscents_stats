@@ -1,8 +1,8 @@
 {
   "Palikir, Micronesia, Federated States Of": {
-    "mean_dist": 1719.1,
+    "mean_dist": 1743.5,
     "mean_time": 6.6,
-    "std_dist": 1914.8,
+    "std_dist": 1946.7,
     "std_time": 1.6,
     "admin": "Pohnpei",
     "country": "Micronesia, Federated States Of",
@@ -151,7 +151,10 @@
       6.576,
       6.931,
       7.404,
-      6.457
+      6.457,
+      -16.306,
+      0.912,
+      6.576
     ],
     "lons": [
       "x",
@@ -297,10 +300,13 @@
       158.454,
       158.217,
       157.979,
-      158.217
+      158.217,
+      215.882,
+      173.628,
+      158.335
     ],
-    "mean_lat": -1.782,
-    "mean_lon": 170.192,
+    "mean_lat": -1.827,
+    "mean_lon": 170.67,
     "true_lat": 6.9166,
     "true_lon": 158.15,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Palikir%2C+Micronesia, Federated States Of&go=Go&ns0=1",
@@ -448,6 +454,9 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
+      "Western Australia",
+      "Western Australia",
       "Tuscany"
     ],
     "countries": [
@@ -594,6 +603,9 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
+      "Australia",
+      "Australia",
       "Italy"
     ],
     "dists": [
@@ -740,7 +752,10 @@
       50.6,
       7.5,
       57.4,
-      51.5
+      51.5,
+      6855.1,
+      1841.5,
+      43
     ],
     "times": [
       8.4,
@@ -886,7 +901,10 @@
       8.2,
       8.2,
       8.6,
-      8.4
+      8.4,
+      7.4,
+      7,
+      5.7
     ]
   },
   "Gisborne, New Zealand": {
@@ -1180,9 +1198,9 @@
     ]
   },
   "Manukau City, New Zealand": {
-    "mean_dist": 421.6,
+    "mean_dist": 415.3,
     "mean_time": 7,
-    "std_dist": 285.7,
+    "std_dist": 284.8,
     "std_time": 1.1,
     "admin": "Auckland",
     "country": "New Zealand",
@@ -1226,6 +1244,7 @@
       -40.745,
       -39.877,
       -41.18,
+      -38.542,
       -38.542
     ],
     "lons": [
@@ -1267,10 +1286,11 @@
       174.259,
       176.752,
       176.752,
+      174.972,
       174.972
     ],
-    "mean_lat": -39.845,
-    "mean_lon": 174.93,
+    "mean_lat": -39.745,
+    "mean_lon": 174.933,
     "true_lat": -37,
     "true_lon": 174.885,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Manukau City%2C+New Zealand&go=Go&ns0=1",
@@ -1313,6 +1333,7 @@
       "Tuscany",
       "Aargau",
       "Aargau",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -1354,6 +1375,7 @@
       "Italy",
       "Switzerland",
       "Switzerland",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -1395,6 +1417,7 @@
       420,
       358.9,
       491.9,
+      171.6,
       171.6
     ],
     "times": [
@@ -1436,13 +1459,14 @@
       7.6,
       8.4,
       8.2,
-      8.3
+      8.3,
+      8.7
     ]
   },
   "Port Macquarie, New South Wales, Australia": {
-    "mean_dist": 600.7,
+    "mean_dist": 592.6,
     "mean_time": 6.2,
-    "std_dist": 542.4,
+    "std_dist": 538.4,
     "std_time": 2.2,
     "city": "Port Macquarie",
     "admin": "New South Wales",
@@ -1488,7 +1512,8 @@
       -32.612,
       -37.286,
       -38.074,
-      -33.231
+      -33.231,
+      -33.331
     ],
     "lons": [
       "x",
@@ -1531,10 +1556,11 @@
       142.466,
       147.738,
       144.907,
-      151.918
+      151.918,
+      151.324
     ],
-    "mean_lat": -34.306,
-    "mean_lon": 146.085,
+    "mean_lat": -34.255,
+    "mean_lon": 146.361,
     "true_lat": -31.445,
     "true_lon": 152.9187,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Port Macquarie%2C+Australia&go=Go&ns0=1",
@@ -1579,6 +1605,7 @@
       "England",
       "Canterbury",
       "Tuscany",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -1621,6 +1648,7 @@
       "United Kingdom",
       "United Kingdom",
       "New Zealand",
+      "Italy",
       "Italy",
       "Italy"
     ],
@@ -1665,7 +1693,8 @@
       993.3,
       804.6,
       1037.8,
-      219.7
+      219.7,
+      257.6
     ],
     "times": [
       6.1,
@@ -1708,6 +1737,7 @@
       2.1,
       6.4,
       8.2,
+      8.3,
       8.3
     ]
   },
@@ -2158,9 +2188,9 @@
     ]
   },
   "Batu Pahat, Malaysia": {
-    "mean_dist": 1094.6,
+    "mean_dist": 1072.6,
     "mean_time": 7.2,
-    "std_dist": 1755.1,
+    "std_dist": 1737.8,
     "std_time": 1.6,
     "admin": "Johor",
     "country": "Malaysia",
@@ -2203,7 +2233,8 @@
       3.004,
       2.633,
       3.888,
-      3.749
+      3.749,
+      3.844
     ],
     "lons": [
       "x",
@@ -2243,10 +2274,11 @@
       102.008,
       103.084,
       102.263,
+      102.126,
       102.126
     ],
-    "mean_lat": 1.217,
-    "mean_lon": 108.303,
+    "mean_lat": 1.381,
+    "mean_lon": 107.917,
     "true_lat": 1.8504,
     "true_lon": 102.9333,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Batu Pahat%2C+Malaysia&go=Go&ns0=1",
@@ -2288,6 +2320,7 @@
       "New York",
       "Harjumaa",
       "Western Australia",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -2328,6 +2361,7 @@
       "United States",
       "Estonia",
       "Australia",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -2368,7 +2402,8 @@
       164.3,
       88.6,
       238.4,
-      229.3
+      229.3,
+      239.1
     ],
     "times": [
       8,
@@ -2408,7 +2443,8 @@
       8.8,
       7.6,
       8,
-      8.4
+      8.4,
+      8.5
     ]
   },
   "Parkes, New South Wales, Australia": {
@@ -3812,9 +3848,9 @@
     ]
   },
   "Kwinana, Western Australia, Australia": {
-    "mean_dist": 494.2,
+    "mean_dist": 490.7,
     "mean_time": 7.3,
-    "std_dist": 670.1,
+    "std_dist": 666.6,
     "std_time": 1.1,
     "admin": "Western Australia",
     "country": "Australia",
@@ -3898,7 +3934,8 @@
       -32.363,
       -32.66,
       -25.945,
-      -33.431
+      -33.431,
+      -34.125
     ],
     "lons": [
       "x",
@@ -3979,10 +4016,11 @@
       115.714,
       116.882,
       114.403,
-      116.03
+      116.03,
+      115.198
     ],
-    "mean_lat": -30.532,
-    "mean_lon": 117.473,
+    "mean_lat": -30.721,
+    "mean_lon": 117.353,
     "true_lat": -32.2394,
     "true_lon": 115.7702,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kwinana%2C+Australia&go=Go&ns0=1",
@@ -4065,6 +4103,7 @@
       "Aargau",
       "California",
       "Cairo",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -4146,6 +4185,7 @@
       "Switzerland",
       "United States",
       "Egypt",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -4227,7 +4267,8 @@
       14.7,
       114.4,
       712.3,
-      134.7
+      134.7,
+      216.3
     ],
     "times": [
       7.5,
@@ -4308,7 +4349,8 @@
       8.2,
       8.2,
       7.3,
-      8.7
+      8.7,
+      8.6
     ]
   },
   "Goroka, Papua New Guinea": {
@@ -4878,9 +4920,9 @@
     ]
   },
   "New Plymouth, New Zealand": {
-    "mean_dist": 239,
+    "mean_dist": 232.4,
     "mean_time": 7.6,
-    "std_dist": 171.7,
+    "std_dist": 169.7,
     "std_time": 1.1,
     "admin": "Taranaki",
     "country": "New Zealand",
@@ -4922,7 +4964,9 @@
       -39.726,
       -38.914,
       -36.843,
-      -43.465
+      -43.465,
+      -39.192,
+      -39.652
     ],
     "lons": [
       "x",
@@ -4961,10 +5005,12 @@
       175.685,
       175.21,
       175.21,
-      171.33
+      171.33,
+      175.448,
+      174.972
     ],
-    "mean_lat": -40.206,
-    "mean_lon": 174.426,
+    "mean_lat": -40.124,
+    "mean_lon": 174.509,
     "true_lat": -39.0556,
     "true_lon": 174.0748,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=New Plymouth%2C+New Zealand&go=Go&ns0=1",
@@ -5005,7 +5051,9 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
-      "Massachusetts"
+      "Massachusetts",
+      "Tuscany",
+      "Tuscany"
     ],
     "countries": [
       "Canada",
@@ -5044,7 +5092,9 @@
       "Italy",
       "Italy",
       "Italy",
-      "United States"
+      "United States",
+      "Italy",
+      "Italy"
     ],
     "dists": [
       583.5,
@@ -5083,7 +5133,9 @@
       157.2,
       99.4,
       265.3,
-      541.2
+      541.2,
+      119.4,
+      101.8
     ],
     "times": [
       7.1,
@@ -5122,7 +5174,9 @@
       7.9,
       8.6,
       8,
-      6.8
+      6.8,
+      8.3,
+      8.4
     ]
   },
   "Hervey Bay, Queensland, Australia": {
@@ -5434,9 +5488,9 @@
     ]
   },
   "Bandar Seri Begawan, Brunei": {
-    "mean_dist": 1084.1,
+    "mean_dist": 1076.7,
     "mean_time": 6.9,
-    "std_dist": 2213.4,
+    "std_dist": 2207.4,
     "std_time": 1.5,
     "admin": "Brunei and Muara",
     "country": "Brunei",
@@ -5583,7 +5637,8 @@
       4.582,
       4.201,
       3.844,
-      4.201
+      4.201,
+      4.677
     ],
     "lons": [
       "x",
@@ -5727,10 +5782,11 @@
       115.673,
       115.198,
       114.96,
-      115.436
+      115.436,
+      115.079
     ],
-    "mean_lat": 0.666,
-    "mean_lon": 128.882,
+    "mean_lat": 0.726,
+    "mean_lon": 128.676,
     "true_lat": 4.8833,
     "true_lon": 114.9333,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bandar Seri Begawan%2C+Brunei&go=Go&ns0=1",
@@ -5872,6 +5928,7 @@
       "Tuscany",
       "Berlin",
       "Berlin",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany",
@@ -6020,6 +6077,7 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -6164,7 +6222,8 @@
       88.6,
       81.3,
       115.5,
-      94
+      94,
+      28
     ],
     "times": [
       5,
@@ -6308,13 +6367,14 @@
       8.4,
       8.4,
       8.5,
-      8.5
+      8.5,
+      8.1
     ]
   },
   "Port Pirie, South Australia, Australia": {
-    "mean_dist": 327,
+    "mean_dist": 324.9,
     "mean_time": 6.8,
-    "std_dist": 431.3,
+    "std_dist": 429.3,
     "std_time": 1.4,
     "admin": "South Australia",
     "country": "Australia",
@@ -6406,7 +6466,8 @@
       -34.524,
       -34.715,
       -34.989,
-      -33.132
+      -33.132,
+      -34.204
     ],
     "lons": [
       "x",
@@ -6495,10 +6556,11 @@
       139.79,
       137.658,
       138.015,
-      137.539
+      137.539,
+      137.064
     ],
-    "mean_lat": -33.644,
-    "mean_lon": 138.129,
+    "mean_lat": -33.661,
+    "mean_lon": 138.096,
     "true_lat": -33.1911,
     "true_lon": 137.99,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Port Pirie%2C+Australia&go=Go&ns0=1",
@@ -6587,6 +6649,7 @@
       "Aargau",
       "New York",
       "Aargau",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany"
@@ -6678,6 +6741,7 @@
       "Switzerland",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -6767,7 +6831,8 @@
       222.7,
       172.2,
       199.9,
-      42.4
+      42.4,
+      141.4
     ],
     "times": [
       5.5,
@@ -6856,13 +6921,14 @@
       8.5,
       8.4,
       8.4,
+      8.3,
       8.3
     ]
   },
   "Waitakere, New Zealand": {
-    "mean_dist": 399.9,
+    "mean_dist": 396,
     "mean_time": 7.5,
-    "std_dist": 264.3,
+    "std_dist": 259,
     "std_time": 1,
     "admin": "Auckland",
     "country": "New Zealand",
@@ -6910,7 +6976,9 @@
       -36.77,
       -39.266,
       -37.319,
-      -38.635
+      -38.635,
+      -39.492,
+      -39.468
     ],
     "lons": [
       "x",
@@ -6955,10 +7023,12 @@
       174.831,
       176.398,
       175.567,
-      175.448
+      175.448,
+      175.889,
+      175.804
     ],
-    "mean_lat": -40.021,
-    "mean_lon": 174.205,
+    "mean_lat": -39.969,
+    "mean_lon": 174.361,
     "true_lat": -36.8524,
     "true_lon": 174.5543,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Waitakere%2C+New Zealand&go=Go&ns0=1",
@@ -7005,6 +7075,8 @@
       "Aargau",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
+      "Western Australia",
       "Tuscany"
     ],
     "countries": [
@@ -7050,6 +7122,8 @@
       "Switzerland",
       "Italy",
       "Italy",
+      "Italy",
+      "Australia",
       "Italy"
     ],
     "dists": [
@@ -7095,7 +7169,9 @@
       26.2,
       313.2,
       103.7,
-      213.2
+      213.2,
+      315.9,
+      310.7
     ],
     "times": [
       6.2,
@@ -7140,13 +7216,15 @@
       7.6,
       8.1,
       8.4,
-      8.6
+      8.6,
+      8.3,
+      8.5
     ]
   },
   "Alice Springs, Northern Territory, Australia": {
-    "mean_dist": 380.7,
+    "mean_dist": 372.2,
     "mean_time": 7.3,
-    "std_dist": 478.3,
+    "std_dist": 475.1,
     "std_time": 1.1,
     "admin": "Northern Territory",
     "country": "Australia",
@@ -7228,7 +7306,9 @@
       -23.17,
       -11.926,
       -22.039,
-      -24.796
+      -24.796,
+      -23.578,
+      -24.254
     ],
     "lons": [
       "x",
@@ -7307,10 +7387,12 @@
       134.265,
       134.212,
       133.499,
-      134.687
+      134.687,
+      133.618,
+      133.855
     ],
-    "mean_lat": -20.678,
-    "mean_lon": 134.087,
+    "mean_lat": -20.959,
+    "mean_lon": 134.056,
     "true_lat": -23.701,
     "true_lon": 133.88,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Alice Springs%2C+Australia&go=Go&ns0=1",
@@ -7391,6 +7473,8 @@
       "Victoria",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -7468,6 +7552,8 @@
       "Switzerland",
       "Switzerland",
       "Australia",
+      "Italy",
+      "Italy",
       "Italy",
       "Italy",
       "Italy"
@@ -7549,7 +7635,9 @@
       70.9,
       1309.7,
       188.8,
-      146.7
+      146.7,
+      29.9,
+      61.5
     ],
     "times": [
       6.7,
@@ -7628,13 +7716,15 @@
       6.7,
       7.1,
       7.7,
-      8.1
+      8.1,
+      8.2,
+      8
     ]
   },
   "Kuantan, Malaysia": {
-    "mean_dist": 634.4,
+    "mean_dist": 623.1,
     "mean_time": 6.9,
-    "std_dist": 737.8,
+    "std_dist": 734.7,
     "std_time": 1.6,
     "admin": "Pahang",
     "country": "Malaysia",
@@ -7688,7 +7778,8 @@
       2.388,
       11.195,
       3.606,
-      3.963
+      3.963,
+      4.17
     ],
     "lons": [
       "x",
@@ -7739,10 +7830,11 @@
       102.695,
       121.95,
       102.483,
-      102.483
+      102.483,
+      102.828
     ],
-    "mean_lat": 3.496,
-    "mean_lon": 107.991,
+    "mean_lat": 3.531,
+    "mean_lon": 107.719,
     "true_lat": 3.83,
     "true_lon": 103.32,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kuantan%2C+Malaysia&go=Go&ns0=1",
@@ -7795,7 +7887,8 @@
       "Aargau",
       "California",
       "Tuscany",
-      "Tuscany"
+      "Tuscany",
+      "Western Australia"
     ],
     "countries": [
       "Canada",
@@ -7846,7 +7939,8 @@
       "Switzerland",
       "United States",
       "Italy",
-      "Italy"
+      "Italy",
+      "Australia"
     ],
     "dists": [
       153.9,
@@ -7897,7 +7991,8 @@
       174.6,
       2209.6,
       96.1,
-      94
+      94,
+      66.4
     ],
     "times": [
       7,
@@ -7948,13 +8043,14 @@
       7.1,
       4.3,
       8.4,
+      8.1,
       8.1
     ]
   },
   "Horsham, Victoria, Australia": {
-    "mean_dist": 358.2,
+    "mean_dist": 357.1,
     "mean_time": 7.2,
-    "std_dist": 415.5,
+    "std_dist": 411.9,
     "std_time": 1.6,
     "admin": "Victoria",
     "country": "Australia",
@@ -8015,7 +8111,8 @@
       -33.961,
       -34.418,
       -38.096,
-      -37.98
+      -37.98,
+      -37.603
     ],
     "lons": [
       "x",
@@ -8073,10 +8170,11 @@
       147.087,
       145.859,
       144.993,
-      145.264
+      145.264,
+      145.382
     ],
-    "mean_lat": -35.725,
-    "mean_lon": 144.203,
+    "mean_lat": -35.804,
+    "mean_lon": 144.252,
     "true_lat": -36.7096,
     "true_lon": 142.19,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Horsham%2C+Australia&go=Go&ns0=1",
@@ -8136,6 +8234,7 @@
       "Plovdiv",
       "California",
       "Plovdiv",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -8194,6 +8293,7 @@
       "Bulgaria",
       "United States",
       "Bulgaria",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -8252,7 +8352,8 @@
       539,
       418.3,
       291.6,
-      306.2
+      306.2,
+      299.8
     ],
     "times": [
       3.1,
@@ -8310,14 +8411,15 @@
       6.8,
       5.9,
       7,
+      8.2,
       8.2
     ]
   },
   "Northcote, New Zealand": {
-    "mean_dist": 345.2,
+    "mean_dist": 334.6,
     "mean_time": 7.4,
-    "std_dist": 193.2,
-    "std_time": 1.5,
+    "std_dist": 195.5,
+    "std_time": 1.4,
     "admin": "Auckland",
     "country": "New Zealand",
     "city": "Northcote",
@@ -8357,7 +8459,9 @@
       -35.832,
       -37.205,
       -41.146,
-      -37.961
+      -37.961,
+      -39.192,
+      -36.843
     ],
     "lons": [
       "x",
@@ -8395,10 +8499,12 @@
       175.111,
       175.448,
       173.986,
-      174.616
+      174.616,
+      175.091,
+      174.972
     ],
-    "mean_lat": -39.477,
-    "mean_lon": 174.689,
+    "mean_lat": -39.306,
+    "mean_lon": 174.729,
     "true_lat": -36.7913,
     "true_lon": 174.7758,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Northcote%2C+New Zealand&go=Go&ns0=1",
@@ -8438,6 +8544,8 @@
       "Tuscany",
       "Tuscany",
       "Harjumaa",
+      "Tuscany",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -8476,6 +8584,8 @@
       "Italy",
       "Italy",
       "Estonia",
+      "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -8514,7 +8624,9 @@
       110.7,
       75.4,
       489,
-      130.8
+      130.8,
+      268.3,
+      18.4
     ],
     "times": [
       6.5,
@@ -8552,7 +8664,9 @@
       8.8,
       8.2,
       7.5,
-      8.3
+      8.3,
+      8.4,
+      8.1
     ]
   },
   "Queanbeyan, New South Wales, Australia": {
@@ -9040,9 +9154,9 @@
     ]
   },
   "Ballina, New South Wales, Australia": {
-    "mean_dist": 682.7,
+    "mean_dist": 676.6,
     "mean_time": 6.8,
-    "std_dist": 640.3,
+    "std_dist": 631.1,
     "std_time": 1.7,
     "admin": "New South Wales",
     "country": "Australia",
@@ -9078,7 +9192,8 @@
       -32.953,
       -30.978,
       -33.012,
-      -33.808
+      -33.808,
+      -32.932
     ],
     "lons": [
       "x",
@@ -9111,10 +9226,11 @@
       152.026,
       150.962,
       150.73,
-      151.443
+      151.443,
+      151.681
     ],
-    "mean_lat": -32.42,
-    "mean_lon": 147.276,
+    "mean_lat": -32.454,
+    "mean_lon": 147.569,
     "true_lat": -28.8614,
     "true_lon": 153.568,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ballina%2C+Australia&go=Go&ns0=1",
@@ -9149,6 +9265,7 @@
       "California",
       "British Columbia",
       "Tuscany",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -9181,6 +9298,7 @@
       "Switzerland",
       "United States",
       "Canada",
+      "Italy",
       "Italy",
       "Italy"
     ],
@@ -9215,7 +9333,8 @@
       478.1,
       344.2,
       534.9,
-      585.8
+      585.8,
+      487.1
     ],
     "times": [
       7.7,
@@ -9248,13 +9367,14 @@
       7.8,
       4.7,
       8.8,
+      7.9,
       7.9
     ]
   },
   "Whyalla, South Australia, Australia": {
-    "mean_dist": 446.1,
+    "mean_dist": 449.7,
     "mean_time": 6.7,
-    "std_dist": 539.6,
+    "std_dist": 540,
     "std_time": 1.4,
     "admin": "South Australia",
     "country": "Australia",
@@ -9356,7 +9476,9 @@
       -34.617,
       -34.647,
       -33.594,
-      -34.597
+      -34.597,
+      -33.63,
+      -35.094
     ],
     "lons": [
       "x",
@@ -9455,10 +9577,12 @@
       137.539,
       141.09,
       151.906,
-      138.015
+      138.015,
+      138.252,
+      149.887
     ],
-    "mean_lat": -33.372,
-    "mean_lon": 138.952,
+    "mean_lat": -33.423,
+    "mean_lon": 139.214,
     "true_lat": -33.025,
     "true_lon": 137.5614,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Whyalla%2C+Australia&go=Go&ns0=1",
@@ -9559,7 +9683,9 @@
       "Tuscany",
       "North Holland",
       "South Denmark",
-      "Tuscany"
+      "Tuscany",
+      "Tuscany",
+      "Western Australia"
     ],
     "countries": [
       "United States",
@@ -9658,7 +9784,9 @@
       "Italy",
       "Netherlands",
       "Denmark",
-      "Italy"
+      "Italy",
+      "Italy",
+      "Australia"
     ],
     "dists": [
       200,
@@ -9757,7 +9885,9 @@
       177,
       372.5,
       1333.4,
-      179.8
+      179.8,
+      93,
+      1157.7
     ],
     "times": [
       7,
@@ -9856,7 +9986,9 @@
       7.5,
       4,
       7.4,
-      8.3
+      8.3,
+      8.2,
+      6.4
     ]
   },
   "Roebourne, Western Australia, Australia": {
@@ -10384,9 +10516,9 @@
     ]
   },
   "Wewak, Papua New Guinea": {
-    "mean_dist": 813.1,
-    "mean_time": 6.9,
-    "std_dist": 1362.7,
+    "mean_dist": 795.4,
+    "mean_time": 7,
+    "std_dist": 1339.5,
     "std_time": 1.6,
     "admin": "East Sepik",
     "country": "Papua New Guinea",
@@ -10492,7 +10624,11 @@
       -6.69,
       -2.429,
       -5.683,
-      -7.224
+      -7.224,
+      -5.683,
+      -6.448,
+      -6.166,
+      -7.105
     ],
     "lons": [
       "x",
@@ -10595,10 +10731,14 @@
       140.313,
       149.968,
       144.788,
-      145.501
+      145.501,
+      144.075,
+      144.799,
+      144.941,
+      146.095
     ],
-    "mean_lat": -6.758,
-    "mean_lon": 145.39,
+    "mean_lat": -6.733,
+    "mean_lon": 145.365,
     "true_lat": -3.5535,
     "true_lon": 143.6367,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Wewak%2C+Papua New Guinea&go=Go&ns0=1",
@@ -10703,6 +10843,10 @@
       "Texas",
       "Aargau",
       "Tuscany",
+      "Tuscany",
+      "Tuscany",
+      "Western Australia",
+      "Western Australia",
       "Tuscany"
     ],
     "countries": [
@@ -10806,6 +10950,10 @@
       "United States",
       "Switzerland",
       "Italy",
+      "Italy",
+      "Italy",
+      "Australia",
+      "Australia",
       "Italy"
     ],
     "dists": [
@@ -10909,7 +11057,11 @@
       507,
       714,
       269,
-      457.3
+      457.3,
+      241.8,
+      346.7,
+      324.4,
+      479.7
     ],
     "times": [
       5.6,
@@ -11012,13 +11164,17 @@
       5.2,
       8,
       8.8,
-      8.7
+      8.7,
+      8.5,
+      8.1,
+      8.2,
+      8.3
     ]
   },
   "Caboolture, Queensland, Australia": {
-    "mean_dist": 390.8,
+    "mean_dist": 384.5,
     "mean_time": 7.6,
-    "std_dist": 550.8,
+    "std_dist": 548,
     "std_time": 0.9,
     "admin": "Queensland",
     "country": "Australia",
@@ -11079,7 +11235,8 @@
       -21.529,
       -27.635,
       -24.991,
-      -27.35
+      -27.35,
+      -27.155
     ],
     "lons": [
       "x",
@@ -11137,10 +11294,11 @@
       148.444,
       153.382,
       151.086,
-      153.169
+      153.169,
+      152.631
     ],
-    "mean_lat": -25.588,
-    "mean_lon": 150.33,
+    "mean_lat": -25.675,
+    "mean_lon": 150.457,
     "true_lat": -27.083,
     "true_lon": 152.95,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Caboolture%2C+Australia&go=Go&ns0=1",
@@ -11200,7 +11358,8 @@
       "Tuscany",
       "Aargau",
       "Tuscany",
-      "Aargau"
+      "Aargau",
+      "Tuscany"
     ],
     "countries": [
       "Australia",
@@ -11258,7 +11417,8 @@
       "Italy",
       "Switzerland",
       "Italy",
-      "Switzerland"
+      "Switzerland",
+      "Italy"
     ],
     "dists": [
       870.3,
@@ -11316,7 +11476,8 @@
       767.8,
       74.8,
       297.8,
-      36.8
+      36.8,
+      32.4
     ],
     "times": [
       7.2,
@@ -11374,13 +11535,14 @@
       7.6,
       8.1,
       8.4,
-      8.2
+      8.2,
+      8.5
     ]
   },
   "Timaru, New Zealand": {
-    "mean_dist": 526.1,
+    "mean_dist": 539.4,
     "mean_time": 7.6,
-    "std_dist": 222.5,
+    "std_dist": 223.2,
     "std_time": 1.1,
     "admin": "Canterbury",
     "country": "New Zealand",
@@ -11417,7 +11579,9 @@
       -38.914,
       -38.802,
       -38.635,
-      -39.383
+      -39.383,
+      -37.508,
+      -39.163
     ],
     "lons": [
       "x",
@@ -11451,10 +11615,12 @@
       176.28,
       175.685,
       176.042,
-      175.62
+      175.62,
+      175.091,
+      175.324
     ],
-    "mean_lat": -40.897,
-    "mean_lon": 173.537,
+    "mean_lat": -40.503,
+    "mean_lon": 173.794,
     "true_lat": -44.3972,
     "true_lon": 171.2425,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Timaru%2C+New Zealand&go=Go&ns0=1",
@@ -11490,7 +11656,9 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
-      "Texas"
+      "Texas",
+      "Tuscany",
+      "Western Australia"
     ],
     "countries": [
       "Australia",
@@ -11524,7 +11692,9 @@
       "Italy",
       "Italy",
       "Italy",
-      "United States"
+      "United States",
+      "Italy",
+      "Australia"
     ],
     "dists": [
       164.3,
@@ -11558,7 +11728,9 @@
       739.1,
       723.2,
       754.7,
-      664.6
+      664.6,
+      831.1,
+      673
     ],
     "times": [
       7.3,
@@ -11592,13 +11764,15 @@
       8.6,
       8.7,
       8.4,
-      5.8
+      5.8,
+      8.3,
+      7.6
     ]
   },
   "Lae, Papua New Guinea": {
-    "mean_dist": 420.7,
+    "mean_dist": 414.6,
     "mean_time": 7.2,
-    "std_dist": 772.8,
+    "std_dist": 764.7,
     "std_time": 1.3,
     "admin": "Morobe",
     "country": "Papua New Guinea",
@@ -11685,7 +11859,9 @@
       -9.185,
       -6.134,
       -6.632,
-      -5.92
+      -5.92,
+      -6.371,
+      -6.75
     ],
     "lons": [
       "x",
@@ -11769,10 +11945,12 @@
       149.307,
       146.333,
       144.907,
-      146.452
+      146.452,
+      146.571,
+      144.55
     ],
-    "mean_lat": -5.951,
-    "mean_lon": 143.933,
+    "mean_lat": -5.985,
+    "mean_lon": 144.026,
     "true_lat": -6.733,
     "true_lon": 146.99,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Lae%2C+Papua New Guinea&go=Go&ns0=1",
@@ -11856,6 +12034,8 @@
       "Tuscany",
       "Western Australia",
       "Aargau",
+      "Tuscany",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany"
@@ -11942,6 +12122,8 @@
       "Switzerland",
       "Italy",
       "Italy",
+      "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -12026,7 +12208,9 @@
       373.4,
       98.4,
       230.2,
-      108
+      108,
+      61.2,
+      269.3
     ],
     "times": [
       5.9,
@@ -12110,13 +12294,15 @@
       8.1,
       8.5,
       8.7,
-      8.7
+      8.7,
+      8.1,
+      8.6
     ]
   },
   "Majuro, Marshall Islands": {
-    "mean_dist": 1417.3,
+    "mean_dist": 1425.3,
     "mean_time": 6.8,
-    "std_dist": 1583.5,
+    "std_dist": 1573.4,
     "std_time": 1.4,
     "admin": "Majuro",
     "country": "Marshall Islands",
@@ -12280,7 +12466,11 @@
       1.223,
       0.389,
       0.866,
-      7.049
+      7.049,
+      0.985,
+      -17.797,
+      -16.17,
+      1.223
     ],
     "lons": [
       "x",
@@ -12441,10 +12631,14 @@
       173.665,
       174.259,
       173.309,
-      171.407
+      171.407,
+      173.428,
+      180.835,
+      167.834,
+      173.071
     ],
-    "mean_lat": -1.969,
-    "mean_lon": 167.749,
+    "mean_lat": -2.315,
+    "mean_lon": 168.099,
     "true_lat": 7.103,
     "true_lon": 171.38,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Majuro%2C+Marshall Islands&go=Go&ns0=1",
@@ -12607,6 +12801,10 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
+      "Tuscany",
+      "Western Australia",
+      "Western Australia",
       "Tuscany"
     ],
     "countries": [
@@ -12768,6 +12966,10 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
+      "Italy",
+      "Australia",
+      "Australia",
       "Italy"
     ],
     "dists": [
@@ -12929,7 +13131,11 @@
       701.1,
       811.9,
       725.7,
-      6.6
+      6.6,
+      717.1,
+      2957.1,
+      2617.1,
+      680
     ],
     "times": [
       7.3,
@@ -13090,7 +13296,11 @@
       7.7,
       8,
       7.2,
-      8.3
+      8.3,
+      7.3,
+      6.3,
+      7.6,
+      8.2
     ]
   },
   "Melton, Victoria, Australia": {
@@ -14012,9 +14222,9 @@
     ]
   },
   "Devonport, Tasmania, Australia": {
-    "mean_dist": 137,
+    "mean_dist": 134.9,
     "mean_time": 7.2,
-    "std_dist": 323.2,
+    "std_dist": 319.7,
     "std_time": 1.4,
     "admin": "Tasmania",
     "country": "Australia",
@@ -14102,7 +14312,9 @@
       -40.75,
       -41.383,
       -41.267,
-      -42.686
+      -42.686,
+      -41.221,
+      -41.821
     ],
     "lons": [
       "x",
@@ -14187,10 +14399,12 @@
       145.856,
       146.901,
       147.521,
-      147.046
+      147.046,
+      146.071,
+      146.452
     ],
-    "mean_lat": -41.437,
-    "mean_lon": 146.654,
+    "mean_lat": -41.442,
+    "mean_lon": 146.632,
     "true_lat": -41.1927,
     "true_lon": 146.3311,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Devonport%2C+Australia&go=Go&ns0=1",
@@ -14277,6 +14491,8 @@
       "Pennsylvania",
       "California",
       "Tuscany",
+      "Tuscany",
+      "Western Australia",
       "Tuscany"
     ],
     "countries": [
@@ -14362,6 +14578,8 @@
       "United States",
       "United States",
       "Italy",
+      "Italy",
+      "Australia",
       "Italy"
     ],
     "dists": [
@@ -14447,7 +14665,9 @@
       63.2,
       52.2,
       99.9,
-      176.2
+      176.2,
+      21.9,
+      70.6
     ],
     "times": [
       7.8,
@@ -14532,7 +14752,9 @@
       7.3,
       8.3,
       8.4,
-      8.3
+      8.3,
+      7.8,
+      8.2
     ]
   },
   "Kimbe, Papua New Guinea": {
@@ -15042,9 +15264,9 @@
     ]
   },
   "Batemans Bay, New South Wales, Australia": {
-    "mean_dist": 413.2,
+    "mean_dist": 413.4,
     "mean_time": 6.6,
-    "std_dist": 524.9,
+    "std_dist": 518.3,
     "std_time": 2,
     "admin": "New South Wales",
     "country": "Australia",
@@ -15088,7 +15310,8 @@
       -45.95,
       -34.437,
       -32.51,
-      -32.001
+      -32.001,
+      -32.127
     ],
     "lons": [
       "x",
@@ -15129,10 +15352,11 @@
       168.585,
       150.98,
       151.205,
-      152.183
+      152.183,
+      151.799
     ],
-    "mean_lat": -35.295,
-    "mean_lon": 154.381,
+    "mean_lat": -34.842,
+    "mean_lon": 154.012,
     "true_lat": -35.6896,
     "true_lon": 150.2073,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Batemans Bay%2C+Australia&go=Go&ns0=1",
@@ -15175,7 +15399,8 @@
       "Connecticut",
       "Aargau",
       "Tuscany",
-      "Canterbury"
+      "Canterbury",
+      "Tuscany"
     ],
     "countries": [
       "Australia",
@@ -15216,7 +15441,8 @@
       "United States",
       "Switzerland",
       "Italy",
-      "New Zealand"
+      "New Zealand",
+      "Italy"
     ],
     "dists": [
       482.5,
@@ -15257,7 +15483,8 @@
       1914.1,
       155.9,
       365.2,
-      448.7
+      448.7,
+      422.4
     ],
     "times": [
       7.7,
@@ -15298,13 +15525,14 @@
       7.6,
       7.5,
       8.4,
-      6.9
+      6.9,
+      8.5
     ]
   },
   "Kangar, Malaysia": {
-    "mean_dist": 919.4,
+    "mean_dist": 912.4,
     "mean_time": 6.9,
-    "std_dist": 926.4,
+    "std_dist": 919,
     "std_time": 1.9,
     "admin": "Perlis",
     "country": "Malaysia",
@@ -15361,7 +15589,8 @@
       3.392,
       4.106,
       3.392,
-      4.082
+      4.082,
+      2.415
     ],
     "lons": [
       "x",
@@ -15415,10 +15644,11 @@
       101.77,
       102.126,
       102.483,
-      101.532
+      101.532,
+      103.077
     ],
-    "mean_lat": 2.702,
-    "mean_lon": 106.249,
+    "mean_lat": 2.692,
+    "mean_lon": 106.135,
     "true_lat": 6.433,
     "true_lon": 100.19,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kangar%2C+Malaysia&go=Go&ns0=1",
@@ -15471,6 +15701,7 @@
       "England",
       "England",
       "South Denmark",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany",
@@ -15528,6 +15759,7 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -15582,7 +15814,8 @@
       380.7,
       336,
       422.8,
-      300.6
+      300.6,
+      549.5
     ],
     "times": [
       4.4,
@@ -15636,7 +15869,8 @@
       8.3,
       8.2,
       8.2,
-      8.6
+      8.6,
+      8.5
     ]
   },
   "Butterworth, Malaysia": {
@@ -16250,9 +16484,9 @@
     ]
   },
   "Ipoh, Malaysia": {
-    "mean_dist": 746.6,
+    "mean_dist": 737.3,
     "mean_time": 7.3,
-    "std_dist": 1089.3,
+    "std_dist": 1083,
     "std_time": 1.3,
     "admin": "Perak",
     "country": "Malaysia",
@@ -16318,7 +16552,8 @@
       5.769,
       3.035,
       2.773,
-      2.654
+      2.654,
+      3.844
     ],
     "lons": [
       "x",
@@ -16381,10 +16616,11 @@
       100.819,
       112.703,
       112.465,
-      112.703
+      112.703,
+      102.364
     ],
-    "mean_lat": 3.012,
-    "mean_lon": 108.012,
+    "mean_lat": 3.038,
+    "mean_lon": 107.836,
     "true_lat": 4.6,
     "true_lon": 101.065,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ipoh%2C+Malaysia&go=Go&ns0=1",
@@ -16438,6 +16674,7 @@
       "\u00d8stfold",
       "California",
       "California",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany",
@@ -16512,6 +16749,7 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -16575,7 +16813,8 @@
       132.8,
       1302.8,
       1281.1,
-      1309.4
+      1309.4,
+      166.7
     ],
     "times": [
       8,
@@ -16638,13 +16877,14 @@
       7.8,
       8.3,
       8.1,
-      8.4
+      8.4,
+      8.5
     ]
   },
   "Arawa, Papua New Guinea": {
-    "mean_dist": 1020.1,
+    "mean_dist": 1021.5,
     "mean_time": 7.2,
-    "std_dist": 917.9,
+    "std_dist": 912.1,
     "std_time": 1.3,
     "admin": "Bougainville",
     "country": "Papua New Guinea",
@@ -16726,7 +16966,8 @@
       -6.158,
       -6.039,
       -6.039,
-      -6.276
+      -6.276,
+      -5.541
     ],
     "lons": [
       "x",
@@ -16805,10 +17046,11 @@
       146.69,
       145.977,
       148.472,
-      144.075
+      144.075,
+      145.382
     ],
-    "mean_lat": -5.478,
-    "mean_lon": 145.169,
+    "mean_lat": -5.48,
+    "mean_lon": 145.176,
     "true_lat": -6.228,
     "true_lon": 155.566,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Arawa%2C+Papua New Guinea&go=Go&ns0=1",
@@ -16885,6 +17127,7 @@
       "Aargau",
       "California",
       "Cairo",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany",
@@ -16968,6 +17211,7 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -17047,7 +17291,8 @@
       981.2,
       1060.3,
       784.5,
-      1270
+      1270,
+      1128.9
     ],
     "times": [
       5.9,
@@ -17126,6 +17371,7 @@
       8.6,
       8.5,
       7.7,
+      8.7,
       8.7
     ]
   },
@@ -17810,9 +18056,9 @@
     ]
   },
   "Sunbury, Victoria, Australia": {
-    "mean_dist": 320.6,
+    "mean_dist": 317.4,
     "mean_time": 7.2,
-    "std_dist": 608.5,
+    "std_dist": 603.9,
     "std_time": 1.3,
     "admin": "Victoria",
     "country": "Australia",
@@ -17876,7 +18122,8 @@
       -38.336,
       -37.867,
       -37.489,
-      -37.508
+      -37.508,
+      -38.074
     ],
     "lons": [
       "x",
@@ -17937,10 +18184,11 @@
       145.501,
       145.264,
       144.788,
-      145.145
+      145.145,
+      145.977
     ],
-    "mean_lat": -35.654,
-    "mean_lon": 144.847,
+    "mean_lat": -35.727,
+    "mean_lon": 144.881,
     "true_lat": -37.5696,
     "true_lon": 144.71,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Sunbury%2C+Australia&go=Go&ns0=1",
@@ -18000,6 +18248,7 @@
       "British Columbia",
       "New York",
       "Aargau",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany",
@@ -18064,6 +18313,7 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -18125,7 +18375,8 @@
       109.9,
       58.9,
       11.2,
-      38.9
+      38.9,
+      124.6
     ],
     "times": [
       5.8,
@@ -18186,13 +18437,14 @@
       8.2,
       8.4,
       5.6,
-      8.6
+      8.6,
+      8.4
     ]
   },
   "Rockhampton, Queensland, Australia": {
-    "mean_dist": 546.4,
+    "mean_dist": 537.4,
     "mean_time": 7.2,
-    "std_dist": 691.5,
+    "std_dist": 689,
     "std_time": 1.3,
     "admin": "Queensland",
     "country": "Australia",
@@ -18255,7 +18507,8 @@
       -23.058,
       -24.149,
       -25.981,
-      -23.49
+      -23.49,
+      -23.24
     ],
     "lons": [
       "x",
@@ -18315,10 +18568,11 @@
       150.143,
       149.463,
       153.225,
-      150.849
+      150.849,
+      150.452
     ],
-    "mean_lat": -22.627,
-    "mean_lon": 147.894,
+    "mean_lat": -22.658,
+    "mean_lon": 148.022,
     "true_lat": -23.3639,
     "true_lon": 150.52,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Rockhampton%2C+Australia&go=Go&ns0=1",
@@ -18380,7 +18634,8 @@
       "Aargau",
       "Western Australia",
       "Tuscany",
-      "Tuscany"
+      "Tuscany",
+      "Western Australia"
     ],
     "countries": [
       "Australia",
@@ -18440,7 +18695,8 @@
       "Switzerland",
       "Australia",
       "Italy",
-      "Italy"
+      "Italy",
+      "Australia"
     ],
     "dists": [
       175,
@@ -18500,7 +18756,8 @@
       51.2,
       138.5,
       399.3,
-      36.4
+      36.4,
+      15.3
     ],
     "times": [
       7.7,
@@ -18560,7 +18817,8 @@
       7.6,
       5.8,
       8.1,
-      8.2
+      8.2,
+      7.9
     ]
   },
   "Wollongong, New South Wales, Australia": {
@@ -19524,9 +19782,9 @@
     ]
   },
   "Taupo, New Zealand": {
-    "mean_dist": 369.9,
+    "mean_dist": 363.1,
     "mean_time": 7.4,
-    "std_dist": 355.7,
+    "std_dist": 355.3,
     "std_time": 1.3,
     "admin": "Waikato",
     "country": "New Zealand",
@@ -19580,7 +19838,8 @@
       -39.081,
       -38.523,
       -38.895,
-      -39.099
+      -39.099,
+      -38.448
     ],
     "lons": [
       "x",
@@ -19631,10 +19890,11 @@
       175.567,
       175.804,
       175.448,
-      176.28
+      176.28,
+      176.042
     ],
-    "mean_lat": -41.314,
-    "mean_lon": 173.539,
+    "mean_lat": -41.195,
+    "mean_lon": 173.643,
     "true_lat": -38.693,
     "true_lon": 176.0771,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Taupo%2C+New Zealand&go=Go&ns0=1",
@@ -19683,6 +19943,7 @@
       "Harjumaa",
       "Tuscany",
       "England",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany",
@@ -19738,6 +19999,7 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -19789,7 +20051,8 @@
       61.7,
       30.2,
       58.9,
-      48.5
+      48.5,
+      27.3
     ],
     "times": [
       7.4,
@@ -19840,13 +20103,14 @@
       8.5,
       8.4,
       8.6,
-      8.8
+      8.8,
+      8.5
     ]
   },
   "Innisfail, Queensland, Australia": {
-    "mean_dist": 687.1,
+    "mean_dist": 699.2,
     "mean_time": 6.8,
-    "std_dist": 666,
+    "std_dist": 660.4,
     "std_time": 1.7,
     "admin": "Queensland",
     "country": "Australia",
@@ -19917,7 +20181,9 @@
       -19.561,
       -38.336,
       -26.942,
-      -24.666
+      -24.666,
+      -24.408,
+      -26.942
     ],
     "lons": [
       "x",
@@ -19985,10 +20251,12 @@
       147.164,
       145.501,
       152.988,
-      152.275
+      152.275,
+      151.3,
+      152.869
     ],
-    "mean_lat": -23.566,
-    "mean_lon": 145.179,
+    "mean_lat": -23.702,
+    "mean_lon": 145.624,
     "true_lat": -17.5313,
     "true_lon": 146.0387,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Innisfail%2C+Australia&go=Go&ns0=1",
@@ -20058,6 +20326,8 @@
       "Aargau",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
+      "Western Australia",
       "Tuscany"
     ],
     "countries": [
@@ -20126,6 +20396,8 @@
       "Switzerland",
       "Italy",
       "Italy",
+      "Italy",
+      "Australia",
       "Italy"
     ],
     "dists": [
@@ -20194,7 +20466,9 @@
       255,
       2314,
       1266.8,
-      1023.3
+      1023.3,
+      939.5,
+      1260
     ],
     "times": [
       7.6,
@@ -20262,7 +20536,9 @@
       8.5,
       7.3,
       7.8,
-      7.9
+      7.9,
+      8.2,
+      7.8
     ]
   },
   "Sibu, Malaysia": {
@@ -20882,9 +21158,9 @@
     ]
   },
   "Launceston, Tasmania, Australia": {
-    "mean_dist": 152.1,
-    "mean_time": 7.4,
-    "std_dist": 466.5,
+    "mean_dist": 150.9,
+    "mean_time": 7.5,
+    "std_dist": 464,
     "std_time": 1,
     "admin": "Tasmania",
     "country": "Australia",
@@ -20980,7 +21256,8 @@
       -41.476,
       -41.528,
       -41.643,
-      -42.087
+      -42.087,
+      -41.464
     ],
     "lons": [
       "x",
@@ -21073,10 +21350,11 @@
       147.066,
       146.45,
       145.858,
-      146.333
+      146.333,
+      146.571
     ],
-    "mean_lat": -40.21,
-    "mean_lon": 145.788,
+    "mean_lat": -40.242,
+    "mean_lon": 145.808,
     "true_lat": -41.4498,
     "true_lon": 147.1302,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Launceston%2C+Australia&go=Go&ns0=1",
@@ -21169,6 +21447,7 @@
       "Berlin",
       "Aargau",
       "Aargau",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany"
@@ -21264,6 +21543,7 @@
       "Switzerland",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -21357,7 +21637,8 @@
       6.1,
       57.2,
       108,
-      96.8
+      96.8,
+      46.6
     ],
     "times": [
       8,
@@ -21450,7 +21731,8 @@
       8.1,
       7.9,
       8.6,
-      8.2
+      8.2,
+      8.4
     ]
   },
   "Palmerston North, New Zealand": {
@@ -21756,9 +22038,9 @@
     ]
   },
   "Lismore, New South Wales, Australia": {
-    "mean_dist": 708.6,
+    "mean_dist": 697.7,
     "mean_time": 7,
-    "std_dist": 623.9,
+    "std_dist": 613.6,
     "std_time": 1.3,
     "admin": "New South Wales",
     "country": "Australia",
@@ -21810,7 +22092,9 @@
       -35.469,
       -33.012,
       -32.329,
-      -32.43
+      -32.43,
+      -31.925,
+      -33.231
     ],
     "lons": [
       "x",
@@ -21859,10 +22143,12 @@
       146.901,
       151.205,
       150.73,
+      151.205,
+      152.394,
       151.205
     ],
-    "mean_lat": -33.358,
-    "mean_lon": 146.421,
+    "mean_lat": -33.29,
+    "mean_lon": 146.889,
     "true_lat": -28.8167,
     "true_lon": 153.2931,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Lismore%2C+Australia&go=Go&ns0=1",
@@ -21911,6 +22197,8 @@
       "Berlin",
       "Berlin",
       "Berlin",
+      "Tuscany",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany"
@@ -21962,6 +22250,8 @@
       "Germany",
       "Italy",
       "Italy",
+      "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -22011,7 +22301,9 @@
       953.1,
       507.2,
       461.2,
-      448.6
+      448.6,
+      356.2,
+      529.6
     ],
     "times": [
       7,
@@ -22060,14 +22352,16 @@
       5.7,
       8.1,
       8.3,
-      8
+      8,
+      8.5,
+      8.2
     ]
   },
   "Madang, Papua New Guinea": {
-    "mean_dist": 423.7,
-    "mean_time": 7.4,
-    "std_dist": 743.7,
-    "std_time": 1.4,
+    "mean_dist": 414.8,
+    "mean_time": 7.5,
+    "std_dist": 730.1,
+    "std_time": 1.3,
     "admin": "Madang",
     "country": "Papua New Guinea",
     "city": "Madang",
@@ -22143,7 +22437,10 @@
       -7.011,
       -7.2,
       -6.134,
-      -6.869
+      -6.869,
+      -7.293,
+      -5.778,
+      -7.697
     ],
     "lons": [
       "x",
@@ -22217,10 +22514,13 @@
       146.071,
       145.382,
       148.829,
-      146.095
+      146.095,
+      146.354,
+      145.145,
+      145.977
     ],
-    "mean_lat": -5.591,
-    "mean_lon": 143.222,
+    "mean_lat": -5.696,
+    "mean_lon": 143.427,
     "true_lat": -5.2248,
     "true_lon": 145.7853,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Madang%2C+Papua New Guinea&go=Go&ns0=1",
@@ -22296,6 +22596,9 @@
       "Western Australia",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
+      "Western Australia",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -22369,6 +22672,9 @@
       "Italy",
       "Australia",
       "Italy",
+      "Italy",
+      "Italy",
+      "Australia",
       "Italy",
       "Italy"
     ],
@@ -22444,7 +22750,10 @@
       201.1,
       224.1,
       351.6,
-      186
+      186,
+      238.4,
+      93.8,
+      275.7
     ],
     "times": [
       7.5,
@@ -22518,7 +22827,10 @@
       8.2,
       8.4,
       8.2,
-      8.6
+      8.6,
+      8.3,
+      8.6,
+      8.9
     ]
   },
   "Masterton, New Zealand": {
@@ -24410,9 +24722,9 @@
     ]
   },
   "Tarawa, Kiribati": {
-    "mean_dist": 1774.8,
+    "mean_dist": 1767.2,
     "mean_time": 6.5,
-    "std_dist": 1984.2,
+    "std_dist": 1962.6,
     "std_time": 1.7,
     "admin": "",
     "country": "Kiribati",
@@ -24573,7 +24885,11 @@
       7.191,
       -1.995,
       1.462,
-      -21.603
+      -21.603,
+      -16.985,
+      -16.034,
+      -2.353,
+      -8.051
     ],
     "lons": [
       "x",
@@ -24731,10 +25047,14 @@
       169.625,
       175.091,
       173.309,
-      175.151
+      175.151,
+      178.857,
+      168.258,
+      175.567,
+      179.013
     ],
-    "mean_lat": -5.322,
-    "mean_lon": 165.977,
+    "mean_lat": -5.61,
+    "mean_lon": 166.468,
     "true_lat": 1.3382,
     "true_lon": 173.0176,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tarawa%2C+Kiribati&go=Go&ns0=1",
@@ -24894,7 +25214,11 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
-      "Aargau"
+      "Aargau",
+      "Western Australia",
+      "Western Australia",
+      "Tuscany",
+      "Tuscany"
     ],
     "countries": [
       "France",
@@ -25052,7 +25376,11 @@
       "Italy",
       "Italy",
       "Italy",
-      "Switzerland"
+      "Switzerland",
+      "Australia",
+      "Australia",
+      "Italy",
+      "Italy"
     ],
     "dists": [
       4434.9,
@@ -25210,7 +25538,11 @@
       751.6,
       436.5,
       35.2,
-      2561.5
+      2561.5,
+      2135.8,
+      2001.1,
+      498.8,
+      1237.7
     ],
     "times": [
       10,
@@ -25368,13 +25700,17 @@
       8.3,
       6.9,
       6.9,
-      6.9
+      6.9,
+      7.2,
+      7.6,
+      6.5,
+      8.3
     ]
   },
   "Labasa, Fiji": {
-    "mean_dist": 620.2,
+    "mean_dist": 599.7,
     "mean_time": 7.1,
-    "std_dist": 1443.7,
+    "std_dist": 1420.4,
     "std_time": 1.6,
     "admin": "Macuata",
     "country": "Fiji",
@@ -25508,7 +25844,12 @@
       -17.233,
       -17.119,
       -17.802,
-      -16.548
+      -16.548,
+      -16.354,
+      -17.932,
+      -16.777,
+      -16.777,
+      -16.663
     ],
     "lons": [
       "x",
@@ -25639,10 +25980,15 @@
       178.656,
       178.656,
       178.062,
-      178.775
+      178.775,
+      179.132,
+      178.292,
+      179.25,
+      179.25,
+      179.607
     ],
-    "mean_lat": -15.639,
-    "mean_lon": 177.5,
+    "mean_lat": -15.746,
+    "mean_lon": 177.636,
     "true_lat": -16.4166,
     "true_lon": 179.3833,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Labasa%2C+Fiji&go=Go&ns0=1",
@@ -25773,6 +26119,11 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
+      "Tuscany",
+      "Tuscany",
+      "Tuscany",
+      "Western Australia",
       "Tuscany",
       "Tuscany",
       "Tuscany"
@@ -25906,6 +26257,11 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
+      "Italy",
+      "Australia",
+      "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -26037,7 +26393,12 @@
       119.3,
       109.9,
       208.4,
-      66.4
+      66.4,
+      27.6,
+      204.5,
+      42.5,
+      42.5,
+      36.3
     ],
     "times": [
       6.8,
@@ -26168,6 +26529,11 @@
       8.3,
       8.5,
       8.1,
+      8.5,
+      8,
+      8.3,
+      8.4,
+      8.2,
       8.5
     ]
   },
@@ -26522,9 +26888,9 @@
     ]
   },
   "Greymouth, New Zealand": {
-    "mean_dist": 287.2,
-    "mean_time": 7.1,
-    "std_dist": 200.6,
+    "mean_dist": 289.3,
+    "mean_time": 7.2,
+    "std_dist": 199.3,
     "std_time": 1.5,
     "admin": "West Coast",
     "country": "New Zealand",
@@ -26581,7 +26947,8 @@
       -45.248,
       -41.54,
       -38.336,
-      -38.914
+      -38.914,
+      -39.836
     ],
     "lons": [
       "x",
@@ -26635,10 +27002,11 @@
       169.247,
       172.498,
       174.497,
-      175.091
+      175.091,
+      174.497
     ],
-    "mean_lat": -41.781,
-    "mean_lon": 172.971,
+    "mean_lat": -41.697,
+    "mean_lon": 173.037,
     "true_lat": -42.4716,
     "true_lon": 171.2231,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Greymouth%2C+New Zealand&go=Go&ns0=1",
@@ -26694,6 +27062,7 @@
       "Western Australia",
       "Western Australia",
       "Tuscany",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -26747,6 +27116,7 @@
       "United States",
       "Australia",
       "Australia",
+      "Italy",
       "Italy",
       "Italy"
     ],
@@ -26802,7 +27172,8 @@
       347,
       147.6,
       536.8,
-      512.5
+      512.5,
+      401.2
     ],
     "times": [
       7.6,
@@ -26856,7 +27227,8 @@
       7.9,
       8,
       8.5,
-      8.4
+      8.4,
+      8.3
     ]
   },
   "Mount Gambier, South Australia, Australia": {
@@ -27246,9 +27618,9 @@
     ]
   },
   "Christchurch, New Zealand": {
-    "mean_dist": 355.2,
+    "mean_dist": 351,
     "mean_time": 6.9,
-    "std_dist": 670.9,
+    "std_dist": 665.2,
     "std_time": 1.5,
     "admin": "Canterbury",
     "country": "New Zealand",
@@ -27305,7 +27677,8 @@
       -42.737,
       -38.988,
       -41.221,
-      -39.652
+      -39.652,
+      -42.352
     ],
     "lons": [
       "x",
@@ -27359,10 +27732,11 @@
       172.791,
       175.448,
       173.911,
-      174.616
+      174.616,
+      172.833
     ],
-    "mean_lat": -42.023,
-    "mean_lon": 173.039,
+    "mean_lat": -42.037,
+    "mean_lon": 173.03,
     "true_lat": -43.535,
     "true_lon": 172.63,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Christchurch%2C+New Zealand&go=Go&ns0=1",
@@ -27418,6 +27792,7 @@
       "New South Wales",
       "Tuscany",
       "Western Australia",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -27472,6 +27847,7 @@
       "Australia",
       "Italy",
       "Australia",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -27526,7 +27902,8 @@
       89.6,
       557.6,
       277.9,
-      462.1
+      462.1,
+      132.5
     ],
     "times": [
       7.7,
@@ -27580,7 +27957,8 @@
       7.4,
       8.2,
       7.8,
-      8.6
+      8.6,
+      7.9
     ]
   },
   "George Town, Malaysia": {
@@ -28912,9 +29290,9 @@
     ]
   },
   "Alotau, Papua New Guinea": {
-    "mean_dist": 729.5,
-    "mean_time": 7.6,
-    "std_dist": 581.8,
+    "mean_dist": 719.8,
+    "mean_time": 7.5,
+    "std_dist": 569.7,
     "std_time": 1,
     "admin": "Milne Bay",
     "country": "Papua New Guinea",
@@ -28978,7 +29356,11 @@
       -6.33,
       -8.324,
       -10.088,
-      -6.276
+      -6.276,
+      -5.743,
+      -4.971,
+      -5.602,
+      -10.053
     ],
     "lons": [
       "x",
@@ -29039,10 +29421,14 @@
       143.096,
       143.825,
       150.501,
-      146.571
+      146.571,
+      145.365,
+      151.324,
+      143.951,
+      149.898
     ],
-    "mean_lat": -6.935,
-    "mean_lon": 146.2,
+    "mean_lat": -6.891,
+    "mean_lon": 146.385,
     "true_lat": -10.3021,
     "true_lon": 150.4591,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Alotau%2C+Papua New Guinea&go=Go&ns0=1",
@@ -29105,6 +29491,10 @@
       "Emilia-Romagna",
       "South Denmark",
       "Aargau",
+      "Tuscany",
+      "Western Australia",
+      "Tuscany",
+      "Western Australia",
       "Tuscany"
     ],
     "countries": [
@@ -29166,6 +29556,10 @@
       "Italy",
       "Denmark",
       "Switzerland",
+      "Italy",
+      "Australia",
+      "Italy",
+      "Australia",
       "Italy"
     ],
     "dists": [
@@ -29227,7 +29621,11 @@
       922.5,
       760.3,
       24.2,
-      619
+      619,
+      755.9,
+      600.3,
+      886.7,
+      67.2
     ],
     "times": [
       8.2,
@@ -29288,6 +29686,10 @@
       3.5,
       8.1,
       7.8,
+      8.2,
+      5.2,
+      8,
+      7.7,
       8.2
     ]
   },
@@ -29824,10 +30226,10 @@
     ]
   },
   "Broken Hill, New South Wales, Australia": {
-    "mean_dist": 705.6,
+    "mean_dist": 717.4,
     "mean_time": 7.2,
-    "std_dist": 469.3,
-    "std_time": 1.3,
+    "std_dist": 461.7,
+    "std_time": 1.4,
     "admin": "New South Wales",
     "country": "Australia",
     "city": "Broken Hill",
@@ -29852,7 +30254,8 @@
       -35.443,
       -33.48,
       -36.066,
-      -35.035
+      -35.035,
+      -32.832
     ],
     "lons": [
       "x",
@@ -29875,10 +30278,11 @@
       150.125,
       150.875,
       141.464,
-      148.687
+      148.687,
+      151.681
     ],
-    "mean_lat": -34.681,
-    "mean_lon": 147.947,
+    "mean_lat": -34.373,
+    "mean_lon": 148.569,
     "true_lat": -31.95,
     "true_lon": 141.4331,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Broken Hill%2C+Australia&go=Go&ns0=1",
@@ -29903,7 +30307,8 @@
       "Aargau",
       "California",
       "Pennsylvania",
-      "Aargau"
+      "Aargau",
+      "Tuscany"
     ],
     "countries": [
       "United States",
@@ -29926,7 +30331,8 @@
       "Switzerland",
       "United States",
       "United States",
-      "Switzerland"
+      "Switzerland",
+      "Italy"
     ],
     "dists": [
       784.6,
@@ -29949,7 +30355,8 @@
       892.5,
       899.3,
       457.6,
-      754.8
+      754.8,
+      966.8
     ],
     "times": [
       7.4,
@@ -29972,7 +30379,8 @@
       8.2,
       8.1,
       5.6,
-      8.2
+      8.2,
+      8.7
     ]
   },
   "Cairns, Queensland, Australia": {
@@ -31066,9 +31474,9 @@
     ]
   },
   "Popondetta, Papua New Guinea": {
-    "mean_dist": 441.7,
+    "mean_dist": 437.1,
     "mean_time": 7.3,
-    "std_dist": 302.5,
+    "std_dist": 303,
     "std_time": 1.3,
     "admin": "Northern",
     "country": "Papua New Guinea",
@@ -31144,7 +31552,8 @@
       -8.641,
       -7.939,
       -8.641,
-      -9.701
+      -9.701,
+      -8.877
     ],
     "lons": [
       "x",
@@ -31217,10 +31626,11 @@
       146.927,
       145.647,
       147.64,
-      148.116
+      148.116,
+      147.284
     ],
-    "mean_lat": -7.091,
-    "mean_lon": 146.441,
+    "mean_lat": -7.145,
+    "mean_lon": 146.467,
     "true_lat": -8.7692,
     "true_lon": 148.2484,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Popondetta%2C+Papua New Guinea&go=Go&ns0=1",
@@ -31295,6 +31705,7 @@
       "Tuscany",
       "Canterbury",
       "Tuscany",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -31367,6 +31778,7 @@
       "Italy",
       "Italy",
       "New Zealand",
+      "Italy",
       "Italy",
       "Italy"
     ],
@@ -31441,7 +31853,8 @@
       145.8,
       300.6,
       68.2,
-      104.6
+      104.6,
+      106.6
     ],
     "times": [
       6.7,
@@ -31514,13 +31927,14 @@
       8.2,
       6.3,
       8.6,
-      8.4
+      8.4,
+      7.7
     ]
   },
   "Bairnsdale, Victoria, Australia": {
-    "mean_dist": 662.3,
+    "mean_dist": 644.8,
     "mean_time": 7.2,
-    "std_dist": 1423.3,
+    "std_dist": 1398.4,
     "std_time": 1.3,
     "admin": "Victoria",
     "country": "Australia",
@@ -31575,7 +31989,9 @@
       -33.859,
       27.865,
       -37.607,
-      -37.697
+      -37.697,
+      -37.319,
+      -38.074
     ],
     "lons": [
       "x",
@@ -31627,10 +32043,12 @@
       150.918,
       92.078,
       145.93,
-      145.501
+      145.501,
+      145.264,
+      145.382
     ],
-    "mean_lat": -30.419,
-    "mean_lon": 139.584,
+    "mean_lat": -31.185,
+    "mean_lon": 140.188,
     "true_lat": -37.8296,
     "true_lon": 147.61,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bairnsdale%2C+Australia&go=Go&ns0=1",
@@ -31684,6 +32102,8 @@
       "Utrecht",
       "England",
       "Western Australia",
+      "Tuscany",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -31736,6 +32156,8 @@
       "Netherlands",
       "United Kingdom",
       "Australia",
+      "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -31788,7 +32210,9 @@
       532.6,
       9314.8,
       149.7,
-      185.9
+      185.9,
+      214.3,
+      197.1
     ],
     "times": [
       7.7,
@@ -31840,7 +32264,9 @@
       3.4,
       5.4,
       6.6,
-      8.3
+      8.3,
+      8.2,
+      8.4
     ]
   },
   "Sydney, New South Wales, Australia": {
@@ -32448,10 +32874,10 @@
     ]
   },
   "Napier, New Zealand": {
-    "mean_dist": 469.1,
+    "mean_dist": 461.9,
     "mean_time": 7.4,
-    "std_dist": 881.4,
-    "std_time": 1.6,
+    "std_dist": 872.6,
+    "std_time": 1.5,
     "admin": "Hawke\u2019s Bay",
     "country": "New Zealand",
     "city": "Napier",
@@ -32498,7 +32924,8 @@
       -41.067,
       -38.523,
       -38.542,
-      -39.192
+      -39.192,
+      -38.448
     ],
     "lons": [
       "x",
@@ -32543,10 +32970,11 @@
       175.032,
       175.448,
       175.21,
+      175.804,
       175.804
     ],
-    "mean_lat": -40.585,
-    "mean_lon": 174.441,
+    "mean_lat": -40.466,
+    "mean_lon": 174.517,
     "true_lat": -39.49,
     "true_lon": 176.9265,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Napier%2C+New Zealand&go=Go&ns0=1",
@@ -32591,6 +33019,7 @@
       "Tuscany",
       "Tuscany",
       "Aargau",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany"
@@ -32638,6 +33067,7 @@
       "Switzerland",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -32683,7 +33113,8 @@
       237.8,
       166.9,
       181.8,
-      101.9
+      101.9,
+      151
     ],
     "times": [
       7.6,
@@ -32728,7 +33159,8 @@
       8.1,
       8.3,
       8.7,
-      8.6
+      8.6,
+      8.3
     ]
   },
   "Mandurah, Western Australia, Australia": {
@@ -33130,9 +33562,9 @@
     ]
   },
   "Taree, New South Wales, Australia": {
-    "mean_dist": 331.3,
-    "mean_time": 6.9,
-    "std_dist": 354.8,
+    "mean_dist": 324.7,
+    "mean_time": 7,
+    "std_dist": 352.8,
     "std_time": 1.7,
     "city": "Taree",
     "admin": "New South Wales",
@@ -33176,7 +33608,8 @@
       -32.179,
       -32.994,
       -32.611,
-      -32.832
+      -32.832,
+      -32.127
     ],
     "lons": [
       "x",
@@ -33217,10 +33650,11 @@
       152.418,
       152.208,
       150.136,
-      150.017
+      150.017,
+      151.799
     ],
-    "mean_lat": -33.443,
-    "mean_lon": 148.709,
+    "mean_lat": -33.366,
+    "mean_lon": 148.891,
     "true_lat": -31.8976,
     "true_lon": 152.4618,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Taree%2C+Australia&go=Go&ns0=1",
@@ -33263,6 +33697,7 @@
       "Tuscany",
       "Aargau",
       "Tuscany",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -33303,6 +33738,7 @@
       "Switzerland",
       "Italy",
       "Switzerland",
+      "Italy",
       "Italy",
       "Italy"
     ],
@@ -33345,7 +33781,8 @@
       31.6,
       124.2,
       232.6,
-      251.9
+      251.9,
+      67.4
     ],
     "times": [
       8,
@@ -33386,13 +33823,14 @@
       7.8,
       8.3,
       7.6,
-      8.5
+      8.5,
+      8
     ]
   },
   "Mendi, Papua New Guinea": {
-    "mean_dist": 487.7,
-    "mean_time": 7.1,
-    "std_dist": 769.5,
+    "mean_dist": 482.7,
+    "mean_time": 7.2,
+    "std_dist": 766.9,
     "std_time": 1.5,
     "admin": "Southern Highlands",
     "country": "Papua New Guinea",
@@ -33490,7 +33928,8 @@
       -6.276,
       -5.92,
       -6.276,
-      -7.902
+      -7.902,
+      -6.039
     ],
     "lons": [
       "x",
@@ -33585,10 +34024,11 @@
       144.788,
       143.956,
       143.362,
-      147.892
+      147.892,
+      143.719
     ],
-    "mean_lat": -6.68,
-    "mean_lon": 144.395,
+    "mean_lat": -6.664,
+    "mean_lon": 144.378,
     "true_lat": -6.1444,
     "true_lon": 143.6452,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Mendi%2C+Papua New Guinea&go=Go&ns0=1",
@@ -33685,7 +34125,8 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
-      "Texas"
+      "Texas",
+      "Tuscany"
     ],
     "countries": [
       "Australia",
@@ -33780,7 +34221,8 @@
       "Italy",
       "Italy",
       "Italy",
-      "United States"
+      "United States",
+      "Italy"
     ],
     "dists": [
       288.3,
@@ -33875,7 +34317,8 @@
       127.2,
       42.4,
       34.5,
-      507.8
+      507.8,
+      14.2
     ],
     "times": [
       1.8,
@@ -33970,14 +34413,15 @@
       8.6,
       8.5,
       8.5,
-      6.8
+      6.8,
+      8.4
     ]
   },
   "Luganville, Vanuatu": {
-    "mean_dist": 1128.2,
+    "mean_dist": 1111.4,
     "mean_time": 6.6,
-    "std_dist": 1544.7,
-    "std_time": 1.9,
+    "std_dist": 1536.2,
+    "std_time": 1.8,
     "admin": "Sanma",
     "country": "Vanuatu",
     "city": "Luganville",
@@ -34148,6 +34592,9 @@
       -17.688,
       -17.575,
       -18.255,
+      -16.663,
+      -15.976,
+      -16.578,
       -16.663
     ],
     "lons": [
@@ -34317,10 +34764,13 @@
       167.961,
       168.436,
       168.912,
-      168.08
+      168.08,
+      167.486,
+      169.813,
+      167.961
     ],
-    "mean_lat": -13.691,
-    "mean_lon": 169.227,
+    "mean_lat": -13.771,
+    "mean_lon": 169.203,
     "true_lat": -15.5126,
     "true_lon": 167.1766,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Luganville%2C+Vanuatu&go=Go&ns0=1",
@@ -34491,6 +34941,9 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
+      "Tuscany",
+      "Western Australia",
       "Tuscany"
     ],
     "countries": [
@@ -34660,6 +35113,9 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
+      "Italy",
+      "Australia",
       "Italy"
     ],
     "dists": [
@@ -34829,7 +35285,10 @@
       256,
       265.7,
       356.5,
-      160.2
+      160.2,
+      61.3,
+      305.6,
+      152.9
     ],
     "times": [
       1.2,
@@ -34998,7 +35457,10 @@
       8.6,
       8.3,
       8.4,
-      8.4
+      8.4,
+      7.9,
+      7.2,
+      8.3
     ]
   },
   "Klang, Malaysia": {
@@ -35878,9 +36340,9 @@
     ]
   },
   "Honiara, Solomon Islands": {
-    "mean_dist": 1075.9,
+    "mean_dist": 1072,
     "mean_time": 6.5,
-    "std_dist": 1211.2,
+    "std_dist": 1206.2,
     "std_time": 1.6,
     "admin": "Honiara",
     "country": "Solomon Islands",
@@ -36041,7 +36503,11 @@
       -8.735,
       -8.405,
       -8.877,
-      -8.051
+      -8.051,
+      -9.112,
+      -18.471,
+      -14.529,
+      -8.523
     ],
     "lons": [
       "x",
@@ -36199,10 +36665,14 @@
       159.524,
       159.048,
       159.999,
-      159.048
+      159.048,
+      159.643,
+      181.259,
+      167.269,
+      158.93
     ],
-    "mean_lat": -10.111,
-    "mean_lon": 164.592,
+    "mean_lat": -10.231,
+    "mean_lon": 164.695,
     "true_lat": -9.438,
     "true_lon": 159.9498,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Honiara%2C+Solomon Islands&go=Go&ns0=1",
@@ -36362,6 +36832,10 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
+      "Tuscany",
+      "Western Australia",
+      "Western Australia",
       "Tuscany"
     ],
     "countries": [
@@ -36520,6 +36994,10 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
+      "Italy",
+      "Australia",
+      "Australia",
       "Italy"
     ],
     "dists": [
@@ -36678,7 +37156,11 @@
       90.9,
       151.5,
       62.5,
-      183.2
+      183.2,
+      49.3,
+      2506.1,
+      976.6,
+      151.2
     ],
     "times": [
       9.9,
@@ -36836,7 +37318,11 @@
       7.9,
       8.7,
       8.1,
-      8.5
+      8.5,
+      8.3,
+      6,
+      7.9,
+      7.8
     ]
   },
   "Blenheim, New Zealand": {
@@ -37618,9 +38104,9 @@
     ]
   },
   "Lahad Datu, Malaysia": {
-    "mean_dist": 1088.8,
+    "mean_dist": 1081.9,
     "mean_time": 7.4,
-    "std_dist": 744.5,
+    "std_dist": 747.7,
     "std_time": 1,
     "admin": "Sabah",
     "country": "Malaysia",
@@ -37673,7 +38159,9 @@
       3.265,
       3.998,
       2.922,
-      4.558
+      4.558,
+      4.796,
+      3.038
     ],
     "lons": [
       "x",
@@ -37723,10 +38211,12 @@
       102.41,
       102.394,
       112.939,
-      102.483
+      102.483,
+      117.337,
+      102.969
     ],
-    "mean_lat": 0.633,
-    "mean_lon": 112.064,
+    "mean_lat": 0.979,
+    "mean_lon": 111.863,
     "true_lat": 5.0464,
     "true_lon": 118.336,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Lahad Datu%2C+Malaysia&go=Go&ns0=1",
@@ -37778,7 +38268,9 @@
       "Groningen",
       "North Holland",
       "Aargau",
-      "Tuscany"
+      "Tuscany",
+      "Tuscany",
+      "Western Australia"
     ],
     "countries": [
       "Australia",
@@ -37828,7 +38320,9 @@
       "Netherlands",
       "Netherlands",
       "Switzerland",
-      "Italy"
+      "Italy",
+      "Italy",
+      "Australia"
     ],
     "dists": [
       519.5,
@@ -37878,7 +38372,9 @@
       1777.1,
       1770.8,
       643.4,
-      1757.3
+      1757.3,
+      114,
+      1718.8
     ],
     "times": [
       7,
@@ -37928,13 +38424,15 @@
       6.6,
       4.8,
       6.9,
-      8.5
+      8.5,
+      7.6,
+      7.5
     ]
   },
   "Alor Setar, Malaysia": {
-    "mean_dist": 512.3,
+    "mean_dist": 506.5,
     "mean_time": 7.3,
-    "std_dist": 467.1,
+    "std_dist": 456.4,
     "std_time": 1.1,
     "admin": "Kedah",
     "country": "Malaysia",
@@ -37996,7 +38494,10 @@
       4.225,
       3.487,
       3.963,
-      3.677
+      3.677,
+      4.201,
+      3.038,
+      2.558
     ],
     "lons": [
       "x",
@@ -38055,10 +38556,13 @@
       102.483,
       102.483,
       102.364,
-      102.576
+      102.576,
+      101.889,
+      103.111,
+      102.602
     ],
-    "mean_lat": 3.576,
-    "mean_lon": 104.686,
+    "mean_lat": 3.548,
+    "mean_lon": 104.49,
     "true_lat": 6.1133,
     "true_lon": 100.3729,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Alor Setar%2C+Malaysia&go=Go&ns0=1",
@@ -38119,7 +38623,10 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
-      "Texas"
+      "Texas",
+      "Tuscany",
+      "Western Australia",
+      "Tuscany"
     ],
     "countries": [
       "Australia",
@@ -38178,7 +38685,10 @@
       "Italy",
       "Italy",
       "Italy",
-      "United States"
+      "United States",
+      "Italy",
+      "Australia",
+      "Italy"
     ],
     "dists": [
       1565.2,
@@ -38237,7 +38747,10 @@
       314.1,
       374,
       325.2,
-      364.6
+      364.6,
+      270.8,
+      457.1,
+      466.1
     ],
     "times": [
       7.6,
@@ -38296,13 +38809,16 @@
       8.6,
       8.2,
       8.5,
-      6.7
+      6.7,
+      8.4,
+      7.9,
+      8.2
     ]
   },
   "Wangaratta, Victoria, Australia": {
-    "mean_dist": 462.7,
-    "mean_time": 6.5,
-    "std_dist": 596.8,
+    "mean_dist": 457.9,
+    "mean_time": 6.6,
+    "std_dist": 592.7,
     "std_time": 1.9,
     "admin": "Victoria",
     "country": "Australia",
@@ -38363,7 +38879,8 @@
       -37.959,
       -37.792,
       -37.129,
-      -37.224
+      -37.224,
+      -37.792
     ],
     "lons": [
       "x",
@@ -38421,10 +38938,11 @@
       146.383,
       143.956,
       144.55,
+      145.145,
       145.145
     ],
-    "mean_lat": -33.908,
-    "mean_lon": 142.832,
+    "mean_lat": -34.085,
+    "mean_lon": 142.937,
     "true_lat": -36.36,
     "true_lon": 146.3,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Wangaratta%2C+Australia&go=Go&ns0=1",
@@ -38482,6 +39000,7 @@
       "Rajasthan",
       "New York",
       "Northern Ireland",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany"
@@ -38542,6 +39061,7 @@
       "United Kingdom",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -38600,7 +39120,8 @@
       178,
       261.8,
       177.7,
-      140.7
+      140.7,
+      189.3
     ],
     "times": [
       7.2,
@@ -38658,7 +39179,8 @@
       5.5,
       7.8,
       6.6,
-      8.5
+      8.5,
+      8.3
     ]
   },
   "Hawera, New Zealand": {
@@ -41744,9 +42266,9 @@
     ]
   },
   "Mount Hagen, Papua New Guinea": {
-    "mean_dist": 358.8,
+    "mean_dist": 355.2,
     "mean_time": 7.2,
-    "std_dist": 754.3,
+    "std_dist": 750.6,
     "std_time": 1.3,
     "admin": "Western Highlands",
     "country": "Papua New Guinea",
@@ -41837,7 +42359,8 @@
       -6.49,
       -5.446,
       -5.92,
-      -6.039
+      -6.039,
+      -6.276
     ],
     "lons": [
       "x",
@@ -41925,10 +42448,11 @@
       144.55,
       143.481,
       144.194,
+      144.194,
       144.194
     ],
-    "mean_lat": -6.168,
-    "mean_lon": 144.381,
+    "mean_lat": -6.17,
+    "mean_lon": 144.377,
     "true_lat": -5.8632,
     "true_lon": 144.2168,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Mount Hagen%2C+Papua New Guinea&go=Go&ns0=1",
@@ -42013,6 +42537,7 @@
       "Bucure\u015fti",
       "Washington, D.C.",
       "Aargau",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany",
@@ -42106,6 +42631,7 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -42194,7 +42720,8 @@
       78.8,
       93.6,
       6.8,
-      19.7
+      19.7,
+      46
     ],
     "times": [
       7.3,
@@ -42282,6 +42809,7 @@
       8.5,
       8.4,
       8.4,
+      8.6,
       8.6
     ]
   },
@@ -42900,9 +43428,9 @@
     ]
   },
   "Sandakan, Malaysia": {
-    "mean_dist": 1199.8,
+    "mean_dist": 1209.5,
     "mean_time": 7,
-    "std_dist": 759.2,
+    "std_dist": 754.8,
     "std_time": 1.7,
     "admin": "Sabah",
     "country": "Malaysia",
@@ -42957,7 +43485,8 @@
       2.916,
       3.63,
       3.963,
-      3.963
+      3.963,
+      3.844
     ],
     "lons": [
       "x",
@@ -43009,10 +43538,11 @@
       102.958,
       102.007,
       102.602,
-      101.889
+      101.889,
+      102.958
     ],
-    "mean_lat": 2.653,
-    "mean_lon": 105.841,
+    "mean_lat": 2.712,
+    "mean_lon": 105.697,
     "true_lat": 5.843,
     "true_lon": 118.108,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Sandakan%2C+Malaysia&go=Go&ns0=1",
@@ -43062,6 +43592,7 @@
       "Plovdiv",
       "Utrecht",
       "",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany",
@@ -43118,6 +43649,7 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -43170,7 +43702,8 @@
       1710.6,
       1800.8,
       1730.4,
-      1808.8
+      1808.8,
+      1693
     ],
     "times": [
       6.1,
@@ -43222,6 +43755,7 @@
       8.5,
       8.5,
       8.5,
+      8.4,
       8.4
     ]
   },
@@ -43752,9 +44286,9 @@
     ]
   },
   "Noum\u00e9a, New Caledonia": {
-    "mean_dist": 1200.3,
+    "mean_dist": 1195.9,
     "mean_time": 6.8,
-    "std_dist": 1998,
+    "std_dist": 1979.7,
     "std_time": 1.6,
     "admin": "Province Sud",
     "country": "New Caledonia",
@@ -43868,7 +44402,10 @@
       -21.374,
       -22.061,
       -22.171,
-      8.878
+      8.878,
+      -21.84,
+      0.061,
+      -19.544
     ],
     "lons": [
       "x",
@@ -43979,10 +44516,13 @@
       166.654,
       166.773,
       167.248,
-      125.018
+      125.018,
+      167.129,
+      173.628,
+      169.247
     ],
-    "mean_lat": -16.157,
-    "mean_lon": 160.55,
+    "mean_lat": -15.99,
+    "mean_lon": 161.21,
     "true_lat": -22.2625,
     "true_lon": 166.4443,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Noum\u00e9a%2C+New Caledonia&go=Go&ns0=1",
@@ -44095,7 +44635,10 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
-      "Massachusetts"
+      "Massachusetts",
+      "Tuscany",
+      "Western Australia",
+      "Western Australia"
     ],
     "countries": [
       "Australia",
@@ -44206,7 +44749,10 @@
       "Italy",
       "Italy",
       "Italy",
-      "United States"
+      "United States",
+      "Italy",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       8127.5,
@@ -44317,7 +44863,10 @@
       101,
       40.5,
       83.4,
-      5688.8
+      5688.8,
+      84.8,
+      2601.5,
+      419.6
     ],
     "times": [
       6.5,
@@ -44428,7 +44977,10 @@
       8.3,
       8.3,
       8.2,
-      7.8
+      7.8,
+      8.1,
+      6.3,
+      7.1
     ]
   },
   "Kingston, Tasmania, Australia": {
@@ -44980,9 +45532,9 @@
     ]
   },
   "Maryborough, Queensland, Australia": {
-    "mean_dist": 450.2,
+    "mean_dist": 447.2,
     "mean_time": 7.5,
-    "std_dist": 674.2,
+    "std_dist": 658.7,
     "std_time": 0.9,
     "admin": "Queensland",
     "country": "Australia",
@@ -45027,7 +45579,9 @@
       -25.121,
       -27.048,
       -27.789,
-      -27.261
+      -27.261,
+      -22.063,
+      -23.381
     ],
     "lons": [
       "x",
@@ -45069,10 +45623,12 @@
       152.988,
       153.82,
       153.463,
-      153.225
+      153.225,
+      149.463,
+      151.681
     ],
-    "mean_lat": -26.207,
-    "mean_lon": 148.65,
+    "mean_lat": -25.51,
+    "mean_lon": 149.034,
     "true_lat": -25.5491,
     "true_lon": 152.7209,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Maryborough%2C+Australia&go=Go&ns0=1",
@@ -45116,6 +45672,8 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
+      "Western Australia",
       "Tuscany"
     ],
     "countries": [
@@ -45158,6 +45716,8 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
+      "Australia",
       "Italy"
     ],
     "dists": [
@@ -45200,7 +45760,9 @@
       54.6,
       199.5,
       259.8,
-      196.9
+      196.9,
+      509.9,
+      263
     ],
     "times": [
       7.7,
@@ -45242,7 +45804,9 @@
       8.7,
       8.4,
       8.5,
-      8.3
+      8.3,
+      8.1,
+      7.7
     ]
   },
   "Bunbury, Western Australia, Australia": {
@@ -45886,10 +46450,10 @@
     ]
   },
   "Rotorua, New Zealand": {
-    "mean_dist": 422,
-    "mean_time": 7.1,
-    "std_dist": 750.1,
-    "std_time": 1.4,
+    "mean_dist": 409,
+    "mean_time": 7.2,
+    "std_dist": 737.4,
+    "std_time": 1.3,
     "admin": "Bay of Plenty",
     "country": "New Zealand",
     "city": "Rotorua",
@@ -45940,7 +46504,9 @@
       -42.01,
       -40.292,
       -39.192,
-      -38.914
+      -38.914,
+      -38.616,
+      -38.278
     ],
     "lons": [
       "x",
@@ -45989,10 +46555,12 @@
       172.732,
       174.972,
       176.161,
-      175.21
+      175.21,
+      174.497,
+      175.748
     ],
-    "mean_lat": -40.689,
-    "mean_lon": 174,
+    "mean_lat": -40.503,
+    "mean_lon": 174.093,
     "true_lat": -38.1317,
     "true_lon": 176.2483,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Rotorua%2C+New Zealand&go=Go&ns0=1",
@@ -46043,7 +46611,9 @@
       "New South Wales",
       "Tuscany",
       "Tuscany",
-      "Tuscany"
+      "Tuscany",
+      "Tuscany",
+      "Western Australia"
     ],
     "countries": [
       "Australia",
@@ -46092,7 +46662,9 @@
       "Australia",
       "Italy",
       "Italy",
-      "Italy"
+      "Italy",
+      "Italy",
+      "Australia"
     ],
     "dists": [
       97.4,
@@ -46141,7 +46713,9 @@
       524.8,
       264.1,
       118.1,
-      125.3
+      125.3,
+      161.8,
+      46.6
     ],
     "times": [
       6.8,
@@ -46190,13 +46764,15 @@
       5.8,
       8.3,
       8.6,
-      8.6
+      8.6,
+      8.2,
+      8
     ]
   },
   "Sungai Petani, Malaysia": {
-    "mean_dist": 521.8,
-    "mean_time": 7.2,
-    "std_dist": 555.4,
+    "mean_dist": 507.4,
+    "mean_time": 7.3,
+    "std_dist": 540.4,
     "std_time": 1.3,
     "admin": "Kedah",
     "country": "Malaysia",
@@ -46245,7 +46821,10 @@
       4.558,
       3.078,
       4.344,
-      4.201
+      4.201,
+      3.392,
+      4.439,
+      3.606
     ],
     "lons": [
       "x",
@@ -46291,10 +46870,13 @@
       103.077,
       113.333,
       102.364,
-      102.126
+      102.126,
+      102.483,
+      102.007,
+      102.72
     ],
-    "mean_lat": 3.968,
-    "mean_lon": 105.604,
+    "mean_lat": 3.946,
+    "mean_lon": 105.168,
     "true_lat": 5.6497,
     "true_lon": 100.4793,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Sungai Petani%2C+Malaysia&go=Go&ns0=1",
@@ -46342,6 +46924,9 @@
       "Tuscany",
       "Balearic Islands",
       "Tuscany",
+      "Tuscany",
+      "Tuscany",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -46387,6 +46972,9 @@
       "Switzerland",
       "Italy",
       "Spain",
+      "Italy",
+      "Italy",
+      "Italy",
       "Italy",
       "Italy"
     ],
@@ -46434,7 +47022,10 @@
       312.2,
       1453.4,
       254.3,
-      243.3
+      243.3,
+      335.1,
+      216.2,
+      336.6
     ],
     "times": [
       5.8,
@@ -46480,7 +47071,10 @@
       8.4,
       7.2,
       8.1,
-      8.7
+      8.7,
+      8.4,
+      8.4,
+      8.5
     ]
   },
   "Armidale, New South Wales, Australia": {
@@ -46660,9 +47254,9 @@
     ]
   },
   "Taiping, Malaysia": {
-    "mean_dist": 927.7,
+    "mean_dist": 911.1,
     "mean_time": 7.3,
-    "std_dist": 1065,
+    "std_dist": 1056.3,
     "std_time": 1.1,
     "admin": "Perak",
     "country": "Malaysia",
@@ -46705,7 +47299,8 @@
       2.174,
       2.32,
       4.1,
-      3.011
+      3.011,
+      3.321
     ],
     "lons": [
       "x",
@@ -46745,10 +47340,11 @@
       112.406,
       113.891,
       102.352,
-      102.602
+      102.602,
+      102.687
     ],
-    "mean_lat": 2.732,
-    "mean_lon": 106.487,
+    "mean_lat": 2.767,
+    "mean_lon": 106.264,
     "true_lat": 4.865,
     "true_lon": 100.72,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Taiping%2C+Malaysia&go=Go&ns0=1",
@@ -46790,7 +47386,8 @@
       "Aargau",
       "Tuscany",
       "Harjumaa",
-      "Tuscany"
+      "Tuscany",
+      "Western Australia"
     ],
     "countries": [
       "Australia",
@@ -46830,7 +47427,8 @@
       "Switzerland",
       "Italy",
       "Estonia",
-      "Italy"
+      "Italy",
+      "Australia"
     ],
     "dists": [
       1606.9,
@@ -46870,7 +47468,8 @@
       1330.9,
       1488.7,
       200,
-      293.3
+      293.3,
+      277.5
     ],
     "times": [
       5.7,
@@ -46910,13 +47509,14 @@
       7.7,
       8.6,
       7.3,
-      8.8
+      8.8,
+      8
     ]
   },
   "Cukai, Malaysia": {
-    "mean_dist": 787,
+    "mean_dist": 773.3,
     "mean_time": 6.9,
-    "std_dist": 925.4,
+    "std_dist": 919.3,
     "std_time": 1.6,
     "admin": "Terengganu",
     "country": "Malaysia",
@@ -46964,7 +47564,8 @@
       2.797,
       3.844,
       3.487,
-      4.796
+      4.796,
+      3.011
     ],
     "lons": [
       "x",
@@ -47009,10 +47610,11 @@
       103.671,
       101.889,
       102.364,
-      103.196
+      103.196,
+      102.364
     ],
-    "mean_lat": 1.578,
-    "mean_lon": 110.343,
+    "mean_lat": 1.681,
+    "mean_lon": 109.773,
     "true_lat": 4.2332,
     "true_lon": 103.4479,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Cukai%2C+Malaysia&go=Go&ns0=1",
@@ -47055,6 +47657,7 @@
       "Victoria",
       "Lombardy",
       "Cairo",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany",
@@ -47104,6 +47707,7 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -47149,7 +47753,8 @@
       161.6,
       178.2,
       146,
-      68.5
+      68.5,
+      181.4
     ],
     "times": [
       7.9,
@@ -47194,7 +47799,8 @@
       8.5,
       8.7,
       8.6,
-      8.7
+      8.7,
+      8.2
     ]
   },
   "Macetown, New Zealand": {
@@ -47482,9 +48088,9 @@
     ]
   },
   "Kluang, Malaysia": {
-    "mean_dist": 537.5,
-    "mean_time": 6.8,
-    "std_dist": 943.2,
+    "mean_dist": 507.6,
+    "mean_time": 6.9,
+    "std_dist": 890.7,
     "std_time": 1.6,
     "admin": "Johor",
     "country": "Malaysia",
@@ -47527,7 +48133,12 @@
       2.33,
       4.938,
       4.106,
-      3.963
+      3.963,
+      4.453,
+      4.439,
+      4.453,
+      3.368,
+      1.322
     ],
     "lons": [
       "x",
@@ -47567,10 +48178,15 @@
       102.828,
       102.126,
       102.602,
-      102.126
+      102.126,
+      102.545,
+      102.364,
+      102.828,
+      102.126,
+      100.156
     ],
-    "mean_lat": 2.7,
-    "mean_lon": 104.451,
+    "mean_lat": 2.927,
+    "mean_lon": 103.839,
     "true_lat": 2.0383,
     "true_lon": 103.3179,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kluang%2C+Malaysia&go=Go&ns0=1",
@@ -47612,7 +48228,12 @@
       "Western Australia",
       "Tuscany",
       "Tuscany",
-      "Tuscany"
+      "Tuscany",
+      "Western Australia",
+      "Tuscany",
+      "Western Australia",
+      "Tuscany",
+      "Uttar Pradesh"
     ],
     "countries": [
       "Australia",
@@ -47652,7 +48273,12 @@
       "Australia",
       "Italy",
       "Italy",
-      "Italy"
+      "Italy",
+      "Australia",
+      "Italy",
+      "Australia",
+      "Italy",
+      "India"
     ],
     "dists": [
       235.8,
@@ -47692,7 +48318,12 @@
       63.3,
       348.5,
       243.3,
-      251.6
+      251.6,
+      281.9,
+      287.2,
+      274,
+      198.4,
+      360.2
     ],
     "times": [
       6.5,
@@ -47732,13 +48363,18 @@
       6.5,
       7.9,
       8.4,
-      8.4
+      8.4,
+      8,
+      8.4,
+      7.6,
+      8.5,
+      7.2
     ]
   },
   "Funafuti, Tuvalu": {
-    "mean_dist": 1479.4,
+    "mean_dist": 1468.4,
     "mean_time": 6.6,
-    "std_dist": 1781.5,
+    "std_dist": 1775.8,
     "std_time": 1.6,
     "admin": "Funafuti",
     "country": "Tuvalu",
@@ -47931,7 +48567,9 @@
       -8.287,
       -7.933,
       14.89,
-      -8.405
+      -8.405,
+      -8.264,
+      -1.614
     ],
     "lons": [
       "x",
@@ -48121,10 +48759,12 @@
       178.656,
       178.537,
       145.485,
-      179.013
+      179.013,
+      179.25,
+      176.161
     ],
-    "mean_lat": -10.009,
-    "mean_lon": 170.713,
+    "mean_lat": -9.911,
+    "mean_lon": 170.848,
     "true_lat": -8.5167,
     "true_lon": 179.2166,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Funafuti%2C+Tuvalu&go=Go&ns0=1",
@@ -48316,6 +48956,8 @@
       "Tuscany",
       "Tuscany",
       "Massachusetts",
+      "Tuscany",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -48506,6 +49148,8 @@
       "Italy",
       "Italy",
       "United States",
+      "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -48696,7 +49340,9 @@
       66.6,
       98.9,
       4538.6,
-      25.5
+      25.5,
+      28.3,
+      838.7
     ],
     "times": [
       7.5,
@@ -48886,13 +49532,15 @@
       8,
       7.6,
       8.5,
-      7.9
+      7.9,
+      8,
+      8.3
     ]
   },
   "Karratha, Western Australia, Australia": {
-    "mean_dist": 1204.1,
-    "mean_time": 6.9,
-    "std_dist": 837.4,
+    "mean_dist": 1208.4,
+    "mean_time": 7,
+    "std_dist": 829.9,
     "std_time": 1.5,
     "admin": "Western Australia",
     "country": "Australia",
@@ -48948,6 +49596,7 @@
       -16.847,
       -29.392,
       -33.63,
+      -33.51,
       -33.51
     ],
     "lons": [
@@ -49001,10 +49650,11 @@
       124.732,
       117.899,
       116.387,
-      116.624
+      116.624,
+      115.436
     ],
-    "mean_lat": -29.667,
-    "mean_lon": 117.568,
+    "mean_lat": -29.893,
+    "mean_lon": 117.442,
     "true_lat": -20.7304,
     "true_lon": 116.87,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Karratha%2C+Australia&go=Go&ns0=1",
@@ -49059,6 +49709,7 @@
       "South Holland",
       "Utrecht",
       "Tuscany",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -49111,6 +49762,7 @@
       "Switzerland",
       "Netherlands",
       "Netherlands",
+      "Italy",
       "Italy",
       "Italy"
     ],
@@ -49165,7 +49817,8 @@
       933.2,
       968.7,
       1435.1,
-      1421.3
+      1421.3,
+      1428.1
     ],
     "times": [
       7,
@@ -49218,13 +49871,14 @@
       0.9,
       3,
       8.3,
-      8.2
+      8.2,
+      8.3
     ]
   },
   "Tauranga, New Zealand": {
-    "mean_dist": 257.9,
+    "mean_dist": 249,
     "mean_time": 7.8,
-    "std_dist": 198.4,
+    "std_dist": 192.9,
     "std_time": 0.9,
     "admin": "Bay of Plenty",
     "country": "New Zealand",
@@ -49264,7 +49918,10 @@
       -41.968,
       -38.195,
       -39.909,
-      -38.802
+      -38.802,
+      -39.163,
+      -38.722,
+      -39.007
     ],
     "lons": [
       "x",
@@ -49301,10 +49958,13 @@
       171.551,
       177.308,
       175.448,
-      175.21
+      175.21,
+      175.607,
+      175.748,
+      176.042
     ],
-    "mean_lat": -40.008,
-    "mean_lon": 174.719,
+    "mean_lat": -39.747,
+    "mean_lon": 174.989,
     "true_lat": -37.6964,
     "true_lon": 176.1536,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tauranga%2C+New Zealand&go=Go&ns0=1",
@@ -49343,6 +50003,9 @@
       "New York",
       "Northern Ireland",
       "Tuscany",
+      "Tuscany",
+      "Western Australia",
+      "Western Australia",
       "Tuscany"
     ],
     "countries": [
@@ -49380,6 +50043,9 @@
       "United States",
       "United Kingdom",
       "Italy",
+      "Italy",
+      "Australia",
+      "Australia",
       "Italy"
     ],
     "dists": [
@@ -49417,7 +50083,10 @@
       616.2,
       115.4,
       253.5,
-      148
+      148,
+      169.9,
+      119.4,
+      146
     ],
     "times": [
       7.6,
@@ -49454,6 +50123,9 @@
       8.8,
       6.7,
       8.5,
+      8.3,
+      8.1,
+      8.4,
       8.3
     ]
   },
@@ -50586,9 +51258,9 @@
     ]
   },
   "Moranbah, Queensland, Australia": {
-    "mean_dist": 519.9,
+    "mean_dist": 521.3,
     "mean_time": 7,
-    "std_dist": 446.1,
+    "std_dist": 442,
     "std_time": 1,
     "admin": "Queensland",
     "country": "Australia",
@@ -50645,7 +51317,8 @@
       -19.841,
       -38.445,
       -24.232,
-      -25.444
+      -25.444,
+      -24.883
     ],
     "lons": [
       "x",
@@ -50699,10 +51372,11 @@
       144.006,
       146.079,
       152.869,
-      152.512
+      152.512,
+      152.988
     ],
-    "mean_lat": -25.16,
-    "mean_lon": 148.943,
+    "mean_lat": -25.143,
+    "mean_lon": 149.196,
     "true_lat": -22.0016,
     "true_lon": 148.038,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Moranbah%2C+Australia&go=Go&ns0=1",
@@ -50758,6 +51432,7 @@
       "Vienna",
       "\u00cele-de-France",
       "Tuscany",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -50811,6 +51486,7 @@
       "United States",
       "Austria",
       "France",
+      "Italy",
       "Italy",
       "Italy"
     ],
@@ -50866,7 +51542,8 @@
       482.7,
       1838,
       552.8,
-      594.9
+      594.9,
+      598
     ],
     "times": [
       6.8,
@@ -50920,13 +51597,14 @@
       6.1,
       5.8,
       8.1,
+      8.5,
       8.5
     ]
   },
   "Seremban, Malaysia": {
-    "mean_dist": 475.7,
+    "mean_dist": 469.2,
     "mean_time": 7.4,
-    "std_dist": 823.9,
+    "std_dist": 816,
     "std_time": 1,
     "city": "Seremban",
     "admin": "Negeri Sembilan",
@@ -50976,7 +51654,8 @@
       4.562,
       -0.157,
       -1.515,
-      3.838
+      3.838,
+      4.082
     ],
     "lons": [
       "x",
@@ -51023,10 +51702,11 @@
       100.976,
       113.517,
       112.189,
-      101.856
+      101.856,
+      102.72
     ],
-    "mean_lat": 2.799,
-    "mean_lon": 108.165,
+    "mean_lat": 2.884,
+    "mean_lon": 107.802,
     "true_lat": 2.7105,
     "true_lon": 101.94,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Seremban%2C+Malaysia&go=Go&ns0=1",
@@ -51075,7 +51755,8 @@
       "Aargau",
       "England",
       "England",
-      "Canterbury"
+      "Canterbury",
+      "Tuscany"
     ],
     "countries": [
       "Australia",
@@ -51122,7 +51803,8 @@
       "Switzerland",
       "United Kingdom",
       "United Kingdom",
-      "New Zealand"
+      "New Zealand",
+      "Italy"
     ],
     "dists": [
       214.1,
@@ -51169,7 +51851,8 @@
       231.9,
       1325.7,
       1232.4,
-      125.7
+      125.7,
+      175.4
     ],
     "times": [
       7.7,
@@ -51216,7 +51899,8 @@
       7.7,
       7.7,
       5.9,
-      6
+      6,
+      8.6
     ]
   },
   "Warwick, Queensland, Australia": {
@@ -52084,9 +52768,9 @@
     ]
   },
   "Kuching, Malaysia": {
-    "mean_dist": 619.5,
+    "mean_dist": 629.5,
     "mean_time": 7.1,
-    "std_dist": 392.6,
+    "std_dist": 386.7,
     "std_time": 1.2,
     "city": "Kuching",
     "admin": "Sarawak",
@@ -52134,7 +52818,9 @@
       2.318,
       4.082,
       4.938,
-      3.487
+      3.487,
+      4.312,
+      3.249
     ],
     "lons": [
       "x",
@@ -52179,10 +52865,12 @@
       103.398,
       102.602,
       101.889,
-      103.315
+      103.315,
+      103.676,
+      102.483
     ],
-    "mean_lat": 2.73,
-    "mean_lon": 107.675,
+    "mean_lat": 2.84,
+    "mean_lon": 107.191,
     "true_lat": 1.53,
     "true_lon": 110.33,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kuching%2C+Malaysia&go=Go&ns0=1",
@@ -52229,6 +52917,8 @@
       "Nova Scotia",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
+      "Western Australia",
       "Tuscany"
     ],
     "countries": [
@@ -52274,6 +52964,8 @@
       "Canada",
       "Italy",
       "Italy",
+      "Italy",
+      "Australia",
       "Italy"
     ],
     "dists": [
@@ -52319,7 +53011,9 @@
       775.2,
       903.9,
       1010.7,
-      809
+      809,
+      800.9,
+      892.4
     ],
     "times": [
       5.1,
@@ -52364,7 +53058,9 @@
       6.6,
       8.3,
       8.4,
-      8.5
+      8.5,
+      8.2,
+      8.6
     ]
   },
   "Kuala Terengganu, Malaysia": {
@@ -53418,10 +54114,10 @@
     ]
   },
   "Pangkalpinang, Kepulauan Bangka Belitung, Indonesia": {
-    "mean_dist": 875.9,
-    "mean_time": 6.2,
-    "std_dist": 962.2,
-    "std_time": 2.3,
+    "mean_dist": 844.3,
+    "mean_time": 6.3,
+    "std_dist": 942,
+    "std_time": 2.2,
     "admin": "Kepulauan Bangka Belitung",
     "country": "Indonesia",
     "city": "Pangkalpinang",
@@ -53441,7 +54137,8 @@
       "x",
       -6.58,
       -1.971,
-      -5.446
+      -5.446,
+      -4.947
     ],
     "lons": [
       "x",
@@ -53459,10 +54156,11 @@
       "x",
       107.813,
       104.265,
-      104.978
+      104.978,
+      105.097
     ],
-    "mean_lat": -4.665,
-    "mean_lon": 105.685,
+    "mean_lat": -4.736,
+    "mean_lon": 105.538,
     "true_lat": -2.08,
     "true_lon": 106.15,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Pangkalpinang%2C+Indonesia&go=Go&ns0=1",
@@ -53482,6 +54180,7 @@
       "California",
       "Washington",
       "Tuscany",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -53499,6 +54198,7 @@
       "Germany",
       "United States",
       "United States",
+      "Italy",
       "Italy",
       "Italy"
     ],
@@ -53518,7 +54218,8 @@
       3595.4,
       533.3,
       209.7,
-      396.2
+      396.2,
+      339.5
     ],
     "times": [
       0.9,
@@ -53536,7 +54237,8 @@
       7.8,
       6.5,
       7.6,
-      7.8
+      7.8,
+      7
     ]
   },
   "Watampone, Sulawesi Selatan, Indonesia": {
@@ -54514,9 +55216,9 @@
     ]
   },
   "Coffs Harbour, New South Wales, Australia": {
-    "mean_dist": 638.8,
+    "mean_dist": 630.2,
     "mean_time": 6.1,
-    "std_dist": 735.4,
+    "std_dist": 729.9,
     "std_time": 2.2,
     "admin": "New South Wales",
     "country": "Australia",
@@ -54567,7 +55269,8 @@
       -34.452,
       -32.811,
       -35.442,
-      -32.228
+      -32.228,
+      -32.329
     ],
     "lons": [
       "x",
@@ -54615,10 +55318,11 @@
       150.566,
       151.324,
       149.745,
-      151.086
+      151.086,
+      152.394
     ],
-    "mean_lat": -32.759,
-    "mean_lon": 144.837,
+    "mean_lat": -32.738,
+    "mean_lon": 145.197,
     "true_lat": -30.3071,
     "true_lon": 153.1123,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Coffs Harbour%2C+Australia&go=Go&ns0=1",
@@ -54668,6 +55372,7 @@
       "Northern Ireland",
       "Tuscany",
       "Western Australia",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -54716,6 +55421,7 @@
       "United Kingdom",
       "Italy",
       "Australia",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -54764,7 +55470,8 @@
       519.1,
       325.9,
       651.6,
-      287.5
+      287.5,
+      235
     ],
     "times": [
       7.7,
@@ -54812,13 +55519,14 @@
       6.3,
       8,
       6.8,
-      8.6
+      8.6,
+      8.4
     ]
   },
   "Jember, Jawa Timur, Indonesia": {
-    "mean_dist": 512.8,
+    "mean_dist": 500.1,
     "mean_time": 7.5,
-    "std_dist": 653,
+    "std_dist": 638.9,
     "std_time": 1.3,
     "admin": "Jawa Timur",
     "country": "Indonesia",
@@ -54842,7 +55550,8 @@
       -7.963,
       -8.499,
       -8.382,
-      -7.342
+      -7.342,
+      -8.287
     ],
     "lons": [
       "x",
@@ -54863,10 +55572,11 @@
       111.141,
       122.209,
       114.366,
-      110.088
+      110.088,
+      116.03
     ],
-    "mean_lat": -8.046,
-    "mean_lon": 114.451,
+    "mean_lat": -8.094,
+    "mean_lon": 114.766,
     "true_lat": -8.1727,
     "true_lon": 113.6873,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Jember%2C+Indonesia&go=Go&ns0=1",
@@ -54887,6 +55597,7 @@
       "Baden-W\u00fcrttemberg",
       "Baden-W\u00fcrttemberg",
       "Aargau",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany"
@@ -54910,6 +55621,7 @@
       "Switzerland",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -54931,7 +55643,8 @@
       281.2,
       938.3,
       78.3,
-      407
+      407,
+      258.1
     ],
     "times": [
       8.3,
@@ -54952,13 +55665,14 @@
       8.3,
       8.3,
       8.2,
-      8.3
+      8.3,
+      8.4
     ]
   },
   "Darwin, Northern Territory, Australia": {
-    "mean_dist": 401,
+    "mean_dist": 397.8,
     "mean_time": 7.1,
-    "std_dist": 553.1,
+    "std_dist": 546.7,
     "std_time": 1.4,
     "admin": "Northern Territory",
     "country": "Australia",
@@ -55079,7 +55793,10 @@
       -12.994,
       -12.815,
       -12.504,
-      -11.342
+      -11.342,
+      -12.322,
+      -12.183,
+      -14.942
     ],
     "lons": [
       "x",
@@ -55197,10 +55914,13 @@
       135.607,
       136.209,
       132.727,
-      133.023
+      133.023,
+      134.059,
+      132.081,
+      129.102
     ],
-    "mean_lat": -14.154,
-    "mean_lon": 134.595,
+    "mean_lat": -14.073,
+    "mean_lon": 134.364,
     "true_lat": -12.4254,
     "true_lon": 130.85,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Darwin%2C+Australia&go=Go&ns0=1",
@@ -55320,6 +56040,9 @@
       "California",
       "Tuscany",
       "New York",
+      "Tuscany",
+      "Western Australia",
+      "Western Australia",
       "Tuscany"
     ],
     "countries": [
@@ -55438,6 +56161,9 @@
       "United States",
       "Italy",
       "United States",
+      "Italy",
+      "Australia",
+      "Australia",
       "Italy"
     ],
     "dists": [
@@ -55556,7 +56282,10 @@
       519.9,
       583.1,
       204,
-      265.4
+      265.4,
+      348.7,
+      136.4,
+      337.5
     ],
     "times": [
       5,
@@ -55674,7 +56403,10 @@
       6.2,
       7.4,
       8.2,
-      8.1
+      8.1,
+      7.5,
+      8.2,
+      6.9
     ]
   },
   "Cambridge, New Zealand": {
@@ -55932,9 +56664,9 @@
     ]
   },
   "Dili, Timor-Leste": {
-    "mean_dist": 882.7,
+    "mean_dist": 862.2,
     "mean_time": 6.9,
-    "std_dist": 1699.5,
+    "std_dist": 1671.2,
     "std_time": 1.7,
     "admin": "D\u00edli",
     "country": "Timor-Leste",
@@ -56054,6 +56786,11 @@
       -8.735,
       -8.641,
       -8.641,
+      -8.877,
+      -4.895,
+      -9.677,
+      -8.995,
+      -8.523,
       -8.877
     ],
     "lons": [
@@ -56171,10 +56908,15 @@
       126.131,
       125.18,
       125.775,
+      125.775,
+      139.571,
+      124.167,
+      125.18,
+      125.18,
       125.775
     ],
-    "mean_lat": -8.099,
-    "mean_lon": 131.869,
+    "mean_lat": -8.105,
+    "mean_lon": 131.61,
     "true_lat": -8.5594,
     "true_lon": 125.5795,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Dili%2C+Timor-Leste&go=Go&ns0=1",
@@ -56291,6 +57033,11 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
+      "Tuscany",
+      "Tuscany",
+      "Western Australia",
+      "Western Australia",
       "Tuscany",
       "Tuscany",
       "Tuscany"
@@ -56410,6 +57157,11 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
+      "Australia",
+      "Australia",
+      "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -56527,6 +57279,11 @@
       63.7,
       44.7,
       23.3,
+      41.3,
+      1597.5,
+      198.7,
+      65.3,
+      44,
       41.3
     ],
     "times": [
@@ -56644,7 +57401,12 @@
       8.5,
       8.4,
       8.3,
-      8.3
+      8.3,
+      6,
+      7.9,
+      8.1,
+      8.8,
+      8.1
     ]
   },
   "Makassar, Sulawesi Selatan, Indonesia": {
@@ -57132,9 +57894,9 @@
     ]
   },
   "Suva, Fiji": {
-    "mean_dist": 1057.9,
+    "mean_dist": 1027.9,
     "mean_time": 7.1,
-    "std_dist": 2083.6,
+    "std_dist": 2058,
     "std_time": 1.4,
     "admin": "Rewa",
     "country": "Fiji",
@@ -57264,7 +58026,11 @@
       -18.383,
       -18.233,
       -18.572,
-      -17.802
+      -17.802,
+      -17.121,
+      -17.392,
+      -17.527,
+      -17.688
     ],
     "lons": [
       "x",
@@ -57391,10 +58157,14 @@
       177.605,
       178.419,
       179.013,
-      178.062
+      178.062,
+      178.857,
+      178.998,
+      178.857,
+      178.419
     ],
-    "mean_lat": -13.927,
-    "mean_lon": 167.73,
+    "mean_lat": -14.133,
+    "mean_lon": 168.38,
     "true_lat": -18.133,
     "true_lon": 178.4417,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Suva%2C+Fiji&go=Go&ns0=1",
@@ -57523,6 +58293,10 @@
       "Aargau",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
+      "Western Australia",
+      "Western Australia",
+      "Western Australia",
       "Tuscany"
     ],
     "countries": [
@@ -57650,6 +58424,10 @@
       "Switzerland",
       "Italy",
       "Italy",
+      "Italy",
+      "Australia",
+      "Australia",
+      "Australia",
       "Italy"
     ],
     "dists": [
@@ -57777,7 +58555,11 @@
       92.5,
       11.4,
       77.6,
-      54.4
+      54.4,
+      120.8,
+      101.3,
+      80.4,
+      49.4
     ],
     "times": [
       2.7,
@@ -57904,7 +58686,11 @@
       7.8,
       7.9,
       7.8,
-      8.4
+      8.4,
+      7.8,
+      8.1,
+      7.9,
+      8.2
     ]
   },
   "Surakarta, Jawa Tengah, Indonesia": {
@@ -59084,9 +59870,9 @@
     ]
   },
   "Banjarmasin, Kalimantan Selatan, Indonesia": {
-    "mean_dist": 517.3,
+    "mean_dist": 522.1,
     "mean_time": 6.7,
-    "std_dist": 396.4,
+    "std_dist": 390.3,
     "std_time": 1.6,
     "admin": "Kalimantan Selatan",
     "country": "Indonesia",
@@ -59119,7 +59905,8 @@
       -3.659,
       -1.852,
       -5.09,
-      -2.591
+      -2.591,
+      -1.876
     ],
     "lons": [
       "x",
@@ -59149,10 +59936,11 @@
       115.529,
       116.03,
       120.427,
-      114.485
+      114.485,
+      120.308
     ],
-    "mean_lat": -3.051,
-    "mean_lon": 114.29,
+    "mean_lat": -2.944,
+    "mean_lon": 114.837,
     "true_lat": -3.33,
     "true_lon": 114.5801,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Banjarmasin%2C+Indonesia&go=Go&ns0=1",
@@ -59182,6 +59970,7 @@
       "Utrecht",
       "New York",
       "Aargau",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany"
@@ -59214,6 +60003,7 @@
       "Switzerland",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -59244,7 +60034,8 @@
       111.5,
       230,
       677.2,
-      82.7
+      82.7,
+      656.5
     ],
     "times": [
       7.1,
@@ -59274,7 +60065,8 @@
       7.2,
       8.3,
       8.2,
-      8.1
+      8.1,
+      8
     ]
   },
   "Manokwari, Papua Barat, Indonesia": {
@@ -60184,9 +60976,9 @@
     ]
   },
   "Lhokseumawe, Aceh, Indonesia": {
-    "mean_dist": 1253.3,
+    "mean_dist": 1204.9,
     "mean_time": 7.5,
-    "std_dist": 1251.3,
+    "std_dist": 1237.7,
     "std_time": 0.9,
     "admin": "Aceh",
     "country": "Indonesia",
@@ -60210,7 +61002,8 @@
       -9.089,
       5.134,
       -8.214,
-      6.22
+      6.22,
+      7.049
     ],
     "lons": [
       "x",
@@ -60231,10 +61024,11 @@
       116.03,
       96.808,
       126.468,
-      94.758
+      94.758,
+      95.353
     ],
-    "mean_lat": -2.657,
-    "mean_lon": 108.661,
+    "mean_lat": -1.848,
+    "mean_lon": 107.552,
     "true_lat": 5.1914,
     "true_lon": 97.1415,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Lhokseumawe%2C+Indonesia&go=Go&ns0=1",
@@ -60257,6 +61051,7 @@
       "Tuscany",
       "Groningen",
       "North Holland",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -60278,6 +61073,7 @@
       "Italy",
       "Netherlands",
       "Netherlands",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -60299,7 +61095,8 @@
       2627.7,
       37.4,
       3577.6,
-      287.3
+      287.3,
+      285.9
     ],
     "times": [
       8.7,
@@ -60320,6 +61117,7 @@
       7.5,
       5.4,
       6.3,
+      8.2,
       8.2
     ]
   },
@@ -60930,9 +61728,9 @@
     ]
   },
   "Ashton, New Zealand": {
-    "mean_dist": 379.9,
+    "mean_dist": 384.3,
     "mean_time": 7.2,
-    "std_dist": 343.9,
+    "std_dist": 342.1,
     "std_time": 1.4,
     "admin": "Canterbury",
     "country": "New Zealand",
@@ -60996,7 +61794,10 @@
       -38.336,
       -39.192,
       -42.352,
-      -38.168
+      -38.168,
+      -43.423,
+      -39.099,
+      -38.074
     ],
     "lons": [
       "x",
@@ -61057,10 +61858,13 @@
       175.804,
       175.804,
       173.071,
-      175.804
+      175.804,
+      171.367,
+      176.042,
+      175.21
     ],
-    "mean_lat": -41.444,
-    "mean_lon": 173.523,
+    "mean_lat": -41.306,
+    "mean_lon": 173.599,
     "true_lat": -43.8983,
     "true_lon": 171.7486,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ashton%2C+New Zealand&go=Go&ns0=1",
@@ -61123,6 +61927,9 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
+      "Western Australia",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -61183,6 +61990,9 @@
       "Switzerland",
       "Italy",
       "Italy",
+      "Italy",
+      "Italy",
+      "Australia",
       "Italy",
       "Italy"
     ],
@@ -61245,7 +62055,10 @@
       705.3,
       622.5,
       202.6,
-      722
+      722,
+      61,
+      642.1,
+      709.6
     ],
     "times": [
       7.6,
@@ -61306,7 +62119,10 @@
       7.9,
       8.5,
       8.4,
-      8.4
+      8.4,
+      8.3,
+      8.4,
+      8.5
     ]
   },
   "Bukittinggi, Sumatera Barat, Indonesia": {
@@ -61856,9 +62672,9 @@
     ]
   },
   "Jakarta, Jakarta, Indonesia": {
-    "mean_dist": 571.7,
-    "mean_time": 7.4,
-    "std_dist": 801.4,
+    "mean_dist": 560.5,
+    "mean_time": 7.5,
+    "std_dist": 783.6,
     "std_time": 1.1,
     "admin": "Jakarta",
     "country": "Indonesia",
@@ -61883,7 +62699,8 @@
       -1.614,
       -6.555,
       -6.485,
-      -6.371
+      -6.371,
+      -4.047
     ],
     "lons": [
       "x",
@@ -61905,10 +62722,11 @@
       102.097,
       107.629,
       106.964,
-      106.642
+      106.642,
+      104.665
     ],
-    "mean_lat": -4.582,
-    "mean_lon": 105.888,
+    "mean_lat": -4.533,
+    "mean_lon": 105.776,
     "true_lat": -6.1744,
     "true_lon": 106.8294,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Jakarta%2C+Indonesia&go=Go&ns0=1",
@@ -61932,7 +62750,8 @@
       "Berlin",
       "New York",
       "Aargau",
-      "Tuscany"
+      "Tuscany",
+      "Western Australia"
     ],
     "countries": [
       "Australia",
@@ -61954,7 +62773,8 @@
       "Germany",
       "United States",
       "Switzerland",
-      "Italy"
+      "Italy",
+      "Australia"
     ],
     "dists": [
       728.8,
@@ -61976,7 +62796,8 @@
       729.7,
       98,
       37.6,
-      30.1
+      30.1,
+      336.6
     ],
     "times": [
       6.1,
@@ -61998,13 +62819,14 @@
       6.4,
       8.6,
       8.4,
-      8.4
+      8.4,
+      8
     ]
   },
   "Singaraja, Bali, Indonesia": {
-    "mean_dist": 642.6,
+    "mean_dist": 645.7,
     "mean_time": 7.5,
-    "std_dist": 690,
+    "std_dist": 683.5,
     "std_time": 0.6,
     "admin": "Bali",
     "country": "Indonesia",
@@ -62026,7 +62848,9 @@
       2.082,
       -9.267,
       -3.758,
-      -8.641
+      -8.641,
+      -4.047,
+      -8.523
     ],
     "lons": [
       "x",
@@ -62045,10 +62869,12 @@
       115.607,
       115.304,
       116.03,
-      115.436
+      115.436,
+      104.1,
+      114.96
     ],
-    "mean_lat": -5.089,
-    "mean_lon": 113.051,
+    "mean_lat": -5.328,
+    "mean_lon": 112.347,
     "true_lat": -8.1152,
     "true_lon": 115.0944,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Singaraja%2C+Indonesia&go=Go&ns0=1",
@@ -62069,6 +62895,8 @@
       "Tuscany",
       "South Denmark",
       "Tuscany",
+      "Tuscany",
+      "Western Australia",
       "Tuscany"
     ],
     "countries": [
@@ -62088,6 +62916,8 @@
       "Italy",
       "Denmark",
       "Italy",
+      "Italy",
+      "Australia",
       "Italy"
     ],
     "dists": [
@@ -62107,7 +62937,9 @@
       1135.4,
       130.1,
       495.3,
-      69.5
+      69.5,
+      1296.7,
+      47.7
     ],
     "times": [
       6.7,
@@ -62126,7 +62958,9 @@
       7.4,
       7.5,
       7.6,
-      7.9
+      7.9,
+      7.4,
+      7.8
     ]
   },
   "Luwuk, Sulawesi Tengah, Indonesia": {
@@ -62288,10 +63122,10 @@
     ]
   },
   "Bontang, Kalimantan Timur, Indonesia": {
-    "mean_dist": 1006.5,
-    "mean_time": 6.9,
-    "std_dist": 547.6,
-    "std_time": 1.5,
+    "mean_dist": 1005.5,
+    "mean_time": 7,
+    "std_dist": 538.5,
+    "std_time": 1.4,
     "admin": "Kalimantan Timur",
     "country": "Indonesia",
     "city": "Bontang",
@@ -62324,7 +63158,8 @@
       -1.084,
       -8.499,
       -2.329,
-      0.866
+      0.866,
+      -8.641
     ],
     "lons": [
       "x",
@@ -62355,10 +63190,11 @@
       113.692,
       118.644,
       121.021,
-      116.862
+      116.862,
+      117.813
     ],
-    "mean_lat": -4.635,
-    "mean_lon": 116.488,
+    "mean_lat": -4.87,
+    "mean_lon": 116.566,
     "true_lat": 0.1333,
     "true_lon": 117.5,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bontang%2C+Indonesia&go=Go&ns0=1",
@@ -62389,6 +63225,7 @@
       "New South Wales",
       "Tuscany",
       "Zurich",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany"
@@ -62422,6 +63259,7 @@
       "Switzerland",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -62453,7 +63291,8 @@
       444.4,
       968.3,
       477.7,
-      108
+      108,
+      976.3
     ],
     "times": [
       5.6,
@@ -62484,7 +63323,8 @@
       6.1,
       8,
       8.2,
-      7.2
+      7.2,
+      7.9
     ]
   },
   "Cranbourne, Victoria, Australia": {
@@ -63768,9 +64608,9 @@
     ]
   },
   "Toowoomba, Queensland, Australia": {
-    "mean_dist": 523.7,
+    "mean_dist": 519.6,
     "mean_time": 7.2,
-    "std_dist": 401.7,
+    "std_dist": 398.7,
     "std_time": 1.5,
     "admin": "Queensland",
     "country": "Australia",
@@ -63824,7 +64664,8 @@
       -26.554,
       -21.684,
       -27.133,
-      -25.121
+      -25.121,
+      -24.796
     ],
     "lons": [
       "x",
@@ -63875,10 +64716,11 @@
       152.727,
       146.16,
       152.988,
-      152.275
+      152.275,
+      151.086
     ],
-    "mean_lat": -23.534,
-    "mean_lon": 150.524,
+    "mean_lat": -23.618,
+    "mean_lon": 150.561,
     "true_lat": -27.5645,
     "true_lon": 151.9555,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Toowoomba%2C+Australia&go=Go&ns0=1",
@@ -63931,6 +64773,7 @@
       "New York",
       "New South Wales",
       "Tuscany",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -63981,6 +64824,7 @@
       "Italy",
       "United States",
       "Australia",
+      "Italy",
       "Italy",
       "Italy"
     ],
@@ -64033,7 +64877,8 @@
       135.8,
       877.4,
       112.6,
-      273.5
+      273.5,
+      319.7
     ],
     "times": [
       7.2,
@@ -64084,7 +64929,8 @@
       8.7,
       6.7,
       8.3,
-      8.2
+      8.2,
+      7.2
     ]
   },
   "Pekalongan, Jawa Tengah, Indonesia": {
@@ -64452,9 +65298,9 @@
     ]
   },
   "Ambon, Maluku, Indonesia": {
-    "mean_dist": 1361.4,
-    "mean_time": 6.3,
-    "std_dist": 947.7,
+    "mean_dist": 1395.4,
+    "mean_time": 6.4,
+    "std_dist": 939,
     "std_time": 2,
     "admin": "Maluku",
     "country": "Indonesia",
@@ -64480,7 +65326,8 @@
       -3.345,
       1.103,
       -2.21,
-      -0.803
+      -0.803,
+      -7.293
     ],
     "lons": [
       "x",
@@ -64503,10 +65350,11 @@
       139.442,
       128.092,
       129.696,
-      129.34
+      129.34,
+      109.47
     ],
-    "mean_lat": -2.807,
-    "mean_lon": 117.063,
+    "mean_lat": -3.128,
+    "mean_lon": 116.52,
     "true_lat": -3.7167,
     "true_lon": 128.2,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ambon%2C+Indonesia&go=Go&ns0=1",
@@ -64531,7 +65379,8 @@
       "New York",
       "Aargau",
       "Tuscany",
-      "Tuscany"
+      "Tuscany",
+      "Western Australia"
     ],
     "countries": [
       "United States",
@@ -64554,7 +65403,8 @@
       "United States",
       "Switzerland",
       "Italy",
-      "Italy"
+      "Italy",
+      "Australia"
     ],
     "dists": [
       1712.3,
@@ -64577,7 +65427,8 @@
       1248.3,
       536.1,
       235.9,
-      347.8
+      347.8,
+      2110.4
     ],
     "times": [
       4.1,
@@ -64600,7 +65451,8 @@
       6.6,
       8,
       6.7,
-      7.7
+      7.7,
+      8.2
     ]
   },
   "Serang, Banten, Indonesia": {
@@ -65028,9 +65880,9 @@
     ]
   },
   "Singapore, Singapore": {
-    "mean_dist": 272.1,
+    "mean_dist": 265.7,
     "mean_time": 7.1,
-    "std_dist": 577.5,
+    "std_dist": 569.9,
     "std_time": 1.5,
     "admin": "",
     "country": "Singapore",
@@ -65163,7 +66015,11 @@
       1.366,
       0.627,
       1.104,
-      1.462
+      1.462,
+      0.77,
+      1.581,
+      1.581,
+      1.223
     ],
     "lons": [
       "x",
@@ -65293,10 +66149,14 @@
       104.265,
       103.909,
       104.146,
-      104.384
+      104.384,
+      104.503,
+      103.552,
+      104.265,
+      104.265
     ],
-    "mean_lat": 1.439,
-    "mean_lon": 104.857,
+    "mean_lat": 1.429,
+    "mean_lon": 104.807,
     "true_lat": 1.293,
     "true_lon": 103.8558,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Singapore%2C+Singapore&go=Go&ns0=1",
@@ -65424,6 +66284,10 @@
       "Tuscany",
       "Tuscany",
       "Western Australia",
+      "Tuscany",
+      "Tuscany",
+      "Tuscany",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany",
@@ -65558,6 +66422,10 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
+      "Italy",
+      "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -65688,7 +66556,11 @@
       46.3,
       74.2,
       38.5,
-      61.7
+      61.7,
+      92.5,
+      46.5,
+      55.7,
+      46.2
     ],
     "times": [
       7.5,
@@ -65818,7 +66690,11 @@
       8.2,
       8.5,
       8.3,
-      8.4
+      8.4,
+      8,
+      8.3,
+      8.3,
+      8.2
     ]
   },
   "Cirebon, Jawa Barat, Indonesia": {
@@ -65926,9 +66802,9 @@
     ]
   },
   "Palu, Sulawesi Tengah, Indonesia": {
-    "mean_dist": 990.5,
+    "mean_dist": 947.5,
     "mean_time": 7.1,
-    "std_dist": 614.3,
+    "std_dist": 622.8,
     "std_time": 1.1,
     "admin": "Sulawesi Tengah",
     "country": "Indonesia",
@@ -65950,7 +66826,8 @@
       -8.287,
       -1.877,
       -5.327,
-      -4.495
+      -4.495,
+      -1.28
     ],
     "lons": [
       "x",
@@ -65969,10 +66846,11 @@
       118.05,
       102.352,
       122.804,
-      121.615
+      121.615,
+      121.734
     ],
-    "mean_lat": -3.145,
-    "mean_lon": 114.643,
+    "mean_lat": -2.99,
+    "mean_lon": 115.234,
     "true_lat": -0.907,
     "true_lon": 119.833,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Palu%2C+Indonesia&go=Go&ns0=1",
@@ -65993,6 +66871,7 @@
       "Tuscany",
       "Harjumaa",
       "Tuscany",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -66011,6 +66890,7 @@
       "New Zealand",
       "Italy",
       "Estonia",
+      "Italy",
       "Italy",
       "Italy"
     ],
@@ -66031,7 +66911,8 @@
       844,
       1946,
       591.9,
-      445.4
+      445.4,
+      215.4
     ],
     "times": [
       7.5,
@@ -66050,6 +66931,7 @@
       7.4,
       7.4,
       7.7,
+      8.2,
       8.2
     ]
   },
@@ -66260,9 +67142,9 @@
     ]
   },
   "Hamilton, New Zealand": {
-    "mean_dist": 326.9,
-    "mean_time": 7.3,
-    "std_dist": 238.8,
+    "mean_dist": 320.5,
+    "mean_time": 7.4,
+    "std_dist": 239.1,
     "std_time": 1.2,
     "admin": "Waikato",
     "country": "New Zealand",
@@ -66306,7 +67188,8 @@
       -39.08,
       -41.008,
       -38.43,
-      -38.914
+      -38.914,
+      -38.074
     ],
     "lons": [
       "x",
@@ -66347,10 +67230,11 @@
       174.588,
       175.006,
       174.972,
-      176.28
+      176.28,
+      176.042
     ],
-    "mean_lat": -40.374,
-    "mean_lon": 174.124,
+    "mean_lat": -40.23,
+    "mean_lon": 174.244,
     "true_lat": -37.7783,
     "true_lon": 175.2896,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Hamilton%2C+New Zealand&go=Go&ns0=1",
@@ -66389,6 +67273,7 @@
       "\u00cele-de-France",
       "Vienna",
       "Vienna",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany",
@@ -66434,6 +67319,7 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -66475,7 +67361,8 @@
       157.1,
       360,
       77.5,
-      153
+      153,
+      73.7
     ],
     "times": [
       7.5,
@@ -66516,13 +67403,14 @@
       8,
       7.9,
       8.4,
+      8.6,
       8.6
     ]
   },
   "Townsville, Queensland, Australia": {
-    "mean_dist": 670.1,
+    "mean_dist": 677.6,
     "mean_time": 7.2,
-    "std_dist": 730.8,
+    "std_dist": 727.1,
     "std_time": 1.1,
     "admin": "Queensland",
     "country": "Australia",
@@ -66587,7 +67475,8 @@
       -33.151,
       -22.59,
       -38.228,
-      -26.196
+      -26.196,
+      -27.155
     ],
     "lons": [
       "x",
@@ -66649,10 +67538,11 @@
       151.267,
       150.017,
       144.459,
-      152.869
+      152.869,
+      153.701
     ],
-    "mean_lat": -24.306,
-    "mean_lon": 145.71,
+    "mean_lat": -24.416,
+    "mean_lon": 146.018,
     "true_lat": -19.25,
     "true_lon": 146.77,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Townsville%2C+Australia&go=Go&ns0=1",
@@ -66716,6 +67606,7 @@
       "Tuscany",
       "Tuscany",
       "South Denmark",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -66778,6 +67669,7 @@
       "Italy",
       "Italy",
       "Denmark",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -66840,7 +67732,8 @@
       1609,
       501.7,
       2122,
-      993.5
+      993.5,
+      1128.3
     ],
     "times": [
       7.2,
@@ -66902,7 +67795,8 @@
       7.5,
       8.5,
       6.5,
-      8.6
+      8.6,
+      8.3
     ]
   },
   "Sungai Penuh, Jambi, Indonesia": {
@@ -67076,9 +67970,9 @@
     ]
   },
   "Pontianak, Kalimantan Barat, Indonesia": {
-    "mean_dist": 1149.6,
+    "mean_dist": 1126.8,
     "mean_time": 7.2,
-    "std_dist": 1277.2,
+    "std_dist": 1255,
     "std_time": 1,
     "admin": "Kalimantan Barat",
     "country": "Indonesia",
@@ -67106,7 +68000,8 @@
       "x",
       "x",
       -3.829,
-      -1.563
+      -1.563,
+      -1.28
     ],
     "lons": [
       "x",
@@ -67131,10 +68026,11 @@
       "x",
       "x",
       104.307,
-      109.986
+      109.986,
+      114.604
     ],
-    "mean_lat": -2.696,
-    "mean_lon": 107.146,
+    "mean_lat": -2.224,
+    "mean_lon": 109.632,
     "true_lat": -0.03,
     "true_lon": 109.32,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Pontianak%2C+Indonesia&go=Go&ns0=1",
@@ -67161,7 +68057,8 @@
       "Washington",
       "Washington",
       "Washington",
-      "Aargau"
+      "Aargau",
+      "Tuscany"
     ],
     "countries": [
       "United States",
@@ -67186,7 +68083,8 @@
       "United States",
       "United States",
       "United States",
-      "Switzerland"
+      "Switzerland",
+      "Italy"
     ],
     "dists": [
       498,
@@ -67211,7 +68109,8 @@
       1204.8,
       6907.1,
       699.1,
-      185.9
+      185.9,
+      603.7
     ],
     "times": [
       8.2,
@@ -67236,7 +68135,8 @@
       5.8,
       7.1,
       4.9,
-      7.4
+      7.4,
+      8.1
     ]
   },
   "Madiun, Jawa Timur, Indonesia": {
@@ -67380,9 +68280,9 @@
     ]
   },
   "Kuala Kapuas, Kalimantan Tengah, Indonesia": {
-    "mean_dist": 704.4,
+    "mean_dist": 694.8,
     "mean_time": 7.4,
-    "std_dist": 593.2,
+    "std_dist": 580.5,
     "std_time": 0.8,
     "admin": "Kalimantan Tengah",
     "country": "Indonesia",
@@ -67407,7 +68307,8 @@
       -1.429,
       -1.845,
       -4.495,
-      -2.353
+      -2.353,
+      -1.28
     ],
     "lons": [
       "x",
@@ -67429,10 +68330,11 @@
       116.732,
       103.001,
       121.496,
-      113.891
+      113.891,
+      110.207
     ],
-    "mean_lat": -3.012,
-    "mean_lon": 113.573,
+    "mean_lat": -2.796,
+    "mean_lon": 113.152,
     "true_lat": -3.0996,
     "true_lon": 114.35,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kuala Kapuas%2C+Indonesia&go=Go&ns0=1",
@@ -67456,6 +68358,7 @@
       "Zurich",
       "Connecticut",
       "Tuscany",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -67477,6 +68380,7 @@
       "Finland",
       "Switzerland",
       "United States",
+      "Italy",
       "Italy",
       "Italy"
     ],
@@ -67500,7 +68404,8 @@
       323.3,
       1268.4,
       807.9,
-      97.3
+      97.3,
+      502.7
     ],
     "times": [
       8,
@@ -67522,7 +68427,8 @@
       7,
       7.1,
       8.3,
-      8.3
+      8.3,
+      7.2
     ]
   },
   "Balikpapan, Kalimantan Timur, Indonesia": {
@@ -68258,10 +69164,10 @@
     ]
   },
   "Traralgon, Victoria, Australia": {
-    "mean_dist": 246.8,
+    "mean_dist": 244.3,
     "mean_time": 6.9,
-    "std_dist": 371.1,
-    "std_time": 1.6,
+    "std_dist": 368.7,
+    "std_time": 1.5,
     "admin": "Victoria",
     "country": "Australia",
     "city": "Traralgon",
@@ -68327,7 +69233,8 @@
       -32.324,
       -25.871,
       -38.149,
-      -31.89
+      -31.89,
+      -37.494
     ],
     "lons": [
       "x",
@@ -68391,10 +69298,11 @@
       135.627,
       131.044,
       146.095,
-      146.692
+      146.692,
+      146.919
     ],
-    "mean_lat": -36.199,
-    "mean_lon": 144.533,
+    "mean_lat": -36.255,
+    "mean_lon": 144.637,
     "true_lat": -38.1996,
     "true_lon": 146.53,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Traralgon%2C+Australia&go=Go&ns0=1",
@@ -68460,7 +69368,8 @@
       "England",
       "England",
       "Lombardy",
-      "Harjumaa"
+      "Harjumaa",
+      "Western Australia"
     ],
     "countries": [
       "Sweden",
@@ -68524,7 +69433,8 @@
       "United Kingdom",
       "United Kingdom",
       "Italy",
-      "Estonia"
+      "Estonia",
+      "Australia"
     ],
     "dists": [
       138.7,
@@ -68588,7 +69498,8 @@
       1184.6,
       1997,
       38.3,
-      701.6
+      701.6,
+      85.5
     ],
     "times": [
       7.1,
@@ -68651,6 +69562,7 @@
       5.6,
       5.3,
       5.4,
+      7.6,
       7.6,
       7.6
     ]
@@ -69250,10 +70162,10 @@
     ]
   },
   "Surabaya, Jawa Timur, Indonesia": {
-    "mean_dist": 752.6,
+    "mean_dist": 716.9,
     "mean_time": 7.1,
-    "std_dist": 910.7,
-    "std_time": 0.9,
+    "std_dist": 889.8,
+    "std_time": 1,
     "admin": "Jawa Timur",
     "country": "Indonesia",
     "city": "Surabaya",
@@ -69271,7 +70183,8 @@
       -7.289,
       -22.133,
       -7.673,
-      -2.531
+      -2.531,
+      -8.382
     ],
     "lons": [
       "x",
@@ -69287,10 +70200,11 @@
       107.008,
       141.333,
       111.039,
-      132.599
+      132.599,
+      114.366
     ],
-    "mean_lat": -8.768,
-    "mean_lon": 117.099,
+    "mean_lat": -8.72,
+    "mean_lon": 116.758,
     "true_lat": -7.2492,
     "true_lon": 112.7508,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Surabaya%2C+Indonesia&go=Go&ns0=1",
@@ -69308,7 +70222,8 @@
       "Berlin",
       "England",
       "Lombardy",
-      "Cairo"
+      "Cairo",
+      "Tuscany"
     ],
     "countries": [
       "Australia",
@@ -69324,7 +70239,8 @@
       "Germany",
       "United Kingdom",
       "Italy",
-      "Egypt"
+      "Egypt",
+      "Italy"
     ],
     "dists": [
       371,
@@ -69340,7 +70256,8 @@
       633.4,
       3480.3,
       194.4,
-      2260
+      2260,
+      218
     ],
     "times": [
       7.1,
@@ -69356,13 +70273,14 @@
       7,
       4.5,
       6,
-      7.1
+      7.1,
+      8.4
     ]
   },
   "Waingapu, Nusa Tenggara Timur, Indonesia": {
-    "mean_dist": 814.6,
+    "mean_dist": 822.1,
     "mean_time": 6.7,
-    "std_dist": 628.1,
+    "std_dist": 617.1,
     "std_time": 1.5,
     "admin": "Nusa Tenggara Timur",
     "country": "Indonesia",
@@ -69392,7 +70310,8 @@
       -7.63,
       -5.798,
       -7.995,
-      -5.303
+      -5.303,
+      -7.574
     ],
     "lons": [
       "x",
@@ -69419,10 +70338,11 @@
       110.38,
       105.217,
       112.579,
-      105.097
+      105.097,
+      111.307
     ],
-    "mean_lat": -6.21,
-    "mean_lon": 114.092,
+    "mean_lat": -6.346,
+    "mean_lon": 113.814,
     "true_lat": -9.6582,
     "true_lon": 120.253,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Waingapu%2C+Indonesia&go=Go&ns0=1",
@@ -69451,7 +70371,8 @@
       "England",
       "England",
       "Western Australia",
-      "Tuscany"
+      "Tuscany",
+      "Western Australia"
     ],
     "countries": [
       "Australia",
@@ -69478,7 +70399,8 @@
       "United Kingdom",
       "United Kingdom",
       "Australia",
-      "Italy"
+      "Italy",
+      "Australia"
     ],
     "dists": [
       1207.7,
@@ -69505,7 +70427,8 @@
       1108.4,
       1710.9,
       863.1,
-      1739.1
+      1739.1,
+      1010.3
     ],
     "times": [
       7.3,
@@ -69532,13 +70455,14 @@
       5.9,
       6.8,
       6,
-      7.5
+      7.5,
+      7.3
     ]
   },
   "Koror, Palau": {
-    "mean_dist": 2209.1,
-    "mean_time": 6.5,
-    "std_dist": 2615.9,
+    "mean_dist": 2180.9,
+    "mean_time": 6.6,
+    "std_dist": 2610.2,
     "std_time": 1.7,
     "admin": "",
     "country": "Palau",
@@ -69694,7 +70618,9 @@
       7.546,
       7.664,
       7.641,
-      7.522
+      7.522,
+      6.955,
+      7.404
     ],
     "lons": [
       "x",
@@ -69847,10 +70773,12 @@
       134.449,
       134.806,
       134.212,
-      134.093
+      134.093,
+      134.449,
+      135.044
     ],
-    "mean_lat": -0.521,
-    "mean_lon": 152.711,
+    "mean_lat": -0.333,
+    "mean_lon": 152.273,
     "true_lat": 7.3452,
     "true_lon": 134.4695,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Koror%2C+Palau&go=Go&ns0=1",
@@ -70001,6 +70929,8 @@
       "South Denmark",
       "Tuscany",
       "Aargau",
+      "Tuscany",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany",
@@ -70158,6 +71088,8 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -70311,7 +71243,9 @@
       22.4,
       51.4,
       43.4,
-      45.9
+      45.9,
+      43.4,
+      63.7
     ],
     "times": [
       7.5,
@@ -70464,7 +71398,9 @@
       8.2,
       8.3,
       8.5,
-      8.1
+      8.1,
+      8.3,
+      8.2
     ]
   },
   "Tanjungpandan, Kepulauan Bangka Belitung, Indonesia": {
@@ -71734,9 +72670,9 @@
     ]
   },
   "Tinipuka, Papua, Indonesia": {
-    "mean_dist": 712.2,
-    "mean_time": 6.8,
-    "std_dist": 985.1,
+    "mean_dist": 690.6,
+    "mean_time": 6.9,
+    "std_dist": 971,
     "std_time": 1.6,
     "admin": "Papua",
     "country": "Indonesia",
@@ -71765,7 +72701,8 @@
       -4.392,
       -4.078,
       -3.544,
-      -3.401
+      -3.401,
+      -4.139
     ],
     "lons": [
       "x",
@@ -71791,10 +72728,11 @@
       137.594,
       137.908,
       137.658,
-      138.846
+      138.846,
+      138.371
     ],
-    "mean_lat": -3.932,
-    "mean_lon": 135.571,
+    "mean_lat": -3.948,
+    "mean_lon": 135.786,
     "true_lat": -4.5496,
     "true_lon": 136.89,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tinipuka%2C+Indonesia&go=Go&ns0=1",
@@ -71822,6 +72760,7 @@
       "Aargau",
       "Harjumaa",
       "Tuscany",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -71847,6 +72786,7 @@
       "United States",
       "Switzerland",
       "Estonia",
+      "Italy",
       "Italy",
       "Italy"
     ],
@@ -71874,7 +72814,8 @@
       80,
       124.4,
       140.5,
-      251.8
+      251.8,
+      170.4
     ],
     "times": [
       8.5,
@@ -71900,7 +72841,8 @@
       8.1,
       5.6,
       7.6,
-      7.2
+      7.2,
+      8.5
     ]
   },
   "Singkawang, Kalimantan Barat, Indonesia": {
@@ -73174,9 +74116,9 @@
     ]
   },
   "Lower Hutt, New Zealand": {
-    "mean_dist": 223.2,
+    "mean_dist": 223.7,
     "mean_time": 7.5,
-    "std_dist": 195.4,
+    "std_dist": 192.8,
     "std_time": 0.8,
     "admin": "Wellington",
     "country": "New Zealand",
@@ -73218,7 +74160,8 @@
       -44.084,
       -44.848,
       -40.292,
-      -38.448
+      -38.448,
+      -39.099
     ],
     "lons": [
       "x",
@@ -73257,10 +74200,11 @@
       169.351,
       169.247,
       175.804,
-      176.161
+      176.161,
+      175.685
     ],
-    "mean_lat": -42.541,
-    "mean_lon": 172.802,
+    "mean_lat": -42.326,
+    "mean_lon": 172.982,
     "true_lat": -41.2037,
     "true_lon": 174.9123,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Lower Hutt%2C+New Zealand&go=Go&ns0=1",
@@ -73301,6 +74245,7 @@
       "Emilia-Romagna",
       "Western Australia",
       "Tuscany",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -73339,6 +74284,7 @@
       "Germany",
       "Italy",
       "Australia",
+      "Italy",
       "Italy",
       "Italy"
     ],
@@ -73379,7 +74325,8 @@
       556.1,
       613.1,
       126.1,
-      324.3
+      324.3,
+      243
     ],
     "times": [
       8.2,
@@ -73418,14 +74365,15 @@
       5,
       7.7,
       8.5,
-      8.5
+      8.5,
+      8.6
     ]
   },
   "Kotabumi, Lampung, Indonesia": {
-    "mean_dist": 396,
-    "mean_time": 7.3,
-    "std_dist": 404.8,
-    "std_time": 1.1,
+    "mean_dist": 382.7,
+    "mean_time": 7.4,
+    "std_dist": 387.3,
+    "std_time": 1,
     "admin": "Lampung",
     "country": "Indonesia",
     "city": "Kotabumi",
@@ -73452,7 +74400,10 @@
       -4.613,
       1.531,
       -7.933,
-      -5.327
+      -5.327,
+      -5.683,
+      -7.011,
+      -5.92
     ],
     "lons": [
       "x",
@@ -73477,10 +74428,13 @@
       104.241,
       99.387,
       120.308,
-      105.691
+      105.691,
+      106.285,
+      109.187,
+      105.335
     ],
-    "mean_lat": -4.915,
-    "mean_lon": 106.838,
+    "mean_lat": -5.237,
+    "mean_lon": 106.862,
     "true_lat": -4.8333,
     "true_lon": 104.9,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kotabumi%2C+Indonesia&go=Go&ns0=1",
@@ -73507,6 +74461,9 @@
       "Western Australia",
       "Aargau",
       "Tuscany",
+      "Tuscany",
+      "Tuscany",
+      "Western Australia",
       "Tuscany"
     ],
     "countries": [
@@ -73532,6 +74489,9 @@
       "Australia",
       "Switzerland",
       "Italy",
+      "Italy",
+      "Italy",
+      "Australia",
       "Italy"
     ],
     "dists": [
@@ -73557,7 +74517,10 @@
       76.9,
       935.9,
       1737,
-      103.4
+      103.4,
+      180.2,
+      532.4,
+      130.1
     ],
     "times": [
       7.6,
@@ -73582,6 +74545,9 @@
       8.1,
       6.9,
       7.6,
+      8.3,
+      7.8,
+      7.8,
       8.3
     ]
   },
@@ -74148,9 +75114,9 @@
     ]
   },
   "Port Moresby, Papua New Guinea": {
-    "mean_dist": 292.9,
+    "mean_dist": 288.1,
     "mean_time": 7.4,
-    "std_dist": 286.3,
+    "std_dist": 284.3,
     "std_time": 1,
     "admin": "National Capital",
     "country": "Papua New Guinea",
@@ -74228,7 +75194,9 @@
       -8.971,
       -8.853,
       -8.853,
-      -9.474
+      -9.474,
+      -9.23,
+      -7.714
     ],
     "lons": [
       "x",
@@ -74303,10 +75271,12 @@
       147.046,
       147.046,
       147.284,
-      148.842
+      148.842,
+      147.165,
+      146.778
     ],
-    "mean_lat": -7.463,
-    "mean_lon": 146.27,
+    "mean_lat": -7.519,
+    "mean_lon": 146.309,
     "true_lat": -9.4647,
     "true_lon": 147.1925,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Port Moresby%2C+Papua New Guinea&go=Go&ns0=1",
@@ -74383,7 +75353,9 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
-      "Texas"
+      "Texas",
+      "Tuscany",
+      "Western Australia"
     ],
     "countries": [
       "Australia",
@@ -74458,7 +75430,9 @@
       "Italy",
       "Italy",
       "Italy",
-      "United States"
+      "United States",
+      "Italy",
+      "Australia"
     ],
     "dists": [
       473.5,
@@ -74533,7 +75507,9 @@
       57.1,
       69.8,
       68.6,
-      181
+      181,
+      26.2,
+      199.8
     ],
     "times": [
       8.3,
@@ -74608,13 +75584,15 @@
       8.3,
       8.5,
       8.5,
-      7
+      7,
+      8.4,
+      7.4
     ]
   },
   "Pinrang, Sulawesi Selatan, Indonesia": {
-    "mean_dist": 671.1,
-    "mean_time": 6.9,
-    "std_dist": 715.3,
+    "mean_dist": 627.5,
+    "mean_time": 7,
+    "std_dist": 698,
     "std_time": 1.5,
     "admin": "Sulawesi Selatan",
     "country": "Indonesia",
@@ -74640,7 +75618,9 @@
       "x",
       -4.209,
       -4.971,
-      -3.901
+      -3.901,
+      -5.564,
+      -4.852
     ],
     "lons": [
       "x",
@@ -74663,10 +75643,12 @@
       "x",
       121.673,
       119.952,
-      121.021
+      121.021,
+      119.952,
+      120.308
     ],
-    "mean_lat": -4.36,
-    "mean_lon": 120.882,
+    "mean_lat": -4.699,
+    "mean_lon": 120.581,
     "true_lat": -3.7857,
     "true_lon": 119.6522,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Pinrang%2C+Indonesia&go=Go&ns0=1",
@@ -74689,6 +75671,8 @@
       "England",
       "England",
       "Aargau",
+      "Tuscany",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany"
@@ -74714,6 +75698,8 @@
       "Switzerland",
       "Italy",
       "Italy",
+      "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -74737,7 +75723,9 @@
       232.2,
       229,
       135.9,
-      152.4
+      152.4,
+      200.6,
+      139.1
     ],
     "times": [
       8.4,
@@ -74760,13 +75748,15 @@
       7.1,
       8.3,
       7.8,
-      8.3
+      8.3,
+      8.4,
+      8
     ]
   },
   "Richmond, New South Wales, Australia": {
-    "mean_dist": 407,
+    "mean_dist": 399.3,
     "mean_time": 7.4,
-    "std_dist": 886.2,
+    "std_dist": 876.4,
     "std_time": 1.4,
     "admin": "New South Wales",
     "country": "Australia",
@@ -74810,7 +75800,8 @@
       -33.098,
       -32.51,
       -37.697,
-      -33.132
+      -33.132,
+      -32.731
     ],
     "lons": [
       "x",
@@ -74851,10 +75842,11 @@
       151.159,
       151.324,
       146.095,
-      150.849
+      150.849,
+      150.73
     ],
-    "mean_lat": -33.251,
-    "mean_lon": 150.924,
+    "mean_lat": -33.207,
+    "mean_lon": 150.908,
     "true_lat": -33.5995,
     "true_lon": 150.74,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Richmond%2C+Australia&go=Go&ns0=1",
@@ -74895,6 +75887,7 @@
       "Aargau",
       "Aargau",
       "Western Australia",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany"
@@ -74938,6 +75931,7 @@
       "Australia",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -74979,7 +75973,8 @@
       67.9,
       132.7,
       619.3,
-      52.9
+      52.9,
+      96.4
     ],
     "times": [
       6.6,
@@ -75020,7 +76015,8 @@
       8.2,
       8.5,
       7.9,
-      8.1
+      8.1,
+      8.7
     ]
   },
   "Bendigo, Victoria, Australia": {
@@ -76144,10 +77140,10 @@
     ]
   },
   "Majene, Sulawesi Barat, Indonesia": {
-    "mean_dist": 769.2,
-    "mean_time": 6.6,
-    "std_dist": 555.6,
-    "std_time": 1.8,
+    "mean_dist": 756.5,
+    "mean_time": 6.7,
+    "std_dist": 539.8,
+    "std_time": 1.7,
     "admin": "Sulawesi Barat",
     "country": "Indonesia",
     "city": "Majene",
@@ -76168,7 +77164,9 @@
       -1.834,
       -7.66,
       -3.214,
-      -0.803
+      -0.803,
+      -6.448,
+      -2.591
     ],
     "lons": [
       "x",
@@ -76187,10 +77185,12 @@
       132.808,
       114.64,
       103.294,
-      121.14
+      121.14,
+      110.318,
+      121.378
     ],
-    "mean_lat": -3.639,
-    "mean_lon": 117.698,
+    "mean_lat": -3.785,
+    "mean_lon": 117.39,
     "true_lat": -3.5336,
     "true_lon": 118.966,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Majene%2C+Indonesia&go=Go&ns0=1",
@@ -76211,6 +77211,8 @@
       "Plovdiv",
       "California",
       "Plovdiv",
+      "Tuscany",
+      "Western Australia",
       "Tuscany"
     ],
     "countries": [
@@ -76230,6 +77232,8 @@
       "Bulgaria",
       "United States",
       "Bulgaria",
+      "Italy",
+      "Australia",
       "Italy"
     ],
     "dists": [
@@ -76249,7 +77253,9 @@
       1549,
       663,
       1739.9,
-      387.9
+      387.9,
+      1011.1,
+      287.5
     ],
     "times": [
       7.5,
@@ -76268,7 +77274,9 @@
       7.3,
       5.5,
       7,
-      8.1
+      8.1,
+      7.6,
+      6.8
     ]
   },
   "Geraldton, Western Australia, Australia": {
@@ -77978,10 +78986,10 @@
     ]
   },
   "Bongaree, Queensland, Australia": {
-    "mean_dist": 545.8,
+    "mean_dist": 548.4,
     "mean_time": 7.2,
-    "std_dist": 552.1,
-    "std_time": 1.4,
+    "std_dist": 544.1,
+    "std_time": 1.3,
     "city": "Bongaree",
     "admin": "Queensland",
     "country": "Australia",
@@ -78018,7 +79026,8 @@
       -37.827,
       -22.599,
       -37.78,
-      -27.261
+      -27.261,
+      -22.456
     ],
     "lons": [
       "x",
@@ -78053,10 +79062,11 @@
       142.196,
       150.117,
       146.947,
-      153.701
+      153.701,
+      149.463
     ],
-    "mean_lat": -28.958,
-    "mean_lon": 147.482,
+    "mean_lat": -28.416,
+    "mean_lon": 147.647,
     "true_lat": -27.0787,
     "true_lon": 153.1509,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bongaree%2C+Australia&go=Go&ns0=1",
@@ -78093,7 +79103,8 @@
       "Upper Austria",
       "Tuscany",
       "Zurich",
-      "Tuscany"
+      "Tuscany",
+      "Western Australia"
     ],
     "countries": [
       "Australia",
@@ -78128,7 +79139,8 @@
       "Austria",
       "Italy",
       "Switzerland",
-      "Italy"
+      "Italy",
+      "Australia"
     ],
     "dists": [
       582.3,
@@ -78163,7 +79175,8 @@
       1573.9,
       584.5,
       1323.9,
-      58.1
+      58.1,
+      634.5
     ],
     "times": [
       5.3,
@@ -78198,7 +79211,8 @@
       5.4,
       8.9,
       7.7,
-      8.4
+      8.4,
+      8
     ]
   },
   "Nelson, New Zealand": {
@@ -78456,9 +79470,9 @@
     ]
   },
   "Ngerulmud, Palau": {
-    "mean_dist": 1813.6,
+    "mean_dist": 1799.5,
     "mean_time": 6.8,
-    "std_dist": 2129.6,
+    "std_dist": 2127.2,
     "std_time": 1.5,
     "city": "Ngerulmud",
     "admin": "Melekeok",
@@ -78590,7 +79604,8 @@
       7.168,
       7.049,
       7.049,
-      7.522
+      7.522,
+      7.404
     ],
     "lons": [
       "x",
@@ -78719,10 +79734,11 @@
       134.687,
       134.568,
       135.044,
-      135.044
+      135.044,
+      134.687
     ],
-    "mean_lat": -1.135,
-    "mean_lon": 146.932,
+    "mean_lat": -0.995,
+    "mean_lon": 146.731,
     "true_lat": 7.5,
     "true_lon": 134.6242,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ngerulmud%2C+Palau&go=Go&ns0=1",
@@ -78850,6 +79866,7 @@
       "Nova Scotia",
       "Western Australia",
       "Balearic Islands",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany",
@@ -78982,6 +79999,7 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -79111,7 +80129,8 @@
       37.5,
       50.4,
       68.2,
-      46.3
+      46.3,
+      12.6
     ],
     "times": [
       5.6,
@@ -79240,13 +80259,14 @@
       8.3,
       8.2,
       8.4,
+      8.4,
       8.4
     ]
   },
   "Baubau, Sulawesi Tenggara, Indonesia": {
-    "mean_dist": 1042.4,
+    "mean_dist": 1020.8,
     "mean_time": 6.7,
-    "std_dist": 892.6,
+    "std_dist": 880,
     "std_time": 1.3,
     "city": "Baubau",
     "admin": "Sulawesi Tenggara",
@@ -79274,7 +80294,8 @@
       -4.761,
       -6.612,
       -1.563,
-      -4.131
+      -4.131,
+      -0.922
     ],
     "lons": [
       "x",
@@ -79299,10 +80320,11 @@
       104.082,
       117.49,
       114.901,
-      114.832
+      114.832,
+      121.378
     ],
-    "mean_lat": -3.429,
-    "mean_lon": 111.264,
+    "mean_lat": -3.22,
+    "mean_lon": 112.106,
     "true_lat": -5.4699,
     "true_lon": 122.6163,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Baubau%2C+Indonesia&go=Go&ns0=1",
@@ -79329,7 +80351,8 @@
       "Rajasthan",
       "Tuscany",
       "New South Wales",
-      "New South Wales"
+      "New South Wales",
+      "Tuscany"
     ],
     "countries": [
       "United States",
@@ -79354,7 +80377,8 @@
       "India",
       "Italy",
       "Australia",
-      "Australia"
+      "Australia",
+      "Italy"
     ],
     "dists": [
       1555.9,
@@ -79379,7 +80403,8 @@
       2054,
       580.8,
       959.9,
-      875.2
+      875.2,
+      523.9
     ],
     "times": [
       7.5,
@@ -79404,13 +80429,14 @@
       4.3,
       8.6,
       6.4,
-      5.8
+      5.8,
+      8.3
     ]
   },
   "Daru, Papua New Guinea": {
-    "mean_dist": 536.3,
-    "mean_time": 7.4,
-    "std_dist": 451.1,
+    "mean_dist": 535.7,
+    "mean_time": 7.5,
+    "std_dist": 448.5,
     "std_time": 1.3,
     "city": "Daru",
     "admin": "Western",
@@ -79498,7 +80524,8 @@
       -6.632,
       -5.953,
       -6.963,
-      -6.869
+      -6.869,
+      -6.015
     ],
     "lons": [
       "x",
@@ -79583,10 +80610,11 @@
       144.55,
       142.498,
       146.095,
-      144.313
+      144.313,
+      146.333
     ],
-    "mean_lat": -6.242,
-    "mean_lon": 145.185,
+    "mean_lat": -6.236,
+    "mean_lon": 145.216,
     "true_lat": -9.1092,
     "true_lon": 143.2337,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Daru%2C+Papua New Guinea&go=Go&ns0=1",
@@ -79673,6 +80701,7 @@
       "Tuscany",
       "Aargau",
       "Tuscany",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -79757,6 +80786,7 @@
       "Spain",
       "Italy",
       "Switzerland",
+      "Italy",
       "Italy",
       "Italy"
     ],
@@ -79843,7 +80873,8 @@
       311.3,
       360.1,
       395.2,
-      276
+      276,
+      484.8
     ],
     "times": [
       7,
@@ -79928,7 +80959,8 @@
       8.9,
       8.5,
       8.6,
-      8.8
+      8.8,
+      8.7
     ]
   },
   "Padang, Sumatera Barat, Indonesia": {
@@ -80398,10 +81430,10 @@
     ]
   },
   "Martapura, Kalimantan Selatan, Indonesia": {
-    "mean_dist": 537.9,
-    "mean_time": 6.9,
-    "std_dist": 435.2,
-    "std_time": 1.9,
+    "mean_dist": 479.8,
+    "mean_time": 7.1,
+    "std_dist": 419,
+    "std_time": 1.7,
     "city": "Martapura",
     "admin": "Kalimantan Selatan",
     "country": "Indonesia",
@@ -80416,7 +81448,10 @@
       -1.361,
       -2.21,
       -1.852,
-      -4.257
+      -4.257,
+      -7.855,
+      -3.306,
+      -2.948
     ],
     "lons": [
       "x",
@@ -80429,10 +81464,13 @@
       101.864,
       115.198,
       121.378,
-      120.783
+      120.783,
+      111.307,
+      115.198,
+      113.772
     ],
-    "mean_lat": -2.42,
-    "mean_lon": 114.805,
+    "mean_lat": -3.398,
+    "mean_lon": 114.214,
     "true_lat": -3.4135,
     "true_lon": 114.8365,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Martapura%2C+Indonesia&go=Go&ns0=1",
@@ -80447,6 +81485,9 @@
       "Washington",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
+      "Western Australia",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -80459,6 +81500,9 @@
       "Switzerland",
       "United States",
       "Italy",
+      "Italy",
+      "Italy",
+      "Australia",
       "Italy",
       "Italy"
     ],
@@ -80473,7 +81517,10 @@
       1459,
       139.7,
       747,
-      666.4
+      666.4,
+      629.5,
+      41.9,
+      128.9
     ],
     "times": [
       7.7,
@@ -80486,7 +81533,10 @@
       5.7,
       1.1,
       8.2,
-      8
+      8,
+      8.2,
+      6.8,
+      8.1
     ]
   },
   "Tamworth, New South Wales, Australia": {
@@ -80902,9 +81952,9 @@
     ]
   },
   "Bogor, Jawa Barat, Indonesia": {
-    "mean_dist": 512.6,
+    "mean_dist": 502.5,
     "mean_time": 7.3,
-    "std_dist": 440.6,
+    "std_dist": 433,
     "std_time": 1.1,
     "city": "Bogor",
     "admin": "Jawa Barat",
@@ -80930,7 +81980,8 @@
       -7.597,
       -7.697,
       -7.318,
-      -6.869
+      -6.869,
+      -7.318
     ],
     "lons": [
       "x",
@@ -80953,10 +82004,11 @@
       111.681,
       109.494,
       111.395,
-      109.494
+      109.494,
+      109.256
     ],
-    "mean_lat": -7.366,
-    "mean_lon": 110.913,
+    "mean_lat": -7.359,
+    "mean_lon": 110.676,
     "true_lat": -6.57,
     "true_lon": 106.75,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bogor%2C+Indonesia&go=Go&ns0=1",
@@ -80979,6 +82031,7 @@
       "Washington",
       "Aargau",
       "New York",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany"
@@ -81004,6 +82057,7 @@
       "United States",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -81027,7 +82081,8 @@
       556,
       327.7,
       519.5,
-      304.9
+      304.9,
+      288.9
     ],
     "times": [
       7.1,
@@ -81050,7 +82105,8 @@
       8.4,
       6,
       8.2,
-      8.5
+      8.5,
+      8
     ]
   },
   "Griffith, New South Wales, Australia": {
@@ -82180,9 +83236,9 @@
     ]
   },
   "Amahai, Maluku, Indonesia": {
-    "mean_dist": 931.1,
-    "mean_time": 7,
-    "std_dist": 740.9,
+    "mean_dist": 896.6,
+    "mean_time": 7.1,
+    "std_dist": 737.6,
     "std_time": 1.9,
     "city": "Amahai",
     "admin": "Maluku",
@@ -82206,7 +83262,8 @@
       1.038,
       -4.947,
       -2.531,
-      -2.114
+      -2.114,
+      -1.161
     ],
     "lons": [
       "x",
@@ -82227,10 +83284,11 @@
       121.616,
       124.467,
       112.73,
-      120.427
+      120.427,
+      128.864
     ],
-    "mean_lat": -3.106,
-    "mean_lon": 120.116,
+    "mean_lat": -2.944,
+    "mean_lon": 120.845,
     "true_lat": -3.3281,
     "true_lon": 128.9405,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Amahai%2C+Indonesia&go=Go&ns0=1",
@@ -82253,6 +83311,7 @@
       "New York",
       "Lombardy",
       "Cairo",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -82274,6 +83333,7 @@
       "United States",
       "Italy",
       "Egypt",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -82295,7 +83355,8 @@
       947.8,
       527.6,
       1802.2,
-      955.1
+      955.1,
+      241.1
     ],
     "times": [
       5.6,
@@ -82316,7 +83377,8 @@
       7.9,
       7.5,
       0.5,
-      8.4
+      8.4,
+      8.5
     ]
   },
   "Gawler, South Australia, Australia": {
@@ -82886,9 +83948,9 @@
     ]
   },
   "Port-Vila, Vanuatu": {
-    "mean_dist": 828.4,
+    "mean_dist": 816.7,
     "mean_time": 7,
-    "std_dist": 1436,
+    "std_dist": 1427.2,
     "std_time": 1.2,
     "city": "Port-Vila",
     "admin": "Shefa",
@@ -83013,7 +84075,9 @@
       -17.21,
       -16.64,
       -17.119,
-      -16.548
+      -16.548,
+      -15.897,
+      -17.915
     ],
     "lons": [
       "x",
@@ -83135,10 +84199,12 @@
       168.318,
       167.961,
       168.08,
-      168.08
+      168.08,
+      168.258,
+      168.436
     ],
-    "mean_lat": -14.092,
-    "mean_lon": 167.051,
+    "mean_lat": -14.186,
+    "mean_lon": 167.095,
     "true_lat": -17.7334,
     "true_lon": 168.3166,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Port-Vila%2C+Vanuatu&go=Go&ns0=1",
@@ -83262,6 +84328,8 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
+      "Western Australia",
       "Tuscany"
     ],
     "countries": [
@@ -83384,6 +84452,8 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
+      "Australia",
       "Italy"
     ],
     "dists": [
@@ -83506,7 +84576,9 @@
       58.1,
       127.2,
       72.6,
-      134
+      134,
+      204.2,
+      23.9
     ],
     "times": [
       6.5,
@@ -83628,7 +84700,9 @@
       8.5,
       8.4,
       7,
-      8.4
+      8.4,
+      7.6,
+      8.1
     ]
   },
   "Perth, Western Australia, Australia": {
@@ -84122,9 +85196,9 @@
     ]
   },
   "Samarinda, Kalimantan Timur, Indonesia": {
-    "mean_dist": 802.4,
-    "mean_time": 7,
-    "std_dist": 424.7,
+    "mean_dist": 813.3,
+    "mean_time": 7.1,
+    "std_dist": 409.8,
     "std_time": 0.8,
     "city": "Samarinda",
     "admin": "Kalimantan Timur",
@@ -84141,7 +85215,8 @@
       "x",
       -7.714,
       -4.59,
-      1.581
+      1.581,
+      -8.287
     ],
     "lons": [
       "x",
@@ -84155,10 +85230,11 @@
       "x",
       110.742,
       121.615,
-      116.743
+      116.743,
+      120.546
     ],
-    "mean_lat": -3.574,
-    "mean_lon": 116.366,
+    "mean_lat": -4.752,
+    "mean_lon": 117.411,
     "true_lat": -0.5,
     "true_lon": 117.15,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Samarinda%2C+Indonesia&go=Go&ns0=1",
@@ -84174,6 +85250,7 @@
       "Baden-W\u00fcrttemberg",
       "Western Australia",
       "Tuscany",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -84187,6 +85264,7 @@
       "Switzerland",
       "Germany",
       "Australia",
+      "Italy",
       "Italy",
       "Italy"
     ],
@@ -84202,7 +85280,8 @@
       651.2,
       1071.4,
       672.9,
-      235.8
+      235.8,
+      944.1
     ],
     "times": [
       5.3,
@@ -84216,7 +85295,8 @@
       7.8,
       7.6,
       8,
-      7.5
+      7.5,
+      8.4
     ]
   },
   "Goulburn, New South Wales, Australia": {
@@ -84668,10 +85748,10 @@
     ]
   },
   "Wellington, New Zealand": {
-    "mean_dist": 312.6,
-    "mean_time": 7.3,
-    "std_dist": 828.8,
-    "std_time": 0.9,
+    "mean_dist": 305.3,
+    "mean_time": 7.4,
+    "std_dist": 819.4,
+    "std_time": 0.8,
     "city": "Wellington",
     "admin": "Wellington",
     "country": "New Zealand",
@@ -84713,7 +85793,8 @@
       -40.937,
       -41.267,
       -40.926,
-      -41.016
+      -41.016,
+      -41.195
     ],
     "lons": [
       "x",
@@ -84753,10 +85834,11 @@
       174.938,
       173.309,
       174.259,
-      174.972
+      174.972,
+      174.497
     ],
-    "mean_lat": -40.683,
-    "mean_lon": 170.712,
+    "mean_lat": -40.709,
+    "mean_lon": 170.901,
     "true_lat": -41.3,
     "true_lon": 174.7833,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Wellington%2C+New Zealand&go=Go&ns0=1",
@@ -84796,6 +85878,7 @@
       "South Denmark",
       "Tuscany",
       "Aargau",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany"
@@ -84838,6 +85921,7 @@
       "Switzerland",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -84878,7 +85962,8 @@
       42.2,
       123.2,
       60.4,
-      35.3
+      35.3,
+      26.5
     ],
     "times": [
       8,
@@ -84918,7 +86003,8 @@
       8,
       8.5,
       7.9,
-      8.4
+      8.4,
+      8.1
     ]
   },
   "Mojokerto, Jawa Timur, Indonesia": {
@@ -85620,9 +86706,9 @@
     ]
   },
   "Bowen, Queensland, Australia": {
-    "mean_dist": 685.4,
+    "mean_dist": 684.7,
     "mean_time": 7,
-    "std_dist": 448.6,
+    "std_dist": 444.3,
     "std_time": 1.6,
     "city": "Bowen",
     "admin": "Queensland",
@@ -85679,7 +86765,8 @@
       -23.515,
       -24.594,
       -21.138,
-      -24.775
+      -24.775,
+      -24.449
     ],
     "lons": [
       "x",
@@ -85733,10 +86820,11 @@
       150.816,
       149.516,
       149.281,
-      152.394
+      152.394,
+      152.275
     ],
-    "mean_lat": -22.516,
-    "mean_lon": 149.529,
+    "mean_lat": -22.637,
+    "mean_lon": 149.7,
     "true_lat": -20.0013,
     "true_lon": 148.2087,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bowen%2C+Australia&go=Go&ns0=1",
@@ -85792,6 +86880,7 @@
       "Aargau",
       "California",
       "Tuscany",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -85845,6 +86934,7 @@
       "Switzerland",
       "Switzerland",
       "United States",
+      "Italy",
       "Italy",
       "Italy"
     ],
@@ -85900,7 +86990,8 @@
       474.5,
       528.1,
       168.6,
-      683.2
+      683.2,
+      647.8
     ],
     "times": [
       6.2,
@@ -85954,7 +87045,8 @@
       8.3,
       7.9,
       5.5,
-      8.2
+      8.2,
+      8.1
     ]
   },
   "Dubbo, New South Wales, Australia": {
@@ -86364,9 +87456,9 @@
     ]
   },
   "Tuncurry, New South Wales, Australia": {
-    "mean_dist": 266.4,
+    "mean_dist": 268,
     "mean_time": 7.3,
-    "std_dist": 249.3,
+    "std_dist": 245.7,
     "std_time": 1.4,
     "city": "Tuncurry",
     "admin": "New South Wales",
@@ -86403,7 +87495,8 @@
       -31.215,
       -32.51,
       -31.979,
-      -32.329
+      -32.329,
+      -34.278
     ],
     "lons": [
       "x",
@@ -86437,10 +87530,11 @@
       152.836,
       149.542,
       151.921,
-      152.037
+      152.037,
+      150.169
     ],
-    "mean_lat": -32.114,
-    "mean_lon": 150.952,
+    "mean_lat": -32.269,
+    "mean_lon": 150.896,
     "true_lat": -32.1931,
     "true_lon": 152.5266,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tuncurry%2C+Australia&go=Go&ns0=1",
@@ -86476,7 +87570,8 @@
       "England",
       "Tuscany",
       "Aargau",
-      "Tuscany"
+      "Tuscany",
+      "Western Australia"
     ],
     "countries": [
       "Switzerland",
@@ -86510,7 +87605,8 @@
       "United Kingdom",
       "Italy",
       "Switzerland",
-      "Italy"
+      "Italy",
+      "Australia"
     ],
     "dists": [
       121.9,
@@ -86544,7 +87640,8 @@
       112.6,
       282.5,
       61.7,
-      48.4
+      48.4,
+      319
     ],
     "times": [
       8,
@@ -86578,13 +87675,14 @@
       8.1,
       8.1,
       8.4,
-      8
+      8,
+      7.2
     ]
   },
   "Auckland, New Zealand": {
-    "mean_dist": 606.2,
+    "mean_dist": 611.2,
     "mean_time": 6.9,
-    "std_dist": 1542.4,
+    "std_dist": 1523.4,
     "std_time": 1.5,
     "city": "Auckland",
     "admin": "Auckland",
@@ -86628,7 +87726,8 @@
       -37.369,
       -38.914,
       -39.099,
-      -40.836
+      -40.836,
+      -43.901
     ],
     "lons": [
       "x",
@@ -86669,10 +87768,11 @@
       175.058,
       176.161,
       174.497,
-      173.665
+      173.665,
+      172.596
     ],
-    "mean_lat": -36.649,
-    "mean_lon": 167.933,
+    "mean_lat": -37.052,
+    "mean_lon": 168.192,
     "true_lat": -36.8481,
     "true_lon": 174.763,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Auckland%2C+New Zealand&go=Go&ns0=1",
@@ -86713,6 +87813,7 @@
       "Plovdiv",
       "California",
       "Plovdiv",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany"
@@ -86756,6 +87857,7 @@
       "Bulgaria",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -86797,7 +87899,8 @@
       63.6,
       260.4,
       251.4,
-      453.4
+      453.4,
+      805.3
     ],
     "times": [
       6.4,
@@ -86838,14 +87941,15 @@
       7.6,
       8.2,
       8.2,
-      8.4
+      8.4,
+      7.7
     ]
   },
   "Paraparaumu, New Zealand": {
-    "mean_dist": 391.7,
+    "mean_dist": 385.2,
     "mean_time": 7.3,
-    "std_dist": 735.6,
-    "std_time": 1.1,
+    "std_dist": 718.1,
+    "std_time": 1.2,
     "city": "Paraparaumu",
     "admin": "Wellington",
     "country": "New Zealand",
@@ -86888,7 +87992,9 @@
       -38.149,
       -38.728,
       -39.007,
-      -38.728
+      -38.728,
+      -38.943,
+      -38.448
     ],
     "lons": [
       "x",
@@ -86929,10 +88035,12 @@
       175.804,
       176.042,
       175.567,
-      175.567
+      175.567,
+      175.889,
+      176.042
     ],
-    "mean_lat": -38.358,
-    "mean_lon": 173.155,
+    "mean_lat": -38.39,
+    "mean_lon": 173.423,
     "true_lat": -40.9034,
     "true_lon": 174.9989,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Paraparaumu%2C+New Zealand&go=Go&ns0=1",
@@ -86975,6 +88083,8 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
+      "Western Australia",
       "Tuscany"
     ],
     "countries": [
@@ -87016,6 +88126,8 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
+      "Australia",
       "Italy"
     ],
     "dists": [
@@ -87057,7 +88169,9 @@
       313.9,
       257.7,
       216.3,
-      246.6
+      246.6,
+      230.8,
+      287.1
     ],
     "times": [
       6.8,
@@ -87098,6 +88212,8 @@
       8.4,
       8.3,
       8.5,
+      8.8,
+      8.4,
       8.8
     ]
   },
@@ -88054,9 +89170,9 @@
     ]
   },
   "Manado, Sulawesi Utara, Indonesia": {
-    "mean_dist": 1181.7,
+    "mean_dist": 1155.6,
     "mean_time": 7,
-    "std_dist": 929.5,
+    "std_dist": 921.8,
     "std_time": 1.2,
     "city": "Manado",
     "admin": "Sulawesi Utara",
@@ -88087,7 +89203,8 @@
       1.763,
       -0.178,
       1.06,
-      -2.114
+      -2.114,
+      -0.684
     ],
     "lons": [
       "x",
@@ -88115,10 +89232,11 @@
       125.007,
       103.049,
       124.941,
+      121.14,
       121.14
     ],
-    "mean_lat": 0.132,
-    "mean_lon": 118.534,
+    "mean_lat": -0.03,
+    "mean_lon": 119.055,
     "true_lat": 1.48,
     "true_lon": 124.85,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Manado%2C+Indonesia&go=Go&ns0=1",
@@ -88148,6 +89266,7 @@
       "North Holland",
       "South Holland",
       "Aargau",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -88176,6 +89295,7 @@
       "Netherlands",
       "Netherlands",
       "Switzerland",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -88204,7 +89324,8 @@
       36.1,
       2430.9,
       47.7,
-      574.3
+      574.3,
+      477.5
     ],
     "times": [
       6.9,
@@ -88232,7 +89353,8 @@
       6.8,
       2.8,
       8,
-      7.9
+      7.9,
+      8.3
     ]
   },
   "Jambi, Jambi, Indonesia": {
@@ -88412,9 +89534,9 @@
     ]
   },
   "Banda Aceh, Aceh, Indonesia": {
-    "mean_dist": 1249.1,
+    "mean_dist": 1290.3,
     "mean_time": 7.2,
-    "std_dist": 1192.8,
+    "std_dist": 1184.3,
     "std_time": 0.7,
     "city": "Banda Aceh",
     "admin": "Aceh",
@@ -88442,7 +89564,8 @@
       -3.659,
       2.296,
       -3.083,
-      4.796
+      4.796,
+      -7.574
     ],
     "lons": [
       "x",
@@ -88467,10 +89590,11 @@
       104.235,
       99.037,
       121.307,
-      96.422
+      96.422,
+      110.6
     ],
-    "mean_lat": -2.672,
-    "mean_lon": 107.607,
+    "mean_lat": -3.162,
+    "mean_lon": 107.906,
     "true_lat": 5.55,
     "true_lon": 95.32,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Banda Aceh%2C+Indonesia&go=Go&ns0=1",
@@ -88497,7 +89621,8 @@
       "Berlin",
       "Tuscany",
       "Balearic Islands",
-      "Tuscany"
+      "Tuscany",
+      "Western Australia"
     ],
     "countries": [
       "Switzerland",
@@ -88522,7 +89647,8 @@
       "Germany",
       "Italy",
       "Spain",
-      "Italy"
+      "Italy",
+      "Australia"
     ],
     "dists": [
       48.6,
@@ -88547,7 +89673,8 @@
       1424.4,
       548.4,
       3041.6,
-      148.1
+      148.1,
+      2236.8
     ],
     "times": [
       7,
@@ -88572,13 +89699,14 @@
       5.9,
       8.1,
       6.7,
-      8.2
+      8.2,
+      8
     ]
   },
   "Jayapura, Papua, Indonesia": {
-    "mean_dist": 740,
+    "mean_dist": 705.7,
     "mean_time": 7.4,
-    "std_dist": 1161.3,
+    "std_dist": 1143.7,
     "std_time": 0.7,
     "city": "Jayapura",
     "admin": "Papua",
@@ -88603,7 +89731,8 @@
       -4.989,
       -2.924,
       -4.78,
-      -3.067
+      -3.067,
+      -2.71
     ],
     "lons": [
       "x",
@@ -88625,10 +89754,11 @@
       139.132,
       135.044,
       139.19,
-      140.391
+      140.391,
+      140.748
     ],
-    "mean_lat": -4.154,
-    "mean_lon": 139.193,
+    "mean_lat": -4.023,
+    "mean_lon": 139.335,
     "true_lat": -2.533,
     "true_lon": 140.7,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Jayapura%2C+Indonesia&go=Go&ns0=1",
@@ -88652,6 +89782,7 @@
       "New York",
       "Tuscany",
       "Aargau",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -88674,6 +89805,7 @@
       "United States",
       "Italy",
       "Switzerland",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -88696,7 +89828,8 @@
       323.8,
       629.6,
       300.8,
-      68.6
+      68.6,
+      20.4
     ],
     "times": [
       7.3,
@@ -88718,7 +89851,8 @@
       8.6,
       8.2,
       8,
-      7.4
+      7.4,
+      8.3
     ]
   },
   "Salatiga, Jawa Tengah, Indonesia": {
@@ -88850,10 +89984,10 @@
     ]
   },
   "Probolinggo, Jawa Timur, Indonesia": {
-    "mean_dist": 535.9,
-    "mean_time": 6.6,
-    "std_dist": 703.5,
-    "std_time": 2.4,
+    "mean_dist": 519.5,
+    "mean_time": 6.7,
+    "std_dist": 688.2,
+    "std_time": 2.3,
     "city": "Probolinggo",
     "admin": "Jawa Timur",
     "country": "Indonesia",
@@ -88875,7 +90009,8 @@
       -8.147,
       -8.287,
       -8.382,
-      -7.46
+      -7.46,
+      -8.405
     ],
     "lons": [
       "x",
@@ -88895,10 +90030,11 @@
       118.98,
       113.297,
       112.821,
-      112.821
+      112.821,
+      115.079
     ],
-    "mean_lat": -6.424,
-    "mean_lon": 113.71,
+    "mean_lat": -6.671,
+    "mean_lon": 113.881,
     "true_lat": -7.7496,
     "true_lon": 113.15,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Probolinggo%2C+Indonesia&go=Go&ns0=1",
@@ -88918,6 +90054,7 @@
       "\u00d8stfold",
       "California",
       "Aargau",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany"
@@ -88940,6 +90077,7 @@
       "Switzerland",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -88960,7 +90098,8 @@
       643.5,
       61.9,
       79,
-      48.3
+      48.3,
+      224.6
     ],
     "times": [
       2.4,
@@ -88980,13 +90119,14 @@
       8.4,
       8,
       8.3,
+      8.1,
       8.1
     ]
   },
   "Melaka, Malaysia": {
-    "mean_dist": 250,
-    "mean_time": 7,
-    "std_dist": 390.6,
+    "mean_dist": 245.4,
+    "mean_time": 7.1,
+    "std_dist": 382,
     "std_time": 1.6,
     "city": "Melaka",
     "admin": "Melaka",
@@ -89032,7 +90172,9 @@
       4.344,
       3.035,
       3.249,
-      3.963
+      3.963,
+      3.511,
+      3.606
     ],
     "lons": [
       "x",
@@ -89075,10 +90217,12 @@
       102.958,
       102.007,
       103.077,
-      102.126
+      102.126,
+      102.126,
+      102.483
     ],
-    "mean_lat": 1.927,
-    "mean_lon": 104.788,
+    "mean_lat": 2.178,
+    "mean_lon": 104.405,
     "true_lat": 2.2064,
     "true_lon": 102.2465,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Melaka%2C+Malaysia&go=Go&ns0=1",
@@ -89120,6 +90264,8 @@
       "New South Wales",
       "Bavaria",
       "Victoria",
+      "Tuscany",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany",
@@ -89166,6 +90312,8 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -89209,7 +90357,9 @@
       250.5,
       95.9,
       148.2,
-      195.8
+      195.8,
+      145.7,
+      157.9
     ],
     "times": [
       7.2,
@@ -89252,7 +90402,9 @@
       8.7,
       8.7,
       8.6,
-      8.6
+      8.6,
+      8.2,
+      8.8
     ]
   },
   "Parepare, Sulawesi Selatan, Indonesia": {
@@ -89360,9 +90512,9 @@
     ]
   },
   "Magelang, Jawa Tengah, Indonesia": {
-    "mean_dist": 376.7,
-    "mean_time": 6.7,
-    "std_dist": 498.5,
+    "mean_dist": 362.6,
+    "mean_time": 6.8,
+    "std_dist": 492.7,
     "std_time": 1.4,
     "city": "Magelang",
     "admin": "Jawa Tengah",
@@ -89390,7 +90542,8 @@
       -7.419,
       -4.915,
       -3.555,
-      -7.697
+      -7.697,
+      -7.815
     ],
     "lons": [
       "x",
@@ -89415,10 +90568,11 @@
       111.137,
       121.803,
       104.026,
-      110.326
+      110.326,
+      110.088
     ],
-    "mean_lat": -6.51,
-    "mean_lon": 112.415,
+    "mean_lat": -6.619,
+    "mean_lon": 112.221,
     "true_lat": -7.4696,
     "true_lon": 110.18,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Magelang%2C+Indonesia&go=Go&ns0=1",
@@ -89445,6 +90599,7 @@
       "Vienna",
       "Vienna",
       "Upper Austria",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -89470,6 +90625,7 @@
       "Austria",
       "Austria",
       "Austria",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -89495,7 +90651,8 @@
       105.6,
       1315.8,
       808.1,
-      30
+      30,
+      39.7
     ],
     "times": [
       8,
@@ -89520,7 +90677,8 @@
       4,
       5.5,
       5.3,
-      7.6
+      7.6,
+      8.9
     ]
   },
   "Sampit, Kalimantan Tengah, Indonesia": {
@@ -89658,9 +90816,9 @@
     ]
   },
   "Brisbane, Queensland, Australia": {
-    "mean_dist": 210.1,
+    "mean_dist": 205.6,
     "mean_time": 7.7,
-    "std_dist": 300.4,
+    "std_dist": 298.4,
     "std_time": 1.2,
     "city": "Brisbane",
     "admin": "Queensland",
@@ -89708,7 +90866,8 @@
       -26.409,
       -27.684,
       -27.155,
-      -27.789
+      -27.789,
+      -27.578
     ],
     "lons": [
       "x",
@@ -89753,10 +90912,11 @@
       153.107,
       152.988,
       153.225,
+      153.107,
       153.107
     ],
-    "mean_lat": -27.957,
-    "mean_lon": 152.413,
+    "mean_lat": -27.933,
+    "mean_lon": 152.456,
     "true_lat": -27.455,
     "true_lon": 153.0351,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Brisbane%2C+Australia&go=Go&ns0=1",
@@ -89798,6 +90958,7 @@
       "Aargau",
       "California",
       "California",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany",
@@ -89848,6 +91009,7 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -89893,7 +91055,8 @@
       116.4,
       25.9,
       38.3,
-      37.9
+      37.9,
+      15.4
     ],
     "times": [
       1.3,
@@ -89938,14 +91101,15 @@
       8.7,
       8.6,
       8.5,
-      8.2
+      8.2,
+      8.5
     ]
   },
   "Prabumulih, Sumatera Selatan, Indonesia": {
-    "mean_dist": 656,
-    "mean_time": 6.6,
-    "std_dist": 668.9,
-    "std_time": 1.7,
+    "mean_dist": 623.8,
+    "mean_time": 6.7,
+    "std_dist": 661.6,
+    "std_time": 1.6,
     "city": "Prabumulih",
     "admin": "Sumatera Selatan",
     "country": "Indonesia",
@@ -89965,7 +91129,8 @@
       -7.829,
       -2.612,
       -6.69,
-      -2.192
+      -2.192,
+      -4.376
     ],
     "lons": [
       "x",
@@ -89983,10 +91148,11 @@
       114.566,
       115.006,
       109.359,
-      102.771
+      102.771,
+      104.503
     ],
-    "mean_lat": -4.959,
-    "mean_lon": 114.5,
+    "mean_lat": -4.876,
+    "mean_lon": 113.072,
     "true_lat": -3.4432,
     "true_lon": 104.2315,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Prabumulih%2C+Indonesia&go=Go&ns0=1",
@@ -90006,7 +91172,8 @@
       "Berlin",
       "Aargau",
       "Harjumaa",
-      "Harjumaa"
+      "Harjumaa",
+      "Tuscany"
     ],
     "countries": [
       "Australia",
@@ -90024,7 +91191,8 @@
       "Germany",
       "Switzerland",
       "Estonia",
-      "Estonia"
+      "Estonia",
+      "Italy"
     ],
     "dists": [
       1170.7,
@@ -90042,7 +91210,8 @@
       1243,
       1200,
       672.9,
-      213.6
+      213.6,
+      108.1
     ],
     "times": [
       2.2,
@@ -90060,7 +91229,8 @@
       7.4,
       7.8,
       5,
-      5
+      5,
+      7.4
     ]
   },
   "Tegal, Jawa Tengah, Indonesia": {
@@ -90326,9 +91496,9 @@
     ]
   },
   "Tuban, Jawa Timur, Indonesia": {
-    "mean_dist": 254.8,
-    "mean_time": 7.7,
-    "std_dist": 311.6,
+    "mean_dist": 252.5,
+    "mean_time": 7.8,
+    "std_dist": 295.7,
     "std_time": 0.5,
     "city": "Tuban",
     "admin": "Jawa Timur",
@@ -90350,7 +91520,9 @@
       "x",
       -9.025,
       -7.445,
-      -7.017
+      -7.017,
+      -7.293,
+      -8.264
     ],
     "lons": [
       "x",
@@ -90369,10 +91541,12 @@
       "x",
       125.015,
       109.96,
-      110.699
+      110.699,
+      109.329,
+      111.514
     ],
-    "mean_lat": -7.829,
-    "mean_lon": 115.224,
+    "mean_lat": -7.808,
+    "mean_lon": 113.303,
     "true_lat": -6.8995,
     "true_lon": 112.05,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tuban%2C+Indonesia&go=Go&ns0=1",
@@ -90393,7 +91567,9 @@
       "Baden-W\u00fcrttemberg",
       "New York",
       "Tuscany",
-      "Aargau"
+      "Aargau",
+      "Western Australia",
+      "Tuscany"
     ],
     "countries": [
       "Canada",
@@ -90412,7 +91588,9 @@
       "Germany",
       "United States",
       "Italy",
-      "Switzerland"
+      "Switzerland",
+      "Australia",
+      "Italy"
     ],
     "dists": [
       375.5,
@@ -90431,7 +91609,9 @@
       183.3,
       1447,
       238.3,
-      149.6
+      149.6,
+      303.4,
+      162.7
     ],
     "times": [
       8.3,
@@ -90450,7 +91630,9 @@
       8.2,
       8.1,
       6.2,
-      7
+      7,
+      8,
+      8.4
     ]
   },
   "Praya, Nusa Tenggara Barat, Indonesia": {
@@ -90600,10 +91782,10 @@
     ]
   },
   "Tasikmalaya, Jawa Barat, Indonesia": {
-    "mean_dist": 231.5,
-    "mean_time": 7.7,
-    "std_dist": 209.2,
-    "std_time": 0.9,
+    "mean_dist": 226.7,
+    "mean_time": 7.8,
+    "std_dist": 192.7,
+    "std_time": 0.8,
     "city": "Tasikmalaya",
     "admin": "Jawa Barat",
     "country": "Indonesia",
@@ -90623,7 +91805,10 @@
       -7.555,
       -7.815,
       -7.933,
-      -7.318
+      -7.318,
+      -7.714,
+      -7.46,
+      -7.697
     ],
     "lons": [
       "x",
@@ -90641,10 +91826,13 @@
       110.445,
       109.019,
       111.039,
-      108.662
+      108.662,
+      109.611,
+      110.088,
+      110.326
     ],
-    "mean_lat": -6.153,
-    "mean_lon": 108.806,
+    "mean_lat": -6.594,
+    "mean_lon": 109.167,
     "true_lat": -7.3254,
     "true_lon": 108.2147,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tasikmalaya%2C+Indonesia&go=Go&ns0=1",
@@ -90664,6 +91852,9 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
+      "Western Australia",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -90681,6 +91872,9 @@
       "Denmark",
       "Italy",
       "Italy",
+      "Italy",
+      "Italy",
+      "Australia",
       "Italy",
       "Italy"
     ],
@@ -90700,7 +91894,10 @@
       247.2,
       104,
       318.5,
-      49.4
+      49.4,
+      159.9,
+      207.1,
+      236.4
     ],
     "times": [
       8.3,
@@ -90718,7 +91915,10 @@
       8,
       8,
       8.1,
-      8.5
+      8.5,
+      7.8,
+      8.2,
+      8.4
     ]
   },
   "Kupang, Nusa Tenggara Timur, Indonesia": {
@@ -90958,7 +92158,8 @@
       -16.243,
       -14.573,
       -15.057,
-      -14.365
+      -14.365,
+      -14.249
     ],
     "lons": [
       219.4078431372549,
@@ -90998,16 +92199,17 @@
       215.686,
       190.302,
       190.064,
+      189.47,
       189.47
     ],
     "true_lat": -14.274,
     "true_lon": -170.7046,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Pago Pago%2C+American Samoa&go=Go&ns0=1",
-    "mean_dist": 1254,
-    "mean_lat": -12.639,
-    "mean_lon": 192.966,
-    "mean_time": 6.9,
-    "std_dist": 1500.1,
+    "mean_dist": 1222.3,
+    "mean_lat": -12.68,
+    "mean_lon": 192.877,
+    "mean_time": 7,
+    "std_dist": 1493.5,
     "std_time": 1.5,
     "city": "Pago Pago",
     "admin": "",
@@ -91050,6 +92252,7 @@
       "Balearic Islands",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -91088,6 +92291,7 @@
       "United States",
       "Bulgaria",
       "Spain",
+      "Italy",
       "Italy",
       "Italy",
       "Italy"
@@ -91130,7 +92334,8 @@
       2837.6,
       113.4,
       120.1,
-      21.4
+      21.4,
+      19
     ],
     "times": [
       6.600000000000012,
@@ -91170,7 +92375,8 @@
       8,
       8,
       8.3,
-      8.4
+      8.4,
+      8.2
     ]
   },
   "Nuku\u2018alofa, Tonga": {
@@ -91213,7 +92419,9 @@
       -8.523,
       -2.478,
       -21.507,
-      -8.877
+      -8.877,
+      -8.287,
+      -20.951
     ],
     "lons": [
       188.71437908496733,
@@ -91254,17 +92462,19 @@
       179.013,
       120.984,
       184.955,
-      187.569
+      187.569,
+      178.181,
+      185.668
     ],
     "true_lat": -21.1385,
     "true_lon": -175.2206,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Nuku\u2018alofa%2C+Tonga&go=Go&ns0=1",
-    "mean_dist": 1902.9,
-    "mean_lat": -14.826,
-    "mean_lon": 177.02,
+    "mean_dist": 1851.2,
+    "mean_lat": -14.816,
+    "mean_lon": 177.259,
     "mean_time": 6.1,
-    "std_dist": 2035.2,
-    "std_time": 2.1,
+    "std_dist": 2004.8,
+    "std_time": 2,
     "city": "Nuku\u2018alofa",
     "admin": "Tongatapu",
     "country": "Tonga",
@@ -91307,6 +92517,8 @@
       "Tuscany",
       "Massachusetts",
       "Tuscany",
+      "Tuscany",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -91347,6 +92559,8 @@
       "Italy",
       "Italy",
       "United States",
+      "Italy",
+      "Italy",
       "Italy",
       "Italy"
     ],
@@ -91389,7 +92603,9 @@
       1532.9,
       7196.2,
       44.9,
-      1395.7
+      1395.7,
+      1594.6,
+      94.5
     ],
     "times": [
       6.800000000000011,
@@ -91430,7 +92646,9 @@
       6.9,
       7.1,
       8.5,
-      8.3
+      8.3,
+      7.1,
+      8
     ]
   },
   "Waipahu, Hawaii, United States": {
@@ -91768,7 +92986,10 @@
       13.506,
       13.059,
       13.384,
-      13.268
+      13.268,
+      13.268,
+      10.218,
+      13.035
     ],
     "lons": [
       145.38823529411764,
@@ -91810,16 +93031,19 @@
       144.632,
       144.907,
       144.55,
+      144.788,
+      145.264,
+      105.796,
       144.788
     ],
     "true_lat": 13.4745,
     "true_lon": 144.7504,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Hag\u00e5t\u00f1a%2C+Guam&go=Go&ns0=1",
-    "mean_dist": 1760.8,
-    "mean_lat": 6.912,
-    "mean_lon": 155.894,
+    "mean_dist": 1739.3,
+    "mean_lat": 7.279,
+    "mean_lon": 154.223,
     "mean_time": 7.1,
-    "std_dist": 2867.8,
+    "std_dist": 2816,
     "std_time": 1.7,
     "city": "Hag\u00e5t\u00f1a",
     "admin": "",
@@ -91864,6 +93088,9 @@
       "Aargau",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
+      "Tuscany",
+      "Western Australia",
       "Tuscany"
     ],
     "countries": [
@@ -91906,6 +93133,9 @@
       "Switzerland",
       "Italy",
       "Italy",
+      "Italy",
+      "Italy",
+      "Australia",
       "Italy"
     ],
     "dists": [
@@ -91948,7 +93178,10 @@
       13.2,
       49.2,
       23.7,
-      23.3
+      23.3,
+      60.1,
+      4250.4,
+      48.9
     ],
     "times": [
       6.600000000000012,
@@ -91990,7 +93223,10 @@
       8.3,
       8.4,
       8,
-      7.8
+      7.8,
+      7.6,
+      7.2,
+      8.5
     ]
   },
   "Kailua, Hawaii, United States": {
@@ -92135,7 +93371,10 @@
       -18.048,
       -14.066,
       -13.323,
-      -13.206
+      -13.206,
+      -16.85,
+      -17.797,
+      -14.249
     ],
     "lons": [
       184.76666666666665,
@@ -92182,17 +93421,20 @@
       179.215,
       182.514,
       184.479,
-      183.885
+      183.885,
+      216.73,
+      178.998,
+      182.221
     ],
     "true_lat": -14.2933,
     "true_lon": -178.1583,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Leava%2C+Wallis And Futuna&go=Go&ns0=1",
-    "mean_dist": 1623.3,
-    "mean_lat": -14.875,
-    "mean_lon": 179.994,
+    "mean_dist": 1610.9,
+    "mean_lat": -14.964,
+    "mean_lon": 180.785,
     "mean_time": 5.8,
-    "std_dist": 1705.4,
-    "std_time": 1.7,
+    "std_dist": 1702.5,
+    "std_time": 1.6,
     "city": "Leava",
     "admin": "Sigave",
     "country": "Wallis And Futuna",
@@ -92241,6 +93483,9 @@
       "Texas",
       "Aargau",
       "Tuscany",
+      "Tuscany",
+      "Western Australia",
+      "Western Australia",
       "Tuscany"
     ],
     "countries": [
@@ -92288,6 +93533,9 @@
       "United States",
       "Switzerland",
       "Italy",
+      "Italy",
+      "Australia",
+      "Australia",
       "Italy"
     ],
     "dists": [
@@ -92335,7 +93583,10 @@
       502.9,
       76.7,
       304.5,
-      251.6
+      251.6,
+      3743.1,
+      494,
+      41.2
     ],
     "times": [
       7.700000000000008,
@@ -92382,7 +93633,10 @@
       5.1,
       7.3,
       7.2,
-      7.5
+      7.5,
+      6.8,
+      7.1,
+      5.6
     ]
   },
   "Kahului, Hawaii, United States": {
@@ -92499,7 +93753,8 @@
       12.942,
       12.593,
       13.035,
-      13.5
+      13.5,
+      12.942
     ],
     "lons": [
       145.6843137254902,
@@ -92550,16 +93805,17 @@
       144.788,
       144.788,
       144.788,
-      144.907
+      144.907,
+      144.55
     ],
     "true_lat": 13.4692,
     "true_lon": 144.7332,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Maina%2C+Guam&go=Go&ns0=1",
-    "mean_dist": 1700.8,
-    "mean_lat": 6.978,
-    "mean_lon": 148.754,
+    "mean_dist": 1668.1,
+    "mean_lat": 7.098,
+    "mean_lon": 148.67,
     "mean_time": 6.9,
-    "std_dist": 1996.4,
+    "std_dist": 1989.6,
     "std_time": 1.8,
     "city": "Maina",
     "admin": "",
@@ -92610,6 +93866,7 @@
       "Tuscany",
       "Aargau",
       "Aargau",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany",
@@ -92664,6 +93921,7 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -92715,7 +93973,8 @@
       58.8,
       97.5,
       48.5,
-      19.1
+      19.1,
+      61.7
     ],
     "times": [
       7.666666666666675,
@@ -92766,7 +94025,8 @@
       8.1,
       8.4,
       8.3,
-      8.1
+      8.1,
+      8.2
     ]
   },
   "Ocean Pointe, Hawaii, United States": {
@@ -92890,7 +94150,9 @@
       -16.868,
       -17.665,
       -17.575,
-      -18.142
+      -18.142,
+      -17.121,
+      -17.575
     ],
     "lons": [
       211.41372549019607,
@@ -92942,16 +94204,18 @@
       208.484,
       210.504,
       210.623,
-      211.098
+      211.098,
+      218.85,
+      210.623
     ],
     "true_lat": -17.5334,
     "true_lon": -149.5667,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Papeete%2C+French Polynesia&go=Go&ns0=1",
-    "mean_dist": 3051.4,
-    "mean_lat": -12.504,
-    "mean_lon": 186.426,
+    "mean_dist": 2951.6,
+    "mean_lat": -12.69,
+    "mean_lon": 187.515,
     "mean_time": 6.6,
-    "std_dist": 3151.7,
+    "std_dist": 3131.7,
     "std_time": 1.3,
     "city": "Papeete",
     "admin": "\u00celes du Vent",
@@ -93006,6 +94270,8 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
+      "Western Australia",
       "Tuscany"
     ],
     "countries": [
@@ -93058,6 +94324,8 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
+      "Australia",
       "Italy"
     ],
     "dists": [
@@ -93110,7 +94378,9 @@
       219.8,
       16.5,
       20.6,
-      97.7
+      97.7,
+      894.5,
+      20.6
     ],
     "times": [
       7.033333333333344,
@@ -93162,7 +94432,9 @@
       7,
       8,
       8.1,
-      8.1
+      8.1,
+      8.2,
+      7.4
     ]
   },
   "Halawa, Hawaii, United States": {
@@ -93242,7 +94514,10 @@
       -21.485,
       -22.061,
       -21.174,
-      -25.444
+      -25.444,
+      -25.013,
+      -24.904,
+      -21.729
     ],
     "lons": [
       215.55882352941177,
@@ -93288,17 +94563,20 @@
       201.235,
       201.829,
       202.186,
-      230.231
+      230.231,
+      229.042,
+      229.637,
+      200.76
     ],
     "true_lat": -21.25,
     "true_lon": -159.75,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Avarua%2C+Cook Islands&go=Go&ns0=1",
-    "mean_dist": 1910.6,
-    "mean_lat": -21.996,
-    "mean_lon": 193.748,
-    "mean_time": 6.7,
-    "std_dist": 1602.2,
-    "std_time": 1.7,
+    "mean_dist": 1917.8,
+    "mean_lat": -22.117,
+    "mean_lon": 195.412,
+    "mean_time": 6.8,
+    "std_dist": 1589.1,
+    "std_time": 1.6,
     "city": "Avarua",
     "admin": "",
     "country": "Cook Islands",
@@ -93343,6 +94621,9 @@
       "Pennsylvania",
       "Tuscany",
       "Canterbury",
+      "Tuscany",
+      "Tuscany",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany",
@@ -93392,6 +94673,9 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
+      "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -93438,7 +94722,10 @@
       105.3,
       186.5,
       200.8,
-      3089.5
+      3089.5,
+      2968.1,
+      3027.6,
+      75
     ],
     "times": [
       7.566666666666675,
@@ -93484,7 +94771,10 @@
       7.2,
       7.8,
       8,
-      8.3
+      8.3,
+      8.1,
+      8,
+      8.1
     ]
   },
   "Lahaina, Hawaii, United States": {
@@ -93592,6 +94882,8 @@
       20.787,
       21.01,
       21.344,
+      20.787,
+      20.787,
       20.787
     ],
     "lons": [
@@ -93634,16 +94926,18 @@
       203.612,
       203.968,
       203.136,
-      203.018
+      203.018,
+      203.731,
+      202.899
     ],
     "true_lat": 20.8834,
     "true_lon": -156.5059,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Wailuku%2C+United States&go=Go&ns0=1",
-    "mean_dist": 1347.1,
-    "mean_lat": 14.789,
-    "mean_lon": 206.909,
-    "mean_time": 7,
-    "std_dist": 2667.4,
+    "mean_dist": 1285.1,
+    "mean_lat": 15.075,
+    "mean_lon": 206.738,
+    "mean_time": 7.1,
+    "std_dist": 2617.8,
     "std_time": 1.8,
     "city": "Wailuku",
     "admin": "Hawaii",
@@ -93681,6 +94975,8 @@
       "Canterbury",
       "South Denmark",
       "Aargau",
+      "Tuscany",
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany",
@@ -93730,6 +95026,8 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
@@ -93772,7 +95070,9 @@
       16.2,
       51.2,
       63.2,
-      50.6
+      50.6,
+      26.8,
+      62.7
     ],
     "times": [
       7.9,
@@ -93814,7 +95114,9 @@
       8.9,
       8.4,
       8.4,
-      8.4
+      8.4,
+      8,
+      8.3
     ]
   },
   "Lihue, Hawaii, United States": {
@@ -93860,7 +95162,8 @@
       20.809,
       21.477,
       20.341,
-      22.34
+      22.34,
+      20.46
     ],
     "lons": [
       204.418,
@@ -93904,16 +95207,17 @@
       203.136,
       201.116,
       202.899,
-      200.047
+      200.047,
+      203.588
     ],
     "true_lat": 21.9728,
     "true_lon": -159.3541,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Lihue%2C+United States&go=Go&ns0=1",
-    "mean_dist": 300.2,
-    "mean_lat": 20.674,
-    "mean_lon": 203.064,
+    "mean_dist": 301.3,
+    "mean_lat": 20.669,
+    "mean_lon": 203.076,
     "mean_time": 7.2,
-    "std_dist": 154.8,
+    "std_dist": 153.2,
     "std_time": 1.4,
     "city": "Lihue",
     "admin": "Hawaii",
@@ -93960,7 +95264,8 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
-      "Tuscany"
+      "Tuscany",
+      "Western Australia"
     ],
     "countries": [
       "Switzerland",
@@ -94004,7 +95309,8 @@
       "Italy",
       "Italy",
       "Italy",
-      "Italy"
+      "Italy",
+      "Australia"
     ],
     "dists": [
       462.9,
@@ -94048,7 +95354,8 @@
       288.4,
       73.4,
       295.8,
-      73.9
+      73.9,
+      348.2
     ],
     "times": [
       7.9,
@@ -94092,7 +95399,8 @@
       8.5,
       8.3,
       8.6,
-      8.2
+      8.2,
+      7.6
     ]
   },
   "Atafu, Tokelau": {
@@ -94140,7 +95448,12 @@
       -13.647,
       -19.272,
       -19.272,
-      -11.974
+      -11.974,
+      -19.497,
+      -19.272,
+      -18.606,
+      -19.272,
+      -6.276
     ],
     "lons": [
       205.04575163398692,
@@ -94186,16 +95499,21 @@
       184.123,
       189.946,
       186.143,
-      176.729
+      176.729,
+      189.946,
+      190.064,
+      221.111,
+      190.064,
+      187.094
     ],
     "true_lat": -8.551667,
     "true_lon": -172.500833,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Atafu%2C+Tokelau&go=Go&ns0=1",
-    "mean_dist": 1770,
-    "mean_lat": -12.362,
-    "mean_lon": 182.074,
-    "mean_time": 6.3,
-    "std_dist": 984.4,
+    "mean_dist": 1747.4,
+    "mean_lat": -12.792,
+    "mean_lon": 183.46,
+    "mean_time": 6.4,
+    "std_dist": 1008.8,
     "std_time": 1.7,
     "city": "Atafu",
     "admin": "",
@@ -94244,7 +95562,12 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
-      "Texas"
+      "Texas",
+      "Tuscany",
+      "Tuscany",
+      "Western Australia",
+      "Tuscany",
+      "Tuscany"
     ],
     "countries": [
       "United States",
@@ -94290,7 +95613,12 @@
       "Italy",
       "Italy",
       "Italy",
-      "United States"
+      "United States",
+      "Italy",
+      "Italy",
+      "Australia",
+      "Italy",
+      "Italy"
     ],
     "dists": [
       1986.8973655015116,
@@ -94336,7 +95664,12 @@
       675.7,
       1220.8,
       1200.9,
-      1238
+      1238,
+      1245.2,
+      1223.7,
+      3793,
+      1223.7,
+      256.8
     ],
     "times": [
       7.500000000000009,
@@ -94382,7 +95715,12 @@
       7.4,
       7.9,
       6.2,
-      5.1
+      5.1,
+      8.3,
+      8.2,
+      7.3,
+      8.5,
+      7.7
     ]
   },
   "Hilo, Hawaii, United States": {
@@ -94430,7 +95768,10 @@
       21.718,
       20.465,
       20.899,
-      21.01
+      21.01,
+      20.99,
+      19.259,
+      19.556
     ],
     "lons": [
       201.908,
@@ -94476,16 +95817,19 @@
       202.83,
       203.322,
       203.493,
-      203.374
+      203.374,
+      203.588,
+      204.435,
+      204.325
     ],
     "true_lat": 19.6886,
     "true_lon": -155.0864,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Hilo%2C+United States&go=Go&ns0=1",
-    "mean_dist": 1006.9,
-    "mean_lat": 15.686,
-    "mean_lon": 205.137,
-    "mean_time": 6.3,
-    "std_dist": 1967.2,
+    "mean_dist": 949.7,
+    "mean_lat": 15.958,
+    "mean_lon": 205.072,
+    "mean_time": 6.4,
+    "std_dist": 1916,
     "std_time": 1.8,
     "city": "Hilo",
     "admin": "Hawaii",
@@ -94534,6 +95878,9 @@
       "North Holland",
       "Aargau",
       "Tuscany",
+      "Tuscany",
+      "Western Australia",
+      "Western Australia",
       "Tuscany"
     ],
     "countries": [
@@ -94580,6 +95927,9 @@
       "Netherlands",
       "Switzerland",
       "Italy",
+      "Italy",
+      "Australia",
+      "Australia",
       "Italy"
     ],
     "dists": [
@@ -94626,7 +95976,10 @@
       312.8,
       187.2,
       200.1,
-      217.6
+      217.6,
+      200.1,
+      69.1,
+      63.3
     ],
     "times": [
       8.2,
@@ -94672,7 +96025,10 @@
       6.6,
       8.3,
       8.2,
-      8.1
+      8.1,
+      8,
+      8,
+      7
     ]
   },
   "Capitol Hill, Northern Mariana Islands": {
@@ -94734,7 +96090,9 @@
       14.91,
       14.679,
       14.426,
-      14.656
+      14.656,
+      16.016,
+      14.772
     ],
     "lons": [
       145.43790849673204,
@@ -94794,16 +96152,18 @@
       146.095,
       145.382,
       145.739,
-      145.382
+      145.382,
+      145.93,
+      145.977
     ],
     "true_lat": 15.2137,
     "true_lon": 145.7546,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Capitol Hill%2C+Northern Mariana Islands&go=Go&ns0=1",
-    "mean_dist": 2154,
-    "mean_lat": 7.104,
-    "mean_lon": 161.25,
-    "mean_time": 6.3,
-    "std_dist": 2882.4,
+    "mean_dist": 2084.6,
+    "mean_lat": 7.381,
+    "mean_lon": 160.74,
+    "mean_time": 6.4,
+    "std_dist": 2858.5,
     "std_time": 1.7,
     "city": "Capitol Hill",
     "admin": "",
@@ -94866,6 +96226,8 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
+      "Western Australia",
       "Tuscany"
     ],
     "countries": [
@@ -94926,6 +96288,8 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
+      "Australia",
       "Italy"
     ],
     "dists": [
@@ -94986,7 +96350,9 @@
       49.7,
       71.5,
       87.6,
-      73.6
+      73.6,
+      91.2,
+      54.5
     ],
     "times": [
       2.0000000000000284,
@@ -95046,7 +96412,9 @@
       8.5,
       7.8,
       8.6,
-      8.4
+      8.4,
+      8.4,
+      8.8
     ]
   },
   "Kingston, Norfold Island": {
@@ -95235,7 +96603,10 @@
       -24.254,
       -24.471,
       -24.904,
-      -24.479
+      -24.479,
+      -27.342,
+      -24.666,
+      -25.552
     ],
     "lons": [
       160.1830065359477,
@@ -95276,16 +96647,19 @@
       231.657,
       229.874,
       229.518,
-      231.71
+      231.71,
+      251.212,
+      232.275,
+      229.28
     ],
     "true_lat": -25.066667,
     "true_lon": -130.1,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Adamstown%2C+Pitcairn Islands&go=Go&ns0=1",
-    "mean_dist": 2459.7,
-    "mean_lat": -25.525,
-    "mean_lon": 208.05,
-    "mean_time": 6,
-    "std_dist": 2810.6,
+    "mean_dist": 2342.7,
+    "mean_lat": -25.548,
+    "mean_lon": 210.16,
+    "mean_time": 6.1,
+    "std_dist": 2752.4,
     "std_time": 2.3,
     "city": "Adamstown",
     "admin": "",
@@ -95329,7 +96703,10 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
-      "Texas"
+      "Texas",
+      "Western Australia",
+      "Western Australia",
+      "Tuscany"
     ],
     "countries": [
       "Switzerland",
@@ -95370,7 +96747,10 @@
       "Italy",
       "Italy",
       "Italy",
-      "United States"
+      "United States",
+      "Australia",
+      "Australia",
+      "Italy"
     ],
     "dists": [
       7147.22946416446,
@@ -95411,7 +96791,10 @@
       199.2,
       66.2,
       42.4,
-      194.1
+      194.1,
+      2138.6,
+      243.7,
+      82.4
     ],
     "times": [
       7.1333333333333435,
@@ -95452,7 +96835,10 @@
       7.7,
       8.2,
       8.3,
-      3.3
+      3.3,
+      7.3,
+      7.2,
+      8.1
     ]
   },
   "Alofi, Niue": {
@@ -95514,7 +96900,10 @@
       -19.249,
       -18.911,
       -19.046,
-      -19.272
+      -19.272,
+      -15.624,
+      -18.708,
+      -18.934
     ],
     "lons": [
       221.88235294117646,
@@ -95574,16 +96963,19 @@
       190.064,
       189.946,
       190.064,
-      189.946
+      189.946,
+      168.258,
+      190.421,
+      190.302
     ],
     "true_lat": -19.054,
     "true_lon": -169.92,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Alofi%2C+Niue&go=Go&ns0=1",
-    "mean_dist": 2073.8,
-    "mean_lat": -14.763,
-    "mean_lon": 184.951,
-    "mean_time": 6.3,
-    "std_dist": 2193.9,
+    "mean_dist": 2011.6,
+    "mean_lat": -14.91,
+    "mean_lon": 184.855,
+    "mean_time": 6.4,
+    "std_dist": 2170.1,
     "std_time": 1.7,
     "city": "Alofi",
     "admin": "",
@@ -95646,6 +97038,9 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
+      "Western Australia",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -95705,6 +97100,9 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
+      "Italy",
+      "Australia",
       "Italy",
       "Italy"
     ],
@@ -95766,7 +97164,10 @@
       21.8,
       21.1,
       1.7,
-      28
+      28,
+      2345.6,
+      52.6,
+      26.9
     ],
     "times": [
       7.166666666666677,
@@ -95826,6 +97227,9 @@
       8.1,
       8.2,
       8.3,
+      8.3,
+      7,
+      7.9,
       8.3
     ]
   },
@@ -95888,6 +97292,7 @@
       -10.288,
       -10.053,
       -10.405,
+      -10.405,
       -10.405
     ],
     "lons": [
@@ -95948,17 +97353,18 @@
       105.929,
       106.523,
       105.929,
-      105.454
+      105.454,
+      105.691
     ],
     "true_lat": -10.421667,
     "true_lon": 105.678056,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Flying Fish Cove%2C+Christmas Island&go=Go&ns0=1",
-    "mean_dist": 3565.9,
-    "mean_lat": -14.421,
-    "mean_lon": 138.518,
+    "mean_dist": 3505.5,
+    "mean_lat": -14.353,
+    "mean_lon": 137.962,
     "mean_time": 6.6,
-    "std_dist": 4703.4,
-    "std_time": 1.8,
+    "std_dist": 4686,
+    "std_time": 1.7,
     "city": "Flying Fish Cove",
     "admin": "",
     "country": "Christmas Island",
@@ -96020,6 +97426,7 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -96072,6 +97479,7 @@
       "Italy",
       "Netherlands",
       "Denmark",
+      "Italy",
       "Italy",
       "Italy",
       "Italy",
@@ -96140,7 +97548,8 @@
       31.2,
       101.1,
       27.5,
-      24.5
+      24.5,
+      2.3
     ],
     "times": [
       6.6666666666666785,
@@ -96200,6 +97609,7 @@
       8.2,
       8.3,
       8.3,
+      7.8,
       7.8
     ]
   },
@@ -96240,6 +97650,15 @@
       -13.763,
       -13.67,
       -13.902,
+      -13.902,
+      -13.555,
+      -13.67,
+      -16.306,
+      -21.799,
+      -14.116,
+      -14.134,
+      -14.116,
+      -13.67,
       -13.902
     ],
     "lons": [
@@ -96278,17 +97697,26 @@
       188.163,
       188.282,
       188.757,
-      188.044
+      188.044,
+      188.163,
+      188.282,
+      167.975,
+      167.269,
+      188.467,
+      188.163,
+      188.325,
+      188.044,
+      188.282
     ],
     "true_lat": -13.8415,
     "true_lon": -171.7386,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Apia%2C+Samoa&go=Go&ns0=1",
-    "mean_dist": 817.3,
-    "mean_lat": -14.584,
-    "mean_lon": 189.311,
-    "mean_time": 7.1,
-    "std_dist": 1737.5,
-    "std_time": 1.8,
+    "mean_dist": 759.9,
+    "mean_lat": -14.673,
+    "mean_lon": 188.181,
+    "mean_time": 7.2,
+    "std_dist": 1614.3,
+    "std_time": 1.6,
     "city": "Apia",
     "admin": "Tuamasaga",
     "country": "Samoa",
@@ -96328,6 +97756,15 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
+      "Tuscany",
+      "Tuscany",
+      "Western Australia",
+      "Western Australia",
+      "Western Australia",
+      "Tuscany",
+      "Western Australia",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -96365,6 +97802,15 @@
       "Switzerland",
       "Italy",
       "Italy",
+      "Italy",
+      "Italy",
+      "Italy",
+      "Italy",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Italy",
+      "Australia",
       "Italy",
       "Italy"
     ],
@@ -96404,7 +97850,16 @@
       13.6,
       19,
       54,
-      24.3
+      24.3,
+      33.5,
+      19,
+      2194.2,
+      2388.6,
+      37.8,
+      34.1,
+      31.4,
+      30.1,
+      7.1
     ],
     "times": [
       7.000000000000011,
@@ -96442,7 +97897,16 @@
       8,
       8.2,
       8.4,
-      8.3
+      8.3,
+      8.4,
+      8.3,
+      6.2,
+      7.1,
+      7.8,
+      8.1,
+      7.4,
+      7.8,
+      7.9
     ]
   },
   "Hanga Roa, Chile": {
@@ -96491,7 +97955,8 @@
       -26.942,
       -26.729,
       -27.261,
-      -27.386
+      -27.386,
+      -27.09
     ],
     "lons": [
       250.814,
@@ -96538,16 +98003,17 @@
       250.671,
       250.671,
       251.265,
-      250.882
+      250.882,
+      250.929
     ],
     "true_lat": -27.133333,
     "true_lon": -109.416667,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Hanga Roa%2C+Chile&go=Go&ns0=1",
-    "mean_dist": 1724.9,
-    "mean_lat": -14.075,
-    "mean_lon": 247.654,
+    "mean_dist": 1688.1,
+    "mean_lat": -14.358,
+    "mean_lon": 247.725,
     "mean_time": 5.5,
-    "std_dist": 2442.5,
+    "std_dist": 2428.4,
     "std_time": 2.3,
     "city": "Hanga Roa",
     "admin": "Easter Island",
@@ -96597,7 +98063,8 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
-      "Texas"
+      "Texas",
+      "Western Australia"
     ],
     "countries": [
       "United Kingdom",
@@ -96644,7 +98111,8 @@
       "Italy",
       "Italy",
       "Italy",
-      "United States"
+      "United States",
+      "Australia"
     ],
     "dists": [
       1576.1,
@@ -96691,7 +98159,8 @@
       22.9,
       45.7,
       68.9,
-      40.8
+      40.8,
+      34.5
     ],
     "times": [
       2.3,
@@ -96738,7 +98207,8 @@
       8.2,
       8.1,
       8.1,
-      5.8
+      5.8,
+      6
     ]
   },
   "West Island, Cocos (Keeling) Islands": {
@@ -96783,7 +98253,11 @@
       -12.253,
       -12.369,
       -12.392,
-      -11.926
+      -11.926,
+      -17.662,
+      -18.606,
+      -11.809,
+      -11.576
     ],
     "lons": [
       145.33333333333334,
@@ -96826,16 +98300,20 @@
       96.541,
       97.373,
       97.373,
-      96.66
+      96.66,
+      179.846,
+      180.411,
+      97.016,
+      97.135
     ],
     "true_lat": -12.186944,
     "true_lon": 96.828333,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=West Island%2C+Cocos (Keeling) Islands&go=Go&ns0=1",
-    "mean_dist": 5348.1,
-    "mean_lat": -10.24,
-    "mean_lon": 144.966,
-    "mean_time": 6,
-    "std_dist": 4669.4,
+    "mean_dist": 5270.6,
+    "mean_lat": -10.655,
+    "mean_lon": 144.4,
+    "mean_time": 6.1,
+    "std_dist": 4654.1,
     "std_time": 2,
     "city": "West Island",
     "admin": "",
@@ -96881,6 +98359,10 @@
       "Tuscany",
       "Tuscany",
       "Tuscany",
+      "Tuscany",
+      "Western Australia",
+      "Western Australia",
+      "Tuscany",
       "Tuscany"
     ],
     "countries": [
@@ -96923,6 +98405,10 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
+      "Italy",
+      "Australia",
+      "Australia",
       "Italy",
       "Italy"
     ],
@@ -96967,7 +98453,11 @@
       32,
       62.6,
       63.4,
-      34.2
+      34.2,
+      8872.2,
+      8913.4,
+      46.6,
+      75.6
     ],
     "times": [
       3.5333333333333563,
@@ -97010,7 +98500,11 @@
       7.5,
       8.1,
       8.3,
-      8.5
+      8.5,
+      7.4,
+      8,
+      8.1,
+      8.4
     ]
   },
   "Invercargill, New Zealand": {
@@ -97018,27 +98512,30 @@
       -41.088,
       -38.914,
       -39.007,
-      -39.56
+      -39.56,
+      -45.611
     ],
     "lons": [
       174.259,
       176.28,
       175.804,
-      176.636
+      176.636,
+      169.506
     ],
     "true_lat": -46.4094,
     "true_lon": 168.365,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Invercargill%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 962.1,
-    "mean_lat": -39.642,
-    "mean_lon": 175.744,
-    "mean_time": 8.5,
-    "std_dist": 119.1,
-    "std_time": 0.1,
+    "mean_dist": 794.7,
+    "mean_lat": -40.836,
+    "mean_lon": 174.496,
+    "mean_time": 8.4,
+    "std_dist": 351.4,
+    "std_time": 0.2,
     "city": "Invercargill",
     "admin": "Southland",
     "country": "New Zealand",
     "regions": [
+      "Tuscany",
       "Tuscany",
       "Tuscany",
       "Tuscany",
@@ -97048,19 +98545,22 @@
       "Italy",
       "Italy",
       "Italy",
+      "Italy",
       "Italy"
     ],
     "dists": [
       757.3,
       1054,
       1022.2,
-      1015
+      1015,
+      125
     ],
     "times": [
       8.4,
       8.4,
       8.5,
-      8.8
+      8.8,
+      7.9
     ]
   },
   "Kingston, Norfolk Island": {
