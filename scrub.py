@@ -145,7 +145,7 @@ for path in pathlist:
         total_num_clicks = total_num_clicks + num_clicks
         print(num_clicks)
         metadata[mapname] = {'num_cities': num_cities, 'num_clicks': num_clicks, 'num_clicks_per_city': num_clicks/num_cities, 'most_played_city': longestCity, 'most_played_city_num_clicks': longest}
-        # os.remove(file)
+        os.remove(file)
 
 
 with open('/scratch/ip_cache', 'w') as fp:
@@ -161,6 +161,8 @@ with open('player_countries.csv', 'w') as data_file:
             if (k == 'Total'):
                 weighted = np.sum([continent_country_perf[c][ct][0]*continent_country_perf[c][ct][1] for ct in continent_country_perf[c]])
                 den = np.sum([continent_country_perf[c][ct][1] for ct in continent_country_perf[c]])
+                print(weighted)
+                print(den)
                 tail = tail + ['"<b>%.1f</b>"' % weighted/den]
             else:
                 try:
