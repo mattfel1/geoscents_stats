@@ -163,7 +163,7 @@ with open('player_countries.csv', 'w') as data_file:
                 den = np.sum([continent_country_perf[c][ct][1] for ct in continent_country_perf[c]])
                 print(weighted)
                 print(den)
-                tail = tail + ['"<b>%.1f</b>"' % (float) weighted/ (float) den]
+                tail = tail + ['"<b>%.1f</b>"' % (float) weighted / (float) den]
             else:
                 try:
                     tail = tail + ['"%.1f"' % continent_country_perf[c][k][0]]
