@@ -138,7 +138,8 @@ for path in pathlist:
             json.dump(data, data_file, indent=2)
         
         for e in continent_country_perf[continent]:
-            continent_country_perf[continent][e] = np.mean(continent_country_perf[continent][e])
+            numel = len(continent_country_perf[continent][e])
+            continent_country_perf[continent][e] = [np.mean(continent_country_perf[continent][e]), numel]
 
         longest, longestCity = convert(outfile, outfile.replace('.json','.csv'))
         total_num_clicks = total_num_clicks + num_clicks
@@ -157,11 +158,16 @@ with open('player_countries.csv', 'w') as data_file:
         k = key if (key != None) else "unknown" 
         tail = []
         for c in continent_order:
-            try:
-                tail = tail + ['%.1f' % continent_country_perf[c][k]]
-            except:
-                tail = tail + ['-']
-        data_file.write('%s,%s,%s\n' % (k, str(value), ','.join(tail)))
+            if (k == 'Total'):
+                weighted = np.sum([continent_country_perf[c][ct][0]*continent_country_perf[c][ct][1] for ct in continent_country_perf[c]])
+                den = np.sum([continent_country_perf[c][ct][1] for ct in continent_country_perf[c]])
+                tail = tail + ['"<b>%.1f</b>"' % weighted/den]
+            else:
+                try:
+                    tail = tail + ['"%.1f"' % continent_country_perf[c][k][0]]
+                except:
+                    tail = tail + ['"-"']
+        data_file.write('["%s","%s",%s],\n' % (k, str(value), ','.join(tail)))
         # data_file.write('{:25s},'.format(k) + str(value) + "\n")
 
 with open('metadata.json', 'w') as data_file:
