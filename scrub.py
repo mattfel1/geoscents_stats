@@ -2,6 +2,7 @@ import os
 import ipinfo
 import json
 from pathlib import Path
+import numpy as np
 import urllib.request
 import re
 import subprocess
@@ -71,10 +72,13 @@ metadata = {}
 
 total_num_clicks = 0
 player_countries = {'Total': 0}
+continent_country_perf = {}
+continent_order = ['World', 'Trivia', 'Europe', 'Africa', 'Asia', 'Oceania', 'NAmerica', 'SAmerica']
 
 for path in pathlist:
     # because path is object not string
     file = str(path)
+    continent = file.replace('.','').replace(' ','').replace('_guesses','')
     print(file)
     
     with open(file) as json_file:
@@ -85,6 +89,7 @@ for path in pathlist:
             num_cities = num_cities + 1
             data[entry]['regions'] = []
             data[entry]['countries'] = []
+            el = 0
             for ip in data[entry]['ips']:
                 num_clicks = num_clicks + 1
                 ip4 = '.'.join(re.split(':|\.',ip)[-4:])
@@ -107,12 +112,20 @@ for path in pathlist:
                         print('failed to fetch ip')
                         data[entry]['regions'].append(cache['127.0.0.1'][0])
                         data[entry]['countries'].append(cache['127.0.0.1'][1])
+                # Update player country click count
                 if (cache[ip4][1] in player_countries): 
                     player_countries[cache[ip4][1]] = player_countries[cache[ip4][1]] + 1
                     player_countries["Total"] = player_countries["Total"] + 1
                 else: 
                     player_countries[cache[ip4][1]] = 1
                     player_countries["Total"] = player_countries["Total"] + 1
+                # Update player country performance
+                if (cache[ip4][1] in continent_country_perf[continent]): 
+                    continent_country_perf[continent][cache[ip4][1]] = continent_country_perf[continent][cache[ip4][1]] + [data[entry]['dists'][el]]
+                else: 
+                    continent_country_perf[continent][cache[ip4][1]] = [data[entry]['dists'][el]]
+                el = el + 1
+
             data[entry].pop('ips', None)
             # Hacky way to put the statistics summaries at the beginning of json entry
             data[entry]['dists'] = data[entry].pop('dists',None)
@@ -133,7 +146,8 @@ metadata['Total'] = {'num_clicks': total_num_clicks}
 with open('player_countries.csv', 'w') as data_file:
     for key, value in sorted(player_countries.items(), key=lambda item: item[1], reverse=True):
         k = key if (key != None) else "unknown" 
-        data_file.write('{:25s},'.format(k) + str(value) + "\n")
+        data_file.write('%s,%s,%s\n' % (k, str(value), [str(np.mean(continent_country_perf[c][k])) for c in continent_order]))
+        # data_file.write('{:25s},'.format(k) + str(value) + "\n")
 
 with open('/scratch/ip_cache', 'w') as fp:
     json.dump(cache, fp)
