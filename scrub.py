@@ -72,8 +72,10 @@ metadata = {}
 
 total_num_clicks = 0
 player_countries = {'Total': 0}
-continent_country_perf = {}
 continent_order = ['World', 'Trivia', 'Europe', 'Africa', 'Asia', 'Oceania', 'NAmerica', 'SAmerica']
+continent_country_perf = {}
+for c in continent_order:
+    continent_country_perf[c] = {}
 
 for path in pathlist:
     # because path is object not string
@@ -115,15 +117,15 @@ for path in pathlist:
                 # Update player country click count
                 if (cache[ip4][1] in player_countries): 
                     player_countries[cache[ip4][1]] = player_countries[cache[ip4][1]] + 1
-                    player_countries["Total"] = player_countries["Total"] + 1
                 else: 
                     player_countries[cache[ip4][1]] = 1
-                    player_countries["Total"] = player_countries["Total"] + 1
+                player_countries["Total"] = player_countries["Total"] + 1
                 # Update player country performance
                 if (cache[ip4][1] in continent_country_perf[continent]): 
                     continent_country_perf[continent][cache[ip4][1]] = continent_country_perf[continent][cache[ip4][1]] + [data[entry]['dists'][el]]
                 else: 
                     continent_country_perf[continent][cache[ip4][1]] = [data[entry]['dists'][el]]
+                # continent_country_perf[continent]['Total'] = continent_country_perf[continent]['Total'] + [data[entry]['dists'][el]]
                 el = el + 1
 
             data[entry].pop('ips', None)
@@ -135,22 +137,32 @@ for path in pathlist:
         with open(outfile, 'w') as data_file:
             json.dump(data, data_file, indent=2)
         
+        for e in continent_country_perf[continent]:
+            continent_country_perf[continent][e] = np.mean(continent_country_perf[continent][e])
+
         longest, longestCity = convert(outfile, outfile.replace('.json','.csv'))
         total_num_clicks = total_num_clicks + num_clicks
         print(num_clicks)
         metadata[mapname] = {'num_cities': num_cities, 'num_clicks': num_clicks, 'num_clicks_per_city': num_clicks/num_cities, 'most_played_city': longestCity, 'most_played_city_num_clicks': longest}
-        os.remove(file)
+        # os.remove(file)
+
+
+with open('/scratch/ip_cache', 'w') as fp:
+    json.dump(cache, fp)
 
 metadata['Total'] = {'num_clicks': total_num_clicks}
 
 with open('player_countries.csv', 'w') as data_file:
     for key, value in sorted(player_countries.items(), key=lambda item: item[1], reverse=True):
         k = key if (key != None) else "unknown" 
-        data_file.write('%s,%s,%s\n' % (k, str(value), [str(np.mean(continent_country_perf[c][k])) for c in continent_order]))
+        tail = []
+        for c in continent_order:
+            try:
+                tail = tail + ['%.1f' % continent_country_perf[c][k]]
+            except:
+                tail = tail + ['-']
+        data_file.write('%s,%s,%s\n' % (k, str(value), ','.join(tail)))
         # data_file.write('{:25s},'.format(k) + str(value) + "\n")
-
-with open('/scratch/ip_cache', 'w') as fp:
-    json.dump(cache, fp)
 
 with open('metadata.json', 'w') as data_file:
     json.dump(metadata, data_file, indent=2)
