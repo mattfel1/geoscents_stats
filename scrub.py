@@ -166,7 +166,7 @@ with open('player_countries.csv', 'w') as data_file:
                 try:
                     tail = tail + ['"%.1f"' % continent_country_perf[c][k][0]]
                 except:
-                    tail = tail + ['"-"']
+                    tail = tail + ['""']
         if (k == 'Total'): data_file.write('["","<b>%s</b>","<b>%s</b>",%s],\n' % (k, str(value), ','.join(tail)))
         else: data_file.write('["","%s","%s",%s],\n' % (k, str(value), ','.join(tail)))
         # data_file.write('{:25s},'.format(k) + str(value) + "\n")
