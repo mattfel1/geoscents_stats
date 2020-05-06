@@ -155,7 +155,7 @@ metadata['Total'] = {'num_clicks': total_num_clicks}
 
 with open('player_countries.csv', 'w') as data_file:
     for key, value in sorted(player_countries.items(), key=lambda item: item[1], reverse=True):
-        k = key if (key != None) else "unknown" 
+        k = key if (key != None) else "Unknown" 
         tail = []
         for c in continent_order:
             if (k == 'Total'):
