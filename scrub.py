@@ -62,18 +62,21 @@ def convert(fileInput, fileOutput):
 
 
 pathlist = Path('.').glob('**/*_guesses')
+unknown_ip = '127.0.0.1'
+
 try:
     with open('/scratch/ip_cache', 'r') as fp:
         cache = json.load(fp)
         print('Loaded %d ips from cache' % len(cache))
 except:
-    cache = {'127.0.0.1': ["Unknown", "Unknown"]}
+    cache = {unknown_ip: ["Unknown", "Unknown"]}
 metadata = {}
 
 total_num_clicks = 0
 player_countries = {'Total': 0}
 continent_order = ['World', 'Trivia', 'Europe', 'Africa', 'Asia', 'Oceania', 'NAmerica', 'SAmerica']
 continent_country_perf = {}
+
 for c in continent_order:
     continent_country_perf[c] = {}
 
@@ -96,24 +99,39 @@ for path in pathlist:
                 num_clicks = num_clicks + 1
                 ip4 = '.'.join(re.split(':|\.',ip)[-4:])
                 if ('optOut' in ip):
-                    data[entry]['regions'].append(cache['127.0.0.1'][0])
-                    data[entry]['countries'].append(cache['127.0.0.1'][1])
-                elif (ip4 in cache):
+                    data[entry]['regions'].append(cache[unknown_ip][0])
+                    data[entry]['countries'].append(cache[unknown_ip][1])
+                elif (ip4 in cache and (cache[ip4][1] != None and cache[ip4][1] != "")):
                     data[entry]['regions'].append(cache[ip4][0])
                     data[entry]['countries'].append(cache[ip4][1])
                 else:
-                    print(ip4)
+                    print('Get entry for ' + ip4)
                     access_token = 'a0d2f9a2e477c0' # Please get your own free token instead of using mine :(
                     handler = ipinfo.getHandler(access_token)
+                    fetched = False
                     try: 
                         details = handler.getDetails(ip4)
                         cache[ip4] = [details.region, details.country_name]
                         data[entry]['regions'].append(details.region)
                         data[entry]['countries'].append(details.country_name)
+                        if (details.country_name != None and details.country_name != ""): fetched = True
                     except:
-                        print('failed to fetch ip')
-                        data[entry]['regions'].append(cache['127.0.0.1'][0])
-                        data[entry]['countries'].append(cache['127.0.0.1'][1])
+                        print('ipinfo failed to fetch ip ' + ip4)
+                    if (fetched == False):
+                        try:
+                            with urllib.request.urlopen("https://geolocation-db.com/jsonp/" + ip4) as url:
+                                fetch = url.read().decode()
+                                fetch = json.loads(fetch.split("(")[1].strip(")"))
+                                cache[ip4] = [fetch['city'], fetch['country_name']]
+                                data[entry]['regions'].append(fetch['city'])
+                                data[entry]['countries'].append(fetch['country_name'])
+                                if (fetch['country_name'] != "" and fetch['country_name'] != None): fetched = True
+                        except:
+                            print('urllib to geolocation failed to fetch ip ' + ip4)
+                    if (fetched == False):
+                        cache[ip4] = [None,None]
+                        data[entry]['regions'].append(cache[unknown_ip][0])
+                        data[entry]['countries'].append(cache[unknown_ip][1])
                 # Update player country click count
                 if (cache[ip4][1] in player_countries): 
                     player_countries[cache[ip4][1]] = player_countries[cache[ip4][1]] + 1
