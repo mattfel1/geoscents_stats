@@ -97,7 +97,7 @@ for path in pathlist:
             el = 0
             for ip in data[entry]['ips']:
                 num_clicks = num_clicks + 1
-                ip4 = '.'.join(re.split(':|\.',ip)[-4:])
+                ip4 = '.'.join(re.split(':|\.|t',ip)[-4:])
                 if ('optOut' in ip):
                     data[entry]['regions'].append(cache[unknown_ip][0])
                     data[entry]['countries'].append(cache[unknown_ip][1])
