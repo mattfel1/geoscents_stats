@@ -329,44 +329,50 @@
     "lats": [
       52.664973366760115,
       54.04,
-      53.1
+      53.1,
+      52.724
     ],
     "lons": [
       -1.312524033050721,
       -1.599,
-      -1.552
+      -1.552,
+      -1.31
     ],
     "true_lat": 53.83,
     "true_lon": -1.58,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Leeds%2C+United Kingdom&go=Go&ns0=1",
-    "mean_dist": 78.4,
-    "mean_lat": 53.268,
-    "mean_lon": -1.487,
-    "mean_time": 6.7,
-    "std_dist": 43.8,
-    "std_time": 1.3,
+    "mean_dist": 89.8,
+    "mean_lat": 53.132,
+    "mean_lon": -1.443,
+    "mean_time": 6.8,
+    "std_dist": 42.8,
+    "std_time": 1.1,
     "city": "Leeds",
     "admin": "Leeds",
     "country": "United Kingdom",
     "regions": [
       "Aargau",
       "England",
-      "Aargau"
+      "Aargau",
+      "Bavaria"
     ],
     "countries": [
       "Switzerland",
       "United Kingdom",
-      "Switzerland"
+      "Switzerland",
+      "Germany"
     ],
     "dists": [
       130.76147003021595,
       23.4,
-      81.1
+      81.1,
+      124.2
     ],
     "times": [
       5.033333333333351,
       6.9,
-      8.4
+      8.4,
+      6.9
     ]
   },
   "Stockholm, Sweden": {
@@ -374,23 +380,25 @@
       59.29134294465418,
       59.28847943200748,
       58.787516282704736,
-      58.867
+      58.867,
+      58.837
     ],
     "lons": [
       14.35294117647058,
       17.512607093618726,
       15.971638655462186,
-      17.414
+      17.414,
+      17.922
     ],
     "true_lat": 59.3508,
     "true_lon": 18.0973,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Stockholm%2C+Sweden&go=Go&ns0=1",
-    "mean_dist": 112.3,
-    "mean_lat": 59.058,
-    "mean_lon": 16.312,
-    "mean_time": 5.8,
-    "std_dist": 68.7,
-    "std_time": 2.1,
+    "mean_dist": 101.4,
+    "mean_lat": 59.014,
+    "mean_lon": 16.634,
+    "mean_time": 5.9,
+    "std_dist": 65.2,
+    "std_time": 1.8,
     "city": "Stockholm",
     "admin": "Stockholm",
     "country": "Sweden",
@@ -398,25 +406,29 @@
       "England",
       "Bavaria",
       "Colorado",
-      "Aargau"
+      "Aargau",
+      "Trentino-Alto Adige"
     ],
     "countries": [
       "United Kingdom",
       "Germany",
       "United States",
-      "Switzerland"
+      "Switzerland",
+      "Italy"
     ],
     "dists": [
       212.50957152703995,
       33.889660435204846,
       136.6777379132702,
-      66.3
+      66.3,
+      57.9
     ],
     "times": [
       2.6000000000000263,
       6.633333333333345,
       5.800000000000015,
-      8.4
+      8.4,
+      6.3
     ]
   },
   "Marseille, France": {
@@ -473,7 +485,12 @@
       55.882,
       55.819,
       55.32,
-      54.814
+      54.814,
+      50.704,
+      60.817,
+      55.487,
+      61.889,
+      56.782
     ],
     "lons": [
       12.853142233455884,
@@ -484,17 +501,22 @@
       11.607,
       12.47,
       13.647,
-      12.47
+      12.47,
+      7.054,
+      9.81,
+      8.941,
+      53.005,
+      9.541
     ],
     "true_lat": 55.6786,
     "true_lon": 12.5635,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Copenhagen%2C+Denmark&go=Go&ns0=1",
-    "mean_dist": 102.7,
-    "mean_lat": 55.689,
-    "mean_lon": 11.659,
-    "mean_time": 6.7,
-    "std_dist": 69.3,
-    "std_time": 2.6,
+    "mean_dist": 358.6,
+    "mean_lat": 56.206,
+    "mean_lon": 13.806,
+    "mean_time": 6,
+    "std_dist": 593.2,
+    "std_time": 2.4,
     "city": "Copenhagen",
     "admin": "Hovedstaden",
     "country": "Denmark",
@@ -507,7 +529,12 @@
       "Madrid",
       "North Carolina",
       "North Carolina",
-      "North Carolina"
+      "North Carolina",
+      "Queensland",
+      "Queensland",
+      "Queensland",
+      "Queensland",
+      "Queensland"
     ],
     "countries": [
       "Switzerland",
@@ -518,7 +545,12 @@
       "Spain",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       128.39681304555194,
@@ -529,7 +561,12 @@
       63.9,
       16.7,
       79,
-      96.2
+      96.2,
+      663.3,
+      593.5,
+      228.6,
+      2386.5,
+      223.5
     ],
     "times": [
       2.2000000000000277,
@@ -540,7 +577,12 @@
       6.8,
       8.1,
       8.6,
-      8.6
+      8.6,
+      6.3,
+      5,
+      5.3,
+      2.3,
+      5.9
     ]
   },
   "Buenos Aires, Argentina": {
@@ -1331,44 +1373,74 @@
     "lats": [
       12.944477941446555,
       11.39328162412601,
-      19.843284806146812
+      19.843284806146812,
+      26.762,
+      13.017,
+      12.485,
+      13.987,
+      20.916
     ],
     "lons": [
       108.23529411764707,
       106.5882373457195,
-      105.04726890756302
+      105.04726890756302,
+      91.869,
+      106.672,
+      99.294,
+      107.605,
+      105.687
     ],
     "true_lat": 18.7,
     "true_lon": 105.68,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Vinh%2C+Vietnam&go=Go&ns0=1",
-    "mean_dist": 552.5,
-    "mean_lat": 14.727,
-    "mean_lon": 106.623,
-    "mean_time": 4.9,
-    "std_dist": 293.5,
-    "std_time": 1.4,
+    "mean_dist": 719.2,
+    "mean_lat": 16.418,
+    "mean_lon": 103.874,
+    "mean_time": 4.2,
+    "std_dist": 443.2,
+    "std_time": 1.6,
     "city": "Vinh",
     "admin": "Ngh\u1ec7 An",
     "country": "Vietnam",
     "regions": [
       "England",
       "Bavaria",
-      "Colorado"
+      "Colorado",
+      "Queensland",
+      "Queensland",
+      "Queensland",
+      "Queensland",
+      "Queensland"
     ],
     "countries": [
       "United Kingdom",
       "Germany",
-      "United States"
+      "United States",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       695.8685931837643,
       818.2931618765256,
-      143.42946316573003
+      143.42946316573003,
+      1674.3,
+      640.7,
+      971.9,
+      562.8,
+      246.5
     ],
     "times": [
       2.9666666666666917,
       5.500000000000016,
-      6.433333333333346
+      6.433333333333346,
+      1.2,
+      4.4,
+      5.6,
+      5.4,
+      2.8
     ]
   },
   "Dublin, Ireland": {
@@ -2392,39 +2464,45 @@
   "Melaka, Malaysia": {
     "lats": [
       14.053196979604753,
-      2.814
+      2.814,
+      6.074
     ],
     "lons": [
       101.01365546218489,
-      102.889
+      102.889,
+      99.529
     ],
     "true_lat": 2.2064,
     "true_lon": 102.2465,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Melaka%2C+Malaysia&go=Go&ns0=1",
-    "mean_dist": 711.2,
-    "mean_lat": 8.433,
-    "mean_lon": 101.951,
-    "mean_time": 5.4,
-    "std_dist": 612.9,
-    "std_time": 2.7,
+    "mean_dist": 649.2,
+    "mean_lat": 7.647,
+    "mean_lon": 101.143,
+    "mean_time": 6.1,
+    "std_dist": 508.1,
+    "std_time": 2.4,
     "city": "Melaka",
     "admin": "Melaka",
     "country": "Malaysia",
     "regions": [
       "Colorado",
-      "Aargau"
+      "Aargau",
+      "Bavaria"
     ],
     "countries": [
       "United States",
-      "Switzerland"
+      "Switzerland",
+      "Germany"
     ],
     "dists": [
       1324.2492784668361,
-      98.3
+      98.3,
+      525.1
     ],
     "times": [
       2.7666666666666924,
-      8.2
+      8.2,
+      7.5
     ]
   },
   "Saltillo, Coahuila de Zaragoza, Mexico": {
@@ -4175,44 +4253,74 @@
     "lats": [
       39.81251458929198,
       35.35875696789237,
-      37.256
+      37.256,
+      3.964,
+      36.009,
+      36.833,
+      36.205,
+      35.192
     ],
     "lons": [
       140.34138655462186,
       137.47058823529414,
-      143.352
+      143.352,
+      99.803,
+      137.261,
+      138.352,
+      138.374,
+      136.924
     ],
     "true_lat": 33.8704,
     "true_lon": 130.82,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kitaku%2C+Japan&go=Go&ns0=1",
-    "mean_dist": 965.7,
-    "mean_lat": 37.475,
-    "mean_lon": 140.387,
-    "mean_time": 7.8,
-    "std_dist": 242,
-    "std_time": 1,
+    "mean_dist": 1277.6,
+    "mean_lat": 32.578,
+    "mean_lon": 133.984,
+    "mean_time": 6.3,
+    "std_dist": 1279.9,
+    "std_time": 1.8,
     "city": "Kitaku",
     "admin": "Fukuoka",
     "country": "Japan",
     "regions": [
       "Colorado",
       "North Carolina",
-      "North Carolina"
+      "North Carolina",
+      "Queensland",
+      "Queensland",
+      "Queensland",
+      "Queensland",
+      "Queensland"
     ],
     "countries": [
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       1073.3874051040116,
       630.565826056177,
-      1193.4
+      1193.4,
+      4619.7,
+      633.2,
+      758.1,
+      734.9,
+      578
     ],
     "times": [
       6.333333333333346,
       8.533333333333339,
-      8.6
+      8.6,
+      3.8,
+      4.3,
+      7.5,
+      7.1,
+      4.3
     ]
   },
   "Shantou, Guangdong, China": {
@@ -4220,23 +4328,25 @@
       27.238876049025617,
       22.248612902194623,
       23.073,
-      23.735
+      23.735,
+      26.199
     ],
     "lons": [
       102.35819327731093,
       112.76470588235293,
       116.094,
-      115.614
+      115.614,
+      110.945
     ],
     "true_lat": 23.37,
     "true_lon": 116.67,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Shantou%2C+China&go=Go&ns0=1",
-    "mean_dist": 525.5,
-    "mean_lat": 24.073,
-    "mean_lon": 111.707,
+    "mean_dist": 551.9,
+    "mean_lat": 24.498,
+    "mean_lon": 111.555,
     "mean_time": 7.7,
-    "std_dist": 578.8,
-    "std_time": 1,
+    "std_dist": 520.4,
+    "std_time": 0.9,
     "city": "Shantou",
     "admin": "Guangdong",
     "country": "China",
@@ -4244,25 +4354,29 @@
       "Colorado",
       "North Carolina",
       "Aargau",
-      "Aargau"
+      "Aargau",
+      "Trentino-Alto Adige"
     ],
     "countries": [
       "United States",
       "United States",
       "Switzerland",
-      "Switzerland"
+      "Switzerland",
+      "Italy"
     ],
     "dists": [
       1500.5502214664896,
       419.2418559627537,
       67.4,
-      115
+      115,
+      657.8
     ],
     "times": [
       5.900000000000015,
       8.23333333333334,
       8.5,
-      8.2
+      8.2,
+      7.9
     ]
   },
   "Haiphong, Vietnam": {
@@ -4526,39 +4640,45 @@
   "Coimbatore, Tamil N\u0101du, India": {
     "lats": [
       21.730451358680384,
-      10.986219951710396
+      10.986219951710396,
+      17.579
     ],
     "lons": [
       81.51785714285711,
-      76.88235294117646
+      76.88235294117646,
+      80.033
     ],
     "true_lat": 11,
     "true_lon": 76.95,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Coimbatore%2C+India&go=Go&ns0=1",
-    "mean_dist": 648,
-    "mean_lat": 16.358,
-    "mean_lon": 79.2,
-    "mean_time": 7.1,
-    "std_dist": 640.4,
-    "std_time": 1.1,
+    "mean_dist": 699.7,
+    "mean_lat": 16.765,
+    "mean_lon": 79.477,
+    "mean_time": 7.4,
+    "std_dist": 528,
+    "std_time": 1,
     "city": "Coimbatore",
     "admin": "Tamil N\u0101du",
     "country": "India",
     "regions": [
       "Colorado",
-      "North Carolina"
+      "North Carolina",
+      "Bavaria"
     ],
     "countries": [
       "United States",
-      "United States"
+      "United States",
+      "Germany"
     ],
     "dists": [
       1288.5178735988438,
-      7.541289163298188
+      7.541289163298188,
+      803.3
     ],
     "times": [
       6.000000000000014,
-      8.266666666666673
+      8.266666666666673,
+      8.2
     ]
   },
   "Changhua, Taiwan": {
@@ -5138,39 +5258,45 @@
   "Cheongju, Korea, South": {
     "lats": [
       36.91130665641543,
-      36.31337875968762
+      36.31337875968762,
+      35.798
     ],
     "lons": [
       127.56827731092437,
-      127.47058823529414
+      127.47058823529414,
+      127.764
     ],
     "true_lat": 36.6439,
     "true_lon": 127.5012,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Cheongju%2C+Korea, South&go=Go&ns0=1",
-    "mean_dist": 33.5,
-    "mean_lat": 36.612,
-    "mean_lon": 127.519,
+    "mean_dist": 54.6,
+    "mean_lat": 36.34,
+    "mean_lon": 127.6,
     "mean_time": 7.4,
-    "std_dist": 3.2,
-    "std_time": 0.7,
+    "std_dist": 29.9,
+    "std_time": 0.5,
     "city": "Cheongju",
     "admin": "Chungbuk",
     "country": "Korea, South",
     "regions": [
       "Colorado",
-      "North Carolina"
+      "North Carolina",
+      "Bavaria"
     ],
     "countries": [
       "United States",
-      "United States"
+      "United States",
+      "Germany"
     ],
     "dists": [
       30.32847572910881,
-      36.854056349520945
+      36.854056349520945,
+      96.8
     ],
     "times": [
       6.766666666666678,
-      8.200000000000006
+      8.200000000000006,
+      7.3
     ]
   },
   "Canberra, Australian Capital Territory, Australia": {
@@ -5266,23 +5392,25 @@
       19.52650107755767,
       17.824852134985054,
       19.264,
-      18.384
+      18.384,
+      19.129
     ],
     "lons": [
       -71.7594537815126,
       -70.17647058823529,
       -70.7,
-      -69.882
+      -69.882,
+      -71.27
     ],
     "true_lat": 18.4701,
     "true_lon": -69.9001,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Santo Domingo%2C+Dominican Republic&go=Go&ns0=1",
-    "mean_dist": 109.3,
-    "mean_lat": 18.749,
-    "mean_lon": -70.629,
-    "mean_time": 7.7,
-    "std_dist": 79.3,
-    "std_time": 0.6,
+    "mean_dist": 119.8,
+    "mean_lat": 18.825,
+    "mean_lon": -70.757,
+    "mean_time": 7.5,
+    "std_dist": 74,
+    "std_time": 0.7,
     "city": "Santo Domingo",
     "admin": "Ozama",
     "country": "Dominican Republic",
@@ -5290,25 +5418,29 @@
       "Colorado",
       "North Carolina",
       "Aargau",
-      "North Carolina"
+      "North Carolina",
+      "Trentino-Alto Adige"
     ],
     "countries": [
       "United States",
       "United States",
       "Switzerland",
-      "United States"
+      "United States",
+      "Italy"
     ],
     "dists": [
       228.0621543358483,
       77.46343765543133,
       122,
-      9.7
+      9.7,
+      161.8
     ],
     "times": [
       6.6666666666666785,
       8.500000000000005,
       7.9,
-      8.1
+      8.1,
+      6.6
     ]
   },
   "Almaty, Kazakhstan": {
@@ -6145,34 +6277,40 @@
   },
   "Bujumbura, Burundi": {
     "lats": [
-      -1.7133197951381594
+      -1.7133197951381594,
+      -1.988
     ],
     "lons": [
-      29.773284245727297
+      29.773284245727297,
+      30.285
     ],
     "true_lat": -3.3761,
     "true_lon": 29.36,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bujumbura%2C+Burundi&go=Go&ns0=1",
-    "mean_dist": 190.5,
-    "mean_lat": -1.713,
-    "mean_lon": 29.773,
-    "mean_time": 4.4,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 187.9,
+    "mean_lat": -1.85,
+    "mean_lon": 30.029,
+    "mean_time": 5.7,
+    "std_dist": 2.5,
+    "std_time": 1.3,
     "city": "Bujumbura",
     "admin": "Bujumbura Mairie",
     "country": "Burundi",
     "regions": [
-      "England"
+      "England",
+      "Bavaria"
     ],
     "countries": [
-      "United Kingdom"
+      "United Kingdom",
+      "Germany"
     ],
     "dists": [
-      190.50690106500622
+      190.50690106500622,
+      185.4
     ],
     "times": [
-      4.466666666666686
+      4.466666666666686,
+      7.1
     ]
   },
   "Guatemala City, Guatemala": {
@@ -7836,7 +7974,8 @@
       5.452,
       13.737,
       4.572,
-      4.866
+      4.866,
+      6.163
     ],
     "lons": [
       19.791109557670296,
@@ -7844,17 +7983,18 @@
       20.117,
       14.533,
       18.058,
-      19.823
+      19.823,
+      22.057
     ],
     "true_lat": 4.3666,
     "true_lon": 18.5583,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bangui%2C+Central African Republic&go=Go&ns0=1",
-    "mean_dist": 355.7,
-    "mean_lat": 7.019,
-    "mean_lon": 18.626,
-    "mean_time": 7.8,
-    "std_dist": 356.2,
-    "std_time": 0.2,
+    "mean_dist": 367.1,
+    "mean_lat": 6.897,
+    "mean_lon": 19.116,
+    "mean_time": 7,
+    "std_dist": 331,
+    "std_time": 1.8,
     "city": "Bangui",
     "admin": "Bangui",
     "country": "Central African Republic",
@@ -7864,7 +8004,8 @@
       "North Carolina",
       "Aargau",
       "North Carolina",
-      "North Carolina"
+      "North Carolina",
+      "Zurich"
     ],
     "countries": [
       "United Kingdom",
@@ -7872,7 +8013,8 @@
       "United States",
       "Switzerland",
       "United States",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       271.729207725533,
@@ -7880,7 +8022,8 @@
       210.7,
       1131.5,
       59.9,
-      150.8
+      150.8,
+      435.9
     ],
     "times": [
       7.533333333333342,
@@ -7888,7 +8031,8 @@
       7.6,
       8.2,
       7.9,
-      8.2
+      8.2,
+      2.6
     ]
   },
   "Belmopan, Belize": {
@@ -8011,34 +8155,64 @@
   },
   "Washington, District of Columbia, United States": {
     "lats": [
-      38.256461913214494
+      38.256461913214494,
+      43.843,
+      45.221,
+      44.163,
+      45.116,
+      41.855
     ],
     "lons": [
-      -76.8220811731675
+      -76.8220811731675,
+      -118.527,
+      -122.738,
+      -71.058,
+      -110.493,
+      -72.811
     ],
     "true_lat": 38.9047,
     "true_lon": -77.0163,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Washington%2C+United States&go=Go&ns0=1",
-    "mean_dist": 74,
-    "mean_lat": 38.256,
-    "mean_lon": -76.822,
-    "mean_time": 7.7,
-    "std_dist": 0,
-    "std_time": 7.9,
+    "mean_dist": 1901.6,
+    "mean_lat": 43.075,
+    "mean_lon": -95.408,
+    "mean_time": 4.9,
+    "std_dist": 1500.7,
+    "std_time": 1.4,
     "city": "Washington",
     "admin": "District of Columbia",
     "country": "United States",
     "regions": [
-      "England"
+      "England",
+      "Queensland",
+      "Queensland",
+      "Queensland",
+      "Queensland",
+      "Queensland"
     ],
     "countries": [
-      "United Kingdom"
+      "United Kingdom",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia"
     ],
     "dists": [
-      74.03138643192094
+      74.03138643192094,
+      3469.8,
+      3787.1,
+      766.2,
+      2828.9,
+      484
     ],
     "times": [
-      7.700000000000008
+      7.700000000000008,
+      4.8,
+      3,
+      5.4,
+      4.3,
+      4.2
     ]
   },
   "Naha, Japan": {
@@ -8077,44 +8251,50 @@
     "lats": [
       6.125139770548313,
       4.733,
-      3.985
+      3.985,
+      15.677
     ],
     "lons": [
       -73.97003126229407,
       -74.301,
-      -75.176
+      -75.176,
+      -88.413
     ],
     "true_lat": 4.5964,
     "true_lon": -74.0833,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bogot\u00e1%2C+Colombia&go=Go&ns0=1",
-    "mean_dist": 112.6,
-    "mean_lat": 4.947,
-    "mean_lon": -74.482,
-    "mean_time": 7.8,
-    "std_dist": 60.8,
-    "std_time": 0.3,
+    "mean_dist": 582.5,
+    "mean_lat": 7.63,
+    "mean_lon": -77.965,
+    "mean_time": 6.2,
+    "std_dist": 815.6,
+    "std_time": 2.8,
     "city": "Bogot\u00e1",
     "admin": "Bogot\u00e1",
     "country": "Colombia",
     "regions": [
       "England",
       "Aargau",
-      "North Carolina"
+      "North Carolina",
+      "Berlin"
     ],
     "countries": [
       "United Kingdom",
       "Switzerland",
-      "United States"
+      "United States",
+      "Germany"
     ],
     "dists": [
       170.44997487333643,
       28.5,
-      138.9
+      138.9,
+      1992.4
     ],
     "times": [
       7.666666666666675,
       8.4,
-      7.6
+      7.6,
+      1.3
     ]
   },
   "Valencia, Venezuela": {
@@ -8151,34 +8331,40 @@
   },
   "Jos, Nigeria": {
     "lats": [
-      9.6591299771366
+      9.6591299771366,
+      6.229
     ],
     "lons": [
-      7.313391197599003
+      7.313391197599003,
+      22.816
     ],
     "true_lat": 9.93,
     "true_lon": 8.89,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Jos%2C+Nigeria&go=Go&ns0=1",
-    "mean_dist": 175.3,
-    "mean_lat": 9.659,
-    "mean_lon": 7.313,
-    "mean_time": 7.8,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 881.1,
+    "mean_lat": 7.944,
+    "mean_lon": 15.064,
+    "mean_time": 4.8,
+    "std_dist": 705.8,
+    "std_time": 2.9,
     "city": "Jos",
     "admin": "Plateau",
     "country": "Nigeria",
     "regions": [
-      "England"
+      "England",
+      "Berlin"
     ],
     "countries": [
-      "United Kingdom"
+      "United Kingdom",
+      "Germany"
     ],
     "dists": [
-      175.36119975857852
+      175.36119975857852,
+      1587
     ],
     "times": [
-      7.866666666666674
+      7.866666666666674,
+      1.9
     ]
   },
   "Budapest, Hungary": {
@@ -8556,7 +8742,8 @@
       37.49,
       34.619,
       35.741,
-      41.09
+      41.09,
+      33.305
     ],
     "lons": [
       136.2625059789541,
@@ -8564,17 +8751,18 @@
       140.411,
       135.302,
       134.588,
-      141.691
+      141.691,
+      133.478
     ],
     "true_lat": 36.55,
     "true_lon": 139.87,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Utsunomiya%2C+Japan&go=Go&ns0=1",
-    "mean_dist": 373,
-    "mean_lat": 37.295,
-    "mean_lon": 138.15,
-    "mean_time": 7.2,
-    "std_dist": 139.6,
-    "std_time": 1.6,
+    "mean_dist": 417.6,
+    "mean_lat": 36.725,
+    "mean_lon": 137.482,
+    "mean_time": 7.3,
+    "std_dist": 169.1,
+    "std_time": 1.5,
     "city": "Utsunomiya",
     "admin": "Tochigi",
     "country": "Japan",
@@ -8584,7 +8772,8 @@
       "North Carolina",
       "Aargau",
       "Berlin",
-      "Madrid"
+      "Madrid",
+      "Bavaria"
     ],
     "countries": [
       "Switzerland",
@@ -8592,7 +8781,8 @@
       "United States",
       "Switzerland",
       "Germany",
-      "Spain"
+      "Spain",
+      "Germany"
     ],
     "dists": [
       340.877084171747,
@@ -8600,7 +8790,8 @@
       115,
       465.4,
       482.6,
-      528.9
+      528.9,
+      685
     ],
     "times": [
       8.366666666666672,
@@ -8608,7 +8799,8 @@
       8.1,
       8.3,
       3.7,
-      7.7
+      7.7,
+      7.5
     ]
   },
   "Jaipur, R\u0101jasth\u0101n, India": {
@@ -8716,39 +8908,45 @@
   "Tampa, Florida, United States": {
     "lats": [
       30.364523208569697,
-      30.417
+      30.417,
+      15.114
     ],
     "lons": [
       -80.78431274853692,
-      -84
+      -84,
+      -32.235
     ],
     "true_lat": 27.9942,
     "true_lon": -82.4451,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tampa%2C+United States&go=Go&ns0=1",
-    "mean_dist": 308.8,
-    "mean_lat": 30.39,
-    "mean_lon": -82.392,
-    "mean_time": 7.4,
-    "std_dist": 0.1,
-    "std_time": 0.8,
+    "mean_dist": 1988.4,
+    "mean_lat": 25.298,
+    "mean_lon": -65.673,
+    "mean_time": 8.2,
+    "std_dist": 2375.2,
+    "std_time": 1.3,
     "city": "Tampa",
     "admin": "Florida",
     "country": "United States",
     "regions": [
       "Aargau",
-      "\u015awi\u0119tokrzyskie"
+      "\u015awi\u0119tokrzyskie",
+      "Zurich"
     ],
     "countries": [
       "Switzerland",
-      "Poland"
+      "Poland",
+      "Switzerland"
     ],
     "dists": [
       308.96191289807416,
-      308.8
+      308.8,
+      5347.5
     ],
     "times": [
       8.266666666666673,
-      6.6
+      6.6,
+      10
     ]
   },
   "Changde, Hunan, China": {
@@ -9652,39 +9850,45 @@
   "Farg\u2018ona, Uzbekistan": {
     "lats": [
       39.86548333789615,
-      41.24545564941743
+      41.24545564941743,
+      38.424
     ],
     "lons": [
       69.62908486758963,
-      72.1568637220513
+      72.1568637220513,
+      72.915
     ],
     "true_lat": 40.39,
     "true_lon": 71.78,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Farg\u2018ona%2C+Uzbekistan&go=Go&ns0=1",
-    "mean_dist": 146.1,
-    "mean_lat": 40.555,
-    "mean_lon": 70.892,
-    "mean_time": 7.7,
-    "std_dist": 45.8,
-    "std_time": 0.6,
+    "mean_dist": 177.1,
+    "mean_lat": 39.844,
+    "mean_lon": 71.566,
+    "mean_time": 7.1,
+    "std_dist": 57.7,
+    "std_time": 0.9,
     "city": "Farg\u2018ona",
     "admin": "Farg\u2018ona",
     "country": "Uzbekistan",
     "regions": [
       "Ohio",
-      "Aargau"
+      "Aargau",
+      "Trentino-Alto Adige"
     ],
     "countries": [
       "United States",
-      "Switzerland"
+      "Switzerland",
+      "Italy"
     ],
     "dists": [
       191.9415345949401,
-      100.26939365951519
+      100.26939365951519,
+      239.3
     ],
     "times": [
       7.033333333333344,
-      8.366666666666672
+      8.366666666666672,
+      6
     ]
   },
   "Ngerulmud, Palau": {
@@ -12082,39 +12286,45 @@
   "Tabr\u012bz, Iran": {
     "lats": [
       31.68439289609943,
-      35.96534712463371
+      35.96534712463371,
+      34.496
     ],
     "lons": [
       55.08522720472911,
-      47.51143780876609
+      47.51143780876609,
+      59.368
     ],
     "true_lat": 38.0863,
     "true_lon": 46.3012,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tabr\u012bz%2C+Iran&go=Go&ns0=1",
-    "mean_dist": 664.9,
-    "mean_lat": 33.824,
-    "mean_lon": 51.298,
-    "mean_time": 8,
-    "std_dist": 405.8,
-    "std_time": 0.2,
+    "mean_dist": 855.2,
+    "mean_lat": 34.048,
+    "mean_lon": 53.988,
+    "mean_time": 6.1,
+    "std_dist": 426.8,
+    "std_time": 2.6,
     "city": "Tabr\u012bz",
     "admin": "\u0100z\u0304arb\u0101yj\u0101n-e Sharq\u012b",
     "country": "Iran",
     "regions": [
       "England",
-      "Ohio"
+      "Ohio",
+      "Zurich"
     ],
     "countries": [
       "United Kingdom",
-      "United States"
+      "United States",
+      "Switzerland"
     ],
     "dists": [
       1070.8119190944803,
-      259.15104762683393
+      259.15104762683393,
+      1235.9
     ],
     "times": [
       7.766666666666675,
-      8.266666666666673
+      8.266666666666673,
+      2.4
     ]
   },
   "Tegucigalpa, Honduras": {
@@ -13163,34 +13373,40 @@
   },
   "Catania, Italy": {
     "lats": [
-      37.95611214117308
+      37.95611214117308,
+      49.835
     ],
     "lons": [
-      14.823529411764696
+      14.823529411764696,
+      16.006
     ],
     "true_lat": 37.5,
     "true_lon": 15.08,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Catania%2C+Italy&go=Go&ns0=1",
-    "mean_dist": 55.5,
-    "mean_lat": 37.956,
-    "mean_lon": 14.823,
-    "mean_time": 6.5,
-    "std_dist": 0,
-    "std_time": 1.2,
+    "mean_dist": 714.5,
+    "mean_lat": 43.895,
+    "mean_lon": 15.414,
+    "mean_time": 5.8,
+    "std_dist": 659,
+    "std_time": 0.6,
     "city": "Catania",
     "admin": "Sicilia",
     "country": "Italy",
     "regions": [
-      "\u015awi\u0119tokrzyskie"
+      "\u015awi\u0119tokrzyskie",
+      "Zurich"
     ],
     "countries": [
-      "Poland"
+      "Poland",
+      "Switzerland"
     ],
     "dists": [
-      55.50679487288023
+      55.50679487288023,
+      1373.6
     ],
     "times": [
-      6.500000000000012
+      6.500000000000012,
+      5.2
     ]
   },
   "Port of Spain, Trinidad And Tobago": {
@@ -13373,34 +13589,40 @@
   },
   "Montevideo, Uruguay": {
     "lats": [
-      -31.903955754868715
+      -31.903955754868715,
+      -33.536
     ],
     "lons": [
-      -55.76470588235294
+      -55.76470588235294,
+      -56.436
     ],
     "true_lat": -34.858,
     "true_lon": -56.1711,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Montevideo%2C+Uruguay&go=Go&ns0=1",
-    "mean_dist": 330.6,
-    "mean_lat": -31.903,
-    "mean_lon": -55.764,
-    "mean_time": 6.2,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 239.8,
+    "mean_lat": -32.719,
+    "mean_lon": -56.1,
+    "mean_time": 6.7,
+    "std_dist": 90.8,
+    "std_time": 0.5,
     "city": "Montevideo",
     "admin": "Montevideo",
     "country": "Uruguay",
     "regions": [
-      "\u015awi\u0119tokrzyskie"
+      "\u015awi\u0119tokrzyskie",
+      "Bavaria"
     ],
     "countries": [
-      "Poland"
+      "Poland",
+      "Germany"
     ],
     "dists": [
-      330.6339207014393
+      330.6339207014393,
+      149
     ],
     "times": [
-      6.233333333333347
+      6.233333333333347,
+      7.3
     ]
   },
   "Tashkent, Uzbekistan": {
@@ -13873,34 +14095,40 @@
   },
   "Kota, R\u0101jasth\u0101n, India": {
     "lats": [
-      26.991883744958535
+      26.991883744958535,
+      19.809
     ],
     "lons": [
-      75.27811222145104
+      75.27811222145104,
+      80.033
     ],
     "true_lat": 25.18,
     "true_lon": 75.835,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kota%2C+India&go=Go&ns0=1",
-    "mean_dist": 209,
-    "mean_lat": 26.991,
-    "mean_lon": 75.278,
-    "mean_time": 8.1,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 472.7,
+    "mean_lat": 23.4,
+    "mean_lon": 77.655,
+    "mean_time": 6.1,
+    "std_dist": 263.6,
+    "std_time": 2,
     "city": "Kota",
     "admin": "R\u0101jasth\u0101n",
     "country": "India",
     "regions": [
-      "Aargau"
+      "Aargau",
+      "Bavaria"
     ],
     "countries": [
-      "Switzerland"
+      "Switzerland",
+      "Germany"
     ],
     "dists": [
-      209.00645142338763
+      209.00645142338763,
+      736.4
     ],
     "times": [
-      8.166666666666673
+      8.166666666666673,
+      4.1
     ]
   },
   "Mannheim, Germany": {
@@ -14278,23 +14506,25 @@
       17.440086602255324,
       -28.702,
       28.13,
-      16.29
+      16.29,
+      25.707
     ],
     "lons": [
       -16.678670491634165,
       1.882,
       -11.922,
-      -16.438
+      -16.438,
+      -13.541
     ],
     "true_lat": 18.0864,
     "true_lon": -15.9753,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Nouakchott%2C+Mauritania&go=Go&ns0=1",
-    "mean_dist": 1761.3,
-    "mean_lat": 8.289,
-    "mean_lon": -10.789,
+    "mean_dist": 1585.8,
+    "mean_lat": 11.773,
+    "mean_lon": -11.339,
     "mean_time": 7,
-    "std_dist": 2225.5,
-    "std_time": 1.5,
+    "std_dist": 2021.3,
+    "std_time": 1.3,
     "city": "Nouakchott",
     "admin": "",
     "country": "Mauritania",
@@ -14302,25 +14532,29 @@
       "Aargau",
       "Berlin",
       "Madrid",
-      "Aargau"
+      "Aargau",
+      "Trentino-Alto Adige"
     ],
     "countries": [
       "Switzerland",
       "Germany",
       "Spain",
-      "Switzerland"
+      "Switzerland",
+      "Italy"
     ],
     "dists": [
       103.5007110531591,
       5545.3,
       1190.9,
-      205.7
+      205.7,
+      883.7
     ],
     "times": [
       8.500000000000005,
       4.7,
       6.7,
-      8.2
+      8.2,
+      7.1
     ]
   },
   "Nizhniy Novgorod, Nizhegorodskaya Oblast\u2019, Russia": {
@@ -15075,44 +15309,74 @@
     "lats": [
       9.02675217712484,
       8.789,
-      6.33
+      6.33,
+      71.393,
+      22.357,
+      40.236,
+      32.494,
+      -6.594
     ],
     "lons": [
       -12.59703783857293,
       -11.876,
-      -8.705
+      -8.705,
+      -118.253,
+      14.588,
+      140.788,
+      36.721,
+      119.764
     ],
     "true_lat": 6.3106,
     "true_lon": -10.8048,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Monrovia%2C+Liberia&go=Go&ns0=1",
-    "mean_dist": 297.5,
-    "mean_lat": 8.048,
-    "mean_lon": -11.059,
-    "mean_time": 8.1,
-    "std_dist": 52.6,
-    "std_time": 0,
+    "mean_dist": 6054.6,
+    "mean_lat": 23.003,
+    "mean_lon": 20.053,
+    "mean_time": 7.4,
+    "std_dist": 5692.3,
+    "std_time": 1.8,
     "city": "Monrovia",
     "admin": "Montserrado",
     "country": "Liberia",
     "regions": [
       "Aargau",
       "Aargau",
-      "North Carolina"
+      "North Carolina",
+      "Queensland",
+      "Queensland",
+      "Queensland",
+      "Queensland",
+      "Queensland"
     ],
     "countries": [
       "Switzerland",
       "Switzerland",
-      "United States"
+      "United States",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       360.85746863311,
       299.8,
-      231.9
+      231.9,
+      9949.6,
+      3255.9,
+      14078.6,
+      5705.1,
+      14555.7
     ],
     "times": [
       8.066666666666674,
       8.2,
-      8.2
+      8.2,
+      6.5,
+      6.4,
+      9.5,
+      3.4,
+      9.4
     ]
   },
   "Gwangju, Korea, South": {
@@ -15563,34 +15827,40 @@
   },
   "Palikir, Micronesia, Federated States Of": {
     "lats": [
-      6.884829571508498
+      6.884829571508498,
+      -15.262
     ],
     "lons": [
-      158.59143755158317
+      158.59143755158317,
+      -145.848
     ],
     "true_lat": 6.9166,
     "true_lon": 158.15,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Palikir%2C+Micronesia, Federated States Of&go=Go&ns0=1",
-    "mean_dist": 48.8,
-    "mean_lat": 6.884,
-    "mean_lon": 158.591,
-    "mean_time": 7.9,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 3346.1,
+    "mean_lat": -4.188,
+    "mean_lon": 6.371,
+    "mean_time": 6.7,
+    "std_dist": 3297.3,
+    "std_time": 1.1,
     "city": "Palikir",
     "admin": "Pohnpei",
     "country": "Micronesia, Federated States Of",
     "regions": [
-      "Aargau"
+      "Aargau",
+      "Bavaria"
     ],
     "countries": [
-      "Switzerland"
+      "Switzerland",
+      "Germany"
     ],
     "dists": [
-      48.8579149611388
+      48.8579149611388,
+      6643.5
     ],
     "times": [
-      7.933333333333341
+      7.933333333333341,
+      5.6
     ]
   },
   "Bishkek, Kyrgyzstan": {
@@ -15811,34 +16081,40 @@
   },
   "Faisalabad, Pakistan": {
     "lats": [
-      32.21269021303092
+      32.21269021303092,
+      30.299
     ],
     "lons": [
-      72.63705579888205
+      72.63705579888205,
+      70.453
     ],
     "true_lat": 31.41,
     "true_lon": 73.11,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Faisalabad%2C+Pakistan&go=Go&ns0=1",
-    "mean_dist": 99.8,
-    "mean_lat": 32.212,
-    "mean_lon": 72.637,
-    "mean_time": 8.5,
-    "std_dist": 0,
-    "std_time": 5.3,
+    "mean_dist": 190.9,
+    "mean_lat": 31.255,
+    "mean_lon": 71.545,
+    "mean_time": 6.4,
+    "std_dist": 91,
+    "std_time": 2.1,
     "city": "Faisalabad",
     "admin": "Punjab",
     "country": "Pakistan",
     "regions": [
-      "Aargau"
+      "Aargau",
+      "Trentino-Alto Adige"
     ],
     "countries": [
-      "Switzerland"
+      "Switzerland",
+      "Italy"
     ],
     "dists": [
-      99.81757574566782
+      99.81757574566782,
+      282
     ],
     "times": [
-      8.500000000000005
+      8.500000000000005,
+      4.3
     ]
   },
   "Djibouti, Djibouti": {
@@ -16216,34 +16492,40 @@
   },
   "Igua\u00e7u, Rio de Janeiro, Brazil": {
     "lats": [
-      -22.311802757046614
+      -22.311802757046614,
+      -22.887
     ],
     "lons": [
-      -43.32933075573979
+      -43.32933075573979,
+      -47.025
     ],
     "true_lat": -22.74,
     "true_lon": -43.47,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Igua\u00e7u%2C+Brazil&go=Go&ns0=1",
-    "mean_dist": 49.7,
-    "mean_lat": -22.311,
-    "mean_lon": -43.329,
-    "mean_time": 8.4,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 207.2,
+    "mean_lat": -22.599,
+    "mean_lon": -45.177,
+    "mean_time": 7.5,
+    "std_dist": 157.4,
+    "std_time": 0.8,
     "city": "Igua\u00e7u",
     "admin": "Rio de Janeiro",
     "country": "Brazil",
     "regions": [
-      "Aargau"
+      "Aargau",
+      "Bavaria"
     ],
     "countries": [
-      "Switzerland"
+      "Switzerland",
+      "Germany"
     ],
     "dists": [
-      49.757264072900185
+      49.757264072900185,
+      364.7
     ],
     "times": [
-      8.433333333333339
+      8.433333333333339,
+      6.7
     ]
   },
   "Changwon, Korea, South": {
@@ -16326,44 +16608,86 @@
     "lats": [
       23.141371038318002,
       39.472,
-      18.25
+      18.25,
+      16.054,
+      36.533,
+      40.027,
+      16.361,
+      -27.343,
+      17.466,
+      33.267
     ],
     "lons": [
       -73.61073962124911,
       -28.47,
-      -62.006
+      -62.006,
+      -63.993,
+      23.743,
+      38.829,
+      -23.764,
+      -63.435,
+      -62.669,
+      -102.117
     ],
     "true_lat": 17.302,
     "true_lon": -62.717,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Basseterre%2C+Saint Kitts And Nevis&go=Go&ns0=1",
-    "mean_dist": 1851.8,
-    "mean_lat": 26.954,
-    "mean_lon": -54.695,
-    "mean_time": 4,
-    "std_dist": 1672.9,
-    "std_time": 2.3,
+    "mean_dist": 3746.7,
+    "mean_lat": 21.322,
+    "mean_lon": -41.749,
+    "mean_time": 3.7,
+    "std_dist": 3264.2,
+    "std_time": 2,
     "city": "Basseterre",
     "admin": "Saint George Basseterre",
     "country": "Saint Kitts And Nevis",
     "regions": [
       "Massachusetts",
       "Berlin",
-      "Madrid"
+      "Madrid",
+      "Zurich",
+      "Queensland",
+      "Queensland",
+      "Queensland",
+      "Queensland",
+      "Queensland",
+      "Queensland"
     ],
     "countries": [
       "United States",
       "Germany",
-      "Spain"
+      "Spain",
+      "Switzerland",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       1308.2687049876351,
       4117.8,
-      129.5
+      129.5,
+      194.2,
+      8565.5,
+      9721.1,
+      4140,
+      4964.9,
+      18.9,
+      4307.6
     ],
     "times": [
       4.700000000000019,
       0.8,
-      6.5
+      6.5,
+      1.2,
+      3.2,
+      3.5,
+      6.2,
+      6.7,
+      1.6,
+      3.4
     ]
   },
   "Irbid, Jordan": {
@@ -16584,66 +16908,102 @@
   },
   "Maiduguri, Nigeria": {
     "lats": [
-      6.623505506419094
+      6.623505506419094,
+      8.743
     ],
     "lons": [
-      5.705882352941188
+      5.705882352941188,
+      9.445
     ],
     "true_lat": 11.85,
     "true_lon": 13.16,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Maiduguri%2C+Nigeria&go=Go&ns0=1",
-    "mean_dist": 1003.2,
-    "mean_lat": 6.623,
-    "mean_lon": 5.705,
-    "mean_time": 8.4,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 768.2,
+    "mean_lat": 7.683,
+    "mean_lon": 7.575,
+    "mean_time": 7.9,
+    "std_dist": 234.9,
+    "std_time": 0.4,
     "city": "Maiduguri",
     "admin": "Borno",
     "country": "Nigeria",
     "regions": [
-      "North Carolina"
+      "North Carolina",
+      "Bavaria"
     ],
     "countries": [
-      "United States"
+      "United States",
+      "Germany"
     ],
     "dists": [
-      1003.2593564030965
+      1003.2593564030965,
+      533.3
     ],
     "times": [
-      8.466666666666672
+      8.466666666666672,
+      7.5
     ]
   },
   "Kathmandu, Nepal": {
     "lats": [
-      27.062526791832887
+      27.062526791832887,
+      66.605,
+      70.416,
+      32.971,
+      33.48,
+      36.181
     ],
     "lons": [
-      85.70588235294116
+      85.70588235294116,
+      -74.204,
+      79.613,
+      77.411,
+      77.439,
+      74.044
     ],
     "true_lat": 27.7167,
     "true_lon": 85.3166,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kathmandu%2C+Nepal&go=Go&ns0=1",
-    "mean_dist": 82.2,
-    "mean_lat": 27.062,
-    "mean_lon": 85.705,
-    "mean_time": 8.3,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 2932.1,
+    "mean_lat": 44.452,
+    "mean_lon": 53.334,
+    "mean_time": 5.5,
+    "std_dist": 3242.3,
+    "std_time": 1.5,
     "city": "Kathmandu",
     "admin": "B\u0101gmat\u012b",
     "country": "Nepal",
     "regions": [
-      "North Carolina"
+      "North Carolina",
+      "Queensland",
+      "Queensland",
+      "Queensland",
+      "Queensland",
+      "Queensland"
     ],
     "countries": [
-      "United States"
+      "United States",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia"
     ],
     "dists": [
-      82.26992881650449
+      82.26992881650449,
+      9384.9,
+      4761.8,
+      956.9,
+      988.8,
+      1418.3
     ],
     "times": [
-      8.366666666666672
+      8.366666666666672,
+      5,
+      3.2,
+      5.3,
+      5.3,
+      6.1
     ]
   },
   "Hag\u00e5t\u00f1a, Guam": {
@@ -17167,39 +17527,69 @@
   "Samarinda, Kalimantan Timur, Indonesia": {
     "lats": [
       -2.4870187635703194,
-      -2.470210718372131
+      -2.470210718372131,
+      -3.15,
+      -2.176,
+      0.573,
+      -0.968,
+      -7.411
     ],
     "lons": [
       114.8235294117647,
-      114.65386252157111
+      114.65386252157111,
+      139.475,
+      103.143,
+      109.176,
+      104.287,
+      115.423
     ],
     "true_lat": -0.5,
     "true_lon": 117.15,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Samarinda%2C+Indonesia&go=Go&ns0=1",
-    "mean_dist": 346.8,
-    "mean_lat": -2.478,
-    "mean_lon": 114.738,
-    "mean_time": 7.4,
-    "std_dist": 6.6,
-    "std_time": 0.5,
+    "mean_dist": 1125.3,
+    "mean_lat": -2.584,
+    "mean_lon": 114.425,
+    "mean_time": 5.3,
+    "std_dist": 712.2,
+    "std_time": 1.6,
     "city": "Samarinda",
     "admin": "Kalimantan Timur",
     "country": "Indonesia",
     "regions": [
       "North Carolina",
-      "Aargau"
+      "Aargau",
+      "Queensland",
+      "Queensland",
+      "Queensland",
+      "Queensland",
+      "Queensland"
     ],
     "countries": [
       "United States",
-      "Switzerland"
+      "Switzerland",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       340.12724053599356,
-      353.5164953816639
+      353.5164953816639,
+      2498.4,
+      1568.1,
+      894.6,
+      1431,
+      792
     ],
     "times": [
       6.866666666666678,
-      8.03333333333334
+      8.03333333333334,
+      3.2,
+      4.6,
+      5.8,
+      3.6,
+      5.2
     ]
   },
   "Rasht, Iran": {
@@ -17477,23 +17867,33 @@
       23.87372859357146,
       22.40866997794456,
       21.319174491522908,
-      23.89872363340123
+      23.89872363340123,
+      26.027,
+      13.781,
+      23.658,
+      7.165,
+      23.174
     ],
     "lons": [
       121,
       120.17607140512456,
       106.35294117647061,
-      121.18697462963456
+      121.18697462963456,
+      99.256,
+      103.535,
+      120.235,
+      101.27,
+      121.102
     ],
     "true_lat": 22.6333,
     "true_lon": 120.2666,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kaohsiung%2C+Taiwan&go=Go&ns0=1",
-    "mean_dist": 448.6,
-    "mean_lat": 22.875,
-    "mean_lon": 117.178,
-    "mean_time": 6.1,
-    "std_dist": 576,
-    "std_time": 2.7,
+    "mean_dist": 983.9,
+    "mean_lat": 20.589,
+    "mean_lon": 112.679,
+    "mean_time": 5.3,
+    "std_dist": 1015.3,
+    "std_time": 2.3,
     "city": "Kaohsiung",
     "admin": "Kaohsiung",
     "country": "Taiwan",
@@ -17501,25 +17901,45 @@
       "North Carolina",
       "Aargau",
       "Berlin",
-      "Madrid"
+      "Madrid",
+      "Queensland",
+      "Queensland",
+      "Queensland",
+      "Queensland",
+      "Queensland"
     ],
     "countries": [
       "United States",
       "Switzerland",
       "Germany",
-      "Spain"
+      "Spain",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       156.96505898369472,
       26.6524158214883,
       1441.5944585908096,
-      169.22725584138576
+      169.22725584138576,
+      2159.3,
+      2020.3,
+      114,
+      2662.9,
+      104.7
     ],
     "times": [
       8.23333333333334,
       8.300000000000006,
       1.5333333333333603,
-      6.433333333333346
+      6.433333333333346,
+      5.2,
+      2.2,
+      7.4,
+      5,
+      4
     ]
   },
   "Xianyang, Shaanxi, China": {
@@ -17627,23 +18047,25 @@
       48.62695089462277,
       48.550650639759866,
       47.48574767763094,
-      48.47801701075898
+      48.47801701075898,
+      48.456
     ],
     "lons": [
       3.058823529411768,
       3.969588812087352,
       4.705882352941188,
-      2.8676468985421195
+      2.8676468985421195,
+      3.394
     ],
     "true_lat": 48.8667,
     "true_lon": 2.3333,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Paris%2C+France&go=Go&ns0=1",
-    "mean_dist": 119.1,
-    "mean_lat": 48.285,
-    "mean_lon": 3.65,
-    "mean_time": 6.9,
-    "std_dist": 71.3,
-    "std_time": 1.8,
+    "mean_dist": 113.3,
+    "mean_lat": 48.319,
+    "mean_lon": 3.599,
+    "mean_time": 7,
+    "std_dist": 64.8,
+    "std_time": 1.6,
     "city": "Paris",
     "admin": "\u00cele-de-France",
     "country": "France",
@@ -17651,25 +18073,29 @@
       "North Carolina",
       "Aargau",
       "Berlin",
-      "Madrid"
+      "Madrid",
+      "Bavaria"
     ],
     "countries": [
       "United States",
       "Switzerland",
       "Germany",
-      "Spain"
+      "Spain",
+      "Germany"
     ],
     "dists": [
       59.5016411622235,
       125.09924527139331,
       233.4938047591355,
-      58.3730215027067
+      58.3730215027067,
+      90.3
     ],
     "times": [
       8.600000000000005,
       8.600000000000005,
       4.066666666666688,
-      6.566666666666679
+      6.566666666666679,
+      7.6
     ]
   },
   "M\u0101legaon, Mah\u0101r\u0101shtra, India": {
@@ -19171,39 +19597,45 @@
   "Bangkok, Thailand": {
     "lats": [
       13.035805181979763,
-      13.86
+      13.86,
+      9.075
     ],
     "lons": [
       102.4089645623875,
-      100.705
+      100.705,
+      105.915
     ],
     "true_lat": 13.75,
     "true_lon": 100.5166,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bangkok%2C+Thailand&go=Go&ns0=1",
-    "mean_dist": 121.6,
-    "mean_lat": 13.447,
-    "mean_lon": 101.556,
-    "mean_time": 8.1,
-    "std_dist": 97.8,
-    "std_time": 0.1,
+    "mean_dist": 342.7,
+    "mean_lat": 11.99,
+    "mean_lon": 103.009,
+    "mean_time": 7.4,
+    "std_dist": 322.7,
+    "std_time": 1,
     "city": "Bangkok",
     "admin": "Krung Thep Maha Nakhon",
     "country": "Thailand",
     "regions": [
       "Aargau",
-      "North Carolina"
+      "North Carolina",
+      "Bavaria"
     ],
     "countries": [
       "Switzerland",
-      "United States"
+      "United States",
+      "Germany"
     ],
     "dists": [
       219.56204912171506,
-      23.8
+      23.8,
+      785
     ],
     "times": [
       8.23333333333334,
-      8
+      8,
+      6
     ]
   },
   "Queens, New York, United States": {
@@ -19610,34 +20042,40 @@
   },
   "Quer\u00e9taro, Quer\u00e9taro, Mexico": {
     "lats": [
-      22.738001030381042
+      22.738001030381042,
+      20.126
     ],
     "lons": [
-      -99.9935119787302
+      -99.9935119787302,
+      -101.478
     ],
     "true_lat": 20.63,
     "true_lon": -100.38,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Quer\u00e9taro%2C+Mexico&go=Go&ns0=1",
-    "mean_dist": 237.7,
-    "mean_lat": 22.738,
-    "mean_lon": -99.993,
+    "mean_dist": 182.6,
+    "mean_lat": 21.432,
+    "mean_lon": -100.735,
     "mean_time": 7.4,
-    "std_dist": 0,
+    "std_dist": 55.1,
     "std_time": 0,
     "city": "Quer\u00e9taro",
     "admin": "Quer\u00e9taro",
     "country": "Mexico",
     "regions": [
-      "Karnataka"
+      "Karnataka",
+      "Bavaria"
     ],
     "countries": [
-      "India"
+      "India",
+      "Germany"
     ],
     "dists": [
-      237.77592209910716
+      237.77592209910716,
+      127.5
     ],
     "times": [
-      7.4333333333333425
+      7.4333333333333425,
+      7.5
     ]
   },
   "Palu, Sulawesi Tengah, Indonesia": {
@@ -22614,6 +23052,791 @@
     ],
     "times": [
       7.800000000000008
+    ]
+  },
+  "Madison, Wisconsin, United States": {
+    "lats": [],
+    "lons": [],
+    "true_lat": 43.0827,
+    "true_lon": -89.3923,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Madison%2C+United States&go=Go&ns0=1",
+    "regions": [],
+    "countries": [],
+    "dists": [],
+    "times": []
+  },
+  "Geneva, Switzerland": {
+    "lats": [
+      45.919508740772926
+    ],
+    "lons": [
+      6.704856350712191
+    ],
+    "true_lat": 46.21,
+    "true_lon": 6.14,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Geneva%2C+Switzerland&go=Go&ns0=1",
+    "mean_dist": 54.2,
+    "mean_lat": 45.919,
+    "mean_lon": 6.704,
+    "mean_time": 6.2,
+    "std_dist": 0,
+    "std_time": 1.3,
+    "city": "Geneva",
+    "admin": "Gen\u00e8ve",
+    "country": "Switzerland",
+    "regions": [
+      "Trentino-Alto Adige"
+    ],
+    "countries": [
+      "Italy"
+    ],
+    "dists": [
+      54.24518373918459
+    ],
+    "times": [
+      6.2000000000000135
+    ]
+  },
+  "Tijuana, Baja California, Mexico": {
+    "lats": [
+      31.940080011989107
+    ],
+    "lons": [
+      -116.68775650838495
+    ],
+    "true_lat": 32.5,
+    "true_lon": -117.08,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tijuana%2C+Mexico&go=Go&ns0=1",
+    "mean_dist": 72.3,
+    "mean_lat": 31.94,
+    "mean_lon": -116.687,
+    "mean_time": 6.7,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Tijuana",
+    "admin": "Baja California",
+    "country": "Mexico",
+    "regions": [
+      "Trentino-Alto Adige"
+    ],
+    "countries": [
+      "Italy"
+    ],
+    "dists": [
+      72.37299774226472
+    ],
+    "times": [
+      6.766666666666678
+    ]
+  },
+  "\u0100sansol, West Bengal, India": {
+    "lats": [
+      23.71696432501153
+    ],
+    "lons": [
+      86.32181941500767
+    ],
+    "true_lat": 23.6833,
+    "true_lon": 86.9833,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=\u0100sansol%2C+India&go=Go&ns0=1",
+    "mean_dist": 67.4,
+    "mean_lat": 23.716,
+    "mean_lon": 86.321,
+    "mean_time": 5.5,
+    "std_dist": 0,
+    "std_time": 1.5,
+    "city": "\u0100sansol",
+    "admin": "West Bengal",
+    "country": "India",
+    "regions": [
+      "Trentino-Alto Adige"
+    ],
+    "countries": [
+      "Italy"
+    ],
+    "dists": [
+      67.45380771504935
+    ],
+    "times": [
+      5.500000000000016
+    ]
+  },
+  "Dortmund, Germany": {
+    "lats": [
+      51.34198175442959
+    ],
+    "lons": [
+      8.34644321801727
+    ],
+    "true_lat": 51.53,
+    "true_lon": 7.45,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Dortmund%2C+Germany&go=Go&ns0=1",
+    "mean_dist": 65.5,
+    "mean_lat": 51.341,
+    "mean_lon": 8.346,
+    "mean_time": 4.6,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Dortmund",
+    "admin": "North Rhine-Westphalia",
+    "country": "Germany",
+    "regions": [
+      "Trentino-Alto Adige"
+    ],
+    "countries": [
+      "Italy"
+    ],
+    "dists": [
+      65.56155664346188
+    ],
+    "times": [
+      4.666666666666686
+    ]
+  },
+  "Jackson, Mississippi, United States": {
+    "lats": [
+      37.993754714069254
+    ],
+    "lons": [
+      -90.14876882028645
+    ],
+    "true_lat": 32.3163,
+    "true_lon": -90.2124,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Jackson%2C+United States&go=Go&ns0=1",
+    "mean_dist": 631.3,
+    "mean_lat": 37.993,
+    "mean_lon": -90.148,
+    "mean_time": 6.1,
+    "std_dist": 0,
+    "std_time": 1.4,
+    "city": "Jackson",
+    "admin": "Mississippi",
+    "country": "United States",
+    "regions": [
+      "Trentino-Alto Adige"
+    ],
+    "countries": [
+      "Italy"
+    ],
+    "dists": [
+      631.330610438025
+    ],
+    "times": [
+      6.100000000000014
+    ]
+  },
+  "Charlotte, North Carolina, United States": {
+    "lats": [
+      33.58606366924006
+    ],
+    "lons": [
+      -80.63865341058298
+    ],
+    "true_lat": 35.2079,
+    "true_lon": -80.8304,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Charlotte%2C+United States&go=Go&ns0=1",
+    "mean_dist": 181.1,
+    "mean_lat": 33.586,
+    "mean_lon": -80.638,
+    "mean_time": 7.8,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Charlotte",
+    "admin": "North Carolina",
+    "country": "United States",
+    "regions": [
+      "Bavaria"
+    ],
+    "countries": [
+      "Germany"
+    ],
+    "dists": [
+      181.1959497919917
+    ],
+    "times": [
+      7.833333333333341
+    ]
+  },
+  "Huainan, Anhui, China": {
+    "lats": [
+      33.305330470129896
+    ],
+    "lons": [
+      114.65546423647584
+    ],
+    "true_lat": 32.63,
+    "true_lon": 116.98,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Huainan%2C+China&go=Go&ns0=1",
+    "mean_dist": 229.4,
+    "mean_lat": 33.305,
+    "mean_lon": 114.655,
+    "mean_time": 7.7,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Huainan",
+    "admin": "Anhui",
+    "country": "China",
+    "regions": [
+      "Bavaria"
+    ],
+    "countries": [
+      "Germany"
+    ],
+    "dists": [
+      229.48298423237205
+    ],
+    "times": [
+      7.733333333333341
+    ]
+  },
+  "An Najaf, Iraq": {
+    "lats": [
+      32.17337072841599
+    ],
+    "lons": [
+      42.386556673450656
+    ],
+    "true_lat": 32.0003,
+    "true_lon": 44.3354,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=An Najaf%2C+Iraq&go=Go&ns0=1",
+    "mean_dist": 184.6,
+    "mean_lat": 32.173,
+    "mean_lon": 42.386,
+    "mean_time": 7.1,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "An Najaf",
+    "admin": "An Najaf",
+    "country": "Iraq",
+    "regions": [
+      "Bavaria"
+    ],
+    "countries": [
+      "Germany"
+    ],
+    "dists": [
+      184.60224149388233
+    ],
+    "times": [
+      7.166666666666677
+    ]
+  },
+  "Conakry, Guinea": {
+    "lats": [
+      12.052135458091746
+    ],
+    "lons": [
+      -15.092434923188051
+    ],
+    "true_lat": 9.5315,
+    "true_lon": -13.6802,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Conakry%2C+Guinea&go=Go&ns0=1",
+    "mean_dist": 319.9,
+    "mean_lat": 12.052,
+    "mean_lon": -15.092,
+    "mean_time": 7.2,
+    "std_dist": 0,
+    "std_time": 9.7,
+    "city": "Conakry",
+    "admin": "Conakry",
+    "country": "Guinea",
+    "regions": [
+      "Bavaria"
+    ],
+    "countries": [
+      "Germany"
+    ],
+    "dists": [
+      319.9196226333887
+    ],
+    "times": [
+      7.20000000000001
+    ]
+  },
+  "Mogadishu, Somalia": {
+    "lats": [
+      5.070006511179962
+    ],
+    "lons": [
+      47.42857348017333
+    ],
+    "true_lat": 2.0667,
+    "true_lon": 45.3667,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Mogadishu%2C+Somalia&go=Go&ns0=1",
+    "mean_dist": 404.8,
+    "mean_lat": 5.07,
+    "mean_lon": 47.428,
+    "mean_time": 7.3,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Mogadishu",
+    "admin": "Banaadir",
+    "country": "Somalia",
+    "regions": [
+      "Bavaria"
+    ],
+    "countries": [
+      "Germany"
+    ],
+    "dists": [
+      404.81247236326254
+    ],
+    "times": [
+      7.333333333333343
+    ]
+  },
+  "Vienna, Austria": {
+    "lats": [
+      46.93150076996713
+    ],
+    "lons": [
+      16.342857232614733
+    ],
+    "true_lat": 48.2,
+    "true_lon": 16.3666,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Vienna%2C+Austria&go=Go&ns0=1",
+    "mean_dist": 141,
+    "mean_lat": 46.931,
+    "mean_lon": 16.342,
+    "mean_time": 3.2,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Vienna",
+    "admin": "Wien",
+    "country": "Austria",
+    "regions": [
+      "Zurich"
+    ],
+    "countries": [
+      "Switzerland"
+    ],
+    "dists": [
+      141.06192504692288
+    ],
+    "times": [
+      3.2666666666666906
+    ]
+  },
+  "Shaoxing, Zhejiang, China": {
+    "lats": [
+      24.564099121839288
+    ],
+    "lons": [
+      117.85546227463152
+    ],
+    "true_lat": 30.0004,
+    "true_lon": 120.57,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Shaoxing%2C+China&go=Go&ns0=1",
+    "mean_dist": 661.2,
+    "mean_lat": 24.564,
+    "mean_lon": 117.855,
+    "mean_time": 0.7,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Shaoxing",
+    "admin": "Zhejiang",
+    "country": "China",
+    "regions": [
+      "Zurich"
+    ],
+    "countries": [
+      "Switzerland"
+    ],
+    "dists": [
+      661.2666154124677
+    ],
+    "times": [
+      0.7333333333333587
+    ]
+  },
+  "Bulawayo, Zimbabwe": {
+    "lats": [
+      -22.18279527157212
+    ],
+    "lons": [
+      25.08235303093406
+    ],
+    "true_lat": -20.17,
+    "true_lon": 28.58,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bulawayo%2C+Zimbabwe&go=Go&ns0=1",
+    "mean_dist": 426.1,
+    "mean_lat": -22.182,
+    "mean_lon": 25.082,
+    "mean_time": 3.1,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Bulawayo",
+    "admin": "Bulawayo",
+    "country": "Zimbabwe",
+    "regions": [
+      "Zurich"
+    ],
+    "countries": [
+      "Switzerland"
+    ],
+    "dists": [
+      426.1312548616255
+    ],
+    "times": [
+      3.1333333333333577
+    ]
+  },
+  "Dakar, Senegal": {
+    "lats": [
+      5.829165383810744
+    ],
+    "lons": [
+      -3.152941086713014
+    ],
+    "true_lat": 14.7158,
+    "true_lon": -17.4731,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Dakar%2C+Senegal&go=Go&ns0=1",
+    "mean_dist": 1850.8,
+    "mean_lat": 5.829,
+    "mean_lon": -3.152,
+    "mean_time": 1.2,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Dakar",
+    "admin": "Dakar",
+    "country": "Senegal",
+    "regions": [
+      "Zurich"
+    ],
+    "countries": [
+      "Switzerland"
+    ],
+    "dists": [
+      1850.8084741980952
+    ],
+    "times": [
+      1.2666666666666928
+    ]
+  },
+  "Port Said, Egypt": {
+    "lats": [
+      29.06635164751951
+    ],
+    "lons": [
+      29.115966476312224
+    ],
+    "true_lat": 31.26,
+    "true_lon": 32.29,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Port Said%2C+Egypt&go=Go&ns0=1",
+    "mean_dist": 390.6,
+    "mean_lat": 29.066,
+    "mean_lon": 29.115,
+    "mean_time": 1.9,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Port Said",
+    "admin": "B\u016br Sa\u2018\u012bd",
+    "country": "Egypt",
+    "regions": [
+      "Zurich"
+    ],
+    "countries": [
+      "Switzerland"
+    ],
+    "dists": [
+      390.6208711124852
+    ],
+    "times": [
+      1.9333333333333615
+    ]
+  },
+  "Indianapolis, Indiana, United States": {
+    "lats": [],
+    "lons": [],
+    "true_lat": 39.7771,
+    "true_lon": -86.1458,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Indianapolis%2C+United States&go=Go&ns0=1",
+    "regions": [],
+    "countries": [],
+    "dists": [],
+    "times": []
+  },
+  "Hengyang, Hunan, China": {
+    "lats": [],
+    "lons": [],
+    "true_lat": 26.88,
+    "true_lon": 112.59,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Hengyang%2C+China&go=Go&ns0=1",
+    "regions": [],
+    "countries": [],
+    "dists": [],
+    "times": []
+  },
+  "Thimphu, Bhutan": {
+    "lats": [
+      13.36491997500765
+    ],
+    "lons": [
+      99.19327936252625
+    ],
+    "true_lat": 27.473,
+    "true_lon": 89.639,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Thimphu%2C+Bhutan&go=Go&ns0=1",
+    "mean_dist": 1856,
+    "mean_lat": 13.364,
+    "mean_lon": 99.193,
+    "mean_time": 7.1,
+    "std_dist": 0,
+    "std_time": 1,
+    "city": "Thimphu",
+    "admin": "Thimphu",
+    "country": "Bhutan",
+    "regions": [
+      "Bavaria"
+    ],
+    "countries": [
+      "Germany"
+    ],
+    "dists": [
+      1856.0341801027655
+    ],
+    "times": [
+      7.10000000000001
+    ]
+  },
+  "Gaozhou, Guangdong, China": {
+    "lats": [
+      47.32825405650647
+    ],
+    "lons": [
+      127.76470793395481
+    ],
+    "true_lat": 21.9204,
+    "true_lon": 110.87,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Gaozhou%2C+China&go=Go&ns0=1",
+    "mean_dist": 3204.6,
+    "mean_lat": 47.328,
+    "mean_lon": 127.764,
+    "mean_time": 7.3,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Gaozhou",
+    "admin": "Guangdong",
+    "country": "China",
+    "regions": [
+      "Bavaria"
+    ],
+    "countries": [
+      "Germany"
+    ],
+    "dists": [
+      3204.6442247348573
+    ],
+    "times": [
+      7.333333333333343
+    ]
+  },
+  "Santos, S\u00e3o Paulo, Brazil": {
+    "lats": [
+      -22.265848758655654
+    ],
+    "lons": [
+      -42.31932567949056
+    ],
+    "true_lat": -23.9537,
+    "true_lon": -46.3329,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Santos%2C+Brazil&go=Go&ns0=1",
+    "mean_dist": 451.3,
+    "mean_lat": -22.265,
+    "mean_lon": -42.319,
+    "mean_time": 6.9,
+    "std_dist": 0,
+    "std_time": 1,
+    "city": "Santos",
+    "admin": "S\u00e3o Paulo",
+    "country": "Brazil",
+    "regions": [
+      "Bavaria"
+    ],
+    "countries": [
+      "Germany"
+    ],
+    "dists": [
+      451.315198668
+    ],
+    "times": [
+      6.900000000000011
+    ]
+  },
+  "Brussels, Belgium": {
+    "lats": [
+      -8.684222360353218
+    ],
+    "lons": [
+      40.70588440454307
+    ],
+    "true_lat": 50.8333,
+    "true_lon": 4.3333,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Brussels%2C+Belgium&go=Go&ns0=1",
+    "mean_dist": 7485.2,
+    "mean_lat": -8.684,
+    "mean_lon": 40.705,
+    "mean_time": 9.6,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Brussels",
+    "admin": "Brussels-Capital Region",
+    "country": "Belgium",
+    "regions": [
+      "Bavaria"
+    ],
+    "countries": [
+      "Germany"
+    ],
+    "dists": [
+      7485.256937893705
+    ],
+    "times": [
+      9.633333333333335
+    ]
+  },
+  "Makassar, Sulawesi Selatan, Indonesia": {
+    "lats": [
+      -1.98833844909315
+    ],
+    "lons": [
+      113.31092642134979
+    ],
+    "true_lat": -5.14,
+    "true_lon": 119.432,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Makassar%2C+Indonesia&go=Go&ns0=1",
+    "mean_dist": 764.3,
+    "mean_lat": -1.988,
+    "mean_lon": 113.31,
+    "mean_time": 7.5,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Makassar",
+    "admin": "Sulawesi Selatan",
+    "country": "Indonesia",
+    "regions": [
+      "Bavaria"
+    ],
+    "countries": [
+      "Germany"
+    ],
+    "dists": [
+      764.3068275523784
+    ],
+    "times": [
+      7.533333333333342
+    ]
+  },
+  "Mangalore, Karn\u0101taka, India": {
+    "lats": [
+      -56.751499567097284,
+      23.07829447587703,
+      24.088910970648033,
+      18.622849736748268,
+      22.80114879492266
+    ],
+    "lons": [
+      53.64705882352942,
+      81.96691176470586,
+      76.94117647058823,
+      78.94796368007746,
+      84.59178492795621
+    ],
+    "true_lat": 12.9,
+    "true_lon": 74.85,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Mangalore%2C+India&go=Go&ns0=1",
+    "mean_dist": 2578.1,
+    "mean_lat": 6.367,
+    "mean_lon": 75.218,
+    "mean_time": 5.5,
+    "std_dist": 2716.6,
+    "std_time": 1,
+    "city": "Mangalore",
+    "admin": "Karn\u0101taka",
+    "country": "India",
+    "regions": [
+      "Queensland",
+      "Queensland",
+      "Queensland",
+      "Queensland",
+      "Queensland"
+    ],
+    "countries": [
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia"
+    ],
+    "dists": [
+      7989.051811078243,
+      1358.457135377035,
+      1263.4599426262857,
+      772.6944813788496,
+      1507.1617858091163
+    ],
+    "times": [
+      5.500000000000016,
+      3.8666666666666885,
+      6.833333333333345,
+      6.433333333333346,
+      5.23333333333335
+    ]
+  },
+  "Lhasa, Tibet, China": {
+    "lats": [
+      36.753097380779934,
+      38.814707782210036,
+      30.366595456398226,
+      42.7241758010137,
+      35.1923868577549
+    ],
+    "lons": [
+      105.82307369373075,
+      80.79044117647061,
+      96,
+      113.63876307675918,
+      78.5065922301875
+    ],
+    "true_lat": 29.645,
+    "true_lon": 91.1,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Lhasa%2C+China&go=Go&ns0=1",
+    "mean_dist": 1451.5,
+    "mean_lat": 36.77,
+    "mean_lon": 94.951,
+    "mean_time": 4.8,
+    "std_dist": 637.9,
+    "std_time": 0.8,
+    "city": "Lhasa",
+    "admin": "Tibet",
+    "country": "China",
+    "regions": [
+      "Queensland",
+      "Queensland",
+      "Queensland",
+      "Queensland",
+      "Queensland"
+    ],
+    "countries": [
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia"
+    ],
+    "dists": [
+      1578.8408526533797,
+      1390.184423443877,
+      478.5630428204907,
+      2478.2620965163396,
+      1331.835594552969
+    ],
+    "times": [
+      4.266666666666687,
+      3.5666666666666895,
+      6.000000000000014,
+      5.066666666666684,
+      5.33333333333335
     ]
   }
 }
