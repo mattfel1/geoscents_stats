@@ -73,7 +73,7 @@ except:
 metadata = {}
 
 total_num_clicks = 0
-player_countries = {'Total': 0}
+player_countries = {'Total': 0, 'Unknown': 0}
 continent_order = ['World', 'Trivia', 'Europe', 'Africa', 'Asia', 'Oceania', 'NAmerica', 'SAmerica']
 continent_country_perf = {}
 
@@ -133,13 +133,17 @@ for path in pathlist:
                         data[entry]['regions'].append(cache[unknown_ip][0])
                         data[entry]['countries'].append(cache[unknown_ip][1])
                 # Update player country click count
-                if ('optOut' not in ip and cache[ip4][1] in player_countries): 
+                if ('optOut' in ip):
+                    player_countries['Unknown'] = player_countries['Unknown'] + 1 
+                elif (cache[ip4][1] in player_countries): 
                     player_countries[cache[ip4][1]] = player_countries[cache[ip4][1]] + 1
                 else: 
                     player_countries[cache[ip4][1]] = 1
                 player_countries["Total"] = player_countries["Total"] + 1
                 # Update player country performance
-                if (cache[ip4][1] in continent_country_perf[continent]): 
+                if ('optOut' in ip): 
+                    continent_country_perf[continent]['Unknown'] = continent_country_perf[continent]['Unknown'] + [data[entry]['dists'][el]]
+                elif (cache[ip4][1] in continent_country_perf[continent]): 
                     continent_country_perf[continent][cache[ip4][1]] = continent_country_perf[continent][cache[ip4][1]] + [data[entry]['dists'][el]]
                 else: 
                     continent_country_perf[continent][cache[ip4][1]] = [data[entry]['dists'][el]]
