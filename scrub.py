@@ -142,7 +142,10 @@ for path in pathlist:
                 player_countries["Total"] = player_countries["Total"] + 1
                 # Update player country performance
                 if ('optOut' in ip): 
-                    continent_country_perf[continent]['Unknown'] = continent_country_perf[continent]['Unknown'] + [data[entry]['dists'][el]]
+                    if ('Unknown' in continent_country_perf[continent]):
+                        continent_country_perf[continent]['Unknown'] = continent_country_perf[continent]['Unknown'] + [data[entry]['dists'][el]]
+                    else:
+                        continent_country_perf[continent]['Unknown'] = [data[entry]['dists'][el]]                        
                 elif (cache[ip4][1] in continent_country_perf[continent]): 
                     continent_country_perf[continent][cache[ip4][1]] = continent_country_perf[continent][cache[ip4][1]] + [data[entry]['dists'][el]]
                 else: 
