@@ -133,7 +133,7 @@ for path in pathlist:
                         data[entry]['regions'].append(cache[unknown_ip][0])
                         data[entry]['countries'].append(cache[unknown_ip][1])
                 # Update player country click count
-                if (cache[ip4][1] in player_countries): 
+                if ('optOut' not in ip and cache[ip4][1] in player_countries): 
                     player_countries[cache[ip4][1]] = player_countries[cache[ip4][1]] + 1
                 else: 
                     player_countries[cache[ip4][1]] = 1
