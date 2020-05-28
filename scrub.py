@@ -94,6 +94,7 @@ for path in pathlist:
             num_cities = num_cities + 1
             data[entry]['regions'] = []
             data[entry]['countries'] = []
+            data[entry]['iso2'] = entry['iso2']
             el = 0
             for ip in data[entry]['ips']:
                 num_clicks = num_clicks + 1
