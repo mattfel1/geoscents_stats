@@ -11,8 +11,8 @@ import subprocess
 
 
 print("Copy the old file and new file directly into this directory, then scp the updated one to the server")
-oldMap = './World_guesses_old'
-newMap = './World_guesses_new'
+oldMap =  './World_guesses_old'
+newMap =  './World_guesses_new'
 fullMap = './World_guesses'
 
 with open(oldMap) as json_file:
