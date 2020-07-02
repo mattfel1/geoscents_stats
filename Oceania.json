@@ -1,8 +1,8 @@
 {
   "Palikir, Micronesia, Federated States Of": {
-    "mean_dist": 1638,
+    "mean_dist": 1641.5,
     "mean_time": 6.4,
-    "std_dist": 2002.1,
+    "std_dist": 1998.9,
     "std_time": 1.8,
     "admin": "Pohnpei",
     "country": "Micronesia, Federated States Of",
@@ -481,7 +481,10 @@
       6.78,
       0.54,
       -16.042,
-      6.32
+      6.32,
+      10.355,
+      -2.308,
+      5.157
     ],
     "lons": [
       "x",
@@ -957,10 +960,13 @@
       158.467,
       173.724,
       214.457,
-      158.326
+      158.326,
+      123.861,
+      175.99,
+      163.314
     ],
-    "mean_lat": 1.423,
-    "mean_lon": 165.129,
+    "mean_lat": 1.445,
+    "mean_lon": 165.05,
     "true_lat": 6.9166,
     "true_lon": 158.15,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Palikir%2C+Micronesia, Federated States Of&go=Go&ns0=1",
@@ -1439,7 +1445,10 @@
       "New South Wales",
       "Stockholm",
       "Stockholm",
-      "Balearic Islands"
+      "Balearic Islands",
+      "New South Wales",
+      "New South Wales",
+      "New South Wales"
     ],
     "countries": [
       "United States",
@@ -1915,7 +1924,10 @@
       "Australia",
       "Sweden",
       "Sweden",
-      "Spain"
+      "Spain",
+      "Australia",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       2622.3,
@@ -2391,7 +2403,10 @@
       38.1,
       1867,
       6701.2,
-      69
+      69,
+      3786.9,
+      2229.8,
+      603.6
     ],
     "times": [
       8.4,
@@ -2867,13 +2882,16 @@
       7.5,
       6.8,
       3.6,
-      8.1
+      8.1,
+      2.5,
+      5.8,
+      4.6
     ]
   },
   "Gisborne, New Zealand": {
-    "mean_dist": 367,
+    "mean_dist": 371,
     "mean_time": 7.3,
-    "std_dist": 437.8,
+    "std_dist": 438,
     "std_time": 1.4,
     "admin": "Gisborne",
     "country": "New Zealand",
@@ -2993,7 +3011,8 @@
       -38.939,
       -41.046,
       -38.846,
-      -40.988
+      -40.988,
+      -43.664
     ],
     "lons": [
       "x",
@@ -3110,10 +3129,11 @@
       177.6,
       175.45,
       177.124,
-      174.823
+      174.823,
+      170.745
     ],
-    "mean_lat": -40.002,
-    "mean_lon": 175.193,
+    "mean_lat": -40.043,
+    "mean_lon": 175.143,
     "true_lat": -38.6633,
     "true_lon": 178.0181,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Gisborne%2C+New Zealand&go=Go&ns0=1",
@@ -3233,7 +3253,8 @@
       "New South Wales",
       "Washington",
       "New South Wales",
-      "Washington"
+      "Washington",
+      "Queensland"
     ],
     "countries": [
       "United States",
@@ -3350,7 +3371,8 @@
       "Australia",
       "United States",
       "Australia",
-      "United States"
+      "United States",
+      "Australia"
     ],
     "dists": [
       950.3,
@@ -3467,7 +3489,8 @@
       47.4,
       343.8,
       80,
-      375.8
+      375.8,
+      824
     ],
     "times": [
       8.1,
@@ -3584,13 +3607,14 @@
       7.3,
       8,
       8.6,
-      8
+      8,
+      5.9
     ]
   },
   "Manukau City, New Zealand": {
-    "mean_dist": 457.3,
+    "mean_dist": 456.2,
     "mean_time": 7.4,
-    "std_dist": 670.6,
+    "std_dist": 667.8,
     "std_time": 1.2,
     "admin": "Auckland",
     "country": "New Zealand",
@@ -3713,7 +3737,8 @@
       -36.774,
       -36.678,
       -40.819,
-      -38.802
+      -38.802,
+      -39.954
     ],
     "lons": [
       "x",
@@ -3833,10 +3858,11 @@
       175.104,
       174.867,
       173.227,
-      175.866
+      175.866,
+      175.514
     ],
-    "mean_lat": -38.626,
-    "mean_lon": 173.444,
+    "mean_lat": -38.641,
+    "mean_lon": 173.467,
     "true_lat": -37,
     "true_lon": 174.885,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Manukau City%2C+New Zealand&go=Go&ns0=1",
@@ -3959,7 +3985,8 @@
       "New South Wales",
       "New South Wales",
       "Quebec",
-      "Colorado"
+      "Colorado",
+      "New South Wales"
     ],
     "countries": [
       "United States",
@@ -4079,7 +4106,8 @@
       "Australia",
       "Australia",
       "Canada",
-      "United States"
+      "United States",
+      "Australia"
     ],
     "dists": [
       74.3,
@@ -4199,7 +4227,8 @@
       31.8,
       35.7,
       448.2,
-      218.1
+      218.1,
+      333
     ],
     "times": [
       5.6,
@@ -4319,7 +4348,8 @@
       8.5,
       8.6,
       7.5,
-      7.9
+      7.9,
+      6.8
     ]
   },
   "Port Macquarie, New South Wales, Australia": {
@@ -12684,9 +12714,9 @@
     ]
   },
   "Bandar Seri Begawan, Brunei": {
-    "mean_dist": 1010.4,
+    "mean_dist": 1007.3,
     "mean_time": 6.8,
-    "std_dist": 2069.2,
+    "std_dist": 2065.3,
     "std_time": 1.7,
     "admin": "Brunei and Muara",
     "country": "Brunei",
@@ -13151,7 +13181,9 @@
       4.23,
       4.763,
       4.623,
-      4.361
+      4.361,
+      2.778,
+      2.937
     ],
     "lons": [
       "x",
@@ -13613,10 +13645,12 @@
       115.058,
       114.617,
       114.666,
-      115.32
+      115.32,
+      113.245,
+      113.245
     ],
-    "mean_lat": 2.688,
-    "mean_lon": 121.878,
+    "mean_lat": 2.689,
+    "mean_lon": 121.833,
     "true_lat": 4.8833,
     "true_lon": 114.9333,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bandar Seri Begawan%2C+Brunei&go=Go&ns0=1",
@@ -14081,7 +14115,9 @@
       "Balearic Islands",
       "New South Wales",
       "Balearic Islands",
-      "Balearic Islands"
+      "Balearic Islands",
+      "New South Wales",
+      "New South Wales"
     ],
     "countries": [
       "Canada",
@@ -14543,7 +14579,9 @@
       "Spain",
       "Australia",
       "Spain",
-      "Spain"
+      "Spain",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       83.7,
@@ -15005,7 +15043,9 @@
       73.8,
       37.4,
       41.3,
-      72.1
+      72.1,
+      299.7,
+      286.1
     ],
     "times": [
       5,
@@ -15467,7 +15507,9 @@
       8,
       8.5,
       8.1,
-      8.1
+      8.1,
+      6.1,
+      5.1
     ]
   },
   "Port Pirie, South Australia, Australia": {
@@ -17724,9 +17766,9 @@
     ]
   },
   "Kuantan, Malaysia": {
-    "mean_dist": 486.7,
+    "mean_dist": 483.4,
     "mean_time": 7.2,
-    "std_dist": 803.4,
+    "std_dist": 801.5,
     "std_time": 1.6,
     "admin": "Pahang",
     "country": "Malaysia",
@@ -17872,7 +17914,8 @@
       2.979,
       3.931,
       3.336,
-      3.313
+      3.313,
+      3.889
     ],
     "lons": [
       "x",
@@ -18015,10 +18058,11 @@
       101.07,
       102.971,
       102.734,
-      102.663
+      102.663,
+      103.104
     ],
-    "mean_lat": 3.044,
-    "mean_lon": 105.025,
+    "mean_lat": 3.052,
+    "mean_lon": 105.007,
     "true_lat": 3.83,
     "true_lon": 103.32,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kuantan%2C+Malaysia&go=Go&ns0=1",
@@ -18164,7 +18208,8 @@
       "New South Wales",
       "New South Wales",
       "New South Wales",
-      "Colorado"
+      "Colorado",
+      "New South Wales"
     ],
     "countries": [
       "Canada",
@@ -18307,7 +18352,8 @@
       "Australia",
       "Australia",
       "Australia",
-      "United States"
+      "United States",
+      "Australia"
     ],
     "dists": [
       153.9,
@@ -18450,7 +18496,8 @@
       267,
       40.2,
       85.1,
-      92.7
+      92.7,
+      24.8
     ],
     "times": [
       7,
@@ -18593,7 +18640,8 @@
       8.5,
       8.3,
       8.6,
-      6.1
+      6.1,
+      3.7
     ]
   },
   "Horsham, Victoria, Australia": {
@@ -25200,9 +25248,9 @@
     ]
   },
   "Timaru, New Zealand": {
-    "mean_dist": 489,
+    "mean_dist": 491.4,
     "mean_time": 7.7,
-    "std_dist": 297.8,
+    "std_dist": 297.5,
     "std_time": 1,
     "admin": "Canterbury",
     "country": "New Zealand",
@@ -25317,7 +25365,8 @@
       -38.937,
       -39.835,
       -44.539,
-      -37.91
+      -37.91,
+      -38.351
     ],
     "lons": [
       "x",
@@ -25429,10 +25478,11 @@
       175.581,
       175.923,
       171.302,
-      175.581
+      175.581,
+      175.514
     ],
-    "mean_lat": -41.02,
-    "mean_lon": 173.933,
+    "mean_lat": -40.99,
+    "mean_lon": 173.95,
     "true_lat": -44.3972,
     "true_lon": 171.2425,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Timaru%2C+New Zealand&go=Go&ns0=1",
@@ -25547,7 +25597,8 @@
       "Balearic Islands",
       "Colorado",
       "New South Wales",
-      "Balearic Islands"
+      "Balearic Islands",
+      "New South Wales"
     ],
     "countries": [
       "Australia",
@@ -25659,7 +25710,8 @@
       "Spain",
       "United States",
       "Australia",
-      "Spain"
+      "Spain",
+      "Australia"
     ],
     "dists": [
       164.3,
@@ -25771,7 +25823,8 @@
       705.7,
       637.1,
       16.5,
-      807.3
+      807.3,
+      760.6
     ],
     "times": [
       7.3,
@@ -25883,13 +25936,14 @@
       8.5,
       6.5,
       8.4,
-      8
+      8,
+      6.3
     ]
   },
   "Lae, Papua New Guinea": {
-    "mean_dist": 618.1,
+    "mean_dist": 612.3,
     "mean_time": 7.1,
-    "std_dist": 1261.5,
+    "std_dist": 1254.3,
     "std_time": 1.6,
     "admin": "Morobe",
     "country": "Papua New Guinea",
@@ -26120,7 +26174,10 @@
       -10.238,
       -5.478,
       -8.893,
-      -7.019
+      -7.019,
+      -6.113,
+      -5.797,
+      -4.688
     ],
     "lons": [
       "x",
@@ -26348,10 +26405,13 @@
       150.875,
       145.99,
       146.902,
-      147.059
+      147.059,
+      146.36,
+      146.202,
+      145.093
     ],
-    "mean_lat": -6.248,
-    "mean_lon": 145.303,
+    "mean_lat": -6.236,
+    "mean_lon": 145.313,
     "true_lat": -6.733,
     "true_lon": 146.99,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Lae%2C+Papua New Guinea&go=Go&ns0=1",
@@ -26582,6 +26642,9 @@
       "Pennsylvania",
       "New South Wales",
       "Quebec",
+      "New South Wales",
+      "New South Wales",
+      "New South Wales",
       "New South Wales"
     ],
     "countries": [
@@ -26810,6 +26873,9 @@
       "United States",
       "Australia",
       "Canada",
+      "Australia",
+      "Australia",
+      "Australia",
       "Australia"
     ],
     "dists": [
@@ -27038,7 +27104,10 @@
       578.3,
       177.9,
       240.4,
-      32.7
+      32.7,
+      97.8,
+      135.6,
+      309.3
     ],
     "times": [
       5.9,
@@ -27266,7 +27335,10 @@
       8.2,
       7.6,
       8.7,
-      8.4
+      8.4,
+      4.8,
+      6.6,
+      5.5
     ]
   },
   "Majuro, Marshall Islands": {
@@ -31275,9 +31347,9 @@
     ]
   },
   "Katoomba, New South Wales, Australia": {
-    "mean_dist": 280.9,
+    "mean_dist": 281,
     "mean_time": 7.1,
-    "std_dist": 323.5,
+    "std_dist": 321.4,
     "std_time": 1.3,
     "admin": "New South Wales",
     "country": "Australia",
@@ -31356,7 +31428,8 @@
       -34.839,
       -36.11,
       -35.598,
-      -32.878
+      -32.878,
+      -32.556
     ],
     "lons": [
       "x",
@@ -31432,10 +31505,11 @@
       150.743,
       150.907,
       150.091,
-      151.148
+      151.148,
+      147.477
     ],
-    "mean_lat": -33.751,
-    "mean_lon": 150.624,
+    "mean_lat": -33.726,
+    "mean_lon": 150.557,
     "true_lat": -33.7069,
     "true_lon": 150.32,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Katoomba%2C+Australia&go=Go&ns0=1",
@@ -31514,7 +31588,8 @@
       "New South Wales",
       "Quebec",
       "Quebec",
-      "Colorado"
+      "Colorado",
+      "Queensland"
     ],
     "countries": [
       "Australia",
@@ -31590,7 +31665,8 @@
       "Australia",
       "Canada",
       "Canada",
-      "United States"
+      "United States",
+      "Australia"
     ],
     "dists": [
       108.7,
@@ -31666,7 +31742,8 @@
       131.8,
       272.6,
       211.3,
-      120
+      120,
+      293.9
     ],
     "times": [
       7,
@@ -31742,13 +31819,14 @@
       8.7,
       7.1,
       8.1,
-      6.7
+      6.7,
+      4.7
     ]
   },
   "Devonport, Tasmania, Australia": {
-    "mean_dist": 218,
+    "mean_dist": 217.4,
     "mean_time": 7.5,
-    "std_dist": 589.6,
+    "std_dist": 587.4,
     "std_time": 1.2,
     "admin": "Tasmania",
     "country": "Australia",
@@ -31886,7 +31964,8 @@
       -41.442,
       -38.569,
       -42.339,
-      -44.32
+      -44.32,
+      -42.224
     ],
     "lons": [
       "x",
@@ -32021,10 +32100,11 @@
       145.777,
       176.287,
       146.169,
-      147.216
+      147.216,
+      147.346
     ],
-    "mean_lat": -40.757,
-    "mean_lon": 146.674,
+    "mean_lat": -40.774,
+    "mean_lon": 146.682,
     "true_lat": -41.1927,
     "true_lon": 146.3311,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Devonport%2C+Australia&go=Go&ns0=1",
@@ -32162,7 +32242,8 @@
       "Quebec",
       "Washington",
       "Washington",
-      "Quebec"
+      "Quebec",
+      "Queensland"
     ],
     "countries": [
       "Australia",
@@ -32297,7 +32378,8 @@
       "Canada",
       "United States",
       "United States",
-      "Canada"
+      "Canada",
+      "Australia"
     ],
     "dists": [
       131.1,
@@ -32432,7 +32514,8 @@
       53.9,
       2559.9,
       128.2,
-      355.1
+      355.1,
+      142.3
     ],
     "times": [
       7.8,
@@ -32567,7 +32650,8 @@
       7.9,
       6.9,
       7.9,
-      8.2
+      8.2,
+      7.5
     ]
   },
   "Kimbe, Papua New Guinea": {
@@ -34287,9 +34371,9 @@
     ]
   },
   "Kangar, Malaysia": {
-    "mean_dist": 678.7,
+    "mean_dist": 676.4,
     "mean_time": 7.4,
-    "std_dist": 791,
+    "std_dist": 788.3,
     "std_time": 1.5,
     "admin": "Perlis",
     "country": "Malaysia",
@@ -34419,7 +34503,8 @@
       5.713,
       6.069,
       5.832,
-      6.069
+      6.069,
+      4.1
     ],
     "lons": [
       "x",
@@ -34546,10 +34631,11 @@
       100.713,
       100.357,
       100.951,
-      100.357
+      100.357,
+      102.771
     ],
-    "mean_lat": 3.277,
-    "mean_lon": 104.145,
+    "mean_lat": 3.285,
+    "mean_lon": 104.132,
     "true_lat": 6.433,
     "true_lon": 100.19,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kangar%2C+Malaysia&go=Go&ns0=1",
@@ -34679,7 +34765,8 @@
       "New South Wales",
       "New South Wales",
       "New South Wales",
-      "New South Wales"
+      "New South Wales",
+      "Queensland"
     ],
     "countries": [
       "Australia",
@@ -34803,6 +34890,7 @@
       "Australia",
       "Australia",
       "Canada",
+      "Australia",
       "Australia",
       "Australia",
       "Australia",
@@ -34933,7 +35021,8 @@
       98.7,
       44.4,
       107.4,
-      44.4
+      44.4,
+      385.9
     ],
     "times": [
       4.4,
@@ -35060,13 +35149,14 @@
       8.5,
       8.7,
       8.5,
-      8.4
+      8.4,
+      7.1
     ]
   },
   "Butterworth, Malaysia": {
-    "mean_dist": 587.3,
+    "mean_dist": 584.3,
     "mean_time": 7,
-    "std_dist": 1086.7,
+    "std_dist": 1082.8,
     "std_time": 1.6,
     "admin": "Pulau Pinang",
     "country": "Malaysia",
@@ -35194,7 +35284,8 @@
       5.357,
       3.543,
       4.449,
-      1.736
+      1.736,
+      4.361
     ],
     "lons": [
       "x",
@@ -35319,10 +35410,11 @@
       100.951,
       113.884,
       101.76,
-      110.464
+      110.464,
+      102.117
     ],
-    "mean_lat": 3.354,
-    "mean_lon": 104.988,
+    "mean_lat": 3.363,
+    "mean_lon": 104.96,
     "true_lat": 5.4171,
     "true_lon": 100.4,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Butterworth%2C+Malaysia&go=Go&ns0=1",
@@ -35450,7 +35542,8 @@
       "New South Wales",
       "Colorado",
       "Colorado",
-      "Colorado"
+      "Colorado",
+      "Queensland"
     ],
     "countries": [
       "Australia",
@@ -35575,7 +35668,8 @@
       "Australia",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Australia"
     ],
     "dists": [
       1386.1,
@@ -35700,7 +35794,8 @@
       61.4,
       1509.2,
       185.1,
-      1189.3
+      1189.3,
+      223.5
     ],
     "times": [
       7.8,
@@ -35825,13 +35920,14 @@
       8.1,
       3.9,
       6.6,
-      7.1
+      7.1,
+      7.4
     ]
   },
   "Muar, Malaysia": {
-    "mean_dist": 620.9,
+    "mean_dist": 618.2,
     "mean_time": 7.2,
-    "std_dist": 819.2,
+    "std_dist": 817.1,
     "std_time": 1.6,
     "admin": "Johor",
     "country": "Malaysia",
@@ -35985,7 +36081,8 @@
       2.502,
       4.361,
       3.314,
-      3.931
+      3.931,
+      3.731
     ],
     "lons": [
       "x",
@@ -36136,10 +36233,11 @@
       113.191,
       101.725,
       102.117,
-      113.429
+      113.429,
+      101.678
     ],
-    "mean_lat": 2.953,
-    "mean_lon": 106.041,
+    "mean_lat": 2.959,
+    "mean_lon": 106.004,
     "true_lat": 2.0337,
     "true_lon": 102.5666,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Muar%2C+Malaysia&go=Go&ns0=1",
@@ -36293,6 +36391,7 @@
       "New South Wales",
       "Balearic Islands",
       "Quebec",
+      "New South Wales",
       "New South Wales"
     ],
     "countries": [
@@ -36444,6 +36543,7 @@
       "Australia",
       "Spain",
       "Canada",
+      "Australia",
       "Australia"
     ],
     "dists": [
@@ -36595,7 +36695,8 @@
       1181.6,
       275.1,
       150.9,
-      1224.4
+      1224.4,
+      212.9
     ],
     "times": [
       8.4,
@@ -36746,7 +36847,8 @@
       8.5,
       8.2,
       8.3,
-      8.5
+      8.5,
+      5.5
     ]
   },
   "Ipoh, Malaysia": {
@@ -42708,9 +42810,9 @@
     ]
   },
   "Kota Bharu, Malaysia": {
-    "mean_dist": 654.7,
+    "mean_dist": 662.3,
     "mean_time": 7.2,
-    "std_dist": 829.2,
+    "std_dist": 830.3,
     "std_time": 1.5,
     "admin": "Kelantan",
     "country": "Malaysia",
@@ -42842,7 +42944,8 @@
       4.23,
       3.838,
       3.314,
-      3.183
+      3.183,
+      5.632
     ],
     "lons": [
       "x",
@@ -42971,10 +43074,11 @@
       102.248,
       101.333,
       113.751,
-      101.986
+      101.986,
+      116.889
     ],
-    "mean_lat": 2.846,
-    "mean_lon": 105.67,
+    "mean_lat": 2.873,
+    "mean_lon": 105.78,
     "true_lat": 6.12,
     "true_lon": 102.23,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kota Bharu%2C+Malaysia&go=Go&ns0=1",
@@ -43106,7 +43210,8 @@
       "Balearic Islands",
       "Quebec",
       "England",
-      "Quebec"
+      "Quebec",
+      "New South Wales"
     ],
     "countries": [
       "France",
@@ -43235,7 +43340,8 @@
       "Spain",
       "Canada",
       "United Kingdom",
-      "Canada"
+      "Canada",
+      "Australia"
     ],
     "dists": [
       332.5,
@@ -43364,7 +43470,8 @@
       210,
       272.4,
       1314.2,
-      327.6
+      327.6,
+      1622.3
     ],
     "times": [
       7.6,
@@ -43493,7 +43600,8 @@
       7.9,
       8.2,
       6.3,
-      8.2
+      8.2,
+      2.8
     ]
   },
   "Gold Coast, Queensland, Australia": {
@@ -46473,9 +46581,9 @@
     ]
   },
   "Whangarei, New Zealand": {
-    "mean_dist": 473,
+    "mean_dist": 471.2,
     "mean_time": 7.6,
-    "std_dist": 539.2,
+    "std_dist": 537.2,
     "std_time": 0.9,
     "admin": "Northland",
     "country": "New Zealand",
@@ -46592,7 +46700,8 @@
       -37.687,
       -35.277,
       -35.598,
-      -35.598
+      -35.598,
+      -37.599
     ],
     "lons": [
       "x",
@@ -46706,10 +46815,11 @@
       175.113,
       173.49,
       173.751,
-      174.091
+      174.091,
+      176.148
     ],
-    "mean_lat": -38.846,
-    "mean_lon": 174.35,
+    "mean_lat": -38.832,
+    "mean_lon": 174.37,
     "true_lat": -35.7256,
     "true_lon": 174.323,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Whangarei%2C+New Zealand&go=Go&ns0=1",
@@ -46826,7 +46936,8 @@
       "Quebec",
       "Quebec",
       "Quebec",
-      "Quebec"
+      "Quebec",
+      "New South Wales"
     ],
     "countries": [
       "France",
@@ -46940,7 +47051,8 @@
       "Canada",
       "Canada",
       "Canada",
-      "Canada"
+      "Canada",
+      "Australia"
     ],
     "dists": [
       900.7,
@@ -47054,7 +47166,8 @@
       229.2,
       90.3,
       53.5,
-      25.2
+      25.2,
+      264.4
     ],
     "times": [
       6.8,
@@ -47168,13 +47281,14 @@
       8.1,
       8.4,
       8.3,
-      8.6
+      8.6,
+      6.8
     ]
   },
   "Launceston, Tasmania, Australia": {
-    "mean_dist": 163.6,
+    "mean_dist": 162.8,
     "mean_time": 7.5,
-    "std_dist": 464.6,
+    "std_dist": 462.9,
     "std_time": 1.1,
     "admin": "Tasmania",
     "country": "Australia",
@@ -47310,7 +47424,8 @@
       -41.736,
       -41.575,
       -41.736,
-      -42.224
+      -42.224,
+      -41.876
     ],
     "lons": [
       "x",
@@ -47443,10 +47558,11 @@
       145.777,
       146.66,
       145.725,
-      146.692
+      146.692,
+      146.994
     ],
-    "mean_lat": -40.596,
-    "mean_lon": 146.574,
+    "mean_lat": -40.612,
+    "mean_lon": 146.58,
     "true_lat": -41.4498,
     "true_lon": 147.1302,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Launceston%2C+Australia&go=Go&ns0=1",
@@ -47582,7 +47698,8 @@
       "England",
       "Aargau",
       "Quebec",
-      "Balearic Islands"
+      "Balearic Islands",
+      "New South Wales"
     ],
     "countries": [
       "France",
@@ -47715,7 +47832,8 @@
       "United Kingdom",
       "Switzerland",
       "Canada",
-      "Spain"
+      "Spain",
+      "Australia"
     ],
     "dists": [
       52.5,
@@ -47848,7 +47966,8 @@
       116.9,
       41.5,
       121,
-      93.4
+      93.4,
+      48.7
     ],
     "times": [
       8,
@@ -47981,7 +48100,8 @@
       6.4,
       8,
       8.3,
-      8.3
+      8.3,
+      5.5
     ]
   },
   "Palmerston North, New Zealand": {
@@ -53382,9 +53502,9 @@
     ]
   },
   "Tokoroa, New Zealand": {
-    "mean_dist": 296.3,
+    "mean_dist": 294.6,
     "mean_time": 7.7,
-    "std_dist": 521.6,
+    "std_dist": 519.8,
     "std_time": 1.1,
     "admin": "Waikato",
     "country": "New Zealand",
@@ -53510,7 +53630,8 @@
       -41.204,
       -37.629,
       -38.193,
-      -39.05
+      -39.05,
+      -38.971
     ],
     "lons": [
       "x",
@@ -53633,10 +53754,11 @@
       175.241,
       176.055,
       177.006,
-      176.816
+      176.816,
+      175.831
     ],
-    "mean_lat": -38.55,
-    "mean_lon": 175.281,
+    "mean_lat": -38.555,
+    "mean_lon": 175.288,
     "true_lat": -38.2245,
     "true_lon": 175.8705,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tokoroa%2C+New Zealand&go=Go&ns0=1",
@@ -53762,7 +53884,8 @@
       "Washington",
       "New South Wales",
       "New South Wales",
-      "Colorado"
+      "Colorado",
+      "New South Wales"
     ],
     "countries": [
       "France",
@@ -53885,7 +54008,8 @@
       "United States",
       "Australia",
       "Australia",
-      "United States"
+      "United States",
+      "Australia"
     ],
     "dists": [
       786.8,
@@ -54008,7 +54132,8 @@
       335.7,
       68.1,
       99.2,
-      123.2
+      123.2,
+      83.1
     ],
     "times": [
       7.3,
@@ -54131,7 +54256,8 @@
       5.9,
       8.3,
       8.4,
-      7.4
+      7.4,
+      7.2
     ]
   },
   "Tarawa, Kiribati": {
@@ -56718,9 +56844,9 @@
     ]
   },
   "Labasa, Fiji": {
-    "mean_dist": 613.2,
+    "mean_dist": 608.2,
     "mean_time": 7.3,
-    "std_dist": 1388.7,
+    "std_dist": 1382.1,
     "std_time": 1.4,
     "admin": "Macuata",
     "country": "Fiji",
@@ -57097,7 +57223,11 @@
       -16.394,
       -17.005,
       -16.792,
-      -16.646
+      -16.646,
+      -17.649,
+      -17.304,
+      -17.91,
+      -17.304
     ],
     "lons": [
       "x",
@@ -57471,10 +57601,14 @@
       179.241,
       178.712,
       179.193,
-      179.712
+      179.712,
+      178.196,
+      179.476,
+      178.208,
+      179.317
     ],
-    "mean_lat": -16.489,
-    "mean_lon": 177.69,
+    "mean_lat": -16.503,
+    "mean_lon": 177.705,
     "true_lat": -16.4166,
     "true_lon": 179.3833,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Labasa%2C+Fiji&go=Go&ns0=1",
@@ -57851,7 +57985,11 @@
       "Quebec",
       "Colorado",
       "Colorado",
-      "Quebec"
+      "Quebec",
+      "Queensland",
+      "New South Wales",
+      "New South Wales",
+      "New South Wales"
     ],
     "countries": [
       "France",
@@ -58225,7 +58363,11 @@
       "Canada",
       "United States",
       "United States",
-      "Canada"
+      "Canada",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       165.3,
@@ -58599,7 +58741,11 @@
       15.2,
       96.9,
       46.4,
-      43.4
+      43.4,
+      186.3,
+      99.2,
+      207.8,
+      98.9
     ],
     "times": [
       6.8,
@@ -58973,7 +59119,11 @@
       8.4,
       8.4,
       8.5,
-      8.2
+      8.2,
+      7.1,
+      5.7,
+      5.7,
+      5.4
     ]
   },
   "Levin, New Zealand": {
@@ -61953,10 +62103,10 @@
     ]
   },
   "George Town, Malaysia": {
-    "mean_dist": 619.4,
+    "mean_dist": 617.1,
     "mean_time": 7,
-    "std_dist": 1245.7,
-    "std_time": 1.9,
+    "std_dist": 1241.9,
+    "std_time": 1.8,
     "admin": "Pulau Pinang",
     "country": "Malaysia",
     "city": "George Town",
@@ -62110,7 +62260,8 @@
       5.595,
       5.951,
       5.595,
-      4.623
+      4.623,
+      3.969
     ],
     "lons": [
       "x",
@@ -62262,10 +62413,11 @@
       100.832,
       100.951,
       100.951,
-      100.156
+      100.156,
+      102.248
     ],
-    "mean_lat": 3.807,
-    "mean_lon": 104.775,
+    "mean_lat": 3.808,
+    "mean_lon": 104.755,
     "true_lat": 5.4136,
     "true_lon": 100.3294,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=George Town%2C+Malaysia&go=Go&ns0=1",
@@ -62420,7 +62572,8 @@
       "New South Wales",
       "New South Wales",
       "New South Wales",
-      "Balearic Islands"
+      "Balearic Islands",
+      "Queensland"
     ],
     "countries": [
       "France",
@@ -62572,7 +62725,8 @@
       "Australia",
       "Australia",
       "Australia",
-      "Spain"
+      "Spain",
+      "Australia"
     ],
     "dists": [
       423.6,
@@ -62724,7 +62878,8 @@
       59.2,
       91.1,
       71.7,
-      89.9
+      89.9,
+      266.4
     ],
     "times": [
       6.5,
@@ -62876,7 +63031,8 @@
       8.4,
       8.4,
       8.4,
-      8.1
+      8.1,
+      7.1
     ]
   },
   "Upper Hutt, New Zealand": {
@@ -63621,10 +63777,10 @@
     ]
   },
   "Putrajaya, Malaysia": {
-    "mean_dist": 467.5,
+    "mean_dist": 463,
     "mean_time": 7.3,
-    "std_dist": 846.6,
-    "std_time": 1.4,
+    "std_dist": 841,
+    "std_time": 1.5,
     "admin": "Putrajaya",
     "country": "Malaysia",
     "city": "Putrajaya",
@@ -63760,7 +63916,9 @@
       2.36,
       2.042,
       4.763,
-      3.707
+      3.707,
+      4.048,
+      3.572
     ],
     "lons": [
       "x",
@@ -63894,10 +64052,12 @@
       113.121,
       113.121,
       100.713,
-      102.117
+      102.117,
+      102.153,
+      103.421
     ],
-    "mean_lat": 2.805,
-    "mean_lon": 104.562,
+    "mean_lat": 2.823,
+    "mean_lon": 104.53,
     "true_lat": 2.914,
     "true_lon": 101.7019,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Putrajaya%2C+Malaysia&go=Go&ns0=1",
@@ -64034,7 +64194,9 @@
       "Colorado",
       "Colorado",
       "New South Wales",
-      "Balearic Islands"
+      "Balearic Islands",
+      "New South Wales",
+      "New South Wales"
     ],
     "countries": [
       "France",
@@ -64168,7 +64330,9 @@
       "United States",
       "United States",
       "Australia",
-      "Spain"
+      "Spain",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       195.6,
@@ -64302,7 +64466,9 @@
       1269.8,
       1272.2,
       233,
-      99.5
+      99.5,
+      135.7,
+      204.4
     ],
     "times": [
       7.6,
@@ -64436,7 +64602,9 @@
       7.2,
       7.9,
       8.2,
-      8.2
+      8.2,
+      0.8,
+      5.4
     ]
   },
   "Port Hedland, Western Australia, Australia": {
@@ -65097,9 +65265,9 @@
     ]
   },
   "Alotau, Papua New Guinea": {
-    "mean_dist": 750.7,
+    "mean_dist": 748.6,
     "mean_time": 7.3,
-    "std_dist": 965.2,
+    "std_dist": 962.3,
     "std_time": 1.4,
     "admin": "Milne Bay",
     "country": "Papua New Guinea",
@@ -65349,7 +65517,9 @@
       -5.647,
       -4.68,
       -7.318,
-      -7.159
+      -7.159,
+      -6.745,
+      -9.735
     ],
     "lons": [
       "x",
@@ -65596,10 +65766,12 @@
       143.973,
       143.555,
       145.602,
-      147.947
+      147.947,
+      143.033,
+      149.846
     ],
-    "mean_lat": -7.692,
-    "mean_lon": 147.427,
+    "mean_lat": -7.697,
+    "mean_lon": 147.418,
     "true_lat": -10.3021,
     "true_lon": 150.4591,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Alotau%2C+Papua New Guinea&go=Go&ns0=1",
@@ -65849,7 +66021,9 @@
       "Scotland",
       "England",
       "Colorado",
-      "Quebec"
+      "Quebec",
+      "New South Wales",
+      "New South Wales"
     ],
     "countries": [
       "France",
@@ -66096,7 +66270,9 @@
       "United Kingdom",
       "United Kingdom",
       "United States",
-      "Canada"
+      "Canada",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       615.1,
@@ -66343,7 +66519,9 @@
       881.8,
       984.6,
       628.2,
-      445.2
+      445.2,
+      907.1,
+      92
     ],
     "times": [
       8.2,
@@ -66590,7 +66768,9 @@
       7.2,
       5.8,
       7.4,
-      7.8
+      7.8,
+      5.5,
+      6.3
     ]
   },
   "Caloundra, Queensland, Australia": {
@@ -68634,9 +68814,9 @@
     ]
   },
   "Lautoka, Fiji": {
-    "mean_dist": 686.7,
+    "mean_dist": 695.5,
     "mean_time": 7.3,
-    "std_dist": 1523.2,
+    "std_dist": 1531.9,
     "std_time": 1.5,
     "admin": "Ba",
     "country": "Fiji",
@@ -68996,7 +69176,9 @@
       -18.148,
       -17.719,
       -17.899,
-      -16.772
+      -16.772,
+      -17.399,
+      -17.91
     ],
     "lons": [
       "x",
@@ -69353,10 +69535,12 @@
       177.673,
       177.719,
       177.62,
-      178.928
+      178.928,
+      218.98,
+      178.366
     ],
-    "mean_lat": -16.994,
-    "mean_lon": 177.475,
+    "mean_lat": -16.998,
+    "mean_lon": 177.621,
     "true_lat": -17.6161,
     "true_lon": 177.4666,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Lautoka%2C+Fiji&go=Go&ns0=1",
@@ -69716,7 +69900,9 @@
       "Balearic Islands",
       "New South Wales",
       "Quebec",
-      "Quebec"
+      "Quebec",
+      "Queensland",
+      "New South Wales"
     ],
     "countries": [
       "United States",
@@ -70073,7 +70259,9 @@
       "Spain",
       "Australia",
       "Canada",
-      "Canada"
+      "Canada",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       133.8,
@@ -70430,7 +70618,9 @@
       63.1,
       29.1,
       35.4,
-      181.4
+      181.4,
+      4393.2,
+      100.8
     ],
     "times": [
       6.2,
@@ -70787,13 +70977,15 @@
       8.5,
       8.6,
       8.5,
-      8.5
+      8.5,
+      7.1,
+      6.3
     ]
   },
   "Popondetta, Papua New Guinea": {
-    "mean_dist": 425,
+    "mean_dist": 424.8,
     "mean_time": 7.4,
-    "std_dist": 389.2,
+    "std_dist": 388.2,
     "std_time": 1.2,
     "admin": "Northern",
     "country": "Papua New Guinea",
@@ -70993,7 +71185,8 @@
       -6.169,
       -9.262,
       -7.159,
-      -8.588
+      -8.588,
+      -6.247
     ],
     "lons": [
       "x",
@@ -71190,10 +71383,11 @@
       143.869,
       147.059,
       148.156,
-      147.869
+      147.869,
+      145.647
     ],
-    "mean_lat": -7.016,
-    "mean_lon": 145.979,
+    "mean_lat": -7.011,
+    "mean_lon": 145.977,
     "true_lat": -8.7692,
     "true_lon": 148.2484,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Popondetta%2C+Papua New Guinea&go=Go&ns0=1",
@@ -71393,7 +71587,8 @@
       "Washington",
       "New South Wales",
       "Quebec",
-      "Balearic Islands"
+      "Balearic Islands",
+      "Queensland"
     ],
     "countries": [
       "United States",
@@ -71590,7 +71785,8 @@
       "United States",
       "Australia",
       "Canada",
-      "Spain"
+      "Spain",
+      "Australia"
     ],
     "dists": [
       558.3,
@@ -71787,7 +71983,8 @@
       562.7,
       141.6,
       179.2,
-      46.2
+      46.2,
+      401
     ],
     "times": [
       6.7,
@@ -71984,7 +72181,8 @@
       7.8,
       8.2,
       8.3,
-      8.3
+      8.3,
+      7.4
     ]
   },
   "Bairnsdale, Victoria, Australia": {
@@ -73074,9 +73272,9 @@
     ]
   },
   "Whanganui, New Zealand": {
-    "mean_dist": 307.4,
+    "mean_dist": 306.8,
     "mean_time": 7.3,
-    "std_dist": 442.7,
+    "std_dist": 441,
     "std_time": 1.2,
     "admin": "Manawatu-Wanganui",
     "country": "New Zealand",
@@ -73207,7 +73405,8 @@
       -38.13,
       -39.304,
       -37.817,
-      -38.116
+      -38.116,
+      -38.351
     ],
     "lons": [
       "x",
@@ -73335,10 +73534,11 @@
       175.381,
       175.45,
       176.411,
-      175.66
+      175.66,
+      176.624
     ],
-    "mean_lat": -39.618,
-    "mean_lon": 173.861,
+    "mean_lat": -39.605,
+    "mean_lon": 173.889,
     "true_lat": -39.9326,
     "true_lon": 175.0393,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Whanganui%2C+New Zealand&go=Go&ns0=1",
@@ -73469,7 +73669,8 @@
       "Colorado",
       "Georgia",
       "New South Wales",
-      "Quebec"
+      "Quebec",
+      "New South Wales"
     ],
     "countries": [
       "Canada",
@@ -73597,7 +73798,8 @@
       "United States",
       "United States",
       "Australia",
-      "Canada"
+      "Canada",
+      "Australia"
     ],
     "dists": [
       207.8,
@@ -73725,7 +73927,8 @@
       202.5,
       78.2,
       263.4,
-      208.9
+      208.9,
+      222.7
     ],
     "times": [
       7.3,
@@ -73853,7 +74056,8 @@
       6.7,
       6.1,
       8.4,
-      8.4
+      8.4,
+      6
     ]
   },
   "Napier, New Zealand": {
@@ -75261,9 +75465,9 @@
     ]
   },
   "Taree, New South Wales, Australia": {
-    "mean_dist": 404.2,
+    "mean_dist": 408.4,
     "mean_time": 7,
-    "std_dist": 513.2,
+    "std_dist": 511.4,
     "std_time": 1.9,
     "city": "Taree",
     "admin": "New South Wales",
@@ -75348,7 +75552,8 @@
       -29.492,
       -35.133,
       -32.112,
-      -34.74
+      -34.74,
+      -32.666
     ],
     "lons": [
       "x",
@@ -75430,10 +75635,11 @@
       153.12,
       150.387,
       151.921,
-      150.091
+      150.091,
+      144.601
     ],
-    "mean_lat": -32.871,
-    "mean_lon": 149.241,
+    "mean_lat": -32.867,
+    "mean_lon": 149.161,
     "true_lat": -31.8976,
     "true_lon": 152.4618,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Taree%2C+Australia&go=Go&ns0=1",
@@ -75518,7 +75724,8 @@
       "New South Wales",
       "New South Wales",
       "Balearic Islands",
-      "Quebec"
+      "Quebec",
+      "Queensland"
     ],
     "countries": [
       "United States",
@@ -75600,7 +75807,8 @@
       "Australia",
       "Australia",
       "Spain",
-      "Canada"
+      "Canada",
+      "Australia"
     ],
     "dists": [
       86.4,
@@ -75682,7 +75890,8 @@
       274.6,
       407.9,
       56.2,
-      385.2
+      385.2,
+      743.7
     ],
     "times": [
       8,
@@ -75764,13 +75973,14 @@
       8.3,
       8.7,
       7.3,
-      8.1
+      8.1,
+      5.8
     ]
   },
   "Mendi, Papua New Guinea": {
-    "mean_dist": 630.2,
+    "mean_dist": 625.8,
     "mean_time": 7,
-    "std_dist": 1584.7,
+    "std_dist": 1579.2,
     "std_time": 1.6,
     "admin": "Southern Highlands",
     "country": "Papua New Guinea",
@@ -76026,7 +76236,9 @@
       -5.359,
       -6.377,
       -5.333,
-      -7.318
+      -7.318,
+      -5.797,
+      -6.429
     ],
     "lons": [
       "x",
@@ -76279,10 +76491,12 @@
       143.969,
       146.692,
       144.601,
-      146.394
+      146.394,
+      143.191,
+      144.459
     ],
-    "mean_lat": -5.693,
-    "mean_lon": 140.895,
+    "mean_lat": -5.697,
+    "mean_lon": 140.924,
     "true_lat": -6.1444,
     "true_lon": 143.6452,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Mendi%2C+Papua New Guinea&go=Go&ns0=1",
@@ -76538,7 +76752,9 @@
       "New South Wales",
       "Balearic Islands",
       "Quebec",
-      "Colorado"
+      "Colorado",
+      "New South Wales",
+      "New South Wales"
     ],
     "countries": [
       "Australia",
@@ -76791,7 +77007,9 @@
       "Australia",
       "Spain",
       "Canada",
-      "United States"
+      "United States",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       288.3,
@@ -77044,7 +77262,9 @@
       94.3,
       337.8,
       138.9,
-      330.5
+      330.5,
+      63.3,
+      95.3
     ],
     "times": [
       1.8,
@@ -77297,13 +77517,15 @@
       7.7,
       7.9,
       8.4,
-      8
+      8,
+      7.3,
+      4
     ]
   },
   "Luganville, Vanuatu": {
-    "mean_dist": 1099.9,
+    "mean_dist": 1098.5,
     "mean_time": 6.8,
-    "std_dist": 1592.7,
+    "std_dist": 1589.6,
     "std_time": 1.7,
     "admin": "Sanma",
     "country": "Vanuatu",
@@ -77762,7 +77984,9 @@
       -18.646,
       -17.899,
       -16.351,
-      -16.52
+      -16.52,
+      -18.364,
+      -18.062
     ],
     "lons": [
       "x",
@@ -78218,10 +78442,12 @@
       168,
       168,
       167.736,
-      167.816
+      167.816,
+      168.701,
+      178.05
     ],
-    "mean_lat": -14.441,
-    "mean_lon": 168.358,
+    "mean_lat": -14.46,
+    "mean_lon": 168.384,
     "true_lat": -15.5126,
     "true_lon": 167.1766,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Luganville%2C+Vanuatu&go=Go&ns0=1",
@@ -78680,7 +78906,9 @@
       "Balearic Islands",
       "Balearic Islands",
       "New South Wales",
-      "Quebec"
+      "Quebec",
+      "New South Wales",
+      "New South Wales"
     ],
     "countries": [
       "Australia",
@@ -79136,7 +79364,9 @@
       "Spain",
       "Spain",
       "Australia",
-      "Canada"
+      "Canada",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       4164.2,
@@ -79592,7 +79822,9 @@
       359.3,
       279.4,
       110.8,
-      131.3
+      131.3,
+      356.1,
+      1191.4
     ],
     "times": [
       1.2,
@@ -80048,7 +80280,9 @@
       8.4,
       8.5,
       8.2,
-      8.2
+      8.2,
+      3.5,
+      5.7
     ]
   },
   "Klang, Malaysia": {
@@ -81993,9 +82227,9 @@
     ]
   },
   "Honiara, Solomon Islands": {
-    "mean_dist": 1066,
+    "mean_dist": 1070.6,
     "mean_time": 6.7,
-    "std_dist": 1483.9,
+    "std_dist": 1485.4,
     "std_time": 1.6,
     "admin": "Honiara",
     "country": "Solomon Islands",
@@ -82441,7 +82675,8 @@
       -9.883,
       -8.137,
       -8.735,
-      -9.883
+      -9.883,
+      -13.781
     ],
     "lons": [
       "x",
@@ -82884,10 +83119,11 @@
       160.679,
       158.842,
       159.862,
-      160.496
+      160.496,
+      188.19
     ],
-    "mean_lat": -9.532,
-    "mean_lon": 164.041,
+    "mean_lat": -9.544,
+    "mean_lon": 164.107,
     "true_lat": -9.438,
     "true_lon": 159.9498,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Honiara%2C+Solomon Islands&go=Go&ns0=1",
@@ -83333,7 +83569,8 @@
       "Quebec",
       "Colorado",
       "Colorado",
-      "Quebec"
+      "Quebec",
+      "New South Wales"
     ],
     "countries": [
       "Australia",
@@ -83776,7 +84013,8 @@
       "Canada",
       "United States",
       "United States",
-      "Canada"
+      "Canada",
+      "Australia"
     ],
     "dists": [
       481.7,
@@ -84219,7 +84457,8 @@
       94.1,
       188.9,
       78.6,
-      77.7
+      77.7,
+      3111.5
     ],
     "times": [
       9.9,
@@ -84662,13 +84901,14 @@
       8.4,
       5.5,
       6.7,
-      8.2
+      8.2,
+      4.1
     ]
   },
   "Blenheim, New Zealand": {
-    "mean_dist": 408.7,
+    "mean_dist": 408.1,
     "mean_time": 7.2,
-    "std_dist": 993.8,
+    "std_dist": 989.6,
     "std_time": 1.3,
     "admin": "Marlborough",
     "country": "New Zealand",
@@ -84789,7 +85029,8 @@
       -39.344,
       -41.442,
       -38.528,
-      -42.187
+      -42.187,
+      -38.937
     ],
     "lons": [
       "x",
@@ -84907,10 +85148,11 @@
       176.104,
       174.797,
       176.104,
-      172.855
+      172.855,
+      176.235
     ],
-    "mean_lat": -41.487,
-    "mean_lon": 173.71,
+    "mean_lat": -41.459,
+    "mean_lon": 173.737,
     "true_lat": -41.5135,
     "true_lon": 173.955,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Blenheim%2C+New Zealand&go=Go&ns0=1",
@@ -85031,7 +85273,8 @@
       "Balearic Islands",
       "Quebec",
       "Balearic Islands",
-      "Colorado"
+      "Colorado",
+      "Queensland"
     ],
     "countries": [
       "Australia",
@@ -85149,7 +85392,8 @@
       "Spain",
       "Canada",
       "Spain",
-      "United States"
+      "United States",
+      "Australia"
     ],
     "dists": [
       5505.8,
@@ -85267,7 +85511,8 @@
       302,
       70.6,
       379,
-      117.9
+      117.9,
+      345.6
     ],
     "times": [
       6.9,
@@ -85385,7 +85630,8 @@
       8,
       8.2,
       7.9,
-      7.7
+      7.7,
+      7.3
     ]
   },
   "Shepparton, Victoria, Australia": {
@@ -88419,9 +88665,9 @@
     ]
   },
   "Hawera, New Zealand": {
-    "mean_dist": 513,
-    "mean_time": 7.6,
-    "std_dist": 1134,
+    "mean_dist": 509.4,
+    "mean_time": 7.5,
+    "std_dist": 1129.9,
     "std_time": 1.3,
     "admin": "Taranaki",
     "country": "New Zealand",
@@ -88544,7 +88790,8 @@
       -43.51,
       -41.22,
       -43.683,
-      -42.422
+      -42.422,
+      -39.218
     ],
     "lons": [
       "x",
@@ -88664,10 +88911,11 @@
       172.252,
       173.797,
       172.49,
-      171.904
+      171.904,
+      175.197
     ],
-    "mean_lat": -40.216,
-    "mean_lon": 172.682,
+    "mean_lat": -40.206,
+    "mean_lon": 172.707,
     "true_lat": -39.5795,
     "true_lon": 174.278,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Hawera%2C+New Zealand&go=Go&ns0=1",
@@ -88790,7 +89038,8 @@
       "New South Wales",
       "New South Wales",
       "New South Wales",
-      "Colorado"
+      "Colorado",
+      "New South Wales"
     ],
     "countries": [
       "Australia",
@@ -88910,7 +89159,8 @@
       "Australia",
       "Australia",
       "Australia",
-      "United States"
+      "United States",
+      "Australia"
     ],
     "dists": [
       320.2,
@@ -89030,7 +89280,8 @@
       468.4,
       186.9,
       479.9,
-      373.5
+      373.5,
+      88.6
     ],
     "times": [
       7.9,
@@ -89150,7 +89401,8 @@
       8.3,
       8.3,
       8.6,
-      6.5
+      6.5,
+      4.4
     ]
   },
   "Bundaberg, Queensland, Australia": {
@@ -90540,9 +90792,9 @@
     ]
   },
   "Raub, Malaysia": {
-    "mean_dist": 571.2,
+    "mean_dist": 567,
     "mean_time": 7.4,
-    "std_dist": 656.7,
+    "std_dist": 655.6,
     "std_time": 1.4,
     "admin": "Pahang",
     "country": "Malaysia",
@@ -90667,7 +90919,8 @@
       2.979,
       2.025,
       3.576,
-      3.052
+      3.052,
+      4.361
     ],
     "lons": [
       "x",
@@ -90789,10 +91042,11 @@
       112.953,
       112.478,
       102.64,
-      102.457
+      102.457,
+      101.725
     ],
-    "mean_lat": 3.314,
-    "mean_lon": 105.196,
+    "mean_lat": 3.324,
+    "mean_lon": 105.161,
     "true_lat": 3.7927,
     "true_lon": 101.8423,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Raub%2C+Malaysia&go=Go&ns0=1",
@@ -90917,7 +91171,8 @@
       "New South Wales",
       "New South Wales",
       "Balearic Islands",
-      "Quebec"
+      "Quebec",
+      "Queensland"
     ],
     "countries": [
       "Australia",
@@ -91039,7 +91294,8 @@
       "Australia",
       "Australia",
       "Spain",
-      "Canada"
+      "Canada",
+      "Australia"
     ],
     "dists": [
       1358,
@@ -91161,7 +91417,8 @@
       1236.6,
       1197.3,
       91.7,
-      106.9
+      106.9,
+      64.5
     ],
     "times": [
       7.3,
@@ -91283,7 +91540,8 @@
       8.3,
       7.9,
       8.2,
-      8.2
+      8.2,
+      6.7
     ]
   },
   "Port Augusta, South Australia, Australia": {
@@ -92907,9 +93165,9 @@
     ]
   },
   "Kalgoorlie, Western Australia, Australia": {
-    "mean_dist": 627,
+    "mean_dist": 626.9,
     "mean_time": 7.2,
-    "std_dist": 499.1,
+    "std_dist": 496.8,
     "std_time": 1.3,
     "admin": "Western Australia",
     "country": "Australia",
@@ -93026,7 +93284,8 @@
       -17.179917542432978,
       -22.451,
       -33.159,
-      -32.558
+      -32.558,
+      -27.33
     ],
     "lons": [
       "x",
@@ -93140,10 +93399,11 @@
       161.73927252927467,
       119.189,
       116.043,
-      115.805
+      115.805,
+      116.366
     ],
-    "mean_lat": -29.5,
-    "mean_lon": 117.434,
+    "mean_lat": -29.471,
+    "mean_lon": 117.42,
     "true_lat": -30.7354,
     "true_lon": 121.46,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kalgoorlie%2C+Australia&go=Go&ns0=1",
@@ -93260,7 +93520,8 @@
       "Colorado",
       "Washington",
       "New South Wales",
-      "New South Wales"
+      "New South Wales",
+      "Queensland"
     ],
     "countries": [
       "Australia",
@@ -93373,6 +93634,7 @@
       "United States",
       "United States",
       "United States",
+      "Australia",
       "Australia",
       "Australia"
     ],
@@ -93488,7 +93750,8 @@
       4333.603187011929,
       948.2,
       577.6,
-      572.2
+      572.2,
+      623.2
     ],
     "times": [
       5.6,
@@ -93602,13 +93865,14 @@
       8.23333333333334,
       4.1,
       8.4,
-      8.5
+      8.5,
+      6.2
     ]
   },
   "Tweed Heads, New South Wales, Australia": {
-    "mean_dist": 695,
-    "mean_time": 7.1,
-    "std_dist": 609.6,
+    "mean_dist": 685.9,
+    "mean_time": 7,
+    "std_dist": 609.4,
     "std_time": 1.6,
     "admin": "New South Wales",
     "country": "Australia",
@@ -93678,7 +93942,8 @@
       -31.443,
       -28.554,
       -33.436,
-      -37.046
+      -37.046,
+      -28.974
     ],
     "lons": [
       "x",
@@ -93745,10 +94010,11 @@
       151.79,
       153.714,
       145.254,
-      146.553
+      146.553,
+      153.173
     ],
-    "mean_lat": -31.096,
-    "mean_lon": 150.144,
+    "mean_lat": -31.044,
+    "mean_lon": 150.218,
     "true_lat": -28.1826,
     "true_lon": 153.5466,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tweed Heads%2C+Australia&go=Go&ns0=1",
@@ -93818,7 +94084,8 @@
       "Balearic Islands",
       "New South Wales",
       "England",
-      "Colorado"
+      "Colorado",
+      "New South Wales"
     ],
     "countries": [
       "Australia",
@@ -93885,7 +94152,8 @@
       "Spain",
       "Australia",
       "United Kingdom",
-      "United States"
+      "United States",
+      "Australia"
     ],
     "dists": [
       905.7,
@@ -93952,7 +94220,8 @@
       400.2,
       44.4,
       983.4,
-      1182.5
+      1182.5,
+      95.2
     ],
     "times": [
       7.2,
@@ -94019,7 +94288,8 @@
       6.8,
       8.5,
       6.8,
-      5.5
+      5.5,
+      5.7
     ]
   },
   "Mount Hagen, Papua New Guinea": {
@@ -96225,9 +96495,9 @@
     ]
   },
   "Sandakan, Malaysia": {
-    "mean_dist": 1338.3,
-    "mean_time": 7.2,
-    "std_dist": 1036.3,
+    "mean_dist": 1340.9,
+    "mean_time": 7.1,
+    "std_dist": 1033.5,
     "std_time": 1.6,
     "admin": "Sabah",
     "country": "Malaysia",
@@ -96387,7 +96657,8 @@
       2.528,
       3.838,
       3.052,
-      5.276
+      5.276,
+      3.572
     ],
     "lons": [
       "x",
@@ -96544,10 +96815,11 @@
       103.032,
       101.333,
       102.065,
-      116.575
+      116.575,
+      102.47
     ],
-    "mean_lat": 2.555,
-    "mean_lon": 109.811,
+    "mean_lat": 2.563,
+    "mean_lon": 109.753,
     "true_lat": 5.843,
     "true_lon": 118.108,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Sandakan%2C+Malaysia&go=Go&ns0=1",
@@ -96707,7 +96979,8 @@
       "Balearic Islands",
       "Quebec",
       "Quebec",
-      "Quebec"
+      "Quebec",
+      "New South Wales"
     ],
     "countries": [
       "Australia",
@@ -96864,7 +97137,8 @@
       "Spain",
       "Canada",
       "Canada",
-      "Canada"
+      "Canada",
+      "Australia"
     ],
     "dists": [
       1769.8,
@@ -97021,7 +97295,8 @@
       1711.7,
       1871.7,
       1805.1,
-      180.9
+      180.9,
+      1751
     ],
     "times": [
       6.1,
@@ -97178,13 +97453,14 @@
       8.2,
       8.2,
       8.3,
-      8.1
+      8.1,
+      3.7
     ]
   },
   "Whakatane, New Zealand": {
-    "mean_dist": 294.8,
-    "mean_time": 7.5,
-    "std_dist": 353.5,
+    "mean_dist": 294.6,
+    "mean_time": 7.4,
+    "std_dist": 352,
     "std_time": 1.4,
     "admin": "Bay of Plenty",
     "country": "New Zealand",
@@ -97300,7 +97576,8 @@
       -37.25,
       -36.774,
       -37.911,
-      -41.951
+      -41.951,
+      -36.2
     ],
     "lons": [
       "x",
@@ -97413,10 +97690,11 @@
       175.698,
       174.867,
       176.411,
-      171.112
+      171.112,
+      174.881
     ],
-    "mean_lat": -39.327,
-    "mean_lon": 175.023,
+    "mean_lat": -39.295,
+    "mean_lon": 175.022,
     "true_lat": -37.9574,
     "true_lon": 176.9828,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Whakatane%2C+New Zealand&go=Go&ns0=1",
@@ -97532,7 +97810,8 @@
       "New South Wales",
       "New South Wales",
       "New South Wales",
-      "Colorado"
+      "Colorado",
+      "New South Wales"
     ],
     "countries": [
       "Australia",
@@ -97645,7 +97924,8 @@
       "Australia",
       "Australia",
       "Australia",
-      "United States"
+      "United States",
+      "Australia"
     ],
     "dists": [
       98.5,
@@ -97758,7 +98038,8 @@
       137.7,
       228.6,
       50.3,
-      668.7
+      668.7,
+      270
     ],
     "times": [
       7.2,
@@ -97871,7 +98152,8 @@
       8.7,
       8.5,
       8.3,
-      7
+      7,
+      4.7
     ]
   },
   "Ballarat, Victoria, Australia": {
@@ -98442,9 +98724,9 @@
     ]
   },
   "Noum\u00e9a, New Caledonia": {
-    "mean_dist": 1089.1,
+    "mean_dist": 1084.8,
     "mean_time": 6.8,
-    "std_dist": 1887.9,
+    "std_dist": 1884.5,
     "std_time": 1.7,
     "admin": "Province Sud",
     "country": "New Caledonia",
@@ -98882,7 +99164,9 @@
       -21.448,
       -21.891,
       -22.091,
-      -22.089
+      -22.089,
+      -20.991,
+      -21.502
     ],
     "lons": [
       "x",
@@ -99317,10 +99601,12 @@
       165.725,
       166.359,
       166.905,
-      167.215
+      167.215,
+      164.993,
+      165.532
     ],
-    "mean_lat": -17.512,
-    "mean_lon": 165.658,
+    "mean_lat": -17.532,
+    "mean_lon": 165.656,
     "true_lat": -22.2625,
     "true_lon": 166.4443,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Noum\u00e9a%2C+New Caledonia&go=Go&ns0=1",
@@ -99758,7 +100044,9 @@
       "Colorado",
       "Colorado",
       "New South Wales",
-      "Balearic Islands"
+      "Balearic Islands",
+      "Queensland",
+      "New South Wales"
     ],
     "countries": [
       "Australia",
@@ -100193,7 +100481,9 @@
       "United States",
       "United States",
       "Australia",
-      "Spain"
+      "Spain",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       8127.5,
@@ -100628,7 +100918,9 @@
       117,
       42.1,
       51.1,
-      81.7
+      81.7,
+      206,
+      126.4
     ],
     "times": [
       6.5,
@@ -101063,7 +101355,9 @@
       7.9,
       7.8,
       8.5,
-      8.1
+      8.1,
+      6.5,
+      6.3
     ]
   },
   "Kingston, Tasmania, Australia": {
@@ -101814,10 +102108,10 @@
     ]
   },
   "Maryborough, Queensland, Australia": {
-    "mean_dist": 509.6,
-    "mean_time": 7.4,
-    "std_dist": 669.5,
-    "std_time": 1.3,
+    "mean_dist": 515.4,
+    "mean_time": 7.3,
+    "std_dist": 667.8,
+    "std_time": 1.4,
     "admin": "Queensland",
     "country": "Australia",
     "city": "Maryborough",
@@ -101908,7 +102202,8 @@
       -23.301,
       -24.5,
       -31.667,
-      -14.015
+      -14.015,
+      -19.267
     ],
     "lons": [
       "x",
@@ -101997,10 +102292,11 @@
       151.1,
       152.407,
       150.222,
-      132.993
+      132.993,
+      145.568
     ],
-    "mean_lat": -26.039,
-    "mean_lon": 148.851,
+    "mean_lat": -25.918,
+    "mean_lon": 148.792,
     "true_lat": -25.5491,
     "true_lon": 152.7209,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Maryborough%2C+Australia&go=Go&ns0=1",
@@ -102092,7 +102388,8 @@
       "New South Wales",
       "New South Wales",
       "England",
-      "Scotland"
+      "Scotland",
+      "New South Wales"
     ],
     "countries": [
       "Australia",
@@ -102181,7 +102478,8 @@
       "Australia",
       "Australia",
       "United Kingdom",
-      "United Kingdom"
+      "United Kingdom",
+      "Australia"
     ],
     "dists": [
       464.1,
@@ -102270,7 +102568,8 @@
       298.9,
       120.7,
       722.6,
-      2424.9
+      2424.9,
+      1013.7
     ],
     "times": [
       7.7,
@@ -102359,7 +102658,8 @@
       8.4,
       8.7,
       5.4,
-      6.4
+      6.4,
+      1.5
     ]
   },
   "Bunbury, Western Australia, Australia": {
@@ -108366,10 +108666,10 @@
     ]
   },
   "Funafuti, Tuvalu": {
-    "mean_dist": 1338.7,
+    "mean_dist": 1336.5,
     "mean_time": 6.6,
-    "std_dist": 1619.7,
-    "std_time": 1.5,
+    "std_dist": 1616.2,
+    "std_time": 1.6,
     "admin": "Funafuti",
     "country": "Tuvalu",
     "city": "Funafuti",
@@ -108852,7 +109152,11 @@
       -15.267,
       -16.143,
       -8.199,
-      -9.236
+      -9.236,
+      -19.417,
+      -20.015,
+      -8.321,
+      -8.006
     ],
     "lons": [
       "x",
@@ -109333,10 +109637,14 @@
       167.499,
       167.398,
       179.45,
-      179.633
+      179.633,
+      185.18,
+      201.658,
+      178.525,
+      178.366
     ],
-    "mean_lat": -10.341,
-    "mean_lon": 176.885,
+    "mean_lat": -10.377,
+    "mean_lon": 176.976,
     "true_lat": -8.5167,
     "true_lon": 179.2166,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Funafuti%2C+Tuvalu&go=Go&ns0=1",
@@ -109820,7 +110128,11 @@
       "Stockholm",
       "Stockholm",
       "Quebec",
-      "Balearic Islands"
+      "Balearic Islands",
+      "New South Wales",
+      "New South Wales",
+      "New South Wales",
+      "New South Wales"
     ],
     "countries": [
       "Australia",
@@ -110301,7 +110613,11 @@
       "Sweden",
       "Sweden",
       "Canada",
-      "Spain"
+      "Spain",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       1482.5,
@@ -110782,7 +111098,11 @@
       1478.6,
       1537.5,
       43.6,
-      92.2
+      92.2,
+      1371.7,
+      2730.5,
+      79,
+      109.3
     ],
     "times": [
       7.5,
@@ -111263,13 +111583,17 @@
       6.8,
       6.8,
       8.1,
-      8.2
+      8.2,
+      3.7,
+      2.6,
+      3.3,
+      6.6
     ]
   },
   "Karratha, Western Australia, Australia": {
-    "mean_dist": 1106.3,
+    "mean_dist": 1102.2,
     "mean_time": 7.2,
-    "std_dist": 764.1,
+    "std_dist": 760.9,
     "std_time": 1.5,
     "admin": "Western Australia",
     "country": "Australia",
@@ -111363,7 +111687,8 @@
       -28.811,
       -25.33,
       -20.759,
-      -20.87
+      -20.87,
+      -18.062
     ],
     "lons": [
       "x",
@@ -111454,10 +111779,11 @@
       114.944,
       118.771,
       119.846,
-      116.875
+      116.875,
+      123.227
     ],
-    "mean_lat": -28.762,
-    "mean_lon": 117.582,
+    "mean_lat": -28.567,
+    "mean_lon": 117.685,
     "true_lat": -20.7304,
     "true_lon": 116.87,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Karratha%2C+Australia&go=Go&ns0=1",
@@ -111551,6 +111877,7 @@
       "Western Australia",
       "Washington",
       "New South Wales",
+      "New South Wales",
       "New South Wales"
     ],
     "countries": [
@@ -111641,6 +111968,7 @@
       "Spain",
       "Australia",
       "United States",
+      "Australia",
       "Australia",
       "Australia"
     ],
@@ -111733,7 +112061,8 @@
       919.2,
       547.2,
       309.5,
-      15.6
+      15.6,
+      729.7
     ],
     "times": [
       7,
@@ -111824,7 +112153,8 @@
       7.7,
       2.1,
       8.5,
-      8.2
+      8.2,
+      2.4
     ]
   },
   "Tauranga, New Zealand": {
@@ -114807,9 +115137,9 @@
     ]
   },
   "Seremban, Malaysia": {
-    "mean_dist": 677.9,
+    "mean_dist": 673.2,
     "mean_time": 7.4,
-    "std_dist": 1421.8,
+    "std_dist": 1416.1,
     "std_time": 1.4,
     "city": "Seremban",
     "admin": "Negeri Sembilan",
@@ -114922,7 +115252,8 @@
       -2.664,
       2.859,
       2.621,
-      2.911
+      2.911,
+      4.048
     ],
     "lons": [
       "x",
@@ -115032,10 +115363,11 @@
       189.272,
       101.902,
       102.02,
-      103.418
+      103.418,
+      102.47
     ],
-    "mean_lat": 2.881,
-    "mean_lon": 108.32,
+    "mean_lat": 2.896,
+    "mean_lon": 108.245,
     "true_lat": 2.7105,
     "true_lon": 101.94,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Seremban%2C+Malaysia&go=Go&ns0=1",
@@ -115148,7 +115480,8 @@
       "England",
       "New South Wales",
       "New South Wales",
-      "Colorado"
+      "Colorado",
+      "New South Wales"
     ],
     "countries": [
       "Australia",
@@ -115258,7 +115591,8 @@
       "United Kingdom",
       "Australia",
       "Australia",
-      "United States"
+      "United States",
+      "Australia"
     ],
     "dists": [
       214.1,
@@ -115368,7 +115702,8 @@
       9725.6,
       17.1,
       13.3,
-      165.6
+      165.6,
+      160
     ],
     "times": [
       7.7,
@@ -115478,7 +115813,8 @@
       7.8,
       8.4,
       8.5,
-      7
+      7,
+      6.9
     ]
   },
   "Warwick, Queensland, Australia": {
@@ -116049,10 +116385,10 @@
     ]
   },
   "Maitland, New South Wales, Australia": {
-    "mean_dist": 256,
+    "mean_dist": 254.9,
     "mean_time": 7.3,
-    "std_dist": 350.6,
-    "std_time": 1.3,
+    "std_dist": 348.2,
+    "std_time": 1.4,
     "city": "Maitland",
     "admin": "New South Wales",
     "country": "Australia",
@@ -116126,7 +116462,8 @@
       -32.859,
       -36.537,
       -33.655,
-      -32.356
+      -32.356,
+      -32.794
     ],
     "lons": [
       "x",
@@ -116198,10 +116535,11 @@
       152.05,
       148.501,
       150.745,
-      152.288
+      152.288,
+      149.687
     ],
-    "mean_lat": -33.416,
-    "mean_lon": 150.6,
+    "mean_lat": -33.403,
+    "mean_lon": 150.581,
     "true_lat": -32.721,
     "true_lon": 151.555,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Maitland%2C+Australia&go=Go&ns0=1",
@@ -116276,6 +116614,7 @@
       "New South Wales",
       "Colorado",
       "Balearic Islands",
+      "New South Wales",
       "New South Wales"
     ],
     "countries": [
@@ -116348,6 +116687,7 @@
       "Australia",
       "United States",
       "Spain",
+      "Australia",
       "Australia"
     ],
     "dists": [
@@ -116420,7 +116760,8 @@
       48.8,
       508,
       128.3,
-      79.7
+      79.7,
+      174.7
     ],
     "times": [
       7.8,
@@ -116492,7 +116833,8 @@
       8.5,
       7,
       8,
-      8.5
+      8.5,
+      2.7
     ]
   },
   "Teluk Intan, Malaysia": {
@@ -117231,9 +117573,9 @@
     ]
   },
   "Kuching, Malaysia": {
-    "mean_dist": 736.1,
+    "mean_dist": 736.2,
     "mean_time": 7.5,
-    "std_dist": 564.9,
+    "std_dist": 562.5,
     "std_time": 1.2,
     "city": "Kuching",
     "admin": "Sarawak",
@@ -117355,7 +117697,8 @@
       5.043,
       5.357,
       5.951,
-      5.999
+      5.999,
+      2.937
     ],
     "lons": [
       "x",
@@ -117474,10 +117817,11 @@
       104.521,
       101.189,
       100.951,
-      103.514
+      103.514,
+      103.738
     ],
-    "mean_lat": 2.697,
-    "mean_lon": 106.171,
+    "mean_lat": 2.7,
+    "mean_lon": 106.144,
     "true_lat": 1.53,
     "true_lon": 110.33,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kuching%2C+Malaysia&go=Go&ns0=1",
@@ -117599,7 +117943,8 @@
       "Quebec",
       "New South Wales",
       "New South Wales",
-      "Quebec"
+      "Quebec",
+      "New South Wales"
     ],
     "countries": [
       "Switzerland",
@@ -117718,7 +118063,8 @@
       "Canada",
       "Australia",
       "Australia",
-      "Canada"
+      "Canada",
+      "Australia"
     ],
     "dists": [
       32,
@@ -117837,7 +118183,8 @@
       753.8,
       1100,
       1150.6,
-      904.7
+      904.7,
+      748.9
     ],
     "times": [
       5.1,
@@ -117956,7 +118303,8 @@
       8,
       8.4,
       8.6,
-      8.7
+      8.7,
+      5.9
     ]
   },
   "Kuala Terengganu, Malaysia": {
@@ -119226,9 +119574,9 @@
     ]
   },
   "Tebingtinggi, Sumatera Utara, Indonesia": {
-    "mean_dist": 1212.2,
+    "mean_dist": 1196.1,
     "mean_time": 6.9,
-    "std_dist": 1220.7,
+    "std_dist": 1217.1,
     "std_time": 1.9,
     "admin": "Sumatera Utara",
     "country": "Indonesia",
@@ -119293,7 +119641,8 @@
       0.535,
       -0.239,
       1.906,
-      0.833
+      0.833,
+      3.731
     ],
     "lons": [
       "x",
@@ -119355,10 +119704,11 @@
       100.366,
       100.357,
       99.287,
-      99.525
+      99.525,
+      97.083
     ],
-    "mean_lat": -1.109,
-    "mean_lon": 108.696,
+    "mean_lat": -1.008,
+    "mean_lon": 108.454,
     "true_lat": 3.3304,
     "true_lon": 99.13,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tebingtinggi%2C+Indonesia&go=Go&ns0=1",
@@ -119423,6 +119773,7 @@
       "Washington",
       "New South Wales",
       "New South Wales",
+      "New South Wales",
       "New South Wales"
     ],
     "countries": [
@@ -119483,6 +119834,7 @@
       "Spain",
       "Spain",
       "United States",
+      "Australia",
       "Australia",
       "Australia",
       "Australia"
@@ -119547,7 +119899,8 @@
       339.7,
       419.7,
       159.2,
-      281
+      281,
+      231.4
     ],
     "times": [
       1.6,
@@ -119609,7 +119962,8 @@
       6.4,
       8.6,
       8.4,
-      8.4
+      8.4,
+      4.2
     ]
   },
   "Bengkulu, Bengkulu, Indonesia": {
@@ -125070,9 +125424,9 @@
     ]
   },
   "Cambridge, New Zealand": {
-    "mean_dist": 544,
+    "mean_dist": 539.9,
     "mean_time": 7.1,
-    "std_dist": 1258.3,
+    "std_dist": 1253.6,
     "std_time": 1.4,
     "admin": "Waikato",
     "country": "New Zealand",
@@ -125190,7 +125544,8 @@
       -37.439,
       -37.629,
       -42.515,
-      -41.146
+      -41.146,
+      -38.6
     ],
     "lons": [
       "x",
@@ -125305,10 +125660,11 @@
       175.342,
       175.104,
       171.398,
-      173.568
+      173.568,
+      175.356
     ],
-    "mean_lat": -38.728,
-    "mean_lon": 172.653,
+    "mean_lat": -38.727,
+    "mean_lon": 172.681,
     "true_lat": -37.8894,
     "true_lon": 175.4703,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Cambridge%2C+New Zealand&go=Go&ns0=1",
@@ -125426,7 +125782,8 @@
       "New South Wales",
       "New South Wales",
       "England",
-      "Quebec"
+      "Quebec",
+      "New South Wales"
     ],
     "countries": [
       "Australia",
@@ -125541,7 +125898,8 @@
       "Australia",
       "Australia",
       "United Kingdom",
-      "Canada"
+      "Canada",
+      "Australia"
     ],
     "dists": [
       466,
@@ -125656,7 +126014,8 @@
       51.2,
       43.2,
       619.6,
-      397.2
+      397.2,
+      79.6
     ],
     "times": [
       5.7,
@@ -125771,13 +126130,14 @@
       8.1,
       8.4,
       6.1,
-      8.2
+      8.2,
+      6.4
     ]
   },
   "Dili, Timor-Leste": {
-    "mean_dist": 1169.9,
+    "mean_dist": 1164.6,
     "mean_time": 6.8,
-    "std_dist": 1980.2,
+    "std_dist": 1976.9,
     "std_time": 1.8,
     "admin": "D\u00edli",
     "country": "Timor-Leste",
@@ -126194,7 +126554,9 @@
       -4.545,
       -8.264,
       -8.106,
-      -8.977
+      -8.977,
+      -9.264,
+      -9.107
     ],
     "lons": [
       "x",
@@ -126608,10 +126970,12 @@
       122.473,
       123.895,
       125.163,
-      126.3
+      126.3,
+      125.762,
+      126.079
     ],
-    "mean_lat": -7.78,
-    "mean_lon": 133.51,
+    "mean_lat": -7.788,
+    "mean_lon": 133.469,
     "true_lat": -8.5594,
     "true_lon": 125.5795,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Dili%2C+Timor-Leste&go=Go&ns0=1",
@@ -127028,7 +127392,9 @@
       "Colorado",
       "Colorado",
       "Colorado",
-      "Balearic Islands"
+      "Balearic Islands",
+      "New South Wales",
+      "New South Wales"
     ],
     "countries": [
       "Australia",
@@ -127442,7 +127808,9 @@
       "United States",
       "United States",
       "United States",
-      "Spain"
+      "Spain",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       2826.7,
@@ -127856,7 +128224,9 @@
       562.8,
       188.1,
       68,
-      91.8
+      91.8,
+      80.9,
+      82
     ],
     "times": [
       8.2,
@@ -128270,7 +128640,9 @@
       6.3,
       6.8,
       7.2,
-      8.2
+      8.2,
+      6.6,
+      7
     ]
   },
   "Makassar, Sulawesi Selatan, Indonesia": {
@@ -132939,9 +133311,9 @@
     ]
   },
   "Sale, Victoria, Australia": {
-    "mean_dist": 470.1,
+    "mean_dist": 468.5,
     "mean_time": 7.1,
-    "std_dist": 783.3,
+    "std_dist": 779.4,
     "std_time": 1.6,
     "admin": "Victoria",
     "country": "Australia",
@@ -133043,7 +133415,8 @@
       -37.723,
       -38.005,
       -38.193,
-      -38.193
+      -38.193,
+      -37.22
     ],
     "lons": [
       "x",
@@ -133142,10 +133515,11 @@
       147.534,
       146.584,
       146.703,
-      146.703
+      146.703,
+      143.666
     ],
-    "mean_lat": -35.199,
-    "mean_lon": 144.42,
+    "mean_lat": -35.228,
+    "mean_lon": 144.409,
     "true_lat": -38.1096,
     "true_lon": 147.06,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Sale%2C+Australia&go=Go&ns0=1",
@@ -133243,6 +133617,7 @@
       "Balearic Islands",
       "Aargau",
       "Washington",
+      "New South Wales",
       "New South Wales",
       "New South Wales",
       "New South Wales",
@@ -133346,6 +133721,7 @@
       "Australia",
       "Australia",
       "Australia",
+      "Australia",
       "Australia"
     ],
     "dists": [
@@ -133445,7 +133821,8 @@
       59.8,
       43.2,
       32.5,
-      32.5
+      32.5,
+      314.5
     ],
     "times": [
       6.6,
@@ -133544,7 +133921,8 @@
       8.6,
       8.6,
       8.6,
-      8.5
+      8.5,
+      4.5
     ]
   },
   "Semarang, Jawa Tengah, Indonesia": {
@@ -142545,9 +142923,9 @@
     ]
   },
   "Warrnambool, Victoria, Australia": {
-    "mean_dist": 481.3,
+    "mean_dist": 477.9,
     "mean_time": 7.4,
-    "std_dist": 562,
+    "std_dist": 560.4,
     "std_time": 1.2,
     "admin": "Victoria",
     "country": "Australia",
@@ -142655,7 +143033,8 @@
       -37.703,
       -37.534,
       -36.582,
-      -37.817
+      -37.817,
+      -37.599
     ],
     "lons": [
       "x",
@@ -142760,10 +143139,11 @@
       144.631,
       144.92,
       144.92,
-      144.326
+      144.326,
+      143.508
     ],
-    "mean_lat": -35.023,
-    "mean_lon": 144.964,
+    "mean_lat": -35.06,
+    "mean_lon": 144.943,
     "true_lat": -38.38,
     "true_lon": 142.47,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Warrnambool%2C+Australia&go=Go&ns0=1",
@@ -142871,6 +143251,7 @@
       "Washington",
       "New South Wales",
       "New South Wales",
+      "New South Wales",
       "New South Wales"
     ],
     "countries": [
@@ -142974,6 +143355,7 @@
       "United States",
       "Australia",
       "United States",
+      "Australia",
       "Australia",
       "Australia",
       "Australia"
@@ -143081,7 +143463,8 @@
       203.6,
       234.5,
       294.4,
-      174
+      174,
+      125.7
     ],
     "times": [
       7.4,
@@ -143186,7 +143569,8 @@
       6.7,
       8.6,
       8.5,
-      8.4
+      8.4,
+      5
     ]
   },
   "Shah Alam, Malaysia": {
@@ -144129,9 +144513,9 @@
     ]
   },
   "Toowoomba, Queensland, Australia": {
-    "mean_dist": 455.2,
-    "mean_time": 7.4,
-    "std_dist": 345.1,
+    "mean_dist": 452,
+    "mean_time": 7.3,
+    "std_dist": 344.1,
     "std_time": 1.5,
     "admin": "Queensland",
     "country": "Australia",
@@ -144217,7 +144601,8 @@
       -23.739,
       -21.537,
       -25.796,
-      -24.02
+      -24.02,
+      -27.15
     ],
     "lons": [
       "x",
@@ -144300,10 +144685,11 @@
       151.1,
       149.317,
       152.526,
-      150.875
+      150.875,
+      150.004
     ],
-    "mean_lat": -24.806,
-    "mean_lon": 151.221,
+    "mean_lat": -24.856,
+    "mean_lon": 151.195,
     "true_lat": -27.5645,
     "true_lon": 151.9555,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Toowoomba%2C+Australia&go=Go&ns0=1",
@@ -144389,7 +144775,8 @@
       "New South Wales",
       "New South Wales",
       "New South Wales",
-      "Quebec"
+      "Quebec",
+      "New South Wales"
     ],
     "countries": [
       "United States",
@@ -144472,7 +144859,8 @@
       "Australia",
       "Australia",
       "Australia",
-      "Canada"
+      "Canada",
+      "Australia"
     ],
     "dists": [
       1634.7,
@@ -144555,7 +144943,8 @@
       433.9,
       721.2,
       204.6,
-      408.6
+      408.6,
+      198
     ],
     "times": [
       7.2,
@@ -144638,7 +145027,8 @@
       8.6,
       8.5,
       8.8,
-      8.2
+      8.2,
+      3.9
     ]
   },
   "Pekalongan, Jawa Tengah, Indonesia": {
@@ -146805,9 +147195,9 @@
     ]
   },
   "Singapore, Singapore": {
-    "mean_dist": 320.1,
+    "mean_dist": 319.1,
     "mean_time": 7.3,
-    "std_dist": 883.4,
+    "std_dist": 881.5,
     "std_time": 1.4,
     "admin": "",
     "country": "Singapore",
@@ -147254,7 +147644,9 @@
       1.191,
       1.348,
       1.479,
-      1.348
+      1.348,
+      2.135,
+      0.394
     ],
     "lons": [
       "x",
@@ -147698,10 +148090,12 @@
       103.565,
       104.339,
       104.026,
-      103.633
+      103.633,
+      103.424,
+      104.372
     ],
-    "mean_lat": 1.542,
-    "mean_lon": 105.745,
+    "mean_lat": 1.54,
+    "mean_lon": 105.735,
     "true_lat": 1.293,
     "true_lon": 103.8558,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Singapore%2C+Singapore&go=Go&ns0=1",
@@ -148148,7 +148542,9 @@
       "New South Wales",
       "Balearic Islands",
       "Quebec",
-      "Quebec"
+      "Quebec",
+      "Queensland",
+      "New South Wales"
     ],
     "countries": [
       "United States",
@@ -148592,7 +148988,9 @@
       "Australia",
       "Spain",
       "Canada",
-      "Canada"
+      "Canada",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       659.7,
@@ -149036,7 +149434,9 @@
       34.1,
       54.1,
       28.1,
-      25.4
+      25.4,
+      105.2,
+      115.2
     ],
     "times": [
       7.5,
@@ -149480,7 +149880,9 @@
       8,
       8.5,
       8.2,
-      8.3
+      8.3,
+      5.9,
+      6
     ]
   },
   "Cirebon, Jawa Barat, Indonesia": {
@@ -153084,10 +153486,10 @@
     ]
   },
   "Kuala Kapuas, Kalimantan Tengah, Indonesia": {
-    "mean_dist": 653.6,
-    "mean_time": 7.4,
-    "std_dist": 545.8,
-    "std_time": 1,
+    "mean_dist": 653.2,
+    "mean_time": 7.3,
+    "std_dist": 540.8,
+    "std_time": 1.2,
     "admin": "Kalimantan Tengah",
     "country": "Indonesia",
     "city": "Kuala Kapuas",
@@ -153145,7 +153547,8 @@
       -2.323,
       -1.537,
       0.356,
-      0.714
+      0.714,
+      0.712
     ],
     "lons": [
       "x",
@@ -153201,10 +153604,11 @@
       115.45,
       111.241,
       109.269,
-      116.875
+      116.875,
+      110.076
     ],
-    "mean_lat": -1.909,
-    "mean_lon": 113.636,
+    "mean_lat": -1.846,
+    "mean_lon": 113.551,
     "true_lat": -3.0996,
     "true_lon": 114.35,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kuala Kapuas%2C+Indonesia&go=Go&ns0=1",
@@ -153263,6 +153667,7 @@
       "Quebec",
       "Aargau",
       "New South Wales",
+      "New South Wales",
       "New South Wales"
     ],
     "countries": [
@@ -153318,6 +153723,7 @@
       "Germany",
       "Canada",
       "Switzerland",
+      "Australia",
       "Australia",
       "Australia"
     ],
@@ -153375,7 +153781,8 @@
       149.6,
       386.5,
       683,
-      508.5
+      508.5,
+      636.6
     ],
     "times": [
       8,
@@ -153431,7 +153838,8 @@
       5.2,
       7.2,
       8.2,
-      8.3
+      8.3,
+      2.3
     ]
   },
   "Balikpapan, Kalimantan Timur, Indonesia": {
@@ -155463,10 +155871,10 @@
     ]
   },
   "Palangkaraya, Kalimantan Tengah, Indonesia": {
-    "mean_dist": 566.6,
-    "mean_time": 7.2,
-    "std_dist": 418.2,
-    "std_time": 1.2,
+    "mean_dist": 563.9,
+    "mean_time": 7.1,
+    "std_dist": 415.4,
+    "std_time": 1.3,
     "admin": "Kalimantan Tengah",
     "country": "Indonesia",
     "city": "Palangkaraya",
@@ -155532,7 +155940,8 @@
       -5.438,
       -2.978,
       -7.847,
-      -2.173
+      -2.173,
+      0.871
     ],
     "lons": [
       "x",
@@ -155596,10 +156005,11 @@
       119.816,
       120.026,
       118.895,
-      113.964
+      113.964,
+      112.135
     ],
-    "mean_lat": -3.519,
-    "mean_lon": 114.358,
+    "mean_lat": -3.422,
+    "mean_lon": 114.308,
     "true_lat": -2.2096,
     "true_lon": 113.91,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Palangkaraya%2C+Indonesia&go=Go&ns0=1",
@@ -155666,7 +156076,8 @@
       "England",
       "Balearic Islands",
       "New South Wales",
-      "Quebec"
+      "Quebec",
+      "New South Wales"
     ],
     "countries": [
       "Sweden",
@@ -155730,7 +156141,8 @@
       "United Kingdom",
       "Spain",
       "Australia",
-      "Canada"
+      "Canada",
+      "Australia"
     ],
     "dists": [
       995.1,
@@ -155794,7 +156206,8 @@
       747.1,
       684.7,
       835.2,
-      7.2
+      7.2,
+      395.3
     ],
     "times": [
       7.2,
@@ -155858,7 +156271,8 @@
       7.2,
       8.1,
       8.4,
-      7.6
+      7.6,
+      4.4
     ]
   },
   "Dunedin, New Zealand": {
@@ -157566,9 +157980,9 @@
     ]
   },
   "Koror, Palau": {
-    "mean_dist": 1819,
+    "mean_dist": 1825.3,
     "mean_time": 7,
-    "std_dist": 2521.2,
+    "std_dist": 2521.4,
     "std_time": 1.6,
     "admin": "",
     "country": "Palau",
@@ -157985,7 +158399,8 @@
       7.112,
       7.428,
       7.232,
-      7.845
+      7.845,
+      0.235
     ],
     "lons": [
       "x",
@@ -158399,10 +158814,11 @@
       137.363,
       134.669,
       133.882,
-      134.819
+      134.819,
+      173.771
     ],
-    "mean_lat": 1.818,
-    "mean_lon": 147.771,
+    "mean_lat": 1.814,
+    "mean_lon": 147.847,
     "true_lat": 7.3452,
     "true_lon": 134.4695,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Koror%2C+Palau&go=Go&ns0=1",
@@ -158819,6 +159235,7 @@
       "Colorado",
       "Colorado",
       "Balearic Islands",
+      "New South Wales",
       "New South Wales"
     ],
     "countries": [
@@ -159233,6 +159650,7 @@
       "United States",
       "United States",
       "Spain",
+      "Australia",
       "Australia"
     ],
     "dists": [
@@ -159647,7 +160065,8 @@
       320.2,
       23.9,
       65.9,
-      67.6
+      67.6,
+      4428.5
     ],
     "times": [
       7.5,
@@ -160061,7 +160480,8 @@
       8.1,
       7.9,
       8.2,
-      8.7
+      8.7,
+      3.7
     ]
   },
   "Tanjungpandan, Kepulauan Bangka Belitung, Indonesia": {
@@ -161097,10 +161517,10 @@
     ]
   },
   "Bandar Lampung, Lampung, Indonesia": {
-    "mean_dist": 676.6,
-    "mean_time": 7.2,
-    "std_dist": 858.4,
-    "std_time": 1.3,
+    "mean_dist": 698.3,
+    "mean_time": 7.1,
+    "std_dist": 856.6,
+    "std_time": 1.4,
     "admin": "Lampung",
     "country": "Indonesia",
     "city": "Bandar Lampung",
@@ -161159,7 +161579,9 @@
       -2.842,
       -6.604,
       -4.765,
-      -1.64
+      -1.64,
+      1.217,
+      -8.636
     ],
     "lons": [
       "x",
@@ -161216,10 +161638,12 @@
       123.086,
       112.771,
       104.754,
-      128.81
+      128.81,
+      103.424,
+      121.484
     ],
-    "mean_lat": -4.149,
-    "mean_lon": 109.477,
+    "mean_lat": -4.131,
+    "mean_lon": 109.599,
     "true_lat": -5.43,
     "true_lon": 105.27,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bandar Lampung%2C+Indonesia&go=Go&ns0=1",
@@ -161279,7 +161703,9 @@
       "Washington",
       "Washington",
       "New South Wales",
-      "Washington"
+      "Washington",
+      "Queensland",
+      "New South Wales"
     ],
     "countries": [
       "Australia",
@@ -161336,7 +161762,9 @@
       "United States",
       "United States",
       "Australia",
-      "United States"
+      "United States",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       662.6,
@@ -161393,7 +161821,9 @@
       1996.5,
       839.7,
       93.3,
-      2645.8
+      2645.8,
+      767,
+      1824.2
     ],
     "times": [
       7.8,
@@ -161450,13 +161880,15 @@
       4.8,
       6.1,
       8.4,
-      5.6
+      5.6,
+      3.5,
+      4.3
     ]
   },
   "Wagga Wagga, New South Wales, Australia": {
-    "mean_dist": 483.2,
+    "mean_dist": 477.2,
     "mean_time": 7,
-    "std_dist": 568.4,
+    "std_dist": 566.1,
     "std_time": 1.5,
     "admin": "New South Wales",
     "country": "Australia",
@@ -161525,7 +161957,8 @@
       -34.742,
       -31.822,
       -35.619,
-      -35.035
+      -35.035,
+      -34.776
     ],
     "lons": [
       "x",
@@ -161591,10 +162024,11 @@
       150.862,
       152.862,
       149.911,
-      147.772
+      147.772,
+      148.261
     ],
-    "mean_lat": -33.216,
-    "mean_lon": 148.081,
+    "mean_lat": -33.252,
+    "mean_lon": 148.085,
     "true_lat": -35.1222,
     "true_lon": 147.34,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Wagga Wagga%2C+Australia&go=Go&ns0=1",
@@ -161663,6 +162097,7 @@
       "New South Wales",
       "Washington",
       "New South Wales",
+      "New South Wales",
       "New South Wales"
     ],
     "countries": [
@@ -161728,6 +162163,7 @@
       "United Kingdom",
       "Australia",
       "United States",
+      "Australia",
       "Australia",
       "Australia"
     ],
@@ -161795,7 +162231,8 @@
       323.8,
       629.9,
       239.6,
-      40.5
+      40.5,
+      92.4
     ],
     "times": [
       8.2,
@@ -161861,7 +162298,8 @@
       8.6,
       4.8,
       8.4,
-      8.4
+      8.4,
+      6.7
     ]
   },
   "Ende, Nusa Tenggara Timur, Indonesia": {
@@ -164001,10 +164439,10 @@
     ]
   },
   "Kairaki, New Zealand": {
-    "mean_dist": 633.3,
+    "mean_dist": 632.6,
     "mean_time": 7.5,
-    "std_dist": 1290.8,
-    "std_time": 1.5,
+    "std_dist": 1284.9,
+    "std_time": 1.6,
     "admin": "Canterbury",
     "country": "New Zealand",
     "city": "Kairaki",
@@ -164116,7 +164554,8 @@
       -40.498,
       -41.026,
       -41.776,
-      -38.116
+      -38.116,
+      -39.464
     ],
     "lons": [
       "x",
@@ -164226,10 +164665,11 @@
       175.223,
       174.471,
       173.568,
-      176.496
+      176.496,
+      176.782
     ],
-    "mean_lat": -39.053,
-    "mean_lon": 174.141,
+    "mean_lat": -39.057,
+    "mean_lon": 174.171,
     "true_lat": -43.3813,
     "true_lon": 172.651,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kairaki%2C+New Zealand&go=Go&ns0=1",
@@ -164342,7 +164782,8 @@
       "New South Wales",
       "Stockholm",
       "Stockholm",
-      "Balearic Islands"
+      "Balearic Islands",
+      "New South Wales"
     ],
     "countries": [
       "Australia",
@@ -164452,7 +164893,8 @@
       "Australia",
       "Sweden",
       "Sweden",
-      "Spain"
+      "Spain",
+      "Australia"
     ],
     "dists": [
       446.2,
@@ -164562,7 +165004,8 @@
       384.6,
       301.7,
       193.6,
-      668.8
+      668.8,
+      555.1
     ],
     "times": [
       8.3,
@@ -164672,7 +165115,8 @@
       8.6,
       7.2,
       7.5,
-      8.3
+      8.3,
+      1.2
     ]
   },
   "Sawahlunto, Sumatera Barat, Indonesia": {
@@ -166869,10 +167313,10 @@
     ]
   },
   "Kotabumi, Lampung, Indonesia": {
-    "mean_dist": 822.5,
+    "mean_dist": 833.4,
     "mean_time": 7.2,
-    "std_dist": 1395.7,
-    "std_time": 1.4,
+    "std_dist": 1391.2,
+    "std_time": 1.5,
     "admin": "Lampung",
     "country": "Indonesia",
     "city": "Kotabumi",
@@ -166961,7 +167405,8 @@
       -4.884,
       -4.765,
       12.401,
-      -8.562
+      -8.562,
+      -8.479
     ],
     "lons": [
       "x",
@@ -167048,10 +167493,11 @@
       105.11,
       104.991,
       121.333,
-      118.562
+      118.562,
+      120.375
     ],
-    "mean_lat": -3.991,
-    "mean_lon": 111.24,
+    "mean_lat": -4.054,
+    "mean_lon": 111.367,
     "true_lat": -4.8333,
     "true_lon": 104.9,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kotabumi%2C+Indonesia&go=Go&ns0=1",
@@ -167141,7 +167587,8 @@
       "New South Wales",
       "New South Wales",
       "England",
-      "Scotland"
+      "Scotland",
+      "New South Wales"
     ],
     "countries": [
       "Australia",
@@ -167228,7 +167675,8 @@
       "Australia",
       "Australia",
       "United Kingdom",
-      "United Kingdom"
+      "United Kingdom",
+      "Australia"
     ],
     "dists": [
       422.3,
@@ -167315,7 +167763,8 @@
       24,
       12.6,
       2640.3,
-      1564.4
+      1564.4,
+      1756.2
     ],
     "times": [
       7.6,
@@ -167402,7 +167851,8 @@
       8.5,
       8.6,
       5.7,
-      5.1
+      5.1,
+      3.8
     ]
   },
   "Kendari, Sulawesi Tenggara, Indonesia": {
@@ -167781,10 +168231,10 @@
     ]
   },
   "Kavieng, Papua New Guinea": {
-    "mean_dist": 632.5,
+    "mean_dist": 634.1,
     "mean_time": 7.5,
-    "std_dist": 679.3,
-    "std_time": 0.9,
+    "std_dist": 678.2,
+    "std_time": 1,
     "admin": "New Ireland",
     "country": "Papua New Guinea",
     "city": "Kavieng",
@@ -168003,7 +168453,8 @@
       -6.551,
       -7.044,
       -7.097,
-      -8.588
+      -8.588,
+      -6.271
     ],
     "lons": [
       "x",
@@ -168220,10 +168671,11 @@
       144.427,
       141.619,
       143.853,
-      147.947
+      147.947,
+      142.716
     ],
-    "mean_lat": -5.874,
-    "mean_lon": 147.579,
+    "mean_lat": -5.876,
+    "mean_lon": 147.551,
     "true_lat": -2.5813,
     "true_lon": 150.813,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kavieng%2C+Papua New Guinea&go=Go&ns0=1",
@@ -168443,7 +168895,8 @@
       "Colorado",
       "Colorado",
       "Colorado",
-      "Quebec"
+      "Quebec",
+      "New South Wales"
     ],
     "countries": [
       "Australia",
@@ -168660,7 +169113,8 @@
       "United States",
       "United States",
       "United States",
-      "Canada"
+      "Canada",
+      "Australia"
     ],
     "dists": [
       1050.8,
@@ -168877,7 +169331,8 @@
       834.1,
       1132.8,
       920,
-      739.3
+      739.3,
+      986.8
     ],
     "times": [
       8.5,
@@ -169094,7 +169549,8 @@
       7.7,
       7.4,
       7.4,
-      8.3
+      8.3,
+      4.1
     ]
   },
   "Port Moresby, Papua New Guinea": {
@@ -171990,10 +172446,10 @@
     ]
   },
   "Padangsidempuan, Sumatera Utara, Indonesia": {
-    "mean_dist": 1139.1,
-    "mean_time": 7.3,
-    "std_dist": 2177.3,
-    "std_time": 1.3,
+    "mean_dist": 1134.7,
+    "mean_time": 7.2,
+    "std_dist": 2160.8,
+    "std_time": 1.5,
     "admin": "Sumatera Utara",
     "country": "Indonesia",
     "city": "Padangsidempuan",
@@ -172061,7 +172517,8 @@
       3.509,
       2.659,
       -0.225,
-      0.036
+      0.036,
+      -4.054
     ],
     "lons": [
       "x",
@@ -172127,10 +172584,11 @@
       97.468,
       98.013,
       102.248,
-      100.679
+      100.679,
+      104.688
     ],
-    "mean_lat": -2.117,
-    "mean_lon": 108.642,
+    "mean_lat": -2.156,
+    "mean_lon": 108.563,
     "true_lat": 1.3887,
     "true_lon": 99.2734,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Padangsidempuan%2C+Indonesia&go=Go&ns0=1",
@@ -172199,7 +172657,8 @@
       "Quebec",
       "Quebec",
       "Balearic Islands",
-      "Balearic Islands"
+      "Balearic Islands",
+      "New South Wales"
     ],
     "countries": [
       "United States",
@@ -172265,7 +172724,8 @@
       "Canada",
       "Canada",
       "Spain",
-      "Spain"
+      "Spain",
+      "Australia"
     ],
     "dists": [
       196.6,
@@ -172331,7 +172791,8 @@
       309.5,
       198.9,
       376.3,
-      216.8
+      216.8,
+      853.5
     ],
     "times": [
       7.4,
@@ -172397,7 +172858,8 @@
       3.1,
       7.6,
       8.6,
-      8
+      8,
+      1.7
     ]
   },
   "Yeppoon, Queensland, Australia": {
@@ -174981,9 +175443,9 @@
     ]
   },
   "Muswellbrook, New South Wales, Australia": {
-    "mean_dist": 502.8,
-    "mean_time": 7.1,
-    "std_dist": 1013.8,
+    "mean_dist": 499.4,
+    "mean_time": 7,
+    "std_dist": 1010.3,
     "std_time": 1.6,
     "admin": "New South Wales",
     "country": "Australia",
@@ -175107,7 +175569,8 @@
       3.183,
       -32.558,
       -30.431,
-      -35.491
+      -35.491,
+      -32.927
     ],
     "lons": [
       "x",
@@ -175228,10 +175691,11 @@
       113.751,
       152.288,
       151.66,
-      150.3
+      150.3,
+      150.163
     ],
-    "mean_lat": -32.15,
-    "mean_lon": 149.437,
+    "mean_lat": -32.16,
+    "mean_lon": 149.446,
     "true_lat": -32.2696,
     "true_lon": 150.89,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Muswellbrook%2C+Australia&go=Go&ns0=1",
@@ -175355,7 +175819,8 @@
       "Baden-W\u00fcrttemberg",
       "New South Wales",
       "England",
-      "Quebec"
+      "Quebec",
+      "New South Wales"
     ],
     "countries": [
       "United States",
@@ -175476,7 +175941,8 @@
       "Germany",
       "Australia",
       "United Kingdom",
-      "Canada"
+      "Canada",
+      "Australia"
     ],
     "dists": [
       291.2,
@@ -175597,7 +176063,8 @@
       5554.9,
       135.1,
       217.1,
-      362.3
+      362.3,
+      99.9
     ],
     "times": [
       6.8,
@@ -175718,7 +176185,8 @@
       6.4,
       8.6,
       0.8,
-      8.4
+      8.4,
+      2.8
     ]
   },
   "Gympie, Queensland, Australia": {
@@ -178692,9 +179160,9 @@
     ]
   },
   "Ngerulmud, Palau": {
-    "mean_dist": 1835.8,
+    "mean_dist": 1834.4,
     "mean_time": 6.9,
-    "std_dist": 2552.2,
+    "std_dist": 2548.1,
     "std_time": 1.6,
     "city": "Ngerulmud",
     "admin": "Melekeok",
@@ -179109,7 +179577,9 @@
       7.883,
       -21.197,
       -17.248,
-      7.753
+      7.753,
+      -1.99,
+      6.897
     ],
     "lons": [
       "x",
@@ -179521,10 +179991,12 @@
       134.535,
       165.632,
       178.379,
-      134.091
+      134.091,
+      109.442,
+      135.11
     ],
-    "mean_lat": 1.806,
-    "mean_lon": 147.818,
+    "mean_lat": 1.81,
+    "mean_lon": 147.67,
     "true_lat": 7.5,
     "true_lon": 134.6242,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ngerulmud%2C+Palau&go=Go&ns0=1",
@@ -179939,7 +180411,9 @@
       "Balearic Islands",
       "Stockholm",
       "Stockholm",
-      "Quebec"
+      "Quebec",
+      "New South Wales",
+      "New South Wales"
     ],
     "countries": [
       "Australia",
@@ -180351,7 +180825,9 @@
       "Spain",
       "Sweden",
       "Sweden",
-      "Canada"
+      "Canada",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       5588.6,
@@ -180763,7 +181239,9 @@
       43.6,
       4651.8,
       5539.5,
-      65.1
+      65.1,
+      2986.2,
+      85.8
     ],
     "times": [
       5.6,
@@ -181175,7 +181653,9 @@
       8.2,
       7.1,
       6.9,
-      8.1
+      8.1,
+      4.2,
+      4
     ]
   },
   "Baubau, Sulawesi Tenggara, Indonesia": {
@@ -181590,9 +182070,9 @@
     ]
   },
   "Daru, Papua New Guinea": {
-    "mean_dist": 707.3,
+    "mean_dist": 705.1,
     "mean_time": 7.2,
-    "std_dist": 1219.5,
+    "std_dist": 1217.1,
     "std_time": 1.5,
     "city": "Daru",
     "admin": "Western",
@@ -181811,7 +182291,8 @@
       -5.23,
       -6.76,
       -7.996,
-      -8.069
+      -8.069,
+      -6.903
     ],
     "lons": [
       "x",
@@ -182027,10 +182508,11 @@
       138.209,
       144.531,
       146.438,
-      147.738
+      147.738,
+      143.508
     ],
-    "mean_lat": -7.292,
-    "mean_lon": 145.546,
+    "mean_lat": -7.289,
+    "mean_lon": 145.534,
     "true_lat": -9.1092,
     "true_lon": 143.2337,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Daru%2C+Papua New Guinea&go=Go&ns0=1",
@@ -182249,7 +182731,8 @@
       "Colorado",
       "Colorado",
       "Colorado",
-      "Quebec"
+      "Quebec",
+      "New South Wales"
     ],
     "countries": [
       "United States",
@@ -182465,7 +182948,8 @@
       "United States",
       "United States",
       "United States",
-      "Canada"
+      "Canada",
+      "Australia"
     ],
     "dists": [
       969.2,
@@ -182681,7 +183165,8 @@
       702.2,
       297.7,
       373.4,
-      508.5
+      508.5,
+      247.1
     ],
     "times": [
       7,
@@ -182897,13 +183382,14 @@
       7.8,
       6.5,
       8.3,
-      7.9
+      7.9,
+      5.7
     ]
   },
   "Padang, Sumatera Barat, Indonesia": {
-    "mean_dist": 940.6,
+    "mean_dist": 930.5,
     "mean_time": 7.1,
-    "std_dist": 1213.6,
+    "std_dist": 1207.3,
     "std_time": 1.5,
     "city": "Padang",
     "admin": "Sumatera Barat",
@@ -182974,7 +183460,8 @@
       -3.508,
       -4.88,
       -6.591,
-      -2.323
+      -2.323,
+      -1.513
     ],
     "lons": [
       "x",
@@ -183042,10 +183529,11 @@
       104.294,
       105.106,
       107.064,
-      102.196
+      102.196,
+      102.629
     ],
-    "mean_lat": -3.971,
-    "mean_lon": 107.873,
+    "mean_lat": -3.917,
+    "mean_lon": 107.757,
     "true_lat": -0.96,
     "true_lon": 100.36,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Padang%2C+Indonesia&go=Go&ns0=1",
@@ -183116,7 +183604,8 @@
       "Colorado",
       "Colorado",
       "Colorado",
-      "Quebec"
+      "Quebec",
+      "New South Wales"
     ],
     "countries": [
       "United States",
@@ -183184,7 +183673,8 @@
       "United States",
       "United States",
       "United States",
-      "Canada"
+      "Canada",
+      "Australia"
     ],
     "dists": [
       1585.9,
@@ -183252,7 +183742,8 @@
       520.9,
       683.9,
       972.1,
-      254.2
+      254.2,
+      259.6
     ],
     "times": [
       2.1,
@@ -183320,7 +183811,8 @@
       6.1,
       6.5,
       7.9,
-      6.9
+      6.9,
+      4.6
     ]
   },
   "Lithgow, New South Wales, Australia": {
@@ -185886,9 +186378,9 @@
     ]
   },
   "Tawau, Malaysia": {
-    "mean_dist": 1353,
+    "mean_dist": 1356.9,
     "mean_time": 7.6,
-    "std_dist": 630.6,
+    "std_dist": 628.5,
     "std_time": 0.9,
     "city": "Tawau",
     "admin": "Sabah",
@@ -185990,7 +186482,8 @@
       5.476,
       5.12,
       4.169,
-      5.068
+      5.068,
+      3.889
     ],
     "lons": [
       "x",
@@ -186089,10 +186582,11 @@
       117.944,
       118.182,
       117.944,
-      115.821
+      115.821,
+      102.312
     ],
-    "mean_lat": 3.706,
-    "mean_lon": 106.194,
+    "mean_lat": 3.708,
+    "mean_lon": 106.143,
     "true_lat": 4.271,
     "true_lon": 117.896,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tawau%2C+Malaysia&go=Go&ns0=1",
@@ -186194,7 +186688,8 @@
       "New South Wales",
       "New South Wales",
       "New South Wales",
-      "Aargau"
+      "Aargau",
+      "New South Wales"
     ],
     "countries": [
       "Australia",
@@ -186293,7 +186788,8 @@
       "Australia",
       "Australia",
       "Australia",
-      "Switzerland"
+      "Switzerland",
+      "Australia"
     ],
     "dists": [
       501,
@@ -186392,7 +186888,8 @@
       134.1,
       99.6,
       12.5,
-      246.4
+      246.4,
+      1728.9
     ],
     "times": [
       6.1,
@@ -186491,14 +186988,15 @@
       8.1,
       8.5,
       8.1,
-      7.2
+      7.2,
+      6.9
     ]
   },
   "Tanjungpinang, Kepulauan Riau, Indonesia": {
-    "mean_dist": 1218.8,
-    "mean_time": 6.8,
-    "std_dist": 866.9,
-    "std_time": 1.5,
+    "mean_dist": 1230,
+    "mean_time": 6.7,
+    "std_dist": 856.4,
+    "std_time": 1.6,
     "city": "Tanjungpinang",
     "admin": "Kepulauan Riau",
     "country": "Indonesia",
@@ -186564,7 +187062,9 @@
       0.595,
       0.237,
       -8.106,
-      -8.106
+      -8.106,
+      -1.93,
+      0.824
     ],
     "lons": [
       "x",
@@ -186628,10 +187128,12 @@
       104.16,
       104.397,
       124.846,
-      112.011
+      112.011,
+      120.418,
+      116.627
     ],
-    "mean_lat": -3.922,
-    "mean_lon": 112.17,
+    "mean_lat": -3.79,
+    "mean_lon": 112.419,
     "true_lat": 0.9168,
     "true_lon": 104.4714,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tanjungpinang%2C+Indonesia&go=Go&ns0=1",
@@ -186698,7 +187200,9 @@
       "New South Wales",
       "New South Wales",
       "Colorado",
-      "Colorado"
+      "Colorado",
+      "Queensland",
+      "Queensland"
     ],
     "countries": [
       "Australia",
@@ -186762,7 +187266,9 @@
       "Australia",
       "Australia",
       "United States",
-      "United States"
+      "United States",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       1127,
@@ -186826,7 +187332,9 @@
       49.7,
       75.9,
       2471.5,
-      1305.9
+      1305.9,
+      1801,
+      1351.5
     ],
     "times": [
       6.1,
@@ -186890,7 +187398,9 @@
       8.4,
       8.4,
       5.2,
-      7.8
+      7.8,
+      5.9,
+      1.5
     ]
   },
   "Pasuruan, Jawa Timur, Indonesia": {
@@ -188886,9 +189396,9 @@
     ]
   },
   "Port-Vila, Vanuatu": {
-    "mean_dist": 904.3,
+    "mean_dist": 903.4,
     "mean_time": 6.9,
-    "std_dist": 1493.2,
+    "std_dist": 1491.6,
     "std_time": 1.6,
     "city": "Port-Vila",
     "admin": "Shefa",
@@ -189314,7 +189824,8 @@
       -21.694,
       -17.524,
       -17.719,
-      -16.772
+      -16.772,
+      -21.65
     ],
     "lons": [
       "x",
@@ -189737,10 +190248,11 @@
       165.761,
       168,
       168.331,
-      167.816
+      167.816,
+      166.166
     ],
-    "mean_lat": -14.78,
-    "mean_lon": 169.11,
+    "mean_lat": -14.799,
+    "mean_lon": 169.102,
     "true_lat": -17.7334,
     "true_lon": 168.3166,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Port-Vila%2C+Vanuatu&go=Go&ns0=1",
@@ -190166,7 +190678,8 @@
       "Aargau",
       "Balearic Islands",
       "New South Wales",
-      "Quebec"
+      "Quebec",
+      "New South Wales"
     ],
     "countries": [
       "Australia",
@@ -190589,7 +191102,8 @@
       "Switzerland",
       "Spain",
       "Australia",
-      "Canada"
+      "Canada",
+      "Australia"
     ],
     "dists": [
       1082.8,
@@ -191012,7 +191526,8 @@
       515.3,
       40.8,
       2.1,
-      119.3
+      119.3,
+      490.2
     ],
     "times": [
       6.5,
@@ -191435,7 +191950,8 @@
       7.7,
       8.4,
       8.5,
-      8.3
+      8.3,
+      5.8
     ]
   },
   "Perth, Western Australia, Australia": {
@@ -192369,10 +192885,10 @@
     ]
   },
   "Samarinda, Kalimantan Timur, Indonesia": {
-    "mean_dist": 878.9,
-    "mean_time": 7,
-    "std_dist": 567,
-    "std_time": 1.4,
+    "mean_dist": 877.8,
+    "mean_time": 6.9,
+    "std_dist": 562.4,
+    "std_time": 1.6,
     "city": "Samarinda",
     "admin": "Kalimantan Timur",
     "country": "Indonesia",
@@ -192436,7 +192952,8 @@
       -2.338,
       -1.67,
       -0.835,
-      -0.597
+      -0.597,
+      0.394
     ],
     "lons": [
       "x",
@@ -192498,10 +193015,11 @@
       113.553,
       116.281,
       111.052,
-      110.814
+      110.814,
+      109.917
     ],
-    "mean_lat": -4.005,
-    "mean_lon": 114.606,
+    "mean_lat": -3.92,
+    "mean_lon": 114.515,
     "true_lat": -0.5,
     "true_lon": 117.15,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Samarinda%2C+Indonesia&go=Go&ns0=1",
@@ -192566,6 +193084,7 @@
       "Quebec",
       "New South Wales",
       "New South Wales",
+      "New South Wales",
       "New South Wales"
     ],
     "countries": [
@@ -192626,6 +193145,7 @@
       "United Kingdom",
       "United States",
       "Canada",
+      "Australia",
       "Australia",
       "Australia",
       "Australia"
@@ -192690,7 +193210,8 @@
       449,
       162,
       678.9,
-      704.4
+      704.4,
+      810.3
     ],
     "times": [
       5.3,
@@ -192752,7 +193273,8 @@
       7.7,
       8.1,
       8.3,
-      8.1
+      8.1,
+      0.8
     ]
   },
   "Goulburn, New South Wales, Australia": {
@@ -202731,10 +203253,10 @@
     ]
   },
   "Jayapura, Papua, Indonesia": {
-    "mean_dist": 1101.9,
-    "mean_time": 7.2,
-    "std_dist": 1274.5,
-    "std_time": 1.4,
+    "mean_dist": 1097.5,
+    "mean_time": 7.1,
+    "std_dist": 1262.3,
+    "std_time": 1.6,
     "city": "Jayapura",
     "admin": "Papua",
     "country": "Indonesia",
@@ -202788,7 +203310,8 @@
       -3.764,
       -3.633,
       -8.201,
-      -8.791
+      -8.791,
+      -1.513
     ],
     "lons": [
       "x",
@@ -202840,10 +203363,11 @@
       135.712,
       134.143,
       140.88,
-      141.236
+      141.236,
+      132.892
     ],
-    "mean_lat": -3.509,
-    "mean_lon": 133.129,
+    "mean_lat": -3.461,
+    "mean_lon": 133.123,
     "true_lat": -2.533,
     "true_lon": 140.7,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Jayapura%2C+Indonesia&go=Go&ns0=1",
@@ -202898,6 +203422,7 @@
       "Balearic Islands",
       "Quebec",
       "New South Wales",
+      "New South Wales",
       "New South Wales"
     ],
     "countries": [
@@ -202949,6 +203474,7 @@
       "Canada",
       "Spain",
       "Canada",
+      "Australia",
       "Australia",
       "Australia"
     ],
@@ -203002,7 +203528,8 @@
       570.4,
       738.1,
       630.6,
-      698.4
+      698.4,
+      874.9
     ],
     "times": [
       7.3,
@@ -203054,7 +203581,8 @@
       8,
       7.9,
       8.2,
-      8.2
+      8.2,
+      1.5
     ]
   },
   "Salatiga, Jawa Tengah, Indonesia": {
@@ -209412,7 +209940,9 @@
       -13.862,
       -14.371,
       -13.745,
-      -14.033
+      -14.033,
+      2.397,
+      -17.607
     ],
     "lons": [
       219.4078431372549,
@@ -209776,17 +210306,19 @@
       188.261,
       189.307,
       187.891,
-      188.383
+      188.383,
+      202.379,
+      211.007
     ],
     "true_lat": -14.274,
     "true_lon": -170.7046,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Pago Pago%2C+American Samoa&go=Go&ns0=1",
-    "mean_dist": 1211.7,
-    "mean_lat": -12.813,
-    "mean_lon": 187.044,
-    "mean_time": 6.8,
-    "std_dist": 1886.5,
-    "std_time": 1.6,
+    "mean_dist": 1218,
+    "mean_lat": -12.784,
+    "mean_lon": 187.152,
+    "mean_time": 6.7,
+    "std_dist": 1883.2,
+    "std_time": 1.7,
     "city": "Pago Pago",
     "admin": "",
     "country": "American Samoa",
@@ -210153,7 +210685,9 @@
       "Quebec",
       "Quebec",
       "Colorado",
-      "Colorado"
+      "Colorado",
+      "Queensland",
+      "New South Wales"
     ],
     "countries": [
       "Switzerland",
@@ -210517,7 +211051,9 @@
       "Canada",
       "Canada",
       "United States",
-      "United States"
+      "United States",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       3240.3141339605254,
@@ -210881,7 +211417,9 @@
       120.5,
       10.8,
       162.4,
-      101.8
+      101.8,
+      2348.4,
+      2349.3
     ],
     "times": [
       6.600000000000012,
@@ -211245,7 +211783,9 @@
       7.8,
       8,
       6.4,
-      0.9
+      0.9,
+      1.6,
+      1.7
     ]
   },
   "Nuku\u2018alofa, Tonga": {
@@ -211538,7 +212078,10 @@
       -21.093,
       -21.602,
       -18.894,
-      -21.113
+      -21.113,
+      1.742,
+      -20.612,
+      -20.314
     ],
     "lons": [
       188.71437908496733,
@@ -211829,16 +212372,19 @@
       185.443,
       185.124,
       182.196,
-      184.81
+      184.81,
+      172.836,
+      184.546,
+      185.338
     ],
     "true_lat": -21.1385,
     "true_lon": -175.2206,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Nuku\u2018alofa%2C+Tonga&go=Go&ns0=1",
-    "mean_dist": 1163.1,
-    "mean_lat": -17.108,
-    "mean_lon": 183.184,
+    "mean_dist": 1161.5,
+    "mean_lat": -17.066,
+    "mean_lon": 183.161,
     "mean_time": 6.8,
-    "std_dist": 1616.5,
+    "std_dist": 1613.7,
     "std_time": 1.6,
     "city": "Nuku\u2018alofa",
     "admin": "Tongatapu",
@@ -212133,7 +212679,10 @@
       "New South Wales",
       "Balearic Islands",
       "Quebec",
-      "Quebec"
+      "Quebec",
+      "Queensland",
+      "New South Wales",
+      "New South Wales"
     ],
     "countries": [
       "Switzerland",
@@ -212424,7 +212973,10 @@
       "Australia",
       "Spain",
       "Canada",
-      "Canada"
+      "Canada",
+      "Australia",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       879.6712214591663,
@@ -212715,7 +213267,10 @@
       69,
       62.7,
       367.5,
-      4.2
+      4.2,
+      2856.8,
+      63.3,
+      108.5
     ],
     "times": [
       6.800000000000011,
@@ -213006,7 +213561,10 @@
       8.6,
       7.5,
       7.7,
-      8.2
+      8.2,
+      2.6,
+      4.4,
+      5.7
     ]
   },
   "Waipahu, Hawaii, United States": {
@@ -213308,7 +213866,11 @@
       21.182,
       20.852,
       21.202,
-      20.692
+      20.692,
+      21.497,
+      21.2,
+      21.497,
+      21.2
     ],
     "lons": [
       204.20915032679738,
@@ -213570,16 +214132,20 @@
       203.555,
       203.255,
       202.199,
-      203.294
+      203.294,
+      201.817,
+      202.134,
+      202.134,
+      202.45
     ],
     "true_lat": 21.3294,
     "true_lon": -157.846,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Honolulu%2C+United States&go=Go&ns0=1",
-    "mean_dist": 394.6,
-    "mean_lat": 19.25,
-    "mean_lon": 204.203,
+    "mean_dist": 389,
+    "mean_lat": 19.282,
+    "mean_lon": 204.172,
     "mean_time": 7.1,
-    "std_dist": 1122.6,
+    "std_dist": 1115,
     "std_time": 1.4,
     "city": "Honolulu",
     "admin": "Hawaii",
@@ -213845,7 +214411,11 @@
       "Quebec",
       "Quebec",
       "New South Wales",
-      "Balearic Islands"
+      "Balearic Islands",
+      "New South Wales",
+      "New South Wales",
+      "New South Wales",
+      "New South Wales"
     ],
     "countries": [
       "Switzerland",
@@ -214107,7 +214677,11 @@
       "Canada",
       "Canada",
       "Australia",
-      "Spain"
+      "Spain",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       268.05471425171896,
@@ -214369,7 +214943,11 @@
       146.1,
       125.9,
       14.8,
-      137.9
+      137.9,
+      39.5,
+      14.4,
+      18.7,
+      33.9
     ],
     "times": [
       8.13333333333334,
@@ -214631,7 +215209,11 @@
       7.4,
       7.9,
       7.1,
-      7.9
+      7.9,
+      4.8,
+      7.5,
+      7.2,
+      7.3
     ]
   },
   "Mililani Town, Hawaii, United States": {
@@ -214971,7 +215553,9 @@
       13.213,
       13.368,
       13.424,
-      13.352
+      13.352,
+      1.742,
+      14.854
     ],
     "lons": [
       145.38823529411764,
@@ -215277,16 +215861,18 @@
       145.127,
       144.493,
       145.124,
-      145.395
+      145.395,
+      202.771,
+      121.009
     ],
     "true_lat": 13.4745,
     "true_lon": 144.7504,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Hag\u00e5t\u00f1a%2C+Guam&go=Go&ns0=1",
-    "mean_dist": 1305.5,
-    "mean_lat": 8.553,
-    "mean_lon": 150.416,
+    "mean_dist": 1326.6,
+    "mean_lat": 8.552,
+    "mean_lon": 150.491,
     "mean_time": 7.1,
-    "std_dist": 2276.2,
+    "std_dist": 2289.2,
     "std_time": 1.6,
     "city": "Hag\u00e5t\u00f1a",
     "admin": "",
@@ -215596,6 +216182,8 @@
       "Colorado",
       "Colorado",
       "Balearic Islands",
+      "New South Wales",
+      "Queensland",
       "New South Wales"
     ],
     "countries": [
@@ -215902,6 +216490,8 @@
       "United States",
       "United States",
       "Spain",
+      "Australia",
+      "Australia",
       "Australia"
     ],
     "dists": [
@@ -216208,7 +216798,9 @@
       50,
       30.1,
       40.8,
-      71.1
+      71.1,
+      6509.5,
+      2563
     ],
     "times": [
       6.600000000000012,
@@ -216514,7 +217106,9 @@
       7.8,
       6,
       8.1,
-      8.6
+      8.6,
+      5.2,
+      4.9
     ]
   },
   "Kailua, Hawaii, United States": {
@@ -216955,7 +217549,10 @@
       -14.752,
       -19.061,
       -19.884,
-      -14.396
+      -14.396,
+      -2.454,
+      -47.518,
+      -9.891
     ],
     "lons": [
       184.76666666666665,
@@ -217298,16 +217895,19 @@
       181.725,
       185.531,
       185.385,
-      181.759
+      181.759,
+      187.869,
+      209.307,
+      220.355
     ],
     "true_lat": -14.2933,
     "true_lon": -178.1583,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Leava%2C+Wallis And Futuna&go=Go&ns0=1",
-    "mean_dist": 1435.4,
-    "mean_lat": -12.63,
-    "mean_lon": 180.061,
+    "mean_dist": 1452.5,
+    "mean_lat": -12.694,
+    "mean_lon": 180.286,
     "mean_time": 6.5,
-    "std_dist": 1847.6,
+    "std_dist": 1852.8,
     "std_time": 1.7,
     "city": "Leava",
     "admin": "Sigave",
@@ -217654,6 +218254,9 @@
       "Quebec",
       "Colorado",
       "Balearic Islands",
+      "New South Wales",
+      "Queensland",
+      "Queensland",
       "New South Wales"
     ],
     "countries": [
@@ -217997,6 +218600,9 @@
       "Canada",
       "United States",
       "Spain",
+      "Australia",
+      "Australia",
+      "Australia",
       "Australia"
     ],
     "dists": [
@@ -218340,7 +218946,10 @@
       52.5,
       659.9,
       726.8,
-      14.5
+      14.5,
+      1473.3,
+      4480.2,
+      4211.2
     ],
     "times": [
       7.700000000000008,
@@ -218683,7 +219292,10 @@
       8.3,
       5.4,
       7.8,
-      8.5
+      8.5,
+      4.4,
+      7.5,
+      3.4
     ]
   },
   "Kahului, Hawaii, United States": {
@@ -219074,7 +219686,8 @@
       13.172,
       13.368,
       13.169,
-      13.551
+      13.551,
+      6.581
     ],
     "lons": [
       145.6843137254902,
@@ -219399,16 +220012,17 @@
       144.783,
       144.493,
       144.418,
-      144.732
+      144.732,
+      158.244
     ],
     "true_lat": 13.4692,
     "true_lon": 144.7332,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Maina%2C+Guam&go=Go&ns0=1",
-    "mean_dist": 1443.5,
-    "mean_lat": 8.439,
-    "mean_lon": 150.833,
+    "mean_dist": 1444.2,
+    "mean_lat": 8.434,
+    "mean_lon": 150.856,
     "mean_time": 6.9,
-    "std_dist": 2308.9,
+    "std_dist": 2305.4,
     "std_time": 1.9,
     "city": "Maina",
     "admin": "",
@@ -219737,7 +220351,8 @@
       "Colorado",
       "Colorado",
       "Quebec",
-      "Balearic Islands"
+      "Balearic Islands",
+      "New South Wales"
     ],
     "countries": [
       "Switzerland",
@@ -220062,7 +220677,8 @@
       "United States",
       "United States",
       "Canada",
-      "Spain"
+      "Spain",
+      "Australia"
     ],
     "dists": [
       412.4733869474148,
@@ -220387,7 +221003,8 @@
       33.4,
       28.2,
       47.6,
-      9.1
+      9.1,
+      1664.9
     ],
     "times": [
       7.666666666666675,
@@ -220712,7 +221329,8 @@
       7.1,
       7.8,
       8.1,
-      7.6
+      7.6,
+      4.4
     ]
   },
   "Ocean Pointe, Hawaii, United States": {
@@ -221143,7 +221761,9 @@
       -17.855,
       -17.096,
       -17.649,
-      -17.899
+      -17.899,
+      -17.524,
+      -21.354
     ],
     "lons": [
       211.41372549019607,
@@ -221502,16 +222122,18 @@
       219.28,
       210.249,
       210.692,
-      210.692
+      210.692,
+      210.222,
+      167.117
     ],
     "true_lat": -17.5334,
     "true_lon": -149.5667,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Papeete%2C+French Polynesia&go=Go&ns0=1",
-    "mean_dist": 1888.4,
-    "mean_lat": -15.096,
-    "mean_lon": 196.986,
+    "mean_dist": 1890.6,
+    "mean_lat": -15.12,
+    "mean_lon": 196.939,
     "mean_time": 6.8,
-    "std_dist": 2627.3,
+    "std_dist": 2625.5,
     "std_time": 1.4,
     "city": "Papeete",
     "admin": "\u00celes du Vent",
@@ -221874,7 +222496,9 @@
       "Colorado",
       "Colorado",
       "Quebec",
-      "Quebec"
+      "Quebec",
+      "Queensland",
+      "New South Wales"
     ],
     "countries": [
       "Switzerland",
@@ -222233,7 +222857,9 @@
       "United States",
       "United States",
       "Canada",
-      "Canada"
+      "Canada",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       119.41608567511778,
@@ -222592,7 +223218,9 @@
       937.8,
       52.3,
       30.3,
-      49
+      49,
+      22.4,
+      4547.9
     ],
     "times": [
       7.033333333333344,
@@ -222951,7 +223579,9 @@
       7.5,
       7.1,
       8,
-      8.2
+      8.2,
+      5.8,
+      5.3
     ]
   },
   "Halawa, Hawaii, United States": {
@@ -223349,7 +223979,9 @@
       -21.315,
       -21.235,
       -21.48,
-      -21.48
+      -21.48,
+      -13.989,
+      -16.696
     ],
     "lons": [
       215.55882352941177,
@@ -223713,16 +224345,18 @@
       200.535,
       200.679,
       200.287,
-      200.941
+      200.941,
+      137.15,
+      209.581
     ],
     "true_lat": -21.25,
     "true_lon": -159.75,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Avarua%2C+Cook Islands&go=Go&ns0=1",
-    "mean_dist": 1716.6,
-    "mean_lat": -20.506,
-    "mean_lon": 193.299,
-    "mean_time": 6.8,
-    "std_dist": 1961.1,
+    "mean_dist": 1728.6,
+    "mean_lat": -20.477,
+    "mean_lon": 193.19,
+    "mean_time": 6.7,
+    "std_dist": 1973.3,
     "std_time": 1.5,
     "city": "Avarua",
     "admin": "",
@@ -224090,7 +224724,9 @@
       "New South Wales",
       "Balearic Islands",
       "Balearic Islands",
-      "Balearic Islands"
+      "Balearic Islands",
+      "Queensland",
+      "New South Wales"
     ],
     "countries": [
       "Switzerland",
@@ -224454,7 +225090,9 @@
       "Australia",
       "Spain",
       "Spain",
-      "Spain"
+      "Spain",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       1731.4505661213107,
@@ -224818,7 +225456,9 @@
       30.4,
       44.5,
       25.9,
-      76
+      76,
+      6695.2,
+      1103.7
     ],
     "times": [
       7.566666666666675,
@@ -225182,7 +225822,9 @@
       8,
       8.1,
       8,
-      8.1
+      8.1,
+      2.1,
+      1.2
     ]
   },
   "Lahaina, Hawaii, United States": {
@@ -225540,7 +226182,8 @@
       20.809,
       20.692,
       21.06,
-      19.954
+      19.954,
+      19.411
     ],
     "lons": [
       203.895,
@@ -225832,16 +226475,17 @@
       204.069,
       202.326,
       203.895,
-      204.339
+      204.339,
+      204.669
     ],
     "true_lat": 20.8834,
     "true_lon": -156.5059,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Wailuku%2C+United States&go=Go&ns0=1",
-    "mean_dist": 774.4,
-    "mean_lat": 18.179,
-    "mean_lon": 205.589,
+    "mean_dist": 772.4,
+    "mean_lat": 18.184,
+    "mean_lon": 205.585,
     "mean_time": 7.1,
-    "std_dist": 1908.2,
+    "std_dist": 1905.3,
     "std_time": 1.5,
     "city": "Wailuku",
     "admin": "Hawaii",
@@ -226137,7 +226781,8 @@
       "Colorado",
       "Quebec",
       "Quebec",
-      "Balearic Islands"
+      "Balearic Islands",
+      "New South Wales"
     ],
     "countries": [
       "United States",
@@ -226429,7 +227074,8 @@
       "United States",
       "Canada",
       "Canada",
-      "Spain"
+      "Spain",
+      "Australia"
     ],
     "dists": [
       72.6,
@@ -226721,7 +227367,8 @@
       60.3,
       123.1,
       46,
-      135.7
+      135.7,
+      204.5
     ],
     "times": [
       7.9,
@@ -227013,7 +227660,8 @@
       7.6,
       8,
       8.3,
-      8.3
+      8.3,
+      4.8
     ]
   },
   "Lihue, Hawaii, United States": {
@@ -228990,7 +229638,11 @@
       -8.437,
       -7.419,
       -8.909,
-      -8.977
+      -8.977,
+      6.972,
+      -13.862,
+      -8.459,
+      -13.163
     ],
     "lons": [
       205.04575163398692,
@@ -229354,16 +230006,20 @@
       187.939,
       179.372,
       187.82,
-      178.196
+      178.196,
+      171.006,
+      188.784,
+      187.346,
+      183.754
     ],
     "true_lat": -8.551667,
     "true_lon": -172.500833,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Atafu%2C+Tokelau&go=Go&ns0=1",
-    "mean_dist": 1620.2,
-    "mean_lat": -9.573,
-    "mean_lon": 181.624,
-    "mean_time": 6.5,
-    "std_dist": 1666.9,
+    "mean_dist": 1612.9,
+    "mean_lat": -9.546,
+    "mean_lon": 181.636,
+    "mean_time": 6.4,
+    "std_dist": 1662.2,
     "std_time": 1.7,
     "city": "Atafu",
     "admin": "",
@@ -229731,7 +230387,11 @@
       "New South Wales",
       "Balearic Islands",
       "New South Wales",
-      "Balearic Islands"
+      "Balearic Islands",
+      "Queensland",
+      "Queensland",
+      "Queensland",
+      "New South Wales"
     ],
     "countries": [
       "United States",
@@ -230095,7 +230755,11 @@
       "Australia",
       "Spain",
       "Australia",
-      "Spain"
+      "Spain",
+      "Australia",
+      "Australia",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       1986.8973655015116,
@@ -230459,7 +231123,11 @@
       50,
       903.6,
       53.1,
-      1023.4
+      1023.4,
+      2514.2,
+      606.9,
+      19.7,
+      655.8
     ],
     "times": [
       7.500000000000009,
@@ -230823,7 +231491,11 @@
       7.9,
       8,
       8.1,
-      7.1
+      7.1,
+      5.8,
+      6.4,
+      5.7,
+      2.6
     ]
   },
   "Hilo, Hawaii, United States": {
@@ -232982,7 +233654,8 @@
       14.756,
       14.856,
       14.95,
-      14.95
+      14.95,
+      19.336
     ],
     "lons": [
       145.43790849673204,
@@ -233336,16 +234009,17 @@
       145.285,
       145.514,
       145.647,
-      145.647
+      145.647,
+      145.385
     ],
     "true_lat": 15.2137,
     "true_lon": 145.7546,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Capitol Hill%2C+Northern Mariana Islands&go=Go&ns0=1",
-    "mean_dist": 1492.6,
-    "mean_lat": 9.706,
-    "mean_lon": 155.764,
+    "mean_dist": 1489.7,
+    "mean_lat": 9.733,
+    "mean_lon": 155.734,
     "mean_time": 6.8,
-    "std_dist": 2502.1,
+    "std_dist": 2499.1,
     "std_time": 1.7,
     "city": "Capitol Hill",
     "admin": "",
@@ -233703,7 +234377,8 @@
       "Colorado",
       "New South Wales",
       "Balearic Islands",
-      "Balearic Islands"
+      "Balearic Islands",
+      "Queensland"
     ],
     "countries": [
       "United States",
@@ -234057,7 +234732,8 @@
       "United States",
       "Australia",
       "Spain",
-      "Spain"
+      "Spain",
+      "Australia"
     ],
     "dists": [
       484.3778110810697,
@@ -234411,7 +235087,8 @@
       71.5,
       47.3,
       31.4,
-      31.4
+      31.4,
+      460.1
     ],
     "times": [
       2.0000000000000284,
@@ -234765,7 +235442,8 @@
       8,
       8.5,
       8.1,
-      8.9
+      8.9,
+      5.4
     ]
   },
   "Kingston, Norfold Island": {
@@ -235266,7 +235944,10 @@
       -25.45,
       -25.094,
       -24.513,
-      -27.352
+      -27.352,
+      -11.921,
+      -16.848,
+      -10.048
     ],
     "lons": [
       160.1830065359477,
@@ -235619,16 +236300,19 @@
       229.307,
       229.307,
       231.64,
-      250.171
+      250.171,
+      105.798,
+      215.443,
+      220.989
     ],
     "true_lat": -25.066667,
     "true_lon": -130.1,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Adamstown%2C+Pitcairn Islands&go=Go&ns0=1",
-    "mean_dist": 2642.2,
-    "mean_lat": -22.109,
-    "mean_lon": 206.852,
-    "mean_time": 6.5,
-    "std_dist": 3009.5,
+    "mean_dist": 2666.1,
+    "mean_lat": -22.031,
+    "mean_lon": 206.63,
+    "mean_time": 6.4,
+    "std_dist": 3044.4,
     "std_time": 1.7,
     "city": "Adamstown",
     "admin": "",
@@ -235985,7 +236669,10 @@
       "Balearic Islands",
       "Balearic Islands",
       "Quebec",
-      "Colorado"
+      "Colorado",
+      "New South Wales",
+      "New South Wales",
+      "New South Wales"
     ],
     "countries": [
       "Switzerland",
@@ -236338,7 +237025,10 @@
       "Spain",
       "Spain",
       "Canada",
-      "United States"
+      "United States",
+      "Australia",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       7147.22946416446,
@@ -236691,7 +237381,10 @@
       73.3,
       59.7,
       186.1,
-      2035.9
+      2035.9,
+      12694.7,
+      1755.3,
+      1916.8
     ],
     "times": [
       7.1333333333333435,
@@ -237044,7 +237737,10 @@
       8.2,
       6.5,
       7.5,
-      6.6
+      6.6,
+      2.3,
+      2.6,
+      2.8
     ]
   },
   "Alofi, Niue": {
@@ -237412,7 +238108,9 @@
       -21.235,
       -21.358,
       -18.894,
-      -19.266
+      -19.266,
+      -19.267,
+      -0.559
     ],
     "lons": [
       221.88235294117646,
@@ -237778,16 +238476,18 @@
       184.862,
       185.202,
       190.039,
-      185.254
+      185.254,
+      185.813,
+      174.247
     ],
     "true_lat": -19.054,
     "true_lon": -169.92,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Alofi%2C+Niue&go=Go&ns0=1",
-    "mean_dist": 1444.7,
-    "mean_lat": -16.613,
-    "mean_lon": 184.883,
+    "mean_dist": 1445.4,
+    "mean_lat": -16.577,
+    "mean_lon": 184.857,
     "mean_time": 6.6,
-    "std_dist": 1757.2,
+    "std_dist": 1754.4,
     "std_time": 1.7,
     "city": "Alofi",
     "admin": "",
@@ -238157,7 +238857,9 @@
       "Balearic Islands",
       "Quebec",
       "Quebec",
-      "Balearic Islands"
+      "Balearic Islands",
+      "New South Wales",
+      "New South Wales"
     ],
     "countries": [
       "Switzerland",
@@ -238523,7 +239225,9 @@
       "Spain",
       "Canada",
       "Canada",
-      "Spain"
+      "Spain",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       3549.1331037651285,
@@ -238889,7 +239593,9 @@
       596.1,
       569.7,
       18.1,
-      507.3
+      507.3,
+      448.6,
+      2685
     ],
     "times": [
       7.166666666666677,
@@ -239255,7 +239961,9 @@
       7.3,
       7.9,
       7.5,
-      7.9
+      7.9,
+      5.5,
+      2.5
     ]
   },
   "Flying Fish Cove, Christmas Island": {
@@ -239626,7 +240334,10 @@
       -19.322,
       -19.341,
       -10.529,
-      -10.484
+      -10.484,
+      -10.271,
+      -10.517,
+      -10.674
     ],
     "lons": [
       204.1045751633987,
@@ -239995,16 +240706,19 @@
       181.194,
       160.078,
       105.725,
-      106.176
+      106.176,
+      142.248,
+      106.115,
+      105.639
     ],
     "true_lat": -10.421667,
     "true_lon": 105.678056,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Flying Fish Cove%2C+Christmas Island&go=Go&ns0=1",
-    "mean_dist": 2951.4,
-    "mean_lat": -12.789,
-    "mean_lon": 131.881,
-    "mean_time": 6.7,
-    "std_dist": 4415,
+    "mean_dist": 2938.4,
+    "mean_lat": -12.77,
+    "mean_lon": 131.769,
+    "mean_time": 6.6,
+    "std_dist": 4402.6,
     "std_time": 1.7,
     "city": "Flying Fish Cove",
     "admin": "",
@@ -240377,7 +241091,10 @@
       "Stockholm",
       "Stockholm",
       "Quebec",
-      "Tuscany"
+      "Tuscany",
+      "Queensland",
+      "New South Wales",
+      "New South Wales"
     ],
     "countries": [
       "Switzerland",
@@ -240746,7 +241463,10 @@
       "Sweden",
       "Sweden",
       "Canada",
-      "Italy"
+      "Italy",
+      "Australia",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       10437.293987271452,
@@ -241115,7 +241835,10 @@
       8119.8,
       5906.8,
       13,
-      54.9
+      54.9,
+      3998,
+      48.9,
+      28.3
     ],
     "times": [
       6.6666666666666785,
@@ -241484,7 +242207,10 @@
       6.8,
       5.8,
       5.4,
-      5.4
+      5.4,
+      4.4,
+      6.3,
+      5.3
     ]
   },
   "Apia, Samoa": {
@@ -244101,7 +244827,10 @@
       -27.077,
       -27.563,
       -27.563,
-      -27.213
+      -27.213,
+      -26.98,
+      -27.097,
+      -8.321
     ],
     "lons": [
       250.814,
@@ -244499,16 +245228,19 @@
       250.684,
       251.084,
       250.692,
-      250.614
+      250.614,
+      250.352,
+      250.222,
+      247.925
     ],
     "true_lat": -27.133333,
     "true_lon": -109.416667,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Hanga Roa%2C+Chile&go=Go&ns0=1",
-    "mean_dist": 1473.7,
-    "mean_lat": -19.576,
-    "mean_lon": 242.953,
-    "mean_time": 6.5,
-    "std_dist": 3262.5,
+    "mean_dist": 1468.1,
+    "mean_lat": -19.585,
+    "mean_lon": 243.002,
+    "mean_time": 6.4,
+    "std_dist": 3252,
     "std_time": 1.9,
     "city": "Hanga Roa",
     "admin": "Easter Island",
@@ -244910,7 +245642,10 @@
       "New South Wales",
       "Quebec",
       "Quebec",
-      "Balearic Islands"
+      "Balearic Islands",
+      "Queensland",
+      "Queensland",
+      "New South Wales"
     ],
     "countries": [
       "United Kingdom",
@@ -245308,7 +246043,10 @@
       "Australia",
       "Canada",
       "Canada",
-      "Spain"
+      "Spain",
+      "Australia",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       1576.1,
@@ -245706,7 +246444,10 @@
       11.7,
       68.8,
       49,
-      9.4
+      9.4,
+      28.4,
+      35.9,
+      2110.3
     ],
     "times": [
       2.3,
@@ -246104,7 +246845,10 @@
       8.7,
       8.1,
       8.1,
-      8.3
+      8.3,
+      5.4,
+      6.1,
+      1.4
     ]
   },
   "West Island, Cocos (Keeling) Islands": {
@@ -246434,7 +247178,9 @@
       -12.175,
       -11.724,
       -11.944,
-      -12.457
+      -12.457,
+      -12.201,
+      -16.848
     ],
     "lons": [
       145.33333333333334,
@@ -246762,17 +247508,19 @@
       96.959,
       97.029,
       95.581,
-      97.228
+      97.228,
+      96.627,
+      216.235
     ],
     "true_lat": -12.186944,
     "true_lon": 96.828333,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=West Island%2C+Cocos (Keeling) Islands&go=Go&ns0=1",
-    "mean_dist": 3357.3,
-    "mean_lat": -12.188,
-    "mean_lon": 127.481,
-    "mean_time": 6.7,
-    "std_dist": 4630.3,
-    "std_time": 1.7,
+    "mean_dist": 3375.3,
+    "mean_lat": -12.202,
+    "mean_lon": 127.657,
+    "mean_time": 6.6,
+    "std_dist": 4648,
+    "std_time": 1.8,
     "city": "West Island",
     "admin": "",
     "country": "Cocos (Keeling) Islands",
@@ -247103,7 +247851,9 @@
       "Colorado",
       "New South Wales",
       "Balearic Islands",
-      "Quebec"
+      "Quebec",
+      "Queensland",
+      "New South Wales"
     ],
     "countries": [
       "Australia",
@@ -247431,7 +248181,9 @@
       "United States",
       "Australia",
       "Spain",
-      "Canada"
+      "Canada",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       6098.416266128646,
@@ -247759,7 +248511,9 @@
       14.3,
       55.8,
       138.2,
-      52.8
+      52.8,
+      21.8,
+      12616.5
     ],
     "times": [
       3.5333333333333563,
@@ -248087,7 +248841,9 @@
       7.7,
       8.5,
       8.2,
-      7.9
+      7.9,
+      1.3,
+      0.5
     ]
   },
   "Invercargill, New Zealand": {
@@ -248175,7 +248931,8 @@
       -38.794,
       -45.176,
       -45.967,
-      -46.804
+      -46.804,
+      -45.217
     ],
     "lons": [
       174.259,
@@ -248261,16 +249018,17 @@
       175.471,
       169.528,
       168.925,
-      169.437
+      169.437,
+      169.493
     ],
     "true_lat": -46.4094,
     "true_lon": 168.365,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Invercargill%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 364.5,
-    "mean_lat": -43.963,
-    "mean_lon": 171.068,
+    "mean_dist": 362,
+    "mean_lat": -43.978,
+    "mean_lon": 171.05,
     "mean_time": 7.7,
-    "std_dist": 410.2,
+    "std_dist": 408.4,
     "std_time": 1.1,
     "city": "Invercargill",
     "admin": "Southland",
@@ -248360,7 +249118,8 @@
       "Aargau",
       "Colorado",
       "New South Wales",
-      "Balearic Islands"
+      "Balearic Islands",
+      "New South Wales"
     ],
     "countries": [
       "Italy",
@@ -248446,7 +249205,8 @@
       "Switzerland",
       "United States",
       "Australia",
-      "Spain"
+      "Spain",
+      "Australia"
     ],
     "dists": [
       757.3,
@@ -248532,7 +249292,8 @@
       1026.3,
       164.1,
       65.4,
-      92.9
+      92.9,
+      158.8
     ],
     "times": [
       8.4,
@@ -248618,7 +249379,8 @@
       8.1,
       5.7,
       8.5,
-      8.1
+      8.1,
+      4.7
     ]
   },
   "Kingston, Norfolk Island": {
@@ -248960,7 +249722,9 @@
       -28.793,
       -17.425,
       -17.949,
-      -29.064
+      -29.064,
+      -31.443,
+      -31.718
     ],
     "lons": [
       209.33333333333331,
@@ -249300,16 +250064,18 @@
       168.138,
       178.579,
       178.169,
-      167.816
+      167.816,
+      159.111,
+      159.353
     ],
     "true_lat": -29.05,
     "true_lon": 167.966667,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kingston%2C+Norfolk Island&go=Go&ns0=1",
-    "mean_dist": 1403.7,
-    "mean_lat": -22.551,
-    "mean_lon": 167.309,
+    "mean_dist": 1400.7,
+    "mean_lat": -22.604,
+    "mean_lon": 167.261,
     "mean_time": 6.6,
-    "std_dist": 2032.1,
+    "std_dist": 2026.5,
     "std_time": 1.7,
     "city": "Kingston",
     "admin": "",
@@ -249653,7 +250419,9 @@
       "Colorado",
       "Stockholm",
       "Stockholm",
-      "Quebec"
+      "Quebec",
+      "Queensland",
+      "New South Wales"
     ],
     "countries": [
       "Switzerland",
@@ -249993,7 +250761,9 @@
       "United States",
       "Sweden",
       "Sweden",
-      "Canada"
+      "Canada",
+      "Australia",
+      "Australia"
     ],
     "dists": [
       4426.6885769390865,
@@ -250333,7 +251103,9 @@
       33,
       1685.1,
       1612.5,
-      14.6
+      14.6,
+      890.9,
+      877.5
     ],
     "times": [
       7.4333333333333425,
@@ -250673,7 +251445,9 @@
       5.3,
       2.9,
       4.5,
-      8.2
+      8.2,
+      4.2,
+      3.1
     ]
   }
 }
