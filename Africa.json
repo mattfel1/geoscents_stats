@@ -411,9 +411,9 @@
     ]
   },
   "Eldoret, Kenya": {
-    "mean_dist": 743.4,
+    "mean_dist": 731.1,
     "mean_time": 6.8,
-    "std_dist": 1059.4,
+    "std_dist": 1047.7,
     "std_time": 1.6,
     "admin": "Uasin Gishu",
     "country": "Kenya",
@@ -527,7 +527,10 @@
       -0.611,
       -17.176,
       -0.18,
-      -0.079
+      -0.079,
+      -0.428,
+      -1.59,
+      0.372
     ],
     "lons": [
       "x",
@@ -638,10 +641,13 @@
       34.347,
       30.211,
       38.595,
-      37.845
+      37.845,
+      37.149,
+      36.917,
+      38.127
     ],
-    "mean_lat": 0.047,
-    "mean_lon": 32.822,
+    "mean_lat": 0.026,
+    "mean_lon": 32.981,
     "true_lat": 0.52,
     "true_lon": 35.27,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Eldoret%2C+Kenya&go=Go&ns0=1",
@@ -755,7 +761,10 @@
       "Aargau",
       "California",
       "California",
-      "Balearic Islands"
+      "Balearic Islands",
+      "Balearic Islands",
+      "Balearic Islands",
+      "Scotland"
     ],
     "countries": [
       "Unknown",
@@ -866,7 +875,10 @@
       "Switzerland",
       "United States",
       "United States",
-      "Spain"
+      "Spain",
+      "Spain",
+      "Spain",
+      "United Kingdom"
     ],
     "dists": [
       347.1,
@@ -977,7 +989,10 @@
       162.3,
       2044.2,
       377.9,
-      294
+      294,
+      234,
+      297.6,
+      318.1
     ],
     "times": [
       8.1,
@@ -1088,13 +1103,16 @@
       8.2,
       5.9,
       7.2,
-      8.1
+      8.1,
+      8.3,
+      8.1,
+      6.9
     ]
   },
   "Chimoio, Mozambique": {
-    "mean_dist": 763.2,
+    "mean_dist": 753.2,
     "mean_time": 6.8,
-    "std_dist": 1161,
+    "std_dist": 1154.4,
     "std_time": 1.7,
     "city": "Chimoio",
     "admin": "Manica",
@@ -1223,7 +1241,9 @@
       -18.15,
       -17.116,
       -16.047,
-      -16.927
+      -16.927,
+      -18.899,
+      -19.448
     ],
     "lons": [
       "x",
@@ -1349,10 +1369,12 @@
       35.501,
       37.945,
       38.131,
-      35.335
+      35.335,
+      34.945,
+      34.481
     ],
-    "mean_lat": -15.429,
-    "mean_lon": 32.613,
+    "mean_lat": -15.501,
+    "mean_lon": 32.653,
     "true_lat": -19.12,
     "true_lon": 33.47,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Chimoio%2C+Mozambique&go=Go&ns0=1",
@@ -1481,7 +1503,9 @@
       "California",
       "California",
       "California",
-      "California"
+      "California",
+      "Balearic Islands",
+      "Balearic Islands"
     ],
     "countries": [
       "Unknown",
@@ -1607,7 +1631,9 @@
       "United States",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Spain",
+      "Spain"
     ],
     "dists": [
       224.3,
@@ -1733,7 +1759,9 @@
       239.7,
       522.8,
       600.6,
-      313.5
+      313.5,
+      157,
+      112.2
     ],
     "times": [
       5.7,
@@ -1859,7 +1887,9 @@
       7.6,
       8.1,
       7.4,
-      5.6
+      5.6,
+      7.8,
+      8.3
     ]
   },
   "Kano, Nigeria": {
@@ -2238,9 +2268,9 @@
     ]
   },
   "Arusha, Tanzania": {
-    "mean_dist": 852.4,
+    "mean_dist": 847.8,
     "mean_time": 6.6,
-    "std_dist": 1055.5,
+    "std_dist": 1051.3,
     "std_time": 1.6,
     "city": "Arusha",
     "admin": "Arusha",
@@ -2345,7 +2375,8 @@
       -5.994,
       -5.763,
       -6.456,
-      -4.143
+      -4.143,
+      -3.447
     ],
     "lons": [
       "x",
@@ -2447,10 +2478,11 @@
       36.221,
       31.696,
       38.657,
-      33.32
+      33.32,
+      33.204
     ],
-    "mean_lat": -5.714,
-    "mean_lon": 33.176,
+    "mean_lat": -5.683,
+    "mean_lon": 33.177,
     "true_lat": -3.36,
     "true_lon": 36.67,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Arusha%2C+Tanzania&go=Go&ns0=1",
@@ -2555,6 +2587,7 @@
       "Balearic Islands",
       "Balearic Islands",
       "Quebec",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -2657,6 +2690,7 @@
       "Spain",
       "Spain",
       "Canada",
+      "Spain",
       "Spain"
     ],
     "dists": [
@@ -2759,7 +2793,8 @@
       297.1,
       612.5,
       408.7,
-      381.6
+      381.6,
+      384.7
     ],
     "times": [
       3.8,
@@ -2861,13 +2896,14 @@
       8,
       8.1,
       7.9,
-      8.2
+      8.2,
+      8.4
     ]
   },
   "Kigali, Rwanda": {
-    "mean_dist": 330.8,
+    "mean_dist": 329,
     "mean_time": 7.2,
-    "std_dist": 726.6,
+    "std_dist": 723.8,
     "std_time": 1.2,
     "admin": "Kigali",
     "country": "Rwanda",
@@ -2991,7 +3027,8 @@
       -1.637,
       -3.122,
       -2.287,
-      -2.41
+      -2.41,
+      -2.635
     ],
     "lons": [
       "x",
@@ -3112,9 +3149,10 @@
       29.749,
       30.026,
       29.933,
-      30.242
+      30.242,
+      29.376
     ],
-    "mean_lat": -1.826,
+    "mean_lat": -1.835,
     "mean_lon": 29.4,
     "true_lat": -1.9536,
     "true_lon": 30.0605,
@@ -3239,7 +3277,8 @@
       "Washington",
       "Quebec",
       "California",
-      "California"
+      "California",
+      "Balearic Islands"
     ],
     "countries": [
       "Unknown",
@@ -3360,7 +3399,8 @@
       "United States",
       "Canada",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       67.7,
@@ -3481,7 +3521,8 @@
       49.2,
       130,
       39.6,
-      54.7
+      54.7,
+      107.3
     ],
     "times": [
       3.8,
@@ -3602,7 +3643,8 @@
       7.1,
       8.3,
       7.5,
-      5.7
+      5.7,
+      7.9
     ]
   },
   "Benoni, South Africa": {
@@ -6378,9 +6420,9 @@
     ]
   },
   "Blantyre, Malawi": {
-    "mean_dist": 1022.7,
+    "mean_dist": 1015.1,
     "mean_time": 6.7,
-    "std_dist": 1672.5,
+    "std_dist": 1667.9,
     "std_time": 1.8,
     "city": "Blantyre",
     "admin": "Blantyre",
@@ -6508,7 +6550,8 @@
       -15.458,
       -14.898,
       -12.754,
-      -15.458
+      -15.458,
+      -15.234
     ],
     "lons": [
       "x",
@@ -6633,10 +6676,11 @@
       35.061,
       35.061,
       33.784,
+      35.409,
       35.409
     ],
-    "mean_lat": -10.984,
-    "mean_lon": 29.803,
+    "mean_lat": -11.026,
+    "mean_lon": 29.859,
     "true_lat": -15.79,
     "true_lon": 34.9899,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Blantyre%2C+Malawi&go=Go&ns0=1",
@@ -6764,6 +6808,7 @@
       "Balearic Islands",
       "Balearic Islands",
       "Quebec",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -6889,6 +6934,7 @@
       "Spain",
       "Spain",
       "Canada",
+      "Spain",
       "Spain"
     ],
     "dists": [
@@ -7014,7 +7060,8 @@
       37.5,
       99.4,
       361.6,
-      58
+      58,
+      76.3
     ],
     "times": [
       2.4,
@@ -7139,7 +7186,8 @@
       8.2,
       8.1,
       8.4,
-      8.3
+      8.3,
+      8.4
     ]
   },
   "Souk Ahras, Algeria": {
@@ -11223,9 +11271,9 @@
     ]
   },
   "Djibouti, Djibouti": {
-    "mean_dist": 967.6,
-    "mean_time": 7,
-    "std_dist": 1790.8,
+    "mean_dist": 959.7,
+    "mean_time": 7.1,
+    "std_dist": 1784.9,
     "std_time": 1.7,
     "city": "Djibouti",
     "admin": "Djibouti",
@@ -11343,7 +11391,8 @@
       12.258,
       12.031,
       -29.336,
-      11.636
+      11.636,
+      12.144
     ],
     "lons": [
       "x",
@@ -11458,10 +11507,11 @@
       42.833,
       42.671,
       28.611,
-      42.679
+      42.679,
+      43.298
     ],
-    "mean_lat": 9.216,
-    "mean_lon": 36.26,
+    "mean_lat": 9.248,
+    "mean_lon": 36.335,
     "true_lat": 11.595,
     "true_lon": 43.148,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Djibouti%2C+Djibouti&go=Go&ns0=1",
@@ -11579,7 +11629,8 @@
       "Quebec",
       "Quebec",
       "California",
-      "California"
+      "California",
+      "Balearic Islands"
     ],
     "countries": [
       "Australia",
@@ -11694,7 +11745,8 @@
       "Canada",
       "Canada",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       24.1,
@@ -11809,7 +11861,8 @@
       81.2,
       70.9,
       4811.1,
-      51.2
+      51.2,
+      63.2
     ],
     "times": [
       8.3,
@@ -11924,7 +11977,8 @@
       8.3,
       8.4,
       7.4,
-      6.7
+      6.7,
+      8.3
     ]
   },
   "Rabat, Morocco": {
@@ -14853,9 +14907,9 @@
     ]
   },
   "Kumasi, Ghana": {
-    "mean_dist": 495.5,
+    "mean_dist": 492.8,
     "mean_time": 6.9,
-    "std_dist": 1006.4,
+    "std_dist": 1002.9,
     "std_time": 1.8,
     "city": "Kumasi",
     "admin": "Ashanti",
@@ -14987,7 +15041,8 @@
       6.99,
       6.759,
       7.566,
-      6.829
+      6.829,
+      6.644
     ],
     "lons": [
       "x",
@@ -15116,10 +15171,11 @@
       -1.25,
       -1.366,
       -0.972,
-      -0.601
+      -0.601,
+      -0.322
     ],
-    "mean_lat": 7.957,
-    "mean_lon": 0.484,
+    "mean_lat": 7.944,
+    "mean_lon": 0.476,
     "true_lat": 6.69,
     "true_lon": -1.63,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kumasi%2C+Ghana&go=Go&ns0=1",
@@ -15251,7 +15307,8 @@
       "Balearic Islands",
       "Quebec",
       "Baden-W\u00fcrttemberg",
-      "Baden-W\u00fcrttemberg"
+      "Baden-W\u00fcrttemberg",
+      "Balearic Islands"
     ],
     "countries": [
       "Australia",
@@ -15380,7 +15437,8 @@
       "Spain",
       "Canada",
       "Germany",
-      "Germany"
+      "Germany",
+      "Spain"
     ],
     "dists": [
       159.3,
@@ -15509,7 +15567,8 @@
       53.5,
       30,
       121.5,
-      114.6
+      114.6,
+      144.4
     ],
     "times": [
       8,
@@ -15638,7 +15697,8 @@
       7.9,
       7.8,
       8.2,
-      7.2
+      7.2,
+      8.2
     ]
   },
   "Entebbe, Uganda": {
@@ -16299,9 +16359,9 @@
     ]
   },
   "Kankan, Guinea": {
-    "mean_dist": 1028.9,
+    "mean_dist": 1021.3,
     "mean_time": 6.6,
-    "std_dist": 1510.3,
+    "std_dist": 1503.7,
     "std_time": 1.7,
     "city": "Kankan",
     "admin": "Kankan",
@@ -16396,7 +16456,8 @@
       12.455,
       11.006,
       10.549,
-      9.749
+      9.749,
+      10.664
     ],
     "lons": [
       "x",
@@ -16488,10 +16549,11 @@
       -15.336,
       -13.78,
       -13.084,
-      -14.012
+      -14.012,
+      -12.388
     ],
-    "mean_lat": 8.659,
-    "mean_lon": -5.337,
+    "mean_lat": 8.687,
+    "mean_lon": -5.437,
     "true_lat": 10.39,
     "true_lon": -9.31,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kankan%2C+Guinea&go=Go&ns0=1",
@@ -16586,6 +16648,7 @@
       "Washington",
       "Quebec",
       "Quebec",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -16678,6 +16741,7 @@
       "United States",
       "Canada",
       "Canada",
+      "Spain",
       "Spain"
     ],
     "dists": [
@@ -16770,7 +16834,8 @@
       695.7,
       493.2,
       413,
-      519.7
+      519.7,
+      337.8
     ],
     "times": [
       8,
@@ -16862,7 +16927,8 @@
       7.2,
       8.2,
       6.4,
-      8
+      8,
+      8.2
     ]
   },
   "Quelimane, Mozambique": {
@@ -17427,9 +17493,9 @@
     ]
   },
   "Gombe, Nigeria": {
-    "mean_dist": 642.5,
+    "mean_dist": 641.9,
     "mean_time": 7.6,
-    "std_dist": 440.9,
+    "std_dist": 438,
     "std_time": 1.1,
     "city": "Gombe",
     "admin": "Gombe",
@@ -17508,7 +17574,8 @@
       6.298,
       4.678,
       11.006,
-      9.061
+      9.061,
+      8.372
     ],
     "lons": [
       "x",
@@ -17584,10 +17651,11 @@
       5.245,
       6.637,
       10.35,
-      6.521
+      6.521,
+      6.057
     ],
-    "mean_lat": 7.826,
-    "mean_lon": 7.343,
+    "mean_lat": 7.837,
+    "mean_lon": 7.317,
     "true_lat": 10.2904,
     "true_lon": 11.17,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Gombe%2C+Nigeria&go=Go&ns0=1",
@@ -17666,6 +17734,7 @@
       "Quebec",
       "Quebec",
       "Quebec",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -17742,6 +17811,7 @@
       "Canada",
       "Canada",
       "Canada",
+      "Spain",
       "Spain"
     ],
     "dists": [
@@ -17818,7 +17888,8 @@
       788.5,
       799.2,
       119.8,
-      527.4
+      527.4,
+      600
     ],
     "times": [
       8.3,
@@ -17894,14 +17965,15 @@
       8.3,
       8,
       8.4,
+      8.6,
       8.6
     ]
   },
   "Koutiala, Mali": {
-    "mean_dist": 622.5,
+    "mean_dist": 614.4,
     "mean_time": 7.2,
-    "std_dist": 1080.2,
-    "std_time": 1,
+    "std_dist": 1063.6,
+    "std_time": 1.1,
     "city": "Koutiala",
     "admin": "Sikasso",
     "country": "Mali",
@@ -17992,7 +18064,10 @@
       15.731,
       14.293,
       14.518,
-      13.617
+      13.617,
+      14.406,
+      14.293,
+      17.393
     ],
     "lons": [
       "x",
@@ -18081,10 +18156,13 @@
       11.928,
       -5.891,
       -6.355,
-      -5.891
+      -5.891,
+      -5.891,
+      -6.471,
+      -2.018
     ],
-    "mean_lat": 12.526,
-    "mean_lon": -1.965,
+    "mean_lat": 12.657,
+    "mean_lon": -2.095,
     "true_lat": 12.3904,
     "true_lon": -5.47,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Koutiala%2C+Mali&go=Go&ns0=1",
@@ -18176,7 +18254,10 @@
       "England",
       "Quebec",
       "Balearic Islands",
-      "Balearic Islands"
+      "Balearic Islands",
+      "Balearic Islands",
+      "Balearic Islands",
+      "Scotland"
     ],
     "countries": [
       "Australia",
@@ -18265,7 +18346,10 @@
       "United Kingdom",
       "Canada",
       "Spain",
-      "Spain"
+      "Spain",
+      "Spain",
+      "Spain",
+      "United Kingdom"
     ],
     "dists": [
       243.2,
@@ -18354,7 +18438,10 @@
       1912.2,
       216.4,
       255.3,
-      143.8
+      143.8,
+      228.7,
+      237.7,
+      668.5
     ],
     "times": [
       7.9,
@@ -18443,7 +18530,10 @@
       5.1,
       8.4,
       7.7,
-      8.2
+      8.2,
+      8.5,
+      8.1,
+      4.3
     ]
   },
   "Bandundu, Congo (Kinshasa)": {
@@ -19557,9 +19647,9 @@
     ]
   },
   "Bauchi, Nigeria": {
-    "mean_dist": 537.9,
+    "mean_dist": 538.2,
     "mean_time": 7,
-    "std_dist": 367.9,
+    "std_dist": 361.9,
     "std_time": 1.8,
     "city": "Bauchi",
     "admin": "Bauchi",
@@ -19624,7 +19714,9 @@
       7.052,
       6.528,
       6.759,
-      8.831
+      8.831,
+      8.372,
+      7.699
     ],
     "lons": [
       "x",
@@ -19686,10 +19778,12 @@
       6.576,
       6.057,
       5.825,
-      6.057
+      6.057,
+      5.013,
+      5.859
     ],
-    "mean_lat": 8.203,
-    "mean_lon": 7.529,
+    "mean_lat": 8.197,
+    "mean_lon": 7.453,
     "true_lat": 10.3104,
     "true_lon": 9.84,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bauchi%2C+Nigeria&go=Go&ns0=1",
@@ -19754,7 +19848,9 @@
       "California",
       "Balearic Islands",
       "Quebec",
-      "Balearic Islands"
+      "Balearic Islands",
+      "Balearic Islands",
+      "Scotland"
     ],
     "countries": [
       "Australia",
@@ -19816,7 +19912,9 @@
       "United States",
       "Spain",
       "Canada",
-      "Spain"
+      "Spain",
+      "Spain",
+      "United Kingdom"
     ],
     "dists": [
       584,
@@ -19878,7 +19976,9 @@
       509.8,
       591.4,
       592.1,
-      446
+      446,
+      571.6,
+      524.7
     ],
     "times": [
       8.3,
@@ -19940,13 +20040,15 @@
       7.7,
       8.3,
       8.5,
-      8.5
+      8.5,
+      8.6,
+      8.2
     ]
   },
   "Mufulira, Zambia": {
-    "mean_dist": 780.2,
+    "mean_dist": 773.8,
     "mean_time": 6.4,
-    "std_dist": 1066.2,
+    "std_dist": 1061.7,
     "std_time": 1.9,
     "city": "Mufulira",
     "admin": "Copperbelt",
@@ -20037,7 +20139,8 @@
       -14.336,
       -14.898,
       -22.85,
-      -14.793
+      -14.793,
+      -14.223
     ],
     "lons": [
       "x",
@@ -20125,10 +20228,11 @@
       28.564,
       28.912,
       18.146,
-      27.087
+      27.087,
+      29.376
     ],
-    "mean_lat": -10.948,
-    "mean_lon": 26.572,
+    "mean_lat": -10.998,
+    "mean_lon": 26.615,
     "true_lat": -12.55,
     "true_lon": 28.26,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Mufulira%2C+Zambia&go=Go&ns0=1",
@@ -20219,7 +20323,8 @@
       "Balearic Islands",
       "Quebec",
       "California",
-      "California"
+      "California",
+      "Balearic Islands"
     ],
     "countries": [
       "Australia",
@@ -20307,7 +20412,8 @@
       "Spain",
       "Canada",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       395.7,
@@ -20395,7 +20501,8 @@
       201.3,
       270.4,
       1566.9,
-      279.7
+      279.7,
+      221.8
     ],
     "times": [
       8.3,
@@ -20483,7 +20590,8 @@
       8,
       8.1,
       6.3,
-      7
+      7,
+      8.2
     ]
   },
   "Ngaound\u00e9r\u00e9, Cameroon": {
@@ -22194,9 +22302,9 @@
     ]
   },
   "Conakry, Guinea": {
-    "mean_dist": 631.9,
+    "mean_dist": 627.6,
     "mean_time": 7.1,
-    "std_dist": 1059.6,
+    "std_dist": 1054.4,
     "std_time": 1.2,
     "city": "Conakry",
     "admin": "Conakry",
@@ -22288,7 +22396,8 @@
       12.258,
       12.175,
       12.152,
-      10.834
+      10.834,
+      11.576
     ],
     "lons": [
       "x",
@@ -22377,10 +22486,11 @@
       2.925,
       -15.009,
       -14.955,
-      -13.541
+      -13.541,
+      -14.708
     ],
-    "mean_lat": 9.236,
-    "mean_lon": -9.282,
+    "mean_lat": 9.271,
+    "mean_lon": -9.363,
     "true_lat": 9.5315,
     "true_lon": -13.6802,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Conakry%2C+Guinea&go=Go&ns0=1",
@@ -22472,7 +22582,8 @@
       "England",
       "Colorado",
       "Colorado",
-      "Colorado"
+      "Colorado",
+      "Balearic Islands"
     ],
     "countries": [
       "Australia",
@@ -22561,7 +22672,8 @@
       "United Kingdom",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       85.2,
@@ -22650,7 +22762,8 @@
       1837.9,
       327.9,
       323,
-      145.6
+      145.6,
+      253.6
     ],
     "times": [
       7.8,
@@ -22739,7 +22852,8 @@
       6.7,
       5.6,
       7.1,
-      6.7
+      6.7,
+      8.2
     ]
   },
   "Mbanza-Ngungu, Congo (Kinshasa)": {
@@ -24744,9 +24858,9 @@
     ]
   },
   "Sikasso, Mali": {
-    "mean_dist": 1378.7,
+    "mean_dist": 1359,
     "mean_time": 6.6,
-    "std_dist": 2835.8,
+    "std_dist": 2812.2,
     "std_time": 1.8,
     "admin": "Sikasso",
     "country": "Mali",
@@ -24854,7 +24968,9 @@
       -11.613,
       9.591,
       17.688,
-      17.038
+      17.038,
+      14.181,
+      14.068
     ],
     "lons": [
       "x",
@@ -24959,10 +25075,12 @@
       16.621,
       21.44,
       -1.9,
-      -3.725
+      -3.725,
+      -7.051,
+      -7.051
     ],
-    "mean_lat": 11.496,
-    "mean_lon": 5.838,
+    "mean_lat": 11.557,
+    "mean_lon": 5.541,
     "true_lat": 11.3204,
     "true_lon": -5.68,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Sikasso%2C+Mali&go=Go&ns0=1",
@@ -25070,7 +25188,9 @@
       "England",
       "England",
       "California",
-      "California"
+      "California",
+      "Balearic Islands",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -25175,7 +25295,9 @@
       "United Kingdom",
       "United Kingdom",
       "United States",
-      "United States"
+      "United States",
+      "Spain",
+      "Spain"
     ],
     "dists": [
       475.2,
@@ -25280,7 +25402,9 @@
       3545.4,
       2970.7,
       816.5,
-      669.7
+      669.7,
+      351.1,
+      339.8
     ],
     "times": [
       4.2,
@@ -25385,7 +25509,9 @@
       4.9,
       6,
       7,
-      7.5
+      7.5,
+      8.3,
+      8.5
     ]
   },
   "Livingstone, Zambia": {
@@ -26076,9 +26202,9 @@
     ]
   },
   "Gweru, Zimbabwe": {
-    "mean_dist": 368.1,
+    "mean_dist": 364,
     "mean_time": 7,
-    "std_dist": 625,
+    "std_dist": 620.9,
     "std_time": 1.5,
     "city": "Gweru",
     "admin": "Midlands",
@@ -26207,7 +26333,9 @@
       -17.708,
       -18.679,
       -19.119,
-      -19.995
+      -19.995,
+      -20.322,
+      -19.557
     ],
     "lons": [
       "x",
@@ -26333,10 +26461,12 @@
       30.399,
       31.232,
       29.84,
-      30.652
+      30.652,
+      31.116,
+      30.304
     ],
-    "mean_lat": -17.551,
-    "mean_lon": 29.933,
+    "mean_lat": -17.601,
+    "mean_lon": 29.949,
     "true_lat": -19.45,
     "true_lon": 29.82,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Gweru%2C+Zimbabwe&go=Go&ns0=1",
@@ -26465,6 +26595,8 @@
       "Washington",
       "Balearic Islands",
       "Quebec",
+      "Balearic Islands",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -26591,6 +26723,8 @@
       "United States",
       "Spain",
       "Canada",
+      "Spain",
+      "Spain",
       "Spain"
     ],
     "dists": [
@@ -26717,7 +26851,9 @@
       203,
       171.4,
       36.8,
-      106.1
+      106.1,
+      166.7,
+      52.1
     ],
     "times": [
       4.9,
@@ -26843,7 +26979,9 @@
       6.5,
       8.1,
       7.4,
-      7.8
+      7.8,
+      8.1,
+      8.5
     ]
   },
   "Cotonou, Benin": {
@@ -27558,9 +27696,9 @@
     ]
   },
   "Niamey, Niger": {
-    "mean_dist": 703.9,
+    "mean_dist": 698.9,
     "mean_time": 6.8,
-    "std_dist": 938.2,
+    "std_dist": 936.5,
     "std_time": 1.7,
     "admin": "Niamey",
     "country": "Niger",
@@ -27699,7 +27837,8 @@
       14.833,
       14.383,
       9.011,
-      8.118
+      8.118,
+      13.73
     ],
     "lons": [
       "x",
@@ -27835,10 +27974,11 @@
       3.654,
       5.245,
       6.541,
-      2.323
+      2.323,
+      2.345
     ],
-    "mean_lat": 12.687,
-    "mean_lon": 7.779,
+    "mean_lat": 12.697,
+    "mean_lon": 7.727,
     "true_lat": 13.5167,
     "true_lon": 2.1167,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Niamey%2C+Niger&go=Go&ns0=1",
@@ -27977,7 +28117,8 @@
       "Bavaria",
       "Bavaria",
       "North Rhine-Westphalia",
-      "Bavaria"
+      "Bavaria",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -28113,7 +28254,8 @@
       "Germany",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "Spain"
     ],
     "dists": [
       1192.2,
@@ -28249,7 +28391,8 @@
       221.1,
       351.1,
       695.4,
-      600.7
+      600.7,
+      34.2
     ],
     "times": [
       3.7,
@@ -28385,13 +28528,14 @@
       7.4,
       7.6,
       5.9,
-      7
+      7,
+      8.1
     ]
   },
   "Bujumbura, Burundi": {
-    "mean_dist": 653.6,
+    "mean_dist": 649.2,
     "mean_time": 6.9,
-    "std_dist": 1227.5,
+    "std_dist": 1223.9,
     "std_time": 1.6,
     "admin": "Bujumbura Mairie",
     "country": "Burundi",
@@ -28528,7 +28672,8 @@
       -3.362,
       -2.983,
       -2.983,
-      -3.447
+      -3.447,
+      -3.679
     ],
     "lons": [
       "x",
@@ -28662,10 +28807,11 @@
       29.856,
       29.028,
       29.26,
-      29.84
+      29.84,
+      29.956
     ],
-    "mean_lat": -1.084,
-    "mean_lon": 25.494,
+    "mean_lat": -1.117,
+    "mean_lon": 25.55,
     "true_lat": -3.3761,
     "true_lon": 29.36,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bujumbura%2C+Burundi&go=Go&ns0=1",
@@ -28802,7 +28948,8 @@
       "Central Region",
       "Balearic Islands",
       "Quebec",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -28936,7 +29083,8 @@
       "Uganda",
       "Spain",
       "Canada",
-      "Canada"
+      "Canada",
+      "Spain"
     ],
     "dists": [
       100.8,
@@ -29070,7 +29218,8 @@
       55.1,
       57.1,
       45,
-      53.9
+      53.9,
+      74.3
     ],
     "times": [
       6.1,
@@ -29204,7 +29353,8 @@
       7.4,
       8.5,
       8.2,
-      8.1
+      8.1,
+      8.4
     ]
   },
   "Shinyanga, Tanzania": {
@@ -32241,9 +32391,9 @@
     ]
   },
   "Kinshasa, Congo (Kinshasa)": {
-    "mean_dist": 453.2,
+    "mean_dist": 449.5,
     "mean_time": 7.4,
-    "std_dist": 578.1,
+    "std_dist": 574.6,
     "std_time": 0.9,
     "city": "Kinshasa",
     "admin": "Kinshasa",
@@ -32314,7 +32464,8 @@
       -4.951,
       -5.069,
       -4.143,
-      -4.606
+      -4.606,
+      -4.953
     ],
     "lons": [
       "x",
@@ -32382,10 +32533,11 @@
       12.885,
       15.106,
       15.918,
-      15.57
+      15.57,
+      13.598
     ],
-    "mean_lat": -3.455,
-    "mean_lon": 17.318,
+    "mean_lat": -3.485,
+    "mean_lon": 17.243,
     "true_lat": -4.3297,
     "true_lon": 15.315,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kinshasa%2C+Congo (Kinshasa)&go=Go&ns0=1",
@@ -32456,7 +32608,8 @@
       "Quebec",
       "Balearic Islands",
       "Quebec",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands"
     ],
     "countries": [
       "Australia",
@@ -32524,7 +32677,8 @@
       "Canada",
       "Spain",
       "Canada",
-      "Canada"
+      "Canada",
+      "Spain"
     ],
     "dists": [
       50.5,
@@ -32592,7 +32746,8 @@
       278,
       85.4,
       70.1,
-      41.8
+      41.8,
+      202.4
     ],
     "times": [
       8,
@@ -32660,7 +32815,8 @@
       8.5,
       8.2,
       8.4,
-      8.1
+      8.1,
+      8
     ]
   },
   "Mbabane, Swaziland": {
@@ -37215,9 +37371,9 @@
     ]
   },
   "Sapele, Nigeria": {
-    "mean_dist": 466.6,
+    "mean_dist": 461.2,
     "mean_time": 7.5,
-    "std_dist": 462.6,
+    "std_dist": 460.6,
     "std_time": 1,
     "city": "Sapele",
     "admin": "Delta",
@@ -37281,7 +37437,8 @@
       5.604,
       7.566,
       8.831,
-      8.946
+      8.946,
+      7.105
     ],
     "lons": [
       "x",
@@ -37342,10 +37499,11 @@
       6.289,
       8.146,
       6.753,
-      7.566
+      7.566,
+      6.173
     ],
-    "mean_lat": 8.496,
-    "mean_lon": 7.384,
+    "mean_lat": 8.469,
+    "mean_lon": 7.361,
     "true_lat": 5.8904,
     "true_lon": 5.68,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Sapele%2C+Nigeria&go=Go&ns0=1",
@@ -37409,7 +37567,8 @@
       "Quebec",
       "Quebec",
       "Quebec",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands"
     ],
     "countries": [
       "Italy",
@@ -37470,7 +37629,8 @@
       "Canada",
       "Canada",
       "Canada",
-      "Canada"
+      "Canada",
+      "Spain"
     ],
     "dists": [
       1073.8,
@@ -37531,7 +37691,8 @@
       74.5,
       330,
       347.8,
-      398.4
+      398.4,
+      145.7
     ],
     "times": [
       6.4,
@@ -37592,13 +37753,14 @@
       7.6,
       8.4,
       8.5,
-      8.6
+      8.6,
+      8.1
     ]
   },
   "Korhogo, C\u00f4te D\u2019Ivoire": {
-    "mean_dist": 408.9,
+    "mean_dist": 408.5,
     "mean_time": 7.4,
-    "std_dist": 546.9,
+    "std_dist": 544.5,
     "std_time": 1.2,
     "city": "Korhogo",
     "admin": "Savanes",
@@ -37715,7 +37877,8 @@
       5.72,
       5.72,
       6.221,
-      7.791
+      7.791,
+      6.528
     ],
     "lons": [
       "x",
@@ -37829,10 +37992,11 @@
       -5.079,
       -4.197,
       -5.21,
-      -4.903
+      -4.903,
+      -4.151
     ],
-    "mean_lat": 7.581,
-    "mean_lon": -4.758,
+    "mean_lat": 7.569,
+    "mean_lon": -4.751,
     "true_lat": 9.46,
     "true_lon": -5.64,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Korhogo%2C+C\u00f4te D\u2019Ivoire&go=Go&ns0=1",
@@ -37949,7 +38113,8 @@
       "Balearic Islands",
       "Quebec",
       "California",
-      "California"
+      "California",
+      "Balearic Islands"
     ],
     "countries": [
       "Italy",
@@ -38063,7 +38228,8 @@
       "Spain",
       "Canada",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       548.7,
@@ -38177,7 +38343,8 @@
       420.4,
       445.1,
       363.2,
-      202.4
+      202.4,
+      364.8
     ],
     "times": [
       7,
@@ -38291,7 +38458,8 @@
       7.3,
       7.7,
       7.8,
-      7.2
+      7.2,
+      8.4
     ]
   },
   "Pretoria, South Africa": {
@@ -38964,9 +39132,9 @@
     ]
   },
   "Kpalim\u00e9, Togo": {
-    "mean_dist": 383.3,
+    "mean_dist": 379.1,
     "mean_time": 7.5,
-    "std_dist": 712.6,
+    "std_dist": 707,
     "std_time": 0.9,
     "admin": "",
     "country": "Togo",
@@ -39084,7 +39252,9 @@
       8.372,
       7.727,
       8.487,
-      7.336
+      7.336,
+      7.221,
+      8.027
     ],
     "lons": [
       "x",
@@ -39199,10 +39369,12 @@
       1.417,
       0.978,
       0.953,
-      0.953
+      0.953,
+      1.881,
+      1.301
     ],
-    "mean_lat": 8.386,
-    "mean_lon": 1.847,
+    "mean_lat": 8.368,
+    "mean_lon": 1.841,
     "true_lat": 6.9004,
     "true_lon": 0.63,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kpalim\u00e9%2C+Togo&go=Go&ns0=1",
@@ -39320,7 +39492,9 @@
       "Balearic Islands",
       "Washington",
       "Balearic Islands",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands",
+      "Balearic Islands"
     ],
     "countries": [
       "Italy",
@@ -39435,7 +39609,9 @@
       "Spain",
       "United States",
       "Spain",
-      "Canada"
+      "Canada",
+      "Spain",
+      "Spain"
     ],
     "dists": [
       206.1,
@@ -39550,7 +39726,9 @@
       185.2,
       99.6,
       180,
-      60.1
+      60.1,
+      142.6,
+      145.5
     ],
     "times": [
       7.2,
@@ -39665,14 +39843,16 @@
       8.1,
       6.7,
       8.2,
-      8.2
+      8.2,
+      8.3,
+      7.8
     ]
   },
   "Diourbel, Senegal": {
-    "mean_dist": 1531.4,
-    "mean_time": 6.3,
-    "std_dist": 3370.4,
-    "std_time": 2.2,
+    "mean_dist": 1492.4,
+    "mean_time": 6.4,
+    "std_dist": 3327.7,
+    "std_time": 2.1,
     "admin": "Diourbel",
     "country": "Senegal",
     "city": "Diourbel",
@@ -39774,7 +39954,10 @@
       14.826,
       13.842,
       14.631,
-      13.842
+      13.842,
+      14.631,
+      10.899,
+      14.743
     ],
     "lons": [
       "x",
@@ -39874,10 +40057,13 @@
       -14.994,
       -15.541,
       -15.636,
-      -15.172
+      -15.172,
+      -16.448,
+      -12.702,
+      -15.636
     ],
-    "mean_lat": 11.719,
-    "mean_lon": -1.606,
+    "mean_lat": 11.788,
+    "mean_lon": -2.146,
     "true_lat": 14.6604,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Diourbel%2C+Senegal&go=Go&ns0=1",
     "true_lon": -16.24,
@@ -39980,6 +40166,9 @@
       "Washington",
       "Washington",
       "Balearic Islands",
+      "Balearic Islands",
+      "Balearic Islands",
+      "Scotland",
       "Balearic Islands"
     ],
     "countries": [
@@ -40080,6 +40269,9 @@
       "United States",
       "United States",
       "Spain",
+      "Spain",
+      "Spain",
+      "United Kingdom",
       "Spain"
     ],
     "dists": [
@@ -40180,7 +40372,10 @@
       135.1,
       118,
       64.9,
-      146.6
+      146.6,
+      22.6,
+      567.4,
+      65.5
     ],
     "times": [
       6.6,
@@ -40280,7 +40475,10 @@
       4.3,
       6.5,
       8.3,
-      8.4
+      8.4,
+      8.3,
+      6.8,
+      8.5
     ]
   },
   "Port-Gentil, Gabon": {
@@ -45636,9 +45834,9 @@
     ]
   },
   "Gaborone, Botswana": {
-    "mean_dist": 1386.6,
+    "mean_dist": 1377.5,
     "mean_time": 6.3,
-    "std_dist": 2716,
+    "std_dist": 2707.5,
     "std_time": 1.7,
     "city": "Gaborone",
     "admin": "Gaborone",
@@ -45772,7 +45970,8 @@
       -24.192,
       -19.044,
       -22.621,
-      -19.185
+      -19.185,
+      -25.143
     ],
     "lons": [
       "x",
@@ -45903,10 +46102,11 @@
       25.2,
       30.707,
       24.117,
-      28.632
+      28.632,
+      23.923
     ],
-    "mean_lat": -19.08,
-    "mean_lon": 31.558,
+    "mean_lat": -19.136,
+    "mean_lon": 31.487,
     "true_lat": -24.6463,
     "true_lon": 25.9119,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Gaborone%2C+Botswana&go=Go&ns0=1",
@@ -46040,7 +46240,8 @@
       "Quebec",
       "Colorado",
       "California",
-      "California"
+      "California",
+      "Balearic Islands"
     ],
     "countries": [
       "Germany",
@@ -46171,7 +46372,8 @@
       "Canada",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       4937.7,
@@ -46302,7 +46504,8 @@
       87.9,
       795.4,
       289.9,
-      668.8
+      668.8,
+      207.9
     ],
     "times": [
       2.6,
@@ -46433,7 +46636,8 @@
       5.6,
       7.9,
       7.9,
-      1.7
+      1.7,
+      8
     ]
   },
   "Dodoma, Tanzania": {
@@ -49542,9 +49746,9 @@
     ]
   },
   "Port Sudan, Sudan": {
-    "mean_dist": 1278.2,
-    "mean_time": 6.2,
-    "std_dist": 3560.7,
+    "mean_dist": 1257.2,
+    "mean_time": 6.3,
+    "std_dist": 3532.2,
     "std_time": 1.7,
     "city": "Port Sudan",
     "admin": "Red Sea",
@@ -49659,7 +49863,9 @@
       13.35,
       18.425,
       18.739,
-      11.164
+      11.164,
+      20.608,
+      19.036
     ],
     "lons": [
       "x",
@@ -49771,10 +49977,12 @@
       30.536,
       35.532,
       32.157,
-      31.223
+      31.223,
+      37.381,
+      37.803
     ],
-    "mean_lat": 15.709,
-    "mean_lon": 44.356,
+    "mean_lat": 15.797,
+    "mean_lon": 44.21,
     "true_lat": 19.6158,
     "true_lon": 37.2164,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Port Sudan%2C+Sudan&go=Go&ns0=1",
@@ -49889,7 +50097,9 @@
       "Colorado",
       "Colorado",
       "Colorado",
-      "Colorado"
+      "Colorado",
+      "Balearic Islands",
+      "Scotland"
     ],
     "countries": [
       "France",
@@ -50001,7 +50211,9 @@
       "United States",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Spain",
+      "United Kingdom"
     ],
     "dists": [
       92.2,
@@ -50113,7 +50325,9 @@
       995.9,
       221,
       540,
-      1137.9
+      1137.9,
+      111.6,
+      89.1
     ],
     "times": [
       3.4,
@@ -50225,7 +50439,9 @@
       7.1,
       5.3,
       7.6,
-      8.2
+      8.2,
+      8.3,
+      8.1
     ]
   },
   "Umtata, South Africa": {
@@ -54297,9 +54513,9 @@
     ]
   },
   "Harare, Zimbabwe": {
-    "mean_dist": 649.1,
+    "mean_dist": 643.1,
     "mean_time": 6.9,
-    "std_dist": 1078.5,
+    "std_dist": 1071.4,
     "std_time": 1.7,
     "city": "Harare",
     "admin": "Harare",
@@ -54434,7 +54650,9 @@
       -19.211,
       -20.54,
       -20.431,
-      -18.128
+      -18.128,
+      -19.667,
+      -20.431
     ],
     "lons": [
       "x",
@@ -54566,10 +54784,12 @@
       31.317,
       30.652,
       31.116,
-      30.188
+      30.188,
+      30.768,
+      31.232
     ],
-    "mean_lat": -16.638,
-    "mean_lon": 28.836,
+    "mean_lat": -16.703,
+    "mean_lon": 28.877,
     "true_lat": -17.8178,
     "true_lon": 31.0447,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Harare%2C+Zimbabwe&go=Go&ns0=1",
@@ -54704,7 +54924,9 @@
       "Aargau",
       "Balearic Islands",
       "Balearic Islands",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands",
+      "Balearic Islands"
     ],
     "countries": [
       "France",
@@ -54836,7 +55058,9 @@
       "Switzerland",
       "Spain",
       "Spain",
-      "Canada"
+      "Canada",
+      "Spain",
+      "Spain"
     ],
     "dists": [
       262.8,
@@ -54968,7 +55192,9 @@
       157.6,
       305.5,
       290.7,
-      96.9
+      96.9,
+      207.7,
+      291.2
     ],
     "times": [
       6,
@@ -55100,7 +55326,9 @@
       8.4,
       7.2,
       7.6,
-      8.4
+      8.4,
+      7.4,
+      7.7
     ]
   },
   "Kindia, Guinea": {
@@ -62493,9 +62721,9 @@
     ]
   },
   "Sabh\u0101, Libya": {
-    "mean_dist": 554.8,
+    "mean_dist": 553.5,
     "mean_time": 7.1,
-    "std_dist": 509.8,
+    "std_dist": 507.7,
     "std_time": 1.8,
     "admin": "Sabh\u0101",
     "country": "Libya",
@@ -62611,7 +62839,8 @@
       24.534,
       31.244,
       30.413,
-      32.363
+      32.363,
+      29.843
     ],
     "lons": [
       "x",
@@ -62724,10 +62953,11 @@
       21.951,
       20.791,
       22.539,
-      13.864
+      13.864,
+      17.195
     ],
-    "mean_lat": 29.275,
-    "mean_lon": 16.167,
+    "mean_lat": 29.282,
+    "mean_lon": 16.18,
     "true_lat": 27.0333,
     "true_lon": 14.4333,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Sabh\u0101%2C+Libya&go=Go&ns0=1",
@@ -62843,7 +63073,8 @@
       "Georgia",
       "Quebec",
       "Colorado",
-      "Colorado"
+      "Colorado",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -62956,7 +63187,8 @@
       "United States",
       "Canada",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       1316.2,
@@ -63069,7 +63301,8 @@
       802.2,
       774.7,
       874.9,
-      595.2
+      595.2,
+      412.9
     ],
     "times": [
       8.3,
@@ -63182,13 +63415,14 @@
       2.7,
       8.3,
       7.5,
-      8
+      8,
+      8.5
     ]
   },
   "Sa\u00efda, Algeria": {
-    "mean_dist": 970.7,
+    "mean_dist": 963,
     "mean_time": 7.2,
-    "std_dist": 1634.4,
+    "std_dist": 1625.5,
     "std_time": 1.4,
     "admin": "Sa\u00efda",
     "country": "Algeria",
@@ -63272,7 +63506,8 @@
       3.055,
       -2.333,
       7.681,
-      9.84
+      9.84,
+      35.889
     ],
     "lons": [
       "x",
@@ -63353,10 +63588,11 @@
       44.226,
       31.603,
       22.183,
-      46.453
+      46.453,
+      3.853
     ],
-    "mean_lat": 31.01,
-    "mean_lon": 6.752,
+    "mean_lat": 31.096,
+    "mean_lon": 6.701,
     "true_lat": 34.8404,
     "true_lon": 0.14,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Sa\u00efda%2C+Algeria&go=Go&ns0=1",
@@ -63440,7 +63676,8 @@
       "New South Wales",
       "New South Wales",
       "New South Wales",
-      "New South Wales"
+      "New South Wales",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -63521,7 +63758,8 @@
       "Australia",
       "Australia",
       "Australia",
-      "Australia"
+      "Australia",
+      "Spain"
     ],
     "dists": [
       397.1,
@@ -63602,7 +63840,8 @@
       5753.8,
       5276.2,
       3766.3,
-      5447.3
+      5447.3,
+      356.3
     ],
     "times": [
       8.4,
@@ -63683,13 +63922,14 @@
       4,
       4.5,
       3.6,
-      5.6
+      5.6,
+      8.6
     ]
   },
   "Ed Damazin, Sudan": {
-    "mean_dist": 656,
+    "mean_dist": 652.8,
     "mean_time": 6.8,
-    "std_dist": 840,
+    "std_dist": 836.1,
     "std_time": 1.7,
     "admin": "Blue Nile",
     "country": "Sudan",
@@ -63787,7 +64027,8 @@
       14.406,
       13.617,
       14.075,
-      14.803
+      14.803,
+      14.743
     ],
     "lons": [
       "x",
@@ -63882,10 +64123,11 @@
       33.088,
       34.016,
       29.663,
-      32.562
+      32.562,
+      33.088
     ],
-    "mean_lat": 14.379,
-    "mean_lon": 31.244,
+    "mean_lat": 14.385,
+    "mean_lon": 31.274,
     "true_lat": 11.7704,
     "true_lon": 34.35,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ed Damazin%2C+Sudan&go=Go&ns0=1",
@@ -63983,7 +64225,8 @@
       "Balearic Islands",
       "Quebec",
       "California",
-      "California"
+      "California",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -64078,7 +64321,8 @@
       "Spain",
       "Canada",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       291.8,
@@ -64173,7 +64417,8 @@
       323.3,
       208.5,
       568.8,
-      388.7
+      388.7,
+      357.6
     ],
     "times": [
       8.6,
@@ -64268,7 +64513,8 @@
       8.1,
       8.3,
       5.8,
-      8.4
+      8.4,
+      8.3
     ]
   },
   "Malabo, Equatorial Guinea": {
@@ -66063,9 +66309,9 @@
     ]
   },
   "Springs, South Africa": {
-    "mean_dist": 507.2,
+    "mean_dist": 500.5,
     "mean_time": 7.4,
-    "std_dist": 404.7,
+    "std_dist": 405.9,
     "std_time": 1.3,
     "admin": "Gauteng",
     "country": "South Africa",
@@ -66141,7 +66387,8 @@
       -29.821,
       -31.974,
       -29.477,
-      -28.808
+      -28.808,
+      -26.086
     ],
     "lons": [
       "x",
@@ -66214,10 +66461,11 @@
       25.292,
       21.023,
       24.967,
-      25.367
+      25.367,
+      28.448
     ],
-    "mean_lat": -28.639,
-    "mean_lon": 25.867,
+    "mean_lat": -28.592,
+    "mean_lon": 25.914,
     "true_lat": -26.2696,
     "true_lon": 28.43,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Springs%2C+South Africa&go=Go&ns0=1",
@@ -66293,7 +66541,8 @@
       "Aargau",
       "Balearic Islands",
       "Quebec",
-      "England"
+      "England",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -66366,7 +66615,8 @@
       "Switzerland",
       "Spain",
       "Canada",
-      "United Kingdom"
+      "United Kingdom",
+      "Spain"
     ],
     "dists": [
       557.8,
@@ -66439,7 +66689,8 @@
       500.6,
       958.6,
       492.9,
-      413.3
+      413.3,
+      20.4
     ],
     "times": [
       8.4,
@@ -66512,7 +66763,8 @@
       7.7,
       8.2,
       8.4,
-      7.6
+      7.6,
+      8.5
     ]
   },
   "El Geneina, Sudan": {
@@ -68547,9 +68799,9 @@
     ]
   },
   "Al \u2018Ar\u012bsh, Egypt": {
-    "mean_dist": 313,
+    "mean_dist": 313.4,
     "mean_time": 7.6,
-    "std_dist": 333.9,
+    "std_dist": 331.9,
     "std_time": 1.3,
     "admin": "Sham\u0101l S\u012bn\u0101\u2019",
     "country": "Egypt",
@@ -68636,7 +68888,8 @@
       29.742,
       29.742,
       30.044,
-      29.237
+      29.237,
+      29.439
     ],
     "lons": [
       "x",
@@ -68720,10 +68973,11 @@
       32.16,
       32.276,
       31.348,
-      31.232
+      31.232,
+      30.768
     ],
-    "mean_lat": 29.522,
-    "mean_lon": 31.287,
+    "mean_lat": 29.52,
+    "mean_lon": 31.278,
     "true_lat": 31.1249,
     "true_lon": 33.8006,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Al \u2018Ar\u012bsh%2C+Egypt&go=Go&ns0=1",
@@ -68810,7 +69064,8 @@
       "Balearic Islands",
       "Balearic Islands",
       "Quebec",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -68894,7 +69149,8 @@
       "Spain",
       "Spain",
       "Canada",
-      "Canada"
+      "Canada",
+      "Spain"
     ],
     "dists": [
       293.4,
@@ -68978,7 +69234,8 @@
       219.8,
       212,
       263.6,
-      324
+      324,
+      346.2
     ],
     "times": [
       8.7,
@@ -69062,13 +69319,14 @@
       8.4,
       8.3,
       8.6,
+      8.4,
       8.4
     ]
   },
   "Windhoek, Namibia": {
-    "mean_dist": 907.6,
+    "mean_dist": 899.9,
     "mean_time": 6.8,
-    "std_dist": 1411.2,
+    "std_dist": 1407.3,
     "std_time": 1.8,
     "admin": "Khomas",
     "country": "Namibia",
@@ -69185,7 +69443,8 @@
       -22.914,
       -24.404,
       -22.593,
-      -23.235
+      -23.235,
+      -22.27
     ],
     "lons": [
       "x",
@@ -69299,10 +69558,11 @@
       17.427,
       15.918,
       17.543,
-      16.266
+      16.266,
+      17.311
     ],
-    "mean_lat": -19.785,
-    "mean_lon": 16.796,
+    "mean_lat": -19.818,
+    "mean_lon": 16.803,
     "true_lat": -22.57,
     "true_lon": 17.0835,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Windhoek%2C+Namibia&go=Go&ns0=1",
@@ -69419,7 +69679,8 @@
       "Balearic Islands",
       "Quebec",
       "Balearic Islands",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -69533,7 +69794,8 @@
       "Spain",
       "Canada",
       "Spain",
-      "Canada"
+      "Canada",
+      "Spain"
     ],
     "dists": [
       164.3,
@@ -69647,7 +69909,8 @@
       52,
       236,
       47.2,
-      111.6
+      111.6,
+      40.6
     ],
     "times": [
       8.1,
@@ -69761,7 +70024,8 @@
       8.4,
       8,
       8.1,
-      8.4
+      8.4,
+      7.6
     ]
   },
   "Tobruk, Libya": {
@@ -73839,10 +74103,10 @@
     ]
   },
   "Wau, South Sudan": {
-    "mean_dist": 597.3,
+    "mean_dist": 595.1,
     "mean_time": 6.9,
-    "std_dist": 938.3,
-    "std_time": 1.7,
+    "std_dist": 934.4,
+    "std_time": 1.6,
     "admin": "Western Bahr el Ghazal",
     "country": "South Sudan",
     "city": "Wau",
@@ -73958,7 +74222,8 @@
       8.027,
       5.72,
       7.174,
-      5.717
+      5.717,
+      7.336
     ],
     "lons": [
       "x",
@@ -74072,10 +74337,11 @@
       31.348,
       30.304,
       31.142,
-      31.739
+      31.739,
+      31.116
     ],
-    "mean_lat": 7.436,
-    "mean_lon": 29.642,
+    "mean_lat": 7.435,
+    "mean_lon": 29.659,
     "true_lat": 7.7,
     "true_lon": 27.99,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Wau%2C+South Sudan&go=Go&ns0=1",
@@ -74192,7 +74458,8 @@
       "Balearic Islands",
       "Quebec",
       "Washington",
-      "Colorado"
+      "Colorado",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -74306,7 +74573,8 @@
       "Spain",
       "Canada",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       195.7,
@@ -74420,7 +74688,8 @@
       371.7,
       337.3,
       352.4,
-      469
+      469,
+      347
     ],
     "times": [
       8.5,
@@ -74534,7 +74803,8 @@
       8.2,
       8.5,
       7,
-      7.6
+      7.6,
+      8
     ]
   },
   "Shib\u012bn al Kawm, Egypt": {
@@ -75087,9 +75357,9 @@
     ]
   },
   "N\u2019Z\u00e9r\u00e9kor\u00e9, Guinea": {
-    "mean_dist": 975.9,
+    "mean_dist": 973.2,
     "mean_time": 6.6,
-    "std_dist": 1398.6,
+    "std_dist": 1393.3,
     "std_time": 1.7,
     "admin": "N\u2019Z\u00e9r\u00e9kor\u00e9",
     "country": "Guinea",
@@ -75218,7 +75488,8 @@
       10.754,
       4.322,
       14.833,
-      11.454
+      11.454,
+      11.006
     ],
     "lons": [
       "x",
@@ -75344,10 +75615,11 @@
       -13.221,
       48.926,
       -13.873,
-      -15.42
+      -15.42,
+      -13.664
     ],
-    "mean_lat": 8.736,
-    "mean_lon": -5.803,
+    "mean_lat": 8.76,
+    "mean_lon": -5.883,
     "true_lat": 7.76,
     "true_lon": -8.83,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=N\u2019Z\u00e9r\u00e9kor\u00e9%2C+Guinea&go=Go&ns0=1",
@@ -75476,7 +75748,8 @@
       "Washington",
       "England",
       "California",
-      "California"
+      "California",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -75602,7 +75875,8 @@
       "United States",
       "United Kingdom",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       2344.9,
@@ -75728,7 +76002,8 @@
       585.7,
       6393.6,
       959.4,
-      831
+      831,
+      641.4
     ],
     "times": [
       7.8,
@@ -75854,7 +76129,8 @@
       6,
       1.5,
       4.5,
-      3.5
+      3.5,
+      8.2
     ]
   },
   "An Nuh\u016bd, Sudan": {
@@ -79041,9 +79317,9 @@
     ]
   },
   "Lilongwe, Malawi": {
-    "mean_dist": 917.1,
+    "mean_dist": 911.9,
     "mean_time": 6.7,
-    "std_dist": 1521.9,
+    "std_dist": 1517.7,
     "std_time": 1.9,
     "admin": "Lilongwe",
     "country": "Malawi",
@@ -79188,7 +79464,8 @@
       -13.682,
       -14.314,
       -12.641,
-      -12.589
+      -12.589,
+      -15.01
     ],
     "lons": [
       "x",
@@ -79330,10 +79607,11 @@
       34.019,
       34.483,
       34.249,
-      33.801
+      33.801,
+      35.177
     ],
-    "mean_lat": -9.116,
-    "mean_lon": 29.391,
+    "mean_lat": -9.17,
+    "mean_lon": 29.444,
     "true_lat": -13.9833,
     "true_lon": 33.7833,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Lilongwe%2C+Malawi&go=Go&ns0=1",
@@ -79478,7 +79756,8 @@
       "Washington",
       "Washington",
       "Quebec",
-      "Colorado"
+      "Colorado",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -79620,7 +79899,8 @@
       "United States",
       "United States",
       "Canada",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       144.1,
@@ -79762,7 +80042,8 @@
       42,
       83.9,
       157.5,
-      155
+      155,
+      188.5
     ],
     "times": [
       8.3,
@@ -79904,7 +80185,8 @@
       5.5,
       6.4,
       7.9,
-      7.9
+      7.9,
+      8.1
     ]
   },
   "Kismaayo, Somalia": {
@@ -83205,9 +83487,9 @@
     ]
   },
   "\u0162an\u0163\u0101, Egypt": {
-    "mean_dist": 1241.8,
+    "mean_dist": 1230.7,
     "mean_time": 7.1,
-    "std_dist": 3400.4,
+    "std_dist": 3386,
     "std_time": 1.6,
     "admin": "Al Gharb\u012byah",
     "country": "Egypt",
@@ -83316,7 +83598,8 @@
       25.432,
       37.994,
       25.979,
-      29.439
+      29.439,
+      30.145
     ],
     "lons": [
       "x",
@@ -83422,10 +83705,11 @@
       29.65,
       71.151,
       28.758,
-      31.696
+      31.696,
+      30.768
     ],
-    "mean_lat": 26.888,
-    "mean_lon": 41.134,
+    "mean_lat": 26.922,
+    "mean_lon": 41.026,
     "true_lat": 30.7904,
     "true_lon": 31,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=\u0162an\u0163\u0101%2C+Egypt&go=Go&ns0=1",
@@ -83534,6 +83818,7 @@
       "England",
       "England",
       "England",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -83640,6 +83925,7 @@
       "United Kingdom",
       "United Kingdom",
       "United Kingdom",
+      "Spain",
       "Spain"
     ],
     "dists": [
@@ -83746,7 +84032,8 @@
       610.3,
       3740.1,
       578,
-      164.4
+      164.4,
+      75
     ],
     "times": [
       8.7,
@@ -83852,7 +84139,8 @@
       4.3,
       0,
       7.3,
-      8.5
+      8.5,
+      8.4
     ]
   },
   "Kumbo, Cameroon": {
@@ -89394,9 +89682,9 @@
     ]
   },
   "Toliara, Madagascar": {
-    "mean_dist": 1025.8,
+    "mean_dist": 1024.9,
     "mean_time": 7.2,
-    "std_dist": 1667.6,
+    "std_dist": 1659.2,
     "std_time": 1.7,
     "admin": "Toliara",
     "country": "Madagascar",
@@ -89499,7 +89787,8 @@
       -23.021,
       -20.648,
       -19.119,
-      -18.899
+      -18.899,
+      -16.129
     ],
     "lons": [
       "x",
@@ -89599,10 +89888,11 @@
       46.082,
       45.618,
       47.474,
-      47.242
+      47.242,
+      48.286
     ],
-    "mean_lat": -19.953,
-    "mean_lon": 46.58,
+    "mean_lat": -19.892,
+    "mean_lon": 46.607,
     "true_lat": -23.3568,
     "true_lon": 43.69,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Toliara%2C+Madagascar&go=Go&ns0=1",
@@ -89705,7 +89995,8 @@
       "Balearic Islands",
       "Quebec",
       "Quebec",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -89805,7 +90096,8 @@
       "Spain",
       "Canada",
       "Canada",
-      "Canada"
+      "Canada",
+      "Spain"
     ],
     "dists": [
       315.3,
@@ -89905,7 +90197,8 @@
       247.3,
       360.7,
       612.9,
-      617.4
+      617.4,
+      936.3
     ],
     "times": [
       7.6,
@@ -90005,7 +90298,8 @@
       8.2,
       8.6,
       8.4,
-      8.4
+      8.4,
+      8
     ]
   },
   "Enugu, Nigeria": {
@@ -90456,9 +90750,9 @@
     ]
   },
   "Mopti, Mali": {
-    "mean_dist": 785.3,
+    "mean_dist": 780.4,
     "mean_time": 7,
-    "std_dist": 1389.6,
+    "std_dist": 1384.4,
     "std_time": 1.2,
     "admin": "Mopti",
     "country": "Mali",
@@ -90576,7 +90870,8 @@
       14.742,
       13.165,
       12.938,
-      12.938
+      12.938,
+      13.842
     ],
     "lons": [
       "x",
@@ -90691,10 +90986,11 @@
       -3.94,
       -6.587,
       0.605,
-      -7.283
+      -7.283,
+      -6.239
     ],
-    "mean_lat": 12.563,
-    "mean_lon": -0.175,
+    "mean_lat": 12.577,
+    "mean_lon": -0.244,
     "true_lat": 14.49,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Mopti%2C+Mali&go=Go&ns0=1",
     "true_lon": -4.18,
@@ -90812,6 +91108,7 @@
       "Washington",
       "Balearic Islands",
       "Quebec",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -90927,6 +91224,7 @@
       "United States",
       "Spain",
       "Canada",
+      "Spain",
       "Spain"
     ],
     "dists": [
@@ -91042,7 +91340,8 @@
       38.1,
       298.7,
       544.9,
-      377
+      377,
+      233.4
     ],
     "times": [
       6,
@@ -91157,7 +91456,8 @@
       6.4,
       8,
       7.2,
-      8.3
+      8.3,
+      8
     ]
   },
   "Sam\u0101l\u016b\u0163, Egypt": {
@@ -94296,9 +94596,9 @@
     ]
   },
   "Saint-Denis, Reunion": {
-    "mean_dist": 1891.3,
+    "mean_dist": 1876.4,
     "mean_time": 6.5,
-    "std_dist": 3222.3,
+    "std_dist": 3213.5,
     "std_time": 1.9,
     "admin": "",
     "country": "Reunion",
@@ -94426,7 +94726,8 @@
       -7.103,
       2.963,
       28.522,
-      -20.104
+      -20.104,
+      -21.299
     ],
     "lons": [
       "x",
@@ -94551,10 +94852,11 @@
       72.257,
       38.039,
       -16.932,
-      57.683
+      57.683,
+      55.479
     ],
-    "mean_lat": -11.423,
-    "mean_lon": 44.714,
+    "mean_lat": -11.532,
+    "mean_lon": 44.833,
     "true_lat": -20.8789,
     "true_lon": 55.4481,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Saint-Denis%2C+Reunion&go=Go&ns0=1",
@@ -94682,6 +94984,7 @@
       "Washington",
       "England",
       "England",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -94807,6 +95110,7 @@
       "United States",
       "United Kingdom",
       "United Kingdom",
+      "Spain",
       "Spain"
     ],
     "dists": [
@@ -94932,7 +95236,8 @@
       2369.6,
       3259.9,
       9508.1,
-      248.2
+      248.2,
+      46.9
     ],
     "times": [
       3.6,
@@ -95057,13 +95362,14 @@
       4.5,
       2.9,
       5.7,
-      7
+      7,
+      8.2
     ]
   },
   "Az Z\u0101w\u012byah, Libya": {
-    "mean_dist": 475.5,
+    "mean_dist": 478.7,
     "mean_time": 7.3,
-    "std_dist": 621.4,
+    "std_dist": 619.9,
     "std_time": 1,
     "admin": "Az Z\u0101wiyah",
     "country": "Libya",
@@ -95192,7 +95498,8 @@
       29.742,
       30.145,
       31.739,
-      30.245
+      30.245,
+      32.527
     ],
     "lons": [
       "x",
@@ -95318,10 +95625,11 @@
       18.007,
       16.963,
       14.714,
-      19.631
+      19.631,
+      22.067
     ],
-    "mean_lat": 30.798,
-    "mean_lon": 15.162,
+    "mean_lat": 30.817,
+    "mean_lon": 15.24,
     "true_lat": 32.7604,
     "true_lon": 12.72,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Az Z\u0101w\u012byah%2C+Libya&go=Go&ns0=1",
@@ -95450,6 +95758,7 @@
       "Balearic Islands",
       "Quebec",
       "Washington",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -95576,6 +95885,7 @@
       "Spain",
       "Canada",
       "United States",
+      "Spain",
       "Spain"
     ],
     "dists": [
@@ -95702,7 +96012,8 @@
       604.1,
       496.4,
       219.2,
-      712.1
+      712.1,
+      875.3
     ],
     "times": [
       6.6,
@@ -95828,7 +96139,8 @@
       8.4,
       8.3,
       7.5,
-      7.4
+      7.4,
+      8.3
     ]
   },
   "Alexandria, Egypt": {
@@ -97929,9 +98241,9 @@
     ]
   },
   "Dakar, Senegal": {
-    "mean_dist": 583.3,
+    "mean_dist": 578.8,
     "mean_time": 7.1,
-    "std_dist": 1383.8,
+    "std_dist": 1379,
     "std_time": 1.7,
     "admin": "Dakar",
     "country": "Senegal",
@@ -98057,7 +98369,8 @@
       6.898,
       29.54,
       6.251,
-      12.636
+      12.636,
+      14.743
     ],
     "lons": [
       "x",
@@ -98180,10 +98493,11 @@
       -4.777,
       -3.107,
       29.098,
-      -14.677
+      -14.677,
+      -17.144
     ],
-    "mean_lat": 13.714,
-    "mean_lon": -12.217,
+    "mean_lat": 13.725,
+    "mean_lon": -12.269,
     "true_lat": 14.7158,
     "true_lon": -17.4731,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Dakar%2C+Senegal&go=Go&ns0=1",
@@ -98309,7 +98623,8 @@
       "Scotland",
       "England",
       "California",
-      "California"
+      "California",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -98432,7 +98747,8 @@
       "United Kingdom",
       "United Kingdom",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       228.5,
@@ -98555,7 +98871,8 @@
       1635.4,
       2210.6,
       5168.3,
-      380.3
+      380.3,
+      35.4
     ],
     "times": [
       7.6,
@@ -98678,7 +98995,8 @@
       7.3,
       4.5,
       4.3,
-      6.5
+      6.5,
+      8.3
     ]
   },
   "Ondo, Nigeria": {
@@ -99516,9 +99834,9 @@
     ]
   },
   "Vryheid, South Africa": {
-    "mean_dist": 627.9,
+    "mean_dist": 623.6,
     "mean_time": 7.4,
-    "std_dist": 1130.6,
+    "std_dist": 1124.5,
     "std_time": 1.3,
     "admin": "KwaZulu-Natal",
     "country": "South Africa",
@@ -99605,7 +99923,8 @@
       -28.665,
       -27.434,
       -27.331,
-      -25.981
+      -25.981,
+      -26.086
     ],
     "lons": [
       "x",
@@ -99689,10 +100008,11 @@
       25.664,
       29.724,
       29.608,
-      29.492
+      29.492,
+      28.796
     ],
-    "mean_lat": -27.942,
-    "mean_lon": 26.029,
+    "mean_lat": -27.916,
+    "mean_lon": 26.068,
     "true_lat": -27.76,
     "true_lon": 30.79,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Vryheid%2C+South Africa&go=Go&ns0=1",
@@ -99779,6 +100099,7 @@
       "Quebec",
       "Quebec",
       "Quebec",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -99863,6 +100184,7 @@
       "Canada",
       "Canada",
       "Canada",
+      "Spain",
       "Spain"
     ],
     "dists": [
@@ -99947,7 +100269,8 @@
       512.2,
       111,
       125.8,
-      235.9
+      235.9,
+      271.4
     ],
     "times": [
       8.1,
@@ -100031,13 +100354,14 @@
       8.3,
       8.6,
       8.3,
-      8.3
+      8.3,
+      8.2
     ]
   },
   "K\u016bst\u012b, Sudan": {
-    "mean_dist": 445,
+    "mean_dist": 443.2,
     "mean_time": 7,
-    "std_dist": 547,
+    "std_dist": 545.1,
     "std_time": 1.7,
     "admin": "White Nile",
     "country": "Sudan",
@@ -100158,7 +100482,8 @@
       11.921,
       13.955,
       14.743,
-      14.293
+      14.293,
+      15.192
     ],
     "lons": [
       "x",
@@ -100276,10 +100601,11 @@
       32.448,
       32.16,
       32.624,
-      32.972
+      32.972,
+      33.088
     ],
-    "mean_lat": 14.548,
-    "mean_lon": 31.092,
+    "mean_lat": 14.555,
+    "mean_lon": 31.113,
     "true_lat": 13.17,
     "true_lon": 32.66,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=K\u016bst\u012b%2C+Sudan&go=Go&ns0=1",
@@ -100400,6 +100726,7 @@
       "California",
       "Balearic Islands",
       "Balearic Islands",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -100516,6 +100843,7 @@
       "Canada",
       "Canada",
       "United States",
+      "Spain",
       "Spain",
       "Spain",
       "Spain"
@@ -100636,7 +100964,8 @@
       140.6,
       102.6,
       175,
-      129.4
+      129.4,
+      229.6
     ],
     "times": [
       8.3,
@@ -100754,13 +101083,14 @@
       6.8,
       7.8,
       8.4,
-      8.5
+      8.5,
+      8.4
     ]
   },
   "Luxor, Egypt": {
-    "mean_dist": 258.7,
+    "mean_dist": 261.7,
     "mean_time": 7.3,
-    "std_dist": 217.1,
+    "std_dist": 217.7,
     "std_time": 1.2,
     "admin": "Al Uq\u015fur",
     "country": "Egypt",
@@ -100853,7 +101183,8 @@
       31.343,
       26.878,
       26.359,
-      25.837
+      25.837,
+      30.346
     ],
     "lons": [
       "x",
@@ -100943,10 +101274,11 @@
       30.652,
       32.346,
       32.16,
-      32.624
+      32.624,
+      31.812
     ],
-    "mean_lat": 26.804,
-    "mean_lon": 31.68,
+    "mean_lat": 26.855,
+    "mean_lon": 31.682,
     "true_lat": 25.7,
     "true_lon": 32.65,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Luxor%2C+Egypt&go=Go&ns0=1",
@@ -101039,7 +101371,8 @@
       "Quebec",
       "Quebec",
       "Quebec",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands"
     ],
     "countries": [
       "Australia",
@@ -101129,7 +101462,8 @@
       "Canada",
       "Canada",
       "Canada",
-      "Canada"
+      "Canada",
+      "Spain"
     ],
     "dists": [
       504.9,
@@ -101219,7 +101553,8 @@
       657.1,
       134.5,
       88.1,
-      15.5
+      15.5,
+      523.1
     ],
     "times": [
       8.2,
@@ -101309,13 +101644,14 @@
       8.5,
       8.2,
       8.1,
-      8.3
+      8.3,
+      8.4
     ]
   },
   "Banjul, Gambia, The": {
-    "mean_dist": 886.9,
+    "mean_dist": 879.7,
     "mean_time": 6.7,
-    "std_dist": 1457,
+    "std_dist": 1452.5,
     "std_time": 1.8,
     "admin": "Banjul",
     "country": "Gambia, The",
@@ -101431,7 +101767,8 @@
       13.73,
       13.842,
       13.391,
-      13.842
+      13.842,
+      12.825
     ],
     "lons": [
       "x",
@@ -101544,10 +101881,11 @@
       -15.984,
       -16.564,
       -16.448,
-      -15.636
+      -15.636,
+      -16.448
     ],
-    "mean_lat": 10.884,
-    "mean_lon": -9.849,
+    "mean_lat": 10.906,
+    "mean_lon": -9.924,
     "true_lat": 13.4539,
     "true_lon": -16.5917,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Banjul%2C+Gambia, The&go=Go&ns0=1",
@@ -101663,7 +102001,8 @@
       "Balearic Islands",
       "Balearic Islands",
       "Balearic Islands",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands"
     ],
     "countries": [
       "Australia",
@@ -101776,7 +102115,8 @@
       "Spain",
       "Spain",
       "Spain",
-      "Canada"
+      "Canada",
+      "Spain"
     ],
     "dists": [
       95.7,
@@ -101889,7 +102229,8 @@
       72.4,
       43.3,
       16.9,
-      111.9
+      111.9,
+      71.5
     ],
     "times": [
       7.9,
@@ -102002,6 +102343,7 @@
       7.6,
       8.1,
       8.2,
+      8.3,
       8.3
     ]
   },
@@ -103098,9 +103440,9 @@
     ]
   },
   "Blida, Algeria": {
-    "mean_dist": 455.6,
+    "mean_dist": 450.6,
     "mean_time": 7.2,
-    "std_dist": 749.4,
+    "std_dist": 746.2,
     "std_time": 1.7,
     "admin": "Blida",
     "country": "Algeria",
@@ -103187,7 +103529,8 @@
       30.886,
       35.322,
       35.227,
-      36.358
+      36.358,
+      36.171
     ],
     "lons": [
       "x",
@@ -103271,10 +103614,11 @@
       22.601,
       3.018,
       0.721,
-      5.361
+      5.361,
+      2.461
     ],
-    "mean_lat": 34.065,
-    "mean_lon": 5.88,
+    "mean_lat": 34.094,
+    "mean_lon": 5.833,
     "true_lat": 36.4203,
     "true_lon": 2.83,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Blida%2C+Algeria&go=Go&ns0=1",
@@ -103361,7 +103705,8 @@
       "Baden-W\u00fcrttemberg",
       "Baden-W\u00fcrttemberg",
       "Balearic Islands",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands"
     ],
     "countries": [
       "Australia",
@@ -103445,7 +103790,8 @@
       "Germany",
       "Germany",
       "Spain",
-      "Canada"
+      "Canada",
+      "Spain"
     ],
     "dists": [
       154.6,
@@ -103529,7 +103875,8 @@
       1926.4,
       123.2,
       231.7,
-      226.7
+      226.7,
+      43.1
     ],
     "times": [
       7.5,
@@ -103613,7 +103960,8 @@
       6.4,
       7.4,
       8.5,
-      8.4
+      8.4,
+      8.6
     ]
   },
   "Potchefstroom, South Africa": {
@@ -104238,9 +104586,9 @@
     ]
   },
   "Kenitra, Morocco": {
-    "mean_dist": 238.3,
+    "mean_dist": 236.9,
     "mean_time": 7.6,
-    "std_dist": 231.4,
+    "std_dist": 230.7,
     "std_time": 0.8,
     "admin": "Rabat-Sal\u00e9-K\u00e9nitra",
     "country": "Morocco",
@@ -104351,7 +104699,8 @@
       32.722,
       33.24,
       32.675,
-      33.694
+      33.694,
+      33.404
     ],
     "lons": [
       "x",
@@ -104459,10 +104808,11 @@
       -7.399,
       -7.135,
       -8.008,
-      -5.891
+      -5.891,
+      -6.587
     ],
-    "mean_lat": 32.794,
-    "mean_lon": -6.463,
+    "mean_lat": 32.801,
+    "mean_lon": -6.465,
     "true_lat": 34.2704,
     "true_lon": -6.58,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kenitra%2C+Morocco&go=Go&ns0=1",
@@ -104573,7 +104923,8 @@
       "Quebec",
       "Quebec",
       "England",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands"
     ],
     "countries": [
       "Australia",
@@ -104681,7 +105032,8 @@
       "Canada",
       "Canada",
       "United Kingdom",
-      "Canada"
+      "Canada",
+      "Spain"
     ],
     "dists": [
       140.9,
@@ -104789,7 +105141,8 @@
       188.1,
       125.5,
       221.4,
-      90.1
+      90.1,
+      96.2
     ],
     "times": [
       7.8,
@@ -104897,7 +105250,8 @@
       8.7,
       8,
       5.2,
-      8.5
+      8.5,
+      8.2
     ]
   },
   "Iringa, Tanzania": {
@@ -107565,9 +107919,9 @@
     ]
   },
   "Obuase, Ghana": {
-    "mean_dist": 413,
-    "mean_time": 7,
-    "std_dist": 698.5,
+    "mean_dist": 409.9,
+    "mean_time": 7.1,
+    "std_dist": 695.7,
     "std_time": 1.7,
     "admin": "Ashanti",
     "country": "Ghana",
@@ -107672,7 +108026,8 @@
       7.728,
       6.221,
       6.759,
-      6.066
+      6.066,
+      6.759
     ],
     "lons": [
       "x",
@@ -107774,10 +108129,11 @@
       -0.972,
       -0.477,
       -0.786,
+      -0.902,
       -0.902
     ],
-    "mean_lat": 6.097,
-    "mean_lon": -0.425,
+    "mean_lat": 6.106,
+    "mean_lon": -0.431,
     "true_lat": 6.1904,
     "true_lon": -1.66,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Obuase%2C+Ghana&go=Go&ns0=1",
@@ -107882,6 +108238,7 @@
       "California",
       "California",
       "Balearic Islands",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -107983,6 +108340,7 @@
       "Canada",
       "United States",
       "United States",
+      "Spain",
       "Spain",
       "Spain"
     ],
@@ -108086,7 +108444,8 @@
       187,
       130.7,
       115.3,
-      84.8
+      84.8,
+      104.9
     ],
     "times": [
       8,
@@ -108188,7 +108547,8 @@
       8.1,
       8,
       8.2,
-      7.9
+      7.9,
+      8.2
     ]
   },
   "Sarh, Chad": {
@@ -111159,9 +111519,9 @@
     ]
   },
   "Accra, Ghana": {
-    "mean_dist": 1041.3,
+    "mean_dist": 1033.4,
     "mean_time": 6.6,
-    "std_dist": 1618,
+    "std_dist": 1613.8,
     "std_time": 1.9,
     "admin": "Greater Accra",
     "country": "Ghana",
@@ -111289,7 +111649,8 @@
       6.402,
       6.06,
       8.218,
-      8.043
+      8.043,
+      5.604
     ],
     "lons": [
       "x",
@@ -111414,10 +111775,11 @@
       -5.041,
       -6.244,
       0.914,
-      -1.132
+      -1.132,
+      -0.786
     ],
-    "mean_lat": 7.316,
-    "mean_lon": 0.973,
+    "mean_lat": 7.295,
+    "mean_lon": 0.951,
     "true_lat": 5.55,
     "true_lon": -0.2167,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Accra%2C+Ghana&go=Go&ns0=1",
@@ -111545,7 +111907,8 @@
       "Colorado",
       "Colorado",
       "Colorado",
-      "Colorado"
+      "Colorado",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -111670,7 +112033,8 @@
       "United States",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       133.3,
@@ -111795,7 +112159,8 @@
       541.9,
       669.2,
       321.9,
-      295.1
+      295.1,
+      63.3
     ],
     "times": [
       8.4,
@@ -111920,13 +112285,14 @@
       7.8,
       5.6,
       4.8,
-      6.3
+      6.3,
+      8.2
     ]
   },
   "Touggourt, Algeria": {
-    "mean_dist": 367,
+    "mean_dist": 367.2,
     "mean_time": 7.3,
-    "std_dist": 200.8,
+    "std_dist": 198.9,
     "std_time": 1.2,
     "admin": "Ouargla",
     "country": "Algeria",
@@ -111984,7 +112350,8 @@
       34.56,
       36.077,
       28.099,
-      36.183
+      36.183,
+      36.452
     ],
     "lons": [
       "x",
@@ -112039,10 +112406,11 @@
       2.925,
       3.853,
       5.017,
-      6.576
+      6.576,
+      5.245
     ],
-    "mean_lat": 34.553,
-    "mean_lon": 4.919,
+    "mean_lat": 34.598,
+    "mean_lon": 4.926,
     "true_lat": 33.1,
     "true_lon": 6.06,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Touggourt%2C+Algeria&go=Go&ns0=1",
@@ -112100,7 +112468,8 @@
       "Balearic Islands",
       "Quebec",
       "California",
-      "California"
+      "California",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -112155,7 +112524,8 @@
       "Spain",
       "Canada",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       223.4,
@@ -112210,7 +112580,8 @@
       331.9,
       387.7,
       564.9,
-      346.1
+      346.1,
+      380
     ],
     "times": [
       7.9,
@@ -112265,7 +112636,8 @@
       8.4,
       2.8,
       7.7,
-      8.1
+      8.1,
+      8.2
     ]
   },
   "Zuw\u0101rah, Libya": {
@@ -113535,9 +113907,9 @@
     ]
   },
   "Lubango, Angola": {
-    "mean_dist": 817.4,
+    "mean_dist": 811.6,
     "mean_time": 7.1,
-    "std_dist": 1176.3,
+    "std_dist": 1172.3,
     "std_time": 1.5,
     "admin": "Hu\u00edla",
     "country": "Angola",
@@ -113648,7 +114020,8 @@
       -12.641,
       -9.51,
       -22.469,
-      -10.935
+      -10.935,
+      -13.207
     ],
     "lons": [
       "x",
@@ -113756,10 +114129,11 @@
       14.642,
       15.361,
       14.168,
-      14.526
+      14.526,
+      14.062
     ],
-    "mean_lat": -8.913,
-    "mean_lon": 13.875,
+    "mean_lat": -8.962,
+    "mean_lon": 13.877,
     "true_lat": -14.91,
     "true_lon": 13.49,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Lubango%2C+Angola&go=Go&ns0=1",
@@ -113870,7 +114244,8 @@
       "Quebec",
       "California",
       "New York",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands"
     ],
     "countries": [
       "Poland",
@@ -113978,7 +114353,8 @@
       "Canada",
       "United States",
       "United States",
-      "Canada"
+      "Canada",
+      "Spain"
     ],
     "dists": [
       3249.3,
@@ -114086,7 +114462,8 @@
       281.3,
       633.9,
       843.5,
-      456
+      456,
+      199.1
     ],
     "times": [
       8.1,
@@ -114194,7 +114571,8 @@
       8.5,
       6,
       4.8,
-      7.7
+      7.7,
+      8.4
     ]
   },
   "Al Man\u015f\u016brah, Egypt": {
@@ -117117,9 +117495,9 @@
     ]
   },
   "Giyon, Ethiopia": {
-    "mean_dist": 442.9,
+    "mean_dist": 441.3,
     "mean_time": 7.4,
-    "std_dist": 727.9,
+    "std_dist": 724.3,
     "std_time": 1.3,
     "admin": "Orom\u012bya",
     "country": "Ethiopia",
@@ -117221,7 +117599,8 @@
       7.142,
       9.176,
       7.635,
-      8.984
+      8.984,
+      10.206
     ],
     "lons": [
       "x",
@@ -117320,10 +117699,11 @@
       39.017,
       40.397,
       40.513,
-      41.379
+      41.379,
+      40.049
     ],
-    "mean_lat": 8.807,
-    "mean_lon": 38.107,
+    "mean_lat": 8.829,
+    "mean_lon": 38.137,
     "true_lat": 8.5304,
     "true_lon": 37.97,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Giyon%2C+Ethiopia&go=Go&ns0=1",
@@ -117425,7 +117805,8 @@
       "Colorado",
       "Balearic Islands",
       "California",
-      "California"
+      "California",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -117524,7 +117905,8 @@
       "United States",
       "Spain",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       207.1,
@@ -117623,7 +118005,8 @@
       192.7,
       276.2,
       297.1,
-      378.1
+      378.1,
+      294.6
     ],
     "times": [
       6.7,
@@ -117722,7 +118105,8 @@
       6.7,
       8.2,
       6.9,
-      8.3
+      8.3,
+      7.9
     ]
   },
   "Nampula, Mozambique": {
@@ -118782,9 +119166,9 @@
     ]
   },
   "Bhisho, South Africa": {
-    "mean_dist": 508.7,
+    "mean_dist": 583.9,
     "mean_time": 7.2,
-    "std_dist": 227.3,
+    "std_dist": 698.7,
     "std_time": 1.5,
     "city": "Bhisho",
     "admin": "Eastern Cape",
@@ -118870,7 +119254,9 @@
       -27.64,
       -30.082,
       -26.294,
-      -26.294
+      -26.294,
+      -26.814,
+      26.019
     ],
     "lons": [
       "x",
@@ -118953,10 +119339,12 @@
       29.144,
       26.244,
       29.144,
-      28.68
+      28.68,
+      28.68,
+      32.839
     ],
-    "mean_lat": -29.067,
-    "mean_lon": 26.776,
+    "mean_lat": -28.248,
+    "mean_lon": 26.89,
     "true_lat": -32.87,
     "true_lon": 27.39,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bhisho%2C+South Africa&go=Go&ns0=1",
@@ -119042,7 +119430,9 @@
       "Balearic Islands",
       "Quebec",
       "Balearic Islands",
-      "Balearic Islands"
+      "Balearic Islands",
+      "Balearic Islands",
+      "Scotland"
     ],
     "countries": [
       "Switzerland",
@@ -119125,7 +119515,9 @@
       "Spain",
       "Canada",
       "Spain",
-      "Spain"
+      "Spain",
+      "Spain",
+      "United Kingdom"
     ],
     "dists": [
       481.7,
@@ -119208,7 +119600,9 @@
       605.3,
       328.4,
       750.5,
-      741.7
+      741.7,
+      684.7,
+      6573.5
     ],
     "times": [
       7.7,
@@ -119291,13 +119685,15 @@
       8.2,
       8.6,
       8.1,
-      8
+      8,
+      8.3,
+      7.1
     ]
   },
   "Errachidia, Morocco": {
-    "mean_dist": 1094.3,
-    "mean_time": 7.1,
-    "std_dist": 2041.6,
+    "mean_dist": 1065.7,
+    "mean_time": 7.2,
+    "std_dist": 2017,
     "std_time": 1.7,
     "city": "Errachidia",
     "admin": "Dr\u00e2a-Tafilalet",
@@ -119398,7 +119794,10 @@
       33.112,
       33.848,
       31.423,
-      32.813
+      32.813,
+      32.918,
+      33.112,
+      32.918
     ],
     "lons": [
       "x",
@@ -119496,10 +119895,13 @@
       -8.327,
       -6.724,
       -8.304,
-      -7.531
+      -7.531,
+      -5.427,
+      -5.891,
+      -3.803
     ],
-    "mean_lat": 31.526,
-    "mean_lon": -3.508,
+    "mean_lat": 31.597,
+    "mean_lon": -3.584,
     "true_lat": 31.9404,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Errachidia%2C+Morocco&go=Go&ns0=1",
     "true_lon": -4.45,
@@ -119600,7 +120002,10 @@
       "Quebec",
       "Washington",
       "California",
-      "California"
+      "California",
+      "Balearic Islands",
+      "Balearic Islands",
+      "Balearic Islands"
     ],
     "countries": [
       "Switzerland",
@@ -119698,7 +120103,10 @@
       "Canada",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Spain",
+      "Spain",
+      "Spain"
     ],
     "dists": [
       138.2,
@@ -119796,7 +120204,10 @@
       386.1,
       300.2,
       369.2,
-      305.2
+      305.2,
+      142.2,
+      187.7,
+      124.5
     ],
     "times": [
       7.9,
@@ -119894,7 +120305,10 @@
       8.5,
       7.1,
       7.9,
-      7.8
+      7.8,
+      8.4,
+      8.6,
+      8.5
     ]
   },
   "Gibraltar, Gibraltar": {
@@ -121428,9 +121842,9 @@
     ]
   },
   "Biskra, Algeria": {
-    "mean_dist": 316.9,
+    "mean_dist": 313.8,
     "mean_time": 7.8,
-    "std_dist": 290.6,
+    "std_dist": 289.8,
     "std_time": 0.7,
     "admin": "Biskra",
     "country": "Algeria",
@@ -121509,7 +121923,8 @@
       35.107,
       34.56,
       28.644,
-      35.354
+      35.354,
+      34.847
     ],
     "lons": [
       "x",
@@ -121585,10 +122000,11 @@
       4.797,
       0.837,
       4.377,
-      0.264
+      0.264,
+      4.781
     ],
-    "mean_lat": 35.214,
-    "mean_lon": 4.893,
+    "mean_lat": 35.208,
+    "mean_lon": 4.891,
     "true_lat": 34.86,
     "true_lon": 5.73,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Biskra%2C+Algeria&go=Go&ns0=1",
@@ -121667,7 +122083,8 @@
       "Quebec",
       "Balearic Islands",
       "California",
-      "California"
+      "California",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -121743,7 +122160,8 @@
       "Canada",
       "Spain",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       250.9,
@@ -121819,7 +122237,8 @@
       89.3,
       448.4,
       702.8,
-      500
+      500,
+      86.5
     ],
     "times": [
       6.8,
@@ -121895,7 +122314,8 @@
       8.5,
       8.3,
       8,
-      8.1
+      8.1,
+      8.5
     ]
   },
   "Nakuru, Kenya": {
@@ -122736,9 +123156,9 @@
     ]
   },
   "Tukuyu, Tanzania": {
-    "mean_dist": 745,
+    "mean_dist": 742.8,
     "mean_time": 7,
-    "std_dist": 1064.3,
+    "std_dist": 1059.5,
     "std_time": 1.7,
     "admin": "Mbeya",
     "country": "Tanzania",
@@ -122847,7 +123267,8 @@
       -5.648,
       -5.718,
       -4.722,
-      -5.763
+      -5.763,
+      -4.606
     ],
     "lons": [
       "x",
@@ -122953,10 +123374,11 @@
       37.845,
       35.504,
       32.856,
-      37.265
+      37.265,
+      33.9
     ],
-    "mean_lat": -5.838,
-    "mean_lon": 33.67,
+    "mean_lat": -5.823,
+    "mean_lon": 33.673,
     "true_lat": -9.2496,
     "true_lon": 33.64,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tukuyu%2C+Tanzania&go=Go&ns0=1",
@@ -123065,7 +123487,8 @@
       "Quebec",
       "Washington",
       "Balearic Islands",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -123171,7 +123594,8 @@
       "Canada",
       "United States",
       "Spain",
-      "Canada"
+      "Canada",
+      "Spain"
     ],
     "dists": [
       386.2,
@@ -123277,7 +123701,8 @@
       612.6,
       443.1,
       510.7,
-      556.7
+      556.7,
+      517
     ],
     "times": [
       7.6,
@@ -123383,7 +123808,8 @@
       8.4,
       6.6,
       8.3,
-      8.3
+      8.3,
+      8.2
     ]
   },
   "Shashemen\u0113, Ethiopia": {
@@ -126240,9 +126666,9 @@
     ]
   },
   "Parakou, Benin": {
-    "mean_dist": 361,
-    "mean_time": 7.1,
-    "std_dist": 550.1,
+    "mean_dist": 359.3,
+    "mean_time": 7.2,
+    "std_dist": 547.7,
     "std_time": 1.4,
     "admin": "Borgou",
     "country": "Benin",
@@ -126351,7 +126777,8 @@
       7.797,
       5.141,
       8.831,
-      7.267
+      7.267,
+      7.681
     ],
     "lons": [
       "x",
@@ -126457,10 +126884,11 @@
       2.345,
       11.092,
       0.883,
-      0.976
+      0.976,
+      2.461
     ],
-    "mean_lat": 7.973,
-    "mean_lon": 2.771,
+    "mean_lat": 7.969,
+    "mean_lon": 2.767,
     "true_lat": 9.34,
     "true_lon": 2.62,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Parakou%2C+Benin&go=Go&ns0=1",
@@ -126569,7 +126997,8 @@
       "Quebec",
       "South Holland",
       "South Holland",
-      "South Holland"
+      "South Holland",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -126675,7 +127104,8 @@
       "Canada",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Spain"
     ],
     "dists": [
       176.2,
@@ -126781,7 +127211,8 @@
       174.1,
       1044.5,
       198.8,
-      292.9
+      292.9,
+      185.1
     ],
     "times": [
       8.1,
@@ -126887,7 +127318,8 @@
       8.3,
       2.9,
       6.8,
-      5
+      5,
+      7.9
     ]
   },
   "Oyo, Nigeria": {
@@ -131397,9 +131829,9 @@
     ]
   },
   "Djelfa, Algeria": {
-    "mean_dist": 541.8,
+    "mean_dist": 538.3,
     "mean_time": 6.7,
-    "std_dist": 863.2,
+    "std_dist": 860,
     "std_time": 1.8,
     "admin": "Djelfa",
     "country": "Algeria",
@@ -131513,7 +131945,8 @@
       35.838,
       35.253,
       35.796,
-      35.417
+      35.417,
+      35.889
     ],
     "lons": [
       "x",
@@ -131624,10 +132057,11 @@
       6.474,
       6.111,
       7.038,
-      3.157
+      3.157,
+      2.461
     ],
-    "mean_lat": 32.982,
-    "mean_lon": 4.426,
+    "mean_lat": 33.013,
+    "mean_lon": 4.404,
     "true_lat": 34.68,
     "true_lon": 3.25,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Djelfa%2C+Algeria&go=Go&ns0=1",
@@ -131741,6 +132175,7 @@
       "Colorado",
       "Colorado",
       "Colorado",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -131852,6 +132287,7 @@
       "United States",
       "United States",
       "United States",
+      "Spain",
       "Spain"
     ],
     "dists": [
@@ -131963,7 +132399,8 @@
       319.7,
       268.4,
       365.7,
-      82.4
+      82.4,
+      152.3
     ],
     "times": [
       8.2,
@@ -132074,7 +132511,8 @@
       8.3,
       6.7,
       6.2,
-      8.6
+      8.6,
+      8.4
     ]
   },
   "Kipushi, Congo (Kinshasa)": {
@@ -133332,9 +133770,9 @@
     ]
   },
   "Divo, C\u00f4te D\u2019Ivoire": {
-    "mean_dist": 455,
+    "mean_dist": 452,
     "mean_time": 6.8,
-    "std_dist": 846.5,
+    "std_dist": 843.9,
     "std_time": 1.6,
     "admin": "G\u00f4h-Djiboua",
     "country": "C\u00f4te D\u2019Ivoire",
@@ -133471,7 +133909,8 @@
       6.528,
       6.805,
       6.413,
-      5.951
+      5.951,
+      6.413
     ],
     "lons": [
       "x",
@@ -133605,10 +134044,11 @@
       -5.079,
       -0.877,
       -4.499,
-      -5.311
+      -5.311,
+      -5.195
     ],
-    "mean_lat": 5.905,
-    "mean_lon": -3.639,
+    "mean_lat": 5.91,
+    "mean_lon": -3.652,
     "true_lat": 5.839,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Divo%2C+C\u00f4te D\u2019Ivoire&go=Go&ns0=1",
     "true_lon": -5.36,
@@ -133745,7 +134185,8 @@
       "Quebec",
       "Washington",
       "Balearic Islands",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands"
     ],
     "countries": [
       "Australia",
@@ -133879,7 +134320,8 @@
       "Canada",
       "United States",
       "Spain",
-      "Canada"
+      "Canada",
+      "Spain"
     ],
     "dists": [
       127,
@@ -134013,7 +134455,8 @@
       82.7,
       506.9,
       114.6,
-      13.6
+      13.6,
+      66.4
     ],
     "times": [
       7.7,
@@ -134147,7 +134590,8 @@
       8.7,
       6.8,
       8.2,
-      8.4
+      8.4,
+      8.2
     ]
   },
   "Safi, Morocco": {
@@ -135291,9 +135735,9 @@
     ]
   },
   "Wamba, Congo (Kinshasa)": {
-    "mean_dist": 1010.7,
+    "mean_dist": 1014.4,
     "mean_time": 7.1,
-    "std_dist": 747.7,
+    "std_dist": 744.1,
     "std_time": 1.3,
     "admin": "Haut-U\u00e9l\u00e9",
     "country": "Congo (Kinshasa)",
@@ -135383,7 +135827,8 @@
       0.849,
       -2.751,
       -4.513,
-      4.771
+      4.771,
+      -4.143
     ],
     "lons": [
       "x",
@@ -135470,10 +135915,11 @@
       28.796,
       24.086,
       27.705,
-      12.484
+      12.484,
+      17.775
     ],
-    "mean_lat": -1.729,
-    "mean_lon": 22.159,
+    "mean_lat": -1.763,
+    "mean_lon": 22.096,
     "true_lat": 2.1404,
     "true_lon": 27.99,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Wamba%2C+Congo (Kinshasa)&go=Go&ns0=1",
@@ -135563,7 +136009,8 @@
       "Quebec",
       "South Holland",
       "South Holland",
-      "South Holland"
+      "South Holland",
+      "Balearic Islands"
     ],
     "countries": [
       "Australia",
@@ -135650,7 +136097,8 @@
       "Canada",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Spain"
     ],
     "dists": [
       1346.8,
@@ -135737,7 +136185,8 @@
       169.2,
       695.8,
       740.5,
-      1745.4
+      1745.4,
+      1332.8
     ],
     "times": [
       8.1,
@@ -135824,7 +136273,8 @@
       8,
       5.6,
       7.2,
-      5.1
+      5.1,
+      8.2
     ]
   },
   "Gao, Mali": {
@@ -141054,9 +141504,9 @@
     ]
   },
   "Massawa, Eritrea": {
-    "mean_dist": 578.1,
+    "mean_dist": 571.9,
     "mean_time": 7,
-    "std_dist": 1222.9,
+    "std_dist": 1217,
     "std_time": 1.6,
     "admin": "Sem\u0113naw\u012b K\u2019eyih Bahr\u012b",
     "country": "Eritrea",
@@ -141145,7 +141595,8 @@
       15.672,
       14.803,
       15.87,
-      14.623
+      14.623,
+      15.192
     ],
     "lons": [
       "x",
@@ -141231,10 +141682,11 @@
       38.923,
       39.152,
       39.233,
-      39.152
+      39.152,
+      39.701
     ],
-    "mean_lat": 12.917,
-    "mean_lon": 37.733,
+    "mean_lat": 12.949,
+    "mean_lon": 37.761,
     "true_lat": 15.6101,
     "true_lon": 39.45,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Massawa%2C+Eritrea&go=Go&ns0=1",
@@ -141323,7 +141775,8 @@
       "California",
       "California",
       "California",
-      "California"
+      "California",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -141409,7 +141862,8 @@
       "United States",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       285.3,
@@ -141495,7 +141949,8 @@
       56.7,
       95.1,
       37.1,
-      114.2
+      114.2,
+      53.6
     ],
     "times": [
       6.1,
@@ -141581,7 +142036,8 @@
       6.6,
       7.9,
       8,
-      8.2
+      8.2,
+      8.1
     ]
   },
   "Surt, Libya": {
@@ -146618,7 +147074,7 @@
   "Oum el Bouaghi, Algeria": {
     "mean_dist": 482.8,
     "mean_time": 7.3,
-    "std_dist": 633.9,
+    "std_dist": 630,
     "std_time": 1.1,
     "admin": "Oum el Bouaghi",
     "country": "Algeria",
@@ -146704,7 +147160,8 @@
       35.417,
       34.855,
       34.566,
-      35.467
+      35.467,
+      34.751
     ],
     "lons": [
       "x",
@@ -146787,10 +147244,11 @@
       -1.366,
       -0.4,
       5.833,
-      6.635
+      6.635,
+      1.997
     ],
-    "mean_lat": 33.942,
-    "mean_lon": 4.769,
+    "mean_lat": 33.954,
+    "mean_lon": 4.727,
     "true_lat": 35.85,
     "true_lon": 7.15,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Oum el Bouaghi%2C+Algeria&go=Go&ns0=1",
@@ -146876,7 +147334,8 @@
       "Quebec",
       "Colorado",
       "Colorado",
-      "Colorado"
+      "Colorado",
+      "Balearic Islands"
     ],
     "countries": [
       "Australia",
@@ -146959,7 +147418,8 @@
       "Canada",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       196.8,
@@ -147042,7 +147502,8 @@
       770.9,
       693.4,
       186.1,
-      63
+      63,
+      483.2
     ],
     "times": [
       8.2,
@@ -147125,13 +147586,14 @@
       7.7,
       6.9,
       6.4,
-      6.5
+      6.5,
+      8.3
     ]
   },
   "Al Marj, Libya": {
-    "mean_dist": 666,
+    "mean_dist": 664.9,
     "mean_time": 7.2,
-    "std_dist": 770.2,
+    "std_dist": 765.8,
     "std_time": 1.6,
     "admin": "Al Marj",
     "country": "Libya",
@@ -147223,7 +147685,8 @@
       30.746,
       30.245,
       30.044,
-      31.122
+      31.122,
+      30.546
     ],
     "lons": [
       "x",
@@ -147312,10 +147775,11 @@
       18.123,
       18.123,
       19.399,
-      15.785
+      15.785,
+      15.222
     ],
-    "mean_lat": 30.18,
-    "mean_lon": 16.482,
+    "mean_lat": 30.185,
+    "mean_lon": 16.463,
     "true_lat": 32.5005,
     "true_lon": 20.83,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Al Marj%2C+Libya&go=Go&ns0=1",
@@ -147407,7 +147871,8 @@
       "Quebec",
       "Quebec",
       "Quebec",
-      "Aargau"
+      "Aargau",
+      "Balearic Islands"
     ],
     "countries": [
       "Australia",
@@ -147496,7 +147961,8 @@
       "Canada",
       "Canada",
       "Canada",
-      "Switzerland"
+      "Switzerland",
+      "Spain"
     ],
     "dists": [
       195.4,
@@ -147585,7 +148051,8 @@
       322,
       358.9,
       305,
-      500.6
+      500.6,
+      574
     ],
     "times": [
       7.5,
@@ -147674,7 +148141,8 @@
       8.5,
       8.3,
       8.3,
-      8
+      8,
+      8.3
     ]
   },
   "Jinja, Uganda": {
@@ -148497,9 +148965,9 @@
     ]
   },
   "Ikare, Nigeria": {
-    "mean_dist": 437,
+    "mean_dist": 435.7,
     "mean_time": 7.3,
-    "std_dist": 915.1,
+    "std_dist": 908.5,
     "std_time": 1.6,
     "admin": "Ondo",
     "country": "Nigeria",
@@ -148572,7 +149040,8 @@
       8.602,
       6.829,
       7.843,
-      6.915
+      6.915,
+      9.863
     ],
     "lons": [
       "x",
@@ -148642,10 +149111,11 @@
       7.45,
       6.637,
       4.688,
-      6.645
+      6.645,
+      7.798
     ],
-    "mean_lat": 6.438,
-    "mean_lon": 8.562,
+    "mean_lat": 6.505,
+    "mean_lon": 8.547,
     "true_lat": 7.5304,
     "true_lon": 5.76,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ikare%2C+Nigeria&go=Go&ns0=1",
@@ -148718,7 +149188,8 @@
       "Quebec",
       "Baden-W\u00fcrttemberg",
       "Baden-W\u00fcrttemberg",
-      "Colorado"
+      "Colorado",
+      "Balearic Islands"
     ],
     "countries": [
       "Australia",
@@ -148788,7 +149259,8 @@
       "Canada",
       "Germany",
       "Germany",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       84.3,
@@ -148858,7 +149330,8 @@
       220.9,
       124.3,
       123,
-      119.2
+      119.2,
+      342.7
     ],
     "times": [
       8.5,
@@ -148928,7 +149401,8 @@
       8.5,
       8,
       8.5,
-      8.2
+      8.2,
+      8.5
     ]
   },
   "Banh\u0101, Egypt": {
@@ -150144,9 +150618,9 @@
     ]
   },
   "Victoria, Seychelles": {
-    "mean_dist": 1648.7,
+    "mean_dist": 1634.2,
     "mean_time": 6.5,
-    "std_dist": 2536.6,
+    "std_dist": 2529.9,
     "std_time": 1.6,
     "admin": "",
     "country": "Seychelles",
@@ -150263,7 +150737,8 @@
       -4.374,
       -5.624,
       -28.885,
-      -11.444
+      -11.444,
+      -4.49
     ],
     "lons": [
       "x",
@@ -150377,10 +150852,11 @@
       55.827,
       49.957,
       28.508,
-      44.906
+      44.906,
+      55.363
     ],
-    "mean_lat": -2.412,
-    "mean_lon": 42.569,
+    "mean_lat": -2.437,
+    "mean_lon": 42.72,
     "true_lat": -4.6166,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Victoria%2C+Seychelles&go=Go&ns0=1",
     "true_lon": 55.45,
@@ -150497,7 +150973,8 @@
       "Quebec",
       "Colorado",
       "California",
-      "California"
+      "California",
+      "Balearic Islands"
     ],
     "countries": [
       "Australia",
@@ -150611,7 +151088,8 @@
       "Canada",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       1846.1,
@@ -150725,7 +151203,8 @@
       49.7,
       618.5,
       3916.6,
-      1386.4
+      1386.4,
+      16.9
     ],
     "times": [
       7.1,
@@ -150839,7 +151318,8 @@
       8.1,
       5.9,
       7.9,
-      7.8
+      7.8,
+      8
     ]
   },
   "Ed Damer, Sudan": {
@@ -151374,10 +151854,10 @@
     ]
   },
   "M\u2019Sila, Algeria": {
-    "mean_dist": 469.4,
+    "mean_dist": 457.7,
     "mean_time": 7.1,
-    "std_dist": 673.9,
-    "std_time": 1.5,
+    "std_dist": 667.3,
+    "std_time": 1.4,
     "city": "M\u2019Sila",
     "admin": "M\u2019sila",
     "country": "Algeria",
@@ -151447,7 +151927,9 @@
       36.058,
       10.239,
       8.652,
-      29.226
+      29.226,
+      35.227,
+      35.651
     ],
     "lons": [
       "x",
@@ -151515,10 +151997,12 @@
       1.813,
       23.403,
       0.201,
-      31.257
+      31.257,
+      5.129,
+      3.808
     ],
-    "mean_lat": 33.052,
-    "mean_lon": 5.146,
+    "mean_lat": 33.142,
+    "mean_lon": 5.121,
     "true_lat": 35.7,
     "true_lon": 4.545,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=M\u2019Sila%2C+Algeria&go=Go&ns0=1",
@@ -151589,7 +152073,9 @@
       "Washington",
       "England",
       "England",
-      "England"
+      "England",
+      "Balearic Islands",
+      "Scotland"
     ],
     "countries": [
       "Sweden",
@@ -151657,6 +152143,8 @@
       "United States",
       "United Kingdom",
       "United Kingdom",
+      "United Kingdom",
+      "Spain",
       "United Kingdom"
     ],
     "dists": [
@@ -151725,7 +152213,9 @@
       249.2,
       3412.1,
       3039.7,
-      2598.1
+      2598.1,
+      74.5,
+      66.7
     ],
     "times": [
       8.3,
@@ -151793,13 +152283,15 @@
       7.4,
       2.5,
       4.7,
-      6.3
+      6.3,
+      8.5,
+      8.2
     ]
   },
   "Inhambane, Mozambique": {
-    "mean_dist": 1168.6,
+    "mean_dist": 1167.1,
     "mean_time": 6.8,
-    "std_dist": 1378.3,
+    "std_dist": 1372.4,
     "std_time": 1.5,
     "city": "Inhambane",
     "admin": "Inhambane",
@@ -151918,7 +152410,8 @@
       -15.66,
       -15.6,
       -16.464,
-      -19.338
+      -19.338,
+      -15.57
     ],
     "lons": [
       "x",
@@ -152034,10 +152527,11 @@
       36.801,
       38.131,
       48.634,
-      35.525
+      35.525,
+      39.005
     ],
-    "mean_lat": -14.697,
-    "mean_lon": 31.837,
+    "mean_lat": -14.706,
+    "mean_lon": 31.916,
     "true_lat": -23.858,
     "true_lon": 35.3398,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Inhambane%2C+Mozambique&go=Go&ns0=1",
@@ -152156,6 +152650,7 @@
       "California",
       "California",
       "Balearic Islands",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -152271,6 +152766,7 @@
       "Canada",
       "United States",
       "United States",
+      "Spain",
       "Spain",
       "Spain"
     ],
@@ -152388,7 +152884,8 @@
       924.2,
       963.4,
       1611.5,
-      502.8
+      502.8,
+      998
     ],
     "times": [
       8.1,
@@ -152504,7 +153001,8 @@
       7.7,
       7.7,
       8.2,
-      6.7
+      6.7,
+      7.4
     ]
   },
   "Bissau, Guinea-Bissau": {
@@ -153339,9 +153837,9 @@
     ]
   },
   "Taza, Morocco": {
-    "mean_dist": 284.4,
+    "mean_dist": 283.5,
     "mean_time": 7.5,
-    "std_dist": 243.4,
+    "std_dist": 242.3,
     "std_time": 1.2,
     "city": "Taza",
     "admin": "F\u00e8s-Mekn\u00e8s",
@@ -153442,7 +153940,8 @@
       34.233,
       34.464,
       33.112,
-      33.984
+      33.984,
+      33.694
     ],
     "lons": [
       "x",
@@ -153540,10 +154039,11 @@
       -5.942,
       -4.035,
       -7.399,
-      -6.355
+      -6.355,
+      -6.007
     ],
-    "mean_lat": 33.123,
-    "mean_lon": -5.875,
+    "mean_lat": 33.13,
+    "mean_lon": -5.876,
     "true_lat": 34.2204,
     "true_lon": -4.02,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Taza%2C+Morocco&go=Go&ns0=1",
@@ -153644,7 +154144,8 @@
       "Quebec",
       "Balearic Islands",
       "New South Wales",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands"
     ],
     "countries": [
       "United Kingdom",
@@ -153742,7 +154243,8 @@
       "Canada",
       "Spain",
       "Australia",
-      "Canada"
+      "Canada",
+      "Spain"
     ],
     "dists": [
       248.6,
@@ -153840,7 +154342,8 @@
       176.7,
       27.2,
       336.1,
-      216.6
+      216.6,
+      192.3
     ],
     "times": [
       4.9,
@@ -153938,14 +154441,15 @@
       8,
       8.2,
       4.2,
+      8.6,
       8.6
     ]
   },
   "Antsirabe, Madagascar": {
-    "mean_dist": 340.3,
+    "mean_dist": 338.6,
     "mean_time": 7.5,
-    "std_dist": 694.8,
-    "std_time": 1.2,
+    "std_dist": 689.2,
+    "std_time": 1.1,
     "city": "Antsirabe",
     "admin": "Antananarivo",
     "country": "Madagascar",
@@ -154069,7 +154573,9 @@
       -17.885,
       -15.122,
       -18.396,
-      -19.536
+      -19.536,
+      -21.732,
+      -22.163
     ],
     "lons": [
       "x",
@@ -154191,10 +154697,12 @@
       45.14,
       48.495,
       46.681,
-      45.48
+      45.48,
+      46.43,
+      47.01
     ],
-    "mean_lat": -19.09,
-    "mean_lon": 48.394,
+    "mean_lat": -19.147,
+    "mean_lon": 48.361,
     "true_lat": -19.85,
     "true_lon": 47.0333,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Antsirabe%2C+Madagascar&go=Go&ns0=1",
@@ -154319,7 +154827,9 @@
       "Bavaria",
       "Bavaria",
       "North Rhine-Westphalia",
-      "Bavaria"
+      "Bavaria",
+      "Balearic Islands",
+      "Balearic Islands"
     ],
     "countries": [
       "United Kingdom",
@@ -154441,7 +154951,9 @@
       "Germany",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "Spain",
+      "Spain"
     ],
     "dists": [
       525.9,
@@ -154563,7 +155075,9 @@
       295.6,
       548,
       165.7,
-      166.2
+      166.2,
+      218.4,
+      257.2
     ],
     "times": [
       6.4,
@@ -154685,13 +155199,15 @@
       7.6,
       6.8,
       7.4,
-      7.4
+      7.4,
+      8.1,
+      8.2
     ]
   },
   "N\u00e9ma, Mauritania": {
-    "mean_dist": 1291.1,
+    "mean_dist": 1283.3,
     "mean_time": 6.8,
-    "std_dist": 1783.9,
+    "std_dist": 1779.7,
     "std_time": 1.8,
     "city": "N\u00e9ma",
     "admin": "Hodh ech Chargui",
@@ -154833,7 +155349,8 @@
       -12.231,
       18.013,
       17.57,
-      -13.64
+      -13.64,
+      17.201
     ],
     "lons": [
       "x",
@@ -154972,10 +155489,11 @@
       18.629,
       -13.285,
       -14.77,
-      19.227
+      19.227,
+      -9.255
     ],
-    "mean_lat": 13.727,
-    "mean_lon": -4.941,
+    "mean_lat": 13.769,
+    "mean_lon": -4.993,
     "true_lat": 16.6171,
     "true_lon": -7.25,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=N\u00e9ma%2C+Mauritania&go=Go&ns0=1",
@@ -155117,7 +155635,8 @@
       "California",
       "California",
       "California",
-      "California"
+      "California",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -155256,7 +155775,8 @@
       "United States",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       910.6,
@@ -155395,7 +155915,8 @@
       4287.3,
       659.1,
       806.2,
-      4447.2
+      4447.2,
+      223
     ],
     "times": [
       7.2,
@@ -155534,7 +156055,8 @@
       7,
       6.9,
       7.1,
-      7.6
+      7.6,
+      7.4
     ]
   },
   "Gitega, Burundi": {
@@ -158937,9 +159459,9 @@
     ]
   },
   "Tororo, Uganda": {
-    "mean_dist": 522.6,
-    "mean_time": 6.7,
-    "std_dist": 718.2,
+    "mean_dist": 520,
+    "mean_time": 6.8,
+    "std_dist": 715.4,
     "std_time": 2,
     "city": "Tororo",
     "admin": "Tororo",
@@ -159050,7 +159572,8 @@
       0.733,
       0.733,
       2.34,
-      -14.253
+      -14.253,
+      1.43
     ],
     "lons": [
       "x",
@@ -159158,10 +159681,11 @@
       33.552,
       32.16,
       31.602,
-      34.697
+      34.697,
+      32.16
     ],
-    "mean_lat": 1.727,
-    "mean_lon": 31.355,
+    "mean_lat": 1.724,
+    "mean_lon": 31.364,
     "true_lat": 0.7104,
     "true_lon": 34.17,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tororo%2C+Uganda&go=Go&ns0=1",
@@ -159272,7 +159796,8 @@
       "Balearic Islands",
       "Quebec",
       "California",
-      "California"
+      "California",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -159380,7 +159905,8 @@
       "Spain",
       "Canada",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       166,
@@ -159488,7 +160014,8 @@
       68.6,
       223.4,
       338.1,
-      1664.9
+      1664.9,
+      237.2
     ],
     "times": [
       8.6,
@@ -159596,7 +160123,8 @@
       8.2,
       8.1,
       8,
-      6.3
+      6.3,
+      8
     ]
   },
   "Bahir Dar, Ethiopia": {
@@ -163218,9 +163746,9 @@
     ]
   },
   "Nouakchott, Mauritania": {
-    "mean_dist": 1582,
+    "mean_dist": 1560.9,
     "mean_time": 6.8,
-    "std_dist": 2717.6,
+    "std_dist": 2703.6,
     "std_time": 1.8,
     "city": "Nouakchott",
     "admin": "",
@@ -163362,7 +163890,9 @@
       18.417,
       19.45,
       19.649,
-      12.333
+      12.333,
+      18.748,
+      19.187
     ],
     "lons": [
       "x",
@@ -163501,10 +164031,12 @@
       -15.404,
       -12.759,
       -10.201,
-      -7.809
+      -7.809,
+      -15.52,
+      -15.404
     ],
-    "mean_lat": 12.484,
-    "mean_lon": -3.08,
+    "mean_lat": 12.611,
+    "mean_lon": -3.323,
     "true_lat": 18.0864,
     "true_lon": -15.9753,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Nouakchott%2C+Mauritania&go=Go&ns0=1",
@@ -163646,7 +164178,9 @@
       "Balearic Islands",
       "Washington",
       "Colorado",
-      "Colorado"
+      "Colorado",
+      "Balearic Islands",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -163785,7 +164319,9 @@
       "Spain",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Spain",
+      "Spain"
     ],
     "dists": [
       5393.7,
@@ -163924,7 +164460,9 @@
       70.6,
       371,
       631.8,
-      1084.4
+      1084.4,
+      87.8,
+      136.4
     ],
     "times": [
       6.3,
@@ -164063,7 +164601,9 @@
       7.3,
       3.1,
       5.4,
-      5.8
+      5.8,
+      8.1,
+      7.7
     ]
   },
   "Gab\u00e8s, Tunisia": {
@@ -165708,9 +166248,9 @@
     ]
   },
   "Nazr\u0113t, Ethiopia": {
-    "mean_dist": 349.6,
+    "mean_dist": 347.1,
     "mean_time": 7.5,
-    "std_dist": 568,
+    "std_dist": 565.9,
     "std_time": 1.1,
     "city": "Nazr\u0113t",
     "admin": "Orom\u012bya",
@@ -165821,7 +166361,8 @@
       11.059,
       8.743,
       8.45,
-      9.634
+      9.634,
+      9.29
     ],
     "lons": [
       "x",
@@ -165929,10 +166470,11 @@
       39.523,
       38.513,
       41.707,
-      39.237
+      39.237,
+      39.353
     ],
-    "mean_lat": 8.837,
-    "mean_lon": 38.739,
+    "mean_lat": 8.843,
+    "mean_lon": 38.747,
     "true_lat": 8.55,
     "true_lon": 39.27,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Nazr\u0113t%2C+Ethiopia&go=Go&ns0=1",
@@ -166043,6 +166585,7 @@
       "Colorado",
       "Colorado",
       "Colorado",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -166151,6 +166694,7 @@
       "United States",
       "United States",
       "United States",
+      "Spain",
       "Spain"
     ],
     "dists": [
@@ -166259,7 +166803,8 @@
       280.4,
       85.9,
       268.3,
-      120.6
+      120.6,
+      82.8
     ],
     "times": [
       7.9,
@@ -166367,7 +166912,8 @@
       7.2,
       7.7,
       8.3,
-      8.2
+      8.2,
+      8.4
     ]
   },
   "Skikda, Algeria": {
@@ -169545,9 +170091,9 @@
     ]
   },
   "Monrovia, Liberia": {
-    "mean_dist": 726,
+    "mean_dist": 714.3,
     "mean_time": 6.8,
-    "std_dist": 1395.4,
+    "std_dist": 1384.4,
     "std_time": 1.7,
     "city": "Monrovia",
     "admin": "Montserrado",
@@ -169653,7 +170199,9 @@
       6.57,
       7.105,
       5.835,
-      8.142
+      8.142,
+      6.759,
+      5.982
     ],
     "lons": [
       "x",
@@ -169756,10 +170304,12 @@
       -9.272,
       -9.603,
       -8.675,
-      -12.736
+      -12.736,
+      -9.371,
+      -10.22
     ],
-    "mean_lat": 7.517,
-    "mean_lon": -7.585,
+    "mean_lat": 7.491,
+    "mean_lon": -7.634,
     "true_lat": 6.3106,
     "true_lon": -10.8048,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Monrovia%2C+Liberia&go=Go&ns0=1",
@@ -169865,7 +170415,9 @@
       "Colorado",
       "Balearic Islands",
       "Balearic Islands",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands",
+      "Scotland"
     ],
     "countries": [
       "United States",
@@ -169968,7 +170520,9 @@
       "United States",
       "Spain",
       "Spain",
-      "Canada"
+      "Canada",
+      "Spain",
+      "United Kingdom"
     ],
     "dists": [
       240.7,
@@ -170071,7 +170625,9 @@
       171.7,
       159.3,
       241.2,
-      294.7
+      294.7,
+      165.9,
+      74.1
     ],
     "times": [
       5.6,
@@ -170174,7 +170730,9 @@
       7.6,
       8.2,
       8.6,
-      8.2
+      8.2,
+      8.4,
+      8.1
     ]
   },
   "Asw\u0101n, Egypt": {
@@ -173190,9 +173748,9 @@
     ]
   },
   "Beira, Mozambique": {
-    "mean_dist": 687.6,
+    "mean_dist": 683.3,
     "mean_time": 7.4,
-    "std_dist": 1257.4,
+    "std_dist": 1252.5,
     "std_time": 1,
     "city": "Beira",
     "admin": "Sofala",
@@ -173307,7 +173865,8 @@
       -19.885,
       -19.229,
       -16.018,
-      -17.245
+      -17.245,
+      -18.238
     ],
     "lons": [
       "x",
@@ -173419,10 +173978,11 @@
       34.713,
       33.088,
       39.237,
-      34.489
+      34.489,
+      35.989
     ],
-    "mean_lat": -16.806,
-    "mean_lon": 32.615,
+    "mean_lat": -16.823,
+    "mean_lon": 32.655,
     "true_lat": -19.82,
     "true_lon": 34.87,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Beira%2C+Mozambique&go=Go&ns0=1",
@@ -173537,7 +174097,8 @@
       "Quebec",
       "Quebec",
       "Balearic Islands",
-      "Colorado"
+      "Colorado",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -173649,7 +174210,8 @@
       "Canada",
       "Canada",
       "Spain",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       369.2,
@@ -173761,7 +174323,8 @@
       17.9,
       197.8,
       626.2,
-      289.1
+      289.1,
+      211.5
     ],
     "times": [
       5.1,
@@ -173873,7 +174436,8 @@
       8.4,
       8.1,
       8,
-      8.2
+      8.2,
+      8.3
     ]
   },
   "Gu\u00e9ck\u00e9dou, Guinea": {
@@ -177276,9 +177840,9 @@
     ]
   },
   "Limbe, Cameroon": {
-    "mean_dist": 689.6,
+    "mean_dist": 687,
     "mean_time": 6.8,
-    "std_dist": 936.9,
+    "std_dist": 931.4,
     "std_time": 1.8,
     "city": "Limbe",
     "admin": "South-West",
@@ -177363,7 +177927,8 @@
       7.451,
       3.983,
       5.141,
-      5.026
+      5.026,
+      6.066
     ],
     "lons": [
       "x",
@@ -177445,10 +178010,11 @@
       12.902,
       11.278,
       11.162,
-      10.002
+      10.002,
+      13.018
     ],
-    "mean_lat": 5.882,
-    "mean_lon": 9.995,
+    "mean_lat": 5.885,
+    "mean_lon": 10.043,
     "true_lat": 4.0304,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Limbe%2C+Cameroon&go=Go&ns0=1",
     "true_lon": 9.19,
@@ -177533,7 +178099,8 @@
       "New South Wales",
       "Quebec",
       "Balearic Islands",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands"
     ],
     "countries": [
       "Sweden",
@@ -177615,7 +178182,8 @@
       "Australia",
       "Canada",
       "Spain",
-      "Canada"
+      "Canada",
+      "Spain"
     ],
     "dists": [
       150.6,
@@ -177697,7 +178265,8 @@
       559.8,
       231.7,
       251.1,
-      142.7
+      142.7,
+      480.7
     ],
     "times": [
       8.4,
@@ -177779,7 +178348,8 @@
       7,
       8.3,
       8.6,
-      8.6
+      8.6,
+      8.5
     ]
   },
   "Malanje, Angola": {
@@ -178434,9 +179004,9 @@
     ]
   },
   "Cape Town, South Africa": {
-    "mean_dist": 180.7,
+    "mean_dist": 179.3,
     "mean_time": 7.5,
-    "std_dist": 232.5,
+    "std_dist": 231.6,
     "std_time": 1,
     "city": "Cape Town",
     "admin": "Western Cape",
@@ -178530,7 +179100,8 @@
       -33.634,
       -33.424,
       -33.731,
-      -33.827
+      -33.827,
+      -33.634
     ],
     "lons": [
       "x",
@@ -178621,10 +179192,11 @@
       18.239,
       18.321,
       18.471,
-      18.703
+      18.703,
+      18.935
     ],
-    "mean_lat": -33.469,
-    "mean_lon": 20.02,
+    "mean_lat": -33.471,
+    "mean_lon": 20.004,
     "true_lat": -33.92,
     "true_lon": 18.435,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Cape Town%2C+South Africa&go=Go&ns0=1",
@@ -178718,7 +179290,8 @@
       "Quebec",
       "Quebec",
       "Balearic Islands",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -178809,7 +179382,8 @@
       "Canada",
       "Canada",
       "Spain",
-      "Canada"
+      "Canada",
+      "Spain"
     ],
     "dists": [
       98.6,
@@ -178900,7 +179474,8 @@
       36.5,
       56,
       21.2,
-      26.8
+      26.8,
+      56
     ],
     "times": [
       7.7,
@@ -178991,7 +179566,8 @@
       8.4,
       8.3,
       8.2,
-      7.7
+      7.7,
+      8.2
     ]
   },
   "Port Said, Egypt": {
@@ -179658,9 +180234,9 @@
     ]
   },
   "East London, South Africa": {
-    "mean_dist": 621.6,
+    "mean_dist": 621.2,
     "mean_time": 6.8,
-    "std_dist": 865.3,
+    "std_dist": 859,
     "std_time": 1.8,
     "city": "East London",
     "admin": "Eastern Cape",
@@ -179733,7 +180309,8 @@
       -29.881,
       -29.679,
       -32.563,
-      -32.857
+      -32.857,
+      -27.64
     ],
     "lons": [
       "x",
@@ -179803,10 +180380,11 @@
       26.012,
       25.083,
       27.52,
-      19.399
+      19.399,
+      27.404
     ],
-    "mean_lat": -30.238,
-    "mean_lon": 24.729,
+    "mean_lat": -30.189,
+    "mean_lon": 24.78,
     "true_lat": -32.97,
     "true_lon": 27.87,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=East London%2C+South Africa&go=Go&ns0=1",
@@ -179879,6 +180457,7 @@
       "Quebec",
       "Quebec",
       "Quebec",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -179949,6 +180528,7 @@
       "Canada",
       "Canada",
       "Canada",
+      "Spain",
       "Spain"
     ],
     "dists": [
@@ -180019,7 +180599,8 @@
       386,
       451.4,
       55.7,
-      790.5
+      790.5,
+      594.2
     ],
     "times": [
       8.3,
@@ -180089,7 +180670,8 @@
       8.5,
       8.3,
       8.2,
-      8.1
+      8.1,
+      7.8
     ]
   },
   "Owerri, Nigeria": {
@@ -181113,9 +181695,9 @@
     ]
   },
   "Abeokuta, Nigeria": {
-    "mean_dist": 472.6,
+    "mean_dist": 467.3,
     "mean_time": 7.6,
-    "std_dist": 645.6,
+    "std_dist": 636.1,
     "std_time": 1.3,
     "city": "Abeokuta",
     "admin": "Ogun",
@@ -181182,7 +181764,9 @@
       6.066,
       7.843,
       7.205,
-      6.231
+      6.231,
+      7.566,
+      6.413
     ],
     "lons": [
       "x",
@@ -181246,10 +181830,12 @@
       5.245,
       5.928,
       6.854,
-      6.474
+      6.474,
+      6.173,
+      5.825
     ],
-    "mean_lat": 7.996,
-    "mean_lon": 6.156,
+    "mean_lat": 7.955,
+    "mean_lon": 6.15,
     "true_lat": 7.1604,
     "true_lon": 3.35,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Abeokuta%2C+Nigeria&go=Go&ns0=1",
@@ -181316,7 +181902,9 @@
       "Quebec",
       "Colorado",
       "Colorado",
-      "Colorado"
+      "Colorado",
+      "Balearic Islands",
+      "Balearic Islands"
     ],
     "countries": [
       "Sweden",
@@ -181380,7 +181968,9 @@
       "Canada",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Spain",
+      "Spain"
     ],
     "dists": [
       383.7,
@@ -181444,7 +182034,9 @@
       242.1,
       294.2,
       386.6,
-      360.1
+      360.1,
+      314.6,
+      285.7
     ],
     "times": [
       8.1,
@@ -181508,7 +182100,9 @@
       8.6,
       7,
       8,
-      8
+      8,
+      7.1,
+      8.5
     ]
   },
   "Zanzibar, Tanzania": {
@@ -184641,9 +185235,9 @@
     ]
   },
   "El Fasher, Sudan": {
-    "mean_dist": 721.2,
-    "mean_time": 7.2,
-    "std_dist": 536.3,
+    "mean_dist": 721.8,
+    "mean_time": 7.3,
+    "std_dist": 533.3,
     "std_time": 1.5,
     "city": "El Fasher",
     "admin": "North Darfur",
@@ -184738,7 +185332,8 @@
       16.176,
       13.842,
       16.533,
-      15.304
+      15.304,
+      13.73
     ],
     "lons": [
       "x",
@@ -184830,10 +185425,11 @@
       32.719,
       32.856,
       34.481,
-      33.32
+      33.32,
+      32.508
     ],
-    "mean_lat": 14.445,
-    "mean_lon": 28.476,
+    "mean_lat": 14.435,
+    "mean_lon": 28.533,
     "true_lat": 13.63,
     "true_lon": 25.35,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=El Fasher%2C+Sudan&go=Go&ns0=1",
@@ -184928,7 +185524,8 @@
       "Washington",
       "Balearic Islands",
       "Quebec",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -185020,7 +185617,8 @@
       "United States",
       "Spain",
       "Canada",
-      "Canada"
+      "Canada",
+      "Spain"
     ],
     "dists": [
       739.5,
@@ -185112,7 +185710,8 @@
       840.9,
       811.1,
       1031.9,
-      878.1
+      878.1,
+      773.4
     ],
     "times": [
       8.4,
@@ -185204,7 +185803,8 @@
       6.8,
       8.3,
       7.3,
-      8.4
+      8.4,
+      8.3
     ]
   },
   "Jawhar, Somalia": {
@@ -185997,9 +186597,9 @@
     ]
   },
   "San-P\u00e9dro, C\u00f4te D\u2019Ivoire": {
-    "mean_dist": 493.4,
+    "mean_dist": 490.4,
     "mean_time": 6.9,
-    "std_dist": 761.3,
+    "std_dist": 757.8,
     "std_time": 1.4,
     "city": "San-P\u00e9dro",
     "admin": "Bas-Sassandra",
@@ -186099,7 +186699,8 @@
       14.235,
       8.467,
       5.141,
-      6.759
+      6.759,
+      5.72
     ],
     "lons": [
       "x",
@@ -186196,10 +186797,11 @@
       -15.425,
       -4.603,
       -6.123,
-      -1.018
+      -1.018,
+      -4.963
     ],
-    "mean_lat": 6.588,
-    "mean_lon": -4.61,
+    "mean_lat": 6.576,
+    "mean_lon": -4.615,
     "true_lat": 4.7704,
     "true_lon": -6.64,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=San-P\u00e9dro%2C+C\u00f4te D\u2019Ivoire&go=Go&ns0=1",
@@ -186299,7 +186901,8 @@
       "Stockholm",
       "England",
       "Balearic Islands",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands"
     ],
     "countries": [
       "Switzerland",
@@ -186396,7 +186999,8 @@
       "Sweden",
       "United Kingdom",
       "Spain",
-      "Canada"
+      "Canada",
+      "Spain"
     ],
     "dists": [
       651.1,
@@ -186493,7 +187097,8 @@
       1426,
       468.5,
       70.5,
-      660
+      660,
+      213.5
     ],
     "times": [
       5.4,
@@ -186590,13 +187195,14 @@
       4.1,
       7,
       8,
-      7.6
+      7.6,
+      7.2
     ]
   },
   "Guelmim, Morocco": {
-    "mean_dist": 724.8,
+    "mean_dist": 724.3,
     "mean_time": 6.9,
-    "std_dist": 1081,
+    "std_dist": 1076.3,
     "std_time": 1.7,
     "city": "Guelmim",
     "admin": "Guelmim-Oued Noun",
@@ -186713,7 +187319,8 @@
       29.984,
       33.307,
       33.888,
-      33.015
+      33.015,
+      33.501
     ],
     "lons": [
       "x",
@@ -186827,10 +187434,11 @@
       33.645,
       -5.543,
       -6.471,
-      -6.123
+      -6.123,
+      -5.311
     ],
-    "mean_lat": 30.194,
-    "mean_lon": -4.37,
+    "mean_lat": 30.23,
+    "mean_lon": -4.381,
     "true_lat": 28.98,
     "true_lon": -10.07,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Guelmim%2C+Morocco&go=Go&ns0=1",
@@ -186947,6 +187555,7 @@
       "New South Wales",
       "Balearic Islands",
       "Quebec",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -187061,6 +187670,7 @@
       "Australia",
       "Spain",
       "Canada",
+      "Spain",
       "Spain"
     ],
     "dists": [
@@ -187175,7 +187785,8 @@
       4206.9,
       645.6,
       643.6,
-      585.4
+      585.4,
+      676.1
     ],
     "times": [
       7.2,
@@ -187288,6 +187899,7 @@
       3.4,
       3.7,
       8.5,
+      8.4,
       8.4,
       8.4
     ]
@@ -194877,9 +195489,9 @@
     ]
   },
   "Calabar, Nigeria": {
-    "mean_dist": 514.4,
+    "mean_dist": 511.2,
     "mean_time": 7.5,
-    "std_dist": 543.9,
+    "std_dist": 538.9,
     "std_time": 1.6,
     "city": "Calabar",
     "admin": "Cross River",
@@ -194933,7 +195545,8 @@
       9.061,
       6.066,
       7.108,
-      17.862
+      17.862,
+      7.681
     ],
     "lons": [
       "x",
@@ -194984,10 +195597,11 @@
       8.958,
       6.289,
       6.521,
-      10.91
+      10.91,
+      6.637
     ],
-    "mean_lat": 7.011,
-    "mean_lon": 7.457,
+    "mean_lat": 7.03,
+    "mean_lon": 7.434,
     "true_lat": 4.9604,
     "true_lon": 8.33,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Calabar%2C+Nigeria&go=Go&ns0=1",
@@ -195041,7 +195655,8 @@
       "Quebec",
       "Quebec",
       "Quebec",
-      "England"
+      "England",
+      "Balearic Islands"
     ],
     "countries": [
       "Switzerland",
@@ -195092,7 +195707,8 @@
       "Canada",
       "Canada",
       "Canada",
-      "United Kingdom"
+      "United Kingdom",
+      "Spain"
     ],
     "dists": [
       536,
@@ -195143,7 +195759,8 @@
       461.2,
       257.1,
       311.5,
-      1461.8
+      1461.8,
+      355.7
     ],
     "times": [
       7.9,
@@ -195194,13 +195811,14 @@
       8.4,
       8.4,
       6.1,
-      1.7
+      1.7,
+      8.8
     ]
   },
   "Nyala, Sudan": {
-    "mean_dist": 930,
+    "mean_dist": 928.4,
     "mean_time": 7,
-    "std_dist": 799.4,
+    "std_dist": 795.3,
     "std_time": 1.7,
     "city": "Nyala",
     "admin": "South Darfur",
@@ -195299,7 +195917,8 @@
       11.029,
       15.879,
       13.617,
-      14.743
+      14.743,
+      13.842
     ],
     "lons": [
       "x",
@@ -195395,10 +196014,11 @@
       31.232,
       32.841,
       32.392,
-      32.508
+      32.508,
+      31.812
     ],
-    "mean_lat": 13.595,
-    "mean_lon": 29.291,
+    "mean_lat": 13.599,
+    "mean_lon": 29.324,
     "true_lat": 12.06,
     "true_lon": 24.89,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Nyala%2C+Sudan&go=Go&ns0=1",
@@ -195497,6 +196117,7 @@
       "California",
       "California",
       "Balearic Islands",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -195592,6 +196213,7 @@
       "Canada",
       "United States",
       "United States",
+      "Spain",
       "Spain",
       "Spain"
     ],
@@ -195689,7 +196311,8 @@
       700.4,
       957.1,
       831.5,
-      876.3
+      876.3,
+      775.8
     ],
     "times": [
       8,
@@ -195785,13 +196408,14 @@
       5.4,
       7.4,
       7.9,
+      8.3,
       8.3
     ]
   },
   "Oujda-Angad, Morocco": {
-    "mean_dist": 503.2,
+    "mean_dist": 498.5,
     "mean_time": 7.1,
-    "std_dist": 465.6,
+    "std_dist": 463.1,
     "std_time": 1.5,
     "city": "Oujda-Angad",
     "admin": "Oriental",
@@ -195906,7 +196530,9 @@
       33.888,
       33.772,
       31.343,
-      33.772
+      33.772,
+      33.404,
+      34.847
     ],
     "lons": [
       "x",
@@ -196018,10 +196644,12 @@
       -4.267,
       -6.077,
       -6.819,
-      -6.077
+      -6.077,
+      -5.427,
+      -3.223
     ],
-    "mean_lat": 32.757,
-    "mean_lon": -5.333,
+    "mean_lat": 32.786,
+    "mean_lon": -5.311,
     "true_lat": 34.69,
     "true_lon": -1.91,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Oujda-Angad%2C+Morocco&go=Go&ns0=1",
@@ -196136,7 +196764,9 @@
       "Quebec",
       "South Holland",
       "South Holland",
-      "South Holland"
+      "South Holland",
+      "Balearic Islands",
+      "Balearic Islands"
     ],
     "countries": [
       "Switzerland",
@@ -196248,7 +196878,9 @@
       "Canada",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Spain",
+      "Spain"
     ],
     "dists": [
       1066.8,
@@ -196360,7 +196992,9 @@
       234.1,
       396.4,
       589.7,
-      396.4
+      396.4,
+      354.1,
+      121.2
     ],
     "times": [
       7.9,
@@ -196472,7 +197106,9 @@
       8.1,
       7.8,
       7.9,
-      5.4
+      5.4,
+      8.3,
+      8.3
     ]
   },
   "Songea, Tanzania": {
@@ -198453,9 +199089,9 @@
     ]
   },
   "Bertoua, Cameroon": {
-    "mean_dist": 739.3,
+    "mean_dist": 736.2,
     "mean_time": 6.7,
-    "std_dist": 866.6,
+    "std_dist": 863.6,
     "std_time": 1.8,
     "city": "Bertoua",
     "admin": "Est",
@@ -198578,7 +199214,8 @@
       3.287,
       4.099,
       4.214,
-      4.215
+      4.215,
+      6.413
     ],
     "lons": [
       "x",
@@ -198698,10 +199335,11 @@
       10.698,
       10.466,
       10.63,
-      10.002
+      10.002,
+      10.814
     ],
-    "mean_lat": 5.546,
-    "mean_lon": 10.168,
+    "mean_lat": 5.555,
+    "mean_lon": 10.175,
     "true_lat": 4.5804,
     "true_lon": 13.68,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bertoua%2C+Cameroon&go=Go&ns0=1",
@@ -198824,6 +199462,7 @@
       "Quebec",
       "Quebec",
       "Washington",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -198944,6 +199583,7 @@
       "Canada",
       "Canada",
       "United States",
+      "Spain",
       "Spain"
     ],
     "dists": [
@@ -199064,7 +199704,8 @@
       360.6,
       360.3,
       340.4,
-      409.7
+      409.7,
+      377
     ],
     "times": [
       7,
@@ -199184,7 +199825,8 @@
       8.5,
       8.2,
       6.6,
-      8.2
+      8.2,
+      8.6
     ]
   },
   "Moshi, Tanzania": {
@@ -205227,9 +205869,9 @@
     ]
   },
   "Benghazi, Libya": {
-    "mean_dist": 410.1,
+    "mean_dist": 409.2,
     "mean_time": 6.9,
-    "std_dist": 685.7,
+    "std_dist": 683.1,
     "std_time": 1.5,
     "city": "Benghazi",
     "admin": "Bangh\u0101z\u012b",
@@ -205359,7 +206001,8 @@
       31.838,
       30.785,
       32.232,
-      32.011
+      32.011,
+      32.035
     ],
     "lons": [
       "x",
@@ -205486,10 +206129,11 @@
       23.343,
       20.376,
       20.327,
-      21.278
+      21.278,
+      23.227
     ],
-    "mean_lat": 30.385,
-    "mean_lon": 18.541,
+    "mean_lat": 30.403,
+    "mean_lon": 18.593,
     "true_lat": 32.1167,
     "true_lon": 20.0667,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Benghazi%2C+Libya&go=Go&ns0=1",
@@ -205619,7 +206263,8 @@
       "Balearic Islands",
       "Washington",
       "Quebec",
-      "Aargau"
+      "Aargau",
+      "Balearic Islands"
     ],
     "countries": [
       "Switzerland",
@@ -205746,7 +206391,8 @@
       "Spain",
       "United States",
       "Canada",
-      "Switzerland"
+      "Switzerland",
+      "Spain"
     ],
     "dists": [
       142,
@@ -205873,7 +206519,8 @@
       310.6,
       150.8,
       27.7,
-      114.7
+      114.7,
+      297.9
     ],
     "times": [
       7.4,
@@ -206000,7 +206647,8 @@
       7.8,
       7.1,
       8.5,
-      8.2
+      8.2,
+      7.9
     ]
   },
   "S\u016bh\u0101j, Egypt": {
@@ -207048,9 +207696,9 @@
     ]
   },
   "Asmara, Eritrea": {
-    "mean_dist": 488.1,
+    "mean_dist": 484.1,
     "mean_time": 7.3,
-    "std_dist": 1010.5,
+    "std_dist": 1005.9,
     "std_time": 1.1,
     "city": "Asmara",
     "admin": "Ma\u2019\u0101kel",
@@ -207149,7 +207797,8 @@
       4.308,
       16.039,
       11.415,
-      11.262
+      11.262,
+      14.968
     ],
     "lons": [
       "x",
@@ -207245,10 +207894,11 @@
       46.453,
       16.054,
       42.139,
-      43.286
+      43.286,
+      39.933
     ],
-    "mean_lat": 14.026,
-    "mean_lon": 37.878,
+    "mean_lat": 14.04,
+    "mean_lon": 37.909,
     "true_lat": 15.3333,
     "true_lon": 38.9333,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Asmara%2C+Eritrea&go=Go&ns0=1",
@@ -207347,7 +207997,8 @@
       "Bavaria",
       "North Rhine-Westphalia",
       "Bavaria",
-      "Colorado"
+      "Colorado",
+      "Balearic Islands"
     ],
     "countries": [
       "Switzerland",
@@ -207443,7 +208094,8 @@
       "Germany",
       "Germany",
       "Germany",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       336.4,
@@ -207539,7 +208191,8 @@
       1476.3,
       2449.3,
       556.7,
-      653.2
+      653.2,
+      114.7
     ],
     "times": [
       8.1,
@@ -207635,13 +208288,14 @@
       7.3,
       7.9,
       6,
-      4.8
+      4.8,
+      8
     ]
   },
   "Bobo-Dioulasso, Burkina Faso": {
-    "mean_dist": 1291.9,
+    "mean_dist": 1284.9,
     "mean_time": 6.3,
-    "std_dist": 1750.6,
+    "std_dist": 1746.5,
     "std_time": 1.7,
     "city": "Bobo-Dioulasso",
     "admin": "Hauts-Bassins",
@@ -207789,7 +208443,8 @@
       12.258,
       6.682,
       14.974,
-      10.218
+      10.218,
+      11.689
     ],
     "lons": [
       "x",
@@ -207934,10 +208589,11 @@
       -2.179,
       29.314,
       -14.39,
-      6.295
+      6.295,
+      -1.715
     ],
-    "mean_lat": 8.444,
-    "mean_lon": 3.364,
+    "mean_lat": 8.473,
+    "mean_lon": 3.317,
     "true_lat": 11.18,
     "true_lon": -4.29,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bobo-Dioulasso%2C+Burkina Faso&go=Go&ns0=1",
@@ -208085,7 +208741,8 @@
       "Quebec",
       "California",
       "California",
-      "Colorado"
+      "Colorado",
+      "Balearic Islands"
     ],
     "countries": [
       "Switzerland",
@@ -208230,7 +208887,8 @@
       "Canada",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       1082.9,
@@ -208375,7 +209033,8 @@
       259.2,
       3722.7,
       1172.2,
-      1161.4
+      1161.4,
+      286.3
     ],
     "times": [
       6.3,
@@ -208520,7 +209179,8 @@
       8.2,
       3.9,
       5.9,
-      7.5
+      7.5,
+      8.1
     ]
   },
   "Marrakech, Morocco": {
@@ -209175,9 +209835,9 @@
     ]
   },
   "Gharda\u00efa, Algeria": {
-    "mean_dist": 422.4,
+    "mean_dist": 421.8,
     "mean_time": 7,
-    "std_dist": 256.2,
+    "std_dist": 254.7,
     "std_time": 1.4,
     "city": "Gharda\u00efa",
     "admin": "Gharda\u00efa",
@@ -209264,7 +209924,8 @@
       36.433,
       36.358,
       33.459,
-      32.545
+      32.545,
+      35.7
     ],
     "lons": [
       "x",
@@ -209348,10 +210009,11 @@
       5.231,
       3.482,
       -5.06,
-      4.087
+      4.087,
+      4.781
     ],
-    "mean_lat": 34.632,
-    "mean_lon": 3.715,
+    "mean_lat": 34.648,
+    "mean_lon": 3.731,
     "true_lat": 32.49,
     "true_lon": 3.67,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Gharda\u00efa%2C+Algeria&go=Go&ns0=1",
@@ -209438,7 +210100,8 @@
       "Bavaria",
       "Bavaria",
       "North Rhine-Westphalia",
-      "Bavaria"
+      "Bavaria",
+      "Balearic Islands"
     ],
     "countries": [
       "Switzerland",
@@ -209522,7 +210185,8 @@
       "Germany",
       "Germany",
       "Germany",
-      "Germany"
+      "Germany",
+      "Spain"
     ],
     "dists": [
       399.1,
@@ -209606,7 +210270,8 @@
       461.2,
       430.5,
       821.2,
-      39.5
+      39.5,
+      371.4
     ],
     "times": [
       7.9,
@@ -209690,7 +210355,8 @@
       7.6,
       7.2,
       5.9,
-      7.2
+      7.2,
+      8.3
     ]
   },
   "Jos, Nigeria": {
@@ -212637,9 +213303,9 @@
     ]
   },
   "Bizerte, Tunisia": {
-    "mean_dist": 438.9,
+    "mean_dist": 437.8,
     "mean_time": 7.4,
-    "std_dist": 897.9,
+    "std_dist": 894.3,
     "std_time": 1.2,
     "city": "Bizerte",
     "admin": "Bizerte",
@@ -212763,7 +213429,8 @@
       34.974,
       34.656,
       35.795,
-      36.732
+      36.732,
+      34.656
     ],
     "lons": [
       "x",
@@ -212884,10 +213551,11 @@
       9.917,
       10.35,
       9.886,
-      10.93
+      10.93,
+      10.35
     ],
-    "mean_lat": 34.401,
-    "mean_lon": 11.1,
+    "mean_lat": 34.403,
+    "mean_lon": 11.092,
     "true_lat": 37.2904,
     "true_lon": 9.855,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bizerte%2C+Tunisia&go=Go&ns0=1",
@@ -213011,6 +213679,7 @@
       "California",
       "Balearic Islands",
       "Quebec",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -213132,6 +213801,7 @@
       "United States",
       "Spain",
       "Canada",
+      "Spain",
       "Spain"
     ],
     "dists": [
@@ -213253,7 +213923,8 @@
       257.6,
       296.2,
       166.2,
-      113.8
+      113.8,
+      296.2
     ],
     "times": [
       8.1,
@@ -213374,13 +214045,14 @@
       7.7,
       8.1,
       8.2,
-      8.3
+      8.3,
+      8.4
     ]
   },
   "Bumba, Congo (Kinshasa)": {
-    "mean_dist": 783.5,
+    "mean_dist": 775.7,
     "mean_time": 6.7,
-    "std_dist": 510.2,
+    "std_dist": 510.6,
     "std_time": 2,
     "city": "Bumba",
     "admin": "Mongala",
@@ -213487,7 +214159,9 @@
       -4.097,
       -7.725,
       -7.103,
-      6.898
+      6.898,
+      -2.751,
+      1.895
     ],
     "lons": [
       "x",
@@ -213591,10 +214265,12 @@
       26.584,
       28.216,
       26.485,
-      20.281
+      20.281,
+      18.355,
+      22.415
     ],
-    "mean_lat": -1.435,
-    "mean_lon": 21.63,
+    "mean_lat": -1.409,
+    "mean_lon": 21.599,
     "true_lat": 2.19,
     "true_lon": 22.46,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bumba%2C+Congo (Kinshasa)&go=Go&ns0=1",
@@ -213701,7 +214377,9 @@
       "New York",
       "Quebec",
       "Bavaria",
-      "Bavaria"
+      "Bavaria",
+      "Balearic Islands",
+      "Balearic Islands"
     ],
     "countries": [
       "Switzerland",
@@ -213805,7 +214483,9 @@
       "United States",
       "Canada",
       "Germany",
-      "Germany"
+      "Germany",
+      "Spain",
+      "Spain"
     ],
     "dists": [
       752.3,
@@ -213909,7 +214589,9 @@
       835.9,
       1274,
       1125.7,
-      576.5
+      576.5,
+      714.2,
+      33.1
     ],
     "times": [
       7.9,
@@ -214013,7 +214695,9 @@
       1.5,
       8,
       6.6,
-      6.2
+      6.2,
+      7.7,
+      8
     ]
   },
   "Bida, Nigeria": {
@@ -214833,9 +215517,9 @@
     ]
   },
   "Lagos, Nigeria": {
-    "mean_dist": 368.9,
+    "mean_dist": 364.5,
     "mean_time": 7.5,
-    "std_dist": 398.3,
+    "std_dist": 397.2,
     "std_time": 1.1,
     "city": "Lagos",
     "admin": "Lagos",
@@ -214910,7 +215594,8 @@
       7.758,
       5.257,
       6.712,
-      5.835
+      5.835,
+      6.182
     ],
     "lons": [
       "x",
@@ -214982,10 +215667,11 @@
       7.04,
       6.173,
       3.736,
-      5.593
+      5.593,
+      3.853
     ],
-    "mean_lat": 7.32,
-    "mean_lon": 5.241,
+    "mean_lat": 7.3,
+    "mean_lon": 5.217,
     "true_lat": 6.4433,
     "true_lon": 3.3915,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Lagos%2C+Nigeria&go=Go&ns0=1",
@@ -215060,6 +215746,7 @@
       "Colorado",
       "Quebec",
       "Quebec",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -215132,6 +215819,7 @@
       "United States",
       "Canada",
       "Canada",
+      "Spain",
       "Spain"
     ],
     "dists": [
@@ -215204,7 +215892,8 @@
       428.3,
       334.8,
       48.5,
-      252.6
+      252.6,
+      58.7
     ],
     "times": [
       6.3,
@@ -215276,7 +215965,8 @@
       7.6,
       8.6,
       8.4,
-      8.5
+      8.5,
+      8.4
     ]
   },
   "Asy\u016b\u0163, Egypt": {
@@ -220068,9 +220758,9 @@
     ]
   },
   "Yaound\u00e9, Cameroon": {
-    "mean_dist": 726.9,
+    "mean_dist": 720,
     "mean_time": 6.5,
-    "std_dist": 972.2,
+    "std_dist": 968.9,
     "std_time": 1.9,
     "city": "Yaound\u00e9",
     "admin": "Centre",
@@ -220164,7 +220854,8 @@
       5.026,
       5.026,
       4.563,
-      4.678
+      4.678,
+      4.794
     ],
     "lons": [
       "x",
@@ -220255,10 +220946,11 @@
       11.742,
       11.394,
       10.814,
+      11.278,
       11.278
     ],
-    "mean_lat": 4.499,
-    "mean_lon": 10.536,
+    "mean_lat": 4.503,
+    "mean_lon": 10.546,
     "true_lat": 3.8667,
     "true_lon": 11.5167,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Yaound\u00e9%2C+Cameroon&go=Go&ns0=1",
@@ -220352,6 +221044,7 @@
       "Balearic Islands",
       "Balearic Islands",
       "Quebec",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -220443,6 +221136,7 @@
       "Spain",
       "Spain",
       "Canada",
+      "Spain",
       "Spain"
     ],
     "dists": [
@@ -220534,7 +221228,8 @@
       131.3,
       129.6,
       109.8,
-      94
+      94,
+      106.5
     ],
     "times": [
       7.7,
@@ -220625,7 +221320,8 @@
       8.3,
       8.5,
       8.4,
-      8.2
+      8.2,
+      8.4
     ]
   },
   "Kasama, Zambia": {
@@ -227169,9 +227865,9 @@
     ]
   },
   "Welkom, South Africa": {
-    "mean_dist": 515.7,
+    "mean_dist": 509.5,
     "mean_time": 7.4,
-    "std_dist": 603.1,
+    "std_dist": 598.4,
     "std_time": 1.4,
     "city": "Welkom",
     "admin": "Free State",
@@ -227224,7 +227920,8 @@
       -29.892,
       -32.347,
       -30.724,
-      -31.467
+      -31.467,
+      -26.606
     ],
     "lons": [
       "x",
@@ -227274,10 +227971,11 @@
       18.639,
       23.225,
       25.292,
-      28.108
+      28.108,
+      28.216
     ],
-    "mean_lat": -29.639,
-    "mean_lon": 23.482,
+    "mean_lat": -29.554,
+    "mean_lon": 23.614,
     "true_lat": -27.97,
     "true_lon": 26.73,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Welkom%2C+South Africa&go=Go&ns0=1",
@@ -227330,7 +228028,8 @@
       "England",
       "England",
       "California",
-      "California"
+      "California",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -227380,7 +228079,8 @@
       "United Kingdom",
       "United Kingdom",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       285.1,
@@ -227430,7 +228130,8 @@
       815.6,
       591.9,
       336.4,
-      410.9
+      410.9,
+      211
     ],
     "times": [
       8,
@@ -227480,7 +228181,8 @@
       5.9,
       8.7,
       6.5,
-      8.2
+      8.2,
+      8.1
     ]
   },
   "Huambo, Angola": {
@@ -228936,9 +229638,9 @@
     ]
   },
   "Lubumbashi, Congo (Kinshasa)": {
-    "mean_dist": 1043.6,
+    "mean_dist": 1033.2,
     "mean_time": 7,
-    "std_dist": 650.9,
+    "std_dist": 655.1,
     "std_time": 1.4,
     "city": "Lubumbashi",
     "admin": "Haut-Katanga",
@@ -229035,7 +229737,8 @@
       -10.135,
       -10.821,
       -1.474,
-      -10.592
+      -10.592,
+      -11.049
     ],
     "lons": [
       "x",
@@ -229129,10 +229832,11 @@
       27.404,
       26.476,
       28.796,
-      26.476
+      26.476,
+      27.52
     ],
-    "mean_lat": -4.605,
-    "mean_lon": 22.294,
+    "mean_lat": -4.688,
+    "mean_lon": 22.362,
     "true_lat": -11.68,
     "true_lon": 27.48,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Lubumbashi%2C+Congo (Kinshasa)&go=Go&ns0=1",
@@ -229229,6 +229933,7 @@
       "Balearic Islands",
       "Balearic Islands",
       "Quebec",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -229323,6 +230028,7 @@
       "Spain",
       "Spain",
       "Canada",
+      "Spain",
       "Spain"
     ],
     "dists": [
@@ -229417,7 +230123,8 @@
       171.9,
       145.2,
       1144,
-      163.1
+      163.1,
+      70.2
     ],
     "times": [
       7.4,
@@ -229511,13 +230218,14 @@
       7.4,
       7.7,
       7.5,
-      8.3
+      8.3,
+      8
     ]
   },
   "Ban\u012b Suwayf, Egypt": {
-    "mean_dist": 163.2,
+    "mean_dist": 163,
     "mean_time": 7.2,
-    "std_dist": 176.5,
+    "std_dist": 175.2,
     "std_time": 1.3,
     "city": "Ban\u012b Suwayf",
     "admin": "Ban\u012b Suwayf",
@@ -229590,7 +230298,8 @@
       27.457,
       28.742,
       28.443,
-      26.878
+      26.878,
+      30.446
     ],
     "lons": [
       "x",
@@ -229660,10 +230369,11 @@
       30.211,
       32.47,
       31.232,
-      31.511
+      31.511,
+      31.232
     ],
-    "mean_lat": 28.619,
-    "mean_lon": 31.112,
+    "mean_lat": 28.651,
+    "mean_lon": 31.114,
     "true_lat": 29.0804,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ban\u012b Suwayf%2C+Egypt&go=Go&ns0=1",
     "true_lon": 31.09,
@@ -229736,7 +230446,8 @@
       "California",
       "California",
       "Ohio",
-      "Ohio"
+      "Ohio",
+      "Balearic Islands"
     ],
     "countries": [
       "United States",
@@ -229806,7 +230517,8 @@
       "United States",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       67.6,
@@ -229876,7 +230588,8 @@
       199.8,
       139.4,
       72.2,
-      248.2
+      248.2,
+      152.5
     ],
     "times": [
       8.5,
@@ -229946,7 +230659,8 @@
       7.1,
       7.9,
       4.5,
-      5.9
+      5.9,
+      8.2
     ]
   },
   "Ziguinchor, Senegal": {
@@ -231543,9 +232257,9 @@
     ]
   },
   "Akure, Nigeria": {
-    "mean_dist": 497.4,
-    "mean_time": 7.1,
-    "std_dist": 697.2,
+    "mean_dist": 491.3,
+    "mean_time": 7.2,
+    "std_dist": 693.2,
     "std_time": 1.7,
     "city": "Akure",
     "admin": "Ondo",
@@ -231611,7 +232325,8 @@
       8.832,
       8.817,
       9.198,
-      8.372
+      8.372,
+      6.298
     ],
     "lons": [
       "x",
@@ -231674,10 +232389,11 @@
       6.525,
       5.858,
       5.526,
-      6.173
+      6.173,
+      5.709
     ],
-    "mean_lat": 9.206,
-    "mean_lon": 8.017,
+    "mean_lat": 9.143,
+    "mean_lon": 7.967,
     "true_lat": 7.2504,
     "true_lon": 5.2,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Akure%2C+Nigeria&go=Go&ns0=1",
@@ -231743,6 +232459,7 @@
       "Lower Saxony",
       "Central Region",
       "Washington",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -231806,6 +232523,7 @@
       "Germany",
       "Uganda",
       "United States",
+      "Spain",
       "Spain"
     ],
     "dists": [
@@ -231869,7 +232587,8 @@
       228.5,
       188.7,
       219.5,
-      164.5
+      164.5,
+      119.9
     ],
     "times": [
       8.3,
@@ -231932,6 +232651,7 @@
       7.5,
       7.2,
       7.6,
+      8.5,
       8.5
     ]
   },
@@ -232401,9 +233121,9 @@
     ]
   },
   "Maradi, Niger": {
-    "mean_dist": 702.7,
+    "mean_dist": 697.5,
     "mean_time": 6.6,
-    "std_dist": 930.1,
+    "std_dist": 927.3,
     "std_time": 1.7,
     "city": "Maradi",
     "admin": "Maradi",
@@ -232514,7 +233234,8 @@
       13.73,
       14.743,
       14.518,
-      14.293
+      14.293,
+      14.631
     ],
     "lons": [
       "x",
@@ -232622,10 +233343,11 @@
       3.389,
       4.433,
       3.273,
-      8.494
+      8.494,
+      6.405
     ],
-    "mean_lat": 12.736,
-    "mean_lon": 9.158,
+    "mean_lat": 12.758,
+    "mean_lon": 9.125,
     "true_lat": 13.4916,
     "true_lon": 7.0964,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Maradi%2C+Niger&go=Go&ns0=1",
@@ -232736,6 +233458,7 @@
       "Quebec",
       "Balearic Islands",
       "Balearic Islands",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -232842,6 +233565,7 @@
       "Canada",
       "United Kingdom",
       "Canada",
+      "Spain",
       "Spain",
       "Spain",
       "Spain"
@@ -232952,7 +233676,8 @@
       401.4,
       319.1,
       427.9,
-      175.2
+      175.2,
+      146.9
     ],
     "times": [
       6.4,
@@ -233060,13 +233785,14 @@
       7.9,
       7.9,
       7.7,
-      8.2
+      8.2,
+      8
     ]
   },
   "Ab\u00e9ch\u00e9, Chad": {
-    "mean_dist": 710.9,
-    "mean_time": 6.9,
-    "std_dist": 804.6,
+    "mean_dist": 710,
+    "mean_time": 7,
+    "std_dist": 801,
     "std_time": 1.6,
     "city": "Ab\u00e9ch\u00e9",
     "admin": "Ouadda\u00ef",
@@ -233180,7 +233906,8 @@
       11.234,
       14.383,
       12.606,
-      14.186
+      14.186,
+      10.435
     ],
     "lons": [
       "x",
@@ -233291,10 +234018,11 @@
       15.918,
       17.832,
       17.249,
-      10.083
+      10.083,
+      16.383
     ],
-    "mean_lat": 11.668,
-    "mean_lon": 16.506,
+    "mean_lat": 11.653,
+    "mean_lon": 16.505,
     "true_lat": 13.84,
     "true_lon": 20.83,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ab\u00e9ch\u00e9%2C+Chad&go=Go&ns0=1",
@@ -233408,7 +234136,8 @@
       "Quebec",
       "Colorado",
       "Colorado",
-      "Colorado"
+      "Colorado",
+      "Balearic Islands"
     ],
     "countries": [
       "Switzerland",
@@ -233519,7 +234248,8 @@
       "Canada",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       553.8,
@@ -233630,7 +234360,8 @@
       606.6,
       328.8,
       411.1,
-      1159.9
+      1159.9,
+      613.9
     ],
     "times": [
       6.4,
@@ -233741,7 +234472,8 @@
       8.2,
       6.3,
       6.1,
-      1.4
+      1.4,
+      8
     ]
   },
   "S\u00e9gou, Mali": {
@@ -235482,9 +236214,9 @@
     ]
   },
   "Khartoum, Sudan": {
-    "mean_dist": 1403,
+    "mean_dist": 1391.2,
     "mean_time": 7.2,
-    "std_dist": 3873.7,
+    "std_dist": 3857.6,
     "std_time": 1.6,
     "city": "Khartoum",
     "admin": "Khartoum",
@@ -235596,7 +236328,8 @@
       14.293,
       15.651,
       17.718,
-      16.345
+      16.345,
+      14.406
     ],
     "lons": [
       "x",
@@ -235705,10 +236438,11 @@
       32.276,
       31.35,
       31.727,
-      31.739
+      31.739,
+      32.508
     ],
-    "mean_lat": 12.56,
-    "mean_lon": 42.946,
+    "mean_lat": 12.583,
+    "mean_lon": 42.815,
     "true_lat": 15.5881,
     "true_lon": 32.5342,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Khartoum%2C+Sudan&go=Go&ns0=1",
@@ -235820,7 +236554,8 @@
       "Quebec",
       "Colorado",
       "Colorado",
-      "Colorado"
+      "Colorado",
+      "Balearic Islands"
     ],
     "countries": [
       "Switzerland",
@@ -235929,7 +236664,8 @@
       "Canada",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       107.4,
@@ -236038,7 +236774,8 @@
       146.5,
       126.9,
       251.9,
-      119.6
+      119.6,
+      131.4
     ],
     "times": [
       7.6,
@@ -236147,7 +236884,8 @@
       8.4,
       7.6,
       7.2,
-      7.8
+      7.8,
+      8.1
     ]
   },
   "Rustenburg, South Africa": {
@@ -237027,9 +237765,9 @@
     ]
   },
   "Uvira, Congo (Kinshasa)": {
-    "mean_dist": 745.5,
+    "mean_dist": 771.2,
     "mean_time": 7.6,
-    "std_dist": 579.3,
+    "std_dist": 611.4,
     "std_time": 1,
     "city": "Uvira",
     "admin": "Sud-Kivu",
@@ -237117,7 +237855,10 @@
       -2.706,
       -10.396,
       -2.256,
-      -4.454
+      -4.454,
+      -4.838,
+      -27.38,
+      -0.544
     ],
     "lons": [
       "x",
@@ -237202,10 +237943,13 @@
       22.629,
       27.442,
       17.62,
-      25.096
+      25.096,
+      16.383,
+      27.335,
+      27.752
     ],
-    "mean_lat": -2.2,
-    "mean_lon": 23.173,
+    "mean_lat": -2.622,
+    "mean_lon": 23.205,
     "true_lat": -3.37,
     "true_lon": 29.14,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Uvira%2C+Congo (Kinshasa)&go=Go&ns0=1",
@@ -237293,7 +238037,10 @@
       "Colorado",
       "Colorado",
       "Colorado",
-      "Colorado"
+      "Colorado",
+      "Balearic Islands",
+      "Scotland",
+      "Balearic Islands"
     ],
     "countries": [
       "Switzerland",
@@ -237378,7 +238125,10 @@
       "United States",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Spain",
+      "United Kingdom",
+      "Spain"
     ],
     "dists": [
       351.4,
@@ -237463,7 +238213,10 @@
       726.6,
       803.4,
       1285.3,
-      464.5
+      464.5,
+      1424.2,
+      2676.7,
+      349.9
     ],
     "times": [
       8.2,
@@ -237548,7 +238301,10 @@
       8.6,
       7.6,
       7.1,
-      7.4
+      7.4,
+      8.2,
+      9.1,
+      7.9
     ]
   },
   "Al Miny\u0101, Egypt": {
@@ -241320,10 +242076,10 @@
     ]
   },
   "Az Zaq\u0101z\u012bq, Egypt": {
-    "mean_dist": 265.3,
+    "mean_dist": 263.2,
     "mean_time": 7.7,
-    "std_dist": 786.3,
-    "std_time": 1,
+    "std_dist": 781.3,
+    "std_time": 0.9,
     "city": "Az Zaq\u0101z\u012bq",
     "admin": "Ash Sharq\u012byah",
     "country": "Egypt",
@@ -241402,7 +242158,8 @@
       27.602,
       30.346,
       29.149,
-      27.367
+      27.367,
+      29.641
     ],
     "lons": [
       "x",
@@ -241479,10 +242236,11 @@
       31.812,
       30.884,
       31.634,
-      29.251
+      29.251,
+      31.812
     ],
-    "mean_lat": 29.444,
-    "mean_lon": 30.083,
+    "mean_lat": 29.447,
+    "mean_lon": 30.11,
     "true_lat": 30.5833,
     "true_lon": 31.5167,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Az Zaq\u0101z\u012bq%2C+Egypt&go=Go&ns0=1",
@@ -241562,7 +242320,8 @@
       "Balearic Islands",
       "Quebec",
       "California",
-      "California"
+      "California",
+      "Balearic Islands"
     ],
     "countries": [
       "Switzerland",
@@ -241639,7 +242398,8 @@
       "Spain",
       "Canada",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       348,
@@ -241716,7 +242476,8 @@
       332.7,
       66,
       159.8,
-      419.9
+      419.9,
+      108.4
     ],
     "times": [
       8.4,
@@ -241793,6 +242554,7 @@
       8.3,
       7.8,
       8.2,
+      8.1,
       8.1
     ]
   },
@@ -242214,9 +242976,9 @@
     ]
   },
   "Juba, South Sudan": {
-    "mean_dist": 331.5,
+    "mean_dist": 329.1,
     "mean_time": 7.1,
-    "std_dist": 475.9,
+    "std_dist": 474.2,
     "std_time": 1.5,
     "city": "Juba",
     "admin": "Central Equatoria",
@@ -242326,7 +243088,8 @@
       6.805,
       6.251,
       3.867,
-      4.91
+      4.91,
+      4.331
     ],
     "lons": [
       "x",
@@ -242433,10 +243196,11 @@
       31.42,
       30.585,
       31.58,
-      31.232
+      31.232,
+      32.044
     ],
-    "mean_lat": 5.591,
-    "mean_lon": 31.4,
+    "mean_lat": 5.577,
+    "mean_lon": 31.407,
     "true_lat": 4.83,
     "true_lon": 31.58,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Juba%2C+South Sudan&go=Go&ns0=1",
@@ -242546,7 +243310,8 @@
       "Washington",
       "Washington",
       "Balearic Islands",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands"
     ],
     "countries": [
       "Switzerland",
@@ -242653,7 +243418,8 @@
       "United States",
       "United States",
       "Spain",
-      "Canada"
+      "Canada",
+      "Spain"
     ],
     "dists": [
       359.6,
@@ -242760,7 +243526,8 @@
       220.3,
       192.5,
       106.9,
-      39.5
+      39.5,
+      75.6
     ],
     "times": [
       8.1,
@@ -242867,7 +243634,8 @@
       6.5,
       6.3,
       8,
-      7.8
+      7.8,
+      8
     ]
   },
   "Antananarivo, Madagascar": {
@@ -243606,9 +244374,9 @@
     ]
   },
   "Polokwane, South Africa": {
-    "mean_dist": 945,
+    "mean_dist": 940.2,
     "mean_time": 6.5,
-    "std_dist": 1188.4,
+    "std_dist": 1184.4,
     "std_time": 2.1,
     "city": "Polokwane",
     "admin": "Limpopo",
@@ -243729,7 +244497,8 @@
       -30.082,
       -26.606,
       -31.48,
-      -25.143
+      -25.143,
+      -27.228
     ],
     "lons": [
       "x",
@@ -243847,10 +244616,11 @@
       26.708,
       26.824,
       26.128,
-      24.967
+      24.967,
+      28.448
     ],
-    "mean_lat": -28.204,
-    "mean_lon": 26.57,
+    "mean_lat": -28.191,
+    "mean_lon": 26.594,
     "true_lat": -23.89,
     "true_lon": 29.45,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Polokwane%2C+South Africa&go=Go&ns0=1",
@@ -243971,7 +244741,8 @@
       "Quebec",
       "Balearic Islands",
       "Quebec",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands"
     ],
     "countries": [
       "Switzerland",
@@ -244089,7 +244860,8 @@
       "Canada",
       "Spain",
       "Canada",
-      "Canada"
+      "Canada",
+      "Spain"
     ],
     "dists": [
       322.6,
@@ -244207,7 +244979,8 @@
       740.1,
       401.2,
       905,
-      474.3
+      474.3,
+      384.5
     ],
     "times": [
       2,
@@ -244325,7 +245098,8 @@
       8.6,
       8.4,
       8,
-      8.4
+      8.4,
+      8.1
     ]
   },
   "Tshikapa, Congo (Kinshasa)": {
@@ -247392,9 +248166,9 @@
     ]
   },
   "Rosetta, Egypt": {
-    "mean_dist": 241,
+    "mean_dist": 236.9,
     "mean_time": 7.8,
-    "std_dist": 372.3,
+    "std_dist": 368.7,
     "std_time": 0.8,
     "city": "Rosetta",
     "admin": "Al Bu\u1e29ayrah",
@@ -247479,7 +248253,9 @@
       8.946,
       26.213,
       29.796,
-      30.946
+      30.946,
+      31.145,
+      31.045
     ],
     "lons": [
       "x",
@@ -247561,10 +248337,12 @@
       45.038,
       30.211,
       31.82,
-      31.812
+      31.812,
+      31.116,
+      30.884
     ],
-    "mean_lat": 29.7,
-    "mean_lon": 31.306,
+    "mean_lat": 29.746,
+    "mean_lon": 31.295,
     "true_lat": 31.4604,
     "true_lon": 30.39,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Rosetta%2C+Egypt&go=Go&ns0=1",
@@ -247649,6 +248427,8 @@
       "New South Wales",
       "California",
       "California",
+      "Balearic Islands",
+      "Balearic Islands",
       "Balearic Islands"
     ],
     "countries": [
@@ -247731,6 +248511,8 @@
       "Australia",
       "United States",
       "United States",
+      "Spain",
+      "Spain",
       "Spain"
     ],
     "dists": [
@@ -247813,7 +248595,9 @@
       2925.6,
       583.6,
       230.1,
-      146.9
+      146.9,
+      77.4,
+      65.8
     ],
     "times": [
       8.3,
@@ -247895,6 +248679,8 @@
       5.8,
       7.8,
       8.1,
+      8.5,
+      8.4,
       8.5
     ]
   },
@@ -248949,9 +249735,9 @@
     ]
   },
   "J\u012bma, Ethiopia": {
-    "mean_dist": 718.5,
+    "mean_dist": 714.8,
     "mean_time": 7,
-    "std_dist": 1075.4,
+    "std_dist": 1070.2,
     "std_time": 1.5,
     "city": "J\u012bma",
     "admin": "Orom\u012bya",
@@ -249047,7 +249833,8 @@
       1.895,
       7.451,
       8.109,
-      9.302
+      9.302,
+      8.831
     ],
     "lons": [
       "x",
@@ -249140,10 +249927,11 @@
       43.066,
       39.585,
       44.973,
-      45.408
+      45.408,
+      40.049
     ],
-    "mean_lat": 9.081,
-    "mean_lon": 37.482,
+    "mean_lat": 9.078,
+    "mean_lon": 37.515,
     "true_lat": 7.68,
     "true_lon": 36.83,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=J\u012bma%2C+Ethiopia&go=Go&ns0=1",
@@ -249239,7 +250027,8 @@
       "England",
       "Balearic Islands",
       "Colorado",
-      "Colorado"
+      "Colorado",
+      "Balearic Islands"
     ],
     "countries": [
       "Switzerland",
@@ -249332,7 +250121,8 @@
       "United Kingdom",
       "Spain",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       231.7,
@@ -249425,7 +250215,8 @@
       943.8,
       304.8,
       898.1,
-      960.4
+      960.4,
+      376.7
     ],
     "times": [
       8.1,
@@ -249518,7 +250309,8 @@
       5.3,
       8.3,
       7.9,
-      7.6
+      7.6,
+      8.2
     ]
   },
   "Des\u0113, Ethiopia": {
@@ -253431,9 +254223,9 @@
     ]
   },
   "Gafsa, Tunisia": {
-    "mean_dist": 436.3,
-    "mean_time": 7.3,
-    "std_dist": 957.4,
+    "mean_dist": 434.6,
+    "mean_time": 7.4,
+    "std_dist": 952.9,
     "std_time": 1.5,
     "city": "Gafsa",
     "admin": "Gafsa",
@@ -253540,7 +254332,8 @@
       33.617,
       36.333,
       33.334,
-      36.258
+      36.258,
+      35.7
     ],
     "lons": [
       "x",
@@ -253644,9 +254437,10 @@
       9.422,
       10.01,
       10.07,
-      10.195
+      10.195,
+      11.162
     ],
-    "mean_lat": 32.805,
+    "mean_lat": 32.841,
     "mean_lon": 11.19,
     "true_lat": 34.4204,
     "true_lon": 8.78,
@@ -253754,7 +254548,8 @@
       "California",
       "California",
       "California",
-      "California"
+      "California",
+      "Balearic Islands"
     ],
     "countries": [
       "Switzerland",
@@ -253858,7 +254653,8 @@
       "United States",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       118.9,
@@ -253962,7 +254758,8 @@
       107.1,
       240.2,
       169.5,
-      241.3
+      241.3,
+      259.3
     ],
     "times": [
       8.2,
@@ -254066,7 +254863,8 @@
       7.1,
       7.5,
       8,
-      8.1
+      8.1,
+      8.3
     ]
   },
   "Moanda, Congo (Kinshasa)": {
@@ -256923,9 +257721,9 @@
     ]
   },
   "Klerksdorp, South Africa": {
-    "mean_dist": 461.6,
+    "mean_dist": 458.4,
     "mean_time": 7.2,
-    "std_dist": 646.6,
+    "std_dist": 644,
     "std_time": 1.5,
     "city": "Klerksdorp",
     "admin": "North West",
@@ -257025,7 +257823,8 @@
       -27.949,
       -26.917,
       -26.71,
-      -28.154
+      -28.154,
+      -26.502
     ],
     "lons": [
       "x",
@@ -257122,10 +257921,11 @@
       26.94,
       28.448,
       28.332,
-      26.94
+      26.94,
+      28.1
     ],
-    "mean_lat": -28.26,
-    "mean_lon": 25.702,
+    "mean_lat": -28.238,
+    "mean_lon": 25.733,
     "true_lat": -26.88,
     "true_lon": 26.62,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Klerksdorp%2C+South Africa&go=Go&ns0=1",
@@ -257225,7 +258025,8 @@
       "Quebec",
       "Balearic Islands",
       "Balearic Islands",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands"
     ],
     "countries": [
       "Canada",
@@ -257322,7 +258123,8 @@
       "Canada",
       "Spain",
       "Spain",
-      "Canada"
+      "Canada",
+      "Spain"
     ],
     "dists": [
       625.6,
@@ -257419,7 +258221,8 @@
       123,
       181.3,
       171,
-      145.1
+      145.1,
+      152.9
     ],
     "times": [
       8.2,
@@ -257516,7 +258319,8 @@
       8,
       8.4,
       8.2,
-      7.5
+      7.5,
+      8.3
     ]
   },
   "Aba, Nigeria": {
@@ -260175,10 +260979,10 @@
     ]
   },
   "Jalingo, Nigeria": {
-    "mean_dist": 514.8,
+    "mean_dist": 517.2,
     "mean_time": 7.6,
-    "std_dist": 509.5,
-    "std_time": 1.4,
+    "std_dist": 505.2,
+    "std_time": 1.3,
     "city": "Jalingo",
     "admin": "Taraba",
     "country": "Nigeria",
@@ -260236,7 +261040,8 @@
       8.831,
       11.12,
       6.682,
-      9.424
+      9.424,
+      7.221
     ],
     "lons": [
       "x",
@@ -260292,10 +261097,11 @@
       7.566,
       9.422,
       6.576,
-      8.213
+      8.213,
+      5.709
     ],
-    "mean_lat": 8.609,
-    "mean_lon": 8.201,
+    "mean_lat": 8.577,
+    "mean_lon": 8.144,
     "true_lat": 8.9004,
     "true_lon": 11.36,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Jalingo%2C+Nigeria&go=Go&ns0=1",
@@ -260354,7 +261160,8 @@
       "Quebec",
       "Balearic Islands",
       "California",
-      "California"
+      "California",
+      "Balearic Islands"
     ],
     "countries": [
       "Switzerland",
@@ -260410,7 +261217,8 @@
       "Canada",
       "Spain",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       576.8,
@@ -260466,7 +261274,8 @@
       416.8,
       325.5,
       581.8,
-      350.2
+      350.2,
+      649.4
     ],
     "times": [
       8.2,
@@ -260522,13 +261331,14 @@
       8.4,
       8,
       8.3,
-      8.3
+      8.3,
+      8.4
     ]
   },
   "Guelma, Algeria": {
-    "mean_dist": 524.2,
+    "mean_dist": 522.5,
     "mean_time": 6.8,
-    "std_dist": 556.8,
+    "std_dist": 553.2,
     "std_time": 1.8,
     "city": "Guelma",
     "admin": "Guelma",
@@ -260605,7 +261415,8 @@
       29.662,
       35.202,
       36.433,
-      32.088
+      32.088,
+      34.942
     ],
     "lons": [
       "x",
@@ -260679,10 +261490,11 @@
       4.596,
       0.636,
       2.647,
-      14.383
+      14.383,
+      3.389
     ],
-    "mean_lat": 33.781,
-    "mean_lon": 4.47,
+    "mean_lat": 33.803,
+    "mean_lon": 4.45,
     "true_lat": 36.466,
     "true_lon": 7.428,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Guelma%2C+Algeria&go=Go&ns0=1",
@@ -260759,7 +261571,8 @@
       "California",
       "California",
       "Moscow",
-      "Colorado"
+      "Colorado",
+      "Balearic Islands"
     ],
     "countries": [
       "Switzerland",
@@ -260833,7 +261646,8 @@
       "United States",
       "United States",
       "Russia",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       689.9,
@@ -260907,7 +261721,8 @@
       801.1,
       628,
       427.5,
-      802.9
+      802.9,
+      402
     ],
     "times": [
       8,
@@ -260981,7 +261796,8 @@
       6.9,
       8.2,
       7.6,
-      5.3
+      5.3,
+      8.4
     ]
   },
   "Kroonstad, South Africa": {
@@ -262728,9 +263544,9 @@
     ]
   },
   "Makurdi, Nigeria": {
-    "mean_dist": 502.6,
+    "mean_dist": 498.5,
     "mean_time": 7.3,
-    "std_dist": 774.7,
+    "std_dist": 770.1,
     "std_time": 1.6,
     "city": "Makurdi",
     "admin": "Benue",
@@ -262806,7 +263622,8 @@
       6.759,
       6.528,
       7.819,
-      -18.415
+      -18.415,
+      8.372
     ],
     "lons": [
       "x",
@@ -262879,10 +263696,11 @@
       6.985,
       6.173,
       6.083,
-      29.098
+      29.098,
+      6.753
     ],
-    "mean_lat": 6.296,
-    "mean_lon": 7.784,
+    "mean_lat": 6.331,
+    "mean_lon": 7.766,
     "true_lat": 7.73,
     "true_lon": 8.53,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Makurdi%2C+Nigeria&go=Go&ns0=1",
@@ -262958,7 +263776,8 @@
       "Quebec",
       "Balearic Islands",
       "Washington",
-      "Ohio"
+      "Ohio",
+      "Balearic Islands"
     ],
     "countries": [
       "Switzerland",
@@ -263031,7 +263850,8 @@
       "Canada",
       "Spain",
       "United States",
-      "United States"
+      "United States",
+      "Spain"
     ],
     "dists": [
       241.8,
@@ -263104,7 +263924,8 @@
       201.6,
       292.2,
       269.7,
-      3680.1
+      3680.1,
+      208.1
     ],
     "times": [
       8.4,
@@ -263177,13 +263998,14 @@
       8.4,
       8.3,
       7.3,
-      5.5
+      5.5,
+      8.5
     ]
   },
   "Mbuji-Mayi, Congo (Kinshasa)": {
-    "mean_dist": 1157.3,
+    "mean_dist": 1153.3,
     "mean_time": 6.8,
-    "std_dist": 1203.2,
+    "std_dist": 1197.1,
     "std_time": 1.7,
     "city": "Mbuji-Mayi",
     "admin": "Kasa\u00ef Oriental",
@@ -263277,7 +264099,8 @@
       -3.795,
       -2.403,
       0.152,
-      -4.838
+      -4.838,
+      -4.143
     ],
     "lons": [
       "x",
@@ -263368,10 +264191,11 @@
       17.195,
       29.028,
       19.979,
-      22.415
+      22.415,
+      16.731
     ],
-    "mean_lat": -3.296,
-    "mean_lon": 17.487,
+    "mean_lat": -3.31,
+    "mean_lon": 17.474,
     "true_lat": -6.15,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Mbuji-Mayi%2C+Congo (Kinshasa)&go=Go&ns0=1",
     "true_lon": 23.6,
@@ -263465,7 +264289,8 @@
       "Balearic Islands",
       "Quebec",
       "Balearic Islands",
-      "Quebec"
+      "Quebec",
+      "Balearic Islands"
     ],
     "countries": [
       "Germany",
@@ -263556,7 +264381,8 @@
       "Spain",
       "Canada",
       "Spain",
-      "Canada"
+      "Canada",
+      "Spain"
     ],
     "dists": [
       1177.7,
@@ -263647,7 +264473,8 @@
       756.2,
       731.9,
       807.8,
-      196.1
+      196.1,
+      792.7
     ],
     "times": [
       5.3,
@@ -263738,7 +264565,8 @@
       8.3,
       7.7,
       8.2,
-      7.5
+      7.5,
+      8
     ]
   },
   "Beni, Congo (Kinshasa)": {
