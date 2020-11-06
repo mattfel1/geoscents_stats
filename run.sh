@@ -5,7 +5,7 @@ git reset --hard
 git pull
 ./transfer.sh
 
-python3 scrub.py
+python3 scrub.py | tee /tmp/geoscents_stats_log
 bash growth.sh
 
 git add -A
