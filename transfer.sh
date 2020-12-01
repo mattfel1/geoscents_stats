@@ -1,4 +1,4 @@
 #!/bin/bash
 
-scp geoscents.net:/scratch/*_guesses .
+scp geoscents.net:/scratch/*_guesses* .
 

@@ -61,7 +61,7 @@ def convert(fileInput, fileOutput):
     return longest, longestCity
 
 
-pathlist = Path('.').glob('**/*_guesses')
+pathlist = Path('.').glob('**/*_guesses_base')
 unknown_ip = '127.0.0.1'
 
 try:
@@ -83,7 +83,7 @@ for c in continent_order:
 for path in pathlist:
     # because path is object not string
     file = str(path)
-    continent = file.replace('.','').replace(' ','').replace('_guesses','')
+    continent = file.replace('.','').replace(' ','').replace('_guesses_base','')
     print(file)
     
     with open(file) as json_file:
@@ -157,7 +157,7 @@ for path in pathlist:
             # Hacky way to put the statistics summaries at the beginning of json entry
             data[entry]['dists'] = data[entry].pop('dists',None)
             data[entry]['times'] = data[entry].pop('times',None)
-        outfile = file.replace('.','').replace(' ','').replace('_guesses','') + '.json'
+        outfile = file.replace('.','').replace(' ','').replace('_guesses_base','') + '.json'
         mapname = outfile.replace('.json','')
         with open(outfile, 'w') as data_file:
             json.dump(data, data_file, indent=2)
@@ -170,7 +170,8 @@ for path in pathlist:
         total_num_clicks = total_num_clicks + num_clicks
         print(num_clicks)
         metadata[mapname] = {'num_cities': num_cities, 'num_clicks': num_clicks, 'num_clicks_per_city': num_clicks/num_cities, 'most_played_city': longestCity, 'most_played_city_num_clicks': longest}
-        os.remove(file)
+        # git ignore these files instead of removing them
+        # os.remove(file)
 
 
 with open('/scratch/ip_cache', 'w') as fp:
