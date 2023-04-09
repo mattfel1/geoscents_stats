@@ -4,8 +4,10 @@ cd $HOME/geoscents_stats
 git reset --hard
 git pull
 
-rm -rf tmp/*
-rm -rf staging/*
+rm -rf tmp
+rm -rf staging
+mkdir tmp
+mkdir staging
 ./scripts/transfer.sh
 
 # Merge new data into base files and wipe out new data
