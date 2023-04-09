@@ -1,0 +1,574 @@
+HEAD is now at 0a9009be happy lil fixes
+Auto packing the repository in background for optimum performance.
+See "git help gc" for manual housekeeping.
+Already up to date.
+total points for India = 403
+total points for New Zealand = 749
+total points for Indonesia = 487
+total points for Peru = 572
+total points for Vatican City = 952
+total points for Spain = 3341
+total points for Kazakhstan = 2
+total points for Mexico = 887
+total points for Canada = 1473
+total points for Latvia = 2
+total points for United States = 1664
+total points for Egypt = 1240
+total points for France = 2034
+total points for Saudi Arabia = 73
+total points for Portugal = 310
+total points for Mali = 16
+total points for Uruguay = 0
+total points for Morocco = 869
+total points for Paraguay = 43
+total points for Germany = 3145
+total points for Democratic Republic of the Congo = 84
+total points for Romania = 481
+total points for Europe = 461605
+total points for China = 527
+total points for Kyrgyzstan = 162
+total points for S. America = 102755
+total points for Ethiopia = 108
+total points for South Africa = 332
+total points for United Kingdom = 1779
+total points for Argentina = 590
+total points for N. America = 309076
+total points for Switzerland = 441
+total points for Colombia = 23
+total points for Poland = 12
+total points for South Korea = 262
+total points for Brazil = 195
+total points for Australia = 1196
+total points for Nigeria = 332
+total points for Iran = 755
+total points for Trivia = 254248
+total points for Philippines = 277
+total points for Lithuania = 206
+total points for Ukraine = 5703
+total points for Asia = 143738
+total points for Uzbekistan = 0
+total points for Pakistan = 137
+total points for World = 998937
+total points for Kenya = 680
+total points for Oceania = 105348
+total points for Turkmenistan = 22
+total points for Italy = 1217
+total points for Africa = 145619
+total points for Vietnam = 200
+total points for Afghanistan = 108
+total points for Cameroon = 49
+total points for Japan = 645
+total points for Chad = 8
+total points for Cambodia = 14
+total points for Venezuela = 7
+total points for Bangladesh = 3
+total points for Estonia = 62
+total points for Lesser Antilles = 76
+total points for Central African Republic = 15
+total points for Greater Antilles = 44
+total points for Antarctica = 436
+total points for Bolivia = 49
+total points for Turkey = 825
+You may now safely scp the _guesses_base back to the server and rm the regular *_guesses file on the server!
+  ssh geoscents.net 'sudo su -c "rm /scratch/India_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/India_guesses_base geoscents.net:/scratch/India_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/India_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/India_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/New\ Zealand_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/New\ Zealand_guesses_base geoscents.net:/scratch/New\ Zealand_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/New\ Zealand_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/New\ Zealand_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Indonesia_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Indonesia_guesses_base geoscents.net:/scratch/Indonesia_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Indonesia_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Indonesia_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Peru_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Peru_guesses_base geoscents.net:/scratch/Peru_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Peru_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Peru_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Vatican\ City_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Vatican\ City_guesses_base geoscents.net:/scratch/Vatican\ City_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Vatican\ City_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Vatican\ City_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Spain_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Spain_guesses_base geoscents.net:/scratch/Spain_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Spain_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Spain_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Kazakhstan_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Kazakhstan_guesses_base geoscents.net:/scratch/Kazakhstan_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Kazakhstan_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Kazakhstan_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Mexico_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Mexico_guesses_base geoscents.net:/scratch/Mexico_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Mexico_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Mexico_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Canada_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Canada_guesses_base geoscents.net:/scratch/Canada_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Canada_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Canada_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Latvia_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Latvia_guesses_base geoscents.net:/scratch/Latvia_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Latvia_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Latvia_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/United\ States_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/United\ States_guesses_base geoscents.net:/scratch/United\ States_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/United\ States_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/United\ States_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Egypt_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Egypt_guesses_base geoscents.net:/scratch/Egypt_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Egypt_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Egypt_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/France_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/France_guesses_base geoscents.net:/scratch/France_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/France_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/France_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Saudi\ Arabia_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Saudi\ Arabia_guesses_base geoscents.net:/scratch/Saudi\ Arabia_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Saudi\ Arabia_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Saudi\ Arabia_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Portugal_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Portugal_guesses_base geoscents.net:/scratch/Portugal_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Portugal_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Portugal_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Mali_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Mali_guesses_base geoscents.net:/scratch/Mali_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Mali_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Mali_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Uruguay_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Uruguay_guesses_base geoscents.net:/scratch/Uruguay_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Uruguay_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Uruguay_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Morocco_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Morocco_guesses_base geoscents.net:/scratch/Morocco_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Morocco_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Morocco_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Paraguay_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Paraguay_guesses_base geoscents.net:/scratch/Paraguay_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Paraguay_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Paraguay_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Germany_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Germany_guesses_base geoscents.net:/scratch/Germany_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Germany_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Germany_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Democratic\ Republic\ of\ the\ Congo_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Democratic\ Republic\ of\ the\ Congo_guesses_base geoscents.net:/scratch/Democratic\ Republic\ of\ the\ Congo_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Democratic\ Republic\ of\ the\ Congo_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Democratic\ Republic\ of\ the\ Congo_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Romania_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Romania_guesses_base geoscents.net:/scratch/Romania_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Romania_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Romania_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Europe_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Europe_guesses_base geoscents.net:/scratch/Europe_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Europe_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Europe_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/China_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/China_guesses_base geoscents.net:/scratch/China_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/China_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/China_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Kyrgyzstan_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Kyrgyzstan_guesses_base geoscents.net:/scratch/Kyrgyzstan_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Kyrgyzstan_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Kyrgyzstan_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/S.\ America_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/S.\ America_guesses_base geoscents.net:/scratch/S.\ America_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/S.\ America_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/S.\ America_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Ethiopia_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Ethiopia_guesses_base geoscents.net:/scratch/Ethiopia_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Ethiopia_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Ethiopia_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/South\ Africa_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/South\ Africa_guesses_base geoscents.net:/scratch/South\ Africa_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/South\ Africa_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/South\ Africa_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/United\ Kingdom_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/United\ Kingdom_guesses_base geoscents.net:/scratch/United\ Kingdom_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/United\ Kingdom_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/United\ Kingdom_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Argentina_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Argentina_guesses_base geoscents.net:/scratch/Argentina_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Argentina_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Argentina_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/N.\ America_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/N.\ America_guesses_base geoscents.net:/scratch/N.\ America_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/N.\ America_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/N.\ America_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Switzerland_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Switzerland_guesses_base geoscents.net:/scratch/Switzerland_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Switzerland_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Switzerland_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Colombia_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Colombia_guesses_base geoscents.net:/scratch/Colombia_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Colombia_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Colombia_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Poland_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Poland_guesses_base geoscents.net:/scratch/Poland_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Poland_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Poland_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/South\ Korea_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/South\ Korea_guesses_base geoscents.net:/scratch/South\ Korea_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/South\ Korea_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/South\ Korea_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Brazil_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Brazil_guesses_base geoscents.net:/scratch/Brazil_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Brazil_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Brazil_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Australia_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Australia_guesses_base geoscents.net:/scratch/Australia_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Australia_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Australia_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Nigeria_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Nigeria_guesses_base geoscents.net:/scratch/Nigeria_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Nigeria_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Nigeria_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Iran_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Iran_guesses_base geoscents.net:/scratch/Iran_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Iran_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Iran_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Trivia_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Trivia_guesses_base geoscents.net:/scratch/Trivia_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Trivia_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Trivia_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Philippines_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Philippines_guesses_base geoscents.net:/scratch/Philippines_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Philippines_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Philippines_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Lithuania_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Lithuania_guesses_base geoscents.net:/scratch/Lithuania_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Lithuania_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Lithuania_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Ukraine_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Ukraine_guesses_base geoscents.net:/scratch/Ukraine_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Ukraine_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Ukraine_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Asia_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Asia_guesses_base geoscents.net:/scratch/Asia_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Asia_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Asia_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Uzbekistan_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Uzbekistan_guesses_base geoscents.net:/scratch/Uzbekistan_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Uzbekistan_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Uzbekistan_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Pakistan_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Pakistan_guesses_base geoscents.net:/scratch/Pakistan_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Pakistan_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Pakistan_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/World_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/World_guesses_base geoscents.net:/scratch/World_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/World_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/World_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Kenya_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Kenya_guesses_base geoscents.net:/scratch/Kenya_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Kenya_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Kenya_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Oceania_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Oceania_guesses_base geoscents.net:/scratch/Oceania_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Oceania_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Oceania_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Turkmenistan_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Turkmenistan_guesses_base geoscents.net:/scratch/Turkmenistan_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Turkmenistan_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Turkmenistan_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Italy_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Italy_guesses_base geoscents.net:/scratch/Italy_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Italy_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Italy_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Africa_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Africa_guesses_base geoscents.net:/scratch/Africa_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Africa_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Africa_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Vietnam_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Vietnam_guesses_base geoscents.net:/scratch/Vietnam_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Vietnam_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Vietnam_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Afghanistan_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Afghanistan_guesses_base geoscents.net:/scratch/Afghanistan_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Afghanistan_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Afghanistan_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Cameroon_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Cameroon_guesses_base geoscents.net:/scratch/Cameroon_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Cameroon_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Cameroon_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Japan_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Japan_guesses_base geoscents.net:/scratch/Japan_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Japan_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Japan_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Chad_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Chad_guesses_base geoscents.net:/scratch/Chad_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Chad_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Chad_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Cambodia_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Cambodia_guesses_base geoscents.net:/scratch/Cambodia_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Cambodia_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Cambodia_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Venezuela_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Venezuela_guesses_base geoscents.net:/scratch/Venezuela_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Venezuela_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Venezuela_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Bangladesh_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Bangladesh_guesses_base geoscents.net:/scratch/Bangladesh_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Bangladesh_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Bangladesh_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Estonia_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Estonia_guesses_base geoscents.net:/scratch/Estonia_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Estonia_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Estonia_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Lesser\ Antilles_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Lesser\ Antilles_guesses_base geoscents.net:/scratch/Lesser\ Antilles_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Lesser\ Antilles_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Lesser\ Antilles_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Central\ African\ Republic_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Central\ African\ Republic_guesses_base geoscents.net:/scratch/Central\ African\ Republic_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Central\ African\ Republic_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Central\ African\ Republic_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Greater\ Antilles_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Greater\ Antilles_guesses_base geoscents.net:/scratch/Greater\ Antilles_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Greater\ Antilles_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Greater\ Antilles_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Antarctica_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Antarctica_guesses_base geoscents.net:/scratch/Antarctica_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Antarctica_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Antarctica_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Bolivia_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Bolivia_guesses_base geoscents.net:/scratch/Bolivia_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Bolivia_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Bolivia_guesses"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Turkey_guesses_base"'
+  scp /home/mattfel/geoscents_stats/staging/Turkey_guesses_base geoscents.net:/scratch/Turkey_guesses_base
+  ssh geoscents.net 'sudo su -c "chown root:root /scratch/Turkey_guesses_base"'
+  ssh geoscents.net 'sudo su -c "rm /scratch/Turkey_guesses"'
+Done merging
+/home/mattfel/geoscents_stats/scripts/scrub.py:274: RuntimeWarning: invalid value encountered in double_scalars
+  tail = tail + ['"<b>%.1f</b>"' % (weighted / den)]
+Loaded 15628 ips from cache
+/home/mattfel/geoscents_stats/staging/Indonesia_guesses_base
+/home/mattfel/geoscents_stats/staging/Afghanistan_guesses_base
+/home/mattfel/geoscents_stats/staging/Central African Republic_guesses_base
+/home/mattfel/geoscents_stats/staging/Democratic Republic of the Congo_guesses_base
+/home/mattfel/geoscents_stats/staging/Canada_guesses_base
+/home/mattfel/geoscents_stats/staging/Antarctica_guesses_base
+/home/mattfel/geoscents_stats/staging/Poland_guesses_base
+/home/mattfel/geoscents_stats/staging/Switzerland_guesses_base
+/home/mattfel/geoscents_stats/staging/United States_guesses_base
+/home/mattfel/geoscents_stats/staging/Kazakhstan_guesses_base
+/home/mattfel/geoscents_stats/staging/Colombia_guesses_base
+/home/mattfel/geoscents_stats/staging/South Korea_guesses_base
+/home/mattfel/geoscents_stats/staging/Turkmenistan_guesses_base
+/home/mattfel/geoscents_stats/staging/Egypt_guesses_base
+/home/mattfel/geoscents_stats/staging/Spain_guesses_base
+/home/mattfel/geoscents_stats/staging/Romania_guesses_base
+/home/mattfel/geoscents_stats/staging/Vietnam_guesses_base
+/home/mattfel/geoscents_stats/staging/S. America_guesses_base
+/home/mattfel/geoscents_stats/staging/Uruguay_guesses_base
+/home/mattfel/geoscents_stats/staging/India_guesses_base
+/home/mattfel/geoscents_stats/staging/Bangladesh_guesses_base
+/home/mattfel/geoscents_stats/staging/Argentina_guesses_base
+/home/mattfel/geoscents_stats/staging/N. America_guesses_base
+/home/mattfel/geoscents_stats/staging/Germany_guesses_base
+/home/mattfel/geoscents_stats/staging/New Zealand_guesses_base
+/home/mattfel/geoscents_stats/staging/Bolivia_guesses_base
+/home/mattfel/geoscents_stats/staging/Brazil_guesses_base
+/home/mattfel/geoscents_stats/staging/Australia_guesses_base
+/home/mattfel/geoscents_stats/staging/Kyrgyzstan_guesses_base
+/home/mattfel/geoscents_stats/staging/Iran_guesses_base
+/home/mattfel/geoscents_stats/staging/Ethiopia_guesses_base
+/home/mattfel/geoscents_stats/staging/South Africa_guesses_base
+/home/mattfel/geoscents_stats/staging/Trivia_guesses_base
+/home/mattfel/geoscents_stats/staging/Uzbekistan_guesses_base
+/home/mattfel/geoscents_stats/staging/Peru_guesses_base
+/home/mattfel/geoscents_stats/staging/United Kingdom_guesses_base
+/home/mattfel/geoscents_stats/staging/Lithuania_guesses_base
+/home/mattfel/geoscents_stats/staging/Asia_guesses_base
+/home/mattfel/geoscents_stats/staging/Europe_guesses_base
+/home/mattfel/geoscents_stats/staging/Greater Antilles_guesses_base
+/home/mattfel/geoscents_stats/staging/Mali_guesses_base
+/home/mattfel/geoscents_stats/staging/China_guesses_base
+/home/mattfel/geoscents_stats/staging/Vatican City_guesses_base
+/home/mattfel/geoscents_stats/staging/Venezuela_guesses_base
+/home/mattfel/geoscents_stats/staging/Italy_guesses_base
+/home/mattfel/geoscents_stats/staging/Morocco_guesses_base
+/home/mattfel/geoscents_stats/staging/Portugal_guesses_base
+/home/mattfel/geoscents_stats/staging/Philippines_guesses_base
+/home/mattfel/geoscents_stats/staging/Estonia_guesses_base
+/home/mattfel/geoscents_stats/staging/Cambodia_guesses_base
+/home/mattfel/geoscents_stats/staging/Japan_guesses_base
+/home/mattfel/geoscents_stats/staging/Kenya_guesses_base
+/home/mattfel/geoscents_stats/staging/Africa_guesses_base
+/home/mattfel/geoscents_stats/staging/Chad_guesses_base
+/home/mattfel/geoscents_stats/staging/Oceania_guesses_base
+/home/mattfel/geoscents_stats/staging/Cameroon_guesses_base
+/home/mattfel/geoscents_stats/staging/Saudi Arabia_guesses_base
+/home/mattfel/geoscents_stats/staging/Turkey_guesses_base
+/home/mattfel/geoscents_stats/staging/France_guesses_base
+/home/mattfel/geoscents_stats/staging/Nigeria_guesses_base
+/home/mattfel/geoscents_stats/staging/Pakistan_guesses_base
+/home/mattfel/geoscents_stats/staging/Paraguay_guesses_base
+/home/mattfel/geoscents_stats/staging/Mexico_guesses_base
+/home/mattfel/geoscents_stats/staging/Latvia_guesses_base
+/home/mattfel/geoscents_stats/staging/Ukraine_guesses_base
+/home/mattfel/geoscents_stats/staging/World_guesses_base
+/home/mattfel/geoscents_stats/staging/Lesser Antilles_guesses_base
+Get entry for 45.143.82.10
+timeout
+urllib to geolocation failed to fetch ip 45.143.82.10
+Get entry for 98.42.82.68
+Get entry for 49.37.168.87
+timeout
+urllib to geolocation failed to fetch ip 49.37.168.87
+Get entry for 121.75.18.144
+Get entry for 123.136.149.88
+timeout
+urllib to geolocation failed to fetch ip 123.136.149.88
+writing metadata for World = 1036 cities, 998937 clicks
+writing metadata for Trivia = 458 cities, 254248 clicks
+writing metadata for Europe = 582 cities, 461605 clicks
+writing metadata for Africa = 448 cities, 145619 clicks
+writing metadata for Asia = 615 cities, 143738 clicks
+writing metadata for Oceania = 368 cities, 105348 clicks
+writing metadata for N. America = 636 cities, 309076 clicks
+writing metadata for S. America = 522 cities, 102755 clicks
+writing metadata for Afghanistan = 39 cities, 108 clicks
+writing metadata for Antarctica = 30 cities, 436 clicks
+writing metadata for Argentina = 78 cities, 590 clicks
+writing metadata for Australia = 70 cities, 1196 clicks
+writing metadata for Bangladesh = 13 cities, 3 clicks
+writing metadata for Bolivia = 38 cities, 49 clicks
+writing metadata for Brazil = 105 cities, 195 clicks
+writing metadata for Cambodia = 12 cities, 14 clicks
+writing metadata for Cameroon = 25 cities, 49 clicks
+writing metadata for Canada = 81 cities, 1473 clicks
+writing metadata for Central African Republic = 16 cities, 15 clicks
+writing metadata for Chad = 12 cities, 8 clicks
+writing metadata for China = 175 cities, 527 clicks
+writing metadata for Colombia = 22 cities, 23 clicks
+writing metadata for Democratic Republic of the Congo = 57 cities, 84 clicks
+writing metadata for Egypt = 42 cities, 1240 clicks
+writing metadata for Estonia = 21 cities, 62 clicks
+Get entry for 87.52.111.96
+writing metadata for Ethiopia = 28 cities, 108 clicks
+writing metadata for France = 58 cities, 2034 clicks
+writing metadata for Germany = 58 cities, 3145 clicks
+writing metadata for Greater Antilles = 36 cities, 44 clicks
+writing metadata for India = 158 cities, 403 clicks
+writing metadata for Indonesia = 76 cities, 487 clicks
+writing metadata for Iran = 64 cities, 755 clicks
+writing metadata for Italy = 56 cities, 1217 clicks
+writing metadata for Japan = 74 cities, 645 clicks
+writing metadata for Kazakhstan = 2 cities, 2 clicks
+writing metadata for Kenya = 61 cities, 680 clicks
+writing metadata for Kyrgyzstan = 16 cities, 162 clicks
+writing metadata for Latvia = 2 cities, 2 clicks
+writing metadata for Lesser Antilles = 21 cities, 76 clicks
+writing metadata for Lithuania = 53 cities, 206 clicks
+writing metadata for Mali = 17 cities, 16 clicks
+writing metadata for Mexico = 176 cities, 887 clicks
+writing metadata for Morocco = 29 cities, 869 clicks
+writing metadata for New Zealand = 52 cities, 749 clicks
+writing metadata for Nigeria = 70 cities, 332 clicks
+writing metadata for Pakistan = 36 cities, 137 clicks
+writing metadata for Paraguay = 17 cities, 43 clicks
+writing metadata for Peru = 56 cities, 572 clicks
+writing metadata for Philippines = 112 cities, 277 clicks
+writing metadata for Poland = 12 cities, 12 clicks
+writing metadata for Portugal = 20 cities, 310 clicks
+writing metadata for Romania = 42 cities, 481 clicks
+writing metadata for Saudi Arabia = 26 cities, 73 clicks
+writing metadata for South Africa = 69 cities, 332 clicks
+writing metadata for South Korea = 31 cities, 262 clicks
+writing metadata for Spain = 46 cities, 3341 clicks
+writing metadata for Switzerland = 28 cities, 441 clicks
+writing metadata for Turkey = 91 cities, 825 clicks
+writing metadata for Turkmenistan = 12 cities, 22 clicks
+writing metadata for Ukraine = 51 cities, 5703 clicks
+writing metadata for United Kingdom = 56 cities, 1779 clicks
+writing metadata for United States = 237 cities, 1664 clicks
+writing metadata for Uruguay = 1 cities, 0 clicks
+writing metadata for Uzbekistan = 1 cities, 0 clicks
+writing metadata for Vatican City = 26 cities, 952 clicks
+writing metadata for Venezuela = 8 cities, 7 clicks
+writing metadata for Vietnam = 69 cities, 200 clicks
+Done scrubbing
+fatal: path 'metadata.json' exists on disk, but not in '3f86cd402d8ae12aa93b1abb1b9f6ff189a3a4c3'
+fatal: path 'metadata.json' exists on disk, but not in 'd950af0ab082ff8d35f28908312a98281704fa74'
+fatal: path 'metadata.json' exists on disk, but not in 'cfd00b042fa62cd40c2b79be6a5aa5265cb34944'
+fatal: path 'metadata.json' exists on disk, but not in '206a7ce0cb75ecfb11f35ec338b235ae398597fd'
+fatal: path 'metadata.json' exists on disk, but not in 'a55ffa025251d9d31388753f77b9f8f4f8ed8671'
+fatal: path 'metadata.json' exists on disk, but not in '0a42a2c2fa6c8fbe7405609747cc11bc1e99a0e2'
+fatal: path 'metadata.json' exists on disk, but not in '1891937c5d818a73878f16ca84a16dbc528cba68'
+fatal: path 'metadata.json' exists on disk, but not in 'a4865fcd9152581ffa338a951269f926630ede95'
+fatal: path 'metadata.json' exists on disk, but not in '53bf2844c000ac15b549a55c0906c32d106f0f89'
+fatal: path 'metadata.json' exists on disk, but not in 'e6f6151ec3151d60c2da4c90db134c6483e240ba'
+fatal: path 'metadata.json' exists on disk, but not in '2d5915f72479a50a833e23d54cad2e7d3eafdbba'
+fatal: path 'metadata.json' exists on disk, but not in '1edd706a54755e8c1032c444f7c1954dda6a5d66'
+fatal: path 'metadata.json' exists on disk, but not in '98b43195458c6c085fa62c02390c5a3cddfc85fb'
+fatal: path 'metadata.json' exists on disk, but not in '4b3b8417bb61106c40c5c81eb9d2719f9d70545a'
+fatal: path 'metadata.json' exists on disk, but not in '238f6a90a476a6ecf2737602257b2e9038f15b76'
+fatal: path 'metadata.json' exists on disk, but not in '29684449cd59bd20264be425ef25415ff64fb6b3'
+fatal: path 'metadata.json' exists on disk, but not in '46fe7e22f4bb3bf46b9f8e661e15771625c93c75'
+fatal: path 'metadata.json' exists on disk, but not in '93d2a63cf6b713da97699fce27c09e5236171ac0'
+fatal: path 'metadata.json' exists on disk, but not in '1ed4eba02ab33c0bfd52e983f3be42e92d445fcb'
+fatal: path 'metadata.json' exists on disk, but not in '1fa680f8bef84cf3da74571e05cf2327970b5b55'
+fatal: path 'metadata.json' exists on disk, but not in 'd6e7162fb00fc9874cda1ce5e19a820637fc5459'
+fatal: path 'metadata.json' exists on disk, but not in '130e07e5cf0a189585b5b6348d69032aa7b8a20b'
+fatal: path 'metadata.json' exists on disk, but not in '2c3d04f7c545a9b3df7ba38467c3f68f44c4f473'
+fatal: path 'metadata.json' exists on disk, but not in '5792296e796a615ae5f50809ec305121751e946a'
+fatal: path 'metadata.json' exists on disk, but not in '9319c0e8009d1291e7580c1e2057670c45a5905d'
+fatal: path 'metadata.json' exists on disk, but not in '891bb8244184abac61a1980d92eb7de81d941813'
+fatal: path 'metadata.json' exists on disk, but not in '570842144029614f76d7fdbf0ce2283ea0db6c99'
+fatal: path 'metadata.json' exists on disk, but not in '343943fb6e93b63703d4e6d3567860bc18cd5c9c'
+fatal: path 'metadata.json' exists on disk, but not in '498efdc6238b372ada69f1dce893a781bcd1d640'
+fatal: path 'metadata.json' exists on disk, but not in '4a7b544439a94dd649ed7a99b2b59f7f6dd345af'
+fatal: path 'metadata.json' exists on disk, but not in 'a23792b164d5269421966267cad53cf70a3e9881'
+fatal: path 'metadata.json' exists on disk, but not in 'e9a5906ac7c544cd17c7a4f0298dc993f9705cc4'
+fatal: path 'metadata.json' exists on disk, but not in '7a040e25f210f54bd9715d8fadc76419ccef3334'
+fatal: path 'metadata.json' exists on disk, but not in 'b467a090e7990553ed185b8f8d897c5427c243a6'
+fatal: path 'metadata.json' exists on disk, but not in '785607f1c22e8a320c5e838598461f0cf0a85e9a'
+fatal: path 'metadata.json' exists on disk, but not in 'c03a5aaa149400a66aa2675293f4cfb66797fa27'
+fatal: path 'metadata.json' exists on disk, but not in '556847fe58c8513d6359f22b2cffd136cffb193b'
+fatal: path 'metadata.json' exists on disk, but not in '4e79eee596a3501233b24751fa11f550e35adaad'
+fatal: path 'metadata.json' exists on disk, but not in '64ad764de3df7b289448ff007895451c00d1881a'
+fatal: path 'metadata.json' exists on disk, but not in '1c9c907c9aae95a7984a4fbc8a1df23de68c81fa'
+fatal: path 'metadata.json' exists on disk, but not in '8c02be2ab8d59bc456957107ead372b98b2faa35'
+fatal: path 'metadata.json' exists on disk, but not in 'b6f5bb001b49f20199ef3ac891f414899f2d0768'
+fatal: path 'metadata.json' exists on disk, but not in '8c9f53a9508eb24187a91afabbe5effe76466819'
+fatal: path 'metadata.json' exists on disk, but not in 'a1adff590f0d3d4d10ae04d58cca27908b08bafc'
+fatal: path 'metadata.json' exists on disk, but not in '180d1aa6e2d719d11143bdd7947a08d8a8b30092'
+fatal: path 'metadata.json' exists on disk, but not in '2751e4fd2c499194aad095e0d9b10d434dc6a1a4'
+fatal: path 'metadata.json' exists on disk, but not in 'a35d71cc0a036205978a468abc26a5d305ad1ec5'
+fatal: path 'metadata.json' exists on disk, but not in 'eaa894e4fad196de20aa421c6b51efc35907ba76'
+fatal: path 'metadata.json' exists on disk, but not in '0e0a732616ec6036046731d9d2767428260f5ca8'
+fatal: path 'metadata.json' exists on disk, but not in 'fb0941e516cd0391cab2a1323de88be254524947'
+fatal: path 'metadata.json' exists on disk, but not in '377554e22aad49ddfb4f1b87b5655dc7ce9cf3bf'
+fatal: path 'metadata.json' exists on disk, but not in 'df52ed2d84ac0ee7a1d76c4f8267f19f964c6840'
+fatal: path 'metadata.json' exists on disk, but not in '4c62152c07b356f8e94eae001fc28c4758e34c10'
+fatal: path 'metadata.json' exists on disk, but not in '9ebc61a85b3026551b1ceceaeb36f03e3d0752b0'
+fatal: path 'metadata.json' exists on disk, but not in '15d1e6acb298e99f962e70a074402205ac1cd265'
+fatal: path 'metadata.json' exists on disk, but not in '4d8484205e37379f18321d7fb3e23487a154cffd'
+fatal: path 'metadata.json' exists on disk, but not in 'b61f9103d7ce6bcb317369e5c566d67dfa86b09c'
+scripts/growth.sh: line 11: [[: 2.023026315789474: syntax error: invalid arithmetic operator (error token is ".023026315789474")
+scripts/growth.sh: line 11: [[: 2.023026315789474: syntax error: invalid arithmetic operator (error token is ".023026315789474")
+scripts/growth.sh: line 11: [[: 2.023026315789474: syntax error: invalid arithmetic operator (error token is ".023026315789474")
+scripts/growth.sh: line 11: [[: 2.023026315789474: syntax error: invalid arithmetic operator (error token is ".023026315789474")
+scripts/growth.sh: line 11: [[: 2.023026315789474: syntax error: invalid arithmetic operator (error token is ".023026315789474")
+scripts/growth.sh: line 11: [[: 2.023026315789474: syntax error: invalid arithmetic operator (error token is ".023026315789474")
+scripts/growth.sh: line 11: [[: 2.023026315789474: syntax error: invalid arithmetic operator (error token is ".023026315789474")
+scripts/growth.sh: line 11: [[: 2.023026315789474: syntax error: invalid arithmetic operator (error token is ".023026315789474")
+scripts/growth.sh: line 11: [[: 2.023026315789474: syntax error: invalid arithmetic operator (error token is ".023026315789474")
+scripts/growth.sh: line 11: [[: 2.023026315789474: syntax error: invalid arithmetic operator (error token is ".023026315789474")
+scripts/growth.sh: line 11: [[: 2.0647249190938513: syntax error: invalid arithmetic operator (error token is ".0647249190938513")
+scripts/growth.sh: line 11: [[: 2.1049382716049383: syntax error: invalid arithmetic operator (error token is ".1049382716049383")
+scripts/growth.sh: line 11: [[: 2.1049382716049383: syntax error: invalid arithmetic operator (error token is ".1049382716049383")
+scripts/growth.sh: line 11: [[: 2.125766871165644: syntax error: invalid arithmetic operator (error token is ".125766871165644")
+scripts/growth.sh: line 11: [[: 2.125766871165644: syntax error: invalid arithmetic operator (error token is ".125766871165644")
+scripts/growth.sh: line 11: [[: 2.1333333333333333: syntax error: invalid arithmetic operator (error token is ".1333333333333333")
+scripts/growth.sh: line 11: [[: 2.1333333333333333: syntax error: invalid arithmetic operator (error token is ".1333333333333333")
+scripts/growth.sh: line 11: [[: 2.1363636363636362: syntax error: invalid arithmetic operator (error token is ".1363636363636362")
+scripts/growth.sh: line 11: [[: 2.1363636363636362: syntax error: invalid arithmetic operator (error token is ".1363636363636362")
+scripts/growth.sh: line 11: [[: 2.1363636363636362: syntax error: invalid arithmetic operator (error token is ".1363636363636362")
+scripts/growth.sh: line 11: [[: 2.1363636363636362: syntax error: invalid arithmetic operator (error token is ".1363636363636362")
+scripts/growth.sh: line 11: [[: 2.1363636363636362: syntax error: invalid arithmetic operator (error token is ".1363636363636362")
+scripts/growth.sh: line 11: [[: 2.1363636363636362: syntax error: invalid arithmetic operator (error token is ".1363636363636362")
+scripts/growth.sh: line 11: [[: 2.163141993957704: syntax error: invalid arithmetic operator (error token is ".163141993957704")
+scripts/growth.sh: line 11: [[: 2.163141993957704: syntax error: invalid arithmetic operator (error token is ".163141993957704")
+Done plotting growth
