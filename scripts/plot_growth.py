@@ -52,7 +52,7 @@ ax2.tick_params(axis='y', colors='red')
 ax2.set_ylim([0,max(y_pdf) * 2])
 
 plt.title('Number of recorded data points over time')
-plt.savefig('$HOME/plots/growth.png', dpi=300, bbox_inches="tight")
+plt.savefig(os.environ['HOME'] + '/plots/growth.png', dpi=300, bbox_inches="tight")
 
 
 # plt.show()
