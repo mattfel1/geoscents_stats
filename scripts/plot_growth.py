@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import csv
+import os
 import matplotlib.dates as md
 import numpy as np
 import datetime as dt
