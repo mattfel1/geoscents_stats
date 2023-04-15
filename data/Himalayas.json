@@ -959,40 +959,52 @@
   "Kohat, Khyber Pakhtunkhwa, Pakistan": {
     "lats": [
       35.25,
-      34.373
+      34.373,
+      29.818,
+      31.552
     ],
     "lons": [
       74.248,
-      73.413
+      73.413,
+      70.413,
+      72.484
     ],
     "true_lat": 33.6027,
     "true_lon": 71.4327,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kohat%2C+Pakistan&go=Go&ns0=1",
-    "mean_dist": 259.1,
-    "mean_lat": 34.811,
-    "mean_lon": 73.83,
-    "mean_time": 5.2,
-    "std_dist": 57.4,
-    "std_time": 2.1,
+    "mean_dist": 299.5,
+    "mean_lat": 32.748,
+    "mean_lon": 72.639,
+    "mean_time": 6.6,
+    "std_dist": 86.5,
+    "std_time": 2,
     "city": "Kohat",
     "admin": "Khyber Pakhtunkhwa",
     "country": "Pakistan",
     "iso2": "PK",
     "regions": [
       "New York",
-      "Gomel Oblast"
+      "Gomel Oblast",
+      null,
+      null
     ],
     "countries": [
       "United States",
-      "Belarus"
+      "Belarus",
+      "United States",
+      "United States"
     ],
     "dists": [
       316.5,
-      201.7
+      201.7,
+      431.7,
+      248.3
     ],
     "times": [
       7.4,
-      3.1
+      3.1,
+      7.5,
+      8.4
     ]
   },
   "Dhanb\u0101d, Jharkhand, India": {
@@ -1343,7 +1355,9 @@
       33.951,
       33.648,
       33.91,
-      34.132
+      34.132,
+      32.904,
+      33.761
     ],
     "lons": [
       71.42991687091504,
@@ -1353,17 +1367,19 @@
       72.542,
       72.881,
       73.05,
-      73.002
+      73.002,
+      72.058,
+      72.717
     ],
     "true_lat": 33.7,
     "true_lon": 73.1666,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Islamabad%2C+Pakistan&go=Go&ns0=1",
-    "mean_dist": 110.9,
-    "mean_lat": 33.051,
-    "mean_lon": 72.851,
-    "mean_time": 6.4,
-    "std_dist": 137.3,
-    "std_time": 0.8,
+    "mean_dist": 106.5,
+    "mean_lat": 33.107,
+    "mean_lon": 72.758,
+    "mean_time": 6.2,
+    "std_dist": 124.9,
+    "std_time": 1,
     "city": "Islamabad",
     "admin": "Isl\u0101m\u0101b\u0101d",
     "country": "Pakistan",
@@ -1376,7 +1392,9 @@
       "Minsk",
       "Minsk",
       "Minsk",
-      "Minsk"
+      "Minsk",
+      null,
+      null
     ],
     "countries": [
       "Philippines",
@@ -1386,7 +1404,9 @@
       "Belarus",
       "Belarus",
       "Belarus",
-      "Belarus"
+      "Belarus",
+      "United States",
+      "United States"
     ],
     "dists": [
       380.2782610526822,
@@ -1396,7 +1416,9 @@
       64,
       26.9,
       25.7,
-      50.4
+      50.4,
+      135.7,
+      42.1
     ],
     "times": [
       7.30000000000001,
@@ -1406,7 +1428,9 @@
       6,
       7.5,
       6.2,
-      6.1
+      6.1,
+      7,
+      4.1
     ]
   },
   "Bh\u012blw\u0101ra, R\u0101jasth\u0101n, India": {
@@ -1418,7 +1442,9 @@
       25.809,
       26.466,
       24.237,
-      27.606
+      27.606,
+      23.642,
+      27.097
     ],
     "lons": [
       75.5728449754902,
@@ -1428,16 +1454,18 @@
       74.672,
       77.35,
       95.019,
-      79.241
+      79.241,
+      76.395,
+      74.788
     ],
     "true_lat": 25.3504,
     "true_lon": 74.635,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bh\u012blw\u0101ra%2C+India&go=Go&ns0=1",
-    "mean_dist": 574.4,
-    "mean_lat": 26.463,
-    "mean_lon": 79.453,
-    "mean_time": 7.6,
-    "std_dist": 634.2,
+    "mean_dist": 505,
+    "mean_lat": 26.244,
+    "mean_lon": 78.68,
+    "mean_time": 7.5,
+    "std_dist": 584.2,
     "std_time": 0.9,
     "city": "Bh\u012blw\u0101ra",
     "admin": "R\u0101jasth\u0101n",
@@ -1451,6 +1479,8 @@
       "Minsk",
       "Avon",
       null,
+      null,
+      null,
       null
     ],
     "countries": [
@@ -1459,6 +1489,8 @@
       "United States",
       "United States",
       "Belarus",
+      "United States",
+      "United States",
       "United States",
       "United States",
       "United States"
@@ -1471,7 +1503,9 @@
       51.1,
       298.5,
       2059.4,
-      522.5
+      522.5,
+      260.3,
+      194.8
     ],
     "times": [
       8.200000000000006,
@@ -1481,7 +1515,9 @@
       6.1,
       7.4,
       9.2,
-      7.3
+      7.3,
+      6.2,
+      8.5
     ]
   },
   "Gwalior, Madhya Pradesh, India": {
@@ -1583,7 +1619,9 @@
       23.638,
       26.811,
       27.641,
-      24.755
+      24.755,
+      23.749,
+      28.353
     ],
     "lons": [
       76.2504266748366,
@@ -1593,16 +1631,18 @@
       92.289,
       93.838,
       76.364,
-      92.918
+      92.918,
+      83.5,
+      79.028
     ],
     "true_lat": 27.1004,
     "true_lon": 93.6166,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Itanagar%2C+India&go=Go&ns0=1",
-    "mean_dist": 1023.3,
-    "mean_lat": 27.363,
-    "mean_lon": 84.078,
+    "mean_dist": 1070.9,
+    "mean_lat": 27.101,
+    "mean_lon": 83.515,
     "mean_time": 6.6,
-    "std_dist": 645.4,
+    "std_dist": 590.6,
     "std_time": 0.8,
     "city": "Itanagar",
     "admin": "Arun\u0101chal Pradesh",
@@ -1616,7 +1656,9 @@
       "New South Wales",
       "Minsk",
       "Leicester",
-      "Minsk"
+      "Minsk",
+      null,
+      null
     ],
     "countries": [
       "Philippines",
@@ -1626,7 +1668,9 @@
       "Australia",
       "Belarus",
       "United Kingdom",
-      "Belarus"
+      "Belarus",
+      "United States",
+      "United States"
     ],
     "dists": [
       1736.9807791886394,
@@ -1636,7 +1680,9 @@
       407.4,
       38.9,
       1703.2,
-      269.9
+      269.9,
+      1081.6,
+      1441.7
     ],
     "times": [
       5.766666666666682,
@@ -1646,7 +1692,9 @@
       5.8,
       5.7,
       7.7,
-      6.4
+      6.4,
+      6.2,
+      7.4
     ]
   },
   "Jitpur, , Nepal": {
@@ -1785,7 +1833,9 @@
       30.941,
       25.745,
       24.157,
-      25.063
+      25.063,
+      24.246,
+      28.933
     ],
     "lons": [
       78.51548549836602,
@@ -1796,17 +1846,19 @@
       77.382,
       83.65,
       77.382,
-      77.769
+      77.769,
+      79.918,
+      78.118
     ],
     "true_lat": 23.3504,
     "true_lon": 75.03,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ratl\u0101m%2C+India&go=Go&ns0=1",
-    "mean_dist": 584.8,
-    "mean_lat": 26.602,
-    "mean_lon": 78.784,
-    "mean_time": 6.3,
-    "std_dist": 237.3,
-    "std_time": 1.3,
+    "mean_dist": 587.5,
+    "mean_lat": 26.6,
+    "mean_lon": 78.827,
+    "mean_time": 6.5,
+    "std_dist": 218.3,
+    "std_time": 1.2,
     "city": "Ratl\u0101m",
     "admin": "Madhya Pradesh",
     "country": "India",
@@ -1820,7 +1872,9 @@
       "Athens",
       "Wolverhampton",
       "Corona",
-      "Minsk"
+      "Minsk",
+      null,
+      null
     ],
     "countries": [
       "Philippines",
@@ -1831,7 +1885,9 @@
       "United States",
       "United Kingdom",
       "United States",
-      "Belarus"
+      "Belarus",
+      "United States",
+      "United States"
     ],
     "dists": [
       357.4712653338191,
@@ -1842,7 +1898,9 @@
       875.5,
       911.4,
       255.7,
-      336.8
+      336.8,
+      507.2,
+      693
     ],
     "times": [
       8.100000000000007,
@@ -1853,7 +1911,9 @@
       5,
       7.4,
       7.1,
-      4.3
+      4.3,
+      6.7,
+      8.1
     ]
   },
   "Jodhpur, R\u0101jasth\u0101n, India": {
@@ -2151,22 +2211,26 @@
     "lats": [
       29.700238123273877,
       30.758,
-      33.567
+      33.567,
+      32.741,
+      34.661
     ],
     "lons": [
       70.87786928104575,
       73.856,
-      72.905
+      72.905,
+      72.6,
+      73.278
     ],
     "true_lat": 33.6,
     "true_lon": 73.04,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Rawalpindi%2C+Pakistan&go=Go&ns0=1",
-    "mean_dist": 272.4,
-    "mean_lat": 31.341,
-    "mean_lon": 72.546,
-    "mean_time": 5.8,
-    "std_dist": 194,
-    "std_time": 1.8,
+    "mean_dist": 208.2,
+    "mean_lat": 32.285,
+    "mean_lon": 72.703,
+    "mean_time": 5.6,
+    "std_dist": 169.7,
+    "std_time": 1.4,
     "city": "Rawalpindi",
     "admin": "Punjab",
     "country": "Pakistan",
@@ -2174,22 +2238,30 @@
     "regions": [
       "California",
       "New York",
-      "Minsk"
+      "Minsk",
+      null,
+      null
     ],
     "countries": [
       "United States",
       "United States",
-      "Belarus"
+      "Belarus",
+      "United States",
+      "United States"
     ],
     "dists": [
       479.4663982959739,
       325.1,
-      12.9
+      12.9,
+      103.8,
+      120
     ],
     "times": [
       3.2333333333333574,
       7.3,
-      7
+      7,
+      5.1,
+      5.8
     ]
   },
   "Mardan, Khyber Pakhtunkhwa, Pakistan": {
@@ -2460,21 +2532,23 @@
     "lats": [
       33.30550311332196,
       30.457,
-      31.758
+      31.758,
+      28.971
     ],
     "lons": [
       75.27028895755276,
       75.04,
-      80.844
+      80.844,
+      75.349
     ],
     "true_lat": 31.64,
     "true_lon": 74.87,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Amritsar%2C+India&go=Go&ns0=1",
-    "mean_dist": 295.5,
-    "mean_lat": 31.84,
-    "mean_lon": 77.051,
-    "mean_time": 8,
-    "std_dist": 192,
+    "mean_dist": 296.7,
+    "mean_lat": 31.122,
+    "mean_lon": 76.625,
+    "mean_time": 7.9,
+    "std_dist": 166.3,
     "std_time": 0.4,
     "city": "Amritsar",
     "admin": "Punjab",
@@ -2483,22 +2557,26 @@
     "regions": [
       null,
       "Charlestown",
-      "Jerusalem"
+      "Jerusalem",
+      "Wijchen"
     ],
     "countries": [
       "United States",
       "United States",
-      "Israel"
+      "Israel",
+      "Netherlands"
     ],
     "dists": [
       188.9635242904615,
       132.5,
-      565.2
+      565.2,
+      300.2
     ],
     "times": [
       7.6000000000000085,
       7.7,
-      8.7
+      8.7,
+      7.9
     ]
   },
   "New Delhi, Delhi, India": {
@@ -4894,7 +4972,9 @@
       33.161,
       34.112,
       32.867,
-      34.353
+      34.353,
+      23.713,
+      33.405
     ],
     "lons": [
       75.93448771299724,
@@ -4903,17 +4983,19 @@
       75.132,
       74.648,
       75.402,
-      74.43
+      74.43,
+      83.248,
+      76.918
     ],
     "true_lat": 34.1,
     "true_lon": 74.815,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Sr\u012bnagar%2C+India&go=Go&ns0=1",
-    "mean_dist": 109.6,
-    "mean_lat": 33.456,
-    "mean_lon": 75.267,
-    "mean_time": 6.4,
-    "std_dist": 57,
-    "std_time": 1.4,
+    "mean_dist": 265.7,
+    "mean_lat": 32.368,
+    "mean_lon": 76.337,
+    "mean_time": 6.5,
+    "std_dist": 410.7,
+    "std_time": 1.3,
     "city": "Sr\u012bnagar",
     "admin": "Jammu and Kashm\u012br",
     "country": "India",
@@ -4925,7 +5007,9 @@
       "Minsk",
       "Minsk",
       "Mount Vernon",
-      "Minsk"
+      "Minsk",
+      null,
+      null
     ],
     "countries": [
       "United States",
@@ -4934,7 +5018,9 @@
       "Belarus",
       "Belarus",
       "United States",
-      "Belarus"
+      "Belarus",
+      "United States",
+      "United States"
     ],
     "dists": [
       104.62596514498912,
@@ -4943,7 +5029,9 @@
       108.4,
       15.4,
       147.4,
-      45.2
+      45.2,
+      1415.5,
+      209.2
     ],
     "times": [
       8.13333333333334,
@@ -4952,7 +5040,9 @@
       6.5,
       4.6,
       8.1,
-      4.7
+      4.7,
+      6.7,
+      7.1
     ]
   },
   "Guw\u0101h\u0101ti, Assam, India": {
@@ -5289,7 +5379,9 @@
       29.086,
       30.708,
       29.192,
-      29.171
+      29.171,
+      25.481,
+      28.814
     ],
     "lons": [
       77.70174977367073,
@@ -5297,16 +5389,18 @@
       76.608,
       76.511,
       76.777,
-      76.898
+      76.898,
+      87.004,
+      76.008
     ],
     "true_lat": 28.9,
     "true_lon": 76.58,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Rohtak%2C+India&go=Go&ns0=1",
-    "mean_dist": 163.1,
-    "mean_lat": 28.942,
-    "mean_lon": 76.769,
-    "mean_time": 6,
-    "std_dist": 157,
+    "mean_dist": 266.7,
+    "mean_lat": 28.493,
+    "mean_lon": 77.953,
+    "mean_time": 6.4,
+    "std_dist": 344.2,
     "std_time": 1.6,
     "city": "Rohtak",
     "admin": "Hary\u0101na",
@@ -5318,7 +5412,9 @@
       "Minsk",
       "Minsk",
       "Minsk",
-      "Minsk"
+      "Minsk",
+      null,
+      null
     ],
     "countries": [
       "United States",
@@ -5326,7 +5422,9 @@
       "Belarus",
       "Belarus",
       "Belarus",
-      "Belarus"
+      "Belarus",
+      "United States",
+      "United States"
     ],
     "dists": [
       470.39631568569956,
@@ -5334,7 +5432,9 @@
       20.9,
       201.1,
       37.7,
-      43.2
+      43.2,
+      1098.3,
+      56.5
     ],
     "times": [
       2.4666666666666934,
@@ -5342,7 +5442,9 @@
       5.8,
       6.1,
       7.3,
-      7.5
+      7.5,
+      7.5,
+      7.9
     ]
   },
   "Bannu, Khyber Pakhtunkhwa, Pakistan": {
@@ -5730,7 +5832,9 @@
       23.442,
       24.37,
       23.178,
-      23.044
+      23.044,
+      25.848,
+      27.045
     ],
     "lons": [
       71.86520261437909,
@@ -5738,16 +5842,18 @@
       72.949,
       84.139,
       71.429,
-      71.647
+      71.647,
+      85.726,
+      81.951
     ],
     "true_lat": 23.0301,
     "true_lon": 72.58,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ahmad\u0101b\u0101d%2C+India&go=Go&ns0=1",
-    "mean_dist": 263.2,
-    "mean_lat": 23.466,
-    "mean_lon": 74.079,
-    "mean_time": 6.1,
-    "std_dist": 413.5,
+    "mean_dist": 498.7,
+    "mean_lat": 24.211,
+    "mean_lon": 76.518,
+    "mean_time": 6.5,
+    "std_dist": 548.7,
     "std_time": 0.9,
     "city": "Ahmad\u0101b\u0101d",
     "admin": "Gujar\u0101t",
@@ -5759,7 +5865,9 @@
       null,
       null,
       "Minsk",
-      "Minsk"
+      "Minsk",
+      null,
+      null
     ],
     "countries": [
       "Australia",
@@ -5767,7 +5875,9 @@
       "United States",
       "United States",
       "Belarus",
-      "Belarus"
+      "Belarus",
+      "United States",
+      "United States"
     ],
     "dists": [
       88.37709094311187,
@@ -5775,7 +5885,9 @@
       59.3,
       1185.9,
       118.8,
-      95.4
+      95.4,
+      1366.5,
+      1043.9
     ],
     "times": [
       7.166666666666677,
@@ -5783,7 +5895,9 @@
       5.5,
       6.5,
       5.9,
-      7.2
+      7.2,
+      7.4,
+      7.7
     ]
   },
   "Pati\u0101la, Punjab, India": {
@@ -5831,24 +5945,28 @@
       25.019,
       24.725,
       25.831,
-      24.887
+      24.887,
+      25.621,
+      25.336
     ],
     "lons": [
       86.57840522875817,
       85.005,
       87.53,
       85.997,
-      85.029
+      85.029,
+      78.776,
+      77.247
     ],
     "true_lat": 24.8,
     "true_lon": 85,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Gaya%2C+India&go=Go&ns0=1",
-    "mean_dist": 125.5,
-    "mean_lat": 25.223,
-    "mean_lon": 86.027,
-    "mean_time": 6.5,
-    "std_dist": 94.5,
-    "std_time": 1.1,
+    "mean_dist": 291.8,
+    "mean_lat": 25.296,
+    "mean_lon": 83.737,
+    "mean_time": 6.7,
+    "std_dist": 277.8,
+    "std_time": 1,
     "city": "Gaya",
     "admin": "Bih\u0101r",
     "country": "India",
@@ -5858,28 +5976,36 @@
       "Gomel Oblast",
       "Oakland",
       "Minsk",
-      "Minsk"
+      "Minsk",
+      null,
+      null
     ],
     "countries": [
       "Belarus",
       "Belarus",
       "United States",
       "Belarus",
-      "Belarus"
+      "Belarus",
+      "United States",
+      "United States"
     ],
     "dists": [
       185.13532179589305,
       24.4,
       255.6,
       152.3,
-      10.1
+      10.1,
+      632.6,
+      783
     ],
     "times": [
       5.466666666666683,
       7.5,
       7.4,
       4.8,
-      7.6
+      7.6,
+      7.1,
+      7.4
     ]
   },
   "Sargodha, Punjab, Pakistan": {
@@ -5976,22 +6102,28 @@
     "lats": [
       28.169299772658412,
       27.265,
-      27.114
+      27.114,
+      25.147,
+      30.121,
+      27.838
     ],
     "lons": [
       77.72144444444444,
       77.866,
-      78.399
+      78.399,
+      74.711,
+      76.492,
+      78.35
     ],
     "true_lat": 27.15,
     "true_lon": 78.3949,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=F\u012broz\u0101b\u0101d%2C+India&go=Go&ns0=1",
-    "mean_dist": 63,
-    "mean_lat": 27.516,
-    "mean_lon": 77.995,
-    "mean_time": 6.9,
-    "std_dist": 52.4,
-    "std_time": 0.3,
+    "mean_dist": 179,
+    "mean_lat": 27.609,
+    "mean_lon": 77.256,
+    "mean_time": 6.7,
+    "std_dist": 164.2,
+    "std_time": 0.6,
     "city": "F\u012broz\u0101b\u0101d",
     "admin": "Uttar Pradesh",
     "country": "India",
@@ -5999,22 +6131,34 @@
     "regions": [
       "Minsk",
       "Minsk",
-      "Minsk"
+      "Minsk",
+      "Wijchen",
+      null,
+      null
     ],
     "countries": [
       "Belarus",
       "Belarus",
-      "Belarus"
+      "Belarus",
+      "Netherlands",
+      "United States",
+      "United States"
     ],
     "dists": [
       131.32109572223382,
       53.8,
-      3.9
+      3.9,
+      429.8,
+      378.9,
+      76.7
     ],
     "times": [
       6.400000000000013,
       7.1,
-      7.2
+      7.2,
+      7.2,
+      7.2,
+      5.4
     ]
   },
   "Multan, Punjab, Pakistan": {
