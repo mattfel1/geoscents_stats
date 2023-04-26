@@ -416,24 +416,28 @@
       18.911,
       20.938,
       20.026,
-      -3.655
+      -3.655,
+      15.948,
+      10.952
     ],
     "lons": [
       105.40762867647058,
       105.921,
       106.068,
       105.578,
-      134.598
+      134.598,
+      108.176,
+      107.098
     ],
     "true_lat": 21.0333,
     "true_lon": 105.85,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Hanoi%2C+Vietnam&go=Go&ns0=1",
-    "mean_dist": 917.8,
-    "mean_lat": 15.427,
-    "mean_lon": 111.514,
-    "mean_time": 6.8,
-    "std_dist": 1625.3,
-    "std_time": 1.9,
+    "mean_dist": 904.9,
+    "mean_lat": 14.862,
+    "mean_lon": 110.406,
+    "mean_time": 6.9,
+    "std_dist": 1380.6,
+    "std_time": 1.6,
     "city": "Hanoi",
     "admin": "H\u00e0 N\u1ed9i",
     "country": "Vietnam",
@@ -443,28 +447,36 @@
       "Charlestown",
       "Minsk",
       "Charlestown",
-      "Croydon"
+      "Croydon",
+      null,
+      null
     ],
     "countries": [
       "Philippines",
       "United States",
       "Belarus",
       "United States",
-      "United Kingdom"
+      "United Kingdom",
+      "United States",
+      "United States"
     ],
     "dists": [
       47.75002020943872,
       236,
       25,
       115.4,
-      4165.3
+      4165.3,
+      616.2,
+      1128.8
     ],
     "times": [
       8.066666666666674,
       7.8,
       7.6,
       8,
-      3
+      3,
+      7,
+      6.9
     ]
   },
   "Malang, Jawa Timur, Indonesia": {
@@ -596,40 +608,46 @@
   "Kuala Lumpur, Kuala Lumpur, Malaysia": {
     "lats": [
       2.95881018040705,
-      2.897
+      2.897,
+      2.65
     ],
     "lons": [
       101.43704044117646,
-      101.803
+      101.803,
+      102.049
     ],
     "true_lat": 3.1667,
     "true_lon": 101.7,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kuala Lumpur%2C+Malaysia&go=Go&ns0=1",
-    "mean_dist": 34.6,
-    "mean_lat": 2.927,
-    "mean_lon": 101.62,
-    "mean_time": 8.3,
-    "std_dist": 2.5,
-    "std_time": 0,
+    "mean_dist": 46.1,
+    "mean_lat": 2.835,
+    "mean_lon": 101.763,
+    "mean_time": 8,
+    "std_dist": 16.4,
+    "std_time": 0.4,
     "city": "Kuala Lumpur",
     "admin": "Kuala Lumpur",
     "country": "Malaysia",
     "iso2": "MY",
     "regions": [
       null,
-      "Balaclava"
+      "Balaclava",
+      "Wijchen"
     ],
     "countries": [
       "Philippines",
-      "Australia"
+      "Australia",
+      "Netherlands"
     ],
     "dists": [
       37.24091101917378,
-      32.1
+      32.1,
+      69.2
     ],
     "times": [
       8.366666666666672,
-      8.3
+      8.3,
+      7.4
     ]
   },
   "Melaka, Melaka, Malaysia": {
@@ -639,7 +657,8 @@
       3.18,
       3.93,
       2.81,
-      2.995
+      2.995,
+      4.471
     ],
     "lons": [
       100.84880514705883,
@@ -647,16 +666,17 @@
       101.411,
       101.705,
       101.105,
-      101.595
+      101.595,
+      103.47
     ],
     "true_lat": 2.2064,
     "true_lon": 102.2465,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Melaka%2C+Malaysia&go=Go&ns0=1",
-    "mean_dist": 167.4,
-    "mean_lat": 3.376,
-    "mean_lon": 101.358,
-    "mean_time": 7.7,
-    "std_dist": 50.8,
+    "mean_dist": 184.4,
+    "mean_lat": 3.532,
+    "mean_lon": 101.66,
+    "mean_time": 7.5,
+    "std_dist": 62.7,
     "std_time": 0.8,
     "city": "Melaka",
     "admin": "Melaka",
@@ -668,7 +688,8 @@
       "Gomel Oblast",
       "Charlestown",
       "Minsk",
-      "Minsk"
+      "Minsk",
+      "Wijchen"
     ],
     "countries": [
       "Philippines",
@@ -676,7 +697,8 @@
       "Belarus",
       "United States",
       "Belarus",
-      "Belarus"
+      "Belarus",
+      "Netherlands"
     ],
     "dists": [
       265.1167376784777,
@@ -684,7 +706,8 @@
       142.5,
       200.8,
       143.4,
-      113.6
+      113.6,
+      286.1
     ],
     "times": [
       8.23333333333334,
@@ -692,7 +715,8 @@
       6.9,
       8.5,
       6.3,
-      7.8
+      7.8,
+      6.6
     ]
   },
   "Singapore, , Singapore": {
@@ -707,7 +731,9 @@
       1.533,
       0.963,
       1.222,
-      1.148
+      1.148,
+      1.32,
+      1.456
     ],
     "lons": [
       104.37821691176471,
@@ -720,17 +746,19 @@
       103.97,
       104.598,
       104.107,
-      104.414
+      104.414,
+      104.156,
+      104.156
     ],
     "true_lat": 1.293,
     "true_lon": 103.8558,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Singapore%2C+Singapore&go=Go&ns0=1",
-    "mean_dist": 45.9,
+    "mean_dist": 44.3,
     "mean_lat": 1.388,
-    "mean_lon": 104.112,
-    "mean_time": 8.3,
-    "std_dist": 25.2,
-    "std_time": 0.4,
+    "mean_lon": 104.118,
+    "mean_time": 8.1,
+    "std_dist": 23.5,
+    "std_time": 0.6,
     "city": "Singapore",
     "admin": "",
     "country": "Singapore",
@@ -746,7 +774,9 @@
       "Rez\u00e9",
       "Gomel Oblast",
       "Charlestown",
-      "Minsk"
+      "Minsk",
+      null,
+      null
     ],
     "countries": [
       "Philippines",
@@ -759,7 +789,9 @@
       "France",
       "Belarus",
       "United States",
-      "Belarus"
+      "Belarus",
+      "United States",
+      "United States"
     ],
     "dists": [
       58.92167853931588,
@@ -772,7 +804,9 @@
       29.6,
       90.2,
       29.1,
-      64.1
+      64.1,
+      33.6,
+      38
     ],
     "times": [
       8.666666666666671,
@@ -785,7 +819,9 @@
       7.4,
       7.4,
       8.5,
-      8.7
+      8.7,
+      7.2,
+      7.2
     ]
   },
   "Mandalay, Mandalay, Myanmar": {
@@ -944,24 +980,26 @@
       5.555,
       -7.237,
       -8.47,
-      -7.396
+      -7.396,
+      -7.188
     ],
     "lons": [
       110.1625306372549,
       119.509,
       108.372,
       114.205,
-      109.438
+      109.438,
+      111.215
     ],
     "true_lat": -7.565,
     "true_lon": 110.825,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Surakarta%2C+Indonesia&go=Go&ns0=1",
-    "mean_dist": 526.8,
-    "mean_lat": -5.042,
-    "mean_lon": 112.337,
-    "mean_time": 8.2,
-    "std_dist": 619.7,
-    "std_time": 0.6,
+    "mean_dist": 449,
+    "mean_lat": -5.4,
+    "mean_lon": 112.15,
+    "mean_time": 8,
+    "std_dist": 591.9,
+    "std_time": 0.7,
     "city": "Surakarta",
     "admin": "Jawa Tengah",
     "country": "Indonesia",
@@ -971,28 +1009,32 @@
       "Oakland",
       null,
       null,
-      "Minsk"
+      "Minsk",
+      "Wijchen"
     ],
     "countries": [
       "Philippines",
       "United States",
       "United States",
       "United States",
-      "Belarus"
+      "Belarus",
+      "Netherlands"
     ],
     "dists": [
       73.84994652194487,
       1748.3,
       272.8,
       385.6,
-      153.9
+      153.9,
+      60
     ],
     "times": [
       8.566666666666672,
       9.3,
       7.4,
       8.1,
-      7.9
+      7.9,
+      7.1
     ]
   },
   "Vientiane, Viangchan, Laos": {
@@ -1216,23 +1258,25 @@
       1.431826409128175,
       3.586,
       4.508,
-      3.832
+      3.832,
+      3.044
     ],
     "lons": [
       111.3390012254902,
       102.196,
       102.588,
-      102.049
+      102.049,
+      104.45
     ],
     "true_lat": 1.53,
     "true_lon": 110.33,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kuching%2C+Malaysia&go=Go&ns0=1",
-    "mean_dist": 730,
-    "mean_lat": 3.339,
-    "mean_lon": 104.543,
-    "mean_time": 7.2,
-    "std_dist": 356.6,
-    "std_time": 1.4,
+    "mean_dist": 718.9,
+    "mean_lat": 3.28,
+    "mean_lon": 104.524,
+    "mean_time": 7.3,
+    "std_dist": 319.7,
+    "std_time": 1.3,
     "city": "Kuching",
     "admin": "Sarawak",
     "country": "Malaysia",
@@ -1241,25 +1285,29 @@
       null,
       "Charlestown",
       null,
-      null
+      null,
+      "Wijchen"
     ],
     "countries": [
       "Philippines",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Netherlands"
     ],
     "dists": [
       112.68832432775459,
       931.9,
       921.1,
-      954.6
+      954.6,
+      674.5
     ],
     "times": [
       8.23333333333334,
       8.4,
       4.7,
-      7.6
+      7.6,
+      7.7
     ]
   },
   "Banjarmasin, Kalimantan Selatan, Indonesia": {
@@ -1985,24 +2033,30 @@
       -4.183,
       -1.993,
       -8.165,
-      -8.518
+      -8.518,
+      -7.921,
+      -3.163,
+      -7.396
     ],
     "lons": [
       118.69194240196079,
       102.515,
       100.615,
       116.313,
-      118.519
+      118.519,
+      116.656,
+      103.666,
+      112.637
     ],
     "true_lat": -3.8,
     "true_lon": 102.27,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Bengkulu%2C+Indonesia&go=Go&ns0=1",
-    "mean_dist": 1142.3,
-    "mean_lat": -6.29,
-    "mean_lon": 111.33,
+    "mean_dist": 1094,
+    "mean_lat": -6.241,
+    "mean_lon": 111.201,
     "mean_time": 6.7,
-    "std_dist": 809.3,
-    "std_time": 1.4,
+    "std_dist": 747.5,
+    "std_time": 1.2,
     "city": "Bengkulu",
     "admin": "Bengkulu",
     "country": "Indonesia",
@@ -2012,12 +2066,18 @@
       null,
       "Gomel Oblast",
       null,
+      null,
+      "Wijchen",
+      null,
       null
     ],
     "countries": [
       "Philippines",
       "Philippines",
       "Belarus",
+      "United States",
+      "United States",
+      "Netherlands",
       "United States",
       "United States"
     ],
@@ -2026,14 +2086,20 @@
       50.6,
       272.2,
       1626.7,
-      1870.9
+      1870.9,
+      1655.6,
+      170.4,
+      1214.7
     ],
     "times": [
       8.066666666666674,
       7.8,
       7.4,
       6.4,
-      4.1
+      4.1,
+      6.3,
+      6.6,
+      7.7
     ]
   },
   "Phnom Penh, Phnom Penh, Cambodia": {
@@ -2049,7 +2115,9 @@
       12.027,
       11.496,
       11.423,
-      11.012
+      11.012,
+      11.737,
+      12.977
     ],
     "lons": [
       104.37821691176471,
@@ -2063,16 +2131,18 @@
       104.843,
       103.764,
       105.088,
-      103.764
+      103.764,
+      104.843,
+      105.235
     ],
     "true_lat": 11.55,
     "true_lon": 104.9166,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Phnom Penh%2C+Cambodia&go=Go&ns0=1",
-    "mean_dist": 68.5,
-    "mean_lat": 11.673,
-    "mean_lon": 104.73,
-    "mean_time": 7.6,
-    "std_dist": 38.3,
+    "mean_dist": 71.9,
+    "mean_lat": 11.77,
+    "mean_lon": 104.774,
+    "mean_time": 7.4,
+    "std_dist": 45,
     "std_time": 1,
     "city": "Phnom Penh",
     "admin": "Phnom Penh",
@@ -2090,7 +2160,9 @@
       "Minsk",
       "Charlestown",
       "Minsk",
-      "Charlestown"
+      "Charlestown",
+      null,
+      null
     ],
     "countries": [
       "Philippines",
@@ -2104,6 +2176,8 @@
       "Belarus",
       "United States",
       "Belarus",
+      "United States",
+      "United States",
       "United States"
     ],
     "dists": [
@@ -2118,7 +2192,9 @@
       53.6,
       125.6,
       23.3,
-      139
+      139,
+      22.3,
+      162.4
     ],
     "times": [
       8.100000000000007,
@@ -2132,7 +2208,9 @@
       6.9,
       8.2,
       7.7,
-      8.4
+      8.4,
+      5.8,
+      7.1
     ]
   },
   "Cebu City, Cebu, Philippines": {
@@ -2632,7 +2710,8 @@
       10.637,
       14.76,
       20.55,
-      15.668
+      15.668,
+      15.284
     ],
     "lons": [
       104.86841299019608,
@@ -2641,17 +2720,18 @@
       106.558,
       108.078,
       105.692,
-      107.921
+      107.921,
+      107.98
     ],
     "true_lat": 10.0154,
     "true_lon": 105.0914,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=R\u1ea1ch Gi\u00e1%2C+Vietnam&go=Go&ns0=1",
-    "mean_dist": 608.5,
-    "mean_lat": 14.784,
-    "mean_lon": 106.906,
+    "mean_dist": 615.5,
+    "mean_lat": 14.847,
+    "mean_lon": 107.04,
     "mean_time": 7.1,
-    "std_dist": 382.1,
-    "std_time": 1.5,
+    "std_dist": 357.9,
+    "std_time": 1.4,
     "city": "R\u1ea1ch Gi\u00e1",
     "admin": "Ki\u1ebfn Giang",
     "country": "Vietnam",
@@ -2663,7 +2743,8 @@
       "Minsk",
       "Bochum",
       null,
-      "Altenstadt"
+      "Altenstadt",
+      "Wijchen"
     ],
     "countries": [
       "Philippines",
@@ -2672,7 +2753,8 @@
       "Belarus",
       "Germany",
       "Hashemite Kingdom of Jordan",
-      "Germany"
+      "Germany",
+      "Netherlands"
     ],
     "dists": [
       26.34481309571188,
@@ -2681,7 +2763,8 @@
       174.8,
       619.3,
       1173.2,
-      699.4
+      699.4,
+      664.3
     ],
     "times": [
       8.466666666666672,
@@ -2690,7 +2773,8 @@
       4.6,
       5.2,
       6.7,
-      8.2
+      8.2,
+      7.2
     ]
   },
   "Cagayan de Oro, Cagayan de Oro, Philippines": {
@@ -2753,40 +2837,58 @@
   "Haiphong, H\u1ea3i Ph\u00f2ng, Vietnam": {
     "lats": [
       20.938,
-      -0.836
+      -0.836,
+      16.469,
+      13.469,
+      15.414
     ],
     "lons": [
       106.62,
-      112.904
+      112.904,
+      107.686,
+      109.009,
+      108.225
     ],
     "true_lat": 20.83,
     "true_lon": 106.6801,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Haiphong%2C+Vietnam&go=Go&ns0=1",
-    "mean_dist": 1258,
-    "mean_lat": 10.051,
-    "mean_lon": 109.762,
-    "mean_time": 7.9,
-    "std_dist": 1244.4,
-    "std_time": 1.4,
+    "mean_dist": 898.2,
+    "mean_lat": 13.09,
+    "mean_lon": 108.888,
+    "mean_time": 7.7,
+    "std_dist": 847.9,
+    "std_time": 0.9,
     "city": "Haiphong",
     "admin": "H\u1ea3i Ph\u00f2ng",
     "country": "Vietnam",
     "iso2": "VN",
     "regions": [
       "Minsk",
-      "Riau"
+      "Riau",
+      "Wijchen",
+      null,
+      null
     ],
     "countries": [
       "Belarus",
-      "Indonesia"
+      "Indonesia",
+      "Netherlands",
+      "United States",
+      "United States"
     ],
     "dists": [
       13.6,
-      2502.5
+      2502.5,
+      496.3,
+      854.9,
+      623.8
     ],
     "times": [
       6.5,
-      9.4
+      9.4,
+      7.9,
+      7.2,
+      7.9
     ]
   },
   "C\u1ea7n Th\u01a1, C\u1ea7n Th\u01a1, Vietnam": {
@@ -2868,22 +2970,26 @@
     "lats": [
       1.678,
       3.635,
-      2.916
+      2.916,
+      4.028,
+      4.901
     ],
     "lons": [
       111.388,
       102.49,
-      102.184
+      102.184,
+      101.852,
+      101.656
     ],
     "true_lat": 5.843,
     "true_lon": 118.108,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Sandakan%2C+Malaysia&go=Go&ns0=1",
-    "mean_dist": 1473.4,
-    "mean_lat": 2.743,
-    "mean_lon": 105.354,
-    "mean_time": 7.7,
-    "std_dist": 421.8,
-    "std_time": 0.9,
+    "mean_dist": 1611.2,
+    "mean_lat": 3.431,
+    "mean_lon": 103.913,
+    "mean_time": 7.1,
+    "std_dist": 367.7,
+    "std_time": 1.2,
     "city": "Sandakan",
     "admin": "Sabah",
     "country": "Malaysia",
@@ -2891,22 +2997,30 @@
     "regions": [
       null,
       "Charlestown",
-      "Leicester"
+      "Leicester",
+      null,
+      null
     ],
     "countries": [
       "Philippines",
       "United States",
-      "United Kingdom"
+      "United Kingdom",
+      "United States",
+      "United States"
     ],
     "dists": [
       877.5,
       1747.8,
-      1795
+      1795,
+      1811.9,
+      1824.1
     ],
     "times": [
       8.2,
       8.6,
-      6.5
+      6.5,
+      7.4,
+      5
     ]
   },
   "Nakhon Ratchasima, Nakhon Ratchasima, Thailand": {
@@ -3104,24 +3218,28 @@
       -3.95,
       -2.978,
       -3.606,
-      -3.962
+      -3.962,
+      1.862,
+      -1.747
     ],
     "lons": [
       99.37821691176471,
       104.486,
       104.107,
       121.313,
-      122.441
+      122.441,
+      99.696,
+      102
     ],
     "true_lat": -0.96,
     "true_lon": 100.36,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Padang%2C+Indonesia&go=Go&ns0=1",
-    "mean_dist": 1234.8,
-    "mean_lat": -2.563,
-    "mean_lon": 110.345,
+    "mean_dist": 956.9,
+    "mean_lat": -1.814,
+    "mean_lon": 107.631,
     "mean_time": 6.3,
-    "std_dist": 964.4,
-    "std_time": 1.6,
+    "std_dist": 926.5,
+    "std_time": 1.4,
     "city": "Padang",
     "admin": "Sumatera Barat",
     "country": "Indonesia",
@@ -3131,12 +3249,16 @@
       "Motherwell",
       "Minsk",
       null,
+      null,
+      null,
       null
     ],
     "countries": [
       "Philippines",
       "United Kingdom",
       "Belarus",
+      "United States",
+      "United States",
       "United States",
       "United States"
     ],
@@ -3145,14 +3267,18 @@
       566.3,
       473.1,
       2346.3,
-      2475.3
+      2475.3,
+      322.4,
+      202.2
     ],
     "times": [
       7.766666666666675,
       6.6,
       6.2,
       7.8,
-      3.3
+      3.3,
+      7.1,
+      5.7
     ]
   },
   "Seremban, Negeri Sembilan, Malaysia": {
@@ -3976,23 +4102,29 @@
       14.390757937172301,
       12.079,
       13.852,
-      14.486
+      14.486,
+      14.426,
+      13.517,
+      12.881
     ],
     "lons": [
       120.89782475490196,
       125.244,
       121.558,
-      121.019
+      121.019,
+      121.607,
+      122.343,
+      121.95
     ],
     "true_lat": 14.6504,
     "true_lon": 121.03,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Quezon City%2C+Philippines&go=Go&ns0=1",
-    "mean_dist": 173.4,
-    "mean_lat": 13.701,
-    "mean_lon": 122.179,
+    "mean_dist": 167.2,
+    "mean_lat": 13.661,
+    "mean_lon": 122.088,
     "mean_time": 7.7,
-    "std_dist": 213,
-    "std_time": 0.7,
+    "std_dist": 166.9,
+    "std_time": 0.6,
     "city": "Quezon City",
     "admin": "Quezon",
     "country": "Philippines",
@@ -4001,25 +4133,37 @@
       null,
       "Oakland",
       "Charlestown",
-      "Minsk"
+      "Minsk",
+      "Wijchen",
+      null,
+      null
     ],
     "countries": [
       "Philippines",
       "United States",
       "United States",
-      "Belarus"
+      "Belarus",
+      "Netherlands",
+      "United States",
+      "United States"
     ],
     "dists": [
       32.18627430840601,
       538.1,
       105.4,
-      18.3
+      18.3,
+      66.9,
+      189.5,
+      220.4
     ],
     "times": [
       8.600000000000005,
       7.5,
       8.4,
-      6.6
+      6.6,
+      7.8,
+      7.3,
+      8
     ]
   },
   "Naga City, Naga, Philippines": {
@@ -4177,7 +4321,9 @@
       13.757,
       13.948,
       13.948,
-      5.306
+      5.306,
+      8.632,
+      9.059
     ],
     "lons": [
       121.28998161764706,
@@ -4186,17 +4332,19 @@
       121.705,
       121.509,
       121.411,
-      117.49
+      117.49,
+      125.186,
+      124.745
     ],
     "true_lat": 13.7817,
     "true_lon": 121.0217,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Batangas%2C+Philippines&go=Go&ns0=1",
-    "mean_dist": 223,
-    "mean_lat": 12.638,
-    "mean_lon": 121.145,
-    "mean_time": 6.8,
-    "std_dist": 332.7,
-    "std_time": 1.8,
+    "mean_dist": 328.3,
+    "mean_lat": 11.795,
+    "mean_lon": 121.994,
+    "mean_time": 6.9,
+    "std_dist": 353.8,
+    "std_time": 1.7,
     "city": "Batangas",
     "admin": "Batangas",
     "country": "Philippines",
@@ -4208,7 +4356,9 @@
       "Charlestown",
       "Minsk",
       "Charlestown",
-      "Baden-Wurttemberg"
+      "Baden-Wurttemberg",
+      null,
+      null
     ],
     "countries": [
       "Philippines",
@@ -4217,7 +4367,9 @@
       "United States",
       "Belarus",
       "United States",
-      "Germany"
+      "Germany",
+      "United States",
+      "United States"
     ],
     "dists": [
       31.38194329764961,
@@ -4226,7 +4378,9 @@
       73.9,
       55.8,
       46,
-      1018.7
+      1018.7,
+      730.7,
+      663.5
     ],
     "times": [
       8.466666666666672,
@@ -4235,7 +4389,9 @@
       8.5,
       7.5,
       8.4,
-      3
+      3,
+      7.5,
+      7.6
     ]
   },
   "Samarinda, Kalimantan Timur, Indonesia": {
@@ -4674,22 +4830,24 @@
     "lats": [
       -7.5669495498035495,
       4.819,
-      -2.523
+      -2.523,
+      -6.16
     ],
     "lons": [
       111.28998161764706,
       102.891,
-      122.882
+      122.882,
+      106.754
     ],
     "true_lat": -7.78,
     "true_lon": 110.375,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Yogyakarta%2C+Indonesia&go=Go&ns0=1",
-    "mean_dist": 1078.2,
-    "mean_lat": -1.756,
-    "mean_lon": 112.354,
-    "mean_time": 8.1,
-    "std_dist": 691.1,
-    "std_time": 0.4,
+    "mean_dist": 918.2,
+    "mean_lat": -2.857,
+    "mean_lon": 110.954,
+    "mean_time": 7.8,
+    "std_dist": 659.5,
+    "std_time": 0.6,
     "city": "Yogyakarta",
     "admin": "Yogyakarta",
     "country": "Indonesia",
@@ -4697,22 +4855,26 @@
     "regions": [
       null,
       "Oakland",
-      "Charlestown"
+      "Charlestown",
+      "Wijchen"
     ],
     "countries": [
       "Philippines",
       "United States",
-      "United States"
+      "United States",
+      "Netherlands"
     ],
     "dists": [
       103.57577843444288,
       1628.4,
-      1502.9
+      1502.9,
+      438.2
     ],
     "times": [
       8.566666666666672,
       8.4,
-      7.6
+      7.6,
+      6.9
     ]
   },
   "Th\u00e1i Nguy\u00ean, Th\u00e1i Nguy\u00ean, Vietnam": {
@@ -4840,22 +5002,24 @@
       1.33,
       -7.011,
       -6.845,
-      -8.226
+      -8.226,
+      -2.523
     ],
     "lons": [
       113.509,
       109.745,
       107.294,
-      120.529
+      120.529,
+      120.872
     ],
     "true_lat": 1.48,
     "true_lon": 124.85,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Manado%2C+Indonesia&go=Go&ns0=1",
-    "mean_dist": 1630.5,
-    "mean_lat": -5.188,
-    "mean_lon": 112.769,
-    "mean_time": 5.9,
-    "std_dist": 418.9,
+    "mean_dist": 1429.9,
+    "mean_lat": -4.655,
+    "mean_lon": 114.389,
+    "mean_time": 6,
+    "std_dist": 549,
     "std_time": 1,
     "city": "Manado",
     "admin": "Sulawesi Utara",
@@ -4865,25 +5029,29 @@
       "Jerusalem",
       "Jena",
       null,
-      null
+      null,
+      "Wijchen"
     ],
     "countries": [
       "Israel",
       "Germany",
       "United States",
-      "United States"
+      "United States",
+      "Netherlands"
     ],
     "dists": [
       1260.6,
       1923.7,
       2157,
-      1180.8
+      1180.8,
+      627.4
     ],
     "times": [
       5.9,
       4.3,
       7.3,
-      6.3
+      6.3,
+      6.6
     ]
   },
   "George Town, Pulau Pinang, Malaysia": {
@@ -5586,7 +5754,8 @@
       -2.316,
       -4.245,
       -2.45,
-      -1.747
+      -1.747,
+      -7.139
     ],
     "lons": [
       102.20833333333333,
@@ -5594,17 +5763,18 @@
       121.156,
       104.107,
       111.915,
-      103.188
+      103.188,
+      114.892
     ],
     "true_lat": -1.59,
     "true_lon": 103.61,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Jambi%2C+Indonesia&go=Go&ns0=1",
-    "mean_dist": 904.7,
-    "mean_lat": -3.25,
-    "mean_lon": 110.378,
-    "mean_time": 6.1,
-    "std_dist": 788.5,
-    "std_time": 1.2,
+    "mean_dist": 974.6,
+    "mean_lat": -3.806,
+    "mean_lon": 111.023,
+    "mean_time": 6.4,
+    "std_dist": 749.8,
+    "std_time": 1.3,
     "city": "Jambi",
     "admin": "Jambi",
     "country": "Indonesia",
@@ -5615,7 +5785,8 @@
       "Jerusalem",
       "Croydon",
       "Jena",
-      "Minsk"
+      "Minsk",
+      "Wijchen"
     ],
     "countries": [
       "Belarus",
@@ -5623,7 +5794,8 @@
       "Israel",
       "United Kingdom",
       "Germany",
-      "Belarus"
+      "Belarus",
+      "Netherlands"
     ],
     "dists": [
       244.1999396153521,
@@ -5631,7 +5803,8 @@
       1951.6,
       300.4,
       927.9,
-      49.9
+      49.9,
+      1394.3
     ],
     "times": [
       7.166666666666677,
@@ -5639,28 +5812,33 @@
       5.3,
       4.5,
       5.1,
-      6.8
+      6.8,
+      8.1
     ]
   },
   "Pematangsiantar, Sumatera Utara, Indonesia": {
     "lats": [
       1.593991153304667,
       0.384,
-      -1.624
+      -1.624,
+      -7.188,
+      -2.19
     ],
     "lons": [
       101.40020754142334,
       100.921,
-      103.495
+      103.495,
+      109.352,
+      102.49
     ],
     "true_lat": 2.9614,
     "true_lon": 99.0615,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Pematangsiantar%2C+Indonesia&go=Go&ns0=1",
-    "mean_dist": 454.4,
-    "mean_lat": 0.117,
-    "mean_lon": 101.938,
+    "mean_dist": 731.4,
+    "mean_lat": -1.804,
+    "mean_lon": 103.531,
     "mean_time": 6.6,
-    "std_dist": 181.2,
+    "std_dist": 467.9,
     "std_time": 0.5,
     "city": "Pematangsiantar",
     "admin": "Sumatera Utara",
@@ -5669,22 +5847,30 @@
     "regions": [
       "Rez\u00e9",
       "Charlestown",
-      "Minsk"
+      "Minsk",
+      null,
+      null
     ],
     "countries": [
       "France",
       "United States",
-      "Belarus"
+      "Belarus",
+      "United States",
+      "United States"
     ],
     "dists": [
       301.05827033348385,
       353.3,
-      709.1
+      709.1,
+      1605.6,
+      688
     ],
     "times": [
       6.533333333333346,
       7.4,
-      6
+      6,
+      7.2,
+      6.3
     ]
   },
   "Pasay City, Pasay, Philippines": {
@@ -6178,35 +6364,47 @@
   },
   "Shah Alam, Selangor, Malaysia": {
     "lats": [
-      3.180127836895235
+      3.180127836895235,
+      3.34,
+      4.065
     ],
     "lons": [
-      101.5343137254902
+      101.5343137254902,
+      101.705,
+      102.294
     ],
     "true_lat": 3.0667,
     "true_lon": 101.55,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Shah Alam%2C+Malaysia&go=Go&ns0=1",
-    "mean_dist": 12.7,
-    "mean_lat": 3.18,
-    "mean_lon": 101.534,
-    "mean_time": 6.8,
-    "std_dist": 0,
-    "std_time": 1.1,
+    "mean_dist": 62,
+    "mean_lat": 3.528,
+    "mean_lon": 101.844,
+    "mean_time": 7,
+    "std_dist": 54.7,
+    "std_time": 0.1,
     "city": "Shah Alam",
     "admin": "Selangor",
     "country": "Malaysia",
     "iso2": "MY",
     "regions": [
-      "Minsk"
+      "Minsk",
+      null,
+      null
     ],
     "countries": [
-      "Belarus"
+      "Belarus",
+      "United States",
+      "United States"
     ],
     "dists": [
-      12.732281743356745
+      12.732281743356745,
+      34.9,
+      138.4
     ],
     "times": [
-      6.800000000000011
+      6.800000000000011,
+      7.2,
+      7
     ]
   },
   "Semarang, Jawa Tengah, Indonesia": {
