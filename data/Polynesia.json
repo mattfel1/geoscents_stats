@@ -133,35 +133,53 @@
   },
   "Waipahu, Hawaii, United States": {
     "lats": [
-      20.82833604710468
+      20.82833604710468,
+      21.097,
+      21.183,
+      20.751
     ],
     "lons": [
-      203.48080996158075
+      203.48080996158075,
+      202.246,
+      202.43,
+      202.891
     ],
     "true_lat": 21.3858,
     "true_lon": -158.0103,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Waipahu%2C+United States&go=Go&ns0=1",
-    "mean_dist": 166.6,
-    "mean_lat": 20.828,
-    "mean_lon": 203.48,
-    "mean_time": 8.3,
-    "std_dist": 0,
-    "std_time": 5.3,
+    "mean_dist": 94,
+    "mean_lat": 20.964,
+    "mean_lon": 202.761,
+    "mean_time": 8.5,
+    "std_dist": 51,
+    "std_time": 0.2,
     "city": "Waipahu",
     "admin": "Hawaii",
     "country": "United States",
     "iso2": "US",
     "regions": [
-      "Oakland"
+      "Oakland",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
-      "United States"
+      "United States",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
-      166.6368584897993
+      166.6368584897993,
+      41.6,
+      50.9,
+      117.1
     ],
     "times": [
-      8.300000000000006
+      8.300000000000006,
+      8.4,
+      8.8,
+      8.8
     ]
   },
   "Funafuti, Tuvalu": {
@@ -236,23 +254,25 @@
       20.42,
       20.68,
       21.231,
-      20.452
+      20.452,
+      21.183
     ],
     "lons": [
       204.58669231452194,
       203.372,
       203.28,
       202.172,
-      203.094
+      203.094,
+      203.536
     ],
     "true_lat": 20.9767,
     "true_lon": -156.6646,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Napili-Honokowai%2C+United States&go=Go&ns0=1",
-    "mean_dist": 89.7,
-    "mean_lat": 20.566,
-    "mean_lon": 203.3,
-    "mean_time": 6.3,
-    "std_dist": 48.3,
+    "mean_dist": 79.9,
+    "mean_lat": 20.668,
+    "mean_lon": 203.34,
+    "mean_time": 6.7,
+    "std_dist": 49.2,
     "std_time": 1.8,
     "city": "Napili-Honokowai",
     "admin": "Hawaii",
@@ -263,61 +283,77 @@
       "Marion",
       "Marion",
       "Corona",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary"
     ],
     "countries": [
       "United States",
       "United States",
       "United States",
       "United States",
-      "Netherlands"
+      "Netherlands",
+      "Canada"
     ],
     "dists": [
       166.2907653310936,
       61.9,
       33.3,
       123.9,
-      63.4
+      63.4,
+      31
     ],
     "times": [
       6.833333333333345,
       4,
       4.4,
       7.9,
-      8.5
+      8.5,
+      8.7
     ]
   },
   "Waipio Acres, Hawaii, United States": {
     "lats": [
-      21.948791663971818
+      21.948791663971818,
+      20.491,
+      21.097
     ],
     "lons": [
-      201.08473153020822
+      201.08473153020822,
+      203.075,
+      202.062
     ],
     "true_lat": 21.4689,
     "true_lon": -158.0173,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Waipio Acres%2C+United States&go=Go&ns0=1",
-    "mean_dist": 107,
-    "mean_lat": 21.948,
-    "mean_lon": 201.084,
-    "mean_time": 8.3,
-    "std_dist": 0,
-    "std_time": 5.3,
+    "mean_dist": 102,
+    "mean_lat": 21.178,
+    "mean_lon": 202.073,
+    "mean_time": 8.5,
+    "std_dist": 47,
+    "std_time": 0.2,
     "city": "Waipio Acres",
     "admin": "Hawaii",
     "country": "United States",
     "iso2": "US",
     "regions": [
-      "Oakland"
+      "Oakland",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
-      "United States"
+      "United States",
+      "Canada",
+      "Canada"
     ],
     "dists": [
-      107.0196714204727
+      107.0196714204727,
+      157.1,
+      42.1
     ],
     "times": [
-      8.300000000000006
+      8.300000000000006,
+      8.4,
+      8.8
     ]
   },
   "Hanga Roa, Chile": {
@@ -363,7 +399,10 @@
       -21.006,
       -21.093,
       -21.179,
-      -21.265
+      -21.265,
+      -21.226,
+      -21.485,
+      -21.485
     ],
     "lons": [
       200.03470176808975,
@@ -374,17 +413,20 @@
       200.513,
       199.868,
       200.329,
-      184.8
+      184.8,
+      200.956,
+      201.14,
+      200.311
     ],
     "true_lat": -21.25,
     "true_lon": -159.75,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Avarua%2C+Cook Islands&go=Go&ns0=1",
-    "mean_dist": 607.4,
-    "mean_lat": -20,
-    "mean_lon": 194.833,
-    "mean_time": 7.5,
-    "std_dist": 1177,
-    "std_time": 0.9,
+    "mean_dist": 471.9,
+    "mean_lat": -20.349,
+    "mean_lon": 196.325,
+    "mean_time": 7.7,
+    "std_dist": 1046.1,
+    "std_time": 0.8,
     "city": "Avarua",
     "admin": "",
     "country": "Cook Islands",
@@ -398,7 +440,10 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Gomel Oblast"
+      "Gomel Oblast",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Philippines",
@@ -409,7 +454,10 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Belarus"
+      "Belarus",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       23.05096345220935,
@@ -420,7 +468,10 @@
       38.4,
       43.2,
       11.3,
-      1600.3
+      1600.3,
+      73.2,
+      95.8,
+      26.9
     ],
     "times": [
       7.833333333333341,
@@ -431,7 +482,10 @@
       8.1,
       8,
       8.3,
-      5.7
+      5.7,
+      8.4,
+      8.5,
+      8.4
     ]
   },
   "Renwick, Marlborough, New Zealand": {
@@ -452,7 +506,12 @@
       -41.402,
       -41.54,
       -41.54,
-      -44.941
+      -44.941,
+      -38.097,
+      -40.602,
+      -42.677,
+      -37.217,
+      -40.108
     ],
     "lons": [
       176.35038804259955,
@@ -471,16 +530,21 @@
       173.419,
       173.603,
       173.327,
-      170.202
+      170.202,
+      175.52,
+      175.613,
+      172.571,
+      174.322,
+      174.783
     ],
     "true_lat": -41.2805,
     "true_lon": 174.0166,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Renwick%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 271.9,
-    "mean_lat": -41.352,
-    "mean_lon": 173.522,
-    "mean_time": 7.8,
-    "std_dist": 186.8,
+    "mean_dist": 270.3,
+    "mean_lat": -40.985,
+    "mean_lon": 173.758,
+    "mean_time": 8,
+    "std_dist": 174.8,
     "std_time": 0.8,
     "city": "Renwick",
     "admin": "Marlborough",
@@ -503,7 +567,12 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Leicester"
+      "Leicester",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Philippines",
@@ -522,7 +591,12 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "United Kingdom"
+      "United Kingdom",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       284.20384869222784,
@@ -541,7 +615,12 @@
       51.6,
       44.9,
       64.3,
-      511.3
+      511.3,
+      376.6,
+      153.8,
+      195.8,
+      452.5,
+      145.5
     ],
     "times": [
       8.266666666666673,
@@ -560,28 +639,39 @@
       7.7,
       8.3,
       8.4,
-      8
+      8,
+      8.6,
+      8.4,
+      8.9,
+      8.8,
+      8.8
     ]
   },
   "Pukalani, Hawaii, United States": {
     "lats": [
       21.729401878491526,
       20.625,
-      21.231
+      21.231,
+      21.183,
+      20.144,
+      20.838
     ],
     "lons": [
       201.14058412103094,
       204.107,
-      204.107
+      204.107,
+      202.615,
+      202.799,
+      201.693
     ],
     "true_lat": 20.8329,
     "true_lon": -156.3415,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Pukalani%2C+United States&go=Go&ns0=1",
-    "mean_dist": 131.8,
-    "mean_lat": 21.195,
-    "mean_lon": 203.118,
-    "mean_time": 8.1,
-    "std_dist": 104.3,
+    "mean_dist": 138.7,
+    "mean_lat": 20.958,
+    "mean_lon": 202.743,
+    "mean_time": 8.3,
+    "std_dist": 79.6,
     "std_time": 0.3,
     "city": "Pukalani",
     "admin": "Hawaii",
@@ -590,22 +680,34 @@
     "regions": [
       "Mandaluyong City",
       "New South Wales",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Philippines",
       "Australia",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       279.2783606778122,
       52,
-      64.3
+      64.3,
+      115.1,
+      117.7,
+      204.2
     ],
     "times": [
       7.700000000000008,
       8.5,
-      8.3
+      8.3,
+      8.4,
+      8.6,
+      8.8
     ]
   },
   "Nuku\u2018alofa, Tongatapu, Tonga": {
@@ -623,7 +725,13 @@
       -21.265,
       -21.265,
       -21.265,
-      -17.327
+      -17.327,
+      -18.528,
+      -18.177,
+      -19.491,
+      -20.621,
+      -20.967,
+      -20.794
     ],
     "lons": [
       185.28960372887406,
@@ -639,17 +747,23 @@
       184.847,
       184.939,
       184.754,
-      178.58
+      178.58,
+      185.75,
+      185.842,
+      185.566,
+      184.828,
+      185.473,
+      184.552
     ],
     "true_lat": -21.1385,
     "true_lon": -175.2206,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Nuku\u2018alofa%2C+Tonga&go=Go&ns0=1",
-    "mean_dist": 134.9,
-    "mean_lat": -20.713,
-    "mean_lon": 184.699,
-    "mean_time": 7.8,
-    "std_dist": 236.7,
-    "std_time": 0.9,
+    "mean_dist": 146,
+    "mean_lat": -20.428,
+    "mean_lon": 184.889,
+    "mean_time": 8,
+    "std_dist": 209.6,
+    "std_time": 0.8,
     "city": "Nuku\u2018alofa",
     "admin": "Tongatapu",
     "country": "Tonga",
@@ -668,7 +782,13 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Leicester"
+      "Leicester",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Philippines",
@@ -684,7 +804,13 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "United Kingdom"
+      "United Kingdom",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       166.04844541347504,
@@ -700,7 +826,13 @@
       15.7,
       21.7,
       14.3,
-      776.5
+      776.5,
+      307.4,
+      347.5,
+      200.6,
+      57.7,
+      74.5,
+      44.9
     ],
     "times": [
       7.866666666666674,
@@ -716,7 +848,13 @@
       8.2,
       4.8,
       8.6,
-      7.2
+      7.2,
+      8.6,
+      8.5,
+      8.8,
+      8.5,
+      8.6,
+      8.7
     ]
   },
   "Satupa\u2018itea, Satupa\u2018itea, Samoa": {
@@ -737,7 +875,11 @@
       -14.307,
       -14.128,
       -14.038,
-      -13.993
+      -13.993,
+      -13.908,
+      -14.356,
+      -14.356,
+      -13.458
     ],
     "lons": [
       210.17195667005052,
@@ -756,16 +898,20 @@
       188.256,
       187.796,
       188.072,
-      188.602
+      188.602,
+      188.238,
+      187.501,
+      188.33,
+      187.685
     ],
     "true_lat": -13.7659,
     "true_lon": -172.3269,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Satupa\u2018itea%2C+Samoa&go=Go&ns0=1",
-    "mean_dist": 253.5,
-    "mean_lat": -14.358,
-    "mean_lon": 188.774,
-    "mean_time": 8.2,
-    "std_dist": 589.8,
+    "mean_dist": 217.7,
+    "mean_lat": -14.293,
+    "mean_lon": 188.615,
+    "mean_time": 8.3,
+    "std_dist": 535.8,
     "std_time": 0.3,
     "city": "Satupa\u2018itea",
     "admin": "Satupa\u2018itea",
@@ -788,7 +934,11 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Corona"
+      "Corona",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Philippines",
@@ -807,7 +957,11 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "United States"
+      "United States",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       2448.3276200526234,
@@ -826,7 +980,11 @@
       87.1,
       42.4,
       52.7,
-      103.4
+      103.4,
+      63,
+      68.2,
+      96.7,
+      34.2
     ],
     "times": [
       8.000000000000007,
@@ -845,7 +1003,11 @@
       8.6,
       8.5,
       8.1,
-      8.4
+      8.4,
+      8,
+      8.4,
+      8.5,
+      8.8
     ]
   },
   "Funafuti, Funafuti, Tuvalu": {
@@ -866,7 +1028,16 @@
       -8.503,
       -8.503,
       -8.777,
-      -15.782
+      -15.782,
+      -12.917,
+      -12.917,
+      -8.003,
+      -7.728,
+      -8.37,
+      -8.278,
+      -8.645,
+      -8.461,
+      -8.278
     ],
     "lons": [
       178.4699958857368,
@@ -885,17 +1056,26 @@
       179.409,
       179.778,
       179.133,
-      168.097
+      168.097,
+      176.258,
+      177.732,
+      178.838,
+      178.93,
+      179.022,
+      178.285,
+      178.93,
+      178.93,
+      179.391
     ],
     "true_lat": -8.5167,
     "true_lon": 179.2166,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Funafuti%2C+Tuvalu&go=Go&ns0=1",
-    "mean_dist": 297.2,
-    "mean_lat": -8.931,
-    "mean_lon": 178.505,
-    "mean_time": 7.5,
-    "std_dist": 485.5,
-    "std_time": 1.3,
+    "mean_dist": 251.9,
+    "mean_lat": -9.055,
+    "mean_lon": 178.496,
+    "mean_time": 7.8,
+    "std_dist": 415.9,
+    "std_time": 1.1,
     "city": "Funafuti",
     "admin": "Funafuti",
     "country": "Tuvalu",
@@ -917,7 +1097,16 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Gomel Oblast"
+      "Gomel Oblast",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Philippines",
@@ -936,7 +1125,16 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Belarus"
+      "Belarus",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       87.38820967484345,
@@ -955,7 +1153,16 @@
       21.2,
       61.8,
       30.4,
-      1453
+      1453,
+      586.4,
+      515.5,
+      70.5,
+      93,
+      26.8,
+      105.7,
+      34.5,
+      32,
+      32.7
     ],
     "times": [
       7.766666666666675,
@@ -974,7 +1181,16 @@
       8.3,
       8.4,
       8.6,
-      5
+      5,
+      7.2,
+      8.7,
+      8.3,
+      8.4,
+      8.5,
+      8.6,
+      8.4,
+      8.5,
+      8.7
     ]
   },
   "Pago Pago, , American Samoa": {
@@ -989,7 +1205,15 @@
       -14.576,
       -13.679,
       -14.487,
-      -14.307
+      -14.307,
+      -14.625,
+      -14.267,
+      -14.625,
+      -14.625,
+      -14.446,
+      -14.625,
+      -14.267,
+      -13.998
     ],
     "lons": [
       188.23862333671718,
@@ -1002,17 +1226,25 @@
       189.547,
       190.376,
       189.547,
-      189.731
+      189.731,
+      189.344,
+      189.436,
+      189.528,
+      189.805,
+      189.16,
+      189.252,
+      189.805,
+      189.805
     ],
     "true_lat": -14.274,
     "true_lon": -170.7046,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Pago Pago%2C+American Samoa&go=Go&ns0=1",
-    "mean_dist": 86.1,
-    "mean_lat": -14.051,
-    "mean_lon": 189.017,
-    "mean_time": 7.9,
-    "std_dist": 71.2,
-    "std_time": 1.1,
+    "mean_dist": 68.2,
+    "mean_lat": -14.213,
+    "mean_lon": 189.227,
+    "mean_time": 8.2,
+    "std_dist": 59.1,
+    "std_time": 0.9,
     "city": "Pago Pago",
     "admin": "",
     "country": "American Samoa",
@@ -1028,7 +1260,15 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Philippines",
@@ -1041,7 +1281,15 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       116.44142805785641,
@@ -1054,7 +1302,15 @@
       43.2,
       134.1,
       36,
-      47.1
+      47.1,
+      39.4,
+      15.2,
+      46.5,
+      67.4,
+      24,
+      39.3,
+      54.9,
+      62.9
     ],
     "times": [
       8.300000000000006,
@@ -1067,6 +1323,14 @@
       8.3,
       8.6,
       8.2,
+      8.5,
+      8.6,
+      8.5,
+      8.8,
+      8.7,
+      8.8,
+      8.7,
+      9,
       8.5
     ]
   },
@@ -1083,7 +1347,12 @@
       -18.392,
       -13.589,
       -18.392,
-      -14.397
+      -14.397,
+      -15.608,
+      -7.545,
+      -13.728,
+      -14.087,
+      -14.267
     ],
     "lons": [
       181.97195667005053,
@@ -1097,17 +1366,22 @@
       185.768,
       181.713,
       185.952,
-      181.345
+      181.345,
+      168.977,
+      179.944,
+      183.999,
+      181.234,
+      181.787
     ],
     "true_lat": -14.2933,
     "true_lon": -178.1583,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Leava%2C+Wallis And Futuna&go=Go&ns0=1",
-    "mean_dist": 844.1,
-    "mean_lat": -13.45,
-    "mean_lon": 177.142,
-    "mean_time": 6.6,
-    "std_dist": 1223.8,
-    "std_time": 2.5,
+    "mean_dist": 742,
+    "mean_lat": -13.332,
+    "mean_lon": 177.744,
+    "mean_time": 7.1,
+    "std_dist": 1078.2,
+    "std_time": 2.3,
     "city": "Leava",
     "admin": "Sigave",
     "country": "Wallis And Futuna",
@@ -1124,7 +1398,12 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Philippines",
@@ -1138,7 +1417,12 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       15.351864649435747,
@@ -1152,7 +1436,12 @@
       619,
       79.5,
       632.5,
-      54.7
+      54.7,
+      1389.4,
+      778.3,
+      241.1,
+      69.3,
+      6.5
     ],
     "times": [
       8.533333333333339,
@@ -1166,46 +1455,69 @@
       6.3,
       8.1,
       8.3,
-      8.4
+      8.4,
+      7.5,
+      8.2,
+      8.4,
+      8.4,
+      8.7
     ]
   },
   "Lahaina, Hawaii, United States": {
     "lats": [
       20.60726769539952,
-      21.08
+      21.08,
+      21.528,
+      21.442,
+      25.85
     ],
     "lons": [
       204.08960372887407,
-      202.725
+      202.725,
+      202.338,
+      202.983,
+      162.711
     ],
     "true_lat": 20.8848,
     "true_lon": -156.6618,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Lahaina%2C+United States&go=Go&ns0=1",
-    "mean_dist": 75.6,
-    "mean_lat": 20.843,
-    "mean_lon": 203.407,
-    "mean_time": 8.6,
-    "std_dist": 8.4,
-    "std_time": 3.7,
+    "mean_dist": 903.3,
+    "mean_lat": 22.101,
+    "mean_lon": 194.969,
+    "mean_time": 8.8,
+    "std_dist": 1632.1,
+    "std_time": 0.5,
     "city": "Lahaina",
     "admin": "Hawaii",
     "country": "United States",
     "iso2": "US",
     "regions": [
       "Mandaluyong City",
-      "Charlestown"
+      "Charlestown",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Philippines",
-      "United States"
+      "United States",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       84.00808873739147,
-      67.2
+      67.2,
+      125.9,
+      72,
+      4167.4
     ],
     "times": [
       8.600000000000005,
-      8.6
+      8.6,
+      8.5,
+      8.7,
+      10
     ]
   },
   "Hanga Roa, Easter Island, Chile": {
@@ -1221,7 +1533,9 @@
       -27.828,
       -26.261,
       -8.588,
-      -27.068
+      -27.068,
+      -0.439,
+      -27.791
     ],
     "lons": [
       250.81313314063877,
@@ -1235,17 +1549,19 @@
       252.121,
       248.988,
       220.19,
-      250.808
+      250.808,
+      269.06,
+      250.905
     ],
     "true_lat": -27.133333,
     "true_lon": -109.416667,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Hanga Roa%2C+Chile&go=Go&ns0=1",
-    "mean_dist": 386.2,
-    "mean_lat": -25.653,
-    "mean_lon": 248.358,
+    "mean_dist": 591.3,
+    "mean_lat": -24.005,
+    "mean_lon": 250.019,
     "mean_time": 7.5,
-    "std_dist": 1031.7,
-    "std_time": 1.4,
+    "std_dist": 1264.3,
+    "std_time": 1.3,
     "city": "Hanga Roa",
     "admin": "Easter Island",
     "country": "Chile",
@@ -1262,7 +1578,9 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Leicester",
-      "Gomel Oblast"
+      "Gomel Oblast",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Philippines",
@@ -1276,7 +1594,9 @@
       "Netherlands",
       "Netherlands",
       "United Kingdom",
-      "Belarus"
+      "Belarus",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       31.165151354813887,
@@ -1290,7 +1610,9 @@
       170.2,
       185.7,
       3802,
-      23.4
+      23.4,
+      3564.2,
+      79.7
     ],
     "times": [
       8.200000000000006,
@@ -1304,7 +1626,9 @@
       8.5,
       8.3,
       4.8,
-      3.7
+      3.7,
+      7.7,
+      7.9
     ]
   },
   "Alofi, , Niue": {
@@ -1316,7 +1640,9 @@
       -19.421,
       -20.92,
       -19.093,
-      -19.356
+      -19.356,
+      -19.054,
+      -19.229
     ],
     "lons": [
       199.85038804259955,
@@ -1326,17 +1652,19 @@
       190.192,
       200.145,
       190.192,
-      190.1
+      190.1,
+      190.45,
+      189.989
     ],
     "true_lat": -19.054,
     "true_lon": -169.92,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Alofi%2C+Niue&go=Go&ns0=1",
-    "mean_dist": 582,
-    "mean_lat": -20.084,
-    "mean_lon": 189.809,
-    "mean_time": 8,
-    "std_dist": 810.6,
-    "std_time": 0.5,
+    "mean_dist": 471.7,
+    "mean_lat": -19.895,
+    "mean_lon": 189.891,
+    "mean_time": 8.1,
+    "std_dist": 757.8,
+    "std_time": 0.4,
     "city": "Alofi",
     "admin": "",
     "country": "Niue",
@@ -1349,7 +1677,9 @@
       "Corona",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Philippines",
@@ -1359,7 +1689,9 @@
       "United States",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       1043.70424192911,
@@ -1369,7 +1701,9 @@
       42.5,
       1071.8,
       12.5,
-      33.6
+      33.6,
+      38.9,
+      21.6
     ],
     "times": [
       8.066666666666674,
@@ -1379,7 +1713,9 @@
       7.1,
       8.4,
       8.5,
-      8.4
+      8.4,
+      8.6,
+      8.3
     ]
   },
   "Kula, Hawaii, United States": {
@@ -1461,21 +1797,27 @@
     "lats": [
       -40.999154788665926,
       -38.13,
-      -44.583
+      -44.583,
+      -40.32,
+      -43.622,
+      -43.823
     ],
     "lons": [
       173.76999588573682,
       177.059,
-      171.207
+      171.207,
+      174.322,
+      171.742,
+      172.203
     ],
     "true_lat": -43.3813,
     "true_lon": 172.651,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kairaki%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 382.9,
-    "mean_lat": -41.237,
-    "mean_lon": 174.011,
-    "mean_time": 7.9,
-    "std_dist": 222.4,
+    "mean_dist": 275.8,
+    "mean_lat": -41.912,
+    "mean_lon": 173.383,
+    "mean_time": 8.2,
+    "std_dist": 214.6,
     "std_time": 0.5,
     "city": "Kairaki",
     "admin": "Canterbury",
@@ -1484,22 +1826,34 @@
     "regions": [
       "Mandaluyong City",
       "Corona",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Philippines",
       "United States",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       280.4592109011386,
       691.7,
-      176.6
+      176.6,
+      367.4,
+      78,
+      60.9
     ],
     "times": [
       8.533333333333339,
       7.3,
-      7.9
+      7.9,
+      8.7,
+      8.6,
+      8.7
     ]
   },
   "Lufilufi, Atua, Samoa": {
@@ -1510,7 +1864,14 @@
       -13.409,
       -13.499,
       -13.589,
-      -13.948
+      -13.948,
+      -14.087,
+      -13.998,
+      -14.267,
+      -14.356,
+      -14.356,
+      -13.368,
+      -13.818
     ],
     "lons": [
       187.86999588573678,
@@ -1519,16 +1880,23 @@
       187.703,
       187.427,
       188.533,
-      188.533
+      188.533,
+      188.146,
+      188.238,
+      188.422,
+      188.146,
+      187.869,
+      188.238,
+      187.962
     ],
     "true_lat": -13.8745,
     "true_lon": -171.5986,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Lufilufi%2C+Samoa&go=Go&ns0=1",
-    "mean_dist": 56.5,
-    "mean_lat": -13.742,
-    "mean_lon": 188.029,
-    "mean_time": 8.3,
-    "std_dist": 32.1,
+    "mean_dist": 53,
+    "mean_lat": -13.889,
+    "mean_lon": 188.087,
+    "mean_time": 8.5,
+    "std_dist": 25.9,
     "std_time": 0.2,
     "city": "Lufilufi",
     "admin": "Atua",
@@ -1541,7 +1909,14 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Philippines",
@@ -1550,7 +1925,14 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       60.6347651575133,
@@ -1559,7 +1941,14 @@
       91.4,
       113.1,
       34.7,
-      16.4
+      16.4,
+      36.3,
+      22.2,
+      43.7,
+      60.2,
+      78.5,
+      58.9,
+      47.8
     ],
     "times": [
       8.200000000000006,
@@ -1568,7 +1957,14 @@
       8,
       8.2,
       8.5,
-      8.2
+      8.2,
+      8.6,
+      8.7,
+      8.6,
+      8.4,
+      8.6,
+      8.9,
+      8.8
     ]
   },
   "Papeete, \u00celes du Vent, French Polynesia": {
@@ -1581,7 +1977,12 @@
       -17.335,
       -17.776,
       -17.688,
-      -17.864
+      -17.864,
+      -17.736,
+      -17.913,
+      -21.226,
+      -17.56,
+      -17.825
     ],
     "lons": [
       211.09352529750151,
@@ -1592,16 +1993,21 @@
       210.466,
       211.572,
       211.111,
-      210.466
+      210.466,
+      210.632,
+      210.632,
+      200.034,
+      210.724,
+      210.448
     ],
     "true_lat": -17.5334,
     "true_lon": -149.5667,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Papeete%2C+French Polynesia&go=Go&ns0=1",
-    "mean_dist": 57.2,
-    "mean_lat": -17.753,
-    "mean_lon": 210.627,
-    "mean_time": 8.1,
-    "std_dist": 37.5,
+    "mean_dist": 130.1,
+    "mean_lat": -18.003,
+    "mean_lon": 209.865,
+    "mean_time": 8.2,
+    "std_dist": 288.8,
     "std_time": 0.3,
     "city": "Papeete",
     "admin": "\u00celes du Vent",
@@ -1616,7 +2022,12 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Philippines",
@@ -1627,7 +2038,12 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       112.25238675867837,
@@ -1638,7 +2054,12 @@
       22.2,
       123.7,
       73.9,
-      37
+      37,
+      30.9,
+      47.2,
+      1165.1,
+      31,
+      32.4
     ],
     "times": [
       8.266666666666673,
@@ -1649,7 +2070,12 @@
       8.2,
       7.7,
       8.5,
-      8.5
+      8.5,
+      8.2,
+      8.6,
+      8.5,
+      8.4,
+      8.6
     ]
   },
   "Richmond, Tasman, New Zealand": {
@@ -1672,7 +2098,10 @@
       -41.123,
       -41.61,
       -41.332,
-      -41.679
+      -41.679,
+      -41.37,
+      -37.512,
+      -41.231
     ],
     "lons": [
       146.2150939249525,
@@ -1693,16 +2122,19 @@
       173.419,
       172.774,
       173.05,
-      172.498
+      172.498,
+      173.769,
+      178.009,
+      174.046
     ],
     "true_lat": -41.339,
     "true_lon": 173.185,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Richmond%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 396.9,
-    "mean_lat": -41.751,
-    "mean_lon": 169.906,
-    "mean_time": 7.4,
-    "std_dist": 670,
+    "mean_dist": 375.3,
+    "mean_lat": -41.517,
+    "mean_lon": 170.638,
+    "mean_time": 7.5,
+    "std_dist": 631.8,
     "std_time": 1.3,
     "city": "Richmond",
     "admin": "Tasman",
@@ -1727,7 +2159,10 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Philippines",
@@ -1748,7 +2183,10 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       2233.4986809683096,
@@ -1769,7 +2207,10 @@
       30.9,
       45.5,
       11.2,
-      68.5
+      68.5,
+      48.9,
+      593.7,
+      72.9
     ],
     "times": [
       6.866666666666678,
@@ -1790,7 +2231,10 @@
       8.4,
       8.5,
       8.1,
-      8.4
+      8.4,
+      8.7,
+      8.1,
+      8.6
     ]
   },
   "Ewa Beach, Hawaii, United States": {
@@ -1798,23 +2242,27 @@
       20.625918772089857,
       20.452,
       20.625,
-      20.018
+      20.018,
+      20.491,
+      19.883
     ],
     "lons": [
       203.8313725490196,
       203.094,
       202.633,
-      204.384
+      204.384,
+      203.352,
+      203.72
     ],
     "true_lat": 21.3181,
     "true_lon": -158.0073,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ewa Beach%2C+United States&go=Go&ns0=1",
-    "mean_dist": 186.1,
-    "mean_lat": 20.43,
-    "mean_lon": 203.485,
-    "mean_time": 8.3,
-    "std_dist": 69.2,
-    "std_time": 0.1,
+    "mean_dist": 192.2,
+    "mean_lat": 20.349,
+    "mean_lon": 203.502,
+    "mean_time": 8.4,
+    "std_dist": 60.8,
+    "std_time": 0.2,
     "city": "Ewa Beach",
     "admin": "Hawaii",
     "country": "United States",
@@ -1823,25 +2271,33 @@
       "New South Wales",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Australia",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       205.83603880436138,
       149.5,
       101.7,
-      287.7
+      287.7,
+      168.4,
+      240.4
     ],
     "times": [
       8.03333333333334,
       8.3,
       8.4,
-      8.5
+      8.5,
+      8.9,
+      8.6
     ]
   },
   "Timaru, Canterbury, New Zealand": {
@@ -1859,7 +2315,14 @@
       -43.719,
       -43.451,
       -41.955,
-      -43.853
+      -43.853,
+      -37.805,
+      -41.509,
+      -43.823,
+      -43.353,
+      -43.353,
+      -43.823,
+      -43.622
     ],
     "lons": [
       172.68235294117648,
@@ -1875,16 +2338,23 @@
       172.037,
       172.498,
       173.419,
-      172.037
+      172.037,
+      175.889,
+      174.415,
+      171.558,
+      171.742,
+      171.742,
+      171.65,
+      171.466
     ],
     "true_lat": -44.3972,
     "true_lon": 171.2425,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Timaru%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 223.3,
-    "mean_lat": -42.975,
-    "mean_lon": 172.632,
-    "mean_time": 7.9,
-    "std_dist": 189.7,
+    "mean_dist": 230.5,
+    "mean_lat": -42.806,
+    "mean_lon": 172.634,
+    "mean_time": 8.2,
+    "std_dist": 217.3,
     "std_time": 0.6,
     "city": "Timaru",
     "admin": "Canterbury",
@@ -1904,7 +2374,14 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Australia",
@@ -1920,7 +2397,14 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       133.53575470561955,
@@ -1936,7 +2420,14 @@
       98.5,
       145.4,
       323.8,
-      87.6
+      87.6,
+      829.6,
+      411.9,
+      68.6,
+      122.7,
+      122.7,
+      71.6,
+      87.9
     ],
     "times": [
       8.13333333333334,
@@ -1952,7 +2443,14 @@
       8.6,
       8.4,
       8.6,
-      8.5
+      8.5,
+      8.7,
+      8.4,
+      8.8,
+      8.8,
+      8.9,
+      8.6,
+      8.6
     ]
   },
   "Kihei, Hawaii, United States": {
@@ -1960,23 +2458,25 @@
       21.14481950018126,
       20.972,
       20.365,
-      20.539
+      20.539,
+      21.011
     ],
     "lons": [
       202.35686274509806,
       202.725,
       203.001,
-      202.08
+      202.08,
+      201.969
     ],
     "true_lat": 20.7653,
     "true_lon": -156.4454,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kihei%2C+United States&go=Go&ns0=1",
-    "mean_dist": 112.1,
-    "mean_lat": 20.755,
-    "mean_lon": 202.54,
-    "mean_time": 8.3,
-    "std_dist": 32.9,
-    "std_time": 0.1,
+    "mean_dist": 123,
+    "mean_lat": 20.806,
+    "mean_lon": 202.426,
+    "mean_time": 8.4,
+    "std_dist": 36.6,
+    "std_time": 0.2,
     "city": "Kihei",
     "admin": "Hawaii",
     "country": "United States",
@@ -1985,64 +2485,74 @@
       "New South Wales",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary"
     ],
     "countries": [
       "Australia",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada"
     ],
     "dists": [
       131.3376597969702,
       89.1,
       72.6,
-      155.4
+      155.4,
+      166.8
     ],
     "times": [
       8.533333333333339,
       8.2,
       8.3,
-      8.4
+      8.4,
+      8.8
     ]
   },
   "Waikoloa Village, Hawaii, United States": {
     "lats": [
       21.661908997947645,
-      22.348
+      22.348,
+      20.578
     ],
     "lons": [
       202.08039215686273,
-      201.343
+      201.343,
+      203.075
     ],
     "true_lat": 19.9285,
     "true_lon": -155.8185,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Waikoloa Village%2C+United States&go=Go&ns0=1",
-    "mean_dist": 345,
-    "mean_lat": 22.004,
-    "mean_lon": 201.711,
-    "mean_time": 8.3,
-    "std_dist": 53.7,
-    "std_time": 3.7,
+    "mean_dist": 275.3,
+    "mean_lat": 21.529,
+    "mean_lon": 202.166,
+    "mean_time": 8.5,
+    "std_dist": 107.8,
+    "std_time": 0.2,
     "city": "Waikoloa Village",
     "admin": "Hawaii",
     "country": "United States",
     "iso2": "US",
     "regions": [
       "New South Wales",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary"
     ],
     "countries": [
       "Australia",
-      "Netherlands"
+      "Netherlands",
+      "Canada"
     ],
     "dists": [
       291.2890698238883,
-      398.8
+      398.8,
+      136.1
     ],
     "times": [
       8.300000000000006,
-      8.3
+      8.3,
+      8.9
     ]
   },
   "Wanaka, Otago, New Zealand": {
@@ -2050,23 +2560,37 @@
       -38.710296152296266,
       -41.955,
       -46.399,
-      -41.955
+      -41.955,
+      -45.663,
+      -45.986,
+      -45.143,
+      -45.143,
+      -45.404,
+      -45.274,
+      -45.274
     ],
     "lons": [
       175.7235294117647,
       172.682,
       168.811,
-      173.05
+      173.05,
+      170.452,
+      168.517,
+      169.254,
+      169.715,
+      169.162,
+      169.162,
+      168.977
     ],
     "true_lat": -44.698,
     "true_lon": 169.1449,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Wanaka%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 477.1,
-    "mean_lat": -42.254,
-    "mean_lon": 172.566,
-    "mean_time": 7.8,
-    "std_dist": 241.7,
-    "std_time": 0.2,
+    "mean_dist": 230.3,
+    "mean_lat": -44.264,
+    "mean_lon": 170.5,
+    "mean_time": 8.2,
+    "std_dist": 238.8,
+    "std_time": 0.4,
     "city": "Wanaka",
     "admin": "Otago",
     "country": "New Zealand",
@@ -2075,25 +2599,53 @@
       "New South Wales",
       "Corona",
       "Lichtenvoorde",
-      "Corona"
+      "Corona",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Australia",
       "United States",
       "Netherlands",
-      "United States"
+      "United States",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       860.5206633168069,
       418.1,
       191,
-      439
+      439,
+      148.4,
+      151.4,
+      50.3,
+      66.8,
+      78.5,
+      64.1,
+      65.4
     ],
     "times": [
       8.100000000000007,
       7.6,
       8.2,
-      7.6
+      7.6,
+      7.7,
+      8.6,
+      8.5,
+      8.6,
+      8.8,
+      8.7,
+      8.7
     ]
   },
   "Safotulafai, Fa\u2018asaleleaga, Samoa": {
@@ -2107,7 +2659,10 @@
       -13.768,
       -13.499,
       -13.858,
-      -13.858
+      -13.858,
+      -13.998,
+      -14.087,
+      -13.548
     ],
     "lons": [
       187.88823529411764,
@@ -2119,17 +2674,20 @@
       188.072,
       187.703,
       187.519,
-      187.703
+      187.703,
+      187.685,
+      188.791,
+      188.146
     ],
     "true_lat": -13.6715,
     "true_lon": -172.1777,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Safotulafai%2C+Samoa&go=Go&ns0=1",
-    "mean_dist": 112.7,
-    "mean_lat": -14.505,
-    "mean_lon": 187.588,
-    "mean_time": 8,
-    "std_dist": 206.9,
-    "std_time": 0.7,
+    "mean_dist": 101.4,
+    "mean_lat": -14.36,
+    "mean_lon": 187.731,
+    "mean_time": 8.1,
+    "std_dist": 183.4,
+    "std_time": 0.6,
     "city": "Safotulafai",
     "admin": "Fa\u2018asaleleaga",
     "country": "Samoa",
@@ -2144,7 +2702,10 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Australia",
@@ -2156,7 +2717,10 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       41.430559091431164,
@@ -2168,7 +2732,10 @@
       29.1,
       23,
       38.7,
-      24.4
+      24.4,
+      39.1,
+      114.4,
+      37.6
     ],
     "times": [
       8.533333333333339,
@@ -2180,7 +2747,10 @@
       8.3,
       8.6,
       8.5,
-      8.5
+      8.5,
+      8.2,
+      8.5,
+      8.7
     ]
   },
   "Atafu, , Tokelau": {
@@ -2196,7 +2766,8 @@
       -9.234,
       -15.827,
       -8.411,
-      -19.421
+      -19.421,
+      -0.994
     ],
     "lons": [
       187.51960784313727,
@@ -2210,17 +2781,18 @@
       187.611,
       184.662,
       187.243,
-      190.215
+      190.215,
+      175.152
     ],
     "true_lat": -8.551667,
     "true_lon": -172.500833,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Atafu%2C+Tokelau&go=Go&ns0=1",
-    "mean_dist": 1041.2,
-    "mean_lat": -13.993,
-    "mean_lon": 183.796,
+    "mean_dist": 1084.5,
+    "mean_lat": -12.993,
+    "mean_lon": 183.131,
     "mean_time": 7.3,
-    "std_dist": 1390.1,
-    "std_time": 1.4,
+    "std_dist": 1343.9,
+    "std_time": 1.3,
     "city": "Atafu",
     "admin": "",
     "country": "Tokelau",
@@ -2237,7 +2809,8 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Corona"
+      "Corona",
+      "Calgary"
     ],
     "countries": [
       "Australia",
@@ -2251,7 +2824,8 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "United States"
+      "United States",
+      "Canada"
     ],
     "dists": [
       25.24583181939065,
@@ -2265,7 +2839,8 @@
       76.9,
       865.6,
       32.1,
-      1243.5
+      1243.5,
+      1604.6
     ],
     "times": [
       8.13333333333334,
@@ -2279,7 +2854,8 @@
       7.3,
       7.9,
       8.4,
-      5.6
+      5.6,
+      8.1
     ]
   },
   "Lower Hutt, Wellington, New Zealand": {
@@ -2290,7 +2866,9 @@
       -41.263,
       -40.914,
       -41.263,
-      -40.914
+      -40.914,
+      -41.992,
+      -40.952
     ],
     "lons": [
       175.078431372549,
@@ -2299,17 +2877,19 @@
       174.986,
       175.354,
       175.262,
-      175.17
+      175.17,
+      174.968,
+      174.691
     ],
     "true_lat": -41.2037,
     "true_lon": 174.9123,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Lower Hutt%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 71.7,
-    "mean_lat": -40.73,
-    "mean_lon": 175.236,
-    "mean_time": 7.5,
-    "std_dist": 106.8,
-    "std_time": 1.5,
+    "mean_dist": 69.2,
+    "mean_lat": -40.895,
+    "mean_lon": 175.145,
+    "mean_time": 7.7,
+    "std_dist": 95.1,
+    "std_time": 1.4,
     "city": "Lower Hutt",
     "admin": "Wellington",
     "country": "New Zealand",
@@ -2321,7 +2901,9 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Australia",
@@ -2330,7 +2912,9 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       26.057513940559733,
@@ -2339,7 +2923,9 @@
       9,
       49.1,
       30,
-      38.7
+      38.7,
+      87.8,
+      33.4
     ],
     "times": [
       8.33333333333334,
@@ -2348,7 +2934,9 @@
       6.8,
       8.4,
       8.5,
-      8.4
+      8.4,
+      8.5,
+      8.6
     ]
   },
   "Tauranga, Bay of Plenty, New Zealand": {
@@ -2357,24 +2945,38 @@
       -37.838,
       -38.348,
       -38.202,
-      -39.763
+      -39.763,
+      -36.922,
+      -38.17,
+      -38.024,
+      -38.024,
+      -37.512,
+      -37.732,
+      -38.677
     ],
     "lons": [
       177.01372549019607,
       176.46,
       177.105,
       176.276,
-      173.972
+      173.972,
+      175.06,
+      175.981,
+      176.35,
+      176.258,
+      176.626,
+      176.811,
+      176.258
     ],
     "true_lat": -37.6964,
     "true_lon": 176.1536,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Tauranga%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 114.7,
-    "mean_lat": -38.397,
-    "mean_lon": 176.165,
-    "mean_time": 8,
-    "std_dist": 95,
-    "std_time": 0.5,
+    "mean_dist": 87.4,
+    "mean_lat": -38.087,
+    "mean_lon": 176.18,
+    "mean_time": 8.3,
+    "std_dist": 70.4,
+    "std_time": 0.4,
     "city": "Tauranga",
     "admin": "Bay of Plenty",
     "country": "New Zealand",
@@ -2384,100 +2986,152 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Leicester"
+      "Leicester",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Australia",
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "United Kingdom"
+      "United Kingdom",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       77.23333999151062,
       31.2,
       110.5,
       57.3,
-      297.7
+      297.7,
+      129.4,
+      54.7,
+      40.3,
+      37.6,
+      46.4,
+      57.9,
+      109.4
     ],
     "times": [
       8.300000000000006,
       8,
       8.5,
       8.4,
-      6.9
+      6.9,
+      8.2,
+      8.5,
+      8.5,
+      8.7,
+      8.7,
+      8.7,
+      8.7
     ]
   },
   "Wailea, Hawaii, United States": {
     "lats": [
       21.317385689018316,
-      20.625
+      20.625,
+      21.011,
+      21.356
     ],
     "lons": [
       201.80392156862746,
-      202.264
+      202.264,
+      202.799,
+      202.338
     ],
     "true_lat": 20.6873,
     "true_lon": -156.4291,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Wailea%2C+United States&go=Go&ns0=1",
-    "mean_dist": 166.1,
-    "mean_lat": 20.971,
-    "mean_lon": 202.033,
+    "mean_dist": 142,
+    "mean_lat": 21.077,
+    "mean_lon": 202.301,
     "mean_time": 8.5,
-    "std_dist": 30.1,
-    "std_time": 0,
+    "std_dist": 38.6,
+    "std_time": 0.1,
     "city": "Wailea",
     "admin": "Hawaii",
     "country": "United States",
     "iso2": "US",
     "regions": [
       "New South Wales",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Australia",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       196.34926629526566,
-      136
+      136,
+      87.8,
+      147.9
     ],
     "times": [
       8.400000000000006,
-      8.6
+      8.6,
+      8.5,
+      8.8
     ]
   },
   "East Honolulu, Hawaii, United States": {
     "lats": [
-      19.670017770871247
+      19.670017770871247,
+      21.183,
+      19.796
     ],
     "lons": [
-      204.2
+      204.2,
+      201.969,
+      203.813
     ],
     "true_lat": 21.2975,
     "true_lon": -157.7211,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=East Honolulu%2C+United States&go=Go&ns0=1",
-    "mean_dist": 269.7,
-    "mean_lat": 19.67,
-    "mean_lon": 204.2,
-    "mean_time": 8.3,
-    "std_dist": 0,
-    "std_time": 5.3,
+    "mean_dist": 178.3,
+    "mean_lat": 20.216,
+    "mean_lon": 203.327,
+    "mean_time": 8.6,
+    "std_dist": 103,
+    "std_time": 0.2,
     "city": "East Honolulu",
     "admin": "Hawaii",
     "country": "United States",
     "iso2": "US",
     "regions": [
-      "New South Wales"
+      "New South Wales",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
-      "Australia"
+      "Australia",
+      "Canada",
+      "Canada"
     ],
     "dists": [
-      269.79441447798376
+      269.79441447798376,
+      34.4,
+      231
     ],
     "times": [
-      8.300000000000006
+      8.300000000000006,
+      8.6,
+      8.9
     ]
   },
   "Hilo, Hawaii, United States": {
@@ -2544,7 +3198,12 @@
       -39.285,
       -39.142,
       -39.357,
-      -45.337
+      -45.337,
+      -39.253,
+      -38.46,
+      -40.179,
+      -41.37,
+      -38.822
     ],
     "lons": [
       177.1058823529412,
@@ -2558,16 +3217,21 @@
       176.737,
       177.566,
       177.013,
-      168.526
+      168.526,
+      175.981,
+      176.534,
+      175.889,
+      174.046,
+      177.087
     ],
     "true_lat": -39.49,
     "true_lon": 176.9265,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Napier%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 143.2,
-    "mean_lat": -39.692,
-    "mean_lon": 175.921,
-    "mean_time": 7.9,
-    "std_dist": 253.2,
+    "mean_dist": 143.3,
+    "mean_lat": -39.67,
+    "mean_lon": 175.917,
+    "mean_time": 8.2,
+    "std_dist": 218.3,
     "std_time": 0.7,
     "city": "Napier",
     "admin": "Hawke\u2019s Bay",
@@ -2585,7 +3249,12 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Leicester"
+      "Leicester",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Australia",
@@ -2599,7 +3268,12 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "United Kingdom"
+      "United Kingdom",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       17.87199532564303,
@@ -2613,7 +3287,12 @@
       27.9,
       67.2,
       16.5,
-      946.7
+      946.7,
+      85.3,
+      119.3,
+      117,
+      321.1,
+      75.5
     ],
     "times": [
       8.33333333333334,
@@ -2627,7 +3306,12 @@
       8.7,
       8.5,
       8.5,
-      7.9
+      7.9,
+      8.9,
+      8.9,
+      8.9,
+      8.6,
+      8.9
     ]
   },
   "Glencoe, Southland, New Zealand": {
@@ -2640,7 +3324,10 @@
       -46.411,
       -39.428,
       -43.636,
-      -45.79
+      -45.79,
+      -46.243,
+      -45.986,
+      -46.179
     ],
     "lons": [
       170.9313725490196,
@@ -2651,16 +3338,19 @@
       167.688,
       175.815,
       170.47,
-      168.327
+      168.327,
+      167.042,
+      167.687,
+      168.148
     ],
     "true_lat": -46.0947,
     "true_lon": 168.9604,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Glencoe%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 223.3,
-    "mean_lat": -44.661,
-    "mean_lon": 169.632,
-    "mean_time": 7.6,
-    "std_dist": 274.6,
+    "mean_dist": 193.3,
+    "mean_lat": -45.03,
+    "mean_lon": 169.13,
+    "mean_time": 7.9,
+    "std_dist": 244.1,
     "std_time": 0.7,
     "city": "Glencoe",
     "admin": "Southland",
@@ -2675,7 +3365,10 @@
       "Leicester",
       null,
       null,
-      "Corona"
+      "Corona",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Australia",
@@ -2686,7 +3379,10 @@
       "United Kingdom",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       386.8928590110566,
@@ -2697,7 +3393,10 @@
       103.9,
       927.9,
       298.1,
-      59.4
+      59.4,
+      148.6,
+      98.9,
+      63.2
     ],
     "times": [
       7.866666666666674,
@@ -2708,7 +3407,10 @@
       6.5,
       7.5,
       6.4,
-      7.9
+      7.9,
+      8.7,
+      8.6,
+      8.7
     ]
   },
   "Adamstown, , Pitcairn Islands": {
@@ -2849,7 +3551,10 @@
       -37.691,
       -38.057,
       -37.911,
-      -44.895
+      -44.895,
+      -37.658,
+      -40.531,
+      -39.396
     ],
     "lons": [
       175.7235294117647,
@@ -2859,16 +3564,19 @@
       175.907,
       174.709,
       176.737,
-      169.641
+      169.641,
+      175.152,
+      174.968,
+      174.691
     ],
     "true_lat": -38.693,
     "true_lon": 176.0771,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Taupo%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 181.7,
-    "mean_lat": -39.107,
-    "mean_lon": 174.985,
-    "mean_time": 7.9,
-    "std_dist": 262.7,
+    "mean_dist": 178.4,
+    "mean_lat": -39.131,
+    "mean_lon": 174.972,
+    "mean_time": 8.1,
+    "std_dist": 225.1,
     "std_time": 0.6,
     "city": "Taupo",
     "admin": "Waikato",
@@ -2882,7 +3590,10 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       null,
-      null
+      null,
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Australia",
@@ -2892,7 +3603,10 @@
       "Netherlands",
       "Netherlands",
       "United States",
-      "United States"
+      "United States",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       35.5306085695138,
@@ -2902,7 +3616,10 @@
       112.2,
       138.5,
       104.2,
-      871.3
+      871.3,
+      140.5,
+      225.4,
+      142.9
     ],
     "times": [
       8.266666666666673,
@@ -2912,7 +3629,10 @@
       8.2,
       8.5,
       7.1,
-      6.5
+      6.5,
+      8.1,
+      8.8,
+      8.9
     ]
   },
   "Mulifanua, Aiga-i-le-Tai, Samoa": {
@@ -2934,7 +3654,12 @@
       -17.327,
       -13.048,
       -13.836,
-      -13.768
+      -13.768,
+      -13.548,
+      -14.177,
+      -14.087,
+      -14.356,
+      -14.446
     ],
     "lons": [
       187.79607843137256,
@@ -2954,17 +3679,22 @@
       180.674,
       189.27,
       187.703,
-      187.565
+      187.565,
+      188.054,
+      188.054,
+      188.238,
+      188.33,
+      188.422
     ],
     "true_lat": -13.8318,
     "true_lon": -172.036,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Mulifanua%2C+Samoa&go=Go&ns0=1",
-    "mean_dist": 125.4,
-    "mean_lat": -14.337,
-    "mean_lon": 187.665,
-    "mean_time": 7.5,
-    "std_dist": 226,
-    "std_time": 1.8,
+    "mean_dist": 109.8,
+    "mean_lat": -14.29,
+    "mean_lon": 187.785,
+    "mean_time": 7.7,
+    "std_dist": 202.3,
+    "std_time": 1.7,
     "city": "Mulifanua",
     "admin": "Aiga-i-le-Tai",
     "country": "Samoa",
@@ -2987,7 +3717,12 @@
       "Leicester",
       null,
       null,
-      "Corona"
+      "Corona",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Australia",
@@ -3007,7 +3742,12 @@
       "United Kingdom",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       29.27388566751605,
@@ -3027,7 +3767,12 @@
       871.9,
       165.9,
       28,
-      43.5
+      43.5,
+      32.9,
+      39.6,
+      41,
+      70.5,
+      84.3
     ],
     "times": [
       9.100000000000003,
@@ -3047,7 +3792,12 @@
       8.1,
       7.2,
       1.6,
-      6.3
+      6.3,
+      8.5,
+      8.7,
+      8.8,
+      8.5,
+      8.7
     ]
   },
   "Kailua, Hawaii, United States": {
@@ -3104,7 +3854,8 @@
       -40.352,
       -37.911,
       -38.202,
-      -37.966
+      -37.966,
+      -40.108
     ],
     "lons": [
       175.078431372549,
@@ -3114,16 +3865,17 @@
       175.723,
       175.815,
       176.368,
-      175.585
+      175.585,
+      175.152
     ],
     "true_lat": -37.1384,
     "true_lon": 175.5853,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Thames%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 221.3,
-    "mean_lat": -39.065,
-    "mean_lon": 175.475,
-    "mean_time": 7.3,
-    "std_dist": 102.8,
+    "mean_dist": 233.6,
+    "mean_lat": -39.181,
+    "mean_lon": 175.439,
+    "mean_time": 7.4,
+    "std_dist": 103,
     "std_time": 1.5,
     "city": "Thames",
     "admin": "Waikato",
@@ -3137,7 +3889,8 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Gomel Oblast"
+      "Gomel Oblast",
+      "Calgary"
     ],
     "countries": [
       "Australia",
@@ -3147,7 +3900,8 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Belarus"
+      "Belarus",
+      "Canada"
     ],
     "dists": [
       352.26698616259233,
@@ -3157,7 +3911,8 @@
       357.5,
       88.3,
       136.9,
-      92
+      92,
+      332.3
     ],
     "times": [
       6.16666666666668,
@@ -3167,7 +3922,8 @@
       8.3,
       8.6,
       8.4,
-      5.8
+      5.8,
+      8.6
     ]
   },
   "Waipio, Hawaii, United States": {
@@ -3317,40 +4073,46 @@
   "Hawaiian Beaches, Hawaii, United States": {
     "lats": [
       21.14481950018126,
-      20.365
+      20.365,
+      20.578
     ],
     "lons": [
       201.80392156862746,
-      203.923
+      203.923,
+      203.075
     ],
     "true_lat": 19.5423,
     "true_lon": -154.9223,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Hawaiian Beaches%2C+United States&go=Go&ns0=1",
-    "mean_dist": 268.2,
-    "mean_lat": 20.754,
-    "mean_lon": 202.863,
-    "mean_time": 8.2,
-    "std_dist": 116.8,
-    "std_time": 0,
+    "mean_dist": 258.3,
+    "mean_lat": 20.695,
+    "mean_lon": 202.933,
+    "mean_time": 8.3,
+    "std_dist": 96.3,
+    "std_time": 0.2,
     "city": "Hawaiian Beaches",
     "admin": "Hawaii",
     "country": "United States",
     "iso2": "US",
     "regions": [
       "New South Wales",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary"
     ],
     "countries": [
       "Australia",
-      "Netherlands"
+      "Netherlands",
+      "Canada"
     ],
     "dists": [
       385.01697554738183,
-      151.4
+      151.4,
+      238.7
     ],
     "times": [
       8.13333333333334,
-      8.3
+      8.3,
+      8.7
     ]
   },
   "Invercargill, Southland, New Zealand": {
@@ -3367,7 +4129,9 @@
       -45.87,
       -45.628,
       -46.654,
-      -46.015
+      -46.015,
+      -39.253,
+      -46.307
     ],
     "lons": [
       168.44313725490196,
@@ -3382,16 +4146,18 @@
       167.521,
       169.088,
       169.641,
-      168.074
+      168.074,
+      175.336,
+      167.411
     ],
     "true_lat": -46.4094,
     "true_lon": 168.365,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Invercargill%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 473.5,
-    "mean_lat": -43.362,
-    "mean_lon": 171.977,
-    "mean_time": 7.2,
-    "std_dist": 595.9,
+    "mean_dist": 480.5,
+    "mean_lat": -43.284,
+    "mean_lon": 171.897,
+    "mean_time": 7.4,
+    "std_dist": 579,
     "std_time": 1.2,
     "city": "Invercargill",
     "admin": "Southland",
@@ -3410,7 +4176,9 @@
       "Minsk",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Australia",
@@ -3425,7 +4193,9 @@
       "Belarus",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       21.05882887227018,
@@ -3440,7 +4210,9 @@
       88.3,
       103.2,
       101.3,
-      49.1
+      49.1,
+      977,
+      74
     ],
     "times": [
       8.366666666666672,
@@ -3455,7 +4227,9 @@
       6,
       8.2,
       8.3,
-      8.4
+      8.4,
+      8.5,
+      8.8
     ]
   },
   "Halfmoon Bay, Southland, New Zealand": {
@@ -3467,7 +4241,11 @@
       -38.13,
       -39.357,
       -38.42,
-      -38.493
+      -38.493,
+      -39.109,
+      -46.434,
+      -46.243,
+      -46.05
     ],
     "lons": [
       168.44313725490196,
@@ -3477,17 +4255,21 @@
       177.566,
       176.921,
       176.46,
-      176
+      176,
+      174.783,
+      167.595,
+      166.95,
+      167.595
     ],
     "true_lat": -46.8876,
     "true_lon": 168.1666,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Halfmoon Bay%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 882.9,
-    "mean_lat": -40.396,
-    "mean_lon": 174.341,
-    "mean_time": 7.5,
-    "std_dist": 487.3,
-    "std_time": 1.8,
+    "mean_dist": 697.3,
+    "mean_lat": -41.75,
+    "mean_lon": 172.637,
+    "mean_time": 7.9,
+    "std_dist": 529.6,
+    "std_time": 1.6,
     "city": "Halfmoon Bay",
     "admin": "Southland",
     "country": "New Zealand",
@@ -3500,7 +4282,11 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Australia",
@@ -3510,7 +4296,11 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       64.87609489721741,
@@ -3520,7 +4310,11 @@
       1239.8,
       1096.7,
       1158.9,
-      1130.5
+      1130.5,
+      1017.7,
+      66.5,
+      117.3,
+      102.8
     ],
     "times": [
       8.266666666666673,
@@ -3530,7 +4324,11 @@
       8.5,
       8.1,
       8.5,
-      8.6
+      8.6,
+      8.6,
+      8.5,
+      8.7,
+      8.7
     ]
   },
   "Asau, Vaisigano, Samoa": {
@@ -3542,7 +4340,12 @@
       -13.858,
       -14.105,
       -13.948,
-      -13.499
+      -13.499,
+      -14.177,
+      -14.625,
+      -13.728,
+      -13.908,
+      -13.728
     ],
     "lons": [
       187.98039215686273,
@@ -3552,17 +4355,22 @@
       188.464,
       188.349,
       188.441,
-      187.243
+      187.243,
+      188.238,
+      188.515,
+      187.962,
+      188.515,
+      188.238
     ],
     "true_lat": -13.5196,
     "true_lon": -172.6378,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Asau%2C+Samoa&go=Go&ns0=1",
-    "mean_dist": 104.4,
-    "mean_lat": -14.127,
-    "mean_lon": 187.764,
-    "mean_time": 7.3,
-    "std_dist": 93.1,
-    "std_time": 2.1,
+    "mean_dist": 109.8,
+    "mean_lat": -14.091,
+    "mean_lon": 187.967,
+    "mean_time": 7.8,
+    "std_dist": 76.5,
+    "std_time": 1.8,
     "city": "Asau",
     "admin": "Vaisigano",
     "country": "Samoa",
@@ -3575,7 +4383,12 @@
       "Corona",
       "Corona",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Australia",
@@ -3585,7 +4398,12 @@
       "United States",
       "United States",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       72.32728804393469,
@@ -3595,7 +4413,12 @@
       124.8,
       124.9,
       125.9,
-      13
+      13,
+      119.6,
+      174.9,
+      68.8,
+      131.8,
+      97.5
     ],
     "times": [
       8.86666666666667,
@@ -3605,7 +4428,12 @@
       8.4,
       8.5,
       7.2,
-      8.4
+      8.4,
+      8.6,
+      9,
+      8.7,
+      8.9,
+      8.7
     ]
   },
   "Hickam Housing, Hawaii, United States": {
@@ -3613,22 +4441,24 @@
       20.712526472299892,
       20.159,
       20.734,
-      20.625
+      20.625,
+      19.796
     ],
     "lons": [
       203.27843137254902,
       203.408,
       202.633,
-      203.462
+      203.462,
+      202.891
     ],
     "true_lat": 21.3311,
     "true_lon": -157.9475,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Hickam Housing%2C+United States&go=Go&ns0=1",
-    "mean_dist": 148,
-    "mean_lat": 20.557,
-    "mean_lon": 203.195,
-    "mean_time": 7.8,
-    "std_dist": 37.6,
+    "mean_dist": 156.7,
+    "mean_lat": 20.405,
+    "mean_lon": 203.134,
+    "mean_time": 8,
+    "std_dist": 37.9,
     "std_time": 0.7,
     "city": "Hickam Housing",
     "admin": "Hawaii",
@@ -3638,46 +4468,58 @@
       "New South Wales",
       "La Grange Park",
       "Charlestown",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary"
     ],
     "countries": [
       "Australia",
       "United States",
       "United States",
-      "Netherlands"
+      "Netherlands",
+      "Canada"
     ],
     "dists": [
       144.64397101116072,
       191.9,
       89.6,
-      166
+      166,
+      191.7
     ],
     "times": [
       8.500000000000005,
       6.5,
       8.1,
-      8.2
+      8.2,
+      8.8
     ]
   },
   "Laie, Hawaii, United States": {
     "lats": [
       21.317385689018316,
       20.647,
-      20.365
+      20.365,
+      21.011,
+      21.27,
+      20.751,
+      21.442
     ],
     "lons": [
       202.17254901960786,
       203.186,
-      202.08
+      202.08,
+      203.813,
+      203.26,
+      202.338,
+      202.338
     ],
     "true_lat": 21.6443,
     "true_lon": -157.928,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Laie%2C+United States&go=Go&ns0=1",
-    "mean_dist": 113.3,
-    "mean_lat": 20.776,
-    "mean_lon": 202.479,
-    "mean_time": 8.4,
-    "std_dist": 53.9,
+    "mean_dist": 114.5,
+    "mean_lat": 20.971,
+    "mean_lon": 202.741,
+    "mean_time": 8.5,
+    "std_dist": 55.5,
     "std_time": 0.1,
     "city": "Laie",
     "admin": "Hawaii",
@@ -3686,22 +4528,38 @@
     "regions": [
       "New South Wales",
       "Charlestown",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Australia",
       "United States",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       37.81074227606859,
       160.1,
-      142.1
+      142.1,
+      193.6,
+      129.8,
+      103,
+      35.5
     ],
     "times": [
       8.466666666666672,
       8.4,
-      8.6
+      8.6,
+      8.6,
+      8.6,
+      8.5,
+      8.8
     ]
   },
   "Porirua, Wellington, New Zealand": {
@@ -3720,7 +4578,12 @@
       -41.61,
       -41.54,
       -41.332,
-      -38.237
+      -38.237,
+      -41.022,
+      -41.992,
+      -41.301,
+      -41.231,
+      -40.531
     ],
     "lons": [
       171.1536417860431,
@@ -3737,17 +4600,22 @@
       175.17,
       175.078,
       174.801,
-      175.787
+      175.787,
+      175.52,
+      175.244,
+      174.691,
+      175.06,
+      175.152
     ],
     "true_lat": -41.1219,
     "true_lon": 174.8524,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Porirua%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 155.1,
-    "mean_lat": -41.177,
-    "mean_lon": 174.648,
-    "mean_time": 7.4,
-    "std_dist": 173.3,
-    "std_time": 1.4,
+    "mean_dist": 130.1,
+    "mean_lat": -41.186,
+    "mean_lon": 174.769,
+    "mean_time": 7.7,
+    "std_dist": 156.9,
+    "std_time": 1.3,
     "city": "Porirua",
     "admin": "Wellington",
     "country": "New Zealand",
@@ -3767,7 +4635,12 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Leicester"
+      "Leicester",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -3784,7 +4657,12 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "United Kingdom"
+      "United Kingdom",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       383.06143672514133,
@@ -3801,7 +4679,12 @@
       60.4,
       50.2,
       23.8,
-      330.5
+      330.5,
+      57.1,
+      102.1,
+      24,
+      21.2,
+      70.3
     ],
     "times": [
       6.333333333333346,
@@ -3818,26 +4701,35 @@
       8.3,
       8.3,
       8.5,
-      7.1
+      7.1,
+      8.6,
+      8.2,
+      8.8,
+      8.7,
+      8.9
     ]
   },
   "Kalaheo, Hawaii, United States": {
     "lats": [
       20.474236762667974,
-      21.317
+      21.317,
+      20.318,
+      21.27
     ],
     "lons": [
       204.0156862745098,
-      203.739
+      203.739,
+      202.615,
+      202.246
     ],
     "true_lat": 21.9159,
     "true_lon": -159.5236,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kalaheo%2C+United States&go=Go&ns0=1",
-    "mean_dist": 372,
-    "mean_lat": 20.895,
-    "mean_lon": 203.877,
-    "mean_time": 7.1,
-    "std_dist": 28.3,
+    "mean_dist": 306.1,
+    "mean_lat": 20.844,
+    "mean_lon": 203.153,
+    "mean_time": 7.9,
+    "std_dist": 75.4,
     "std_time": 1.1,
     "city": "Kalaheo",
     "admin": "Hawaii",
@@ -3845,19 +4737,27 @@
     "iso2": "US",
     "regions": [
       "Athens",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       400.3983232679018,
-      343.7
+      343.7,
+      284.2,
+      196.5
     ],
     "times": [
       6.033333333333347,
-      8.3
+      8.3,
+      8.7,
+      8.7
     ]
   },
   "Northcote, Auckland, New Zealand": {
@@ -3871,7 +4771,9 @@
       -37.324,
       -37.251,
       -36.659,
-      -40.334
+      -40.334,
+      -37.07,
+      -37.217
     ],
     "lons": [
       174.61764705882354,
@@ -3883,16 +4785,18 @@
       175.723,
       175.262,
       175.631,
-      175.539
+      175.539,
+      174.599,
+      174.23
     ],
     "true_lat": -36.7913,
     "true_lon": 174.7758,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Northcote%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 163.6,
-    "mean_lat": -37.931,
-    "mean_lon": 175.295,
-    "mean_time": 7.4,
-    "std_dist": 158.8,
+    "mean_dist": 144.9,
+    "mean_lat": -37.8,
+    "mean_lon": 175.148,
+    "mean_time": 7.6,
+    "std_dist": 151.1,
     "std_time": 1.3,
     "city": "Northcote",
     "admin": "Auckland",
@@ -3908,7 +4812,9 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       null,
-      null
+      null,
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -3920,7 +4826,9 @@
       "Netherlands",
       "Netherlands",
       "United States",
-      "United States"
+      "United States",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       82.99150625270208,
@@ -3932,7 +4840,9 @@
       102.9,
       66.9,
       77.6,
-      399.5
+      399.5,
+      34.7,
+      67.7
     ],
     "times": [
       3.933333333333355,
@@ -3944,7 +4854,9 @@
       8.1,
       8.4,
       8,
-      7.8
+      7.8,
+      8.5,
+      8.8
     ]
   },
   "Palmerston North, Manawatu-Wanganui, New Zealand": {
@@ -3960,7 +4872,15 @@
       -37.398,
       -40.493,
       -38.565,
-      -39.052
+      -39.052,
+      -36.178,
+      -36.328,
+      -39.682,
+      -38.677,
+      -40.037,
+      -40.531,
+      -40.249,
+      -40.108
     ],
     "lons": [
       160.51764705882354,
@@ -3974,16 +4894,24 @@
       175.17,
       176,
       176.368,
-      176.092
+      176.092,
+      174.322,
+      173.677,
+      175.428,
+      175.889,
+      176.166,
+      175.428,
+      175.981,
+      175.981
     ],
     "true_lat": -40.3527,
     "true_lon": 175.6072,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Palmerston North%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 812.1,
-    "mean_lat": -33.514,
-    "mean_lon": 174.121,
-    "mean_time": 7.1,
-    "std_dist": 1997.5,
+    "mean_dist": 556.2,
+    "mean_lat": -35.698,
+    "mean_lon": 174.616,
+    "mean_time": 7.6,
+    "std_dist": 1582.9,
     "std_time": 1.2,
     "city": "Palmerston North",
     "admin": "Manawatu-Wanganui",
@@ -4001,7 +4929,15 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       null,
-      null
+      null,
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -4015,7 +4951,15 @@
       "Netherlands",
       "Netherlands",
       "United States",
-      "United States"
+      "United States",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       7414.336080341887,
@@ -4029,7 +4973,15 @@
       330.6,
       36.7,
       209.1,
-      150.4
+      150.4,
+      477.4,
+      478,
+      76,
+      187.8,
+      59,
+      24.9,
+      33.7,
+      41.8
     ],
     "times": [
       5.300000000000017,
@@ -4043,7 +4995,15 @@
       8.2,
       8.1,
       7.2,
-      6.6
+      6.6,
+      8.6,
+      8.4,
+      8.7,
+      8.5,
+      8.5,
+      8.5,
+      8.7,
+      8.6
     ]
   },
   "Turangi, Waikato, New Zealand": {
@@ -4058,7 +5018,9 @@
       -38.13,
       -38.493,
       -37.545,
-      -38.275
+      -38.275,
+      -38.388,
+      -39.181
     ],
     "lons": [
       175.4470588235294,
@@ -4071,17 +5033,19 @@
       175.539,
       174.986,
       175.723,
-      175.723
+      175.723,
+      174.138,
+      174.783
     ],
     "true_lat": -38.9889,
     "true_lon": 175.8142,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Turangi%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 215.4,
-    "mean_lat": -39.094,
-    "mean_lon": 175.071,
-    "mean_time": 7.5,
-    "std_dist": 145.9,
-    "std_time": 1.2,
+    "mean_dist": 201.6,
+    "mean_lat": -39.046,
+    "mean_lon": 174.977,
+    "mean_time": 7.7,
+    "std_dist": 138.7,
+    "std_time": 1.1,
     "city": "Turangi",
     "admin": "Waikato",
     "country": "New Zealand",
@@ -4097,7 +5061,9 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -4110,7 +5076,9 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       99.63412837879305,
@@ -4123,7 +5091,9 @@
       98.4,
       90.5,
       160.7,
-      79.7
+      79.7,
+      160,
+      91.4
     ],
     "times": [
       7.666666666666675,
@@ -4136,6 +5106,8 @@
       8.3,
       8.4,
       8.5,
+      8.4,
+      8.7,
       8.4
     ]
   },
@@ -4152,7 +5124,10 @@
       -42.707,
       -42.639,
       -42.503,
-      -39.267
+      -39.267,
+      -42.88,
+      -42.745,
+      -42.948
     ],
     "lons": [
       169.73333333333335,
@@ -4166,17 +5141,20 @@
       171.392,
       171.3,
       171.484,
-      173.972
+      173.972,
+      169.899,
+      170.728,
+      170.636
     ],
     "true_lat": -41.7638,
     "true_lon": 171.6028,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Westport%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 147,
-    "mean_lat": -42.508,
-    "mean_lon": 171.221,
-    "mean_time": 7,
-    "std_dist": 78.4,
-    "std_time": 1.8,
+    "mean_dist": 149,
+    "mean_lat": -42.578,
+    "mean_lon": 171.061,
+    "mean_time": 7.3,
+    "std_dist": 71,
+    "std_time": 1.7,
     "city": "Westport",
     "admin": "West Coast",
     "country": "New Zealand",
@@ -4193,7 +5171,10 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       null,
-      null
+      null,
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -4207,7 +5188,10 @@
       "Netherlands",
       "Netherlands",
       "United States",
-      "United States"
+      "United States",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       252.2890910953756,
@@ -4221,7 +5205,10 @@
       106.3,
       100.5,
       82.8,
-      342.2
+      342.2,
+      187.1,
+      130.6,
+      153.8
     ],
     "times": [
       2.2000000000000277,
@@ -4235,7 +5222,10 @@
       8.5,
       8.4,
       5.6,
-      7
+      7,
+      8.6,
+      8.8,
+      8.8
     ]
   },
   "Afega, Tuamasaga, Samoa": {
@@ -4249,7 +5239,10 @@
       -13.589,
       -13.499,
       -13.768,
-      -13.656
+      -13.656,
+      -13.548,
+      -14.267,
+      -13.728
     ],
     "lons": [
       187.33529411764707,
@@ -4261,17 +5254,20 @@
       187.888,
       187.98,
       188.072,
-      187.796
+      187.796,
+      188.33,
+      188.238,
+      188.146
     ],
     "true_lat": -13.7973,
     "true_lon": -171.8531,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Afega%2C+Samoa&go=Go&ns0=1",
-    "mean_dist": 60.1,
-    "mean_lat": -13.808,
-    "mean_lon": 187.713,
-    "mean_time": 7.2,
-    "std_dist": 53.3,
-    "std_time": 1.7,
+    "mean_dist": 53.5,
+    "mean_lat": -13.817,
+    "mean_lon": 187.834,
+    "mean_time": 7.5,
+    "std_dist": 49.1,
+    "std_time": 1.6,
     "city": "Afega",
     "admin": "Tuamasaga",
     "country": "Samoa",
@@ -4286,7 +5282,10 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Corona"
+      "Corona",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -4298,7 +5297,10 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "United States"
+      "United States",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       91.36029804632255,
@@ -4310,7 +5312,10 @@
       36.2,
       37.7,
       8.6,
-      40.9
+      40.9,
+      34,
+      53.1,
+      7.6
     ],
     "times": [
       3.5333333333333563,
@@ -4322,7 +5327,10 @@
       8.3,
       8.9,
       8.5,
-      8.1
+      8.1,
+      8.8,
+      8.4,
+      8.7
     ]
   },
   "Ashton, Canterbury, New Zealand": {
@@ -4333,7 +5341,13 @@
       -41.175,
       -38.148,
       -41.053,
-      -43.92
+      -43.92,
+      -37.732,
+      -42.88,
+      -43.956,
+      -43.956,
+      -43.956,
+      -44.023
     ],
     "lons": [
       177.01372549019607,
@@ -4342,17 +5356,23 @@
       175.078,
       175.447,
       172.498,
-      183.925
+      183.925,
+      175.52,
+      172.756,
+      171.466,
+      171.373,
+      172.019,
+      172.479
     ],
     "true_lat": -43.8983,
     "true_lon": 171.7486,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ashton%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 531.9,
-    "mean_lat": -40.932,
-    "mean_lon": 175.895,
-    "mean_time": 7.1,
-    "std_dist": 261.8,
-    "std_time": 0.8,
+    "mean_dist": 365.7,
+    "mean_lat": -41.771,
+    "mean_lon": 174.375,
+    "mean_time": 7.7,
+    "std_dist": 318.2,
+    "std_time": 0.9,
     "city": "Ashton",
     "admin": "Canterbury",
     "country": "New Zealand",
@@ -4364,7 +5384,13 @@
       "Charlestown",
       "Corona",
       "Lichtenvoorde",
-      "Hamburg"
+      "Hamburg",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -4373,7 +5399,13 @@
       "United States",
       "United States",
       "Netherlands",
-      "Germany"
+      "Germany",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       688.1479268350269,
@@ -4382,7 +5414,13 @@
       407.4,
       710.4,
       322.1,
-      974.5
+      974.5,
+      755.3,
+      139.3,
+      23.5,
+      30.7,
+      22.6,
+      60.1
     ],
     "times": [
       6.533333333333346,
@@ -4391,7 +5429,13 @@
       8.5,
       6.8,
       7.9,
-      5.8
+      5.8,
+      7.8,
+      8.4,
+      8.6,
+      8.8,
+      8.8,
+      8.8
     ]
   },
   "Whakatane, Bay of Plenty, New Zealand": {
@@ -4403,7 +5447,14 @@
       -38.202,
       -37.911,
       -43.737,
-      -39.321
+      -39.321,
+      -37.658,
+      -38.46,
+      -38.17,
+      -38.388,
+      -38.024,
+      -38.242,
+      -38.677
     ],
     "lons": [
       176.82941176470587,
@@ -4413,16 +5464,23 @@
       176.092,
       176.276,
       169.364,
-      176.852
+      176.852,
+      176.166,
+      176.35,
+      177.087,
+      176.626,
+      176.811,
+      176.534,
+      176.626
     ],
     "true_lat": -37.9574,
     "true_lon": 176.9828,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Whakatane%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 347,
-    "mean_lat": -40.252,
-    "mean_lon": 174.464,
-    "mean_time": 7.3,
-    "std_dist": 271.4,
+    "mean_dist": 211.3,
+    "mean_lat": -39.309,
+    "mean_lon": 175.461,
+    "mean_time": 7.9,
+    "std_dist": 246.2,
     "std_time": 1,
     "city": "Whakatane",
     "admin": "Bay of Plenty",
@@ -4436,7 +5494,14 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Leicester",
-      "Corona"
+      "Corona",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -4446,7 +5511,14 @@
       "Netherlands",
       "Netherlands",
       "United Kingdom",
-      "United States"
+      "United States",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       162.18818490111417,
@@ -4456,7 +5528,14 @@
       82.5,
       62.1,
       906.8,
-      152.1
+      152.1,
+      79,
+      78.6,
+      25.3,
+      57.1,
+      16.7,
+      50.4,
+      85.9
     ],
     "times": [
       7.033333333333344,
@@ -4466,7 +5545,14 @@
       8.7,
       8.7,
       6.7,
-      6.6
+      6.6,
+      8.2,
+      8.7,
+      8.5,
+      8.9,
+      8.8,
+      8.9,
+      8.6
     ]
   },
   "Upper Hutt, Wellington, New Zealand": {
@@ -4476,7 +5562,9 @@
       -39.052,
       -41.467,
       -40.307,
-      -39.927
+      -39.927,
+      -41.092,
+      -41.092
     ],
     "lons": [
       175.631,
@@ -4484,16 +5572,18 @@
       175.723,
       172.276,
       175.541,
-      175.354
+      175.354,
+      175.428,
+      174.691
     ],
     "true_lat": -41.1355,
     "true_lon": 175.029,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Upper Hutt%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 246.1,
-    "mean_lat": -39.362,
-    "mean_lon": 174.872,
-    "mean_time": 7.5,
-    "std_dist": 109.5,
+    "mean_dist": 192.4,
+    "mean_lat": -39.794,
+    "mean_lon": 174.919,
+    "mean_time": 7.8,
+    "std_dist": 132.9,
     "std_time": 1.1,
     "city": "Upper Hutt",
     "admin": "Wellington",
@@ -4505,7 +5595,9 @@
       "Charlestown",
       "Marion",
       "Marion",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -4513,7 +5605,9 @@
       "United States",
       "United States",
       "United States",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       356.1,
@@ -4521,7 +5615,9 @@
       239,
       232.8,
       101.6,
-      137.1
+      137.1,
+      33.8,
+      28.6
     ],
     "times": [
       8.5,
@@ -4529,7 +5625,9 @@
       8.3,
       6,
       5.7,
-      8.2
+      8.2,
+      8.7,
+      8.7
     ]
   },
   "Royal Kunia, Hawaii, United States": {
@@ -4601,7 +5699,12 @@
       -38.926,
       -38.13,
       -41.661,
-      -37.324
+      -37.324,
+      -39.966,
+      -41.992,
+      -41.509,
+      -38.024,
+      -38.242
     ],
     "lons": [
       176.84578171986914,
@@ -4620,16 +5723,21 @@
       177.658,
       175.907,
       173.05,
-      175.47
+      175.47,
+      176.258,
+      172.756,
+      173.493,
+      178.101,
+      177.824
     ],
     "true_lat": -38.6633,
     "true_lon": 178.0181,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Gisborne%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 223.9,
-    "mean_lat": -39.439,
-    "mean_lon": 176.136,
-    "mean_time": 7.9,
-    "std_dist": 314.7,
+    "mean_dist": 237,
+    "mean_lat": -39.554,
+    "mean_lon": 176.033,
+    "mean_time": 8.1,
+    "std_dist": 296.6,
     "std_time": 0.9,
     "city": "Gisborne",
     "admin": "Gisborne",
@@ -4652,7 +5760,12 @@
       "Lichtenvoorde",
       null,
       null,
-      "Corona"
+      "Corona",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -4671,7 +5784,12 @@
       "Netherlands",
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       161.8356207191177,
@@ -4690,7 +5808,12 @@
       42.7,
       193.2,
       537.7,
-      268.3
+      268.3,
+      209.5,
+      579.4,
+      498.1,
+      71.4,
+      49.6
     ],
     "times": [
       6.000000000000014,
@@ -4709,7 +5832,12 @@
       8.4,
       8.2,
       6,
-      8.4
+      8.4,
+      8.6,
+      8.7,
+      8.8,
+      8,
+      9
     ]
   },
   "Waitakere, Auckland, New Zealand": {
@@ -4719,7 +5847,12 @@
       -37.232,
       -36.955,
       -36.807,
-      -37.838
+      -37.838,
+      -37.512,
+      -37.07,
+      -36.774,
+      -36.774,
+      -37.144
     ],
     "lons": [
       175.5413756127451,
@@ -4727,17 +5860,22 @@
       175.262,
       175.539,
       175.078,
-      175.17
+      175.17,
+      175.152,
+      174.599,
+      174.691,
+      174.599,
+      174.599
     ],
     "true_lat": -36.8524,
     "true_lon": 174.5543,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Waitakere%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 860.5,
-    "mean_lat": -30.336,
-    "mean_lon": 175.339,
-    "mean_time": 7.7,
-    "std_dist": 1698.9,
-    "std_time": 1.3,
+    "mean_dist": 484.9,
+    "mean_lat": -33.39,
+    "mean_lon": 175.061,
+    "mean_time": 8.1,
+    "std_dist": 1320.6,
+    "std_time": 1.1,
     "city": "Waitakere",
     "admin": "Auckland",
     "country": "New Zealand",
@@ -4748,7 +5886,12 @@
       "Charlestown",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -4756,7 +5899,12 @@
       "United States",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       4658.46765952943,
@@ -4764,7 +5912,12 @@
       75.7,
       88.3,
       46.9,
-      122.4
+      122.4,
+      90.4,
+      24.5,
+      14.9,
+      9.5,
+      32.6
     ],
     "times": [
       9.400000000000002,
@@ -4772,7 +5925,12 @@
       8.2,
       7.7,
       8,
-      8.2
+      8.2,
+      8.7,
+      8.5,
+      8.5,
+      8.8,
+      8.8
     ]
   },
   "Nelson, Nelson, New Zealand": {
@@ -4787,7 +5945,12 @@
       -40.422,
       -40.914,
       -46.207,
-      -39.267
+      -39.267,
+      -38.388,
+      -39.253,
+      -41.022,
+      -41.092,
+      -40.882
     ],
     "lons": [
       129.55510110294117,
@@ -4800,16 +5963,21 @@
       174.709,
       172.405,
       169.18,
-      175.907
+      175.907,
+      175.981,
+      175.705,
+      173.309,
+      173.493,
+      173.862
     ],
     "true_lat": -41.2926,
     "true_lon": 173.2474,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Nelson%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 1037.2,
-    "mean_lat": -34.69,
-    "mean_lon": 170.472,
-    "mean_time": 7.5,
-    "std_dist": 2427.4,
+    "mean_dist": 765.3,
+    "mean_lat": -36.389,
+    "mean_lon": 171.721,
+    "mean_time": 7.9,
+    "std_dist": 2054.5,
     "std_time": 1.1,
     "city": "Nelson",
     "admin": "Nelson",
@@ -4826,7 +5994,12 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       null,
-      null
+      null,
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -4839,7 +6012,12 @@
       "Netherlands",
       "Netherlands",
       "United States",
-      "United States"
+      "United States",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       8694.876655338072,
@@ -4852,7 +6030,12 @@
       156.4,
       82.1,
       636.5,
-      318.7
+      318.7,
+      398.4,
+      308,
+      30.4,
+      30.3,
+      68.7
     ],
     "times": [
       7.033333333333344,
@@ -4865,7 +6048,12 @@
       8.5,
       8.3,
       6.5,
-      6.1
+      6.1,
+      8.8,
+      8.8,
+      8.7,
+      8.9,
+      8.9
     ]
   },
   "Whanganui, Manawatu-Wanganui, New Zealand": {
@@ -4875,7 +6063,11 @@
       -39.714,
       -39.214,
       -40.352,
-      -38.457
+      -38.457,
+      -38.822,
+      -37.658,
+      -37.951,
+      -38.749
     ],
     "lons": [
       173.97470894607844,
@@ -4883,16 +6075,20 @@
       174.894,
       175.631,
       175.631,
-      175.787
+      175.787,
+      175.336,
+      175.152,
+      174.138,
+      174.322
     ],
     "true_lat": -39.9326,
     "true_lon": 175.0393,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Whanganui%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 192.8,
-    "mean_lat": -40.469,
-    "mean_lon": 174.29,
-    "mean_time": 7.4,
-    "std_dist": 228.4,
+    "mean_dist": 191.4,
+    "mean_lat": -39.599,
+    "mean_lon": 174.469,
+    "mean_time": 7.9,
+    "std_dist": 180.2,
     "std_time": 0.9,
     "city": "Whanganui",
     "admin": "Manawatu-Wanganui",
@@ -4904,7 +6100,11 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Leicester"
+      "Leicester",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -4912,7 +6112,11 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "United Kingdom"
+      "United Kingdom",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       96.6845821577162,
@@ -4920,7 +6124,11 @@
       27.2,
       94.6,
       68.6,
-      176.2
+      176.2,
+      126.1,
+      253,
+      233.6,
+      145.2
     ],
     "times": [
       5.766666666666682,
@@ -4928,7 +6136,11 @@
       8.1,
       8.2,
       8.3,
-      6.9
+      6.9,
+      8.7,
+      8.5,
+      8.8,
+      8.7
     ]
   },
   "Dunedin, Otago, New Zealand": {
@@ -4942,7 +6154,13 @@
       -45.628,
       -45.628,
       -42.509,
-      -43.317
+      -43.317,
+      -37.07,
+      -44.222,
+      -44.685,
+      -44.882,
+      -44.947,
+      -45.274
     ],
     "lons": [
       175.8178462009804,
@@ -4954,17 +6172,23 @@
       170.562,
       170.839,
       171.179,
-      169.94
+      169.94,
+      176.073,
+      170.728,
+      169.53,
+      169.254,
+      168.885,
+      168.793
     ],
     "true_lat": -45.8854,
     "true_lon": 170.491,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Dunedin%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 318.2,
-    "mean_lat": -43.285,
-    "mean_lon": 171.806,
-    "mean_time": 7.4,
-    "std_dist": 307.2,
-    "std_time": 1,
+    "mean_dist": 316.5,
+    "mean_lat": -43.37,
+    "mean_lon": 171.332,
+    "mean_time": 7.8,
+    "std_dist": 321.8,
+    "std_time": 0.9,
     "city": "Dunedin",
     "admin": "Otago",
     "country": "New Zealand",
@@ -4979,7 +6203,13 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Leicester",
-      "Gomel Oblast"
+      "Gomel Oblast",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -4991,7 +6221,13 @@
       "Netherlands",
       "Netherlands",
       "United Kingdom",
-      "Belarus"
+      "Belarus",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       850.6148782179434,
@@ -5003,7 +6239,13 @@
       29.1,
       39.3,
       379.3,
-      288.8
+      288.8,
+      1084.2,
+      185.8,
+      153.1,
+      147.5,
+      162.9,
+      148.5
     ],
     "times": [
       6.766666666666678,
@@ -5015,7 +6257,13 @@
       8.2,
       8.1,
       7.8,
-      6.4
+      6.4,
+      8.5,
+      8.4,
+      8.5,
+      8.7,
+      8.5,
+      8.7
     ]
   },
   "Vailoa, Palauli, Samoa": {
@@ -5030,7 +6278,11 @@
       -13.048,
       -13.858,
       -13.679,
-      -14.038
+      -14.038,
+      -13.818,
+      -13.818,
+      -14.356,
+      -13.818
     ],
     "lons": [
       187.06098345588236,
@@ -5043,16 +6295,20 @@
       187.15,
       188.256,
       187.796,
-      188.164
+      188.164,
+      187.317,
+      188.238,
+      188.054,
+      187.869
     ],
     "true_lat": -13.7555,
     "true_lon": -172.307,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Vailoa%2C+Samoa&go=Go&ns0=1",
-    "mean_dist": 68,
+    "mean_dist": 63.1,
     "mean_lat": -13.953,
-    "mean_lon": 187.818,
-    "mean_time": 8,
-    "std_dist": 54.5,
+    "mean_lon": 187.832,
+    "mean_time": 8.2,
+    "std_dist": 48.6,
     "std_time": 0.6,
     "city": "Vailoa",
     "admin": "Palauli",
@@ -5069,7 +6325,11 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Hamburg"
+      "Hamburg",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -5082,7 +6342,11 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Germany"
+      "Germany",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       224.71963360705476,
@@ -5095,7 +6359,11 @@
       98,
       61.9,
       14,
-      59.8
+      59.8,
+      41.1,
+      59.3,
+      77.4,
+      20.3
     ],
     "times": [
       6.16666666666668,
@@ -5108,7 +6376,11 @@
       8.5,
       8.2,
       8.3,
-      7.8
+      7.8,
+      8.4,
+      8.9,
+      8.7,
+      8.6
     ]
   },
   "Samamea, Va\u2018a-o-Fonoti, Samoa": {
@@ -5122,7 +6394,12 @@
       -13.948,
       -13.768,
       -14.218,
-      -14.128
+      -14.128,
+      -13.818,
+      -13.908,
+      -14.356,
+      -14.267,
+      -13.368
     ],
     "lons": [
       186.60019914215687,
@@ -5134,17 +6411,22 @@
       187.335,
       188.072,
       188.625,
-      187.888
+      187.888,
+      188.054,
+      188.422,
+      188.238,
+      188.238,
+      187.869
     ],
     "true_lat": -13.9338,
     "true_lon": -171.5312,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Samamea%2C+Samoa&go=Go&ns0=1",
-    "mean_dist": 736.9,
-    "mean_lat": -11.808,
-    "mean_lon": 182.257,
-    "mean_time": 7.1,
-    "std_dist": 1887.1,
-    "std_time": 1.6,
+    "mean_dist": 507.2,
+    "mean_lat": -12.519,
+    "mean_lon": 184.226,
+    "mean_time": 7.6,
+    "std_dist": 1574.7,
+    "std_time": 1.5,
     "city": "Samamea",
     "admin": "Va\u2018a-o-Fonoti",
     "country": "Samoa",
@@ -5159,7 +6441,12 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -5171,7 +6458,12 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       201.73658838676704,
@@ -5183,7 +6475,12 @@
       122.3,
       46.5,
       35.8,
-      66.2
+      66.2,
+      46.5,
+      5.7,
+      53.2,
+      44.6,
+      90.2
     ],
     "times": [
       5.600000000000016,
@@ -5195,7 +6492,12 @@
       8.9,
       8.4,
       8.5,
-      8.6
+      8.6,
+      8.4,
+      8.8,
+      8.6,
+      8.8,
+      8.9
     ]
   },
   "Kerikeri, Northland, New Zealand": {
@@ -5212,7 +6514,13 @@
       -35.612,
       -36.287,
       -35.386,
-      -35.311
+      -35.311,
+      -37.438,
+      -35.729,
+      -34.974,
+      -35.201,
+      -35.954,
+      -35.428
     ],
     "lons": [
       177.38451286764706,
@@ -5227,17 +6535,23 @@
       174.433,
       174.249,
       174.249,
-      174.617
+      174.617,
+      175.705,
+      174.138,
+      173.769,
+      173.862,
+      173.401,
+      173.769
     ],
     "true_lat": -35.2285,
     "true_lon": 173.9507,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kerikeri%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 174.6,
-    "mean_lat": -36.522,
-    "mean_lon": 174.667,
-    "mean_time": 7.6,
-    "std_dist": 164,
-    "std_time": 1.9,
+    "mean_dist": 146.5,
+    "mean_lat": -36.29,
+    "mean_lon": 174.49,
+    "mean_time": 8,
+    "std_dist": 151.8,
+    "std_time": 1.6,
     "city": "Kerikeri",
     "admin": "Northland",
     "country": "New Zealand",
@@ -5255,7 +6569,13 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -5270,7 +6590,13 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       446.8775311533374,
@@ -5285,7 +6611,13 @@
       61.1,
       120.7,
       32.2,
-      61.2
+      61.2,
+      291.7,
+      58.2,
+      32.6,
+      8.5,
+      94.7,
+      27.5
     ],
     "times": [
       7.666666666666675,
@@ -5300,7 +6632,13 @@
       8.6,
       8.2,
       8.4,
-      8.4
+      8.4,
+      8.4,
+      8.6,
+      8.7,
+      8.9,
+      8.7,
+      8.9
     ]
   },
   "Neiafu, Vava\u2018u, Tonga": {
@@ -5317,7 +6655,10 @@
       -21.954,
       -21.524,
       -21.093,
-      -18.128
+      -18.128,
+      -21.313,
+      -20.1,
+      -20.534
     ],
     "lons": [
       177.47666973039216,
@@ -5332,17 +6673,20 @@
       184.662,
       185.307,
       184.662,
-      177.742
+      177.742,
+      184.552,
+      186.119,
+      185.842
     ],
     "true_lat": -18.6496,
     "true_lon": -173.9833,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Neiafu%2C+Tonga&go=Go&ns0=1",
-    "mean_dist": 1000.2,
-    "mean_lat": -19.837,
-    "mean_lon": 185.861,
-    "mean_time": 6.4,
-    "std_dist": 989.5,
-    "std_time": 2.4,
+    "mean_dist": 856.7,
+    "mean_lat": -19.989,
+    "mean_lon": 185.794,
+    "mean_time": 6.7,
+    "std_dist": 941.1,
+    "std_time": 2.3,
     "city": "Neiafu",
     "admin": "Vava\u2018u",
     "country": "Tonga",
@@ -5360,7 +6704,10 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Leicester"
+      "Leicester",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -5375,7 +6722,10 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "United Kingdom"
+      "United Kingdom",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       900.333786305152,
@@ -5390,7 +6740,10 @@
       393.6,
       328.1,
       306.3,
-      874.9
+      874.9,
+      333.3,
+      161.7,
+      210.4
     ],
     "times": [
       0.13333333333335884,
@@ -5405,7 +6758,10 @@
       8.5,
       8.5,
       8.4,
-      6.6
+      6.6,
+      7.6,
+      8.6,
+      8.6
     ]
   },
   "Waimanalo, Hawaii, United States": {
@@ -5445,22 +6801,30 @@
     "lats": [
       20.73417067378409,
       19.757,
-      20.69
+      20.69,
+      21.097,
+      21.097,
+      21.356,
+      20.751
     ],
     "lons": [
       203.00196078431372,
       204.015,
-      203.117
+      203.117,
+      202.246,
+      202.891,
+      203.352,
+      202.891
     ],
     "true_lat": 20.9156,
     "true_lon": -156.3022,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Haiku-Pauwela%2C+United States&go=Go&ns0=1",
-    "mean_dist": 91.1,
-    "mean_lat": 20.393,
-    "mean_lon": 203.377,
-    "mean_time": 8.1,
-    "std_dist": 29.8,
-    "std_time": 0.2,
+    "mean_dist": 93.9,
+    "mean_lat": 20.783,
+    "mean_lon": 203.073,
+    "mean_time": 8.4,
+    "std_dist": 32.3,
+    "std_time": 0.3,
     "city": "Haiku-Pauwela",
     "admin": "Hawaii",
     "country": "United States",
@@ -5468,22 +6832,38 @@
     "regions": [
       "Charlestown",
       "Lichtenvoorde",
-      "Corona"
+      "Corona",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
       "Netherlands",
-      "United States"
+      "United States",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       75.08011697011453,
       133,
-      65.3
+      65.3,
+      152,
+      86,
+      60.7,
+      85.7
     ],
     "times": [
       8.433333333333339,
       8.3,
-      7.8
+      7.8,
+      8.7,
+      8.6,
+      8.9,
+      8.7
     ]
   },
   "Christchurch, Canterbury, New Zealand": {
@@ -5493,7 +6873,9 @@
       -43.047,
       -43.652,
       -43.986,
-      -43.047
+      -43.047,
+      -44.355,
+      -43.823
     ],
     "lons": [
       175.17058823529413,
@@ -5501,16 +6883,18 @@
       172.866,
       172.682,
       172.774,
-      172.405
+      172.405,
+      170.913,
+      171.373
     ],
     "true_lat": -43.535,
     "true_lon": 172.63,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Christchurch%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 101.1,
-    "mean_lat": -42.976,
-    "mean_lon": 173.081,
+    "mean_dist": 109.7,
+    "mean_lat": -43.254,
+    "mean_lon": 172.596,
     "mean_time": 8.4,
-    "std_dist": 137.6,
+    "std_dist": 120.9,
     "std_time": 0.2,
     "city": "Christchurch",
     "admin": "Canterbury",
@@ -5522,7 +6906,9 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -5530,7 +6916,9 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       406.44601485772625,
@@ -5538,7 +6926,9 @@
       57.5,
       13.7,
       51.5,
-      57.2
+      57.2,
+      164.9,
+      105.9
     ],
     "times": [
       8.200000000000006,
@@ -5546,7 +6936,9 @@
       8.3,
       8.9,
       8.3,
-      8.5
+      8.5,
+      8.5,
+      8.8
     ]
   },
   "Te Anau, Southland, New Zealand": {
@@ -5563,7 +6955,13 @@
       -45.628,
       -46.015,
       -46.015,
-      -46.654
+      -46.654,
+      -46.434,
+      -46.05,
+      -45.986,
+      -46.243,
+      -45.986,
+      -45.534
     ],
     "lons": [
       168.35098039215686,
@@ -5578,17 +6976,23 @@
       169.272,
       168.166,
       167.982,
-      168.074
+      168.074,
+      167.779,
+      167.411,
+      167.595,
+      167.779,
+      167.687,
+      167.411
     ],
     "true_lat": -45.4074,
     "true_lon": 167.7585,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Te Anau%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 126.1,
-    "mean_lat": -45.554,
-    "mean_lon": 168.58,
-    "mean_time": 8.1,
-    "std_dist": 138.4,
-    "std_time": 0.2,
+    "mean_dist": 109.6,
+    "mean_lat": -45.707,
+    "mean_lon": 168.274,
+    "mean_time": 8.3,
+    "std_dist": 117.9,
+    "std_time": 0.3,
     "city": "Te Anau",
     "admin": "Southland",
     "country": "New Zealand",
@@ -5606,7 +7010,13 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -5621,7 +7031,13 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       46.67373915134709,
@@ -5636,7 +7052,13 @@
       120.4,
       74.6,
       69.8,
-      140.8
+      140.8,
+      114.2,
+      76.4,
+      65.6,
+      92.9,
+      64.6,
+      30.5
     ],
     "times": [
       8.200000000000006,
@@ -5651,7 +7073,13 @@
       8.1,
       8.4,
       8.2,
-      8.3
+      8.3,
+      8.7,
+      8.7,
+      8.7,
+      8.7,
+      8.8,
+      8.7
     ]
   },
   "Hokitika, West Coast, New Zealand": {
@@ -5666,7 +7094,12 @@
       -42.639,
       -42.023,
       -41.471,
-      -38.872
+      -38.872,
+      -39.325,
+      -43.622,
+      -43.016,
+      -43.421,
+      -42.813
     ],
     "lons": [
       177.01372549019607,
@@ -5679,17 +7112,22 @@
       170.747,
       172.037,
       171.576,
-      174.548
+      174.548,
+      177.456,
+      169.715,
+      170.36,
+      170.728,
+      170.728
     ],
     "true_lat": -42.7072,
     "true_lon": 171.01,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Hokitika%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 163.4,
-    "mean_lat": -41.811,
-    "mean_lon": 172.03,
-    "mean_time": 7.4,
-    "std_dist": 214.6,
-    "std_time": 1.5,
+    "mean_dist": 173.3,
+    "mean_lat": -42.007,
+    "mean_lon": 171.957,
+    "mean_time": 7.8,
+    "std_dist": 221.6,
+    "std_time": 1.3,
     "city": "Hokitika",
     "admin": "West Coast",
     "country": "New Zealand",
@@ -5705,7 +7143,12 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Gomel Oblast"
+      "Gomel Oblast",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -5718,7 +7161,12 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Belarus"
+      "Belarus",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       691.350237278776,
@@ -5731,7 +7179,12 @@
       22.7,
       113.5,
       145.1,
-      520
+      520,
+      658.4,
+      146.2,
+      63.1,
+      82.6,
+      25.7
     ],
     "times": [
       8.300000000000006,
@@ -5744,46 +7197,57 @@
       8.2,
       8.4,
       8.4,
-      5.3
+      5.3,
+      8.5,
+      8.5,
+      8.8,
+      8.2,
+      8.8
     ]
   },
   "Maili, Hawaii, United States": {
     "lats": [
       20.647575325981553,
-      20.972
+      20.972,
+      20.578
     ],
     "lons": [
       203.8313725490196,
-      203.37
+      203.37,
+      202.154
     ],
     "true_lat": 21.4134,
     "true_lon": -158.1702,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Maili%2C+United States&go=Go&ns0=1",
-    "mean_dist": 195.8,
-    "mean_lat": 20.809,
-    "mean_lon": 203.6,
-    "mean_time": 8.5,
-    "std_dist": 28.7,
-    "std_time": 3.7,
+    "mean_dist": 163.4,
+    "mean_lat": 20.732,
+    "mean_lon": 203.118,
+    "mean_time": 8.6,
+    "std_dist": 51.4,
+    "std_time": 0.1,
     "city": "Maili",
     "admin": "Hawaii",
     "country": "United States",
     "iso2": "US",
     "regions": [
       "Charlestown",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary"
     ],
     "countries": [
       "United States",
-      "Netherlands"
+      "Netherlands",
+      "Canada"
     ],
     "dists": [
       224.51226579783656,
-      167.1
+      167.1,
+      98.7
     ],
     "times": [
       8.500000000000005,
-      8.5
+      8.5,
+      8.8
     ]
   },
   "Apia, Tuamasaga, Samoa": {
@@ -5799,7 +7263,11 @@
       -14.487,
       -13.858,
       -14.038,
-      -13.138
+      -13.138,
+      -14.087,
+      -14.446,
+      -14.087,
+      -13.728
     ],
     "lons": [
       187.98039215686273,
@@ -5813,17 +7281,21 @@
       187.98,
       188.164,
       189.362,
-      187.703
+      187.703,
+      188.146,
+      188.146,
+      187.593,
+      188.422
     ],
     "true_lat": -13.8415,
     "true_lon": -171.7386,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Apia%2C+Samoa&go=Go&ns0=1",
-    "mean_dist": 442.9,
-    "mean_lat": -15.013,
-    "mean_lon": 184.635,
-    "mean_time": 7.6,
-    "std_dist": 726.4,
-    "std_time": 1.2,
+    "mean_dist": 344.5,
+    "mean_lat": -14.782,
+    "mean_lon": 185.495,
+    "mean_time": 7.8,
+    "std_dist": 651.8,
+    "std_time": 1.1,
     "city": "Apia",
     "admin": "Tuamasaga",
     "country": "Samoa",
@@ -5840,7 +7312,11 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -5854,7 +7330,11 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       30.344887613704994,
@@ -5868,7 +7348,11 @@
       77.9,
       10.6,
       120.8,
-      98.6
+      98.6,
+      30,
+      68.4,
+      77,
+      21.5
     ],
     "times": [
       8.33333333333334,
@@ -5882,7 +7366,11 @@
       8.7,
       8.4,
       8.1,
-      8.4
+      8.4,
+      8.3,
+      8.7,
+      8.8,
+      8.8
     ]
   },
   "Wahiawa, Hawaii, United States": {
@@ -5943,7 +7431,10 @@
       -13.768,
       -13.948,
       -13.679,
-      -20.116
+      -20.116,
+      -13.908,
+      -13.908,
+      -13.728
     ],
     "lons": [
       187.98039215686273,
@@ -5957,16 +7448,19 @@
       187.98,
       187.796,
       187.519,
-      169.783
+      169.783,
+      187.869,
+      188.054,
+      187.132
     ],
     "true_lat": -13.4513,
     "true_lon": -172.4018,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Safotu%2C+Samoa&go=Go&ns0=1",
-    "mean_dist": 219.8,
-    "mean_lat": -14.302,
-    "mean_lon": 186.325,
-    "mean_time": 8.1,
-    "std_dist": 547.6,
+    "mean_dist": 188.4,
+    "mean_lat": -14.211,
+    "mean_lon": 186.597,
+    "mean_time": 8.2,
+    "std_dist": 493.8,
     "std_time": 0.6,
     "city": "Safotu",
     "admin": "Gagaifomauga",
@@ -5984,7 +7478,10 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Leicester"
+      "Leicester",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -5998,7 +7495,10 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "United Kingdom"
+      "United Kingdom",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       41.95928719695902,
@@ -6012,7 +7512,10 @@
       54.3,
       59.2,
       26.7,
-      2034.3
+      2034.3,
+      58.6,
+      70.7,
+      58.9
     ],
     "times": [
       8.800000000000004,
@@ -6026,7 +7529,10 @@
       8.5,
       8.3,
       8.4,
-      6.3
+      6.3,
+      8.7,
+      8.8,
+      8.3
     ]
   },
   "Cambridge, Waikato, New Zealand": {
@@ -6043,7 +7549,11 @@
       -38.202,
       -37.029,
       -36.955,
-      -38.71
+      -38.71,
+      -38.17,
+      -40.742,
+      -40.602,
+      -40.249
     ],
     "lons": [
       175.8156862745098,
@@ -6058,16 +7568,20 @@
       175.078,
       175.17,
       174.986,
-      174.986
+      174.986,
+      175.336,
+      175.705,
+      174.599,
+      176.258
     ],
     "true_lat": -37.8894,
     "true_lon": 175.4703,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Cambridge%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 223.8,
-    "mean_lat": -39.481,
-    "mean_lon": 174.856,
-    "mean_time": 7.5,
-    "std_dist": 220.6,
+    "mean_dist": 226,
+    "mean_lat": -39.589,
+    "mean_lon": 175.001,
+    "mean_time": 7.8,
+    "std_dist": 201.1,
     "std_time": 1,
     "city": "Cambridge",
     "admin": "Waikato",
@@ -6086,7 +7600,11 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -6101,7 +7619,11 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       79.16331328746573,
@@ -6116,7 +7638,11 @@
       48.9,
       99.1,
       112.2,
-      100.5
+      100.5,
+      33.3,
+      317.8,
+      310.8,
+      271.1
     ],
     "times": [
       8.400000000000006,
@@ -6131,29 +7657,35 @@
       8.5,
       8.4,
       8.5,
-      8.1
+      8.1,
+      8.8,
+      8.8,
+      8.9,
+      8.7
     ]
   },
   "Waihee-Waiehu, Hawaii, United States": {
     "lats": [
       20.73417067378409,
       19.7991557658062,
-      20.507430058065495
+      20.507430058065495,
+      21.7
     ],
     "lons": [
       203.8313725490196,
       203.87333679706776,
-      203.8335324754902
+      203.8335324754902,
+      202.707
     ],
     "true_lat": 20.9188,
     "true_lon": -156.5063,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Waihee-Waiehu%2C+United States&go=Go&ns0=1",
-    "mean_dist": 76.3,
-    "mean_lat": 20.346,
-    "mean_lon": 203.846,
-    "mean_time": 6.9,
-    "std_dist": 39,
-    "std_time": 1,
+    "mean_dist": 87,
+    "mean_lat": 20.685,
+    "mean_lon": 203.561,
+    "mean_time": 7.3,
+    "std_dist": 38.5,
+    "std_time": 1.2,
     "city": "Waihee-Waiehu",
     "admin": "Hawaii",
     "country": "United States",
@@ -6161,22 +7693,26 @@
     "regions": [
       "Charlestown",
       "Marion",
-      "Marion"
+      "Marion",
+      "Calgary"
     ],
     "countries": [
       "United States",
       "United States",
-      "United States"
+      "United States",
+      "Canada"
     ],
     "dists": [
       40.658009211401534,
       130.6375947187532,
-      57.806802748722355
+      57.806802748722355,
+      119.1
     ],
     "times": [
       8.433333333333339,
       5.966666666666681,
-      6.433333333333346
+      6.433333333333346,
+      8.7
     ]
   },
   "Manukau City, Auckland, New Zealand": {
@@ -6186,7 +7722,9 @@
       -44.93590326100149,
       -36.863,
       -36.955,
-      -37.251
+      -37.251,
+      -36.625,
+      -37.217
     ],
     "lons": [
       175.078431372549,
@@ -6194,16 +7732,18 @@
       169.55117953431372,
       174.894,
       175.354,
-      174.249
+      174.249,
+      174.415,
+      174.599
     ],
     "true_lat": -37,
     "true_lon": 174.885,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Manukau City%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 326.9,
-    "mean_lat": -39.502,
-    "mean_lon": 173.479,
-    "mean_time": 7.7,
-    "std_dist": 348.9,
+    "mean_dist": 256.9,
+    "mean_lat": -38.856,
+    "mean_lon": 173.736,
+    "mean_time": 7.9,
+    "std_dist": 325.6,
     "std_time": 0.9,
     "city": "Manukau City",
     "admin": "Auckland",
@@ -6215,7 +7755,9 @@
       "Marion",
       "Minsk",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -6223,7 +7765,9 @@
       "United States",
       "Belarus",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       316.1153682406882,
@@ -6231,7 +7775,9 @@
       989.0044999670343,
       15.2,
       42,
-      62.9
+      62.9,
+      58.9,
+      35
     ],
     "times": [
       8.533333333333339,
@@ -6239,7 +7785,9 @@
       6.6666666666666785,
       7.1,
       9,
-      8.6
+      8.6,
+      8.6,
+      8.7
     ]
   },
   "Kaitaia, Northland, New Zealand": {
@@ -6252,7 +7800,13 @@
       -38.184,
       -35.763,
       -35.16,
-      -37.573
+      -37.573,
+      -36.774,
+      -35.729,
+      -35.503,
+      -34.67,
+      -36.253,
+      -35.277
     ],
     "lons": [
       175.8156862745098,
@@ -6263,17 +7817,23 @@
       175.262,
       174.617,
       174.433,
-      176.206
+      176.206,
+      174.415,
+      174.783,
+      173.862,
+      174.046,
+      174.415,
+      173.309
     ],
     "true_lat": -35.1099,
     "true_lon": 173.2727,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kaitaia%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 237.8,
-    "mean_lat": -36.599,
-    "mean_lon": 175.003,
-    "mean_time": 7.7,
-    "std_dist": 142.6,
-    "std_time": 1.1,
+    "mean_dist": 189.5,
+    "mean_lat": -36.239,
+    "mean_lon": 174.657,
+    "mean_time": 8.1,
+    "std_dist": 131.9,
+    "std_time": 1,
     "city": "Kaitaia",
     "admin": "Northland",
     "country": "New Zealand",
@@ -6287,7 +7847,13 @@
       "Charlestown",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Leicester"
+      "Leicester",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -6298,7 +7864,13 @@
       "United States",
       "Netherlands",
       "Netherlands",
-      "United Kingdom"
+      "United Kingdom",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       358.4991407604828,
@@ -6309,7 +7881,13 @@
       385.2,
       141.8,
       105.6,
-      379.5
+      379.5,
+      211.7,
+      153.2,
+      69.1,
+      85.8,
+      163.7,
+      18.8
     ],
     "times": [
       8.200000000000006,
@@ -6320,7 +7898,13 @@
       8.6,
       8.6,
       8.4,
-      7.3
+      7.3,
+      8.5,
+      8.7,
+      8.8,
+      8.6,
+      8.8,
+      8.8
     ]
   },
   "New Plymouth, Taranaki, New Zealand": {
@@ -6332,7 +7916,14 @@
       -39.321,
       -38.511,
       -39.5,
-      -39.214
+      -39.214,
+      -37.878,
+      -37.805,
+      -42.13,
+      -38.533,
+      -38.533,
+      -40.882,
+      -40.32
     ],
     "lons": [
       175.078431372549,
@@ -6342,17 +7933,24 @@
       174.755,
       175.239,
       174.064,
-      174.064
+      174.064,
+      176.073,
+      175.705,
+      172.203,
+      175.152,
+      176.35,
+      174.322,
+      174.691
     ],
     "true_lat": -39.0556,
     "true_lon": 174.0748,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=New Plymouth%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 185.6,
-    "mean_lat": -39.667,
-    "mean_lon": 174.547,
-    "mean_time": 7.4,
-    "std_dist": 149.5,
-    "std_time": 1,
+    "mean_dist": 196.5,
+    "mean_lat": -39.561,
+    "mean_lon": 174.725,
+    "mean_time": 7.6,
+    "std_dist": 121.8,
+    "std_time": 1.5,
     "city": "New Plymouth",
     "admin": "Taranaki",
     "country": "New Zealand",
@@ -6365,7 +7963,14 @@
       "Corona",
       "Minsk",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -6375,7 +7980,14 @@
       "United States",
       "Belarus",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       213.36688695702804,
@@ -6385,7 +7997,14 @@
       65.7,
       117.7,
       49.4,
-      17.6
+      17.6,
+      217.7,
+      198.7,
+      376.6,
+      109.9,
+      205.5,
+      204.2,
+      150.2
     ],
     "times": [
       8.400000000000006,
@@ -6395,7 +8014,14 @@
       7.9,
       7.2,
       8.2,
-      8.5
+      8.5,
+      8.5,
+      8.8,
+      3.3,
+      8.5,
+      8.7,
+      8.8,
+      8.8
     ]
   },
   "Rotorua, Bay of Plenty, New Zealand": {
@@ -6405,7 +8031,10 @@
       -37.783,
       -40.861,
       -37.177,
-      -37.471
+      -37.471,
+      -36.996,
+      -36.922,
+      -38.46
     ],
     "lons": [
       176.73941482843136,
@@ -6413,17 +8042,20 @@
       176.829,
       173.972,
       175.354,
-      176.552
+      176.552,
+      176.166,
+      176.073,
+      177.087
     ],
     "true_lat": -38.1317,
     "true_lon": 176.2483,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Rotorua%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 142,
-    "mean_lat": -38.273,
-    "mean_lon": 175.616,
-    "mean_time": 6.6,
-    "std_dist": 107.2,
-    "std_time": 1.3,
+    "mean_dist": 132.8,
+    "mean_lat": -38.002,
+    "mean_lon": 175.891,
+    "mean_time": 7.2,
+    "std_dist": 89.5,
+    "std_time": 1.4,
     "city": "Rotorua",
     "admin": "Bay of Plenty",
     "country": "New Zealand",
@@ -6434,7 +8066,10 @@
       "Corona",
       "Randolph Township",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -6442,7 +8077,10 @@
       "United States",
       "United States",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       43.03895583140673,
@@ -6450,7 +8088,10 @@
       63.9,
       360.9,
       132,
-      78
+      78,
+      126.4,
+      135.3,
+      81.8
     ],
     "times": [
       5.700000000000015,
@@ -6458,7 +8099,10 @@
       6.9,
       4.9,
       8.4,
-      8.4
+      8.4,
+      8.4,
+      8.6,
+      8.5
     ]
   },
   "Blenheim, Marlborough, New Zealand": {
@@ -6471,7 +8115,10 @@
       -41.471,
       -41.748,
       -40.914,
-      -42.405
+      -42.405,
+      -39.468,
+      -41.924,
+      -42.335
     ],
     "lons": [
       173.23745404411764,
@@ -6482,16 +8129,19 @@
       173.327,
       173.327,
       173.143,
-      173.134
+      173.134,
+      175.889,
+      173.309,
+      173.217
     ],
     "true_lat": -41.5135,
     "true_lon": 173.955,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Blenheim%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 107,
-    "mean_lat": -41.454,
-    "mean_lon": 173.357,
-    "mean_time": 8,
-    "std_dist": 76.7,
+    "mean_dist": 118.6,
+    "mean_lat": -41.401,
+    "mean_lon": 173.552,
+    "mean_time": 8.1,
+    "std_dist": 82.9,
     "std_time": 0.5,
     "city": "Blenheim",
     "admin": "Marlborough",
@@ -6506,7 +8156,10 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Leicester"
+      "Leicester",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -6517,7 +8170,10 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "United Kingdom"
+      "United Kingdom",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       69.93282099996122,
@@ -6528,7 +8184,10 @@
       52.4,
       58.3,
       95.1,
-      120.2
+      120.2,
+      280.1,
+      70.4,
+      109.9
     ],
     "times": [
       6.933333333333344,
@@ -6539,7 +8198,10 @@
       8.4,
       8.5,
       8.5,
-      7.8
+      7.8,
+      8.4,
+      8.8,
+      8.5
     ]
   },
   "Cameron Park, Texas, United States": {
@@ -6550,7 +8212,8 @@
       25.999,
       25.812,
       25.895,
-      25.583
+      25.583,
+      26.431
     ],
     "lons": [
       260.1413756127451,
@@ -6559,17 +8222,18 @@
       261.521,
       262.719,
       262.166,
-      259.678
+      259.678,
+      262.148
     ],
     "true_lat": 25.9705,
     "true_lon": -97.4775,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Cameron Park%2C+United States&go=Go&ns0=1",
-    "mean_dist": 956.5,
-    "mean_lat": 24.943,
-    "mean_lon": 253.237,
-    "mean_time": 5.2,
-    "std_dist": 2058.3,
-    "std_time": 2.3,
+    "mean_dist": 844.9,
+    "mean_lat": 25.129,
+    "mean_lon": 254.351,
+    "mean_time": 5.6,
+    "std_dist": 1947.8,
+    "std_time": 2.4,
     "city": "Cameron Park",
     "admin": "Texas",
     "country": "United States",
@@ -6581,7 +8245,8 @@
       "Charlestown",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Gomel Oblast"
+      "Gomel Oblast",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -6590,7 +8255,8 @@
       "United States",
       "Netherlands",
       "Netherlands",
-      "Belarus"
+      "Belarus",
+      "Canada"
     ],
     "dists": [
       244.42406154429895,
@@ -6599,7 +8265,8 @@
       100.1,
       26.3,
       36.5,
-      288
+      288,
+      63.4
     ],
     "times": [
       2.2000000000000277,
@@ -6608,7 +8275,8 @@
       5.3,
       7,
       7.9,
-      1.6
+      1.6,
+      8.2
     ]
   },
   "Paraparaumu, Wellington, New Zealand": {
@@ -6618,7 +8286,8 @@
       -41.263,
       -41.193,
       -40.914,
-      -41.332
+      -41.332,
+      -40.812
     ],
     "lons": [
       174.986,
@@ -6626,16 +8295,17 @@
       175.262,
       174.894,
       175.631,
-      174.894
+      174.894,
+      174.415
     ],
     "true_lat": -40.9034,
     "true_lon": 174.9989,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Paraparaumu%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 37.1,
-    "mean_lat": -41.126,
-    "mean_lon": 175.154,
-    "mean_time": 8.2,
-    "std_dist": 12.8,
+    "mean_dist": 39,
+    "mean_lat": -41.081,
+    "mean_lon": 175.049,
+    "mean_time": 8.3,
+    "std_dist": 12.6,
     "std_time": 0.2,
     "city": "Paraparaumu",
     "admin": "Wellington",
@@ -6647,7 +8317,8 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -6655,7 +8326,8 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada"
     ],
     "dists": [
       18.7,
@@ -6663,7 +8335,8 @@
       45.6,
       33.4,
       53.1,
-      48.5
+      48.5,
+      50.1
     ],
     "times": [
       8.5,
@@ -6671,7 +8344,8 @@
       8.2,
       8.2,
       8.1,
-      8.6
+      8.6,
+      8.8
     ]
   },
   "Ewa Villages, Hawaii, United States": {
@@ -6717,7 +8391,10 @@
       -13.499,
       -13.768,
       -13.858,
-      -13.544
+      -13.544,
+      -13.998,
+      -14.087,
+      -13.728
     ],
     "lons": [
       187.42961090686273,
@@ -6728,16 +8405,19 @@
       187.796,
       187.427,
       187.796,
-      187.911
+      187.911,
+      187.962,
+      187.317,
+      187.869
     ],
     "true_lat": -13.823,
     "true_lon": -171.9613,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Leulumoega%2C+Samoa&go=Go&ns0=1",
-    "mean_dist": 47.4,
-    "mean_lat": -13.926,
-    "mean_lon": 187.908,
-    "mean_time": 8.1,
-    "std_dist": 20.6,
+    "mean_dist": 46,
+    "mean_lat": -13.929,
+    "mean_lon": 187.86,
+    "mean_time": 8.2,
+    "std_dist": 23.2,
     "std_time": 0.4,
     "city": "Leulumoega",
     "admin": "A\u2018ana",
@@ -6752,7 +8432,10 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Gomel Oblast"
+      "Gomel Oblast",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -6763,7 +8446,10 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Belarus"
+      "Belarus",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       90.70642374803613,
@@ -6774,7 +8460,10 @@
       44.5,
       66.2,
       26.4,
-      33.9
+      33.9,
+      21.1,
+      83.2,
+      21
     ],
     "times": [
       7.566666666666675,
@@ -6785,7 +8474,10 @@
       8.4,
       8.5,
       8.6,
-      7
+      7,
+      8.6,
+      8.4,
+      8.7
     ]
   },
   "Whangarei, Northland, New Zealand": {
@@ -6794,24 +8486,30 @@
       -35.462,
       -38.728,
       -35.16,
-      -36.881
+      -36.881,
+      -34.974,
+      -35.503,
+      -35.125
     ],
     "lons": [
       174.527650122549,
       174.064,
       174.801,
       173.788,
-      174.986
+      174.986,
+      174.691,
+      173.309,
+      173.493
     ],
     "true_lat": -35.7256,
     "true_lon": 174.323,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Whangarei%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 136.5,
-    "mean_lat": -36.546,
-    "mean_lon": 174.433,
-    "mean_time": 7.6,
-    "std_dist": 105.3,
-    "std_time": 1.1,
+    "mean_dist": 121,
+    "mean_lat": -36.041,
+    "mean_lon": 174.207,
+    "mean_time": 8,
+    "std_dist": 85.6,
+    "std_time": 1,
     "city": "Whangarei",
     "admin": "Northland",
     "country": "New Zealand",
@@ -6821,49 +8519,65 @@
       "Corona",
       "Randolph Township",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
       "United States",
       "United States",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       88.14248080236783,
       37.4,
       336.5,
       79.3,
-      141.6
+      141.6,
+      89.9,
+      94.9,
+      100.4
     ],
     "times": [
       5.800000000000015,
       8.7,
       6.8,
       8.6,
-      8.3
+      8.3,
+      8.7,
+      8.6,
+      8.8
     ]
   },
   "Makaha, Hawaii, United States": {
     "lats": [
       20.928828907686206,
       20.993,
-      19.146
+      19.146,
+      21.097,
+      21.097
     ],
     "lons": [
       203.20931372549018,
       202.817,
-      204.384
+      204.384,
+      203.168,
+      202.615
     ],
     "true_lat": 21.4735,
     "true_lon": -158.2103,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Makaha%2C+United States&go=Go&ns0=1",
-    "mean_dist": 217.5,
-    "mean_lat": 20.355,
-    "mean_lon": 203.47,
-    "mean_time": 8.2,
-    "std_dist": 112,
+    "mean_dist": 179.2,
+    "mean_lat": 20.652,
+    "mean_lon": 203.238,
+    "mean_time": 8.3,
+    "std_dist": 100,
     "std_time": 0.2,
     "city": "Makaha",
     "admin": "Hawaii",
@@ -6872,22 +8586,30 @@
     "regions": [
       "Corona",
       "Charlestown",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
       "United States",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       159.1434188535458,
       119.1,
-      374.3
+      374.3,
+      148.8,
+      95.1
     ],
     "times": [
       7.933333333333341,
       8.6,
-      8.1
+      8.1,
+      8.4,
+      8.7
     ]
   },
   "Levin, Manawatu-Wanganui, New Zealand": {
@@ -6899,7 +8621,10 @@
       -42.092,
       -40.281,
       -40.633,
-      -40.844
+      -40.844,
+      -40.812,
+      -38.388,
+      -39.61
     ],
     "lons": [
       174.98627450980393,
@@ -6909,17 +8634,20 @@
       173.235,
       175.354,
       175.631,
-      175.354
+      175.354,
+      174.322,
+      176.903,
+      175.336
     ],
     "true_lat": -40.6124,
     "true_lon": 175.2772,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Levin%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 141.9,
-    "mean_lat": -41.003,
-    "mean_lon": 174.596,
-    "mean_time": 8,
-    "std_dist": 135.4,
-    "std_time": 0.2,
+    "mean_dist": 146.7,
+    "mean_lat": -40.621,
+    "mean_lon": 174.848,
+    "mean_time": 8.2,
+    "std_dist": 124.6,
+    "std_time": 0.4,
     "city": "Levin",
     "admin": "Manawatu-Wanganui",
     "country": "New Zealand",
@@ -6932,7 +8660,10 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -6942,7 +8673,10 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       65.47123265581392,
@@ -6952,7 +8686,10 @@
       236.9,
       37.3,
       29.9,
-      26.5
+      26.5,
+      83.4,
+      283.9,
+      111.4
     ],
     "times": [
       7.4333333333333425,
@@ -6962,7 +8699,10 @@
       8.3,
       8.1,
       8.3,
-      7.9
+      7.9,
+      8.6,
+      8.9,
+      8.9
     ]
   },
   "Masterton, Wellington, New Zealand": {
@@ -6974,7 +8714,10 @@
       -41.263,
       -40.914,
       -41.54,
-      -40.493
+      -40.493,
+      -40.882,
+      -41.44,
+      -40.952
     ],
     "lons": [
       175.56225490196078,
@@ -6984,16 +8727,19 @@
       175.447,
       175.723,
       175.354,
-      175.907
+      175.907,
+      175.428,
+      175.613,
+      174.783
     ],
     "true_lat": -40.9439,
     "true_lon": 175.6456,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Masterton%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 133.4,
-    "mean_lat": -41.532,
-    "mean_lon": 174.553,
-    "mean_time": 7.8,
-    "std_dist": 267.3,
+    "mean_dist": 110.3,
+    "mean_lat": -41.412,
+    "mean_lon": 174.75,
+    "mean_time": 8.1,
+    "std_dist": 231.3,
     "std_time": 0.9,
     "city": "Masterton",
     "admin": "Wellington",
@@ -7007,7 +8753,10 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -7017,7 +8766,10 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       8.75062785734521,
@@ -7027,7 +8779,10 @@
       39.1,
       7.3,
       70.6,
-      54.7
+      54.7,
+      19.4,
+      55.2,
+      72.3
     ],
     "times": [
       7.866666666666674,
@@ -7037,7 +8792,10 @@
       8.5,
       8.4,
       7.9,
-      8.2
+      8.2,
+      8.9,
+      8.8,
+      8.8
     ]
   },
   "Queenstown, Otago, New Zealand": {
@@ -7050,7 +8808,10 @@
       -45.108,
       -45.822,
       -45.951,
-      -44.977
+      -44.977,
+      -37.217,
+      -44.947,
+      -44.816
     ],
     "lons": [
       172.33676470588236,
@@ -7061,17 +8822,20 @@
       170.47,
       169.364,
       170.931,
-      169.18
+      169.18,
+      175.336,
+      169.715,
+      169.899
     ],
     "true_lat": -45.0227,
     "true_lon": 168.7251,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Queenstown%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 347.1,
-    "mean_lat": -43.363,
-    "mean_lon": 171.527,
-    "mean_time": 8,
-    "std_dist": 368.2,
-    "std_time": 0.5,
+    "mean_dist": 360.5,
+    "mean_lat": -43.104,
+    "mean_lon": 171.558,
+    "mean_time": 8.2,
+    "std_dist": 389.3,
+    "std_time": 0.6,
     "city": "Queenstown",
     "admin": "Otago",
     "country": "New Zealand",
@@ -7085,7 +8849,10 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -7096,7 +8863,10 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       387.34032769495275,
@@ -7107,7 +8877,10 @@
       137.4,
       101.9,
       200.5,
-      36.1
+      36.1,
+      1028.6,
+      78.3,
+      95.2
     ],
     "times": [
       7.766666666666675,
@@ -7118,7 +8891,10 @@
       8.4,
       8.7,
       8.5,
-      8.2
+      8.2,
+      8.9,
+      8.8,
+      8.8
     ]
   },
   "Stratford, Taranaki, New Zealand": {
@@ -7133,7 +8909,10 @@
       -38.638,
       -38.926,
       -39.07,
-      -39.142
+      -39.142,
+      -44.355,
+      -38.388,
+      -39.824
     ],
     "lons": [
       169.2264705882353,
@@ -7146,17 +8925,20 @@
       174.617,
       174.525,
       174.156,
-      174.156
+      174.156,
+      171.005,
+      174.415,
+      174.23
     ],
     "true_lat": -39.3409,
     "true_lon": 174.2845,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Stratford%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 136.7,
-    "mean_lat": -39.849,
-    "mean_lon": 174.051,
-    "mean_time": 8.2,
-    "std_dist": 208.9,
-    "std_time": 0.2,
+    "mean_dist": 163.1,
+    "mean_lat": -40.065,
+    "mean_lon": 173.872,
+    "mean_time": 8.3,
+    "std_dist": 225.4,
+    "std_time": 0.3,
     "city": "Stratford",
     "admin": "Taranaki",
     "country": "New Zealand",
@@ -7172,7 +8954,10 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -7185,7 +8970,10 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       758.3383544637624,
@@ -7198,7 +8986,10 @@
       83.2,
       50.5,
       32,
-      24.6
+      24.6,
+      620,
+      106.5,
+      53.9
     ],
     "times": [
       8.000000000000007,
@@ -7211,40 +9002,49 @@
       8.1,
       8.6,
       8.4,
-      8.7
+      8.7,
+      8.7,
+      8.7,
+      8.9
     ]
   },
   "Aiea, Hawaii, United States": {
     "lats": [
-      20.712526472299892
+      20.712526472299892,
+      20.838
     ],
     "lons": [
-      203.55490196078432
+      203.55490196078432,
+      203.168
     ],
     "true_lat": 21.3865,
     "true_lon": -157.9232,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Aiea%2C+United States&go=Go&ns0=1",
-    "mean_dist": 170.7,
-    "mean_lat": 20.712,
-    "mean_lon": 203.554,
-    "mean_time": 8.2,
-    "std_dist": 0,
-    "std_time": 7.1,
+    "mean_dist": 149.6,
+    "mean_lat": 20.775,
+    "mean_lon": 203.361,
+    "mean_time": 8.5,
+    "std_dist": 21.1,
+    "std_time": 0.3,
     "city": "Aiea",
     "admin": "Hawaii",
     "country": "United States",
     "iso2": "US",
     "regions": [
-      "Corona"
+      "Corona",
+      "Calgary"
     ],
     "countries": [
-      "United States"
+      "United States",
+      "Canada"
     ],
     "dists": [
-      170.71695739928148
+      170.71695739928148,
+      128.5
     ],
     "times": [
-      8.200000000000006
+      8.200000000000006,
+      8.9
     ]
   },
   "Auckland, Auckland, New Zealand": {
@@ -7257,7 +9057,12 @@
       -37.471,
       -37.029,
       -37.103,
-      -36.863
+      -36.863,
+      -37.07,
+      -37.217,
+      -36.551,
+      -37.217,
+      -37.291
     ],
     "lons": [
       175.56225490196078,
@@ -7268,17 +9073,22 @@
       174.617,
       174.801,
       176.184,
-      175.239
+      175.239,
+      174.599,
+      174.691,
+      174.322,
+      174.968,
+      174.322
     ],
     "true_lat": -36.8481,
     "true_lon": 174.763,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Auckland%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 157.2,
-    "mean_lat": -37.967,
-    "mean_lon": 175.241,
-    "mean_time": 8.2,
-    "std_dist": 170.9,
-    "std_time": 0.6,
+    "mean_dist": 117.4,
+    "mean_lat": -37.646,
+    "mean_lon": 175.005,
+    "mean_time": 8.3,
+    "std_dist": 147.2,
+    "std_time": 0.5,
     "city": "Auckland",
     "admin": "Auckland",
     "country": "New Zealand",
@@ -7292,7 +9102,12 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Hamburg",
-      "Gomel Oblast"
+      "Gomel Oblast",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -7303,7 +9118,12 @@
       "Netherlands",
       "Netherlands",
       "Germany",
-      "Belarus"
+      "Belarus",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       93.62186329643585,
@@ -7314,7 +9134,12 @@
       70.5,
       20.4,
       129.4,
-      42.4
+      42.4,
+      28.6,
+      41.6,
+      51.2,
+      44.9,
+      62.8
     ],
     "times": [
       8.166666666666673,
@@ -7325,7 +9150,12 @@
       8.5,
       8.6,
       6.4,
-      8.1
+      8.1,
+      8.6,
+      8.7,
+      8.6,
+      8.6,
+      8.7
     ]
   },
   "Pukekohe East, , New Zealand": {
@@ -7334,24 +9164,28 @@
       -39.785,
       -43.652,
       -42.843,
-      -41.193
+      -41.193,
+      -38.605,
+      -39.109
     ],
     "lons": [
       177.05980392156863,
       175.815,
       171.207,
       172.774,
-      172.59
+      172.59,
+      177.087,
+      174.783
     ],
     "true_lat": -37.2015,
     "true_lon": 174.9033,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Pukekohe East%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 510.2,
-    "mean_lat": -41.426,
-    "mean_lon": 173.889,
+    "mean_dist": 430.1,
+    "mean_lat": -40.692,
+    "mean_lon": 174.473,
     "mean_time": 8.2,
-    "std_dist": 185.3,
-    "std_time": 0.1,
+    "std_dist": 201.7,
+    "std_time": 0.3,
     "city": "Pukekohe East",
     "admin": "",
     "country": "New Zealand",
@@ -7361,28 +9195,36 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       331.74822940314647,
       298,
       782.3,
       652.9,
-      486.5
+      486.5,
+      247.1,
+      212.4
     ],
     "times": [
       8.13333333333334,
       8.3,
       8.5,
       8.2,
-      8.3
+      8.3,
+      7.6,
+      8.8
     ]
   },
   "Saleaula, Gaga\u2018emauga, Samoa": {
@@ -7396,7 +9238,9 @@
       -13.228,
       -16.656,
       -14.038,
-      -17.489
+      -17.489,
+      -14.087,
+      -13.368
     ],
     "lons": [
       188.23382352941178,
@@ -7408,16 +9252,18 @@
       187.15,
       185.422,
       189.086,
-      179.501
+      179.501,
+      187.869,
+      187.593
     ],
     "true_lat": -13.4489,
     "true_lon": -172.3352,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Saleaula%2C+Samoa&go=Go&ns0=1",
-    "mean_dist": 323.2,
-    "mean_lat": -14.956,
-    "mean_lon": 185.98,
-    "mean_time": 7.9,
-    "std_dist": 382,
+    "mean_dist": 276.5,
+    "mean_lat": -14.751,
+    "mean_lon": 186.271,
+    "mean_time": 8,
+    "std_dist": 364.3,
     "std_time": 0.8,
     "city": "Saleaula",
     "admin": "Gaga\u2018emauga",
@@ -7433,7 +9279,9 @@
       "Lichtenvoorde",
       "Leicester",
       null,
-      null
+      null,
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -7445,7 +9293,9 @@
       "Netherlands",
       "United Kingdom",
       "United States",
-      "United States"
+      "United States",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       86.29745750068541,
@@ -7457,7 +9307,9 @@
       60.7,
       430.3,
       166.9,
-      983.1
+      983.1,
+      74.4,
+      11.8
     ],
     "times": [
       9.100000000000003,
@@ -7469,7 +9321,9 @@
       8.5,
       7.2,
       6.7,
-      6.8
+      6.8,
+      8.8,
+      8.7
     ]
   },
   "Hawera, Taranaki, New Zealand": {
@@ -7479,7 +9333,10 @@
       -40.122,
       -39.428,
       -39.428,
-      -39.5
+      -39.5,
+      -39.682,
+      -39.682,
+      -39.325
     ],
     "lons": [
       175.4470588235294,
@@ -7487,17 +9344,20 @@
       174.709,
       174.341,
       175.078,
-      175.585
+      175.585,
+      174.691,
+      175.244,
+      175.613
     ],
     "true_lat": -39.5795,
     "true_lon": 174.278,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Hawera%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 1058.5,
-    "mean_lat": -30.61,
-    "mean_lon": 174.218,
-    "mean_time": 8.1,
-    "std_dist": 2195.9,
-    "std_time": 0.2,
+    "mean_dist": 732.2,
+    "mean_lat": -33.594,
+    "mean_lon": 174.539,
+    "mean_time": 8.3,
+    "std_dist": 1851.5,
+    "std_time": 0.4,
     "city": "Hawera",
     "admin": "Taranaki",
     "country": "New Zealand",
@@ -7508,7 +9368,10 @@
       "Charlestown",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Corona"
+      "Corona",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -7516,7 +9379,10 @@
       "United States",
       "Netherlands",
       "Netherlands",
-      "United States"
+      "United States",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       111.64192946883995,
@@ -7524,7 +9390,10 @@
       70.7,
       17.5,
       70.6,
-      112.4
+      112.4,
+      37.2,
+      83.5,
+      118
     ],
     "times": [
       8.200000000000006,
@@ -7532,7 +9401,10 @@
       8.3,
       8.2,
       8.5,
-      7.6
+      7.6,
+      9,
+      8.7,
+      8.8
     ]
   },
   "Nanakuli, Hawaii, United States": {
@@ -7540,22 +9412,24 @@
       21.44667745800813,
       21.403,
       21.403,
-      19.931
+      19.931,
+      21.356
     ],
     "lons": [
       202.2877450980392,
       202.172,
       202.633,
-      203.094
+      203.094,
+      202.799
     ],
     "true_lat": 21.3892,
     "true_lon": -158.1445,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Nanakuli%2C+United States&go=Go&ns0=1",
-    "mean_dist": 91.3,
-    "mean_lat": 21.045,
-    "mean_lon": 202.546,
-    "mean_time": 8.2,
-    "std_dist": 69,
+    "mean_dist": 92.6,
+    "mean_lat": 21.107,
+    "mean_lon": 202.597,
+    "mean_time": 8.3,
+    "std_dist": 61.7,
     "std_time": 0.2,
     "city": "Nanakuli",
     "admin": "Hawaii",
@@ -7565,64 +9439,74 @@
       "Corona",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary"
     ],
     "countries": [
       "United States",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada"
     ],
     "dists": [
       45.19840597462242,
       32.8,
       80.5,
-      207
+      207,
+      97.8
     ],
     "times": [
       8.000000000000007,
       8.2,
       8.6,
-      8.3
+      8.3,
+      8.7
     ]
   },
   "Makawao, Hawaii, United States": {
     "lats": [
       20.907212653736583,
-      21.058
+      21.058,
+      21.27
     ],
     "lons": [
       203.09411764705882,
-      203.001
+      203.001,
+      203.26
     ],
     "true_lat": 20.848,
     "true_lon": -156.319,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Makawao%2C+United States&go=Go&ns0=1",
-    "mean_dist": 67.7,
-    "mean_lat": 20.982,
-    "mean_lon": 203.047,
-    "mean_time": 7.9,
-    "std_dist": 6.4,
-    "std_time": 0,
+    "mean_dist": 66.5,
+    "mean_lat": 21.078,
+    "mean_lon": 203.118,
+    "mean_time": 8.2,
+    "std_dist": 5.5,
+    "std_time": 0.3,
     "city": "Makawao",
     "admin": "Hawaii",
     "country": "United States",
     "iso2": "US",
     "regions": [
       "Corona",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary"
     ],
     "countries": [
       "United States",
-      "Netherlands"
+      "Netherlands",
+      "Canada"
     ],
     "dists": [
       61.32814886399571,
-      74.2
+      74.2,
+      64.1
     ],
     "times": [
       8.03333333333334,
-      7.9
+      7.9,
+      8.7
     ]
   },
   "Greymouth, West Coast, New Zealand": {
@@ -7635,7 +9519,9 @@
       -42.707,
       -43.451,
       -42.979,
-      -38.926
+      -38.926,
+      -43.353,
+      -43.151
     ],
     "lons": [
       174.75588235294117,
@@ -7646,17 +9532,19 @@
       171.023,
       170.562,
       171.207,
-      173.972
+      173.972,
+      170.175,
+      170.544
     ],
     "true_lat": -42.4716,
     "true_lon": 171.2231,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Greymouth%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 257.6,
-    "mean_lat": -41.127,
-    "mean_lon": 172.589,
-    "mean_time": 7.5,
-    "std_dist": 220.7,
-    "std_time": 1.3,
+    "mean_dist": 231.1,
+    "mean_lat": -41.513,
+    "mean_lon": 172.184,
+    "mean_time": 7.7,
+    "std_dist": 207.5,
+    "std_time": 1.2,
     "city": "Greymouth",
     "admin": "West Coast",
     "country": "New Zealand",
@@ -7670,7 +9558,9 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
@@ -7681,7 +9571,9 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       532.0124892264759,
@@ -7692,7 +9584,9 @@
       30.9,
       121.4,
       56.4,
-      457.2
+      457.2,
+      129.9,
+      93.7
     ],
     "times": [
       7.700000000000008,
@@ -7703,7 +9597,9 @@
       8.1,
       8.1,
       9,
-      8.4
+      8.4,
+      8.4,
+      8.6
     ]
   },
   "Kalaoa, Hawaii, United States": {
@@ -7711,22 +9607,26 @@
       21.338942245677373,
       20.387,
       21.036,
-      20.105
+      20.105,
+      21.183,
+      21.528
     ],
     "lons": [
       202.51813725490194,
       204.384,
       202.909,
-      203.186
+      203.186,
+      202.707,
+      202.615
     ],
     "true_lat": 19.7369,
     "true_lon": -156.0122,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kalaoa%2C+United States&go=Go&ns0=1",
-    "mean_dist": 148.5,
-    "mean_lat": 20.716,
-    "mean_lon": 203.249,
-    "mean_time": 7.3,
-    "std_dist": 63.1,
+    "mean_dist": 174.7,
+    "mean_lat": 20.929,
+    "mean_lon": 203.053,
+    "mean_time": 7.8,
+    "std_dist": 64.3,
     "std_time": 1,
     "city": "Kalaoa",
     "admin": "Hawaii",
@@ -7736,25 +9636,33 @@
       "Corona",
       "Metro Manila",
       "Randolph Township",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
       "Philippines",
       "United States",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       234.84038864772165,
       83.3,
       183,
-      93.2
+      93.2,
+      208.9,
+      245.1
     ],
     "times": [
       8.400000000000006,
       6.8,
       5.9,
-      8.4
+      8.4,
+      8.7,
+      8.7
     ]
   },
   "Wellington, Wellington, New Zealand": {
@@ -7763,24 +9671,32 @@
       -41.175,
       -41.001,
       -44.04,
-      -41.175
+      -41.175,
+      -41.37,
+      -41.231,
+      -41.092,
+      -41.717
     ],
     "lons": [
       174.98627450980393,
       174.894,
       174.433,
       170.481,
-      174.894
+      174.894,
+      174.138,
+      175.152,
+      175.336,
+      175.152
     ],
     "true_lat": -41.3,
     "true_lon": 174.7833,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Wellington%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 117.7,
-    "mean_lat": -41.661,
-    "mean_lon": 173.937,
-    "mean_time": 5.4,
-    "std_dist": 174.1,
-    "std_time": 2.6,
+    "mean_dist": 86.8,
+    "mean_lat": -41.523,
+    "mean_lon": 174.385,
+    "mean_time": 6.8,
+    "std_dist": 134.4,
+    "std_time": 2.5,
     "city": "Wellington",
     "admin": "Wellington",
     "country": "New Zealand",
@@ -7790,106 +9706,134 @@
       "Metro Manila",
       "Minsk",
       "Leicester",
-      "Gomel Oblast"
+      "Gomel Oblast",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "United States",
       "Philippines",
       "Belarus",
       "United Kingdom",
-      "Belarus"
+      "Belarus",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       46.14679313854397,
       16.6,
       44.2,
       465.2,
-      16.6
+      16.6,
+      54.3,
+      31.7,
+      51.7,
+      55.6
     ],
     "times": [
       8.166666666666673,
       4.1,
       7.8,
       0.9,
-      6.4
+      6.4,
+      8.7,
+      8.5,
+      8.8,
+      8.5
     ]
   },
   "Waimalu, Hawaii, United States": {
     "lats": [
       20.647575325981553,
-      21.144
+      21.144,
+      21.011
     ],
     "lons": [
       203.27843137254902,
-      202.541
+      202.541,
+      203.075
     ],
     "true_lat": 21.3913,
     "true_lon": -157.9345,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Waimalu%2C+United States&go=Go&ns0=1",
-    "mean_dist": 103.4,
-    "mean_lat": 20.895,
-    "mean_lon": 202.909,
-    "mean_time": 8.2,
-    "std_dist": 47.1,
-    "std_time": 0,
+    "mean_dist": 106.6,
+    "mean_lat": 20.934,
+    "mean_lon": 202.964,
+    "mean_time": 8.4,
+    "std_dist": 38.7,
+    "std_time": 0.3,
     "city": "Waimalu",
     "admin": "Hawaii",
     "country": "United States",
     "iso2": "US",
     "regions": [
       "Charlestown",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary"
     ],
     "countries": [
       "United States",
-      "Netherlands"
+      "Netherlands",
+      "Canada"
     ],
     "dists": [
       150.6278707324438,
-      56.3
+      56.3,
+      112.9
     ],
     "times": [
       8.23333333333334,
-      8.3
+      8.3,
+      8.9
     ]
   },
   "Hawaiian Paradise Park, Hawaii, United States": {
     "lats": [
       20.04003577068464,
-      20.105
+      20.105,
+      20.751
     ],
     "lons": [
       204.15392156862745,
-      204.107
+      204.107,
+      201.785
     ],
     "true_lat": 19.5828,
     "true_lon": -154.9693,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Hawaiian Paradise Park%2C+United States&go=Go&ns0=1",
-    "mean_dist": 108.7,
-    "mean_lat": 20.072,
-    "mean_lon": 204.13,
-    "mean_time": 6.9,
-    "std_dist": 3.8,
-    "std_time": 1.2,
+    "mean_dist": 193.3,
+    "mean_lat": 20.298,
+    "mean_lon": 203.348,
+    "mean_time": 7.5,
+    "std_dist": 119.7,
+    "std_time": 1.3,
     "city": "Hawaiian Paradise Park",
     "admin": "Hawaii",
     "country": "United States",
     "iso2": "US",
     "regions": [
       "Minsk",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary"
     ],
     "countries": [
       "Belarus",
-      "Netherlands"
+      "Netherlands",
+      "Canada"
     ],
     "dists": [
       104.87119349113156,
-      112.6
+      112.6,
+      362.7
     ],
     "times": [
       5.633333333333349,
-      8.2
+      8.2,
+      8.7
     ]
   },
   "Waitangi, Chatham Islands, New Zealand": {
@@ -7901,7 +9845,10 @@
       -43.92,
       -43.652,
       -43.518,
-      -46.411
+      -46.411,
+      -37.732,
+      -43.823,
+      -44.222
     ],
     "lons": [
       183.55686274509804,
@@ -7911,17 +9858,20 @@
       183.556,
       183.372,
       182.819,
-      168.526
+      168.526,
+      175.244,
+      183.63,
+      183.538
     ],
     "true_lat": -44.0263,
     "true_lon": -176.3696,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Waitangi%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 192.6,
-    "mean_lat": -44.138,
-    "mean_lon": 181.585,
-    "mean_time": 7.8,
-    "std_dist": 385.2,
-    "std_time": 0.4,
+    "mean_dist": 234.4,
+    "mean_lat": -43.535,
+    "mean_lon": 181.372,
+    "mean_time": 8,
+    "std_dist": 411.8,
+    "std_time": 0.5,
     "city": "Waitangi",
     "admin": "Chatham Islands",
     "country": "New Zealand",
@@ -7934,7 +9884,10 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Leicester"
+      "Leicester",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Netherlands",
@@ -7944,7 +9897,10 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "United Kingdom"
+      "United Kingdom",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       25.833550359524814,
@@ -7954,7 +9910,10 @@
       13.1,
       46.3,
       86.1,
-      1210.3
+      1210.3,
+      992.4,
+      22.5,
+      23
     ],
     "times": [
       7.533333333333342,
@@ -7964,7 +9923,10 @@
       8.1,
       8.3,
       8.3,
-      6.7
+      6.7,
+      8.8,
+      8.6,
+      8.6
     ]
   },
   "Brownsville, Texas, United States": {
@@ -7976,7 +9938,13 @@
       25.645,
       26.145,
       26.311,
-      26.394
+      26.394,
+      16.897,
+      25.766,
+      25.516,
+      26.431,
+      26.266,
+      25.766
     ],
     "lons": [
       204.75294117647059,
@@ -7986,17 +9954,23 @@
       263.088,
       262.811,
       262.535,
-      262.443
+      262.443,
+      260.673,
+      262.148,
+      262.977,
+      262.517,
+      262.332,
+      263.162
     ],
     "true_lat": 25.998,
     "true_lon": -97.4565,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Brownsville%2C+United States&go=Go&ns0=1",
-    "mean_dist": 775.5,
-    "mean_lat": 25.134,
-    "mean_lon": 255.438,
-    "mean_time": 7.2,
-    "std_dist": 1950.8,
-    "std_time": 1.6,
+    "mean_dist": 535.8,
+    "mean_lat": 24.837,
+    "mean_lon": 258.379,
+    "mean_time": 7.7,
+    "std_dist": 1519.2,
+    "std_time": 1.3,
     "city": "Brownsville",
     "admin": "Texas",
     "country": "United States",
@@ -8009,7 +9983,13 @@
       "Lichtenvoorde",
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Netherlands",
@@ -8019,7 +9999,13 @@
       "Netherlands",
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       5936.8509990734565,
@@ -8029,7 +10015,13 @@
       67.1,
       31.4,
       34.8,
-      45.2
+      45.2,
+      1030.2,
+      47.1,
+      68.9,
+      48.3,
+      36.4,
+      67
     ],
     "times": [
       3.033333333333358,
@@ -8039,7 +10031,13 @@
       7.7,
       8.1,
       7.7,
-      8.2
+      8.2,
+      7.3,
+      8.4,
+      8.3,
+      8.6,
+      8.7,
+      8.6
     ]
   },
   "Wailuku, Hawaii, United States": {
@@ -8079,21 +10077,27 @@
     "lats": [
       -38.420789637753245,
       -38.493,
-      -42.639
+      -42.639,
+      -37.732,
+      -39.682,
+      -41.301
     ],
     "lons": [
       175.6313725490196,
       175.262,
-      173.05
+      173.05,
+      175.428,
+      175.152,
+      175.06
     ],
     "true_lat": -37.7783,
     "true_lon": 175.2896,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Hamilton%2C+New Zealand&go=Go&ns0=1",
-    "mean_dist": 243.2,
-    "mean_lat": -39.85,
-    "mean_lon": 174.647,
-    "mean_time": 8,
-    "std_dist": 233,
+    "mean_dist": 224.5,
+    "mean_lat": -39.711,
+    "mean_lon": 174.93,
+    "mean_time": 8.3,
+    "std_dist": 198.7,
     "std_time": 0.5,
     "city": "Hamilton",
     "admin": "Waikato",
@@ -8102,55 +10106,73 @@
     "regions": [
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Corona"
+      "Corona",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Netherlands",
       "Netherlands",
-      "United States"
+      "United States",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       77.44845980762905,
       79.5,
-      572.9
+      572.9,
+      13.2,
+      212,
+      392.2
     ],
     "times": [
       8.266666666666673,
       8.5,
-      7.3
+      7.3,
+      8.3,
+      8.8,
+      8.8
     ]
   },
   "Wailua Homesteads, Hawaii, United States": {
     "lats": [
-      19.844251361569725
+      19.844251361569725,
+      21.27
     ],
     "lons": [
-      204.75294117647059
+      204.75294117647059,
+      202.615
     ],
     "true_lat": 22.065,
     "true_lon": -159.3771,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Wailua Homesteads%2C+United States&go=Go&ns0=1",
-    "mean_dist": 494.8,
-    "mean_lat": 19.844,
-    "mean_lon": 204.752,
-    "mean_time": 8,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 359.4,
+    "mean_lat": 20.557,
+    "mean_lon": 203.683,
+    "mean_time": 8.2,
+    "std_dist": 135.4,
+    "std_time": 0.2,
     "city": "Wailua Homesteads",
     "admin": "Hawaii",
     "country": "United States",
     "iso2": "US",
     "regions": [
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary"
     ],
     "countries": [
-      "Netherlands"
+      "Netherlands",
+      "Canada"
     ],
     "dists": [
-      494.8345268701033
+      494.8345268701033,
+      224
     ],
     "times": [
-      8.03333333333334
+      8.03333333333334,
+      8.5
     ]
   },
   "Pearl City, Hawaii, United States": {
@@ -8202,21 +10224,25 @@
     "lats": [
       21.058460852199712,
       21.919,
-      0.214
+      0.214,
+      21.011,
+      21.183
     ],
     "lons": [
       203.27843137254902,
       203.186,
-      269.619
+      269.619,
+      202.338,
+      203.813
     ],
     "true_lat": 19.6238,
     "true_lon": -155.9269,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Holualoa%2C+United States&go=Go&ns0=1",
-    "mean_dist": 2632.7,
-    "mean_lat": 14.397,
-    "mean_lon": 225.361,
-    "mean_time": 7.8,
-    "std_dist": 3404.4,
+    "mean_dist": 1662.2,
+    "mean_lat": 17.077,
+    "mean_lon": 216.446,
+    "mean_time": 8.1,
+    "std_dist": 2892.5,
     "std_time": 0.6,
     "city": "Holualoa",
     "admin": "Hawaii",
@@ -8225,22 +10251,30 @@
     "regions": [
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Leicester"
+      "Leicester",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Netherlands",
       "Netherlands",
-      "United Kingdom"
+      "United Kingdom",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       179.75796778069582,
       271.4,
-      7447
+      7447,
+      237.7,
+      175.5
     ],
     "times": [
       8.200000000000006,
       8.4,
-      6.9
+      6.9,
+      8.7,
+      8.6
     ]
   },
   "Kaikoura, Canterbury, New Zealand": {
@@ -8292,21 +10326,25 @@
     "lats": [
       21.14481950018126,
       21.144,
-      -17.952
+      -17.952,
+      20.838,
+      21.872
     ],
     "lons": [
       203.92352941176472,
       202.08,
-      178.58
+      178.58,
+      202.983,
+      202.43
     ],
     "true_lat": 21.4936,
     "true_lon": -158.0617,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Schofield Barracks%2C+United States&go=Go&ns0=1",
-    "mean_dist": 1773.6,
-    "mean_lat": 8.112,
-    "mean_lon": 194.861,
-    "mean_time": 7.2,
-    "std_dist": 2332,
+    "mean_dist": 1103.5,
+    "mean_lat": 13.409,
+    "mean_lon": 197.999,
+    "mean_time": 7.8,
+    "std_dist": 1984.2,
     "std_time": 0.9,
     "city": "Schofield Barracks",
     "admin": "Hawaii",
@@ -8315,44 +10353,56 @@
     "regions": [
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Hamburg"
+      "Hamburg",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Netherlands",
       "Netherlands",
-      "Germany"
+      "Germany",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       209.26488449805962,
       41.4,
-      5070.3
+      5070.3,
+      130.6,
+      66
     ],
     "times": [
       8.23333333333334,
       7.6,
-      6
+      6,
+      8.7,
+      8.6
     ]
   },
   "Mililani Mauka, Hawaii, United States": {
     "lats": [
       20.19214413272115,
       20.712,
-      20.365
+      20.365,
+      20.838,
+      20.751
     ],
     "lons": [
       203.18627450980392,
       203.923,
-      204.2
+      204.2,
+      201.509,
+      202.891
     ],
     "true_lat": 21.4756,
     "true_lon": -157.9947,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Mililani Mauka%2C+United States&go=Go&ns0=1",
-    "mean_dist": 221.2,
-    "mean_lat": 20.423,
-    "mean_lon": 203.769,
-    "mean_time": 8.1,
-    "std_dist": 29.1,
-    "std_time": 0,
+    "mean_dist": 174.6,
+    "mean_lat": 20.571,
+    "mean_lon": 203.141,
+    "mean_time": 8.4,
+    "std_dist": 62.3,
+    "std_time": 0.2,
     "city": "Mililani Mauka",
     "admin": "Hawaii",
     "country": "United States",
@@ -8360,41 +10410,51 @@
     "regions": [
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada"
     ],
     "dists": [
       188.2271097007084,
       216.3,
-      259.2
+      259.2,
+      87.5,
+      122.1
     ],
     "times": [
       8.200000000000006,
       8.2,
-      8.1
+      8.1,
+      8.7,
+      8.8
     ]
   },
   "Waikele, Hawaii, United States": {
     "lats": [
       20.452555631546787,
-      21.144
+      21.144,
+      20.665
     ],
     "lons": [
       203.55490196078432,
-      202.633
+      202.633,
+      203.168
     ],
     "true_lat": 21.4025,
     "true_lon": -158.0058,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Waikele%2C+United States&go=Go&ns0=1",
-    "mean_dist": 132.7,
-    "mean_lat": 20.798,
-    "mean_lon": 203.093,
-    "mean_time": 8.4,
-    "std_dist": 60.6,
+    "mean_dist": 137.4,
+    "mean_lat": 20.753,
+    "mean_lon": 203.118,
+    "mean_time": 8.5,
+    "std_dist": 49.9,
     "std_time": 0.1,
     "city": "Waikele",
     "admin": "Hawaii",
@@ -8402,41 +10462,47 @@
     "iso2": "US",
     "regions": [
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary"
     ],
     "countries": [
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada"
     ],
     "dists": [
       193.4706753600124,
-      72.1
+      72.1,
+      146.8
     ],
     "times": [
       8.33333333333334,
-      8.6
+      8.6,
+      8.7
     ]
   },
   "Lihue, Hawaii, United States": {
     "lats": [
       20.452555631546787,
       20.972,
-      19.844
+      19.844,
+      20.578
     ],
     "lons": [
       202.63333333333333,
       203.554,
-      203.001
+      203.001,
+      202.891
     ],
     "true_lat": 21.9728,
     "true_lon": -159.3541,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Lihue%2C+United States&go=Go&ns0=1",
-    "mean_dist": 309.2,
-    "mean_lat": 20.422,
-    "mean_lon": 203.062,
-    "mean_time": 8.3,
-    "std_dist": 31.2,
-    "std_time": 0,
+    "mean_dist": 301.8,
+    "mean_lat": 20.461,
+    "mean_lon": 203.019,
+    "mean_time": 8.4,
+    "std_dist": 29.9,
+    "std_time": 0.1,
     "city": "Lihue",
     "admin": "Hawaii",
     "country": "United States",
@@ -8444,55 +10510,65 @@
     "regions": [
       "Lichtenvoorde",
       "Lichtenvoorde",
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary"
     ],
     "countries": [
       "Netherlands",
       "Netherlands",
-      "Netherlands"
+      "Netherlands",
+      "Canada"
     ],
     "dists": [
       266.4869584517145,
       320.9,
-      340.4
+      340.4,
+      279.6
     ],
     "times": [
       8.33333333333334,
       8.3,
-      8.4
+      8.4,
+      8.6
     ]
   },
   "Ocean Pointe, Hawaii, United States": {
     "lats": [
-      20.79908469931826
+      20.79908469931826,
+      20.404
     ],
     "lons": [
-      203.92352941176472
+      203.92352941176472,
+      202.43
     ],
     "true_lat": 21.3145,
     "true_lon": -158.0289,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Ocean Pointe%2C+United States&go=Go&ns0=1",
-    "mean_dist": 210.5,
-    "mean_lat": 20.799,
-    "mean_lon": 203.923,
-    "mean_time": 8.2,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 161.1,
+    "mean_lat": 20.601,
+    "mean_lon": 203.176,
+    "mean_time": 8.5,
+    "std_dist": 49.3,
+    "std_time": 0.2,
     "city": "Ocean Pointe",
     "admin": "Hawaii",
     "country": "United States",
     "iso2": "US",
     "regions": [
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary"
     ],
     "countries": [
-      "Netherlands"
+      "Netherlands",
+      "Canada"
     ],
     "dists": [
-      210.55120266745118
+      210.55120266745118,
+      111.8
     ],
     "times": [
-      8.266666666666673
+      8.266666666666673,
+      8.8
     ]
   },
   "Ahuimanu, Hawaii, United States": {
@@ -8563,68 +10639,98 @@
   },
   "Mililani Town, Hawaii, United States": {
     "lats": [
-      20.018293947102627
+      20.018293947102627,
+      22.044,
+      21.356
     ],
     "lons": [
-      203.00196078431372
+      203.00196078431372,
+      201.969,
+      203.26
     ],
     "true_lat": 21.4465,
     "true_lon": -158.0147,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Mililani Town%2C+United States&go=Go&ns0=1",
-    "mean_dist": 190.7,
-    "mean_lat": 20.018,
-    "mean_lon": 203.001,
-    "mean_time": 8.3,
-    "std_dist": 0,
-    "std_time": 5.3,
+    "mean_dist": 129.8,
+    "mean_lat": 21.139,
+    "mean_lon": 202.743,
+    "mean_time": 8.6,
+    "std_dist": 50.8,
+    "std_time": 0.2,
     "city": "Mililani Town",
     "admin": "Hawaii",
     "country": "United States",
     "iso2": "US",
     "regions": [
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada"
     ],
     "dists": [
-      190.78186834610537
+      190.78186834610537,
+      66.4,
+      132.3
     ],
     "times": [
-      8.300000000000006
+      8.300000000000006,
+      8.9,
+      8.6
     ]
   },
   "Kahului, Hawaii, United States": {
     "lats": [
-      21.14481950018126
+      21.14481950018126,
+      20.491,
+      20.838,
+      21.183
     ],
     "lons": [
-      203.18627450980392
+      203.18627450980392,
+      203.075,
+      202.983,
+      202.246
     ],
     "true_lat": 20.8715,
     "true_lon": -156.4603,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kahului%2C+United States&go=Go&ns0=1",
-    "mean_dist": 47.6,
-    "mean_lat": 21.144,
-    "mean_lon": 203.186,
-    "mean_time": 8.3,
-    "std_dist": 0,
-    "std_time": 0,
+    "mean_dist": 77,
+    "mean_lat": 20.914,
+    "mean_lon": 202.872,
+    "mean_time": 8.6,
+    "std_dist": 36,
+    "std_time": 0.1,
     "city": "Kahului",
     "admin": "Hawaii",
     "country": "United States",
     "iso2": "US",
     "regions": [
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary",
+      "Calgary",
+      "Calgary"
     ],
     "countries": [
-      "Netherlands"
+      "Netherlands",
+      "Canada",
+      "Canada",
+      "Canada"
     ],
     "dists": [
-      47.64012208280707
+      47.64012208280707,
+      64.1,
+      57.8,
+      138.6
     ],
     "times": [
-      8.366666666666672
+      8.366666666666672,
+      8.8,
+      8.8,
+      8.7
     ]
   },
   "Waimea, Hawaii, United States": {
@@ -8695,35 +10801,41 @@
   },
   "Kaneohe Station, Hawaii, United States": {
     "lats": [
-      21.403592897593875
+      21.403592897593875,
+      20.491
     ],
     "lons": [
-      202.72549019607843
+      202.72549019607843,
+      202.43
     ],
     "true_lat": 21.4451,
     "true_lon": -157.7515,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kaneohe Station%2C+United States&go=Go&ns0=1",
-    "mean_dist": 49.5,
-    "mean_lat": 21.403,
-    "mean_lon": 202.725,
-    "mean_time": 8.4,
-    "std_dist": 0,
-    "std_time": 5.3,
+    "mean_dist": 78.5,
+    "mean_lat": 20.947,
+    "mean_lon": 202.577,
+    "mean_time": 8.6,
+    "std_dist": 29,
+    "std_time": 0.1,
     "city": "Kaneohe Station",
     "admin": "Hawaii",
     "country": "United States",
     "iso2": "US",
     "regions": [
-      "Lichtenvoorde"
+      "Lichtenvoorde",
+      "Calgary"
     ],
     "countries": [
-      "Netherlands"
+      "Netherlands",
+      "Canada"
     ],
     "dists": [
-      49.58916757302471
+      49.58916757302471,
+      107.6
     ],
     "times": [
-      8.400000000000006
+      8.400000000000006,
+      8.8
     ]
   },
   "Halawa, Hawaii, United States": {
@@ -8763,6 +10875,177 @@
     "times": [
       7.533333333333342,
       7.10000000000001
+    ]
+  },
+  "Hanamaulu, Hawaii, United States": {
+    "lats": [
+      19.970572226810972
+    ],
+    "lons": [
+      204.45823117985447
+    ],
+    "true_lat": 21.9954,
+    "true_lon": -159.3493,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Hanamaulu%2C+United States&go=Go&ns0=1",
+    "mean_dist": 454.8,
+    "mean_lat": 19.97,
+    "mean_lon": 204.458,
+    "mean_time": 8.4,
+    "std_dist": 0,
+    "std_time": 5.3,
+    "city": "Hanamaulu",
+    "admin": "Hawaii",
+    "country": "United States",
+    "iso2": "US",
+    "regions": [
+      "Calgary"
+    ],
+    "countries": [
+      "Canada"
+    ],
+    "dists": [
+      454.8913061704698
+    ],
+    "times": [
+      8.400000000000006
+    ]
+  },
+  "Kapolei, Hawaii, United States": {
+    "lats": [
+      21.18378439966811
+    ],
+    "lons": [
+      203.26019196416817
+    ],
+    "true_lat": 21.3403,
+    "true_lon": -158.0665,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kapolei%2C+United States&go=Go&ns0=1",
+    "mean_dist": 138.5,
+    "mean_lat": 21.183,
+    "mean_lon": 203.26,
+    "mean_time": 8.8,
+    "std_dist": 0,
+    "std_time": 3.5,
+    "city": "Kapolei",
+    "admin": "Hawaii",
+    "country": "United States",
+    "iso2": "US",
+    "regions": [
+      "Calgary"
+    ],
+    "countries": [
+      "Canada"
+    ],
+    "dists": [
+      138.5766190677043
+    ],
+    "times": [
+      8.800000000000004
+    ]
+  },
+  "Makakilo, Hawaii, United States": {
+    "lats": [
+      21.356304982459207,
+      21.356
+    ],
+    "lons": [
+      202.7072507876976,
+      201.785
+    ],
+    "true_lat": 21.3591,
+    "true_lon": -158.0813,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Makakilo%2C+United States&go=Go&ns0=1",
+    "mean_dist": 47.6,
+    "mean_lat": 21.356,
+    "mean_lon": 202.246,
+    "mean_time": 8.8,
+    "std_dist": 33.9,
+    "std_time": 0,
+    "city": "Makakilo",
+    "admin": "Hawaii",
+    "country": "United States",
+    "iso2": "US",
+    "regions": [
+      "Calgary",
+      "Calgary"
+    ],
+    "countries": [
+      "Canada",
+      "Canada"
+    ],
+    "dists": [
+      81.66172685574091,
+      13.7
+    ],
+    "times": [
+      8.733333333333338,
+      8.9
+    ]
+  },
+  "Kapaa, Hawaii, United States": {
+    "lats": [
+      20.75160406674944
+    ],
+    "lons": [
+      202.8915645131878
+    ],
+    "true_lat": 22.091,
+    "true_lon": -159.352,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kapaa%2C+United States&go=Go&ns0=1",
+    "mean_dist": 275.8,
+    "mean_lat": 20.751,
+    "mean_lon": 202.891,
+    "mean_time": 8.7,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Kapaa",
+    "admin": "Hawaii",
+    "country": "United States",
+    "iso2": "US",
+    "regions": [
+      "Calgary"
+    ],
+    "countries": [
+      "Canada"
+    ],
+    "dists": [
+      275.88400570207443
+    ],
+    "times": [
+      8.766666666666671
+    ]
+  },
+  "Honolulu, Hawaii, United States": {
+    "lats": [
+      20.57838390755857
+    ],
+    "lons": [
+      203.07587823867797
+    ],
+    "true_lat": 21.3294,
+    "true_lon": -157.846,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Honolulu%2C+United States&go=Go&ns0=1",
+    "mean_dist": 127,
+    "mean_lat": 20.578,
+    "mean_lon": 203.075,
+    "mean_time": 8.6,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Honolulu",
+    "admin": "Hawaii",
+    "country": "United States",
+    "iso2": "US",
+    "regions": [
+      "Calgary"
+    ],
+    "countries": [
+      "Canada"
+    ],
+    "dists": [
+      127.03401835202807
+    ],
+    "times": [
+      8.666666666666671
     ]
   }
 }
