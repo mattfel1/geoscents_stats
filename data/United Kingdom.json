@@ -5558,7 +5558,8 @@
       50.322788226537455,
       50.23246190797042,
       50.416,
-      50.429
+      50.429,
+      50.816
     ],
     "lons": [
       -3.6703608674940753,
@@ -5595,7 +5596,8 @@
       -4.663014705882356,
       -5.425147058823532,
       -4.442,
-      -4.196
+      -4.196,
+      -1.895
     ],
     "true_lat": 50.3854,
     "true_lon": -4.16,
@@ -5645,7 +5647,8 @@
       "Campbellsville",
       "Hull",
       null,
-      "England"
+      "England",
+      "Newbury"
     ],
     "countries": [
       "United Kingdom",
@@ -5682,6 +5685,7 @@
       "United States",
       "United Kingdom",
       "United States",
+      "United Kingdom",
       "United Kingdom"
     ],
     "dists": [
@@ -5719,7 +5723,8 @@
       36.360041002148684,
       91.43777221423485,
       20.3,
-      5.5
+      5.5,
+      166.8
     ],
     "times": [
       6.033333333333347,
@@ -5756,7 +5761,8 @@
       6.966666666666677,
       4.166666666666687,
       8.4,
-      5.7
+      5.7,
+      8.6
     ]
   },
   "Luton, Luton, United Kingdom": {
@@ -10000,7 +10006,8 @@
       52.007,
       51.53426058815522,
       52.041347132053666,
-      51.93
+      51.93,
+      51.931
     ],
     "lons": [
       -0.35555555555555785,
@@ -10054,7 +10061,8 @@
       -0.667,
       0.30495915032679477,
       -0.09022058823529733,
-      -0.54
+      -0.54,
+      -0.472
     ],
     "true_lat": 52.2004,
     "true_lon": 0.1166,
@@ -10121,7 +10129,8 @@
       "Atlanta",
       "Campbellsville",
       "Hull",
-      "Tokyo"
+      "Tokyo",
+      "Newbury"
     ],
     "countries": [
       "United Kingdom",
@@ -10175,7 +10184,8 @@
       "United States",
       "United States",
       "United Kingdom",
-      "Japan"
+      "Japan",
+      "United Kingdom"
     ],
     "dists": [
       47.137207177170794,
@@ -10229,7 +10239,8 @@
       57.7,
       75.19182836695346,
       22.631249801801633,
-      54
+      54,
+      50.1
     ],
     "times": [
       7.066666666666677,
@@ -10283,6 +10294,7 @@
       7,
       6.233333333333347,
       7.233333333333343,
+      8.5,
       8.5
     ]
   },
@@ -17515,5 +17527,60 @@
     "times": [
       3.2666666666666906
     ]
+  },
+  "Wigan, Wigan, United Kingdom": {
+    "lats": [
+      53.33143448197096
+    ],
+    "lons": [
+      -2.5052862953048916
+    ],
+    "true_lat": 53.5333,
+    "true_lon": -2.6167,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Wigan%2C+United Kingdom&go=Go&ns0=1",
+    "mean_dist": 23.6,
+    "mean_lat": 53.331,
+    "mean_lon": -2.505,
+    "mean_time": 8.4,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Wigan",
+    "admin": "Wigan",
+    "country": "United Kingdom",
+    "iso2": "GB",
+    "regions": [
+      "Newbury"
+    ],
+    "countries": [
+      "United Kingdom"
+    ],
+    "dists": [
+      23.628745095832887
+    ],
+    "times": [
+      8.433333333333339
+    ]
+  },
+  "Port Talbot, Neath Port Talbot, United Kingdom": {
+    "lats": [],
+    "lons": [],
+    "true_lat": 51.6,
+    "true_lon": -3.7833,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Port Talbot%2C+United Kingdom&go=Go&ns0=1",
+    "regions": [],
+    "countries": [],
+    "dists": [],
+    "times": []
+  },
+  "Kirkintilloch, East Dunbartonshire, United Kingdom": {
+    "lats": [],
+    "lons": [],
+    "true_lat": 55.9167,
+    "true_lon": -4.1667,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Kirkintilloch%2C+United Kingdom&go=Go&ns0=1",
+    "regions": [],
+    "countries": [],
+    "dists": [],
+    "times": []
   }
 }
