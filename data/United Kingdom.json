@@ -17492,40 +17492,46 @@
   "Derby, Derby, United Kingdom": {
     "lats": [
       52.55488550563551,
-      53.001
+      53.001,
+      51.758
     ],
     "lons": [
       -1.1002223754084994,
-      -1.303
+      -1.303,
+      -0.512
     ],
     "true_lat": 52.9333,
     "true_lon": -1.5,
     "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Derby%2C+United Kingdom&go=Go&ns0=1",
-    "mean_dist": 32.5,
-    "mean_lat": 52.777,
-    "mean_lon": -1.201,
-    "mean_time": 7.9,
-    "std_dist": 17.4,
-    "std_time": 0.1,
+    "mean_dist": 70.6,
+    "mean_lat": 52.437,
+    "mean_lon": -0.971,
+    "mean_time": 7.5,
+    "std_dist": 55.7,
+    "std_time": 0.4,
     "city": "Derby",
     "admin": "Derby",
     "country": "United Kingdom",
     "iso2": "GB",
     "regions": [
       "Newbury",
-      "England"
+      "England",
+      "Stockholm"
     ],
     "countries": [
       "United Kingdom",
-      "United Kingdom"
+      "United Kingdom",
+      "Sweden"
     ],
     "dists": [
       49.94716063799639,
-      15.1
+      15.1,
+      146.8
     ],
     "times": [
       8.03333333333334,
-      7.8
+      7.8,
+      6.9
     ]
   },
   "Wallsend, North Tyneside, United Kingdom": {
@@ -20137,6 +20143,39 @@
       3.7000000000000224,
       5.7333333333333485,
       6.833333333333345
+    ]
+  },
+  "Chicksands, Central Bedfordshire, United Kingdom": {
+    "lats": [
+      53.538050042381165
+    ],
+    "lons": [
+      -1.519686025667692
+    ],
+    "true_lat": 52.0333,
+    "true_lon": -0.3667,
+    "wiki": "https://en.wikipedia.org/wiki/Special:Search?search=Chicksands%2C+United Kingdom&go=Go&ns0=1",
+    "mean_dist": 184.4,
+    "mean_lat": 53.538,
+    "mean_lon": -1.519,
+    "mean_time": 6,
+    "std_dist": 0,
+    "std_time": 0,
+    "city": "Chicksands",
+    "admin": "Central Bedfordshire",
+    "country": "United Kingdom",
+    "iso2": "GB",
+    "regions": [
+      "Stockholm"
+    ],
+    "countries": [
+      "Sweden"
+    ],
+    "dists": [
+      184.40764554724907
+    ],
+    "times": [
+      6.066666666666681
     ]
   }
 }
