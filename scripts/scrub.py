@@ -58,7 +58,7 @@ def handle_map(file, this_map, metadata, cache, continent_country_perf):
             data[entry]['regions'] = []
             data[entry]['countries'] = []
             el = 0
-            # print("Processing " + str(len(data[entry]['ips'])) + " entries for " + entry)
+            print("Processing " + str(len(data[entry]['ips'])) + " entries for " + entry)
             for ip in data[entry]['ips']:
                 num_clicks = num_clicks + 1
                 ip4 = '.'.join(re.split(':|\.|t',ip)[-4:])
@@ -79,14 +79,15 @@ def handle_map(file, this_map, metadata, cache, continent_country_perf):
                     # Version 1
                     signal.signal(signal.SIGALRM, alarm_handler)
                     signal.alarm(15)
-                    try:
-                        fetch = lookup_2(ip4)
-                        cache[ip4] = [fetch['city'], fetch['country_name']]
-                        data[entry]['regions'].append(fetch['city'])
-                        data[entry]['countries'].append(fetch['country_name'])
-                        if (fetch['country_name'] != "" and fetch['country_name'] != None): fetched = True
-                    except:
-                        print('urllib to geolocation failed to fetch ip ' + ip4)
+                    # This website seems defunct
+                    # try:
+                    #     fetch = lookup_2(ip4)
+                    #     cache[ip4] = [fetch['city'], fetch['country_name']]
+                    #     data[entry]['regions'].append(fetch['city'])
+                    #     data[entry]['countries'].append(fetch['country_name'])
+                    #     if (fetch['country_name'] != "" and fetch['country_name'] != None): fetched = True
+                    # except:
+                    #     print('urllib to geolocation failed to fetch ip ' + ip4)
                     signal.alarm(0)
                     if (fetched == False):
                         # Version 2

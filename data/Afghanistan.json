@@ -28,11 +28,11 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Gomel",
-      "Kalmthout",
+      "Gomel Oblast",
+      "Flanders",
       "Plovdiv",
       "Leinster",
-      "Gloucester"
+      "England"
     ],
     "countries": [
       "Belarus",
@@ -81,9 +81,9 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Gomel",
-      "Islington",
-      "Gloucester"
+      "Gomel Oblast",
+      "England",
+      "England"
     ],
     "countries": [
       "Belarus",
@@ -124,8 +124,8 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Gomel",
-      "Minsk"
+      "Gomel Oblast",
+      "Minsk City"
     ],
     "countries": [
       "Belarus",
@@ -169,11 +169,11 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Gomel",
-      "Minsk",
-      null,
-      "Minsk",
-      "Gloucester"
+      "Gomel Oblast",
+      "Minsk City",
+      "Ontario",
+      "Minsk City",
+      "England"
     ],
     "countries": [
       "Belarus",
@@ -222,9 +222,9 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Gomel",
-      null,
-      "Gloucester"
+      "Gomel Oblast",
+      "Ontario",
+      "England"
     ],
     "countries": [
       "Belarus",
@@ -248,14 +248,18 @@
       36.094,
       35.679,
       32.351,
-      33.241
+      33.241,
+      34.00917223219808,
+      31.72062246131436
     ],
     "lons": [
       69.38644607843138,
       65.886,
       60.874,
       67.832,
-      68.257
+      68.257,
+      67.14509461936814,
+      67.03632352941176
     ],
     "true_lat": 33.6001,
     "true_lon": 69.2146,
@@ -271,32 +275,40 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Gomel",
+      "Gomel Oblast",
       "Leinster",
-      null,
-      null,
-      "Minsk"
+      "Ontario",
+      "Ontario",
+      "Minsk City",
+      "Virginia",
+      "Virginia"
     ],
     "countries": [
       "Belarus",
       "Ireland",
       "Canada",
       "Canada",
-      "Belarus"
+      "Belarus",
+      "United States",
+      "United States"
     ],
     "dists": [
       22.32349020658257,
       411.1,
       796.9,
       189.5,
-      97.3
+      97.3,
+      196.5463063249185,
+      291.97245680310203
     ],
     "times": [
       5.366666666666683,
       9.4,
       4.8,
       4.3,
-      7
+      7,
+      7.966666666666674,
+      5.33333333333335
     ]
   },
   "Maz\u0101r-e Shar\u012bf, Balkh, Afghanistan": {
@@ -304,13 +316,17 @@
       36.11605783765167,
       34.234,
       33.521,
-      36.475
+      36.475,
+      32.04,
+      36.122
     ],
     "lons": [
       66.18509803921569,
       70.493,
       68.775,
-      65.259
+      65.259,
+      65.742,
+      70.774
     ],
     "true_lat": 36.7,
     "true_lon": 67.1,
@@ -326,28 +342,36 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Gomel",
-      "Kalmthout",
-      null,
-      null
+      "Gomel Oblast",
+      "Flanders",
+      "Ontario",
+      "Ontario",
+      "Virginia",
+      "Virginia"
     ],
     "countries": [
       "Belarus",
       "Belgium",
       "Canada",
-      "Canada"
+      "Canada",
+      "United States",
+      "United States"
     ],
     "dists": [
       104.49621811152655,
       411.7,
       384.8,
-      166.1
+      166.1,
+      532.9,
+      335
     ],
     "times": [
       4.8000000000000185,
       7.7,
       7.2,
-      6.8
+      6.8,
+      6.6,
+      1.7
     ]
   },
   "Far\u0101h, Far\u0101h, Afghanistan": {
@@ -373,8 +397,8 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Gomel",
-      "Islington"
+      "Gomel Oblast",
+      "England"
     ],
     "countries": [
       "Belarus",
@@ -412,7 +436,7 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Gomel",
+      "Gomel Oblast",
       "Leinster"
     ],
     "countries": [
@@ -433,13 +457,17 @@
       35.63393163041363,
       35.069,
       36.625,
-      33.827
+      33.827,
+      36.17096247591284,
+      34.72818555560167
     ],
     "lons": [
       64.85274509803922,
       69.168,
       70.274,
-      65.681
+      65.681,
+      69.11245788046205,
+      70.0711274509804
     ],
     "true_lat": 34.8211,
     "true_lon": 67.521,
@@ -455,28 +483,36 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Gomel",
-      "Islington",
-      null,
-      "Gloucester"
+      "Gomel Oblast",
+      "England",
+      "Ontario",
+      "England",
+      "Virginia",
+      "Virginia"
     ],
     "countries": [
       "Belarus",
       "United Kingdom",
       "Canada",
-      "United Kingdom"
+      "United Kingdom",
+      "United States",
+      "United States"
     ],
     "dists": [
       258.654770204492,
       152.6,
       319.3,
-      201.7
+      201.7,
+      208.04807236163748,
+      233.14040060237855
     ],
     "times": [
       3.200000000000024,
       9.4,
       7.2,
-      8.6
+      8.6,
+      7.066666666666677,
+      7.733333333333341
     ]
   },
   "A\u012bbak, Samang\u0101n, Afghanistan": {
@@ -502,8 +538,8 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Cumming",
-      "Minsk"
+      "Georgia",
+      "Minsk City"
     ],
     "countries": [
       "United States",
@@ -541,8 +577,8 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Minsk",
-      "Minsk"
+      "Minsk City",
+      "Minsk City"
     ],
     "countries": [
       "Belarus",
@@ -580,8 +616,8 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Minsk",
-      "Carcassonne"
+      "Minsk City",
+      "Occitanie"
     ],
     "countries": [
       "Belarus",
@@ -601,13 +637,17 @@
       37.57420317764609,
       35.309,
       35.531,
-      36.52
+      36.52,
+      34.03149833298612,
+      35.7879278159778
     ],
     "lons": [
       70.75580882352942,
       70.019,
       70.454,
-      65.777
+      65.777,
+      66.4071568627451,
+      68.9978431372549
     ],
     "true_lat": 35.3129,
     "true_lon": 69.5152,
@@ -623,28 +663,36 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Minsk",
-      "Kalmthout",
-      "Carcassonne",
-      null
+      "Minsk City",
+      "Flanders",
+      "Occitanie",
+      "Ontario",
+      "Bavaria",
+      "Bavaria"
     ],
     "countries": [
       "Belarus",
       "Belgium",
       "France",
-      "Canada"
+      "Canada",
+      "Germany",
+      "Germany"
     ],
     "dists": [
       274.83684608136474,
       45.7,
       88.5,
-      362.3
+      362.3,
+      317.9191939098357,
+      70.57376923455399
     ],
     "times": [
       5.566666666666682,
       8,
       4.3,
-      6.7
+      6.7,
+      3.1000000000000245,
+      4.366666666666687
     ]
   },
   "Fayr\u014dz K\u014dh, Gh\u014dr, Afghanistan": {
@@ -672,9 +720,9 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Minsk",
+      "Minsk City",
       "Plovdiv",
-      "Islington"
+      "England"
     ],
     "countries": [
       "Belarus",
@@ -719,10 +767,10 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Minsk",
+      "Minsk City",
       "Plovdiv",
-      "Minsk",
-      "Gloucester"
+      "Minsk City",
+      "England"
     ],
     "countries": [
       "Belarus",
@@ -770,10 +818,10 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Minsk",
-      "Bulimba",
-      "Tyumen",
-      "Minsk"
+      "Minsk City",
+      "New South Wales",
+      "Tyumen Oblast",
+      "Minsk City"
     ],
     "countries": [
       "Belarus",
@@ -798,12 +846,16 @@
     "lats": [
       33.49046422907203,
       36.61,
-      35.088
+      35.088,
+      34.55901048963804,
+      31.900752976057028
     ],
     "lons": [
       69.27541666666667,
       64.242,
-      66.222
+      66.222,
+      67.12561577519888,
+      65.66696078431373
     ],
     "true_lat": 33.5633,
     "true_lon": 68.4178,
@@ -819,24 +871,32 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Minsk",
-      null,
-      null
+      "Minsk City",
+      "Ontario",
+      "Ontario",
+      "Virginia",
+      "Virginia"
     ],
     "countries": [
       "Belarus",
       "Canada",
-      "Canada"
+      "Canada",
+      "United States",
+      "United States"
     ],
     "dists": [
       79.90808528073,
       508.9,
-      263.4
+      263.4,
+      162.56228453853774,
+      316.8109977682356
     ],
     "times": [
       6.000000000000014,
       6,
-      8
+      8,
+      8.566666666666672,
+      7.533333333333342
     ]
   },
   "P\u0101r\u016bn, N\u016brist\u0101n, Afghanistan": {
@@ -844,13 +904,15 @@
       30.926448805048125,
       34.962,
       34.828,
-      34.354
+      34.354,
+      38.781479168477624
     ],
     "lons": [
       63.89049019607843,
       66.015,
       64.575,
-      70.385
+      70.385,
+      67.02892156862745
     ],
     "true_lat": 35.4206,
     "true_lon": 70.9226,
@@ -866,28 +928,32 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Minsk",
-      "Brussels Capital",
-      null,
-      "Minsk"
+      "Minsk City",
+      "Flanders",
+      "Ontario",
+      "Minsk City",
+      "Bavaria"
     ],
     "countries": [
       "Belarus",
       "Belgium",
       "Canada",
-      "Belarus"
+      "Belarus",
+      "Germany"
     ],
     "dists": [
       823.0585692470996,
       448.7,
       580.9,
-      128.2
+      128.2,
+      508.71807147866446
     ],
     "times": [
       4.566666666666686,
       1.2,
       5.5,
-      6.4
+      6.4,
+      3.666666666666689
     ]
   },
   "Sharan, Pakt\u012bk\u0101, Afghanistan": {
@@ -896,14 +962,16 @@
       35.212,
       34.122,
       36.259,
-      34.154
+      34.154,
+      34.08
     ],
     "lons": [
       67.86904411764706,
       69.767,
       65.722,
       66.813,
-      69.071
+      69.071,
+      68.627
     ],
     "true_lat": 33.1757,
     "true_lon": 68.7304,
@@ -919,32 +987,36 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Minsk",
-      "Kalmthout",
+      "Minsk City",
+      "Flanders",
       "Plovdiv",
-      "Islington",
-      "Minsk"
+      "England",
+      "Minsk City",
+      "Bavaria"
     ],
     "countries": [
       "Belarus",
       "Belgium",
       "Bulgaria",
       "United Kingdom",
-      "Belarus"
+      "Belarus",
+      "Germany"
     ],
     "dists": [
       80.64370712745043,
       245.7,
       297.6,
       385,
-      113.3
+      113.3,
+      101
     ],
     "times": [
       5.500000000000016,
       8.4,
       2.6,
       7.9,
-      5.7
+      5.7,
+      5.1
     ]
   },
   "Her\u0101t, Her\u0101t, Afghanistan": {
@@ -970,8 +1042,8 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Kalmthout",
-      null
+      "Flanders",
+      "Ontario"
     ],
     "countries": [
       "Belgium",
@@ -1011,9 +1083,9 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Kalmthout",
-      "NIA Valencia",
-      null
+      "Flanders",
+      "Northern Mindanao",
+      "Ontario"
     ],
     "countries": [
       "Belgium",
@@ -1056,9 +1128,9 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Kalmthout",
-      "Carcassonne",
-      "NIA Valencia"
+      "Flanders",
+      "Occitanie",
+      "Northern Mindanao"
     ],
     "countries": [
       "Belgium",
@@ -1099,7 +1171,7 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Kalmthout",
+      "Flanders",
       "Plovdiv"
     ],
     "countries": [
@@ -1142,10 +1214,10 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Kalmthout",
+      "Flanders",
       "Plovdiv",
-      null,
-      "Minsk"
+      "Ontario",
+      "Minsk City"
     ],
     "countries": [
       "Belgium",
@@ -1168,10 +1240,12 @@
   },
   "Ma\u1e29m\u016bd-e R\u0101q\u012b, K\u0101p\u012bs\u0101, Afghanistan": {
     "lats": [
-      34.859502772254764
+      34.859502772254764,
+      38.72347702385697
     ],
     "lons": [
-      66.71803921568628
+      66.71803921568628,
+      66.22950980392157
     ],
     "true_lat": 35.0167,
     "true_lon": 69.3333,
@@ -1187,16 +1261,20 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Kalmthout"
+      "Flanders",
+      "Bavaria"
     ],
     "countries": [
-      "Belgium"
+      "Belgium",
+      "Germany"
     ],
     "dists": [
-      239.0255381589275
+      239.0255381589275,
+      496.02522556884304
     ],
     "times": [
-      8.566666666666672
+      8.566666666666672,
+      3.500000000000023
     ]
   },
   "Qal\u2018ah-ye Now, B\u0101dgh\u012bs, Afghanistan": {
@@ -1220,7 +1298,7 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Kalmthout"
+      "Flanders"
     ],
     "countries": [
       "Belgium"
@@ -1235,11 +1313,15 @@
   "Shibirgh\u0101n, Jowzj\u0101n, Afghanistan": {
     "lats": [
       30.67,
-      30.798
+      30.798,
+      34.591,
+      34.022
     ],
     "lons": [
       64.834,
-      73.753
+      73.753,
+      67.086,
+      69.071
     ],
     "true_lat": 36.658,
     "true_lon": 65.7383,
@@ -1255,20 +1337,28 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      null,
-      null
+      "Ontario",
+      "Ontario",
+      "Virginia",
+      "Virginia"
     ],
     "countries": [
       "Canada",
-      "Canada"
+      "Canada",
+      "United States",
+      "United States"
     ],
     "dists": [
       670.9,
-      986.1
+      986.1,
+      260.1,
+      421
     ],
     "times": [
       2.5,
-      5.9
+      5.9,
+      9.2,
+      9.9
     ]
   },
   "Ma\u012bd\u0101n Shahr, Wardak, Afghanistan": {
@@ -1297,8 +1387,8 @@
     "iso2": "AF",
     "regions": [
       "Plovdiv",
-      "Islington",
-      "Tyumen"
+      "England",
+      "Tyumen Oblast"
     ],
     "countries": [
       "Bulgaria",
@@ -1319,11 +1409,13 @@
   "Qal\u0101t, Z\u0101bul, Afghanistan": {
     "lats": [
       32.989039609632556,
-      34.067
+      34.067,
+      34.16699145025343
     ],
     "lons": [
       64.66492033708664,
-      62.999
+      62.999,
+      67.4286274509804
     ],
     "true_lat": 32.1123,
     "true_lon": 66.8868,
@@ -1340,19 +1432,23 @@
     "iso2": "AF",
     "regions": [
       "Plovdiv",
-      "Islington"
+      "England",
+      "Bavaria"
     ],
     "countries": [
       "Bulgaria",
-      "United Kingdom"
+      "United Kingdom",
+      "Germany"
     ],
     "dists": [
       229.93404556777804,
-      422.2
+      422.2,
+      233.9733779633525
     ],
     "times": [
       4.233333333333354,
-      8.2
+      8.2,
+      3.8333333333333552
     ]
   },
   "Mehtar L\u0101m, Laghm\u0101n, Afghanistan": {
@@ -1378,8 +1474,8 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Bulimba",
-      "Islington"
+      "New South Wales",
+      "England"
     ],
     "countries": [
       "Australia",
@@ -1418,7 +1514,7 @@
     "iso2": "AF",
     "regions": [
       "Plovdiv",
-      "Islington"
+      "England"
     ],
     "countries": [
       "Bulgaria",
@@ -1457,7 +1553,7 @@
     "iso2": "AF",
     "regions": [
       "Leinster",
-      null
+      "Ontario"
     ],
     "countries": [
       "Ireland",
@@ -1474,10 +1570,12 @@
   },
   "Balkh, Balkh, Afghanistan": {
     "lats": [
-      35.49262199801092
+      35.49262199801092,
+      34.859502772254764
     ],
     "lons": [
-      67.80002924336894
+      67.80002924336894,
+      66.8364705882353
     ],
     "true_lat": 36.7501,
     "true_lon": 66.8997,
@@ -1493,24 +1591,32 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Islington"
+      "England",
+      "California"
     ],
     "countries": [
-      "United Kingdom"
+      "United Kingdom",
+      "United States"
     ],
     "dists": [
-      161.52370358314946
+      161.52370358314946,
+      210.30211854361045
     ],
     "times": [
-      8.166666666666673
+      8.166666666666673,
+      9.100000000000003
     ]
   },
   "Fa\u012b\u1e95\u0101b\u0101d, Badakhsh\u0101n, Afghanistan": {
     "lats": [
-      35.143212752078405
+      35.143212752078405,
+      34.55901048963804,
+      34.071552965725814
     ],
     "lons": [
-      65.22055806095659
+      65.22055806095659,
+      67.06717924269114,
+      69.12737745098039
     ],
     "true_lat": 37.1298,
     "true_lon": 70.5792,
@@ -1526,26 +1632,36 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "Islington"
+      "England",
+      "Virginia",
+      "Virginia"
     ],
     "countries": [
-      "United Kingdom"
+      "United Kingdom",
+      "United States",
+      "United States"
     ],
     "dists": [
-      529.3862558156615
+      529.3862558156615,
+      426.4629829000296,
+      364.50088245276737
     ],
     "times": [
-      9.06666666666667
+      9.06666666666667,
+      9.000000000000004,
+      9.933333333333334
     ]
   },
   "Zargh\u016bn Shahr, Pakt\u012bk\u0101, Afghanistan": {
     "lats": [
       34.40664989748651,
-      33.861
+      33.861,
+      33.76604548886345
     ],
     "lons": [
       68.47970588235295,
-      68.942
+      68.942,
+      65.44490196078432
     ],
     "true_lat": 32.85,
     "true_lon": 68.4167,
@@ -1561,20 +1677,24 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      "NIA Valencia",
-      null
+      "Northern Mindanao",
+      "Ontario",
+      "California"
     ],
     "countries": [
       "Philippines",
-      "Canada"
+      "Canada",
+      "United States"
     ],
     "dists": [
       173.18982809894806,
-      122.6
+      122.6,
+      294.33697958365997
     ],
     "times": [
       9.333333333333336,
-      6.3
+      6.3,
+      2.7666666666666924
     ]
   },
   "Pul-e \u2018Alam, L\u014dgar, Afghanistan": {
@@ -1604,10 +1724,10 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      null,
-      null,
-      "Minsk",
-      "Gloucester"
+      "Ontario",
+      "Ontario",
+      "Minsk City",
+      "England"
     ],
     "countries": [
       "Canada",
@@ -1649,7 +1769,7 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      null
+      "Ontario"
     ],
     "countries": [
       "Canada"
@@ -1684,8 +1804,8 @@
     "country": "Afghanistan",
     "iso2": "AF",
     "regions": [
-      null,
-      "Minsk"
+      "Ontario",
+      "Minsk City"
     ],
     "countries": [
       "Canada",
