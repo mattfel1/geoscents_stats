@@ -29,7 +29,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-update_stamp = time.strftime("%a, %b %d %Y @ %I:%M %p %Z", time.gmtime())
+update_stamp = time.strftime("%a, %b %d %Y @ %I:%M %p %Z", time.localtime())
 MAP_WIDTH = 1530
 MAP_HEIGHT = 900
 outdir_prefix = os.environ['HOME'] + '/'
