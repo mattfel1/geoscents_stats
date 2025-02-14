@@ -219,7 +219,7 @@ th {
 <small>(Last updated %s)</small><br><br>
 You can opt-out of contributing to this database by typing /private in the chat box while playing the game. <br><br>
 <br><br>
-This page is updated approximately every 8 hours.  Raw data can be found <a href="https://github.com/mattfel1/geoscents_stats">here</a>.  <br><br>
+This page is updated approximately every 24 hours.  Raw data can be found <a href="https://github.com/mattfel1/geoscents_stats">here</a>.  <br><br>
 
 <h3>Mean Error by Player Country (<a href="growth.png">Collected Data Points Over Time</a>)</h3>
 <!--<table>
