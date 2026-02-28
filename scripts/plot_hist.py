@@ -472,6 +472,7 @@ def stripSpecial(x):
     return re.sub(r'[^A-Za-z0-9\(\),. ]+','_',x)
 
 def writeHtml(citysrc, cols):
+    map_names_js = '[' + ','.join(['"' + x.replace('\\', '\\\\').replace('"', '\\"') + '"' for x in cols]) + ']'
     with open(outdir_prefix + "/plots/" + citysrc + '.html', 'w+') as f:
         f.write("""<!DOCTYPE html>
 <html lang="en">
@@ -491,10 +492,57 @@ def writeHtml(citysrc, cols):
 </head>
 <body>
 <button class="lobby-btn" onclick="window.location.href = 'https://geoscents.net';">Back to Game</button>
-<button class="room-btn" onclick="window.location.href = 'index.html';">Home</button>""" % (citysrc, citysrc))
-        for x in cols:
-            btn_class = "special-room-btn" if citysrc == x else "room-btn"
-            f.write("""<button class='""" + btn_class + """' onclick="window.location.href = '""" + x + """.html';">""" + x + """<br><small><div id='""" + x + """_count'></div></small></button>""")
+<button class="room-btn" onclick="window.location.href = 'index.html';">Home</button>
+<div class="map-search-wrapper">
+    <input type="text" id="map-search" placeholder="Search maps..." autocomplete="off">
+    <div id="map-results" class="map-results" style="display:none;"></div>
+</div>
+<script>
+var mapCounts = {};
+var mapNames = %s;
+function appendMapItem(results, name, matchedCity) {
+    var div = document.createElement('div');
+    div.className = 'map-result-item';
+    var countStr = mapCounts[name] !== undefined ? ' <span class="map-result-count">(' + mapCounts[name].toLocaleString() + ' clicks)</span>' : '';
+    var cityStr = matchedCity ? ' <span class="map-result-city">contains &ldquo;' + matchedCity + '&rdquo;</span>' : '';
+    div.innerHTML = name + countStr + cityStr;
+    div.onclick = function() { window.location.href = name + '.html'; };
+    results.appendChild(div);
+}
+function renderMapList(query) {
+    var results = document.getElementById('map-results');
+    var q = (query || '').toLowerCase().trim();
+    results.innerHTML = '';
+    var added = {};
+    mapNames.forEach(function(name) {
+        if (!q || name.toLowerCase().indexOf(q) !== -1) {
+            appendMapItem(results, name, null);
+            added[name] = true;
+        }
+    });
+    if (q && window.cityIndex) {
+        Object.keys(cityIndex).forEach(function(city) {
+            if (city.toLowerCase().indexOf(q) !== -1) {
+                cityIndex[city].forEach(function(map) {
+                    if (!added[map]) {
+                        appendMapItem(results, map, city);
+                        added[map] = true;
+                    }
+                });
+            }
+        });
+    }
+    results.style.display = results.children.length ? 'block' : 'none';
+}
+var searchEl = document.getElementById('map-search');
+searchEl.addEventListener('input', function() { renderMapList(this.value); });
+searchEl.addEventListener('focus', function() { renderMapList(this.value); });
+document.addEventListener('click', function(e) {
+    if (!e.target.closest('.map-search-wrapper')) {
+        document.getElementById('map-results').style.display = 'none';
+    }
+});
+</script>""" % (citysrc, citysrc, map_names_js))
 
         f.write("""<h1>Data Table for %s Map <!-- <a href="all_%s.jpg"><img src="all_%s.jpg" class="img-thumbnail" alt="link" height=75px></a> --> </h1>
 <small>(Last updated %s)</small><br>
@@ -505,6 +553,7 @@ def writeHtml(citysrc, cols):
 <br><br>
 <a href="all_%s.jpg" style="color:#F0F0F0;">cheatsheet</a>
 <script type="text/javascript" src="%s.js"></script>
+<script src="cityIndex.js"></script>
 <script src="counts.js"></script>
 </body>
 </html>
@@ -563,7 +612,7 @@ def addFrame(fname, serieslabel, raw_country, numclicks, xdata, ydata, marker):
   y: [null,%s],
   mode: 'markers',
   hoverinfo: 'name',
-  type: 'scattergl',
+  type: 'scatter',
   marker: {%s}
 }
 """ % (serieslabel, raw_country, numclicks, raw_country, ','.join([str(int(x)) for x in xdata]), ','.join([str(int(x)) for x in ydata]), marker))
