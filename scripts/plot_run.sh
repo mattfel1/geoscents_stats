@@ -30,5 +30,5 @@ bash ~/geoscents_stats/scripts/plot_growth.sh
 _log "plot_growth.sh" $T
 
 T=$(_t)
-bash ~/geoscents_stats/scripts/plot_transfer.sh
-_log "plot_transfer.sh (rsync)" $T
+bash ~/geoscents_stats/scripts/upload.sh
+_log "upload.sh (rsync)" $T

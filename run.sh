@@ -14,8 +14,8 @@ _log "git reset+pull" $T
 
 T=$(_t)
 rm -rf tmp staging && mkdir tmp staging
-./scripts/transfer.sh
-_log "transfer.sh (scp from server)" $T
+./scripts/download.sh
+_log "download.sh (scp from server)" $T
 
 T=$(_t)
 python3 scripts/merge.py
@@ -23,9 +23,9 @@ echo "Done merging"
 _log "merge.py" $T
 
 T=$(_t)
-python3 scripts/scrub.py
-echo "Done scrubbing"
-_log "scrub.py" $T
+python3 scripts/geolocate.py
+echo "Done geolocating"
+_log "geolocate.py" $T
 
 T=$(_t)
 bash scripts/growth.sh
