@@ -806,7 +806,11 @@ color_idx = 0
 dpi = 250
 timestep = 0.2
 
-initCount() 
+initCount()
+
+_PERF_LOG = "/tmp/geoscents_perf.log"
+_map_timings = []   # list of (citysrc, total_sec, agg_sec)
+_t_script_start = timer()
 
 errors = []
 city_to_maps = {}
@@ -819,6 +823,7 @@ for path in pathlist:
     continent_count = 0
     if (citysrc not in header):
         continue
+    _t_map = timer()
     print(file)
     continent_map = mpimg.imread(outdir_prefix + '/geoscents/resources/maps/' + cleanName(citysrc) + '_terrain.png')
     writeHtml(citysrc, header[2:])
@@ -1016,7 +1021,8 @@ for path in pathlist:
         plt.clf()
 
         # Add aggregate for each country
-        if (citysrc != "Trivia"): 
+        _t_agg = timer()
+        if (citysrc != "Trivia"):
             entry_id = 0
             for aggregate_name in aggregate_dists:
                 if (verbose):
@@ -1116,11 +1122,25 @@ for path in pathlist:
 
 
 
+    _elapsed_map = timer() - _t_map
+    _elapsed_agg = timer() - _t_agg
+    _map_timings.append((citysrc, _elapsed_map, _elapsed_agg))
+    print('[timing] %s: %.1fs total (agg: %.1fs, entries: %.1fs)' % (
+        citysrc, _elapsed_map, _elapsed_agg, _elapsed_map - _elapsed_agg))
     finishJs(citysrc)
 
 for x in errors:
     print(x)
 
 writeCityIndex(city_to_maps)
-            
-        
+
+_perf_lines = ['  --- plot_hist.py per-map timing (slowest first) ---',
+               '  %-30s %7s  %7s  %7s' % ('Map', 'Total', 'Entries', 'Agg')]
+for _n, _t, _ta in sorted(_map_timings, key=lambda x: -x[1]):
+    _perf_lines.append('  %-30s %6.1fs  %6.1fs  %6.1fs' % (_n, _t, _t - _ta, _ta))
+_perf_lines.append('  %-30s %6.1fs' % ('TOTAL script', timer() - _t_script_start))
+_perf_str = '\n'.join(_perf_lines) + '\n'
+print(_perf_str)
+with open(_PERF_LOG, 'a') as _pf:
+    _pf.write(_perf_str)
+

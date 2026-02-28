@@ -1,33 +1,49 @@
 #!/bin/bash
 
+PERF_LOG=/tmp/geoscents_perf.log
+> "$PERF_LOG"
+_t()   { date +%s; }
+_log() { printf "  %-35s %5ds\n" "$1" "$(( $(_t) - $2 ))" | tee -a "$PERF_LOG"; }
+
 cd $HOME/geoscents_stats
-git reset --hard
-git pull
+T_ALL=$(_t)
 
-rm -rf tmp
-rm -rf staging
-mkdir tmp
-mkdir staging
+T=$(_t)
+git reset --hard && git pull
+_log "git reset+pull" $T
+
+T=$(_t)
+rm -rf tmp staging && mkdir tmp staging
 ./scripts/transfer.sh
+_log "transfer.sh (scp from server)" $T
 
-# Merge new data into base files and wipe out new data
+T=$(_t)
 python3 scripts/merge.py
-
 echo "Done merging"
+_log "merge.py" $T
 
-# Scrub personal identifying information and convert to json
+T=$(_t)
 python3 scripts/scrub.py
-
 echo "Done scrubbing"
+_log "scrub.py" $T
 
-# Generate growth plot
+T=$(_t)
 bash scripts/growth.sh
-
 echo "Done plotting growth"
+_log "growth.sh" $T
 
-git add -A
-git commit -m "auto-update"
-git push
+T=$(_t)
+git add -A && git commit -m "auto-update" && git push
+_log "git add+commit+push" $T
 
+T=$(_t)
 bash scripts/plot_run.sh
 echo "Done plotting"
+_log "plot_run.sh (total)" $T
+
+_log "TOTAL" $T_ALL
+
+echo ""
+echo "============ TIMING SUMMARY ============"
+cat "$PERF_LOG"
+echo "========================================"
