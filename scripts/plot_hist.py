@@ -170,39 +170,28 @@ var dataSet = [
 
 def writeIndex(header, countries):
     with open(outdir_prefix + "/plots/index.html", 'w+') as f:
-        f.write("""
-<!DOCTYPE html>
+        f.write("""<!DOCTYPE html>
+<html lang="en">
 <head prefix="og: http://ogp.me/ns#">
     <meta charset="UTF-8">
     <meta name="description" content="Plots for Geoscents. An online multiplayer world geography game!  Test your knowledge of city locations." />
     <title>GeoScents Plots</title>
-    <!-- Place this tag in your head or just before your close body tag. -->
     <link rel="icon" type="image/png" href="https://geoscents.net/resources/favicon.png" sizes="48x48">
     <meta name="GeoScents Plots" content="Plots for Geoscents.  An online multiplayer world geography game!  Test your knowledge of city locations. This is a recreation of the game Geosense from geosense.net.">
     <meta property="og:image" content="https://geoscents.net/resources/ogimage.png" />
-<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
-<style>
-table, td, th {
-  border: 1px solid black;
-}
-
-table {
-  border-collapse: collapse;
-}
-
-th {
-  height: 50px;
-}
-</style>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6780905379201491"
-     crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="theme.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6780905379201491"
+         crossorigin="anonymous"></script>
+    <style>
+table, td, th { border: 1px solid black; }
+table { border-collapse: collapse; }
+th { height: 50px; }
+    </style>
 </head>
 <body>
-<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
-<link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
-<link rel="stylesheet" href="theme.css">
 <button class="lobby-btn" onclick="window.location.href = 'https://geoscents.net';">Back to Game</button>
 <button class="special-room-btn" onclick="window.location.href = 'index.html';">Home</button>""")
         # skip first two columns in header
@@ -222,19 +211,10 @@ You can opt-out of contributing to this database by typing /private in the chat 
 This page is updated approximately every 24 hours.  Raw data can be found <a href="https://github.com/mattfel1/geoscents_stats">here</a>.  <br><br>
 
 <h3>Mean Error by Player Country (<a href="growth.png">Collected Data Points Over Time</a>)</h3>
-<!--<table>
-  <tr>
-    <th> </th>
-    <th>Country</th>
-    <th># Clicks</th> 
-  </tr>
-s
-</table>-->
-<table id="index" class="display" width="75%%" align="left"></table>
+<table id="index" class="display"></table>
 <br><br>
 
-<script  type="text/javascript" src="index.js"></script>
-
+<script type="text/javascript" src="index.js"></script>
 <script src="counts.js"></script>
 </body>
 </html>
@@ -390,28 +370,23 @@ def stripSpecial(x):
 
 def writeHtml(citysrc, cols):
     with open(outdir_prefix + "/plots/" + citysrc + '.html', 'w+') as f:
-        f.write("""
-<!DOCTYPE html>
+        f.write("""<!DOCTYPE html>
+<html lang="en">
 <head prefix="og: http://ogp.me/ns#">
+    <meta charset="UTF-8">
     <meta name="description" content="Plots for Geoscents. An online multiplayer world geography game!  Test your knowledge of city locations." />
     <title>(%s) GeoScents Plots</title>
-    <!-- Place this tag in your head or just before your close body tag. -->
     <link rel="icon" type="image/png" href="https://geoscents.net/resources/favicon.png" sizes="48x48">
     <meta name="(%s) GeoScents Plots" content="Plots for Geoscents.  An online multiplayer world geography game!  Test your knowledge of city locations. This is a recreation of the game Geosense from geosense.net.">
     <meta property="og:image" content="https://geoscents.net/resources/ogimage.png" />
-<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6780905379201491"
-     crossorigin="anonymous"></script>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6780905379201491"
-     crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="theme.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6780905379201491"
+         crossorigin="anonymous"></script>
 </head>
 <body>
-
-<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-<script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
-<link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
-<link rel="stylesheet" href="theme.css">
 <button class="lobby-btn" onclick="window.location.href = 'https://geoscents.net';">Back to Game</button>
 <button class="room-btn" onclick="window.location.href = 'index.html';">Home</button>""" % (citysrc, citysrc))
         for x in cols:
@@ -423,14 +398,13 @@ def writeHtml(citysrc, cols):
 <button id="all" class="filter-btn">Show All</button>
 <button id="aggregates" class="filter-btn">Show Aggregates Only</button>
 <button id="entry" class="filter-btn">Show Entries Only</button>
-<table id="%s" class="display" width="100%%"></table>
+<table id="%s" class="display"></table>
 <br><br>
 <a href="all_%s.jpg" style="color:#F0F0F0;">cheatsheet</a>
-<script  type="text/javascript" src="%s.js"></script>
+<script type="text/javascript" src="%s.js"></script>
 <script src="counts.js"></script>
 </body>
 </html>
-
 """ % (citysrc,citysrc,citysrc, update_stamp, cleanNameUnderscore(citysrc), citysrc, citysrc))
 
 def initAnim(fname, stepsize, flag):
