@@ -169,6 +169,8 @@ var dataSet = [
 """ % (cleanNameUnderscore(citysrc), citysrc, citysrc))
 
 def writeIndex(header, countries):
+    map_names = header[2:]
+    map_names_js = '[' + ','.join(['"' + x.replace('\\', '\\\\').replace('"', '\\"') + '"' for x in map_names]) + ']'
     with open(outdir_prefix + "/plots/index.html", 'w+') as f:
         f.write("""<!DOCTYPE html>
 <html lang="en">
@@ -193,14 +195,38 @@ th { height: 50px; }
 </head>
 <body>
 <button class="lobby-btn" onclick="window.location.href = 'https://geoscents.net';">Back to Game</button>
-<button class="special-room-btn" onclick="window.location.href = 'index.html';">Home</button>""")
-        # skip first two columns in header
-        i = 0;
-        for x in header:
-            if (i >= 2):
-                f.write("""<button class="room-btn" onclick="window.location.href = '""" + x + """.html';">""" + x + "<br><small><div id=\"" + x + """_count"></div></small></button>
-""")
-            i = i + 1
+<button class="special-room-btn" onclick="window.location.href = 'index.html';">Home</button>
+<div class="map-search-wrapper">
+    <input type="text" id="map-search" placeholder="Search maps..." autocomplete="off">
+    <div id="map-results" class="map-results" style="display:none;"></div>
+</div>
+<script>
+var mapCounts = {};
+var mapNames = %s;
+function renderMapList(query) {
+    var results = document.getElementById('map-results');
+    var q = (query || '').toLowerCase().trim();
+    var filtered = q ? mapNames.filter(function(n) { return n.toLowerCase().indexOf(q) !== -1; }) : mapNames.slice();
+    results.innerHTML = '';
+    filtered.forEach(function(name) {
+        var div = document.createElement('div');
+        div.className = 'map-result-item';
+        var countStr = mapCounts[name] !== undefined ? ' <span class="map-result-count">(' + mapCounts[name].toLocaleString() + ' clicks)</span>' : '';
+        div.innerHTML = name + countStr;
+        div.onclick = function() { window.location.href = name + '.html'; };
+        results.appendChild(div);
+    });
+    results.style.display = filtered.length ? 'block' : 'none';
+}
+var searchEl = document.getElementById('map-search');
+searchEl.addEventListener('input', function() { renderMapList(this.value); });
+searchEl.addEventListener('focus', function() { renderMapList(this.value); });
+document.addEventListener('click', function(e) {
+    if (!e.target.closest('.map-search-wrapper')) {
+        document.getElementById('map-results').style.display = 'none';
+    }
+});
+</script>""" % map_names_js)
 
 
 
@@ -278,7 +304,8 @@ def initCount():
 
 def writeCount(citysrc, count):
     with open(outdir_prefix + "/plots/counts.js", 'a') as f:
-        f.write("\ndocument.getElementById(\"" + citysrc + "_count\").innerHTML = \"(" + str(count) + " clicks)\";")
+        f.write("\nif (typeof mapCounts !== 'undefined') mapCounts[\"" + citysrc + "\"] = " + str(count) + ";")
+        f.write("\nvar _el = document.getElementById(\"" + citysrc + "_count\"); if (_el) _el.innerHTML = \"(" + str(count) + " clicks)\";")
 
 def writeCss():
     with open(outdir_prefix + "/plots/theme.css", 'w+') as f:
@@ -351,6 +378,52 @@ def writeCss():
     background: #a9e7f9; /* fallback */
     border-radius: 2px;
     box-shadow: 0 0 4px rgba(0,0,0,0.3);
+}
+
+.map-search-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+    margin: 10px 3px;
+    vertical-align: top;
+}
+
+#map-search {
+    width: 100%;
+    padding: 6px 10px;
+    font-size: 16px;
+    border: 1px solid #333;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+.map-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    max-height: 400px;
+    overflow-y: auto;
+    background: white;
+    border: 1px solid #999;
+    border-top: none;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.map-result-item {
+    padding: 6px 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.map-result-item:hover {
+    background: #a9e7f9;
+}
+
+.map-result-count {
+    color: #666;
+    font-size: 12px;
 }
 """)
 def addJs(entry):
@@ -442,7 +515,7 @@ function bubbles(center, radius, n_points=10) {
 <head>
     <!-- Load plotly.js into the DOM -->
     %s
-    <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
+    <script src='https://cdn.plot.ly/plotly-2.26.0.min.js'></script>
 </head>
 
 <body>
@@ -460,7 +533,7 @@ def addFrame(fname, serieslabel, raw_country, numclicks, xdata, ydata, marker):
   y: [null,%s],
   mode: 'markers',
   hoverinfo: 'name',
-  type: 'scatter', 
+  type: 'scattergl',
   marker: {%s}
 }
 """ % (serieslabel, raw_country, numclicks, raw_country, ','.join([str(int(x)) for x in xdata]), ','.join([str(int(x)) for x in ydata]), marker))
@@ -571,16 +644,14 @@ frames = [""" % (','.join([cleanName(x) + str(maxframe) for x in sorted(countrie
         f.write("""]
 Plotly.newPlot('%s', {data: traces, layout: layout, frames: frames})
 
-const isFirefox = navigator.userAgent.toLowerCase().indexOf('firefox') > -1; // hack for scaling
-var noScale = false;
-
-setInterval(() => {
-    // Set zoom for resolution
+function applyZoom() {
     const scale = Math.floor(50*Math.max(0.6, Math.min(1, window.innerWidth / 1800)))/50;
     document.documentElement.style.zoom = scale;
     document.documentElement.style.MozTransform = "scale(" + scale + ")";
     document.documentElement.style.MozTransformOrigin = "0 0";
-}, 1000);
+}
+applyZoom();
+window.addEventListener('resize', applyZoom);
 
 
 """ % fname)
