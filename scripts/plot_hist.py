@@ -203,20 +203,39 @@ th { height: 50px; }
 <script>
 var mapCounts = {};
 var mapNames = %s;
+function appendMapItem(results, name, matchedCity) {
+    var div = document.createElement('div');
+    div.className = 'map-result-item';
+    var countStr = mapCounts[name] !== undefined ? ' <span class="map-result-count">(' + mapCounts[name].toLocaleString() + ' clicks)</span>' : '';
+    var cityStr = matchedCity ? ' <span class="map-result-city">contains &ldquo;' + matchedCity + '&rdquo;</span>' : '';
+    div.innerHTML = name + countStr + cityStr;
+    div.onclick = function() { window.location.href = name + '.html'; };
+    results.appendChild(div);
+}
 function renderMapList(query) {
     var results = document.getElementById('map-results');
     var q = (query || '').toLowerCase().trim();
-    var filtered = q ? mapNames.filter(function(n) { return n.toLowerCase().indexOf(q) !== -1; }) : mapNames.slice();
     results.innerHTML = '';
-    filtered.forEach(function(name) {
-        var div = document.createElement('div');
-        div.className = 'map-result-item';
-        var countStr = mapCounts[name] !== undefined ? ' <span class="map-result-count">(' + mapCounts[name].toLocaleString() + ' clicks)</span>' : '';
-        div.innerHTML = name + countStr;
-        div.onclick = function() { window.location.href = name + '.html'; };
-        results.appendChild(div);
+    var added = {};
+    mapNames.forEach(function(name) {
+        if (!q || name.toLowerCase().indexOf(q) !== -1) {
+            appendMapItem(results, name, null);
+            added[name] = true;
+        }
     });
-    results.style.display = filtered.length ? 'block' : 'none';
+    if (q && window.cityIndex) {
+        Object.keys(cityIndex).forEach(function(city) {
+            if (city.toLowerCase().indexOf(q) !== -1) {
+                cityIndex[city].forEach(function(map) {
+                    if (!added[map]) {
+                        appendMapItem(results, map, city);
+                        added[map] = true;
+                    }
+                });
+            }
+        });
+    }
+    results.style.display = results.children.length ? 'block' : 'none';
 }
 var searchEl = document.getElementById('map-search');
 searchEl.addEventListener('input', function() { renderMapList(this.value); });
@@ -241,6 +260,7 @@ This page is updated approximately every 24 hours.  Raw data can be found <a hre
 <br><br>
 
 <script type="text/javascript" src="index.js"></script>
+<script src="cityIndex.js"></script>
 <script src="counts.js"></script>
 </body>
 </html>
@@ -301,6 +321,10 @@ var dataSet = [ %s ];
 def initCount():
     with open(outdir_prefix + "/plots/counts.js", 'w+') as f:
         f.write("")
+
+def writeCityIndex(city_to_maps):
+    with open(outdir_prefix + "/plots/cityIndex.js", 'w+') as f:
+        f.write("var cityIndex = " + json.dumps(city_to_maps) + ";")
 
 def writeCount(citysrc, count):
     with open(outdir_prefix + "/plots/counts.js", 'a') as f:
@@ -424,6 +448,12 @@ def writeCss():
 .map-result-count {
     color: #666;
     font-size: 12px;
+}
+
+.map-result-city {
+    color: #888;
+    font-size: 12px;
+    font-style: italic;
 }
 """)
 def addJs(entry):
@@ -730,6 +760,7 @@ timestep = 0.2
 initCount() 
 
 errors = []
+city_to_maps = {}
 
 for path in pathlist:
     
@@ -762,6 +793,10 @@ for path in pathlist:
             if (verbose):
                 print('%s: (%d / %d): %s' % (citysrc, entry_id, len(data), entry))
             entry_id = entry_id + 1
+            if entry not in city_to_maps:
+                city_to_maps[entry] = []
+            if citysrc not in city_to_maps[entry]:
+                city_to_maps[entry].append(citysrc)
             # Create entry for this city
             try:
                 dist_data = data[entry]['dists']
@@ -1036,5 +1071,7 @@ for path in pathlist:
 
 for x in errors:
     print(x)
+
+writeCityIndex(city_to_maps)
             
         
