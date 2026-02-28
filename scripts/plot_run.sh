@@ -15,7 +15,7 @@ cp ~/geoscents_stats/data/player_countries.csv .
 _log "setup (cp/mkdir)" $T
 
 T=$(_t)
-find ~/plots/ -name '*.*' -exec mv {} ~/old_plots/ \;
+find ~/plots/ -maxdepth 1 -type f -exec mv -t ~/old_plots/ {} +
 cp -r ~/geoscents/resources/flags ~/plots/
 _log "mv old plots + cp flags" $T
 

@@ -604,8 +604,7 @@ function bubbles(center, radius, n_points=10) {
 """ % (flag, fname, fname + '.js'))
 
 def addFrame(fname, serieslabel, raw_country, numclicks, xdata, ydata, marker):
-    with open(outdir_prefix + "/plots/" + fname + '.js', 'a') as f:
-        f.write("""var %s = {
+    chunk = """var %s = {
   name: '%s (%d)',
   rawname: '%s',
   x: [null,%s],
@@ -615,7 +614,10 @@ def addFrame(fname, serieslabel, raw_country, numclicks, xdata, ydata, marker):
   type: 'scatter',
   marker: {%s}
 }
-""" % (serieslabel, raw_country, numclicks, raw_country, ','.join([str(int(x)) for x in xdata]), ','.join([str(int(x)) for x in ydata]), marker))
+""" % (serieslabel, raw_country, numclicks, raw_country, ','.join([str(int(x)) for x in xdata]), ','.join([str(int(x)) for x in ydata]), marker)
+    if fname not in _anim_buffer:
+        _anim_buffer[fname] = []
+    _anim_buffer[fname].append(chunk)
 
 
 def addMean(fname, xmean, ymean, xvar, yvar):
@@ -640,6 +642,8 @@ var average = {
 
 def finishAnim(fname, citysrc, title, countries, maxframe, stepsize):
     with open(outdir_prefix + "/plots/" + fname + '.js', 'a') as f:
+        if fname in _anim_buffer:
+            f.write(''.join(_anim_buffer.pop(fname)))
         # f.write("""var traces = [ truth, average, %s]
         f.write("""var traces = [ truth, %s]
 var layout = {
@@ -811,6 +815,7 @@ initCount()
 _PERF_LOG = "/tmp/geoscents_perf.log"
 _map_timings = []   # list of (citysrc, total_sec, agg_sec)
 _t_script_start = timer()
+_anim_buffer = {}   # fname -> accumulated JS string (flushed in finishAnim)
 
 errors = []
 city_to_maps = {}
