@@ -197,7 +197,10 @@ th { height: 50px; }
 <button class="lobby-btn" onclick="window.location.href = 'https://geoscents.net';">Back to Game</button>
 <button class="special-room-btn" onclick="window.location.href = 'index.html';">Home</button>
 <div class="map-search-wrapper">
-    <input type="text" id="map-search" placeholder="Search GeoScents maps &amp; cities..." autocomplete="off">
+    <div class="map-search-inner">
+        <input type="text" id="map-search" placeholder="Search GeoScents maps &amp; cities..." autocomplete="off">
+        <button id="map-search-btn">Go</button>
+    </div>
     <div id="map-results" class="map-results" style="display:none;"></div>
 </div>
 <script>
@@ -240,6 +243,10 @@ function renderMapList(query) {
 var searchEl = document.getElementById('map-search');
 searchEl.addEventListener('input', function() { renderMapList(this.value); });
 searchEl.addEventListener('focus', function() { renderMapList(this.value); });
+document.getElementById('map-search-btn').addEventListener('click', function() {
+    var first = document.querySelector('#map-results .map-result-item');
+    if (first) { first.click(); } else { renderMapList(searchEl.value); searchEl.focus(); }
+});
 document.addEventListener('click', function(e) {
     if (!e.target.closest('.map-search-wrapper')) {
         document.getElementById('map-results').style.display = 'none';
@@ -406,25 +413,36 @@ def writeCss():
 
 .map-search-wrapper {
     position: relative;
-    display: inline-block;
-    width: 400px;
-    margin: 12px 6px;
-    vertical-align: top;
+    display: block;
+    margin: 10px 6px;
+}
+
+.map-search-inner {
+    display: flex;
+    align-items: stretch;
+    width: 420px;
 }
 
 #map-search {
-    width: 100%;
-    padding: 10px 14px;
-    font-size: 18px;
-    border: 2px solid #888;
-    border-radius: 4px;
+    flex: 1;
+    padding: 6px 10px;
+    font-size: 16px;
+    border: 1px solid #333;
+    border-right: none;
+    border-radius: 2px 0 0 2px;
     box-sizing: border-box;
     outline: none;
-    transition: border-color 0.15s;
 }
 
-#map-search:focus {
-    border-color: #444;
+#map-search-btn {
+    cursor: pointer;
+    border: 1px solid #333;
+    padding: 2px 14px;
+    font-size: 16px;
+    background: linear-gradient(to bottom, #a9e7f9 0%, #77d3ef 4%, #05abe0 100%);
+    border-radius: 0 2px 2px 0;
+    box-shadow: 0 0 4px rgba(0,0,0,0.3);
+    white-space: nowrap;
 }
 
 
@@ -501,7 +519,10 @@ def writeHtml(citysrc, cols):
 <button class="lobby-btn" onclick="window.location.href = 'https://geoscents.net';">Back to Game</button>
 <button class="room-btn" onclick="window.location.href = 'index.html';">Home</button>
 <div class="map-search-wrapper">
-    <input type="text" id="map-search" placeholder="Search GeoScents maps &amp; cities..." autocomplete="off">
+    <div class="map-search-inner">
+        <input type="text" id="map-search" placeholder="Search GeoScents maps &amp; cities..." autocomplete="off">
+        <button id="map-search-btn">Go</button>
+    </div>
     <div id="map-results" class="map-results" style="display:none;"></div>
 </div>
 <script>
@@ -544,6 +565,10 @@ function renderMapList(query) {
 var searchEl = document.getElementById('map-search');
 searchEl.addEventListener('input', function() { renderMapList(this.value); });
 searchEl.addEventListener('focus', function() { renderMapList(this.value); });
+document.getElementById('map-search-btn').addEventListener('click', function() {
+    var first = document.querySelector('#map-results .map-result-item');
+    if (first) { first.click(); } else { renderMapList(searchEl.value); searchEl.focus(); }
+});
 document.addEventListener('click', function(e) {
     if (!e.target.closest('.map-search-wrapper')) {
         document.getElementById('map-results').style.display = 'none';
