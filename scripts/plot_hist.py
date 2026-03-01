@@ -197,8 +197,7 @@ th { height: 50px; }
 <button class="lobby-btn" onclick="window.location.href = 'https://geoscents.net';">Back to Game</button>
 <button class="special-room-btn" onclick="window.location.href = 'index.html';">Home</button>
 <div class="map-search-wrapper">
-    <div class="map-search-label">&#128270; Search Maps</div>
-    <input type="text" id="map-search" placeholder="Type a map or city name..." autocomplete="off">
+    <input type="text" id="map-search" placeholder="Search GeoScents maps &amp; cities..." autocomplete="off">
     <div id="map-results" class="map-results" style="display:none;"></div>
 </div>
 <script>
@@ -407,37 +406,27 @@ def writeCss():
 
 .map-search-wrapper {
     position: relative;
-    display: block;
-    width: 520px;
-    margin: 18px auto;
+    display: inline-block;
+    width: 400px;
+    margin: 12px 6px;
+    vertical-align: top;
 }
 
 #map-search {
     width: 100%;
-    padding: 14px 18px;
-    font-size: 22px;
-    font-weight: bold;
-    border: 3px solid #2196F3;
-    border-radius: 6px;
+    padding: 10px 14px;
+    font-size: 18px;
+    border: 2px solid #888;
+    border-radius: 4px;
     box-sizing: border-box;
-    box-shadow: 0 0 10px rgba(33,150,243,0.4);
     outline: none;
-    transition: box-shadow 0.15s, border-color 0.15s;
+    transition: border-color 0.15s;
 }
 
 #map-search:focus {
-    border-color: #0d6efd;
-    box-shadow: 0 0 18px rgba(13,110,253,0.55);
+    border-color: #444;
 }
 
-.map-search-label {
-    font-size: 14px;
-    font-weight: bold;
-    color: #2196F3;
-    margin-bottom: 5px;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-}
 
 .map-results {
     position: absolute;
@@ -512,8 +501,7 @@ def writeHtml(citysrc, cols):
 <button class="lobby-btn" onclick="window.location.href = 'https://geoscents.net';">Back to Game</button>
 <button class="room-btn" onclick="window.location.href = 'index.html';">Home</button>
 <div class="map-search-wrapper">
-    <div class="map-search-label">&#128270; Search Maps</div>
-    <input type="text" id="map-search" placeholder="Type a map or city name..." autocomplete="off">
+    <input type="text" id="map-search" placeholder="Search GeoScents maps &amp; cities..." autocomplete="off">
     <div id="map-results" class="map-results" style="display:none;"></div>
 </div>
 <script>
