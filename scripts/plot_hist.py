@@ -249,15 +249,22 @@ function setSelected(idx) {
     selectedIdx = idx;
 }
 searchEl.addEventListener('input', function() { selectedIdx = -1; renderMapList(this.value); });
-searchEl.addEventListener('focus', function() { renderMapList(this.value); });
+searchEl.addEventListener('focus', function() {
+    var results = document.getElementById('map-results');
+    if (results.style.display !== 'block') renderMapList(this.value);
+});
 searchEl.addEventListener('keydown', function(e) {
+    var results = document.getElementById('map-results');
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+        e.preventDefault();
+        e.stopPropagation();
+        if (results.style.display !== 'block') { renderMapList(searchEl.value); return; }
+    }
     var items = document.querySelectorAll('#map-results .map-result-item');
     if (!items.length) return;
     if (e.key === 'ArrowDown') {
-        e.preventDefault();
         setSelected(Math.min(selectedIdx + 1, items.length - 1));
     } else if (e.key === 'ArrowUp') {
-        e.preventDefault();
         setSelected(Math.max(selectedIdx - 1, 0));
     } else if (e.key === 'Enter') {
         if (selectedIdx >= 0 && items[selectedIdx]) items[selectedIdx].click();
@@ -596,15 +603,22 @@ function setSelected(idx) {
     selectedIdx = idx;
 }
 searchEl.addEventListener('input', function() { selectedIdx = -1; renderMapList(this.value); });
-searchEl.addEventListener('focus', function() { renderMapList(this.value); });
+searchEl.addEventListener('focus', function() {
+    var results = document.getElementById('map-results');
+    if (results.style.display !== 'block') renderMapList(this.value);
+});
 searchEl.addEventListener('keydown', function(e) {
+    var results = document.getElementById('map-results');
+    if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+        e.preventDefault();
+        e.stopPropagation();
+        if (results.style.display !== 'block') { renderMapList(searchEl.value); return; }
+    }
     var items = document.querySelectorAll('#map-results .map-result-item');
     if (!items.length) return;
     if (e.key === 'ArrowDown') {
-        e.preventDefault();
         setSelected(Math.min(selectedIdx + 1, items.length - 1));
     } else if (e.key === 'ArrowUp') {
-        e.preventDefault();
         setSelected(Math.max(selectedIdx - 1, 0));
     } else if (e.key === 'Enter') {
         if (selectedIdx >= 0 && items[selectedIdx]) items[selectedIdx].click();
