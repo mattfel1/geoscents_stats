@@ -113,7 +113,7 @@ body { font-family: sans-serif; }
     font-size: 15px;
 }
 
-.map-result-item:hover { background: #a9e7f9; }
+.map-result-item:hover, .map-result-selected { background: #a9e7f9; }
 
 .map-result-count { color: #666; font-size: 12px; }
 .map-result-city  { color: #888; font-size: 12px; font-style: italic; }
@@ -149,15 +149,41 @@ function renderMapList(query) {
     results.style.display = results.children.length ? 'block' : 'none';
 }
 var searchEl = document.getElementById('map-search');
-searchEl.addEventListener('input', function() { renderMapList(this.value); });
+var selectedIdx = -1;
+function setSelected(idx) {
+    var items = document.querySelectorAll('#map-results .map-result-item');
+    items.forEach(function(el, i) { el.classList.toggle('map-result-selected', i === idx); });
+    if (items[idx]) items[idx].scrollIntoView({ block: 'nearest' });
+    selectedIdx = idx;
+}
+searchEl.addEventListener('input', function() { selectedIdx = -1; renderMapList(this.value); });
 searchEl.addEventListener('focus', function() { renderMapList(this.value); });
+searchEl.addEventListener('keydown', function(e) {
+    var items = document.querySelectorAll('#map-results .map-result-item');
+    if (!items.length) return;
+    if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        setSelected(Math.min(selectedIdx + 1, items.length - 1));
+    } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        setSelected(Math.max(selectedIdx - 1, 0));
+    } else if (e.key === 'Enter') {
+        if (selectedIdx >= 0 && items[selectedIdx]) items[selectedIdx].click();
+        else if (items[0]) items[0].click();
+    } else if (e.key === 'Escape') {
+        document.getElementById('map-results').style.display = 'none';
+        selectedIdx = -1;
+    }
+});
 document.getElementById('map-search-btn').addEventListener('click', function() {
     var first = document.querySelector('#map-results .map-result-item');
     if (first) { first.click(); } else { renderMapList(searchEl.value); searchEl.focus(); }
 });
 document.addEventListener('click', function(e) {
-    if (!e.target.closest('.map-search-wrapper'))
+    if (!e.target.closest('.map-search-wrapper')) {
         document.getElementById('map-results').style.display = 'none';
+        selectedIdx = -1;
+    }
 });
 </script>
 </body>
