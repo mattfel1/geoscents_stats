@@ -1102,6 +1102,7 @@ for path in pathlist:
                 print(exc_type, fname, exc_tb.tb_lineno)
                 if hasattr(e, 'message'):
                     print(e.message)
+                raise
 
 
 
@@ -1220,6 +1221,7 @@ for path in pathlist:
                     print(exc_type, fname, exc_tb.tb_lineno)
                     if hasattr(e, 'message'):
                         print(e.message)
+                    raise
 
 
 
