@@ -81,6 +81,13 @@ def geoToMerc(room,lat,lon):
         row = -np.cos(lon * np.pi / 180) * hypot + (MAP_HEIGHT / 2)
         return col, row
 
+    elif MAP_BOUNDS[room].get("projection") == "equirectangular":
+        # Equirectangular (Plate Carrée) — matches server geography.js
+        # row = (zero_lat - lat) / (zero_lat - max_lat) * MAP_HEIGHT
+        col = (lon - min_lon) / (max_lon - min_lon) * MAP_WIDTH
+        row = (zero_lat - lat) / (zero_lat - max_lat) * MAP_HEIGHT
+        return col, row
+
     else:
         # get col value
         if (lon < min_lon):
