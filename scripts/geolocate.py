@@ -114,18 +114,10 @@ total_num_clicks = 0
 player_countries = {'Total': 0, 'Unknown': 0}
 continent_country_perf = {}
 
-classic_maps = ['World', 'Trivia', 'Europe', 'Africa', 'Asia', 'Oceania', 'N. America', 'S. America']
-other_maps = []
-maps = classic_maps
-
-for path in glob.glob(staging_dir + "*_guesses_base"):
-    file = str(path)
-    this_map = file.split("/")[-1].replace('_guesses_base', '')
-    if this_map not in classic_maps:
-        other_maps.append(this_map)
-
-other_maps.sort()
-maps += other_maps
+maps = sorted([
+    str(path).split("/")[-1].replace('_guesses_base', '')
+    for path in glob.glob(staging_dir + "*_guesses_base")
+])
 
 for this_map in maps:
     continent_country_perf[this_map] = {}
