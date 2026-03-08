@@ -1,5 +1,7 @@
+import matplotlib
+matplotlib.use('Agg')  # non-interactive backend; must be before pyplot import
 import matplotlib.image as mpimg
-import scipy.stats as stats 
+import scipy.stats as stats
 import csv
 import sys
 import os
@@ -16,6 +18,8 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import numpy as np
 import pandas as pd
+from concurrent.futures import ProcessPoolExecutor, as_completed
+from multiprocessing import cpu_count
 import glob
 from PIL import Image
 from timeit import default_timer as timer
@@ -913,6 +917,298 @@ def warnIfDatapointCountDropped():
 
 
 
+def process_map(citysrc):
+    """Process one map in a worker process. Returns (citysrc, count, city_to_maps, errors, timing)."""
+    # Each forked worker gets its own copies of these; reset them so maps don't bleed into each other
+    global admin_to_country, admin_to_iso2, _anim_buffer
+    admin_to_country = {}
+    admin_to_iso2 = {}
+    _anim_buffer = {}
+    # addJs uses the module-level 'citysrc' global — fix it for this worker
+    globals()['citysrc'] = citysrc
+
+    local_city_to_maps = {}
+    local_errors = []
+    continent_count = 0
+    _t_map = timer()
+    _t_agg = _t_map  # default if aggregate section is skipped
+
+    file = citysrc + '.json'
+    print(file)
+    continent_map = mpimg.imread(outdir_prefix + '/geoscents/resources/maps/' + cleanName(citysrc) + '_terrain.png')
+    writeHtml(citysrc, header[2:])
+    initJs(citysrc)
+
+    with open(file) as json_file:
+        aggregate_dists = {}
+        aggregate_lats = {}
+        aggregate_lons = {}
+        aggregate_times = {}
+        aggregate_player_countries = {}
+        entriesSummary = []
+        continentSummary = []
+        continentTrueXs = []
+        continentTrueYs = []
+        data = json.load(json_file)
+        entry_id = 0
+        made_plt = False
+        for entry in data:
+            if (verbose):
+                print('%s: (%d / %d): %s' % (citysrc, entry_id, len(data), entry))
+            entry_id = entry_id + 1
+            if entry not in local_city_to_maps:
+                local_city_to_maps[entry] = []
+            if citysrc not in local_city_to_maps[entry]:
+                local_city_to_maps[entry].append(citysrc)
+            try:
+                dist_data = data[entry]['dists']
+                if ('iso2' not in data[entry]):
+                    continue
+                iso2 = data[entry]['iso2']
+                continent_count = continent_count + len(dist_data)
+                if ('country' not in data[entry]):
+                    continue
+                country = data[entry]['country']
+                if trackAdmin(cleanName(citysrc), cleanName(country)) and hasattr(data[entry], 'admin'):
+                    aggregate_name = cleanNameUnderscore(data[entry]['admin'])
+                    admin_to_iso2[aggregate_name] = iso2
+                    admin_to_country[aggregate_name] = country
+                else:
+                    aggregate_name = cleanNameUnderscore(country)
+                    admin_to_iso2[aggregate_name] = iso2
+                if (aggregate_name in aggregate_dists):
+                    aggregate_dists[aggregate_name] = aggregate_dists[aggregate_name] + dist_data
+                else:
+                    aggregate_dists[aggregate_name] = dist_data
+                mean_dist = data[entry]['mean_dist'] if 'mean_dist' in data[entry] else 0
+                std_dist = data[entry]['std_dist'] if 'std_dist' in data[entry] else 0
+                outliers = [x for x in dist_data if x - mean_dist > 3 * std_dist]
+                inliers = [x for x in dist_data if x - mean_dist <= 3 * std_dist]
+                if (len(inliers) == 0):
+                    inliers = [0]
+                max_inlier = max(inliers)
+                x = np.linspace(0, max_inlier, 100)
+                bins = plt.hist(inliers, bins=20)
+                made_plt = True
+                fit = stats.norm.pdf(x, mean_dist, std_dist)
+                plt.plot(x, (max(bins[0]) / max(fit)) * fit)
+                plt.title(entry)
+                plt.xlabel('Error in km (%d outliers omitted)' % len(outliers))
+                plt.ylabel('# of players')
+                plt.xlim([0, max_inlier])
+                fname_country = data[entry]['country'] if 'country' in data[entry] else 'unk_country'
+                fname = 'entry_' + citysrc + '_' + fname_country + '_' + entry
+                fname = stripSpecial(cleanNameUnderscore(fname)) + '.png'
+                plt.savefig(outdir_prefix + '/plots/' + fname)
+                plt.clf()
+
+                anim_name = 'animation_' + citysrc + '_' + cleanNameUnderscore(country) + '_' + cleanNameUnderscore(entry)
+                admin = "N/A" if 'admin' not in data[entry] else data[entry]['admin']
+                reghist = '<a href=\\"%s\\"><img src=\\"%s\\" class=\\"img-thumbnail\\" alt=\\"link\\" height=40px></a>' % (fname, fname)
+                anim = '<a href=\\"%s\\"><img src=\\"%s\\" class=\\"img-thumbnail\\" alt=\\"link\\" height=40px></a>' % (anim_name + '.html', cleanName(citysrc) + '_terrain.png')
+                link = "https://en.wikipedia.org/wiki/Special:Search?search=" + stripSpecial(entry) + "&go=Go&ns0=1" if ('wiki' not in data[entry]) else data[entry]['wiki']
+                linkedCity = data[entry]['city'] if 'city' in data[entry] else "unknown_city"
+                linkedEntry = '<a href=\\"%s\\">%s</a>' % (link, linkedCity)
+                flag = " " if (iso2 == 'NONE') else '<img src=\\"flags/%s.png\\" class=\\"img-thumbnail\\" style=\\"border:1px solid black;\\" alt=\\"%s\\" height=20px>' % (iso2.lower(), iso2.lower())
+                bigflag = " " if (iso2.lower() == 'none') else '<img src="flags/%s.png" style="border:1px solid black;display:block;margin:0 auto" class="img-thumbnail" height=40px>' % iso2.lower()
+                addJs('"Entry","' + flag + '","' + country + '","' + admin + '","' + linkedEntry + '","' + '%.1f' % mean_dist + '","' + '%.1f' % std_dist + '","' + str(len(dist_data)) + '","' + reghist + '","' + anim + '"')
+
+                initAnim(anim_name, timestep, bigflag)
+                true_x, true_y = (0, 0) if ("true_lat" not in data[entry] or "true_lon" not in data[entry]) else geoToMerc(citysrc, data[entry]["true_lat"], data[entry]["true_lon"])
+                addFrame(anim_name, "truth", "truth", 1, [true_x], [900 - true_y], 'size: 9, symbol: \'star-open\', color: \'black\'')
+                continentTrueXs.append(true_x)
+                continentTrueYs.append(true_y)
+                if (generate_gifs):
+                    lats = data[entry]['lats']
+                    lons = data[entry]['lons']
+                    mean_lat = np.mean([x for x in lats if type(x) == float])
+                    mean_lon = np.mean([x for x in lons if type(x) == float])
+                    mean_x, mean_y = geoToMerc(citysrc, mean_lat, mean_lon)
+                    times = data[entry]['times']
+                    player_countries = data[entry]['countries']
+                    tup = [[lon, time, player_country, lat] for lon, time, player_country, lat in zip(lons, times, player_countries, lats) if lat != "x"]
+                    tup = list(map(list, zip(*tup)))
+                    lons = tup[0]
+                    times = tup[1]
+                    player_countries = tup[2]
+                    lats = tup[3]
+                    x_by_country = {}
+                    y_by_country = {}
+                    if (aggregate_name in aggregate_lats):
+                        aggregate_lats[aggregate_name] = aggregate_lats[aggregate_name] + lats
+                        aggregate_lons[aggregate_name] = aggregate_lons[aggregate_name] + lons
+                        aggregate_times[aggregate_name] = aggregate_times[aggregate_name] + times
+                        aggregate_player_countries[aggregate_name] = aggregate_player_countries[aggregate_name] + player_countries
+                    else:
+                        aggregate_lats[aggregate_name] = lats
+                        aggregate_lons[aggregate_name] = lons
+                        aggregate_lats[aggregate_name] = lats
+                        aggregate_times[aggregate_name] = times
+                        aggregate_player_countries[aggregate_name] = player_countries
+                    all_countries = list(set(player_countries))
+                    country_numclicks = {}
+                    for c in all_countries:
+                        country_numclicks[c] = player_countries.count(c)
+                        x_by_country[c] = []
+                        y_by_country[c] = []
+                    frame = 0
+                    for t in np.arange(10, -timestep, -timestep):
+                        lowerbound = t - timestep
+                        filtered = [[lat, lon, player_country] for lat, lon, player_country, stamp in zip(lats, lons, player_countries, times) if stamp > lowerbound and stamp <= t]
+                        if (len(filtered) == 0):
+                            filtered = [[], [], []]
+                        else:
+                            filtered = list(map(list, zip(*filtered)))
+                        frame_lats = filtered[0]
+                        frame_lons = filtered[1]
+                        frame_player_countries = filtered[2]
+                        for i in range(len(frame_lats)):
+                            x, y = geoToMerc(citysrc, float(frame_lats[i]), float(frame_lons[i]))
+                            x_by_country[frame_player_countries[i]] = x_by_country[frame_player_countries[i]] + [x]
+                            y_by_country[frame_player_countries[i]] = y_by_country[frame_player_countries[i]] + [900 - y]
+                        for c in all_countries:
+                            addFrame(anim_name, cleanName(c) + str(frame), c, country_numclicks[c], x_by_country[c], y_by_country[c], 'size: 5')
+                        unfiltered = [[lat, lon, player_country, stamp] for lat, lon, player_country, stamp in zip(lats, lons, player_countries, times) if stamp <= lowerbound]
+                        if (len(unfiltered) == 0):
+                            frame = frame + 1
+                            continue
+                        unfiltered = list(map(list, zip(*unfiltered)))
+                        lats = unfiltered[0]
+                        lons = unfiltered[1]
+                        player_countries = unfiltered[2]
+                        times = unfiltered[3]
+                        frame = frame + 1
+                    finishAnim(anim_name, citysrc, entry, all_countries, frame - 1, timestep)
+
+            except Exception as e:
+                local_errors.append("problem with entry " + entry + " in " + citysrc)
+                exc_type, exc_obj, exc_tb = sys.exc_info()
+                exc_fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
+                print(exc_type, exc_fname, exc_tb.tb_lineno)
+                if hasattr(e, 'message'):
+                    print(e.message)
+                raise
+
+        # Aggregate overview map
+        plt.clf()
+        plt.figure(figsize=(MAP_WIDTH/dpi, MAP_HEIGHT/dpi), dpi=dpi)
+        plt.imshow(continent_map)
+        ax = plt.gca()
+        plt.ylim([MAP_HEIGHT, 0])
+        plt.xlim([0, MAP_WIDTH])
+        plt.title("All " + str(len(continentTrueXs)) + " entries for " + citysrc)
+        plt.axis('off')
+        for i in range(len(continentTrueXs)):
+            x, y = continentTrueXs[i], continentTrueYs[i]
+            plt.scatter([x], [y], marker='*', color='w', s=20, edgecolors='black')
+        plt.savefig(outdir_prefix + '/plots/all_' + citysrc + ".jpg")
+        plt.clf()
+
+        _t_agg = timer()
+        if (citysrc != "Trivia"):
+            entry_id = 0
+            for aggregate_name in aggregate_dists:
+                if (verbose):
+                    print('%s: (%d / %d): %s' % (citysrc, entry_id, len(aggregate_dists), aggregate_name))
+                entry_id = entry_id + 1
+                try:
+                    if (aggregate_name in admin_to_country):
+                        country = admin_to_country[aggregate_name]
+                        admin = aggregate_name
+                    else:
+                        country = aggregate_name
+                    if (aggregate_name not in admin_to_iso2):
+                        continue
+                    iso2 = admin_to_iso2[aggregate_name].lower()
+                    dist_data = aggregate_dists[aggregate_name]
+                    mean_dist = np.mean(dist_data)
+                    std_dist = np.std(dist_data)
+                    outliers = [x for x in dist_data if x - mean_dist > 3 * std_dist]
+                    inliers = [x for x in dist_data if x - mean_dist <= 3 * std_dist]
+                    if (len(inliers) == 0):
+                        inliers = [1]
+                    bins = plt.hist(inliers, bins=20)
+                    x = np.linspace(0, max(inliers), 100)
+                    fit = stats.norm.pdf(x, mean_dist, std_dist)
+                    plt.plot(x, (max(bins[0]) / max(fit)) * fit)
+                    plt.title('Aggregate for ' + aggregate_name)
+                    plt.xlim([0, max(inliers)])
+                    plt.xlabel('Error in km (%d outliers omitted)' % len(outliers))
+                    plt.ylabel('# of players')
+                    fname = 'country_' + citysrc + '_' + aggregate_name
+                    fname = stripSpecial(cleanNameUnderscore(fname)) + ".png"
+                    plt.savefig(outdir_prefix + '/plots/' + fname)
+                    plt.clf()
+                    reghist = '<a href=\\"%s\\"><img src=\\"%s\\" class=\\"img-thumbnail\\" alt=\\"link\\" height=40px></a>' % (fname, fname)
+                    anim_name = 'animation_' + cleanNameUnderscore(citysrc) + '_' + cleanNameUnderscore(aggregate_name)
+                    anim = '<a href=\\"%s\\"><img src=\\"%s\\" class=\\"img-thumbnail\\" alt=\\"link\\" height=40px></a>' % (anim_name + '.html', cleanName(citysrc) + '_terrain.png')
+                    link = "https://en.wikipedia.org/wiki/Special:Search?search=" + aggregate_name + "&go=Go&ns0=1"
+                    flag = " " if (iso2.lower() == 'none') else '<img src=\\"flags/%s.png\\" style=\\"border:1px solid black;\\" class=\\"img-thumbnail\\" alt=\\"%s\\" height=20px>' % (iso2, iso2)
+                    bigflag = " " if (iso2.lower() == 'none') else '<img src="flags/%s.png" style="border:1px solid black;display:block;margin:0 auto" class="img-thumbnail" height=40px>' % iso2.lower()
+                    if (aggregate_name in admin_to_country):
+                        linkedAdmin = '<a href=\\"%s\\">%s</a>' % (link, admin)
+                        linkedCountry = country
+                    else:
+                        linkedAdmin = '-'
+                        linkedCountry = '<a href=\\"%s\\">%s</a>' % (link, country)
+                    addJs('"Aggregate","' + flag + '","' + linkedCountry + '","' + linkedAdmin + '","-","' + '%.1f' % mean_dist + '","' + '%.1f' % std_dist + '","' + str(len(dist_data)) + '","' + reghist + '","' + anim + '"')
+
+                    if (generate_gifs):
+                        initAnim(anim_name, timestep, bigflag)
+                        addFrame(anim_name, "truth", "truth", 0, [], [], 'size: 8, symbol: \'star-open\', color: \'black\'')
+                        lats = aggregate_lats[aggregate_name]
+                        lons = aggregate_lons[aggregate_name]
+                        mean_lat = np.mean([x for x in lats if type(x) == float])
+                        mean_lon = np.mean([x for x in lons if type(x) == float])
+                        mean_x, mean_y = geoToMerc(citysrc, mean_lat, mean_lon)
+                        times = aggregate_times[aggregate_name]
+                        player_countries = aggregate_player_countries[aggregate_name]
+                        lons = [l for l, x in zip(lons, lats) if x != "x"]
+                        times = [l for l, x in zip(times, lats) if x != "x"]
+                        player_countries = [l for l, x in zip(player_countries, lats) if x != "x"]
+                        lats = [x for x in lats if x != "x"]
+                        x_by_country = {}
+                        y_by_country = {}
+                        all_countries = []
+                        country_numclicks = {}
+                        for c in player_countries:
+                            if (c not in all_countries):
+                                all_countries.append(c)
+                                country_numclicks[c] = player_countries.count(c)
+                                x_by_country[c] = []
+                                y_by_country[c] = []
+                        frame = 0
+                        for t in np.arange(10, -timestep, -timestep):
+                            lowerbound = t - timestep
+                            frame_lats = [x for x, stamp in zip(lats, times) if stamp > lowerbound and stamp <= t]
+                            frame_lons = [x for x, stamp in zip(lons, times) if stamp > lowerbound and stamp <= t]
+                            frame_player_countries = [x for x, stamp in zip(player_countries, times) if stamp > lowerbound and stamp <= t]
+                            for i in range(len(frame_lats)):
+                                x, y = geoToMerc(citysrc, float(frame_lats[i]), float(frame_lons[i]))
+                                x_by_country[frame_player_countries[i]] = x_by_country[frame_player_countries[i]] + [x]
+                                y_by_country[frame_player_countries[i]] = y_by_country[frame_player_countries[i]] + [900 - y]
+                            for c in all_countries:
+                                addFrame(anim_name, cleanName(c) + str(frame), c, country_numclicks[c], x_by_country[c], y_by_country[c], 'size: 5')
+                            frame = frame + 1
+                        finishAnim(anim_name, citysrc, aggregate_name, all_countries, frame - 1, timestep)
+
+                except Exception as e:
+                    local_errors.append("problem with aggregate " + aggregate_name + " in " + citysrc)
+                    exc_type, exc_obj, exc_tb = sys.exc_info()
+                    exc_fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
+                    print(exc_type, exc_fname, exc_tb.tb_lineno)
+                    if hasattr(e, 'message'):
+                        print(e.message)
+                    raise
+
+    _elapsed_map = timer() - _t_map
+    _elapsed_agg = timer() - _t_agg
+    print('[timing] %s: %.1fs total (agg: %.1fs, entries: %.1fs)' % (
+        citysrc, _elapsed_map, _elapsed_agg, _elapsed_map - _elapsed_agg))
+    finishJs(citysrc)
+    return (citysrc, continent_count, local_city_to_maps, local_errors, (citysrc, _elapsed_map, _elapsed_agg))
+
+
 ########
 # MAIN #
 ########
@@ -947,331 +1243,32 @@ color_idx = 0
 dpi = 250
 timestep = 0.2
 
-initCount()
-
 _PERF_LOG = "/tmp/geoscents_perf.log"
-_map_timings = []   # list of (citysrc, total_sec, agg_sec)
 _t_script_start = timer()
-_anim_buffer = {}   # fname -> accumulated JS string (flushed in finishAnim)
 
 errors = []
 city_to_maps = {}
+_map_timings = []
 
-for path in pathlist:
-    
-    # because path is object not string
-    file = str(path)
-    citysrc = file.split('/')[-1].replace('.json','')
-    continent_count = 0
-    if (citysrc not in header):
-        continue
-    _t_map = timer()
-    print(file)
-    continent_map = mpimg.imread(outdir_prefix + '/geoscents/resources/maps/' + cleanName(citysrc) + '_terrain.png')
-    writeHtml(citysrc, header[2:])
-    initJs(citysrc) 
-   
-    with open(file) as json_file:
-        aggregate_dists = {} 
-        aggregate_lats = {} 
-        aggregate_lons = {} 
-        aggregate_times = {} 
-        aggregate_player_countries = {} 
-        entriesSummary = []
-        continentSummary = []
-        continentTrueXs = []
-        continentTrueYs = []
-        data = json.load(json_file)
-        entry_id = 0
-        made_plt = False
-        for entry in data:
-            # if (entry_id == 5): break # early quit
-            if (verbose):
-                print('%s: (%d / %d): %s' % (citysrc, entry_id, len(data), entry))
-            entry_id = entry_id + 1
-            if entry not in city_to_maps:
-                city_to_maps[entry] = []
-            if citysrc not in city_to_maps[entry]:
-                city_to_maps[entry].append(citysrc)
-            # Create entry for this city
-            try:
-                dist_data = data[entry]['dists']
-                if ('iso2' not in data[entry]):
-                    continue
-                iso2 = data[entry]['iso2']
-                continent_count = continent_count + len(dist_data)
-                if ('country' not in data[entry]):
-                    continue
-                country = data[entry]['country']
-                if trackAdmin(cleanName(citysrc), cleanName(country)) and hasattr(data[entry], 'admin'):
-                    aggregate_name = cleanNameUnderscore(data[entry]['admin'])
-                    admin_to_iso2[aggregate_name] = iso2
-                    admin_to_country[aggregate_name] = country
-                else:
-                    aggregate_name = cleanNameUnderscore(country)
-                    admin_to_iso2[aggregate_name] = iso2
-                if (aggregate_name in aggregate_dists): 
-                    aggregate_dists[aggregate_name] = aggregate_dists[aggregate_name] + dist_data
-                else:
-                    aggregate_dists[aggregate_name] = dist_data
-                mean_dist = data[entry]['mean_dist'] if 'mean_dist' in data[entry] else 0
-                std_dist = data[entry]['std_dist'] if 'std_dist' in data[entry] else 0
-                outliers = [x for x in dist_data if x - mean_dist > 3 * std_dist]
-                inliers = [x for x in dist_data if x - mean_dist <= 3 * std_dist]
-                if (len(inliers) == 0):
-                    inliers = [0]
-                max_inlier = max(inliers)
-                x = np.linspace(0,max_inlier,100)
-                bins = plt.hist(inliers, bins=20)
-                made_plt = True
-                fit = stats.norm.pdf(x, mean_dist, std_dist)
-                # Generate hist
-                plt.plot(x,(max(bins[0]) / max(fit)) * fit)
-                plt.title(entry)
-                plt.xlabel('Error in km (%d outliers omitted)' % len(outliers))
-                plt.ylabel('# of players')
-                plt.xlim([0,max_inlier])
-                fname_country = data[entry]['country'] if 'country' in data[entry] else 'unk_country'
-                fname = 'entry_' + citysrc + '_' + fname_country + '_' + entry
-                fname = stripSpecial(cleanNameUnderscore(fname)) + '.png'
-                plt.savefig(outdir_prefix + '/plots/' + fname)
-                plt.clf()
-                # # Interactive plot show
-                #plt.show(block=False)
-                #input("Press Enter to continue...")
-                #plt.close('all')
+valid_maps = [str(p).split('/')[-1].replace('.json','') for p in pathlist if str(p).split('/')[-1].replace('.json','') in header]
+initCount()
+n_workers = min(cpu_count(), len(valid_maps)) if valid_maps else 1
+print('Processing %d maps with %d workers' % (len(valid_maps), n_workers))
 
+with ProcessPoolExecutor(max_workers=n_workers) as executor:
+    futures = {executor.submit(process_map, cs): cs for cs in valid_maps}
+    for future in as_completed(futures):
+        cs, count, ctm, errs, timing = future.result()
+        writeCount(cs, count)
+        for city, maps in ctm.items():
+            if city not in city_to_maps:
+                city_to_maps[city] = []
+            for m in maps:
+                if m not in city_to_maps[city]:
+                    city_to_maps[city].append(m)
+        errors.extend(errs)
+        _map_timings.append(timing)
 
-                # Save entry in table
-                anim_name = 'animation_' + citysrc + '_' + cleanNameUnderscore(country) + '_' + cleanNameUnderscore(entry)
-                admin = "N/A" if 'admin' not in data[entry] else data[entry]['admin']
-                reghist = '<a href=\\"%s\\"><img src=\\"%s\\" class=\\"img-thumbnail\\" alt=\\"link\\" height=40px></a>' % (fname, fname)
-                anim = '<a href=\\"%s\\"><img src=\\"%s\\" class=\\"img-thumbnail\\" alt=\\"link\\" height=40px></a>' % (anim_name + '.html', cleanName(citysrc) + '_terrain.png')
-                link = "https://en.wikipedia.org/wiki/Special:Search?search=" + stripSpecial(entry) + "&go=Go&ns0=1" if ('wiki' not in data[entry]) else data[entry]['wiki']
-                linkedCity = data[entry]['city'] if 'city' in data[entry] else "unknown_city"
-                linkedEntry = '<a href=\\"%s\\">%s</a>' % (link, linkedCity) 
-                flag = " " if (iso2 == 'NONE') else '<img src=\\"flags/%s.png\\" class=\\"img-thumbnail\\" style=\\"border:1px solid black;\\" alt=\\"%s\\" height=20px>' % (iso2.lower(), iso2.lower())
-                bigflag = " " if (iso2.lower() == 'none') else '<img src="flags/%s.png" style="border:1px solid black;display:block;margin:0 auto" class="img-thumbnail" height=40px>' % iso2.lower()
-                addJs('"Entry","' + flag + '","' + country + '","' + admin + '","' + linkedEntry + '","' + '%.1f' % mean_dist + '","' + '%.1f' % std_dist + '","' + str(len(dist_data)) + '","' + reghist + '","' + anim + '"')
-
-                # Source image from game resources/maps now, so no need to copy here?
-
-                # if (entry_id == 1):
-                #     plt.figure(figsize=(MAP_WIDTH/dpi, MAP_HEIGHT/dpi), dpi=dpi)
-                #     plt.imshow(continent_map)
-                #     plt.axis('off')
-                #     plt.savefig(outdir_prefix + '/plots/' + citysrc + '.jpg')
-                #     plt.clf()
-                #     plt.close()
-
-                initAnim(anim_name, timestep, bigflag)
-                true_x, true_y = (0,0) if ("true_lat" not in data[entry] or "true_lon" not in data[entry]) else geoToMerc(citysrc, data[entry]["true_lat"], data[entry]["true_lon"]) 
-                addFrame(anim_name, "truth", "truth", 1, [true_x], [900 - true_y], 'size: 9, symbol: \'star-open\', color: \'black\'')
-                continentTrueXs.append(true_x)
-                continentTrueYs.append(true_y)
-                if (generate_gifs):
-                    # Generate animation
-                    lats = data[entry]['lats']
-                    lons = data[entry]['lons']
-                    mean_lat = np.mean([x for x in lats if type(x) == float])
-                    mean_lon = np.mean([x for x in lons if type(x) == float])
-                    mean_x, mean_y = geoToMerc(citysrc, mean_lat, mean_lon) 
-                    # addMean(anim_name, mean_x, 900 - mean_y, 2, 2)
-                    times = data[entry]['times']
-                    player_countries = data[entry]['countries']
-                    tup = [[lon, time, player_country, lat] for lon, time, player_country, lat in zip(lons, times, player_countries, lats) if lat != "x"]
-                    tup = list(map(list, zip(*tup)))
-                    lons = tup[0]
-                    times = tup[1]
-                    player_countries = tup[2]
-                    lats = tup[3]
-                    x_by_country = {}
-                    y_by_country = {}
-                    if (aggregate_name in aggregate_lats): 
-                        aggregate_lats[aggregate_name] = aggregate_lats[aggregate_name] + lats
-                        aggregate_lons[aggregate_name] = aggregate_lons[aggregate_name] + lons
-                        aggregate_times[aggregate_name] = aggregate_times[aggregate_name] + times
-                        aggregate_player_countries[aggregate_name] = aggregate_player_countries[aggregate_name] + player_countries
-                    else:
-                        aggregate_lats[aggregate_name] = lats
-                        aggregate_lons[aggregate_name] = lons
-                        aggregate_lats[aggregate_name] = lats
-                        aggregate_times[aggregate_name] = times
-                        aggregate_player_countries[aggregate_name] = player_countries
-                    all_countries = list(set(player_countries))
-                    country_numclicks = {}
-                    for c in all_countries:
-                        country_numclicks[c] = player_countries.count(c)
-                        x_by_country[c] = []
-                        y_by_country[c] = []
-                    frame = 0
-                    for t in np.arange(10, -timestep, -timestep):
-                        lowerbound = t - timestep
-                        # Fetch points that fall within this step range
-                        filtered = [[lat, lon, player_country] for lat,lon,player_country,stamp in zip(lats, lons, player_countries, times) if stamp > lowerbound and stamp <= t]
-                        if (len(filtered) == 0):
-                            filtered = [[], [], []]
-                        else:
-                            filtered = list(map(list, zip(*filtered)))
-                        frame_lats = filtered[0]
-                        frame_lons = filtered[1]
-                        frame_player_countries = filtered[2]
-                        for i in range(len(frame_lats)):
-                            x,y = geoToMerc(citysrc, float(frame_lats[i]), float(frame_lons[i]))
-                            x_by_country[frame_player_countries[i]] = x_by_country[frame_player_countries[i]] + [x]
-                            y_by_country[frame_player_countries[i]] = y_by_country[frame_player_countries[i]] + [900-y]
-                        for c in all_countries:
-                            addFrame(anim_name, cleanName(c) + str(frame), c, country_numclicks[c], x_by_country[c], y_by_country[c], 'size: 5')
-                        # Remove these processed points from our lists
-                        unfiltered = [[lat, lon, player_country, stamp] for lat,lon,player_country,stamp in zip(lats, lons, player_countries, times) if stamp <= lowerbound]
-                        if (len(unfiltered) == 0):
-                            frame = frame + 1
-                            continue;
-                        unfiltered = list(map(list, zip(*unfiltered)))
-                        lats = unfiltered[0]
-                        lons = unfiltered[1]
-                        player_countries = unfiltered[2]
-                        times = unfiltered[3]
-                        frame = frame + 1
-                    finishAnim(anim_name, citysrc, entry, all_countries, frame - 1, timestep)
-
-
-            except Exception as e: # work on python 3.x
-                errors.append("problem with entry " + entry + " in " + citysrc)
-                exc_type, exc_obj, exc_tb = sys.exc_info()
-                fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
-                print(exc_type, fname, exc_tb.tb_lineno)
-                if hasattr(e, 'message'):
-                    print(e.message)
-                raise
-
-
-
-        # Report total count for citysrc and make citysrc aggregate map
-        writeCount(citysrc, continent_count)
-        plt.clf()
-        plt.figure(figsize=(MAP_WIDTH/dpi, MAP_HEIGHT/dpi), dpi=dpi)
-        plt.imshow(continent_map)
-        ax = plt.gca()
-        plt.ylim([MAP_HEIGHT,0])
-        plt.xlim([0,MAP_WIDTH])
-        plt.title("All " + str(len(continentTrueXs)) + " entries for " + citysrc)
-        plt.axis('off')
-        for i in range(len(continentTrueXs)):
-            x,y = continentTrueXs[i], continentTrueYs[i]
-            plt.scatter([x], [y], marker='*', color='w', s = 20, edgecolors = 'black')
-        plt.savefig(outdir_prefix + '/plots/all_' + citysrc + ".jpg")
-        plt.clf()
-
-        # Add aggregate for each country
-        _t_agg = timer()
-        if (citysrc != "Trivia"):
-            entry_id = 0
-            for aggregate_name in aggregate_dists:
-                if (verbose):
-                    print('%s: (%d / %d): %s' % (citysrc, entry_id, len(aggregate_dists), aggregate_name))
-                entry_id = entry_id + 1
-                try:
-                    if (aggregate_name in admin_to_country):
-                        country = admin_to_country[aggregate_name]
-                        admin = aggregate_name
-                    else:
-                        country = aggregate_name
-                    if (aggregate_name not in admin_to_iso2):
-                        continue
-                    iso2 = admin_to_iso2[aggregate_name].lower()
-                    dist_data = aggregate_dists[aggregate_name]
-                    mean_dist = np.mean(dist_data)
-                    std_dist = np.std(dist_data)
-                    outliers = [x for x in dist_data if x - mean_dist > 3 * std_dist]
-                    inliers = [x for x in dist_data if x - mean_dist <= 3 * std_dist]
-                    if (len(inliers) == 0):
-                        inliers = [1]
-                    bins = plt.hist(inliers, bins=20)
-                    x = np.linspace(0,max(inliers),100)
-                    fit = stats.norm.pdf(x, mean_dist, std_dist)
-                    plt.plot(x,(max(bins[0]) / max(fit)) * fit)
-                    plt.title('Aggregate for ' + aggregate_name)
-                    plt.xlim([0,max(inliers)])
-                    plt.xlabel('Error in km (%d outliers omitted)' % len(outliers))
-                    plt.ylabel('# of players')
-                    fname = 'country_' + citysrc + '_' + aggregate_name
-                    fname = stripSpecial(cleanNameUnderscore(fname)) + ".png"
-                    plt.savefig(outdir_prefix + '/plots/' + fname)
-                    plt.clf()
-                    reghist = '<a href=\\"%s\\"><img src=\\"%s\\" class=\\"img-thumbnail\\" alt=\\"link\\" height=40px></a>' % (fname, fname)
-                    anim_name = 'animation_' + cleanNameUnderscore(citysrc) + '_' + cleanNameUnderscore(aggregate_name)
-                    anim = '<a href=\\"%s\\"><img src=\\"%s\\" class=\\"img-thumbnail\\" alt=\\"link\\" height=40px></a>' % (anim_name + '.html', cleanName(citysrc) + '_terrain.png')
-                    link = "https://en.wikipedia.org/wiki/Special:Search?search=" + aggregate_name + "&go=Go&ns0=1"
-                    flag = " " if (iso2.lower() == 'none') else '<img src=\\"flags/%s.png\\" style=\\"border:1px solid black;\\" class=\\"img-thumbnail\\" alt=\\"%s\\" height=20px>' % (iso2, iso2)
-                    bigflag = " " if (iso2.lower() == 'none') else '<img src="flags/%s.png" style="border:1px solid black;display:block;margin:0 auto" class="img-thumbnail" height=40px>' % iso2.lower()
-                    if (aggregate_name in admin_to_country):
-                        linkedAdmin = '<a href=\\"%s\\">%s</a>' % (link, admin)  
-                        linkedCountry = country
-                    else:
-                        linkedAdmin = '-'
-                        linkedCountry = '<a href=\\"%s\\">%s</a>' % (link, country) 
-                    addJs('"Aggregate","' + flag + '","' + linkedCountry + '","' + linkedAdmin + '","-","' + '%.1f' % mean_dist + '","' + '%.1f' % std_dist + '","' + str(len(dist_data)) + '","' + reghist + '","' + anim + '"')
-        
-                    # Generate animation
-                    if (generate_gifs):
-                        initAnim(anim_name, timestep, bigflag)
-                        addFrame(anim_name, "truth", "truth", 0, [], [], 'size: 8, symbol: \'star-open\', color: \'black\'')
-                        lats = aggregate_lats[aggregate_name]
-                        lons = aggregate_lons[aggregate_name]
-                        mean_lat = np.mean([x for x in lats if type(x) == float])
-                        mean_lon = np.mean([x for x in lons if type(x) == float])
-                        mean_x, mean_y = geoToMerc(citysrc, mean_lat, mean_lon) 
-                        # addMean(anim_name, mean_x, 900 - mean_y, 2, 2)
-                        times = aggregate_times[aggregate_name]
-                        player_countries = aggregate_player_countries[aggregate_name]
-                        lons = [l for l,x in zip(lons,lats) if x != "x"]
-                        times = [l for l,x in zip(times,lats) if x != "x"]
-                        player_countries = [l for l,x in zip(player_countries,lats) if x != "x"]
-                        lats = [x for x in lats if x != "x"]
-                        x_by_country = {}
-                        y_by_country = {}
-                        all_countries = []
-                        country_numclicks = {}
-                        for c in player_countries:
-                            if (c not in all_countries):
-                                all_countries.append(c)
-                                country_numclicks[c] = player_countries.count(c)
-                                x_by_country[c] = []
-                                y_by_country[c] = []
-                        frame = 0
-                        for t in np.arange(10, -timestep, -timestep):
-                            lowerbound = t - timestep
-                            frame_lats = [x for x,stamp in zip(lats, times) if stamp > lowerbound and stamp <= t]
-                            frame_lons = [x for x,stamp in zip(lons, times) if stamp > lowerbound and stamp <= t]
-                            frame_player_countries = [x for x,stamp in zip(player_countries, times) if stamp > lowerbound and stamp <= t]
-                            for i in range(len(frame_lats)):
-                                x,y = geoToMerc(citysrc, float(frame_lats[i]), float(frame_lons[i]))
-                                x_by_country[frame_player_countries[i]] = x_by_country[frame_player_countries[i]] + [x]
-                                y_by_country[frame_player_countries[i]] = y_by_country[frame_player_countries[i]] + [900-y]
-                            for c in all_countries:
-                                addFrame(anim_name, cleanName(c) + str(frame), c, country_numclicks[c], x_by_country[c], y_by_country[c], 'size: 5')
-                            frame = frame + 1
-                        finishAnim(anim_name, citysrc, aggregate_name, all_countries, frame - 1, timestep)
-
-                            
-                except Exception as e: # work on python 3.x
-                    errors.append("problem with aggregate " + aggregate + " in " + citysrc)
-                    exc_type, exc_obj, exc_tb = sys.exc_info()
-                    fname = os.path.split(exc_tb.tb_frame.f_code.co_filename)[1]
-                    print(exc_type, fname, exc_tb.tb_lineno)
-                    if hasattr(e, 'message'):
-                        print(e.message)
-                    raise
-
-
-
-    _elapsed_map = timer() - _t_map
-    _elapsed_agg = timer() - _t_agg
-    _map_timings.append((citysrc, _elapsed_map, _elapsed_agg))
-    print('[timing] %s: %.1fs total (agg: %.1fs, entries: %.1fs)' % (
-        citysrc, _elapsed_map, _elapsed_agg, _elapsed_map - _elapsed_agg))
-    finishJs(citysrc)
 
 for x in errors:
     print(x)

@@ -1,5 +1,9 @@
 #!/bin/bash
 
+LOG_FILE="$HOME/geoscents_stats/run_log"
+exec > >(tee -a "$LOG_FILE") 2>&1
+echo "===== run.sh started $(date) ====="
+
 PERF_LOG=/tmp/geoscents_perf.log
 > "$PERF_LOG"
 _t()   { date +%s; }
