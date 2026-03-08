@@ -225,6 +225,7 @@ th { height: 50px; }
     border-right: 2px solid #aaa;
 }
 #index thead th:nth-child(1), #index thead th:nth-child(2) { z-index: 3; }
+#index { width: auto !important; table-layout: auto !important; }
 /* Standouts panel */
 #standouts-panel {
     position: fixed; top: 70px; right: 16px; width: 290px;
@@ -357,10 +358,10 @@ This page is updated approximately every 24 hours.  Raw data can be found <a hre
 
 <h3>Mean Error by Player Country (<a href="growth.png">Collected Data Points Over Time</a>)</h3>
 <div style="margin:6px 0 6px 0;font-size:13px;">
-  <span style="color:#1a7a3a;">&#9646; below avg</span> &nbsp;
+  <span style="color:#1a7a3a;">&#9646; better than avg</span> &nbsp;
   <span style="color:#aaa;">&#9646; near avg</span> &nbsp;
-  <span style="color:#b52020;">&#9646; above avg</span>
-  &nbsp;&mdash;&nbsp; <b title="Cells outlined in gold are where the player country matches the map name">&#127968; = home turf</b>
+  <span style="color:#b52020;">&#9646; worse than avg</span>
+  &nbsp;&mdash;&nbsp; <span style="display:inline-block;width:13px;height:13px;box-shadow:inset 0 0 0 2px gold;background:#eee;vertical-align:middle;margin-right:2px;"></span><b>= home turf</b>
   &nbsp;&mdash;&nbsp; <span style="color:#555;">Click any player-country row to see their standout maps &#8599;</span>
 </div>
 <div style="margin:4px 0 8px 0;">
@@ -414,11 +415,12 @@ $(document).ready(function() {
         "lengthChange": true,
         "pageLength": 200,
         "search": {"search": ".*", "regex": true},
-        stateSave: true,
-        "stateDuration": 60 * 5,
+        stateSave: false,
         "dom": '<"top"f>rt<"bottom"ipl><"clear">',
         deferRender: true,
         "order": [[2, 'des']],
+        "autoWidth": false,
+        "language": { "search": "&#128269; Filter player country:" },
         columns: [
             { title: "", "width": "24px" },
             """)
@@ -426,7 +428,8 @@ $(document).ready(function() {
         targets = []
         for x in header:
             sfx = "<br><small style='font-weight:normal'>(km avg error)</small>" if i > 1 else ""
-            f.write("{ title: \"" + x.replace('"','') + sfx + "\", \"width\": \"5%%\"}")
+            w = ", \"width\": \"80px\"" if i < 2 else ""
+            f.write("{ title: \"" + x.replace('"','') + sfx + "\"" + w + "}")
             if (i < len(header) - 1):
                 f.write(",\n")
             if (i >= 2):
@@ -503,23 +506,30 @@ $(document).ready(function() {
         $('#sp-close').on('click', function(e) { e.stopPropagation(); $('#standouts-panel').hide(); });
     });
 
-    // Column filter
+    // Column filter — pre-build header map for fast lookup
     var totalMapCols = dataSet.length > 0 ? dataSet[0].length - 3 : 0;
+    var colHeaderMap = {};
+    tbl.columns().every(function(i) {
+        if (i >= 3) colHeaderMap[i] = $(this.header()).text().replace('(km avg error)', '').trim().toLowerCase();
+    });
     function updateColCount() {
         var visible = 0;
         tbl.columns().every(function(i) { if (i >= 3 && this.visible()) visible++; });
         $('#col-count').text(visible + ' / ' + totalMapCols + ' maps shown');
     }
     updateColCount();
+    var colFilterTimer = null;
     $('#col-filter').on('input', function() {
         var q = this.value.toLowerCase().trim();
-        tbl.columns().every(function(i) {
-            if (i < 3) return;
-            var hdr = $(this.header()).text().replace('(km avg error)', '').trim().toLowerCase();
-            this.visible(!q || hdr.indexOf(q) !== -1);
-        });
-        tbl.draw(false);
-        updateColCount();
+        clearTimeout(colFilterTimer);
+        colFilterTimer = setTimeout(function() {
+            tbl.columns().every(function(i) {
+                if (i < 3) return;
+                this.visible(!q || (colHeaderMap[i] && colHeaderMap[i].indexOf(q) !== -1));
+            });
+            tbl.draw(false);
+            updateColCount();
+        }, 250);
     });
 
     tbl.on('order.dt search.dt', function() {
