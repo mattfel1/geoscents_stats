@@ -178,6 +178,20 @@ var dataSet = [
 def writeIndex(header, countries):
     map_names = header[2:]
     map_names_js = '[' + ','.join(['"' + x.replace('\\', '\\\\').replace('"', '\\"') + '"' for x in map_names]) + ']'
+
+    # Fetch chart last-updated timestamp from Google Sheet cell E1
+    chart_updated = 'unknown'
+    try:
+        sheet_id = '1WByW1TItE14-8NPJKADAQmoKxpEaCTBAehLaQA6KkRU'
+        gviz_resp = urlopen('https://docs.google.com/spreadsheets/d/' + sheet_id + '/gviz/tq?tqx=out:json&range=E1')
+        gviz_text = gviz_resp.read().decode()
+        m = re.search(r'\((\{.*\})\)', gviz_text, re.DOTALL)
+        if m:
+            gviz_data = json.loads(m.group(1))
+            chart_updated = gviz_data['table']['rows'][0]['c'][0]['v']
+    except Exception:
+        pass
+
     with open(outdir_prefix + "/plots/index.html", 'w+') as f:
         f.write("""<!DOCTYPE html>
 <html lang="en">
@@ -298,8 +312,28 @@ document.addEventListener('click', function(e) {
         f.write("""<h1>Choose a map from above to view a data table!</h1>
 <small>(Last updated %s)</small><br><br>
 You can opt-out of contributing to this database by typing /private in the chat box while playing the game. <br><br>
-<br><br>
-This page is updated approximately every 24 hours.  Raw data can be found <a href="https://github.com/mattfel1/geoscents_stats">here</a>.  <br><br>
+This page is updated approximately every 24 hours.  Raw data can be found <a href="https://github.com/mattfel1/geoscents_stats">here</a>.<br><br>
+
+<h3>Best Time to Play
+  <a href="https://docs.google.com/spreadsheets/d/1WByW1TItE14-8NPJKADAQmoKxpEaCTBAehLaQA6KkRU/edit?gid=0#gid=0"
+     target="_blank" title="Raw data" style="font-size:11px;color:#bbb;margin-left:8px;text-decoration:none;">raw data</a>
+</h3>
+<div style="font-size:11px;color:#888;margin-bottom:6px;">Chart data last updated: %s</div>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQPaPKJ0HNcANhTbzxxHNTljCVdtHUbxytNJySaLfgJiumOZigQRvrsan-vqv-FTpYhWw7mqw6zbBND/pubchart?oid=23042901&format=interactive"
+        width="700" height="420" frameborder="0" scrolling="no" style="border:none;display:block;"></iframe>
+<div id="tz-note" style="font-size:12px;margin-top:4px;color:#555;"></div>
+<script>
+(function() {
+  var offset = -new Date().getTimezoneOffset() / 60;
+  var tz = '';
+  try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone; } catch(e) {}
+  var sign = offset >= 0 ? '+' : '';
+  document.getElementById('tz-note').innerHTML =
+    'X-axis is UTC. Your timezone: <b>' + (tz ? tz + ' ' : '') + '(UTC' + sign + offset + ')</b>' +
+    ' &mdash; add <b>' + sign + offset + 'h</b> to any UTC hour to get your local time.';
+})();
+</script>
+<br>
 
 <h3>Mean Error by Player Country (<a href="growth.png">Collected Data Points Over Time</a>)</h3>
 <table id="index" class="display"></table>
@@ -310,7 +344,7 @@ This page is updated approximately every 24 hours.  Raw data can be found <a hre
 <script src="counts.js"></script>
 </body>
 </html>
-""" % (update_stamp))
+""" % (update_stamp, chart_updated))
 
     with open(outdir_prefix + "/plots/index.js", 'w+') as f:
         f.write("""
