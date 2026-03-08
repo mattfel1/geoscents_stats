@@ -319,9 +319,9 @@ This page is updated approximately every 24 hours.  Raw data can be found <a hre
      target="_blank" title="Raw data" style="font-size:11px;color:#bbb;margin-left:8px;text-decoration:none;">raw data</a>
 </h3>
 <div style="font-size:11px;color:#888;margin-bottom:6px;">Chart data last updated: %s</div>
+<div id="tz-note" style="font-size:12px;margin-top:4px;color:#555;"></div>
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQPaPKJ0HNcANhTbzxxHNTljCVdtHUbxytNJySaLfgJiumOZigQRvrsan-vqv-FTpYhWw7mqw6zbBND/pubchart?oid=23042901&format=interactive"
         width="700" height="420" frameborder="0" scrolling="no" style="border:none;display:block;"></iframe>
-<div id="tz-note" style="font-size:12px;margin-top:4px;color:#555;"></div>
 <script>
 (function() {
   var offset = -new Date().getTimezoneOffset() / 60;
@@ -329,8 +329,8 @@ This page is updated approximately every 24 hours.  Raw data can be found <a hre
   try { tz = Intl.DateTimeFormat().resolvedOptions().timeZone; } catch(e) {}
   var sign = offset >= 0 ? '+' : '';
   document.getElementById('tz-note').innerHTML =
-    'X-axis is UTC. Your timezone: <b>' + (tz ? tz + ' ' : '') + '(UTC' + sign + offset + ')</b>' +
-    ' &mdash; add <b>' + sign + offset + 'h</b> to any UTC hour to get your local time.';
+    'Your timezone: <b>' + (tz ? tz + ' ' : '') + '(UTC' + sign + offset + ')</b>' +
+    ' &mdash; add <b>' + sign + offset + 'h</b> to UTC hour to get your local time.';
 })();
 </script>
 <br>
