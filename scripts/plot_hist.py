@@ -216,7 +216,7 @@ th { height: 50px; }
 </head>
 <body>
 <button class="lobby-btn" onclick="window.location.href = 'https://geoscents.net';">Back to Game</button>
-<button class="special-room-btn" onclick="window.location.href = 'index.html';">Home</button>
+<button class="special-room-btn" onclick="window.location.href = 'index.html';">Back to Stats</button>
 <div class="map-search-wrapper">
     <div class="map-search-inner">
         <input type="text" id="map-search" placeholder="Search GeoScents maps &amp; cities..." autocomplete="off">
@@ -590,7 +590,7 @@ def writeHtml(citysrc, cols):
 </head>
 <body>
 <button class="lobby-btn" onclick="window.location.href = 'https://geoscents.net';">Back to Game</button>
-<button class="room-btn" onclick="window.location.href = 'index.html';">Home</button>
+<button class="room-btn" onclick="window.location.href = 'index.html';">Back to Stats</button>
 <div class="map-search-wrapper">
     <div class="map-search-inner">
         <input type="text" id="map-search" placeholder="Search GeoScents maps &amp; cities..." autocomplete="off">
