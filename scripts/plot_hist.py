@@ -216,6 +216,22 @@ def writeIndex(header, countries):
 table, td, th { border: 1px solid black; }
 table { border-collapse: collapse; }
 th { height: 50px; }
+/* Sticky first two columns */
+#index thead th:nth-child(1), #index tbody td:nth-child(1) {
+    position: sticky; left: 0; z-index: 2; background: #fff;
+}
+#index thead th:nth-child(2), #index tbody td:nth-child(2) {
+    position: sticky; left: 24px; z-index: 2; background: #fff; cursor: pointer;
+    border-right: 2px solid #aaa;
+}
+#index thead th:nth-child(1), #index thead th:nth-child(2) { z-index: 3; }
+/* Standouts panel */
+#standouts-panel {
+    position: fixed; top: 70px; right: 16px; width: 290px;
+    background: #fff; border: 1px solid #bbb; border-radius: 7px;
+    padding: 12px 14px; box-shadow: 0 4px 16px rgba(0,0,0,0.22);
+    z-index: 500; display: none; font-size: 13px; line-height: 1.6;
+}
     </style>
 </head>
 <body>
@@ -340,6 +356,19 @@ This page is updated approximately every 24 hours.  Raw data can be found <a hre
 <br>
 
 <h3>Mean Error by Player Country (<a href="growth.png">Collected Data Points Over Time</a>)</h3>
+<div style="margin:6px 0 6px 0;font-size:13px;">
+  <span style="color:#1a7a3a;">&#9646; below avg</span> &nbsp;
+  <span style="color:#aaa;">&#9646; near avg</span> &nbsp;
+  <span style="color:#b52020;">&#9646; above avg</span>
+  &nbsp;&mdash;&nbsp; <b title="Cells outlined in gold are where the player country matches the map name">&#127968; = home turf</b>
+  &nbsp;&mdash;&nbsp; <span style="color:#555;">Click any player-country row to see their standout maps &#8599;</span>
+</div>
+<div style="margin:4px 0 8px 0;">
+  <label style="font-size:13px;">&#128269; Filter map columns: </label>
+  <input id="col-filter" type="text" placeholder="e.g. Europe, France&hellip;" style="width:200px;padding:3px 7px;font-size:13px;border:1px solid #999;border-radius:3px;">
+  <span id="col-count" style="font-size:12px;color:#888;margin-left:8px;"></span>
+</div>
+<div id="standouts-panel"></div>
 <table id="index" class="display"></table>
 <br><br>
 
@@ -353,51 +382,152 @@ This page is updated approximately every 24 hours.  Raw data can be found <a hre
     with open(outdir_prefix + "/plots/index.js", 'w+') as f:
         f.write("""
 $(document).ready(function() {
-    $("#all").css("background","yellow");
-    const table = $('#index').DataTable( {
+    function stripHtml(s) { return s ? String(s).replace(/<[^>]*>/g, '').trim() : ''; }
+    function parseVal(s) { var n = parseFloat(stripHtml(s).replace(/['"]/g, '')); return isNaN(n) ? null : n; }
+
+    // Pre-compute per-column mean/std for heatmap (skip Total row)
+    var colStats = {};
+    if (dataSet.length > 0) {
+        for (var ci = 3; ci < dataSet[0].length; ci++) {
+            var vals = [];
+            dataSet.forEach(function(row) {
+                if (stripHtml(row[1]) === 'Total') return;
+                var v = parseVal(row[ci]);
+                if (v !== null) vals.push(v);
+            });
+            if (vals.length > 1) {
+                var mean = vals.reduce(function(a,b){return a+b;},0) / vals.length;
+                var variance = vals.reduce(function(a,b){return a+Math.pow(b-mean,2);},0) / vals.length;
+                colStats[ci] = {mean: mean, std: Math.sqrt(variance) || 1};
+            }
+        }
+    }
+
+    function zToColor(z) {
+        var t = Math.min(1, Math.max(-1, z / 2));
+        if (t <= 0) return 'rgba(40,160,70,' + (-t * 0.55) + ')';
+        return 'rgba(210,50,50,' + (t * 0.55) + ')';
+    }
+
+    var tbl = $('#index').DataTable({
         data: dataSet,
         "lengthChange": true,
         "pageLength": 200,
-        "search": {
-            "search": ".*",
-            "regex": true
-        },
+        "search": {"search": ".*", "regex": true},
         stateSave: true,
         "stateDuration": 60 * 5,
         "dom": '<"top"f>rt<"bottom"ipl><"clear">',
-        deferRender:    true,
+        deferRender: true,
         "order": [[2, 'des']],
         columns: [
-            { title: "", "width": "1%%"},
+            { title: "", "width": "24px" },
             """)
         i = 0
         targets = []
         for x in header:
-            sfx = "<br>(avg. error, km)" if i > 1 else ""
+            sfx = "<br><small style='font-weight:normal'>(km avg error)</small>" if i > 1 else ""
             f.write("{ title: \"" + x.replace('"','') + sfx + "\", \"width\": \"5%%\"}")
             if (i < len(header) - 1):
                 f.write(",\n")
             if (i >= 2):
-                targets.append(str(i))
-
+                targets.append(str(i + 1))  # +1 because DataTables col 0 is the rank prepended col
             i = i + 1
 
         f.write("""],
         columnDefs: [
             {
-                render: function (data, type, full, meta) {
+                render: function(data, type, full, meta) {
                     return "<div class='text-wrap width-150'>" + data + "</div>";
                 },
                 targets: [""" + ",".join(targets) + """]
+            },
+            {
+                targets: '_all',
+                createdCell: function(td, cellData, rowData, row, col) {
+                    if (col < 3) return;
+                    var v = parseVal(cellData);
+                    if (v === null || !colStats[col]) return;
+                    // Heatmap
+                    var z = (v - colStats[col].mean) / colStats[col].std;
+                    $(td).css('background-color', zToColor(z));
+                    // Home advantage
+                    var country = stripHtml(rowData[1]);
+                    var mapName = mapNames[col - 3];
+                    if (mapName && country && country.toLowerCase() === mapName.toLowerCase()) {
+                        $(td).css('box-shadow', 'inset 0 0 0 2px gold')
+                             .attr('title', '\\ud83c\\udfe0 Home turf! ' + country + ' on ' + mapName + ': ' + v.toFixed(1) + ' km  (avg all players: ' + colStats[col].mean.toFixed(1) + ')');
+                    }
+                }
             }
         ],
-    } );
-    table.on( 'order.dt search.dt', function () {
-        table.column(0, {search:'applied', order:'applied'}).nodes().each( function (cell, i) {
-            cell.innerHTML = i+1;
-        } );
-    } ).draw();
-} );
+    });
+
+    // Row click: show standouts panel
+    $('#index tbody').on('click', 'tr', function() {
+        var data = tbl.row(this).data();
+        if (!data) return;
+        var country = stripHtml(data[1]);
+        if (!country || country === 'Total') return;
+
+        var performances = [];
+        for (var ci = 3; ci < data.length; ci++) {
+            var v = parseVal(data[ci]);
+            if (v === null || !colStats[ci]) continue;
+            var z = (v - colStats[ci].mean) / colStats[ci].std;
+            performances.push({map: mapNames[ci - 3], z: z, val: v, mean: colStats[ci].mean});
+        }
+        if (!performances.length) return;
+        performances.sort(function(a,b){ return a.z - b.z; });
+        var best = performances.slice(0, 3);
+        var worst = performances.slice(-3).reverse();
+
+        function fmtRow(p, good) {
+            var diff = p.val - p.mean;
+            var sign = diff >= 0 ? '+' : '';
+            var col = good ? '#1a7a3a' : '#b52020';
+            return '<div style="padding:1px 0 1px 4px;">' + p.map +
+                   ': <b>' + p.val.toFixed(0) + '</b> km' +
+                   ' <span style="color:' + col + ';font-size:11px">(' + sign + diff.toFixed(0) + ' vs avg)</span></div>';
+        }
+
+        var html = '<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;">' +
+                   '<b style="font-size:14px">' + country + '</b>' +
+                   '<button id="sp-close" style="border:none;background:none;font-size:18px;cursor:pointer;line-height:1;">&#x2715;</button></div>' +
+                   '<div style="font-size:11px;color:#888;margin-bottom:8px;">vs. global average per map (' + performances.length + ' maps played)</div>' +
+                   '<div style="color:#1a7a3a;font-weight:bold;margin-bottom:2px;">&#x1F7E2; Best (below avg)</div>';
+        best.forEach(function(p){ html += fmtRow(p, true); });
+        html += '<div style="color:#b52020;font-weight:bold;margin-top:8px;margin-bottom:2px;">&#x1F534; Worst (above avg)</div>';
+        worst.forEach(function(p){ html += fmtRow(p, false); });
+
+        $('#standouts-panel').html(html).show();
+        $('#sp-close').on('click', function(e) { e.stopPropagation(); $('#standouts-panel').hide(); });
+    });
+
+    // Column filter
+    var totalMapCols = dataSet.length > 0 ? dataSet[0].length - 3 : 0;
+    function updateColCount() {
+        var visible = 0;
+        tbl.columns().every(function(i) { if (i >= 3 && this.visible()) visible++; });
+        $('#col-count').text(visible + ' / ' + totalMapCols + ' maps shown');
+    }
+    updateColCount();
+    $('#col-filter').on('input', function() {
+        var q = this.value.toLowerCase().trim();
+        tbl.columns().every(function(i) {
+            if (i < 3) return;
+            var hdr = $(this.header()).text().replace('(km avg error)', '').trim().toLowerCase();
+            this.visible(!q || hdr.indexOf(q) !== -1);
+        });
+        tbl.draw(false);
+        updateColCount();
+    });
+
+    tbl.on('order.dt search.dt', function() {
+        tbl.column(0, {search:'applied', order:'applied'}).nodes().each(function(cell, i) {
+            cell.innerHTML = i + 1;
+        });
+    }).draw();
+});
 
 var dataSet = [ %s ];
 """ % countries)
