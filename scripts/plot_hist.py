@@ -240,6 +240,7 @@ th { height: 50px; }
     position: sticky; left: 24px; z-index: 2; background: #fff; cursor: pointer;
     border-right: 2px solid #aaa;
 }
+#index thead th { position: sticky; top: 0; z-index: 2; background: #fff; }
 #index thead th:nth-child(1), #index thead th:nth-child(2) { z-index: 3; }
 #index { width: auto !important; table-layout: auto !important; margin-left: 0 !important; }
 .dataTables_wrapper { width: auto !important; }
