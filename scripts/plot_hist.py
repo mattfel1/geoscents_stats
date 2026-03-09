@@ -382,7 +382,7 @@ This page is updated approximately every 24 hours.  Raw data can be found <a hre
   &nbsp;&mdash;&nbsp; <span style="color:#555;">Click any player-country row to see their standout maps &#8599;</span>
 </div>
 <div style="margin:4px 0 8px 0;">
-  <label style="font-size:13px;">&#128269; Filter map columns: </label>
+  <label style="font-size:13px;">&#128269; Filter columns (map): </label>
   <input id="col-filter" type="text" placeholder="e.g. Europe, France&hellip;" style="width:200px;padding:3px 7px;font-size:13px;border:1px solid #999;border-radius:3px;">
   <span id="col-count" style="font-size:12px;color:#888;margin-left:8px;"></span>
 </div>
@@ -438,7 +438,7 @@ $(document).ready(function() {
         deferRender: true,
         "order": [[2, 'des']],
         "autoWidth": false,
-        "language": { "search": "&#128269; Filter player country:" },
+        "language": { "search": "&#128269; Filter rows (player country):" },
         columns: [
             { title: "", "width": "24px" },
             """)
