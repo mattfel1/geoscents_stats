@@ -400,6 +400,20 @@ This page is updated approximately every 24 hours.  Raw data can be found <a hre
     with open(outdir_prefix + "/plots/index.js", 'w+') as f:
         f.write("var homeTurfLookup = " + home_turf_js + ";\n")
         f.write("""
+// Custom sort: blank cells always go to the bottom regardless of direction
+$.fn.dataTable.ext.type.order['num-bottom-asc'] = function(a, b) {
+    if (a === '' && b === '') return 0;
+    if (a === '') return 1;
+    if (b === '') return -1;
+    return a - b;
+};
+$.fn.dataTable.ext.type.order['num-bottom-desc'] = function(a, b) {
+    if (a === '' && b === '') return 0;
+    if (a === '') return 1;
+    if (b === '') return -1;
+    return b - a;
+};
+
 $(document).ready(function() {
     function stripHtml(s) { return s ? String(s).replace(/<[^>]*>/g, '').trim() : ''; }
     function parseVal(s) { var n = parseFloat(stripHtml(s).replace(/['"]/g, '')); return isNaN(n) ? null : n; }
@@ -460,10 +474,11 @@ $(document).ready(function() {
                 render: function(data, type, full, meta) {
                     if (type === 'sort' || type === 'type') {
                         var v = parseFloat(String(data).replace(/<[^>]*>/g, '').replace(/['"]/g, '').trim());
-                        return isNaN(v) ? -1 : v;
+                        return isNaN(v) ? '' : v;
                     }
                     return "<div class='text-wrap width-150'>" + data + "</div>";
                 },
+                type: 'num-bottom',
                 targets: [""" + ",".join(targets) + """]
             },
             {
