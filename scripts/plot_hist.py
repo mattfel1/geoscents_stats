@@ -183,6 +183,22 @@ def writeIndex(header, countries):
     map_names = header[2:]
     map_names_js = '[' + ','.join(['"' + x.replace('\\', '\\\\').replace('"', '\\"') + '"' for x in map_names]) + ']'
 
+    # Build home turf lookup: map display name → set of countries in that DB
+    db_dir = outdir_prefix + 'geoscents/resources/databases'
+    home_turf = {}
+    for mn in map_names:
+        slug = re.sub(r'[^a-z0-9]', '', mn.lower())  # strip all non-alphanumeric
+        fn = os.path.join(db_dir, slug + '.js')
+        if not os.path.exists(fn):
+            slug2 = mn.lower().replace(' ', '_').replace('.', '').replace("'", '')
+            fn = os.path.join(db_dir, slug2 + '.js')
+        if os.path.exists(fn):
+            raw = open(fn).read()
+            countries_in_map = list(set(re.findall(r'"country":\s*"([^"]+)"', raw)))
+            if countries_in_map:
+                home_turf[mn] = countries_in_map
+    home_turf_js = json.dumps(home_turf)
+
     # Fetch chart last-updated timestamp from Google Sheet cell E1
     chart_updated = 'unknown'
     try:
@@ -225,7 +241,8 @@ th { height: 50px; }
     border-right: 2px solid #aaa;
 }
 #index thead th:nth-child(1), #index thead th:nth-child(2) { z-index: 3; }
-#index { width: auto !important; table-layout: auto !important; }
+#index { width: auto !important; table-layout: auto !important; margin-left: 0 !important; }
+.dataTables_wrapper { width: auto !important; }
 /* Standouts panel */
 #standouts-panel {
     position: fixed; top: 70px; right: 16px; width: 290px;
@@ -381,6 +398,7 @@ This page is updated approximately every 24 hours.  Raw data can be found <a hre
 """ % (update_stamp, chart_updated))
 
     with open(outdir_prefix + "/plots/index.js", 'w+') as f:
+        f.write("var homeTurfLookup = " + home_turf_js + ";\n")
         f.write("""
 $(document).ready(function() {
     function stripHtml(s) { return s ? String(s).replace(/<[^>]*>/g, '').trim() : ''; }
@@ -456,7 +474,9 @@ $(document).ready(function() {
                     // Home advantage
                     var country = stripHtml(rowData[1]);
                     var mapName = mapNames[col - 3];
-                    if (mapName && country && country.toLowerCase() === mapName.toLowerCase()) {
+                    var mapCountries = homeTurfLookup[mapName] || [];
+                    var isHome = mapCountries.some(function(c) { return c.toLowerCase() === country.toLowerCase(); });
+                    if (mapName && country && isHome) {
                         $(td).css('box-shadow', 'inset 0 0 0 2px gold')
                              .attr('title', '\\ud83c\\udfe0 Home turf! ' + country + ' on ' + mapName + ': ' + v.toFixed(1) + ' km  (avg all players: ' + colStats[col].mean.toFixed(1) + ')');
                     }
