@@ -458,6 +458,10 @@ $(document).ready(function() {
         columnDefs: [
             {
                 render: function(data, type, full, meta) {
+                    if (type === 'sort' || type === 'type') {
+                        var v = parseFloat(String(data).replace(/<[^>]*>/g, '').replace(/['"]/g, '').trim());
+                        return isNaN(v) ? -1 : v;
+                    }
                     return "<div class='text-wrap width-150'>" + data + "</div>";
                 },
                 targets: [""" + ",".join(targets) + """]
