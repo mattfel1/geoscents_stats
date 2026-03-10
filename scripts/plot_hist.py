@@ -237,13 +237,20 @@ th { height: 50px; }
     position: sticky; left: 0; z-index: 2; background: #fff;
 }
 #index thead th:nth-child(2), #index tbody td:nth-child(2) {
-    position: sticky; left: 24px; z-index: 2; background: #fff; cursor: pointer;
+    position: sticky; left: 24px; z-index: 2; background: #fff;
     border-right: 2px solid #aaa;
 }
 #index thead th { position: sticky; top: 0; z-index: 2; background: #fff; }
 #index thead th:nth-child(1), #index thead th:nth-child(2) { z-index: 3; }
 #index { width: auto !important; table-layout: auto !important; margin-left: 0 !important; }
 .dataTables_wrapper { width: auto !important; }
+/* Standouts trigger button */
+.sp-btn {
+    cursor: pointer; font-size: 13px; margin-left: 4px;
+    opacity: 0.35; transition: opacity 0.15s;
+    vertical-align: middle; user-select: none;
+}
+.sp-btn:hover { opacity: 1; }
 /* Standouts panel */
 #standouts-panel {
     position: fixed; top: 70px; right: 16px; width: 290px;
@@ -380,7 +387,7 @@ This page is updated approximately every 24 hours.  Raw data can be found <a hre
   <span style="color:#aaa;">&#9646; near avg</span> &nbsp;
   <span style="color:#b52020;">&#9646; worse than avg</span>
   &nbsp;&mdash;&nbsp; <span style="display:inline-block;width:13px;height:13px;box-shadow:inset 0 0 0 2px gold;background:#eee;vertical-align:middle;margin-right:2px;"></span><b>= home turf</b>
-  &nbsp;&mdash;&nbsp; <span style="color:#555;">Click any player-country row to see their standout maps &#8599;</span>
+  &nbsp;&mdash;&nbsp; <span style="color:#555;">Click &#x1F4AC; on any row to see that country's best &amp; worst maps</span>
 </div>
 <div style="margin:4px 0 8px 0;">
   <label style="font-size:13px;">&#128269; Filter columns (map): </label>
@@ -456,10 +463,21 @@ $(document).ready(function() {
         "language": { "search": "&#128269; Filter rows (player country):" },
         columns: [
             { title: "", "width": "24px" },
+            { title: "Player Country", "width": "80px",
+              render: function(data, type, full, meta) {
+                  if (type !== 'display') return data;
+                  var country = data ? String(data).replace(/<[^>]*>/g, '').trim() : '';
+                  if (!country || country === 'Total') return data;
+                  return data + ' <span class="sp-btn" title="Best &amp; worst maps">&#x1F4AC;</span>';
+              }
+            },
             """)
         i = 0
         targets = []
         for x in header:
+            if i == 0:  # Player Country already written above (including its trailing comma)
+                i += 1
+                continue
             sfx = "<br><small style='font-weight:normal'>(km avg error)</small>" if i > 1 else ""
             w = ", \"width\": \"80px\"" if i < 2 else ""
             f.write("{ title: \"" + x.replace('"','') + sfx + "\"" + w + "}")
@@ -505,9 +523,10 @@ $(document).ready(function() {
         ],
     });
 
-    // Row click: show standouts panel
-    $('#index tbody').on('click', 'tr', function() {
-        var data = tbl.row(this).data();
+    // Chat bubble click: show standouts panel
+    $('#index tbody').on('click', '.sp-btn', function(e) {
+        e.stopPropagation();
+        var data = tbl.row($(this).closest('tr')).data();
         if (!data) return;
         var country = stripHtml(data[1]);
         if (!country || country === 'Total') return;
