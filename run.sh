@@ -27,6 +27,10 @@ echo "Done merging"
 _log "merge.py" $T
 
 T=$(_t)
+bash scripts/pushback.sh
+_log "pushback.sh (scp to server)" $T
+
+T=$(_t)
 python3 scripts/geolocate.py
 echo "Done geolocating"
 _log "geolocate.py" $T

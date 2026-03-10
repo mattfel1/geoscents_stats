@@ -98,11 +98,4 @@ for file in glob.glob(tmp_dir + "*_guesses*"):
     with open(staged_file, 'w') as fp:
         json.dump(base_data, fp, indent=2)
 
-print("You may now safely scp the _guesses_base back to the server and rm the regular *_guesses file on the server!")
-for x in processed_data:
-    name = x.replace(" ", "\\ ")
-    print("  ssh root@geoscents.net 'sudo su -c \"rm /scratch/guesses/" + name + "_guesses_base\"'")
-    print("  scp " + staging_dir + name + "_guesses_base root@geoscents.net:/scratch/guesses/" + name + "_guesses_base")
-    print("  ssh root@geoscents.net 'sudo su -c \"chown root:root /scratch/guesses/" + name + "_guesses_base\"'")
-    print("  ssh root@geoscents.net 'sudo su -c \"rm /scratch/guesses/" + name + "_guesses\"'")
-    print("  ssh root@geoscents.net 'sudo su -c \"touch /scratch/guesses/" + name + "_guesses\"'")
+print("Merge complete. pushback.sh will sync these to the server.")
