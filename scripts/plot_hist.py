@@ -253,7 +253,7 @@ th { height: 50px; }
 .sp-btn:hover { opacity: 1; }
 /* Standouts panel */
 #standouts-panel {
-    position: fixed; top: 70px; right: 16px; width: 290px;
+    position: absolute; width: 290px;
     background: #fff; border: 1px solid #bbb; border-radius: 7px;
     padding: 12px 14px; box-shadow: 0 4px 16px rgba(0,0,0,0.22);
     z-index: 500; display: none; font-size: 13px; line-height: 1.6;
@@ -468,7 +468,7 @@ $(document).ready(function() {
                   if (type !== 'display') return data;
                   var country = data ? String(data).replace(/<[^>]*>/g, '').trim() : '';
                   if (!country || country === 'Total') return data;
-                  return data + ' <span class="sp-btn" title="Best &amp; worst maps">&#x1F4AC;</span>';
+                  return data + ' <span class="sp-btn" title="Click to show best &amp; worst maps">&#x1F4AC;</span>';
               }
             },
             """)
@@ -561,7 +561,16 @@ $(document).ready(function() {
         html += '<div style="color:#b52020;font-weight:bold;margin-top:8px;margin-bottom:2px;">&#x1F534; Worst (above avg)</div>';
         worst.forEach(function(p){ html += fmtRow(p, false); });
 
-        $('#standouts-panel').html(html).show();
+        var panel = $('#standouts-panel').html(html);
+        // Position near cursor, clamped so it stays on screen
+        panel.show();
+        var pw = panel.outerWidth(), ph = panel.outerHeight();
+        var left = e.pageX + 12;
+        var top = e.pageY - 20;
+        if (left + pw > $(window).width() + $(window).scrollLeft()) left = e.pageX - pw - 12;
+        if (top + ph > $(window).height() + $(window).scrollTop()) top = e.pageY - ph;
+        if (top < $(window).scrollTop()) top = $(window).scrollTop() + 4;
+        panel.css({left: left, top: top});
         $('#sp-close').on('click', function(e) { e.stopPropagation(); $('#standouts-panel').hide(); });
     });
 
