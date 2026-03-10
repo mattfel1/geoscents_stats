@@ -13,13 +13,10 @@ for f in "$STAGING"/*_guesses_base; do
     name="${f##*/}"            # basename
     name="${name%_guesses_base}"  # strip suffix
 
-    # Escape spaces for scp remote path
-    esc="${name// /\\ }"
-
     echo "  -> $name"
 
-    # Upload merged base
-    scp "$f" "${SERVER}:${REMOTE_DIR}/${esc}_guesses_base"
+    # Single-quote the remote path so scp handles spaces correctly
+    scp "$f" "${SERVER}:'${REMOTE_DIR}/${name}_guesses_base'"
 
     # Fix ownership and reset the guesses inbox (truncate to empty)
     ssh "$SERVER" "chown root:root '${REMOTE_DIR}/${name}_guesses_base' && truncate -s 0 '${REMOTE_DIR}/${name}_guesses'"
