@@ -186,7 +186,8 @@ with open('/scratch/ip_cache', 'w') as fp:
 print(f'Cache saved ({len(cache)} entries)')
 
 # Phase 2: process each map in parallel
-num_workers = min(os.cpu_count() or 4, len(maps), 16)
+_max = int(os.environ['MAX_WORKERS']) if os.environ.get('MAX_WORKERS') else (os.cpu_count() or 4)
+num_workers = min(_max, len(maps), 16)
 print(f'Processing {len(maps)} maps with {num_workers} workers...')
 
 args_list = [

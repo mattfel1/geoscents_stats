@@ -3,6 +3,9 @@
 LOG_FILE="$HOME/geoscents_stats/run_log"
 exec > >(tee -a "$LOG_FILE") 2>&1
 echo "===== run.sh started $(date) ====="
+# Pass MAX_WORKERS through to Python scripts to cap parallelism.
+# Usage: MAX_WORKERS=4 bash run.sh
+[ -n "$MAX_WORKERS" ] && echo "  MAX_WORKERS=$MAX_WORKERS"
 
 PERF_LOG=/tmp/geoscents_perf.log
 > "$PERF_LOG"
