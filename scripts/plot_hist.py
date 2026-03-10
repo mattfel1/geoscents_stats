@@ -935,7 +935,7 @@ def addFrame(fname, serieslabel, raw_country, numclicks, xdata, ydata, marker):
   type: 'scatter',
   marker: {%s}
 }
-""" % (serieslabel, raw_country, numclicks, raw_country, ','.join([str(int(x)) for x in xdata]), ','.join([str(int(x)) for x in ydata]), marker)
+""" % (serieslabel, raw_country, numclicks, raw_country, ','.join(['%.2f' % x for x in xdata]), ','.join(['%.2f' % x for x in ydata]), marker)
     if fname not in _anim_buffer:
         _anim_buffer[fname] = []
     _anim_buffer[fname].append(chunk)
