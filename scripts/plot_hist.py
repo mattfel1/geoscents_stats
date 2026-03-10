@@ -1460,13 +1460,19 @@ _map_timings = []
 
 valid_maps = [str(p).split('/')[-1].replace('.json','') for p in pathlist if str(p).split('/')[-1].replace('.json','') in header]
 initCount()
-n_workers = min(cpu_count(), len(valid_maps)) if valid_maps else 1
+_max = int(os.environ['MAX_WORKERS']) if os.environ.get('MAX_WORKERS') else cpu_count()
+n_workers = min(_max, len(valid_maps)) if valid_maps else 1
 print('Processing %d maps with %d workers' % (len(valid_maps), n_workers))
 
 with ProcessPoolExecutor(max_workers=n_workers) as executor:
     futures = {executor.submit(process_map, cs): cs for cs in valid_maps}
     for future in as_completed(futures):
-        cs, count, ctm, errs, timing = future.result()
+        try:
+            cs, count, ctm, errs, timing = future.result()
+        except Exception as e:
+            cs = futures[future]
+            print('ERROR processing map %s: %s' % (cs, e))
+            continue
         writeCount(cs, count)
         for city, maps in ctm.items():
             if city not in city_to_maps:
