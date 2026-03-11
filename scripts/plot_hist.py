@@ -266,6 +266,7 @@ def writeIndex(header, countries):
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
+    <script src="https://cdn.datatables.net/colreorder/1.5.4/js/dataTables.colReorder.min.js"></script>
     <link rel="stylesheet" href="theme.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6780905379201491"
          crossorigin="anonymous"></script>
@@ -508,6 +509,7 @@ $(document).ready(function() {
         deferRender: true,
         "order": [[2, 'des']],
         "autoWidth": false,
+        colReorder: { fixedColumnsLeft: 3 },
         initComplete: function() {
             var api = this.api();
             // Apply group header colors and left borders
@@ -524,7 +526,7 @@ $(document).ready(function() {
         },
         columns: [
             { title: "", "width": "24px" },
-            { title: "Player Country", "width": "80px",
+            { title: "Player Country<br><small style='font-weight:normal;font-size:10px;color:#666;'>click row to sort cols</small>", "width": "80px",
               render: function(data, type, full, meta) {
                   if (type !== 'display') return data;
                   var country = data ? String(data).replace(/<[^>]*>/g, '').trim() : '';
@@ -597,6 +599,67 @@ $(document).ready(function() {
         return !isNaN(total) && total >= minClicks;
     });
     $('#min-clicks').on('input', function() { tbl.draw(); });
+
+    // Re-apply group header colors/borders after column reorder
+    // colReorder.order() returns array where index=current position, value=original index
+    function applyGrpHeaders() {
+        var order = tbl.colReorder.order();
+        tbl.columns().every(function(i) {
+            if (i < 3) return;
+            var origIdx = order[i];
+            var color = null, isStart = false;
+            for (var gi = grpInfo.length - 1; gi >= 0; gi--) {
+                if (origIdx >= grpInfo[gi].col) { color = grpInfo[gi].color; isStart = (origIdx === grpInfo[gi].col); break; }
+            }
+            var $th = $(this.header());
+            $th.css('background-color', color || '');
+            $th.css('border-left', isStart ? '3px solid #555' : '');
+        });
+    }
+    $('#index').on('column-reorder.dt', function() { applyGrpHeaders(); });
+
+    // Row click: sort map columns within each group by that row's values
+    var _rowSortDir = 1;  // 1 = asc, -1 = desc
+    var _rowSortActive = null;
+    $('#index tbody').on('click', 'tr', function(e) {
+        if ($(e.target).hasClass('sp-btn') || $(e.target).closest('.sp-btn').length) return;
+        var rowData = tbl.row(this).data();
+        if (!rowData) return;
+        var country = stripHtml(rowData[1]);
+        if (!country) return;
+
+        // Toggle direction if same row clicked again; reset if new row
+        if (_rowSortActive === country) {
+            _rowSortDir *= -1;
+        } else {
+            _rowSortDir = 1;
+            _rowSortActive = country;
+        }
+
+        // Build new column order: fixed [0,1,2] then sorted within each group
+        var totalCols = rowData.length;
+        var newOrder = [0, 1, 2];
+        for (var gi = 0; gi < grpInfo.length; gi++) {
+            var grpStart = grpInfo[gi].col;
+            var grpEnd = gi + 1 < grpInfo.length ? grpInfo[gi + 1].col : totalCols;
+            var cols = [];
+            for (var c = grpStart; c < grpEnd; c++) cols.push(c);
+            cols.sort(function(a, b) {
+                var va = parseVal(rowData[a]);
+                var vb = parseVal(rowData[b]);
+                if (va === null && vb === null) return 0;
+                if (va === null) return 1;
+                if (vb === null) return -1;
+                return _rowSortDir * (va - vb);
+            });
+            newOrder = newOrder.concat(cols);
+        }
+        tbl.colReorder.order(newOrder, true);
+
+        // Highlight the active sort row
+        $('#index tbody tr').css('outline', '');
+        $(this).css('outline', '2px solid #2266cc');
+    });
 
     // Chat bubble click: show standouts panel
     $('#index tbody').on('click', '.sp-btn', function(e) {

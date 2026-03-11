@@ -15,11 +15,14 @@ for f in "$STAGING"/*_guesses_base; do
 
     echo "  -> $name"
 
-    # Single-quote the remote path so scp handles spaces correctly
-    scp "$f" "${SERVER}:'${REMOTE_DIR}/${name}_guesses_base'"
-
-    # Fix ownership and reset the guesses inbox (truncate to empty)
-    ssh "$SERVER" "chown root:root '${REMOTE_DIR}/${name}_guesses_base' && truncate -s 0 '${REMOTE_DIR}/${name}_guesses'"
+    # Use ssh+cat to transfer — avoids scp's literal-path issue with modern OpenSSH
+    # on paths containing spaces (scp 9.x sends path verbatim via sftp, not via remote shell).
+    # The truncate only runs if the transfer succeeds.
+    if ssh "$SERVER" "cat > '${REMOTE_DIR}/${name}_guesses_base'" < "$f"; then
+        ssh "$SERVER" "chown root:root '${REMOTE_DIR}/${name}_guesses_base' && truncate -s 0 '${REMOTE_DIR}/${name}_guesses'"
+    else
+        echo "  ERROR: failed to upload $name — skipping truncate to preserve inbox"
+    fi
 done
 
 echo "Pushback complete."
