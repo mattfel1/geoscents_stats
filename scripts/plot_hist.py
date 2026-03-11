@@ -181,7 +181,48 @@ var dataSet = [
 
 def writeIndex(header, countries):
     map_names = header[2:]
-    map_names_js = '[' + ','.join(['"' + x.replace('\\', '\\\\').replace('"', '\\"') + '"' for x in map_names]) + ']'
+
+    # Sort map columns by tier group: World(0) → Continents(1) → Trivia(2) → Regional(3) → Countries(4)
+    _GROUP_ORDER = {'world': 0, 'continent': 1, 'trivia': 2, 'regional': 3, 'country': 4}
+    _GROUP_LABEL = {0: 'World', 1: 'Continents', 2: 'Trivia', 3: 'Regional Cities', 4: 'Countries'}
+    _GROUP_COLOR = {0: '#c8deff', 1: '#deeaff', 2: '#fef8d0', 3: '#d8f5d8', 4: '#fde8f0'}
+
+    def _map_group(name):
+        if name.lower() == 'world':
+            return 0
+        tier = MAP_BOUNDS.get(name, {}).get('tier', 'country')
+        return _GROUP_ORDER.get(tier, 4)
+
+    sorted_indices = sorted(range(len(map_names)), key=lambda i: (_map_group(map_names[i]), map_names[i]))
+    sorted_map_names = [map_names[i] for i in sorted_indices]
+
+    # Reorder data rows to match sorted column order
+    _reordered_rows = []
+    for _rstr in countries.split('\n'):
+        _rstr = _rstr.strip()
+        if not _rstr:
+            continue
+        try:
+            _row = json.loads(_rstr.rstrip(','))
+            _row = _row[:3] + [_row[3 + i] for i in sorted_indices]
+            _reordered_rows.append(json.dumps(_row) + ',')
+        except Exception:
+            _reordered_rows.append(_rstr)
+    _countries_sorted = '\n'.join(_reordered_rows)
+
+    # Compute group boundary info: col index (DataTables col = map_i + 3) where each group starts
+    _grp_info = []
+    _prev_grp = -1
+    for _i, _mn in enumerate(sorted_map_names):
+        _g = _map_group(_mn)
+        if _g != _prev_grp:
+            _grp_info.append({'col': _i + 3, 'label': _GROUP_LABEL[_g], 'color': _GROUP_COLOR[_g]})
+            _prev_grp = _g
+    _grp_info_js = json.dumps(_grp_info)
+    _grp_border_targets_js = json.dumps([g['col'] for g in _grp_info])
+
+    sorted_header = header[:2] + sorted_map_names
+    map_names_js = '[' + ','.join(['"' + x.replace('\\', '\\\\').replace('"', '\\"') + '"' for x in sorted_map_names]) + ']'
 
     # Build home turf lookup: map display name → set of countries in that DB
     db_dir = outdir_prefix + 'geoscents/resources/databases'
@@ -389,10 +430,16 @@ This page is updated approximately every 24 hours.  Raw data can be found <a hre
   &nbsp;&mdash;&nbsp; <span style="display:inline-block;width:13px;height:13px;box-shadow:inset 0 0 0 2px gold;background:#eee;vertical-align:middle;margin-right:2px;"></span><b>= home turf</b>
   &nbsp;&mdash;&nbsp; <span style="color:#555;">Click &#x1F4AC; on any row to see that country's best &amp; worst maps</span>
 </div>
-<div style="margin:4px 0 8px 0;">
-  <label style="font-size:13px;">&#128269; Filter columns (map): </label>
-  <input id="col-filter" type="text" placeholder="e.g. Europe, France&hellip;" style="width:200px;padding:3px 7px;font-size:13px;border:1px solid #999;border-radius:3px;">
-  <span id="col-count" style="font-size:12px;color:#888;margin-left:8px;"></span>
+<div style="margin:4px 0 8px 0;display:flex;align-items:center;gap:20px;flex-wrap:wrap;">
+  <span>
+    <label style="font-size:13px;">&#128269; Filter columns (map): </label>
+    <input id="col-filter" type="text" placeholder="e.g. Europe, France&hellip;" style="width:200px;padding:3px 7px;font-size:13px;border:1px solid #999;border-radius:3px;">
+    <span id="col-count" style="font-size:12px;color:#888;margin-left:8px;"></span>
+  </span>
+  <span>
+    <label style="font-size:13px;">&#9654; Min clicks (rows &ge;): </label>
+    <input id="min-clicks" type="number" min="0" value="0" style="width:75px;padding:3px 7px;font-size:13px;border:1px solid #999;border-radius:3px;">
+  </span>
 </div>
 <div id="standouts-panel"></div>
 <table id="index" class="display"></table>
@@ -407,6 +454,7 @@ This page is updated approximately every 24 hours.  Raw data can be found <a hre
 
     with open(outdir_prefix + "/plots/index.js", 'w+') as f:
         f.write("var homeTurfLookup = " + home_turf_js + ";\n")
+        f.write("var grpInfo = " + _grp_info_js + ";\n")
         f.write("""
 // Custom sort: blank cells always go to the bottom regardless of direction
 $.fn.dataTable.ext.type.order['num-bottom-asc'] = function(a, b) {
@@ -456,11 +504,24 @@ $(document).ready(function() {
         "pageLength": 200,
         "search": {"search": ".*", "regex": true},
         stateSave: false,
-        "dom": '<"top"f>rt<"bottom"ipl><"clear">',
+        "dom": 'rt<"bottom"ipl><"clear">',
         deferRender: true,
         "order": [[2, 'des']],
         "autoWidth": false,
-        "language": { "search": "&#128269; Filter rows (player country):" },
+        initComplete: function() {
+            var api = this.api();
+            // Apply group header colors and left borders
+            api.columns().every(function(i) {
+                if (i < 3) return;
+                var color = null, isStart = false;
+                for (var gi = grpInfo.length - 1; gi >= 0; gi--) {
+                    if (i >= grpInfo[gi].col) { color = grpInfo[gi].color; isStart = (i === grpInfo[gi].col); break; }
+                }
+                var $th = $(this.header());
+                if (color) $th.css('background-color', color);
+                if (isStart) $th.css('border-left', '3px solid #555');
+            });
+        },
         columns: [
             { title: "", "width": "24px" },
             { title: "Player Country", "width": "80px",
@@ -474,14 +535,14 @@ $(document).ready(function() {
             """)
         i = 0
         targets = []
-        for x in header:
+        for x in sorted_header:
             if i == 0:  # Player Country already written above (including its trailing comma)
                 i += 1
                 continue
             sfx = "<br><small style='font-weight:normal'>(km avg error)</small>" if i > 1 else ""
             w = ", \"width\": \"80px\"" if i < 2 else ""
             f.write("{ title: \"" + x.replace('"','') + sfx + "\"" + w + "}")
-            if (i < len(header) - 1):
+            if (i < len(sorted_header) - 1):
                 f.write(",\n")
             if (i >= 2):
                 targets.append(str(i + 1))  # +1 because DataTables col 0 is the rank prepended col
@@ -505,6 +566,10 @@ $(document).ready(function() {
                 createdCell: function(td, cellData, rowData, row, col) {
                     if (col < 3) return;
                     var v = parseVal(cellData);
+                    // Group left border
+                    for (var gi = 0; gi < grpInfo.length; gi++) {
+                        if (col === grpInfo[gi].col) { $(td).css('border-left', '3px solid #555'); break; }
+                    }
                     if (v === null || !colStats[col]) return;
                     // Heatmap
                     var z = (v - colStats[col].mean) / colStats[col].std;
@@ -522,6 +587,16 @@ $(document).ready(function() {
             }
         ],
     });
+
+    // Min-clicks row filter
+    $.fn.dataTable.ext.search.push(function(settings, data, dataIndex) {
+        if (String(data[1]).replace(/<[^>]*>/g, '').trim() === 'Total') return true;
+        var minClicks = parseInt($('#min-clicks').val(), 10) || 0;
+        if (minClicks <= 0) return true;
+        var total = parseInt(String(data[2]).replace(/<[^>]*>/g, ''), 10);
+        return !isNaN(total) && total >= minClicks;
+    });
+    $('#min-clicks').on('input', function() { tbl.draw(); });
 
     // Chat bubble click: show standouts panel
     $('#index tbody').on('click', '.sp-btn', function(e) {
@@ -608,7 +683,7 @@ $(document).ready(function() {
 });
 
 var dataSet = [ %s ];
-""" % countries)
+""" % _countries_sorted)
 
 def initCount():
     with open(outdir_prefix + "/plots/counts.js", 'w+') as f:
