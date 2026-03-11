@@ -13,11 +13,16 @@ _t()   { date +%s; }
 _log() { printf "  %-35s %5ds\n" "$1" "$(( $(_t) - $2 ))" | tee -a "$PERF_LOG"; }
 
 cd $HOME/geoscents_stats
+
+# Activate venv so all python3 calls use the project packages
+source "$HOME/geoscents_stats/venv/bin/activate"
+
 T_ALL=$(_t)
 
 
 T=$(_t)
-rm -rf tmp staging && mkdir tmp staging
+rm -rf tmp staging
+mkdir tmp staging
 ./scripts/download.sh
 _log "download.sh (scp from server)" $T
 
