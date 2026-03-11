@@ -15,9 +15,6 @@ _log() { printf "  %-35s %5ds\n" "$1" "$(( $(_t) - $2 ))" | tee -a "$PERF_LOG"; 
 cd $HOME/geoscents_stats
 T_ALL=$(_t)
 
-T=$(_t)
-git reset --hard && git pull
-_log "git reset+pull" $T
 
 T=$(_t)
 rm -rf tmp staging && mkdir tmp staging

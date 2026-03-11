@@ -948,7 +948,7 @@ function bubbles(center, radius, n_points=10) {
 
 <body>
     <div id='%s'><!-- Plotly chart will be drawn inside this DIV --></div>
-    <script src='%s'></script>
+    <script src="%s"></script>
 </body>
 """ % (flag, fname, fname + '.js'))
 

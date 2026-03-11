@@ -20,6 +20,17 @@ This repository contains statistics for each city in the game, organized by map.
   * `admin: String` - Administrative name of target city (i.e. State or province)
   * `city: String` - City name
   
+# Running the Pipeline
+
+```bash
+bash run.sh                # use all CPU cores
+MAX_WORKERS=4 bash run.sh  # cap parallel workers (e.g. when doing other work)
+```
+
+`MAX_WORKERS` limits the number of parallel processes used by `geolocate.py` and `plot_hist.py`. Without it, both scripts use all available cores. `run.sh` does not auto-pull from git — update the repo manually when needed.
+
+---
+
 The dists, times, regions, and countries lists are in-order (i.e. the n'th element in each correspond to a single guess by a player)
 
 The file `metadata.json` reports basic statistics for what you will find in each map's json.  Specifically, it contains:
