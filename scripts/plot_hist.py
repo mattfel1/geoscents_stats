@@ -947,12 +947,13 @@ function bubbles(center, radius, n_points=10) {
 </head>
 
 <body>
-    <div id='%s'><!-- Plotly chart will be drawn inside this DIV --></div>
+    <div id="%s"><!-- Plotly chart will be drawn inside this DIV --></div>
     <script src="%s"></script>
 </body>
 """ % (flag, fname, fname + '.js'))
 
 def addFrame(fname, serieslabel, raw_country, numclicks, xdata, ydata, marker):
+    safe_country = raw_country.replace("'", "\\'")
     chunk = """var %s = {
   name: '%s (%d)',
   rawname: '%s',
@@ -963,7 +964,7 @@ def addFrame(fname, serieslabel, raw_country, numclicks, xdata, ydata, marker):
   type: 'scatter',
   marker: {%s}
 }
-""" % (serieslabel, raw_country, numclicks, raw_country, ','.join(['%.2f' % x for x in xdata]), ','.join(['%.2f' % x for x in ydata]), marker)
+""" % (serieslabel, safe_country, numclicks, safe_country, ','.join(['%.2f' % x for x in xdata]), ','.join(['%.2f' % x for x in ydata]), marker)
     if fname not in _anim_buffer:
         _anim_buffer[fname] = []
     _anim_buffer[fname].append(chunk)
@@ -1074,7 +1075,7 @@ frames = [""" % (','.join([cleanName(x) + str(maxframe) for x in sorted(countrie
 """ % (','.join([cleanName(x) + str(i) for x in sorted(countries)]), i))
 
         f.write("""]
-Plotly.newPlot('%s', {data: traces, layout: layout, frames: frames})
+Plotly.newPlot("%s", {data: traces, layout: layout, frames: frames})
 
 function applyZoom() {
     const scale = Math.floor(50*Math.max(0.6, Math.min(1, window.innerWidth / 1800)))/50;
