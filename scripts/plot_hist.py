@@ -284,11 +284,11 @@ th { height: 50px; }
 }
 #index thead th { position: sticky; top: 26px; z-index: 2; background: #fff; }
 #index thead th:nth-child(1), #index thead th:nth-child(2) { z-index: 3; }
-/* Group-label spanning header row */
-#index thead tr.grp-header-row th {
+/* Group-label spanning header row (uses <td> so ColReorder ignores it) */
+#index thead tr.grp-header-row td {
     position: sticky; top: 0; z-index: 2; height: 26px; background: #f8f8f8;
 }
-#index thead tr.grp-header-row th:nth-child(1) { z-index: 3; }
+#index thead tr.grp-header-row td:nth-child(1) { z-index: 3; }
 #index { width: auto !important; table-layout: auto !important; margin-left: 0 !important; }
 .dataTables_wrapper { width: auto !important; }
 /* Standouts trigger button */
@@ -603,8 +603,9 @@ $(document).ready(function() {
         $thead.find('.grp-header-row').remove();
         var $groupRow = $('<tr class="grp-header-row"></tr>');
         // First 3 cols (rank / player / total) — blank spanning cell
-        $groupRow.append('<th colspan="3" style="border:none;background:#fff;"></th>');
-        // Walk visible positions 3+ merging consecutive same-group cols into one <th>
+        // Use <td> (not <th>) so ColReorder doesn't count these cells when indexing columns
+        $groupRow.append('<td colspan="3" style="border:none;background:#fff;"></td>');
+        // Walk visible positions 3+ merging consecutive same-group cols into one <td>
         var totalCols = order.length;
         var runLabel = null, runSpan = 0;
         for (var pos = 3; pos <= totalCols; pos++) {
@@ -619,7 +620,7 @@ $(document).ready(function() {
                 runSpan++;
             } else {
                 if (runLabel !== null) {
-                    $groupRow.append('<th colspan="' + runSpan + '" style="text-align:center;font-weight:bold;border-left:3px solid #555;font-size:11px;padding:2px 4px;">' + runLabel + '</th>');
+                    $groupRow.append('<td colspan="' + runSpan + '" style="text-align:center;font-weight:bold;border-left:3px solid #555;font-size:11px;padding:2px 4px;">' + runLabel + '</td>');
                 }
                 runLabel = label; runSpan = 1;
             }
@@ -651,8 +652,11 @@ $(document).ready(function() {
     var _rowSortActive = null;
     $('#index tbody').on('click', 'tr', function(e) {
         if ($(e.target).hasClass('sp-btn') || $(e.target).closest('.sp-btn').length) return;
-        var rowData = tbl.row(this).data();
-        if (!rowData) return;
+        var rowNode = $(this).closest('tr')[0];
+        var dtRow = tbl.row(rowNode);
+        if (!dtRow || dtRow.length === 0) return;
+        var rowData = dtRow.data();
+        if (!rowData || rowData.length < 3) return;
         var country = stripHtml(rowData[1]);
         if (!country) return;
 
@@ -682,7 +686,7 @@ $(document).ready(function() {
             });
             newOrder = newOrder.concat(cols);
         }
-        tbl.colReorder.order(newOrder, true);
+        tbl.colReorder.order(newOrder);
 
         // Highlight the active sort row
         $('#index tbody tr').css('outline', '');
@@ -1266,13 +1270,13 @@ def nextColor(color_idx, num_colors):
 
 def warnIfDatapointCountDropped():
     # If the last value in growth.csv is smaller than the second last, then post a warning to geoscents
-    with open('../growth.csv', newline='') as csvfile:
-        growth = [l for l in csvfile.readlines() if not l.startswith('Time')]
+    with open('../daily_clicks.csv', newline='') as csvfile:
+        growth = [l for l in csvfile.readlines() if not l.startswith('date')]
         if len(growth) < 2:
-            print('growth.csv has fewer than 2 data rows, skipping warn check')
+            print('daily_clicks.csv has fewer than 2 data rows, skipping warn check')
             return
-        last_row = int(growth[-1].split(',')[-1])
-        second_last_row = int(growth[-2].split(',')[-1])
+        last_row = int(growth[-1].split(',')[1])       # 'total' column
+        second_last_row = int(growth[-2].split(',')[1])
         if (last_row < second_last_row):
             err = "Last stats scrape had " + str(last_row) + " datapoints, but previous one had " + str(second_last_row) + " points!"
             print(err)

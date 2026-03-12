@@ -1,59 +1,47 @@
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+import matplotlib.dates as md
 import csv
 import os
-import matplotlib.dates as md
 import numpy as np
 import datetime as dt
-import time
-from scipy.interpolate import interp2d, interp1d, interpnd
 
-x = []
-y = []
-unix = []
+dates = []
+new_clicks = []
 
-with open('growth.csv','r') as csvfile:
-    plots = csv.reader(csvfile, delimiter=',')
-    next(plots)
-    for row in plots:
-        unix.append(int(row[0]))
-        x.append(dt.datetime.fromtimestamp(int(row[0])))
-        y.append(int(row[1]))
+with open('daily_clicks.csv', 'r') as f:
+    reader = csv.DictReader(f)
+    for row in reader:
+        n = int(row['new_clicks'])
+        d = dt.datetime.strptime(row['date'], '%Y-%m-%d')
+        dates.append(d)
+        new_clicks.append(n)
 
-# Interpolate to get per-week data
-Y_inter = interp1d(unix,y)
-seconds_per_batch = 86400 * 2 # (2 days)
-num_weeks = int((unix[-1] - unix[0]) / seconds_per_batch)
-x_pdf = np.linspace(unix[0], unix[-1], num_weeks)
-y_pdf = []
-x_pdf_data = []
-for i in range(1, len(x_pdf)):
-	gain = Y_inter(x_pdf[i]) - Y_inter(x_pdf[i-1])
-	y_pdf.append(gain)
-	# print(" %d to %d = %d" % (x_pdf[i-1], x_pdf[i], gain))
-for i in range(0, len(x_pdf)):
-	x_pdf_data.append(dt.datetime.fromtimestamp(int(x_pdf[i] + seconds_per_batch)))
+if len(dates) < 2:
+    print('Not enough data yet to plot growth.')
+    import sys; sys.exit(0)
 
+fig, ax = plt.subplots(figsize=(14, 5))
 
-# Plot cdf
-plt.plot(x,y, color='blue')
-plt.xlabel('Date')
-plt.ylabel('Total # Clicks', color='blue')
+bar_color = ['#2196F3' if n >= 0 else '#e53935' for n in new_clicks]
+ax.bar(dates, new_clicks, color=bar_color, alpha=0.7, label='New clicks per run', width=0.8)
 
-ax=plt.gca()
-ax.tick_params(axis='y', colors='blue')
-xfmt = md.DateFormatter('%Y-%m-%d')
-ax.xaxis.set_major_formatter(xfmt)
-plt.xticks( rotation=25 )
+# Rolling 7-day average (only draw once we have enough points)
+window = 7
+if len(new_clicks) >= window:
+    rolling = np.convolve(new_clicks, np.ones(window) / window, mode='valid')
+    rolling_dates = dates[window - 1:]
+    ax.plot(rolling_dates, rolling, color='red', linewidth=2, label='7-run avg')
 
-# Plot pdf 
-ax2 = ax.twinx()  # instantiate a second axes that shares the same x-axis
-plt.bar(x_pdf_data[0:-1], y_pdf, (x_pdf_data[1]-x_pdf_data[0])*0.8, color='red', alpha=0.2)
-ax2.set_ylabel('# New Clicks (per %d days)' % (int(seconds_per_batch / 86400)), color='red')
-ax2.tick_params(axis='y', colors='red')
-ax2.set_ylim([0,max(y_pdf) * 2])
-
-plt.title('Number of recorded data points over time')
-plt.savefig(os.environ['HOME'] + '/plots/growth.png', dpi=300, bbox_inches="tight")
-
-
-# plt.show()
+ax.set_xlabel('Date')
+ax.set_ylabel('New Clicks per Run')
+ax.set_title('GeoScents Activity — New Clicks Per Day')
+ax.xaxis.set_major_formatter(md.DateFormatter('%b %d'))
+ax.xaxis.set_major_locator(md.WeekdayLocator(byweekday=md.MO))
+plt.xticks(rotation=30, ha='right')
+ax.legend()
+ax.set_ylim(bottom=0)
+plt.tight_layout()
+plt.savefig(os.environ['HOME'] + '/plots/growth.png', dpi=150, bbox_inches='tight')
+print('  growth.png written.')

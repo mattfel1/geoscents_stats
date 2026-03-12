@@ -1,7 +1,7 @@
 #!/bin/bash
 
 cd ~/geoscents_stats/plotter_tmp
-cp ~/geoscents_stats/growth.csv .
+cp ~/geoscents_stats/daily_clicks.csv .
 python3 ~/geoscents_stats/scripts/plot_growth.py
-rm growth.csv
+rm daily_clicks.csv
 
