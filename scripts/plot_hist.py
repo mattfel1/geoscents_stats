@@ -1239,7 +1239,10 @@ def nextColor(color_idx, num_colors):
 def warnIfDatapointCountDropped():
     # If the last value in growth.csv is smaller than the second last, then post a warning to geoscents
     with open('../growth.csv', newline='') as csvfile:
-        growth = csvfile.readlines()
+        growth = [l for l in csvfile.readlines() if not l.startswith('Time')]
+        if len(growth) < 2:
+            print('growth.csv has fewer than 2 data rows, skipping warn check')
+            return
         last_row = int(growth[-1].split(',')[-1])
         second_last_row = int(growth[-2].split(',')[-1])
         if (last_row < second_last_row):
