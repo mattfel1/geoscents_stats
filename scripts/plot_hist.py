@@ -282,8 +282,13 @@ th { height: 50px; }
     position: sticky; left: 24px; z-index: 2; background: #fff;
     border-right: 2px solid #aaa;
 }
-#index thead th { position: sticky; top: 0; z-index: 2; background: #fff; }
+#index thead th { position: sticky; top: 26px; z-index: 2; background: #fff; }
 #index thead th:nth-child(1), #index thead th:nth-child(2) { z-index: 3; }
+/* Group-label spanning header row */
+#index thead tr.grp-header-row th {
+    position: sticky; top: 0; z-index: 2; height: 26px; background: #f8f8f8;
+}
+#index thead tr.grp-header-row th:nth-child(1) { z-index: 3; }
 #index { width: auto !important; table-layout: auto !important; margin-left: 0 !important; }
 .dataTables_wrapper { width: auto !important; }
 /* Standouts trigger button */
@@ -511,18 +516,7 @@ $(document).ready(function() {
         "autoWidth": false,
         colReorder: { fixedColumnsLeft: 3 },
         initComplete: function() {
-            var api = this.api();
-            // Apply group header colors and left borders
-            api.columns().every(function(i) {
-                if (i < 3) return;
-                var color = null, isStart = false;
-                for (var gi = grpInfo.length - 1; gi >= 0; gi--) {
-                    if (i >= grpInfo[gi].col) { color = grpInfo[gi].color; isStart = (i === grpInfo[gi].col); break; }
-                }
-                var $th = $(this.header());
-                if (color) $th.css('background-color', color);
-                if (isStart) $th.css('border-left', '3px solid #555');
-            });
+            rebuildGrpRow(this.api());
         },
         columns: [
             { title: "", "width": "24px" },
@@ -600,23 +594,57 @@ $(document).ready(function() {
     });
     $('#min-clicks').on('input', function() { tbl.draw(); });
 
-    // Re-apply group header colors/borders after column reorder
-    // colReorder.order() returns array where index=current position, value=original index
-    function applyGrpHeaders() {
-        var order = tbl.colReorder.order();
-        tbl.columns().every(function(i) {
+    // Build (or rebuild) the spanning group-label row at the top of thead.
+    // Called from initComplete (pass this.api()) and after column reorder (pass tbl).
+    // colReorder.order(): order[visPos] = originalIdx
+    function rebuildGrpRow(api) {
+        var order = api.colReorder.order();
+        var $thead = $(api.table().header());
+        $thead.find('.grp-header-row').remove();
+        var $groupRow = $('<tr class="grp-header-row"></tr>');
+        // First 3 cols (rank / player / total) — blank spanning cell
+        $groupRow.append('<th colspan="3" style="border:none;background:#fff;"></th>');
+        // Walk visible positions 3+ merging consecutive same-group cols into one <th>
+        var totalCols = order.length;
+        var runLabel = null, runSpan = 0;
+        for (var pos = 3; pos <= totalCols; pos++) {
+            var label = null;
+            if (pos < totalCols) {
+                var origIdx = order[pos];
+                for (var gi2 = grpInfo.length - 1; gi2 >= 0; gi2--) {
+                    if (origIdx >= grpInfo[gi2].col) { label = grpInfo[gi2].label; break; }
+                }
+            }
+            if (label === runLabel && pos < totalCols) {
+                runSpan++;
+            } else {
+                if (runLabel !== null) {
+                    $groupRow.append('<th colspan="' + runSpan + '" style="text-align:center;font-weight:bold;border-left:3px solid #555;font-size:11px;padding:2px 4px;">' + runLabel + '</th>');
+                }
+                runLabel = label; runSpan = 1;
+            }
+        }
+        $thead.prepend($groupRow);
+        // Apply left borders on the data header row at group transitions; clear colors
+        api.columns().every(function(i) {
             if (i < 3) return;
-            var origIdx = order[i];
-            var color = null, isStart = false;
-            for (var gi = grpInfo.length - 1; gi >= 0; gi--) {
-                if (origIdx >= grpInfo[gi].col) { color = grpInfo[gi].color; isStart = (origIdx === grpInfo[gi].col); break; }
+            var prevLabel = null, curLabel2 = null;
+            if (i > 3) {
+                var prevOrig = order[i - 1];
+                for (var gi3 = grpInfo.length - 1; gi3 >= 0; gi3--) {
+                    if (prevOrig >= grpInfo[gi3].col) { prevLabel = grpInfo[gi3].label; break; }
+                }
+            }
+            var curOrig2 = order[i];
+            for (var gi4 = grpInfo.length - 1; gi4 >= 0; gi4--) {
+                if (curOrig2 >= grpInfo[gi4].col) { curLabel2 = grpInfo[gi4].label; break; }
             }
             var $th = $(this.header());
-            $th.css('background-color', color || '');
-            $th.css('border-left', isStart ? '3px solid #555' : '');
+            $th.css('background-color', '');
+            $th.css('border-left', curLabel2 !== prevLabel ? '3px solid #555' : '');
         });
     }
-    $('#index').on('column-reorder.dt', function() { applyGrpHeaders(); });
+    $('#index').on('column-reorder.dt', function() { rebuildGrpRow(tbl); });
 
     // Row click: sort map columns within each group by that row's values
     var _rowSortDir = 1;  // 1 = asc, -1 = desc
