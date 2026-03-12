@@ -297,7 +297,6 @@ th { height: 50px; }
     vertical-align: middle; user-select: none;
 }
 .sp-btn:hover { opacity: 1; }
-#index tbody tr { cursor: pointer; }
 /* Standouts panel */
 #standouts-panel {
     position: absolute; width: 290px;
@@ -504,8 +503,6 @@ $(document).ready(function() {
         return 'rgba(210,50,50,' + (t * 0.55) + ')';
     }
 
-    var _colOrder = null;
-
     var tbl = $('#index').DataTable({
         data: dataSet,
         "lengthChange": true,
@@ -517,18 +514,14 @@ $(document).ready(function() {
         "order": [[2, 'des']],
         "autoWidth": false,
         initComplete: function() {
-            // Tag each header cell with its original column index
-            $(this.api().table().header()).find('tr:not(.grp-header-row) th').each(function(i) {
-                $(this).attr('data-ocol', i);
-            });
             setTimeout(function() { rebuildGrpRow(); }, 0);
         },
         drawCallback: function() {
-            setTimeout(function() { applyDomColOrder(); rebuildGrpRow(); }, 0);
+            setTimeout(function() { rebuildGrpRow(); }, 0);
         },
         columns: [
             { title: "", "width": "24px" },
-            { title: "Player Country<br><small style='font-weight:normal;font-size:10px;color:#666;'>click row to sort cols</small>", "width": "80px",
+            { title: "Player Country", "width": "80px",
               render: function(data, type, full, meta) {
                   if (type !== 'display') return data;
                   var country = data ? String(data).replace(/<[^>]*>/g, '').trim() : '';
@@ -602,52 +595,22 @@ $(document).ready(function() {
     });
     $('#min-clicks').on('input', function() { tbl.draw(); });
 
-    // Apply current _colOrder to DOM (header cells + body cells).
-    // Does nothing if _colOrder is null (default order).
-    function applyDomColOrder() {
-        if (!_colOrder) return;
-        // Reorder header cells
-        var $hdrRow = $('#index thead tr:not(.grp-header-row)');
-        var $ths = $hdrRow.find('th');
-        if ($ths.length !== _colOrder.length) return;
-        var thByOcol = {};
-        $ths.each(function() {
-            var o = parseInt($(this).attr('data-ocol'));
-            if (!isNaN(o)) thByOcol[o] = this;
-        });
-        if (Object.keys(thByOcol).length !== _colOrder.length) return;
-        $hdrRow.empty();
-        _colOrder.forEach(function(ocol) { $hdrRow.append(thByOcol[ocol]); });
-        // Reorder body cells
-        $('#index tbody tr').each(function() {
-            var $tds = $(this).find('td');
-            if ($tds.length !== _colOrder.length) return;
-            var tdArr = $tds.detach().toArray();
-            var self = this;
-            _colOrder.forEach(function(ocol) { self.appendChild(tdArr[ocol]); });
-        });
-    }
-
     // Build (or rebuild) the spanning group-label row at the top of thead.
     function rebuildGrpRow() {
         var $thead = $('#index thead');
         $thead.find('.grp-header-row').remove();
         var $groupRow = $('<tr class="grp-header-row"></tr>');
-        // Determine current column order
         var n = tbl.columns().count();
-        var order = _colOrder ? _colOrder : (function() { var a = []; for (var i = 0; i < n; i++) a.push(i); return a; })();
         $groupRow.append('<td colspan="3" style="border:none;background:#fff;"></td>');
-        // Walk visible positions 3+ merging consecutive same-group cols into one <td>
         var runLabel = null, runSpan = 0;
-        for (var pos = 3; pos <= order.length; pos++) {
+        for (var pos = 3; pos <= n; pos++) {
             var label = null;
-            if (pos < order.length) {
-                var origIdx = order[pos];
+            if (pos < n) {
                 for (var gi2 = grpInfo.length - 1; gi2 >= 0; gi2--) {
-                    if (origIdx >= grpInfo[gi2].col) { label = grpInfo[gi2].label; break; }
+                    if (pos >= grpInfo[gi2].col) { label = grpInfo[gi2].label; break; }
                 }
             }
-            if (label === runLabel && pos < order.length) {
+            if (label === runLabel && pos < n) {
                 runSpan++;
             } else {
                 if (runLabel !== null) {
@@ -657,69 +620,7 @@ $(document).ready(function() {
             }
         }
         $thead.prepend($groupRow);
-        // Apply left borders on header cells at group transitions
-        $thead.find('tr:not(.grp-header-row) th').each(function(visPos) {
-            if (visPos < 3) return;
-            var origIdx = order[visPos];
-            var prevOrigIdx = order[visPos - 1];
-            var curLabel = null, prevLabel = null;
-            for (var gi3 = grpInfo.length - 1; gi3 >= 0; gi3--) {
-                if (origIdx >= grpInfo[gi3].col) { curLabel = grpInfo[gi3].label; break; }
-            }
-            for (var gi4 = grpInfo.length - 1; gi4 >= 0; gi4--) {
-                if (prevOrigIdx >= grpInfo[gi4].col) { prevLabel = grpInfo[gi4].label; break; }
-            }
-            $(this).css('background-color', '').css('border-left', curLabel !== prevLabel ? '3px solid #555' : '');
-        });
     }
-
-    // Row click: sort map columns within each group by that row's values
-    var _rowSortDir = 1;  // 1 = asc, -1 = desc
-    var _rowSortActive = null;
-    $('#index tbody').on('click', 'tr', function(e) {
-        if ($(e.target).hasClass('sp-btn') || $(e.target).closest('.sp-btn').length) return;
-        var rowNode = $(this).closest('tr')[0];
-        var dtRow = tbl.row(rowNode);
-        if (!dtRow || dtRow.length === 0) return;
-        var rowData = dtRow.data();
-        if (!rowData || rowData.length < 3) return;
-        var country = stripHtml(rowData[1]);
-        if (!country) return;
-
-        // Toggle direction if same row clicked again; reset if new row
-        if (_rowSortActive === country) {
-            _rowSortDir *= -1;
-        } else {
-            _rowSortDir = 1;
-            _rowSortActive = country;
-        }
-
-        // Build new column order: fixed [0,1,2] then sorted within each group
-        var totalCols = rowData.length;
-        var newOrder = [0, 1, 2];
-        for (var gi = 0; gi < grpInfo.length; gi++) {
-            var grpStart = grpInfo[gi].col;
-            var grpEnd = gi + 1 < grpInfo.length ? grpInfo[gi + 1].col : totalCols;
-            var cols = [];
-            for (var c = grpStart; c < grpEnd; c++) cols.push(c);
-            cols.sort(function(a, b) {
-                var va = parseVal(rowData[a]);
-                var vb = parseVal(rowData[b]);
-                if (va === null && vb === null) return 0;
-                if (va === null) return 1;
-                if (vb === null) return -1;
-                return _rowSortDir * (va - vb);
-            });
-            newOrder = newOrder.concat(cols);
-        }
-        _colOrder = newOrder;
-        applyDomColOrder();
-        rebuildGrpRow();
-
-        // Highlight the active sort row
-        $('#index tbody tr').css('outline', '');
-        $(this).css('outline', '2px solid #2266cc');
-    });
 
     // Chat bubble click: show standouts panel
     $('#index tbody').on('click', '.sp-btn', function(e) {
