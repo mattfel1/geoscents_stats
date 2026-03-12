@@ -19,7 +19,9 @@ source "$HOME/geoscents_stats/venv/bin/activate"
 
 T_ALL=$(_t)
 
+T=$(_t)
 bash scripts/upload_counts.sh
+_log "upload_counts.sh" $T
 
 T=$(_t)
 rm -rf tmp staging
