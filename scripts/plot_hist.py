@@ -273,21 +273,22 @@ def writeIndex(header, countries):
 table, td, th { border: 1px solid black; }
 table { border-collapse: collapse; }
 th { height: 50px; }
-/* Sticky first two columns */
+/* Sticky first three columns */
 #index thead th:nth-child(1), #index tbody td:nth-child(1) {
     position: sticky; left: 0; z-index: 2; background: #fff;
 }
 #index thead th:nth-child(2), #index tbody td:nth-child(2) {
     position: sticky; left: 24px; z-index: 2; background: #fff;
+}
+#index thead th:nth-child(3), #index tbody td:nth-child(3) {
+    position: sticky; left: 120px; z-index: 2; background: #fff;
     border-right: 2px solid #aaa;
 }
 #index thead th { position: sticky; top: 26px; z-index: 2; background: #fff; }
-#index thead th:nth-child(1), #index thead th:nth-child(2) { z-index: 3; }
+#index thead th:nth-child(1), #index thead th:nth-child(2), #index thead th:nth-child(3) { z-index: 3; }
 /* Group-label spanning header row (uses <td> so ColReorder ignores it) */
-#index thead tr.grp-header-row td {
-    position: sticky; top: 0; z-index: 2; height: 26px; background: #f8f8f8;
-}
-#index thead tr.grp-header-row td:nth-child(1) { z-index: 3; }
+#index thead tr.grp-header-row td:nth-child(1) { position: sticky; top: 0; z-index: 3; height: 26px; background: #fff }
+#index thead tr.grp-header-row td:nth-child(2) { position: sticky; top: 26; z-index: 3; height: 26px; background: #fff }
 #index { width: auto !important; table-layout: auto !important; margin-left: 0 !important; }
 .dataTables_wrapper { width: auto !important; }
 /* Standouts trigger button */
@@ -402,7 +403,7 @@ document.addEventListener('click', function(e) {
 
 
         f.write("""<h1>Choose a map from above to view a data table!</h1>
-<small>(Last updated %s)</small><br><br>
+<div style="font-size:11px;color:#888;margin-bottom:6px;">Data last updated: %s</div>
 You can opt-out of contributing to this database by typing /private in the chat box while playing the game. <br><br>
 This page is updated approximately every 24 hours.  Raw data can be found <a href="https://github.com/mattfel1/geoscents_stats">here</a>.<br><br>
 
@@ -410,7 +411,6 @@ This page is updated approximately every 24 hours.  Raw data can be found <a hre
   <a href="https://docs.google.com/spreadsheets/d/1WByW1TItE14-8NPJKADAQmoKxpEaCTBAehLaQA6KkRU/edit?gid=0#gid=0"
      target="_blank" title="Raw data" style="font-size:11px;color:#bbb;margin-left:8px;text-decoration:none;">raw data</a>
 </h3>
-<div style="font-size:11px;color:#888;margin-bottom:6px;">Chart data last updated: %s</div>
 <div id="tz-note" style="font-size:12px;margin-top:4px;color:#555;"></div>
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQPaPKJ0HNcANhTbzxxHNTljCVdtHUbxytNJySaLfgJiumOZigQRvrsan-vqv-FTpYhWw7mqw6zbBND/pubchart?oid=23042901&format=interactive"
         width="700" height="420" frameborder="0" scrolling="no" style="border:none;display:block;"></iframe>
@@ -455,7 +455,7 @@ This page is updated approximately every 24 hours.  Raw data can be found <a hre
 <script src="counts.js"></script>
 </body>
 </html>
-""" % (update_stamp, chart_updated))
+""" % (update_stamp))
 
     with open(outdir_prefix + "/plots/index.js", 'w+') as f:
         f.write("var homeTurfLookup = " + home_turf_js + ";\n")
