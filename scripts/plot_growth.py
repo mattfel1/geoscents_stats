@@ -50,7 +50,7 @@ ax2 = ax1.twinx()
 ax2.plot(dates, totals, color='#9c27b0', linewidth=1.5, linestyle='--', label='Cumulative total', alpha=0.8)
 ax2.set_ylabel('Cumulative Total Clicks', color='#9c27b0')
 ax2.tick_params(axis='y', labelcolor='#9c27b0')
-ax2.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'{x/1e6:.1f}M'))
+ax2.yaxis.set_major_formatter(plt.FuncFormatter(lambda x, _: f'{x/1e6:.3f}M'))
 
 # Combine legends
 lines1, labels1 = ax1.get_legend_handles_labels()
