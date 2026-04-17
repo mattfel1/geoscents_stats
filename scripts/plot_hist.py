@@ -48,6 +48,9 @@ MAP_BOUNDS = json.loads(response.read())
 def cleanNameUnderscore(name):
     return name.replace(" ","_").replace(".","_").replace('/','_')
 
+def mapImgSuffix(name):
+    return '_satellite' if cleanName(name) == 'vaticancity' else '_terrain'
+
 def cleanName(name):
     return name.lower().replace(" ","").replace(".","").replace('/','')
 
@@ -1112,7 +1115,7 @@ var layout = {
   height: 900,
   images: [
       {
-        "source": "https://geoscents.net/resources/maps/%s_terrain.png",
+        "source": "https://geoscents.net/resources/maps/%s.png",
         "xref": "x",
         "yref": "y",
         "x": 0,
@@ -1167,7 +1170,7 @@ var layout = {
       steps: sliderSteps
     }]
     };
-frames = [""" % (','.join([cleanName(x) + str(maxframe) for x in sorted(countries)]), cleanName(citysrc), title, stepsize * 1000))
+frames = [""" % (','.join([cleanName(x) + str(maxframe) for x in sorted(countries)]), cleanName(citysrc) + mapImgSuffix(citysrc), title, stepsize * 1000))
         for i in range(0,maxframe+1):
             # f.write("""{data: [truth,average,%s], name: "frame%d"},
             f.write("""{data: [truth,%s], name: "frame%d"},
@@ -1246,7 +1249,7 @@ def process_map(citysrc):
 
     file = citysrc + '.json'
     print(file)
-    continent_map = mpimg.imread(outdir_prefix + '/geoscents/resources/maps/' + cleanName(citysrc) + '_terrain.png')
+    continent_map = mpimg.imread(outdir_prefix + '/geoscents/resources/maps/' + cleanName(citysrc) + mapImgSuffix(citysrc) + '.png')
     writeHtml(citysrc, header[2:])
     initJs(citysrc)
 
@@ -1316,7 +1319,7 @@ def process_map(citysrc):
                 anim_name = 'animation_' + citysrc + '_' + cleanNameUnderscore(country) + '_' + cleanNameUnderscore(entry)
                 admin = "N/A" if 'admin' not in data[entry] else data[entry]['admin']
                 reghist = '<a href=\\"%s\\"><img src=\\"%s\\" class=\\"img-thumbnail\\" alt=\\"link\\" height=40px></a>' % (fname, fname)
-                anim = '<a href=\\"%s\\"><img src=\\"%s\\" class=\\"img-thumbnail\\" alt=\\"link\\" height=40px></a>' % (anim_name + '.html', cleanName(citysrc) + '_terrain.png')
+                anim = '<a href=\\"%s\\"><img src=\\"%s\\" class=\\"img-thumbnail\\" alt=\\"link\\" height=40px></a>' % (anim_name + '.html', cleanName(citysrc) + mapImgSuffix(citysrc) + '.png')
                 link = "https://en.wikipedia.org/wiki/Special:Search?search=" + stripSpecial(entry) + "&go=Go&ns0=1" if ('wiki' not in data[entry]) else data[entry]['wiki']
                 linkedCity = data[entry]['city'] if 'city' in data[entry] else "unknown_city"
                 linkedEntry = '<a href=\\"%s\\">%s</a>' % (link, linkedCity)
@@ -1452,7 +1455,7 @@ def process_map(citysrc):
                     plt.clf()
                     reghist = '<a href=\\"%s\\"><img src=\\"%s\\" class=\\"img-thumbnail\\" alt=\\"link\\" height=40px></a>' % (fname, fname)
                     anim_name = 'animation_' + cleanNameUnderscore(citysrc) + '_' + cleanNameUnderscore(aggregate_name)
-                    anim = '<a href=\\"%s\\"><img src=\\"%s\\" class=\\"img-thumbnail\\" alt=\\"link\\" height=40px></a>' % (anim_name + '.html', cleanName(citysrc) + '_terrain.png')
+                    anim = '<a href=\\"%s\\"><img src=\\"%s\\" class=\\"img-thumbnail\\" alt=\\"link\\" height=40px></a>' % (anim_name + '.html', cleanName(citysrc) + mapImgSuffix(citysrc) + '.png')
                     link = "https://en.wikipedia.org/wiki/Special:Search?search=" + aggregate_name + "&go=Go&ns0=1"
                     flag = " " if (iso2.lower() == 'none') else '<img src=\\"flags/%s.png\\" style=\\"border:1px solid black;\\" class=\\"img-thumbnail\\" alt=\\"%s\\" height=20px>' % (iso2, iso2)
                     bigflag = " " if (iso2.lower() == 'none') else '<img src="flags/%s.png" style="border:1px solid black;display:block;margin:0 auto" class="img-thumbnail" height=40px>' % iso2.lower()
