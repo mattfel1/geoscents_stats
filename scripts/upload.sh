@@ -17,5 +17,6 @@ rsync -avzh $HOME/plots/*jpg root@geoscents.net:~/plots/
 rsync -avzh $HOME/plots/*png root@geoscents.net:~/plots/
 rsync -avzh $HOME/plots/growth.png root@geoscents.net:~/plots/
 rsync -avzh $HOME/geoscents/resources/maps/*_terrain.png root@geoscents.net:~/plots/
+rsync -avzh $HOME/geoscents/resources/maps/vaticancity_satellite.png root@geoscents.net:~/plots/
 #rsync -avzh $1/plots/*gif geoscents.net:~/plots/
 
