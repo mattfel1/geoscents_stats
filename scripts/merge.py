@@ -18,6 +18,8 @@ name_changes = {
     ""
 }
 
+failed = []
+
 # Use this script to merge two _guesses files
 for file in glob.glob(tmp_dir + "*_guesses*"):
     # Scrub _guesses
@@ -31,71 +33,86 @@ for file in glob.glob(tmp_dir + "*_guesses*"):
 
     processed_data.append(x)
 
-    stub_name = x + '_guesses'
-    base_file = tmp_dir + x + "_guesses_base"
-    staged_file = staging_dir + x + "_guesses_base"
-    other_file = tmp_dir + x + "_guesses"
- 
-    # Populate with empty json if files are empty (TODO how to just check if file exists?)
-    base_size = 0
-    other_size = 0
     try:
-        base_size = os.stat(base_file).st_size
-    except:
+        stub_name = x + '_guesses'
+        base_file = tmp_dir + x + "_guesses_base"
+        staged_file = staging_dir + x + "_guesses_base"
+        other_file = tmp_dir + x + "_guesses"
+
+        # Populate with empty json if files are empty (TODO how to just check if file exists?)
         base_size = 0
-    try:
-        other_size = os.stat(other_file).st_size
-    except:
         other_size = 0
-
-    
-    if base_size == 0:
-        f = open(base_file, "w")
-        f.write("{}")
-        f.close()
-    if other_size == 0:
-        f = open(other_file, "w")
-        f.write("{}")
-        f.close()
+        try:
+            base_size = os.stat(base_file).st_size
+        except:
+            base_size = 0
+        try:
+            other_size = os.stat(other_file).st_size
+        except:
+            other_size = 0
 
 
-    with open(base_file) as json_file:
-        base_data = json.load(json_file)
+        if base_size == 0:
+            f = open(base_file, "w")
+            f.write("{}")
+            f.close()
+        if other_size == 0:
+            f = open(other_file, "w")
+            f.write("{}")
+            f.close()
 
-    with open(other_file) as json_file:
-        new_data = json.load(json_file)
 
-    for entry in new_data:
-        if (entry in base_data):
-            base_data[entry]['ips'] = base_data[entry]['ips'] + new_data[entry]['ips']
-            base_data[entry]['lats'] = base_data[entry]['lats'] + new_data[entry]['lats']
-            base_data[entry]['lons'] = base_data[entry]['lons'] + new_data[entry]['lons']
-            base_data[entry]['times'] = base_data[entry]['times'] + new_data[entry]['times']
-            base_data[entry]['dists'] = base_data[entry]['dists'] + new_data[entry]['dists']
-        else:
-            base_data[entry] = new_data[entry]
+        with open(base_file) as json_file:
+            base_data = json.load(json_file)
 
-    # Manually merge target name changes
-    for key in name_changes:
-        if (key in base_data):
-            print("Merging " + key + " (" + str(len(base_data[key])) + " entries) into " + name_changes[key] + " (" + str(len(base_data[name_changes[key]])) + " entries)")
-            new = base_data[name_changes[key]]
-            base_data[key]['ips'] = base_data[key]['ips'] + base_data[name_changes[key]]['ips']
-            base_data[key]['lats'] = base_data[key]['lats'] + base_data[name_changes[key]]['lats']
-            base_data[key]['lons'] = base_data[key]['lons'] + base_data[name_changes[key]]['lons']
-            base_data[key]['times'] = base_data[key]['times'] + base_data[name_changes[key]]['times']
-            base_data[key]['dists'] = base_data[key]['dists'] + base_data[name_changes[key]]['dists']
-            del base_data[key]
+        with open(other_file) as json_file:
+            new_data = json.load(json_file)
 
-    total = 0
-    for entry in base_data:
-        total = total + len(base_data[entry]['ips'])
-    print("total points for " + x + " = " + str(total))
+        for entry in new_data:
+            if (entry in base_data):
+                base_data[entry]['ips'] = base_data[entry]['ips'] + new_data[entry]['ips']
+                base_data[entry]['lats'] = base_data[entry]['lats'] + new_data[entry]['lats']
+                base_data[entry]['lons'] = base_data[entry]['lons'] + new_data[entry]['lons']
+                base_data[entry]['times'] = base_data[entry]['times'] + new_data[entry]['times']
+                base_data[entry]['dists'] = base_data[entry]['dists'] + new_data[entry]['dists']
+            else:
+                base_data[entry] = new_data[entry]
 
-    # print("Merged " + str(len(new_data)) + " entries into base for " + clean_name)
-        
-    # dump results
-    with open(staged_file, 'w') as fp:
-        json.dump(base_data, fp, indent=2)
+        # Manually merge target name changes
+        for key in name_changes:
+            if (key in base_data):
+                print("Merging " + key + " (" + str(len(base_data[key])) + " entries) into " + name_changes[key] + " (" + str(len(base_data[name_changes[key]])) + " entries)")
+                new = base_data[name_changes[key]]
+                base_data[key]['ips'] = base_data[key]['ips'] + base_data[name_changes[key]]['ips']
+                base_data[key]['lats'] = base_data[key]['lats'] + base_data[name_changes[key]]['lats']
+                base_data[key]['lons'] = base_data[key]['lons'] + base_data[name_changes[key]]['lons']
+                base_data[key]['times'] = base_data[key]['times'] + base_data[name_changes[key]]['times']
+                base_data[key]['dists'] = base_data[key]['dists'] + base_data[name_changes[key]]['dists']
+                del base_data[key]
 
+        total = 0
+        for entry in base_data:
+            total = total + len(base_data[entry]['ips'])
+        print("total points for " + x + " = " + str(total))
+
+        # print("Merged " + str(len(new_data)) + " entries into base for " + clean_name)
+
+        # dump results to a temp file first, then atomically replace, so a
+        # crash/interruption mid-write can never leave a truncated/corrupt
+        # staged file for pushback.sh to sync to the server.
+        tmp_staged_file = staged_file + ".tmp"
+        with open(tmp_staged_file, 'w') as fp:
+            json.dump(base_data, fp, indent=2)
+        os.replace(tmp_staged_file, staged_file)
+    except Exception as e:
+        # Never let one bad map file (corrupt JSON, etc.) abort the merge for
+        # every other map. Log it and keep going.
+        import traceback
+        print(f"ERROR merging {x}: {e}")
+        traceback.print_exc()
+        failed.append(x)
+        continue
+
+if failed:
+    print("Merge finished with errors for: " + ", ".join(failed))
 print("Merge complete. pushback.sh will sync these to the server.")

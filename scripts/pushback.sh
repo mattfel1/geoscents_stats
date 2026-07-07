@@ -15,6 +15,13 @@ for f in "$STAGING"/*_guesses_base; do
 
     echo "  -> $name"
 
+    # Never push a file that isn't valid JSON — a corrupt/truncated local
+    # merge must not be allowed to clobber the only copy on the server.
+    if ! python3 -c "import json,sys; json.load(open(sys.argv[1]))" "$f" 2>/dev/null; then
+        echo "  ERROR: $f is not valid JSON — refusing to push, skipping truncate"
+        continue
+    fi
+
     # Use ssh+cat to transfer — avoids scp's literal-path issue with modern OpenSSH
     # on paths containing spaces (scp 9.x sends path verbatim via sftp, not via remote shell).
     # The truncate only runs if the transfer succeeds.
