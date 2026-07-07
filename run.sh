@@ -1,5 +1,16 @@
 #!/bin/bash
 
+# Only one run.sh may execute at a time — concurrent runs race on the shared
+# tmp/staging directories (and, worse, could race on the server-side merge
+# in pushback.sh). Any overlapping invocation exits immediately instead of
+# silently corrupting the other one's in-flight state.
+LOCKFILE="$HOME/geoscents_stats/.run.lock"
+exec 200>"$LOCKFILE"
+if ! flock -n 200; then
+    echo "$(date): run.sh already running elsewhere — skipping this invocation" >> "$HOME/geoscents_stats/run_log"
+    exit 1
+fi
+
 LOG_FILE="$HOME/geoscents_stats/run_log"
 exec > >(tee -a "$LOG_FILE") 2>&1
 echo "===== run.sh started $(date) ====="
