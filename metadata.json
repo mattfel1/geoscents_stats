@@ -24,15 +24,15 @@
     "num_clicks": 3182,
     "num_clicks_per_city": 44.19444444444444
   },
-  "Arabia": {
-    "num_cities": 63,
-    "num_clicks": 2859,
-    "num_clicks_per_city": 45.38095238095238
-  },
   "Antarctica": {
     "num_cities": 40,
     "num_clicks": 4006,
     "num_clicks_per_city": 100.15
+  },
+  "Arabia": {
+    "num_cities": 63,
+    "num_clicks": 2859,
+    "num_clicks_per_city": 45.38095238095238
   },
   "Argentina": {
     "num_cities": 78,
@@ -49,6 +49,11 @@
     "num_clicks": 1182,
     "num_clicks_per_city": 73.875
   },
+  "Australia": {
+    "num_cities": 70,
+    "num_clicks": 3354,
+    "num_clicks_per_city": 47.91428571428571
+  },
   "Benelux": {
     "num_cities": 27,
     "num_clicks": 1777,
@@ -59,30 +64,25 @@
     "num_clicks": 1196,
     "num_clicks_per_city": 17.085714285714285
   },
-  "Cambodia": {
-    "num_cities": 25,
-    "num_clicks": 71,
-    "num_clicks_per_city": 2.84
+  "Brazil": {
+    "num_cities": 149,
+    "num_clicks": 878,
+    "num_clicks_per_city": 5.89261744966443
   },
   "British Isles": {
     "num_cities": 70,
     "num_clicks": 548,
     "num_clicks_per_city": 7.828571428571428
   },
-  "Australia": {
-    "num_cities": 70,
-    "num_clicks": 3354,
-    "num_clicks_per_city": 47.91428571428571
-  },
-  "Brazil": {
-    "num_cities": 149,
-    "num_clicks": 878,
-    "num_clicks_per_city": 5.89261744966443
-  },
   "Balkans": {
     "num_cities": 110,
     "num_clicks": 5108,
     "num_clicks_per_city": 46.43636363636364
+  },
+  "Cambodia": {
+    "num_cities": 25,
+    "num_clicks": 71,
+    "num_clicks_per_city": 2.84
   },
   "Cameroon": {
     "num_cities": 31,
@@ -124,11 +124,6 @@
     "num_clicks": 172,
     "num_clicks_per_city": 2.9655172413793105
   },
-  "Estonia": {
-    "num_cities": 23,
-    "num_clicks": 615,
-    "num_clicks_per_city": 26.73913043478261
-  },
   "China": {
     "num_cities": 188,
     "num_clicks": 5295,
@@ -138,6 +133,11 @@
     "num_cities": 42,
     "num_clicks": 1530,
     "num_clicks_per_city": 36.42857142857143
+  },
+  "Estonia": {
+    "num_cities": 23,
+    "num_clicks": 615,
+    "num_clicks_per_city": 26.73913043478261
   },
   "Ethiopia": {
     "num_cities": 36,
@@ -149,20 +149,30 @@
     "num_clicks": 7043,
     "num_clicks_per_city": 69.73267326732673
   },
+  "Greater Antilles": {
+    "num_cities": 113,
+    "num_clicks": 466,
+    "num_clicks_per_city": 4.123893805309734
+  },
   "France": {
     "num_cities": 58,
     "num_clicks": 3136,
     "num_clicks_per_city": 54.06896551724138
   },
-  "Greater Antilles": {
-    "num_cities": 112,
-    "num_clicks": 433,
-    "num_clicks_per_city": 3.8660714285714284
-  },
   "Germany": {
     "num_cities": 58,
     "num_clicks": 5884,
     "num_clicks_per_city": 101.44827586206897
+  },
+  "Himalayas": {
+    "num_cities": 97,
+    "num_clicks": 4328,
+    "num_clicks_per_city": 44.618556701030926
+  },
+  "India": {
+    "num_cities": 212,
+    "num_clicks": 3082,
+    "num_clicks_per_city": 14.537735849056604
   },
   "Indonesia": {
     "num_cities": 79,
@@ -174,40 +184,25 @@
     "num_clicks": 775,
     "num_clicks_per_city": 12.109375
   },
-  "India": {
-    "num_cities": 212,
-    "num_clicks": 3082,
-    "num_clicks_per_city": 14.537735849056604
-  },
   "Iraq": {
     "num_cities": 27,
     "num_clicks": 98,
     "num_clicks_per_city": 3.6296296296296298
-  },
-  "Himalayas": {
-    "num_cities": 97,
-    "num_clicks": 4328,
-    "num_clicks_per_city": 44.618556701030926
   },
   "Indochina": {
     "num_cities": 109,
     "num_clicks": 4863,
     "num_clicks_per_city": 44.61467889908257
   },
-  "Kazakhstan": {
-    "num_cities": 47,
-    "num_clicks": 134,
-    "num_clicks_per_city": 2.851063829787234
-  },
   "Italy": {
     "num_cities": 56,
     "num_clicks": 2488,
     "num_clicks_per_city": 44.42857142857143
   },
-  "Japan": {
-    "num_cities": 74,
-    "num_clicks": 2404,
-    "num_clicks_per_city": 32.486486486486484
+  "Kazakhstan": {
+    "num_cities": 47,
+    "num_clicks": 134,
+    "num_clicks_per_city": 2.851063829787234
   },
   "Kenya": {
     "num_cities": 61,
@@ -219,6 +214,11 @@
     "num_clicks": 1029,
     "num_clicks_per_city": 57.166666666666664
   },
+  "Japan": {
+    "num_cities": 74,
+    "num_clicks": 2404,
+    "num_clicks_per_city": 32.486486486486484
+  },
   "Latvia": {
     "num_cities": 24,
     "num_clicks": 28,
@@ -226,48 +226,48 @@
   },
   "Lesser Antilles": {
     "num_cities": 21,
-    "num_clicks": 1175,
-    "num_clicks_per_city": 55.95238095238095
+    "num_clicks": 1209,
+    "num_clicks_per_city": 57.57142857142857
   },
   "Liechtenstein": {
     "num_cities": 11,
     "num_clicks": 1334,
     "num_clicks_per_city": 121.27272727272727
   },
-  "Lithuania": {
-    "num_cities": 54,
-    "num_clicks": 1232,
-    "num_clicks_per_city": 22.814814814814813
-  },
   "Mali": {
     "num_cities": 31,
     "num_clicks": 611,
     "num_clicks_per_city": 19.70967741935484
+  },
+  "Lithuania": {
+    "num_cities": 54,
+    "num_clicks": 1232,
+    "num_clicks_per_city": 22.814814814814813
   },
   "Mesopotamia": {
     "num_cities": 112,
     "num_clicks": 2406,
     "num_clicks_per_city": 21.482142857142858
   },
-  "Moon": {
-    "num_cities": 36,
-    "num_clicks": 511,
-    "num_clicks_per_city": 14.194444444444445
-  },
   "Mexico": {
     "num_cities": 188,
     "num_clicks": 2078,
     "num_clicks_per_city": 11.053191489361701
   },
-  "Myanmar": {
-    "num_cities": 30,
-    "num_clicks": 90,
-    "num_clicks_per_city": 3.0
+  "Moon": {
+    "num_cities": 36,
+    "num_clicks": 581,
+    "num_clicks_per_city": 16.13888888888889
   },
   "Morocco": {
     "num_cities": 29,
     "num_clicks": 937,
     "num_clicks_per_city": 32.310344827586206
+  },
+  "Myanmar": {
+    "num_cities": 30,
+    "num_clicks": 90,
+    "num_clicks_per_city": 3.0
   },
   "New Zealand": {
     "num_cities": 52,
@@ -289,15 +289,15 @@
     "num_clicks": 359,
     "num_clicks_per_city": 9.205128205128204
   },
-  "Nordic": {
-    "num_cities": 90,
-    "num_clicks": 4236,
-    "num_clicks_per_city": 47.06666666666667
-  },
   "Paraguay": {
     "num_cities": 29,
     "num_clicks": 121,
     "num_clicks_per_city": 4.172413793103448
+  },
+  "Nordic": {
+    "num_cities": 90,
+    "num_clicks": 4236,
+    "num_clicks_per_city": 47.06666666666667
   },
   "Peru": {
     "num_cities": 56,
@@ -314,15 +314,15 @@
     "num_clicks": 992,
     "num_clicks_per_city": 8.40677966101695
   },
-  "Portugal": {
-    "num_cities": 20,
-    "num_clicks": 1364,
-    "num_clicks_per_city": 68.2
-  },
   "Precolumbian Americas": {
     "num_cities": 57,
     "num_clicks": 508,
     "num_clicks_per_city": 8.912280701754385
+  },
+  "Portugal": {
+    "num_cities": 20,
+    "num_clicks": 1364,
+    "num_clicks_per_city": 68.2
   },
   "Romania": {
     "num_cities": 42,
@@ -341,8 +341,8 @@
   },
   "Sahel": {
     "num_cities": 48,
-    "num_clicks": 947,
-    "num_clicks_per_city": 19.729166666666668
+    "num_clicks": 1342,
+    "num_clicks_per_city": 27.958333333333332
   },
   "Saudi Arabia": {
     "num_cities": 26,
@@ -359,15 +359,15 @@
     "num_clicks": 985,
     "num_clicks_per_city": 12.468354430379748
   },
-  "South Korea": {
-    "num_cities": 31,
-    "num_clicks": 583,
-    "num_clicks_per_city": 18.806451612903224
-  },
   "South Africa": {
     "num_cities": 69,
     "num_clicks": 335,
     "num_clicks_per_city": 4.855072463768116
+  },
+  "South Korea": {
+    "num_cities": 31,
+    "num_clicks": 583,
+    "num_clicks_per_city": 18.806451612903224
   },
   "Sudan": {
     "num_cities": 25,
@@ -394,30 +394,35 @@
     "num_clicks": 156,
     "num_clicks_per_city": 2.108108108108108
   },
-  "Spain": {
-    "num_cities": 46,
-    "num_clicks": 10768,
-    "num_clicks_per_city": 234.08695652173913
+  "Turkey": {
+    "num_cities": 91,
+    "num_clicks": 1067,
+    "num_clicks_per_city": 11.725274725274724
   },
   "Turkmenistan": {
     "num_cities": 19,
     "num_clicks": 528,
     "num_clicks_per_city": 27.789473684210527
   },
-  "Turkey": {
-    "num_cities": 91,
-    "num_clicks": 1067,
-    "num_clicks_per_city": 11.725274725274724
+  "Spain": {
+    "num_cities": 46,
+    "num_clicks": 10768,
+    "num_clicks_per_city": 234.08695652173913
+  },
+  "Uganda": {
+    "num_cities": 49,
+    "num_clicks": 75,
+    "num_clicks_per_city": 1.530612244897959
   },
   "The Stans": {
     "num_cities": 84,
     "num_clicks": 3550,
     "num_clicks_per_city": 42.26190476190476
   },
-  "Uganda": {
-    "num_cities": 49,
-    "num_clicks": 75,
-    "num_clicks_per_city": 1.530612244897959
+  "United Kingdom": {
+    "num_cities": 112,
+    "num_clicks": 1958,
+    "num_clicks_per_city": 17.482142857142858
   },
   "Uruguay": {
     "num_cities": 30,
@@ -429,77 +434,72 @@
     "num_clicks": 193,
     "num_clicks_per_city": 6.655172413793103
   },
-  "United Kingdom": {
-    "num_cities": 112,
-    "num_clicks": 1958,
-    "num_clicks_per_city": 17.482142857142858
-  },
-  "Venezuela": {
-    "num_cities": 32,
-    "num_clicks": 45,
-    "num_clicks_per_city": 1.40625
+  "Ukraine": {
+    "num_cities": 51,
+    "num_clicks": 5836,
+    "num_clicks_per_city": 114.43137254901961
   },
   "Vatican City": {
     "num_cities": 39,
     "num_clicks": 426,
     "num_clicks_per_city": 10.923076923076923
   },
+  "Venezuela": {
+    "num_cities": 32,
+    "num_clicks": 45,
+    "num_clicks_per_city": 1.40625
+  },
   "United States": {
     "num_cities": 242,
-    "num_clicks": 4361,
-    "num_clicks_per_city": 18.020661157024794
+    "num_clicks": 4372,
+    "num_clicks_per_city": 18.06611570247934
   },
   "Vietnam": {
     "num_cities": 73,
     "num_clicks": 450,
     "num_clicks_per_city": 6.164383561643835
   },
-  "Ukraine": {
-    "num_cities": 51,
-    "num_clicks": 5836,
-    "num_clicks_per_city": 114.43137254901961
-  },
   "Misc Trivia": {
     "num_cities": 468,
     "num_clicks": 112255,
     "num_clicks_per_city": 239.86111111111111
   },
+  "Asia": {
+    "num_cities": 616,
+    "num_clicks": 187692,
+    "num_clicks_per_city": 304.6948051948052
+  },
   "S. America": {
     "num_cities": 522,
-    "num_clicks": 107370,
-    "num_clicks_per_city": 205.68965517241378
+    "num_clicks": 107843,
+    "num_clicks_per_city": 206.595785440613
   },
   "Africa": {
     "num_cities": 451,
-    "num_clicks": 217795,
-    "num_clicks_per_city": 482.9157427937916
-  },
-  "Asia": {
-    "num_cities": 616,
-    "num_clicks": 187361,
-    "num_clicks_per_city": 304.15746753246754
+    "num_clicks": 219260,
+    "num_clicks_per_city": 486.16407982261643
   },
   "Oceania": {
     "num_cities": 368,
-    "num_clicks": 184463,
-    "num_clicks_per_city": 501.25815217391306
+    "num_clicks": 184522,
+    "num_clicks_per_city": 501.41847826086956
   },
   "N. America": {
     "num_cities": 738,
-    "num_clicks": 323808,
-    "num_clicks_per_city": 438.7642276422764
+    "num_clicks": 324022,
+    "num_clicks_per_city": 439.05420054200545
   },
   "Europe": {
     "num_cities": 582,
-    "num_clicks": 640743,
-    "num_clicks_per_city": 1100.9329896907216
+    "num_clicks": 640904,
+    "num_clicks_per_city": 1101.2096219931273
   },
   "World": {
     "num_cities": 1044,
-    "num_clicks": 1324105,
-    "num_clicks_per_city": 1268.2998084291187
+    "num_clicks": 1324562,
+    "num_clicks_per_city": 1268.7375478927204
   },
   "Total": {
-    "num_clicks": 3264206
+    "num_clicks": 3267909
   }
 }
